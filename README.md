@@ -14,4 +14,6 @@ https://github.com/clarin-eric/parla-clarin/
 https://clarin-eric.github.io/parla-clarin/
 *  Parliamentary corpora in the CLARIN infrastructure: 
 https://www.clarin.eu/resource-families/parliamentary-corpora#additional-materials
+* Example of GermaParl TEI XML (not Parla-CLARIN):
+https://github.com/PolMine/GermaParlTEI
 
