@@ -5,6 +5,7 @@ Parse parliamentary proceedings / protocols in various formats and transform to 
 
 ### Notes: 
 * Unit per file: 1 session (including agenda items & speeches)
+* Directory Naming Convention: https://github.com/OpenParliamentTV/OpenParliamentTV-Architecture/blob/main/SHORTCODES.md
 
 ### Resources:
 
@@ -16,4 +17,3 @@ https://clarin-eric.github.io/parla-clarin/
 https://www.clarin.eu/resource-families/parliamentary-corpora#additional-materials
 * Example of GermaParl TEI XML (not Parla-CLARIN):
 https://github.com/PolMine/GermaParlTEI
-
