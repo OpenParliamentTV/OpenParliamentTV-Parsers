@@ -21,6 +21,8 @@ https://www.clarin.eu/resource-families/parliamentary-corpora#additional-materia
 
 #### Specific for German Bundestag Data
 
+* Proceedings & Media RSS Feed Examples: https://github.com/OpenParliamentTV/OpenParliamentTV-Parsers/tree/main/parliaments/DE/data/examples
+
 * Example of GermaParl TEI XML (not Parla-CLARIN):
 https://github.com/PolMine/GermaParlTEI
 * Open Discourse Project (Parsers etc. for German Bundestag Data): 
