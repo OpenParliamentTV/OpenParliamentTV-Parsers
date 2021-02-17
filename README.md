@@ -30,7 +30,7 @@ https://github.com/PolMine/GermaParlTEI
 	* https://github.com/OpenHypervideo/VideoTranscriptGenerator/blob/master/_server/functions.php
 * "Bundestag" Github Organisation (various scripts & tools): 
 https://github.com/bundestag
-
-
+* Official Bundestag Open Data Resources: 
+https://www.bundestag.de/services/opendata
 
 
