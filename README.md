@@ -5,7 +5,10 @@ Parse parliamentary proceedings / protocols in various formats and transform to 
 
 ### Notes: 
 * Unit per file: 1 session (including agenda items & speeches)
-* Directory Naming Convention: https://github.com/OpenParliamentTV/OpenParliamentTV-Architecture/blob/main/SHORTCODES.md
+* Data Fields & Mapping: 
+https://docs.google.com/spreadsheets/d/1NglOO9Ss6797RmgY0bBJAlqfdc-LnV5rIJSC4ui30ps/edit?usp=sharing
+* Directory Naming Convention: 
+https://github.com/OpenParliamentTV/OpenParliamentTV-Architecture/blob/main/SHORTCODES.md
 
 ### Resources:
 
