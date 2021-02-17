@@ -18,5 +18,19 @@ https://github.com/clarin-eric/parla-clarin/
 https://clarin-eric.github.io/parla-clarin/
 *  Parliamentary corpora in the CLARIN infrastructure: 
 https://www.clarin.eu/resource-families/parliamentary-corpora#additional-materials
+
+#### Specific for German Bundestag Data
+
 * Example of GermaParl TEI XML (not Parla-CLARIN):
 https://github.com/PolMine/GermaParlTEI
+* Open Discourse Project (Parsers etc. for German Bundestag Data): 
+	* https://github.com/open-discourse/open-discourse/blob/develop/python/src/README.md
+* Old German Bundestag Parsers & Code Snippets:
+	* https://github.com/OpenHypervideo/VideoTranscriptGenerator/blob/master/_server/scrapeMediaIDs.php
+	* https://github.com/OpenHypervideo/VideoTranscriptGenerator/blob/master/_server/functions.php
+* "Bundestag" Github Organisation (various scripts & tools): 
+https://github.com/bundestag
+
+
+
+
