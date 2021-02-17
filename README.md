@@ -1,7 +1,7 @@
 # OpenParliamentTV-Parsers
 
 ### Goal: 
-Parse parliamentary proceedings / protocols in various formats and transform to the standardized **ParlaCLARIN TEI XML Format**.
+Parse parliamentary proceedings / protocols as well as media library RSS feeds in various formats and transform to the standardized **ParlaCLARIN TEI XML Format**.
 
 ### Notes: 
 * Unit per file: 1 session (including agenda items & speeches)
@@ -32,5 +32,6 @@ https://github.com/PolMine/GermaParlTEI
 https://github.com/bundestag
 * Official Bundestag Open Data Resources: 
 https://www.bundestag.de/services/opendata
-
+* Official Bundestag Video Podcast XML Feed (often this fires 503 errors; need to mirror data!): 
+http://webtv.bundestag.de/player/macros/bttv/podcast/video/plenar.xml?period=19&meetingNumber=11
 
