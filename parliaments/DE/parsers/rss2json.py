@@ -80,6 +80,7 @@ def parse_rss(filename: str) -> dict:
             'MediaDuration': delta.total_seconds(),
             'MediaOriginID': os.path.basename(e['link']),
             'MediaCreator': e['author'],
+            'SourceFilename': filename,
         }
         output.append(item)
 
