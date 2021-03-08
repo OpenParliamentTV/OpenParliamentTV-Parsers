@@ -10,6 +10,7 @@ from datetime import datetime, timedelta
 import feedparser
 import json
 import os
+import re
 import sys
 from typing import Final
 from urllib.parse import urlparse, parse_qs
@@ -19,6 +20,19 @@ from urllib.parse import urlparse, parse_qs
 # parser should be checked anyway.
 FEED_SUBTITLE: Final = 'Deutscher Bundestag'
 FEED_AUTHOR_EMAIL: Final = 'mail@bundestag.de'
+title_data_re = re.compile('Redebeitrag\s+von\s+(?P<fullname>.+?)\s+\((?P<party>.+?)\)\s+am (?P<title_date>[\d.]+)\s+um\s+(?P<title_time>[\d:]+)\s+Uhr\s+\((?P<session_info>.+)\)')
+
+def extract_title_data(title: str) -> dict:
+    """Extract structured data from title string.
+
+    Return a dict with fields if data could be extracted, else None.
+    """
+    # "Redebeitrag von Stephan Stracke (CDU/CSU) am 29.01.2010 um 14:05 Uhr (20. Sitzung, TOP ZP 2)"
+    match = title_data_re.match(title)
+    if match:
+        return match.groupdict()
+    else:
+        return None
 
 def parse_rss(filename: str) -> dict:
     """Parse a RSS file.
@@ -82,6 +96,13 @@ def parse_rss(filename: str) -> dict:
             'MediaCreator': e['author'],
             'SourceFilename': filename,
         }
+        metadata = extract_title_data(e['title'])
+        if metadata is not None:
+            item['PersonFullName'] = metadata.get('fullname', '')
+            # FIXME: any rules for this?
+            item['PersonParty'] = metadata.get('party', '')
+            item['PersonFaction'] = metadata.get('party', '')
+            # FIXME: we have other fields: title_date, title_time and session_info
         output.append(item)
 
     return output
