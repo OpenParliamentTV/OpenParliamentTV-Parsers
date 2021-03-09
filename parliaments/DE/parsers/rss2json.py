@@ -12,14 +12,13 @@ import json
 import os
 import re
 import sys
-from typing import Final
 from urllib.parse import urlparse, parse_qs
 
 # Constants used for basic integrity checking: If these values are not
 # present in the source data, then something must have changed and the
 # parser should be checked anyway.
-FEED_SUBTITLE: Final = 'Deutscher Bundestag'
-FEED_AUTHOR_EMAIL: Final = 'mail@bundestag.de'
+FEED_SUBTITLE = 'Deutscher Bundestag'
+FEED_AUTHOR_EMAIL = 'mail@bundestag.de'
 title_data_re = re.compile('Redebeitrag\s+von\s+(?P<fullname>.+?)\s+\((?P<party>.+?)\)\s+am (?P<title_date>[\d.]+)\s+um\s+(?P<title_time>[\d:]+)\s+Uhr\s+\((?P<session_info>.+)\)')
 
 def extract_title_data(title: str) -> dict:
