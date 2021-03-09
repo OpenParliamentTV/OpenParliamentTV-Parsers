@@ -75,7 +75,7 @@ def parse_rss(filename: str) -> dict:
             logger.debug(f"No media associated to {filename}: {e['title']}")
             continue
 
-        # we specify the input and the format...
+        # Use duration to compute end time
         t = datetime.strptime(e['itunes_duration'],"%H:%M:%S")
         delta = timedelta(hours=t.hour, minutes=t.minute, seconds=t.second)
 
@@ -85,7 +85,8 @@ def parse_rss(filename: str) -> dict:
         item = {
             'ElectoralPeriodNumber': period_number,
             'SessionNumber': meeting_number,
-            'AgendaItemTitle': e['title'],
+            'AgendaItemTitle': e.get('description'),
+            'AgendaItemOfficialTitle': e['title'],
             'VideoFileURI': links['enclosure']['href'],
             'MediaSourcePage': e['link'],
             'MediaDateStart': startdate.isoformat('T', 'seconds'),
@@ -101,7 +102,17 @@ def parse_rss(filename: str) -> dict:
             # FIXME: any rules for this?
             item['PersonParty'] = metadata.get('party', '')
             item['PersonFaction'] = metadata.get('party', '')
-            # FIXME: we have other fields: title_date, title_time and session_info
+            if metadata.get('session_info') is not None:
+                # According to https://github.com/OpenParliamentTV/OpenParliamentTV-Parsers/issues/1
+                # we should strip the Sitzung prefix from the session_info
+                item['AgendaItemOfficialTitle'] = re.sub('^\d+\.\sSitzung,\s', '', metadata.get('session_info'))
+            # FIXME: we have other fields: title_date, title_time that we could use for validation
+
+        # Fix AgendaItemTitle if necessary
+        if not item['AgendaItemTitle']:
+            title = item['AgendaItemOfficialTitle'].replace("TOP Sitzungsende", "Sitzungsende").replace("TOP Sitzungseröffnung", "Sitzungseröffnung")
+            item['AgendaItemTitle'] = title
+
         output.append(item)
 
     return output
