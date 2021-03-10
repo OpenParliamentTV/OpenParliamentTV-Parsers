@@ -10,6 +10,6 @@ The rss2json script depends on the feedparser module. Install it first with
 
 rss2json expects XML files as input. You can specify multiple files as parameter, e.g.
 
-  rss2json.py ../data/examples/1*.xml
+  rss2json.py ../data/examples/media/1*.xml
 
 
