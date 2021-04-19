@@ -1,0 +1,18 @@
+#! /bin/bash
+
+# Script meant to be run as a cron job to periodically check for new files
+
+# Try to determine data path from this file path.
+BASEDIR=$(dirname "$(realpath -e "$0")")
+DATADIR="${BASEDIR}/../data/examples/proceedings/"
+"${BASEDIR}/fetch_rss.py" "${DATADIR}"
+
+cd "${DATADIR}" || { echo "Cannot cd to $DATADIR" ; exit 1 ; }
+# Check if any new files should be committed
+if git status --porcelain . | egrep -q '^\?'
+then
+    # There were some new files. Add, commit and push them
+    git add .
+    git commit -m "New data files" .
+    git push
+fi
