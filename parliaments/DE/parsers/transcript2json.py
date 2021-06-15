@@ -95,7 +95,7 @@ def parse_speech(elements, speaker, speakerstatus):
                 }
             # FIXME: all other <p> klasses are ignored for now
 
-def parse_content(op, speakers, speaker, speakerstatus):
+def parse_content(op, speaker, speakerstatus):
     """Parse an <tagesordnungspunkt> to output a structured sequence of tagged speech items.
     Each tagesordnungspunkt has a number of speeches (rede), each having a main speaker (redner)
 
@@ -160,11 +160,15 @@ def parse_content(op, speakers, speaker, speakerstatus):
             "detailedContents": speech
         }
 
+def parse_documents(op):
+    # FIXME
+    return []
+
 def parse_transcript(filename):
+    # We are mapping 1 self-contained object/structure to each tagesordnungspunkt
+    # This method is a generator that yields tagesordnungspunkt structures
     tree = etree.parse(filename)
     root = tree.getroot()
-
-    data = {}
 
     intro = root.find('vorspann')
     metadata = intro.find('kopfdaten')
@@ -177,39 +181,53 @@ def parse_transcript(filename):
             d = match.groupdict()
             date = f"""{d['yyyy']}-{d['mm']}-{d['dd']}"""
 
-    data['metadata'] = {
-        'ElectoralPeriodNumber': metadata.findtext('.//wahlperiode'),
-        'SessionNumber': metadata.findtext('.//sitzungsnr'),
-        'MediaCreator': metadata.findtext('.//herausgeber'),
-        'SessionDate': date
+    # metadata common to all tagesordnungspunkt
+    session_metadata = {
+        'electoralPeriod': {
+            'number': metadata.findtext('.//wahlperiode'),
+        },
+        'session': {
+            'number': metadata.findtext('.//sitzungsnr'),
+            'date': date,
+            'timeStart': root.attrib.get('sitzung-start-uhrzeit', ''),
+            'timeEnd': root.attrib.get('sitzung-ende-uhrzeit', ''),
+        },
+        'media': {
+            'creator': metadata.findtext('.//herausgeber'),
+        }
     }
 
     # Store dict for now because we will need the identifier for lookup
-    speakers = parse_speakers(root.findall('.//redner'))
-    data['speakers'] = list(speakers.values())
+    # speakers = parse_speakers(root.findall('.//redner'))
+    # data['speakers'] = list(speakers.values())
 
-    parts = data['parts'] = []
     speaker = "Unknown"
     speakerstatus = "Unknown"
 
-    # use last speaker info to initialize the following items
+    # Pass last speaker info from one speech to the next one
     for op in [ *root.findall('.//sitzungsbeginn'), *root.findall('.//tagesordnungspunkt') ]:
-        speeches = list(parse_content(op, speakers, speaker, speakerstatus))
+        speeches = list(parse_content(op, speaker, speakerstatus))
         if op.tag == 'sitzungsbeginn':
             title = 'Session introduction'
         else:
             title = op.attrib['top-id']
-        for speech in speeches:
-            speech['agendaItem'] = {
+        speakers = list(parse_speakers(root.findall('.//redner')).values())
+        if speeches:
+            # Use last speech info to store last speaker
+            speaker = speeches[-1]['detailedContents'][-1]['speaker']
+            speakerstatus = speeches[-1]['detailedContents'][-1]['speakerstatus']
+        yield {
+            **session_metadata,
+            'agendaItem': {
                 "officialTitle": title,
                 # FIXME: we use the same for the moment. Not sure if it can be extracted (.T_fett is not correct)
                 "title": title,
-            }
-            parts.append(speech)
-            speaker = speech['detailedContents'][-1]['speaker']
-            speakerstatus = speech['detailedContents'][-1]['speakerstatus']
+            },
+            'speeches': speeches,
+            'people': speakers,
+            'documents': list(parse_documents(op)),
+        }
 
-    return data
 
 if __name__ == '__main__':
     logging.basicConfig(level=logging.INFO)
@@ -218,5 +236,5 @@ if __name__ == '__main__':
         logger.warning(f"Syntax: {sys.argv[0]} file.xml ...")
         sys.exit(1)
 
-    data = parse_transcript(sys.argv[1])
+    data = list(parse_transcript(sys.argv[1]))
     json.dump(data, sys.stdout, indent=2, ensure_ascii=False)
