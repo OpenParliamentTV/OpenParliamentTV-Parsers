@@ -11,6 +11,15 @@ import re
 import sys
 from lxml import etree
 
+STATUS_TRANSLATION = {
+    'Präsident': 'president',
+    'Präsidentin': 'president',
+    'Vizepräsident': 'vice-president',
+    'Vizepräsidentin': 'vice-president',
+    'Alterspräsident': 'co-president',
+    'Alterspräsidentin': 'co-president',
+}
+
 ddmmyyyy_re = re.compile('(?P<dd>\d\d)\.(?P<mm>\d\d)\.(?P<yyyy>\d\d\d\d)')
 
 def parse_speakers(speakers):
@@ -30,22 +39,22 @@ def parse_speakers(speakers):
         lastname = s.findtext('.//nachname') or ""
         fullname = f"{firstname} {lastname}"
         faction = s.findtext('.//fraktion') or ""
-        # FIXME: not quite exact, but this will approximate for the moment
-        party = faction.split('/')[0]
+        # Persons can be without any party (independent) but join a faction. So we cannot assume any correspondence between both.
+        #party = faction.split('/')[0]
 
         result[ident] = {
             'PersonFullName': fullname,
             'PersonFirstName': firstname,
             'PersonLastName': lastname,
             'PersonFaction': faction,
-            'PersonParty': party
         }
     return result
 
 def parse_content(op, speakers):
     """Parse an <tagesordnungspunkt> to output a sequence of tagged speech items.
     Speaker names can be specified in multiple ways:
-    - either <p klasse="redner"> which contains the redener identification
+    - either <p klasse="redner"> which contains the full redner identification
+    - or <p klasse="N"> which contains a name (mostly for Präsident)
     - or a <name> tag (mostly for Präsident)
     - or sometimes in freeform in <kommentar> like "(Steffi Lemke [BÜNDNIS 90/DIE GRÜNEN]: Da freut sich die FDP auch drüber!)" (ignored for now)
 
@@ -63,12 +72,19 @@ def parse_content(op, speakers):
     # Then flatten it - not optimal but readable
     elements = [ i for l in elements for i in l ]
 
-    # Now elements should contain a sequence of <p>/<kommentar>/<name>
+    # Now elements should only contain a sequence of <p>/<kommentar>/<name>
     speaker = "Unknown"
+    # speakerstatus: president / vice-president / main speaker / speaker
+    speakerstatus = ""
     for c in elements:
         if c.tag == 'name':
             # Pr/VP name, strip trailing :
             speaker = c.text.strip(':')
+            if (speaker.startswith('Präsident')
+                or speaker.startswith('Vizepräsident')
+                or speaker.startswith('Alterspräsident')):
+                status, speaker = speaker.split(' ', 1)
+                speakerstatus = STATUS_TRANSLATION.get(status, status)
             continue
         if c.tag == 'kommentar':
             # FIXME: Ignore for the moment
@@ -79,11 +95,22 @@ def parse_content(op, speakers):
                 # Speaker identification
                 ident = c.find('redner').attrib['id']
                 speaker = speakers[ident]['PersonFullName']
+                speakerstatus = 'main speaker'
+                continue
+            elif klasse == 'N':
+                # Speaker name - Präsident or Vizepräsident
+                speaker = c.text.strip(':')
+                if (speaker.startswith('Präsident')
+                    or speaker.startswith('Vizepräsident')
+                    or speaker.startswith('Alterspräsident')):
+                    status, speaker = speaker.split(' ', 1)
+                    speakerstatus = STATUS_TRANSLATION.get(status, status)
                 continue
             elif klasse in ('J', 'J_1', 'O'):
                 # Actual text. Output it with speaker information.
                 yield {
                     'speaker': speaker,
+                    'speakerstatus': speakerstatus,
                     'text': c.text
                 }
             # FIXME: all other <p> klasses are ignored for now
@@ -117,6 +144,8 @@ def parse_transcript(filename):
     data['speakers'] = list(speakers.values())
 
     parts = data['parts'] = []
+    # FIXME: Use <rede> as structuring information
+    # FIXME: handle sitzungsbeginn / sitzungsend too as similar to <rede>
     for op in root.findall('.//tagesordnungspunkt'):
         parts.append({
             'PartTitle': op.attrib['top-id'],
