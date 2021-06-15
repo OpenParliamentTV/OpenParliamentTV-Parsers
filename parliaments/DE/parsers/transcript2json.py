@@ -130,7 +130,8 @@ def parse_content(op, speaker, speakerstatus):
             'textBody': [
                 {
                     'type': 'intro',
-                    'text': "\n".join(s['text'] for s in speech)
+                    'text': "\n".join(s['text'] for s in speech),
+                    'speaker': speech[0]['speaker']
                 }
             ],
             'textDetails': speech
@@ -145,16 +146,18 @@ def parse_content(op, speaker, speakerstatus):
         if speech:
             speaker = speech[-1]['speaker']
             speakerstatus = speech[-1]['speakerstatus']
-        yield {
-            'type': 'text',
-            'textBody': [
-                {
-                    'type': 'speech',
-                    'text': "\n".join(s['text'] for s in speech if s['speakerstatus'] == 'main speaker')
-                }
-            ],
-            'textDetails': speech
-        }
+            mainspeaker = next(filter(lambda s: s['speakerstatus'] == 'main speaker', speech), { 'speaker': 'Unknown' })['speaker']
+            yield {
+                'type': 'text',
+                'textBody': [
+                    {
+                        'type': 'speech',
+                        'text': "\n".join(s['text'] for s in speech if s['speakerstatus'] == 'main speaker'),
+                        'speaker': mainspeaker
+                    }
+                ],
+                'textDetails': speech
+            }
 
 def parse_documents(op):
     # FIXME
