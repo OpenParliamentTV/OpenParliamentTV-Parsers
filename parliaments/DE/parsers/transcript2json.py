@@ -126,16 +126,14 @@ def parse_content(op, speaker, speakerstatus):
     if introduction:
         speech = list(parse_speech(introduction, speaker, speakerstatus))
         yield {
-            'speech-id': 'intro',
-            "textContents": [ { 'type': 'text',
-                                'textBody': [
-                                    { 'type': 'speech',
-                                      'text': "\n".join(s['text'] for s in speech if s['speakerstatus'] == 'main speaker')
-                                     }
-                                ]
-                               }
-                             ],
-            "detailedContents": speech
+            'type': 'text',
+            'textBody': [
+                {
+                    'type': 'intro',
+                    'text': "\n".join(s['text'] for s in speech)
+                }
+            ],
+            'textDetails': speech
         }
 
     for el in elements:
@@ -148,16 +146,14 @@ def parse_content(op, speaker, speakerstatus):
             speaker = speech[-1]['speaker']
             speakerstatus = speech[-1]['speakerstatus']
         yield {
-            'speech-id': el.attrib['id'],
-            "textContents": [ { 'type': 'text',
-                                'textBody': [
-                                    { 'type': 'speech',
-                                      'text': "\n".join(s['text'] for s in speech if s['speakerstatus'] == 'main speaker')
-                                     }
-                                ]
-                               }
-                             ],
-            "detailedContents": speech
+            'type': 'text',
+            'textBody': [
+                {
+                    'type': 'speech',
+                    'text': "\n".join(s['text'] for s in speech if s['speakerstatus'] == 'main speaker')
+                }
+            ],
+            'textDetails': speech
         }
 
 def parse_documents(op):
@@ -214,8 +210,8 @@ def parse_transcript(filename):
         speakers = list(parse_speakers(root.findall('.//redner')).values())
         if speeches:
             # Use last speech info to store last speaker
-            speaker = speeches[-1]['detailedContents'][-1]['speaker']
-            speakerstatus = speeches[-1]['detailedContents'][-1]['speakerstatus']
+            speaker = speeches[-1]['textDetails'][-1]['speaker']
+            speakerstatus = speeches[-1]['textDetails'][-1]['speakerstatus']
         yield {
             **session_metadata,
             'agendaItem': {
