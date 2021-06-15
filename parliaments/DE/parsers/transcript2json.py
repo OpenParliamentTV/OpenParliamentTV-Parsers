@@ -121,17 +121,18 @@ def parse_content(op, speaker, speakerstatus):
     introduction = list(takewhile(lambda n: n.tag == 'p', elements))
     if introduction:
         speech = list(parse_speech(introduction, speaker, speakerstatus))
-        yield {
-            'type': 'text',
-            'textBody': [
-                {
-                    'type': 'intro',
-                    'text': "\n".join(s['text'] for s in speech),
-                    'speaker': speech[0]['speaker']
-                }
-            ],
-            'textDetails': speech
-        }
+        if speech:
+            yield {
+                'type': 'text',
+                'textBody': [
+                    {
+                        'type': 'intro',
+                        'text': "\n".join(s['text'] for s in speech),
+                        'speaker': speech[0]['speaker']
+                    }
+                ],
+                'textDetails': speech
+            }
 
     for el in elements:
         if el.tag != 'rede':
