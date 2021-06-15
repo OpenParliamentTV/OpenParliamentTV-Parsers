@@ -115,13 +115,15 @@ def parse_content(op, speaker, speakerstatus):
     # produce a virtual <rede> called Introduction.
 
     # Consider only p or rede elements
-    elements = [ node for node in op if node.tag == 'p' or node.tag == 'rede' ]
+    elements = [ node for node in op if node.tag in ('p', 'name', 'rede') ]
 
     # Produce a virtual introduction
-    introduction = list(takewhile(lambda n: n.tag == 'p', elements))
+    introduction = list(takewhile(lambda n: n.tag in ('p', 'name'), elements))
     if introduction:
         speech = list(parse_speech(introduction, speaker, speakerstatus))
         if speech:
+            speaker = speech[0]['speaker']
+            speakerstatus = speech[0]['speakerstatus']
             yield {
                 'type': 'text',
                 'textBody': [
