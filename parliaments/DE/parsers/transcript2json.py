@@ -50,8 +50,10 @@ def parse_speakers(speakers):
         }
     return result
 
-def parse_content(op, speakers):
-    """Parse an <tagesordnungspunkt> to output a sequence of tagged speech items.
+def parse_content(op, speakers, speaker, speakerstatus):
+    """Parse an <tagesordnungspunkt> to output a structured sequence of tagged speech items.
+    Each tagesordnungspunkt has a number of speeches (rede), each having a main speaker (redner)
+
     Speaker names can be specified in multiple ways:
     - either <p klasse="redner"> which contains the full redner identification
     - or <p klasse="N"> which contains a name (mostly for Präsident)
@@ -69,13 +71,14 @@ def parse_content(op, speakers):
     # First homogeneize to a list of lists
     elements = [ list(c) if c.tag == 'rede' else [ c ]
                  for c in op ]
+
     # Then flatten it - not optimal but readable
     elements = [ i for l in elements for i in l ]
 
     # Now elements should only contain a sequence of <p>/<kommentar>/<name>
-    speaker = "Unknown"
+
+    # speaker/speakerstatus are initialized from the calling method
     # speakerstatus: president / vice-president / main speaker / speaker
-    speakerstatus = ""
     for c in elements:
         if c.tag == 'name':
             # Pr/VP name, strip trailing :
@@ -144,18 +147,29 @@ def parse_transcript(filename):
     data['speakers'] = list(speakers.values())
 
     parts = data['parts'] = []
+    speaker = "Unknown"
+    speakerstatus = "Unknown"
     # FIXME: Use <rede> as structuring information
     for op in root.findall('.//sitzungsbeginn'):
+        speech = list(parse_content(op, speakers, speaker, speakerstatus))
         parts.append({
             'PartTitle': 'Session start',
-            'PartContent': list(parse_content(op, speakers))
+            'PartContent': speech
         })
+        if speech:
+            speaker = speech[-1]['speaker']
+            speakerstatus = speech[-1]['speakerstatus']
 
+    # use last speaker info to initialize the following items
     for op in root.findall('.//tagesordnungspunkt'):
+        speech = list(parse_content(op, speakers, speaker, speakerstatus))
         parts.append({
             'PartTitle': op.attrib['top-id'],
-            'PartContent': list(parse_content(op, speakers))
+            'PartContent': speech
         })
+        if speech:
+            speaker = speech[-1]['speaker']
+            speakerstatus = speech[-1]['speakerstatus']
 
     return data
 
