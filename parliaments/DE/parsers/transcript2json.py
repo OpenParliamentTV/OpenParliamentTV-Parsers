@@ -160,10 +160,11 @@ def parse_documents(op):
         # There may be multiple Drucksache in a single .T_Drs:
         # "Drucksachen 19/27871, 19/27822, 19/27315, 19/29694"
         for session, ref in re.findall('(\d\d)/(\d+)', doc.text):
+            padded = ref.rjust(5, '0')
             yield {
                 "type": "officialDocument",
                 "label": f"Drucksache {session}/{ref}",
-                "sourceURI": f"https://dserver.bundestag.de/btd/{session}/000/{session}{ref.rjust(5, '0')}.pdf"
+                "sourceURI": f"https://dserver.bundestag.de/btd/{session}/{padded[:3]}/{session}{padded}.pdf"
             }
 
 
