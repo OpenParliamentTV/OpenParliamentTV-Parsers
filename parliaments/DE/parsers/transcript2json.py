@@ -145,7 +145,12 @@ def parse_transcript(filename):
 
     parts = data['parts'] = []
     # FIXME: Use <rede> as structuring information
-    # FIXME: handle sitzungsbeginn / sitzungsend too as similar to <rede>
+    for op in root.findall('.//sitzungsbeginn'):
+        parts.append({
+            'PartTitle': 'Session start',
+            'PartContent': list(parse_content(op, speakers))
+        })
+
     for op in root.findall('.//tagesordnungspunkt'):
         parts.append({
             'PartTitle': op.attrib['top-id'],
