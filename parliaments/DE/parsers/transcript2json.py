@@ -81,7 +81,7 @@ def parse_speech(elements, speaker, speakerstatus):
                     status, speaker = speaker.split(' ', 1)
                     speakerstatus = STATUS_TRANSLATION.get(status, status)
                 continue
-            elif klasse in ('J', 'J_1', 'O'):
+            elif klasse in ('J', 'J_1', 'O') and c.text:
                 # Actual text. Output it with speaker information.
                 yield {
                     'type': 'speech',
