@@ -28,11 +28,7 @@ def parse_speakers(speakers):
     """
     result = {}
     for s in speakers:
-        try:
-            ident = s.attrib['id']
-        except:
-            import pdb; pdb.set_trace()
-
+        ident = s.attrib['id']
         if ident in result:
             # Already parsed
             continue
@@ -160,8 +156,16 @@ def parse_content(op, speaker, speakerstatus):
             }
 
 def parse_documents(op):
-    # FIXME
-    return []
+    for doc in op.findall('p[@klasse="T_Drs"]'):
+        # There may be multiple Drucksache in a single .T_Drs:
+        # "Drucksachen 19/27871, 19/27822, 19/27315, 19/29694"
+        for session, ref in re.findall('(\d\d)/(\d+)', doc.text):
+            yield {
+                "type": "officialDocument",
+                "label": f"Drucksache {session}/{ref}",
+                "sourceURI": f"https://dserver.bundestag.de/btd/{session}/000/{session}{ref.rjust(5, '0')}.pdf"
+            }
+
 
 def parse_transcript(filename):
     # We are mapping 1 self-contained object/structure to each tagesordnungspunkt
