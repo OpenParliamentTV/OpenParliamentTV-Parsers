@@ -40,10 +40,10 @@ def parse_speakers(speakers):
         #party = faction.split('/')[0]
 
         result[ident] = {
-            'PersonFullName': fullname,
-            'PersonFirstName': firstname,
-            'PersonLastName': lastname,
-            'PersonFaction': faction,
+            'fullname': fullname,
+            'firstname': firstname,
+            'lastname': lastname,
+            'faction': faction,
         }
     return result
 
