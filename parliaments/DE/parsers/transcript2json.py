@@ -281,6 +281,7 @@ def parse_transcript(filename, sourceUri=None):
                     # The human-readable title is not present in proceedings, it will be in media
                     # "title": title,
                 },
+                'people': speakers,
                 'textContents': [
                     {
                         "type": "proceedings",
@@ -292,7 +293,6 @@ def parse_transcript(filename, sourceUri=None):
                         "textBody": speech,
                     }
                 ],
-                'people': speakers,
                 'documents': documents,
             }
 
