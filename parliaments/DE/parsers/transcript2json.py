@@ -264,12 +264,12 @@ def parse_transcript(filename, sourceUri=None):
                 'textContents': [
                     {
                         "type": "proceedings",
-                        "textBody": speech,
                         "sourceURI": sourceUri,
                         "creator": metadata.findtext('.//herausgeber'),
                         "license": PROCEEDINGS_LICENSE,
                         "language": PROCEEDINGS_LANGUAGE,
-                        "originTextID": root.attrib.get('issn', '')
+                        "originTextID": root.attrib.get('issn', ''),
+                        "textBody": speech,
                     }
                 ],
                 'people': speakers,
