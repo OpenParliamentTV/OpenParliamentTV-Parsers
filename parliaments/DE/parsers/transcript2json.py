@@ -168,6 +168,24 @@ def parse_documents(op):
             }
 
 
+def ddmmyyyy_to_iso(date):
+    """Convert from dd.mm.yyyy to iso format YYYY-MM-DD
+
+    Returns the unmodified input date if it does not match
+    """
+    if date:
+        match = ddmmyyyy_re.match(date)
+        if match:
+            d = match.groupdict()
+            date = f"""{d['yyyy']}-{d['mm']}-{d['dd']}"""
+    return date
+
+def time_to_int(t):
+    """Convert a time HH:MM into a number of minutes.
+    """
+    h, m = t.split(':')
+    return int(m) + 60 * int(h)
+
 def parse_transcript(filename, sourceUri=None):
     # We are mapping 1 self-contained object/structure to each tagesordnungspunkt
     # This method is a generator that yields tagesordnungspunkt structures
@@ -179,13 +197,17 @@ def parse_transcript(filename, sourceUri=None):
     intro = root.find('vorspann')
     metadata = intro.find('kopfdaten')
 
-    date = root.attrib.get('sitzung-datum', '')
-    if date:
-        # Convert from MM.DD.YYYY to ISO format YYYY-MM-DD
-        match = ddmmyyyy_re.match(date)
-        if match:
-            d = match.groupdict()
-            date = f"""{d['yyyy']}-{d['mm']}-{d['dd']}"""
+    date = ddmmyyyy_to_iso(root.attrib.get('sitzung-datum', ''))
+    nextDate = ddmmyyyy_to_iso(root.attrib.get('sitzung-naechste-datum', ''))
+    timeStart = root.attrib.get('sitzung-start-uhrzeit', '')
+    timeEnd = root.attrib.get('sitzung-ende-uhrzeit', '')
+
+    dateStart = f"{date}T{timeStart}"
+    dateEnd = f"{date}T{timeEnd}"
+    if time_to_int(timeEnd) < time_to_int(timeStart):
+        # end time < start time: this is a session that went after
+        # midnight, and ends on the next day - fix the dateEnd
+        dateEnd = f"{nextDate}T{timeEnd}"
 
     # metadata common to all tagesordnungspunkt
     session_metadata = {
@@ -194,10 +216,8 @@ def parse_transcript(filename, sourceUri=None):
         },
         'session': {
             'number': metadata.findtext('.//sitzungsnr'),
-            'date': date,
-            # FIXME: convert to dateStart / dateEnd taking into account the possible day change
-            'timeStart': root.attrib.get('sitzung-start-uhrzeit', ''),
-            'timeEnd': root.attrib.get('sitzung-ende-uhrzeit', ''),
+            'dateStart': dateStart,
+            'dateEnd': dateEnd,
         },
     }
 
