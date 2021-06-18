@@ -3,6 +3,9 @@
 # Extract transcript from data files from http://webtv.bundestag.de
 # into JSON
 
+# It output an array of items, each items represents a speech (rede) with additionnal metadata
+
+
 import logging
 logger = logging.getLogger(__name__)
 
@@ -11,6 +14,9 @@ import json
 import re
 import sys
 from lxml import etree
+
+PROCEEDINGS_LICENSE = "Public Domain"
+PROCEEDINGS_LANGUAGE = "DE-de"
 
 STATUS_TRANSLATION = {
     'Präsident': 'president',
@@ -129,43 +135,25 @@ def parse_ordnungpunkt(op, speaker, speakerstatus):
     # Produce a virtual introduction
     introduction = list(takewhile(lambda n: n.tag in ('p', 'name'), elements))
     if introduction:
-        speech = list(parse_speech(introduction, speaker, speakerstatus))
-        if speech:
-            speaker = speech[0]['speaker']
-            speakerstatus = speech[0]['speakerstatus']
-            yield {
-                'type': 'text',
-                'textBody': [
-                    {
-                        'type': 'intro',
-                        'text': "\n".join(s['text'] for s in speech),
-                        'speaker': speech[0]['speaker']
-                    }
-                ],
-                'textDetails': speech
-            }
+        turns = list(parse_speech(introduction, speaker, speakerstatus))
+        if turns:
+            speaker = turns[0]['speaker']
+            speakerstatus = turns[0]['speakerstatus']
+            yield turns
 
     for el in elements:
         if el.tag != 'rede':
             # We just processed leading <p>. There may remain some
             # trailing <p>, which we ignore for now
             continue
-        speech = list(parse_speech(el, speaker, speakerstatus))
-        if speech:
-            speaker = speech[-1]['speaker']
-            speakerstatus = speech[-1]['speakerstatus']
-            mainspeaker = next(filter(lambda s: s['speakerstatus'] == 'main speaker', speech), { 'speaker': 'Unknown' })['speaker']
-            yield {
-                'type': 'text',
-                'textBody': [
-                    {
-                        'type': 'speech',
-                        'text': "\n".join(s['text'] for s in speech if s['speakerstatus'] == 'main speaker'),
-                        'speaker': mainspeaker
-                    }
-                ],
-                'textDetails': speech
-            }
+        turns = list(parse_speech(el, speaker, speakerstatus))
+        if turns:
+            speaker = turns[-1]['speaker']
+            speakerstatus = turns[-1]['speakerstatus']
+            # mainspeaker = next(filter(lambda s: s['speakerstatus'] == 'main speaker', speech), { 'speaker': 'Unknown' })['speaker']
+            yield turns
+
+    # FIXME: process trailing <p>?
 
 def parse_documents(op):
     for doc in op.findall('p[@klasse="T_Drs"]'):
@@ -180,9 +168,11 @@ def parse_documents(op):
             }
 
 
-def parse_transcript(filename):
+def parse_transcript(filename, sourceUri=None):
     # We are mapping 1 self-contained object/structure to each tagesordnungspunkt
     # This method is a generator that yields tagesordnungspunkt structures
+    if sourceUri is None:
+        sourceUri = filename
     tree = etree.parse(filename)
     root = tree.getroot()
 
@@ -205,17 +195,14 @@ def parse_transcript(filename):
         'session': {
             'number': metadata.findtext('.//sitzungsnr'),
             'date': date,
+            # FIXME: convert to dateStart / dateEnd taking into account the possible day change
             'timeStart': root.attrib.get('sitzung-start-uhrzeit', ''),
             'timeEnd': root.attrib.get('sitzung-ende-uhrzeit', ''),
         },
-        'media': {
-            'creator': metadata.findtext('.//herausgeber'),
-        }
     }
 
-    # Store dict for now because we will need the identifier for lookup
-    # speakers = parse_speakers(root.findall('.//redner'))
-    # data['speakers'] = list(speakers.values())
+    # Store speaker dict
+    speaker_info = parse_speakers(root.findall('.//redner'))
 
     speaker = "Unknown"
     speakerstatus = "Unknown"
@@ -231,29 +218,69 @@ def parse_transcript(filename):
             title = 'Sitzungsende'
         else:
             title = op.attrib['top-id']
-        speakers = list(parse_speakers(root.findall('.//redner')).values())
-        if speeches:
-            # Use last speech info to store last speaker
-            speaker = speeches[-1]['textDetails'][-1]['speaker']
-            speakerstatus = speeches[-1]['textDetails'][-1]['speakerstatus']
-        yield {
-            **session_metadata,
-            'agendaItem': {
-                "officialTitle": title,
-                # The human-readable title is not present in proceedings, it will be in media
-                # "title": title,
-            },
-            'speeches': speeches,
-            'people': speakers,
-            'documents': list(parse_documents(op)),
-        }
 
+
+        if speeches:
+            # Use last turn from last speech info to get last speaker
+            speaker = speeches[-1][-1]['speaker']
+            speakerstatus = speeches[-1][-1]['speakerstatus']
+
+        documents = list(parse_documents(op))
+
+        # Yield 1 structure per speech
+        for speech in speeches:
+            # Extract list of speakers for this speech
+            speakerstatus = dict( (turn['speaker'], turn['speakerstatus'])
+                                  for turn in speech
+                                  # Do not consider null speakers (for comments)
+                                  if turn['speaker'] )
+            def speaker_item(fullname, status):
+                info = speaker_info.get(fullname)
+                if info:
+                    return {
+                        "type": "memberOfParliament",
+                        "label": fullname,
+                        "firstname": info['firstname'],
+                        "lastname": info['lastname'],
+                        "context": status,
+                        "faction": info['faction'],
+                    }
+                else:
+                    return {
+                        "type": "memberOfParliament",
+                        "label": fullname,
+                        "context": status
+                    }
+            speakers = [ speaker_item(fullname, status)
+                         for fullname, status in speakerstatus.items() ]
+
+            yield {
+                **session_metadata,
+                'agendaItem': {
+                    "officialTitle": title,
+                    # The human-readable title is not present in proceedings, it will be in media
+                    # "title": title,
+                },
+                'textContents': [
+                    {
+                        "type": "proceedings",
+                        "textBody": speech,
+                        "sourceURI": sourceUri,
+                        "creator": metadata.findtext('.//herausgeber'),
+                        "license": PROCEEDINGS_LICENSE,
+                        "language": PROCEEDINGS_LANGUAGE,
+                        "originTextID": root.attrib.get('issn', '')
+                    }
+                ],
+                'people': speakers,
+                'documents': documents,
+            }
 
 if __name__ == '__main__':
     logging.basicConfig(level=logging.INFO)
 
     if len(sys.argv) < 2:
-        logger.warning(f"Syntax: {sys.argv[0]} file.xml ...")
+        logger.warning(f"Syntax: {sys.argv[0]} file.xml [Source URI]")
         sys.exit(1)
 
     data = list(parse_transcript(sys.argv[1]))
