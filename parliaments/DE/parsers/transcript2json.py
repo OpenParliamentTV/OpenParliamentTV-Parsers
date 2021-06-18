@@ -183,7 +183,13 @@ def ddmmyyyy_to_iso(date):
 def time_to_int(t):
     """Convert a time HH:MM into a number of minutes.
     """
-    h, m = t.split(':')
+    try:
+        # Normally time is HH:MM but in some files (like 19081) the
+        # separator is .
+        h, m = re.split('[:\.]', t)
+    except IndexError:
+        # Single value
+        return 0
     return int(m) + 60 * int(h)
 
 def parse_transcript(filename, sourceUri=None):
@@ -200,7 +206,13 @@ def parse_transcript(filename, sourceUri=None):
     date = ddmmyyyy_to_iso(root.attrib.get('sitzung-datum', ''))
     nextDate = ddmmyyyy_to_iso(root.attrib.get('sitzung-naechste-datum', ''))
     timeStart = root.attrib.get('sitzung-start-uhrzeit', '')
+    if ' ' in timeStart:
+        # Fix wrong format ("13.00 Uhr" in 19117) from some files
+        timeStart = timeStart.split(' ')[0]
     timeEnd = root.attrib.get('sitzung-ende-uhrzeit', '')
+    if ' ' in timeEnd:
+        # Fix wrong format ("13.00 Uhr" in 19117) from some files
+        timeEnd = timeEnd.split(' ')[0]
 
     dateStart = f"{date}T{timeStart}"
     dateEnd = f"{date}T{timeEnd}"
