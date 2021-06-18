@@ -97,8 +97,11 @@ def parse_speech(elements, speaker, speakerstatus):
                 }
             # FIXME: all other <p> klasses are ignored for now
 
-def parse_content(op, speaker, speakerstatus):
-    """Parse an <tagesordnungspunkt> to output a structured sequence of tagged speech items.
+def parse_ordnungpunkt(op, speaker, speakerstatus):
+    """Parse an <tagesordnungspunkt> to output a sequence of tagged speech items.
+
+    It is a generator that generates 1 array of speech items by rede.
+
     Each tagesordnungspunkt has a number of speeches (rede), each having a main speaker (redner)
 
     Speaker names can be specified in multiple ways:
@@ -114,7 +117,7 @@ def parse_content(op, speaker, speakerstatus):
 
     # import IPython; IPython.embed()
 
-    # An ordnungpunk normally consists of multiple <rede>.
+    # An ordnungpunkt normally consists of multiple <rede>.
 
     # But at the beginning there may be an introduction by the
     # president, in the form of multiple <p>. If this is the case,
@@ -219,7 +222,7 @@ def parse_transcript(filename):
 
     # Pass last speaker info from one speech to the next one
     for op in [ *root.findall('.//sitzungsbeginn'), *root.findall('.//tagesordnungspunkt') ]:
-        speeches = list(parse_content(op, speaker, speakerstatus))
+        speeches = list(parse_ordnungpunkt(op, speaker, speakerstatus))
         if op.tag == 'sitzungsbeginn':
             title = 'Session introduction'
         else:
