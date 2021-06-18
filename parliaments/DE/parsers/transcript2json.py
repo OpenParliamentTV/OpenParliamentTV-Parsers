@@ -24,7 +24,7 @@ STATUS_TRANSLATION = {
 ddmmyyyy_re = re.compile('(?P<dd>\d\d)\.(?P<mm>\d\d)\.(?P<yyyy>\d\d\d\d)')
 
 def parse_speakers(speakers):
-    """Convert a list a list of <redner> to a dict of Person data indexed by identifier
+    """Convert a list a list of <redner> to a dict of Person data indexed by fullname
     """
     result = {}
     for s in speakers:
@@ -39,11 +39,12 @@ def parse_speakers(speakers):
         # Persons can be without any party (independent) but join a faction. So we cannot assume any correspondence between both.
         #party = faction.split('/')[0]
 
-        result[ident] = {
+        result[fullname] = {
             'fullname': fullname,
             'firstname': firstname,
             'lastname': lastname,
             'faction': faction,
+            'identifier': ident
         }
     return result
 
