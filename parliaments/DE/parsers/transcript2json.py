@@ -61,7 +61,12 @@ def parse_speech(elements, speaker, speakerstatus):
                 speakerstatus = STATUS_TRANSLATION.get(status, status)
             continue
         if c.tag == 'kommentar':
-            # FIXME: Ignore for the moment
+            yield {
+                    'type': 'comment',
+                    'speaker': None,
+                    'speakerstatus': None,
+                    'text': c.text
+                }
             continue
         if c.tag == 'p':
             klasse = c.attrib.get('klasse')
