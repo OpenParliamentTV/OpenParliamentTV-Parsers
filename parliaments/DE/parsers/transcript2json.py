@@ -221,10 +221,14 @@ def parse_transcript(filename):
     speakerstatus = "Unknown"
 
     # Pass last speaker info from one speech to the next one
-    for op in [ *root.findall('.//sitzungsbeginn'), *root.findall('.//tagesordnungspunkt') ]:
+    for op in [ *root.findall('.//sitzungsbeginn'),
+                *root.findall('.//tagesordnungspunkt'),
+                *root.findall('.//sitzungsende') ]:
         speeches = list(parse_ordnungpunkt(op, speaker, speakerstatus))
         if op.tag == 'sitzungsbeginn':
-            title = 'Session introduction'
+            title = 'Sitzungsbeginn'
+        elif op.tag == 'sitzungsende':
+            title = 'Sitzungsende'
         else:
             title = op.attrib['top-id']
         speakers = list(parse_speakers(root.findall('.//redner')).values())
