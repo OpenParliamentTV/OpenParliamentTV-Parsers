@@ -227,8 +227,8 @@ def parse_transcript(filename):
             **session_metadata,
             'agendaItem': {
                 "officialTitle": title,
-                # FIXME: we use the same for the moment. Not sure if it can be extracted (.T_fett is not correct)
-                "title": title,
+                # The human-readable title is not present in proceedings, it will be in media
+                # "title": title,
             },
             'speeches': speeches,
             'people': speakers,
