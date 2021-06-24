@@ -18,6 +18,7 @@ from urllib.parse import urlparse, parse_qs
 # present in the source data, then something must have changed and the
 # parser should be checked anyway.
 FEED_SUBTITLE = 'Deutscher Bundestag'
+FEED_LICENSE = 'CC-BY-SA'
 FEED_AUTHOR_EMAIL = 'mail@bundestag.de'
 title_data_re = re.compile('Redebeitrag\s+von\s+(?P<fullname>.+?)\s+\((?P<party>.+?)\)\s+am (?P<title_date>[\d.]+)\s+um\s+(?P<title_time>[\d:]+)\s+Uhr\s+\((?P<session_info>.+)\)')
 
@@ -83,35 +84,57 @@ def parse_rss(filename: str) -> dict:
         enddate = startdate + delta
 
         item = {
-            'ElectoralPeriodNumber': period_number,
-            'SessionNumber': meeting_number,
-            'AgendaItemTitle': e.get('description'),
-            'AgendaItemOfficialTitle': e['title'],
-            'VideoFileURI': links['enclosure']['href'],
-            'MediaSourcePage': e['link'],
-            'MediaDateStart': startdate.isoformat('T', 'seconds'),
-            'MediaDateEnd': enddate.isoformat('T', 'seconds'),
-            'MediaDuration': delta.total_seconds(),
-            'MediaOriginID': os.path.basename(e['link']),
-            'MediaCreator': e['author'],
-            'SourceFilename': filename,
+            "electoralPeriod": {
+                "number": period_number,
+            },
+            "session": {
+                "number": meeting_number,
+                'dateStart': startdate.isoformat('T', 'seconds'),
+                'dateEnd': enddate.isoformat('T', 'seconds'),
+            },
+            "agendaItem": {
+                'title': e.get('description'),
+                'officialTitle': e['title'],
+            },
+            "media": {
+                'videoFileURI': links['enclosure']['href'],
+                'sourcePage': e['link'],
+                'duration': delta.total_seconds(),
+                'originID': os.path.basename(e['link']),
+                'creator': e['author'],
+
+                # Note: commented fields are defined in
+                # https://github.com/OpenParliamentTV/OpenParliamentTV-Platform/issues/2
+                # but not available here
+
+                #'audioFileURI': '' ,
+                #"thumbnailURI": "https://example.com/thumb.png",
+                #"thumbnailCreator": "Deutscher Bundestag",
+                #"thumbnailLicense": "CC-BY-SA",
+                "license": FEED_LICENSE,
+                # "originMediaID": "7502148",
+                # "sourcePage": "https://dbtg.tv/fvid/7502148"
+                'sourceFilename': filename,
+            },
         }
         metadata = extract_title_data(e['title'])
         if metadata is not None:
-            item['PersonFullName'] = metadata.get('fullname', '')
-            # FIXME: any rules for this?
-            item['PersonParty'] = metadata.get('party', '')
-            item['PersonFaction'] = metadata.get('party', '')
+            item['people'] = [
+                {
+                    'fullname': metadata.get('fullname', ''),
+                    'party': metadata.get('party', ''),
+                }
+            ]
             if metadata.get('session_info') is not None:
                 # According to https://github.com/OpenParliamentTV/OpenParliamentTV-Parsers/issues/1
                 # we should strip the Sitzung prefix from the session_info
-                item['AgendaItemOfficialTitle'] = re.sub('^\d+\.\sSitzung,\s', '', metadata.get('session_info'))
+                item['agendaItem']['officialTitle'] = re.sub('^\d+\.\sSitzung,\s', '', metadata.get('session_info'))
             # FIXME: we have other fields: title_date, title_time that we could use for validation
 
         # Fix AgendaItemTitle if necessary
-        if not item['AgendaItemTitle']:
-            title = item['AgendaItemOfficialTitle'].replace("TOP Sitzungsende", "Sitzungsende").replace("TOP Sitzungseröffnung", "Sitzungseröffnung")
-            item['AgendaItemTitle'] = title
+        if not item['agendaItem']['title']:
+            title = item['agendaItem']['officialTitle'].replace("TOP Sitzungsende", "Sitzungsende").replace("TOP Sitzungseröffnung", "Sitzungseröffnung")
+            item['agendaItem']['title'] = title
 
         output.append(item)
 
