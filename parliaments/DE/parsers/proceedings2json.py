@@ -239,6 +239,7 @@ def parse_transcript(filename, sourceUri=None):
     speaker = "Unknown"
     speakerstatus = "Unknown"
 
+    speechIndex = 0
     # Pass last speaker info from one speech to the next one
     for op in [ *root.findall('.//sitzungsbeginn'),
                 *root.findall('.//tagesordnungspunkt'),
@@ -292,6 +293,7 @@ def parse_transcript(filename, sourceUri=None):
                     "officialTitle": title,
                     # The human-readable title is not present in proceedings, it will be in media
                     # "title": title,
+                    "speechIndex": speechIndex
                 },
                 'people': speakers,
                 'textContents': [
@@ -307,6 +309,7 @@ def parse_transcript(filename, sourceUri=None):
                 ],
                 'documents': documents,
             }
+            speechIndex += 1
 
 if __name__ == '__main__':
     logging.basicConfig(level=logging.INFO)
