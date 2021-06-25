@@ -245,7 +245,7 @@ def parse_transcript(filename, sourceUri=None):
                 *root.findall('.//sitzungsende') ]:
         speeches = list(parse_ordnungpunkt(op, speaker, speakerstatus))
         if op.tag == 'sitzungsbeginn':
-            title = 'Sitzungsbeginn'
+            title = 'Sitzungseröffnung'
         elif op.tag == 'sitzungsende':
             title = 'Sitzungsende'
         else:
