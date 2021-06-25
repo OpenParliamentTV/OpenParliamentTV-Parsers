@@ -13,10 +13,12 @@ TRANSCRIPT_DEST := $(patsubst %.xml,%.json,$(TRANSCRIPT_SOURCE))
 all: $(MEDIA_DEST) $(TRANSCRIPT_DEST)
 
 download:
-	$(BASEDIR)/scraper/fetch_rss.py $(DATADIR)/proceedings
+	$(BASEDIR)/scraper/fetch_proceedings.py $(DATADIR)/proceedings
+
+update: download all
 
 %-media.json: %-media.xml
-	$(BASEDIR)/parsers/rss2json.py $< > $@
+	$(BASEDIR)/parsers/media2json.py $< > $@
 
 %-data.json: %-data.xml
-	$(BASEDIR)/parsers/transcript2json.py $< > $@
+	$(BASEDIR)/parsers/proceedings2json.py $< > $@
