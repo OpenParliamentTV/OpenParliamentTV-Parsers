@@ -103,8 +103,6 @@ def parse_rss(filename: str) -> dict:
             },
             "session": {
                 "number": meeting_number,
-                'dateStart': startdate.isoformat('T', 'seconds'),
-                'dateEnd': enddate.isoformat('T', 'seconds'),
             },
             "agendaItem": {
                 'title': e.get('description'),
@@ -130,6 +128,8 @@ def parse_rss(filename: str) -> dict:
                 # "sourcePage": "https://dbtg.tv/fvid/7502148"
                 'sourceFilename': filename,
             },
+            'dateStart': startdate.isoformat('T', 'seconds'),
+            'dateEnd': enddate.isoformat('T', 'seconds'),
         }
         metadata = extract_title_data(e['title'])
         if metadata is not None:
