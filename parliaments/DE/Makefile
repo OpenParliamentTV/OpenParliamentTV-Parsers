@@ -22,3 +22,7 @@ update: download all
 
 %-data.json: %-data.xml
 	$(BASEDIR)/parsers/proceedings2json.py $< > $@
+
+clean:
+	$(RM) $(DATADIR)/media/*.json
+	$(RM) $(DATADIR)/proceedings/*.json
