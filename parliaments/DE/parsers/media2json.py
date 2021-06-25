@@ -149,4 +149,6 @@ if __name__ == '__main__':
         sys.exit(1)
 
     data = [ item for source in sys.argv[1:] for item in parse_rss(source) ]
+    # Sort data according to dateStart
+    data.sort(key=lambda m: m['session']['dateStart'])
     json.dump(data, sys.stdout, indent=2, ensure_ascii=False)
