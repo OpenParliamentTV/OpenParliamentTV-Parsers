@@ -1,6 +1,6 @@
 #! /usr/bin/env python3
 
-# Fetch RSS items for Bundestag proceedings
+# Fetch Media items for Bundestag
 # It must be given an output directory (like examples/proceedings) and will fetch only missing files.
 
 # Adapted from
@@ -13,6 +13,7 @@ import argparse
 import lxml.html
 import os
 from pathlib import Path
+import sys
 import urllib.request
 import urllib3
 
@@ -20,6 +21,9 @@ SERVER_ROOT = "https://www.bundestag.de"
 
 def download_plenary_protocols(destination_dir: str, fullscan: bool = False):
     dest = Path(destination_dir)
+    # Create directory if necessary
+    if not dest.is_dir():
+        dest.mkdir(parents=True)
     http = urllib3.PoolManager()
     offset = 0
     while True:
@@ -34,7 +38,7 @@ def download_plenary_protocols(destination_dir: str, fullscan: bool = False):
             if filename.exists():
                 # Existing file.
                 if not fullscan:
-                    logger.debug("Found 1 cached file. Stopping.")
+                    logger.info("Found 1 cached file. Stopping.")
                     return
             else:
                 # Downdload file
@@ -58,10 +62,11 @@ if __name__ == "__main__":
                         default=False,
                         help="Do a full scan of the RSS feed (else we stop at the first existing file)")
     args = parser.parse_args()
-
+    if args.output_dir is None:
+        parser.print_help()
+        sys.exit(1)
     loglevel = logging.INFO
     if args.debug:
         loglevel=logging.DEBUG
     logging.basicConfig(level=loglevel)
-
     download_plenary_protocols(args.output_dir, args.fullscan)
