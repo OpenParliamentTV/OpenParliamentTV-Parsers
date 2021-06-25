@@ -97,6 +97,7 @@ def parse_rss(filename: str) -> dict:
         enddate = startdate + delta
 
         item = {
+            "parliament": "DE",
             "electoralPeriod": {
                 "number": period_number,
             },

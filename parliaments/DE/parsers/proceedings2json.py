@@ -223,6 +223,7 @@ def parse_transcript(filename, sourceUri=None):
 
     # metadata common to all tagesordnungspunkt
     session_metadata = {
+        "parliament": "DE",
         'electoralPeriod': {
             'number': metadata.findtext('.//wahlperiode'),
         },
