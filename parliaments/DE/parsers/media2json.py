@@ -1,6 +1,6 @@
 #! /usr/bin/env python3
 
-# Convert RSS index file from http://webtv.bundestag.de into JSON with
+# Convert RSS media index file from http://webtv.bundestag.de into JSON with
 # fields defined for OpenParliamentTV
 
 import logging
@@ -20,7 +20,7 @@ from urllib.parse import urlparse, parse_qs
 FEED_SUBTITLE = 'Deutscher Bundestag'
 FEED_LICENSE = 'CC-BY-SA'
 FEED_AUTHOR_EMAIL = 'mail@bundestag.de'
-title_data_re = re.compile('Redebeitrag\s+von\s+(?P<fullname>.+?)\s+\((?P<party>.+?)\)\s+am (?P<title_date>[\d.]+)\s+um\s+(?P<title_time>[\d:]+)\s+Uhr\s+\((?P<session_info>.+)\)')
+title_data_re = re.compile('Redebeitrag\s+von\s+(?P<fullname>.+?)\s+\((?P<faction>.+?)\)\s+am (?P<title_date>[\d.]+)\s+um\s+(?P<title_time>[\d:]+)\s+Uhr\s+\((?P<session_info>.+)\)')
 
 def extract_title_data(title: str) -> dict:
     """Extract structured data from title string.
@@ -33,6 +33,19 @@ def extract_title_data(title: str) -> dict:
         return match.groupdict()
     else:
         return None
+
+def fix_fullname(label: str) -> str:
+    return label.replace('Dr. ', '').replace('h. c. ', '').replace('Prof. ', '')
+
+def fix_title(title: str) -> str:
+    """Fix the titles to match with proceedings conventions
+    """
+    title = title.replace("TOP Sitzungsende", "Sitzungsende").replace("TOP Sitzungseröffnung", "Sitzungseröffnung")
+    zusatz = re.findall('TOP(?:\s+\d+)?,?\s+ZP\s+(\d+)', title)
+    if zusatz:
+        return f"Zusatzpunkt {zusatz[0]}"
+    title = re.sub('^TOP\s+(.+)', 'Tagesordnungspunkt \\1', title)
+    return title
 
 def parse_rss(filename: str) -> dict:
     """Parse a RSS file.
@@ -94,7 +107,7 @@ def parse_rss(filename: str) -> dict:
             },
             "agendaItem": {
                 'title': e.get('description'),
-                'officialTitle': e['title'],
+                'officialTitle': fix_title(e['title']),
             },
             "media": {
                 'videoFileURI': links['enclosure']['href'],
@@ -121,19 +134,19 @@ def parse_rss(filename: str) -> dict:
         if metadata is not None:
             item['people'] = [
                 {
-                    'fullname': metadata.get('fullname', ''),
-                    'party': metadata.get('party', ''),
+                    'label': fix_fullname(metadata.get('fullname', '')),
+                    'faction': metadata.get('faction', ''),
                 }
             ]
             if metadata.get('session_info') is not None:
                 # According to https://github.com/OpenParliamentTV/OpenParliamentTV-Parsers/issues/1
                 # we should strip the Sitzung prefix from the session_info
-                item['agendaItem']['officialTitle'] = re.sub('^\d+\.\sSitzung,\s', '', metadata.get('session_info'))
+                item['agendaItem']['officialTitle'] = fix_title(re.sub('^\d+\.\sSitzung,\s', '', metadata.get('session_info')))
             # FIXME: we have other fields: title_date, title_time that we could use for validation
 
         # Fix AgendaItemTitle if necessary
         if not item['agendaItem']['title']:
-            title = item['agendaItem']['officialTitle'].replace("TOP Sitzungsende", "Sitzungsende").replace("TOP Sitzungseröffnung", "Sitzungseröffnung")
+            title = fix_title(item['agendaItem']['officialTitle'])
             item['agendaItem']['title'] = title
 
         output.append(item)
