@@ -111,7 +111,7 @@ def parse_speech(elements, speaker, speakerstatus):
                 # Actual text. Output it with speaker information.
                 yield {
                     'type': 'speech',
-                    'speaker': speaker,
+                    'speaker': fix_fullname(speaker),
                     'speakerstatus': speakerstatus,
                     'text': c.text,
                     'sentences': [ split_sentences(c.text) ]
@@ -207,6 +207,11 @@ def time_to_int(t):
         return 0
     return int(m) + 60 * int(h)
 
+def fix_fullname(label: str) -> str:
+    if label is None:
+        return label
+    return label.replace('Dr. ', '').replace('h. c. ', '').replace('Prof. ', '')
+
 def parse_transcript(filename, sourceUri=None):
     # We are mapping 1 self-contained object/structure to each tagesordnungspunkt
     # This method is a generator that yields tagesordnungspunkt structures
@@ -288,7 +293,7 @@ def parse_transcript(filename, sourceUri=None):
                 if info:
                     return {
                         "type": "memberOfParliament",
-                        "label": fullname,
+                        "label": fix_fullname(fullname),
                         "firstname": info['firstname'],
                         "lastname": info['lastname'],
                         "context": status,
@@ -297,7 +302,7 @@ def parse_transcript(filename, sourceUri=None):
                 else:
                     return {
                         "type": "memberOfParliament",
-                        "label": fullname,
+                        "label": fix_fullname(fullname),
                         "context": status
                     }
             speakers = [ speaker_item(fullname, status)
