@@ -1,6 +1,6 @@
 #! /usr/bin/env python3
 
-# Fetch Media items for Bundestag
+# Fetch Proceedings for Bundestag
 # It must be given an output directory (like examples/proceedings) and will fetch only missing files.
 
 # Adapted from
@@ -75,3 +75,4 @@ if __name__ == "__main__":
         loglevel=logging.DEBUG
     logging.basicConfig(level=loglevel)
     download_plenary_protocols(args.output_dir, args.fullscan)
+    
