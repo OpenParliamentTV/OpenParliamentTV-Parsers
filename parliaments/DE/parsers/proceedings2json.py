@@ -210,7 +210,10 @@ def time_to_int(t):
 def fix_fullname(label: str) -> str:
     if label is None:
         return label
-    return label.replace('Dr. ', '').replace('h. c. ', '').replace('Prof. ', '')
+    # Replace nb whitespace
+    label = label.replace('\xa0', ' ')
+    label = label.replace('Dr. ', '').replace('h. c. ', '').replace('Prof. ', '')
+    return label
 
 def parse_transcript(filename, sourceUri=None):
     # We are mapping 1 self-contained object/structure to each tagesordnungspunkt
