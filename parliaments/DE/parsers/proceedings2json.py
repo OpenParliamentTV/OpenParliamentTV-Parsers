@@ -11,6 +11,7 @@ logger = logging.getLogger(__name__)
 
 from itertools import takewhile
 import json
+from spacy.lang.de import German
 import re
 import sys
 from lxml import etree
@@ -28,6 +29,12 @@ STATUS_TRANSLATION = {
 }
 
 ddmmyyyy_re = re.compile('(?P<dd>\d\d)\.(?P<mm>\d\d)\.(?P<yyyy>\d\d\d\d)')
+
+# Global language model - to save load time
+nlp = German()
+# sentencizer is a rule-based sentencizer. It has less dependencies
+# than the model-based one.
+nlp.add_pipe("sentencizer")
 
 def parse_speakers(speakers):
     """Convert a list a list of <redner> to a dict of Person data indexed by fullname
@@ -54,6 +61,10 @@ def parse_speakers(speakers):
         }
     return result
 
+def split_sentences(paragraph: str) -> list:
+    doc = nlp(paragraph)
+    return [ { 'text': str(sent).strip() } for sent in doc.sents ]
+
 def parse_speech(elements, speaker, speakerstatus):
     # speaker/speakerstatus are initialized from the calling method
     # speakerstatus: president / vice-president / main speaker / speaker
@@ -72,7 +83,10 @@ def parse_speech(elements, speaker, speakerstatus):
                     'type': 'comment',
                     'speaker': None,
                     'speakerstatus': None,
-                    'text': c.text
+                    'text': c.text,
+                    'sentences': [
+                        { 'text': c.text }
+                    ]
                 }
             continue
         if c.tag == 'p':
@@ -99,7 +113,8 @@ def parse_speech(elements, speaker, speakerstatus):
                     'type': 'speech',
                     'speaker': speaker,
                     'speakerstatus': speakerstatus,
-                    'text': c.text
+                    'text': c.text,
+                    'sentences': [ split_sentences(c.text) ]
                 }
             # FIXME: all other <p> klasses are ignored for now
 
