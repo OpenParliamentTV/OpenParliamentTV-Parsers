@@ -47,22 +47,34 @@ def fix_title(title: str) -> str:
     title = re.sub('^TOP\s+(.+)', 'Tagesordnungspunkt \\1', title)
     return title
 
-def parse_rss(filename: str) -> dict:
-    """Parse a RSS file.
+def parse_media_data(data) -> dict:
+    """Parse a media-js structure
+
+    It is a dict with
+    {
+    'root': root_feed_object,
+    'entries': list_of_entries_to_parse
+    }
+
+    This generic structure is meant to accomodate single XML dumps of
+    RSS feeds (in which case root.entries == entries) and the output
+    of fetch_media script (which aggregates multiple pages of items
+    into entries).
     """
     output = []
-    d = feedparser.parse(filename)
+    root = data['root']
+    entries = data['entries']
 
     # Do some validity checks
-    if d['feed']['subtitle'] != FEED_SUBTITLE:
+    if root['feed']['subtitle'] != FEED_SUBTITLE:
         logger.error(f"Feed subtitle is not {FEED_SUBTITLE}")
         return output
-    if d['feed']['author_detail']['email'] != FEED_AUTHOR_EMAIL:
+    if root['feed']['author_detail']['email'] != FEED_AUTHOR_EMAIL:
         logger.error(f"Feed author is not {FEED_AUTHOR_EMAIL}")
         return output
 
     # Convert links list to dict indexed by 'rel'
-    session_links = dict( (l['rel'], l) for l in d['feed']['links'] )
+    session_links = dict( (l['rel'], l) for l in root['feed']['links'] )
     if not session_links.get('self'):
         logger.error("No session information")
         return output
@@ -80,13 +92,13 @@ def parse_rss(filename: str) -> dict:
     period_number = int(session_info['period'][0])
     meeting_number = int(session_info['meetingNumber'][0])
 
-    for e in d['entries']:
+    for e in entries:
         links = dict( (l['rel'], l) for l in e ['links'] )
 
         if not 'enclosure' in links:
             # No media associated to the item.
             # FIXME: should we report the issue?
-            logger.debug(f"No media associated to {filename}: {e['title']}")
+            logger.debug(f"No media associated: {e['title']}")
             continue
 
         # Use duration to compute end time
@@ -126,7 +138,7 @@ def parse_rss(filename: str) -> dict:
                 "license": FEED_LICENSE,
                 # "originMediaID": "7502148",
                 # "sourcePage": "https://dbtg.tv/fvid/7502148"
-                'sourceFilename': filename,
+                # 'sourceFilename': filename,
             },
             'dateStart': startdate.isoformat('T', 'seconds'),
             'dateEnd': enddate.isoformat('T', 'seconds'),
@@ -152,7 +164,17 @@ def parse_rss(filename: str) -> dict:
 
         output.append(item)
 
+    # Sort output by startDate - we have it here in ISO format so sorting is easy
+    output.sort(key=lambda i: i['dateStart'])
     return output
+
+def parse_rss(filename: str) -> dict:
+    """Parse a RSS file.
+    """
+    d = feedparser.parse(filename)
+
+    return parse_media_data({ 'root': d,
+                              'entries': d.entries })
 
 if __name__ == '__main__':
 
