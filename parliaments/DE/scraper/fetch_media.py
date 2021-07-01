@@ -99,7 +99,7 @@ def download_data(period, meeting=None, output=None):
 
         if not data['entries']:
             # No entries - something must have gone wrong. Bail out
-            logger.warning("No data")
+            logger.warning(f"No data ({data['root']['status']})")
             # import IPython; IPython.embed()
             return
         data = parse_media_data(data)
