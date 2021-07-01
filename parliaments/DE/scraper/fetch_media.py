@@ -48,7 +48,9 @@ def next_rss(data):
         return None
 
 def download_period_data(period: str):
-    root = feedparser.parse(f"{ROOT_URL}?period={period}")
+    root_url = f"{ROOT_URL}?period={period}"
+    logging.warning(f"Downloading {root_url}")
+    root = feedparser.parse(root_url)
     entries = root['entries']
     next_url = next_rss(root)
     while next_url:
@@ -64,6 +66,11 @@ def download_meeting_data(period: int, number: int):
     """
     # feedparser.parse(f"{ROOT_URL}?period={period}&meetingNumber={number}")
     root = feedparser.parse(f"{ROOT_URL}?period={period}&meetingNumber={number}")
+    if root['status'] == 503:
+        # Frequent error from server. We should retry. For the moment,
+        # this will be done by re-running the script, since it will
+        # only update necessary files.
+        return { 'root': root, 'entries': [] }
     entries = root['entries']
     next_url = next_rss(root)
     while next_url:
@@ -73,6 +80,43 @@ def download_meeting_data(period: int, number: int):
         next_url = next_rss(data)
     return { "root": root,
              "entries": entries }
+
+def get_filename(period, meeting=None):
+    if meeting is None:
+        # Only period is specified
+        return f"{period}-all-media.json"
+    else:
+        return f"{period}{meeting.rjust(3, '0')}-media.json"
+
+def download_data(period, meeting=None, output=None):
+    filename = get_filename(period, meeting)
+    try:
+        if meeting is None:
+            # Only period is specified
+            data = download_period_data(period)
+        else:
+            data = download_meeting_data(period, meeting)
+
+        if not data['entries']:
+            # No entries - something must have gone wrong. Bail out
+            logger.warning("No data")
+            # import IPython; IPython.embed()
+            return
+        data = parse_media_data(data)
+
+    except:
+        logger.exception("Error")
+        import IPython; IPython.embed()
+
+    if output:
+        output_dir = Path(output)
+        if not output_dir.is_dir():
+            output_dir.mkdir(parents=True)
+        with open(output_dir / filename, 'w') as f:
+            json.dump(data, f, indent=2)
+    else:
+        # No output dir option - dump to stdout
+        json.dump(data, sys.stdout, indent=2)
 
 if __name__ == "__main__":
 
@@ -97,21 +141,4 @@ if __name__ == "__main__":
     if args.debug:
         loglevel=logging.DEBUG
     logging.basicConfig(level=loglevel)
-    if args.meeting is None:
-        # Only period is specified
-        data = download_period_data(args.period)
-        filename = f"media{args.period}.json"
-    else:
-        data = download_meeting_data(args.period, args.meeting)
-        data = parse_media_data(data)
-        filename = f"{args.period}{args.meeting.rjust(3, '0')}-media.json"
-
-    if args.output:
-        output = Path(args.output)
-        if not output.is_dir():
-            output.mkdir(parents=True)
-        with open(output / filename, 'w') as f:
-            json.dump(data, f, indent=2)
-    else:
-        # No output dir option - dump to stdout
-        json.dump(data, sys.stdout, indent=2)
+    download_data(args.period, args.meeting, args.output)
