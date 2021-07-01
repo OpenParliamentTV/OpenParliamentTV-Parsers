@@ -65,7 +65,7 @@ def split_sentences(paragraph: str) -> list:
     doc = nlp(paragraph)
     return [ { 'text': str(sent).strip() } for sent in doc.sents ]
 
-def parse_speech(elements, speaker, speakerstatus):
+def parse_speech(elements: list, speaker: str, speakerstatus: str):
     # speaker/speakerstatus are initialized from the calling method
     # speakerstatus: president / vice-president / main speaker / speaker
     for c in elements:
@@ -118,7 +118,7 @@ def parse_speech(elements, speaker, speakerstatus):
                 }
             # FIXME: all other <p> klasses are ignored for now
 
-def parse_ordnungpunkt(op, speaker, speakerstatus):
+def parse_ordnungpunkt(op, speaker: str, speakerstatus: str):
     """Parse an <tagesordnungspunkt> to output a sequence of tagged speech items.
 
     It is a generator that generates 1 array of speech items by rede.
@@ -287,10 +287,10 @@ def parse_transcript(filename, sourceUri=None):
         # Yield 1 structure per speech
         for speech in speeches:
             # Extract list of speakers for this speech
-            speakerstatus = dict( (turn['speaker'], turn['speakerstatus'])
-                                  for turn in speech
-                                  # Do not consider null speakers (for comments)
-                                  if turn['speaker'] )
+            speakerstatus_dict = dict( (turn['speaker'], turn['speakerstatus'])
+                                       for turn in speech
+                                       # Do not consider null speakers (for comments)
+                                       if turn['speaker'] )
             def speaker_item(fullname, status):
                 info = speaker_info.get(fullname)
                 if info:
@@ -309,7 +309,7 @@ def parse_transcript(filename, sourceUri=None):
                         "context": status
                     }
             speakers = [ speaker_item(fullname, status)
-                         for fullname, status in speakerstatus.items() ]
+                         for fullname, status in speakerstatus_dict.items() ]
 
             yield {
                 **session_metadata,
