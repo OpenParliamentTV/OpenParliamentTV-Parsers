@@ -9,6 +9,12 @@ from the scraped files, and converts them into a unified JSON format.
 The `merger` package holds modules/scripts for merging information
 from transformed files.
 
+# Environment setup
+
+Some modules have external dependencies (for RSS parsing, sentence
+splitting...). The command `python3 -m pip install -r
+parsers/requirements.txt` will install the necessary requirements.
+
 # Scraping data
 
 For operational reference, see the `download` target of the Makefile.
