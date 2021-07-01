@@ -169,6 +169,9 @@ def parse_media_data(data) -> dict:
 
     # Sort output by startDate - we have it here in ISO format so sorting is easy
     output.sort(key=lambda i: i['dateStart'])
+    # Add explicit order field
+    for i, item in enumerate(output):
+        item['agendaItem']['speechIndex'] = i + 1
     return output
 
 def parse_rss(filename: str) -> dict:
