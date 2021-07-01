@@ -52,8 +52,10 @@ def matching_items(proceedings, media):
 
     output = [ (p, mediadict.get(p['key'])) for p in proceedings ]
 
-    # Add media items with no matching proceeding items
-    output.extend( (None, mediadict.get(k)) for k in sorted(mediakeys - proceedingkeys) )
+    # Add media items with no matching proceeding items - in speechIndex order
+    media_items = sorted( [ mediadict.get(k) for k in (mediakeys - proceedingkeys) ],
+                          key=lambda m: m['agendaItem']['speechIndex'])
+    output.extend((None, item) for item in media_items)
     return output
 
 def diff_files(proceedings_file, media_file):
