@@ -25,7 +25,12 @@ def merge_item(proceeding, mediaitem):
     return output
 
 def get_item_key(item):
-    return remove_accents(f"{item['electoralPeriod']['number']}-{item['session']['number']} {item['agendaItem']['officialTitle']} ({item['people'][0]['label']})".lower())
+    if item['people']:
+        speaker = item['people'][0]['label']
+    else:
+        speaker = None
+
+    return remove_accents(f"{item['electoralPeriod']['number']}-{item['session']['number']} {item['agendaItem']['officialTitle']} ({speaker})".lower())
 
 def matching_items(proceedings, media):
     """Return a list of (proceeding, mediaitem) items that match.
