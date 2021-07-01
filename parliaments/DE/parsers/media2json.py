@@ -107,6 +107,7 @@ def parse_media_data(data) -> dict:
 
         startdate = datetime(*e['published_parsed'][:6])
         enddate = startdate + delta
+        mediaid = os.path.basename(e['link'])
 
         item = {
             "parliament": "DE",
@@ -135,13 +136,16 @@ def parse_media_data(data) -> dict:
                 #"thumbnailCreator": "Deutscher Bundestag",
                 #"thumbnailLicense": "CC-BY-SA",
                 "license": FEED_LICENSE,
-                "originMediaID": os.path.basename(e['link']),
+                "originMediaID": mediaid,
                 # "sourcePage": "https://dbtg.tv/fvid/7502148"
                 # 'sourceFilename': filename,
             },
             'dateStart': startdate.isoformat('T', 'seconds'),
             'dateEnd': enddate.isoformat('T', 'seconds'),
         }
+        if period_number >= 18:
+            item['media']['audioFileURI'] = f"""https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/{mediaid}/{mediaid}_mp3_128kb_stereo_de_128.mp3"""
+
         metadata = extract_title_data(e['title'])
         if metadata is not None:
             item['people'] = [
