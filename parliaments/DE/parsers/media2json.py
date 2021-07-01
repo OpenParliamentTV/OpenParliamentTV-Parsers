@@ -66,11 +66,11 @@ def parse_media_data(data) -> dict:
     entries = data['entries']
 
     # Do some validity checks
-    if root['feed']['subtitle'] != FEED_SUBTITLE:
-        logger.error(f"Feed subtitle is not {FEED_SUBTITLE}")
+    if root['feed'].get('subtitle') != FEED_SUBTITLE:
+        logger.error(f"Feed subtitle is not {FEED_SUBTITLE}: {root['feed'].get('subtitle')}")
         return output
-    if root['feed']['author_detail']['email'] != FEED_AUTHOR_EMAIL:
-        logger.error(f"Feed author is not {FEED_AUTHOR_EMAIL}")
+    if root['feed']['author_detail'].get('email') != FEED_AUTHOR_EMAIL:
+        logger.error(f"Feed author is not {FEED_AUTHOR_EMAIL}: {root['feed']['author_detail'].get('email')}")
         return output
 
     # Convert links list to dict indexed by 'rel'
