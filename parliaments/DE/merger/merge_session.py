@@ -24,11 +24,14 @@ def merge_item(proceeding, mediaitem):
             print(key, value)
     return output
 
+def get_item_key(item):
+    return remove_accents(f"{item['electoralPeriod']['number']}-{item['session']['number']} {item['agendaItem']['officialTitle']} ({item['people'][0]['label']})".lower())
+
 def matching_items(proceedings, media):
     """Return a list of (proceeding, mediaitem) items that match.
     """
     for item in (*proceedings, *media):
-        item['key'] = remove_accents(f"{item['electoralPeriod']['number']}-{item['session']['number']} {item['agendaItem']['officialTitle']} ({item['people'][0]['label']})".lower())
+        item['key'] = get_item_key(item)
 
     # Build key sets
     mediakeys = set(m['key'] for m in media)
