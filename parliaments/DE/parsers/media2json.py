@@ -124,7 +124,6 @@ def parse_media_data(data) -> dict:
                 'videoFileURI': links['enclosure']['href'],
                 'sourcePage': e['link'],
                 'duration': delta.total_seconds(),
-                'originID': os.path.basename(e['link']),
                 'creator': e['author'],
 
                 # Note: commented fields are defined in
@@ -136,7 +135,7 @@ def parse_media_data(data) -> dict:
                 #"thumbnailCreator": "Deutscher Bundestag",
                 #"thumbnailLicense": "CC-BY-SA",
                 "license": FEED_LICENSE,
-                # "originMediaID": "7502148",
+                "originMediaID": os.path.basename(e['link']),
                 # "sourcePage": "https://dbtg.tv/fvid/7502148"
                 # 'sourceFilename': filename,
             },
