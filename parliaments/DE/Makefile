@@ -6,14 +6,17 @@ DATADIR := $(BASEDIR)/data/examples
 MEDIA_SOURCE := $(wildcard $(DATADIR)/media/*.xml)
 TRANSCRIPT_SOURCE := $(wildcard $(DATADIR)/proceedings/*.xml)
 
-MEDIA_DEST := $(patsubst %.xml,%.json,$(MEDIA_SOURCE))
+# MEDIA_DEST := $(patsubst %.xml,%.json,$(MEDIA_SOURCE))
 TRANSCRIPT_DEST := $(patsubst %.xml,%.json,$(TRANSCRIPT_SOURCE))
+NEWMEDIA_DEST := $(patsubst data.json,media.json,$(TRANSCRIPT_DEST))
 
 # all: ;echo $(MEDIA_SOURCE)
 all: $(MEDIA_DEST) $(TRANSCRIPT_DEST)
 
 download:
 	$(BASEDIR)/scraper/fetch_proceedings.py $(DATADIR)/proceedings
+	# Fetch media files corresponding to proceedings files
+	$(BASEDIR)/scraper/update_media $(DATADIR)/proceedings $(DATADIR)/nmedia
 
 update: download all
 
