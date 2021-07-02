@@ -147,7 +147,7 @@ if __name__ == "__main__":
                 output_dir.mkdir(parents=True)
             period = data[0]['electoralPeriod']['number']
             meeting = data[0]['session']['number']
-            filename = f"{period}{meeting.rjust(3, '0')}-merged.json"
+            filename = f"{period}{str(meeting).rjust(3, '0')}-merged.json"
             with open(output_dir / filename, 'w') as f:
                 json.dump(data, f, indent=2, ensure_ascii=False)
         else:
