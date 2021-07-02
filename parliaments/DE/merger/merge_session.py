@@ -7,8 +7,10 @@
 import logging
 logger = logging.getLogger(__name__)
 
+import argparse
 from copy import deepcopy
 import json
+from pathlib import Path
 import sys
 import unicodedata
 
@@ -17,11 +19,21 @@ def remove_accents(input_str):
     return u"".join([c for c in nfkd_form if not unicodedata.combining(c)])
 
 def merge_item(proceeding, mediaitem):
+    # Non-matching case - return the unmodified value
+    if proceeding is None:
+        return mediaitem
+    if mediaitem is None:
+        return proceeding
+
+    # Make a copy of the proceedings file
     output = deepcopy(proceeding)
-    for key, value in mediaitem.items():
-        if key in proceeding:
-            # Existing key. Check for embedded object.
-            print(key, value)
+
+    # Copy relevant data from mediaitem
+    output['agendaItem']['title'] = mediaitem['agendaItem']['title']
+    output['dateStart'] = mediaitem['dateStart']
+    output['dateEnd'] = mediaitem['dateEnd']
+    output['media'] = mediaitem['media']
+
     return output
 
 def get_item_key(item):
@@ -71,9 +83,15 @@ def diff_files(proceedings_file, media_file):
         print(f"""{left.ljust(width)} {right}""")
 
 def merge_data(proceedings, media):
-    # Note: unfinished code - we need to consolidate data first.
-    return [ merge_item(p, m)
-             for (p, m) in matching_items(proceedings, media) ]
+    """Merge data structures.
+
+    If no match is found for a proceedings, we will dump the
+    proceedings as-is.
+    """
+    return [
+        merge_item(p, m)
+        for (p, m) in matching_items(proceedings, media)
+    ]
 
 def merge_files(proceedings_file, media_file):
     with open(proceedings_file) as f:
@@ -84,13 +102,40 @@ def merge_files(proceedings_file, media_file):
     return merge_data(proceedings, media)
 
 if __name__ == "__main__":
-    logging.basicConfig(level=logging.INFO)
-
-    if len(sys.argv) < 2:
-        logger.warning(f"Syntax: {sys.argv[0]} proceedings_file.json media_file.json")
+    parser = argparse.ArgumentParser(description="Merge proceedings and media file.")
+    parser.add_argument("proceedings_file", type=str, nargs='?',
+                        help="Proceedings file")
+    parser.add_argument("media_file", type=str, nargs='?',
+                        help="Media file")
+    parser.add_argument("--debug", action="store_true",
+                        default=False,
+                        help="Display debug messages")
+    parser.add_argument("--output", metavar="DIRECTORY", type=str,
+                        help="Output directory - if not specified, output with be to stdout")
+    parser.add_argument("--check", action="store_true",
+                        default=False,
+                        help="Check mergeability of files")
+    args = parser.parse_args()
+    if args.media_file is None or args.proceedings_file is None:
+        parser.print_help()
         sys.exit(1)
+    loglevel = logging.INFO
+    if args.debug:
+        loglevel=logging.DEBUG
+    logging.basicConfig(level=loglevel)
 
-    #data = merge_files(sys.argv[1], sys.argv[2])
-    #json.dump(data, sys.stdout, indent=2, ensure_ascii=False)
-    diff_files(sys.argv[1], sys.argv[2])
-
+    if args.check:
+        diff_files(args.proceedings_file, args.media_file)
+    else:
+        data = merge_files(args.proceedings_file, args.media_file)
+        if args.output:
+            output_dir = Path(args.output)
+            if not output_dir.is_dir():
+                output_dir.mkdir(parents=True)
+            period = data[0]['electoralPeriod']['number']
+            meeting = data[0]['session']['number']
+            filename = f"{period}{meeting.rjust(3, '0')}-merged.json"
+            with open(output_dir / filename, 'w') as f:
+                json.dump(data, f, indent=2, ensure_ascii=False)
+        else:
+            json.dump(data, sys.stdout, indent=2, ensure_ascii=False)
