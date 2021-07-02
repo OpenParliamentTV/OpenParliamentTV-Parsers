@@ -51,10 +51,6 @@ def matching_items(proceedings, media):
     for item in (*proceedings, *media):
         item['key'] = get_item_key(item)
 
-    # Build key sets
-    mediakeys = set(m['key'] for m in media)
-    proceedingkeys = set(p['key'] for p in proceedings)
-
     # Build a dict for proceedings indexed by key
     procdict = {}
     for p in proceedings:
@@ -67,9 +63,12 @@ def matching_items(proceedings, media):
 
     output = [ (procdict.get(m['key']), m) for m in media ]
 
+    output_proceeding_keys = set( p['key']
+                                  for p, m in output
+                                  if p is not None )
+
     # Add proceeding items with no matching media items - in speechIndex order
-    proc_items = sorted( [ procdict.get(k) for k in (proceedingkeys - mediakeys) ],
-                         key=lambda p: p['agendaItem']['speechIndex'])
+    proc_items = ( p for p in proceedings if p['key'] not in output_proceeding_keys )
     output.extend((item, None) for item in proc_items)
     return output
 
@@ -80,9 +79,12 @@ def diff_files(proceedings_file, media_file):
         media = json.load(f)
     #width = int(int(os.environ.get('COLUMNS', 80)) / 2)
     width = 60
+    left = "Media"
+    right = "Proceeding"
+    print(f"""{left.ljust(width)} {right}""")
     for (p, m) in matching_items(proceedings, media):
-        left = '[[[ None ]]]' if p is None else p['key']
-        right = '[[[ None ]]]' if m is None else m['key']
+        left = '[[[ None ]]]' if m is None else m['key']
+        right = '[[[ None ]]]' if p is None else p['key']
         print(f"""{left.ljust(width)} {right}""")
 
 def merge_data(proceedings, media):
