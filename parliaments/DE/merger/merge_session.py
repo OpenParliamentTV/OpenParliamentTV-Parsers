@@ -48,21 +48,26 @@ def get_item_key(item):
 def matching_items(proceedings, media):
     """Return a list of (proceeding, mediaitem) items that match.
     """
-    for item in (*proceedings, *media):
-        item['key'] = get_item_key(item)
-
-    # Build a dict for proceedings indexed by key
+    # Build a dict for proceedings, indexed by key
     procdict = {}
     mediadict = {}
     for label, source, itemdict in ( ('proceedings', proceedings, procdict),
                                      ('media', media, mediadict) ):
-        for p in source:
-            if p['key'] in itemdict:
-                # Let's nullify the conflicting key, so that we do not merge it by mistake
-                itemdict[p['key']] = None
-                logger.error(f"Conflict in {label} key: {p['key']}")
-                continue
-            itemdict[p['key']] = p
+        for item in source:
+            # Get standard key
+            item['key'] = get_item_key(item)
+            if item['key'] in itemdict:
+                # Duplicate key - add a #N to the key to differenciate
+                # We do not use item['agendaItem']['speechIndex']
+                # because we want to use the relative appearing order of items.
+                n = 1
+                while True:
+                    newkey = f"{item['key']} #{n}"
+                    if newkey not in itemdict:
+                        break
+                    n = n + 1
+                item['key'] = newkey
+            itemdict[item['key']] = item
 
     output = [ (procdict.get(m['key']), m) for m in media ]
 
