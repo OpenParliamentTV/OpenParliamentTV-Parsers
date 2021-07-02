@@ -152,6 +152,7 @@ def parse_media_data(data) -> dict:
                 {
                     'label': fix_fullname(metadata.get('fullname', '')),
                     'faction': metadata.get('faction', ''),
+                    'context': 'main-speaker',
                 }
             ]
             if metadata.get('session_info') is not None:
