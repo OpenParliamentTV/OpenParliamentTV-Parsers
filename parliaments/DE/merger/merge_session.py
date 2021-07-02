@@ -25,6 +25,7 @@ def merge_item(proceeding, mediaitem):
     if mediaitem is None:
         return proceeding
 
+    # We have both items - copy media data into proceedings
     # Make a copy of the proceedings file
     output = deepcopy(proceeding)
 
@@ -54,20 +55,22 @@ def matching_items(proceedings, media):
     mediakeys = set(m['key'] for m in media)
     proceedingkeys = set(p['key'] for p in proceedings)
 
-    # Build a dict for media indexed by key
-    mediadict = {}
-    for m in media:
-        if m['key'] in m:
-            logger.error(f"Conflict in media key: {m['key']}")
+    # Build a dict for proceedings indexed by key
+    procdict = {}
+    for p in proceedings:
+        if p['key'] in procdict:
+            # Let's nullify the conflicting key, so that we do not merge it by mistake
+            procdict[p['key']] = None
+            logger.error(f"Conflict in proceedings key: {p['key']}")
             continue
-        mediadict[m['key']] = m
+        procdict[p['key']] = p
 
-    output = [ (p, mediadict.get(p['key'])) for p in proceedings ]
+    output = [ (procdict.get(m['key']), m) for m in media ]
 
-    # Add media items with no matching proceeding items - in speechIndex order
-    media_items = sorted( [ mediadict.get(k) for k in (mediakeys - proceedingkeys) ],
-                          key=lambda m: m['agendaItem']['speechIndex'])
-    output.extend((None, item) for item in media_items)
+    # Add proceeding items with no matching media items - in speechIndex order
+    proc_items = sorted( [ procdict.get(k) for k in (proceedingkeys - mediakeys) ],
+                         key=lambda p: p['agendaItem']['speechIndex'])
+    output.extend((item, None) for item in proc_items)
     return output
 
 def diff_files(proceedings_file, media_file):
