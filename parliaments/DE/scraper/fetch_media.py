@@ -66,7 +66,8 @@ def download_meeting_data(period: int, number: int):
     """
     # feedparser.parse(f"{ROOT_URL}?period={period}&meetingNumber={number}")
     root = feedparser.parse(f"{ROOT_URL}?period={period}&meetingNumber={number}")
-    if root['status'] == 503:
+    logger.debug(f"Status {root['status']}")
+    if root['status'] != 200:
         # Frequent error from server. We should retry. For the moment,
         # this will be done by re-running the script, since it will
         # only update necessary files.
@@ -74,8 +75,17 @@ def download_meeting_data(period: int, number: int):
     entries = root['entries']
     next_url = next_rss(root)
     while next_url:
-        logging.warning(f"Downloading {next_url}")
+        logger.warning(f"Downloading {next_url}")
         data = feedparser.parse(next_url)
+        logger.debug(f"Status {data['status']} - {len(data['entries'])} entries")
+        if data['status'] != 200:
+            # Frequent error from server. Ignore the already fetched entries.
+            # We should retry. For the moment,
+            # this will be done by re-running the script, since it will
+            # only update necessary files.
+            logger.debug("Download error - ignoring entries")
+            return { 'root': root, 'entries': [] }
+
         entries.extend(data['entries'])
         next_url = next_rss(data)
     return { "root": root,
