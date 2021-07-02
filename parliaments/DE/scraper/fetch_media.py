@@ -47,25 +47,15 @@ def next_rss(data):
     else:
         return None
 
-def download_period_data(period: str):
-    root_url = f"{ROOT_URL}?period={period}"
-    logging.warning(f"Downloading {root_url}")
-    root = feedparser.parse(root_url)
-    entries = root['entries']
-    next_url = next_rss(root)
-    while next_url:
-        logging.warning(f"Downloading {next_url}")
-        data = feedparser.parse(next_url)
-        entries.extend(data['entries'])
-        next_url = next_rss(data)
-    return { "root": root,
-             "entries": entries }
-
-def download_meeting_data(period: int, number: int):
+def download_meeting_data(period: int, number: int = None):
     """Download data for a given meeting, handling pagination.
     """
-    # feedparser.parse(f"{ROOT_URL}?period={period}&meetingNumber={number}")
-    root = feedparser.parse(f"{ROOT_URL}?period={period}&meetingNumber={number}")
+    if number is None:
+        root_url = f"{ROOT_URL}?period={period}"
+    else:
+        root_url = f"{ROOT_URL}?period={period}&meetingNumber={number}"
+
+    root = feedparser.parse(root_url)
     logger.debug(f"Status {root['status']}")
     if root['status'] != 200:
         # Frequent error from server. We should retry. For the moment,
@@ -101,21 +91,15 @@ def get_filename(period, meeting=None):
 def download_data(period, meeting=None, output=None):
     filename = get_filename(period, meeting)
     try:
-        if meeting is None:
-            # Only period is specified
-            data = download_period_data(period)
-        else:
-            data = download_meeting_data(period, meeting)
-
+        data = download_meeting_data(period, meeting)
         if not data['entries']:
             # No entries - something must have gone wrong. Bail out
             logger.warning(f"No data ({data['root']['status']})")
             # import IPython; IPython.embed()
             return
         data = parse_media_data(data)
-
     except:
-        logger.exception("Error")
+        logger.exception("Error - going into debug mode")
         import IPython; IPython.embed()
 
     if output:
@@ -149,6 +133,6 @@ if __name__ == "__main__":
         sys.exit(1)
     loglevel = logging.INFO
     if args.debug:
-        loglevel=logging.DEBUG
+        loglevel = logging.DEBUG
     logging.basicConfig(level=loglevel)
     download_data(args.period, args.meeting, args.output)
