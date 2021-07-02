@@ -67,7 +67,7 @@ def split_sentences(paragraph: str) -> list:
 
 def parse_speech(elements: list, speaker: str, speakerstatus: str):
     # speaker/speakerstatus are initialized from the calling method
-    # speakerstatus: president / vice-president / main speaker / speaker
+    # speakerstatus: president / vice-president / main-speaker / speaker
     for c in elements:
         if c.tag == 'name':
             # Pr/VP name, strip trailing :
@@ -96,7 +96,7 @@ def parse_speech(elements: list, speaker: str, speakerstatus: str):
                 firstname = c.findtext('.//vorname') or ""
                 lastname = c.findtext('.//nachname') or ""
                 speaker = f"{firstname} {lastname}"
-                speakerstatus = 'main speaker'
+                speakerstatus = 'main-speaker'
                 continue
             elif klasse == 'N':
                 # Speaker name - Präsident or Vizepräsident
@@ -123,7 +123,7 @@ def parse_ordnungpunkt(op, speaker: str, speakerstatus: str):
 
     It is a generator that generates 1 array of speech items by rede.
 
-    Each tagesordnungspunkt has a number of speeches (rede), each having a main speaker (redner)
+    Each tagesordnungspunkt has a number of speeches (rede), each having a main-speaker (redner)
 
     Speaker names can be specified in multiple ways:
     - either <p klasse="redner"> which contains the full redner identification
@@ -165,7 +165,7 @@ def parse_ordnungpunkt(op, speaker: str, speakerstatus: str):
         if turns:
             speaker = turns[-1]['speaker']
             speakerstatus = turns[-1]['speakerstatus']
-            # mainspeaker = next(filter(lambda s: s['speakerstatus'] == 'main speaker', speech), { 'speaker': 'Unknown' })['speaker']
+            # mainspeaker = next(filter(lambda s: s['speakerstatus'] == 'main-speaker', speech), { 'speaker': 'Unknown' })['speaker']
             yield turns
 
     # FIXME: process trailing <p>?
