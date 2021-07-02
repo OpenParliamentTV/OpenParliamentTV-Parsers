@@ -8,10 +8,13 @@ TRANSCRIPT_SOURCE := $(wildcard $(DATADIR)/proceedings/*.xml)
 
 # MEDIA_DEST := $(patsubst %.xml,%.json,$(MEDIA_SOURCE))
 TRANSCRIPT_DEST := $(patsubst %.xml,%.json,$(TRANSCRIPT_SOURCE))
-NEWMEDIA_DEST := $(patsubst data.json,media.json,$(TRANSCRIPT_DEST))
+NEWMEDIA_DEST := $(wildcard $(DATADIR)/nmedia/*-media.json)
+
+MERGE_DEST := $(patsubst %-data.json,%-merged.json,$(TRANSCRIPT_DEST))
 
 # all: ;echo $(MEDIA_SOURCE)
-all: $(MEDIA_DEST) $(TRANSCRIPT_DEST)
+all: $(NEWMEDIA_DEST) $(TRANSCRIPT_DEST) $(MERGE_DEST)
+	;echo $(MERGE_DEST)
 
 download:
 	$(BASEDIR)/scraper/fetch_proceedings.py $(DATADIR)/proceedings
@@ -19,6 +22,9 @@ download:
 	$(BASEDIR)/scraper/update_media $(DATADIR)/proceedings $(DATADIR)/nmedia
 
 update: download all
+
+%-merged.json: %-data.json ../nmedia/%-media.json
+	$(BASEDIR)/merger/merge_session.py --output=$(DATADIR)/merged $^
 
 %-media.json: %-media.xml
 	$(BASEDIR)/parsers/media2json.py $< > $@
