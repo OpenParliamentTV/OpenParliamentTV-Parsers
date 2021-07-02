@@ -61,11 +61,12 @@ def download_meeting_data(period: int, number: int = None):
         # Frequent error from server. We should retry. For the moment,
         # this will be done by re-running the script, since it will
         # only update necessary files.
+        logger.warning(f"Download error ({root['status']}) - ignoring entries")
         return { 'root': root, 'entries': [] }
     entries = root['entries']
     next_url = next_rss(root)
     while next_url:
-        logger.warning(f"Downloading {next_url}")
+        logger.info(f"Downloading {next_url}")
         data = feedparser.parse(next_url)
         logger.debug(f"Status {data['status']} - {len(data['entries'])} entries")
         if data['status'] != 200:
@@ -73,7 +74,7 @@ def download_meeting_data(period: int, number: int = None):
             # We should retry. For the moment,
             # this will be done by re-running the script, since it will
             # only update necessary files.
-            logger.debug("Download error - ignoring entries")
+            logger.warning(f"Download error ({data['status']}) - ignoring entries")
             return { 'root': root, 'entries': [] }
 
         entries.extend(data['entries'])
@@ -94,7 +95,6 @@ def download_data(period, meeting=None, output=None):
         data = download_meeting_data(period, meeting)
         if not data['entries']:
             # No entries - something must have gone wrong. Bail out
-            logger.warning(f"No data ({data['root']['status']})")
             # import IPython; IPython.embed()
             return
         data = parse_media_data(data)
