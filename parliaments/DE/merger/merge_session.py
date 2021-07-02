@@ -53,13 +53,16 @@ def matching_items(proceedings, media):
 
     # Build a dict for proceedings indexed by key
     procdict = {}
-    for p in proceedings:
-        if p['key'] in procdict:
-            # Let's nullify the conflicting key, so that we do not merge it by mistake
-            procdict[p['key']] = None
-            logger.error(f"Conflict in proceedings key: {p['key']}")
-            continue
-        procdict[p['key']] = p
+    mediadict = {}
+    for label, source, itemdict in ( ('proceedings', proceedings, procdict),
+                                     ('media', media, mediadict) ):
+        for p in source:
+            if p['key'] in itemdict:
+                # Let's nullify the conflicting key, so that we do not merge it by mistake
+                itemdict[p['key']] = None
+                logger.error(f"Conflict in {label} key: {p['key']}")
+                continue
+            itemdict[p['key']] = p
 
     output = [ (procdict.get(m['key']), m) for m in media ]
 
