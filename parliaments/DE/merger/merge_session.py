@@ -39,7 +39,7 @@ def merge_item(proceeding, mediaitem):
 
 def get_item_key(item):
     if item['people']:
-        speaker = item['people'][0]['label']
+        speaker = item['people'][0]['label'].replace(' von der ', ' ')
     else:
         speaker = None
 
