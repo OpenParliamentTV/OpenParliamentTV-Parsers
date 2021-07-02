@@ -25,9 +25,9 @@ def update_media_directory(proc_dir, media_dir, force=False):
 if __name__ == "__main__":
 
     parser = argparse.ArgumentParser(description="Update media files corresponding to proceeding XML files.")
-    parser.add_argument("proceedings_dir", metavar="proceedings_dir", type=str, nargs='?',
+    parser.add_argument("proceedings_dir", type=str, nargs='?',
                         help="Proceedings directory (input)")
-    parser.add_argument("media_dir", metavar="media_dir", type=str, nargs='?',
+    parser.add_argument("media_dir", type=str, nargs='?',
                         help="Media directory (output)")
     parser.add_argument("--debug", dest="debug", action="store_true",
                         default=False,
