@@ -114,7 +114,7 @@ def parse_speech(elements: list, speaker: str, speakerstatus: str):
                     'speaker': fix_fullname(speaker),
                     'speakerstatus': speakerstatus,
                     'text': c.text,
-                    'sentences': [ split_sentences(c.text) ]
+                    'sentences': split_sentences(c.text)
                 }
             # FIXME: all other <p> klasses are ignored for now
 
