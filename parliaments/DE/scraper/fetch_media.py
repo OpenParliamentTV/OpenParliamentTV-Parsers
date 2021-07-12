@@ -89,15 +89,15 @@ def get_filename(period, meeting=None):
     else:
         return f"{period}{meeting.rjust(3, '0')}-media.json"
 
-def download_data(period, meeting=None, output=None):
+def download_data(period, meeting=None, output=None, save_raw_data=False):
     filename = get_filename(period, meeting)
     try:
-        data = download_meeting_data(period, meeting)
-        if not data['entries']:
+        raw_data = download_meeting_data(period, meeting)
+        if not raw_data['entries']:
             # No entries - something must have gone wrong. Bail out
             # import IPython; IPython.embed()
             return
-        data = parse_media_data(data)
+        data = parse_media_data(raw_data)
     except:
         logger.exception("Error - going into debug mode")
         import IPython; IPython.embed()
@@ -108,6 +108,9 @@ def download_data(period, meeting=None, output=None):
             output_dir.mkdir(parents=True)
         with open(output_dir / filename, 'w') as f:
             json.dump(data, f, indent=2)
+        if save_raw_data:
+            with open(output_dir / f"raw-{filename}", 'w') as f:
+                json.dump(raw_data, f, indent=2)
     else:
         # No output dir option - dump to stdout
         json.dump(data, sys.stdout, indent=2)
@@ -121,6 +124,9 @@ if __name__ == "__main__":
                         help="Meeting number")
     parser.add_argument("--output", type=str, default="",
                         help="Output directory")
+    parser.add_argument("--save-raw-data", dest="save_raw_data", action="store_true",
+                        default=False,
+                        help="Save raw data in JSON format in addition to converted JSON data. It will be an object with 'root' (first page) and 'entries' (all entries for the period/meeting) keys.")
     parser.add_argument("--debug", dest="debug", action="store_true",
                         default=False,
                         help="Display debug messages")
@@ -135,4 +141,4 @@ if __name__ == "__main__":
     if args.debug:
         loglevel = logging.DEBUG
     logging.basicConfig(level=loglevel)
-    download_data(args.period, args.meeting, args.output)
+    download_data(args.period, args.meeting, args.output, args.save_raw_data)
