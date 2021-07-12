@@ -45,7 +45,7 @@ def get_item_key(item):
 
     return remove_accents(f"{item['electoralPeriod']['number']}-{item['session']['number']} {item['agendaItem']['officialTitle']} ({speaker})".lower())
 
-def matching_items(proceedings, media):
+def matching_items(proceedings, media, include_all_proceedings=False):
     """Return a list of (proceeding, mediaitem) items that match.
     """
     # Build a dict for proceedings, indexed by key
@@ -75,9 +75,10 @@ def matching_items(proceedings, media):
                                   for p, m in output
                                   if p is not None )
 
-    # Add proceeding items with no matching media items - in speechIndex order
-    proc_items = ( p for p in proceedings if p['key'] not in output_proceeding_keys )
-    output.extend((item, None) for item in proc_items)
+    if include_all_proceedings:
+        # Add proceeding items with no matching media items - in speechIndex order
+        proc_items = ( p for p in proceedings if p['key'] not in output_proceeding_keys )
+        output.extend((item, None) for item in proc_items)
     return output
 
 def diff_files(proceedings_file, media_file):
@@ -95,7 +96,7 @@ def diff_files(proceedings_file, media_file):
         right = '[[[ None ]]]' if p is None else p['key']
         print(f"""{left.ljust(width)} {right}""")
 
-def merge_data(proceedings, media):
+def merge_data(proceedings, media, include_all_proceedings=False):
     """Merge data structures.
 
     If no match is found for a proceedings, we will dump the
@@ -103,16 +104,16 @@ def merge_data(proceedings, media):
     """
     return [
         merge_item(p, m)
-        for (p, m) in matching_items(proceedings, media)
+        for (p, m) in matching_items(proceedings, media, include_all_proceedings=False)
     ]
 
-def merge_files(proceedings_file, media_file):
+def merge_files(proceedings_file, media_file, include_all_proceedings=False):
     with open(proceedings_file) as f:
         proceedings = json.load(f)
     with open(media_file) as f:
         media = json.load(f)
     # Order media, according to dateStart
-    return merge_data(proceedings, media)
+    return merge_data(proceedings, media, include_all_proceedings=False)
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Merge proceedings and media file.")
@@ -128,6 +129,9 @@ if __name__ == "__main__":
     parser.add_argument("--check", action="store_true",
                         default=False,
                         help="Check mergeability of files")
+    parser.add_argument("--include-all-proceedings", action="store_true",
+                        default=False,
+                        help="Include all proceedings-issued speeches even if they did not have a match")
     args = parser.parse_args()
     if args.media_file is None or args.proceedings_file is None:
         parser.print_help()
@@ -140,7 +144,7 @@ if __name__ == "__main__":
     if args.check:
         diff_files(args.proceedings_file, args.media_file)
     else:
-        data = merge_files(args.proceedings_file, args.media_file)
+        data = merge_files(args.proceedings_file, args.media_file, args.include_all_proceedings)
         if args.output:
             output_dir = Path(args.output)
             if not output_dir.is_dir():
