@@ -65,9 +65,11 @@ def split_sentences(paragraph: str) -> list:
     doc = nlp(paragraph)
     return [ { 'text': str(sent).strip() } for sent in doc.sents ]
 
-def parse_speech(elements: list, speaker: str, speakerstatus: str):
+def parse_speech(elements: list, last_speaker: dict):
     # speaker/speakerstatus are initialized from the calling method
     # speakerstatus: president / vice-president / main-speaker / speaker
+    speaker = last_speaker['speaker']
+    speakerstatus = last_speaker['speakerstatus']
     for c in elements:
         if c.tag == 'name':
             # Pr/VP name, strip trailing :
@@ -118,7 +120,7 @@ def parse_speech(elements: list, speaker: str, speakerstatus: str):
                 }
             # FIXME: all other <p> klasses are ignored for now
 
-def parse_ordnungpunkt(op, speaker: str, speakerstatus: str):
+def parse_ordnungpunkt(op, last_speaker: dict):
     """Parse an <tagesordnungspunkt> to output a sequence of tagged speech items.
 
     It is a generator that generates 1 array of speech items by rede.
@@ -150,10 +152,9 @@ def parse_ordnungpunkt(op, speaker: str, speakerstatus: str):
     # Produce a virtual introduction
     introduction = list(takewhile(lambda n: n.tag in ('p', 'name'), elements))
     if introduction:
-        turns = list(parse_speech(introduction, speaker, speakerstatus))
+        turns = list(parse_speech(introduction, last_speaker))
         if turns:
-            speaker = turns[0]['speaker']
-            speakerstatus = turns[0]['speakerstatus']
+            last_speaker = last_speaker_info(turns)
             yield turns
 
     for el in elements:
@@ -161,11 +162,9 @@ def parse_ordnungpunkt(op, speaker: str, speakerstatus: str):
             # We just processed leading <p>. There may remain some
             # trailing <p>, which we ignore for now
             continue
-        turns = list(parse_speech(el, speaker, speakerstatus))
+        turns = list(parse_speech(el, last_speaker))
         if turns:
-            speaker = turns[-1]['speaker']
-            speakerstatus = turns[-1]['speakerstatus']
-            # mainspeaker = next(filter(lambda s: s['speakerstatus'] == 'main-speaker', speech), { 'speaker': 'Unknown' })['speaker']
+            last_speaker = last_speaker_info(turns)
             yield turns
 
     # FIXME: process trailing <p>?
@@ -215,6 +214,23 @@ def fix_fullname(label: str) -> str:
     label = label.replace('Dr. ', '').replace('h. c. ', '').replace('Prof. ', '')
     return label
 
+def last_speaker_info(turns):
+    # Find the last turn item for which speaker is not null
+    # (it may be a comment)
+    sp = [ t
+           for t in turns
+           if t['speaker'] is not None ]
+    if sp:
+        return {
+            'speaker': sp[-1]['speaker'],
+            'speakerstatus': sp[-1]['speakerstatus']
+        }
+    else:
+        return {
+            'speaker': None,
+            'speakerstatus': None
+        }
+
 def parse_transcript(filename, sourceUri=None):
     # We are mapping 1 self-contained object/structure to each tagesordnungspunkt
     # This method is a generator that yields tagesordnungspunkt structures
@@ -260,15 +276,17 @@ def parse_transcript(filename, sourceUri=None):
     # Store speaker dict
     speaker_info = parse_speakers(root.findall('.//redner'))
 
-    speaker = "Unknown"
-    speakerstatus = "Unknown"
+    last_speaker = {
+        'speaker': "Unknown",
+        'speakerstatus': "Unknown"
+    }
 
     speechIndex = 0
     # Pass last speaker info from one speech to the next one
     for op in [ *root.findall('.//sitzungsbeginn'),
                 *root.findall('.//tagesordnungspunkt'),
                 *root.findall('.//sitzungsende') ]:
-        speeches = list(parse_ordnungpunkt(op, speaker, speakerstatus))
+        speeches = list(parse_ordnungpunkt(op, last_speaker))
         if op.tag == 'sitzungsbeginn':
             title = 'Sitzungseröffnung'
         elif op.tag == 'sitzungsende':
@@ -278,9 +296,8 @@ def parse_transcript(filename, sourceUri=None):
 
 
         if speeches:
-            # Use last turn from last speech info to get last speaker
-            speaker = speeches[-1][-1]['speaker']
-            speakerstatus = speeches[-1][-1]['speakerstatus']
+            # Use turn info from last speech to get last speaker
+            last_speaker = last_speaker_info(speeches[-1])
 
         documents = list(parse_documents(op))
 
@@ -295,6 +312,8 @@ def parse_transcript(filename, sourceUri=None):
                 info = speaker_info.get(fullname)
                 if info:
                     return {
+                        # FIXME: this could be memberOfGovernment / Other
+                        # But this information is present in media, not in proceedings
                         "type": "memberOfParliament",
                         "label": fix_fullname(fullname),
                         "firstname": info['firstname'],
@@ -304,6 +323,7 @@ def parse_transcript(filename, sourceUri=None):
                     }
                 else:
                     return {
+                        # FIXME: this could be memberOfGovernment / Other
                         "type": "memberOfParliament",
                         "label": fix_fullname(fullname),
                         "context": status
