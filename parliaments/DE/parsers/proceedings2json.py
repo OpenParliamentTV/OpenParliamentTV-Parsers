@@ -24,8 +24,8 @@ STATUS_TRANSLATION = {
     'Präsidentin': 'president',
     'Vizepräsident': 'vice-president',
     'Vizepräsidentin': 'vice-president',
-    'Alterspräsident': 'co-president',
-    'Alterspräsidentin': 'co-president',
+    'Alterspräsident': 'interim-president',
+    'Alterspräsidentin': 'interim-president',
 }
 
 ddmmyyyy_re = re.compile('(?P<dd>\d\d)\.(?P<mm>\d\d)\.(?P<yyyy>\d\d\d\d)')
