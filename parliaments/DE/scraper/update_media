@@ -8,9 +8,10 @@ logger = logging.getLogger(__name__)
 
 import argparse
 from pathlib import Path
+import re
 import sys
 
-from fetch_media import download_data, get_filename
+from fetch_media import download_meeting_data, download_data, get_filename
 
 def update_media_directory(proc_dir, media_dir, force=False):
     for proc in sorted(proc_dir.glob('*-data.xml')):
@@ -22,25 +23,52 @@ def update_media_directory(proc_dir, media_dir, force=False):
             logger.debug(f"Loading {period}-{meeting} data into {filename}")
             download_data(period, meeting, media_dir)
 
+def update_media_directory_period(period, media_dir, force=False):
+    # Fetch root page for period. This will allow us to determine the
+    # most recent meeting number and then try to fetch them when needed
+    rootinfo = download_meeting_data(period, media_dir, root_only=True)
+    if not rootinfo['entries']:
+        logger.error("No entries for period {period} - maybe a server timeout?")
+        return
+    # Get latest Sitzung/meeting number from first entry title
+    latest_title = rootinfo['entries'][0]['title']
+    numbers = re.findall('\((\d+)\.\sSitzung', latest_title)
+    if not numbers:
+        logger.error(f"Cannot determine latest meeting number from latest entry: {latest_title}")
+        return
+    latest_number = int(numbers[0])
+    logger.info(f"Download period {period} meetings from {latest_number} downwards" )
+    for meeting in range(latest_number, 0, -1):
+        filename = get_filename(period, meeting)
+        if force or not (media_dir / filename).exists():
+            logger.debug(f"Loading {period}-{meeting} data into {filename}")
+            download_data(period, meeting, media_dir)
+
 if __name__ == "__main__":
 
     parser = argparse.ArgumentParser(description="Update media files corresponding to proceeding XML files.")
-    parser.add_argument("proceedings_dir", type=str, nargs='?',
-                        help="Proceedings directory (input)")
     parser.add_argument("media_dir", type=str, nargs='?',
                         help="Media directory (output)")
     parser.add_argument("--debug", dest="debug", action="store_true",
                         default=False,
                         help="Display debug messages")
+    parser.add_argument("--from-proceedings", type=str,
+                        help="Proceedings directory (input)")
+    parser.add_argument("--from-period", type=int,
+                        help="Period to fetch")
     parser.add_argument("--force", dest="force", action="store_true",
                         default=False,
-                        help="Force loading of data for a meeting even if the file already exists")
+                        help="Force loading of data for a meeting even if the corresponding file already exists")
     args = parser.parse_args()
-    if args.media_dir is None or args.proceedings_dir is None:
+    if args.media_dir is None or (args.from_proceedings is None
+                                  and args.from_period is None):
         parser.print_help()
         sys.exit(1)
     loglevel = logging.INFO
     if args.debug:
         loglevel=logging.DEBUG
     logging.basicConfig(level=loglevel)
-    update_media_directory(Path(args.proceedings_dir), Path(args.media_dir), force=args.force)
+    if args.from_proceedings:
+        update_media_directory(Path(args.from_proceedings), Path(args.media_dir), force=args.force)
+    elif args.from_period:
+        update_media_directory_period(args.from_period, Path(args.media_dir), force=args.force)
