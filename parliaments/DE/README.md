@@ -27,14 +27,17 @@ into the `data/examples/proceedings` directory.
 
 Media data can be fetched by the `scraper/fetch_media.py` script, by
 providing period and meeting numbers - it will handle feed
-pagination. This script is used by the `update_media` script, which
-will use the `proceedings` directory content to determine the
-appropriate period and meeting numbers, and download the corresponding
-media data, directly in json format.
+pagination.
+
+This script is used by the `update_media` script, which can use either
+the `proceedings` directory content (`--from-proceedings` option) to
+determine the appropriate period and meeting numbers, or a given
+period number (`--from-period` option). It will download the
+corresponding media data, directly in unified json format.
 
 The Bundestag media server regularly has trouble downloading specified
 period/meeting data (it looks like some kind of timeout in building
 data). The `update_media` script will by default only try to download
-files that are not already existing. It can thus be necessary to run
-it multiple times, in order to go over the 503 errors from the
-webserver.
+files that are not already existing in the output directory. It can
+thus be run multiple times, in order to go over the 503 errors from
+the webserver.
