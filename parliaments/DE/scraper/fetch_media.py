@@ -47,7 +47,7 @@ def next_rss(data):
     else:
         return None
 
-def download_meeting_data(period: int, number: int = None):
+def download_meeting_data(period: int, number: int = None, root_only=False):
     """Download data for a given meeting, handling pagination.
     """
     if number is None:
@@ -64,6 +64,11 @@ def download_meeting_data(period: int, number: int = None):
         logger.warning(f"Download error ({root['status']}) - ignoring entries")
         return { 'root': root, 'entries': [] }
     entries = root['entries']
+    if root_only:
+        # We only want root. Populate entries anyway, because this
+        # allows the calling layer to test for ['entries'] emptiness
+        # to know if something went wrong.
+        return { 'root': root, 'entries': root['entries'] }
     next_url = next_rss(root)
     while next_url:
         logger.info(f"Downloading {next_url}")
