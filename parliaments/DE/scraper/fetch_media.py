@@ -87,7 +87,7 @@ def get_filename(period, meeting=None):
         # Only period is specified
         return f"{period}-all-media.json"
     else:
-        return f"{period}{meeting.rjust(3, '0')}-media.json"
+        return f"{period}{str(meeting).rjust(3, '0')}-media.json"
 
 def download_data(period, meeting=None, output=None, save_raw_data=False):
     filename = get_filename(period, meeting)
