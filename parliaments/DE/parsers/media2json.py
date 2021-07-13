@@ -148,11 +148,26 @@ def parse_media_data(data) -> dict:
 
         metadata = extract_title_data(e['title'])
         if metadata is not None:
+            # Faction may encode only faction, or role/faction information.
+            # jq -r '.[] | .people[0].faction' data/examples/nmedia/*json | sort -u
+            # in old dumps to get all different values.
+            full_faction = metadata.get('faction', '')
+            if '/' in full_faction:
+                # Maybe it encodes a role
+                role, faction = full_faction.split('/', 1)
+                if role in ('CDU', 'B90'):
+                    # Special cases for CDU and B90
+                    faction = full_faction
+                    role = None
+            else:
+                faction = full_faction
+                role = None
             item['people'] = [
                 {
                     'label': fix_fullname(metadata.get('fullname', '')),
-                    'faction': metadata.get('faction', ''),
+                    'faction': faction,
                     'context': 'main-speaker',
+                    'role': role
                 }
             ]
             if metadata.get('session_info') is not None:
