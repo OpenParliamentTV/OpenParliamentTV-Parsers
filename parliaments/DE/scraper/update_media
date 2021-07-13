@@ -13,7 +13,7 @@ import sys
 
 from fetch_media import download_meeting_data, download_data, get_filename
 
-def update_media_directory(proc_dir, media_dir, force=False):
+def update_media_directory(proc_dir, media_dir, force=False, save_raw_data=False):
     for proc in sorted(proc_dir.glob('*-data.xml')):
         basename = proc.name
         period = basename[:2]
@@ -21,9 +21,9 @@ def update_media_directory(proc_dir, media_dir, force=False):
         filename = get_filename(period, meeting)
         if force or not (media_dir / filename).exists():
             logger.debug(f"Loading {period}-{meeting} data into {filename}")
-            download_data(period, meeting, media_dir)
+            download_data(period, meeting, media_dir, save_raw_data=save_raw_data)
 
-def update_media_directory_period(period, media_dir, force=False):
+def update_media_directory_period(period, media_dir, force=False, save_raw_data=False):
     # Fetch root page for period. This will allow us to determine the
     # most recent meeting number and then try to fetch them when needed
     rootinfo = download_meeting_data(period, media_dir, root_only=True)
@@ -42,7 +42,7 @@ def update_media_directory_period(period, media_dir, force=False):
         filename = get_filename(period, meeting)
         if force or not (media_dir / filename).exists():
             logger.debug(f"Loading {period}-{meeting} data into {filename}")
-            download_data(period, meeting, media_dir)
+            download_data(period, meeting, media_dir, save_raw_data=save_raw_data)
 
 if __name__ == "__main__":
 
@@ -59,6 +59,9 @@ if __name__ == "__main__":
     parser.add_argument("--force", dest="force", action="store_true",
                         default=False,
                         help="Force loading of data for a meeting even if the corresponding file already exists")
+    parser.add_argument("--save-raw-data", dest="save_raw_data", action="store_true",
+                        default=False,
+                        help="Save raw data in JSON format in addition to converted JSON data. It will be an object with 'root' (first page) and 'entries' (all entries for the period/meeting) keys.")
     args = parser.parse_args()
     if args.media_dir is None or (args.from_proceedings is None
                                   and args.from_period is None):
@@ -69,6 +72,6 @@ if __name__ == "__main__":
         loglevel=logging.DEBUG
     logging.basicConfig(level=loglevel)
     if args.from_proceedings:
-        update_media_directory(Path(args.from_proceedings), Path(args.media_dir), force=args.force)
+        update_media_directory(Path(args.from_proceedings), Path(args.media_dir), force=args.force, save_raw_data=args.save_raw_data)
     elif args.from_period:
-        update_media_directory_period(args.from_period, Path(args.media_dir), force=args.force)
+        update_media_directory_period(args.from_period, Path(args.media_dir), force=args.force, save_raw_data=args.save_raw_data)
