@@ -167,7 +167,13 @@ def parse_ordnungpunkt(op, last_speaker: dict):
             last_speaker = last_speaker_info(turns)
             yield turns
 
-    # FIXME: process trailing <p>?
+    # Trailing <p> elements after last <rede>
+    closing = list(reversed(list(takewhile(lambda n: n.tag in ('p', 'name'), reversed(elements)))))
+    if closing:
+        turns = list(parse_speech(closing, last_speaker))
+        if turns:
+            last_speaker = last_speaker_info(turns)
+            yield turns
 
 def parse_documents(op):
     for doc in op.findall('p[@klasse="T_Drs"]'):
