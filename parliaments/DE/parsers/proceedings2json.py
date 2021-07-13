@@ -70,6 +70,9 @@ def parse_speech(elements: list, last_speaker: dict):
     # speakerstatus: president / vice-president / main-speaker / speaker
     speaker = last_speaker['speaker']
     speakerstatus = last_speaker['speakerstatus']
+
+    # Memorize main_speaker for the session, so that other speakers that may intervene in the same speech are classified as 'speaker'
+    main_speaker = None
     for c in elements:
         if c.tag == 'name':
             # Pr/VP name, strip trailing :
@@ -98,7 +101,15 @@ def parse_speech(elements: list, last_speaker: dict):
                 firstname = c.findtext('.//vorname') or ""
                 lastname = c.findtext('.//nachname') or ""
                 speaker = f"{firstname} {lastname}"
-                speakerstatus = 'main-speaker'
+                if main_speaker is None:
+                    main_speaker = speaker
+                    speakerstatus = 'main-speaker'
+                else:
+                    if main_speaker == speaker:
+                        speakerstatus = 'main-speaker'
+                    else:
+                        # Plain speaker - there is already a main_speaker for the speech
+                        speakerstatus = 'speaker'
                 continue
             elif klasse == 'N':
                 # Speaker name - Präsident or Vizepräsident
