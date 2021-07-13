@@ -96,8 +96,20 @@ def get_filename(period, meeting=None):
 
 def download_data(period, meeting=None, output=None, save_raw_data=False):
     filename = get_filename(period, meeting)
+    raw_filename = f"raw-{filename}"
+    if output:
+        output_dir = Path(output)
+        if not output_dir.is_dir():
+            output_dir.mkdir(parents=True)
     try:
-        raw_data = download_meeting_data(period, meeting)
+        if output and (output_dir / raw_filename).exists():
+            # There is a raw data dump. Use it rather than downloading
+            # it again.
+            logger.warning(f"Using data dump {raw_filename}")
+            with open(output_dir / raw_filename) as f:
+                raw_data = json.load(f)
+        else:
+            raw_data = download_meeting_data(period, meeting)
         if not raw_data['entries']:
             # No entries - something must have gone wrong. Bail out
             # import IPython; IPython.embed()
@@ -109,17 +121,14 @@ def download_data(period, meeting=None, output=None, save_raw_data=False):
 
     logger.debug(f"Saving {len(data)} entries into {filename}")
     if output:
-        output_dir = Path(output)
-        if not output_dir.is_dir():
-            output_dir.mkdir(parents=True)
         with open(output_dir / filename, 'w') as f:
-            json.dump(data, f, indent=2)
-        if save_raw_data:
-            with open(output_dir / f"raw-{filename}", 'w') as f:
-                json.dump(raw_data, f, indent=2)
+            json.dump(data, f, indent=2, ensure_ascii=False)
+        if save_raw_data and not (output_dir / raw_filename).exists():
+            with open(output_dir / raw_filename, 'w') as f:
+                json.dump(raw_data, f, indent=2, ensure_ascii=False)
     else:
         # No output dir option - dump to stdout
-        json.dump(data, sys.stdout, indent=2)
+        json.dump(data, sys.stdout, indent=2, ensure_ascii=False)
 
 if __name__ == "__main__":
 
