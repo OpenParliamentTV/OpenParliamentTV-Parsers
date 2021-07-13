@@ -107,6 +107,7 @@ def download_data(period, meeting=None, output=None, save_raw_data=False):
         logger.exception("Error - going into debug mode")
         import IPython; IPython.embed()
 
+    logger.debug(f"Saving {len(data)} entries into {filename}")
     if output:
         output_dir = Path(output)
         if not output_dir.is_dir():
