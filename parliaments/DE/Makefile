@@ -19,7 +19,7 @@ all: $(NEWMEDIA_DEST) $(TRANSCRIPT_DEST) $(MERGE_DEST)
 download:
 	$(BASEDIR)/scraper/fetch_proceedings.py $(DATADIR)/proceedings
 	# Fetch media files corresponding to proceedings files
-	$(BASEDIR)/scraper/update_media $(DATADIR)/proceedings $(DATADIR)/nmedia
+	$(BASEDIR)/scraper/update_media --from-proceedings $(DATADIR)/proceedings $(DATADIR)/nmedia --save-raw-data
 
 update: download all
 
