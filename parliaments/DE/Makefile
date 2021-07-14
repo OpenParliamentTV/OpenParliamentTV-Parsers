@@ -1,29 +1,31 @@
 MAKEFILE_PATH := $(abspath $(lastword $(MAKEFILE_LIST)))
 BASEDIR := $(dir $(MAKEFILE_PATH))
 
-DATADIR := $(BASEDIR)/data/examples
+DATADIR := $(BASEDIR)/data
 
 MEDIA_SOURCE := $(wildcard $(DATADIR)/media/*.xml)
 TRANSCRIPT_SOURCE := $(wildcard $(DATADIR)/proceedings/*.xml)
 
 # MEDIA_DEST := $(patsubst %.xml,%.json,$(MEDIA_SOURCE))
 TRANSCRIPT_DEST := $(patsubst %.xml,%.json,$(TRANSCRIPT_SOURCE))
-NEWMEDIA_DEST := $(wildcard $(DATADIR)/nmedia/*-media.json)
+MEDIA_DEST := $(wildcard $(DATADIR)/media/*-media.json)
 
 MERGE_DEST := $(patsubst %-data.json,%-merged.json,$(TRANSCRIPT_DEST))
 
 # all: ;echo $(MEDIA_SOURCE)
-all: $(NEWMEDIA_DEST) $(TRANSCRIPT_DEST) $(MERGE_DEST)
+all: $(MEDIA_DEST) $(TRANSCRIPT_DEST) $(MERGE_DEST)
 	;echo $(MERGE_DEST)
 
 download:
 	$(BASEDIR)/scraper/fetch_proceedings.py $(DATADIR)/proceedings
+	# Fetch media files from period 17
+	$(BASEDIR)/scraper/update_media --from-period 17 $(DATADIR)/media --save-raw-data
 	# Fetch media files corresponding to proceedings files
-	$(BASEDIR)/scraper/update_media --from-proceedings $(DATADIR)/proceedings $(DATADIR)/nmedia --save-raw-data
+	# $(BASEDIR)/scraper/update_media --from-proceedings $(DATADIR)/proceedings $(DATADIR)/media --save-raw-data
 
 update: download all
 
-%-merged.json: %-data.json ../nmedia/%-media.json
+%-merged.json: %-data.json ../media/%-media.json
 	$(BASEDIR)/merger/merge_session.py --output=$(DATADIR)/merged $^
 
 %-media.json: %-media.xml
@@ -35,3 +37,4 @@ update: download all
 clean:
 	$(RM) $(DATADIR)/media/*.json
 	$(RM) $(DATADIR)/proceedings/*.json
+	$(RM) $(DATADIR)/merged/*.json
