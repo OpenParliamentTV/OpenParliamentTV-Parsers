@@ -225,16 +225,280 @@
   {
     "parliament": "DE",
     "electoralPeriod": {
-      "number": 19
+      "number": "19"
     },
     "session": {
-      "number": 5
+      "number": "5",
+      "dateStart": "2017-12-13T11:00",
+      "dateEnd": "2017-12-13T19:46"
     },
     "agendaItem": {
-      "title": "Tagesordnungspunkt 10",
       "officialTitle": "Tagesordnungspunkt 10",
-      "speechIndex": 3
+      "speechIndex": 3,
+      "title": "Tagesordnungspunkt 10"
     },
+    "people": [
+      {
+        "type": "memberOfParliament",
+        "label": "Thomas de Maizière",
+        "firstname": "Thomas",
+        "lastname": "Maizière",
+        "context": "main-speaker",
+        "faction": ""
+      },
+      {
+        "type": "memberOfParliament",
+        "label": "Wolfgang Schäuble",
+        "context": "president"
+      }
+    ],
+    "textContents": [
+      {
+        "type": "proceedings",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19005-data.xml",
+        "creator": "Deutscher Bundestag",
+        "license": "Public Domain",
+        "language": "DE-de",
+        "originTextID": "",
+        "textBody": [
+          {
+            "type": "speech",
+            "speaker": "Thomas de Maizière",
+            "speakerstatus": "main-speaker",
+            "text": "Vielen Dank. – Herr Präsident! Liebe Kolleginnen und Kollegen! Mit dem Asylverfahrensbeschleunigungsgesetz vom Oktober 2015 wurde eine Berichtspflicht über die dort bezeichneten sicheren Herkunftsstaaten eingeführt. Die Bundesregierung legt dem Deutschen Bundestag danach alle zwei Jahre einen solchen Bericht vor, ob die Voraussetzungen für die Einstufung von solchen Staaten als sichere Herkunftsstaaten vorliegen. Der Bericht liegt Ihnen vor.",
+            "sentences": [
+              {
+                "text": "Vielen Dank."
+              },
+              {
+                "text": "– Herr Präsident!"
+              },
+              {
+                "text": "Liebe Kolleginnen und Kollegen!"
+              },
+              {
+                "text": "Mit dem Asylverfahrensbeschleunigungsgesetz vom Oktober 2015 wurde eine Berichtspflicht über die dort bezeichneten sicheren Herkunftsstaaten eingeführt."
+              },
+              {
+                "text": "Die Bundesregierung legt dem Deutschen Bundestag danach alle zwei Jahre einen solchen Bericht vor, ob die Voraussetzungen für die Einstufung von solchen Staaten als sichere Herkunftsstaaten vorliegen."
+              },
+              {
+                "text": "Der Bericht liegt Ihnen vor."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Thomas de Maizière",
+            "speakerstatus": "main-speaker",
+            "text": "Der Bericht wurde von meinem Haus in Zusammenarbeit mit dem Auswärtigen Amt für den Berichtszeitraum vom 1. Oktober 2015 bis zum 31. Juli 2017 erstellt. Der Bericht schildert die Entwicklung der gesellschaftlichen und politischen Verhältnisse, die rechtliche Lage und die tatsächliche Rechtsanwendung in den sicheren Herkunftsstaaten sowie die Entwicklung des Asylgeschehens in Deutschland. Grundlage dieser Schilderung sind aktuelle Lageberichte des Auswärtigen Amtes sowie Auswertungen der Asylstatistik des Bundesamtes für Migration und Flüchtlinge.",
+            "sentences": [
+              {
+                "text": "Der Bericht wurde von meinem Haus in Zusammenarbeit mit dem Auswärtigen Amt für den Berichtszeitraum vom 1. Oktober 2015 bis zum 31. Juli 2017 erstellt."
+              },
+              {
+                "text": "Der Bericht schildert die Entwicklung der gesellschaftlichen und politischen Verhältnisse, die rechtliche Lage und die tatsächliche Rechtsanwendung in den sicheren Herkunftsstaaten sowie die Entwicklung des Asylgeschehens in Deutschland."
+              },
+              {
+                "text": "Grundlage dieser Schilderung sind aktuelle Lageberichte des Auswärtigen Amtes sowie Auswertungen der Asylstatistik des Bundesamtes für Migration und Flüchtlinge."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Thomas de Maizière",
+            "speakerstatus": "main-speaker",
+            "text": "Der Bericht kommt zu dem Ergebnis, dass alle acht Staaten weiterhin die Voraussetzungen für eine Einstufung als sichere Herkunftsstaaten erfüllen. Die Entwicklung in diesen Ländern gibt keine hinreichenden Anhaltspunkte dafür, diese Einstufung zu verändern. Insbesondere ist nach Auffassung der Bundesregierung weiterhin gewährleistet, dass in den acht Staaten generell und durchgängig weder politische Verfolgung noch Folter oder unmenschliche oder erniedrigende Bestrafung oder Behandlung noch Bedrohung infolge willkürlicher Gewalt im Rahmen eines internationalen oder innerstaatlichen bewaffneten Konfliktes zu befürchten sind.",
+            "sentences": [
+              {
+                "text": "Der Bericht kommt zu dem Ergebnis, dass alle acht Staaten weiterhin die Voraussetzungen für eine Einstufung als sichere Herkunftsstaaten erfüllen."
+              },
+              {
+                "text": "Die Entwicklung in diesen Ländern gibt keine hinreichenden Anhaltspunkte dafür, diese Einstufung zu verändern."
+              },
+              {
+                "text": "Insbesondere ist nach Auffassung der Bundesregierung weiterhin gewährleistet, dass in den acht Staaten generell und durchgängig weder politische Verfolgung noch Folter oder unmenschliche oder erniedrigende Bestrafung oder Behandlung noch Bedrohung infolge willkürlicher Gewalt im Rahmen eines internationalen oder innerstaatlichen bewaffneten Konfliktes zu befürchten sind."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Thomas de Maizière",
+            "speakerstatus": "main-speaker",
+            "text": "Ein Indikator dabei ist die sogenannte Gesamtschutzquote. Die Gesamtschutzquote ergibt sich aus der Anzahl der Asylanerkennungen, der Gewährung von Flüchtlingsschutz und der Feststellung eines Abschiebeverbots im Verhältnis zur Gesamtzahl der Asylentscheidungen im Berichtszeitraum. Innerhalb dieses Zeitraums ist die Gesamtschutzquote in allen Ländern zwar tendenziell leicht angestiegen; es handelt sich dabei aber um sehr geringe Veränderungen. Nach wie vor hatten Asylanträge aus den in Rede stehenden acht Ländern in weit über 90 Prozent der Fälle keine Aussicht auf Erfolg. Für die Westbalkanstaaten lag die Gesamtschutzquote fast durchgängig bei unter 3 Prozent. Für die beiden afrikanischen Staaten gab es im Berichtszeitraum starke Schwankungen: Für Ghana lag sie zwischen 1,0 und 6,1 Prozent. In den sieben Quartalen des Berichtszeitraums lag sie fünfmal unter und nur zweimal über 5 Prozent. Für den Senegal lag sie zwischen 0 Prozent und 5,7 Prozent. In den sieben Quartalen lag sie sechsmal unter und nur einmal über 5 Prozent.",
+            "sentences": [
+              {
+                "text": "Ein Indikator dabei ist die sogenannte Gesamtschutzquote."
+              },
+              {
+                "text": "Die Gesamtschutzquote ergibt sich aus der Anzahl der Asylanerkennungen, der Gewährung von Flüchtlingsschutz und der Feststellung eines Abschiebeverbots im Verhältnis zur Gesamtzahl der Asylentscheidungen im Berichtszeitraum."
+              },
+              {
+                "text": "Innerhalb dieses Zeitraums ist die Gesamtschutzquote in allen Ländern zwar tendenziell leicht angestiegen; es handelt sich dabei aber um sehr geringe Veränderungen."
+              },
+              {
+                "text": "Nach wie vor hatten Asylanträge aus den in Rede stehenden acht Ländern in weit über 90 Prozent der Fälle keine Aussicht auf Erfolg."
+              },
+              {
+                "text": "Für die Westbalkanstaaten lag die Gesamtschutzquote fast durchgängig bei unter 3 Prozent."
+              },
+              {
+                "text": "Für die beiden afrikanischen Staaten gab es im Berichtszeitraum starke Schwankungen: Für Ghana lag sie zwischen 1,0 und 6,1 Prozent."
+              },
+              {
+                "text": "In den sieben Quartalen des Berichtszeitraums lag sie fünfmal unter und nur zweimal über 5 Prozent."
+              },
+              {
+                "text": "Für den Senegal lag sie zwischen 0 Prozent und 5,7 Prozent."
+              },
+              {
+                "text": "In den sieben Quartalen lag sie sechsmal unter und nur einmal über 5 Prozent."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Thomas de Maizière",
+            "speakerstatus": "main-speaker",
+            "text": "Insgesamt hat sich die Zahl der Asylsuchenden aus all diesen Ländern erheblich reduziert. Auch die Dauer der Asylverfahren wurde verkürzt. All das zeigt: Das Konzept der sicheren Herkunftsstaaten wirkt. Dennoch: Jeder Antrag wird vom Bundesamt individuell geprüft. In jedem Asylverfahren wird eine persönliche Anhörung durchgeführt, in der ein Antragsteller seine Situation im Herkunftsland schildern kann.",
+            "sentences": [
+              {
+                "text": "Insgesamt hat sich die Zahl der Asylsuchenden aus all diesen Ländern erheblich reduziert."
+              },
+              {
+                "text": "Auch die Dauer der Asylverfahren wurde verkürzt."
+              },
+              {
+                "text": "All das zeigt: Das Konzept der sicheren Herkunftsstaaten wirkt."
+              },
+              {
+                "text": "Dennoch: Jeder Antrag wird vom Bundesamt individuell geprüft."
+              },
+              {
+                "text": "In jedem Asylverfahren wird eine persönliche Anhörung durchgeführt, in der ein Antragsteller seine Situation im Herkunftsland schildern kann."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Thomas de Maizière",
+            "speakerstatus": "main-speaker",
+            "text": "Wir setzen mit der Einstufung als sichere Herkunftsstaaten aber ein Signal, indem wir sagen: Begeben Sie sich nicht auf die kostspielige und gefährliche Reise nach Deutschland, wenn Sie eigentlich gar keinen internationalen Schutz suchen. Chancenlose Asylanträge werden schnell abgelehnt, und abgelehnte Asylbewerber werden schnell in ihre Heimatstaaten zurückgeführt.",
+            "sentences": [
+              {
+                "text": "Wir setzen mit der Einstufung als sichere Herkunftsstaaten aber ein Signal, indem wir sagen: Begeben Sie sich nicht auf die kostspielige und gefährliche Reise nach Deutschland, wenn Sie eigentlich gar keinen internationalen Schutz suchen."
+              },
+              {
+                "text": "Chancenlose Asylanträge werden schnell abgelehnt, und abgelehnte Asylbewerber werden schnell in ihre Heimatstaaten zurückgeführt."
+              }
+            ]
+          },
+          {
+            "type": "comment",
+            "speaker": null,
+            "speakerstatus": null,
+            "text": "(Lachen bei Abgeordneten der AfD)",
+            "sentences": [
+              {
+                "text": "(Lachen bei Abgeordneten der AfD)"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Thomas de Maizière",
+            "speakerstatus": "main-speaker",
+            "text": "Wir wollen weiter unsere Aufnahmekapazitäten für die Menschen bereitstellen, die wirklich Schutz brauchen.",
+            "sentences": [
+              {
+                "text": "Wir wollen weiter unsere Aufnahmekapazitäten für die Menschen bereitstellen, die wirklich Schutz brauchen."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Thomas de Maizière",
+            "speakerstatus": "main-speaker",
+            "text": "In der EU nutzen 16 Staaten das Instrument der sicheren Herkunftsstaaten. Deutschland gehört dabei zu den Staaten mit der kleinsten Liste. Die Niederlande zum Beispiel haben 25 Staaten zu sicheren Herkunftsstaaten erklärt, Frankreich 16 Staaten und Österreich 19 Staaten.",
+            "sentences": [
+              {
+                "text": "In der EU nutzen 16 Staaten das Instrument der sicheren Herkunftsstaaten."
+              },
+              {
+                "text": "Deutschland gehört dabei zu den Staaten mit der kleinsten Liste."
+              },
+              {
+                "text": "Die Niederlande zum Beispiel haben 25 Staaten zu sicheren Herkunftsstaaten erklärt, Frankreich 16 Staaten und Österreich 19 Staaten."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Thomas de Maizière",
+            "speakerstatus": "main-speaker",
+            "text": "Mit der Umsetzung des Konzeptes der sicheren Herkunftsstaaten setzen wir weiter auf die große Hilfsbereitschaft gegenüber wirklich verfolgten Menschen, aber eben auch auf eine kluge und wohlüberlegte Reduzierung des Zuzugs derjenigen, die nicht verfolgt werden.",
+            "sentences": [
+              {
+                "text": "Mit der Umsetzung des Konzeptes der sicheren Herkunftsstaaten setzen wir weiter auf die große Hilfsbereitschaft gegenüber wirklich verfolgten Menschen, aber eben auch auf eine kluge und wohlüberlegte Reduzierung des Zuzugs derjenigen, die nicht verfolgt werden."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "Danke sehr. – Bevor ich das Wort zur ersten Frage erteile, möchte ich unsere Ein-Minuten-Regelung erläutern. Es hat sich seit längerem bewährt, für Frage und Antwort jeweils nur eine Minute zu verwenden, um möglichst vielen die Gelegenheit zu geben, Fragen zu stellen. Um Sie bei der Einhaltung der Minute zu unterstützen, gibt es optische Signale. Die Uhren oberhalb der Hammelsprungtüren sowie rechts und links von mir zeigen jeweils die verbleibende Restredezeit in Sekunden an. Zusätzlich gibt es ein Lichtsignal, das zunächst grün leuchtet. Die letzten 30 Sekunden werden gelb gezeigt, und nach Ablauf einer Minute beginnt es rot zu blinken. Wenn es rot blinkt, muss der Präsident irgendetwas tun.",
+            "sentences": [
+              {
+                "text": "Danke sehr."
+              },
+              {
+                "text": "– Bevor ich das Wort zur ersten Frage erteile, möchte ich unsere Ein-Minuten-Regelung erläutern."
+              },
+              {
+                "text": "Es hat sich seit längerem bewährt, für Frage und Antwort jeweils nur eine Minute zu verwenden, um möglichst vielen die Gelegenheit zu geben, Fragen zu stellen."
+              },
+              {
+                "text": "Um Sie bei der Einhaltung der Minute zu unterstützen, gibt es optische Signale."
+              },
+              {
+                "text": "Die Uhren oberhalb der Hammelsprungtüren sowie rechts und links von mir zeigen jeweils die verbleibende Restredezeit in Sekunden an."
+              },
+              {
+                "text": "Zusätzlich gibt es ein Lichtsignal, das zunächst grün leuchtet."
+              },
+              {
+                "text": "Die letzten 30 Sekunden werden gelb gezeigt, und nach Ablauf einer Minute beginnt es rot zu blinken."
+              },
+              {
+                "text": "Wenn es rot blinkt, muss der Präsident irgendetwas tun."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "Jetzt bitte ich, zunächst Fragen zu dem Themenbereich, über den der Bundesinnenminister eben berichtet hat, zu stellen. Es wurde eine ganze Reihe von Fragen angemeldet. Die erste Frage stellt der Kollege Marian Wendt von der CDU/CSU-Fraktion.",
+            "sentences": [
+              {
+                "text": "Jetzt bitte ich, zunächst Fragen zu dem Themenbereich, über den der Bundesinnenminister eben berichtet hat, zu stellen."
+              },
+              {
+                "text": "Es wurde eine ganze Reihe von Fragen angemeldet."
+              },
+              {
+                "text": "Die erste Frage stellt der Kollege Marian Wendt von der CDU/CSU-Fraktion."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "documents": [],
+    "key": "19-5 tagesordnungspunkt 10 (thomas de maiziere)",
+    "dateStart": "2017-12-13T10:03:44",
+    "dateEnd": "2017-12-13T10:33:18",
     "media": {
       "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7181718/7181718_h264_720_400_2000kb_baseline_de_2192.mp4",
       "sourcePage": "http://dbtg.tv/fvid/7181718",
@@ -243,32 +507,110 @@
       "license": "CC-BY-SA",
       "originMediaID": "7181718",
       "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7181718/7181718_mp3_128kb_stereo_de_128.mp3"
-    },
-    "dateStart": "2017-12-13T10:03:44",
-    "dateEnd": "2017-12-13T10:33:18",
-    "people": [
-      {
-        "label": "Thomas de Maizière",
-        "faction": "CDU/CSU",
-        "context": "main-speaker",
-        "role": "Bundesminister des Innern"
-      }
-    ],
-    "key": "19-5 tagesordnungspunkt 10 (thomas de maiziere)"
+    }
   },
   {
     "parliament": "DE",
     "electoralPeriod": {
-      "number": 19
+      "number": "19"
     },
     "session": {
-      "number": 5
+      "number": "5",
+      "dateStart": "2017-12-13T11:00",
+      "dateEnd": "2017-12-13T19:46"
     },
     "agendaItem": {
-      "title": "Tagesordnungspunkt 10",
       "officialTitle": "Tagesordnungspunkt 10",
-      "speechIndex": 4
+      "speechIndex": 5,
+      "title": "Tagesordnungspunkt 10"
     },
+    "people": [
+      {
+        "type": "memberOfParliament",
+        "label": "Thomas de Maizière",
+        "firstname": "Thomas",
+        "lastname": "Maizière",
+        "context": "main-speaker",
+        "faction": ""
+      },
+      {
+        "type": "memberOfParliament",
+        "label": "Wolfgang Schäuble",
+        "context": "president"
+      }
+    ],
+    "textContents": [
+      {
+        "type": "proceedings",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19005-data.xml",
+        "creator": "Deutscher Bundestag",
+        "license": "Public Domain",
+        "language": "DE-de",
+        "originTextID": "",
+        "textBody": [
+          {
+            "type": "speech",
+            "speaker": "Thomas de Maizière",
+            "speakerstatus": "main-speaker",
+            "text": "Zunächst einmal ist es natürlich eine politische Aussage, dass die Bundesregierung und der Deutsche Bundestag mit Zustimmung des Bundesrates – ein solches Gesetz bedarf ja der Zustimmung des Bundesrates – der Auffassung sind, dass ein solches Land ein sicheres Herkunftsland ist. Das ist ein klares politisches Signal.",
+            "sentences": [
+              {
+                "text": "Zunächst einmal ist es natürlich eine politische Aussage, dass die Bundesregierung und der Deutsche Bundestag mit Zustimmung des Bundesrates – ein solches Gesetz bedarf ja der Zustimmung des Bundesrates – der Auffassung sind, dass ein solches Land ein sicheres Herkunftsland ist."
+              },
+              {
+                "text": "Das ist ein klares politisches Signal."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Thomas de Maizière",
+            "speakerstatus": "main-speaker",
+            "text": "Zweitens sind an diese Einstufung rechtliche Folge geknüpft: verkürzte Asylverfahren, Beweislastumkehr – trotzdem eine Anhörung –, sehr kurze Fristen zur Einlegung einer Klage, wobei die Klage keine aufschiebende Wirkung hat. All das führt zu einer Beschleunigung.",
+            "sentences": [
+              {
+                "text": "Zweitens sind an diese Einstufung rechtliche Folge geknüpft: verkürzte Asylverfahren, Beweislastumkehr – trotzdem eine Anhörung –, sehr kurze Fristen zur Einlegung einer Klage, wobei die Klage keine aufschiebende Wirkung hat."
+              },
+              {
+                "text": "All das führt zu einer Beschleunigung."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Thomas de Maizière",
+            "speakerstatus": "main-speaker",
+            "text": "Schließlich haben wir mit dem Asylpaket II die Regelung geschaffen, dass Antragsteller aus sicheren Herkunftsstaaten in Einrichtungen untergebracht werden können, das Verfahren dort stattfindet, für die Betroffenen dort eine Wohnpflicht besteht, eine Verletzung dieser Wohnpflicht Auswirkungen auf das Asylverfahren hat und aus den Einrichtungen zurückgeführt werden kann. All das zusammengenommen führt zu einer erheblichen Reduzierung der Zahl.",
+            "sentences": [
+              {
+                "text": "Schließlich haben wir mit dem Asylpaket II die Regelung geschaffen, dass Antragsteller aus sicheren Herkunftsstaaten in Einrichtungen untergebracht werden können, das Verfahren dort stattfindet, für die Betroffenen dort eine Wohnpflicht besteht, eine Verletzung dieser Wohnpflicht Auswirkungen auf das Asylverfahren hat und aus den Einrichtungen zurückgeführt werden kann."
+              },
+              {
+                "text": "All das zusammengenommen führt zu einer erheblichen Reduzierung der Zahl."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "Danke sehr. – Die nächste Frage hat der Kollege Dr. Gottfried Curio von der AfD-Fraktion.",
+            "sentences": [
+              {
+                "text": "Danke sehr."
+              },
+              {
+                "text": "– Die nächste Frage hat der Kollege Dr. Gottfried Curio von der AfD-Fraktion."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "documents": [],
+    "key": "19-5 tagesordnungspunkt 10 (thomas de maiziere) #1",
+    "dateStart": "2017-12-13T10:33:18",
+    "dateEnd": "2017-12-13T10:35:26",
     "media": {
       "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7181719/7181719_h264_720_400_2000kb_baseline_de_2192.mp4",
       "sourcePage": "http://dbtg.tv/fvid/7181719",
@@ -277,32 +619,128 @@
       "license": "CC-BY-SA",
       "originMediaID": "7181719",
       "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7181719/7181719_mp3_128kb_stereo_de_128.mp3"
-    },
-    "dateStart": "2017-12-13T10:33:18",
-    "dateEnd": "2017-12-13T10:35:26",
-    "people": [
-      {
-        "label": "Thomas de Maizière",
-        "faction": "CDU/CSU",
-        "context": "main-speaker",
-        "role": "Bundesminister des Innern"
-      }
-    ],
-    "key": "19-5 tagesordnungspunkt 10 (thomas de maiziere) #1"
+    }
   },
   {
     "parliament": "DE",
     "electoralPeriod": {
-      "number": 19
+      "number": "19"
     },
     "session": {
-      "number": 5
+      "number": "5",
+      "dateStart": "2017-12-13T11:00",
+      "dateEnd": "2017-12-13T19:46"
     },
     "agendaItem": {
-      "title": "Tagesordnungspunkt 10",
       "officialTitle": "Tagesordnungspunkt 10",
-      "speechIndex": 5
+      "speechIndex": 7,
+      "title": "Tagesordnungspunkt 10"
     },
+    "people": [
+      {
+        "type": "memberOfParliament",
+        "label": "Thomas de Maizière",
+        "firstname": "Thomas",
+        "lastname": "Maizière",
+        "context": "main-speaker",
+        "faction": ""
+      },
+      {
+        "type": "memberOfParliament",
+        "label": "Wolfgang Schäuble",
+        "context": "president"
+      }
+    ],
+    "textContents": [
+      {
+        "type": "proceedings",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19005-data.xml",
+        "creator": "Deutscher Bundestag",
+        "license": "Public Domain",
+        "language": "DE-de",
+        "originTextID": "",
+        "textBody": [
+          {
+            "type": "speech",
+            "speaker": "Thomas de Maizière",
+            "speakerstatus": "main-speaker",
+            "text": "Herr Abgeordneter Curio, Deutschland hat nicht die kürzeste Liste. Zum Beispiel hat Irland nur Südafrika als sicheres Herkunftsland eingestuft. Sie finden diese Liste auf den Seiten 37 und 38 des Berichts. Aber, wie gesagt, Deutschland gehört zu den Staaten mit einer kleineren Liste.",
+            "sentences": [
+              {
+                "text": "Herr Abgeordneter Curio, Deutschland hat nicht die kürzeste Liste."
+              },
+              {
+                "text": "Zum Beispiel hat Irland nur Südafrika als sicheres Herkunftsland eingestuft."
+              },
+              {
+                "text": "Sie finden diese Liste auf den Seiten 37 und 38 des Berichts."
+              },
+              {
+                "text": "Aber, wie gesagt, Deutschland gehört zu den Staaten mit einer kleineren Liste."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Thomas de Maizière",
+            "speakerstatus": "main-speaker",
+            "text": "Die bisherige Bundesregierung war der Auffassung, dass die Maghreb-Staaten ebenfalls als sichere Herkunftsstaaten eingestuft werden sollten. Es gab einen entsprechenden Gesetzentwurf, den der Deutsche Bundestag mit der alten politischen Mehrheit beschlossen hat. Der Bundesrat hat dem nicht zugestimmt. Deswegen ist dieser Gesetzentwurf jetzt der Diskontinuität anheimgefallen. Die Verhandlungen, die dazu vielleicht noch stattfinden werden, werden das sicherlich zum Gegenstand haben.",
+            "sentences": [
+              {
+                "text": "Die bisherige Bundesregierung war der Auffassung, dass die Maghreb-Staaten ebenfalls als sichere Herkunftsstaaten eingestuft werden sollten."
+              },
+              {
+                "text": "Es gab einen entsprechenden Gesetzentwurf, den der Deutsche Bundestag mit der alten politischen Mehrheit beschlossen hat."
+              },
+              {
+                "text": "Der Bundesrat hat dem nicht zugestimmt."
+              },
+              {
+                "text": "Deswegen ist dieser Gesetzentwurf jetzt der Diskontinuität anheimgefallen."
+              },
+              {
+                "text": "Die Verhandlungen, die dazu vielleicht noch stattfinden werden, werden das sicherlich zum Gegenstand haben."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Thomas de Maizière",
+            "speakerstatus": "main-speaker",
+            "text": "Die geschäftsführende Bundesregierung ist personen­identisch mit der bisherigen. Deswegen vermute ich, dass sich die politische Einschätzung dazu nicht geändert hat. Aber ich hielte es für klug, einen solchen Gesetzentwurf erst dann einzubringen, wenn sich dafür zumindest im Bundestag eine klare Mehrheit abzeichnet.",
+            "sentences": [
+              {
+                "text": "Die geschäftsführende Bundesregierung ist personen­identisch mit der bisherigen."
+              },
+              {
+                "text": "Deswegen vermute ich, dass sich die politische Einschätzung dazu nicht geändert hat."
+              },
+              {
+                "text": "Aber ich hielte es für klug, einen solchen Gesetzentwurf erst dann einzubringen, wenn sich dafür zumindest im Bundestag eine klare Mehrheit abzeichnet."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "Danke sehr. – Die nächste Frage hat der Kollege ­Thomae von der FDP-Fraktion.",
+            "sentences": [
+              {
+                "text": "Danke sehr."
+              },
+              {
+                "text": "– Die nächste Frage hat der Kollege ­Thomae von der FDP-Fraktion."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "documents": [],
+    "key": "19-5 tagesordnungspunkt 10 (thomas de maiziere) #2",
+    "dateStart": "2017-12-13T10:35:26",
+    "dateEnd": "2017-12-13T10:37:36",
     "media": {
       "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7181720/7181720_h264_720_400_2000kb_baseline_de_2192.mp4",
       "sourcePage": "http://dbtg.tv/fvid/7181720",
@@ -311,32 +749,117 @@
       "license": "CC-BY-SA",
       "originMediaID": "7181720",
       "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7181720/7181720_mp3_128kb_stereo_de_128.mp3"
-    },
-    "dateStart": "2017-12-13T10:35:26",
-    "dateEnd": "2017-12-13T10:37:36",
-    "people": [
-      {
-        "label": "Thomas de Maizière",
-        "faction": "CDU/CSU",
-        "context": "main-speaker",
-        "role": "Bundesminister des Innern"
-      }
-    ],
-    "key": "19-5 tagesordnungspunkt 10 (thomas de maiziere) #2"
+    }
   },
   {
     "parliament": "DE",
     "electoralPeriod": {
-      "number": 19
+      "number": "19"
     },
     "session": {
-      "number": 5
+      "number": "5",
+      "dateStart": "2017-12-13T11:00",
+      "dateEnd": "2017-12-13T19:46"
     },
     "agendaItem": {
-      "title": "Tagesordnungspunkt 10",
       "officialTitle": "Tagesordnungspunkt 10",
-      "speechIndex": 6
+      "speechIndex": 9,
+      "title": "Tagesordnungspunkt 10"
     },
+    "people": [
+      {
+        "type": "memberOfParliament",
+        "label": "Thomas de Maizière",
+        "firstname": "Thomas",
+        "lastname": "Maizière",
+        "context": "main-speaker",
+        "faction": ""
+      },
+      {
+        "type": "memberOfParliament",
+        "label": "Wolfgang Schäuble",
+        "context": "president"
+      }
+    ],
+    "textContents": [
+      {
+        "type": "proceedings",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19005-data.xml",
+        "creator": "Deutscher Bundestag",
+        "license": "Public Domain",
+        "language": "DE-de",
+        "originTextID": "",
+        "textBody": [
+          {
+            "type": "speech",
+            "speaker": "Thomas de Maizière",
+            "speakerstatus": "main-speaker",
+            "text": "Zur ersten Frage. Das beste Argument für den Bundesrat, einem Gesetzentwurf des Bundestages zuzustimmen, ist ein überzeugender Gesetzentwurf. Dazu würde zum Beispiel gehören, wie es der baden-württembergische Ministerpräsident immer sagt, dass die abschließende Entscheidung über die politische Einschätzung eines Drittstaates vorrangig der Bundesregierung und nicht dem politischen Koordinatensystem in einem Bundesland überlassen werden sollte. Das wäre, glaube ich, schon ein sehr überzeugender Weg, eine Mehrheit im Bundesrat zu ermöglichen. Allerdings muss jetzt erst einmal ein neuer Gesetzentwurf, der das regelt, auf den Tisch.",
+            "sentences": [
+              {
+                "text": "Zur ersten Frage."
+              },
+              {
+                "text": "Das beste Argument für den Bundesrat, einem Gesetzentwurf des Bundestages zuzustimmen, ist ein überzeugender Gesetzentwurf."
+              },
+              {
+                "text": "Dazu würde zum Beispiel gehören, wie es der baden-württembergische Ministerpräsident immer sagt, dass die abschließende Entscheidung über die politische Einschätzung eines Drittstaates vorrangig der Bundesregierung und nicht dem politischen Koordinatensystem in einem Bundesland überlassen werden sollte."
+              },
+              {
+                "text": "Das wäre, glaube ich, schon ein sehr überzeugender Weg, eine Mehrheit im Bundesrat zu ermöglichen."
+              },
+              {
+                "text": "Allerdings muss jetzt erst einmal ein neuer Gesetzentwurf, der das regelt, auf den Tisch."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Thomas de Maizière",
+            "speakerstatus": "main-speaker",
+            "text": "Zur zweiten Frage. Sie sehen ja, dass die Anerkennungsquoten nicht bei null liegen, sondern schwanken. Sie schwanken auch quartalsweise; das ist diesem Bericht zu entnehmen. Es kommt durchaus vor, dass der Rechtsstaat so reagiert, dass ein Schutzstatus bejaht wird, wenn jemand glaubhaft versichern kann, dass in seinem Einzelfall eine politische Verfolgung vorliegt. Die Anerkennungsquote, die zwar sehr niedrig ist, die es aber gibt, zeigt, dass das Verfahren funktioniert. Trotzdem muss natürlich nicht das ganze Arsenal der langen Verfahren genutzt werden, wenn die Chancen sehr gering sind.",
+            "sentences": [
+              {
+                "text": "Zur zweiten Frage."
+              },
+              {
+                "text": "Sie sehen ja, dass die Anerkennungsquoten nicht bei null liegen, sondern schwanken."
+              },
+              {
+                "text": "Sie schwanken auch quartalsweise; das ist diesem Bericht zu entnehmen."
+              },
+              {
+                "text": "Es kommt durchaus vor, dass der Rechtsstaat so reagiert, dass ein Schutzstatus bejaht wird, wenn jemand glaubhaft versichern kann, dass in seinem Einzelfall eine politische Verfolgung vorliegt."
+              },
+              {
+                "text": "Die Anerkennungsquote, die zwar sehr niedrig ist, die es aber gibt, zeigt, dass das Verfahren funktioniert."
+              },
+              {
+                "text": "Trotzdem muss natürlich nicht das ganze Arsenal der langen Verfahren genutzt werden, wenn die Chancen sehr gering sind."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "Danke sehr. – Die nächste Frage hat die Kollegin Jelpke, Fraktion Die Linke.",
+            "sentences": [
+              {
+                "text": "Danke sehr."
+              },
+              {
+                "text": "– Die nächste Frage hat die Kollegin Jelpke, Fraktion Die Linke."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "documents": [],
+    "key": "19-5 tagesordnungspunkt 10 (thomas de maiziere) #3",
+    "dateStart": "2017-12-13T10:37:36",
+    "dateEnd": "2017-12-13T10:38:56",
     "media": {
       "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7181721/7181721_h264_720_400_2000kb_baseline_de_2192.mp4",
       "sourcePage": "http://dbtg.tv/fvid/7181721",
@@ -345,32 +868,82 @@
       "license": "CC-BY-SA",
       "originMediaID": "7181721",
       "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7181721/7181721_mp3_128kb_stereo_de_128.mp3"
-    },
-    "dateStart": "2017-12-13T10:37:36",
-    "dateEnd": "2017-12-13T10:38:56",
-    "people": [
-      {
-        "label": "Thomas de Maizière",
-        "faction": "CDU/CSU",
-        "context": "main-speaker",
-        "role": "Bundesminister des Innern"
-      }
-    ],
-    "key": "19-5 tagesordnungspunkt 10 (thomas de maiziere) #3"
+    }
   },
   {
     "parliament": "DE",
     "electoralPeriod": {
-      "number": 19
+      "number": "19"
     },
     "session": {
-      "number": 5
+      "number": "5",
+      "dateStart": "2017-12-13T11:00",
+      "dateEnd": "2017-12-13T19:46"
     },
     "agendaItem": {
-      "title": "Tagesordnungspunkt 10",
       "officialTitle": "Tagesordnungspunkt 10",
-      "speechIndex": 7
+      "speechIndex": 11,
+      "title": "Tagesordnungspunkt 10"
     },
+    "people": [
+      {
+        "type": "memberOfParliament",
+        "label": "Thomas de Maizière",
+        "firstname": "Thomas",
+        "lastname": "Maizière",
+        "context": "main-speaker",
+        "faction": ""
+      },
+      {
+        "type": "memberOfParliament",
+        "label": "Wolfgang Schäuble",
+        "context": "president"
+      }
+    ],
+    "textContents": [
+      {
+        "type": "proceedings",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19005-data.xml",
+        "creator": "Deutscher Bundestag",
+        "license": "Public Domain",
+        "language": "DE-de",
+        "originTextID": "",
+        "textBody": [
+          {
+            "type": "speech",
+            "speaker": "Thomas de Maizière",
+            "speakerstatus": "main-speaker",
+            "text": "Frau Abgeordnete Jelpke, in dem Bericht ist überzeugend dargelegt, wie die Bundesregierung die tatsächliche und die politische Lage in diesen Staaten einschätzt. Das fußt wesentlich auf den Lageberichten des Auswärtigen Amtes, die innerhalb der Bundesregierung aber abgestimmt werden, etwa auch mit dem BMZ, und auch die Integrationsbeauftragte war beteiligt. In die Lageberichte des Auswärtigen Amtes fließen selbstverständlich auch NGO-Berichte aus diesen Staaten mit ein.",
+            "sentences": [
+              {
+                "text": "Frau Abgeordnete Jelpke, in dem Bericht ist überzeugend dargelegt, wie die Bundesregierung die tatsächliche und die politische Lage in diesen Staaten einschätzt."
+              },
+              {
+                "text": "Das fußt wesentlich auf den Lageberichten des Auswärtigen Amtes, die innerhalb der Bundesregierung aber abgestimmt werden, etwa auch mit dem BMZ, und auch die Integrationsbeauftragte war beteiligt."
+              },
+              {
+                "text": "In die Lageberichte des Auswärtigen Amtes fließen selbstverständlich auch NGO-Berichte aus diesen Staaten mit ein."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "Die nächste Frage hat die Kollegin Polat von der Fraktion Bündnis 90/Die Grünen.",
+            "sentences": [
+              {
+                "text": "Die nächste Frage hat die Kollegin Polat von der Fraktion Bündnis 90/Die Grünen."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "documents": [],
+    "key": "19-5 tagesordnungspunkt 10 (thomas de maiziere) #4",
+    "dateStart": "2017-12-13T10:38:56",
+    "dateEnd": "2017-12-13T10:41:18",
     "media": {
       "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7181724/7181724_h264_720_400_2000kb_baseline_de_2192.mp4",
       "sourcePage": "http://dbtg.tv/fvid/7181724",
@@ -379,32 +952,113 @@
       "license": "CC-BY-SA",
       "originMediaID": "7181724",
       "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7181724/7181724_mp3_128kb_stereo_de_128.mp3"
-    },
-    "dateStart": "2017-12-13T10:38:56",
-    "dateEnd": "2017-12-13T10:41:18",
-    "people": [
-      {
-        "label": "Thomas de Maizière",
-        "faction": "CDU/CSU",
-        "context": "main-speaker",
-        "role": "Bundesminister des Innern"
-      }
-    ],
-    "key": "19-5 tagesordnungspunkt 10 (thomas de maiziere) #4"
+    }
   },
   {
     "parliament": "DE",
     "electoralPeriod": {
-      "number": 19
+      "number": "19"
     },
     "session": {
-      "number": 5
+      "number": "5",
+      "dateStart": "2017-12-13T11:00",
+      "dateEnd": "2017-12-13T19:46"
     },
     "agendaItem": {
-      "title": "Tagesordnungspunkt 10",
       "officialTitle": "Tagesordnungspunkt 10",
-      "speechIndex": 8
+      "speechIndex": 13,
+      "title": "Tagesordnungspunkt 10"
     },
+    "people": [
+      {
+        "type": "memberOfParliament",
+        "label": "Thomas de Maizière",
+        "firstname": "Thomas",
+        "lastname": "Maizière",
+        "context": "main-speaker",
+        "faction": ""
+      },
+      {
+        "type": "memberOfParliament",
+        "label": "Wolfgang Schäuble",
+        "context": "president"
+      }
+    ],
+    "textContents": [
+      {
+        "type": "proceedings",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19005-data.xml",
+        "creator": "Deutscher Bundestag",
+        "license": "Public Domain",
+        "language": "DE-de",
+        "originTextID": "",
+        "textBody": [
+          {
+            "type": "speech",
+            "speaker": "Thomas de Maizière",
+            "speakerstatus": "main-speaker",
+            "text": "Frau Abgeordnete, in dem Bericht finden Sie die ausführliche Einschätzung der Lage.",
+            "sentences": [
+              {
+                "text": "Frau Abgeordnete, in dem Bericht finden Sie die ausführliche Einschätzung der Lage."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Thomas de Maizière",
+            "speakerstatus": "main-speaker",
+            "text": "Zur sexuellen Orientierung will ich Ihnen aber gerne Folgendes sagen: Gemäß dem Urteil des EuGH vom 7. November 2013 ist das Unionsrecht dahin gehend auszulegen, dass der bloße Umstand, dass solche sexuellen Handlungen unter Strafe gestellt sind, als solcher keine Verfolgungshandlung darstellt. Vielmehr muss insbesondere die Praxis der staatlichen Behörden und Gerichte mitbetrachtet werden.",
+            "sentences": [
+              {
+                "text": "Zur sexuellen Orientierung will ich Ihnen aber gerne Folgendes sagen: Gemäß dem Urteil des EuGH vom 7. November 2013 ist das Unionsrecht dahin gehend auszulegen, dass der bloße Umstand, dass solche sexuellen Handlungen unter Strafe gestellt sind, als solcher keine Verfolgungshandlung darstellt."
+              },
+              {
+                "text": "Vielmehr muss insbesondere die Praxis der staatlichen Behörden und Gerichte mitbetrachtet werden."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Thomas de Maizière",
+            "speakerstatus": "main-speaker",
+            "text": "Die Rechtsvorschriften werden etwa in den Maghreb-Staaten in der Praxis weniger gegen Einzelpersonen als vielmehr zur Verhinderung der Gründung von Organisationen herangezogen, die sich für die Rechte dieses Personenkreises einsetzen. Das Thema wird immer noch gesellschaftlich tabuisiert. Eine systematische Verfolgung homosexueller Personen findet in diesen Staaten nach Kenntnis der Bundesregierung nicht statt. Wenn das in Ghana und im Senegal anders ist, dann gibt es eben auch die Möglichkeit, den Schutzstatus zu bekommen – aber nur in diesen Einzelfällen.",
+            "sentences": [
+              {
+                "text": "Die Rechtsvorschriften werden etwa in den Maghreb-Staaten in der Praxis weniger gegen Einzelpersonen als vielmehr zur Verhinderung der Gründung von Organisationen herangezogen, die sich für die Rechte dieses Personenkreises einsetzen."
+              },
+              {
+                "text": "Das Thema wird immer noch gesellschaftlich tabuisiert."
+              },
+              {
+                "text": "Eine systematische Verfolgung homosexueller Personen findet in diesen Staaten nach Kenntnis der Bundesregierung nicht statt."
+              },
+              {
+                "text": "Wenn das in Ghana und im Senegal anders ist, dann gibt es eben auch die Möglichkeit, den Schutzstatus zu bekommen – aber nur in diesen Einzelfällen."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "Danke. – Die Frau Kollegin Lindholz, CDU/CSU, hat jetzt die nächste Frage.",
+            "sentences": [
+              {
+                "text": "Danke."
+              },
+              {
+                "text": "– Die Frau Kollegin Lindholz, CDU/CSU, hat jetzt die nächste Frage."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "documents": [],
+    "key": "19-5 tagesordnungspunkt 10 (thomas de maiziere) #5",
+    "dateStart": "2017-12-13T10:41:18",
+    "dateEnd": "2017-12-13T10:42:34",
     "media": {
       "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7181725/7181725_h264_720_400_2000kb_baseline_de_2192.mp4",
       "sourcePage": "http://dbtg.tv/fvid/7181725",
@@ -413,32 +1067,163 @@
       "license": "CC-BY-SA",
       "originMediaID": "7181725",
       "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7181725/7181725_mp3_128kb_stereo_de_128.mp3"
-    },
-    "dateStart": "2017-12-13T10:41:18",
-    "dateEnd": "2017-12-13T10:42:34",
-    "people": [
-      {
-        "label": "Thomas de Maizière",
-        "faction": "CDU/CSU",
-        "context": "main-speaker",
-        "role": "Bundesminister des Innern"
-      }
-    ],
-    "key": "19-5 tagesordnungspunkt 10 (thomas de maiziere) #5"
+    }
   },
   {
     "parliament": "DE",
     "electoralPeriod": {
-      "number": 19
+      "number": "19"
     },
     "session": {
-      "number": 5
+      "number": "5",
+      "dateStart": "2017-12-13T11:00",
+      "dateEnd": "2017-12-13T19:46"
     },
     "agendaItem": {
-      "title": "Tagesordnungspunkt 10",
       "officialTitle": "Tagesordnungspunkt 10",
-      "speechIndex": 9
+      "speechIndex": 15,
+      "title": "Tagesordnungspunkt 10"
     },
+    "people": [
+      {
+        "type": "memberOfParliament",
+        "label": "Thomas de Maizière",
+        "firstname": "Thomas",
+        "lastname": "Maizière",
+        "context": "main-speaker",
+        "faction": ""
+      },
+      {
+        "type": "memberOfParliament",
+        "label": "Wolfgang Schäuble",
+        "context": "president"
+      }
+    ],
+    "textContents": [
+      {
+        "type": "proceedings",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19005-data.xml",
+        "creator": "Deutscher Bundestag",
+        "license": "Public Domain",
+        "language": "DE-de",
+        "originTextID": "",
+        "textBody": [
+          {
+            "type": "speech",
+            "speaker": "Thomas de Maizière",
+            "speakerstatus": "main-speaker",
+            "text": "Frau Abgeordnete Lindholz, zur ersten Frage. In der Tat ist in den Verhandlungen zum gemeinsamen europäischen Asylsystem die Frage einer europäischen Liste Gesprächsgegenstand. Die Kommission hatte vorgeschlagen, dass solche Listen auf europäischer Ebene eingeführt werden, sie dann fünf Jahre parallel gelten und danach die nationalen Listen ihre Gültigkeit verlieren und nur noch die europäische Regelung gilt.",
+            "sentences": [
+              {
+                "text": "Frau Abgeordnete Lindholz, zur ersten Frage."
+              },
+              {
+                "text": "In der Tat ist in den Verhandlungen zum gemeinsamen europäischen Asylsystem die Frage einer europäischen Liste Gesprächsgegenstand."
+              },
+              {
+                "text": "Die Kommission hatte vorgeschlagen, dass solche Listen auf europäischer Ebene eingeführt werden, sie dann fünf Jahre parallel gelten und danach die nationalen Listen ihre Gültigkeit verlieren und nur noch die europäische Regelung gilt."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Thomas de Maizière",
+            "speakerstatus": "main-speaker",
+            "text": "Das hat, jedenfalls auf Ratsebene, keine Mehrheit unter den Mitgliedstaaten gefunden, auch weil es in bestimmten Staaten eben traditionelle Bindungen, etwa nach Afrika, gibt: Frankreich zu bestimmten Staaten, die Niederlande zu bestimmten Staaten, auch Portugal zu bestimmten Staaten. Diese sagen: Wir werden uns von Europa nicht vorschreiben lassen, wie wir den Status dieser Länder einschätzen. – Somit geht der bisherige Vorschlag der Präsidentschaft aus Estland dahin, dass die Listen nebeneinander bestehen. Wie das dann zum Schluss verhandelt wird, wird man sehen.",
+            "sentences": [
+              {
+                "text": "Das hat, jedenfalls auf Ratsebene, keine Mehrheit unter den Mitgliedstaaten gefunden, auch weil es in bestimmten Staaten eben traditionelle Bindungen, etwa nach Afrika, gibt: Frankreich zu bestimmten Staaten, die Niederlande zu bestimmten Staaten, auch Portugal zu bestimmten Staaten."
+              },
+              {
+                "text": "Diese sagen: Wir werden uns von Europa nicht vorschreiben lassen, wie wir den Status dieser Länder einschätzen."
+              },
+              {
+                "text": "– Somit geht der bisherige Vorschlag der Präsidentschaft aus Estland dahin, dass die Listen nebeneinander bestehen."
+              },
+              {
+                "text": "Wie das dann zum Schluss verhandelt wird, wird man sehen."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Thomas de Maizière",
+            "speakerstatus": "main-speaker",
+            "text": "Zur zweiten Frage. Es gibt in der Tat in der politischen Debatte einen Vorschlag, der dahin geht, zu sagen: Immer dann, wenn eine Gesamtschutzquote einen bestimmten Wert nicht erreicht –",
+            "sentences": [
+              {
+                "text": "Zur zweiten Frage."
+              },
+              {
+                "text": "Es gibt in der Tat in der politischen Debatte einen Vorschlag, der dahin geht, zu sagen: Immer dann, wenn eine Gesamtschutzquote einen bestimmten Wert nicht erreicht –"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "Jetzt muss ich wohl eingreifen.",
+            "sentences": [
+              {
+                "text": "Jetzt muss ich wohl eingreifen."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Thomas de Maizière",
+            "speakerstatus": "main-speaker",
+            "text": "– ja –, meinetwegen 5 oder 10 Prozent, dann muss ein Gesetz gemacht werden, mit dem die Einstufung festgelegt wird. Aber – –",
+            "sentences": [
+              {
+                "text": "– ja –, meinetwegen 5 oder 10 Prozent, dann muss ein Gesetz gemacht werden, mit dem die Einstufung festgelegt wird."
+              },
+              {
+                "text": "Aber – –"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "Danke sehr.",
+            "sentences": [
+              {
+                "text": "Danke sehr."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Thomas de Maizière",
+            "speakerstatus": "main-speaker",
+            "text": "Ja, gut.",
+            "sentences": [
+              {
+                "text": "Ja, gut."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "Jetzt hat die nächste Frage der Kollege Herrmann von der AfD-Fraktion.",
+            "sentences": [
+              {
+                "text": "Jetzt hat die nächste Frage der Kollege Herrmann von der AfD-Fraktion."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "documents": [],
+    "key": "19-5 tagesordnungspunkt 10 (thomas de maiziere) #6",
+    "dateStart": "2017-12-13T10:42:34",
+    "dateEnd": "2017-12-13T10:43:35",
     "media": {
       "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7181726/7181726_h264_720_400_2000kb_baseline_de_2192.mp4",
       "sourcePage": "http://dbtg.tv/fvid/7181726",
@@ -447,18 +1232,7 @@
       "license": "CC-BY-SA",
       "originMediaID": "7181726",
       "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7181726/7181726_mp3_128kb_stereo_de_128.mp3"
-    },
-    "dateStart": "2017-12-13T10:42:34",
-    "dateEnd": "2017-12-13T10:43:35",
-    "people": [
-      {
-        "label": "Thomas de Maizière",
-        "faction": "CDU/CSU",
-        "context": "main-speaker",
-        "role": "Bundesminister des Innern"
-      }
-    ],
-    "key": "19-5 tagesordnungspunkt 10 (thomas de maiziere) #6"
+    }
   },
   {
     "parliament": "DE",

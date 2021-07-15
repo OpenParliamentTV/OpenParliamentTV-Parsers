@@ -6374,16 +6374,418 @@
   {
     "parliament": "DE",
     "electoralPeriod": {
-      "number": 19
+      "number": "19"
     },
     "session": {
-      "number": 74
+      "number": "74",
+      "dateStart": "2019-01-17T10:45",
+      "dateEnd": "2019-01-18T00:40"
     },
     "agendaItem": {
-      "title": "Zusatzpunkt 1",
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 21
+      "speechIndex": 19,
+      "title": "Zusatzpunkt 1"
     },
+    "people": [
+      {
+        "type": "memberOfParliament",
+        "label": "Thomas de Maizière",
+        "firstname": "Thomas",
+        "lastname": "Maizière",
+        "context": "main-speaker",
+        "faction": "CDU/CSU"
+      },
+      {
+        "type": "memberOfParliament",
+        "label": "Thomas Oppermann",
+        "context": "vice-president"
+      }
+    ],
+    "textContents": [
+      {
+        "type": "proceedings",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19074-data.xml",
+        "creator": "Deutscher Bundestag",
+        "license": "Public Domain",
+        "language": "DE-de",
+        "originTextID": "",
+        "textBody": [
+          {
+            "type": "speech",
+            "speaker": "Thomas de Maizière",
+            "speakerstatus": "main-speaker",
+            "text": "Herr Präsident! Liebe Kolleginnen und Kollegen! Lassen Sie mich meine Rede mit einem Dank beginnen, auch mit einem Dank an die FDP:",
+            "sentences": [
+              {
+                "text": "Herr Präsident!"
+              },
+              {
+                "text": "Liebe Kolleginnen und Kollegen!"
+              },
+              {
+                "text": "Lassen Sie mich meine Rede mit einem Dank beginnen, auch mit einem Dank an die FDP:"
+              }
+            ]
+          },
+          {
+            "type": "comment",
+            "speaker": null,
+            "speakerstatus": null,
+            "text": "(Beifall bei Abgeordneten der FDP)",
+            "sentences": [
+              {
+                "text": "(Beifall bei Abgeordneten der FDP)"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Thomas de Maizière",
+            "speakerstatus": "main-speaker",
+            "text": "Herzlichen Dank, dass Sie dazu beitragen, dass an so prominenter Stelle einmal über den Zoll gesprochen wird; das ist gut.",
+            "sentences": [
+              {
+                "text": "Herzlichen Dank, dass Sie dazu beitragen, dass an so prominenter Stelle einmal über den Zoll gesprochen wird; das ist gut."
+              }
+            ]
+          },
+          {
+            "type": "comment",
+            "speaker": null,
+            "speakerstatus": null,
+            "text": "(Beifall bei Abgeordneten der CDU/CSU und der FDP – Michael Grosse-Brömer [CDU/CSU]: Das war es aber auch schon!)",
+            "sentences": [
+              {
+                "text": "(Beifall bei Abgeordneten der CDU/CSU und der FDP – Michael Grosse-Brömer [CDU/CSU]: Das war es aber auch schon!)"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Thomas de Maizière",
+            "speakerstatus": "main-speaker",
+            "text": "Ich will gerne mit einem Dank an die Mitarbeiterinnen und Mitarbeiter des Zolls beginnen, die trotz großer Anforderungen Tag und Nacht bei der Vorbereitung auf den Brexit und trotz vielerlei Anfeindungen jeden Tag gute Arbeit leisten. Ich hätte mir gewünscht, Sie hätten sich in Ihrer Rede auch einmal bei den Mitarbeiterinnen und Mitarbeitern des Zolls bedankt, wie ich das hier tue.",
+            "sentences": [
+              {
+                "text": "Ich will gerne mit einem Dank an die Mitarbeiterinnen und Mitarbeiter des Zolls beginnen, die trotz großer Anforderungen Tag und Nacht bei der Vorbereitung auf den Brexit und trotz vielerlei Anfeindungen jeden Tag gute Arbeit leisten."
+              },
+              {
+                "text": "Ich hätte mir gewünscht, Sie hätten sich in Ihrer Rede auch einmal bei den Mitarbeiterinnen und Mitarbeitern des Zolls bedankt, wie ich das hier tue."
+              }
+            ]
+          },
+          {
+            "type": "comment",
+            "speaker": null,
+            "speakerstatus": null,
+            "text": "(Beifall bei der CDU/CSU und der SPD sowie bei Abgeordneten der LINKEN und der Abg. Steffi Lemke [BÜNDNIS 90/DIE GRÜNEN])",
+            "sentences": [
+              {
+                "text": "(Beifall bei der CDU/CSU und der SPD sowie bei Abgeordneten der LINKEN und der Abg. Steffi Lemke [BÜNDNIS 90/DIE GRÜNEN])"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Thomas de Maizière",
+            "speakerstatus": "main-speaker",
+            "text": "Das ist es aber auch schon mit dem Lob; denn wenn man Ihren Antrag im Detail einmal liest, bekommt man sehr schnell den Eindruck, als sei nach Auffassung der FDP die gute Arbeit der Zollbeamten eher eine Belastung und eine Zumutung für die Wirtschaft. Duty Free zum Beispiel hört sich gut an, ist aber nicht Gegenstand unserer Rechtslage.",
+            "sentences": [
+              {
+                "text": "Das ist es aber auch schon mit dem Lob; denn wenn man Ihren Antrag im Detail einmal liest, bekommt man sehr schnell den Eindruck, als sei nach Auffassung der FDP die gute Arbeit der Zollbeamten eher eine Belastung und eine Zumutung für die Wirtschaft."
+              },
+              {
+                "text": "Duty Free zum Beispiel hört sich gut an, ist aber nicht Gegenstand unserer Rechtslage."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Thomas de Maizière",
+            "speakerstatus": "main-speaker",
+            "text": "Wir von der Union sagen deutlich: Es mag Fehler geben, es mag in dem einen oder anderen Vorgehen des Zolls auch eine Übertreibung geben, aber nach unserer Meinung behindert der Zoll nicht das unternehmerische Schaffen in unserem Land, sondern schützt und gewährleistet es gerade, damit alles mit rechten Dingen zugeht.",
+            "sentences": [
+              {
+                "text": "Wir von der Union sagen deutlich: Es mag Fehler geben, es mag in dem einen oder anderen Vorgehen des Zolls auch eine Übertreibung geben, aber nach unserer Meinung behindert der Zoll nicht das unternehmerische Schaffen in unserem Land, sondern schützt und gewährleistet es gerade, damit alles mit rechten Dingen zugeht."
+              }
+            ]
+          },
+          {
+            "type": "comment",
+            "speaker": null,
+            "speakerstatus": null,
+            "text": "(Beifall bei der CDU/CSU und der SPD)",
+            "sentences": [
+              {
+                "text": "(Beifall bei der CDU/CSU und der SPD)"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Thomas de Maizière",
+            "speakerstatus": "main-speaker",
+            "text": "Auch wir wollen, wie sicher auch Sie, dass sich der Zoll eher um die schwarzen Schafe kümmert und die Ehrlichen in Ruhe lässt. Leider ist es so, dass nicht an jedem Firmenschild steht, wer der Ehrliche und wer das schwarze Schaf ist.",
+            "sentences": [
+              {
+                "text": "Auch wir wollen, wie sicher auch Sie, dass sich der Zoll eher um die schwarzen Schafe kümmert und die Ehrlichen in Ruhe lässt."
+              },
+              {
+                "text": "Leider ist es so, dass nicht an jedem Firmenschild steht, wer der Ehrliche und wer das schwarze Schaf ist."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Thomas de Maizière",
+            "speakerstatus": "main-speaker",
+            "text": "Der Antrag der FDP ist im Übrigen in der Sache sinnvoll, aber zu spät und zu allgemein. Das meiste von dem, was Sie fordern, ist längst auf dem Weg. Sie fordern mehr Personal und mehr Informationstechnik.",
+            "sentences": [
+              {
+                "text": "Der Antrag der FDP ist im Übrigen in der Sache sinnvoll, aber zu spät und zu allgemein."
+              },
+              {
+                "text": "Das meiste von dem, was Sie fordern, ist längst auf dem Weg."
+              },
+              {
+                "text": "Sie fordern mehr Personal und mehr Informationstechnik."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Thomas de Maizière",
+            "speakerstatus": "main-speaker",
+            "text": "Deutschland – Sie haben eben ein Klagelied angestimmt – ist übrigens laut einem Index der Weltbank, dem Logistikindex, gerade zum Logistikweltmeister erklärt worden, was eigentlich ein Indiz dafür ist, dass auch die Zollbearbeitung ziemlich effizient ist, jedenfalls im Vergleich zu anderen Staaten. Wenn ich mit Unternehmen rede, höre ich natürlich manchmal Klagen über den Zoll, aber meistens über Zollverfahren anderswo in der Welt und nicht bei uns.",
+            "sentences": [
+              {
+                "text": "Deutschland – Sie haben eben ein Klagelied angestimmt – ist übrigens laut einem Index der Weltbank, dem Logistikindex, gerade zum Logistikweltmeister erklärt worden, was eigentlich ein Indiz dafür ist, dass auch die Zollbearbeitung ziemlich effizient ist, jedenfalls im Vergleich zu anderen Staaten."
+              },
+              {
+                "text": "Wenn ich mit Unternehmen rede, höre ich natürlich manchmal Klagen über den Zoll, aber meistens über Zollverfahren anderswo in der Welt und nicht bei uns."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Thomas de Maizière",
+            "speakerstatus": "main-speaker",
+            "text": "Jedenfalls wundert mich, dass Sie viele Sachverhalte ansprechen, die längst angegangen werden. Der Zoll wurde unter Wolfgang Schäuble und wird, wie im Koalitionsvertrag vereinbart, gestärkt. Es sind im Haushalt 2019 für dieses Jahr 775 zusätzliche Stellen geschaffen worden. Bei der Finanzkontrolle Schwarzarbeit wollen wir die Zahl der Beschäftigten von 7 500 auf 10 000 in den nächsten Jahren erhöhen. Das Schwarzarbeitsbekämpfungsgesetz und das Zollfahndungsdienstgesetz sind auf dem Weg. Wir wollen damit bewirken, dass der Zoll noch effektiver wird. Hier drängen wir, Frau Kollegin Hagedorn, auf eine zügige Einbringung dieser Gesetzentwürfe.",
+            "sentences": [
+              {
+                "text": "Jedenfalls wundert mich, dass Sie viele Sachverhalte ansprechen, die längst angegangen werden."
+              },
+              {
+                "text": "Der Zoll wurde unter Wolfgang Schäuble und wird, wie im Koalitionsvertrag vereinbart, gestärkt."
+              },
+              {
+                "text": "Es sind im Haushalt 2019 für dieses Jahr 775 zusätzliche Stellen geschaffen worden."
+              },
+              {
+                "text": "Bei der Finanzkontrolle Schwarzarbeit wollen wir die Zahl der Beschäftigten von 7 500 auf 10 000 in den nächsten Jahren erhöhen."
+              },
+              {
+                "text": "Das Schwarzarbeitsbekämpfungsgesetz und das Zollfahndungsdienstgesetz sind auf dem Weg."
+              },
+              {
+                "text": "Wir wollen damit bewirken, dass der Zoll noch effektiver wird."
+              },
+              {
+                "text": "Hier drängen wir, Frau Kollegin Hagedorn, auf eine zügige Einbringung dieser Gesetzentwürfe."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Thomas de Maizière",
+            "speakerstatus": "main-speaker",
+            "text": "Mehrere Ihrer Forderungen betreffen IT, auch das Programm „Zoll 2020“, den sogenannten Zollkodex. Dazu gibt es einen sehr kritischen Bericht des Europäischen Rechnungshofes; wir unterstützen das. Da gibt es Zeitverzögerungen; da gibt es keine klaren Entscheidungsstrukturen. Ich habe das gestern schnörkellos und klar angesprochen. Ein Wortbeitrag der FDP war dazu gar nicht vorgesehen; Sie haben sich gar nicht geäußert. Daher ist das offenbar bei uns in guten Händen.",
+            "sentences": [
+              {
+                "text": "Mehrere Ihrer Forderungen betreffen IT, auch das Programm „Zoll 2020“, den sogenannten Zollkodex."
+              },
+              {
+                "text": "Dazu gibt es einen sehr kritischen Bericht des Europäischen Rechnungshofes; wir unterstützen das."
+              },
+              {
+                "text": "Da gibt es Zeitverzögerungen; da gibt es keine klaren Entscheidungsstrukturen."
+              },
+              {
+                "text": "Ich habe das gestern schnörkellos und klar angesprochen."
+              },
+              {
+                "text": "Ein Wortbeitrag der FDP war dazu gar nicht vorgesehen; Sie haben sich gar nicht geäußert."
+              },
+              {
+                "text": "Daher ist das offenbar bei uns in guten Händen."
+              }
+            ]
+          },
+          {
+            "type": "comment",
+            "speaker": null,
+            "speakerstatus": null,
+            "text": "(Beifall bei der CDU/CSU)",
+            "sentences": [
+              {
+                "text": "(Beifall bei der CDU/CSU)"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Thomas de Maizière",
+            "speakerstatus": "main-speaker",
+            "text": "Es gibt eher andere Baustellen, die Sie nicht angesprochen haben: Wie bekommen wir genügend gutes Personal? Wie und wo kann es effektiv ausgebildet werden? Wir begrüßen die kurzfristigen Erweiterungen der Ausbildungskapazitäten in Münster und Leipzig. Wir hören, dass es ein zukunftsfähiges Standortkonzept geben soll. Wir drängen darauf, dass es schnell kommt, und zwar so, dass die Standorte überwiegend im ländlichen Raum und im Osten Deutschlands angesiedelt werden und nicht die großen Städte verstärken, wo es schon ausreichend Personal gibt.",
+            "sentences": [
+              {
+                "text": "Es gibt eher andere Baustellen, die Sie nicht angesprochen haben: Wie bekommen wir genügend gutes Personal?"
+              },
+              {
+                "text": "Wie und wo kann es effektiv ausgebildet werden?"
+              },
+              {
+                "text": "Wir begrüßen die kurzfristigen Erweiterungen der Ausbildungskapazitäten in Münster und Leipzig."
+              },
+              {
+                "text": "Wir hören, dass es ein zukunftsfähiges Standortkonzept geben soll."
+              },
+              {
+                "text": "Wir drängen darauf, dass es schnell kommt, und zwar so, dass die Standorte überwiegend im ländlichen Raum und im Osten Deutschlands angesiedelt werden und nicht die großen Städte verstärken, wo es schon ausreichend Personal gibt."
+              }
+            ]
+          },
+          {
+            "type": "comment",
+            "speaker": null,
+            "speakerstatus": null,
+            "text": "(Beifall bei der CDU/CSU)",
+            "sentences": [
+              {
+                "text": "(Beifall bei der CDU/CSU)"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Thomas de Maizière",
+            "speakerstatus": "main-speaker",
+            "text": "Ich halte fest: Die Kompetenzen der Zollbeamten wurden und werden verstärkt. Wir erwarten zügig die Einbringung der beiden Gesetzentwürfe. Ich bin gespannt, ob die FDP diesen Gesetzentwürfen dann zustimmt. Ein Standortkonzept zur Gewährleistung der hochwertigen Fachausbildung ist in Planung. Die notwendigen zusätzlichen Planstellen sind im Haushalt beschlossen. Darüber hinaus wurde übrigens auch die Besoldung des mittleren Dienstes erhöht, um dessen Attraktivität zu steigern. Es muss auf europäischer Ebene besser an der Herstellung der gemeinsamen IT-Verfahren gearbeitet werden. Auf diese Punkte kommt es an, gerade auch mit Blick auf die deutsche Wirtschaft, damit die Ehrlichen im Wettbewerb Vorteile haben.",
+            "sentences": [
+              {
+                "text": "Ich halte fest: Die Kompetenzen der Zollbeamten wurden und werden verstärkt."
+              },
+              {
+                "text": "Wir erwarten zügig die Einbringung der beiden Gesetzentwürfe."
+              },
+              {
+                "text": "Ich bin gespannt, ob die FDP diesen Gesetzentwürfen dann zustimmt."
+              },
+              {
+                "text": "Ein Standortkonzept zur Gewährleistung der hochwertigen Fachausbildung ist in Planung."
+              },
+              {
+                "text": "Die notwendigen zusätzlichen Planstellen sind im Haushalt beschlossen."
+              },
+              {
+                "text": "Darüber hinaus wurde übrigens auch die Besoldung des mittleren Dienstes erhöht, um dessen Attraktivität zu steigern."
+              },
+              {
+                "text": "Es muss auf europäischer Ebene besser an der Herstellung der gemeinsamen IT-Verfahren gearbeitet werden."
+              },
+              {
+                "text": "Auf diese Punkte kommt es an, gerade auch mit Blick auf die deutsche Wirtschaft, damit die Ehrlichen im Wettbewerb Vorteile haben."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Thomas de Maizière",
+            "speakerstatus": "main-speaker",
+            "text": "Liebe Kolleginnen und Kollegen, der Antrag der FDP enthält also alles in allem wenig Falsches; aber nötig ist er nicht. Sie rennen Türen ein, die längst offen sind. Willkommen im Klub der Freunde des Zolls!",
+            "sentences": [
+              {
+                "text": "Liebe Kolleginnen und Kollegen, der Antrag der FDP enthält also alles in allem wenig Falsches; aber nötig ist er nicht."
+              },
+              {
+                "text": "Sie rennen Türen ein, die längst offen sind."
+              },
+              {
+                "text": "Willkommen im Klub der Freunde des Zolls!"
+              }
+            ]
+          },
+          {
+            "type": "comment",
+            "speaker": null,
+            "speakerstatus": null,
+            "text": "(Beifall bei der CDU/CSU sowie bei Abgeordneten der SPD)",
+            "sentences": [
+              {
+                "text": "(Beifall bei der CDU/CSU sowie bei Abgeordneten der SPD)"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Thomas Oppermann",
+            "speakerstatus": "vice-president",
+            "text": "Vielen Dank für die zwei Minuten, die Sie uns eingespart haben, Herr Kollege de Maizière. Man kann es auch in der Kürze pointiert sagen.",
+            "sentences": [
+              {
+                "text": "Vielen Dank für die zwei Minuten, die Sie uns eingespart haben, Herr Kollege de Maizière."
+              },
+              {
+                "text": "Man kann es auch in der Kürze pointiert sagen."
+              }
+            ]
+          },
+          {
+            "type": "comment",
+            "speaker": null,
+            "speakerstatus": null,
+            "text": "(Michael Grosse-Brömer [CDU/CSU]: Kurz und prägnant!)",
+            "sentences": [
+              {
+                "text": "(Michael Grosse-Brömer [CDU/CSU]: Kurz und prägnant!)"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Thomas Oppermann",
+            "speakerstatus": "vice-president",
+            "text": "Nächster Redner ist Kay Gottschalk für die Fraktion der AfD.",
+            "sentences": [
+              {
+                "text": "Nächster Redner ist Kay Gottschalk für die Fraktion der AfD."
+              }
+            ]
+          },
+          {
+            "type": "comment",
+            "speaker": null,
+            "speakerstatus": null,
+            "text": "(Beifall bei der AfD)",
+            "sentences": [
+              {
+                "text": "(Beifall bei der AfD)"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "documents": [
+      {
+        "type": "officialDocument",
+        "label": "Drucksache 19/6549",
+        "sourceURI": "https://dserver.bundestag.de/btd/19/065/1906549.pdf"
+      }
+    ],
+    "key": "19-74 zusatzpunkt 1 (thomas de maiziere)",
+    "dateStart": "2019-01-17T11:06:52",
+    "dateEnd": "2019-01-17T11:12:14",
     "media": {
       "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7317716/7317716_h264_720_400_2000kb_baseline_de_2192.mp4",
       "sourcePage": "http://dbtg.tv/fvid/7317716",
@@ -6392,18 +6794,7 @@
       "license": "CC-BY-SA",
       "originMediaID": "7317716",
       "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7317716/7317716_mp3_128kb_stereo_de_128.mp3"
-    },
-    "dateStart": "2019-01-17T11:06:52",
-    "dateEnd": "2019-01-17T11:12:14",
-    "people": [
-      {
-        "label": "Thomas de Maizière",
-        "faction": "CDU/CSU",
-        "context": "main-speaker",
-        "role": "Bundesminister des Innern"
-      }
-    ],
-    "key": "19-74 zusatzpunkt 1 (thomas de maiziere)"
+    }
   },
   {
     "parliament": "DE",
@@ -11803,387 +12194,16 @@
   {
     "parliament": "DE",
     "electoralPeriod": {
-      "number": "19"
+      "number": 19
     },
     "session": {
-      "number": "74",
-      "dateStart": "2019-01-17T10:45",
-      "dateEnd": "2019-01-18T00:40"
+      "number": 74
     },
     "agendaItem": {
+      "title": "Tagesordnungspunkt 5",
       "officialTitle": "Tagesordnungspunkt 5",
-      "speechIndex": 33,
-      "title": "Tagesordnungspunkt 5"
+      "speechIndex": 36
     },
-    "people": [
-      {
-        "type": "memberOfParliament",
-        "label": "Alexander Graf Lambsdorff",
-        "firstname": "Alexander Graf",
-        "lastname": "Lambsdorff",
-        "context": "main-speaker",
-        "faction": "FDP"
-      },
-      {
-        "type": "memberOfParliament",
-        "label": "Thomas Oppermann",
-        "context": "vice-president"
-      }
-    ],
-    "textContents": [
-      {
-        "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19074-data.xml",
-        "creator": "Deutscher Bundestag",
-        "license": "Public Domain",
-        "language": "DE-de",
-        "originTextID": "",
-        "textBody": [
-          {
-            "type": "speech",
-            "speaker": "Alexander Graf Lambsdorff",
-            "speakerstatus": "main-speaker",
-            "text": "Vielen Dank. – Herr Präsident! Meine Damen und Herren! Ich habe es an dieser Stelle schon einmal gesagt: Als Liberale bedauern wir den Brexit außerordentlich. Großbritannien ist das Mutterland des Liberalismus. Uns wäre es am liebsten, man käme auf der Insel wieder zur Vernunft, würde den Antrag auf Austritt zurücknehmen und die Briten würden gemeinsam mit uns Europäern die Zukunft gestalten.",
-            "sentences": [
-              {
-                "text": "Vielen Dank."
-              },
-              {
-                "text": "– Herr Präsident!"
-              },
-              {
-                "text": "Meine Damen und Herren!"
-              },
-              {
-                "text": "Ich habe es an dieser Stelle schon einmal gesagt: Als Liberale bedauern wir den Brexit außerordentlich."
-              },
-              {
-                "text": "Großbritannien ist das Mutterland des Liberalismus."
-              },
-              {
-                "text": "Uns wäre es am liebsten, man käme auf der Insel wieder zur Vernunft, würde den Antrag auf Austritt zurücknehmen und die Briten würden gemeinsam mit uns Europäern die Zukunft gestalten."
-              }
-            ]
-          },
-          {
-            "type": "comment",
-            "speaker": null,
-            "speakerstatus": null,
-            "text": "(Beifall bei der FDP und der CDU/CSU)",
-            "sentences": [
-              {
-                "text": "(Beifall bei der FDP und der CDU/CSU)"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Alexander Graf Lambsdorff",
-            "speakerstatus": "main-speaker",
-            "text": "Nur leider sieht es nicht danach aus.",
-            "sentences": [
-              {
-                "text": "Nur leider sieht es nicht danach aus."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Alexander Graf Lambsdorff",
-            "speakerstatus": "main-speaker",
-            "text": "Der Außenminister hat es gesagt: Dienstag war ein schlechter Tag. Er sagte auch, man wolle einen Brexit, wenn es irgend möglich ist, nur mit Abkommen. Gleichzeitig sagte er richtigerweise: Das Abkommen, über das im Unterhaus abgestimmt worden ist, ist ein gutes Abkommen, es werde nicht wieder aufgeschnürt. Wenn aber das Abkommen nicht wieder aufgeschnürt wird, dann frage ich die Bundesregierung: Wie wollen wir denn bitte schön noch zu einem Abkommen kommen? Haben Sie das Ergebnis der Abstimmung im Unterhaus mitbekommen? 432 zu 202! Wo soll die Mehrheit denn bitte schön herkommen?",
-            "sentences": [
-              {
-                "text": "Der Außenminister hat es gesagt: Dienstag war ein schlechter Tag."
-              },
-              {
-                "text": "Er sagte auch, man wolle einen Brexit, wenn es irgend möglich ist, nur mit Abkommen."
-              },
-              {
-                "text": "Gleichzeitig sagte er richtigerweise: Das Abkommen, über das im Unterhaus abgestimmt worden ist, ist ein gutes Abkommen, es werde nicht wieder aufgeschnürt."
-              },
-              {
-                "text": "Wenn aber das Abkommen nicht wieder aufgeschnürt wird, dann frage ich die Bundesregierung: Wie wollen wir denn bitte schön noch zu einem Abkommen kommen?"
-              },
-              {
-                "text": "Haben Sie das Ergebnis der Abstimmung im Unterhaus mitbekommen?"
-              },
-              {
-                "text": "432 zu 202!"
-              },
-              {
-                "text": "Wo soll die Mehrheit denn bitte schön herkommen?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Alexander Graf Lambsdorff",
-            "speakerstatus": "main-speaker",
-            "text": "Meine Damen und Herren, jetzt ist ein anderer Modus Operandi notwendig. Wir müssen gemeinsam mit den anderen Europäern unser Land und die EU‑27 auf einen harten Brexit vorbereiten. Der vorliegende Gesetzentwurf, über den wir heute reden, macht aber die Probleme der Bundesregierung in dieser Lage deutlich. Lassen Sie mich – mit Erlaubnis des Präsidenten – aus dem Gesetzentwurf zitieren:",
-            "sentences": [
-              {
-                "text": "Meine Damen und Herren, jetzt ist ein anderer Modus Operandi notwendig."
-              },
-              {
-                "text": "Wir müssen gemeinsam mit den anderen Europäern unser Land und die EU‑27 auf einen harten Brexit vorbereiten."
-              },
-              {
-                "text": "Der vorliegende Gesetzentwurf, über den wir heute reden, macht aber die Probleme der Bundesregierung in dieser Lage deutlich."
-              },
-              {
-                "text": "Lassen Sie mich – mit Erlaubnis des Präsidenten – aus dem Gesetzentwurf zitieren:"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Alexander Graf Lambsdorff",
-            "speakerstatus": "main-speaker",
-            "text": "Dann zitiere ich aus § 4 des Gesetzentwurfs:",
-            "sentences": [
-              {
-                "text": "Dann zitiere ich aus § 4 des Gesetzentwurfs:"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Alexander Graf Lambsdorff",
-            "speakerstatus": "main-speaker",
-            "text": "Das heißt, im Gesetzentwurf wird so getan, als ob das Unterhaus am Dienstag zugestimmt hätte. Damit ist er völlig obsolet. Wir stimmen über einen Gesetzentwurf ab, der nie in Kraft treten wird.",
-            "sentences": [
-              {
-                "text": "Das heißt, im Gesetzentwurf wird so getan, als ob das Unterhaus am Dienstag zugestimmt hätte."
-              },
-              {
-                "text": "Damit ist er völlig obsolet."
-              },
-              {
-                "text": "Wir stimmen über einen Gesetzentwurf ab, der nie in Kraft treten wird."
-              }
-            ]
-          },
-          {
-            "type": "comment",
-            "speaker": null,
-            "speakerstatus": null,
-            "text": "(Beifall bei der FDP und der AfD)",
-            "sentences": [
-              {
-                "text": "(Beifall bei der FDP und der AfD)"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Alexander Graf Lambsdorff",
-            "speakerstatus": "main-speaker",
-            "text": "Genau das ist der Modus Operandi der Bundesregierung, und er wird der Lage einfach nicht gerecht. Dann hören wir, es gebe andere Vorbereitungen. Richtig, eine Limited kann jetzt zu einer GmbH werden. Super! Das löst alle Probleme.",
-            "sentences": [
-              {
-                "text": "Genau das ist der Modus Operandi der Bundesregierung, und er wird der Lage einfach nicht gerecht."
-              },
-              {
-                "text": "Dann hören wir, es gebe andere Vorbereitungen."
-              },
-              {
-                "text": "Richtig, eine Limited kann jetzt zu einer GmbH werden."
-              },
-              {
-                "text": "Super!"
-              },
-              {
-                "text": "Das löst alle Probleme."
-              }
-            ]
-          },
-          {
-            "type": "comment",
-            "speaker": null,
-            "speakerstatus": null,
-            "text": "(Andrea Nahles [SPD]: Nee, das hat er nicht behauptet!)",
-            "sentences": [
-              {
-                "text": "(Andrea Nahles [SPD]: Nee, das hat er nicht behauptet!)"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Alexander Graf Lambsdorff",
-            "speakerstatus": "main-speaker",
-            "text": "Meine Damen und Herren, wir haben in den Bereichen Arbeit, Bildung, Gesundheit, Soziales und Staatsangehörigkeit nichts geregelt. Wir wissen, dass bei uns in Deutschland schon lange viele Menschen aus Großbritannien und Nordirland wohnen. Nun soll es, so informiert uns das Auswärtige Amt, eine Ministerverordnung geben, wonach die Britinnen und Briten, die in Deutschland wohnen, binnen drei Monaten zur Ausländerbehörde und zur Meldebehörde gehen sollen, um einen Aufenthaltstitel zu beantragen. Haben Sie in Berlin mal versucht, einen Termin bei einer Meldebehörde innerhalb von drei Monaten zu bekommen? Das ist völlig unrealistisch.",
-            "sentences": [
-              {
-                "text": "Meine Damen und Herren, wir haben in den Bereichen Arbeit, Bildung, Gesundheit, Soziales und Staatsangehörigkeit nichts geregelt."
-              },
-              {
-                "text": "Wir wissen, dass bei uns in Deutschland schon lange viele Menschen aus Großbritannien und Nordirland wohnen."
-              },
-              {
-                "text": "Nun soll es, so informiert uns das Auswärtige Amt, eine Ministerverordnung geben, wonach die Britinnen und Briten, die in Deutschland wohnen, binnen drei Monaten zur Ausländerbehörde und zur Meldebehörde gehen sollen, um einen Aufenthaltstitel zu beantragen."
-              },
-              {
-                "text": "Haben Sie in Berlin mal versucht, einen Termin bei einer Meldebehörde innerhalb von drei Monaten zu bekommen?"
-              },
-              {
-                "text": "Das ist völlig unrealistisch."
-              }
-            ]
-          },
-          {
-            "type": "comment",
-            "speaker": null,
-            "speakerstatus": null,
-            "text": "(Florian Hahn [CDU/CSU]: In Bayern geht das!)",
-            "sentences": [
-              {
-                "text": "(Florian Hahn [CDU/CSU]: In Bayern geht das!)"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Alexander Graf Lambsdorff",
-            "speakerstatus": "main-speaker",
-            "text": "Das, was die Bundesregierung hier vorschlägt, geht an der Wirklichkeit vorbei.",
-            "sentences": [
-              {
-                "text": "Das, was die Bundesregierung hier vorschlägt, geht an der Wirklichkeit vorbei."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Alexander Graf Lambsdorff",
-            "speakerstatus": "main-speaker",
-            "text": "Zu der Situation der Unternehmen. Laut Prognose des Deutschen Industrie- und Handelskammertages wird es ab dem harten Brexit pro Jahr vermutlich 10 Millionen neue Zollanmeldungen geben. Die Bundesregierung informiert uns, man werde 2018 und 2019  900 neue Beschäftigte beim Zoll einstellen. Das finden wir im Prinzip auch richtig. Nur: Glauben Sie, dass die 900 neu eingestellten Beschäftigten schon ab dem 30. März in der Lage sind, die Arbeit zu verrichten, auf die unsere Unternehmen angewiesen sind? Wir glauben das nicht. Dazu wird es nicht kommen.",
-            "sentences": [
-              {
-                "text": "Zu der Situation der Unternehmen."
-              },
-              {
-                "text": "Laut Prognose des Deutschen Industrie- und Handelskammertages wird es ab dem harten Brexit pro Jahr vermutlich 10 Millionen neue Zollanmeldungen geben."
-              },
-              {
-                "text": "Die Bundesregierung informiert uns, man werde 2018 und 2019  900 neue Beschäftigte beim Zoll einstellen."
-              },
-              {
-                "text": "Das finden wir im Prinzip auch richtig."
-              },
-              {
-                "text": "Nur: Glauben Sie, dass die 900 neu eingestellten Beschäftigten schon ab dem 30. März in der Lage sind, die Arbeit zu verrichten, auf die unsere Unternehmen angewiesen sind?"
-              },
-              {
-                "text": "Wir glauben das nicht."
-              },
-              {
-                "text": "Dazu wird es nicht kommen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Alexander Graf Lambsdorff",
-            "speakerstatus": "main-speaker",
-            "text": "Die Bundesregierung muss ihre Vogel-Strauß-Politik beenden.",
-            "sentences": [
-              {
-                "text": "Die Bundesregierung muss ihre Vogel-Strauß-Politik beenden."
-              }
-            ]
-          },
-          {
-            "type": "comment",
-            "speaker": null,
-            "speakerstatus": null,
-            "text": "(Beifall bei der FDP sowie bei Abgeordneten der AfD)",
-            "sentences": [
-              {
-                "text": "(Beifall bei der FDP sowie bei Abgeordneten der AfD)"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Alexander Graf Lambsdorff",
-            "speakerstatus": "main-speaker",
-            "text": "Wir müssen uns leider auf den harten Brexit einstellen. Dazu muss jetzt eine völlig andere Arbeitsweise gewählt werden: Es muss schneller gehen, es muss präziser gehen, und das Vorgehen muss an der Lebenswirklichkeit der Menschen und Unternehmen in unserem Land und auch in anderen Ländern Europas orientiert sein.",
-            "sentences": [
-              {
-                "text": "Wir müssen uns leider auf den harten Brexit einstellen."
-              },
-              {
-                "text": "Dazu muss jetzt eine völlig andere Arbeitsweise gewählt werden: Es muss schneller gehen, es muss präziser gehen, und das Vorgehen muss an der Lebenswirklichkeit der Menschen und Unternehmen in unserem Land und auch in anderen Ländern Europas orientiert sein."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Alexander Graf Lambsdorff",
-            "speakerstatus": "main-speaker",
-            "text": "Herzlichen Dank.",
-            "sentences": [
-              {
-                "text": "Herzlichen Dank."
-              }
-            ]
-          },
-          {
-            "type": "comment",
-            "speaker": null,
-            "speakerstatus": null,
-            "text": "(Beifall bei der FDP)",
-            "sentences": [
-              {
-                "text": "(Beifall bei der FDP)"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Vielen Dank. – Nächster Redner in der Debatte ist für die Fraktion Die Linke der Abgeordnete Dr. Diether Dehm.",
-            "sentences": [
-              {
-                "text": "Vielen Dank."
-              },
-              {
-                "text": "– Nächster Redner in der Debatte ist für die Fraktion Die Linke der Abgeordnete Dr. Diether Dehm."
-              }
-            ]
-          },
-          {
-            "type": "comment",
-            "speaker": null,
-            "speakerstatus": null,
-            "text": "(Beifall bei der LINKEN)",
-            "sentences": [
-              {
-                "text": "(Beifall bei der LINKEN)"
-              }
-            ]
-          }
-        ]
-      }
-    ],
-    "documents": [
-      {
-        "type": "officialDocument",
-        "label": "Drucksache 19/5313",
-        "sourceURI": "https://dserver.bundestag.de/btd/19/053/1905313.pdf"
-      },
-      {
-        "type": "officialDocument",
-        "label": "Drucksache 19/7087",
-        "sourceURI": "https://dserver.bundestag.de/btd/19/070/1907087.pdf"
-      }
-    ],
-    "key": "19-74 tagesordnungspunkt 5 (alexander graf lambsdorff)",
-    "dateStart": "2019-01-17T12:22:27",
-    "dateEnd": "2019-01-17T12:27:10",
     "media": {
       "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7317737/7317737_h264_720_400_2000kb_baseline_de_2192.mp4",
       "sourcePage": "http://dbtg.tv/fvid/7317737",
@@ -12192,7 +12212,18 @@
       "license": "CC-BY-SA",
       "originMediaID": "7317737",
       "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7317737/7317737_mp3_128kb_stereo_de_128.mp3"
-    }
+    },
+    "dateStart": "2019-01-17T12:22:27",
+    "dateEnd": "2019-01-17T12:27:10",
+    "people": [
+      {
+        "label": "Alexander Graf Lambsdorff",
+        "faction": "FDP",
+        "context": "main-speaker",
+        "role": null
+      }
+    ],
+    "key": "19-74 tagesordnungspunkt 5 (alexander graf lambsdorff)"
   },
   {
     "parliament": "DE",
