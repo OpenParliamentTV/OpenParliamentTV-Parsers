@@ -16,12 +16,12 @@ import sys
 from urllib.parse import urlparse, parse_qs
 
 try:
-    from parsers.common import fix_fullname
+    from parsers.common import fix_faction, fix_fullname
 except ModuleNotFoundError:
     # Module not found. Tweak the sys.path
     base_dir = Path(__file__).resolve().parent.parent
     sys.path.insert(0, str(base_dir))
-    from parsers.common import fix_fullname
+    from parsers.common import fix_faction, fix_fullname
 
 # Constants used for basic integrity checking: If these values are not
 # present in the source data, then something must have changed and the
@@ -171,7 +171,7 @@ def parse_media_data(data) -> dict:
             item['people'] = [
                 {
                     'label': fix_fullname(metadata.get('fullname', '')),
-                    'faction': faction.replace('B90/Grüne', 'BÜNDNIS 90/DIE GRÜNEN'),
+                    'faction': fix_faction(faction),
                     'context': 'main-speaker',
                     'role': role
                 }

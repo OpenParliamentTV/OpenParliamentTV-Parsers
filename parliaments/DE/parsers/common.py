@@ -8,3 +8,7 @@ def fix_fullname(label: str) -> str:
     label = label.replace('Dr. ', '').replace('h. c. ', '').replace('Prof. ', '')
     return label
 
+def fix_faction(label: str) -> str:
+    if label is None:
+        return label
+    return label.replace('B90/Grüne', 'BÜNDNIS 90/DIE GRÜNEN')

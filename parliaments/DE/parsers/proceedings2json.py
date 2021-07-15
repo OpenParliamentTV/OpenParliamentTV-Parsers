@@ -18,12 +18,12 @@ from spacy.lang.de import German
 import sys
 
 try:
-    from parsers.common import fix_fullname
+    from parsers.common import fix_faction, fix_fullname
 except ModuleNotFoundError:
     # Module not found. Tweak the sys.path
     base_dir = Path(__file__).resolve().parent.parent
     sys.path.insert(0, str(base_dir))
-    from parsers.common import fix_fullname
+    from parsers.common import fix_faction, fix_fullname
 
 PROCEEDINGS_LICENSE = "Public Domain"
 PROCEEDINGS_LANGUAGE = "DE-de"
@@ -68,7 +68,7 @@ def parse_speakers(speakers):
             'fullname': fullname,
             'firstname': firstname,
             'lastname': lastname,
-            'faction': faction.replace('B90/Grüne', 'BÜNDNIS 90/DIE GRÜNEN'),
+            'faction': fix_faction(faction),
             'identifier': ident
         }
     return result
