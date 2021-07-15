@@ -47,7 +47,10 @@ def parse_speakers(speakers):
             continue
         firstname = s.findtext('.//vorname') or ""
         lastname = s.findtext('.//nachname') or ""
-        fullname = f"{firstname} {lastname}"
+        nameaddition = s.findtext('.//namenszusatz') or ""
+        fullname = f"{firstname} {nameaddition} {lastname}"
+        # TODO: Replace fix
+        fullname = fullname.replace('  ', ' ');
         faction = s.findtext('.//fraktion') or ""
         # Persons can be without any party (independent) but join a faction. So we cannot assume any correspondence between both.
         #party = faction.split('/')[0]
@@ -100,7 +103,10 @@ def parse_speech(elements: list, last_speaker: dict):
                 # Speaker identification
                 firstname = c.findtext('.//vorname') or ""
                 lastname = c.findtext('.//nachname') or ""
-                speaker = f"{firstname} {lastname}"
+                nameaddition = c.findtext('.//namenszusatz') or ""
+                speaker = f"{firstname} {nameaddition} {lastname}"
+                # TODO: Replace fix
+                speaker = speaker.replace('  ', ' ');
                 if main_speaker is None:
                     main_speaker = speaker
                     speakerstatus = 'main-speaker'
