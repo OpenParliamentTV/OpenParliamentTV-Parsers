@@ -33,12 +33,11 @@ composer.phar
 # Language Cache
 langcache/*.php
 
-# Data
-parliaments/DE/data/examples/media/*.json
-parliaments/DE/data/examples/nmedia/*.json
-parliaments/DE/data/examples/proceedings/*.json
-parliaments/DE/data/examples/proceedings/*.xml
-parliaments/DE/data/examples/merged/*.json
+# Data (but keep raw-*.json files & proceedings xml files)
+parliaments/DE/data/examples
+parliaments/DE/data/media/[0-9]*.json
+parliaments/DE/data/proceedings/*.json
+parliaments/DE/data/merged/*.json
 
 
 # Commit your application's lock file https://getcomposer.org/doc/01-basic-usage.md#commit-your-composer-lock-file-to-version-control
