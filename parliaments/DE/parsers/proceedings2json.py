@@ -11,10 +11,19 @@ logger = logging.getLogger(__name__)
 
 from itertools import takewhile
 import json
-from spacy.lang.de import German
-import re
-import sys
 from lxml import etree
+from pathlib import Path
+import re
+from spacy.lang.de import German
+import sys
+
+try:
+    from parsers.common import fix_fullname
+except ModuleNotFoundError:
+    # Module not found. Tweak the sys.path
+    base_dir = Path(__file__).resolve().parent.parent
+    sys.path.insert(0, str(base_dir))
+    from parsers.common import fix_fullname
 
 PROCEEDINGS_LICENSE = "Public Domain"
 PROCEEDINGS_LANGUAGE = "DE-de"
@@ -228,14 +237,6 @@ def time_to_int(t):
         # Single value
         return 0
     return int(m) + 60 * int(h)
-
-def fix_fullname(label: str) -> str:
-    if label is None:
-        return label
-    # Replace nb whitespace
-    label = label.replace('\xa0', ' ')
-    label = label.replace('Dr. ', '').replace('h. c. ', '').replace('Prof. ', '')
-    return label
 
 def last_speaker_info(turns):
     # Find the last turn item for which speaker is not null

@@ -1,0 +1,10 @@
+# Methods common to parsing modules
+
+def fix_fullname(label: str) -> str:
+    if label is None:
+        return label
+    # Replace nb whitespace
+    label = label.replace('\xa0', ' ')
+    label = label.replace('Dr. ', '').replace('h. c. ', '').replace('Prof. ', '')
+    return label
+

@@ -10,9 +10,18 @@ from datetime import datetime, timedelta
 import feedparser
 import json
 import os
+from pathlib import Path
 import re
 import sys
 from urllib.parse import urlparse, parse_qs
+
+try:
+    from parsers.common import fix_fullname
+except ModuleNotFoundError:
+    # Module not found. Tweak the sys.path
+    base_dir = Path(__file__).resolve().parent.parent
+    sys.path.insert(0, str(base_dir))
+    from parsers.common import fix_fullname
 
 # Constants used for basic integrity checking: If these values are not
 # present in the source data, then something must have changed and the
@@ -33,9 +42,6 @@ def extract_title_data(title: str) -> dict:
         return match.groupdict()
     else:
         return None
-
-def fix_fullname(label: str) -> str:
-    return label.replace('Dr. ', '').replace('h. c. ', '').replace('Prof. ', '')
 
 def fix_title(title: str) -> str:
     """Fix the titles to match with proceedings conventions
