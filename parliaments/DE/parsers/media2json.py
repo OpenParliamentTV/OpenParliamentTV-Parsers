@@ -155,7 +155,7 @@ def parse_media_data(data) -> dict:
             if '/' in full_faction:
                 # Maybe it encodes a role
                 role, faction = full_faction.split('/', 1)
-                if role in ('CDU', 'B90'):
+                if role in ('CDU', 'B90', 'Bündnis 90'):
                     # Special cases for CDU and B90
                     faction = full_faction
                     role = None
@@ -165,7 +165,7 @@ def parse_media_data(data) -> dict:
             item['people'] = [
                 {
                     'label': fix_fullname(metadata.get('fullname', '')),
-                    'faction': faction,
+                    'faction': faction.replace('B90/Grüne', 'BÜNDNIS 90/DIE GRÜNEN'),
                     'context': 'main-speaker',
                     'role': role
                 }

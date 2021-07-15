@@ -56,7 +56,7 @@ def parse_speakers(speakers):
             'fullname': fullname,
             'firstname': firstname,
             'lastname': lastname,
-            'faction': faction,
+            'faction': faction.replace('B90/Grüne', 'BÜNDNIS 90/DIE GRÜNEN'),
             'identifier': ident
         }
     return result
