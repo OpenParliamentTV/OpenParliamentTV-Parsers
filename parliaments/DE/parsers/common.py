@@ -11,4 +11,6 @@ def fix_fullname(label: str) -> str:
 def fix_faction(label: str) -> str:
     if label is None:
         return label
+    # Replace nb whitespace
+    label = label.replace('\xa0', ' ')
     return label.replace('B90/Grüne', 'BÜNDNIS 90/DIE GRÜNEN')
