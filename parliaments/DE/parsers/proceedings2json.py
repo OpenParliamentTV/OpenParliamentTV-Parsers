@@ -18,24 +18,15 @@ from spacy.lang.de import German
 import sys
 
 try:
-    from parsers.common import fix_faction, fix_fullname
+    from parsers.common import fix_faction, fix_fullname, parse_fullname
 except ModuleNotFoundError:
     # Module not found. Tweak the sys.path
     base_dir = Path(__file__).resolve().parent.parent
     sys.path.insert(0, str(base_dir))
-    from parsers.common import fix_faction, fix_fullname
+    from parsers.common import fix_faction, fix_fullname, parse_fullname
 
 PROCEEDINGS_LICENSE = "Public Domain"
 PROCEEDINGS_LANGUAGE = "DE-de"
-
-STATUS_TRANSLATION = {
-    'Präsident': 'president',
-    'Präsidentin': 'president',
-    'Vizepräsident': 'vice-president',
-    'Vizepräsidentin': 'vice-president',
-    'Alterspräsident': 'interim-president',
-    'Alterspräsidentin': 'interim-president',
-}
 
 ddmmyyyy_re = re.compile('(?P<dd>\d\d)\.(?P<mm>\d\d)\.(?P<yyyy>\d\d\d\d)')
 
@@ -58,8 +49,7 @@ def parse_speakers(speakers):
         lastname = s.findtext('.//nachname') or ""
         nameaddition = s.findtext('.//namenszusatz') or ""
         fullname = f"{firstname} {nameaddition} {lastname}"
-        # TODO: Replace fix
-        fullname = fullname.replace('  ', ' ');
+        fullname, status = parse_fullname(fullname)
         faction = s.findtext('.//fraktion') or ""
         # Persons can be without any party (independent) but join a faction. So we cannot assume any correspondence between both.
         #party = faction.split('/')[0]
@@ -88,12 +78,8 @@ def parse_speech(elements: list, last_speaker: dict):
     for c in elements:
         if c.tag == 'name':
             # Pr/VP name, strip trailing :
-            speaker = c.text.strip('–').strip('\xa0').strip('.').strip(':')
-            if (speaker.startswith('Präsident')
-                or speaker.startswith('Vizepräsident')
-                or speaker.startswith('Alterspräsident')):
-                status, speaker = speaker.replace('räsident in', 'räsidentin').split(' ', 1)
-                speakerstatus = STATUS_TRANSLATION.get(status, status)
+            speaker, status = parse_fullname(c.text)
+            speakerstatus = status or "speaker"
             continue
         if c.tag == 'kommentar':
             yield {
@@ -114,9 +100,10 @@ def parse_speech(elements: list, last_speaker: dict):
                 lastname = c.findtext('.//nachname') or ""
                 nameaddition = c.findtext('.//namenszusatz') or ""
                 speaker = f"{firstname} {nameaddition} {lastname}"
-                # TODO: Replace fix
-                speaker = speaker.replace('  ', ' ');
-                if main_speaker is None:
+                speaker, status = parse_fullname(speaker)
+                if status is not None:
+                    speakerstatus = status
+                elif main_speaker is None:
                     main_speaker = speaker
                     speakerstatus = 'main-speaker'
                 else:
@@ -128,18 +115,14 @@ def parse_speech(elements: list, last_speaker: dict):
                 continue
             elif klasse == 'N':
                 # Speaker name - Präsident or Vizepräsident
-                speaker = c.text.strip('–').strip('\xa0').strip('.').strip(':')
-                if (speaker.startswith('Präsident')
-                    or speaker.startswith('Vizepräsident')
-                    or speaker.startswith('Alterspräsident')):
-                    status, speaker = speaker.replace('räsident in', 'räsidentin').split(' ', 1)
-                    speakerstatus = STATUS_TRANSLATION.get(status, status)
+                speaker, status = parse_fullname(c.text)
+                speakerstatus = status or "speaker"
                 continue
             elif klasse in ('J', 'J_1', 'O') and c.text:
                 # Actual text. Output it with speaker information.
                 yield {
                     'type': 'speech',
-                    'speaker': fix_fullname(speaker),
+                    'speaker': speaker,
                     'speakerstatus': speakerstatus,
                     'text': c.text,
                     'sentences': split_sentences(c.text)
