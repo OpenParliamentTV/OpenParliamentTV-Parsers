@@ -28,7 +28,7 @@ def update_media_directory_period(period, media_dir, force=False, save_raw_data=
     # most recent meeting number and then try to fetch them when needed
     rootinfo = download_meeting_data(period, media_dir, root_only=True)
     if not rootinfo['entries']:
-        logger.error("No entries for period {period} - maybe a server timeout?")
+        logger.error(f"No entries for period {period} - maybe a server timeout?")
         return
     # Get latest Sitzung/meeting number from first entry title
     latest_title = rootinfo['entries'][0]['title']
