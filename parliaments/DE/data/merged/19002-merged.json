@@ -4183,16 +4183,341 @@
   {
     "parliament": "DE",
     "electoralPeriod": {
-      "number": 19
+      "number": "19"
     },
     "session": {
-      "number": 2
+      "number": "2",
+      "dateStart": "2017-11-21T10:00",
+      "dateEnd": "2017-11-21T19:42"
     },
     "agendaItem": {
-      "title": "Tagesordnungspunkt 2",
       "officialTitle": "Tagesordnungspunkt 2",
-      "speechIndex": 16
+      "speechIndex": 13,
+      "title": "Tagesordnungspunkt 2"
     },
+    "people": [
+      {
+        "type": "memberOfParliament",
+        "label": "Alexander Graf Lambsdorff",
+        "context": "main-speaker"
+      },
+      {
+        "type": "memberOfParliament",
+        "label": "Wolfgang Schäuble",
+        "context": "president"
+      }
+    ],
+    "textContents": [
+      {
+        "type": "proceedings",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19002-data.xml",
+        "creator": "Deutscher Bundestag",
+        "license": "Public Domain",
+        "language": "DE-de",
+        "originTextID": "",
+        "textBody": [
+          {
+            "type": "speech",
+            "speaker": "Alexander Graf Lambsdorff",
+            "speakerstatus": "main-speaker",
+            "text": "Sehr geehrter Herr Präsident! Meine Damen und Herren! Liebe Kolleginnen und Kollegen! Wir beraten in dieser Sitzungswoche gleich sieben Bundeswehrmandate für Einsätze im Ausland. Im Rahmen dieser Auslandseinsätze erfüllen unsere Soldatinnen und Soldaten wichtige Aufträge in den Einsatzgebieten.",
+            "sentences": [
+              {
+                "text": "Sehr geehrter Herr Präsident!"
+              },
+              {
+                "text": "Meine Damen und Herren!"
+              },
+              {
+                "text": "Liebe Kolleginnen und Kollegen!"
+              },
+              {
+                "text": "Wir beraten in dieser Sitzungswoche gleich sieben Bundeswehrmandate für Einsätze im Ausland."
+              },
+              {
+                "text": "Im Rahmen dieser Auslandseinsätze erfüllen unsere Soldatinnen und Soldaten wichtige Aufträge in den Einsatzgebieten."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Alexander Graf Lambsdorff",
+            "speakerstatus": "main-speaker",
+            "text": "Ich schließe mich ausdrücklich dem Dank der Bundesverteidigungsministerin und anderer Kollegen an die Soldatinnen und Soldaten an, auch im Namen meiner Fraktion, und will hier eines gleich sagen: Dass die AfD die erste Rede in diesem Parlament dazu missbraucht, um die Soldatinnen und Soldaten zu Helfern von Schlepperbanden zu erklären, spricht Bände über ihre Geisteshaltung, die sie hier in dieses Haus einbringen.",
+            "sentences": [
+              {
+                "text": "Ich schließe mich ausdrücklich dem Dank der Bundesverteidigungsministerin und anderer Kollegen an die Soldatinnen und Soldaten an, auch im Namen meiner Fraktion, und will hier eines gleich sagen: Dass die AfD die erste Rede in diesem Parlament dazu missbraucht, um die Soldatinnen und Soldaten zu Helfern von Schlepperbanden zu erklären, spricht Bände über ihre Geisteshaltung, die sie hier in dieses Haus einbringen."
+              }
+            ]
+          },
+          {
+            "type": "comment",
+            "speaker": null,
+            "speakerstatus": null,
+            "text": "(Beifall bei der FDP, der CDU/CSU, der SPD und dem BÜNDNIS 90/DIE GRÜNEN – Widerspruch bei Abgeordneten der AfD)",
+            "sentences": [
+              {
+                "text": "(Beifall bei der FDP, der CDU/CSU, der SPD und dem BÜNDNIS 90/DIE GRÜNEN – Widerspruch bei Abgeordneten der AfD)"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Alexander Graf Lambsdorff",
+            "speakerstatus": "main-speaker",
+            "text": "Die Auslandseinsätze der Bundeswehr sind genau wie unser diplomatisches und unser entwicklungspolitisches Engagement weltweit ein sichtbarer Ausdruck der Verantwortung, die wir als Bundesrepublik global übernehmen.",
+            "sentences": [
+              {
+                "text": "Die Auslandseinsätze der Bundeswehr sind genau wie unser diplomatisches und unser entwicklungspolitisches Engagement weltweit ein sichtbarer Ausdruck der Verantwortung, die wir als Bundesrepublik global übernehmen."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Alexander Graf Lambsdorff",
+            "speakerstatus": "main-speaker",
+            "text": "Uns als Freien Demokraten ist wichtig, dass wir die Entscheidung über jedes einzelne Mandat verlässlich und sorgfältig treffen – mit Blick auf den strategischen Gesamtzusammenhang und in enger Absprache mit unseren internationalen Partnern. Verlässlichkeit und Berechenbarkeit, Dialog und Ausgleich: Das sind die Grundprinzipien liberaler Außen- und Sicherheitspolitik, meine Damen und Herren.",
+            "sentences": [
+              {
+                "text": "Uns als Freien Demokraten ist wichtig, dass wir die Entscheidung über jedes einzelne Mandat verlässlich und sorgfältig treffen – mit Blick auf den strategischen Gesamtzusammenhang und in enger Absprache mit unseren internationalen Partnern."
+              },
+              {
+                "text": "Verlässlichkeit und Berechenbarkeit, Dialog und Ausgleich: Das sind die Grundprinzipien liberaler Außen- und Sicherheitspolitik, meine Damen und Herren."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Alexander Graf Lambsdorff",
+            "speakerstatus": "main-speaker",
+            "text": "Wir Freie Demokraten setzen auf eine internationale Ordnung, die auf den Regeln des Völkerrechts, besonders auf der Charta der Vereinten Nationen, beruht. Aber wir wissen, dass Deutschland diese Ordnung alleine nicht garantieren kann. Deshalb ist es umso wichtiger, dass Deutschland auf eine kluge Gemeinsame Außen- und Sicherheitspolitik in der Europäischen Union, auf handlungsfähige internationale Organisationen, besonders die UNO, und auf starke Allianzen und Bündnisse, besonders die NATO, setzt.",
+            "sentences": [
+              {
+                "text": "Wir Freie Demokraten setzen auf eine internationale Ordnung, die auf den Regeln des Völkerrechts, besonders auf der Charta der Vereinten Nationen, beruht."
+              },
+              {
+                "text": "Aber wir wissen, dass Deutschland diese Ordnung alleine nicht garantieren kann."
+              },
+              {
+                "text": "Deshalb ist es umso wichtiger, dass Deutschland auf eine kluge Gemeinsame Außen- und Sicherheitspolitik in der Europäischen Union, auf handlungsfähige internationale Organisationen, besonders die UNO, und auf starke Allianzen und Bündnisse, besonders die NATO, setzt."
+              }
+            ]
+          },
+          {
+            "type": "comment",
+            "speaker": null,
+            "speakerstatus": null,
+            "text": "(Beifall bei der FDP)",
+            "sentences": [
+              {
+                "text": "(Beifall bei der FDP)"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Alexander Graf Lambsdorff",
+            "speakerstatus": "main-speaker",
+            "text": "Die FDP, meine Damen und Herren, steht zum Konsens der Münchner Sicherheitskonferenz von 2014, dass Deutschland in den kommenden Jahren mehr internationale Verantwortung übernehmen muss. Unsere europäischen und internationalen Partner verlassen sich darauf, dass wir hierzu bereit sind.",
+            "sentences": [
+              {
+                "text": "Die FDP, meine Damen und Herren, steht zum Konsens der Münchner Sicherheitskonferenz von 2014, dass Deutschland in den kommenden Jahren mehr internationale Verantwortung übernehmen muss."
+              },
+              {
+                "text": "Unsere europäischen und internationalen Partner verlassen sich darauf, dass wir hierzu bereit sind."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Alexander Graf Lambsdorff",
+            "speakerstatus": "main-speaker",
+            "text": "Der französische Präsident Emmanuel Macron hat in seiner wichtigen Rede an der Sorbonne als erstes Schlüsselelement der europäischen Souveränität das Thema Sicherheit genannt. Er hat vorgeschlagen, Wege hin zu einer gemeinsamen europäischen strategischen Kultur zu beschreiten. Wir unterstützen das. Wir unterstützen auch seine praktischen Vorschläge zu einem intensivierten Personalaustausch zwischen nationalen Streitkräften. Wir unterstützen ebenfalls die Ständige Strukturierte Zusammenarbeit, die Deutschland gemeinsam mit 22 anderen europäischen Staaten im November dieses Jahres auf den Weg gebracht hat. Jetzt gilt es, alle diese Ideen, auch die PESCO, mit Leben zu erfüllen, indem wir gezielt gemeinsame europäische Verteidigungsprojekte umsetzen. Die Trendwende zu einer europäischen Verteidigungsunion muss jetzt gelingen.",
+            "sentences": [
+              {
+                "text": "Der französische Präsident Emmanuel Macron hat in seiner wichtigen Rede an der Sorbonne als erstes Schlüsselelement der europäischen Souveränität das Thema Sicherheit genannt."
+              },
+              {
+                "text": "Er hat vorgeschlagen, Wege hin zu einer gemeinsamen europäischen strategischen Kultur zu beschreiten."
+              },
+              {
+                "text": "Wir unterstützen das."
+              },
+              {
+                "text": "Wir unterstützen auch seine praktischen Vorschläge zu einem intensivierten Personalaustausch zwischen nationalen Streitkräften."
+              },
+              {
+                "text": "Wir unterstützen ebenfalls die Ständige Strukturierte Zusammenarbeit, die Deutschland gemeinsam mit 22 anderen europäischen Staaten im November dieses Jahres auf den Weg gebracht hat."
+              },
+              {
+                "text": "Jetzt gilt es, alle diese Ideen, auch die PESCO, mit Leben zu erfüllen, indem wir gezielt gemeinsame europäische Verteidigungsprojekte umsetzen."
+              },
+              {
+                "text": "Die Trendwende zu einer europäischen Verteidigungsunion muss jetzt gelingen."
+              }
+            ]
+          },
+          {
+            "type": "comment",
+            "speaker": null,
+            "speakerstatus": null,
+            "text": "(Beifall bei der FDP)",
+            "sentences": [
+              {
+                "text": "(Beifall bei der FDP)"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Alexander Graf Lambsdorff",
+            "speakerstatus": "main-speaker",
+            "text": "Vor diesem Hintergrund ist es zwingend notwendig, dass unseren Soldatinnen und Soldaten die bestmögliche Ausbildung und Ausrüstung, der bestmögliche Schutz im Einsatz und die bestmögliche Betreuung vor, während und nach den Einsätzen zur Verfügung gestellt werden. Und weil ich mir schon denken kann, was gleich von der Linksfraktion kommt, sage ich ausdrücklich: Ich rede von Ausrüstung und nicht von Aufrüstung. Unsere Soldatinnen und Soldaten haben einen Anspruch darauf, mit dem bestmöglichen Material in ihre lebensgefährlichen Einsätze geschickt zu werden. Wir dürfen die Fähigkeitslücken, die in den letzten Jahren entstanden sind, nicht offen lassen.",
+            "sentences": [
+              {
+                "text": "Vor diesem Hintergrund ist es zwingend notwendig, dass unseren Soldatinnen und Soldaten die bestmögliche Ausbildung und Ausrüstung, der bestmögliche Schutz im Einsatz und die bestmögliche Betreuung vor, während und nach den Einsätzen zur Verfügung gestellt werden."
+              },
+              {
+                "text": "Und weil ich mir schon denken kann, was gleich von der Linksfraktion kommt, sage ich ausdrücklich: Ich rede von Ausrüstung und nicht von Aufrüstung."
+              },
+              {
+                "text": "Unsere Soldatinnen und Soldaten haben einen Anspruch darauf, mit dem bestmöglichen Material in ihre lebensgefährlichen Einsätze geschickt zu werden."
+              },
+              {
+                "text": "Wir dürfen die Fähigkeitslücken, die in den letzten Jahren entstanden sind, nicht offen lassen."
+              }
+            ]
+          },
+          {
+            "type": "comment",
+            "speaker": null,
+            "speakerstatus": null,
+            "text": "(Beifall bei der FDP sowie bei Abgeordneten der SPD)",
+            "sentences": [
+              {
+                "text": "(Beifall bei der FDP sowie bei Abgeordneten der SPD)"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Alexander Graf Lambsdorff",
+            "speakerstatus": "main-speaker",
+            "text": "Es kann doch zum Beispiel nicht sein, dass wir heute zu wenige einsatzbereite Piloten für den Kampfhubschrauber Tiger zur Verfügung haben, weil, bedingt durch kurzfristige Einsatzverpflichtungen in Afghanistan 2013 und 2014, keine Pilotenausbildung stattfinden konnte. Kurzfristige Herausforderungen eines Einsatzes dürfen nicht dazu führen, dass wir langfristig Fähigkeiten einbüßen.",
+            "sentences": [
+              {
+                "text": "Es kann doch zum Beispiel nicht sein, dass wir heute zu wenige einsatzbereite Piloten für den Kampfhubschrauber Tiger zur Verfügung haben, weil, bedingt durch kurzfristige Einsatzverpflichtungen in Afghanistan 2013 und 2014, keine Pilotenausbildung stattfinden konnte."
+              },
+              {
+                "text": "Kurzfristige Herausforderungen eines Einsatzes dürfen nicht dazu führen, dass wir langfristig Fähigkeiten einbüßen."
+              }
+            ]
+          },
+          {
+            "type": "comment",
+            "speaker": null,
+            "speakerstatus": null,
+            "text": "(Beifall bei Abgeordneten der FDP)",
+            "sentences": [
+              {
+                "text": "(Beifall bei Abgeordneten der FDP)"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Alexander Graf Lambsdorff",
+            "speakerstatus": "main-speaker",
+            "text": "Das gilt auch für das Schlüsselthema Personal. Die Gewinnung, der Erhalt und die Ausbildung von zivilem sowie militärischem Personal bleibt unverändert eine Zukunftsfrage für die Bundeswehr. Hier hat die amtierende Bundesregierung noch keine überzeugenden Konzepte vorgelegt. Das aber ist zwingend notwendig; denn die materielle und personelle Einsatzbereitschaft der Bundeswehr wird zukünftig bestimmen, in welcher Form und Qualität sich Deutschland überhaupt an Auslandseinsätzen beteiligen kann.",
+            "sentences": [
+              {
+                "text": "Das gilt auch für das Schlüsselthema Personal."
+              },
+              {
+                "text": "Die Gewinnung, der Erhalt und die Ausbildung von zivilem sowie militärischem Personal bleibt unverändert eine Zukunftsfrage für die Bundeswehr."
+              },
+              {
+                "text": "Hier hat die amtierende Bundesregierung noch keine überzeugenden Konzepte vorgelegt."
+              },
+              {
+                "text": "Das aber ist zwingend notwendig; denn die materielle und personelle Einsatzbereitschaft der Bundeswehr wird zukünftig bestimmen, in welcher Form und Qualität sich Deutschland überhaupt an Auslandseinsätzen beteiligen kann."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Alexander Graf Lambsdorff",
+            "speakerstatus": "main-speaker",
+            "text": "Mit der Beteiligung an der Mission Sea Guardian leistet Deutschland einen wichtigen Beitrag unter anderem zur Seeraumüberwachung im Mittelmeer, bei der Unterstützung der Operation Sophia und bei der maritimen Bekämpfung des Terrorismus. Unsere Partner erwarten von uns, dass wir diese Mission weiterhin unterstützen. Daher unterstützen auch wir als Freie Demokraten die Verlängerung des Einsatzes und die Überweisung an den Ausschuss, damit unsere Soldatinnen und Soldaten die rechtliche Sicherheit für ihren Einsatz haben, die sie brauchen.",
+            "sentences": [
+              {
+                "text": "Mit der Beteiligung an der Mission Sea Guardian leistet Deutschland einen wichtigen Beitrag unter anderem zur Seeraumüberwachung im Mittelmeer, bei der Unterstützung der Operation Sophia und bei der maritimen Bekämpfung des Terrorismus."
+              },
+              {
+                "text": "Unsere Partner erwarten von uns, dass wir diese Mission weiterhin unterstützen."
+              },
+              {
+                "text": "Daher unterstützen auch wir als Freie Demokraten die Verlängerung des Einsatzes und die Überweisung an den Ausschuss, damit unsere Soldatinnen und Soldaten die rechtliche Sicherheit für ihren Einsatz haben, die sie brauchen."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Alexander Graf Lambsdorff",
+            "speakerstatus": "main-speaker",
+            "text": "Herzlichen Dank.",
+            "sentences": [
+              {
+                "text": "Herzlichen Dank."
+              }
+            ]
+          },
+          {
+            "type": "comment",
+            "speaker": null,
+            "speakerstatus": null,
+            "text": "(Beifall bei der FDP sowie bei Abgeordneten der CDU/CSU)",
+            "sentences": [
+              {
+                "text": "(Beifall bei der FDP sowie bei Abgeordneten der CDU/CSU)"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "Das Wort hat der Kollege Dr. Neu von der Fraktion Die Linke.",
+            "sentences": [
+              {
+                "text": "Das Wort hat der Kollege Dr. Neu von der Fraktion Die Linke."
+              }
+            ]
+          },
+          {
+            "type": "comment",
+            "speaker": null,
+            "speakerstatus": null,
+            "text": "(Beifall bei der LINKEN)",
+            "sentences": [
+              {
+                "text": "(Beifall bei der LINKEN)"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "documents": [
+      {
+        "type": "officialDocument",
+        "label": "Drucksache 19/22",
+        "sourceURI": "https://dserver.bundestag.de/btd/19/000/1900022.pdf"
+      }
+    ],
+    "key": "19-2 tagesordnungspunkt 2 (alexander graf lambsdorff)",
+    "dateStart": "2017-11-21T09:51:55",
+    "dateEnd": "2017-11-21T09:57:12",
     "media": {
       "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7174027/7174027_h264_720_400_2000kb_baseline_de_2192.mp4",
       "sourcePage": "http://dbtg.tv/fvid/7174027",
@@ -4201,18 +4526,7 @@
       "license": "CC-BY-SA",
       "originMediaID": "7174027",
       "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7174027/7174027_mp3_128kb_stereo_de_128.mp3"
-    },
-    "dateStart": "2017-11-21T09:51:55",
-    "dateEnd": "2017-11-21T09:57:12",
-    "people": [
-      {
-        "label": "Alexander Graf Lambsdorff",
-        "faction": "FDP",
-        "context": "main-speaker",
-        "role": null
-      }
-    ],
-    "key": "19-2 tagesordnungspunkt 2 (alexander graf lambsdorff)"
+    }
   },
   {
     "parliament": "DE",
@@ -10432,16 +10746,353 @@
   {
     "parliament": "DE",
     "electoralPeriod": {
-      "number": 19
+      "number": "19"
     },
     "session": {
-      "number": 2
+      "number": "2",
+      "dateStart": "2017-11-21T10:00",
+      "dateEnd": "2017-11-21T19:42"
     },
     "agendaItem": {
-      "title": "Tagesordnungspunkt 4",
       "officialTitle": "Tagesordnungspunkt 4",
-      "speechIndex": 36
+      "speechIndex": 31,
+      "title": "Tagesordnungspunkt 4"
     },
+    "people": [
+      {
+        "type": "memberOfParliament",
+        "label": "Alexander Graf Lambsdorff",
+        "context": "main-speaker"
+      },
+      {
+        "type": "memberOfParliament",
+        "label": "Thomas Oppermann",
+        "context": "vice-president"
+      }
+    ],
+    "textContents": [
+      {
+        "type": "proceedings",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19002-data.xml",
+        "creator": "Deutscher Bundestag",
+        "license": "Public Domain",
+        "language": "DE-de",
+        "originTextID": "",
+        "textBody": [
+          {
+            "type": "speech",
+            "speaker": "Alexander Graf Lambsdorff",
+            "speakerstatus": "main-speaker",
+            "text": "Sehr geehrter Herr Präsident! Liebe Kolleginnen und Kollegen! Das deutsche Engagement in Afghanistan ist stark, es ist nachhaltig, und es ist getragen von dem Bewusstsein, wie gefährlich dieses Engagement ist. Genau aus diesem Grunde steht immer wieder eine Überprüfung an. Jedes Mal aufs Neue ist das nötig. Ich denke hier nicht nur an unsere Soldatinnen und Soldaten; ich denke auch an die Angehörigen des Auswärtigen Dienstes. Auf das Generalkonsulat in Masar-i-Scharif, auf die deutsche Botschaft in Kabul hat es schwere Anschläge gegeben. Ich denke an unsere zivilen Aufbau- und Entwicklungshelfer, an die Mitarbeiter von Nichtregierungsorganisationen, die sich dort seit 16 Jahren engagieren, um den Menschen in Afghanistan zu helfen. Ihnen allen schulden wir Dank.",
+            "sentences": [
+              {
+                "text": "Sehr geehrter Herr Präsident!"
+              },
+              {
+                "text": "Liebe Kolleginnen und Kollegen!"
+              },
+              {
+                "text": "Das deutsche Engagement in Afghanistan ist stark, es ist nachhaltig, und es ist getragen von dem Bewusstsein, wie gefährlich dieses Engagement ist."
+              },
+              {
+                "text": "Genau aus diesem Grunde steht immer wieder eine Überprüfung an."
+              },
+              {
+                "text": "Jedes Mal aufs Neue ist das nötig."
+              },
+              {
+                "text": "Ich denke hier nicht nur an unsere Soldatinnen und Soldaten; ich denke auch an die Angehörigen des Auswärtigen Dienstes."
+              },
+              {
+                "text": "Auf das Generalkonsulat in Masar-i-Scharif, auf die deutsche Botschaft in Kabul hat es schwere Anschläge gegeben."
+              },
+              {
+                "text": "Ich denke an unsere zivilen Aufbau- und Entwicklungshelfer, an die Mitarbeiter von Nichtregierungsorganisationen, die sich dort seit 16 Jahren engagieren, um den Menschen in Afghanistan zu helfen."
+              },
+              {
+                "text": "Ihnen allen schulden wir Dank."
+              }
+            ]
+          },
+          {
+            "type": "comment",
+            "speaker": null,
+            "speakerstatus": null,
+            "text": "(Beifall bei der FDP sowie bei Abgeordneten der SPD)",
+            "sentences": [
+              {
+                "text": "(Beifall bei der FDP sowie bei Abgeordneten der SPD)"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Alexander Graf Lambsdorff",
+            "speakerstatus": "main-speaker",
+            "text": "Es ist schon eine lange Zeit, in der dort gearbeitet wird. Die Fortschritte, die Herr Gauland hier einfach mal so weggewischt hat, die punktuellen Erfolge, das sind ganz konkrete Verbesserungen der Lebenssituation der Menschen in Afghanistan. All denen, die daran mitgearbeitet haben, gilt unser herzlicher Dank.",
+            "sentences": [
+              {
+                "text": "Es ist schon eine lange Zeit, in der dort gearbeitet wird."
+              },
+              {
+                "text": "Die Fortschritte, die Herr Gauland hier einfach mal so weggewischt hat, die punktuellen Erfolge, das sind ganz konkrete Verbesserungen der Lebenssituation der Menschen in Afghanistan."
+              },
+              {
+                "text": "All denen, die daran mitgearbeitet haben, gilt unser herzlicher Dank."
+              }
+            ]
+          },
+          {
+            "type": "comment",
+            "speaker": null,
+            "speakerstatus": null,
+            "text": "(Beifall bei der FDP sowie bei Abgeordneten der CDU/CSU, der SPD und des BÜNDNISSES 90/DIE GRÜNEN)",
+            "sentences": [
+              {
+                "text": "(Beifall bei der FDP sowie bei Abgeordneten der CDU/CSU, der SPD und des BÜNDNISSES 90/DIE GRÜNEN)"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Alexander Graf Lambsdorff",
+            "speakerstatus": "main-speaker",
+            "text": "Meine Damen und Herren, Afghanistan wird noch mehr politische Aufmerksamkeit, noch mehr entwicklungspolitisches Engagement, noch mehr militärischen Einsatz brauchen. Schon der Rückblick auf die Gründe für diesen Einsatz macht das deutlich. Die Anschläge vom 11. September auf das World Trade Center und die anderen Zielpunkte in den USA machen das deutlich. Lieber Herr Gauland, was sagen Sie eigentlich den Angehörigen der elf deutschen Opfer? Sie sagen ja: Wir gehen einfach aus Afghanistan raus, überlassen das Land wieder den Terroristen, damit das nächste 9/11 geplant werden kann. – Da sind auch Deutsche ums Leben gekommen. Das ist der Grund, warum wir uns dort engagieren.",
+            "sentences": [
+              {
+                "text": "Meine Damen und Herren, Afghanistan wird noch mehr politische Aufmerksamkeit, noch mehr entwicklungspolitisches Engagement, noch mehr militärischen Einsatz brauchen."
+              },
+              {
+                "text": "Schon der Rückblick auf die Gründe für diesen Einsatz macht das deutlich."
+              },
+              {
+                "text": "Die Anschläge vom 11. September auf das World Trade Center und die anderen Zielpunkte in den USA machen das deutlich."
+              },
+              {
+                "text": "Lieber Herr Gauland, was sagen Sie eigentlich den Angehörigen der elf deutschen Opfer?"
+              },
+              {
+                "text": "Sie sagen ja: Wir gehen einfach aus Afghanistan raus, überlassen das Land wieder den Terroristen, damit das nächste 9/11 geplant werden kann."
+              },
+              {
+                "text": "– Da sind auch Deutsche ums Leben gekommen."
+              },
+              {
+                "text": "Das ist der Grund, warum wir uns dort engagieren."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Alexander Graf Lambsdorff",
+            "speakerstatus": "main-speaker",
+            "text": "Heute, meine Damen und Herren, geht es um die Verlängerung des Afghanistan-Mandats um drei Monate – drei Monate, die wir brauchen, um genau eine solche Überprüfung für die nächste Zeit, die nächste Phase zu unternehmen. Ein Abzug jedenfalls wäre logistisch, politisch und militärisch eindeutig unrealistisch; er wäre vor allem vollkommen verantwortungslos.",
+            "sentences": [
+              {
+                "text": "Heute, meine Damen und Herren, geht es um die Verlängerung des Afghanistan-Mandats um drei Monate – drei Monate, die wir brauchen, um genau eine solche Überprüfung für die nächste Zeit, die nächste Phase zu unternehmen."
+              },
+              {
+                "text": "Ein Abzug jedenfalls wäre logistisch, politisch und militärisch eindeutig unrealistisch; er wäre vor allem vollkommen verantwortungslos."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Alexander Graf Lambsdorff",
+            "speakerstatus": "main-speaker",
+            "text": "Die FDP bekennt sich zum Afghanistan-Engagement, aber – das will ich hier deutlich sagen – was dieses Parlament braucht, sind eine kritische Bestandsaufnahme und eine Bewertung des bisher Erreichten und auch des Nicht-Erreichten. Mir ist völlig unverständlich, dass der Fortschrittsbericht für Afghanistan durch die Große Koalition abgeschafft worden ist. Das muss sich ändern. Die Amerikaner machen das anders. Sie haben jedes Jahr einen Bericht des Sonderberichterstatters für Afghanistan der amerikanischen Regierung. Das könnte ein Vorbild für die Bundesregierung sein, sodass auch der Deutsche Bundestag in vollem Umfang über das unterrichtet ist, was in Afghanistan gut läuft und was weniger gut läuft, wenn wir über die nächste Mandatsverlängerung diskutieren.",
+            "sentences": [
+              {
+                "text": "Die FDP bekennt sich zum Afghanistan-Engagement, aber – das will ich hier deutlich sagen – was dieses Parlament braucht, sind eine kritische Bestandsaufnahme und eine Bewertung des bisher Erreichten und auch des Nicht-Erreichten."
+              },
+              {
+                "text": "Mir ist völlig unverständlich, dass der Fortschrittsbericht für Afghanistan durch die Große Koalition abgeschafft worden ist."
+              },
+              {
+                "text": "Das muss sich ändern."
+              },
+              {
+                "text": "Die Amerikaner machen das anders."
+              },
+              {
+                "text": "Sie haben jedes Jahr einen Bericht des Sonderberichterstatters für Afghanistan der amerikanischen Regierung."
+              },
+              {
+                "text": "Das könnte ein Vorbild für die Bundesregierung sein, sodass auch der Deutsche Bundestag in vollem Umfang über das unterrichtet ist, was in Afghanistan gut läuft und was weniger gut läuft, wenn wir über die nächste Mandatsverlängerung diskutieren."
+              }
+            ]
+          },
+          {
+            "type": "comment",
+            "speaker": null,
+            "speakerstatus": null,
+            "text": "(Beifall bei der FDP)",
+            "sentences": [
+              {
+                "text": "(Beifall bei der FDP)"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Alexander Graf Lambsdorff",
+            "speakerstatus": "main-speaker",
+            "text": "Wir fordern die Bundesregierung auf, jährlich einen Evaluierungsbericht vorzulegen. Das sind wir all denen schuldig, die in den vergangenen 16 Jahren versucht haben, die Lage im Land zu verbessern.",
+            "sentences": [
+              {
+                "text": "Wir fordern die Bundesregierung auf, jährlich einen Evaluierungsbericht vorzulegen."
+              },
+              {
+                "text": "Das sind wir all denen schuldig, die in den vergangenen 16 Jahren versucht haben, die Lage im Land zu verbessern."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Alexander Graf Lambsdorff",
+            "speakerstatus": "main-speaker",
+            "text": "Im Jahre 2015, meine Damen und Herren, ging die alleinige Sicherheitsverantwortung von der NATO und ihren Partnern auf die afghanische Regierung über. Das funktioniert allerdings bisher nur teilweise. Die afghanische Regierung und die Zivilbevölkerung haben seit der Übernahme der Sicherheitsverantwortung auch schwere Jahre durchlebt. In Teilen Afghanistans sind die Taliban wieder erstarkt. Das können und wollen wir nicht akzeptieren. Gerade deshalb ist unsere Unterstützung der afghanischen Sicherheits- und Verteidigungskräfte so notwendig.",
+            "sentences": [
+              {
+                "text": "Im Jahre 2015, meine Damen und Herren, ging die alleinige Sicherheitsverantwortung von der NATO und ihren Partnern auf die afghanische Regierung über."
+              },
+              {
+                "text": "Das funktioniert allerdings bisher nur teilweise."
+              },
+              {
+                "text": "Die afghanische Regierung und die Zivilbevölkerung haben seit der Übernahme der Sicherheitsverantwortung auch schwere Jahre durchlebt."
+              },
+              {
+                "text": "In Teilen Afghanistans sind die Taliban wieder erstarkt."
+              },
+              {
+                "text": "Das können und wollen wir nicht akzeptieren."
+              },
+              {
+                "text": "Gerade deshalb ist unsere Unterstützung der afghanischen Sicherheits- und Verteidigungskräfte so notwendig."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Alexander Graf Lambsdorff",
+            "speakerstatus": "main-speaker",
+            "text": "Die internationale Gemeinschaft hat gemeinsam mit Afghanistan beim Aufbau staatlicher Institutionen und der Zivilgesellschaft einiges erreicht. Aber das kann eben nur dort dauerhaft bewahrt werden, wo die afghanischen Sicherheitskräfte wirklich in der Lage sind, Sicherheit und Stabilität eigenständig zu gewährleisten; nur dort können die Zonen regionaler Sicherheit größer und dauerhafter werden. Das, meine Damen und Herren, reduziert dann auch den Druck, aus Afghanistan auszuwandern. Wir haben weniger Flüchtlinge, nicht mehr, wenn wir unser Engagement verantwortungsvoll fortsetzen.",
+            "sentences": [
+              {
+                "text": "Die internationale Gemeinschaft hat gemeinsam mit Afghanistan beim Aufbau staatlicher Institutionen und der Zivilgesellschaft einiges erreicht."
+              },
+              {
+                "text": "Aber das kann eben nur dort dauerhaft bewahrt werden, wo die afghanischen Sicherheitskräfte wirklich in der Lage sind, Sicherheit und Stabilität eigenständig zu gewährleisten; nur dort können die Zonen regionaler Sicherheit größer und dauerhafter werden."
+              },
+              {
+                "text": "Das, meine Damen und Herren, reduziert dann auch den Druck, aus Afghanistan auszuwandern."
+              },
+              {
+                "text": "Wir haben weniger Flüchtlinge, nicht mehr, wenn wir unser Engagement verantwortungsvoll fortsetzen."
+              }
+            ]
+          },
+          {
+            "type": "comment",
+            "speaker": null,
+            "speakerstatus": null,
+            "text": "(Beifall bei der FDP)",
+            "sentences": [
+              {
+                "text": "(Beifall bei der FDP)"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Alexander Graf Lambsdorff",
+            "speakerstatus": "main-speaker",
+            "text": "Meine Damen und Herren, unsere Beteiligung an der NATO-Mission Resolute Support ist ein zentraler Beitrag für die Zukunft Afghanistans. Wir dürfen nicht zulassen, dass dieses Land erneut ein sicherer Hafen für Terroristen wird, von dem eine Bedrohung der Region und des Rests der Welt ausgeht. Wir haben eine Verantwortung für die Menschen im Land übernommen. Zu dieser Verantwortung stehen wir. Jetzt gilt es, klare Fortschritts- und Erfolgskriterien zu definieren und international abzustimmen. Dazu wollen wir einen Bericht der Bundesregierung. Wir als Freie Demokraten stimmen der Überweisung in den Hauptausschuss zu.",
+            "sentences": [
+              {
+                "text": "Meine Damen und Herren, unsere Beteiligung an der NATO-Mission Resolute Support ist ein zentraler Beitrag für die Zukunft Afghanistans."
+              },
+              {
+                "text": "Wir dürfen nicht zulassen, dass dieses Land erneut ein sicherer Hafen für Terroristen wird, von dem eine Bedrohung der Region und des Rests der Welt ausgeht."
+              },
+              {
+                "text": "Wir haben eine Verantwortung für die Menschen im Land übernommen."
+              },
+              {
+                "text": "Zu dieser Verantwortung stehen wir."
+              },
+              {
+                "text": "Jetzt gilt es, klare Fortschritts- und Erfolgskriterien zu definieren und international abzustimmen."
+              },
+              {
+                "text": "Dazu wollen wir einen Bericht der Bundesregierung."
+              },
+              {
+                "text": "Wir als Freie Demokraten stimmen der Überweisung in den Hauptausschuss zu."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Alexander Graf Lambsdorff",
+            "speakerstatus": "main-speaker",
+            "text": "Herzlichen Dank.",
+            "sentences": [
+              {
+                "text": "Herzlichen Dank."
+              }
+            ]
+          },
+          {
+            "type": "comment",
+            "speaker": null,
+            "speakerstatus": null,
+            "text": "(Beifall bei der FDP sowie bei Abgeordneten der CDU/CSU)",
+            "sentences": [
+              {
+                "text": "(Beifall bei der FDP sowie bei Abgeordneten der CDU/CSU)"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Thomas Oppermann",
+            "speakerstatus": "vice-president",
+            "text": "Nächste Rednerin ist die Kollegin Heike Hänsel für die Fraktion Die Linke. Sie haben das Wort.",
+            "sentences": [
+              {
+                "text": "Nächste Rednerin ist die Kollegin Heike Hänsel für die Fraktion Die Linke."
+              },
+              {
+                "text": "Sie haben das Wort."
+              }
+            ]
+          },
+          {
+            "type": "comment",
+            "speaker": null,
+            "speakerstatus": null,
+            "text": "(Beifall bei der LINKEN)",
+            "sentences": [
+              {
+                "text": "(Beifall bei der LINKEN)"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "documents": [
+      {
+        "type": "officialDocument",
+        "label": "Drucksache 19/21",
+        "sourceURI": "https://dserver.bundestag.de/btd/19/000/1900021.pdf"
+      }
+    ],
+    "key": "19-2 tagesordnungspunkt 4 (alexander graf lambsdorff)",
+    "dateStart": "2017-11-21T11:27:03",
+    "dateEnd": "2017-11-21T11:31:55",
     "media": {
       "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7174061/7174061_h264_720_400_2000kb_baseline_de_2192.mp4",
       "sourcePage": "http://dbtg.tv/fvid/7174061",
@@ -10450,18 +11101,7 @@
       "license": "CC-BY-SA",
       "originMediaID": "7174061",
       "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7174061/7174061_mp3_128kb_stereo_de_128.mp3"
-    },
-    "dateStart": "2017-11-21T11:27:03",
-    "dateEnd": "2017-11-21T11:31:55",
-    "people": [
-      {
-        "label": "Alexander Graf Lambsdorff",
-        "faction": "FDP",
-        "context": "main-speaker",
-        "role": null
-      }
-    ],
-    "key": "19-2 tagesordnungspunkt 4 (alexander graf lambsdorff)"
+    }
   },
   {
     "parliament": "DE",

@@ -2149,16 +2149,269 @@
   {
     "parliament": "DE",
     "electoralPeriod": {
-      "number": 19
+      "number": "19"
     },
     "session": {
-      "number": 4
+      "number": "4",
+      "dateStart": "2017-12-12T09:00",
+      "dateEnd": "2017-12-12T18:01"
     },
     "agendaItem": {
-      "title": "Tagesordnungspunkt 1",
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 8
+      "speechIndex": 6,
+      "title": "Tagesordnungspunkt 1"
     },
+    "people": [
+      {
+        "type": "memberOfParliament",
+        "label": "Alexander Graf Lambsdorff",
+        "context": "main-speaker"
+      },
+      {
+        "type": "memberOfParliament",
+        "label": "Wolfgang Schäuble",
+        "context": "president"
+      }
+    ],
+    "textContents": [
+      {
+        "type": "proceedings",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19004-data.xml",
+        "creator": "Deutscher Bundestag",
+        "license": "Public Domain",
+        "language": "DE-de",
+        "originTextID": "",
+        "textBody": [
+          {
+            "type": "speech",
+            "speaker": "Alexander Graf Lambsdorff",
+            "speakerstatus": "main-speaker",
+            "text": "Herr Präsident! Meine Damen und Herren! Bevor ich zu Sea Guardian im Einzelnen komme, lassen Sie mich für meine Fraktion, die Freien Demokraten, sagen, dass wir heute und morgen der Verlängerung der sieben in Rede stehenden Mandate zustimmen werden.",
+            "sentences": [
+              {
+                "text": "Herr Präsident!"
+              },
+              {
+                "text": "Meine Damen und Herren!"
+              },
+              {
+                "text": "Bevor ich zu Sea Guardian im Einzelnen komme, lassen Sie mich für meine Fraktion, die Freien Demokraten, sagen, dass wir heute und morgen der Verlängerung der sieben in Rede stehenden Mandate zustimmen werden."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Alexander Graf Lambsdorff",
+            "speakerstatus": "main-speaker",
+            "text": "Für uns ist das eine dreifache Verantwortung. Einerseits ist es eine Verantwortung gegenüber den Soldatinnen und Soldaten, die Rechtssicherheit für ihre Einsätze brauchen. Es ist zum Zweiten eine Frage der Verantwortung gegenüber unseren Verbündeten, mit denen wir diese wichtige Arbeit gemeinsam machen. Deutschland muss ein verlässlicher Partner sein und bleiben. Aber es ist zum Dritten auch eine Frage der Verantwortung dieses Parlaments, dass wir in den nächsten Monaten die Zeit und die Gelegenheit haben, alle Mandate im Einzelnen noch einmal technisch, inhaltlich und strategisch daraufhin zu überprüfen, ob wir ihnen auch in Zukunft zustimmen können.",
+            "sentences": [
+              {
+                "text": "Für uns ist das eine dreifache Verantwortung."
+              },
+              {
+                "text": "Einerseits ist es eine Verantwortung gegenüber den Soldatinnen und Soldaten, die Rechtssicherheit für ihre Einsätze brauchen."
+              },
+              {
+                "text": "Es ist zum Zweiten eine Frage der Verantwortung gegenüber unseren Verbündeten, mit denen wir diese wichtige Arbeit gemeinsam machen."
+              },
+              {
+                "text": "Deutschland muss ein verlässlicher Partner sein und bleiben."
+              },
+              {
+                "text": "Aber es ist zum Dritten auch eine Frage der Verantwortung dieses Parlaments, dass wir in den nächsten Monaten die Zeit und die Gelegenheit haben, alle Mandate im Einzelnen noch einmal technisch, inhaltlich und strategisch daraufhin zu überprüfen, ob wir ihnen auch in Zukunft zustimmen können."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Alexander Graf Lambsdorff",
+            "speakerstatus": "main-speaker",
+            "text": "Deswegen will ich hier eines genauso deutlich sagen: Auch wenn wir allen sieben Mandaten zustimmen werden: Das ist keine Vorwegnahme unserer Positionierung für die Zukunft.",
+            "sentences": [
+              {
+                "text": "Deswegen will ich hier eines genauso deutlich sagen: Auch wenn wir allen sieben Mandaten zustimmen werden: Das ist keine Vorwegnahme unserer Positionierung für die Zukunft."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Alexander Graf Lambsdorff",
+            "speakerstatus": "main-speaker",
+            "text": "Lassen Sie mich einen weiteren Punkt ansprechen; er befasst sich mit den Entschließungsanträgen der Kollegen von der Linksfraktion. Wir sind bereit, über alle Themen zu reden. Wir sind auch bereit, Standpunkte zu diskutieren, die nicht unsere sind; aber wir finden, dass es diesem Thema wirklich nicht angemessen ist, wenn Sie spät abends vor einer solchen Debatte sieben Entschließungsanträge einfach auf den Tisch des Hauses knallen, in der Erwartung, dass sich das Parlament damit befassen kann. Wir werden diese Entschließungsanträge daher durchgehend ablehnen.",
+            "sentences": [
+              {
+                "text": "Lassen Sie mich einen weiteren Punkt ansprechen; er befasst sich mit den Entschließungsanträgen der Kollegen von der Linksfraktion."
+              },
+              {
+                "text": "Wir sind bereit, über alle Themen zu reden."
+              },
+              {
+                "text": "Wir sind auch bereit, Standpunkte zu diskutieren, die nicht unsere sind; aber wir finden, dass es diesem Thema wirklich nicht angemessen ist, wenn Sie spät abends vor einer solchen Debatte sieben Entschließungsanträge einfach auf den Tisch des Hauses knallen, in der Erwartung, dass sich das Parlament damit befassen kann."
+              },
+              {
+                "text": "Wir werden diese Entschließungsanträge daher durchgehend ablehnen."
+              }
+            ]
+          },
+          {
+            "type": "comment",
+            "speaker": null,
+            "speakerstatus": null,
+            "text": "(Beifall bei der FDP sowie bei Abgeordneten der CDU/CSU)",
+            "sentences": [
+              {
+                "text": "(Beifall bei der FDP sowie bei Abgeordneten der CDU/CSU)"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Alexander Graf Lambsdorff",
+            "speakerstatus": "main-speaker",
+            "text": "Das ist ein Thema, das Ernsthaftigkeit verlangt, das solide Arbeit verlangt, aber nicht hingehudelte Texte, die uns einfach mal so auf den Tisch geknallt werden.",
+            "sentences": [
+              {
+                "text": "Das ist ein Thema, das Ernsthaftigkeit verlangt, das solide Arbeit verlangt, aber nicht hingehudelte Texte, die uns einfach mal so auf den Tisch geknallt werden."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Alexander Graf Lambsdorff",
+            "speakerstatus": "main-speaker",
+            "text": "Meine Damen und Herren, Sea Guardian ist ein wichtiges Mandat. Es ist die Nachfolgemission zum Mandat Operation Active Endeavour. Active Endeavour war eine Reaktion auf die Terroranschläge vom 11. September 2001. Es war 15 Jahre lang ein Mandat auf der Basis des Artikels 5 des NATO-Vertrages. Wir als Freie Demokraten sagen: Es war ein richtiger Schritt, jetzt eine Entkoppelung vorzunehmen; das war eine richtige Maßnahme. Denn es geht bei Sea Guardian darum, dass wir hier Menschenschmuggel bekämpfen, dass wir Waffenschmuggel bekämpfen. Das ist eine Aufgabe, die wir auch im Rahmen der Europäischen Union mit der Operation Sophia wahrnehmen. Es geht um die Bekämpfung des Terrorismus. Die Änderung der Rechtsgrundlage halten wir für prinzipiell richtig.",
+            "sentences": [
+              {
+                "text": "Meine Damen und Herren, Sea Guardian ist ein wichtiges Mandat."
+              },
+              {
+                "text": "Es ist die Nachfolgemission zum Mandat Operation Active Endeavour."
+              },
+              {
+                "text": "Active Endeavour war eine Reaktion auf die Terroranschläge vom 11. September 2001. Es war 15 Jahre lang ein Mandat auf der Basis des Artikels 5 des NATO-Vertrages."
+              },
+              {
+                "text": "Wir als Freie Demokraten sagen: Es war ein richtiger Schritt, jetzt eine Entkoppelung vorzunehmen; das war eine richtige Maßnahme."
+              },
+              {
+                "text": "Denn es geht bei Sea Guardian darum, dass wir hier Menschenschmuggel bekämpfen, dass wir Waffenschmuggel bekämpfen."
+              },
+              {
+                "text": "Das ist eine Aufgabe, die wir auch im Rahmen der Europäischen Union mit der Operation Sophia wahrnehmen."
+              },
+              {
+                "text": "Es geht um die Bekämpfung des Terrorismus."
+              },
+              {
+                "text": "Die Änderung der Rechtsgrundlage halten wir für prinzipiell richtig."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Alexander Graf Lambsdorff",
+            "speakerstatus": "main-speaker",
+            "text": "Wir wollen auch, dass die Seeraumüberwachung, die Sea Guardian vornimmt, fortgesetzt wird. Ich kann beim besten Willen nicht verstehen, lieber Herr Kollege, dass Sie sagen, das Mittelmeer sei so weit weg von Europa, dass man nicht nachvollziehen könne, warum das noch im Interesse Europas sei. Genau das ist hier gerade gesagt worden. Das Mittelmeer ist ein Meer in unserer unmittelbaren Nachbarschaft; das sage ich als deutscher Abgeordneter. Es ist nicht ein deutsches Küstengewässer. Aber wenn wir Sicherheit europäisch denken, gilt: Das Mittelmeer ist unser Heimatmeer, für das wir eine besondere Verantwortung wahrzunehmen haben.",
+            "sentences": [
+              {
+                "text": "Wir wollen auch, dass die Seeraumüberwachung, die Sea Guardian vornimmt, fortgesetzt wird."
+              },
+              {
+                "text": "Ich kann beim besten Willen nicht verstehen, lieber Herr Kollege, dass Sie sagen, das Mittelmeer sei so weit weg von Europa, dass man nicht nachvollziehen könne, warum das noch im Interesse Europas sei."
+              },
+              {
+                "text": "Genau das ist hier gerade gesagt worden."
+              },
+              {
+                "text": "Das Mittelmeer ist ein Meer in unserer unmittelbaren Nachbarschaft; das sage ich als deutscher Abgeordneter."
+              },
+              {
+                "text": "Es ist nicht ein deutsches Küstengewässer."
+              },
+              {
+                "text": "Aber wenn wir Sicherheit europäisch denken, gilt: Das Mittelmeer ist unser Heimatmeer, für das wir eine besondere Verantwortung wahrzunehmen haben."
+              }
+            ]
+          },
+          {
+            "type": "comment",
+            "speaker": null,
+            "speakerstatus": null,
+            "text": "(Beifall bei der FDP sowie bei Abgeordneten der CDU/CSU und der SPD)",
+            "sentences": [
+              {
+                "text": "(Beifall bei der FDP sowie bei Abgeordneten der CDU/CSU und der SPD)"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Alexander Graf Lambsdorff",
+            "speakerstatus": "main-speaker",
+            "text": "Lassen Sie mich mit Folgendem schließen – das will ich hier auch ganz deutlich sagen –: Viele Soldatinnen und Soldaten sind über die Weihnachtstage im Einsatz. Sie werden von ihren Familien schmerzlich vermisst werden. Wir als Freie Demokraten senden – ich glaube, das gilt für das ganze Haus – die besten Weihnachtsgrüße an alle Soldatinnen und Soldaten im Einsatz und an ihre Familien und wünschen von Herzen ein friedliches Weihnachtsfest.",
+            "sentences": [
+              {
+                "text": "Lassen Sie mich mit Folgendem schließen – das will ich hier auch ganz deutlich sagen –: Viele Soldatinnen und Soldaten sind über die Weihnachtstage im Einsatz."
+              },
+              {
+                "text": "Sie werden von ihren Familien schmerzlich vermisst werden."
+              },
+              {
+                "text": "Wir als Freie Demokraten senden – ich glaube, das gilt für das ganze Haus – die besten Weihnachtsgrüße an alle Soldatinnen und Soldaten im Einsatz und an ihre Familien und wünschen von Herzen ein friedliches Weihnachtsfest."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Alexander Graf Lambsdorff",
+            "speakerstatus": "main-speaker",
+            "text": "Herzlichen Dank.",
+            "sentences": [
+              {
+                "text": "Herzlichen Dank."
+              }
+            ]
+          },
+          {
+            "type": "comment",
+            "speaker": null,
+            "speakerstatus": null,
+            "text": "(Beifall bei der FDP sowie bei Abgeordneten der CDU/CSU, der SPD, der AfD und des BÜNDNISSES 90/DIE GRÜNEN)",
+            "sentences": [
+              {
+                "text": "(Beifall bei der FDP sowie bei Abgeordneten der CDU/CSU, der SPD, der AfD und des BÜNDNISSES 90/DIE GRÜNEN)"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "Jetzt hat der Kollege Korte um das Wort für eine Kurzintervention gebeten.",
+            "sentences": [
+              {
+                "text": "Jetzt hat der Kollege Korte um das Wort für eine Kurzintervention gebeten."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "documents": [
+      {
+        "type": "officialDocument",
+        "label": "Drucksache 19/22",
+        "sourceURI": "https://dserver.bundestag.de/btd/19/000/1900022.pdf"
+      },
+      {
+        "type": "officialDocument",
+        "label": "Drucksache 19/176",
+        "sourceURI": "https://dserver.bundestag.de/btd/19/001/1900176.pdf"
+      }
+    ],
+    "key": "19-4 tagesordnungspunkt 1 (alexander graf lambsdorff)",
+    "dateStart": "2017-12-12T08:23:17",
+    "dateEnd": "2017-12-12T08:26:52",
     "media": {
       "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7180614/7180614_h264_720_400_2000kb_baseline_de_2192.mp4",
       "sourcePage": "http://dbtg.tv/fvid/7180614",
@@ -2167,18 +2420,7 @@
       "license": "CC-BY-SA",
       "originMediaID": "7180614",
       "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7180614/7180614_mp3_128kb_stereo_de_128.mp3"
-    },
-    "dateStart": "2017-12-12T08:23:17",
-    "dateEnd": "2017-12-12T08:26:52",
-    "people": [
-      {
-        "label": "Alexander Graf Lambsdorff",
-        "faction": "FDP",
-        "context": "main-speaker",
-        "role": null
-      }
-    ],
-    "key": "19-4 tagesordnungspunkt 1 (alexander graf lambsdorff)"
+    }
   },
   {
     "parliament": "DE",
@@ -2390,16 +2632,172 @@
   {
     "parliament": "DE",
     "electoralPeriod": {
-      "number": 19
+      "number": "19"
     },
     "session": {
-      "number": 4
+      "number": "4",
+      "dateStart": "2017-12-12T09:00",
+      "dateEnd": "2017-12-12T18:01"
     },
     "agendaItem": {
-      "title": "Tagesordnungspunkt 1",
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 10
+      "speechIndex": 8,
+      "title": "Tagesordnungspunkt 1"
     },
+    "people": [
+      {
+        "type": "memberOfParliament",
+        "label": "Alexander Graf Lambsdorff",
+        "context": "main-speaker"
+      },
+      {
+        "type": "memberOfParliament",
+        "label": "Wolfgang Schäuble",
+        "context": "president"
+      }
+    ],
+    "textContents": [
+      {
+        "type": "proceedings",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19004-data.xml",
+        "creator": "Deutscher Bundestag",
+        "license": "Public Domain",
+        "language": "DE-de",
+        "originTextID": "",
+        "textBody": [
+          {
+            "type": "speech",
+            "speaker": "Alexander Graf Lambsdorff",
+            "speakerstatus": "main-speaker",
+            "text": "Herr Kollege Korte, ich kann Ihnen versichern, dass die Fraktion der Freien Demokraten diese Fragen genauso intensiv diskutiert wie Ihre. Punkt eins.",
+            "sentences": [
+              {
+                "text": "Herr Kollege Korte, ich kann Ihnen versichern, dass die Fraktion der Freien Demokraten diese Fragen genauso intensiv diskutiert wie Ihre."
+              },
+              {
+                "text": "Punkt eins."
+              }
+            ]
+          },
+          {
+            "type": "comment",
+            "speaker": null,
+            "speakerstatus": null,
+            "text": "(Beifall bei der FDP)",
+            "sentences": [
+              {
+                "text": "(Beifall bei der FDP)"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Alexander Graf Lambsdorff",
+            "speakerstatus": "main-speaker",
+            "text": "Punkt zwei. Dass es sich um eine plötzliche Entwicklung handeln soll, auf die Sie spontan reagieren mussten, das kann ich beim besten Willen nicht nachvollziehen. Die Mandate laufen, zum Teil seit vielen Jahren. Wir wussten seit Wochen, dass heute die Abstimmungen über die Beschlussempfehlungen stattfinden.",
+            "sentences": [
+              {
+                "text": "Punkt zwei."
+              },
+              {
+                "text": "Dass es sich um eine plötzliche Entwicklung handeln soll, auf die Sie spontan reagieren mussten, das kann ich beim besten Willen nicht nachvollziehen."
+              },
+              {
+                "text": "Die Mandate laufen, zum Teil seit vielen Jahren."
+              },
+              {
+                "text": "Wir wussten seit Wochen, dass heute die Abstimmungen über die Beschlussempfehlungen stattfinden."
+              }
+            ]
+          },
+          {
+            "type": "comment",
+            "speaker": null,
+            "speakerstatus": null,
+            "text": "(Jan Korte [DIE LINKE]: Deswegen ja!)",
+            "sentences": [
+              {
+                "text": "(Jan Korte [DIE LINKE]: Deswegen ja!)"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Alexander Graf Lambsdorff",
+            "speakerstatus": "main-speaker",
+            "text": "Dass uns das Ganze über Nacht vorgelegt wird, ist in meinen Augen eben nicht Ausdruck von Ernsthaftigkeit. Man kann die Dinge vorab diskutieren. Man kann die Texte zirkulieren lassen. Man kann dann ernsthaft debattieren. Das ist der Anspruch, den wir an die Arbeit hier stellen, gerade wenn es um diese Mandate geht. Wir finden, dass Ihre Arbeit diesem Anspruch nicht gerecht geworden ist.",
+            "sentences": [
+              {
+                "text": "Dass uns das Ganze über Nacht vorgelegt wird, ist in meinen Augen eben nicht Ausdruck von Ernsthaftigkeit."
+              },
+              {
+                "text": "Man kann die Dinge vorab diskutieren."
+              },
+              {
+                "text": "Man kann die Texte zirkulieren lassen."
+              },
+              {
+                "text": "Man kann dann ernsthaft debattieren."
+              },
+              {
+                "text": "Das ist der Anspruch, den wir an die Arbeit hier stellen, gerade wenn es um diese Mandate geht."
+              },
+              {
+                "text": "Wir finden, dass Ihre Arbeit diesem Anspruch nicht gerecht geworden ist."
+              }
+            ]
+          },
+          {
+            "type": "comment",
+            "speaker": null,
+            "speakerstatus": null,
+            "text": "(Beifall bei der FDP sowie bei Abgeordneten der AfD)",
+            "sentences": [
+              {
+                "text": "(Beifall bei der FDP sowie bei Abgeordneten der AfD)"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "Jetzt hat das Wort die Kollegin Vogler für die Fraktion Die Linke.",
+            "sentences": [
+              {
+                "text": "Jetzt hat das Wort die Kollegin Vogler für die Fraktion Die Linke."
+              }
+            ]
+          },
+          {
+            "type": "comment",
+            "speaker": null,
+            "speakerstatus": null,
+            "text": "(Beifall bei der LINKEN)",
+            "sentences": [
+              {
+                "text": "(Beifall bei der LINKEN)"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "documents": [
+      {
+        "type": "officialDocument",
+        "label": "Drucksache 19/22",
+        "sourceURI": "https://dserver.bundestag.de/btd/19/000/1900022.pdf"
+      },
+      {
+        "type": "officialDocument",
+        "label": "Drucksache 19/176",
+        "sourceURI": "https://dserver.bundestag.de/btd/19/001/1900176.pdf"
+      }
+    ],
+    "key": "19-4 tagesordnungspunkt 1 (alexander graf lambsdorff) #1",
+    "dateStart": "2017-12-12T08:28:27",
+    "dateEnd": "2017-12-12T08:29:16",
     "media": {
       "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7180616/7180616_h264_720_400_2000kb_baseline_de_2192.mp4",
       "sourcePage": "http://dbtg.tv/fvid/7180616",
@@ -2408,18 +2806,7 @@
       "license": "CC-BY-SA",
       "originMediaID": "7180616",
       "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7180616/7180616_mp3_128kb_stereo_de_128.mp3"
-    },
-    "dateStart": "2017-12-12T08:28:27",
-    "dateEnd": "2017-12-12T08:29:16",
-    "people": [
-      {
-        "label": "Alexander Graf Lambsdorff",
-        "faction": "FDP",
-        "context": "main-speaker",
-        "role": null
-      }
-    ],
-    "key": "19-4 tagesordnungspunkt 1 (alexander graf lambsdorff) #1"
+    }
   },
   {
     "parliament": "DE",
@@ -7301,16 +7688,230 @@
   {
     "parliament": "DE",
     "electoralPeriod": {
-      "number": 19
+      "number": "19"
     },
     "session": {
-      "number": 4
+      "number": "4",
+      "dateStart": "2017-12-12T09:00",
+      "dateEnd": "2017-12-12T18:01"
     },
     "agendaItem": {
-      "title": "Tagesordnungspunkt 3",
       "officialTitle": "Tagesordnungspunkt 3",
-      "speechIndex": 30
+      "speechIndex": 24,
+      "title": "Tagesordnungspunkt 3"
     },
+    "people": [
+      {
+        "type": "memberOfParliament",
+        "label": "Alexander Graf Lambsdorff",
+        "context": "main-speaker"
+      },
+      {
+        "type": "memberOfParliament",
+        "label": "Wolfgang Schäuble",
+        "context": "president"
+      }
+    ],
+    "textContents": [
+      {
+        "type": "proceedings",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19004-data.xml",
+        "creator": "Deutscher Bundestag",
+        "license": "Public Domain",
+        "language": "DE-de",
+        "originTextID": "",
+        "textBody": [
+          {
+            "type": "speech",
+            "speaker": "Alexander Graf Lambsdorff",
+            "speakerstatus": "main-speaker",
+            "text": "Herr Präsident! Meine Damen und Herren! Lassen Sie mich zunächst sagen, dass ich mich darüber freue, dass wir heute das Mandat zur Fortsetzung der Ausbildungsunterstützung der Sicherheitskräfte in der Region Kurdistan-Irak direkt im Anschluss an die Debatte über das Mandat Counter Daesh führen. Das hatte ich bereits in der ersten Lesung angeregt. Beide Mandate ergänzen sich logisch und sinnvoll, weil es in beiden Mandaten um die Bekämpfung des „Islamischen Staates“ geht. Wir tragen mit der Debatte heute dieser logischen Verbindung Rechnung.",
+            "sentences": [
+              {
+                "text": "Herr Präsident!"
+              },
+              {
+                "text": "Meine Damen und Herren!"
+              },
+              {
+                "text": "Lassen Sie mich zunächst sagen, dass ich mich darüber freue, dass wir heute das Mandat zur Fortsetzung der Ausbildungsunterstützung der Sicherheitskräfte in der Region Kurdistan-Irak direkt im Anschluss an die Debatte über das Mandat Counter Daesh führen."
+              },
+              {
+                "text": "Das hatte ich bereits in der ersten Lesung angeregt."
+              },
+              {
+                "text": "Beide Mandate ergänzen sich logisch und sinnvoll, weil es in beiden Mandaten um die Bekämpfung des „Islamischen Staates“ geht."
+              },
+              {
+                "text": "Wir tragen mit der Debatte heute dieser logischen Verbindung Rechnung."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Alexander Graf Lambsdorff",
+            "speakerstatus": "main-speaker",
+            "text": "Daneben hat es seit der ersten Beratung Entwicklungen gegeben, neue Entwicklungen, die zeigen, wie wichtig es ist, dass wir uns mit diesen Mandaten auch inhaltlich befassen. Es hat eine Neuvermessung der strategischen Gesamtsituation gegeben, die wir nachvollziehen müssen. Wir haben ein kurdisches Unabhängigkeitsreferendum mit all seinen Folgen gehabt, wir haben die Absage der Reise des Bundesministers Gabriel in die Region zur Kenntnis nehmen müssen, und wir haben – ja, Frau Malsack-Winkemann – die Erklärung des irakischen Ministerpräsidenten al-Abadi, der IS sei im Irak besiegt. Ich teile diese Aussage in dieser Pauschalität allerdings nicht. Ja, es ist richtig: Die territoriale Kontrolle hat der „Islamische Staat“ verloren; Mosul und Rakka sind wieder befreit. Aber ideologische Faszination übt er nach wie vor aus: auf Radikale, auf Verirrte, auf gewaltbereite Menschen in der Region. Das heißt, die Unterstützung der Kräfte, die gegen den IS im Einsatz sind, ist nach wie vor sinnvoll und richtig.",
+            "sentences": [
+              {
+                "text": "Daneben hat es seit der ersten Beratung Entwicklungen gegeben, neue Entwicklungen, die zeigen, wie wichtig es ist, dass wir uns mit diesen Mandaten auch inhaltlich befassen."
+              },
+              {
+                "text": "Es hat eine Neuvermessung der strategischen Gesamtsituation gegeben, die wir nachvollziehen müssen."
+              },
+              {
+                "text": "Wir haben ein kurdisches Unabhängigkeitsreferendum mit all seinen Folgen gehabt, wir haben die Absage der Reise des Bundesministers Gabriel in die Region zur Kenntnis nehmen müssen, und wir haben – ja, Frau Malsack-Winkemann – die Erklärung des irakischen Ministerpräsidenten al-Abadi, der IS sei im Irak besiegt."
+              },
+              {
+                "text": "Ich teile diese Aussage in dieser Pauschalität allerdings nicht."
+              },
+              {
+                "text": "Ja, es ist richtig: Die territoriale Kontrolle hat der „Islamische Staat“ verloren; Mosul und Rakka sind wieder befreit."
+              },
+              {
+                "text": "Aber ideologische Faszination übt er nach wie vor aus: auf Radikale, auf Verirrte, auf gewaltbereite Menschen in der Region."
+              },
+              {
+                "text": "Das heißt, die Unterstützung der Kräfte, die gegen den IS im Einsatz sind, ist nach wie vor sinnvoll und richtig."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Alexander Graf Lambsdorff",
+            "speakerstatus": "main-speaker",
+            "text": "Es ist auch ein Erfolg der Ausbildungsunterstützung, dass der territoriale Einfluss des IS im Irak deutlich zurückgedrängt, ja beendet worden ist. Vor diesem Hintergrund können wir aus militärischer, aber auch aus humanitärer Sicht eine durchgehend positive Bilanz ziehen, gerade was den Schutz der Jesiden und anderer Minderheiten in der Region angeht.",
+            "sentences": [
+              {
+                "text": "Es ist auch ein Erfolg der Ausbildungsunterstützung, dass der territoriale Einfluss des IS im Irak deutlich zurückgedrängt, ja beendet worden ist."
+              },
+              {
+                "text": "Vor diesem Hintergrund können wir aus militärischer, aber auch aus humanitärer Sicht eine durchgehend positive Bilanz ziehen, gerade was den Schutz der Jesiden und anderer Minderheiten in der Region angeht."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Alexander Graf Lambsdorff",
+            "speakerstatus": "main-speaker",
+            "text": "Was wir Freie Demokraten allerdings von Anfang an kritisch gesehen haben – das will ich hier nicht verschweigen –, war die Lieferung von Kleinwaffen in die Region. Es ist unter den Umständen, die dort herrschen, nicht möglich, deren Endverbleib verlässlich zu kontrollieren. Deswegen sind alle Bedenken, die hier vom Kollegen Annen und von anderen geäußert worden sind, dass diese Waffen in einem innerirakischen Konflikt unter Umständen eingesetzt werden könnten, vollkommen zutreffend und richtig.",
+            "sentences": [
+              {
+                "text": "Was wir Freie Demokraten allerdings von Anfang an kritisch gesehen haben – das will ich hier nicht verschweigen –, war die Lieferung von Kleinwaffen in die Region."
+              },
+              {
+                "text": "Es ist unter den Umständen, die dort herrschen, nicht möglich, deren Endverbleib verlässlich zu kontrollieren."
+              },
+              {
+                "text": "Deswegen sind alle Bedenken, die hier vom Kollegen Annen und von anderen geäußert worden sind, dass diese Waffen in einem innerirakischen Konflikt unter Umständen eingesetzt werden könnten, vollkommen zutreffend und richtig."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Alexander Graf Lambsdorff",
+            "speakerstatus": "main-speaker",
+            "text": "Ich sage das hier noch einmal: Das kurdische Unabhängigkeitsreferendum war ein schwerer politischer Fehler der kurdischen Autonomieregierung in Erbil. Die anschließenden militärischen Auseinandersetzungen haben das mehr als deutlich gezeigt. Deutschland darf aber nicht Partei werden in einem Prozess des Staatsverfalls des Irak. Unser Ziel muss der Erhalt der territorialen Integrität des Irak werden. Nur so kann Frieden gesichert und der Terrorismus auf Dauer besiegt werden.",
+            "sentences": [
+              {
+                "text": "Ich sage das hier noch einmal: Das kurdische Unabhängigkeitsreferendum war ein schwerer politischer Fehler der kurdischen Autonomieregierung in Erbil."
+              },
+              {
+                "text": "Die anschließenden militärischen Auseinandersetzungen haben das mehr als deutlich gezeigt."
+              },
+              {
+                "text": "Deutschland darf aber nicht Partei werden in einem Prozess des Staatsverfalls des Irak."
+              },
+              {
+                "text": "Unser Ziel muss der Erhalt der territorialen Integrität des Irak werden."
+              },
+              {
+                "text": "Nur so kann Frieden gesichert und der Terrorismus auf Dauer besiegt werden."
+              }
+            ]
+          },
+          {
+            "type": "comment",
+            "speaker": null,
+            "speakerstatus": null,
+            "text": "(Beifall bei der FDP)",
+            "sentences": [
+              {
+                "text": "(Beifall bei der FDP)"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Alexander Graf Lambsdorff",
+            "speakerstatus": "main-speaker",
+            "text": "Wir sehen sowohl in Syrien als auch im Irak eine neue Dynamik. Nicht jedes Element dieser Dynamik ist positiv. Aber eines ist völlig klar: Nach der technischen Verlängerung um drei Monate, der wir Freien Demokraten zustimmen werden, wird es eine Neubewertung der Gesamtlage und eine Neuformulierung der Mandate – vielleicht verbunden in einem einzigen Mandat – geben müssen. Diesen Prozess werden wir Freie Demokraten konstruktiv begleiten.",
+            "sentences": [
+              {
+                "text": "Wir sehen sowohl in Syrien als auch im Irak eine neue Dynamik."
+              },
+              {
+                "text": "Nicht jedes Element dieser Dynamik ist positiv."
+              },
+              {
+                "text": "Aber eines ist völlig klar: Nach der technischen Verlängerung um drei Monate, der wir Freien Demokraten zustimmen werden, wird es eine Neubewertung der Gesamtlage und eine Neuformulierung der Mandate – vielleicht verbunden in einem einzigen Mandat – geben müssen."
+              },
+              {
+                "text": "Diesen Prozess werden wir Freie Demokraten konstruktiv begleiten."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Alexander Graf Lambsdorff",
+            "speakerstatus": "main-speaker",
+            "text": "Herzlichen Dank.",
+            "sentences": [
+              {
+                "text": "Herzlichen Dank."
+              }
+            ]
+          },
+          {
+            "type": "comment",
+            "speaker": null,
+            "speakerstatus": null,
+            "text": "(Beifall bei der FDP)",
+            "sentences": [
+              {
+                "text": "(Beifall bei der FDP)"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "Jetzt erteile ich dem Kollegen Matthias Höhn von der Fraktion Die Linke das Wort zu seiner ersten Rede im Deutschen Bundestag.",
+            "sentences": [
+              {
+                "text": "Jetzt erteile ich dem Kollegen Matthias Höhn von der Fraktion Die Linke das Wort zu seiner ersten Rede im Deutschen Bundestag."
+              }
+            ]
+          },
+          {
+            "type": "comment",
+            "speaker": null,
+            "speakerstatus": null,
+            "text": "(Beifall bei der LINKEN)",
+            "sentences": [
+              {
+                "text": "(Beifall bei der LINKEN)"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "documents": [],
+    "key": "19-4 tagesordnungspunkt 3 (alexander graf lambsdorff)",
+    "dateStart": "2017-12-12T09:52:07",
+    "dateEnd": "2017-12-12T09:55:42",
     "media": {
       "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7180646/7180646_h264_720_400_2000kb_baseline_de_2192.mp4",
       "sourcePage": "http://dbtg.tv/fvid/7180646",
@@ -7319,18 +7920,7 @@
       "license": "CC-BY-SA",
       "originMediaID": "7180646",
       "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7180646/7180646_mp3_128kb_stereo_de_128.mp3"
-    },
-    "dateStart": "2017-12-12T09:52:07",
-    "dateEnd": "2017-12-12T09:55:42",
-    "people": [
-      {
-        "label": "Alexander Graf Lambsdorff",
-        "faction": "FDP",
-        "context": "main-speaker",
-        "role": null
-      }
-    ],
-    "key": "19-4 tagesordnungspunkt 3 (alexander graf lambsdorff)"
+    }
   },
   {
     "parliament": "DE",
@@ -9400,16 +9990,276 @@
   {
     "parliament": "DE",
     "electoralPeriod": {
-      "number": 19
+      "number": "19"
     },
     "session": {
-      "number": 4
+      "number": "4",
+      "dateStart": "2017-12-12T09:00",
+      "dateEnd": "2017-12-12T18:01"
     },
     "agendaItem": {
-      "title": "Tagesordnungspunkt 4",
       "officialTitle": "Tagesordnungspunkt 4",
-      "speechIndex": 40
+      "speechIndex": 32,
+      "title": "Tagesordnungspunkt 4"
     },
+    "people": [
+      {
+        "type": "memberOfParliament",
+        "label": "Alexander Graf Lambsdorff",
+        "context": "main-speaker"
+      },
+      {
+        "type": "memberOfParliament",
+        "label": "Claudia Roth",
+        "context": "vice-president"
+      }
+    ],
+    "textContents": [
+      {
+        "type": "proceedings",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19004-data.xml",
+        "creator": "Deutscher Bundestag",
+        "license": "Public Domain",
+        "language": "DE-de",
+        "originTextID": "",
+        "textBody": [
+          {
+            "type": "speech",
+            "speaker": "Alexander Graf Lambsdorff",
+            "speakerstatus": "main-speaker",
+            "text": "Frau Präsidentin! Meine Damen und Herren! Die Freien Demokraten bekennen sich ausdrücklich zum Afghanistan-Engagement der Bundesrepublik Deutschland. Resolute Support ist ein zentraler Beitrag für die Zukunft Afghanistans. Aber wir haben schon bei der ersten Lesung eines sehr deutlich gemacht: Wir wollen dem Parlament den realistischen Blick, der hier vom Kollegen Annen erwähnt worden ist, in der Zukunft besser ermöglichen. Wir brauchen eine kritische Bestandsaufnahme, eine Bewertung des bisher Erreichten und des bisher nicht Erreichten.",
+            "sentences": [
+              {
+                "text": "Frau Präsidentin!"
+              },
+              {
+                "text": "Meine Damen und Herren!"
+              },
+              {
+                "text": "Die Freien Demokraten bekennen sich ausdrücklich zum Afghanistan-Engagement der Bundesrepublik Deutschland."
+              },
+              {
+                "text": "Resolute Support ist ein zentraler Beitrag für die Zukunft Afghanistans."
+              },
+              {
+                "text": "Aber wir haben schon bei der ersten Lesung eines sehr deutlich gemacht: Wir wollen dem Parlament den realistischen Blick, der hier vom Kollegen Annen erwähnt worden ist, in der Zukunft besser ermöglichen."
+              },
+              {
+                "text": "Wir brauchen eine kritische Bestandsaufnahme, eine Bewertung des bisher Erreichten und des bisher nicht Erreichten."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Alexander Graf Lambsdorff",
+            "speakerstatus": "main-speaker",
+            "text": "Es sind ja Fortschritte gemacht worden. Es gibt einen erfolgreichen Aufbau staatlicher Institutionen, es gibt eine Zivilgesellschaft. Aber diese Erfolge können nur da auf Dauer bewahrt werden, wo die afghanischen Sicherheitskräfte für Sicherheit und Stabilität sorgen. Hier geht es eindeutig um das nicht Erreichte, denn das schaffen die afghanischen Sicherheitskräfte noch nicht. Deswegen braucht Afghanistan auch in Zukunft mehr politische Aufmerksamkeit, mehr entwicklungspolitisches Engagement; es braucht aber eben auch noch mehr militärische und polizeiliche Ertüchtigung.",
+            "sentences": [
+              {
+                "text": "Es sind ja Fortschritte gemacht worden."
+              },
+              {
+                "text": "Es gibt einen erfolgreichen Aufbau staatlicher Institutionen, es gibt eine Zivilgesellschaft."
+              },
+              {
+                "text": "Aber diese Erfolge können nur da auf Dauer bewahrt werden, wo die afghanischen Sicherheitskräfte für Sicherheit und Stabilität sorgen."
+              },
+              {
+                "text": "Hier geht es eindeutig um das nicht Erreichte, denn das schaffen die afghanischen Sicherheitskräfte noch nicht."
+              },
+              {
+                "text": "Deswegen braucht Afghanistan auch in Zukunft mehr politische Aufmerksamkeit, mehr entwicklungspolitisches Engagement; es braucht aber eben auch noch mehr militärische und polizeiliche Ertüchtigung."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Alexander Graf Lambsdorff",
+            "speakerstatus": "main-speaker",
+            "text": "Wie aber soll das geschehen, und anhand welcher Kriterien ist der Erfolg der Mission zu messen? Wir fordern die Bundesregierung auf, dies in einem jährlichen Evaluierungsbericht offenzulegen. Ich habe es bereits gesagt: Es gibt in den USA das Verfahren des Special Inspector General for Afghanistan Reconstruction. Er legt einmal im Jahr einen entsprechenden unabhängigen Bericht vor. Der Deutsche Bundestag braucht das auch.",
+            "sentences": [
+              {
+                "text": "Wie aber soll das geschehen, und anhand welcher Kriterien ist der Erfolg der Mission zu messen?"
+              },
+              {
+                "text": "Wir fordern die Bundesregierung auf, dies in einem jährlichen Evaluierungsbericht offenzulegen."
+              },
+              {
+                "text": "Ich habe es bereits gesagt: Es gibt in den USA das Verfahren des Special Inspector General for Afghanistan Reconstruction."
+              },
+              {
+                "text": "Er legt einmal im Jahr einen entsprechenden unabhängigen Bericht vor."
+              },
+              {
+                "text": "Der Deutsche Bundestag braucht das auch."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Alexander Graf Lambsdorff",
+            "speakerstatus": "main-speaker",
+            "text": "Ich will hier aber auch eines ganz deutlich sagen: Wir werden der jetzt anstehenden technischen Verlängerung zustimmen – nicht blind, wie der Kollege von der AfD gerade gesagt hat, denn wir haben genug Informationen –, aber wir wollen in der Zukunft eine Neubewertung auf Grundlage eines Evaluierungsberichts. Wer hier heute ablehnt, wer heute dem Antrag nicht zustimmt, der will ja den Abzug binnen dreier Monate quasi erzwingen.",
+            "sentences": [
+              {
+                "text": "Ich will hier aber auch eines ganz deutlich sagen: Wir werden der jetzt anstehenden technischen Verlängerung zustimmen – nicht blind, wie der Kollege von der AfD gerade gesagt hat, denn wir haben genug Informationen –, aber wir wollen in der Zukunft eine Neubewertung auf Grundlage eines Evaluierungsberichts."
+              },
+              {
+                "text": "Wer hier heute ablehnt, wer heute dem Antrag nicht zustimmt, der will ja den Abzug binnen dreier Monate quasi erzwingen."
+              }
+            ]
+          },
+          {
+            "type": "comment",
+            "speaker": null,
+            "speakerstatus": null,
+            "text": "(Beifall bei der AfD)",
+            "sentences": [
+              {
+                "text": "(Beifall bei der AfD)"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Alexander Graf Lambsdorff",
+            "speakerstatus": "main-speaker",
+            "text": "Das ist logistisch und militärisch völlig unrealistisch, und es ist politisch und diplomatisch absolut verantwortungslos.",
+            "sentences": [
+              {
+                "text": "Das ist logistisch und militärisch völlig unrealistisch, und es ist politisch und diplomatisch absolut verantwortungslos."
+              }
+            ]
+          },
+          {
+            "type": "comment",
+            "speaker": null,
+            "speakerstatus": null,
+            "text": "(Beifall der Abg. Dr. Marie-Agnes Strack-Zimmermann [FDP])",
+            "sentences": [
+              {
+                "text": "(Beifall der Abg. Dr. Marie-Agnes Strack-Zimmermann [FDP])"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Alexander Graf Lambsdorff",
+            "speakerstatus": "main-speaker",
+            "text": "Alle unsere Verbündeten würden auf Deutschland schauen und fragen, ob wir noch alle Tassen im Schrank haben, wenn wir unsere Bundeswehrsoldaten mir nichts, dir nichts aus einem gemeinsamen Einsatz der internationalen Gemeinschaft abziehen.",
+            "sentences": [
+              {
+                "text": "Alle unsere Verbündeten würden auf Deutschland schauen und fragen, ob wir noch alle Tassen im Schrank haben, wenn wir unsere Bundeswehrsoldaten mir nichts, dir nichts aus einem gemeinsamen Einsatz der internationalen Gemeinschaft abziehen."
+              }
+            ]
+          },
+          {
+            "type": "comment",
+            "speaker": null,
+            "speakerstatus": null,
+            "text": "(Beifall bei der FDP – Michael Grosse-Brömer [CDU/CSU]: Das ist der AfD ja egal!)",
+            "sentences": [
+              {
+                "text": "(Beifall bei der FDP – Michael Grosse-Brömer [CDU/CSU]: Das ist der AfD ja egal!)"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Alexander Graf Lambsdorff",
+            "speakerstatus": "main-speaker",
+            "text": "Ich sage es noch einmal: Es ist logistisch und militärisch unrealistisch und politisch und diplomatisch verantwortungslos. Humanitär wäre es geradezu zynisch, weil wir die Menschen im Norden Afghanistans völlig unvermittelt alleine lassen würden. Das kann nicht deutsche Politik werden. Wir dürfen nicht zulassen, dass Afghanistan erneut ein sicherer Hafen für Terroristen wird. Wir haben es geschafft, dass in den letzten 16 Jahren von diesem Land keine Bedrohung für die Sicherheit und den Frieden der Welt ausgegangen ist. Das ist ein Erfolg, auf den wir auch in Zukunft aufbauen sollten.",
+            "sentences": [
+              {
+                "text": "Ich sage es noch einmal: Es ist logistisch und militärisch unrealistisch und politisch und diplomatisch verantwortungslos."
+              },
+              {
+                "text": "Humanitär wäre es geradezu zynisch, weil wir die Menschen im Norden Afghanistans völlig unvermittelt alleine lassen würden."
+              },
+              {
+                "text": "Das kann nicht deutsche Politik werden."
+              },
+              {
+                "text": "Wir dürfen nicht zulassen, dass Afghanistan erneut ein sicherer Hafen für Terroristen wird."
+              },
+              {
+                "text": "Wir haben es geschafft, dass in den letzten 16 Jahren von diesem Land keine Bedrohung für die Sicherheit und den Frieden der Welt ausgegangen ist."
+              },
+              {
+                "text": "Das ist ein Erfolg, auf den wir auch in Zukunft aufbauen sollten."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Alexander Graf Lambsdorff",
+            "speakerstatus": "main-speaker",
+            "text": "Herzlichen Dank.",
+            "sentences": [
+              {
+                "text": "Herzlichen Dank."
+              }
+            ]
+          },
+          {
+            "type": "comment",
+            "speaker": null,
+            "speakerstatus": null,
+            "text": "(Beifall bei der FDP und der CDU/CSU)",
+            "sentences": [
+              {
+                "text": "(Beifall bei der FDP und der CDU/CSU)"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "Vielen Dank. – Nächster Redner: Tobias Pflüger für Die Linke.",
+            "sentences": [
+              {
+                "text": "Vielen Dank."
+              },
+              {
+                "text": "– Nächster Redner: Tobias Pflüger für Die Linke."
+              }
+            ]
+          },
+          {
+            "type": "comment",
+            "speaker": null,
+            "speakerstatus": null,
+            "text": "(Beifall bei der LINKEN)",
+            "sentences": [
+              {
+                "text": "(Beifall bei der LINKEN)"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "documents": [
+      {
+        "type": "officialDocument",
+        "label": "Drucksache 19/21",
+        "sourceURI": "https://dserver.bundestag.de/btd/19/000/1900021.pdf"
+      },
+      {
+        "type": "officialDocument",
+        "label": "Drucksache 19/193",
+        "sourceURI": "https://dserver.bundestag.de/btd/19/001/1900193.pdf"
+      },
+      {
+        "type": "officialDocument",
+        "label": "Drucksache 19/206",
+        "sourceURI": "https://dserver.bundestag.de/btd/19/002/1900206.pdf"
+      }
+    ],
+    "key": "19-4 tagesordnungspunkt 4 (alexander graf lambsdorff)",
+    "dateStart": "2017-12-12T10:32:30",
+    "dateEnd": "2017-12-12T10:35:52",
     "media": {
       "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7180659/7180659_h264_720_400_2000kb_baseline_de_2192.mp4",
       "sourcePage": "http://dbtg.tv/fvid/7180659",
@@ -9418,18 +10268,7 @@
       "license": "CC-BY-SA",
       "originMediaID": "7180659",
       "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7180659/7180659_mp3_128kb_stereo_de_128.mp3"
-    },
-    "dateStart": "2017-12-12T10:32:30",
-    "dateEnd": "2017-12-12T10:35:52",
-    "people": [
-      {
-        "label": "Alexander Graf Lambsdorff",
-        "faction": "FDP",
-        "context": "main-speaker",
-        "role": null
-      }
-    ],
-    "key": "19-4 tagesordnungspunkt 4 (alexander graf lambsdorff)"
+    }
   },
   {
     "parliament": "DE",
@@ -14903,16 +15742,477 @@
   {
     "parliament": "DE",
     "electoralPeriod": {
-      "number": 19
+      "number": "19"
     },
     "session": {
-      "number": 4
+      "number": "4",
+      "dateStart": "2017-12-12T09:00",
+      "dateEnd": "2017-12-12T18:01"
     },
     "agendaItem": {
-      "title": "Zusatzpunkt 1",
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 61
+      "speechIndex": 49,
+      "title": "Zusatzpunkt 1"
     },
+    "people": [
+      {
+        "type": "memberOfParliament",
+        "label": "Alexander Graf Lambsdorff",
+        "context": "main-speaker"
+      },
+      {
+        "type": "memberOfParliament",
+        "label": "Hans-Peter Friedrich",
+        "context": "vice-president"
+      }
+    ],
+    "textContents": [
+      {
+        "type": "proceedings",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19004-data.xml",
+        "creator": "Deutscher Bundestag",
+        "license": "Public Domain",
+        "language": "DE-de",
+        "originTextID": "",
+        "textBody": [
+          {
+            "type": "speech",
+            "speaker": "Alexander Graf Lambsdorff",
+            "speakerstatus": "main-speaker",
+            "text": "Frau Präsidentin! Meine Damen und Herren! Was wollen die Menschen von der Europäischen Union? Was wollen sie von Europa? Sie wollen Jobs, sie wollen Wachstum, sie wollen sozialen Zusammenhalt, sie wollen eine gesunde Umwelt, aber sie wollen auch Sicherheit.",
+            "sentences": [
+              {
+                "text": "Frau Präsidentin!"
+              },
+              {
+                "text": "Meine Damen und Herren!"
+              },
+              {
+                "text": "Was wollen die Menschen von der Europäischen Union?"
+              },
+              {
+                "text": "Was wollen sie von Europa?"
+              },
+              {
+                "text": "Sie wollen Jobs, sie wollen Wachstum, sie wollen sozialen Zusammenhalt, sie wollen eine gesunde Umwelt, aber sie wollen auch Sicherheit."
+              }
+            ]
+          },
+          {
+            "type": "comment",
+            "speaker": null,
+            "speakerstatus": null,
+            "text": "(Heike Hänsel [DIE LINKE]: Soziale Sicherheit!)",
+            "sentences": [
+              {
+                "text": "(Heike Hänsel [DIE LINKE]: Soziale Sicherheit!)"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Alexander Graf Lambsdorff",
+            "speakerstatus": "main-speaker",
+            "text": "In allen Umfragen beantworten 70 bis 80 Prozent der Befragten die Frage „Soll die Europäische Union unsere Sicherheit gewährleisten?“ mit einem deutlichen Ja. Genau deswegen befürworten wir als Freie Demokraten die Schaffung einer europäischen Verteidigungsunion. Es ist ein wichtiger politischer Schritt, dass Europa in international schwierigen Zeiten zusammensteht.",
+            "sentences": [
+              {
+                "text": "In allen Umfragen beantworten 70 bis 80 Prozent der Befragten die Frage „Soll die Europäische Union unsere Sicherheit gewährleisten?“"
+              },
+              {
+                "text": "mit einem deutlichen Ja."
+              },
+              {
+                "text": "Genau deswegen befürworten wir als Freie Demokraten die Schaffung einer europäischen Verteidigungsunion."
+              },
+              {
+                "text": "Es ist ein wichtiger politischer Schritt, dass Europa in international schwierigen Zeiten zusammensteht."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Alexander Graf Lambsdorff",
+            "speakerstatus": "main-speaker",
+            "text": "Frau Hänsel, Sie sagen, das würde unter deutscher Hegemonie mit neuer Aufrüstung und mit einer riesigen, machtvollen Bundeswehr einhergehen.",
+            "sentences": [
+              {
+                "text": "Frau Hänsel, Sie sagen, das würde unter deutscher Hegemonie mit neuer Aufrüstung und mit einer riesigen, machtvollen Bundeswehr einhergehen."
+              }
+            ]
+          },
+          {
+            "type": "comment",
+            "speaker": null,
+            "speakerstatus": null,
+            "text": "(Heike Hänsel [DIE LINKE]: Ja, klar! Sagte Herr Kauder schon!)",
+            "sentences": [
+              {
+                "text": "(Heike Hänsel [DIE LINKE]: Ja, klar! Sagte Herr Kauder schon!)"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Alexander Graf Lambsdorff",
+            "speakerstatus": "main-speaker",
+            "text": "Die AfD sagt, die Bundeswehr sei eine marode Truppe. Wenn ich all das so höre, schlage ich Ihnen vor: Setzen Sie sich einmal zusammen und einigen Sie sich: entweder marode Truppe oder deutsche Hegemonie.",
+            "sentences": [
+              {
+                "text": "Die AfD sagt, die Bundeswehr sei eine marode Truppe."
+              },
+              {
+                "text": "Wenn ich all das so höre, schlage ich Ihnen vor: Setzen Sie sich einmal zusammen und einigen Sie sich: entweder marode Truppe oder deutsche Hegemonie."
+              }
+            ]
+          },
+          {
+            "type": "comment",
+            "speaker": null,
+            "speakerstatus": null,
+            "text": "(Heike Hänsel [DIE LINKE]: Nee, nee! Leider was ganz anderes! – Helin Evrim Sommer [DIE LINKE]: Setzen Sie sich mit denen zusammen, nicht wir!)",
+            "sentences": [
+              {
+                "text": "(Heike Hänsel [DIE LINKE]: Nee, nee! Leider was ganz anderes! – Helin Evrim Sommer [DIE LINKE]: Setzen Sie sich mit denen zusammen, nicht wir!)"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Alexander Graf Lambsdorff",
+            "speakerstatus": "main-speaker",
+            "text": "Vielleicht können Sie sich auf eine Linie verständigen. Es ist ein solcher Unsinn, den Sie hier erzählen. Das ist unglaublich.",
+            "sentences": [
+              {
+                "text": "Vielleicht können Sie sich auf eine Linie verständigen."
+              },
+              {
+                "text": "Es ist ein solcher Unsinn, den Sie hier erzählen."
+              },
+              {
+                "text": "Das ist unglaublich."
+              }
+            ]
+          },
+          {
+            "type": "comment",
+            "speaker": null,
+            "speakerstatus": null,
+            "text": "(Beifall bei der FDP)",
+            "sentences": [
+              {
+                "text": "(Beifall bei der FDP)"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Alexander Graf Lambsdorff",
+            "speakerstatus": "main-speaker",
+            "text": "Meine Damen und Herren, wir als Freie Demokraten begrüßen den Beschluss des Rates für Allgemeine Angelegenheiten zur Ständigen Strukturierten Zusammenarbeit. Das ist ein überfälliger Startschuss. Das ist ein richtiger Schritt hin zu dem, was Emmanuel Macron in seiner Rede an der Sorbonne so genannt hat: die Schaffung einer gemeinsamen europäischen Kultur.",
+            "sentences": [
+              {
+                "text": "Meine Damen und Herren, wir als Freie Demokraten begrüßen den Beschluss des Rates für Allgemeine Angelegenheiten zur Ständigen Strukturierten Zusammenarbeit."
+              },
+              {
+                "text": "Das ist ein überfälliger Startschuss."
+              },
+              {
+                "text": "Das ist ein richtiger Schritt hin zu dem, was Emmanuel Macron in seiner Rede an der Sorbonne so genannt hat: die Schaffung einer gemeinsamen europäischen Kultur."
+              }
+            ]
+          },
+          {
+            "type": "comment",
+            "speaker": null,
+            "speakerstatus": null,
+            "text": "(Tobias Pflüger [DIE LINKE]: In welche Richtung?)",
+            "sentences": [
+              {
+                "text": "(Tobias Pflüger [DIE LINKE]: In welche Richtung?)"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Alexander Graf Lambsdorff",
+            "speakerstatus": "main-speaker",
+            "text": "An dem Punkt, Herr Lucassen – da würde ich Ihnen sogar recht geben –, sind wir noch nicht: Wir haben noch keine gemeinsame europäische strategische Kultur. Aber wenn wir die Welt um uns herum betrachten, müssen wir uns doch fragen: Schaffen wir es mit einer einzelnen deutschen, französischen, polnischen Kultur, in dieser Welt, dieser sich rapide verändernden Welt unsere Interessen, unsere Werte zu schützen? Ganz sicher nicht. Das werden wir nur gemeinsam, europäisch, schaffen.",
+            "sentences": [
+              {
+                "text": "An dem Punkt, Herr Lucassen – da würde ich Ihnen sogar recht geben –, sind wir noch nicht: Wir haben noch keine gemeinsame europäische strategische Kultur."
+              },
+              {
+                "text": "Aber wenn wir die Welt um uns herum betrachten, müssen wir uns doch fragen: Schaffen wir es mit einer einzelnen deutschen, französischen, polnischen Kultur, in dieser Welt, dieser sich rapide verändernden Welt unsere Interessen, unsere Werte zu schützen?"
+              },
+              {
+                "text": "Ganz sicher nicht."
+              },
+              {
+                "text": "Das werden wir nur gemeinsam, europäisch, schaffen."
+              }
+            ]
+          },
+          {
+            "type": "comment",
+            "speaker": null,
+            "speakerstatus": null,
+            "text": "(Beifall bei der FDP)",
+            "sentences": [
+              {
+                "text": "(Beifall bei der FDP)"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Alexander Graf Lambsdorff",
+            "speakerstatus": "main-speaker",
+            "text": "Meine Damen und Herren, die PESCO, die Ständige Strukturierte Zusammenarbeit, schafft die Voraussetzungen, um europäische Verteidigungsprojekte in Zukunft endlich – endlich! – gemeinsam umzusetzen. Es ist richtig, es in der Cyberabwehr gemeinsam, europäisch, zu machen. Brauchen wir 27 verschiedene Cyberstrategien? Es ist richtig, dass wir unsere Rüstungsindustrie konsolidieren. Wir in Europa haben 14 verschiedene Kampfpanzer, die Amerikaner haben einen. Das können Sie für alle Waffengattungen und ‑systeme durchdeklinieren. Wir können in Zukunft über 10 Milliarden Euro einsparen, wenn wir das gemeinsam machen.",
+            "sentences": [
+              {
+                "text": "Meine Damen und Herren, die PESCO, die Ständige Strukturierte Zusammenarbeit, schafft die Voraussetzungen, um europäische Verteidigungsprojekte in Zukunft endlich – endlich!"
+              },
+              {
+                "text": "– gemeinsam umzusetzen."
+              },
+              {
+                "text": "Es ist richtig, es in der Cyberabwehr gemeinsam, europäisch, zu machen."
+              },
+              {
+                "text": "Brauchen wir 27 verschiedene Cyberstrategien?"
+              },
+              {
+                "text": "Es ist richtig, dass wir unsere Rüstungsindustrie konsolidieren."
+              },
+              {
+                "text": "Wir in Europa haben 14 verschiedene Kampfpanzer, die Amerikaner haben einen."
+              },
+              {
+                "text": "Das können Sie für alle Waffengattungen und ‑systeme durchdeklinieren."
+              },
+              {
+                "text": "Wir können in Zukunft über 10 Milliarden Euro einsparen, wenn wir das gemeinsam machen."
+              }
+            ]
+          },
+          {
+            "type": "comment",
+            "speaker": null,
+            "speakerstatus": null,
+            "text": "(Heike Hänsel [DIE LINKE]: Wir geben jedes Jahr mehr aus!)",
+            "sentences": [
+              {
+                "text": "(Heike Hänsel [DIE LINKE]: Wir geben jedes Jahr mehr aus!)"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Alexander Graf Lambsdorff",
+            "speakerstatus": "main-speaker",
+            "text": "Deswegen gilt es, die PESCO mit Leben zu erfüllen, Fähigkeitslücken zu schließen, gemeinsam Fähigkeiten und Mittel effizienter einzusetzen. Wir wollen dafür auch ganz bewusst ein stärkeres deutsch-französisches Engagement. Wir wollen auch ein stärkeres deutsches Engagement. Das gilt besonders für die Frage einer gemeinsamen Offiziersausbildung, ja; denn wenn Europäerinnen und Europäer gemeinsam in gefährlichen Einsätzen sind, dann ist es eine große Hilfe, wenn die Menschen, die in diesen Einsätzen sind, sich gegenseitig kennen und vertrauen, wenn sie wissen, aus welcher strategischen Kultur heraus ihre Aufträge erteilt wurden und zu erfüllen sind. Ich glaube, das wäre der richtige Weg.",
+            "sentences": [
+              {
+                "text": "Deswegen gilt es, die PESCO mit Leben zu erfüllen, Fähigkeitslücken zu schließen, gemeinsam Fähigkeiten und Mittel effizienter einzusetzen."
+              },
+              {
+                "text": "Wir wollen dafür auch ganz bewusst ein stärkeres deutsch-französisches Engagement."
+              },
+              {
+                "text": "Wir wollen auch ein stärkeres deutsches Engagement."
+              },
+              {
+                "text": "Das gilt besonders für die Frage einer gemeinsamen Offiziersausbildung, ja; denn wenn Europäerinnen und Europäer gemeinsam in gefährlichen Einsätzen sind, dann ist es eine große Hilfe, wenn die Menschen, die in diesen Einsätzen sind, sich gegenseitig kennen und vertrauen, wenn sie wissen, aus welcher strategischen Kultur heraus ihre Aufträge erteilt wurden und zu erfüllen sind."
+              },
+              {
+                "text": "Ich glaube, das wäre der richtige Weg."
+              }
+            ]
+          },
+          {
+            "type": "comment",
+            "speaker": null,
+            "speakerstatus": null,
+            "text": "(Beifall bei der FDP)",
+            "sentences": [
+              {
+                "text": "(Beifall bei der FDP)"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Alexander Graf Lambsdorff",
+            "speakerstatus": "main-speaker",
+            "text": "Meine Damen und Herren, wir wollen ja auch über den Brexit reden. Ich sage Ihnen: Mir als Liberalem fällt es immer noch sehr schwer, den Brexit zu akzeptieren. Großbritannien ist das Mutterland des Liberalismus.",
+            "sentences": [
+              {
+                "text": "Meine Damen und Herren, wir wollen ja auch über den Brexit reden."
+              },
+              {
+                "text": "Ich sage Ihnen: Mir als Liberalem fällt es immer noch sehr schwer, den Brexit zu akzeptieren."
+              },
+              {
+                "text": "Großbritannien ist das Mutterland des Liberalismus."
+              }
+            ]
+          },
+          {
+            "type": "comment",
+            "speaker": null,
+            "speakerstatus": null,
+            "text": "(Heike Hänsel [DIE LINKE]: Neoliberalismus! Thatcherismus!)",
+            "sentences": [
+              {
+                "text": "(Heike Hänsel [DIE LINKE]: Neoliberalismus! Thatcherismus!)"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Alexander Graf Lambsdorff",
+            "speakerstatus": "main-speaker",
+            "text": "Wir hätten die Briten wirklich gerne bei uns behalten. Auf der anderen Seite muss man sehen: Großbritannien war nicht besonders konstruktiv in der Europäischen Union, jedenfalls nicht immer.",
+            "sentences": [
+              {
+                "text": "Wir hätten die Briten wirklich gerne bei uns behalten."
+              },
+              {
+                "text": "Auf der anderen Seite muss man sehen: Großbritannien war nicht besonders konstruktiv in der Europäischen Union, jedenfalls nicht immer."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Alexander Graf Lambsdorff",
+            "speakerstatus": "main-speaker",
+            "text": "Der Brexit schafft aber auch Chancen. Eine solche Chance ist die Verbesserung unserer Zusammenarbeit im Bereich der Sicherheit. Die Chance wird jetzt durch den Europäischen Verteidigungsfonds genutzt. 500 Millionen Euro werden bereitgestellt für die gemeinsame Forschung im Bereich der militärischen Fähigkeiten, der Sicherheitsfähigkeiten.",
+            "sentences": [
+              {
+                "text": "Der Brexit schafft aber auch Chancen."
+              },
+              {
+                "text": "Eine solche Chance ist die Verbesserung unserer Zusammenarbeit im Bereich der Sicherheit."
+              },
+              {
+                "text": "Die Chance wird jetzt durch den Europäischen Verteidigungsfonds genutzt."
+              },
+              {
+                "text": "500 Millionen Euro werden bereitgestellt für die gemeinsame Forschung im Bereich der militärischen Fähigkeiten, der Sicherheitsfähigkeiten."
+              }
+            ]
+          },
+          {
+            "type": "comment",
+            "speaker": null,
+            "speakerstatus": null,
+            "text": "(Tobias Pflüger [DIE LINKE]: Welche Richtung?)",
+            "sentences": [
+              {
+                "text": "(Tobias Pflüger [DIE LINKE]: Welche Richtung?)"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Alexander Graf Lambsdorff",
+            "speakerstatus": "main-speaker",
+            "text": "Dazu sage ich: Endlich ist das der Fall. Es macht doch überhaupt keinen Sinn, dass wir alle national an exakt denselben Dingen forschen. Es ist viel besser, wir koordinieren das.",
+            "sentences": [
+              {
+                "text": "Dazu sage ich: Endlich ist das der Fall."
+              },
+              {
+                "text": "Es macht doch überhaupt keinen Sinn, dass wir alle national an exakt denselben Dingen forschen."
+              },
+              {
+                "text": "Es ist viel besser, wir koordinieren das."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Alexander Graf Lambsdorff",
+            "speakerstatus": "main-speaker",
+            "text": "Lassen Sie mich abschließend zum Brexit eines sagen: Es ist bemerkenswert, wie stark die britische Regierung sich bewegt hat. Wir haben jetzt die drei Kernfragen der ersten Phase geklärt: Der Europäische Gerichtshof wird nach dem Brexit für weitere acht Jahre die Rechte von europäischen Bürgerinnen und Bürgern in Großbritannien schützen, es soll keine harte Grenze zwischen Nordirland und der Republik Irland geben, und Großbritannien verpflichtet sich, seine Rechnung gegenüber der Europäischen Union zu begleichen. Diese Zugeständnisse wurden durch die erfolgreiche Verhandlungsführung von Michel Barnier, dem Chefunterhändler der Europäischen Union, erreicht. Ich glaube, es ist deswegen wichtig, darüber zu reden, dass jetzt das Mandat für die zweite Phase zu erteilen ist. Das ist die Phase, in der die Wirtschafts- und Handelsbeziehungen im Vordergrund stehen. Ich glaube, es muss darum gehen, den wirtschaftlichen Schaden, der durch den Brexit unausweichlich entstehen wird, so gering wie möglich zu halten. Wir sind und bleiben enge wirtschaftliche Partner, und – das sage ich hier ganz deutlich – Großbritannien wird auch weiterhin ein enger sicherheitspolitischer Partner, ein Freund und Alliierter in der NATO bleiben.",
+            "sentences": [
+              {
+                "text": "Lassen Sie mich abschließend zum Brexit eines sagen: Es ist bemerkenswert, wie stark die britische Regierung sich bewegt hat."
+              },
+              {
+                "text": "Wir haben jetzt die drei Kernfragen der ersten Phase geklärt: Der Europäische Gerichtshof wird nach dem Brexit für weitere acht Jahre die Rechte von europäischen Bürgerinnen und Bürgern in Großbritannien schützen, es soll keine harte Grenze zwischen Nordirland und der Republik Irland geben, und Großbritannien verpflichtet sich, seine Rechnung gegenüber der Europäischen Union zu begleichen."
+              },
+              {
+                "text": "Diese Zugeständnisse wurden durch die erfolgreiche Verhandlungsführung von Michel Barnier, dem Chefunterhändler der Europäischen Union, erreicht."
+              },
+              {
+                "text": "Ich glaube, es ist deswegen wichtig, darüber zu reden, dass jetzt das Mandat für die zweite Phase zu erteilen ist."
+              },
+              {
+                "text": "Das ist die Phase, in der die Wirtschafts- und Handelsbeziehungen im Vordergrund stehen."
+              },
+              {
+                "text": "Ich glaube, es muss darum gehen, den wirtschaftlichen Schaden, der durch den Brexit unausweichlich entstehen wird, so gering wie möglich zu halten."
+              },
+              {
+                "text": "Wir sind und bleiben enge wirtschaftliche Partner, und – das sage ich hier ganz deutlich – Großbritannien wird auch weiterhin ein enger sicherheitspolitischer Partner, ein Freund und Alliierter in der NATO bleiben."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Alexander Graf Lambsdorff",
+            "speakerstatus": "main-speaker",
+            "text": "Herzlichen Dank.",
+            "sentences": [
+              {
+                "text": "Herzlichen Dank."
+              }
+            ]
+          },
+          {
+            "type": "comment",
+            "speaker": null,
+            "speakerstatus": null,
+            "text": "(Beifall bei der FDP sowie bei Abgeordneten der CDU/CSU)",
+            "sentences": [
+              {
+                "text": "(Beifall bei der FDP sowie bei Abgeordneten der CDU/CSU)"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Hans-Peter Friedrich",
+            "speakerstatus": "vice-president",
+            "text": "Nächste Rednerin für Bündnis 90/Die Grünen: Dr. Franziska Brantner. Bitte schön.",
+            "sentences": [
+              {
+                "text": "Nächste Rednerin für Bündnis 90/Die Grünen: Dr. Franziska Brantner."
+              },
+              {
+                "text": "Bitte schön."
+              }
+            ]
+          },
+          {
+            "type": "comment",
+            "speaker": null,
+            "speakerstatus": null,
+            "text": "(Beifall bei Abgeordneten des BÜNDNISSES 90/DIE GRÜNEN)",
+            "sentences": [
+              {
+                "text": "(Beifall bei Abgeordneten des BÜNDNISSES 90/DIE GRÜNEN)"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "documents": [],
+    "key": "19-4 zusatzpunkt 1 (alexander graf lambsdorff)",
+    "dateStart": "2017-12-12T11:58:41",
+    "dateEnd": "2017-12-12T12:03:59",
     "media": {
       "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7180691/7180691_h264_720_400_2000kb_baseline_de_2192.mp4",
       "sourcePage": "http://dbtg.tv/fvid/7180691",
@@ -14921,18 +16221,7 @@
       "license": "CC-BY-SA",
       "originMediaID": "7180691",
       "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7180691/7180691_mp3_128kb_stereo_de_128.mp3"
-    },
-    "dateStart": "2017-12-12T11:58:41",
-    "dateEnd": "2017-12-12T12:03:59",
-    "people": [
-      {
-        "label": "Alexander Graf Lambsdorff",
-        "faction": "FDP",
-        "context": "main-speaker",
-        "role": null
-      }
-    ],
-    "key": "19-4 zusatzpunkt 1 (alexander graf lambsdorff)"
+    }
   },
   {
     "parliament": "DE",

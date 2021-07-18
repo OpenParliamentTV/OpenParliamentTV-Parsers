@@ -15106,16 +15106,479 @@
   {
     "parliament": "DE",
     "electoralPeriod": {
-      "number": 19
+      "number": "19"
     },
     "session": {
-      "number": 82
+      "number": "82",
+      "dateStart": "2019-02-20T13:00",
+      "dateEnd": "2019-02-20T16:45"
     },
     "agendaItem": {
-      "title": "Zusatzpunkt 1",
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 44
+      "speechIndex": 68,
+      "title": "Zusatzpunkt 1"
     },
+    "people": [
+      {
+        "type": "memberOfParliament",
+        "label": "Alexander Graf Lambsdorff",
+        "context": "main-speaker"
+      },
+      {
+        "type": "memberOfParliament",
+        "label": "Claudia Roth",
+        "context": "vice-president"
+      }
+    ],
+    "textContents": [
+      {
+        "type": "proceedings",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19082-data.xml",
+        "creator": "Deutscher Bundestag",
+        "license": "Public Domain",
+        "language": "DE-de",
+        "originTextID": "",
+        "textBody": [
+          {
+            "type": "speech",
+            "speaker": "Alexander Graf Lambsdorff",
+            "speakerstatus": "main-speaker",
+            "text": "Vielen Dank, Frau Präsidentin. – Wir haben eine Aktuelle Stunde zur Münchner Sicherheitskonferenz, aber ich bin sicher, vielen Kolleginnen und Kollegen ging es ein bisschen wie mir: Wir hatten das Gefühl, auf einer Münchner Unsicherheitskonferenz zu sein.",
+            "sentences": [
+              {
+                "text": "Vielen Dank, Frau Präsidentin."
+              },
+              {
+                "text": "– Wir haben eine Aktuelle Stunde zur Münchner Sicherheitskonferenz, aber ich bin sicher, vielen Kolleginnen und Kollegen ging es ein bisschen wie mir: Wir hatten das Gefühl, auf einer Münchner Unsicherheitskonferenz zu sein."
+              }
+            ]
+          },
+          {
+            "type": "comment",
+            "speaker": null,
+            "speakerstatus": null,
+            "text": "(Tobias Pflüger [DIE LINKE]: Ach was! Jetzt plötzlich? – Zuruf der Abg. Heike Hänsel [DIE LINKE])",
+            "sentences": [
+              {
+                "text": "(Tobias Pflüger [DIE LINKE]: Ach was! Jetzt plötzlich? – Zuruf der Abg. Heike Hänsel [DIE LINKE])"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Alexander Graf Lambsdorff",
+            "speakerstatus": "main-speaker",
+            "text": "Wir haben dort insbesondere das Thema Rüstungskontrolle rauf und runter diskutiert, viele Reden über den Mittelstreckenraketenvertrag, der gekündigt worden ist, gehört. Aber dieser ist nur der mittlere Teil einer ganzen Rüstungskontrollarchitektur, die ins Wanken geraten ist. Der ABM-Vertrag ist bereits beendet. New START, der Vertrag zur Reduzierung strategischer Atomraketen, läuft 2021 aus. Die Unsicherheit wächst also eher, als dass die Sicherheit steigt.",
+            "sentences": [
+              {
+                "text": "Wir haben dort insbesondere das Thema Rüstungskontrolle rauf und runter diskutiert, viele Reden über den Mittelstreckenraketenvertrag, der gekündigt worden ist, gehört."
+              },
+              {
+                "text": "Aber dieser ist nur der mittlere Teil einer ganzen Rüstungskontrollarchitektur, die ins Wanken geraten ist."
+              },
+              {
+                "text": "Der ABM-Vertrag ist bereits beendet."
+              },
+              {
+                "text": "New START, der Vertrag zur Reduzierung strategischer Atomraketen, läuft 2021 aus."
+              },
+              {
+                "text": "Die Unsicherheit wächst also eher, als dass die Sicherheit steigt."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Alexander Graf Lambsdorff",
+            "speakerstatus": "main-speaker",
+            "text": "Die zweite Beobachtung, die man, glaube ich, machen kann, ist: Ja, die amerikanische Administration ist schwierig. Die Rede des Vizepräsidenten hat nicht allen gefallen, sie konnte uns auch nicht allen gefallen. Aber ich glaube, diese Konferenz hat auch gezeigt, dass die USA, dass die transatlantischen Beziehungen mehr sind als der Mann im Weißen Haus und sein Stellvertreter.",
+            "sentences": [
+              {
+                "text": "Die zweite Beobachtung, die man, glaube ich, machen kann, ist: Ja, die amerikanische Administration ist schwierig."
+              },
+              {
+                "text": "Die Rede des Vizepräsidenten hat nicht allen gefallen, sie konnte uns auch nicht allen gefallen."
+              },
+              {
+                "text": "Aber ich glaube, diese Konferenz hat auch gezeigt, dass die USA, dass die transatlantischen Beziehungen mehr sind als der Mann im Weißen Haus und sein Stellvertreter."
+              }
+            ]
+          },
+          {
+            "type": "comment",
+            "speaker": null,
+            "speakerstatus": null,
+            "text": "(Roderich Kiesewetter [CDU/CSU]: Richtig!)",
+            "sentences": [
+              {
+                "text": "(Roderich Kiesewetter [CDU/CSU]: Richtig!)"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Alexander Graf Lambsdorff",
+            "speakerstatus": "main-speaker",
+            "text": "Es war die größte Delegation des amerikanischen Kongresses in München, die jemals angereist ist: 55 Leute unter der Führung von Nancy Pelosi. Das zeigt, dass die transatlantischen Beziehungen lebendig sind, tiefer und breiter als allein der Blick auf das Weiße Haus das unterstellt. Aus Sicht meiner Fraktion macht das deutlich: Berechtigte Kritik an der Politik der Administration von Donald Trump darf niemals umschlagen in einen allgemeinen Antiamerikanismus, meine Damen und Herren.",
+            "sentences": [
+              {
+                "text": "Es war die größte Delegation des amerikanischen Kongresses in München, die jemals angereist ist: 55 Leute unter der Führung von Nancy Pelosi."
+              },
+              {
+                "text": "Das zeigt, dass die transatlantischen Beziehungen lebendig sind, tiefer und breiter als allein der Blick auf das Weiße Haus das unterstellt."
+              },
+              {
+                "text": "Aus Sicht meiner Fraktion macht das deutlich: Berechtigte Kritik an der Politik der Administration von Donald Trump darf niemals umschlagen in einen allgemeinen Antiamerikanismus, meine Damen und Herren."
+              }
+            ]
+          },
+          {
+            "type": "comment",
+            "speaker": null,
+            "speakerstatus": null,
+            "text": "(Beifall bei der FDP sowie bei Abgeordneten der CDU/CSU)",
+            "sentences": [
+              {
+                "text": "(Beifall bei der FDP sowie bei Abgeordneten der CDU/CSU)"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Alexander Graf Lambsdorff",
+            "speakerstatus": "main-speaker",
+            "text": "Für uns als Liberale steht in der internationalen Politik der Mensch im Mittelpunkt. Wir haben uns gefreut über Weiterentwicklungen des Regelwerks, des internationalen Regelwerks zum Internationalen Strafgerichtshof. Wir wollen auch weiter daran arbeiten, dass die Schutzverantwortung, die Responsibility to Protect, international weiterentwickelt wird, sich zu einem Konsens weiterentwickelt. Diese regelgebundene Weltordnung, in der der Mensch im Mittelpunkt steht, ist uns wichtig. Die regelgebundene Weltordnung heißt auf Englisch „the liberal world order“, einfach deswegen, weil das Kernmerkmal des Liberalismus die Bindung von Macht an Recht ist. Genau darum geht es. Wir wollen in den internationalen Beziehungen die Stärke des Rechts statt das Recht des Stärkeren.",
+            "sentences": [
+              {
+                "text": "Für uns als Liberale steht in der internationalen Politik der Mensch im Mittelpunkt."
+              },
+              {
+                "text": "Wir haben uns gefreut über Weiterentwicklungen des Regelwerks, des internationalen Regelwerks zum Internationalen Strafgerichtshof."
+              },
+              {
+                "text": "Wir wollen auch weiter daran arbeiten, dass die Schutzverantwortung, die Responsibility to Protect, international weiterentwickelt wird, sich zu einem Konsens weiterentwickelt."
+              },
+              {
+                "text": "Diese regelgebundene Weltordnung, in der der Mensch im Mittelpunkt steht, ist uns wichtig."
+              },
+              {
+                "text": "Die regelgebundene Weltordnung heißt auf Englisch „the liberal world order“, einfach deswegen, weil das Kernmerkmal des Liberalismus die Bindung von Macht an Recht ist."
+              },
+              {
+                "text": "Genau darum geht es."
+              },
+              {
+                "text": "Wir wollen in den internationalen Beziehungen die Stärke des Rechts statt das Recht des Stärkeren."
+              }
+            ]
+          },
+          {
+            "type": "comment",
+            "speaker": null,
+            "speakerstatus": null,
+            "text": "(Beifall bei der FDP – Zurufe der Abg. Heike Hänsel [DIE LINKE])",
+            "sentences": [
+              {
+                "text": "(Beifall bei der FDP – Zurufe der Abg. Heike Hänsel [DIE LINKE])"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Alexander Graf Lambsdorff",
+            "speakerstatus": "main-speaker",
+            "text": "Meine Damen und Herren, das Recht des Stärkeren in der internationalen Politik einzubinden, indem man sich in Organisationen zusammenschließt, sich auf ein Regelwerk, auf Konfliktbearbeitungsmechanismen einigt, ist eine Selbstbindung der Stärkeren in diesen Organisationen. Die Stärkeren in diesen Organisationen erwarten dann, wie ich finde mit Recht, innerhalb dieses Regelwerks auch ein bisschen den Respekt der Schwächeren davor, dass die Kräfteverhältnisse nun mal unterschiedlich sind. Sie sind auch einem steten Wandel unterworfen. Deswegen muss die internationale Ordnung, deswegen müssen sich die internationalen Organisationen auch weiterentwickeln. Es gibt Organisationen, die wir nicht mehr brauchen, die wir auflösen können. Die Westeuropäische Union haben wir bereits aufgelöst. Es gibt andere, die wir reformieren müssen: den Internationalen Währungsfonds hinsichtlich der Stimmgewichtung, die Weltbank genauso. Die Welthandelsorganisation haben wir reformiert, aber hier sehen wir eine echte Herausforderung, weil Länder wie China diese Reform missbrauchen, um Dinge zu behaupten, die nicht wahr sind. China ist bis heute keine Marktwirtschaft, behauptet es allerdings innerhalb der Welthandelsorganisation. Wir müssen also auch Reformen mit Augenmaß machen.",
+            "sentences": [
+              {
+                "text": "Meine Damen und Herren, das Recht des Stärkeren in der internationalen Politik einzubinden, indem man sich in Organisationen zusammenschließt, sich auf ein Regelwerk, auf Konfliktbearbeitungsmechanismen einigt, ist eine Selbstbindung der Stärkeren in diesen Organisationen."
+              },
+              {
+                "text": "Die Stärkeren in diesen Organisationen erwarten dann, wie ich finde mit Recht, innerhalb dieses Regelwerks auch ein bisschen den Respekt der Schwächeren davor, dass die Kräfteverhältnisse nun mal unterschiedlich sind."
+              },
+              {
+                "text": "Sie sind auch einem steten Wandel unterworfen."
+              },
+              {
+                "text": "Deswegen muss die internationale Ordnung, deswegen müssen sich die internationalen Organisationen auch weiterentwickeln."
+              },
+              {
+                "text": "Es gibt Organisationen, die wir nicht mehr brauchen, die wir auflösen können."
+              },
+              {
+                "text": "Die Westeuropäische Union haben wir bereits aufgelöst."
+              },
+              {
+                "text": "Es gibt andere, die wir reformieren müssen: den Internationalen Währungsfonds hinsichtlich der Stimmgewichtung, die Weltbank genauso."
+              },
+              {
+                "text": "Die Welthandelsorganisation haben wir reformiert, aber hier sehen wir eine echte Herausforderung, weil Länder wie China diese Reform missbrauchen, um Dinge zu behaupten, die nicht wahr sind."
+              },
+              {
+                "text": "China ist bis heute keine Marktwirtschaft, behauptet es allerdings innerhalb der Welthandelsorganisation."
+              },
+              {
+                "text": "Wir müssen also auch Reformen mit Augenmaß machen."
+              }
+            ]
+          },
+          {
+            "type": "comment",
+            "speaker": null,
+            "speakerstatus": null,
+            "text": "(Beifall bei der FDP – Zuruf der Abg. Heike Hänsel [DIE LINKE])",
+            "sentences": [
+              {
+                "text": "(Beifall bei der FDP – Zuruf der Abg. Heike Hänsel [DIE LINKE])"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Alexander Graf Lambsdorff",
+            "speakerstatus": "main-speaker",
+            "text": "Eine Reform haben wir bereits gemacht. Deswegen – das will ich hier noch einmal sagen – war es besonders absurd, dass Linke – hier sind gerade einige aktive Zwischenrufe in der Linksfraktion unterwegs; schön, dass Sie auch wieder da sind, Herr Dehm – –",
+            "sentences": [
+              {
+                "text": "Eine Reform haben wir bereits gemacht."
+              },
+              {
+                "text": "Deswegen – das will ich hier noch einmal sagen – war es besonders absurd, dass Linke – hier sind gerade einige aktive Zwischenrufe in der Linksfraktion unterwegs; schön, dass Sie auch wieder da sind, Herr Dehm – –"
+              }
+            ]
+          },
+          {
+            "type": "comment",
+            "speaker": null,
+            "speakerstatus": null,
+            "text": "(Dr. Diether Dehm [DIE LINKE]: Ich habe nicht dazwischengerufen! Jetzt rufe ich dazwischen!)",
+            "sentences": [
+              {
+                "text": "(Dr. Diether Dehm [DIE LINKE]: Ich habe nicht dazwischengerufen! Jetzt rufe ich dazwischen!)"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Alexander Graf Lambsdorff",
+            "speakerstatus": "main-speaker",
+            "text": "– Wunderbar, alles klar; ich habe es schon fast vermisst. Aber irgendjemand hat dazwischengerufen.",
+            "sentences": [
+              {
+                "text": "– Wunderbar, alles klar; ich habe es schon fast vermisst."
+              },
+              {
+                "text": "Aber irgendjemand hat dazwischengerufen."
+              }
+            ]
+          },
+          {
+            "type": "comment",
+            "speaker": null,
+            "speakerstatus": null,
+            "text": "(Zurufe von der LINKEN)",
+            "sentences": [
+              {
+                "text": "(Zurufe von der LINKEN)"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Alexander Graf Lambsdorff",
+            "speakerstatus": "main-speaker",
+            "text": "– Frau Hänsel war das. Alles klar, ich nehme alles zurück. Frau Hänsel, Sie waren es mit den Zwischenrufen.",
+            "sentences": [
+              {
+                "text": "– Frau Hänsel war das."
+              },
+              {
+                "text": "Alles klar, ich nehme alles zurück."
+              },
+              {
+                "text": "Frau Hänsel, Sie waren es mit den Zwischenrufen."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Alexander Graf Lambsdorff",
+            "speakerstatus": "main-speaker",
+            "text": "Was ich sagen wollte: Wir haben erkannt, dass Reformbedarf da ist. Wir haben die G 7 der Industriestaaten ausgeweitet zu den G 20, damit die Schwellenländer, die viele der ärmeren Menschen auf der Welt vertreten, auch eine Stimme im internationalen Konzert haben. Es sind ausgerechnet Ihre Freunde, die Linksextremen, die in Hamburg mit einem Angriff auf eine internationale Gruppierung ein derartig gewalttätiges Spektakel veranstalten, wo die Reform zugunsten der schwächeren Menschen auf der Welt bereits umgesetzt worden ist. Ich finde das total absurd.",
+            "sentences": [
+              {
+                "text": "Was ich sagen wollte: Wir haben erkannt, dass Reformbedarf da ist."
+              },
+              {
+                "text": "Wir haben die G 7 der Industriestaaten ausgeweitet zu den G 20, damit die Schwellenländer, die viele der ärmeren Menschen auf der Welt vertreten, auch eine Stimme im internationalen Konzert haben."
+              },
+              {
+                "text": "Es sind ausgerechnet Ihre Freunde, die Linksextremen, die in Hamburg mit einem Angriff auf eine internationale Gruppierung ein derartig gewalttätiges Spektakel veranstalten, wo die Reform zugunsten der schwächeren Menschen auf der Welt bereits umgesetzt worden ist."
+              },
+              {
+                "text": "Ich finde das total absurd."
+              }
+            ]
+          },
+          {
+            "type": "comment",
+            "speaker": null,
+            "speakerstatus": null,
+            "text": "(Beifall bei der FDP sowie bei Abgeordneten der AfD – Zurufe von der LINKEN)",
+            "sentences": [
+              {
+                "text": "(Beifall bei der FDP sowie bei Abgeordneten der AfD – Zurufe von der LINKEN)"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Alexander Graf Lambsdorff",
+            "speakerstatus": "main-speaker",
+            "text": "Meine Damen und Herren, ein Positivbeispiel für Reform ist manchmal – das wird manche überraschen – die Europäische Union. Sie schafft es ganz gut, mit der Stimmgewichtung im Rat, der doppelten Mehrheit, den sich anpassenden Sitzverteilungen im Europäischen Parlament, die sich wandelnden Kräfteverhältnisse gut abzubilden. Negativbeispiel ist natürlich, dass die Mitgliedstaaten alle darauf bestehen, noch einen Kommissar zu haben.",
+            "sentences": [
+              {
+                "text": "Meine Damen und Herren, ein Positivbeispiel für Reform ist manchmal – das wird manche überraschen – die Europäische Union."
+              },
+              {
+                "text": "Sie schafft es ganz gut, mit der Stimmgewichtung im Rat, der doppelten Mehrheit, den sich anpassenden Sitzverteilungen im Europäischen Parlament, die sich wandelnden Kräfteverhältnisse gut abzubilden."
+              },
+              {
+                "text": "Negativbeispiel ist natürlich, dass die Mitgliedstaaten alle darauf bestehen, noch einen Kommissar zu haben."
+              }
+            ]
+          },
+          {
+            "type": "comment",
+            "speaker": null,
+            "speakerstatus": null,
+            "text": "(Zuruf des Abg. Johannes Schraps [SPD])",
+            "sentences": [
+              {
+                "text": "(Zuruf des Abg. Johannes Schraps [SPD])"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Alexander Graf Lambsdorff",
+            "speakerstatus": "main-speaker",
+            "text": "Auch die Kommission muss also reformiert werden.",
+            "sentences": [
+              {
+                "text": "Auch die Kommission muss also reformiert werden."
+              }
+            ]
+          },
+          {
+            "type": "comment",
+            "speaker": null,
+            "speakerstatus": null,
+            "text": "(Beifall bei der FDP)",
+            "sentences": [
+              {
+                "text": "(Beifall bei der FDP)"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Alexander Graf Lambsdorff",
+            "speakerstatus": "main-speaker",
+            "text": "Letzter Punkt, meine Damen und Herren. Wir haben viel über nationale Interessen gehört. Das suggeriert ja, dass die deutsche Außenpolitik in der Vergangenheit nationale Interessen außer Acht gelassen habe. Meine Damen und Herren, das zentrale nationale Interesse war die Wiederherstellung der Einheit unseres Vaterlandes in Freiheit, und Helmut Kohl und Hans-Dietrich Genscher haben das geschafft. Hier zu suggerieren, deutsche Außenpolitik verfolge nationale Interessen nicht, ist ahistorisch, falsch und wird sich überleben, meine Damen und Herren.",
+            "sentences": [
+              {
+                "text": "Letzter Punkt, meine Damen und Herren."
+              },
+              {
+                "text": "Wir haben viel über nationale Interessen gehört."
+              },
+              {
+                "text": "Das suggeriert ja, dass die deutsche Außenpolitik in der Vergangenheit nationale Interessen außer Acht gelassen habe."
+              },
+              {
+                "text": "Meine Damen und Herren, das zentrale nationale Interesse war die Wiederherstellung der Einheit unseres Vaterlandes in Freiheit, und Helmut Kohl und Hans-Dietrich Genscher haben das geschafft."
+              },
+              {
+                "text": "Hier zu suggerieren, deutsche Außenpolitik verfolge nationale Interessen nicht, ist ahistorisch, falsch und wird sich überleben, meine Damen und Herren."
+              }
+            ]
+          },
+          {
+            "type": "comment",
+            "speaker": null,
+            "speakerstatus": null,
+            "text": "(Beifall bei der FDP sowie bei Abgeordneten der CDU/CSU)",
+            "sentences": [
+              {
+                "text": "(Beifall bei der FDP sowie bei Abgeordneten der CDU/CSU)"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Alexander Graf Lambsdorff",
+            "speakerstatus": "main-speaker",
+            "text": "Heute ist unser Interesse der Erhalt der Freiheit, und wenn, wie Henry Kissinger richtig sagte, Deutschland zu groß für Europa und zu klein für die Welt ist, dann ist auch eines klar: Den Erhalt der Freiheit werden wir nur mit Verbündeten und Partnern leisten können.",
+            "sentences": [
+              {
+                "text": "Heute ist unser Interesse der Erhalt der Freiheit, und wenn, wie Henry Kissinger richtig sagte, Deutschland zu groß für Europa und zu klein für die Welt ist, dann ist auch eines klar: Den Erhalt der Freiheit werden wir nur mit Verbündeten und Partnern leisten können."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Alexander Graf Lambsdorff",
+            "speakerstatus": "main-speaker",
+            "text": "Herzlichen Dank für Ihre Aufmerksamkeit.",
+            "sentences": [
+              {
+                "text": "Herzlichen Dank für Ihre Aufmerksamkeit."
+              }
+            ]
+          },
+          {
+            "type": "comment",
+            "speaker": null,
+            "speakerstatus": null,
+            "text": "(Beifall bei der FDP sowie bei Abgeordneten der CDU/CSU)",
+            "sentences": [
+              {
+                "text": "(Beifall bei der FDP sowie bei Abgeordneten der CDU/CSU)"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "Vielen Dank, Graf Lambsdorff. – Nächster Redner: Tobias Pflüger für die Fraktion Die Linke.",
+            "sentences": [
+              {
+                "text": "Vielen Dank, Graf Lambsdorff."
+              },
+              {
+                "text": "– Nächster Redner: Tobias Pflüger für die Fraktion Die Linke."
+              }
+            ]
+          },
+          {
+            "type": "comment",
+            "speaker": null,
+            "speakerstatus": null,
+            "text": "(Beifall bei der LINKEN)",
+            "sentences": [
+              {
+                "text": "(Beifall bei der LINKEN)"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "documents": [],
+    "key": "19-82 zusatzpunkt 1 (alexander graf lambsdorff)",
+    "dateStart": "2019-02-20T14:54:27",
+    "dateEnd": "2019-02-20T15:00:15",
     "media": {
       "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7328661/7328661_h264_720_400_2000kb_baseline_de_2192.mp4",
       "sourcePage": "http://dbtg.tv/fvid/7328661",
@@ -15124,18 +15587,7 @@
       "license": "CC-BY-SA",
       "originMediaID": "7328661",
       "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7328661/7328661_mp3_128kb_stereo_de_128.mp3"
-    },
-    "dateStart": "2019-02-20T14:54:27",
-    "dateEnd": "2019-02-20T15:00:15",
-    "people": [
-      {
-        "label": "Alexander Graf Lambsdorff",
-        "faction": "FDP",
-        "context": "main-speaker",
-        "role": null
-      }
-    ],
-    "key": "19-82 zusatzpunkt 1 (alexander graf lambsdorff)"
+    }
   },
   {
     "parliament": "DE",
