@@ -5,7 +5,7 @@ def fix_fullname(label: str) -> str:
         return label
     # Replace nb whitespace
     label = label.replace('\xa0', ' ')
-    label = label.replace('Dr. ', '').replace('h. c. ', '').replace('Prof. ', '')
+    label = label.replace('Dr. ', '').replace('h. c. ', '').replace('Prof. ', '').replace('Graf Graf ', 'Graf ')
     return label
 
 def fix_faction(label: str) -> str:
