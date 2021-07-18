@@ -297,8 +297,9 @@ def parse_transcript(filename, sourceUri=None):
         },
     }
 
-    # Store speaker dict
-    speaker_info = parse_speakers(root.findall('.//redner'))
+    # Store speaker dict, but only of <redner> nodes under <sitzungsverlauf>
+    # Otherwise we also get the list of speakers in the attachments which often contains mistakes
+    speaker_info = parse_speakers(root.find('sitzungsverlauf').findall('.//redner'))
 
     last_speaker = {
         'speaker': "Unknown",
