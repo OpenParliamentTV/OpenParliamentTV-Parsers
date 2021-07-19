@@ -20,6 +20,8 @@ def parse_fullname(label: str) -> tuple:
         return None
     # Strip leading/trailing :
     label = label.strip(':').strip('–')
+    # Fix strange notation, like in 19040, 19170, 19176...
+    label = label.replace('räsident in', 'räsidentin')
     first, rest = re.split('\s+', label, 1)
     if first in STATUS_TRANSLATION:
         return (fix_fullname(rest), STATUS_TRANSLATION.get(first))
