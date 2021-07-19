@@ -92,7 +92,7 @@ def parse_speech(elements: list, last_speaker: dict):
             if (speaker.startswith('Präsident')
                 or speaker.startswith('Vizepräsident')
                 or speaker.startswith('Alterspräsident')):
-                status, speaker = speaker.split(' ', 1)
+                status, speaker = speaker.replace('räsident in', 'räsidentin').split(' ', 1)
                 speakerstatus = STATUS_TRANSLATION.get(status, status)
             continue
         if c.tag == 'kommentar':
@@ -132,7 +132,7 @@ def parse_speech(elements: list, last_speaker: dict):
                 if (speaker.startswith('Präsident')
                     or speaker.startswith('Vizepräsident')
                     or speaker.startswith('Alterspräsident')):
-                    status, speaker = speaker.split(' ', 1)
+                    status, speaker = speaker.replace('räsident in', 'räsidentin').split(' ', 1)
                     speakerstatus = STATUS_TRANSLATION.get(status, status)
                 continue
             elif klasse in ('J', 'J_1', 'O') and c.text:
