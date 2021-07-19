@@ -18,8 +18,8 @@ def parse_fullname(label: str) -> tuple:
     """
     if label is None:
         return None
-    # Strip leading/trailing :
-    label = label.strip(':').strip('–')
+    # Strip leading/trailing : - .
+    label = label.strip(':').strip('–').strip('.')
     # Fix strange notation, like in 19040, 19170, 19176...
     label = label.replace('räsident in', 'räsidentin')
     first, rest = re.split('\s+', label, 1)
@@ -39,6 +39,6 @@ def fix_fullname(label: str) -> str:
 def fix_faction(label: str) -> str:
     if label is None:
         return label
-    # Replace nb whitespace
-    label = label.replace('\xa0', ' ')
+    # Replace non-breaking whitespaces (\xa0) and multiple whitespaces
+    label = re.sub(r'\s+', ' ', label)
     return label.replace('B90/Grüne', 'BÜNDNIS 90/DIE GRÜNEN')
