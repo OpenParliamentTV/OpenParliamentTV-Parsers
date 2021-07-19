@@ -88,7 +88,7 @@ def parse_speech(elements: list, last_speaker: dict):
     for c in elements:
         if c.tag == 'name':
             # Pr/VP name, strip trailing :
-            speaker = c.text.strip(':')
+            speaker = c.text.strip('–').strip('\xa0').strip(':')
             if (speaker.startswith('Präsident')
                 or speaker.startswith('Vizepräsident')
                 or speaker.startswith('Alterspräsident')):
@@ -128,7 +128,7 @@ def parse_speech(elements: list, last_speaker: dict):
                 continue
             elif klasse == 'N':
                 # Speaker name - Präsident or Vizepräsident
-                speaker = c.text.strip(':')
+                speaker = c.text.strip('–').strip('\xa0').strip(':')
                 if (speaker.startswith('Präsident')
                     or speaker.startswith('Vizepräsident')
                     or speaker.startswith('Alterspräsident')):
