@@ -42,3 +42,10 @@ def fix_faction(label: str) -> str:
     # Replace non-breaking whitespaces (\xa0) and multiple whitespaces
     label = re.sub(r'\s+', ' ', label)
     return label.replace('B90/Grüne', 'BÜNDNIS 90/DIE GRÜNEN')
+
+def fix_role(role: str) -> str:
+    """Return a standardized role if defined.
+
+    Else return the unchanged role.
+    """
+    return STATUS_TRANSLATION.get(role, role)
