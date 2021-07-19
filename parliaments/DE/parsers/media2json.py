@@ -124,7 +124,7 @@ def parse_media_data(data) -> dict:
                 "number": meeting_number,
             },
             "agendaItem": {
-                'title': e.get('description'),
+                'title': e.get('subtitle'),
                 'officialTitle': fix_title(e['title']),
             },
             "media": {
