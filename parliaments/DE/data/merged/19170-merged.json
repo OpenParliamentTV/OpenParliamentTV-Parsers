@@ -12631,16 +12631,484 @@
   {
     "parliament": "DE",
     "electoralPeriod": {
-      "number": 19
+      "number": "19"
     },
     "session": {
-      "number": 170
+      "number": "170",
+      "dateStart": "2020-07-02T9:00",
+      "dateEnd": "2020-07-03T00:18"
     },
     "agendaItem": {
-      "title": "Zusatzpunkt 11",
       "officialTitle": "Zusatzpunkt 11",
-      "speechIndex": 55
+      "speechIndex": 54,
+      "title": "Zusatzpunkt 11"
     },
+    "people": [
+      {
+        "type": "memberOfParliament",
+        "label": "Petra Pau",
+        "context": "vice-president"
+      }
+    ],
+    "textContents": [
+      {
+        "type": "proceedings",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19170-data.xml",
+        "creator": "Deutscher Bundestag",
+        "license": "Public Domain",
+        "language": "DE-de",
+        "originTextID": "0722-7980",
+        "textBody": [
+          {
+            "type": "speech",
+            "speaker": "Petra Pau",
+            "speakerstatus": "vice-president",
+            "text": "Wir kommen zur Abstimmung über den von der Bundesregierung eingebrachten Entwurf eines Grundrentengesetzes.",
+            "sentences": [
+              {
+                "text": "Wir kommen zur Abstimmung über den von der Bundesregierung eingebrachten Entwurf eines Grundrentengesetzes."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Petra Pau",
+            "speakerstatus": "vice-president",
+            "text": "Mir liegt eine Erklärung nach § 31 unserer Geschäftsordnung vor. Wir nehmen sie entsprechend unseren Regeln zu Protokoll.",
+            "sentences": [
+              {
+                "text": "Mir liegt eine Erklärung nach § 31 unserer Geschäftsordnung vor."
+              },
+              {
+                "text": "Wir nehmen sie entsprechend unseren Regeln zu Protokoll."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Petra Pau",
+            "speakerstatus": "vice-president",
+            "text": "Der Ausschuss für Arbeit und Soziales empfiehlt in seiner Beschlussempfehlung auf Drucksache 19/20711, den Gesetzentwurf der Bundesregierung auf Drucksache 19/18473 in der Ausschussfassung anzunehmen.",
+            "sentences": [
+              {
+                "text": "Der Ausschuss für Arbeit und Soziales empfiehlt in seiner Beschlussempfehlung auf Drucksache 19/20711, den Gesetzentwurf der Bundesregierung auf Drucksache 19/18473 in der Ausschussfassung anzunehmen."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Petra Pau",
+            "speakerstatus": "vice-president",
+            "text": "Wir kommen zunächst zur Abstimmung über acht Änderungsanträge der Fraktion Die Linke. Änderungsantrag auf Drucksache 19/20731. Wer stimmt für diesen Änderungsantrag? – Die Fraktionen Die Linke und Bündnis 90/Die Grünen. Wer stimmt dagegen? – Die übrigen Fraktionen des Hauses. Enthält sich jemand? – Das ist nicht der Fall. Der Änderungsantrag ist abgelehnt.",
+            "sentences": [
+              {
+                "text": "Wir kommen zunächst zur Abstimmung über acht Änderungsanträge der Fraktion Die Linke."
+              },
+              {
+                "text": "Änderungsantrag auf Drucksache 19/20731. Wer stimmt für diesen Änderungsantrag?"
+              },
+              {
+                "text": "– Die Fraktionen Die Linke und Bündnis 90/Die Grünen."
+              },
+              {
+                "text": "Wer stimmt dagegen?"
+              },
+              {
+                "text": "– Die übrigen Fraktionen des Hauses."
+              },
+              {
+                "text": "Enthält sich jemand?"
+              },
+              {
+                "text": "– Das ist nicht der Fall."
+              },
+              {
+                "text": "Der Änderungsantrag ist abgelehnt."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Petra Pau",
+            "speakerstatus": "vice-president",
+            "text": "Änderungsantrag auf Drucksache 19/20732. Wer stimmt für diesen Änderungsantrag? – Wiederum die Fraktionen Die Linke und Bündnis 90/Die Grünen. Wer stimmt dagegen? – Die Koalitionsfraktionen, die AfD-Fraktion und die FDP-Fraktion. Wer enthält sich? – Niemand. Der Änderungsantrag ist abgelehnt.",
+            "sentences": [
+              {
+                "text": "Änderungsantrag auf Drucksache 19/20732. Wer stimmt für diesen Änderungsantrag?"
+              },
+              {
+                "text": "– Wiederum die Fraktionen Die Linke und Bündnis 90/Die Grünen."
+              },
+              {
+                "text": "Wer stimmt dagegen?"
+              },
+              {
+                "text": "– Die Koalitionsfraktionen, die AfD-Fraktion und die FDP-Fraktion."
+              },
+              {
+                "text": "Wer enthält sich?"
+              },
+              {
+                "text": "– Niemand."
+              },
+              {
+                "text": "Der Änderungsantrag ist abgelehnt."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Petra Pau",
+            "speakerstatus": "vice-president",
+            "text": "Änderungsantrag auf Drucksache 19/20733. Wer stimmt für diesen Antrag? – Die Fraktion Die Linke und die Fraktion Bündnis 90/Die Grünen. Wer stimmt dagegen? – Die übrigen Fraktionen des Hauses. Wer enthält sich? – Niemand. Der Änderungsantrag ist abgelehnt.",
+            "sentences": [
+              {
+                "text": "Änderungsantrag auf Drucksache 19/20733. Wer stimmt für diesen Antrag?"
+              },
+              {
+                "text": "– Die Fraktion Die Linke und die Fraktion Bündnis 90/Die Grünen."
+              },
+              {
+                "text": "Wer stimmt dagegen?"
+              },
+              {
+                "text": "– Die übrigen Fraktionen des Hauses."
+              },
+              {
+                "text": "Wer enthält sich?"
+              },
+              {
+                "text": "– Niemand."
+              },
+              {
+                "text": "Der Änderungsantrag ist abgelehnt."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Petra Pau",
+            "speakerstatus": "vice-president",
+            "text": "Änderungsantrag auf Drucksache 19/20734. Wer stimmt für diesen Antrag? – Die Fraktion Die Linke. Wer stimmt dagegen? – Die Koalitionsfraktionen, die AfD-Fraktion, die FDP-Fraktion und die Fraktion Bündnis 90/Die Grünen. Wer enthält sich? – Niemand. Der Änderungsantrag ist gegen die Stimmen der Fraktion Die Linke abgelehnt.",
+            "sentences": [
+              {
+                "text": "Änderungsantrag auf Drucksache 19/20734. Wer stimmt für diesen Antrag?"
+              },
+              {
+                "text": "– Die Fraktion Die Linke."
+              },
+              {
+                "text": "Wer stimmt dagegen?"
+              },
+              {
+                "text": "– Die Koalitionsfraktionen, die AfD-Fraktion, die FDP-Fraktion und die Fraktion Bündnis 90/Die Grünen."
+              },
+              {
+                "text": "Wer enthält sich?"
+              },
+              {
+                "text": "– Niemand."
+              },
+              {
+                "text": "Der Änderungsantrag ist gegen die Stimmen der Fraktion Die Linke abgelehnt."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Petra Pau",
+            "speakerstatus": "vice-president",
+            "text": "Änderungsantrag auf Drucksache 19/20735. Wer stimmt für diesen Änderungsantrag? – Die Fraktion Die Linke und die Fraktion Bündnis 90/Die Grünen. Wer stimmt dagegen? – Alle anderen Fraktion des Hauses. Wer enthält sich? – Niemand. Der Änderungsantrag ist abgelehnt.",
+            "sentences": [
+              {
+                "text": "Änderungsantrag auf Drucksache 19/20735. Wer stimmt für diesen Änderungsantrag?"
+              },
+              {
+                "text": "– Die Fraktion Die Linke und die Fraktion Bündnis 90/Die Grünen."
+              },
+              {
+                "text": "Wer stimmt dagegen?"
+              },
+              {
+                "text": "– Alle anderen Fraktion des Hauses."
+              },
+              {
+                "text": "Wer enthält sich?"
+              },
+              {
+                "text": "– Niemand."
+              },
+              {
+                "text": "Der Änderungsantrag ist abgelehnt."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Petra Pau",
+            "speakerstatus": "vice-president",
+            "text": "Änderungsantrag auf Drucksache 19/20736. Wer stimmt für diesen Änderungsantrag? – Die Fraktion Die Linke und die Fraktion Bündnis 90/Die Grünen. Wer stimmt dagegen? – Die Koalitionsfraktionen, die AfD-Fraktion und die FDP-Fraktion. Wer enthält sich? – Niemand. Der Änderungsantrag ist abgelehnt.",
+            "sentences": [
+              {
+                "text": "Änderungsantrag auf Drucksache 19/20736. Wer stimmt für diesen Änderungsantrag?"
+              },
+              {
+                "text": "– Die Fraktion Die Linke und die Fraktion Bündnis 90/Die Grünen."
+              },
+              {
+                "text": "Wer stimmt dagegen?"
+              },
+              {
+                "text": "– Die Koalitionsfraktionen, die AfD-Fraktion und die FDP-Fraktion."
+              },
+              {
+                "text": "Wer enthält sich?"
+              },
+              {
+                "text": "– Niemand."
+              },
+              {
+                "text": "Der Änderungsantrag ist abgelehnt."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Petra Pau",
+            "speakerstatus": "vice-president",
+            "text": "Änderungsantrag auf Drucksache 19/20737. Wer stimmt für diesen Änderungsantrag? – Die Fraktionen Die Linke, Bündnis 90/Die Grünen und die AfD-Fraktion. Wer stimmt dagegen? – Die Koalitionsfraktionen und die FDP-Fraktion. Wer enthält sich? – Niemand. Der Änderungsantrag ist abgelehnt.",
+            "sentences": [
+              {
+                "text": "Änderungsantrag auf Drucksache 19/20737. Wer stimmt für diesen Änderungsantrag?"
+              },
+              {
+                "text": "– Die Fraktionen Die Linke, Bündnis 90/Die Grünen und die AfD-Fraktion."
+              },
+              {
+                "text": "Wer stimmt dagegen?"
+              },
+              {
+                "text": "– Die Koalitionsfraktionen und die FDP-Fraktion."
+              },
+              {
+                "text": "Wer enthält sich?"
+              },
+              {
+                "text": "– Niemand."
+              },
+              {
+                "text": "Der Änderungsantrag ist abgelehnt."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Petra Pau",
+            "speakerstatus": "vice-president",
+            "text": "Änderungsantrag auf Drucksache 19/20738. Wer stimmt für diesen Änderungsantrag? – Die Fraktion Die Linke und die Fraktion Bündnis 90/Die Grünen. Wer stimmt dagegen? – Die Koalitionsfraktionen und die FDP-Fraktion. Wer enthält sich? – Die AfD-Fraktion. Der Änderungsantrag ist abgelehnt.",
+            "sentences": [
+              {
+                "text": "Änderungsantrag auf Drucksache 19/20738. Wer stimmt für diesen Änderungsantrag?"
+              },
+              {
+                "text": "– Die Fraktion Die Linke und die Fraktion Bündnis 90/Die Grünen."
+              },
+              {
+                "text": "Wer stimmt dagegen?"
+              },
+              {
+                "text": "– Die Koalitionsfraktionen und die FDP-Fraktion."
+              },
+              {
+                "text": "Wer enthält sich?"
+              },
+              {
+                "text": "– Die AfD-Fraktion."
+              },
+              {
+                "text": "Der Änderungsantrag ist abgelehnt."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Petra Pau",
+            "speakerstatus": "vice-president",
+            "text": "Wir kommen nun zur Abstimmung über den Gesetzentwurf. Ich bitte diejenigen, die dem Gesetzentwurf der Bundesregierung auf Drucksache 19/18473 in der Ausschussfassung zustimmen wollen, um das Handzeichen. – Das sind die Koalitionsfraktionen. Wer stimmt dagegen? – Die AfD-Fraktion und die FDP-Fraktion. Wer enthält sich? – Die Fraktionen Die Linke und Bündnis 90/Die Grünen. Der Gesetzentwurf ist damit in zweiter Beratung angenommen.",
+            "sentences": [
+              {
+                "text": "Wir kommen nun zur Abstimmung über den Gesetzentwurf."
+              },
+              {
+                "text": "Ich bitte diejenigen, die dem Gesetzentwurf der Bundesregierung auf Drucksache 19/18473 in der Ausschussfassung zustimmen wollen, um das Handzeichen."
+              },
+              {
+                "text": "– Das sind die Koalitionsfraktionen."
+              },
+              {
+                "text": "Wer stimmt dagegen?"
+              },
+              {
+                "text": "– Die AfD-Fraktion und die FDP-Fraktion."
+              },
+              {
+                "text": "Wer enthält sich?"
+              },
+              {
+                "text": "– Die Fraktionen Die Linke und Bündnis 90/Die Grünen."
+              },
+              {
+                "text": "Der Gesetzentwurf ist damit in zweiter Beratung angenommen."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Petra Pau",
+            "speakerstatus": "vice-president",
+            "text": "und Schlussabstimmung. Ich bitte diejenigen, die dem Gesetzentwurf zustimmen wollen, sich zu erheben. – Wer stimmt dagegen? – Wer enthält sich? – Der Gesetzentwurf ist mit den Stimmen der Koalitionsfraktionen gegen die Stimmen der AfD-Fraktion und der FDP-Fraktion bei Enthaltung der Fraktionen Die Linke und Bündnis 90/Die Grünen angenommen.",
+            "sentences": [
+              {
+                "text": "und Schlussabstimmung."
+              },
+              {
+                "text": "Ich bitte diejenigen, die dem Gesetzentwurf zustimmen wollen, sich zu erheben."
+              },
+              {
+                "text": "– Wer stimmt dagegen?"
+              },
+              {
+                "text": "– Wer enthält sich?"
+              },
+              {
+                "text": "– Der Gesetzentwurf ist mit den Stimmen der Koalitionsfraktionen gegen die Stimmen der AfD-Fraktion und der FDP-Fraktion bei Enthaltung der Fraktionen Die Linke und Bündnis 90/Die Grünen angenommen."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Petra Pau",
+            "speakerstatus": "vice-president",
+            "text": "Liebe Kolleginnen und Kollegen, die Arbeit zu diesem Tagesordnungspunkt ist noch nicht getan. Wir haben noch einige Abstimmungen vor uns. Wir kommen zur Abstimmung über die Entschließungsanträge. Entschließungsantrag der Fraktion Die Linke auf Drucksache 19/20744. Wer stimmt für diesen Entschließungsantrag? – Die Fraktion Die Linke. Wer stimmt dagegen? – Alle anderen Fraktionen des Hauses. Enthält sich jemand? – Das ist nicht der Fall. Der Entschließungsantrag ist abgelehnt.",
+            "sentences": [
+              {
+                "text": "Liebe Kolleginnen und Kollegen, die Arbeit zu diesem Tagesordnungspunkt ist noch nicht getan."
+              },
+              {
+                "text": "Wir haben noch einige Abstimmungen vor uns."
+              },
+              {
+                "text": "Wir kommen zur Abstimmung über die Entschließungsanträge."
+              },
+              {
+                "text": "Entschließungsantrag der Fraktion Die Linke auf Drucksache 19/20744. Wer stimmt für diesen Entschließungsantrag?"
+              },
+              {
+                "text": "– Die Fraktion Die Linke."
+              },
+              {
+                "text": "Wer stimmt dagegen?"
+              },
+              {
+                "text": "– Alle anderen Fraktionen des Hauses."
+              },
+              {
+                "text": "Enthält sich jemand?"
+              },
+              {
+                "text": "– Das ist nicht der Fall."
+              },
+              {
+                "text": "Der Entschließungsantrag ist abgelehnt."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Petra Pau",
+            "speakerstatus": "vice-president",
+            "text": "Entschließungsantrag der Fraktion Bündnis 90/Die Grünen auf Drucksache 19/20745. Wer stimmt für diesen Entschließungsantrag? – Die Fraktion Bündnis 90/Die Grünen. Wer stimmt dagegen? – Die Koalitionsfraktionen, die AfD-Fraktion und die FDP-Fraktion. Wer enthält sich? – Die Fraktion Die Linke. Der Entschließungsantrag ist abgelehnt.",
+            "sentences": [
+              {
+                "text": "Entschließungsantrag der Fraktion Bündnis 90/Die Grünen auf Drucksache 19/20745. Wer stimmt für diesen Entschließungsantrag?"
+              },
+              {
+                "text": "– Die Fraktion Bündnis 90/Die Grünen."
+              },
+              {
+                "text": "Wer stimmt dagegen?"
+              },
+              {
+                "text": "– Die Koalitionsfraktionen, die AfD-Fraktion und die FDP-Fraktion."
+              },
+              {
+                "text": "Wer enthält sich?"
+              },
+              {
+                "text": "– Die Fraktion Die Linke."
+              },
+              {
+                "text": "Der Entschließungsantrag ist abgelehnt."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Petra Pau",
+            "speakerstatus": "vice-president",
+            "text": "Zusatzpunkt 12. Wir kommen zur Beschlussempfehlung des Ausschusses für Arbeit und Soziales zu dem Antrag der Fraktion der FDP mit dem Titel „Altersarmut zielgenau bekämpfen – Neue Basis-Rente schaffen“. Der Ausschuss empfiehlt unter Buchstabe b seiner Beschlussempfehlung auf Drucksache 19/10033, den Antrag der Fraktion der FDP auf Drucksache 19/7694 abzulehnen. Wer stimmt für diese Beschlussempfehlung? – Wer stimmt dagegen? – Wer enthält sich? – Niemand. Die Beschlussempfehlung ist mit den Stimmen der Koalitionsfraktionen, der AfD-Fraktion, der Fraktion Die Linke, der Fraktion Bündnis 90/Die Grünen gegen die Stimmen der FDP-Fraktion angenommen.",
+            "sentences": [
+              {
+                "text": "Zusatzpunkt 12. Wir kommen zur Beschlussempfehlung des Ausschusses für Arbeit und Soziales zu dem Antrag der Fraktion der FDP mit dem Titel „Altersarmut zielgenau bekämpfen – Neue Basis-Rente schaffen“."
+              },
+              {
+                "text": "Der Ausschuss empfiehlt unter Buchstabe b seiner Beschlussempfehlung auf Drucksache 19/10033, den Antrag der Fraktion der FDP auf Drucksache 19/7694 abzulehnen."
+              },
+              {
+                "text": "Wer stimmt für diese Beschlussempfehlung?"
+              },
+              {
+                "text": "– Wer stimmt dagegen?"
+              },
+              {
+                "text": "– Wer enthält sich?"
+              },
+              {
+                "text": "– Niemand."
+              },
+              {
+                "text": "Die Beschlussempfehlung ist mit den Stimmen der Koalitionsfraktionen, der AfD-Fraktion, der Fraktion Die Linke, der Fraktion Bündnis 90/Die Grünen gegen die Stimmen der FDP-Fraktion angenommen."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "documents": [
+      {
+        "type": "officialDocument",
+        "label": "Drucksache 19/18473",
+        "sourceURI": "https://dserver.bundestag.de/btd/19/184/1918473.pdf"
+      },
+      {
+        "type": "officialDocument",
+        "label": "Drucksache 19/20728",
+        "sourceURI": "https://dserver.bundestag.de/btd/19/207/1920728.pdf"
+      },
+      {
+        "type": "officialDocument",
+        "label": "Drucksache 19/7694",
+        "sourceURI": "https://dserver.bundestag.de/btd/19/076/1907694.pdf"
+      },
+      {
+        "type": "officialDocument",
+        "label": "Drucksache 19/10033",
+        "sourceURI": "https://dserver.bundestag.de/btd/19/100/1910033.pdf"
+      }
+    ],
+    "key": "19-170 zusatzpunkt 11 (petra pau)",
+    "dateStart": "2020-07-02T11:30:22",
+    "dateEnd": "2020-07-02T11:30:55",
     "media": {
       "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7455494/7455494_h264_720_400_2000kb_baseline_de_2192.mp4",
       "sourcePage": "http://dbtg.tv/fvid/7455494",
@@ -12649,18 +13117,7 @@
       "license": "CC-BY-SA",
       "originMediaID": "7455494",
       "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7455494/7455494_mp3_128kb_stereo_de_128.mp3"
-    },
-    "dateStart": "2020-07-02T11:30:22",
-    "dateEnd": "2020-07-02T11:30:55",
-    "people": [
-      {
-        "label": "Petra Pau",
-        "faction": "Die Linke",
-        "context": "main-speaker",
-        "role": "Bundestagsvizepräsidentin"
-      }
-    ],
-    "key": "19-170 zusatzpunkt 11 (petra pau)"
+    }
   },
   {
     "parliament": "DE",
@@ -12923,7 +13380,7 @@
       },
       {
         "type": "memberOfParliament",
-        "label": "in Petra Pau",
+        "label": "Petra Pau",
         "context": "vice-president"
       }
     ],
@@ -13257,7 +13714,7 @@
           },
           {
             "type": "speech",
-            "speaker": "in Petra Pau",
+            "speaker": "Petra Pau",
             "speakerstatus": "vice-president",
             "text": "Kollege Weiß, die Erläuterungen zu diesem Vorhaben müssen Sie jetzt tatsächlich auf den Herbst verschieben. Sie müssen zum Schluss kommen.",
             "sentences": [
@@ -13285,7 +13742,7 @@
           },
           {
             "type": "speech",
-            "speaker": "in Petra Pau",
+            "speaker": "Petra Pau",
             "speakerstatus": "vice-president",
             "text": "Gut.",
             "sentences": [
@@ -13329,7 +13786,7 @@
           },
           {
             "type": "speech",
-            "speaker": "in Petra Pau",
+            "speaker": "Petra Pau",
             "speakerstatus": "vice-president",
             "text": "Ich schließe die Aussprache.",
             "sentences": [
@@ -13413,16 +13870,88 @@
   {
     "parliament": "DE",
     "electoralPeriod": {
-      "number": 19
+      "number": "19"
     },
     "session": {
-      "number": 170
+      "number": "170",
+      "dateStart": "2020-07-02T9:00",
+      "dateEnd": "2020-07-03T00:18"
     },
     "agendaItem": {
-      "title": "Tagesordnungspunkt 11",
       "officialTitle": "Tagesordnungspunkt 11",
-      "speechIndex": 59
+      "speechIndex": 55,
+      "title": "Tagesordnungspunkt 11"
     },
+    "people": [
+      {
+        "type": "memberOfParliament",
+        "label": "Petra Pau",
+        "context": "vice-president"
+      }
+    ],
+    "textContents": [
+      {
+        "type": "proceedings",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19170-data.xml",
+        "creator": "Deutscher Bundestag",
+        "license": "Public Domain",
+        "language": "DE-de",
+        "originTextID": "0722-7980",
+        "textBody": [
+          {
+            "type": "speech",
+            "speaker": "Petra Pau",
+            "speakerstatus": "vice-president",
+            "text": "Ich rufe die Tagesordnungspunkte 11 a und 11 b auf:",
+            "sentences": [
+              {
+                "text": "Ich rufe die Tagesordnungspunkte 11 a und 11 b auf:"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Petra Pau",
+            "speakerstatus": "vice-president",
+            "text": "Für die Aussprache wurde eine Dauer von 60 Minuten beschlossen.",
+            "sentences": [
+              {
+                "text": "Für die Aussprache wurde eine Dauer von 60 Minuten beschlossen."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Petra Pau",
+            "speakerstatus": "vice-president",
+            "text": "Ich eröffne die Aussprache. Das Wort hat die Kollegin Jutta Krellmann für die Fraktion Die Linke.",
+            "sentences": [
+              {
+                "text": "Ich eröffne die Aussprache."
+              },
+              {
+                "text": "Das Wort hat die Kollegin Jutta Krellmann für die Fraktion Die Linke."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "documents": [
+      {
+        "type": "officialDocument",
+        "label": "Drucksache 19/20189",
+        "sourceURI": "https://dserver.bundestag.de/btd/19/201/1920189.pdf"
+      },
+      {
+        "type": "officialDocument",
+        "label": "Drucksache 19/19551",
+        "sourceURI": "https://dserver.bundestag.de/btd/19/195/1919551.pdf"
+      }
+    ],
+    "key": "19-170 tagesordnungspunkt 11 (petra pau)",
+    "dateStart": "2020-07-02T11:47:48",
+    "dateEnd": "2020-07-02T11:48:42",
     "media": {
       "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7455498/7455498_h264_720_400_2000kb_baseline_de_2192.mp4",
       "sourcePage": "http://dbtg.tv/fvid/7455498",
@@ -13431,18 +13960,7 @@
       "license": "CC-BY-SA",
       "originMediaID": "7455498",
       "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7455498/7455498_mp3_128kb_stereo_de_128.mp3"
-    },
-    "dateStart": "2020-07-02T11:47:48",
-    "dateEnd": "2020-07-02T11:48:42",
-    "people": [
-      {
-        "label": "Petra Pau",
-        "faction": "Die Linke",
-        "context": "main-speaker",
-        "role": "Bundestagsvizepräsidentin"
-      }
-    ],
-    "key": "19-170 tagesordnungspunkt 11 (petra pau)"
+    }
   },
   {
     "parliament": "DE",
@@ -13470,7 +13988,7 @@
       },
       {
         "type": "memberOfParliament",
-        "label": "in Petra Pau",
+        "label": "Petra Pau",
         "context": "vice-president"
       }
     ],
@@ -13758,7 +14276,7 @@
           },
           {
             "type": "speech",
-            "speaker": "in Petra Pau",
+            "speaker": "Petra Pau",
             "speakerstatus": "vice-president",
             "text": "Das Wort hat der Minister für Arbeit, Gesundheit und Soziales des Bundeslandes Nordrhein-Westfalen, Karl-Josef Laumann.",
             "sentences": [
@@ -13832,7 +14350,7 @@
       },
       {
         "type": "memberOfParliament",
-        "label": "in Petra Pau",
+        "label": "Petra Pau",
         "context": "vice-president"
       }
     ],
@@ -14026,7 +14544,7 @@
           },
           {
             "type": "speech",
-            "speaker": "in Petra Pau",
+            "speaker": "Petra Pau",
             "speakerstatus": "vice-president",
             "text": "Herr Minister, gestatten Sie eine Frage oder eine Bemerkung aus der FDP?",
             "sentences": [
@@ -14285,7 +14803,7 @@
           },
           {
             "type": "speech",
-            "speaker": "in Petra Pau",
+            "speaker": "Petra Pau",
             "speakerstatus": "vice-president",
             "text": "Ich erteile der Kollegin Konrad das Wort zu einer Kurzintervention.",
             "sentences": [
@@ -14348,7 +14866,7 @@
       },
       {
         "type": "memberOfParliament",
-        "label": "in Petra Pau",
+        "label": "Petra Pau",
         "context": "vice-president"
       }
     ],
@@ -14402,7 +14920,7 @@
           },
           {
             "type": "speech",
-            "speaker": "in Petra Pau",
+            "speaker": "Petra Pau",
             "speakerstatus": "vice-president",
             "text": "Wenn Sie mögen, können Sie erwidern.",
             "sentences": [
@@ -14465,7 +14983,7 @@
       },
       {
         "type": "memberOfParliament",
-        "label": "in Petra Pau",
+        "label": "Petra Pau",
         "context": "vice-president"
       }
     ],
@@ -14587,7 +15105,7 @@
           },
           {
             "type": "speech",
-            "speaker": "in Petra Pau",
+            "speaker": "Petra Pau",
             "speakerstatus": "vice-president",
             "text": "Das Wort hat der Abgeordneten Jürgen Pohl für die AfD-Fraktion.",
             "sentences": [
@@ -14661,7 +15179,7 @@
       },
       {
         "type": "memberOfParliament",
-        "label": "in Petra Pau",
+        "label": "Petra Pau",
         "context": "vice-president"
       }
     ],
@@ -14908,7 +15426,7 @@
           },
           {
             "type": "speech",
-            "speaker": "in Petra Pau",
+            "speaker": "Petra Pau",
             "speakerstatus": "vice-president",
             "text": "Das Wort hat der Bundesminister für Arbeit und Soziales, Hubertus Heil.",
             "sentences": [
@@ -14982,7 +15500,7 @@
       },
       {
         "type": "memberOfParliament",
-        "label": "in Petra Pau",
+        "label": "Petra Pau",
         "context": "vice-president"
       },
       {
@@ -15092,7 +15610,7 @@
           },
           {
             "type": "speech",
-            "speaker": "in Petra Pau",
+            "speaker": "Petra Pau",
             "speakerstatus": "vice-president",
             "text": "Herr Minister Heil, entschuldigen Sie.",
             "sentences": [
@@ -15114,7 +15632,7 @@
           },
           {
             "type": "speech",
-            "speaker": "in Petra Pau",
+            "speaker": "Petra Pau",
             "speakerstatus": "vice-president",
             "text": "Gestatten Sie eine Frage oder Bemerkung aus der AfD-Fraktion?",
             "sentences": [
@@ -15256,7 +15774,7 @@
           },
           {
             "type": "speech",
-            "speaker": "in Petra Pau",
+            "speaker": "Petra Pau",
             "speakerstatus": "vice-president",
             "text": "Herr Heil, ich frage jetzt ein letztes Mal, weil es inzwischen schon zweimal das Begehren gibt, Ihnen eine Frage zu stellen oder eine Bemerkung zu machen, einmal aus der AfD-Fraktion –",
             "sentences": [
@@ -15278,7 +15796,7 @@
           },
           {
             "type": "speech",
-            "speaker": "in Petra Pau",
+            "speaker": "Petra Pau",
             "speakerstatus": "vice-president",
             "text": "– und einmal von Kollegen Ernst aus der Linken.",
             "sentences": [
@@ -15300,7 +15818,7 @@
           },
           {
             "type": "speech",
-            "speaker": "in Petra Pau",
+            "speaker": "Petra Pau",
             "speakerstatus": "vice-president",
             "text": "Natürlich denjenigen, der sich zuerst gemeldet hat.",
             "sentences": [
@@ -15325,7 +15843,7 @@
           },
           {
             "type": "speech",
-            "speaker": "in Petra Pau",
+            "speaker": "Petra Pau",
             "speakerstatus": "vice-president",
             "text": "Bitte.",
             "sentences": [
@@ -15514,7 +16032,7 @@
           },
           {
             "type": "speech",
-            "speaker": "in Petra Pau",
+            "speaker": "Petra Pau",
             "speakerstatus": "vice-president",
             "text": "Der Kollege Ernst bekommt das Wort zu einer Frage oder Bemerkung. Allerdings werde ich weitere Fragen und Bemerkungen im Rahmen der Rede des Ministers nicht zulassen.",
             "sentences": [
@@ -15539,7 +16057,7 @@
           },
           {
             "type": "speech",
-            "speaker": "in Petra Pau",
+            "speaker": "Petra Pau",
             "speakerstatus": "vice-president",
             "text": "Ich ahnte das schon.",
             "sentences": [
@@ -16088,7 +16606,7 @@
           },
           {
             "type": "speech",
-            "speaker": "in Petra Pau",
+            "speaker": "Petra Pau",
             "speakerstatus": "vice-president",
             "text": "Für die FDP-Fraktion hat nun der Abgeordnete Carl-Julius Cronenberg das Wort.",
             "sentences": [
@@ -16162,7 +16680,7 @@
       },
       {
         "type": "memberOfParliament",
-        "label": "in Petra Pau",
+        "label": "Petra Pau",
         "context": "vice-president"
       }
     ],
@@ -16465,7 +16983,7 @@
           },
           {
             "type": "speech",
-            "speaker": "in Petra Pau",
+            "speaker": "Petra Pau",
             "speakerstatus": "vice-president",
             "text": "Das Wort hat die Kollegin Beate Müller-Gemmeke für die Fraktion Bündnis 90/Die Grünen.",
             "sentences": [
@@ -16539,7 +17057,7 @@
       },
       {
         "type": "memberOfParliament",
-        "label": "in Petra Pau",
+        "label": "Petra Pau",
         "context": "vice-president"
       }
     ],
@@ -16808,7 +17326,7 @@
           },
           {
             "type": "speech",
-            "speaker": "in Petra Pau",
+            "speaker": "Petra Pau",
             "speakerstatus": "vice-president",
             "text": "Für die CDU/CSU-Fraktion hat nun der Kollege Uwe Schummer das Wort.",
             "sentences": [
@@ -16882,7 +17400,7 @@
       },
       {
         "type": "memberOfParliament",
-        "label": "in Petra Pau",
+        "label": "Petra Pau",
         "context": "vice-president"
       }
     ],
@@ -17129,7 +17647,7 @@
           },
           {
             "type": "speech",
-            "speaker": "in Petra Pau",
+            "speaker": "Petra Pau",
             "speakerstatus": "vice-president",
             "text": "Das Wort hat der Abgeordnete Uwe Witt für die AfD-Fraktion.",
             "sentences": [
@@ -17203,7 +17721,7 @@
       },
       {
         "type": "memberOfParliament",
-        "label": "in Petra Pau",
+        "label": "Petra Pau",
         "context": "vice-president"
       }
     ],
@@ -17532,7 +18050,7 @@
           },
           {
             "type": "speech",
-            "speaker": "in Petra Pau",
+            "speaker": "Petra Pau",
             "speakerstatus": "vice-president",
             "text": "Das Wort hat die Kollegin Katja Mast für die SPD-Fraktion.",
             "sentences": [
@@ -17606,7 +18124,7 @@
       },
       {
         "type": "memberOfParliament",
-        "label": "in Petra Pau",
+        "label": "Petra Pau",
         "context": "vice-president"
       }
     ],
@@ -17785,7 +18303,7 @@
           },
           {
             "type": "speech",
-            "speaker": "in Petra Pau",
+            "speaker": "Petra Pau",
             "speakerstatus": "vice-president",
             "text": "Kollegin Mast.",
             "sentences": [
@@ -17821,7 +18339,7 @@
           },
           {
             "type": "speech",
-            "speaker": "in Petra Pau",
+            "speaker": "Petra Pau",
             "speakerstatus": "vice-president",
             "text": "Das Wort hat die Kollegin Gyde Jensen für die FDP-Fraktion.",
             "sentences": [
@@ -17895,7 +18413,7 @@
       },
       {
         "type": "memberOfParliament",
-        "label": "in Petra Pau",
+        "label": "Petra Pau",
         "context": "vice-president"
       }
     ],
@@ -18115,7 +18633,7 @@
           },
           {
             "type": "speech",
-            "speaker": "in Petra Pau",
+            "speaker": "Petra Pau",
             "speakerstatus": "vice-president",
             "text": "Kollegin Jensen, Sie müssen bitte zum Schluss kommen.",
             "sentences": [
@@ -18151,7 +18669,7 @@
           },
           {
             "type": "speech",
-            "speaker": "in Petra Pau",
+            "speaker": "Petra Pau",
             "speakerstatus": "vice-president",
             "text": "Das Wort hat die Kollegin Susanne Ferschl für die Fraktion Die Linke.",
             "sentences": [
@@ -18225,7 +18743,7 @@
       },
       {
         "type": "memberOfParliament",
-        "label": "in Petra Pau",
+        "label": "Petra Pau",
         "context": "vice-president"
       }
     ],
@@ -18471,7 +18989,7 @@
           },
           {
             "type": "speech",
-            "speaker": "in Petra Pau",
+            "speaker": "Petra Pau",
             "speakerstatus": "vice-president",
             "text": "Das Wort hat der Kollege Friedrich Ostendorff für die Fraktion Bündnis 90/Die Grünen.",
             "sentences": [
@@ -18545,7 +19063,7 @@
       },
       {
         "type": "memberOfParliament",
-        "label": "in Petra Pau",
+        "label": "Petra Pau",
         "context": "vice-president"
       }
     ],
@@ -18785,7 +19303,7 @@
           },
           {
             "type": "speech",
-            "speaker": "in Petra Pau",
+            "speaker": "Petra Pau",
             "speakerstatus": "vice-president",
             "text": "Für die CDU/CSU-Fraktion hat nun der Kollege Max Straubinger das Wort.",
             "sentences": [
@@ -18859,7 +19377,7 @@
       },
       {
         "type": "memberOfParliament",
-        "label": "in Petra Pau",
+        "label": "Petra Pau",
         "context": "vice-president"
       },
       {
@@ -19018,7 +19536,7 @@
           },
           {
             "type": "speech",
-            "speaker": "in Petra Pau",
+            "speaker": "Petra Pau",
             "speakerstatus": "vice-president",
             "text": "Kollege Straubinger, gestatten Sie eine Frage oder Bemerkung der Kollegin Müller-Gemmeke?",
             "sentences": [
@@ -43918,7 +44436,7 @@
       },
       {
         "type": "memberOfParliament",
-        "label": "in Claudia Roth",
+        "label": "Claudia Roth",
         "context": "vice-president"
       }
     ],
@@ -44491,7 +45009,7 @@
           },
           {
             "type": "speech",
-            "speaker": "in Claudia Roth",
+            "speaker": "Claudia Roth",
             "speakerstatus": "vice-president",
             "text": "Und ich warte auf das Ende Ihrer Rede.",
             "sentences": [
@@ -44601,7 +45119,7 @@
       },
       {
         "type": "memberOfParliament",
-        "label": "in Claudia Roth",
+        "label": "Claudia Roth",
         "context": "vice-president"
       }
     ],
@@ -44970,7 +45488,7 @@
           },
           {
             "type": "speech",
-            "speaker": "in Claudia Roth",
+            "speaker": "Claudia Roth",
             "speakerstatus": "vice-president",
             "text": "Vielen Dank, Sandra Weeser. – Nächster Redner: für die Fraktion Die Linke Lorenz Gösta Beutin.",
             "sentences": [
@@ -45052,7 +45570,7 @@
       },
       {
         "type": "memberOfParliament",
-        "label": "in Claudia Roth",
+        "label": "Claudia Roth",
         "context": "vice-president"
       }
     ],
@@ -45298,7 +45816,7 @@
           },
           {
             "type": "speech",
-            "speaker": "in Claudia Roth",
+            "speaker": "Claudia Roth",
             "speakerstatus": "vice-president",
             "text": "Vielen Dank, Lorenz Gösta Beutin. – Die nächste Rednerin: Dr. Julia Verlinden für die Fraktion von Bündnis 90/Die Grünen.",
             "sentences": [
@@ -45380,7 +45898,7 @@
       },
       {
         "type": "memberOfParliament",
-        "label": "in Claudia Roth",
+        "label": "Claudia Roth",
         "context": "vice-president"
       }
     ],
@@ -45680,7 +46198,7 @@
           },
           {
             "type": "speech",
-            "speaker": "in Claudia Roth",
+            "speaker": "Claudia Roth",
             "speakerstatus": "vice-president",
             "text": "Vielen Dank, Dr. Julia Verlinden. – Nächster Redner: Dr. Andreas Lenz für die CDU/CSU-Fraktion.",
             "sentences": [
@@ -46047,7 +46565,7 @@
       },
       {
         "type": "memberOfParliament",
-        "label": "in Claudia Roth",
+        "label": "Claudia Roth",
         "context": "vice-president"
       }
     ],
@@ -46335,7 +46853,7 @@
           },
           {
             "type": "speech",
-            "speaker": "in Claudia Roth",
+            "speaker": "Claudia Roth",
             "speakerstatus": "vice-president",
             "text": "Vielen Dank, Johann Saathoff. – Damit schließe ich die Aussprache.",
             "sentences": [
@@ -46383,16 +46901,170 @@
   {
     "parliament": "DE",
     "electoralPeriod": {
-      "number": 19
+      "number": "19"
     },
     "session": {
-      "number": 170
+      "number": "170",
+      "dateStart": "2020-07-02T9:00",
+      "dateEnd": "2020-07-03T00:18"
     },
     "agendaItem": {
-      "title": "Tagesordnungspunkt 14",
       "officialTitle": "Tagesordnungspunkt 14",
-      "speechIndex": 160
+      "speechIndex": 156,
+      "title": "Tagesordnungspunkt 14"
     },
+    "people": [
+      {
+        "type": "memberOfParliament",
+        "label": "Claudia Roth",
+        "context": "vice-president"
+      }
+    ],
+    "textContents": [
+      {
+        "type": "proceedings",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19170-data.xml",
+        "creator": "Deutscher Bundestag",
+        "license": "Public Domain",
+        "language": "DE-de",
+        "originTextID": "0722-7980",
+        "textBody": [
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "Wir kommen zur Abstimmung über die Beschlussempfehlung des Ausschusses für Wirtschaft und Energie zur Verordnung der Bundesregierung zur Änderung der Erneuerbare-Energien-Verordnung. Der Ausschuss empfiehlt in seiner Beschlussempfehlung auf Drucksache 19/20653, der Verordnung der Bundesregierung auf Drucksache 19/19381 in der Ausschussfassung zuzustimmen. Wer stimmt für diese Beschlussempfehlung? – Wer stimmt dagegen? – Wer enthält sich? – Die Beschlussempfehlung ist angenommen. Zugestimmt haben die Fraktionen von SPD und CDU/CSU. Dagegengestimmt hat die AfD-Fraktion. Enthalten haben sich die Fraktionen von Bündnis 90/Die Grünen und den Linken.",
+            "sentences": [
+              {
+                "text": "Wir kommen zur Abstimmung über die Beschlussempfehlung des Ausschusses für Wirtschaft und Energie zur Verordnung der Bundesregierung zur Änderung der Erneuerbare-Energien-Verordnung."
+              },
+              {
+                "text": "Der Ausschuss empfiehlt in seiner Beschlussempfehlung auf Drucksache 19/20653, der Verordnung der Bundesregierung auf Drucksache 19/19381 in der Ausschussfassung zuzustimmen."
+              },
+              {
+                "text": "Wer stimmt für diese Beschlussempfehlung?"
+              },
+              {
+                "text": "– Wer stimmt dagegen?"
+              },
+              {
+                "text": "– Wer enthält sich?"
+              },
+              {
+                "text": "– Die Beschlussempfehlung ist angenommen."
+              },
+              {
+                "text": "Zugestimmt haben die Fraktionen von SPD und CDU/CSU."
+              },
+              {
+                "text": "Dagegengestimmt hat die AfD-Fraktion."
+              },
+              {
+                "text": "Enthalten haben sich die Fraktionen von Bündnis 90/Die Grünen und den Linken."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "– Sie haben zugestimmt?",
+            "sentences": [
+              {
+                "text": "– Sie haben zugestimmt?"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "– Habe ich Sie gar nicht genannt?",
+            "sentences": [
+              {
+                "text": "– Habe ich Sie gar nicht genannt?"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "– Das ist ein Fehler.",
+            "sentences": [
+              {
+                "text": "– Das ist ein Fehler."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "– Ist nicht schlimm. Es ist auch nicht schlimm, dass das Halbzeitergebnis 0 : 0 ist. So.",
+            "sentences": [
+              {
+                "text": "– Ist nicht schlimm."
+              },
+              {
+                "text": "Es ist auch nicht schlimm, dass das Halbzeitergebnis 0 : 0 ist."
+              },
+              {
+                "text": "So."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "Herr Bosbach wüsste jetzt, wovon ich rede.",
+            "sentences": [
+              {
+                "text": "Herr Bosbach wüsste jetzt, wovon ich rede."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "Ich sage das Abstimmungsergebnis lieber noch mal: Zugestimmt haben die Fraktionen der FDP, der CDU/CSU und der SPD. Dagegengestimmt hat die AfD-Fraktion. Enthalten haben sich die Linken und die Bündnisgrünen.",
+            "sentences": [
+              {
+                "text": "Ich sage das Abstimmungsergebnis lieber noch mal: Zugestimmt haben die Fraktionen der FDP, der CDU/CSU und der SPD."
+              },
+              {
+                "text": "Dagegengestimmt hat die AfD-Fraktion."
+              },
+              {
+                "text": "Enthalten haben sich die Linken und die Bündnisgrünen."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "documents": [
+      {
+        "type": "officialDocument",
+        "label": "Drucksache 19/19381",
+        "sourceURI": "https://dserver.bundestag.de/btd/19/193/1919381.pdf"
+      },
+      {
+        "type": "officialDocument",
+        "label": "Drucksache 19/19655",
+        "sourceURI": "https://dserver.bundestag.de/btd/19/196/1919655.pdf"
+      },
+      {
+        "type": "officialDocument",
+        "label": "Drucksache 19/20653",
+        "sourceURI": "https://dserver.bundestag.de/btd/19/206/1920653.pdf"
+      }
+    ],
+    "key": "19-170 tagesordnungspunkt 14 (claudia roth)",
+    "dateStart": "2020-07-02T19:23:00",
+    "dateEnd": "2020-07-02T19:24:28",
     "media": {
       "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7455613/7455613_h264_720_400_2000kb_baseline_de_2192.mp4",
       "sourcePage": "http://dbtg.tv/fvid/7455613",
@@ -46401,18 +47073,7 @@
       "license": "CC-BY-SA",
       "originMediaID": "7455613",
       "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7455613/7455613_mp3_128kb_stereo_de_128.mp3"
-    },
-    "dateStart": "2020-07-02T19:23:00",
-    "dateEnd": "2020-07-02T19:24:28",
-    "people": [
-      {
-        "label": "Claudia Roth",
-        "faction": "BÜNDNIS 90/DIE GRÜNEN",
-        "context": "main-speaker",
-        "role": "Bundestagsvizepräsidentin"
-      }
-    ],
-    "key": "19-170 tagesordnungspunkt 14 (claudia roth)"
+    }
   },
   {
     "parliament": "DE",

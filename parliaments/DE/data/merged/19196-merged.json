@@ -24831,7 +24831,7 @@
       },
       {
         "type": "memberOfParliament",
-        "label": "in Petra Pau",
+        "label": "Petra Pau",
         "context": "vice-president"
       }
     ],
@@ -25153,7 +25153,7 @@
           },
           {
             "type": "speech",
-            "speaker": "in Petra Pau",
+            "speaker": "Petra Pau",
             "speakerstatus": "vice-president",
             "text": "Ich schließe die Aussprache.",
             "sentences": [
@@ -25193,16 +25193,119 @@
   {
     "parliament": "DE",
     "electoralPeriod": {
-      "number": 19
+      "number": "19"
     },
     "session": {
-      "number": 196
+      "number": "196",
+      "dateStart": "2020-11-27T9:00",
+      "dateEnd": "2020-11-27T16:16"
     },
     "agendaItem": {
-      "title": "Tagesordnungspunkt 30",
       "officialTitle": "Tagesordnungspunkt 30",
-      "speechIndex": 99
+      "speechIndex": 99,
+      "title": "Tagesordnungspunkt 30"
     },
+    "people": [
+      {
+        "type": "memberOfParliament",
+        "label": "Petra Pau",
+        "context": "vice-president"
+      }
+    ],
+    "textContents": [
+      {
+        "type": "proceedings",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19196-data.xml",
+        "creator": "Deutscher Bundestag",
+        "license": "Public Domain",
+        "language": "DE-de",
+        "originTextID": "0722-7980",
+        "textBody": [
+          {
+            "type": "speech",
+            "speaker": "Petra Pau",
+            "speakerstatus": "vice-president",
+            "text": "Interfraktionell wird Überweisung der Vorlagen auf den Drucksachen 19/22204 und 19/23730 an die in der Tagesordnung aufgeführten Ausschüsse vorgeschlagen. Gibt es weitere Überweisungsvorschläge? – Das ist nicht der Fall. Dann verfahren wir wie vorgeschlagen.",
+            "sentences": [
+              {
+                "text": "Interfraktionell wird Überweisung der Vorlagen auf den Drucksachen 19/22204 und 19/23730 an die in der Tagesordnung aufgeführten Ausschüsse vorgeschlagen."
+              },
+              {
+                "text": "Gibt es weitere Überweisungsvorschläge?"
+              },
+              {
+                "text": "– Das ist nicht der Fall."
+              },
+              {
+                "text": "Dann verfahren wir wie vorgeschlagen."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Petra Pau",
+            "speakerstatus": "vice-president",
+            "text": "Wir sind damit am Schluss unserer heutigen Tagesordnung.",
+            "sentences": [
+              {
+                "text": "Wir sind damit am Schluss unserer heutigen Tagesordnung."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Petra Pau",
+            "speakerstatus": "vice-president",
+            "text": "Ich berufe die nächste Sitzung des Deutschen Bundestages auf Dienstag, den 8. Dezember 2020, 10 Uhr, ein. ",
+            "sentences": [
+              {
+                "text": "Ich berufe die nächste Sitzung des Deutschen Bundestages auf Dienstag, den 8. Dezember 2020, 10 Uhr, ein."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Petra Pau",
+            "speakerstatus": "vice-president",
+            "text": "Die Sitzung ist geschlossen. Ich danke Ihnen und wünsche Ihnen alles Gute.",
+            "sentences": [
+              {
+                "text": "Die Sitzung ist geschlossen."
+              },
+              {
+                "text": "Ich danke Ihnen und wünsche Ihnen alles Gute."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Petra Pau",
+            "speakerstatus": "vice-president",
+            "text": "195. Sitzung, Seite 24705 C, dritter Absatz, dritter Satz ist wie folgt zu lesen: „Ich sehe zum Beispiel bei der Bundeswehr die Funktion des interkulturellen Einsatzberaters diesbezüglich als außerordentlich wertvoll an, weil unsere Soldaten dadurch in die Lage versetzt werden, in einem schwierigen, unübersichtlichen Terrain auf die verschiedenen Gegebenheiten und die verschiedenen Volksgruppen angemessen zu reagieren; das ist wichtig.“",
+            "sentences": [
+              {
+                "text": "195. Sitzung, Seite 24705 C, dritter Absatz, dritter Satz ist wie folgt zu lesen: „Ich sehe zum Beispiel bei der Bundeswehr die Funktion des interkulturellen Einsatzberaters diesbezüglich als außerordentlich wertvoll an, weil unsere Soldaten dadurch in die Lage versetzt werden, in einem schwierigen, unübersichtlichen Terrain auf die verschiedenen Gegebenheiten und die verschiedenen Volksgruppen angemessen zu reagieren; das ist wichtig.“"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "documents": [
+      {
+        "type": "officialDocument",
+        "label": "Drucksache 19/22204",
+        "sourceURI": "https://dserver.bundestag.de/btd/19/222/1922204.pdf"
+      },
+      {
+        "type": "officialDocument",
+        "label": "Drucksache 19/23730",
+        "sourceURI": "https://dserver.bundestag.de/btd/19/237/1923730.pdf"
+      }
+    ],
+    "key": "19-196 tagesordnungspunkt 30 (petra pau) #1",
+    "dateStart": "2020-11-27T15:15:23",
+    "dateEnd": "2020-11-27T15:15:46",
     "media": {
       "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7487059/7487059_h264_720_400_2000kb_baseline_de_2192.mp4",
       "sourcePage": "http://dbtg.tv/fvid/7487059",
@@ -25211,18 +25314,7 @@
       "license": "CC-BY-SA",
       "originMediaID": "7487059",
       "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7487059/7487059_mp3_128kb_stereo_de_128.mp3"
-    },
-    "dateStart": "2020-11-27T15:15:23",
-    "dateEnd": "2020-11-27T15:15:46",
-    "people": [
-      {
-        "label": "Petra Pau",
-        "faction": "Die Linke",
-        "context": "main-speaker",
-        "role": "Bundestagsvizepräsidentin"
-      }
-    ],
-    "key": "19-196 tagesordnungspunkt 30 (petra pau) #1"
+    }
   },
   {
     "parliament": "DE",

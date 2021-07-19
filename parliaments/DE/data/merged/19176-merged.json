@@ -3009,16 +3009,218 @@
   {
     "parliament": "DE",
     "electoralPeriod": {
-      "number": 19
+      "number": "19"
     },
     "session": {
-      "number": 176
+      "number": "176",
+      "dateStart": "2020-09-17T9:00",
+      "dateEnd": "2020-09-17T23:25"
     },
     "agendaItem": {
-      "title": "Tagesordnungspunkt 11",
       "officialTitle": "Tagesordnungspunkt 11",
-      "speechIndex": 87
+      "speechIndex": 87,
+      "title": "Tagesordnungspunkt 11"
     },
+    "people": [
+      {
+        "type": "memberOfParliament",
+        "label": "Petra Pau",
+        "context": "vice-president"
+      }
+    ],
+    "textContents": [
+      {
+        "type": "proceedings",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19176-data.xml",
+        "creator": "Deutscher Bundestag",
+        "license": "Public Domain",
+        "language": "DE-de",
+        "originTextID": "0722-7980",
+        "textBody": [
+          {
+            "type": "speech",
+            "speaker": "Petra Pau",
+            "speakerstatus": "vice-president",
+            "text": "Ich rufe die Tagesordnungspunkte 11 a bis 11 r auf:",
+            "sentences": [
+              {
+                "text": "Ich rufe die Tagesordnungspunkte 11 a bis 11 r auf:"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Petra Pau",
+            "speakerstatus": "vice-president",
+            "text": "Für die Aussprache wurde eine Dauer von 60 Minuten beschlossen.",
+            "sentences": [
+              {
+                "text": "Für die Aussprache wurde eine Dauer von 60 Minuten beschlossen."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Petra Pau",
+            "speakerstatus": "vice-president",
+            "text": "Ich eröffne die Aussprache. Das Wort hat der Kollege Klaus Mindrup für die SPD-Fraktion.",
+            "sentences": [
+              {
+                "text": "Ich eröffne die Aussprache."
+              },
+              {
+                "text": "Das Wort hat der Kollege Klaus Mindrup für die SPD-Fraktion."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "documents": [
+      {
+        "type": "officialDocument",
+        "label": "Drucksache 19/20618",
+        "sourceURI": "https://dserver.bundestag.de/btd/19/206/1920618.pdf"
+      },
+      {
+        "type": "officialDocument",
+        "label": "Drucksache 19/22383",
+        "sourceURI": "https://dserver.bundestag.de/btd/19/223/1922383.pdf"
+      },
+      {
+        "type": "officialDocument",
+        "label": "Drucksache 19/13096",
+        "sourceURI": "https://dserver.bundestag.de/btd/19/130/1913096.pdf"
+      },
+      {
+        "type": "officialDocument",
+        "label": "Drucksache 19/14932",
+        "sourceURI": "https://dserver.bundestag.de/btd/19/149/1914932.pdf"
+      },
+      {
+        "type": "officialDocument",
+        "label": "Drucksache 19/22543",
+        "sourceURI": "https://dserver.bundestag.de/btd/19/225/1922543.pdf"
+      },
+      {
+        "type": "officialDocument",
+        "label": "Drucksache 19/22466",
+        "sourceURI": "https://dserver.bundestag.de/btd/19/224/1922466.pdf"
+      },
+      {
+        "type": "officialDocument",
+        "label": "Drucksache 19/22460",
+        "sourceURI": "https://dserver.bundestag.de/btd/19/224/1922460.pdf"
+      },
+      {
+        "type": "officialDocument",
+        "label": "Drucksache 19/17524",
+        "sourceURI": "https://dserver.bundestag.de/btd/19/175/1917524.pdf"
+      },
+      {
+        "type": "officialDocument",
+        "label": "Drucksache 19/22575",
+        "sourceURI": "https://dserver.bundestag.de/btd/19/225/1922575.pdf"
+      },
+      {
+        "type": "officialDocument",
+        "label": "Drucksache 19/22541",
+        "sourceURI": "https://dserver.bundestag.de/btd/19/225/1922541.pdf"
+      },
+      {
+        "type": "officialDocument",
+        "label": "Drucksache 19/22485",
+        "sourceURI": "https://dserver.bundestag.de/btd/19/224/1922485.pdf"
+      },
+      {
+        "type": "officialDocument",
+        "label": "Drucksache 19/17539",
+        "sourceURI": "https://dserver.bundestag.de/btd/19/175/1917539.pdf"
+      },
+      {
+        "type": "officialDocument",
+        "label": "Drucksache 19/22592",
+        "sourceURI": "https://dserver.bundestag.de/btd/19/225/1922592.pdf"
+      },
+      {
+        "type": "officialDocument",
+        "label": "Drucksache 19/9345",
+        "sourceURI": "https://dserver.bundestag.de/btd/19/093/1909345.pdf"
+      },
+      {
+        "type": "officialDocument",
+        "label": "Drucksache 19/19643",
+        "sourceURI": "https://dserver.bundestag.de/btd/19/196/1919643.pdf"
+      },
+      {
+        "type": "officialDocument",
+        "label": "Drucksache 19/22612",
+        "sourceURI": "https://dserver.bundestag.de/btd/19/226/1922612.pdf"
+      },
+      {
+        "type": "officialDocument",
+        "label": "Drucksache 19/11148",
+        "sourceURI": "https://dserver.bundestag.de/btd/19/111/1911148.pdf"
+      },
+      {
+        "type": "officialDocument",
+        "label": "Drucksache 19/8567",
+        "sourceURI": "https://dserver.bundestag.de/btd/19/085/1908567.pdf"
+      },
+      {
+        "type": "officialDocument",
+        "label": "Drucksache 19/13643",
+        "sourceURI": "https://dserver.bundestag.de/btd/19/136/1913643.pdf"
+      },
+      {
+        "type": "officialDocument",
+        "label": "Drucksache 19/20799",
+        "sourceURI": "https://dserver.bundestag.de/btd/19/207/1920799.pdf"
+      },
+      {
+        "type": "officialDocument",
+        "label": "Drucksache 19/9269",
+        "sourceURI": "https://dserver.bundestag.de/btd/19/092/1909269.pdf"
+      },
+      {
+        "type": "officialDocument",
+        "label": "Drucksache 19/22616",
+        "sourceURI": "https://dserver.bundestag.de/btd/19/226/1922616.pdf"
+      },
+      {
+        "type": "officialDocument",
+        "label": "Drucksache 19/14831",
+        "sourceURI": "https://dserver.bundestag.de/btd/19/148/1914831.pdf"
+      },
+      {
+        "type": "officialDocument",
+        "label": "Drucksache 19/20862",
+        "sourceURI": "https://dserver.bundestag.de/btd/19/208/1920862.pdf"
+      },
+      {
+        "type": "officialDocument",
+        "label": "Drucksache 19/1073",
+        "sourceURI": "https://dserver.bundestag.de/btd/19/010/1901073.pdf"
+      },
+      {
+        "type": "officialDocument",
+        "label": "Drucksache 19/4793",
+        "sourceURI": "https://dserver.bundestag.de/btd/19/047/1904793.pdf"
+      },
+      {
+        "type": "officialDocument",
+        "label": "Drucksache 19/16412",
+        "sourceURI": "https://dserver.bundestag.de/btd/19/164/1916412.pdf"
+      },
+      {
+        "type": "officialDocument",
+        "label": "Drucksache 19/16419",
+        "sourceURI": "https://dserver.bundestag.de/btd/19/164/1916419.pdf"
+      }
+    ],
+    "key": "19-176 tagesordnungspunkt 11 (petra pau)",
+    "dateStart": "2020-09-17T13:48:23",
+    "dateEnd": "2020-09-17T13:49:25",
     "media": {
       "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7470562/7470562_h264_720_400_2000kb_baseline_de_2192.mp4",
       "sourcePage": "http://dbtg.tv/fvid/7470562",
@@ -3027,18 +3229,7 @@
       "license": "CC-BY-SA",
       "originMediaID": "7470562",
       "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7470562/7470562_mp3_128kb_stereo_de_128.mp3"
-    },
-    "dateStart": "2020-09-17T13:48:23",
-    "dateEnd": "2020-09-17T13:49:25",
-    "people": [
-      {
-        "label": "Petra Pau",
-        "faction": "Die Linke",
-        "context": "main-speaker",
-        "role": "Bundestagsvizepräsidentin"
-      }
-    ],
-    "key": "19-176 tagesordnungspunkt 11 (petra pau)"
+    }
   },
   {
     "parliament": "DE",

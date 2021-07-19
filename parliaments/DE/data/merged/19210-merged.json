@@ -19132,7 +19132,7 @@
       },
       {
         "type": "memberOfParliament",
-        "label": "in Dagmar Ziegler",
+        "label": "Dagmar Ziegler",
         "context": "vice-president"
       }
     ],
@@ -19407,7 +19407,7 @@
           },
           {
             "type": "speech",
-            "speaker": "in Dagmar Ziegler",
+            "speaker": "Dagmar Ziegler",
             "speakerstatus": "vice-president",
             "text": "Vielen Dank. – Das Wort geht an Dagmar Schmidt von der SPD-Fraktion.",
             "sentences": [
@@ -19479,7 +19479,7 @@
       },
       {
         "type": "memberOfParliament",
-        "label": "in Dagmar Ziegler",
+        "label": "Dagmar Ziegler",
         "context": "vice-president"
       }
     ],
@@ -19759,7 +19759,7 @@
           },
           {
             "type": "speech",
-            "speaker": "in Dagmar Ziegler",
+            "speaker": "Dagmar Ziegler",
             "speakerstatus": "vice-president",
             "text": "Vielen Dank. – Das Wort geht gleich an Stephan Stracke von der CDU/CSU-Fraktion.",
             "sentences": [
@@ -19831,7 +19831,7 @@
       },
       {
         "type": "memberOfParliament",
-        "label": "in Dagmar Ziegler",
+        "label": "Dagmar Ziegler",
         "context": "vice-president"
       },
       {
@@ -19939,7 +19939,7 @@
           },
           {
             "type": "speech",
-            "speaker": "in Dagmar Ziegler",
+            "speaker": "Dagmar Ziegler",
             "speakerstatus": "vice-president",
             "text": "Herr Kollege, geben Sie das Wort zu einer Zwischenfrage an Frau Kipping?",
             "sentences": [
@@ -20283,7 +20283,7 @@
           },
           {
             "type": "speech",
-            "speaker": "in Dagmar Ziegler",
+            "speaker": "Dagmar Ziegler",
             "speakerstatus": "vice-president",
             "text": "Vielen Dank. – Ich schließe die Aussprache.",
             "sentences": [
@@ -20321,16 +20321,67 @@
   {
     "parliament": "DE",
     "electoralPeriod": {
-      "number": 19
+      "number": "19"
     },
     "session": {
-      "number": 210
+      "number": "210",
+      "dateStart": "2021-02-12T9:00",
+      "dateEnd": "2021-02-12T17:01"
     },
     "agendaItem": {
-      "title": "Zusatzpunkt 14",
       "officialTitle": "Zusatzpunkt 14",
-      "speechIndex": 52
+      "speechIndex": 52,
+      "title": "Zusatzpunkt 14"
     },
+    "people": [
+      {
+        "type": "memberOfParliament",
+        "label": "Dagmar Ziegler",
+        "context": "vice-president"
+      }
+    ],
+    "textContents": [
+      {
+        "type": "proceedings",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19210-data.xml",
+        "creator": "Deutscher Bundestag",
+        "license": "Public Domain",
+        "language": "DE-de",
+        "originTextID": "0722-7980",
+        "textBody": [
+          {
+            "type": "speech",
+            "speaker": "Dagmar Ziegler",
+            "speakerstatus": "vice-president",
+            "text": "Interfraktionell wird Überweisung des Gesetzentwurfs auf Drucksache 19/26542 an die in der Tagesordnung aufgeführten Ausschüsse vorgeschlagen. Gibt es weitere Überweisungsvorschläge? – Das ist nicht der Fall. Dann verfahren wir wie vorgeschlagen.",
+            "sentences": [
+              {
+                "text": "Interfraktionell wird Überweisung des Gesetzentwurfs auf Drucksache 19/26542 an die in der Tagesordnung aufgeführten Ausschüsse vorgeschlagen."
+              },
+              {
+                "text": "Gibt es weitere Überweisungsvorschläge?"
+              },
+              {
+                "text": "– Das ist nicht der Fall."
+              },
+              {
+                "text": "Dann verfahren wir wie vorgeschlagen."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "documents": [
+      {
+        "type": "officialDocument",
+        "label": "Drucksache 19/26542",
+        "sourceURI": "https://dserver.bundestag.de/btd/19/265/1926542.pdf"
+      }
+    ],
+    "key": "19-210 zusatzpunkt 14 (dagmar ziegler)",
+    "dateStart": "2021-02-12T12:10:55",
+    "dateEnd": "2021-02-12T12:11:11",
     "media": {
       "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7502301/7502301_h264_720_400_2000kb_baseline_de_2192.mp4",
       "sourcePage": "http://dbtg.tv/fvid/7502301",
@@ -20339,18 +20390,7 @@
       "license": "CC-BY-SA",
       "originMediaID": "7502301",
       "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7502301/7502301_mp3_128kb_stereo_de_128.mp3"
-    },
-    "dateStart": "2021-02-12T12:10:55",
-    "dateEnd": "2021-02-12T12:11:11",
-    "people": [
-      {
-        "label": "Dagmar Ziegler",
-        "faction": "SPD",
-        "context": "main-speaker",
-        "role": "Bundestagsvizepräsidentin"
-      }
-    ],
-    "key": "19-210 zusatzpunkt 14 (dagmar ziegler)"
+    }
   },
   {
     "parliament": "DE",
@@ -20797,16 +20837,94 @@
   {
     "parliament": "DE",
     "electoralPeriod": {
-      "number": 19
+      "number": "19"
     },
     "session": {
-      "number": 210
+      "number": "210",
+      "dateStart": "2021-02-12T9:00",
+      "dateEnd": "2021-02-12T17:01"
     },
     "agendaItem": {
-      "title": "Tagesordnungspunkt 23",
       "officialTitle": "Tagesordnungspunkt 23",
-      "speechIndex": 66
+      "speechIndex": 66,
+      "title": "Tagesordnungspunkt 23"
     },
+    "people": [
+      {
+        "type": "memberOfParliament",
+        "label": "Dagmar Ziegler",
+        "context": "vice-president"
+      }
+    ],
+    "textContents": [
+      {
+        "type": "proceedings",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19210-data.xml",
+        "creator": "Deutscher Bundestag",
+        "license": "Public Domain",
+        "language": "DE-de",
+        "originTextID": "0722-7980",
+        "textBody": [
+          {
+            "type": "speech",
+            "speaker": "Dagmar Ziegler",
+            "speakerstatus": "vice-president",
+            "text": "Ich rufe Tagesordnungspunkt 23 auf:",
+            "sentences": [
+              {
+                "text": "Ich rufe Tagesordnungspunkt 23 auf:"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Dagmar Ziegler",
+            "speakerstatus": "vice-president",
+            "text": "Für die Aussprache ist eine Dauer von 30 Minuten beschlossen.",
+            "sentences": [
+              {
+                "text": "Für die Aussprache ist eine Dauer von 30 Minuten beschlossen."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Dagmar Ziegler",
+            "speakerstatus": "vice-president",
+            "text": "Ich bitte darum, auf dem von hier aus gesehen rechten Flügel etwas schneller die Plätze einzunehmen.",
+            "sentences": [
+              {
+                "text": "Ich bitte darum, auf dem von hier aus gesehen rechten Flügel etwas schneller die Plätze einzunehmen."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Dagmar Ziegler",
+            "speakerstatus": "vice-president",
+            "text": "Ich eröffne die Aussprache. Das Wort hat der Bundesminister Horst Seehofer.",
+            "sentences": [
+              {
+                "text": "Ich eröffne die Aussprache."
+              },
+              {
+                "text": "Das Wort hat der Bundesminister Horst Seehofer."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "documents": [
+      {
+        "type": "officialDocument",
+        "label": "Drucksache 19/26541",
+        "sourceURI": "https://dserver.bundestag.de/btd/19/265/1926541.pdf"
+      }
+    ],
+    "key": "19-210 tagesordnungspunkt 23 (dagmar ziegler)",
+    "dateStart": "2021-02-12T13:23:14",
+    "dateEnd": "2021-02-12T13:24:17",
     "media": {
       "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7502317/7502317_h264_720_400_2000kb_baseline_de_2192.mp4",
       "sourcePage": "http://dbtg.tv/fvid/7502317",
@@ -20815,18 +20933,7 @@
       "license": "CC-BY-SA",
       "originMediaID": "7502317",
       "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7502317/7502317_mp3_128kb_stereo_de_128.mp3"
-    },
-    "dateStart": "2021-02-12T13:23:14",
-    "dateEnd": "2021-02-12T13:24:17",
-    "people": [
-      {
-        "label": "Dagmar Ziegler",
-        "faction": "SPD",
-        "context": "main-speaker",
-        "role": "Bundestagsvizepräsidentin"
-      }
-    ],
-    "key": "19-210 tagesordnungspunkt 23 (dagmar ziegler)"
+    }
   },
   {
     "parliament": "DE",

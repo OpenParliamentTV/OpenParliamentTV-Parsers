@@ -18672,7 +18672,7 @@
       },
       {
         "type": "memberOfParliament",
-        "label": "in Claudia Roth",
+        "label": "Claudia Roth",
         "context": "vice-president"
       }
     ],
@@ -18793,7 +18793,7 @@
           },
           {
             "type": "speech",
-            "speaker": "in Claudia Roth",
+            "speaker": "Claudia Roth",
             "speakerstatus": "vice-president",
             "text": "Vielen Dank, Dr. Volker Ullrich. – Einen schönen Abend von mir Ihnen!",
             "sentences": [
@@ -18841,16 +18841,122 @@
   {
     "parliament": "DE",
     "electoralPeriod": {
-      "number": 19
+      "number": "19"
     },
     "session": {
-      "number": 165
+      "number": "165",
+      "dateStart": "2020-06-17T13:00",
+      "dateEnd": "2020-06-17T20:32"
     },
     "agendaItem": {
-      "title": "Tagesordnungspunkt 7",
       "officialTitle": "Tagesordnungspunkt 7",
-      "speechIndex": 65
+      "speechIndex": 127,
+      "title": "Tagesordnungspunkt 7"
     },
+    "people": [
+      {
+        "type": "memberOfParliament",
+        "label": "Claudia Roth",
+        "context": "vice-president"
+      }
+    ],
+    "textContents": [
+      {
+        "type": "proceedings",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19165-data.xml",
+        "creator": "Deutscher Bundestag",
+        "license": "Public Domain",
+        "language": "DE-de",
+        "originTextID": "0722-7980",
+        "textBody": [
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "Ich schließe die Aussprache.",
+            "sentences": [
+              {
+                "text": "Ich schließe die Aussprache."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "Wir kommen zur Abstimmung über die Beschlussempfehlung des Auswärtigen Ausschusses zum Antrag der Bundesregierung zur Fortsetzung der Beteiligung bewaffneter deutscher Streitkräfte an der „ United Nations Interim Force in Lebanon“ (UNIFIL). Der Ausschuss empfiehlt in seiner Beschlussempfehlung auf Drucksache 19/19588, den Antrag der Bundesregierung auf Drucksache 19/19003 anzunehmen.",
+            "sentences": [
+              {
+                "text": "Wir kommen zur Abstimmung über die Beschlussempfehlung des Auswärtigen Ausschusses zum Antrag der Bundesregierung zur Fortsetzung der Beteiligung bewaffneter deutscher Streitkräfte an der „ United Nations Interim Force in Lebanon“ (UNIFIL)."
+              },
+              {
+                "text": "Der Ausschuss empfiehlt in seiner Beschlussempfehlung auf Drucksache 19/19588, den Antrag der Bundesregierung auf Drucksache 19/19003 anzunehmen."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "Wir stimmen, wie Sie wissen, über die Beschlussempfehlung namentlich ab. Die Urnen befinden sich, wie Sie auch wissen, in der Westlobby. Für die Stimmabgabe haben Sie 30 Minuten nach Eröffnung der Abstimmung Zeit, um sozusagen die Stimmabgabe zu entzerren. Bitte nutzen Sie dieses Zeitfenster, und achten Sie bitte bei der Stimmabgabe auf den erforderlichen Abstand zueinander.",
+            "sentences": [
+              {
+                "text": "Wir stimmen, wie Sie wissen, über die Beschlussempfehlung namentlich ab."
+              },
+              {
+                "text": "Die Urnen befinden sich, wie Sie auch wissen, in der Westlobby."
+              },
+              {
+                "text": "Für die Stimmabgabe haben Sie 30 Minuten nach Eröffnung der Abstimmung Zeit, um sozusagen die Stimmabgabe zu entzerren."
+              },
+              {
+                "text": "Bitte nutzen Sie dieses Zeitfenster, und achten Sie bitte bei der Stimmabgabe auf den erforderlichen Abstand zueinander."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "Ich brauche jetzt hier oben das Zeichen, ob die Schriftführerinnen und Schriftführer die vorgesehenen Plätze eingenommen haben. – Ich höre, sie sind besetzt. Dann eröffne ich die namentliche Abstimmung über die Beschlussempfehlung. Die Abstimmungsurnen werden circa 19 Uhr geschlossen; aber ich sage es dann vorher noch mal durch.",
+            "sentences": [
+              {
+                "text": "Ich brauche jetzt hier oben das Zeichen, ob die Schriftführerinnen und Schriftführer die vorgesehenen Plätze eingenommen haben."
+              },
+              {
+                "text": "– Ich höre, sie sind besetzt."
+              },
+              {
+                "text": "Dann eröffne ich die namentliche Abstimmung über die Beschlussempfehlung."
+              },
+              {
+                "text": "Die Abstimmungsurnen werden circa 19 Uhr geschlossen; aber ich sage es dann vorher noch mal durch."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "documents": [
+      {
+        "type": "officialDocument",
+        "label": "Drucksache 19/19003",
+        "sourceURI": "https://dserver.bundestag.de/btd/19/190/1919003.pdf"
+      },
+      {
+        "type": "officialDocument",
+        "label": "Drucksache 19/19588",
+        "sourceURI": "https://dserver.bundestag.de/btd/19/195/1919588.pdf"
+      },
+      {
+        "type": "officialDocument",
+        "label": "Drucksache 19/19607",
+        "sourceURI": "https://dserver.bundestag.de/btd/19/196/1919607.pdf"
+      }
+    ],
+    "key": "19-165 tagesordnungspunkt 7 (claudia roth)",
+    "dateStart": "2020-06-17T16:30:29",
+    "dateEnd": "2020-06-17T16:32:09",
     "media": {
       "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7452465/7452465_h264_720_400_2000kb_baseline_de_2192.mp4",
       "sourcePage": "http://dbtg.tv/fvid/7452465",
@@ -18859,18 +18965,7 @@
       "license": "CC-BY-SA",
       "originMediaID": "7452465",
       "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7452465/7452465_mp3_128kb_stereo_de_128.mp3"
-    },
-    "dateStart": "2020-06-17T16:30:29",
-    "dateEnd": "2020-06-17T16:32:09",
-    "people": [
-      {
-        "label": "Claudia Roth",
-        "faction": "BÜNDNIS 90/DIE GRÜNEN",
-        "context": "main-speaker",
-        "role": "Bundestagsvizepräsidentin"
-      }
-    ],
-    "key": "19-165 tagesordnungspunkt 7 (claudia roth)"
+    }
   },
   {
     "parliament": "DE",
@@ -19283,16 +19378,103 @@
   {
     "parliament": "DE",
     "electoralPeriod": {
-      "number": 19
+      "number": "19"
     },
     "session": {
-      "number": 165
+      "number": "165",
+      "dateStart": "2020-06-17T13:00",
+      "dateEnd": "2020-06-17T20:32"
     },
     "agendaItem": {
-      "title": "Zusatzpunkt 38",
       "officialTitle": "Zusatzpunkt 38",
-      "speechIndex": 78
+      "speechIndex": 139,
+      "title": "Zusatzpunkt 38"
     },
+    "people": [
+      {
+        "type": "memberOfParliament",
+        "label": "Claudia Roth",
+        "context": "vice-president"
+      }
+    ],
+    "textContents": [
+      {
+        "type": "proceedings",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19165-data.xml",
+        "creator": "Deutscher Bundestag",
+        "license": "Public Domain",
+        "language": "DE-de",
+        "originTextID": "0722-7980",
+        "textBody": [
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "Ich rufe den soeben aufgesetzten Zusatzpunkt 38 auf:",
+            "sentences": [
+              {
+                "text": "Ich rufe den soeben aufgesetzten Zusatzpunkt 38 auf:"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "Dazu ist eine Aussprache nicht vorgesehen.",
+            "sentences": [
+              {
+                "text": "Dazu ist eine Aussprache nicht vorgesehen."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "Der Ausschuss empfiehlt, die Genehmigung zu erteilen. Wer stimmt für diese Beschlussempfehlung? – Wer stimmt dagegen? – Wer enthält sich? – Die Beschlussempfehlung ist einstimmig von allen Fraktionen angenommen worden.",
+            "sentences": [
+              {
+                "text": "Der Ausschuss empfiehlt, die Genehmigung zu erteilen."
+              },
+              {
+                "text": "Wer stimmt für diese Beschlussempfehlung?"
+              },
+              {
+                "text": "– Wer stimmt dagegen?"
+              },
+              {
+                "text": "– Wer enthält sich?"
+              },
+              {
+                "text": "– Die Beschlussempfehlung ist einstimmig von allen Fraktionen angenommen worden."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "Jetzt gebe ich Ihnen das von den Schriftführerinnen und Schriftführern ermittelte Ergebnis der namentlichen Abstimmung über die Beschlussempfehlung des Auswärtigen Ausschusses zum Antrag der Bundesregierung zur Fortsetzung der Beteiligung bewaffneter deutscher Streitkräfte an UNIFIL bekannt: abgegebene Stimmenkarten 668. Mit Ja haben gestimmt 515, mit Nein haben gestimmt 149 Kolleginnen und Kollegen, enthalten haben sich 4. Die Beschlussempfehlung ist damit angenommen.",
+            "sentences": [
+              {
+                "text": "Jetzt gebe ich Ihnen das von den Schriftführerinnen und Schriftführern ermittelte Ergebnis der namentlichen Abstimmung über die Beschlussempfehlung des Auswärtigen Ausschusses zum Antrag der Bundesregierung zur Fortsetzung der Beteiligung bewaffneter deutscher Streitkräfte an UNIFIL bekannt: abgegebene Stimmenkarten 668. Mit Ja haben gestimmt 515, mit Nein haben gestimmt 149 Kolleginnen und Kollegen, enthalten haben sich 4. Die Beschlussempfehlung ist damit angenommen."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "documents": [
+      {
+        "type": "officialDocument",
+        "label": "Drucksache 19/20150",
+        "sourceURI": "https://dserver.bundestag.de/btd/19/201/1920150.pdf"
+      }
+    ],
+    "key": "19-165 zusatzpunkt 38 (claudia roth)",
+    "dateStart": "2020-06-17T17:10:39",
+    "dateEnd": "2020-06-17T17:13:13",
     "media": {
       "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7452480/7452480_h264_720_400_2000kb_baseline_de_2192.mp4",
       "sourcePage": "http://dbtg.tv/fvid/7452480",
@@ -19301,18 +19483,7 @@
       "license": "CC-BY-SA",
       "originMediaID": "7452480",
       "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7452480/7452480_mp3_128kb_stereo_de_128.mp3"
-    },
-    "dateStart": "2020-06-17T17:10:39",
-    "dateEnd": "2020-06-17T17:13:13",
-    "people": [
-      {
-        "label": "Claudia Roth",
-        "faction": "BÜNDNIS 90/DIE GRÜNEN",
-        "context": "main-speaker",
-        "role": "Bundestagsvizepräsidentin"
-      }
-    ],
-    "key": "19-165 zusatzpunkt 38 (claudia roth)"
+    }
   },
   {
     "parliament": "DE",

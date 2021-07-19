@@ -8329,7 +8329,7 @@
       },
       {
         "type": "memberOfParliament",
-        "label": "in Petra Pau",
+        "label": "Petra Pau",
         "context": "vice-president"
       }
     ],
@@ -8475,7 +8475,7 @@
           },
           {
             "type": "speech",
-            "speaker": "in Petra Pau",
+            "speaker": "Petra Pau",
             "speakerstatus": "vice-president",
             "text": "Für die CDU/CSU-Fraktion hat nun der Kollege Tino Sorge das Wort.",
             "sentences": [
@@ -8538,7 +8538,7 @@
       },
       {
         "type": "memberOfParliament",
-        "label": "in Petra Pau",
+        "label": "Petra Pau",
         "context": "vice-president"
       }
     ],
@@ -8824,7 +8824,7 @@
           },
           {
             "type": "speech",
-            "speaker": "in Petra Pau",
+            "speaker": "Petra Pau",
             "speakerstatus": "vice-president",
             "text": "Für die CDU/CSU-Fraktion hat nun die Kollegin Dr. Claudia Schmidtke das Wort.",
             "sentences": [
@@ -9308,16 +9308,52 @@
   {
     "parliament": "DE",
     "electoralPeriod": {
-      "number": 19
+      "number": "19"
     },
     "session": {
-      "number": 203
+      "number": "203",
+      "dateStart": "2021-01-13T13:00",
+      "dateEnd": "2021-01-13T20:13"
     },
     "agendaItem": {
-      "title": "Tagesordnungspunkt 1",
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 21
+      "speechIndex": 21,
+      "title": "Tagesordnungspunkt 1"
     },
+    "people": [
+      {
+        "type": "memberOfParliament",
+        "label": "Petra Pau",
+        "context": "vice-president"
+      }
+    ],
+    "textContents": [
+      {
+        "type": "proceedings",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19203-data.xml",
+        "creator": "Deutscher Bundestag",
+        "license": "Public Domain",
+        "language": "DE-de",
+        "originTextID": "0722-7980",
+        "textBody": [
+          {
+            "type": "speech",
+            "speaker": "Petra Pau",
+            "speakerstatus": "vice-president",
+            "text": "Ich schließe die Aussprache.",
+            "sentences": [
+              {
+                "text": "Ich schließe die Aussprache."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "documents": [],
+    "key": "19-203 tagesordnungspunkt 1 (petra pau)",
+    "dateStart": "2021-01-13T14:14:43",
+    "dateEnd": "2021-01-13T14:14:56",
     "media": {
       "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7495543/7495543_h264_720_400_2000kb_baseline_de_2192.mp4",
       "sourcePage": "http://dbtg.tv/fvid/7495543",
@@ -9326,32 +9362,90 @@
       "license": "CC-BY-SA",
       "originMediaID": "7495543",
       "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7495543/7495543_mp3_128kb_stereo_de_128.mp3"
-    },
-    "dateStart": "2021-01-13T14:14:43",
-    "dateEnd": "2021-01-13T14:14:56",
-    "people": [
-      {
-        "label": "Petra Pau",
-        "faction": "Die Linke",
-        "context": "main-speaker",
-        "role": "Bundestagsvizepräsidentin"
-      }
-    ],
-    "key": "19-203 tagesordnungspunkt 1 (petra pau)"
+    }
   },
   {
     "parliament": "DE",
     "electoralPeriod": {
-      "number": 19
+      "number": "19"
     },
     "session": {
-      "number": 203
+      "number": "203",
+      "dateStart": "2021-01-13T13:00",
+      "dateEnd": "2021-01-13T20:13"
     },
     "agendaItem": {
-      "title": "Tagesordnungspunkt 2",
       "officialTitle": "Tagesordnungspunkt 2",
-      "speechIndex": 22
+      "speechIndex": 22,
+      "title": "Tagesordnungspunkt 2"
     },
+    "people": [
+      {
+        "type": "memberOfParliament",
+        "label": "Petra Pau",
+        "context": "vice-president"
+      }
+    ],
+    "textContents": [
+      {
+        "type": "proceedings",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19203-data.xml",
+        "creator": "Deutscher Bundestag",
+        "license": "Public Domain",
+        "language": "DE-de",
+        "originTextID": "0722-7980",
+        "textBody": [
+          {
+            "type": "speech",
+            "speaker": "Petra Pau",
+            "speakerstatus": "vice-president",
+            "text": "Ich rufe den Tagesordnungspunkt 2 auf:",
+            "sentences": [
+              {
+                "text": "Ich rufe den Tagesordnungspunkt 2 auf:"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Petra Pau",
+            "speakerstatus": "vice-president",
+            "text": "Die Bundesregierung hat mitgeteilt, dass heute die Bundesministerin für Ernährung und Landwirtschaft, Frau Julia Klöckner, zur Verfügung steht.",
+            "sentences": [
+              {
+                "text": "Die Bundesregierung hat mitgeteilt, dass heute die Bundesministerin für Ernährung und Landwirtschaft, Frau Julia Klöckner, zur Verfügung steht."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Petra Pau",
+            "speakerstatus": "vice-president",
+            "text": "Wir warten noch einen Moment, bis alle Kolleginnen und Kollegen ihren Platz gefunden haben.",
+            "sentences": [
+              {
+                "text": "Wir warten noch einen Moment, bis alle Kolleginnen und Kollegen ihren Platz gefunden haben."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Petra Pau",
+            "speakerstatus": "vice-president",
+            "text": "Frau Bundesministerin, Sie haben das Wort für Ihre einleitenden Ausführungen.",
+            "sentences": [
+              {
+                "text": "Frau Bundesministerin, Sie haben das Wort für Ihre einleitenden Ausführungen."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "documents": [],
+    "key": "19-203 tagesordnungspunkt 2 (petra pau)",
+    "dateStart": "2021-01-13T14:14:56",
+    "dateEnd": "2021-01-13T14:15:58",
     "media": {
       "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7495545/7495545_h264_720_400_2000kb_baseline_de_2192.mp4",
       "sourcePage": "http://dbtg.tv/fvid/7495545",
@@ -9360,18 +9454,7 @@
       "license": "CC-BY-SA",
       "originMediaID": "7495545",
       "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7495545/7495545_mp3_128kb_stereo_de_128.mp3"
-    },
-    "dateStart": "2021-01-13T14:14:56",
-    "dateEnd": "2021-01-13T14:15:58",
-    "people": [
-      {
-        "label": "Petra Pau",
-        "faction": "Die Linke",
-        "context": "main-speaker",
-        "role": "Bundestagsvizepräsidentin"
-      }
-    ],
-    "key": "19-203 tagesordnungspunkt 2 (petra pau)"
+    }
   },
   {
     "parliament": "DE",
@@ -9399,7 +9482,7 @@
       },
       {
         "type": "memberOfParliament",
-        "label": "in Petra Pau",
+        "label": "Petra Pau",
         "context": "vice-president"
       }
     ],
@@ -9742,7 +9825,7 @@
           },
           {
             "type": "speech",
-            "speaker": "in Petra Pau",
+            "speaker": "Petra Pau",
             "speakerstatus": "vice-president",
             "text": "Danke, Frau Ministerin. – Wir beginnen die Regierungsbefragung zu den einleitenden Ausführungen der Bundesministerin und zum Geschäftsbereich sowie zu den vorangegangenen Kabinettsitzungen und mit allgemeinen Fragen. – Das Wort hat der Abgeordnete Wilhelm von Gottberg.",
             "sentences": [
@@ -9811,40 +9894,6 @@
   {
     "parliament": "DE",
     "electoralPeriod": {
-      "number": 19
-    },
-    "session": {
-      "number": 203
-    },
-    "agendaItem": {
-      "title": "Tagesordnungspunkt 3",
-      "officialTitle": "Tagesordnungspunkt 3",
-      "speechIndex": 25
-    },
-    "media": {
-      "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7495549/7495549_h264_720_400_2000kb_baseline_de_2192.mp4",
-      "sourcePage": "http://dbtg.tv/fvid/7495549",
-      "duration": 51.0,
-      "creator": "Deutscher Bundestag",
-      "license": "CC-BY-SA",
-      "originMediaID": "7495549",
-      "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7495549/7495549_mp3_128kb_stereo_de_128.mp3"
-    },
-    "dateStart": "2021-01-13T15:22:41",
-    "dateEnd": "2021-01-13T15:23:32",
-    "people": [
-      {
-        "label": "Claudia Roth",
-        "faction": "BÜNDNIS 90/DIE GRÜNEN",
-        "context": "main-speaker",
-        "role": "Bundestagsvizepräsidentin"
-      }
-    ],
-    "key": "19-203 tagesordnungspunkt 3 (claudia roth)"
-  },
-  {
-    "parliament": "DE",
-    "electoralPeriod": {
       "number": "19"
     },
     "session": {
@@ -9854,10 +9903,15 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 3",
-      "speechIndex": 91,
+      "speechIndex": 90,
       "title": "Tagesordnungspunkt 3"
     },
     "people": [
+      {
+        "type": "memberOfParliament",
+        "label": "Claudia Roth",
+        "context": "vice-president"
+      },
       {
         "type": "memberOfParliament",
         "label": "Elisabeth Winkelmeier-Becker",
@@ -9865,11 +9919,6 @@
         "lastname": "Winkelmeier-Becker",
         "context": "main-speaker",
         "faction": ""
-      },
-      {
-        "type": "memberOfParliament",
-        "label": "in Claudia Roth",
-        "context": "vice-president"
       },
       {
         "type": "memberOfParliament",
@@ -9910,11 +9959,6 @@
         "lastname": "Friesen",
         "context": "speaker",
         "faction": "AfD"
-      },
-      {
-        "type": "memberOfParliament",
-        "label": "Claudia Roth",
-        "context": "vice-president"
       }
     ],
     "textContents": [
@@ -9928,8 +9972,8 @@
         "textBody": [
           {
             "type": "speech",
-            "speaker": "Elisabeth Winkelmeier-Becker",
-            "speakerstatus": "main-speaker",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
             "text": "Damit rufe ich jetzt den Tagesordnungspunkt 3 auf:",
             "sentences": [
               {
@@ -9939,8 +9983,8 @@
           },
           {
             "type": "speech",
-            "speaker": "Elisabeth Winkelmeier-Becker",
-            "speakerstatus": "main-speaker",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
             "text": "Die mündlichen Fragen auf Drucksache 19/25730 werden in der üblichen Reihenfolge aufgerufen. Die Frage 54 der Kollegin Sylvia Kotting-Uhl wurde von der Bundesregierung nachträglich dem Geschäftsbereich des Bundesministeriums für Wirtschaft und Energie zugeordnet und wird nach Frage 19 aufgerufen.",
             "sentences": [
               {
@@ -9953,8 +9997,8 @@
           },
           {
             "type": "speech",
-            "speaker": "Elisabeth Winkelmeier-Becker",
-            "speakerstatus": "main-speaker",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
             "text": "Ich rufe auf den Geschäftsbereich des Bundesministeriums für Wirtschaft und Energie. Ich begrüße recht herzlich die Parlamentarische Staatssekretärin Elisabeth Winkelmeier-Becker.",
             "sentences": [
               {
@@ -9967,8 +10011,8 @@
           },
           {
             "type": "speech",
-            "speaker": "Elisabeth Winkelmeier-Becker",
-            "speakerstatus": "main-speaker",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
             "text": "Ich rufe die Frage 1 des Kollegen Brandner auf:",
             "sentences": [
               {
@@ -10009,7 +10053,7 @@
           },
           {
             "type": "speech",
-            "speaker": "in Claudia Roth",
+            "speaker": "Claudia Roth",
             "speakerstatus": "vice-president",
             "text": "Vielen Dank. – Herr Brandner, bitte.",
             "sentences": [
@@ -10060,7 +10104,7 @@
           },
           {
             "type": "speech",
-            "speaker": "in Claudia Roth",
+            "speaker": "Claudia Roth",
             "speakerstatus": "vice-president",
             "text": "Herr Brandner.",
             "sentences": [
@@ -10102,7 +10146,7 @@
           },
           {
             "type": "speech",
-            "speaker": "in Claudia Roth",
+            "speaker": "Claudia Roth",
             "speakerstatus": "vice-president",
             "text": "Eine Rückfrage: Dr. Kraft.",
             "sentences": [
@@ -10173,7 +10217,7 @@
           },
           {
             "type": "speech",
-            "speaker": "in Claudia Roth",
+            "speaker": "Claudia Roth",
             "speakerstatus": "vice-president",
             "text": "Danke, Frau Staatssekretärin. – Wir kommen zur Frage 2, Stephan Brandner:",
             "sentences": [
@@ -10204,7 +10248,7 @@
           },
           {
             "type": "speech",
-            "speaker": "in Claudia Roth",
+            "speaker": "Claudia Roth",
             "speakerstatus": "vice-president",
             "text": "Kollege Brandner.",
             "sentences": [
@@ -10260,7 +10304,7 @@
           },
           {
             "type": "speech",
-            "speaker": "in Claudia Roth",
+            "speaker": "Claudia Roth",
             "speakerstatus": "vice-president",
             "text": "Vielen Dank. – Herr Brandner, Rückfrage?",
             "sentences": [
@@ -10357,7 +10401,7 @@
           },
           {
             "type": "speech",
-            "speaker": "in Claudia Roth",
+            "speaker": "Claudia Roth",
             "speakerstatus": "vice-president",
             "text": "Vielen Dank. – Eine Frage von Herrn Hilse.",
             "sentences": [
@@ -10456,7 +10500,7 @@
           },
           {
             "type": "speech",
-            "speaker": "in Claudia Roth",
+            "speaker": "Claudia Roth",
             "speakerstatus": "vice-president",
             "text": "Vielen Dank. – Dann kommen wir zur Frage 3 des Kollegen Tobias Matthias Peterka:",
             "sentences": [
@@ -10470,7 +10514,7 @@
           },
           {
             "type": "speech",
-            "speaker": "in Claudia Roth",
+            "speaker": "Claudia Roth",
             "speakerstatus": "vice-president",
             "text": "Frau Staatssekretärin.",
             "sentences": [
@@ -10532,7 +10576,7 @@
           },
           {
             "type": "speech",
-            "speaker": "in Claudia Roth",
+            "speaker": "Claudia Roth",
             "speakerstatus": "vice-president",
             "text": "Vielen Dank. – Herr Peterka.",
             "sentences": [
@@ -10595,7 +10639,7 @@
           },
           {
             "type": "speech",
-            "speaker": "in Claudia Roth",
+            "speaker": "Claudia Roth",
             "speakerstatus": "vice-president",
             "text": "Danke schön, Frau Staatssekretärin. – Haben Sie eine Rückfrage? – Ja. Bitte.",
             "sentences": [
@@ -10632,7 +10676,7 @@
           },
           {
             "type": "speech",
-            "speaker": "in Claudia Roth",
+            "speaker": "Claudia Roth",
             "speakerstatus": "vice-president",
             "text": "Frau Staatssekretärin.",
             "sentences": [
@@ -10672,7 +10716,7 @@
           },
           {
             "type": "speech",
-            "speaker": "in Claudia Roth",
+            "speaker": "Claudia Roth",
             "speakerstatus": "vice-president",
             "text": "Vielen Dank. – Ich rufe dann Frage 4 des Kollegen Dr. Anton Friesen auf:",
             "sentences": [
@@ -10750,7 +10794,7 @@
           },
           {
             "type": "speech",
-            "speaker": "in Claudia Roth",
+            "speaker": "Claudia Roth",
             "speakerstatus": "vice-president",
             "text": "Herr Dr. Friesen.",
             "sentences": [
@@ -10798,7 +10842,7 @@
           },
           {
             "type": "speech",
-            "speaker": "in Claudia Roth",
+            "speaker": "Claudia Roth",
             "speakerstatus": "vice-president",
             "text": "Vielen Dank. – Dr. Friesen, haben Sie noch eine Frage?",
             "sentences": [
@@ -10852,7 +10896,7 @@
           },
           {
             "type": "speech",
-            "speaker": "in Claudia Roth",
+            "speaker": "Claudia Roth",
             "speakerstatus": "vice-president",
             "text": "Danke schön. – Nachfrage? Dr. Kraft.",
             "sentences": [
@@ -10892,7 +10936,7 @@
           },
           {
             "type": "speech",
-            "speaker": "in Claudia Roth",
+            "speaker": "Claudia Roth",
             "speakerstatus": "vice-president",
             "text": "Die Frau Staatssekretärin war jetzt gefragt.",
             "sentences": [
@@ -10934,7 +10978,7 @@
           },
           {
             "type": "speech",
-            "speaker": "in Claudia Roth",
+            "speaker": "Claudia Roth",
             "speakerstatus": "vice-president",
             "text": "Vielen Dank. – Ich rufe Frage 5 von Dr. Anton Friesen auf:",
             "sentences": [
@@ -11022,7 +11066,7 @@
           },
           {
             "type": "speech",
-            "speaker": "in Claudia Roth",
+            "speaker": "Claudia Roth",
             "speakerstatus": "vice-president",
             "text": "Frau Kollegin, Sie müssen wirklich zum Ende kommen.",
             "sentences": [
@@ -11044,7 +11088,7 @@
           },
           {
             "type": "speech",
-            "speaker": "in Claudia Roth",
+            "speaker": "Claudia Roth",
             "speakerstatus": "vice-president",
             "text": "Herr Dr. Friesen, Sie können ja nachfragen.",
             "sentences": [
@@ -11091,7 +11135,7 @@
           },
           {
             "type": "speech",
-            "speaker": "in Claudia Roth",
+            "speaker": "Claudia Roth",
             "speakerstatus": "vice-president",
             "text": "Haben Sie eine weitere Frage? – Danke schön. – Dann hat sich Herr Brandner gemeldet.",
             "sentences": [
@@ -11157,7 +11201,7 @@
           },
           {
             "type": "speech",
-            "speaker": "in Claudia Roth",
+            "speaker": "Claudia Roth",
             "speakerstatus": "vice-president",
             "text": "Frau Staatssekretärin.",
             "sentences": [
@@ -11216,7 +11260,7 @@
           },
           {
             "type": "speech",
-            "speaker": "in Claudia Roth",
+            "speaker": "Claudia Roth",
             "speakerstatus": "vice-president",
             "text": "Frau Kollegin.",
             "sentences": [
@@ -11238,7 +11282,7 @@
           },
           {
             "type": "speech",
-            "speaker": "in Claudia Roth",
+            "speaker": "Claudia Roth",
             "speakerstatus": "vice-president",
             "text": "Ja, aber dann müssen Sie sich kürzer fassen.",
             "sentences": [
@@ -11260,7 +11304,7 @@
           },
           {
             "type": "speech",
-            "speaker": "in Claudia Roth",
+            "speaker": "Claudia Roth",
             "speakerstatus": "vice-president",
             "text": "Letzte Frage in dieser Fragestunde: Herr Peterka.",
             "sentences": [
@@ -11291,7 +11335,1539 @@
           },
           {
             "type": "speech",
-            "speaker": "in Claudia Roth",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "Frau Staatssekretärin.",
+            "sentences": [
+              {
+                "text": "Frau Staatssekretärin."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Elisabeth Winkelmeier-Becker",
+            "speakerstatus": "main-speaker",
+            "text": "Das müssten Sie mir jetzt noch näher erläutern.",
+            "sentences": [
+              {
+                "text": "Das müssten Sie mir jetzt noch näher erläutern."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "Nein, das kann er nicht.",
+            "sentences": [
+              {
+                "text": "Nein, das kann er nicht."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Elisabeth Winkelmeier-Becker",
+            "speakerstatus": "main-speaker",
+            "text": "Das kann er nicht. – Bei Steuerrecht würde ich jetzt auch ans BMF verweisen, wenn es darum geht, wie da die Abläufe sind, oder auch an die Länder. Das ist jetzt nichts, was Kernkompetenz des Bundeswirtschaftsministeriums ist – im Gegensatz zu all dem anderen.",
+            "sentences": [
+              {
+                "text": "Das kann er nicht."
+              },
+              {
+                "text": "– Bei Steuerrecht würde ich jetzt auch ans BMF verweisen, wenn es darum geht, wie da die Abläufe sind, oder auch an die Länder."
+              },
+              {
+                "text": "Das ist jetzt nichts, was Kernkompetenz des Bundeswirtschaftsministeriums ist – im Gegensatz zu all dem anderen."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Elisabeth Winkelmeier-Becker",
+            "speakerstatus": "main-speaker",
+            "text": "Vielen herzlichen Dank, Frau Staatssekretärin. – Damit sind wir am Ende der Fragestunde angelangt. Alle weiteren Fragen werden schriftlich beantwortet.",
+            "sentences": [
+              {
+                "text": "Vielen herzlichen Dank, Frau Staatssekretärin."
+              },
+              {
+                "text": "– Damit sind wir am Ende der Fragestunde angelangt."
+              },
+              {
+                "text": "Alle weiteren Fragen werden schriftlich beantwortet."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "documents": [
+      {
+        "type": "officialDocument",
+        "label": "Drucksache 19/25730",
+        "sourceURI": "https://dserver.bundestag.de/btd/19/257/1925730.pdf"
+      }
+    ],
+    "key": "19-203 tagesordnungspunkt 3 (claudia roth)",
+    "dateStart": "2021-01-13T15:22:41",
+    "dateEnd": "2021-01-13T15:23:32",
+    "media": {
+      "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7495549/7495549_h264_720_400_2000kb_baseline_de_2192.mp4",
+      "sourcePage": "http://dbtg.tv/fvid/7495549",
+      "duration": 51.0,
+      "creator": "Deutscher Bundestag",
+      "license": "CC-BY-SA",
+      "originMediaID": "7495549",
+      "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7495549/7495549_mp3_128kb_stereo_de_128.mp3"
+    }
+  },
+  {
+    "parliament": "DE",
+    "electoralPeriod": {
+      "number": "19"
+    },
+    "session": {
+      "number": "203",
+      "dateStart": "2021-01-13T13:00",
+      "dateEnd": "2021-01-13T20:13"
+    },
+    "agendaItem": {
+      "officialTitle": "Tagesordnungspunkt 3",
+      "speechIndex": 91,
+      "title": "Tagesordnungspunkt 3"
+    },
+    "people": [
+      {
+        "type": "memberOfParliament",
+        "label": "Elisabeth Winkelmeier-Becker",
+        "firstname": "Elisabeth",
+        "lastname": "Winkelmeier-Becker",
+        "context": "main-speaker",
+        "faction": ""
+      },
+      {
+        "type": "memberOfParliament",
+        "label": "Claudia Roth",
+        "context": "vice-president"
+      },
+      {
+        "type": "memberOfParliament",
+        "label": "Stephan Brandner",
+        "firstname": "Stephan",
+        "lastname": "Brandner",
+        "context": "speaker",
+        "faction": "AfD"
+      },
+      {
+        "type": "memberOfParliament",
+        "label": "Rainer Kraft",
+        "firstname": "Rainer",
+        "lastname": "Kraft",
+        "context": "speaker",
+        "faction": "AfD"
+      },
+      {
+        "type": "memberOfParliament",
+        "label": "Karsten Hilse",
+        "firstname": "Karsten",
+        "lastname": "Hilse",
+        "context": "speaker",
+        "faction": "AfD"
+      },
+      {
+        "type": "memberOfParliament",
+        "label": "Tobias Matthias Peterka",
+        "firstname": "Tobias Matthias",
+        "lastname": "Peterka",
+        "context": "speaker",
+        "faction": "AfD"
+      },
+      {
+        "type": "memberOfParliament",
+        "label": "Anton Friesen",
+        "firstname": "Anton",
+        "lastname": "Friesen",
+        "context": "speaker",
+        "faction": "AfD"
+      }
+    ],
+    "textContents": [
+      {
+        "type": "proceedings",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19203-data.xml",
+        "creator": "Deutscher Bundestag",
+        "license": "Public Domain",
+        "language": "DE-de",
+        "originTextID": "0722-7980",
+        "textBody": [
+          {
+            "type": "speech",
+            "speaker": "Elisabeth Winkelmeier-Becker",
+            "speakerstatus": "main-speaker",
+            "text": "Damit rufe ich jetzt den Tagesordnungspunkt 3 auf:",
+            "sentences": [
+              {
+                "text": "Damit rufe ich jetzt den Tagesordnungspunkt 3 auf:"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Elisabeth Winkelmeier-Becker",
+            "speakerstatus": "main-speaker",
+            "text": "Die mündlichen Fragen auf Drucksache 19/25730 werden in der üblichen Reihenfolge aufgerufen. Die Frage 54 der Kollegin Sylvia Kotting-Uhl wurde von der Bundesregierung nachträglich dem Geschäftsbereich des Bundesministeriums für Wirtschaft und Energie zugeordnet und wird nach Frage 19 aufgerufen.",
+            "sentences": [
+              {
+                "text": "Die mündlichen Fragen auf Drucksache 19/25730 werden in der üblichen Reihenfolge aufgerufen."
+              },
+              {
+                "text": "Die Frage 54 der Kollegin Sylvia Kotting-Uhl wurde von der Bundesregierung nachträglich dem Geschäftsbereich des Bundesministeriums für Wirtschaft und Energie zugeordnet und wird nach Frage 19 aufgerufen."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Elisabeth Winkelmeier-Becker",
+            "speakerstatus": "main-speaker",
+            "text": "Ich rufe auf den Geschäftsbereich des Bundesministeriums für Wirtschaft und Energie. Ich begrüße recht herzlich die Parlamentarische Staatssekretärin Elisabeth Winkelmeier-Becker.",
+            "sentences": [
+              {
+                "text": "Ich rufe auf den Geschäftsbereich des Bundesministeriums für Wirtschaft und Energie."
+              },
+              {
+                "text": "Ich begrüße recht herzlich die Parlamentarische Staatssekretärin Elisabeth Winkelmeier-Becker."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Elisabeth Winkelmeier-Becker",
+            "speakerstatus": "main-speaker",
+            "text": "Ich rufe die Frage 1 des Kollegen Brandner auf:",
+            "sentences": [
+              {
+                "text": "Ich rufe die Frage 1 des Kollegen Brandner auf:"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Elisabeth Winkelmeier-Becker",
+            "speakerstatus": "main-speaker",
+            "text": "Herr Kollege Brandner, steuerbare Verbrauchseinrichtungen wie Ladeeinrichtungen für Elektromobile, Wärmepumpen und Heimspeicher werden in den nächsten Jahren insbesondere auf Niederspannungsebene eine systemrelevante Leistung darstellen. Es besteht nach Einschätzung der Bundesregierung aber kein Risiko einer Überlastung der deutschen Stromnetze; denn die Netzbetreiber können in jedem Einzelfall die Auswirkungen auf das Netz prüfen und erforderliche Maßnahmen ergreifen.",
+            "sentences": [
+              {
+                "text": "Herr Kollege Brandner, steuerbare Verbrauchseinrichtungen wie Ladeeinrichtungen für Elektromobile, Wärmepumpen und Heimspeicher werden in den nächsten Jahren insbesondere auf Niederspannungsebene eine systemrelevante Leistung darstellen."
+              },
+              {
+                "text": "Es besteht nach Einschätzung der Bundesregierung aber kein Risiko einer Überlastung der deutschen Stromnetze; denn die Netzbetreiber können in jedem Einzelfall die Auswirkungen auf das Netz prüfen und erforderliche Maßnahmen ergreifen."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Elisabeth Winkelmeier-Becker",
+            "speakerstatus": "main-speaker",
+            "text": "Mit dem Hochlauf der Elektromobilität und der Sektorkopplung geht insgesamt ein erhöhter Bedarf an Netzoptimierung, ‑verstärkung und ‑ausbau einher. Die notwendigen Netzmaßnahmen dürfen aber nicht zu Verzögerungen beim Ausbau der Ladeinfrastruktur führen und müssen kosteneffizient gestaltet werden. Hierzu stimmt das Bundesministerium für Wirtschaft und Energie derzeit den Entwurf eines Gesetzes zur zügigen und sicheren Integration steuerbarer Verbrauchseinrichtungen in die Elektrizitätsverteilnetze mit den Ressorts, Ländern und Verbänden ab.",
+            "sentences": [
+              {
+                "text": "Mit dem Hochlauf der Elektromobilität und der Sektorkopplung geht insgesamt ein erhöhter Bedarf an Netzoptimierung, ‑verstärkung und ‑ausbau einher."
+              },
+              {
+                "text": "Die notwendigen Netzmaßnahmen dürfen aber nicht zu Verzögerungen beim Ausbau der Ladeinfrastruktur führen und müssen kosteneffizient gestaltet werden."
+              },
+              {
+                "text": "Hierzu stimmt das Bundesministerium für Wirtschaft und Energie derzeit den Entwurf eines Gesetzes zur zügigen und sicheren Integration steuerbarer Verbrauchseinrichtungen in die Elektrizitätsverteilnetze mit den Ressorts, Ländern und Verbänden ab."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "Vielen Dank. – Herr Brandner, bitte.",
+            "sentences": [
+              {
+                "text": "Vielen Dank."
+              },
+              {
+                "text": "– Herr Brandner, bitte."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Stephan Brandner",
+            "speakerstatus": "speaker",
+            "text": "Es geht ja hier um das ehrgeizige Ziel der Bundesregierung, bis zum kommenden Jahr – also nicht mehr ganz ein Jahr verbleibt – 1 Million Elektroautos auf die deutschen Straßen zu bekommen. In dem Zusammenhang habe ich diese Frage gestellt und stelle nun auch die Anschlussfrage. Mich interessiert: Welchen jährlichen Strombedarf – absolut – prognostiziert die Bundesregierung unter der Prämisse, dass 1 Million Elektroautos auf den Straßen sind? Ich frage also nach dem jährlichen Strombedarf absolut und anteilig am Gesamtstromverbrauch in Deutschland.",
+            "sentences": [
+              {
+                "text": "Es geht ja hier um das ehrgeizige Ziel der Bundesregierung, bis zum kommenden Jahr – also nicht mehr ganz ein Jahr verbleibt – 1 Million Elektroautos auf die deutschen Straßen zu bekommen."
+              },
+              {
+                "text": "In dem Zusammenhang habe ich diese Frage gestellt und stelle nun auch die Anschlussfrage."
+              },
+              {
+                "text": "Mich interessiert: Welchen jährlichen Strombedarf – absolut – prognostiziert die Bundesregierung unter der Prämisse, dass 1 Million Elektroautos auf den Straßen sind?"
+              },
+              {
+                "text": "Ich frage also nach dem jährlichen Strombedarf absolut und anteilig am Gesamtstromverbrauch in Deutschland."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Elisabeth Winkelmeier-Becker",
+            "speakerstatus": "main-speaker",
+            "text": "Zunächst möchte ich noch mal klarstellen, dass durch den Hochlauf der Elektromobilität keine Bedenken bezüglich der Netzstabilität bestehen, keine Sorgen sich ergeben. In Bezug auf den absoluten Stromverbrauch kann ich Ihnen mitteilen, dass wir davon ausgehen, dass 1 Million E-Autos etwa 2 bis 3 Terawattstunden pro Jahr verbrauchen. Das läge also, bei einem durchschnittlichen Stromverbrauch in Deutschland in der Größenordnung von 600 Terawattstunden, unterhalb eines halben Prozents.",
+            "sentences": [
+              {
+                "text": "Zunächst möchte ich noch mal klarstellen, dass durch den Hochlauf der Elektromobilität keine Bedenken bezüglich der Netzstabilität bestehen, keine Sorgen sich ergeben."
+              },
+              {
+                "text": "In Bezug auf den absoluten Stromverbrauch kann ich Ihnen mitteilen, dass wir davon ausgehen, dass 1 Million E-Autos etwa 2 bis 3 Terawattstunden pro Jahr verbrauchen."
+              },
+              {
+                "text": "Das läge also, bei einem durchschnittlichen Stromverbrauch in Deutschland in der Größenordnung von 600 Terawattstunden, unterhalb eines halben Prozents."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "Herr Brandner.",
+            "sentences": [
+              {
+                "text": "Herr Brandner."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Stephan Brandner",
+            "speakerstatus": "speaker",
+            "text": "Ja, eine kurze Nachfrage noch. – Es geht noch mal um die Anzahl, um dieses ehrgeizige Ziel, 1 Million E-Autos auf die Straße zu bekommen. Dazu meine Frage: Hält die Bundesregierung an diesem Ziel fest, das Ganze bis zum Jahr 2022 umzusetzen, also die 1 Million Autos auf die Straße zu bekommen? Und subsumiert man unter diese 1 Million E-Autos nur reine E-Autos oder auch sogenannte Plug-in-Hybride?",
+            "sentences": [
+              {
+                "text": "Ja, eine kurze Nachfrage noch."
+              },
+              {
+                "text": "– Es geht noch mal um die Anzahl, um dieses ehrgeizige Ziel, 1 Million E-Autos auf die Straße zu bekommen."
+              },
+              {
+                "text": "Dazu meine Frage: Hält die Bundesregierung an diesem Ziel fest, das Ganze bis zum Jahr 2022 umzusetzen, also die 1 Million Autos auf die Straße zu bekommen?"
+              },
+              {
+                "text": "Und subsumiert man unter diese 1 Million E-Autos nur reine E-Autos oder auch sogenannte Plug-in-Hybride?"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Elisabeth Winkelmeier-Becker",
+            "speakerstatus": "main-speaker",
+            "text": "Beide Sorten sind Teil dieser Zielsetzung von 1 Million E-Autos, und an dieser hält die Bundesregierung fest.",
+            "sentences": [
+              {
+                "text": "Beide Sorten sind Teil dieser Zielsetzung von 1 Million E-Autos, und an dieser hält die Bundesregierung fest."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "Eine Rückfrage: Dr. Kraft.",
+            "sentences": [
+              {
+                "text": "Eine Rückfrage: Dr. Kraft."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Rainer Kraft",
+            "speakerstatus": "speaker",
+            "text": "Danke, Frau Präsidentin. – Frau Staatssekretärin, ja, es mag sein, dass die Elektromobilität nicht zu einer weiteren Verschlimmbesserung der Netzstabilität führt; die ist eh schon im Keller. Aber Ihre Aussage steht im krassen Widerspruch zu einer Kleinen Anfrage, die wir im Jahr 2018 gestellt haben. Ich weiß das sehr gut, weil das die allererste war, die ich hier jemals gestellt habe. Die Antwort des Bundesministeriums war sinngemäß, dass das Hochlaufen der Elektromobilität nicht zu einer Erhöhung der in Deutschland benötigten Strommenge führt, weil man diese zusätzlich benötigte Strommenge durch Energieeffizienzmaßnahmen und Energieeinsparmaßnahmen erreichen will.",
+            "sentences": [
+              {
+                "text": "Danke, Frau Präsidentin."
+              },
+              {
+                "text": "– Frau Staatssekretärin, ja, es mag sein, dass die Elektromobilität nicht zu einer weiteren Verschlimmbesserung der Netzstabilität führt; die ist eh schon im Keller."
+              },
+              {
+                "text": "Aber Ihre Aussage steht im krassen Widerspruch zu einer Kleinen Anfrage, die wir im Jahr 2018 gestellt haben."
+              },
+              {
+                "text": "Ich weiß das sehr gut, weil das die allererste war, die ich hier jemals gestellt habe."
+              },
+              {
+                "text": "Die Antwort des Bundesministeriums war sinngemäß, dass das Hochlaufen der Elektromobilität nicht zu einer Erhöhung der in Deutschland benötigten Strommenge führt, weil man diese zusätzlich benötigte Strommenge durch Energieeffizienzmaßnahmen und Energieeinsparmaßnahmen erreichen will."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Rainer Kraft",
+            "speakerstatus": "speaker",
+            "text": "Kann ich jetzt Ihre Antwort, die Sie heute hier geben, dahin gehend interpretieren, dass man diese Energieeffizienzmaßnahmen nicht hat realisieren können und dass man die Energieeinsparmaßnahmen nicht hat realisieren können, sodass ein Nettostrommehrverbrauch in Deutschland aufgrund der Elektromobilität nötig sein wird?",
+            "sentences": [
+              {
+                "text": "Kann ich jetzt Ihre Antwort, die Sie heute hier geben, dahin gehend interpretieren, dass man diese Energieeffizienzmaßnahmen nicht hat realisieren können und dass man die Energieeinsparmaßnahmen nicht hat realisieren können, sodass ein Nettostrommehrverbrauch in Deutschland aufgrund der Elektromobilität nötig sein wird?"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Elisabeth Winkelmeier-Becker",
+            "speakerstatus": "main-speaker",
+            "text": "Die Frage des Kollegen Brandner bezog sich darauf, wie viel Strom auf diese 1 Million erwarteten Fahrzeuge entfällt. Das habe ich beantwortet: in einer Größenordnung von 2 bis 3 Terawattstunden. Wir haben insgesamt einen Verbrauch von etwa 600 Terawattstunden. Da fügt sich dieser sehr kleine Anteil von unter 1 Prozent zwanglos ein. Das hat für die Frage, ob wir auf einem guten Weg sind, die Energieeinsparpotenziale zu nutzen, überhaupt keine Auswirkung, anders als Sie das da hineininterpretieren. Ich darf sogar darauf hinweisen, dass der Umstieg von Verbrennern auf Elektromobilität gerade ein Beitrag dazu ist, Energiesparpotenziale zu heben, und uns genau auf diesem Weg auch unterstützt.",
+            "sentences": [
+              {
+                "text": "Die Frage des Kollegen Brandner bezog sich darauf, wie viel Strom auf diese 1 Million erwarteten Fahrzeuge entfällt."
+              },
+              {
+                "text": "Das habe ich beantwortet: in einer Größenordnung von 2 bis 3 Terawattstunden."
+              },
+              {
+                "text": "Wir haben insgesamt einen Verbrauch von etwa 600 Terawattstunden."
+              },
+              {
+                "text": "Da fügt sich dieser sehr kleine Anteil von unter 1 Prozent zwanglos ein."
+              },
+              {
+                "text": "Das hat für die Frage, ob wir auf einem guten Weg sind, die Energieeinsparpotenziale zu nutzen, überhaupt keine Auswirkung, anders als Sie das da hineininterpretieren."
+              },
+              {
+                "text": "Ich darf sogar darauf hinweisen, dass der Umstieg von Verbrennern auf Elektromobilität gerade ein Beitrag dazu ist, Energiesparpotenziale zu heben, und uns genau auf diesem Weg auch unterstützt."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "Danke, Frau Staatssekretärin. – Wir kommen zur Frage 2, Stephan Brandner:",
+            "sentences": [
+              {
+                "text": "Danke, Frau Staatssekretärin."
+              },
+              {
+                "text": "– Wir kommen zur Frage 2, Stephan Brandner:"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Elisabeth Winkelmeier-Becker",
+            "speakerstatus": "main-speaker",
+            "text": "Sehr geehrter Herr Kollege, durch den Ausbau der erneuerbaren Energien in Deutschland wird der Anteil von inländischer Solar- und Windenergie am Energieverbrauch zukünftig deutlich steigen. Allerdings werden auch langfristig weitere Energieträger, zum Beispiel Wasserkraft, Geothermie oder Bioenergie, und auch der Import von Energieträgern, zum Beispiel Wasserstoff und weitere strombasierte Energieträger, eine bedeutende Rolle spielen. In diesem Sinne bedeuten die klima- und energiepolitischen Ziele der Bundesregierung nicht, dass perspektivisch der gesamte Energiebedarf Deutschlands mit in Deutschland erzeugter Solar- und Windenergie gedeckt werden soll oder kann.",
+            "sentences": [
+              {
+                "text": "Sehr geehrter Herr Kollege, durch den Ausbau der erneuerbaren Energien in Deutschland wird der Anteil von inländischer Solar- und Windenergie am Energieverbrauch zukünftig deutlich steigen."
+              },
+              {
+                "text": "Allerdings werden auch langfristig weitere Energieträger, zum Beispiel Wasserkraft, Geothermie oder Bioenergie, und auch der Import von Energieträgern, zum Beispiel Wasserstoff und weitere strombasierte Energieträger, eine bedeutende Rolle spielen."
+              },
+              {
+                "text": "In diesem Sinne bedeuten die klima- und energiepolitischen Ziele der Bundesregierung nicht, dass perspektivisch der gesamte Energiebedarf Deutschlands mit in Deutschland erzeugter Solar- und Windenergie gedeckt werden soll oder kann."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "Kollege Brandner.",
+            "sentences": [
+              {
+                "text": "Kollege Brandner."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Stephan Brandner",
+            "speakerstatus": "speaker",
+            "text": "Wenn das so ist, dann interessiert mich ergänzend: Was prognostizieren Sie, in welchem größtmöglichen Umfang können wir den Energiebedarf in Deutschland mithilfe von in Deutschland erzeugter Solar- oder Windenergie abdecken?",
+            "sentences": [
+              {
+                "text": "Wenn das so ist, dann interessiert mich ergänzend: Was prognostizieren Sie, in welchem größtmöglichen Umfang können wir den Energiebedarf in Deutschland mithilfe von in Deutschland erzeugter Solar- oder Windenergie abdecken?"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Elisabeth Winkelmeier-Becker",
+            "speakerstatus": "main-speaker",
+            "text": "Wir haben ja gerade die EEG-Novelle verabschiedet und in diesem Rahmen den Pfad, den wir bis 2030 beschreiten wollen, auch mit neuen Zielwerten unterlegt. Und zwar haben wir uns eine Erhöhung der Leistung bei Wind an Land auf 71 Gigawatt, bei Photovoltaik auf 100 Gigawatt, bei Biomasse auf 8 Gigawatt und bei Wind auf See auf 20 Gigawatt bis 2030 bzw. perspektivisch bis 2040 auf 40 Gigawatt als Ausbauziele vorgenommen und daran auch die Ausschreibungsmengen ausgerichtet. Das ist für diesen Bereich so weit vorgesehen.",
+            "sentences": [
+              {
+                "text": "Wir haben ja gerade die EEG-Novelle verabschiedet und in diesem Rahmen den Pfad, den wir bis 2030 beschreiten wollen, auch mit neuen Zielwerten unterlegt."
+              },
+              {
+                "text": "Und zwar haben wir uns eine Erhöhung der Leistung bei Wind an Land auf 71 Gigawatt, bei Photovoltaik auf 100 Gigawatt, bei Biomasse auf 8 Gigawatt und bei Wind auf See auf 20 Gigawatt bis 2030 bzw. perspektivisch bis 2040 auf 40 Gigawatt als Ausbauziele vorgenommen und daran auch die Ausschreibungsmengen ausgerichtet."
+              },
+              {
+                "text": "Das ist für diesen Bereich so weit vorgesehen."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Elisabeth Winkelmeier-Becker",
+            "speakerstatus": "main-speaker",
+            "text": "Es wird sich im Übrigen in der Zukunft zeigen, wie wir das umsetzen können; denn das ist nicht nur eine gesetzliche Frage. Wir brauchen vor allem die Flächen dafür und die Investoren, die sich letztendlich daran beteiligen. Wir erzeugen im Moment etwa 700 Petajoule aus Wind- und Solarenergie und gehen davon aus, dass sich dieser Anteil noch um den Faktor 4 oder 5 – in dieser Größenordnung – vervielfältigen muss.",
+            "sentences": [
+              {
+                "text": "Es wird sich im Übrigen in der Zukunft zeigen, wie wir das umsetzen können; denn das ist nicht nur eine gesetzliche Frage."
+              },
+              {
+                "text": "Wir brauchen vor allem die Flächen dafür und die Investoren, die sich letztendlich daran beteiligen."
+              },
+              {
+                "text": "Wir erzeugen im Moment etwa 700 Petajoule aus Wind- und Solarenergie und gehen davon aus, dass sich dieser Anteil noch um den Faktor 4 oder 5 – in dieser Größenordnung – vervielfältigen muss."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "Vielen Dank. – Herr Brandner, Rückfrage?",
+            "sentences": [
+              {
+                "text": "Vielen Dank."
+              },
+              {
+                "text": "– Herr Brandner, Rückfrage?"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Stephan Brandner",
+            "speakerstatus": "speaker",
+            "text": "Ja, noch eine ergänzende Frage. – Wir sind ja im Bereich des Umbaus des deutschen Energiewesens hin zur Wind- und Solarenergie. Am 8. Januar 2021 kam es zu erheblichen Störungen im europäischen Netz. Laut der Österreichischen Gesellschaft für Krisenvorsorge sei es die schwerste Störung im europäischen Stromnetz seit über 14 Jahren gewesen, knapp an einem Blackout vorbei. Den deutschen Medien war dazu wie üblich kaum etwas zu entnehmen.",
+            "sentences": [
+              {
+                "text": "Ja, noch eine ergänzende Frage."
+              },
+              {
+                "text": "– Wir sind ja im Bereich des Umbaus des deutschen Energiewesens hin zur Wind- und Solarenergie."
+              },
+              {
+                "text": "Am 8. Januar 2021 kam es zu erheblichen Störungen im europäischen Netz."
+              },
+              {
+                "text": "Laut der Österreichischen Gesellschaft für Krisenvorsorge sei es die schwerste Störung im europäischen Stromnetz seit über 14 Jahren gewesen, knapp an einem Blackout vorbei."
+              },
+              {
+                "text": "Den deutschen Medien war dazu wie üblich kaum etwas zu entnehmen."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Stephan Brandner",
+            "speakerstatus": "speaker",
+            "text": "Meine Frage geht jetzt dahin: Wie sah der deutsche Beitrag konkret aus, um diese Netzschwankungen, diese Störungen auszugleichen? Und sehen Sie Deutschland – auch vor dem Hintergrund, dass Kohlekraftwerke, Kernkraftwerke und möglicherweise auch Gaskraftwerke abgeschaltet werden – in der Zukunft in der Lage, bei europäischen Problemen noch einzugreifen, wenn schnell reagiert werden muss? Wie wird dann zum Beispiel die Produktion von Strom aus Solar- und Windenergie hochgefahren?",
+            "sentences": [
+              {
+                "text": "Meine Frage geht jetzt dahin: Wie sah der deutsche Beitrag konkret aus, um diese Netzschwankungen, diese Störungen auszugleichen?"
+              },
+              {
+                "text": "Und sehen Sie Deutschland – auch vor dem Hintergrund, dass Kohlekraftwerke, Kernkraftwerke und möglicherweise auch Gaskraftwerke abgeschaltet werden – in der Zukunft in der Lage, bei europäischen Problemen noch einzugreifen, wenn schnell reagiert werden muss?"
+              },
+              {
+                "text": "Wie wird dann zum Beispiel die Produktion von Strom aus Solar- und Windenergie hochgefahren?"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Elisabeth Winkelmeier-Becker",
+            "speakerstatus": "main-speaker",
+            "text": "Das ist in der Tat eine große Aufgabe. Aber wir gehen davon aus und tun auch alles dafür, dass wir das schaffen; denn wir nehmen das Ziel, bis 2050 treibhausgasneutral zu werden, sehr ernst. Das erfordert in der Tat einen Umbau, und der wird nicht ganz einfach, weil eben die Einspeisung und auch der Verbrauch volatil sind. Deshalb wird ein ganz wesentlicher Aspekt darauf beruhen, wie man das besser aufeinander abstimmen kann. Smart Grids, Verbrauchssteuerung und dergleichen sind hier die Stichworte.",
+            "sentences": [
+              {
+                "text": "Das ist in der Tat eine große Aufgabe."
+              },
+              {
+                "text": "Aber wir gehen davon aus und tun auch alles dafür, dass wir das schaffen; denn wir nehmen das Ziel, bis 2050 treibhausgasneutral zu werden, sehr ernst."
+              },
+              {
+                "text": "Das erfordert in der Tat einen Umbau, und der wird nicht ganz einfach, weil eben die Einspeisung und auch der Verbrauch volatil sind."
+              },
+              {
+                "text": "Deshalb wird ein ganz wesentlicher Aspekt darauf beruhen, wie man das besser aufeinander abstimmen kann."
+              },
+              {
+                "text": "Smart Grids, Verbrauchssteuerung und dergleichen sind hier die Stichworte."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Elisabeth Winkelmeier-Becker",
+            "speakerstatus": "main-speaker",
+            "text": "Im Übrigen ist die Vernetzung auf europäischer Ebene auch ein Teil der Stabilisierung. Wir werden uns aber noch andere Dinge einfallen lassen müssen, etwa in Bezug auf Wasserstoff – das wird ja im Moment auch sehr gefördert; es liegen große Hoffnungen und Optionen auf diesem Gebiet –, um die Grundlastfähigkeit zu ergänzen. Auch die Speicherthematik wird ein wichtiger Bereich sein. An all diesen Dingen müssen wir eben ganz konkret forschen und dort vorankommen, um die Spitzen ausgleichen und trotzdem Stabilität gewährleisten zu können.",
+            "sentences": [
+              {
+                "text": "Im Übrigen ist die Vernetzung auf europäischer Ebene auch ein Teil der Stabilisierung."
+              },
+              {
+                "text": "Wir werden uns aber noch andere Dinge einfallen lassen müssen, etwa in Bezug auf Wasserstoff – das wird ja im Moment auch sehr gefördert; es liegen große Hoffnungen und Optionen auf diesem Gebiet –, um die Grundlastfähigkeit zu ergänzen."
+              },
+              {
+                "text": "Auch die Speicherthematik wird ein wichtiger Bereich sein."
+              },
+              {
+                "text": "An all diesen Dingen müssen wir eben ganz konkret forschen und dort vorankommen, um die Spitzen ausgleichen und trotzdem Stabilität gewährleisten zu können."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "Vielen Dank. – Eine Frage von Herrn Hilse.",
+            "sentences": [
+              {
+                "text": "Vielen Dank."
+              },
+              {
+                "text": "– Eine Frage von Herrn Hilse."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Karsten Hilse",
+            "speakerstatus": "speaker",
+            "text": "Vielen Dank, Frau Präsidentin. – Frau Staatssekretärin, wenn ich Sie bei der ersten Antwort richtig verstanden habe, geht die Bundesregierung davon aus, dass die Bundesrepublik für längere Zeit oder – ich weiß nicht; vielleicht können Sie mich da korrigieren – für immer nicht in der Lage sein wird, Strom im eigenen Land fürs eigene Land zu produzieren. Denn Sie haben gerade gesagt, perspektivisch oder auf lange Sicht werde die Bundesrepublik quasi auf Stromimporte angewiesen sein. Habe ich Sie da richtig verstanden? Ich meine, es gab eine solche Aussage bereits vor zwei Jahren von der Bundeskanzlerin, dass man also in der Zeit von 2022 bis 2030 auf Stromimporte angewiesen sein wird, weil man nicht mehr in der Lage ist, mit dem eigenen Potenzial die Bundesrepublik sicher mit Strom zu versorgen. Habe ich Sie da richtig verstanden?",
+            "sentences": [
+              {
+                "text": "Vielen Dank, Frau Präsidentin."
+              },
+              {
+                "text": "– Frau Staatssekretärin, wenn ich Sie bei der ersten Antwort richtig verstanden habe, geht die Bundesregierung davon aus, dass die Bundesrepublik für längere Zeit oder – ich weiß nicht; vielleicht können Sie mich da korrigieren – für immer nicht in der Lage sein wird, Strom im eigenen Land fürs eigene Land zu produzieren."
+              },
+              {
+                "text": "Denn Sie haben gerade gesagt, perspektivisch oder auf lange Sicht werde die Bundesrepublik quasi auf Stromimporte angewiesen sein."
+              },
+              {
+                "text": "Habe ich Sie da richtig verstanden?"
+              },
+              {
+                "text": "Ich meine, es gab eine solche Aussage bereits vor zwei Jahren von der Bundeskanzlerin, dass man also in der Zeit von 2022 bis 2030 auf Stromimporte angewiesen sein wird, weil man nicht mehr in der Lage ist, mit dem eigenen Potenzial die Bundesrepublik sicher mit Strom zu versorgen."
+              },
+              {
+                "text": "Habe ich Sie da richtig verstanden?"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Elisabeth Winkelmeier-Becker",
+            "speakerstatus": "main-speaker",
+            "text": "Ich habe gesagt, dass wir Energie importieren werden.",
+            "sentences": [
+              {
+                "text": "Ich habe gesagt, dass wir Energie importieren werden."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Elisabeth Winkelmeier-Becker",
+            "speakerstatus": "main-speaker",
+            "text": "Aber wir importieren im Moment ebenfalls Energie in großem Umfang – Mineralöl, Gas, Steinkohle, teilweise auch Windstrom oder Wasserstrom – aus Nachbarländern oder Ländern wie Norwegen und dergleichen. Das ist also nichts Neues.",
+            "sentences": [
+              {
+                "text": "Aber wir importieren im Moment ebenfalls Energie in großem Umfang – Mineralöl, Gas, Steinkohle, teilweise auch Windstrom oder Wasserstrom – aus Nachbarländern oder Ländern wie Norwegen und dergleichen."
+              },
+              {
+                "text": "Das ist also nichts Neues."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Elisabeth Winkelmeier-Becker",
+            "speakerstatus": "main-speaker",
+            "text": "Herr Kollege Brandner hatte gefragt: Wann wird der Tag kommen, an dem wir uns vollständig mit in Deutschland produziertem Solarstrom und Wasserstoff versorgen können?",
+            "sentences": [
+              {
+                "text": "Herr Kollege Brandner hatte gefragt: Wann wird der Tag kommen, an dem wir uns vollständig mit in Deutschland produziertem Solarstrom und Wasserstoff versorgen können?"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Elisabeth Winkelmeier-Becker",
+            "speakerstatus": "main-speaker",
+            "text": "– Entschuldigung, Solar- und Windenergie. – Darauf habe ich geantwortet, dass wir davon ausgehen, dass wir auch weiterhin Energie importieren werden. Das wird zum Beispiel auch Wasserstoff umfassen, der durch Solarenergie, zum Beispiel in Nordafrika, hergestellt werden kann. Wir haben konkrete Partnerschaften mit Chile – da engagiert sich zum Beispiel Siemens –, und andere Partnerländer werden hier adressiert werden. Da werden wir Partnerschaften aufbauen, um genau das dann auch sicherzustellen.",
+            "sentences": [
+              {
+                "text": "– Entschuldigung, Solar- und Windenergie."
+              },
+              {
+                "text": "– Darauf habe ich geantwortet, dass wir davon ausgehen, dass wir auch weiterhin Energie importieren werden."
+              },
+              {
+                "text": "Das wird zum Beispiel auch Wasserstoff umfassen, der durch Solarenergie, zum Beispiel in Nordafrika, hergestellt werden kann."
+              },
+              {
+                "text": "Wir haben konkrete Partnerschaften mit Chile – da engagiert sich zum Beispiel Siemens –, und andere Partnerländer werden hier adressiert werden."
+              },
+              {
+                "text": "Da werden wir Partnerschaften aufbauen, um genau das dann auch sicherzustellen."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "Vielen Dank. – Dann kommen wir zur Frage 3 des Kollegen Tobias Matthias Peterka:",
+            "sentences": [
+              {
+                "text": "Vielen Dank."
+              },
+              {
+                "text": "– Dann kommen wir zur Frage 3 des Kollegen Tobias Matthias Peterka:"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "Frau Staatssekretärin.",
+            "sentences": [
+              {
+                "text": "Frau Staatssekretärin."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Elisabeth Winkelmeier-Becker",
+            "speakerstatus": "main-speaker",
+            "text": "Herr Kollege Peterka, der Gesetzentwurf des Bundesministeriums für Wirtschaft und Energie sieht die Errichtung der Deutschen Industrie- und Handelskammer durch Umwandlung des DIHK e. V. in eine Körperschaft des öffentlichen Rechts mit einer gesetzlichen Mitgliedschaft aller IHKs in der Bundeskammer vor. Der Gesetzentwurf fasst zudem teilweise § 1 IHK-Gesetz neu. Dabei erfolgt aber gerade keine Erweiterung des Kompetenzrahmens, sondern lediglich eine Klarstellung und Modernisierung des Wortlauts. Eine Erweiterung der Kompetenzen der IHKs wäre aus verfassungsrechtlichen Gründen auch nicht möglich.",
+            "sentences": [
+              {
+                "text": "Herr Kollege Peterka, der Gesetzentwurf des Bundesministeriums für Wirtschaft und Energie sieht die Errichtung der Deutschen Industrie- und Handelskammer durch Umwandlung des DIHK e. V. in eine Körperschaft des öffentlichen Rechts mit einer gesetzlichen Mitgliedschaft aller IHKs in der Bundeskammer vor."
+              },
+              {
+                "text": "Der Gesetzentwurf fasst zudem teilweise § 1 IHK-Gesetz neu."
+              },
+              {
+                "text": "Dabei erfolgt aber gerade keine Erweiterung des Kompetenzrahmens, sondern lediglich eine Klarstellung und Modernisierung des Wortlauts."
+              },
+              {
+                "text": "Eine Erweiterung der Kompetenzen der IHKs wäre aus verfassungsrechtlichen Gründen auch nicht möglich."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Elisabeth Winkelmeier-Becker",
+            "speakerstatus": "main-speaker",
+            "text": "Um die Rechte der Pflichtmitglieder zu gewährleisten und Kompetenzüberschreitungen zu verhindern, wird die neue gesetzliche Mitgliedschaft im DIHK e. V. während der Übergangszeit und später dann in der Bundeskammer von weiteren Maßnahmen flankiert. Dazu sieht der Gesetzentwurf die Aufsicht des Bundesministeriums für Wirtschaft und Energie und die Prüfung der Haushalts- und Wirtschaftsführung durch den Bundesrechnungshof vor.",
+            "sentences": [
+              {
+                "text": "Um die Rechte der Pflichtmitglieder zu gewährleisten und Kompetenzüberschreitungen zu verhindern, wird die neue gesetzliche Mitgliedschaft im DIHK e. V. während der Übergangszeit und später dann in der Bundeskammer von weiteren Maßnahmen flankiert."
+              },
+              {
+                "text": "Dazu sieht der Gesetzentwurf die Aufsicht des Bundesministeriums für Wirtschaft und Energie und die Prüfung der Haushalts- und Wirtschaftsführung durch den Bundesrechnungshof vor."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Elisabeth Winkelmeier-Becker",
+            "speakerstatus": "main-speaker",
+            "text": "Des Weiteren regelt der Gesetzentwurf schon während der Übergangszeit ein gesetzliches Klagerecht der IHKs und ihrer Mitglieder gegenüber dem DIHK e. V., später dann gegenüber der Bundeskammer, auf Unterlassung kompetenzüberschreitenden Verhaltens. Dieser Anspruch wird durch ein Beschwerdeverfahren als Vorverfahren verstärkt. Beide Verfahren dienen der Durchsetzung der Mitgliederrechte.",
+            "sentences": [
+              {
+                "text": "Des Weiteren regelt der Gesetzentwurf schon während der Übergangszeit ein gesetzliches Klagerecht der IHKs und ihrer Mitglieder gegenüber dem DIHK e. V., später dann gegenüber der Bundeskammer, auf Unterlassung kompetenzüberschreitenden Verhaltens."
+              },
+              {
+                "text": "Dieser Anspruch wird durch ein Beschwerdeverfahren als Vorverfahren verstärkt."
+              },
+              {
+                "text": "Beide Verfahren dienen der Durchsetzung der Mitgliederrechte."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "Vielen Dank. – Herr Peterka.",
+            "sentences": [
+              {
+                "text": "Vielen Dank."
+              },
+              {
+                "text": "– Herr Peterka."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Tobias Matthias Peterka",
+            "speakerstatus": "speaker",
+            "text": "Vielen Dank für diese Ausführungen. – Die Fragestellung zielt ja auch darauf ab, wie Sie zu dem Umstand stehen, dass der DIHK als – bisher noch – e. V. wiederholt allgemeinpolitische Aussagen tätigte. Davon sind einige meiner Meinung nach nicht so gut gewesen; andere waren hingegen sehr gut, zum Beispiel das Bekenntnis zum Existenzrecht Israels gegenüber einer Kooperation mit dem Iran in wirtschaftlicher Hinsicht. Wie stehen Sie zu dieser Aussage? Wäre es in dieser neuen Körperschaft noch zulässig, dass man sich zum Beispiel zu Israel bekennt?",
+            "sentences": [
+              {
+                "text": "Vielen Dank für diese Ausführungen."
+              },
+              {
+                "text": "– Die Fragestellung zielt ja auch darauf ab, wie Sie zu dem Umstand stehen, dass der DIHK als – bisher noch – e. V. wiederholt allgemeinpolitische Aussagen tätigte."
+              },
+              {
+                "text": "Davon sind einige meiner Meinung nach nicht so gut gewesen; andere waren hingegen sehr gut, zum Beispiel das Bekenntnis zum Existenzrecht Israels gegenüber einer Kooperation mit dem Iran in wirtschaftlicher Hinsicht."
+              },
+              {
+                "text": "Wie stehen Sie zu dieser Aussage?"
+              },
+              {
+                "text": "Wäre es in dieser neuen Körperschaft noch zulässig, dass man sich zum Beispiel zu Israel bekennt?"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Elisabeth Winkelmeier-Becker",
+            "speakerstatus": "main-speaker",
+            "text": "Wir gehen davon aus, dass es auf jeden Fall immer einen wirtschaftlichen Bezug geben muss, zu dem sich der Präsident der Kammer äußern darf. Wir gehen davon aus, dass die restriktive Rechtsprechung, die wir bisher sehen, hier doch überdacht wird, dass also klargemacht wird, dass man sich zum Beispiel zum Berufsbildungsgesetz und damit im Zusammenhang zur Mindestausbildungsvergütung in schriftlichen Stellungnahmen verhalten darf. Das wurde von der Rechtsprechung anders gehandhabt, und wir erwarten, dass sich der DIHK in Stellungnahmen, auch im politischen Bereich, zu solchen Fragen äußern kann. Der Fall, den Sie angesprochen haben, würde aller Voraussicht nach wesentlich vom Kontext der Äußerung abhängen. Eine bloße Äußerung zu außenpolitischen Fragestellungen würde nicht darunterfallen. Maßgeblich ist aber der wirtschaftliche Kontext, der auch eine solche Aussage ermöglichen kann.",
+            "sentences": [
+              {
+                "text": "Wir gehen davon aus, dass es auf jeden Fall immer einen wirtschaftlichen Bezug geben muss, zu dem sich der Präsident der Kammer äußern darf."
+              },
+              {
+                "text": "Wir gehen davon aus, dass die restriktive Rechtsprechung, die wir bisher sehen, hier doch überdacht wird, dass also klargemacht wird, dass man sich zum Beispiel zum Berufsbildungsgesetz und damit im Zusammenhang zur Mindestausbildungsvergütung in schriftlichen Stellungnahmen verhalten darf."
+              },
+              {
+                "text": "Das wurde von der Rechtsprechung anders gehandhabt, und wir erwarten, dass sich der DIHK in Stellungnahmen, auch im politischen Bereich, zu solchen Fragen äußern kann."
+              },
+              {
+                "text": "Der Fall, den Sie angesprochen haben, würde aller Voraussicht nach wesentlich vom Kontext der Äußerung abhängen."
+              },
+              {
+                "text": "Eine bloße Äußerung zu außenpolitischen Fragestellungen würde nicht darunterfallen."
+              },
+              {
+                "text": "Maßgeblich ist aber der wirtschaftliche Kontext, der auch eine solche Aussage ermöglichen kann."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "Danke schön, Frau Staatssekretärin. – Haben Sie eine Rückfrage? – Ja. Bitte.",
+            "sentences": [
+              {
+                "text": "Danke schön, Frau Staatssekretärin."
+              },
+              {
+                "text": "– Haben Sie eine Rückfrage?"
+              },
+              {
+                "text": "– Ja."
+              },
+              {
+                "text": "Bitte."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Tobias Matthias Peterka",
+            "speakerstatus": "speaker",
+            "text": "Der DIHK, der Handelskammertag, ist eine ganz altehrwürdige Einrichtung, besteht seit über 100 Jahren und ist auch eine liberale Einrichtung; daher ist er bis heute ein e. V. Durch das Urteil des Bundesverwaltungsgerichts etc. kam es ja dazu, dass vonseiten der Regierung dafür gesorgt werden soll, dass örtliche Handelskammern nicht gezwungen sind, auszutreten; das wissen Sie alles. Die SPD scheint jetzt dagegenzuschießen, eben weil der SPD wohl einige Äußerungen des DIHK-Präsidenten zu – ich nenne es mal – liberal im weitesten Sinn waren. Wie verhält sich die Regierung zu diesem internen Streit, dazu, dass die SPD die Umwandlung in eine Körperschaft wohl doch nicht will?",
+            "sentences": [
+              {
+                "text": "Der DIHK, der Handelskammertag, ist eine ganz altehrwürdige Einrichtung, besteht seit über 100 Jahren und ist auch eine liberale Einrichtung; daher ist er bis heute ein e. V. Durch das Urteil des Bundesverwaltungsgerichts etc. kam es ja dazu, dass vonseiten der Regierung dafür gesorgt werden soll, dass örtliche Handelskammern nicht gezwungen sind, auszutreten; das wissen Sie alles."
+              },
+              {
+                "text": "Die SPD scheint jetzt dagegenzuschießen, eben weil der SPD wohl einige Äußerungen des DIHK-Präsidenten zu – ich nenne es mal – liberal im weitesten Sinn waren."
+              },
+              {
+                "text": "Wie verhält sich die Regierung zu diesem internen Streit, dazu, dass die SPD die Umwandlung in eine Körperschaft wohl doch nicht will?"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "Frau Staatssekretärin.",
+            "sentences": [
+              {
+                "text": "Frau Staatssekretärin."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Elisabeth Winkelmeier-Becker",
+            "speakerstatus": "main-speaker",
+            "text": "Genau. Da sind wir noch in einem Stadium der Abstimmung. Ich bin optimistisch, dass wir uns einigen. Sicherlich ist auch dem Koalitionspartner daran gelegen, auf dieser Ebene eine bundesweite einheitliche Organisation zu erhalten. Dem dient das Ganze. Das ist gefährdet, wenn die Rechtsprechung dazu führt, dass einzelne Kammern aussteigen. Es ist das Anliegen des Hauses und, denke ich, auch der Koalition, dass wir dem eine neue Grundlage geben, um weiterhin eine einheitliche Vertretung zu gewährleisten und um Kompetenzüberschreitungen zu verhindern.",
+            "sentences": [
+              {
+                "text": "Genau."
+              },
+              {
+                "text": "Da sind wir noch in einem Stadium der Abstimmung."
+              },
+              {
+                "text": "Ich bin optimistisch, dass wir uns einigen."
+              },
+              {
+                "text": "Sicherlich ist auch dem Koalitionspartner daran gelegen, auf dieser Ebene eine bundesweite einheitliche Organisation zu erhalten."
+              },
+              {
+                "text": "Dem dient das Ganze."
+              },
+              {
+                "text": "Das ist gefährdet, wenn die Rechtsprechung dazu führt, dass einzelne Kammern aussteigen."
+              },
+              {
+                "text": "Es ist das Anliegen des Hauses und, denke ich, auch der Koalition, dass wir dem eine neue Grundlage geben, um weiterhin eine einheitliche Vertretung zu gewährleisten und um Kompetenzüberschreitungen zu verhindern."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "Vielen Dank. – Ich rufe dann Frage 4 des Kollegen Dr. Anton Friesen auf:",
+            "sentences": [
+              {
+                "text": "Vielen Dank."
+              },
+              {
+                "text": "– Ich rufe dann Frage 4 des Kollegen Dr. Anton Friesen auf:"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Elisabeth Winkelmeier-Becker",
+            "speakerstatus": "main-speaker",
+            "text": "Sehr geehrter Herr Friesen, die Verordnung des Rates über restriktive Maßnahmen angesichts von Handlungen, die die territoriale Unversehrtheit, Souveränität und Unabhängigkeit der Ukraine untergraben oder bedrohen, ist am 17. März 2014 in Kraft getreten. Die seitdem in Deutschland eingefrorenen Gelder und Vermögenswerte lassen sich aufgeschlüsselt nach Jahren beziffern. Dabei wurde der Gegenwert in Euro jeweils auf ganze Beträge zum 31. Dezember gerundet. Im Jahr 2014 betrug der Wert der in Deutschland eingefrorenen Gelder und Vermögenswerte 134 126 Euro. Im Jahr 2015 waren es 124 404 Euro. 2016 waren es 124 484 Euro. Im Jahr 2017 betrug der Wert 284 415 Euro. 2018 waren es 485 428 Euro. Im folgenden Jahr belief sich der Wert auf 336 836 Euro und im Jahr 2020 auf 341 134 Euro.",
+            "sentences": [
+              {
+                "text": "Sehr geehrter Herr Friesen, die Verordnung des Rates über restriktive Maßnahmen angesichts von Handlungen, die die territoriale Unversehrtheit, Souveränität und Unabhängigkeit der Ukraine untergraben oder bedrohen, ist am 17. März 2014 in Kraft getreten."
+              },
+              {
+                "text": "Die seitdem in Deutschland eingefrorenen Gelder und Vermögenswerte lassen sich aufgeschlüsselt nach Jahren beziffern."
+              },
+              {
+                "text": "Dabei wurde der Gegenwert in Euro jeweils auf ganze Beträge zum 31. Dezember gerundet."
+              },
+              {
+                "text": "Im Jahr 2014 betrug der Wert der in Deutschland eingefrorenen Gelder und Vermögenswerte 134 126 Euro."
+              },
+              {
+                "text": "Im Jahr 2015 waren es 124 404 Euro."
+              },
+              {
+                "text": "2016 waren es 124 484 Euro."
+              },
+              {
+                "text": "Im Jahr 2017 betrug der Wert 284 415 Euro."
+              },
+              {
+                "text": "2018 waren es 485 428 Euro."
+              },
+              {
+                "text": "Im folgenden Jahr belief sich der Wert auf 336 836 Euro und im Jahr 2020 auf 341 134 Euro."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Elisabeth Winkelmeier-Becker",
+            "speakerstatus": "main-speaker",
+            "text": "Die EU-Mitgliedstaaten Irland, Italien, Niederlande und Zypern haben in der Datenbank der EU-Kommission zu eingefrorenen Vermögenswerten ebenfalls Werte hinterlegt. Eintragungen waren ab 2015 möglich. Diese habe ich auch für Sie. Für das Jahr 2018 vermerkte Irland einen Wert von 24 091 Euro, Italien meldete 93 781 Euro, Niederlande 806 Euro und Zypern 3 117 680 Euro. Für 2019 meldete Irland einen Wert von 76 686 Euro, Italien 148 053 Euro und die Niederlande 819 Euro. Für das Jahr 2020 waren es bei der Niederlande 761 Euro. Für 2015 bis 2017 liegen keine Eintragungen in der Datenbank vor.",
+            "sentences": [
+              {
+                "text": "Die EU-Mitgliedstaaten Irland, Italien, Niederlande und Zypern haben in der Datenbank der EU-Kommission zu eingefrorenen Vermögenswerten ebenfalls Werte hinterlegt."
+              },
+              {
+                "text": "Eintragungen waren ab 2015 möglich."
+              },
+              {
+                "text": "Diese habe ich auch für Sie."
+              },
+              {
+                "text": "Für das Jahr 2018 vermerkte Irland einen Wert von 24 091 Euro, Italien meldete 93 781 Euro, Niederlande 806 Euro und Zypern 3 117 680 Euro."
+              },
+              {
+                "text": "Für 2019 meldete Irland einen Wert von 76 686 Euro, Italien 148 053 Euro und die Niederlande 819 Euro."
+              },
+              {
+                "text": "Für das Jahr 2020 waren es bei der Niederlande 761 Euro."
+              },
+              {
+                "text": "Für 2015 bis 2017 liegen keine Eintragungen in der Datenbank vor."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "Herr Dr. Friesen.",
+            "sentences": [
+              {
+                "text": "Herr Dr. Friesen."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Anton Friesen",
+            "speakerstatus": "speaker",
+            "text": "Vielen Dank, Frau Präsidentin. – Vielen Dank, Frau Staatssekretärin. Gibt es denn Vermögenswerte oder Geldbeträge, bei denen die Sanktionen wieder aufgehoben wurden, vielleicht wieder rückgängig gemacht wurden und, wenn ja, aus welchem Anlass?",
+            "sentences": [
+              {
+                "text": "Vielen Dank, Frau Präsidentin."
+              },
+              {
+                "text": "– Vielen Dank, Frau Staatssekretärin."
+              },
+              {
+                "text": "Gibt es denn Vermögenswerte oder Geldbeträge, bei denen die Sanktionen wieder aufgehoben wurden, vielleicht wieder rückgängig gemacht wurden und, wenn ja, aus welchem Anlass?"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Elisabeth Winkelmeier-Becker",
+            "speakerstatus": "main-speaker",
+            "text": "Das ergibt sich aus den Listen nicht. Man kann aber davon ausgehen, dass diese kleinen Schwankungen häufig nur Umrechnungsschwankungen sind. In einem Fall ist die Zahl auf deutscher Seite etwas geringer geworden. Das liegt daran, dass eine individuelle Person aus der Liste herausgestrichen wurde und dann das entsprechende Vermögen von ihr, das eingefroren war, freigegeben werden konnte.",
+            "sentences": [
+              {
+                "text": "Das ergibt sich aus den Listen nicht."
+              },
+              {
+                "text": "Man kann aber davon ausgehen, dass diese kleinen Schwankungen häufig nur Umrechnungsschwankungen sind."
+              },
+              {
+                "text": "In einem Fall ist die Zahl auf deutscher Seite etwas geringer geworden."
+              },
+              {
+                "text": "Das liegt daran, dass eine individuelle Person aus der Liste herausgestrichen wurde und dann das entsprechende Vermögen von ihr, das eingefroren war, freigegeben werden konnte."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "Vielen Dank. – Dr. Friesen, haben Sie noch eine Frage?",
+            "sentences": [
+              {
+                "text": "Vielen Dank."
+              },
+              {
+                "text": "– Dr. Friesen, haben Sie noch eine Frage?"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Anton Friesen",
+            "speakerstatus": "speaker",
+            "text": "Ja. – Unsere US-amerikanischen Partner haben ja bekanntlich auch Sanktionen eingeführt, mittels derer auch Vermögenswerte und Geldbeträge eingefroren wurden. Liegen der Bundesregierung hierzu auch Zahlen vor? Wie haben sich die Zahlen entwickelt?",
+            "sentences": [
+              {
+                "text": "Ja."
+              },
+              {
+                "text": "– Unsere US-amerikanischen Partner haben ja bekanntlich auch Sanktionen eingeführt, mittels derer auch Vermögenswerte und Geldbeträge eingefroren wurden."
+              },
+              {
+                "text": "Liegen der Bundesregierung hierzu auch Zahlen vor?"
+              },
+              {
+                "text": "Wie haben sich die Zahlen entwickelt?"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Elisabeth Winkelmeier-Becker",
+            "speakerstatus": "main-speaker",
+            "text": "Die liegen leider nicht vor. Es gibt nur diese europäische Datenbankinformationsstelle, und sie ist auch nicht öffentlich zugänglich. Es gab keine Bedenken, diese Zahlen hier vorzutragen. Aber ansonsten werden darüber keine Informationen öffentlich ausgetauscht.",
+            "sentences": [
+              {
+                "text": "Die liegen leider nicht vor."
+              },
+              {
+                "text": "Es gibt nur diese europäische Datenbankinformationsstelle, und sie ist auch nicht öffentlich zugänglich."
+              },
+              {
+                "text": "Es gab keine Bedenken, diese Zahlen hier vorzutragen."
+              },
+              {
+                "text": "Aber ansonsten werden darüber keine Informationen öffentlich ausgetauscht."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "Danke schön. – Nachfrage? Dr. Kraft.",
+            "sentences": [
+              {
+                "text": "Danke schön."
+              },
+              {
+                "text": "– Nachfrage?"
+              },
+              {
+                "text": "Dr. Kraft."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Rainer Kraft",
+            "speakerstatus": "speaker",
+            "text": "Vielen Dank, Frau Präsidentin. – Frau Staatssekretärin, die Zahlen, die Höhe der Beträge, die Sie genannt haben, sind ja, mit Verlaub gesagt, erklecklich. Mit Ausnahme eines Jahres in Zypern hat man niemals den Millionenbereich erreicht. Wie groß sind denn die Verluste der deutschen Wirtschaft, insbesondere der Landwirtschaft, die die deutsche Wirtschaft aufgrund der Sanktionen gegen Russland erleiden musste? Und wie steht das im Verhältnis dazu, dass hier wenige Hunderttausend Euro eingefroren sind?",
+            "sentences": [
+              {
+                "text": "Vielen Dank, Frau Präsidentin."
+              },
+              {
+                "text": "– Frau Staatssekretärin, die Zahlen, die Höhe der Beträge, die Sie genannt haben, sind ja, mit Verlaub gesagt, erklecklich."
+              },
+              {
+                "text": "Mit Ausnahme eines Jahres in Zypern hat man niemals den Millionenbereich erreicht."
+              },
+              {
+                "text": "Wie groß sind denn die Verluste der deutschen Wirtschaft, insbesondere der Landwirtschaft, die die deutsche Wirtschaft aufgrund der Sanktionen gegen Russland erleiden musste?"
+              },
+              {
+                "text": "Und wie steht das im Verhältnis dazu, dass hier wenige Hunderttausend Euro eingefroren sind?"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "Die Frau Staatssekretärin war jetzt gefragt.",
+            "sentences": [
+              {
+                "text": "Die Frau Staatssekretärin war jetzt gefragt."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Elisabeth Winkelmeier-Becker",
+            "speakerstatus": "main-speaker",
+            "text": "Also ich würde sagen, das ist eine komplett andere Frage. Ich kann sie gerne mitnehmen; Sie können sie auch gerne schriftlich stellen. Das hat mit der Frage, welche Beträge hier eingefroren worden sind, nur bedingt etwas zu tun. Jedenfalls würde ich auch nicht auf den Gedanken kommen, das eine gegen das andere aufzurechnen.",
+            "sentences": [
+              {
+                "text": "Also ich würde sagen, das ist eine komplett andere Frage."
+              },
+              {
+                "text": "Ich kann sie gerne mitnehmen; Sie können sie auch gerne schriftlich stellen."
+              },
+              {
+                "text": "Das hat mit der Frage, welche Beträge hier eingefroren worden sind, nur bedingt etwas zu tun."
+              },
+              {
+                "text": "Jedenfalls würde ich auch nicht auf den Gedanken kommen, das eine gegen das andere aufzurechnen."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Elisabeth Winkelmeier-Becker",
+            "speakerstatus": "main-speaker",
+            "text": "Es geht nicht darum, einen Schaden zu kompensieren, sondern es geht darum, dass wir Leute, die für ein bestimmtes Verhalten Verantwortung tragen, für die Gefährdung anderer, für die Verletzung anderer, aufgrund unserer Werte sanktionieren und auf diese persönlich einen gewissen Druck ausüben wollen.",
+            "sentences": [
+              {
+                "text": "Es geht nicht darum, einen Schaden zu kompensieren, sondern es geht darum, dass wir Leute, die für ein bestimmtes Verhalten Verantwortung tragen, für die Gefährdung anderer, für die Verletzung anderer, aufgrund unserer Werte sanktionieren und auf diese persönlich einen gewissen Druck ausüben wollen."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "Vielen Dank. – Ich rufe Frage 5 von Dr. Anton Friesen auf:",
+            "sentences": [
+              {
+                "text": "Vielen Dank."
+              },
+              {
+                "text": "– Ich rufe Frage 5 von Dr. Anton Friesen auf:"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Elisabeth Winkelmeier-Becker",
+            "speakerstatus": "main-speaker",
+            "text": "Die im Bundeshaushalt bereitgestellten Mittel können nach den zwischen dem Bund und den Ländern abgeschlossenen Verwaltungsvereinbarungen in Höhe der voraussichtlichen Zahlungen, die sich aufgrund der bei den Ländern eingegangenen Anträge ergeben, abgerufen werden.",
+            "sentences": [
+              {
+                "text": "Die im Bundeshaushalt bereitgestellten Mittel können nach den zwischen dem Bund und den Ländern abgeschlossenen Verwaltungsvereinbarungen in Höhe der voraussichtlichen Zahlungen, die sich aufgrund der bei den Ländern eingegangenen Anträge ergeben, abgerufen werden."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Elisabeth Winkelmeier-Becker",
+            "speakerstatus": "main-speaker",
+            "text": "Für die Corona-Soforthilfe wurden für den Förderzeitraum von drei aufeinanderfolgenden Monaten im Zeitraum Ende März bis Juni rund 2,2 Millionen Anträge eingereicht. Davon wurden bisher rund 1,8 Millionen Anträge bewilligt. Dies entspricht einem Bewilligungsvolumen in Höhe von 13,8 Milliarden Euro. Das tatsächliche Auszahlungsvolumen beträgt mit Stand 30. November 2020 über 13,5 Milliarden Euro. In 2020 standen für das Programm Corona-Soforthilfe insgesamt 18 Milliarden Euro zur Verfügung, sodass rund 75 Prozent von den Ländern abgerufen wurden.",
+            "sentences": [
+              {
+                "text": "Für die Corona-Soforthilfe wurden für den Förderzeitraum von drei aufeinanderfolgenden Monaten im Zeitraum Ende März bis Juni rund 2,2 Millionen Anträge eingereicht."
+              },
+              {
+                "text": "Davon wurden bisher rund 1,8 Millionen Anträge bewilligt."
+              },
+              {
+                "text": "Dies entspricht einem Bewilligungsvolumen in Höhe von 13,8 Milliarden Euro."
+              },
+              {
+                "text": "Das tatsächliche Auszahlungsvolumen beträgt mit Stand 30. November 2020 über 13,5 Milliarden Euro."
+              },
+              {
+                "text": "In 2020 standen für das Programm Corona-Soforthilfe insgesamt 18 Milliarden Euro zur Verfügung, sodass rund 75 Prozent von den Ländern abgerufen wurden."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Elisabeth Winkelmeier-Becker",
+            "speakerstatus": "main-speaker",
+            "text": "Für die Corona-Überbrückungshilfen sowie für die Novemberhilfen standen im letzten Jahr insgesamt 24,6 Milliarden Euro zur Verfügung, die in Höhe von rund 3,9 Milliarden Euro – das sind rund 16 Prozent – von den Ländern abgerufen bzw. vom Bund als Abschlagszahlungen direkt ausgezahlt wurden. Dabei wurden für die Überbrückungshilfe I für den Förderzeitraum Juni bis August 2020 rund 127 500 Anträge mit einem Antragsvolumen von rund 1,5 Milliarden Euro eingereicht, die von den Ländern bewilligt und ausgezahlt wurden. Für die Überbrückungshilfe II, die den Förderzeitraum September bis Dezember 2020 umfasst, liegen bereits rund 106 500 Anträge mit einem Antragsvolumen von rund 1,8 Milliarden Euro vor, die in Höhe von rund 1,3 Milliarden Euro von den Ländern bewilligt und ausgezahlt wurden. Die Novemberhilfe wurde bereits von über 280 000 direkt und indirekt von den Schließungsmaßnahmen im November 2020 betroffenen Unternehmen und Selbstständigen in Höhe von rund 4,5 Milliarden Euro beantragt. Abschlagszahlungen wurden bereits in Höhe von rund 1,3 Milliarden Euro gewährt. Für die Dezemberhilfe liegen rund 98 000 Anträge mit einem Fördervolumen von rund 1,2 Milliarden Euro vor. Abschlagszahlungen wurden bereits in Höhe von rund 600 Millionen Euro gewährt.",
+            "sentences": [
+              {
+                "text": "Für die Corona-Überbrückungshilfen sowie für die Novemberhilfen standen im letzten Jahr insgesamt 24,6 Milliarden Euro zur Verfügung, die in Höhe von rund 3,9 Milliarden Euro – das sind rund 16 Prozent – von den Ländern abgerufen bzw. vom Bund als Abschlagszahlungen direkt ausgezahlt wurden."
+              },
+              {
+                "text": "Dabei wurden für die Überbrückungshilfe I für den Förderzeitraum Juni bis August 2020 rund 127 500 Anträge mit einem Antragsvolumen von rund 1,5 Milliarden Euro eingereicht, die von den Ländern bewilligt und ausgezahlt wurden."
+              },
+              {
+                "text": "Für die Überbrückungshilfe II, die den Förderzeitraum September bis Dezember 2020 umfasst, liegen bereits rund 106 500 Anträge mit einem Antragsvolumen von rund 1,8 Milliarden Euro vor, die in Höhe von rund 1,3 Milliarden Euro von den Ländern bewilligt und ausgezahlt wurden."
+              },
+              {
+                "text": "Die Novemberhilfe wurde bereits von über 280 000 direkt und indirekt von den Schließungsmaßnahmen im November 2020 betroffenen Unternehmen und Selbstständigen in Höhe von rund 4,5 Milliarden Euro beantragt."
+              },
+              {
+                "text": "Abschlagszahlungen wurden bereits in Höhe von rund 1,3 Milliarden Euro gewährt."
+              },
+              {
+                "text": "Für die Dezemberhilfe liegen rund 98 000 Anträge mit einem Fördervolumen von rund 1,2 Milliarden Euro vor."
+              },
+              {
+                "text": "Abschlagszahlungen wurden bereits in Höhe von rund 600 Millionen Euro gewährt."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Elisabeth Winkelmeier-Becker",
+            "speakerstatus": "main-speaker",
+            "text": "Die durch die KfW-Kredite bereitgestellte – –",
+            "sentences": [
+              {
+                "text": "Die durch die KfW-Kredite bereitgestellte – –"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "Frau Kollegin, Sie müssen wirklich zum Ende kommen.",
+            "sentences": [
+              {
+                "text": "Frau Kollegin, Sie müssen wirklich zum Ende kommen."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Elisabeth Winkelmeier-Becker",
+            "speakerstatus": "main-speaker",
+            "text": "Gut, dann mache ich hier einen Cut.",
+            "sentences": [
+              {
+                "text": "Gut, dann mache ich hier einen Cut."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "Herr Dr. Friesen, Sie können ja nachfragen.",
+            "sentences": [
+              {
+                "text": "Herr Dr. Friesen, Sie können ja nachfragen."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Anton Friesen",
+            "speakerstatus": "speaker",
+            "text": "Ja, vielen Dank. – Mich würde freuen, wenn Sie vielleicht auch die Zahlen für den Freistaat Thüringen aufführen oder nachreichen könnten.",
+            "sentences": [
+              {
+                "text": "Ja, vielen Dank."
+              },
+              {
+                "text": "– Mich würde freuen, wenn Sie vielleicht auch die Zahlen für den Freistaat Thüringen aufführen oder nachreichen könnten."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Elisabeth Winkelmeier-Becker",
+            "speakerstatus": "main-speaker",
+            "text": "Mache ich.",
+            "sentences": [
+              {
+                "text": "Mache ich."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Anton Friesen",
+            "speakerstatus": "speaker",
+            "text": "Danke.",
+            "sentences": [
+              {
+                "text": "Danke."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "Haben Sie eine weitere Frage? – Danke schön. – Dann hat sich Herr Brandner gemeldet.",
+            "sentences": [
+              {
+                "text": "Haben Sie eine weitere Frage?"
+              },
+              {
+                "text": "– Danke schön."
+              },
+              {
+                "text": "– Dann hat sich Herr Brandner gemeldet."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Stephan Brandner",
+            "speakerstatus": "speaker",
+            "text": "Vielen Dank. – Frau Winkelmeier-Becker, wir stecken ja in einer riesengroßen Wirtschaftskrise. Hunderttausende, Millionen Arbeitslose, Hunderttausende, Millionen Kurzarbeiter, Zehntausende, Hunderttausende, möglicherweise auch Millionen Selbstständige stehen vor den Trümmern, vor den Scherben ihrer Existenz – warum? –, weil die Bundesregierung im letzten Jahr kopf- und planlos „Wirtschaftspolitik“ gemacht hat. Die Wirtschaft ist jetzt zum zweiten Mal runtergefahren. Sie haben Hunderte Milliarden Euro Schäden verursacht durch diese unsägliche Coronapolitik der Bundesregierung.",
+            "sentences": [
+              {
+                "text": "Vielen Dank."
+              },
+              {
+                "text": "– Frau Winkelmeier-Becker, wir stecken ja in einer riesengroßen Wirtschaftskrise."
+              },
+              {
+                "text": "Hunderttausende, Millionen Arbeitslose, Hunderttausende, Millionen Kurzarbeiter, Zehntausende, Hunderttausende, möglicherweise auch Millionen Selbstständige stehen vor den Trümmern, vor den Scherben ihrer Existenz – warum?"
+              },
+              {
+                "text": "–, weil die Bundesregierung im letzten Jahr kopf- und planlos „Wirtschaftspolitik“ gemacht hat."
+              },
+              {
+                "text": "Die Wirtschaft ist jetzt zum zweiten Mal runtergefahren."
+              },
+              {
+                "text": "Sie haben Hunderte Milliarden Euro Schäden verursacht durch diese unsägliche Coronapolitik der Bundesregierung."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Stephan Brandner",
+            "speakerstatus": "speaker",
+            "text": "Jetzt gibt es Millionen Betroffene, die diese Hunderte Milliardenschäden irgendwie tragen müssen. Es gibt aber kaum eine Anspruchsgrundlage für Schadenersatz. § 56 des Infektionsschutzgesetzes grenzt Schadenersatzansprüche auf Ausscheider, Ansteckungsverdächtige und Krankheitsverdächtige ein. Das sind ja in den allerwenigsten Fällen diejenigen, die jetzt mit diesen extremen Problemen kämpfen. Meine Frage: Ist von der Bundesregierung beabsichtigt, eine entsprechende Rechtsgrundlage für Schadenersatzforderungen der Betroffenen im Infektionsschutzgesetz zu implementieren, oder bleibt es dabei, dass diese auf Almosen und auf mehr oder weniger freiwillige Gaben der Bundesregierung angewiesen sind?",
+            "sentences": [
+              {
+                "text": "Jetzt gibt es Millionen Betroffene, die diese Hunderte Milliardenschäden irgendwie tragen müssen."
+              },
+              {
+                "text": "Es gibt aber kaum eine Anspruchsgrundlage für Schadenersatz. §"
+              },
+              {
+                "text": "56 des Infektionsschutzgesetzes grenzt Schadenersatzansprüche auf Ausscheider, Ansteckungsverdächtige und Krankheitsverdächtige ein."
+              },
+              {
+                "text": "Das sind ja in den allerwenigsten Fällen diejenigen, die jetzt mit diesen extremen Problemen kämpfen."
+              },
+              {
+                "text": "Meine Frage: Ist von der Bundesregierung beabsichtigt, eine entsprechende Rechtsgrundlage für Schadenersatzforderungen der Betroffenen im Infektionsschutzgesetz zu implementieren, oder bleibt es dabei, dass diese auf Almosen und auf mehr oder weniger freiwillige Gaben der Bundesregierung angewiesen sind?"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "Frau Staatssekretärin.",
+            "sentences": [
+              {
+                "text": "Frau Staatssekretärin."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Elisabeth Winkelmeier-Becker",
+            "speakerstatus": "main-speaker",
+            "text": "Aktuell setzen wir ganz stark auf die Programme, die ich für durchaus sehr umfassend halte, auch wenn – das gebe ich zu – Wünsche offenbleiben. Aber wir haben hier mit großen Milliardenbeträgen, die ich hier nicht fertig war vorzutragen, durchaus für Hilfen für die Betroffenen gesorgt.",
+            "sentences": [
+              {
+                "text": "Aktuell setzen wir ganz stark auf die Programme, die ich für durchaus sehr umfassend halte, auch wenn – das gebe ich zu – Wünsche offenbleiben."
+              },
+              {
+                "text": "Aber wir haben hier mit großen Milliardenbeträgen, die ich hier nicht fertig war vorzutragen, durchaus für Hilfen für die Betroffenen gesorgt."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Elisabeth Winkelmeier-Becker",
+            "speakerstatus": "main-speaker",
+            "text": "Sie kritisieren jetzt die Schließungen. Ich glaube, es gibt ein ganz großes Verständnis dafür, das dem geschuldet ist, dass wir ein Infektionsgeschehen in diesem Land haben, dass sich Leute begegnen und man sich in alltäglichen Situationen infizieren kann. Diese Maßnahmen mussten ergriffen werden, um das Infektionsgeschehen zu unterbrechen. Ich glaube, da gibt es eine sehr, sehr große Zustimmung in diesem Lande, und eigentlich ist das plausibel.",
+            "sentences": [
+              {
+                "text": "Sie kritisieren jetzt die Schließungen."
+              },
+              {
+                "text": "Ich glaube, es gibt ein ganz großes Verständnis dafür, das dem geschuldet ist, dass wir ein Infektionsgeschehen in diesem Land haben, dass sich Leute begegnen und man sich in alltäglichen Situationen infizieren kann."
+              },
+              {
+                "text": "Diese Maßnahmen mussten ergriffen werden, um das Infektionsgeschehen zu unterbrechen."
+              },
+              {
+                "text": "Ich glaube, da gibt es eine sehr, sehr große Zustimmung in diesem Lande, und eigentlich ist das plausibel."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Elisabeth Winkelmeier-Becker",
+            "speakerstatus": "main-speaker",
+            "text": "Mit diesen Programmen, die wir aufgelegt haben, soll gerade verhindert werden, dass Unternehmen, die wirtschaftlich tragfähig sind, die ein gutes Geschäftsmodell haben, die ein gutes Produkt an den Mann bringen, aufgrund dieser Situation in die Insolvenz getrieben werden. Wir haben umfassend – –",
+            "sentences": [
+              {
+                "text": "Mit diesen Programmen, die wir aufgelegt haben, soll gerade verhindert werden, dass Unternehmen, die wirtschaftlich tragfähig sind, die ein gutes Geschäftsmodell haben, die ein gutes Produkt an den Mann bringen, aufgrund dieser Situation in die Insolvenz getrieben werden."
+              },
+              {
+                "text": "Wir haben umfassend – –"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "Frau Kollegin.",
+            "sentences": [
+              {
+                "text": "Frau Kollegin."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Elisabeth Winkelmeier-Becker",
+            "speakerstatus": "main-speaker",
+            "text": "Ich darf nur noch ergänzen, –",
+            "sentences": [
+              {
+                "text": "Ich darf nur noch ergänzen, –"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "Ja, aber dann müssen Sie sich kürzer fassen.",
+            "sentences": [
+              {
+                "text": "Ja, aber dann müssen Sie sich kürzer fassen."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Elisabeth Winkelmeier-Becker",
+            "speakerstatus": "main-speaker",
+            "text": "– dass die Kurzarbeiterhilfen und viele anderen Maßnahmen hier ineinandergreifen, um genau diese Unternehmen am Leben zu halten und ihnen über diese schwierige Zeit zu helfen.",
+            "sentences": [
+              {
+                "text": "– dass die Kurzarbeiterhilfen und viele anderen Maßnahmen hier ineinandergreifen, um genau diese Unternehmen am Leben zu halten und ihnen über diese schwierige Zeit zu helfen."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "Letzte Frage in dieser Fragestunde: Herr Peterka.",
+            "sentences": [
+              {
+                "text": "Letzte Frage in dieser Fragestunde: Herr Peterka."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Tobias Matthias Peterka",
+            "speakerstatus": "speaker",
+            "text": "Vielen Dank. – Sie haben hier ja die enormen Summen – zumindest zum Teil – aufgezählt. Ich habe den Medien entnommen, dass anlässlich der Steuererklärungen, die langsam für 2020 reinkommen, die Steuerbehörden dahin gehend Alarm schlagen, dass sage und schreibe 80 bis 90 Prozent aller eingereichten Nachweise, die die Fördergelder betreffen, steuerrechtlich unzureichend wären und nachgereicht werden müssten. Ist es in Ordnung, die Bürger mit einer solchen Konstruktion quasi ins Messer laufen zu lassen, meiner Meinung nach?",
+            "sentences": [
+              {
+                "text": "Vielen Dank."
+              },
+              {
+                "text": "– Sie haben hier ja die enormen Summen – zumindest zum Teil – aufgezählt."
+              },
+              {
+                "text": "Ich habe den Medien entnommen, dass anlässlich der Steuererklärungen, die langsam für 2020 reinkommen, die Steuerbehörden dahin gehend Alarm schlagen, dass sage und schreibe 80 bis 90 Prozent aller eingereichten Nachweise, die die Fördergelder betreffen, steuerrechtlich unzureichend wären und nachgereicht werden müssten."
+              },
+              {
+                "text": "Ist es in Ordnung, die Bürger mit einer solchen Konstruktion quasi ins Messer laufen zu lassen, meiner Meinung nach?"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
             "speakerstatus": "vice-president",
             "text": "Frau Staatssekretärin.",
             "sentences": [
@@ -11552,16 +13128,64 @@
   {
     "parliament": "DE",
     "electoralPeriod": {
-      "number": 19
+      "number": "19"
     },
     "session": {
-      "number": 203
+      "number": "203",
+      "dateStart": "2021-01-13T13:00",
+      "dateEnd": "2021-01-13T20:13"
     },
     "agendaItem": {
-      "title": "Tagesordnungspunkt 4",
       "officialTitle": "Tagesordnungspunkt 4",
-      "speechIndex": 32
+      "speechIndex": 101,
+      "title": "Tagesordnungspunkt 4"
     },
+    "people": [
+      {
+        "type": "memberOfParliament",
+        "label": "Claudia Roth",
+        "context": "vice-president"
+      }
+    ],
+    "textContents": [
+      {
+        "type": "proceedings",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19203-data.xml",
+        "creator": "Deutscher Bundestag",
+        "license": "Public Domain",
+        "language": "DE-de",
+        "originTextID": "0722-7980",
+        "textBody": [
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "Interfraktionell wird Überweisung des Gesetzentwurfs auf Drucksache 19/25294 an die in der Tagesordnung aufgeführten Ausschüsse vorgeschlagen. – Weitere Überweisungsvorschläge liegen uns nicht vor. Dann wird genau so verfahren.",
+            "sentences": [
+              {
+                "text": "Interfraktionell wird Überweisung des Gesetzentwurfs auf Drucksache 19/25294 an die in der Tagesordnung aufgeführten Ausschüsse vorgeschlagen."
+              },
+              {
+                "text": "– Weitere Überweisungsvorschläge liegen uns nicht vor."
+              },
+              {
+                "text": "Dann wird genau so verfahren."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "documents": [
+      {
+        "type": "officialDocument",
+        "label": "Drucksache 19/25294",
+        "sourceURI": "https://dserver.bundestag.de/btd/19/252/1925294.pdf"
+      }
+    ],
+    "key": "19-203 tagesordnungspunkt 4 (claudia roth)",
+    "dateStart": "2021-01-13T15:53:10",
+    "dateEnd": "2021-01-13T15:54:01",
     "media": {
       "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7495558/7495558_h264_720_400_2000kb_baseline_de_2192.mp4",
       "sourcePage": "http://dbtg.tv/fvid/7495558",
@@ -11570,18 +13194,7 @@
       "license": "CC-BY-SA",
       "originMediaID": "7495558",
       "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7495558/7495558_mp3_128kb_stereo_de_128.mp3"
-    },
-    "dateStart": "2021-01-13T15:53:10",
-    "dateEnd": "2021-01-13T15:54:01",
-    "people": [
-      {
-        "label": "Claudia Roth",
-        "faction": "BÜNDNIS 90/DIE GRÜNEN",
-        "context": "main-speaker",
-        "role": "Bundestagsvizepräsidentin"
-      }
-    ],
-    "key": "19-203 tagesordnungspunkt 4 (claudia roth)"
+    }
   },
   {
     "parliament": "DE",
@@ -11609,7 +13222,7 @@
       },
       {
         "type": "memberOfParliament",
-        "label": "in Claudia Roth",
+        "label": "Claudia Roth",
         "context": "vice-president"
       }
     ],
@@ -11770,7 +13383,7 @@
           },
           {
             "type": "speech",
-            "speaker": "in Claudia Roth",
+            "speaker": "Claudia Roth",
             "speakerstatus": "vice-president",
             "text": "Vielen Dank, Kollegin Nina Warken. – Nächster Redner: für die AfD-Fraktion Dr. Christian Wirth.",
             "sentences": [
@@ -11842,7 +13455,7 @@
       },
       {
         "type": "memberOfParliament",
-        "label": "in Claudia Roth",
+        "label": "Claudia Roth",
         "context": "vice-president"
       }
     ],
@@ -12073,7 +13686,7 @@
           },
           {
             "type": "speech",
-            "speaker": "in Claudia Roth",
+            "speaker": "Claudia Roth",
             "speakerstatus": "vice-president",
             "text": "Danke schön. – Nächster Redner: für die SPD-Fraktion Uli Grötsch.",
             "sentences": [
@@ -12145,7 +13758,7 @@
       },
       {
         "type": "memberOfParliament",
-        "label": "in Claudia Roth",
+        "label": "Claudia Roth",
         "context": "vice-president"
       }
     ],
@@ -12440,7 +14053,7 @@
           },
           {
             "type": "speech",
-            "speaker": "in Claudia Roth",
+            "speaker": "Claudia Roth",
             "speakerstatus": "vice-president",
             "text": "Vielen Dank, Uli Grötsch. – Das Wort hat für die FDP-Fraktion Manuel Höferlin.",
             "sentences": [
@@ -12512,7 +14125,7 @@
       },
       {
         "type": "memberOfParliament",
-        "label": "in Claudia Roth",
+        "label": "Claudia Roth",
         "context": "vice-president"
       }
     ],
@@ -12725,7 +14338,7 @@
           },
           {
             "type": "speech",
-            "speaker": "in Claudia Roth",
+            "speaker": "Claudia Roth",
             "speakerstatus": "vice-president",
             "text": "Vielen Dank, Manuel Höferlin. – Der nächste Redner: für die Fraktion Die Linke Niema Movassat.",
             "sentences": [
@@ -12797,7 +14410,7 @@
       },
       {
         "type": "memberOfParliament",
-        "label": "in Claudia Roth",
+        "label": "Claudia Roth",
         "context": "vice-president"
       }
     ],
@@ -12991,7 +14604,7 @@
           },
           {
             "type": "speech",
-            "speaker": "in Claudia Roth",
+            "speaker": "Claudia Roth",
             "speakerstatus": "vice-president",
             "text": "Vielen Dank, Niema Movassat. – Der nächste Redner: für Bündnis 90/Die Grünen Dr. Konstantin von Notz.",
             "sentences": [
@@ -13063,7 +14676,7 @@
       },
       {
         "type": "memberOfParliament",
-        "label": "in Claudia Roth",
+        "label": "Claudia Roth",
         "context": "vice-president"
       }
     ],
@@ -13325,7 +14938,7 @@
           },
           {
             "type": "speech",
-            "speaker": "in Claudia Roth",
+            "speaker": "Claudia Roth",
             "speakerstatus": "vice-president",
             "text": "Vielen Dank, Dr. Konstantin von Notz. – Nächster Redner: für die CDU/CSU-Fraktion Axel Müller.",
             "sentences": [
@@ -13397,7 +15010,7 @@
       },
       {
         "type": "memberOfParliament",
-        "label": "in Claudia Roth",
+        "label": "Claudia Roth",
         "context": "vice-president"
       }
     ],
@@ -13642,7 +15255,7 @@
           },
           {
             "type": "speech",
-            "speaker": "in Claudia Roth",
+            "speaker": "Claudia Roth",
             "speakerstatus": "vice-president",
             "text": "Vielen Dank, Axel Müller. – Letzter Redner in dieser Debatte: für die CDU/CSU-Fraktion Michael Kuffer.",
             "sentences": [
@@ -13714,7 +15327,7 @@
       },
       {
         "type": "memberOfParliament",
-        "label": "in Claudia Roth",
+        "label": "Claudia Roth",
         "context": "vice-president"
       }
     ],
@@ -13961,7 +15574,7 @@
           },
           {
             "type": "speech",
-            "speaker": "in Claudia Roth",
+            "speaker": "Claudia Roth",
             "speakerstatus": "vice-president",
             "text": "Vielen Dank. – Damit schließe ich die Aussprache.",
             "sentences": [
@@ -14033,16 +15646,94 @@
   {
     "parliament": "DE",
     "electoralPeriod": {
-      "number": 19
+      "number": "19"
     },
     "session": {
-      "number": 203
+      "number": "203",
+      "dateStart": "2021-01-13T13:00",
+      "dateEnd": "2021-01-13T20:13"
     },
     "agendaItem": {
-      "title": "Tagesordnungspunkt 5",
       "officialTitle": "Tagesordnungspunkt 5",
-      "speechIndex": 42
+      "speechIndex": 102,
+      "title": "Tagesordnungspunkt 5"
     },
+    "people": [
+      {
+        "type": "memberOfParliament",
+        "label": "Claudia Roth",
+        "context": "vice-president"
+      }
+    ],
+    "textContents": [
+      {
+        "type": "proceedings",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19203-data.xml",
+        "creator": "Deutscher Bundestag",
+        "license": "Public Domain",
+        "language": "DE-de",
+        "originTextID": "0722-7980",
+        "textBody": [
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "Ich rufe den Tagesordnungspunkt 5 auf:",
+            "sentences": [
+              {
+                "text": "Ich rufe den Tagesordnungspunkt 5 auf:"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "Für die Aussprache ist eine Dauer von 30 Minuten beschlossen.",
+            "sentences": [
+              {
+                "text": "Für die Aussprache ist eine Dauer von 30 Minuten beschlossen."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "Ich bitte die Kolleginnen und Kollegen, zügig Platz zu nehmen und die Gespräche draußen weiterzuführen, bevor ich den ersten Redner aufrufe.",
+            "sentences": [
+              {
+                "text": "Ich bitte die Kolleginnen und Kollegen, zügig Platz zu nehmen und die Gespräche draußen weiterzuführen, bevor ich den ersten Redner aufrufe."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "Ich rufe den ersten Redner auf. Das ist für die Fraktion Die Linke Stefan Liebich.",
+            "sentences": [
+              {
+                "text": "Ich rufe den ersten Redner auf."
+              },
+              {
+                "text": "Das ist für die Fraktion Die Linke Stefan Liebich."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "documents": [
+      {
+        "type": "officialDocument",
+        "label": "Drucksache 19/25065",
+        "sourceURI": "https://dserver.bundestag.de/btd/19/250/1925065.pdf"
+      }
+    ],
+    "key": "19-203 tagesordnungspunkt 5 (claudia roth)",
+    "dateStart": "2021-01-13T16:30:45",
+    "dateEnd": "2021-01-13T16:31:39",
     "media": {
       "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7495569/7495569_h264_720_400_2000kb_baseline_de_2192.mp4",
       "sourcePage": "http://dbtg.tv/fvid/7495569",
@@ -14051,18 +15742,7 @@
       "license": "CC-BY-SA",
       "originMediaID": "7495569",
       "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7495569/7495569_mp3_128kb_stereo_de_128.mp3"
-    },
-    "dateStart": "2021-01-13T16:30:45",
-    "dateEnd": "2021-01-13T16:31:39",
-    "people": [
-      {
-        "label": "Claudia Roth",
-        "faction": "BÜNDNIS 90/DIE GRÜNEN",
-        "context": "main-speaker",
-        "role": "Bundestagsvizepräsidentin"
-      }
-    ],
-    "key": "19-203 tagesordnungspunkt 5 (claudia roth)"
+    }
   },
   {
     "parliament": "DE",
@@ -14090,7 +15770,7 @@
       },
       {
         "type": "memberOfParliament",
-        "label": "in Claudia Roth",
+        "label": "Claudia Roth",
         "context": "vice-president"
       }
     ],
@@ -14414,7 +16094,7 @@
           },
           {
             "type": "speech",
-            "speaker": "in Claudia Roth",
+            "speaker": "Claudia Roth",
             "speakerstatus": "vice-president",
             "text": "Vielen Dank, Stefan Liebich. – Der nächste Redner steht schon da: für die CDU/CSU-Fraktion Matthias Hauer.",
             "sentences": [
@@ -14486,7 +16166,7 @@
       },
       {
         "type": "memberOfParliament",
-        "label": "in Claudia Roth",
+        "label": "Claudia Roth",
         "context": "vice-president"
       },
       {
@@ -14750,7 +16430,7 @@
           },
           {
             "type": "speech",
-            "speaker": "in Claudia Roth",
+            "speaker": "Claudia Roth",
             "speakerstatus": "vice-president",
             "text": "Herr Kollege, erlauben Sie eine Zwischenfrage oder ‑bemerkung von Herrn Liebich?",
             "sentences": [
@@ -14772,7 +16452,7 @@
           },
           {
             "type": "speech",
-            "speaker": "in Claudia Roth",
+            "speaker": "Claudia Roth",
             "speakerstatus": "vice-president",
             "text": "Gut. – Herr Liebich, bitte.",
             "sentences": [
@@ -15043,7 +16723,7 @@
           },
           {
             "type": "speech",
-            "speaker": "in Claudia Roth",
+            "speaker": "Claudia Roth",
             "speakerstatus": "vice-president",
             "text": "Vielen Dank, Matthias Hauer. – Der nächste Redner: für die AfD-Fraktion Stefan Keuter.",
             "sentences": [
@@ -15115,7 +16795,7 @@
       },
       {
         "type": "memberOfParliament",
-        "label": "in Claudia Roth",
+        "label": "Claudia Roth",
         "context": "vice-president"
       }
     ],
@@ -15464,7 +17144,7 @@
           },
           {
             "type": "speech",
-            "speaker": "in Claudia Roth",
+            "speaker": "Claudia Roth",
             "speakerstatus": "vice-president",
             "text": "Ich danke Ihnen. – Nächste Rednerin: für die SPD-Fraktion Ingrid Arndt-Brauer.",
             "sentences": [
@@ -15536,7 +17216,7 @@
       },
       {
         "type": "memberOfParliament",
-        "label": "in Claudia Roth",
+        "label": "Claudia Roth",
         "context": "vice-president"
       }
     ],
@@ -15809,7 +17489,7 @@
           },
           {
             "type": "speech",
-            "speaker": "in Claudia Roth",
+            "speaker": "Claudia Roth",
             "speakerstatus": "vice-president",
             "text": "Vielen Dank, Ingrid Arndt-Brauer. – Nächster Redner: für die FDP-Fraktion Frank Schäffler.",
             "sentences": [
@@ -15881,7 +17561,7 @@
       },
       {
         "type": "memberOfParliament",
-        "label": "in Claudia Roth",
+        "label": "Claudia Roth",
         "context": "vice-president"
       }
     ],
@@ -16036,7 +17716,7 @@
           },
           {
             "type": "speech",
-            "speaker": "in Claudia Roth",
+            "speaker": "Claudia Roth",
             "speakerstatus": "vice-president",
             "text": "Herr Schäffler.",
             "sentences": [
@@ -16058,7 +17738,7 @@
           },
           {
             "type": "speech",
-            "speaker": "in Claudia Roth",
+            "speaker": "Claudia Roth",
             "speakerstatus": "vice-president",
             "text": "Herr Schäffler.",
             "sentences": [
@@ -16080,7 +17760,7 @@
           },
           {
             "type": "speech",
-            "speaker": "in Claudia Roth",
+            "speaker": "Claudia Roth",
             "speakerstatus": "vice-president",
             "text": "Ich frage Sie was.",
             "sentences": [
@@ -16105,7 +17785,7 @@
           },
           {
             "type": "speech",
-            "speaker": "in Claudia Roth",
+            "speaker": "Claudia Roth",
             "speakerstatus": "vice-president",
             "text": "Ja, dann sagen Sie es mir anständig.",
             "sentences": [
@@ -16127,7 +17807,7 @@
           },
           {
             "type": "speech",
-            "speaker": "in Claudia Roth",
+            "speaker": "Claudia Roth",
             "speakerstatus": "vice-president",
             "text": "Hallo!",
             "sentences": [
@@ -16152,7 +17832,7 @@
           },
           {
             "type": "speech",
-            "speaker": "in Claudia Roth",
+            "speaker": "Claudia Roth",
             "speakerstatus": "vice-president",
             "text": "Aber dann gucken Sie mich an; ich habe Sie nämlich nicht verstanden.",
             "sentences": [
@@ -16174,7 +17854,7 @@
           },
           {
             "type": "speech",
-            "speaker": "in Claudia Roth",
+            "speaker": "Claudia Roth",
             "speakerstatus": "vice-president",
             "text": "Ich habe Sie freundlich gefragt, und da können Sie mir eine freundliche Antwort geben.",
             "sentences": [
@@ -16243,7 +17923,7 @@
           },
           {
             "type": "speech",
-            "speaker": "in Claudia Roth",
+            "speaker": "Claudia Roth",
             "speakerstatus": "vice-president",
             "text": "Das Wort zu einer Kurzintervention hat der Kollege Liebich.",
             "sentences": [
@@ -16455,7 +18135,7 @@
       },
       {
         "type": "memberOfParliament",
-        "label": "in Claudia Roth",
+        "label": "Claudia Roth",
         "context": "vice-president"
       }
     ],
@@ -16512,7 +18192,7 @@
           },
           {
             "type": "speech",
-            "speaker": "in Claudia Roth",
+            "speaker": "Claudia Roth",
             "speakerstatus": "vice-president",
             "text": "So, jetzt kommen wir zum nächsten Redner. Das ist für Bündnis 90/Die Grünen Stefan Schmidt.",
             "sentences": [
