@@ -18,8 +18,9 @@ def parse_fullname(label: str) -> tuple:
     """
     if label is None:
         return None
-    # Strip leading/trailing : - .
-    label = label.strip(':').strip('–').strip('.')
+    # Strip leading/trailing : - . and non-breaking whitespaces (\xa0)
+    # (strip order is important)
+    label = label.strip('–').strip('\xa0').strip('.').strip(':')
     # Fix strange notation, like in 19040, 19170, 19176...
     label = label.replace('räsident in', 'räsidentin')
     first, rest = re.split('\s+', label, 1)
