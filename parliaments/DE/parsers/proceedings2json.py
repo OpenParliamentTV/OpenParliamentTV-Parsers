@@ -368,6 +368,8 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser(description="Parse Bundestag Proceedings XML files.")
     parser.add_argument("source", type=str, nargs='?',
                         help="Source XML file")
+    parser.add_argument("--dump", action="store_true",
+                        help="Dump debugging information (and do not output data)")
     parser.add_argument("--uri", type=str,
                         help="Origin URI")
     parser.add_argument("--output", type=str, default="",
@@ -385,6 +387,14 @@ if __name__ == '__main__':
     logging.basicConfig(level=loglevel)
 
     data = list(parse_transcript(args.source))
+
+    if args.dump:
+        for speech in data:
+            print(f"{speech['agendaItem']['speechIndex']} {speech['agendaItem']['officialTitle']}")
+            for turn in speech['textContents'][0]['textBody']:
+                print(f"    {turn['speakerstatus']} {turn['speaker']}")
+        sys.exit(0)
+
     if args.output:
         output_dir = Path(args.output)
         if not output_dir.is_dir():
