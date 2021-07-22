@@ -9,6 +9,7 @@
 import logging
 logger = logging.getLogger(__name__)
 
+import argparse
 from itertools import takewhile
 import json
 from lxml import etree
@@ -364,11 +365,35 @@ def parse_transcript(filename, sourceUri=None):
             speechIndex += 1
 
 if __name__ == '__main__':
-    logging.basicConfig(level=logging.INFO)
-
-    if len(sys.argv) < 2:
-        logger.warning(f"Syntax: {sys.argv[0]} file.xml [Source URI]")
+    parser = argparse.ArgumentParser(description="Parse Bundestag Proceedings XML files.")
+    parser.add_argument("source", type=str, nargs='?',
+                        help="Source XML file")
+    parser.add_argument("--uri", type=str,
+                        help="Origin URI")
+    parser.add_argument("--output", type=str, default="",
+                        help="Output directory")
+    parser.add_argument("--debug", dest="debug", action="store_true",
+                        default=False,
+                        help="Display debug messages")
+    args = parser.parse_args()
+    if args.source is None:
+        parser.print_help()
         sys.exit(1)
+    loglevel = logging.INFO
+    if args.debug:
+        loglevel = logging.DEBUG
+    logging.basicConfig(level=loglevel)
 
-    data = list(parse_transcript(sys.argv[1]))
-    json.dump(data, sys.stdout, indent=2, ensure_ascii=False)
+    data = list(parse_transcript(args.source))
+    if args.output:
+        output_dir = Path(args.output)
+        if not output_dir.is_dir():
+            output_dir.mkdir(parents=True)
+        basename = Path(args.source).stem
+        output_file = output_dir / f"{basename}.json"
+        logger.debug(f"Saving to {output_file}")
+        with open(output_file, 'w') as f:
+            json.dump(data, f, indent=2, ensure_ascii=False)
+    else:
+        # Dump to stdout
+        json.dump(data, sys.stdout, indent=2, ensure_ascii=False)
