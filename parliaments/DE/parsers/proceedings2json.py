@@ -390,8 +390,16 @@ if __name__ == '__main__':
 
     if args.dump:
         for speech in data:
-            print(f"{speech['agendaItem']['speechIndex']} {speech['agendaItem']['officialTitle']}")
-            for turn in speech['textContents'][0]['textBody']:
+            # Only consider speech turns (ignoring comments)
+            speech_turns = [ turn for turn in speech['textContents'][0]['textBody'] if turn['type'] == 'speech' ]
+            president_turns = [ turn for turn in speech_turns if turn['speakerstatus'].endswith('president') ]
+            if len(president_turns) == len(speech_turns):
+                # Homogeneous president turns
+                msg = " --- TO BE MERGED?"
+            else:
+                msg = ""
+            print(f"{speech['agendaItem']['speechIndex']} {speech['agendaItem']['officialTitle']} {msg}")
+            for turn in speech_turns:
                 print(f"    {turn['speakerstatus']} {turn['speaker']}")
         sys.exit(0)
 
