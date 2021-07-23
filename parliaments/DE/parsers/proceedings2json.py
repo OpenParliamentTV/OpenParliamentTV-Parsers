@@ -290,7 +290,8 @@ def parse_transcript(filename, sourceUri=None):
         'speakerstatus': "Unknown"
     }
 
-    speechIndex = 0
+    # Start index at 1000 so that we can distinguish btw media and proceedings indexes
+    speechIndex = 1000
     # Pass last speaker info from one speech to the next one
     for op in [ *root.findall('.//sitzungsbeginn'),
                 *root.findall('.//tagesordnungspunkt'),
