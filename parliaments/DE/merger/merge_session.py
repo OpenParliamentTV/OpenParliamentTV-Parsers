@@ -158,7 +158,7 @@ if __name__ == "__main__":
                 .player { position: fixed; top: 0; right: 0; width: 320px; height: 200px;  }
                 </style>
                 <body>
-                <video class="player"></video>
+                <video controls autoplay class="player"></video>
                 """)
             for speech in data:
                 # Only consider speech turns (ignoring comments)
