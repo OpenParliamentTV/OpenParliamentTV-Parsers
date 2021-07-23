@@ -37,6 +37,7 @@ class SessionServer(SimpleHTTPRequestHandler):
             .hidden { display: none; }
             .speechTitle { font-size: 140%; cursor: pointer; }
             .status { cursor: pointer; }
+            .transcript { margin-right: 340px; }
             </style>
             <body>
             <p class="menu"><a href="/">Home</a></p>
@@ -57,7 +58,8 @@ class SessionServer(SimpleHTTPRequestHandler):
                     msg = "PRESIDENT ONLY"
                 else:
                     msg = ""
-            fd.write(f"""<div class="speechHeading"><strong class="speechIndex">{speech['agendaItem']['speechIndex']}</strong> <span class="speechTitle">{speech['agendaItem']['officialTitle']}</span> <em>{msg}</em><a class="videolink" href="{speech['media']['videoFileURI']}"> Play </a></div>\n""")
+            speechIndex = speech['agendaItem']['speechIndex']
+            fd.write(f"""<div class="speechHeading"><a id="speech{speechIndex}"><strong class="speechIndex">{speechIndex}</strong> <span class="speechTitle">{speech['agendaItem']['officialTitle']}</span></a><em>{msg}</em><a class="videolink" href="{speech['media']['videoFileURI']}"> Play </a></div>\n""")
             for turn in speech_turns:
                 fd.write(f"""<p class="speech"><span class="status">{turn['speakerstatus']}</span> <span class="speaker">{turn['speaker']}</span> <span class="text">{turn['text']}</span></p>""")
         fd.write("""
