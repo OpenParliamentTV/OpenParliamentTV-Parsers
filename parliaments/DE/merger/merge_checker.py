@@ -38,6 +38,7 @@ class SessionServer(SimpleHTTPRequestHandler):
             <body>
             <p class="menu"><a href="/">Home</a></p>
             <video controls autoplay class="player"></video>
+            <div class="transcript">
             """)
         for speech in data:
             # Only consider speech turns (ignoring comments)
@@ -57,6 +58,7 @@ class SessionServer(SimpleHTTPRequestHandler):
             for turn in speech_turns:
                 fd.write(f"""<p><span class="status">{turn['speakerstatus']}</span> <span class="speaker">{turn['speaker']}</span> <span class="text">{turn['text']}</span></p>""")
         fd.write("""
+            </div>
             <script>
             document.querySelectorAll(".videolink").forEach(link => {
             link.addEventListener("click", e => {
