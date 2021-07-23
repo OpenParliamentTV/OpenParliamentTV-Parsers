@@ -18,6 +18,7 @@ def parse_fullname(label: str) -> tuple:
     """
     if label is None:
         return None
+
     # Strip leading/trailing non-alphabetic chars
     label = re.sub('^[^\w]+', '', label)
     label = re.sub('[^\w]+$', '', label)
@@ -25,10 +26,12 @@ def parse_fullname(label: str) -> tuple:
     label = re.sub(r'\s+', ' ', label)
     # Fix strange notation, like in 19040, 19170, 19176...
     label = label.replace('räsident in', 'räsidentin')
+
     # Split at the first whitespace to get possible status information
-    first, rest = re.split('\s+', label, 1)
-    if first in STATUS_TRANSLATION:
-        return (fix_fullname(rest), STATUS_TRANSLATION.get(first))
+    info = re.split('\s+', label, 1)
+    if len(info) == 2 and info[0] in STATUS_TRANSLATION:
+        return (fix_fullname(info[1]), STATUS_TRANSLATION.get(info[0]))
+
     # No matching key. Assume that there is no status at the beginning.
     return (fix_fullname(label), None)
 
