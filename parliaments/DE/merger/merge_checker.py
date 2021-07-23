@@ -34,6 +34,7 @@ class SessionServer(SimpleHTTPRequestHandler):
             .text { color: #999; }
             .player { position: fixed; top: 0; right: 0; width: 320px; height: 200px;  }
             .menu { position: fixed; bottom: 0; right: 0; }
+            .hidden { display: none; };
             </style>
             <body>
             <p class="menu"><a href="/">Home</a></p>
@@ -54,9 +55,9 @@ class SessionServer(SimpleHTTPRequestHandler):
                     msg = "PRESIDENT ONLY"
                 else:
                     msg = ""
-            fd.write(f"""<h1><strong>{speech['agendaItem']['speechIndex']}</strong> {speech['agendaItem']['officialTitle']} <em>{msg}</em><a class="videolink" href="{speech['media']['videoFileURI']}">URI</a></h1>\n""")
+            fd.write(f"""<h1 class="speechTitle"><strong>{speech['agendaItem']['speechIndex']}</strong> {speech['agendaItem']['officialTitle']} <em>{msg}</em><a class="videolink" href="{speech['media']['videoFileURI']}">URI</a></h1>\n""")
             for turn in speech_turns:
-                fd.write(f"""<p><span class="status">{turn['speakerstatus']}</span> <span class="speaker">{turn['speaker']}</span> <span class="text">{turn['text']}</span></p>""")
+                fd.write(f"""<p class="speech"><span class="status">{turn['speakerstatus']}</span> <span class="speaker">{turn['speaker']}</span> <span class="text">{turn['text']}</span></p>""")
         fd.write("""
             </div>
             <script>
@@ -67,6 +68,15 @@ class SessionServer(SimpleHTTPRequestHandler):
                     let url = e.target.href;
                     document.querySelector(".player").src = url;
                   })
+            });
+            let toggleHidden = function (selector, classname='hidden') {
+                document.querySelectorAll(selector).forEach(el => el.classList.toggle(classname));
+            }
+            document.querySelectorAll(".speechTitle").forEach(speechTitle => {
+              speechTitle.addEventListener("click", e => toggleHidden('.speech'))
+            });
+            document.querySelectorAll(".status").forEach(status => {
+              status.addEventListener("click", e => toggleHidden('.text'))
             });
             </script>
             </body></html>
