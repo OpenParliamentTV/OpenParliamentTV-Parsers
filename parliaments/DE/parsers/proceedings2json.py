@@ -119,7 +119,7 @@ def parse_speech(elements: list, last_speaker: dict):
                 speaker, status = parse_fullname(c.text)
                 speakerstatus = status or "speaker"
                 continue
-            elif klasse in ('J', 'J_1', 'O') and c.text:
+            elif klasse in ('J', 'J_1', 'O', 'T_NaS', 'T_fett') and c.text:
                 # Actual text. Output it with speaker information.
                 yield {
                     'type': 'speech',
