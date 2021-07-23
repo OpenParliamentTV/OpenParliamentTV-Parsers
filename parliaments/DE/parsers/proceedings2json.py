@@ -29,6 +29,9 @@ except ModuleNotFoundError:
 PROCEEDINGS_LICENSE = "Public Domain"
 PROCEEDINGS_LANGUAGE = "DE-de"
 
+SPEECH_CLASSES = set(('J', 'J_1', 'O'))
+FULL_SPEECH_CLASSES = set(('J', 'J_1', 'O', 'T_NaS', 'T_fett'))
+
 ddmmyyyy_re = re.compile('(?P<dd>\d\d)\.(?P<mm>\d\d)\.(?P<yyyy>\d\d\d\d)')
 
 # Global language model - to save load time
@@ -119,7 +122,7 @@ def parse_speech(elements: list, last_speaker: dict):
                 speaker, status = parse_fullname(c.text)
                 speakerstatus = status or "speaker"
                 continue
-            elif klasse in ('J', 'J_1', 'O', 'T_NaS', 'T_fett') and c.text:
+            elif klasse in SPEECH_CLASSES and c.text:
                 # Actual text. Output it with speaker information.
                 yield {
                     'type': 'speech',
@@ -394,6 +397,8 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser(description="Parse Bundestag Proceedings XML files.")
     parser.add_argument("source", type=str, nargs='?',
                         help="Source XML file")
+    parser.add_argument("--include-nas", action="store_true",
+                        help="Include T_NaS and T_fett classes as speech information")
     parser.add_argument("--dump", action="store_true",
                         help="Dump debugging information (and do not output data)")
     parser.add_argument("--uri", type=str,
@@ -411,6 +416,11 @@ if __name__ == '__main__':
     if args.debug:
         loglevel = logging.DEBUG
     logging.basicConfig(level=loglevel)
+
+    if args.include_nas:
+        # Not clean but using a global variable avoids having to pass
+        # options around, and we will determine an appropriate default afterwards
+        SPEECH_CLASSES = FULL_SPEECH_CLASSES
 
     data = list(parse_transcript(args.source))
 
