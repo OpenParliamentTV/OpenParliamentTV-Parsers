@@ -126,6 +126,8 @@ if __name__ == "__main__":
                         help="Display debug messages")
     parser.add_argument("--dump", action="store_true",
                         help="Dump debugging information (and do not output data)")
+    parser.add_argument("--dump-html", action="store_true",
+                        help="Dump debugging information as html (implies --dump)")
     parser.add_argument("--output", metavar="DIRECTORY", type=str,
                         help="Output directory - if not specified, output with be to stdout")
     parser.add_argument("--check", action="store_true",
@@ -147,7 +149,17 @@ if __name__ == "__main__":
         diff_files(args.proceedings_file, args.media_file)
     else:
         data = merge_files(args.proceedings_file, args.media_file, args.include_all_proceedings)
-        if args.dump:
+        if args.dump or args.dump_html:
+            if args.dump_html:
+                print("""<html><style>
+                .status { font-style: italic; font-weight: bold; }
+                .speaker { font-style: italic; }
+                .text { color: #999; }
+                .player { position: fixed; top: 0; right: 0; width: 320px; height: 200px;  }
+                </style>
+                <body>
+                <video class="player"></video>
+                """)
             for speech in data:
                 # Only consider speech turns (ignoring comments)
                 if 'textContents' not in speech:
@@ -162,9 +174,29 @@ if __name__ == "__main__":
                         msg = " --- TO BE MERGED?"
                     else:
                         msg = ""
-                print(f"{speech['agendaItem']['speechIndex']} {speech['agendaItem']['officialTitle']} {msg} {speech['media']['videoFileURI']}")
-                for turn in speech_turns:
-                    print(f"    {turn['speakerstatus']} {turn['speaker']}")
+                if args.dump_html:
+                    print(f"""<h1><strong>{speech['agendaItem']['speechIndex']}</strong> {speech['agendaItem']['officialTitle']} <em>{msg}</em><a class="videolink" href="{speech['media']['videoFileURI']}">URI</a></h1>""")
+                    for turn in speech_turns:
+                        print(f"""<p><span class="status">{turn['speakerstatus']}</span> <span class="speaker">{turn['speaker']}</span> <span class="text">{turn['text']}</span></p>""")
+                else:
+                    print(f"{speech['agendaItem']['speechIndex']} {speech['agendaItem']['officialTitle']} {msg} {speech['media']['videoFileURI']}")
+                    for turn in speech_turns:
+                        print(f"    {turn['speakerstatus']} {turn['speaker']}")
+
+            if args.dump_html:
+                print("""
+                <script>
+                document.querySelectorAll(".videolink").forEach(link => {
+                link.addEventListener("click", e => {
+                        e.preventDefault();
+                        console.log(e.target);
+                        let url = e.target.href;
+                        document.querySelector(".player").src = url;
+                      })
+                });
+                </script>
+                </body></html>
+                """)
             sys.exit(0)
         elif args.output:
             output_dir = Path(args.output)
