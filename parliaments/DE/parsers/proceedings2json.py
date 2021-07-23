@@ -239,6 +239,30 @@ def last_speaker_info(turns):
             'speakerstatus': None
         }
 
+def fix_last_speech(speeches):
+    """Try to fix last speech issue:
+
+    If the last speech in an ordnungspunkt has trailing items by
+    president, then generate a new speech with them because usually,
+    the media splitting is done at this moment.
+    """
+    if len(speeches) < 2:
+        return speeches
+    last_speech = speeches[-1]
+    trailing_president_items = list(reversed(list(turn
+                                                  for turn in reversed(last_speech)
+                                                  if (turn.get('speakerstatus') or "").endswith('president')
+                                                  )))
+    trailing_count = len(trailing_president_items)
+    # Do not consider cases where *president is the only speaker
+    if trailing_count != len(last_speech):
+        # Split this speech into 2 different ones
+        logger.debug("Splitting president speech from last TOP speech")
+        speeches = speeches[:-1]
+        speeches.append(last_speech[:-(trailing_count+1)])
+        speeches.append(trailing_president_items)
+    return speeches
+
 def parse_transcript(filename, sourceUri=None):
     # We are mapping 1 self-contained object/structure to each tagesordnungspunkt
     # This method is a generator that yields tagesordnungspunkt structures
@@ -304,10 +328,11 @@ def parse_transcript(filename, sourceUri=None):
         else:
             title = op.attrib['top-id']
 
-
         if speeches:
             # Use turn info from last speech to get last speaker
             last_speaker = last_speaker_info(speeches[-1])
+
+        speeches = fix_last_speech(speeches)
 
         documents = list(parse_documents(op))
 
