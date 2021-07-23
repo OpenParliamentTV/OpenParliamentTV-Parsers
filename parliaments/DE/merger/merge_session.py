@@ -124,6 +124,8 @@ if __name__ == "__main__":
     parser.add_argument("--debug", action="store_true",
                         default=False,
                         help="Display debug messages")
+    parser.add_argument("--dump", action="store_true",
+                        help="Dump debugging information (and do not output data)")
     parser.add_argument("--output", metavar="DIRECTORY", type=str,
                         help="Output directory - if not specified, output with be to stdout")
     parser.add_argument("--check", action="store_true",
@@ -145,7 +147,26 @@ if __name__ == "__main__":
         diff_files(args.proceedings_file, args.media_file)
     else:
         data = merge_files(args.proceedings_file, args.media_file, args.include_all_proceedings)
-        if args.output:
+        if args.dump:
+            for speech in data:
+                # Only consider speech turns (ignoring comments)
+                if 'textContents' not in speech:
+                    # No proceedings data, only media.
+                    speech_turns = []
+                    msg = "MEDIA ONLY"
+                else:
+                    speech_turns = [ turn for turn in speech['textContents'][0]['textBody'] if turn['type'] == 'speech' ]
+                    president_turns = [ turn for turn in speech_turns if turn['speakerstatus'].endswith('president') ]
+                    if len(president_turns) == len(speech_turns):
+                        # Homogeneous president turns
+                        msg = " --- TO BE MERGED?"
+                    else:
+                        msg = ""
+                print(f"{speech['agendaItem']['speechIndex']} {speech['agendaItem']['officialTitle']} {msg} {speech['media']['videoFileURI']}")
+                for turn in speech_turns:
+                    print(f"    {turn['speakerstatus']} {turn['speaker']}")
+            sys.exit(0)
+        elif args.output:
             output_dir = Path(args.output)
             if not output_dir.is_dir():
                 output_dir.mkdir(parents=True)
