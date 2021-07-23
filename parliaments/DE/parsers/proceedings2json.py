@@ -399,8 +399,6 @@ if __name__ == '__main__':
                         help="Source XML file")
     parser.add_argument("--include-nas", action="store_true",
                         help="Include T_NaS and T_fett classes as speech information")
-    parser.add_argument("--dump", action="store_true",
-                        help="Dump debugging information (and do not output data)")
     parser.add_argument("--uri", type=str,
                         help="Origin URI")
     parser.add_argument("--output", type=str, default="",
@@ -423,21 +421,6 @@ if __name__ == '__main__':
         SPEECH_CLASSES = FULL_SPEECH_CLASSES
 
     data = list(parse_transcript(args.source))
-
-    if args.dump:
-        for speech in data:
-            # Only consider speech turns (ignoring comments)
-            speech_turns = [ turn for turn in speech['textContents'][0]['textBody'] if turn['type'] == 'speech' ]
-            president_turns = [ turn for turn in speech_turns if turn['speakerstatus'].endswith('president') ]
-            if len(president_turns) == len(speech_turns):
-                # Homogeneous president turns
-                msg = " --- TO BE MERGED?"
-            else:
-                msg = ""
-            print(f"{speech['agendaItem']['speechIndex']} {speech['agendaItem']['officialTitle']} {msg}")
-            for turn in speech_turns:
-                print(f"    {turn['speakerstatus']} {turn['speaker']}")
-        sys.exit(0)
 
     if args.output:
         output_dir = Path(args.output)
