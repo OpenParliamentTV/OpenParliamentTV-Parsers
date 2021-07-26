@@ -11,7 +11,7 @@
     },
     "agendaItem": {
       "officialTitle": "Sitzungseröffnung",
-      "speechIndex": 0,
+      "speechIndex": 1000,
       "title": "Sitzungseröffnung"
     },
     "people": [
@@ -24,7 +24,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19067-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19067-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -107,7 +107,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 2,
+      "speechIndex": 1002,
       "title": "Vereinbarte Debatte Organspende"
     },
     "people": [
@@ -120,12 +120,34 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19067-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19067-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
         "originTextID": "",
         "textBody": [
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "Ver einbarte Debatte",
+            "sentences": [
+              {
+                "text": "Ver einbarte Debatte"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "Organspende",
+            "sentences": [
+              {
+                "text": "Organspende"
+              }
+            ]
+          },
           {
             "type": "speech",
             "speaker": "Wolfgang Schäuble",
@@ -226,7 +248,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 3,
+      "speechIndex": 1003,
       "title": "Vereinbarte Debatte Organspende"
     },
     "people": [
@@ -247,7 +269,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19067-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19067-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -658,7 +680,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 4,
+      "speechIndex": 1004,
       "title": "Vereinbarte Debatte Organspende"
     },
     "people": [
@@ -679,7 +701,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19067-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19067-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -953,7 +975,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 5,
+      "speechIndex": 1005,
       "title": "Vereinbarte Debatte Organspende"
     },
     "people": [
@@ -974,7 +996,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19067-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19067-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -1318,7 +1340,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 6,
+      "speechIndex": 1006,
       "title": "Vereinbarte Debatte Organspende"
     },
     "people": [
@@ -1339,7 +1361,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19067-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19067-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -1686,7 +1708,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 7,
+      "speechIndex": 1007,
       "title": "Vereinbarte Debatte Organspende"
     },
     "people": [
@@ -1707,7 +1729,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19067-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19067-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -1945,7 +1967,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 8,
+      "speechIndex": 1008,
       "title": "Vereinbarte Debatte Organspende"
     },
     "people": [
@@ -1966,7 +1988,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19067-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19067-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -2352,7 +2374,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 9,
+      "speechIndex": 1009,
       "title": "Vereinbarte Debatte Organspende"
     },
     "people": [
@@ -2373,7 +2395,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19067-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19067-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -2661,7 +2683,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 10,
+      "speechIndex": 1010,
       "title": "Vereinbarte Debatte Organspende"
     },
     "people": [
@@ -2682,7 +2704,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19067-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19067-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -2891,7 +2913,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 11,
+      "speechIndex": 1011,
       "title": "Vereinbarte Debatte Organspende"
     },
     "people": [
@@ -2912,7 +2934,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19067-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19067-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -3234,7 +3256,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 12,
+      "speechIndex": 1012,
       "title": "Vereinbarte Debatte Organspende"
     },
     "people": [
@@ -3255,7 +3277,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19067-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19067-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -3490,7 +3512,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 13,
+      "speechIndex": 1013,
       "title": "Vereinbarte Debatte Organspende"
     },
     "people": [
@@ -3511,7 +3533,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19067-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19067-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -3801,7 +3823,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 14,
+      "speechIndex": 1014,
       "title": "Vereinbarte Debatte Organspende"
     },
     "people": [
@@ -3822,7 +3844,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19067-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19067-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -4231,7 +4253,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 15,
+      "speechIndex": 1015,
       "title": "Vereinbarte Debatte Organspende"
     },
     "people": [
@@ -4252,7 +4274,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19067-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19067-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -4577,7 +4599,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 16,
+      "speechIndex": 1016,
       "title": "Vereinbarte Debatte Organspende"
     },
     "people": [
@@ -4598,7 +4620,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19067-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19067-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -4826,7 +4848,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 17,
+      "speechIndex": 1017,
       "title": "Vereinbarte Debatte Organspende"
     },
     "people": [
@@ -4847,7 +4869,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19067-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19067-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -5112,7 +5134,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 18,
+      "speechIndex": 1018,
       "title": "Vereinbarte Debatte Organspende"
     },
     "people": [
@@ -5133,7 +5155,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19067-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19067-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -5442,7 +5464,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 19,
+      "speechIndex": 1019,
       "title": "Vereinbarte Debatte Organspende"
     },
     "people": [
@@ -5463,7 +5485,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19067-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19067-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -5789,7 +5811,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 20,
+      "speechIndex": 1020,
       "title": "Vereinbarte Debatte Organspende"
     },
     "people": [
@@ -5810,7 +5832,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19067-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19067-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -6155,7 +6177,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 21,
+      "speechIndex": 1021,
       "title": "Vereinbarte Debatte Organspende"
     },
     "people": [
@@ -6176,7 +6198,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19067-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19067-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -6473,7 +6495,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 22,
+      "speechIndex": 1022,
       "title": "Vereinbarte Debatte Organspende"
     },
     "people": [
@@ -6494,7 +6516,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19067-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19067-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -6660,7 +6682,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 23,
+      "speechIndex": 1023,
       "title": "Vereinbarte Debatte Organspende"
     },
     "people": [
@@ -6681,7 +6703,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19067-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19067-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -6971,7 +6993,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 24,
+      "speechIndex": 1024,
       "title": "Vereinbarte Debatte Organspende"
     },
     "people": [
@@ -6992,7 +7014,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19067-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19067-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -7327,7 +7349,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 25,
+      "speechIndex": 1025,
       "title": "Vereinbarte Debatte Organspende"
     },
     "people": [
@@ -7348,7 +7370,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19067-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19067-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -7611,7 +7633,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 26,
+      "speechIndex": 1026,
       "title": "Vereinbarte Debatte Organspende"
     },
     "people": [
@@ -7632,7 +7654,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19067-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19067-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -7884,7 +7906,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 27,
+      "speechIndex": 1027,
       "title": "Vereinbarte Debatte Organspende"
     },
     "people": [
@@ -7905,7 +7927,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19067-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19067-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -8221,7 +8243,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 28,
+      "speechIndex": 1028,
       "title": "Vereinbarte Debatte Organspende"
     },
     "people": [
@@ -8242,7 +8264,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19067-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19067-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -8447,7 +8469,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 29,
+      "speechIndex": 1029,
       "title": "Vereinbarte Debatte Organspende"
     },
     "people": [
@@ -8468,7 +8490,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19067-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19067-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -8732,7 +8754,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 30,
+      "speechIndex": 1030,
       "title": "Vereinbarte Debatte Organspende"
     },
     "people": [
@@ -8753,7 +8775,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19067-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19067-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -9047,7 +9069,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 31,
+      "speechIndex": 1031,
       "title": "Vereinbarte Debatte Organspende"
     },
     "people": [
@@ -9068,7 +9090,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19067-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19067-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -9335,7 +9357,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 32,
+      "speechIndex": 1032,
       "title": "Vereinbarte Debatte Organspende"
     },
     "people": [
@@ -9356,7 +9378,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19067-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19067-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -9668,7 +9690,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 33,
+      "speechIndex": 1033,
       "title": "Vereinbarte Debatte Organspende"
     },
     "people": [
@@ -9689,7 +9711,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19067-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19067-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -10016,7 +10038,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 34,
+      "speechIndex": 1034,
       "title": "Vereinbarte Debatte Organspende"
     },
     "people": [
@@ -10037,7 +10059,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19067-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19067-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -10362,7 +10384,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 35,
+      "speechIndex": 1035,
       "title": "Vereinbarte Debatte Organspende"
     },
     "people": [
@@ -10383,7 +10405,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19067-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19067-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -10657,7 +10679,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 36,
+      "speechIndex": 1036,
       "title": "Vereinbarte Debatte Organspende"
     },
     "people": [
@@ -10678,7 +10700,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19067-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19067-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -10909,7 +10931,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 37,
+      "speechIndex": 1037,
       "title": "Vereinbarte Debatte Organspende"
     },
     "people": [
@@ -10930,7 +10952,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19067-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19067-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -11184,7 +11206,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 38,
+      "speechIndex": 1038,
       "title": "Vereinbarte Debatte Organspende"
     },
     "people": [
@@ -11205,7 +11227,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19067-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19067-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -11480,7 +11502,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 39,
+      "speechIndex": 1039,
       "title": "Vereinbarte Debatte Organspende"
     },
     "people": [
@@ -11501,7 +11523,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19067-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19067-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -11802,7 +11824,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 40,
+      "speechIndex": 1040,
       "title": "Vereinbarte Debatte Organspende"
     },
     "people": [
@@ -11823,7 +11845,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19067-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19067-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -12136,7 +12158,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 41,
+      "speechIndex": 1041,
       "title": "Vereinbarte Debatte Organspende"
     },
     "people": [
@@ -12147,17 +12169,12 @@
         "lastname": "Zimmer",
         "context": "main-speaker",
         "faction": "CDU/CSU"
-      },
-      {
-        "type": "memberOfParliament",
-        "label": "Claudia Roth",
-        "context": "vice-president"
       }
     ],
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19067-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19067-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -12344,7 +12361,55 @@
                 "text": "(Beifall bei Abgeordneten der CDU/CSU, der SPD und des BÜNDNISSES 90/DIE GRÜNEN)"
               }
             ]
-          },
+          }
+        ]
+      }
+    ],
+    "documents": [],
+    "key": "19-67 tagesordnungspunkt 1 (matthias zimmer)",
+    "dateStart": "2018-11-28T14:49:02",
+    "dateEnd": "2018-11-28T14:53:00",
+    "media": {
+      "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7296348/7296348_h264_720_400_2000kb_baseline_de_2192.mp4",
+      "sourcePage": "http://dbtg.tv/fvid/7296348",
+      "duration": 238.0,
+      "creator": "Deutscher Bundestag",
+      "license": "CC-BY-SA",
+      "originMediaID": "7296348",
+      "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7296348/7296348_mp3_128kb_stereo_de_128.mp3"
+    }
+  },
+  {
+    "parliament": "DE",
+    "electoralPeriod": {
+      "number": "19"
+    },
+    "session": {
+      "number": "67",
+      "dateStart": "2018-11-28T13:00",
+      "dateEnd": "2018-11-28T19:30"
+    },
+    "agendaItem": {
+      "officialTitle": "Tagesordnungspunkt 1",
+      "speechIndex": 1042,
+      "title": "Vereinbarte Debatte Organspende"
+    },
+    "people": [
+      {
+        "type": "memberOfParliament",
+        "label": "Claudia Roth",
+        "context": "vice-president"
+      }
+    ],
+    "textContents": [
+      {
+        "type": "proceedings",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19067-data.xml",
+        "creator": "Deutscher Bundestag",
+        "license": "Public Domain",
+        "language": "DE-de",
+        "originTextID": "",
+        "textBody": [
           {
             "type": "speech",
             "speaker": "Claudia Roth",
@@ -12362,17 +12427,6 @@
               },
               {
                 "text": "Damit schließe ich eine wirklich bemerkenswerte, intensive Orientierungsdebatte, die uns die weitere Diskussion eröffnet."
-              }
-            ]
-          },
-          {
-            "type": "comment",
-            "speaker": null,
-            "speakerstatus": null,
-            "text": "(Beifall bei Abgeordneten der CDU/CSU, der SPD, der FDP, der LINKEN und des BÜNDNISSES 90/DIE GRÜNEN)",
-            "sentences": [
-              {
-                "text": "(Beifall bei Abgeordneten der CDU/CSU, der SPD, der FDP, der LINKEN und des BÜNDNISSES 90/DIE GRÜNEN)"
               }
             ]
           },
@@ -12402,32 +12456,9 @@
       }
     ],
     "documents": [],
-    "key": "19-67 tagesordnungspunkt 1 (matthias zimmer)",
-    "dateStart": "2018-11-28T14:49:02",
-    "dateEnd": "2018-11-28T14:53:00",
-    "media": {
-      "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7296348/7296348_h264_720_400_2000kb_baseline_de_2192.mp4",
-      "sourcePage": "http://dbtg.tv/fvid/7296348",
-      "duration": 238.0,
-      "creator": "Deutscher Bundestag",
-      "license": "CC-BY-SA",
-      "originMediaID": "7296348",
-      "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7296348/7296348_mp3_128kb_stereo_de_128.mp3"
-    }
-  },
-  {
-    "parliament": "DE",
-    "electoralPeriod": {
-      "number": 19
-    },
-    "session": {
-      "number": 67
-    },
-    "agendaItem": {
-      "title": "Vereinbarte Debatte Organspende",
-      "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 42
-    },
+    "key": "19-67 tagesordnungspunkt 1 (claudia roth)",
+    "dateStart": "2018-11-28T14:53:00",
+    "dateEnd": "2018-11-28T14:54:10",
     "media": {
       "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7296349/7296349_h264_720_400_2000kb_baseline_de_2192.mp4",
       "sourcePage": "http://dbtg.tv/fvid/7296349",
@@ -12436,18 +12467,7 @@
       "license": "CC-BY-SA",
       "originMediaID": "7296349",
       "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7296349/7296349_mp3_128kb_stereo_de_128.mp3"
-    },
-    "dateStart": "2018-11-28T14:53:00",
-    "dateEnd": "2018-11-28T14:54:10",
-    "people": [
-      {
-        "label": "Claudia Roth",
-        "faction": "BÜNDNIS 90/DIE GRÜNEN",
-        "context": "main-speaker",
-        "role": "Bundestagsvizepräsidentin"
-      }
-    ],
-    "key": "19-67 tagesordnungspunkt 1 (claudia roth)"
+    }
   },
   {
     "parliament": "DE",
@@ -12461,7 +12481,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 2",
-      "speechIndex": 42,
+      "speechIndex": 1043,
       "title": "Befragung der Bundesregierung"
     },
     "people": [
@@ -12474,12 +12494,23 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19067-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19067-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
         "originTextID": "",
         "textBody": [
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "Befragung der Bundesregierung",
+            "sentences": [
+              {
+                "text": "Befragung der Bundesregierung"
+              }
+            ]
+          },
           {
             "type": "speech",
             "speaker": "Claudia Roth",
@@ -12548,7 +12579,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 2",
-      "speechIndex": 43,
+      "speechIndex": 1044,
       "title": "Befragung der Bundesregierung"
     },
     "people": [
@@ -12569,7 +12600,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19067-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19067-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -12794,7 +12825,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 2",
-      "speechIndex": 45,
+      "speechIndex": 1046,
       "title": "Befragung der Bundesregierung"
     },
     "people": [
@@ -12815,7 +12846,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19067-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19067-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -12935,7 +12966,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 2",
-      "speechIndex": 47,
+      "speechIndex": 1048,
       "title": "Befragung der Bundesregierung"
     },
     "people": [
@@ -12956,7 +12987,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19067-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19067-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -13048,7 +13079,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 2",
-      "speechIndex": 49,
+      "speechIndex": 1050,
       "title": "Befragung der Bundesregierung"
     },
     "people": [
@@ -13069,7 +13100,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19067-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19067-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -13163,7 +13194,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 2",
-      "speechIndex": 51,
+      "speechIndex": 1052,
       "title": "Befragung der Bundesregierung"
     },
     "people": [
@@ -13184,7 +13215,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19067-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19067-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -13287,7 +13318,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 2",
-      "speechIndex": 53,
+      "speechIndex": 1054,
       "title": "Befragung der Bundesregierung"
     },
     "people": [
@@ -13308,7 +13339,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19067-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19067-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -13420,7 +13451,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 2",
-      "speechIndex": 55,
+      "speechIndex": 1056,
       "title": "Befragung der Bundesregierung"
     },
     "people": [
@@ -13441,7 +13472,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19067-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19067-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -13510,7 +13541,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 2",
-      "speechIndex": 92,
+      "speechIndex": 1093,
       "title": "Befragung der Bundesregierung"
     },
     "people": [
@@ -13531,7 +13562,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19067-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19067-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -13600,7 +13631,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 2",
-      "speechIndex": 57,
+      "speechIndex": 1058,
       "title": "Befragung der Bundesregierung"
     },
     "people": [
@@ -13621,7 +13652,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19067-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19067-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -13809,7 +13840,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 2",
-      "speechIndex": 59,
+      "speechIndex": 1060,
       "title": "Befragung der Bundesregierung"
     },
     "people": [
@@ -13830,7 +13861,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19067-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19067-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -13921,7 +13952,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 2",
-      "speechIndex": 61,
+      "speechIndex": 1062,
       "title": "Befragung der Bundesregierung"
     },
     "people": [
@@ -13942,7 +13973,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19067-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19067-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -14056,7 +14087,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 2",
-      "speechIndex": 100,
+      "speechIndex": 1101,
       "title": "Befragung der Bundesregierung"
     },
     "people": [
@@ -14077,7 +14108,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19067-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19067-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -14164,7 +14195,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 2",
-      "speechIndex": 63,
+      "speechIndex": 1064,
       "title": "Befragung der Bundesregierung"
     },
     "people": [
@@ -14185,7 +14216,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19067-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19067-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -14323,16 +14354,72 @@
   {
     "parliament": "DE",
     "electoralPeriod": {
-      "number": 19
+      "number": "19"
     },
     "session": {
-      "number": 67
+      "number": "67",
+      "dateStart": "2018-11-28T13:00",
+      "dateEnd": "2018-11-28T19:30"
     },
     "agendaItem": {
-      "title": "Befragung der Bundesregierung",
       "officialTitle": "Tagesordnungspunkt 2",
-      "speechIndex": 57
+      "speechIndex": 1104,
+      "title": "Befragung der Bundesregierung"
     },
+    "people": [
+      {
+        "type": "memberOfParliament",
+        "label": "Hans-Peter Friedrich",
+        "context": "vice-president"
+      }
+    ],
+    "textContents": [
+      {
+        "type": "proceedings",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19067-data.xml",
+        "creator": "Deutscher Bundestag",
+        "license": "Public Domain",
+        "language": "DE-de",
+        "originTextID": "",
+        "textBody": [
+          {
+            "type": "speech",
+            "speaker": "Hans-Peter Friedrich",
+            "speakerstatus": "vice-president",
+            "text": "Gut. Dann beende ich an dieser Stelle die Befragung der Bundesregierung. Wir kommen zum nächsten Tagesordnungspunkt.",
+            "sentences": [
+              {
+                "text": "Gut."
+              },
+              {
+                "text": "Dann beende ich an dieser Stelle die Befragung der Bundesregierung."
+              },
+              {
+                "text": "Wir kommen zum nächsten Tagesordnungspunkt."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Hans-Peter Friedrich",
+            "speakerstatus": "vice-president",
+            "text": "Herr Minister, wir haben alles verstanden. Vielen Dank.",
+            "sentences": [
+              {
+                "text": "Herr Minister, wir haben alles verstanden."
+              },
+              {
+                "text": "Vielen Dank."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "documents": [],
+    "key": "19-67 tagesordnungspunkt 2 (hans-peter friedrich)",
+    "dateStart": "2018-11-28T16:05:16",
+    "dateEnd": "2018-11-28T16:05:32",
     "media": {
       "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7296364/7296364_h264_720_400_2000kb_baseline_de_2192.mp4",
       "sourcePage": "http://dbtg.tv/fvid/7296364",
@@ -14341,18 +14428,7 @@
       "license": "CC-BY-SA",
       "originMediaID": "7296364",
       "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7296364/7296364_mp3_128kb_stereo_de_128.mp3"
-    },
-    "dateStart": "2018-11-28T16:05:16",
-    "dateEnd": "2018-11-28T16:05:32",
-    "people": [
-      {
-        "label": "Hans-Peter Friedrich",
-        "faction": "CDU/CSU",
-        "context": "main-speaker",
-        "role": "Bundestagsvizepräsident"
-      }
-    ],
-    "key": "19-67 tagesordnungspunkt 2 (hans-peter friedrich)"
+    }
   },
   {
     "parliament": "DE",
@@ -14366,7 +14442,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 3",
-      "speechIndex": 103,
+      "speechIndex": 1105,
       "title": "Fragestunde"
     },
     "people": [
@@ -14496,12 +14572,23 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19067-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19067-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
         "originTextID": "",
         "textBody": [
+          {
+            "type": "speech",
+            "speaker": "Hans-Peter Friedrich",
+            "speakerstatus": "vice-president",
+            "text": "Fragestunde",
+            "sentences": [
+              {
+                "text": "Fragestunde"
+              }
+            ]
+          },
           {
             "type": "speech",
             "speaker": "Hans-Peter Friedrich",
@@ -18469,7 +18556,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 3",
-      "speechIndex": 104,
+      "speechIndex": 1106,
       "title": "Fragestunde"
     },
     "people": [
@@ -18546,65 +18633,28 @@
         "lastname": "Bilger",
         "context": "speaker",
         "faction": ""
-      },
-      {
-        "type": "memberOfParliament",
-        "label": "Julia Verlinden",
-        "firstname": "Julia",
-        "lastname": "Verlinden",
-        "context": "speaker",
-        "faction": "BÜNDNIS 90/DIE GRÜNEN"
-      },
-      {
-        "type": "memberOfParliament",
-        "label": "Stefan Zierke",
-        "firstname": "Stefan",
-        "lastname": "Zierke",
-        "context": "speaker",
-        "faction": ""
-      },
-      {
-        "type": "memberOfParliament",
-        "label": "Nicole Bauer",
-        "firstname": "Nicole",
-        "lastname": "Bauer",
-        "context": "speaker",
-        "faction": "FDP"
-      },
-      {
-        "type": "memberOfParliament",
-        "label": "Sabine Weiss",
-        "firstname": "Sabine",
-        "lastname": "Weiss",
-        "context": "speaker",
-        "faction": ""
-      },
-      {
-        "type": "memberOfParliament",
-        "label": "Torsten Herbst",
-        "firstname": "Torsten",
-        "lastname": "Herbst",
-        "context": "speaker",
-        "faction": "FDP"
-      },
-      {
-        "type": "memberOfParliament",
-        "label": "Oliver Luksic",
-        "firstname": "Oliver",
-        "lastname": "Luksic",
-        "context": "speaker",
-        "faction": "FDP"
       }
     ],
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19067-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19067-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
         "originTextID": "",
         "textBody": [
+          {
+            "type": "speech",
+            "speaker": "Thomas Oppermann",
+            "speakerstatus": "vice-president",
+            "text": "Fragestunde",
+            "sentences": [
+              {
+                "text": "Fragestunde"
+              }
+            ]
+          },
           {
             "type": "speech",
             "speaker": "Thomas Oppermann",
@@ -20713,1317 +20763,6 @@
               },
               {
                 "text": "Ziel ist ein Inkrafttreten des Gesetzes Mitte nächsten Jahres."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Christian Hirte",
-            "speakerstatus": "speaker",
-            "text": "Eine Quantifizierung der mit dem Energieeinsparrecht für Gebäude einhergehenden Treibhausgaseinsparungen ist von zahlreichen Randbedingungen abhängig. Vor dem Hintergrund fehlender valider Erkenntnisse zu den künftigen Randbedingungen ist eine verlässliche Abschätzung derzeit nicht möglich. Im Rahmen der Untersuchungen zur Zielarchitektur der Energiewende werden die Vorgaben des Gebäude-Energie-Gesetzes einfließen.",
-            "sentences": [
-              {
-                "text": "Eine Quantifizierung der mit dem Energieeinsparrecht für Gebäude einhergehenden Treibhausgaseinsparungen ist von zahlreichen Randbedingungen abhängig."
-              },
-              {
-                "text": "Vor dem Hintergrund fehlender valider Erkenntnisse zu den künftigen Randbedingungen ist eine verlässliche Abschätzung derzeit nicht möglich."
-              },
-              {
-                "text": "Im Rahmen der Untersuchungen zur Zielarchitektur der Energiewende werden die Vorgaben des Gebäude-Energie-Gesetzes einfließen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Hans-Peter Friedrich",
-            "speakerstatus": "vice-president",
-            "text": "Haben Sie dazu eine Nachfrage? Sie können nachfragen, Sie müssen nicht.",
-            "sentences": [
-              {
-                "text": "Haben Sie dazu eine Nachfrage?"
-              },
-              {
-                "text": "Sie können nachfragen, Sie müssen nicht."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Julia Verlinden",
-            "speakerstatus": "speaker",
-            "text": "Ich habe sogar zwei Nachfragen, wenn Sie erlauben.",
-            "sentences": [
-              {
-                "text": "Ich habe sogar zwei Nachfragen, wenn Sie erlauben."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Hans-Peter Friedrich",
-            "speakerstatus": "vice-president",
-            "text": "Zwei sogar.",
-            "sentences": [
-              {
-                "text": "Zwei sogar."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Julia Verlinden",
-            "speakerstatus": "speaker",
-            "text": "Danke, Herr Präsident. – Herr Staatssekretär, ich habe Sie jetzt so verstanden: Dieses Gebäude-Energie-Gesetz wird nach Ihrer Planung Mitte nächsten Jahres in Kraft treten. Sie haben allerdings von der EU im Rahmen der EU-Gebäuderichtlinie eine Deadline bis Ende dieses Jahres. Sie müssen also schon in weniger als fünf Wochen der EU-Kommission nach Brüssel melden, wie wir in Deutschland den Niedrigstenergiegebäudestandard definieren. Haben Sie vor, dort etwas zu melden? Wenn ja, was? Die Frist läuft ja schon in fünf Wochen aus.",
-            "sentences": [
-              {
-                "text": "Danke, Herr Präsident."
-              },
-              {
-                "text": "– Herr Staatssekretär, ich habe Sie jetzt so verstanden: Dieses Gebäude-Energie-Gesetz wird nach Ihrer Planung Mitte nächsten Jahres in Kraft treten."
-              },
-              {
-                "text": "Sie haben allerdings von der EU im Rahmen der EU-Gebäuderichtlinie eine Deadline bis Ende dieses Jahres."
-              },
-              {
-                "text": "Sie müssen also schon in weniger als fünf Wochen der EU-Kommission nach Brüssel melden, wie wir in Deutschland den Niedrigstenergiegebäudestandard definieren."
-              },
-              {
-                "text": "Haben Sie vor, dort etwas zu melden?"
-              },
-              {
-                "text": "Wenn ja, was?"
-              },
-              {
-                "text": "Die Frist läuft ja schon in fünf Wochen aus."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Julia Verlinden",
-            "speakerstatus": "speaker",
-            "text": "Darüber hinaus will ich fragen, ob die Bundesregierung an dem festhalten wird, was in ihrem Koalitionsvertrag steht, nämlich dass Sie keine Veränderung der Mindestenergieeffizienzstandards für Gebäude wollen, obwohl heutzutage schon ein Großteil der Gebäude mit höheren, mit besseren, mit schärferen Standards effizienterer arbeitet, auch wenn das gar nicht vorgegeben ist, also mit Standards, die darüber hinausgehen. Wenn ja, wie begründen Sie, dass Sie die Anforderungen nicht erhöhen wollen?",
-            "sentences": [
-              {
-                "text": "Darüber hinaus will ich fragen, ob die Bundesregierung an dem festhalten wird, was in ihrem Koalitionsvertrag steht, nämlich dass Sie keine Veränderung der Mindestenergieeffizienzstandards für Gebäude wollen, obwohl heutzutage schon ein Großteil der Gebäude mit höheren, mit besseren, mit schärferen Standards effizienterer arbeitet, auch wenn das gar nicht vorgegeben ist, also mit Standards, die darüber hinausgehen."
-              },
-              {
-                "text": "Wenn ja, wie begründen Sie, dass Sie die Anforderungen nicht erhöhen wollen?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Hans-Peter Friedrich",
-            "speakerstatus": "vice-president",
-            "text": "Herr Staatssekretär.",
-            "sentences": [
-              {
-                "text": "Herr Staatssekretär."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Christian Hirte",
-            "speakerstatus": "speaker",
-            "text": "Herr Präsident! Sehr geehrte Frau Kollegin Dr. Verlinden, die eine Frage steht ja in unmittelbarem Zusammenhang mit der anderen. Wenn wir, wie angekündigt, ein Inkrafttreten des Gesetzes Mitte 2019 anstreben, ist aus unserer Sicht die EU-rechtliche Anforderung zum 1. Januar kommenden Jahres auch deswegen unproblematisch, weil nach unserer festen Überzeugung schon mit dem geltenden Energieeinsparungsgesetz die allgemeinen Vorgaben erfüllt sind. Wir haben uns im Koalitionsvertrag – das ist die Antwort auf Ihre zweite Frage – bewusst dafür entschieden, die Standards nicht zu erhöhen und Aufwendungen für die Bauherren nicht auszuweiten.",
-            "sentences": [
-              {
-                "text": "Herr Präsident!"
-              },
-              {
-                "text": "Sehr geehrte Frau Kollegin Dr. Verlinden, die eine Frage steht ja in unmittelbarem Zusammenhang mit der anderen."
-              },
-              {
-                "text": "Wenn wir, wie angekündigt, ein Inkrafttreten des Gesetzes Mitte 2019 anstreben, ist aus unserer Sicht die EU-rechtliche Anforderung zum 1. Januar kommenden Jahres auch deswegen unproblematisch, weil nach unserer festen Überzeugung schon mit dem geltenden Energieeinsparungsgesetz die allgemeinen Vorgaben erfüllt sind."
-              },
-              {
-                "text": "Wir haben uns im Koalitionsvertrag – das ist die Antwort auf Ihre zweite Frage – bewusst dafür entschieden, die Standards nicht zu erhöhen und Aufwendungen für die Bauherren nicht auszuweiten."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Hans-Peter Friedrich",
-            "speakerstatus": "vice-president",
-            "text": "Noch eine Frage? – Bitte schön.",
-            "sentences": [
-              {
-                "text": "Noch eine Frage?"
-              },
-              {
-                "text": "– Bitte schön."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Julia Verlinden",
-            "speakerstatus": "speaker",
-            "text": "Das heißt, Sie unterscheiden sich deutlich von vielen anderen Mitgliedstaaten, wenn Sie das, was Sie im Augenblick für den Neubau von Gebäuden als Standard definiert haben, so lassen, wie es ist; denn es gibt viele Staaten in Europa, die da deutlich ambitionierter sind.",
-            "sentences": [
-              {
-                "text": "Das heißt, Sie unterscheiden sich deutlich von vielen anderen Mitgliedstaaten, wenn Sie das, was Sie im Augenblick für den Neubau von Gebäuden als Standard definiert haben, so lassen, wie es ist; denn es gibt viele Staaten in Europa, die da deutlich ambitionierter sind."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Julia Verlinden",
-            "speakerstatus": "speaker",
-            "text": "Ich verstehe Sie so: Sie werden also einen Brief nach Brüssel schicken, in dem steht: Das, was schon jetzt seit Jahren gilt, ist unser neuer Niedrigstenergiegebäudestandard. – Das finde ich sehr bedauerlich.",
-            "sentences": [
-              {
-                "text": "Ich verstehe Sie so: Sie werden also einen Brief nach Brüssel schicken, in dem steht: Das, was schon jetzt seit Jahren gilt, ist unser neuer Niedrigstenergiegebäudestandard."
-              },
-              {
-                "text": "– Das finde ich sehr bedauerlich."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Julia Verlinden",
-            "speakerstatus": "speaker",
-            "text": "Die Frage, die ich darüber hinaus habe, lautet: Sie haben eine Gebäudekommission angekündigt. Ist diese bereits eingerichtet? Wenn ja, welches Mandat oder welches Ziel hat diese Kommission? Wer gehört ihr an? Wenn diese Kommission bisher noch nicht eingerichtet ist: Wann soll diese Kommission eingerichtet werden, und wer wird ihr dann angehören?",
-            "sentences": [
-              {
-                "text": "Die Frage, die ich darüber hinaus habe, lautet: Sie haben eine Gebäudekommission angekündigt."
-              },
-              {
-                "text": "Ist diese bereits eingerichtet?"
-              },
-              {
-                "text": "Wenn ja, welches Mandat oder welches Ziel hat diese Kommission?"
-              },
-              {
-                "text": "Wer gehört ihr an?"
-              },
-              {
-                "text": "Wenn diese Kommission bisher noch nicht eingerichtet ist: Wann soll diese Kommission eingerichtet werden, und wer wird ihr dann angehören?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Hans-Peter Friedrich",
-            "speakerstatus": "vice-president",
-            "text": "Herr Staatssekretär.",
-            "sentences": [
-              {
-                "text": "Herr Staatssekretär."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Christian Hirte",
-            "speakerstatus": "speaker",
-            "text": "Herr Präsident! Sehr geehrte Frau Kollegin, Sie haben mich missverstanden. Wir haben heute schon ganz hohe energetische Standards auch im Gebäudebereich. Deswegen ist der aktuelle Status quo bereits hervorragend. Ich glaube, dass sich andere in Europa kaum mit uns messen können. Was die Gebäudekommission angeht, kann ich Ihnen aktuell keine Antwort geben. Ich prüfe das gerne im eigenen Haus nach. Wenn es schon Erkenntnisse gibt, kann ich diese gerne schriftlich nachreichen.",
-            "sentences": [
-              {
-                "text": "Herr Präsident!"
-              },
-              {
-                "text": "Sehr geehrte Frau Kollegin, Sie haben mich missverstanden."
-              },
-              {
-                "text": "Wir haben heute schon ganz hohe energetische Standards auch im Gebäudebereich."
-              },
-              {
-                "text": "Deswegen ist der aktuelle Status quo bereits hervorragend."
-              },
-              {
-                "text": "Ich glaube, dass sich andere in Europa kaum mit uns messen können."
-              },
-              {
-                "text": "Was die Gebäudekommission angeht, kann ich Ihnen aktuell keine Antwort geben."
-              },
-              {
-                "text": "Ich prüfe das gerne im eigenen Haus nach."
-              },
-              {
-                "text": "Wenn es schon Erkenntnisse gibt, kann ich diese gerne schriftlich nachreichen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Hans-Peter Friedrich",
-            "speakerstatus": "vice-president",
-            "text": "Dann kommen wir zu Frage 18 der Abgeordneten Dr. Julia Verlinden:",
-            "sentences": [
-              {
-                "text": "Dann kommen wir zu Frage 18 der Abgeordneten Dr. Julia Verlinden:"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Christian Hirte",
-            "speakerstatus": "speaker",
-            "text": "Herr Präsident! Sehr geehrte Frau Kollegin, um die Ziele des Pariser Klimaabkommens zu erreichen, setzt die Bundesregierung den Klimaschutzplan 2050 um. Die Bundesregierung erarbeitet ein Maßnahmenprogramm, das die Einhaltung des Klimaziels 2030 sicherstellen soll. Das Sektorenziel 2030 für die Energiewirtschaft in Höhe von 175 Millionen bis 183 Millionen Tonnen CO 2 -Äquivalenten ist mit dem Ziel, den Anteil der erneuerbaren Energien im Stromsektor auf etwa 65 Prozent am Bruttostromverbrauch zu erhöhen, kompatibel. Im Entwurf des Gesetzes zur Änderung des Erneuerbare-Energien-Gesetzes ist die Anhebung des Ausbaukorridors für erneuerbare Energien im Stromsektor nicht enthalten. Die Koalitionsfraktionen sind übereingekommen, über die Erreichung des 65-Prozent-Ziels in einer Arbeitsgruppe zu beraten. Diese Arbeitsgruppe wird unter anderem über die weiteren Ausbaupfade bis 2030 entscheiden, um das im Koalitionsvertrag angestrebte Ziel von etwa 65 Prozent Anteil der erneuerbaren Energien am Stromsektor zu erreichen. Die Arbeitsgruppe will Ergebnisse bis Ende März nächsten Jahres vorlegen. Die entsprechenden Vorschläge sollen dann bis Herbst 2019 umgesetzt werden.",
-            "sentences": [
-              {
-                "text": "Herr Präsident!"
-              },
-              {
-                "text": "Sehr geehrte Frau Kollegin, um die Ziele des Pariser Klimaabkommens zu erreichen, setzt die Bundesregierung den Klimaschutzplan 2050 um."
-              },
-              {
-                "text": "Die Bundesregierung erarbeitet ein Maßnahmenprogramm, das die Einhaltung des Klimaziels 2030 sicherstellen soll."
-              },
-              {
-                "text": "Das Sektorenziel 2030 für die Energiewirtschaft in Höhe von 175 Millionen bis 183 Millionen Tonnen CO 2 -Äquivalenten ist mit dem Ziel, den Anteil der erneuerbaren Energien im Stromsektor auf etwa 65 Prozent am Bruttostromverbrauch zu erhöhen, kompatibel."
-              },
-              {
-                "text": "Im Entwurf des Gesetzes zur Änderung des Erneuerbare-Energien-Gesetzes ist die Anhebung des Ausbaukorridors für erneuerbare Energien im Stromsektor nicht enthalten."
-              },
-              {
-                "text": "Die Koalitionsfraktionen sind übereingekommen, über die Erreichung des 65-Prozent-Ziels in einer Arbeitsgruppe zu beraten."
-              },
-              {
-                "text": "Diese Arbeitsgruppe wird unter anderem über die weiteren Ausbaupfade bis 2030 entscheiden, um das im Koalitionsvertrag angestrebte Ziel von etwa 65 Prozent Anteil der erneuerbaren Energien am Stromsektor zu erreichen."
-              },
-              {
-                "text": "Die Arbeitsgruppe will Ergebnisse bis Ende März nächsten Jahres vorlegen."
-              },
-              {
-                "text": "Die entsprechenden Vorschläge sollen dann bis Herbst 2019 umgesetzt werden."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Hans-Peter Friedrich",
-            "speakerstatus": "vice-president",
-            "text": "Erste Nachfrage, bitte schön.",
-            "sentences": [
-              {
-                "text": "Erste Nachfrage, bitte schön."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Julia Verlinden",
-            "speakerstatus": "speaker",
-            "text": "Vielen Dank, Herr Staatssekretär. – Wenn ich Sie richtig verstanden habe, dann hat also die Bundesregierung eine wissenschaftliche Untersuchung angestellt oder ein Gesamtkonzept erarbeiten lassen, aus dem nach Ihren Worten hervorgeht, dass das 65-Prozent-Ziel ausreichend bzw. – so haben Sie das genannt – kompatibel mit den Pariser Klimaschutzzielen sein soll. Können Sie mir genauer sagen, um welches Gutachten es sich dabei handelt, welchen Titel es trägt, wo ich das nachlesen kann? Das interessiert mich sehr. Wenn Sie dieses Gutachten so genau studiert haben, dann können Sie mir bestimmt sagen, von welcher Terawattstundenzahl beim Stromverbrauch die Gutachter für das Jahr 2030 ausgehen. Davon hängt natürlich sehr viel ab. 65 Prozent wovon? Das ist nicht irrelevant, wie wir in diesem Parlament schon mehrfach diskutiert haben. Wie lautet der Titel des Gutachtens? Wo kann man das lesen? Von welcher Terawattstundenzahl geht das Gutachten für das Jahr 2030 aus?",
-            "sentences": [
-              {
-                "text": "Vielen Dank, Herr Staatssekretär."
-              },
-              {
-                "text": "– Wenn ich Sie richtig verstanden habe, dann hat also die Bundesregierung eine wissenschaftliche Untersuchung angestellt oder ein Gesamtkonzept erarbeiten lassen, aus dem nach Ihren Worten hervorgeht, dass das 65-Prozent-Ziel ausreichend bzw. – so haben Sie das genannt – kompatibel mit den Pariser Klimaschutzzielen sein soll."
-              },
-              {
-                "text": "Können Sie mir genauer sagen, um welches Gutachten es sich dabei handelt, welchen Titel es trägt, wo ich das nachlesen kann?"
-              },
-              {
-                "text": "Das interessiert mich sehr."
-              },
-              {
-                "text": "Wenn Sie dieses Gutachten so genau studiert haben, dann können Sie mir bestimmt sagen, von welcher Terawattstundenzahl beim Stromverbrauch die Gutachter für das Jahr 2030 ausgehen."
-              },
-              {
-                "text": "Davon hängt natürlich sehr viel ab."
-              },
-              {
-                "text": "65 Prozent wovon?"
-              },
-              {
-                "text": "Das ist nicht irrelevant, wie wir in diesem Parlament schon mehrfach diskutiert haben."
-              },
-              {
-                "text": "Wie lautet der Titel des Gutachtens?"
-              },
-              {
-                "text": "Wo kann man das lesen?"
-              },
-              {
-                "text": "Von welcher Terawattstundenzahl geht das Gutachten für das Jahr 2030 aus?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Hans-Peter Friedrich",
-            "speakerstatus": "vice-president",
-            "text": "Herr Staatssekretär.",
-            "sentences": [
-              {
-                "text": "Herr Staatssekretär."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Christian Hirte",
-            "speakerstatus": "speaker",
-            "text": "Herr Präsident! Frau Kollegin, bei dem 65-Prozent-Ziel handelt es sich um ein politisches Ziel, eine politische Maßgabe, die wir im Koalitionsvertrag vorgenommen haben und die wir erreichen wollen. Wir haben uns aktuell innerhalb der Koalitionsfraktionen darauf verständigt, eine Arbeitsgruppe zu bilden, die sich genau damit beschäftigen und bis Ende nächsten Jahres Ergebnisse vorlegen soll. Auf Basis der Ergebnisse dieser Arbeitsgruppe und der Ergebnisse der Kommission „Wachstum, Strukturwandel und Beschäftigung“, die uns bis Anfang kommenden Jahres vorliegen sollen, sowie unter Berücksichtigung der Fortschritte beim Stromnetz­ausbau und der Möglichkeiten der Bestandsnetzoptimierung entscheidet dann die Koalition im nächsten Jahr über ganz konkrete Akzeptanzmaßnahmen im Bereich Wind an Land und auch über die weiteren Ausbaupfade bis 2030.",
-            "sentences": [
-              {
-                "text": "Herr Präsident!"
-              },
-              {
-                "text": "Frau Kollegin, bei dem 65-Prozent-Ziel handelt es sich um ein politisches Ziel, eine politische Maßgabe, die wir im Koalitionsvertrag vorgenommen haben und die wir erreichen wollen."
-              },
-              {
-                "text": "Wir haben uns aktuell innerhalb der Koalitionsfraktionen darauf verständigt, eine Arbeitsgruppe zu bilden, die sich genau damit beschäftigen und bis Ende nächsten Jahres Ergebnisse vorlegen soll."
-              },
-              {
-                "text": "Auf Basis der Ergebnisse dieser Arbeitsgruppe und der Ergebnisse der Kommission „Wachstum, Strukturwandel und Beschäftigung“, die uns bis Anfang kommenden Jahres vorliegen sollen, sowie unter Berücksichtigung der Fortschritte beim Stromnetz­ausbau und der Möglichkeiten der Bestandsnetzoptimierung entscheidet dann die Koalition im nächsten Jahr über ganz konkrete Akzeptanzmaßnahmen im Bereich Wind an Land und auch über die weiteren Ausbaupfade bis 2030."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Hans-Peter Friedrich",
-            "speakerstatus": "vice-president",
-            "text": "Eine zweite Nachfrage.",
-            "sentences": [
-              {
-                "text": "Eine zweite Nachfrage."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Julia Verlinden",
-            "speakerstatus": "speaker",
-            "text": "Ich frage mich in der Tat, ob Sie mich hier für dumm verkaufen wollen. Denn Sie haben eben noch gesagt: Wir wissen, dass das Ziel, einen Anteil von 65 Prozent der erneuerbaren Energien im Stromsektor bis 2030 zu erreichen, kompatibel und ausreichend ist, um die Pariser Klimaschutzziele zu erreichen. – Dann frage ich Sie: Wer hat das denn ausgerechnet? Mit welchen Summen haben Sie dabei operiert? Wer hat das Gutachten erstellt? Nun sagen Sie mir: Das ist ein politisches Ziel, und wir wollen das erreichen. Deswegen wird es schon reichen.",
-            "sentences": [
-              {
-                "text": "Ich frage mich in der Tat, ob Sie mich hier für dumm verkaufen wollen."
-              },
-              {
-                "text": "Denn Sie haben eben noch gesagt: Wir wissen, dass das Ziel, einen Anteil von 65 Prozent der erneuerbaren Energien im Stromsektor bis 2030 zu erreichen, kompatibel und ausreichend ist, um die Pariser Klimaschutzziele zu erreichen."
-              },
-              {
-                "text": "– Dann frage ich Sie: Wer hat das denn ausgerechnet?"
-              },
-              {
-                "text": "Mit welchen Summen haben Sie dabei operiert?"
-              },
-              {
-                "text": "Wer hat das Gutachten erstellt?"
-              },
-              {
-                "text": "Nun sagen Sie mir: Das ist ein politisches Ziel, und wir wollen das erreichen."
-              },
-              {
-                "text": "Deswegen wird es schon reichen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Julia Verlinden",
-            "speakerstatus": "speaker",
-            "text": "Also, ich finde es unfassbar, dass Sie ein völkerrechtsverbindliches Abkommen unterzeichnet haben – das haben wir hier im Bundestag einstimmig beschlossen – und mir hier jetzt ernsthaft sagen wollen, dass die Bundesregierung kein Gutachten erstellt hat, keine wissenschaftliche Expertise in Auftrag gegeben hat, um herauszufinden, was das für den Anteil der erneuerbaren Energien im Jahr 2030 genau bedeutet, um diese Ziele zu erreichen. Das ist ein Armutszeugnis. Das ist eine Bankrotterklärung für die Energie- und Klimapolitik dieser Bundesregierung.",
-            "sentences": [
-              {
-                "text": "Also, ich finde es unfassbar, dass Sie ein völkerrechtsverbindliches Abkommen unterzeichnet haben – das haben wir hier im Bundestag einstimmig beschlossen – und mir hier jetzt ernsthaft sagen wollen, dass die Bundesregierung kein Gutachten erstellt hat, keine wissenschaftliche Expertise in Auftrag gegeben hat, um herauszufinden, was das für den Anteil der erneuerbaren Energien im Jahr 2030 genau bedeutet, um diese Ziele zu erreichen."
-              },
-              {
-                "text": "Das ist ein Armutszeugnis."
-              },
-              {
-                "text": "Das ist eine Bankrotterklärung für die Energie- und Klimapolitik dieser Bundesregierung."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Hans-Peter Friedrich",
-            "speakerstatus": "vice-president",
-            "text": "Herr Staatssekretär, was sagen Sie dazu?",
-            "sentences": [
-              {
-                "text": "Herr Staatssekretär, was sagen Sie dazu?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Christian Hirte",
-            "speakerstatus": "speaker",
-            "text": "Herr Präsident! Frau Kollegin, Ihre Frage muss ich natürlich in aller Schärfe mit Nein beantworten. Ich beabsichtige nicht, Sie für dumm zu verkaufen. Sie wissen ja selbst, dass wir eine Reihe von Gutachten in Auftrag gegeben hatten, die nicht nur in der Regierung, sondern auch im Parlament in den letzten Jahren diskutiert wurden. Gerne kann ich sie nachreichen. Ich habe sie jetzt nicht parat. Aber es ist am Ende alles richtig, was ich Ihnen ausgeführt habe.",
-            "sentences": [
-              {
-                "text": "Herr Präsident!"
-              },
-              {
-                "text": "Frau Kollegin, Ihre Frage muss ich natürlich in aller Schärfe mit Nein beantworten."
-              },
-              {
-                "text": "Ich beabsichtige nicht, Sie für dumm zu verkaufen."
-              },
-              {
-                "text": "Sie wissen ja selbst, dass wir eine Reihe von Gutachten in Auftrag gegeben hatten, die nicht nur in der Regierung, sondern auch im Parlament in den letzten Jahren diskutiert wurden."
-              },
-              {
-                "text": "Gerne kann ich sie nachreichen."
-              },
-              {
-                "text": "Ich habe sie jetzt nicht parat."
-              },
-              {
-                "text": "Aber es ist am Ende alles richtig, was ich Ihnen ausgeführt habe."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Hans-Peter Friedrich",
-            "speakerstatus": "vice-president",
-            "text": "Gut. – Dann kommen wir zum Geschäftsbereich des Bundesministeriums der Justiz und für Verbraucherschutz. Die Frage 19 des Abgeordneten Andrej Hunko und die Frage 20 der Abgeordneten Canan Bayram werden schriftlich beantwortet.",
-            "sentences": [
-              {
-                "text": "Gut."
-              },
-              {
-                "text": "– Dann kommen wir zum Geschäftsbereich des Bundesministeriums der Justiz und für Verbraucherschutz."
-              },
-              {
-                "text": "Die Frage 19 des Abgeordneten Andrej Hunko und die Frage 20 der Abgeordneten Canan Bayram werden schriftlich beantwortet."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Hans-Peter Friedrich",
-            "speakerstatus": "vice-president",
-            "text": "Dann kommen wir zum Geschäftsbereich des Bundesministeriums für Arbeit und Soziales. Die Fragen 21 und 22 der Abgeordneten Sabine Zimmermann, die Fragen 23 und 24 des Abgeordneten Matthias Birkwald, die Frage 25 der Abgeordneten Sylvia Kotting-Uhl, die Fragen 26 und 27 der Abgeordneten Katrin Werner werden schriftlich beantwortet.",
-            "sentences": [
-              {
-                "text": "Dann kommen wir zum Geschäftsbereich des Bundesministeriums für Arbeit und Soziales."
-              },
-              {
-                "text": "Die Fragen 21 und 22 der Abgeordneten Sabine Zimmermann, die Fragen 23 und 24 des Abgeordneten Matthias Birkwald, die Frage 25 der Abgeordneten Sylvia Kotting-Uhl, die Fragen 26 und 27 der Abgeordneten Katrin Werner werden schriftlich beantwortet."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Hans-Peter Friedrich",
-            "speakerstatus": "vice-president",
-            "text": "Dann kommen wir zum Geschäftsbereich des Bundesministeriums der Verteidigung. Die Frage 28 der Abgeordneten Martina Renner und die Frage 29 der Abgeordneten Katja Keul werden schriftlich beantwortet.",
-            "sentences": [
-              {
-                "text": "Dann kommen wir zum Geschäftsbereich des Bundesministeriums der Verteidigung."
-              },
-              {
-                "text": "Die Frage 28 der Abgeordneten Martina Renner und die Frage 29 der Abgeordneten Katja Keul werden schriftlich beantwortet."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Hans-Peter Friedrich",
-            "speakerstatus": "vice-president",
-            "text": "Dann kommen wir zum Geschäftsbereich des Bundesministeriums für Ernährung und Landwirtschaft. Die Fragen 30 und 31 des Abgeordneten Friedrich Ostendorff, die Fragen 32 und 33 des Abgeordneten Harald Ebner und die Fragen 34 und 35 der Abgeordneten Steffi Lemke werden schriftlich beantwortet.",
-            "sentences": [
-              {
-                "text": "Dann kommen wir zum Geschäftsbereich des Bundesministeriums für Ernährung und Landwirtschaft."
-              },
-              {
-                "text": "Die Fragen 30 und 31 des Abgeordneten Friedrich Ostendorff, die Fragen 32 und 33 des Abgeordneten Harald Ebner und die Fragen 34 und 35 der Abgeordneten Steffi Lemke werden schriftlich beantwortet."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Hans-Peter Friedrich",
-            "speakerstatus": "vice-president",
-            "text": "Ich rufe den Geschäftsbereich des Bundesministeriums für Familie, Senioren, Frauen und Jugend auf. Zur Beantwortung der Fragen steht der Staatssekretär Stefan Zierke bereit.",
-            "sentences": [
-              {
-                "text": "Ich rufe den Geschäftsbereich des Bundesministeriums für Familie, Senioren, Frauen und Jugend auf."
-              },
-              {
-                "text": "Zur Beantwortung der Fragen steht der Staatssekretär Stefan Zierke bereit."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Hans-Peter Friedrich",
-            "speakerstatus": "vice-president",
-            "text": "Die Fragen 36 und 37 des Abgeordneten Kai Gehring werden schriftlich beantwortet.",
-            "sentences": [
-              {
-                "text": "Die Fragen 36 und 37 des Abgeordneten Kai Gehring werden schriftlich beantwortet."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Hans-Peter Friedrich",
-            "speakerstatus": "vice-president",
-            "text": "Ich rufe die Frage 38 der Abgeordneten Nicole Bauer von der FDP auf:",
-            "sentences": [
-              {
-                "text": "Ich rufe die Frage 38 der Abgeordneten Nicole Bauer von der FDP auf:"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Stefan Zierke",
-            "speakerstatus": "speaker",
-            "text": "Sehr geehrter Herr Präsident! Sehr geehrte Kollegin Bauer, die Bundesregierung hat die Einlassung der Sachverständigen in der öffentlichen Anhörung zum Entwurf des Gute-Kita-Gesetzes zur Kenntnis genommen. Die Sachverständigen haben Anregungen und Änderungswünsche der Institutionen, die sie vertreten, dargelegt. Das Gute-Kita-Gesetz stellt jedoch das Ergebnis eines jahrelangen Prozesses dar und ist damit eine gute Balance zwischen den unterschiedlichen Interessen aller in diesem Themenfeld Engagierten.",
-            "sentences": [
-              {
-                "text": "Sehr geehrter Herr Präsident!"
-              },
-              {
-                "text": "Sehr geehrte Kollegin Bauer, die Bundesregierung hat die Einlassung der Sachverständigen in der öffentlichen Anhörung zum Entwurf des Gute-Kita-Gesetzes zur Kenntnis genommen."
-              },
-              {
-                "text": "Die Sachverständigen haben Anregungen und Änderungswünsche der Institutionen, die sie vertreten, dargelegt."
-              },
-              {
-                "text": "Das Gute-Kita-Gesetz stellt jedoch das Ergebnis eines jahrelangen Prozesses dar und ist damit eine gute Balance zwischen den unterschiedlichen Interessen aller in diesem Themenfeld Engagierten."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Stefan Zierke",
-            "speakerstatus": "speaker",
-            "text": "Die Bundesregierung sieht keine Veranlassung, den Gesetzentwurf zurückzuziehen. Die Bewertung der Ergebnisse der öffentlichen Anhörung sowie die Entscheidung, ob dem Gesetzentwurf zugestimmt wird, obliegt nun den Mitgliedern des Deutschen Bundestages im parlamentarischen Verfahren.",
-            "sentences": [
-              {
-                "text": "Die Bundesregierung sieht keine Veranlassung, den Gesetzentwurf zurückzuziehen."
-              },
-              {
-                "text": "Die Bewertung der Ergebnisse der öffentlichen Anhörung sowie die Entscheidung, ob dem Gesetzentwurf zugestimmt wird, obliegt nun den Mitgliedern des Deutschen Bundestages im parlamentarischen Verfahren."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Hans-Peter Friedrich",
-            "speakerstatus": "vice-president",
-            "text": "Frau Kollegin, haben Sie eine Nachfrage?",
-            "sentences": [
-              {
-                "text": "Frau Kollegin, haben Sie eine Nachfrage?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Nicole Bauer",
-            "speakerstatus": "speaker",
-            "text": "Ja, auf jeden Fall. – Herzlichen Dank für die bisherige Beantwortung. Mich interessiert, inwiefern die Bundesregierung es für notwendig, aber auch für haltbar hält, das Gute-Kita-Gesetz, wie ursprünglich geplant, zum 1. Januar 2019 in Kraft treten zu lassen.",
-            "sentences": [
-              {
-                "text": "Ja, auf jeden Fall."
-              },
-              {
-                "text": "– Herzlichen Dank für die bisherige Beantwortung."
-              },
-              {
-                "text": "Mich interessiert, inwiefern die Bundesregierung es für notwendig, aber auch für haltbar hält, das Gute-Kita-Gesetz, wie ursprünglich geplant, zum 1. Januar 2019 in Kraft treten zu lassen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Stefan Zierke",
-            "speakerstatus": "speaker",
-            "text": "Das Ziel zu erreichen, ist nach wie vor geplant.",
-            "sentences": [
-              {
-                "text": "Das Ziel zu erreichen, ist nach wie vor geplant."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Hans-Peter Friedrich",
-            "speakerstatus": "vice-president",
-            "text": "Frau Bauer, Ihre zweite Nachfrage.",
-            "sentences": [
-              {
-                "text": "Frau Bauer, Ihre zweite Nachfrage."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Nicole Bauer",
-            "speakerstatus": "speaker",
-            "text": "Dann interessiert mich: Inwiefern erachten Sie es als zielführend, bei so einem wichtigen Gesetz an so einem straffen Zeitplan – ich erinnere daran, heute ist der 28. November 2018 – festzuhalten, wo Sie doch wissen, dass im Bundesrat alle Länder zustimmen müssen, um das überhaupt umsetzen zu können.",
-            "sentences": [
-              {
-                "text": "Dann interessiert mich: Inwiefern erachten Sie es als zielführend, bei so einem wichtigen Gesetz an so einem straffen Zeitplan – ich erinnere daran, heute ist der 28. November 2018 – festzuhalten, wo Sie doch wissen, dass im Bundesrat alle Länder zustimmen müssen, um das überhaupt umsetzen zu können."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Stefan Zierke",
-            "speakerstatus": "speaker",
-            "text": "Gerade weil wir wissen, dass es so ein wichtiges Gesetz ist, hoffen wir, dass alle Partner, die an diesem Gesetz mitarbeiten, mithelfen, diesen Zeitplan einzuhalten.",
-            "sentences": [
-              {
-                "text": "Gerade weil wir wissen, dass es so ein wichtiges Gesetz ist, hoffen wir, dass alle Partner, die an diesem Gesetz mitarbeiten, mithelfen, diesen Zeitplan einzuhalten."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Hans-Peter Friedrich",
-            "speakerstatus": "vice-president",
-            "text": "Vielen Dank. – Ich rufe die Frage 39 auf, ebenfalls von Frau Kollegin Bauer:",
-            "sentences": [
-              {
-                "text": "Vielen Dank."
-              },
-              {
-                "text": "– Ich rufe die Frage 39 auf, ebenfalls von Frau Kollegin Bauer:"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Stefan Zierke",
-            "speakerstatus": "speaker",
-            "text": "Sehr geehrter Herr Präsident! Sehr geehrte Frau ­Bauer, die Bundesregierung sieht aufgrund der hohen Gewaltbetroffenheit von Frauen in Deutschland die Notwendigkeit, zusammen mit den Ländern und Kommunen zu handeln. Es muss erörtert werden, wie der bedarfsgerechte Ausbau sowie die finanzielle Absicherung der Arbeit von Frauenhäusern und ambulanten Hilfs- und Betreuungseinrichtungen gemeinsam verbessert werden kann. Der dazu von Frau Ministerin Dr. Franziska Giffey ins Leben gerufene „Runde Tisch gegen Gewalt an Frauen“ erarbeitet dazu konkrete Vorschläge für Maßnahmen.",
-            "sentences": [
-              {
-                "text": "Sehr geehrter Herr Präsident!"
-              },
-              {
-                "text": "Sehr geehrte Frau ­Bauer, die Bundesregierung sieht aufgrund der hohen Gewaltbetroffenheit von Frauen in Deutschland die Notwendigkeit, zusammen mit den Ländern und Kommunen zu handeln."
-              },
-              {
-                "text": "Es muss erörtert werden, wie der bedarfsgerechte Ausbau sowie die finanzielle Absicherung der Arbeit von Frauenhäusern und ambulanten Hilfs- und Betreuungseinrichtungen gemeinsam verbessert werden kann."
-              },
-              {
-                "text": "Der dazu von Frau Ministerin Dr. Franziska Giffey ins Leben gerufene „Runde Tisch gegen Gewalt an Frauen“ erarbeitet dazu konkrete Vorschläge für Maßnahmen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Stefan Zierke",
-            "speakerstatus": "speaker",
-            "text": "Die Bundesregierung wird zudem ab 2019 den weiteren Ausbau der Hilfeeinrichtungen für von Gewalt betroffene Frauen mit einem Bundesförderprogramm unterstützen.",
-            "sentences": [
-              {
-                "text": "Die Bundesregierung wird zudem ab 2019 den weiteren Ausbau der Hilfeeinrichtungen für von Gewalt betroffene Frauen mit einem Bundesförderprogramm unterstützen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Hans-Peter Friedrich",
-            "speakerstatus": "vice-president",
-            "text": "Frau Kollegin, Nachfrage?",
-            "sentences": [
-              {
-                "text": "Frau Kollegin, Nachfrage?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Nicole Bauer",
-            "speakerstatus": "speaker",
-            "text": "Ja, auch dazu. – Vielen Dank für die Beantwortung. – Mich interessiert, welche Maßnahmen die Bundesregierung ergriffen hat, um den Gewaltschutz in AnKER-Zen­tren oder anderen Einrichtungen insbesondere von Frauen zu gewährleisten, ohne dass sich diese beim Aufsuchen eines Frauenhauses strafbar machen?",
-            "sentences": [
-              {
-                "text": "Ja, auch dazu."
-              },
-              {
-                "text": "– Vielen Dank für die Beantwortung."
-              },
-              {
-                "text": "– Mich interessiert, welche Maßnahmen die Bundesregierung ergriffen hat, um den Gewaltschutz in AnKER-Zen­tren oder anderen Einrichtungen insbesondere von Frauen zu gewährleisten, ohne dass sich diese beim Aufsuchen eines Frauenhauses strafbar machen?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Stefan Zierke",
-            "speakerstatus": "speaker",
-            "text": "Wir haben diese Frage heute schon im Ausschuss diskutiert. Das Bundesfamilienministerium ist in Zusammenarbeit mit dem Bundesinnenministerium, den Ländern und Kommunen aktiv, um genau dieses Problem zu lösen, sodass Frauen in Flüchtlingseinrichtungen, nicht nur in AnKER-Zentren, sondern in allen solchen Einrichtungen, genau das nicht passiert. Frauen müssen dort Schutz haben.",
-            "sentences": [
-              {
-                "text": "Wir haben diese Frage heute schon im Ausschuss diskutiert."
-              },
-              {
-                "text": "Das Bundesfamilienministerium ist in Zusammenarbeit mit dem Bundesinnenministerium, den Ländern und Kommunen aktiv, um genau dieses Problem zu lösen, sodass Frauen in Flüchtlingseinrichtungen, nicht nur in AnKER-Zentren, sondern in allen solchen Einrichtungen, genau das nicht passiert."
-              },
-              {
-                "text": "Frauen müssen dort Schutz haben."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Hans-Peter Friedrich",
-            "speakerstatus": "vice-president",
-            "text": "Weitere Fragen? – Das ist nicht der Fall.",
-            "sentences": [
-              {
-                "text": "Weitere Fragen?"
-              },
-              {
-                "text": "– Das ist nicht der Fall."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Hans-Peter Friedrich",
-            "speakerstatus": "vice-president",
-            "text": "Dann kommen wir zum Geschäftsbereich des Bundesministeriums für Gesundheit.",
-            "sentences": [
-              {
-                "text": "Dann kommen wir zum Geschäftsbereich des Bundesministeriums für Gesundheit."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Hans-Peter Friedrich",
-            "speakerstatus": "vice-president",
-            "text": "Die Frage 40 des Kollegen Niema Movassat wird schriftlich beantwortet.",
-            "sentences": [
-              {
-                "text": "Die Frage 40 des Kollegen Niema Movassat wird schriftlich beantwortet."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Hans-Peter Friedrich",
-            "speakerstatus": "vice-president",
-            "text": "Zur weiteren Beantwortung steht die Kollegin Staatssekretärin Sabine Weiss zur Verfügung.",
-            "sentences": [
-              {
-                "text": "Zur weiteren Beantwortung steht die Kollegin Staatssekretärin Sabine Weiss zur Verfügung."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Hans-Peter Friedrich",
-            "speakerstatus": "vice-president",
-            "text": "Sie beantwortet zunächst die Frage 41 des Kollegen Detlev Spangenberg:",
-            "sentences": [
-              {
-                "text": "Sie beantwortet zunächst die Frage 41 des Kollegen Detlev Spangenberg:"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Sabine Weiss",
-            "speakerstatus": "speaker",
-            "text": "Herr Kollege Spangenberg, Ihre Frage beantworte ich wie folgt: Die Bundesregierung beobachtet die Entwicklung der Übernahme von Medizinischen Versorgungszentren durch Finanzinvestoren sehr sorgfältig. So wird in der jüngsten Vergangenheit zunehmend von Fällen berichtet, in denen MVZ von Investoren gegründet werden, die allein Kapitalinteressen verfolgen und keinen Bezug zur medizinischen Versorgung haben. Konkret beschrieben wird dies beispielsweise für Investoren, die nichtärztliche Dialyseleistungserbringer, die an der vertragsärztlichen Versorgung teilnehmen, aufkaufen. Sie tun dies, um hierüber den Zugang zur vertragsärztlichen Versorgung zu erhalten. Hierbei ist zu berücksichtigen, dass der Aufkauf entsprechender Leistungserbringer nach der bisherigen Gesetzeslage auch zur Gründung solcher MVZ berechtigt, die andere Leistungen erbringen als die zuvor aufgekaufte Einrichtung.",
-            "sentences": [
-              {
-                "text": "Herr Kollege Spangenberg, Ihre Frage beantworte ich wie folgt: Die Bundesregierung beobachtet die Entwicklung der Übernahme von Medizinischen Versorgungszentren durch Finanzinvestoren sehr sorgfältig."
-              },
-              {
-                "text": "So wird in der jüngsten Vergangenheit zunehmend von Fällen berichtet, in denen MVZ von Investoren gegründet werden, die allein Kapitalinteressen verfolgen und keinen Bezug zur medizinischen Versorgung haben."
-              },
-              {
-                "text": "Konkret beschrieben wird dies beispielsweise für Investoren, die nichtärztliche Dialyseleistungserbringer, die an der vertragsärztlichen Versorgung teilnehmen, aufkaufen."
-              },
-              {
-                "text": "Sie tun dies, um hierüber den Zugang zur vertragsärztlichen Versorgung zu erhalten."
-              },
-              {
-                "text": "Hierbei ist zu berücksichtigen, dass der Aufkauf entsprechender Leistungserbringer nach der bisherigen Gesetzeslage auch zur Gründung solcher MVZ berechtigt, die andere Leistungen erbringen als die zuvor aufgekaufte Einrichtung."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Sabine Weiss",
-            "speakerstatus": "speaker",
-            "text": "Wir wollen im TSVG aufgrund dieser Probleme jetzt neu regeln, dass es für nichtärztliche Dialyseleistungserbringer zukünftig Gründungsbefugnis nur noch für fachbezogene MVZ gibt, sodass bei Dialyseeinrichtungen die flächendeckende Versorgung weiter erhalten bleibt.",
-            "sentences": [
-              {
-                "text": "Wir wollen im TSVG aufgrund dieser Probleme jetzt neu regeln, dass es für nichtärztliche Dialyseleistungserbringer zukünftig Gründungsbefugnis nur noch für fachbezogene MVZ gibt, sodass bei Dialyseeinrichtungen die flächendeckende Versorgung weiter erhalten bleibt."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Sabine Weiss",
-            "speakerstatus": "speaker",
-            "text": "Die Bundesregierung prüft zudem, ob es weiterer Maßnahmen bedarf. Ziel dieser Prüfung wird immer sein: Der Einfluss von reinen Kapitalinteressen auf medizinische Behandlungen muss verhindert werden.",
-            "sentences": [
-              {
-                "text": "Die Bundesregierung prüft zudem, ob es weiterer Maßnahmen bedarf."
-              },
-              {
-                "text": "Ziel dieser Prüfung wird immer sein: Der Einfluss von reinen Kapitalinteressen auf medizinische Behandlungen muss verhindert werden."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Hans-Peter Friedrich",
-            "speakerstatus": "vice-president",
-            "text": "Nachfragen dazu, Herr Kollege? – Keine Nachfrage. Das ist gut. Dann kommen wir zügig weiter.",
-            "sentences": [
-              {
-                "text": "Nachfragen dazu, Herr Kollege?"
-              },
-              {
-                "text": "– Keine Nachfrage."
-              },
-              {
-                "text": "Das ist gut."
-              },
-              {
-                "text": "Dann kommen wir zügig weiter."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Hans-Peter Friedrich",
-            "speakerstatus": "vice-president",
-            "text": "Die Fragen 42 und 43 der Kollegin Dr. Manuela ­Rottmann, die Frage 44 der Kollegin Sylvia Gabelmann und die Frage 45 der Kollegin Maria Klein-Schmeink werden schriftlich beantwortet.",
-            "sentences": [
-              {
-                "text": "Die Fragen 42 und 43 der Kollegin Dr. Manuela ­Rottmann, die Frage 44 der Kollegin Sylvia Gabelmann und die Frage 45 der Kollegin Maria Klein-Schmeink werden schriftlich beantwortet."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Hans-Peter Friedrich",
-            "speakerstatus": "vice-president",
-            "text": "Wir kommen zum Geschäftsbereich des Bundesministeriums für Verkehr und digitale Infrastruktur. Es steht für die Beantwortung zur Verfügung der Parlamentarische Staatssekretär Steffen Bilger.",
-            "sentences": [
-              {
-                "text": "Wir kommen zum Geschäftsbereich des Bundesministeriums für Verkehr und digitale Infrastruktur."
-              },
-              {
-                "text": "Es steht für die Beantwortung zur Verfügung der Parlamentarische Staatssekretär Steffen Bilger."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Hans-Peter Friedrich",
-            "speakerstatus": "vice-president",
-            "text": "Ich rufe die Frage 46 des Kollegen Torsten Herbst auf:",
-            "sentences": [
-              {
-                "text": "Ich rufe die Frage 46 des Kollegen Torsten Herbst auf:"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Steffen Bilger",
-            "speakerstatus": "speaker",
-            "text": "Vielen Dank, Herr Präsident. – Herr Kollege Herbst, meine Antwort auf Ihre Frage zur Bewertung des Projekts Dresden–Görlitz, Grenze Deutschland/Polen: Im Zuge der Aufstellung des Bedarfsplans Schiene wurden Planungskosten in Höhe von 58,7 Millionen Euro geschätzt. Der Haushaltstitel „Förderinitiative zur Elektrifizierung regionaler Schienenstrecken“ ist im Haushalt 2019 mit 5 Millionen Euro und im aktuellen Finanzplan mit insgesamt 70 Millionen Euro dotiert. Über die künftig zur Umsetzung der Vorhaben erforderliche Finanzausstattung wird im Rahmen der Haushaltsaufstellung 2020 entschieden.",
-            "sentences": [
-              {
-                "text": "Vielen Dank, Herr Präsident."
-              },
-              {
-                "text": "– Herr Kollege Herbst, meine Antwort auf Ihre Frage zur Bewertung des Projekts Dresden–Görlitz, Grenze Deutschland/Polen: Im Zuge der Aufstellung des Bedarfsplans Schiene wurden Planungskosten in Höhe von 58,7 Millionen Euro geschätzt."
-              },
-              {
-                "text": "Der Haushaltstitel „Förderinitiative zur Elektrifizierung regionaler Schienenstrecken“ ist im Haushalt 2019 mit 5 Millionen Euro und im aktuellen Finanzplan mit insgesamt 70 Millionen Euro dotiert."
-              },
-              {
-                "text": "Über die künftig zur Umsetzung der Vorhaben erforderliche Finanzausstattung wird im Rahmen der Haushaltsaufstellung 2020 entschieden."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Hans-Peter Friedrich",
-            "speakerstatus": "vice-president",
-            "text": "Nachfrage dazu? – Bitte schön.",
-            "sentences": [
-              {
-                "text": "Nachfrage dazu?"
-              },
-              {
-                "text": "– Bitte schön."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Torsten Herbst",
-            "speakerstatus": "speaker",
-            "text": "Können Sie denn sicherstellen, dass im Rahmen der nächsten Haushaltsaufstellung mindestens für die drei konkret genannten Projekte im Elektrifizierungsprogramm die finanziellen Mittel entsprechend den Bedarfen bereitgestellt werden können?",
-            "sentences": [
-              {
-                "text": "Können Sie denn sicherstellen, dass im Rahmen der nächsten Haushaltsaufstellung mindestens für die drei konkret genannten Projekte im Elektrifizierungsprogramm die finanziellen Mittel entsprechend den Bedarfen bereitgestellt werden können?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Steffen Bilger",
-            "speakerstatus": "speaker",
-            "text": "Herr Kollege, ich bin Ihnen dankbar für die Frage, weil das die Gelegenheit gibt, auch manche Missverständnisse klarzustellen, die von einigen vielleicht auch bewusst hervorgerufen werden, Missverständnisse, die sich vielleicht aufgrund dieser genannten relativ niedrigen Zahlen ergeben.",
-            "sentences": [
-              {
-                "text": "Herr Kollege, ich bin Ihnen dankbar für die Frage, weil das die Gelegenheit gibt, auch manche Missverständnisse klarzustellen, die von einigen vielleicht auch bewusst hervorgerufen werden, Missverständnisse, die sich vielleicht aufgrund dieser genannten relativ niedrigen Zahlen ergeben."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Steffen Bilger",
-            "speakerstatus": "speaker",
-            "text": "Wir haben uns dazu verpflichtet, diese Elektrifizierungsoffensive umzusetzen. Jetzt haben wir dafür die ersten Summen im Haushalt. Natürlich, wenn wir diese ganzen Projekte, die nötig sind, um die Elektrifizierung der Schienenstrecken deutlich voranzutreiben, umsetzen wollen, dann müssen wir auch deutlich höhere Haushaltsansätze bekommen. Unser Interesse als Bundesministerium für Verkehr und digitale Infrastruktur ist das absolut. Wir freuen uns auch über Unterstützung aus dem Bundestag.",
-            "sentences": [
-              {
-                "text": "Wir haben uns dazu verpflichtet, diese Elektrifizierungsoffensive umzusetzen."
-              },
-              {
-                "text": "Jetzt haben wir dafür die ersten Summen im Haushalt."
-              },
-              {
-                "text": "Natürlich, wenn wir diese ganzen Projekte, die nötig sind, um die Elektrifizierung der Schienenstrecken deutlich voranzutreiben, umsetzen wollen, dann müssen wir auch deutlich höhere Haushaltsansätze bekommen."
-              },
-              {
-                "text": "Unser Interesse als Bundesministerium für Verkehr und digitale Infrastruktur ist das absolut."
-              },
-              {
-                "text": "Wir freuen uns auch über Unterstützung aus dem Bundestag."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Hans-Peter Friedrich",
-            "speakerstatus": "vice-president",
-            "text": "Gibt es eine weitere Nachfrage?",
-            "sentences": [
-              {
-                "text": "Gibt es eine weitere Nachfrage?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Torsten Herbst",
-            "speakerstatus": "speaker",
-            "text": "Mit welcher konkreten Größenordnung rechnen Sie denn für die nächsten beiden Jahre?",
-            "sentences": [
-              {
-                "text": "Mit welcher konkreten Größenordnung rechnen Sie denn für die nächsten beiden Jahre?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Steffen Bilger",
-            "speakerstatus": "speaker",
-            "text": "Über den Haushalt, Herr Kollege, entscheidet der Deutsche Bundestag. Wir werden sicherlich versuchen, eine Summe durchzusetzen, die es uns ermöglicht, die Ziele, die im Koalitionsvertrag zur Elektrifizierung der Schienenstrecken festgehalten sind, zu erreichen. Aber da können wir natürlich nicht dem Deutschen Bundestag vorgreifen. Die bis jetzt im Haushalt stehenden Ansätze – 5 Millionen Euro und 70 Millionen Euro – sind sicherlich unzureichend.",
-            "sentences": [
-              {
-                "text": "Über den Haushalt, Herr Kollege, entscheidet der Deutsche Bundestag."
-              },
-              {
-                "text": "Wir werden sicherlich versuchen, eine Summe durchzusetzen, die es uns ermöglicht, die Ziele, die im Koalitionsvertrag zur Elektrifizierung der Schienenstrecken festgehalten sind, zu erreichen."
-              },
-              {
-                "text": "Aber da können wir natürlich nicht dem Deutschen Bundestag vorgreifen."
-              },
-              {
-                "text": "Die bis jetzt im Haushalt stehenden Ansätze – 5 Millionen Euro und 70 Millionen Euro – sind sicherlich unzureichend."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Die Fragen 47 und 48 des Kollegen Matthias Gastel, die Frage 49 des Kollegen Stephan Kühn sowie die Frage 50 des Kollegen Stefan Schmidt werden schriftlich beantwortet.",
-            "sentences": [
-              {
-                "text": "Die Fragen 47 und 48 des Kollegen Matthias Gastel, die Frage 49 des Kollegen Stephan Kühn sowie die Frage 50 des Kollegen Stefan Schmidt werden schriftlich beantwortet."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Ich rufe die Frage 51 des Kollegen Oliver Luksic auf:",
-            "sentences": [
-              {
-                "text": "Ich rufe die Frage 51 des Kollegen Oliver Luksic auf:"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Steffen Bilger",
-            "speakerstatus": "speaker",
-            "text": "Danke, Herr Präsident. – Lieber Kollege Luksic, Ihre Frage beantworte ich wie folgt: Das Bayerische Staatsministerium für Wohnen, Bau und Verkehr und das Bayerische Staatsministerium des Innern, für Sport und Integration haben sich im Rahmen der Länder- und Verbändebeteiligung geäußert. Diese Anmerkungen sind wie die Anmerkungen aus anderen Ländern und Verbänden bei der Erarbeitung des Gesetzentwurfs berücksichtigt worden.",
-            "sentences": [
-              {
-                "text": "Danke, Herr Präsident."
-              },
-              {
-                "text": "– Lieber Kollege Luksic, Ihre Frage beantworte ich wie folgt: Das Bayerische Staatsministerium für Wohnen, Bau und Verkehr und das Bayerische Staatsministerium des Innern, für Sport und Integration haben sich im Rahmen der Länder- und Verbändebeteiligung geäußert."
-              },
-              {
-                "text": "Diese Anmerkungen sind wie die Anmerkungen aus anderen Ländern und Verbänden bei der Erarbeitung des Gesetzentwurfs berücksichtigt worden."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Zusatzfrage?",
-            "sentences": [
-              {
-                "text": "Zusatzfrage?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Oliver Luksic",
-            "speakerstatus": "speaker",
-            "text": "Da würde ich doch noch einmal gerne nachfragen. Wenn ein Bayerisches Staatsministerium einen Gesetzentwurf aus dem Hause Scheuer kritisiert, dann ist das, glaube ich, schon spannend.",
-            "sentences": [
-              {
-                "text": "Da würde ich doch noch einmal gerne nachfragen."
-              },
-              {
-                "text": "Wenn ein Bayerisches Staatsministerium einen Gesetzentwurf aus dem Hause Scheuer kritisiert, dann ist das, glaube ich, schon spannend."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Oliver Luksic",
-            "speakerstatus": "speaker",
-            "text": "Im Kern geht es um die Frage der Verhältnismäßigkeit. Es geht bei Verstößen gegen die Dieselfahrverbote um Ordnungswidrigkeiten, also um entweder 20 Euro oder 80 Euro, die bezahlt werden sollen. Wir kennen ja die Rechtsprechung beispielsweise zum Thema Rasterfahndung, wo das Bundesverfassungsgericht die Verhältnismäßigkeit ausdrücklich hinterfragt hat.",
-            "sentences": [
-              {
-                "text": "Im Kern geht es um die Frage der Verhältnismäßigkeit."
-              },
-              {
-                "text": "Es geht bei Verstößen gegen die Dieselfahrverbote um Ordnungswidrigkeiten, also um entweder 20 Euro oder 80 Euro, die bezahlt werden sollen."
-              },
-              {
-                "text": "Wir kennen ja die Rechtsprechung beispielsweise zum Thema Rasterfahndung, wo das Bundesverfassungsgericht die Verhältnismäßigkeit ausdrücklich hinterfragt hat."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Oliver Luksic",
-            "speakerstatus": "speaker",
-            "text": "Deswegen die Frage: Halten Sie es für verhältnismäßig, wegen solcher Ordnungswidrigkeiten eine Dieselrasterfahndung aufzubauen, was unheimlich viel Geld kostet und Bürokratie in den Kommunen schafft? Ist vor dem Hintergrund die Kritik auch aus Bayern nicht doch berechtigt?",
-            "sentences": [
-              {
-                "text": "Deswegen die Frage: Halten Sie es für verhältnismäßig, wegen solcher Ordnungswidrigkeiten eine Dieselrasterfahndung aufzubauen, was unheimlich viel Geld kostet und Bürokratie in den Kommunen schafft?"
-              },
-              {
-                "text": "Ist vor dem Hintergrund die Kritik auch aus Bayern nicht doch berechtigt?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Steffen Bilger",
-            "speakerstatus": "speaker",
-            "text": "Lieber Kollege Luksic, auch hier bin ich dankbar für die Frage, weil so die Gelegenheit besteht, manches geradezurücken.",
-            "sentences": [
-              {
-                "text": "Lieber Kollege Luksic, auch hier bin ich dankbar für die Frage, weil so die Gelegenheit besteht, manches geradezurücken."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Steffen Bilger",
-            "speakerstatus": "speaker",
-            "text": "Es ist in keinster Weise so, dass wir eine Überwachung der Autofahrer vorhätten. Auch andere Vorwürfe, die an uns gerichtet worden sind, können wir nicht bestätigen. Nein! Wir haben die Aufgabe, sicherzustellen, dass Fahrverbote dort, wo wir sie nicht verhindern können – das ist natürlich unser Ziel: Fahrverbote verhindern –, so schnell wie möglich unnötig gemacht werden. Aber unser Ziel ist auch, dass Fahrverbote, wo sie bestehen, kontrolliert werden können.",
-            "sentences": [
-              {
-                "text": "Es ist in keinster Weise so, dass wir eine Überwachung der Autofahrer vorhätten."
-              },
-              {
-                "text": "Auch andere Vorwürfe, die an uns gerichtet worden sind, können wir nicht bestätigen."
-              },
-              {
-                "text": "Nein!"
-              },
-              {
-                "text": "Wir haben die Aufgabe, sicherzustellen, dass Fahrverbote dort, wo wir sie nicht verhindern können – das ist natürlich unser Ziel: Fahrverbote verhindern –, so schnell wie möglich unnötig gemacht werden."
-              },
-              {
-                "text": "Aber unser Ziel ist auch, dass Fahrverbote, wo sie bestehen, kontrolliert werden können."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Steffen Bilger",
-            "speakerstatus": "speaker",
-            "text": "Da gab es im Übrigen einen Beschluss der Umweltministerkonferenz, die uns aufgefordert hat, die diesbezüglichen Kontrollmöglichkeiten zu schaffen, zum Beispiel – ich zitiere – durch Einsatz automatischer Überwachungseinrichtungen.",
-            "sentences": [
-              {
-                "text": "Da gab es im Übrigen einen Beschluss der Umweltministerkonferenz, die uns aufgefordert hat, die diesbezüglichen Kontrollmöglichkeiten zu schaffen, zum Beispiel – ich zitiere – durch Einsatz automatischer Überwachungseinrichtungen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Steffen Bilger",
-            "speakerstatus": "speaker",
-            "text": "Wenn die Umweltministerkonferenz – da sind ja alle Länderumweltminister vertreten – das so vorschlägt, dann wundert man sich schon, dass aus den Ländern so starke Kritik kommt. Aber wir wollen da den Städten nichts vorschreiben, sondern die Städte haben verschiedene Möglichkeiten, zu kontrollieren. Dafür ist es ein Angebot.",
-            "sentences": [
-              {
-                "text": "Wenn die Umweltministerkonferenz – da sind ja alle Länderumweltminister vertreten – das so vorschlägt, dann wundert man sich schon, dass aus den Ländern so starke Kritik kommt."
-              },
-              {
-                "text": "Aber wir wollen da den Städten nichts vorschreiben, sondern die Städte haben verschiedene Möglichkeiten, zu kontrollieren."
-              },
-              {
-                "text": "Dafür ist es ein Angebot."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Steffen Bilger",
-            "speakerstatus": "speaker",
-            "text": "Ich habe vernommen, dass alle infrage kommenden Städte nicht diese Form der Überwachung verwenden wollen. Wenn sie eine andere Kontrolle machen möchten, dann können sie es natürlich tun. Es wird niemand dazu gezwungen, eine fotografische oder automatische Kontrolle durchzuführen.",
-            "sentences": [
-              {
-                "text": "Ich habe vernommen, dass alle infrage kommenden Städte nicht diese Form der Überwachung verwenden wollen."
-              },
-              {
-                "text": "Wenn sie eine andere Kontrolle machen möchten, dann können sie es natürlich tun."
-              },
-              {
-                "text": "Es wird niemand dazu gezwungen, eine fotografische oder automatische Kontrolle durchzuführen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Eine weitere Nachfrage?",
-            "sentences": [
-              {
-                "text": "Eine weitere Nachfrage?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Oliver Luksic",
-            "speakerstatus": "speaker",
-            "text": "Herr Staatssekretär Bilger, ich teile Ihre Kritik, dass es teilweise in der Tat einen Ruf nach dieser Art von Überwachung von der kommunalen und Landesebene gibt. Zum Beispiel wurde das auch in dem Bundesland, aus dem Sie kommen, intensiv geprüft vom grünen Verkehrsminister Hermann. Dennoch: Am Ende geht es um die Verhältnismäßigkeit. Wenn die Möglichkeit, eine solche Infrastruktur zu schaffen, eingeräumt wird, wird es dazu kommen, dass nicht nur das Kennzeichen, sondern auch die Gesichter der Fahrer und auch Beifahrer mit erfasst werden.",
-            "sentences": [
-              {
-                "text": "Herr Staatssekretär Bilger, ich teile Ihre Kritik, dass es teilweise in der Tat einen Ruf nach dieser Art von Überwachung von der kommunalen und Landesebene gibt."
-              },
-              {
-                "text": "Zum Beispiel wurde das auch in dem Bundesland, aus dem Sie kommen, intensiv geprüft vom grünen Verkehrsminister Hermann."
-              },
-              {
-                "text": "Dennoch: Am Ende geht es um die Verhältnismäßigkeit."
-              },
-              {
-                "text": "Wenn die Möglichkeit, eine solche Infrastruktur zu schaffen, eingeräumt wird, wird es dazu kommen, dass nicht nur das Kennzeichen, sondern auch die Gesichter der Fahrer und auch Beifahrer mit erfasst werden."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Oliver Luksic",
-            "speakerstatus": "speaker",
-            "text": "Die Frage ist: Ist ein solcher Eingriff Ihrer Meinung nach verhältnismäßig? Ich frage dies vor dem Hintergrund, dass wir, wie gesagt, in der Terrorismusbekämpfung die Rechtsprechung haben, dass entsprechende Maßnahmen nur anlassbezogen sein sollen. Wir reden hier aber von Ordnungswidrigkeiten, die mit 20 Euro geahndet werden. Deswegen noch mal der Kern der Frage: Halten Sie das für verhältnismäßig – ja oder nein?",
-            "sentences": [
-              {
-                "text": "Die Frage ist: Ist ein solcher Eingriff Ihrer Meinung nach verhältnismäßig?"
-              },
-              {
-                "text": "Ich frage dies vor dem Hintergrund, dass wir, wie gesagt, in der Terrorismusbekämpfung die Rechtsprechung haben, dass entsprechende Maßnahmen nur anlassbezogen sein sollen."
-              },
-              {
-                "text": "Wir reden hier aber von Ordnungswidrigkeiten, die mit 20 Euro geahndet werden."
-              },
-              {
-                "text": "Deswegen noch mal der Kern der Frage: Halten Sie das für verhältnismäßig – ja oder nein?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Steffen Bilger",
-            "speakerstatus": "speaker",
-            "text": "Herr Kollege Luksic, sofern sich Städte entschließen sollten, auf diese Weise die Kontrolle vorzunehmen, wäre die Kontrolle auf den Raum, für den diese Fahrverbote beschlossen wurden – es sind streckenbezogene Fahrverbote bzw. Fahrverbote für eine gesamte Stadt –, und auf den Zeitraum beschränkt, zu dem die Fahrverbote bestehen. Unser Ziel ist, wie gesagt, die Fahrverbote unnötig zu machen oder dort, wo sie nicht zu verhindern sind, so schnell wie möglich wegzubekommen, weil die Luftreinhalteziele erreicht wurden.",
-            "sentences": [
-              {
-                "text": "Herr Kollege Luksic, sofern sich Städte entschließen sollten, auf diese Weise die Kontrolle vorzunehmen, wäre die Kontrolle auf den Raum, für den diese Fahrverbote beschlossen wurden – es sind streckenbezogene Fahrverbote bzw. Fahrverbote für eine gesamte Stadt –, und auf den Zeitraum beschränkt, zu dem die Fahrverbote bestehen."
-              },
-              {
-                "text": "Unser Ziel ist, wie gesagt, die Fahrverbote unnötig zu machen oder dort, wo sie nicht zu verhindern sind, so schnell wie möglich wegzubekommen, weil die Luftreinhalteziele erreicht wurden."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Steffen Bilger",
-            "speakerstatus": "speaker",
-            "text": "Es gibt in Deutschland bereits ganz unterschiedliche Verfahren. Sie können fotografiert werden beim Geschwindigkeitsverstoß; es gibt die Kontrolle bei der Lkw-Maut, wo auch schon solche Möglichkeiten genutzt werden. Den Vorwurf, der hier erhoben wird, als sei das eine ganz neue und besonders in die Rechte der Bürger eingreifende Variante, will ich zurückweisen. Wir haben das alles ja auch innerhalb der Bundesregierung abgestimmt. Auch die Bundesbeauftragte für Datenschutz und die Informationsfreiheit war involviert. Jetzt bleibt es dabei, dass die Städte entscheiden können, wie sie die Kontrolle vornehmen möchten.",
-            "sentences": [
-              {
-                "text": "Es gibt in Deutschland bereits ganz unterschiedliche Verfahren."
-              },
-              {
-                "text": "Sie können fotografiert werden beim Geschwindigkeitsverstoß; es gibt die Kontrolle bei der Lkw-Maut, wo auch schon solche Möglichkeiten genutzt werden."
-              },
-              {
-                "text": "Den Vorwurf, der hier erhoben wird, als sei das eine ganz neue und besonders in die Rechte der Bürger eingreifende Variante, will ich zurückweisen."
-              },
-              {
-                "text": "Wir haben das alles ja auch innerhalb der Bundesregierung abgestimmt."
-              },
-              {
-                "text": "Auch die Bundesbeauftragte für Datenschutz und die Informationsfreiheit war involviert."
-              },
-              {
-                "text": "Jetzt bleibt es dabei, dass die Städte entscheiden können, wie sie die Kontrolle vornehmen möchten."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Vielen Dank, Herr Staatssekretär. – Damit ist die Fragestunde beendet.",
-            "sentences": [
-              {
-                "text": "Vielen Dank, Herr Staatssekretär."
-              },
-              {
-                "text": "– Damit ist die Fragestunde beendet."
               }
             ]
           }

@@ -11,7 +11,7 @@
     },
     "agendaItem": {
       "officialTitle": "Sitzungseröffnung",
-      "speechIndex": 0,
+      "speechIndex": 1000,
       "title": "Sitzungseröffnung"
     },
     "people": [
@@ -24,7 +24,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19103-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19103-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -118,7 +118,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 2,
+      "speechIndex": 1002,
       "title": "Befragung der Bundesregierung"
     },
     "people": [
@@ -131,12 +131,23 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19103-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19103-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
         "originTextID": "",
         "textBody": [
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "Befragung der Bundesregierung",
+            "sentences": [
+              {
+                "text": "Befragung der Bundesregierung"
+              }
+            ]
+          },
           {
             "type": "speech",
             "speaker": "Wolfgang Schäuble",
@@ -188,7 +199,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 3,
+      "speechIndex": 1003,
       "title": "Befragung der Bundesregierung"
     },
     "people": [
@@ -209,7 +220,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19103-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19103-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -523,7 +534,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 77,
+      "speechIndex": 1077,
       "title": "Befragung der Bundesregierung"
     },
     "people": [
@@ -552,7 +563,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19103-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19103-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -632,7 +643,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 79,
+      "speechIndex": 1079,
       "title": "Befragung der Bundesregierung"
     },
     "people": [
@@ -653,7 +664,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19103-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19103-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -749,7 +760,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 5,
+      "speechIndex": 1005,
       "title": "Befragung der Bundesregierung"
     },
     "people": [
@@ -770,7 +781,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19103-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19103-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -902,7 +913,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 2",
-      "speechIndex": 82,
+      "speechIndex": 1083,
       "title": "Fragestunde"
     },
     "people": [
@@ -1083,12 +1094,23 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19103-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19103-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
         "originTextID": "",
         "textBody": [
+          {
+            "type": "speech",
+            "speaker": "Petra Pau",
+            "speakerstatus": "vice-president",
+            "text": "Fragestunde",
+            "sentences": [
+              {
+                "text": "Fragestunde"
+              }
+            ]
+          },
           {
             "type": "speech",
             "speaker": "Petra Pau",
@@ -6383,7 +6405,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 2",
-      "speechIndex": 83,
+      "speechIndex": 1084,
       "title": "Fragestunde"
     },
     "people": [
@@ -6503,73 +6525,28 @@
         "lastname": "Kekeritz",
         "context": "speaker",
         "faction": "BÜNDNIS 90/DIE GRÜNEN"
-      },
-      {
-        "type": "memberOfParliament",
-        "label": "Johannes Huber",
-        "firstname": "Johannes",
-        "lastname": "Huber",
-        "context": "speaker",
-        "faction": "AfD"
-      },
-      {
-        "type": "memberOfParliament",
-        "label": "Heike Hänsel",
-        "firstname": "Heike",
-        "lastname": "Hänsel",
-        "context": "speaker",
-        "faction": "DIE LINKE"
-      },
-      {
-        "type": "memberOfParliament",
-        "label": "Andrej Hunko",
-        "firstname": "Andrej",
-        "lastname": "Hunko",
-        "context": "speaker",
-        "faction": "DIE LINKE"
-      },
-      {
-        "type": "memberOfParliament",
-        "label": "Oliver Krischer",
-        "firstname": "Oliver",
-        "lastname": "Krischer",
-        "context": "speaker",
-        "faction": "BÜNDNIS 90/DIE GRÜNEN"
-      },
-      {
-        "type": "memberOfParliament",
-        "label": "Alexander Graf Lambsdorff",
-        "firstname": "Alexander Graf",
-        "lastname": "Lambsdorff",
-        "context": "speaker",
-        "faction": "FDP"
-      },
-      {
-        "type": "memberOfParliament",
-        "label": "Christian Hirte",
-        "firstname": "Christian",
-        "lastname": "Hirte",
-        "context": "speaker",
-        "faction": ""
-      },
-      {
-        "type": "memberOfParliament",
-        "label": "Oliver Luksic",
-        "firstname": "Oliver",
-        "lastname": "Luksic",
-        "context": "speaker",
-        "faction": "FDP"
       }
     ],
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19103-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19103-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
         "originTextID": "",
         "textBody": [
+          {
+            "type": "speech",
+            "speaker": "Petra Pau",
+            "speakerstatus": "vice-president",
+            "text": "Fragestunde",
+            "sentences": [
+              {
+                "text": "Fragestunde"
+              }
+            ]
+          },
           {
             "type": "speech",
             "speaker": "Petra Pau",
@@ -9657,1633 +9634,6 @@
                 "text": "Wir wissen, dass gerade in Brasilien und anderen Ländern die Abholzungsraten dramatisch gestiegen sind und die Rechte dieser Bevölkerungsgruppen massiv eingeschränkt werden."
               }
             ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Michelle Müntefering",
-            "speakerstatus": "speaker",
-            "text": "Herr Kollege, das war jetzt eine ganze Menge an Nachfragen. – Ich versuche mal, auf die letzte Nachfrage zu antworten, bei der es darum ging – so habe ich es verstanden –, wie wir ausschließen wollen, dass es Probleme in Bezug auf die Abholzung des tropischen Regenwaldes und damit auch Probleme für die indigene Bevölkerung gibt.",
-            "sentences": [
-              {
-                "text": "Herr Kollege, das war jetzt eine ganze Menge an Nachfragen."
-              },
-              {
-                "text": "– Ich versuche mal, auf die letzte Nachfrage zu antworten, bei der es darum ging – so habe ich es verstanden –, wie wir ausschließen wollen, dass es Probleme in Bezug auf die Abholzung des tropischen Regenwaldes und damit auch Probleme für die indigene Bevölkerung gibt."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Michelle Müntefering",
-            "speakerstatus": "speaker",
-            "text": "Meine Antwort darauf ist wie folgt: Wir sehen derzeit keinen Anlass zu der Annahme, dass das Abkommen die Abholzung des tropischen Regenwaldes oder auch Landvertreibung verstärkt. In den laufenden Verhandlungen strebt die EU ein ehrgeiziges Nachhaltigkeitskapitel an. Sie wissen: Das wird noch verhandelt. Darin werden sich die Parteien auf die effektive Umsetzung – damit bin ich bei dem ersten Teil der Frage – zahlreicher multilateraler Umwelt- und Klimaabkommen, wie zum Beispiel des Pariser Abkommens zum Klimaschutz, verpflichten. Darüber hinaus soll das Abkommen auch explizite Regelungen zu „Handel und nachhaltige Forstwirtschaft“ sowie zu „Handel und Biodiversität“ beinhalten.",
-            "sentences": [
-              {
-                "text": "Meine Antwort darauf ist wie folgt: Wir sehen derzeit keinen Anlass zu der Annahme, dass das Abkommen die Abholzung des tropischen Regenwaldes oder auch Landvertreibung verstärkt."
-              },
-              {
-                "text": "In den laufenden Verhandlungen strebt die EU ein ehrgeiziges Nachhaltigkeitskapitel an."
-              },
-              {
-                "text": "Sie wissen: Das wird noch verhandelt."
-              },
-              {
-                "text": "Darin werden sich die Parteien auf die effektive Umsetzung – damit bin ich bei dem ersten Teil der Frage – zahlreicher multilateraler Umwelt- und Klimaabkommen, wie zum Beispiel des Pariser Abkommens zum Klimaschutz, verpflichten."
-              },
-              {
-                "text": "Darüber hinaus soll das Abkommen auch explizite Regelungen zu „Handel und nachhaltige Forstwirtschaft“ sowie zu „Handel und Biodiversität“ beinhalten."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Michelle Müntefering",
-            "speakerstatus": "speaker",
-            "text": "Um das noch mal weiterzuführen: Vorgesehen ist unter anderem die Zusammenarbeit in bilateralen, regionalen und internationalen Foren mit Blick auch auf Handel, auf den Schutz der Waldbedeckung und auf die Förderung von nachhaltiger Forstwirtschaft im Einklang mit der Agenda 2030 für die nachhaltige Entwicklung, die von Ihnen angesprochen worden ist.",
-            "sentences": [
-              {
-                "text": "Um das noch mal weiterzuführen: Vorgesehen ist unter anderem die Zusammenarbeit in bilateralen, regionalen und internationalen Foren mit Blick auch auf Handel, auf den Schutz der Waldbedeckung und auf die Förderung von nachhaltiger Forstwirtschaft im Einklang mit der Agenda 2030 für die nachhaltige Entwicklung, die von Ihnen angesprochen worden ist."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Sie haben das Wort zur zweiten Nachfrage. – Darauf verzichten Sie.",
-            "sentences": [
-              {
-                "text": "Sie haben das Wort zur zweiten Nachfrage."
-              },
-              {
-                "text": "– Darauf verzichten Sie."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Die nächste Nachfrage stellt die Kollegin Dröge.",
-            "sentences": [
-              {
-                "text": "Die nächste Nachfrage stellt die Kollegin Dröge."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Katharina Dröge",
-            "speakerstatus": "speaker",
-            "text": "Frau Staatsministerin, Sie haben gerade gesagt, die Bundesregierung werde sich auch für ein effektives Monitoring sogenannter Menschenrechtsklauseln einsetzen. Teilen Sie mit mir die Auffassung, dass die Menschenrechtsklauseln in Freihandelsverträgen bislang recht wirkungslos geblieben sind und gerade Sanktionen und ein effektives Monitoring in der Vergangenheit nicht so stattgefunden haben, wie man sich das wünschen sollte?",
-            "sentences": [
-              {
-                "text": "Frau Staatsministerin, Sie haben gerade gesagt, die Bundesregierung werde sich auch für ein effektives Monitoring sogenannter Menschenrechtsklauseln einsetzen."
-              },
-              {
-                "text": "Teilen Sie mit mir die Auffassung, dass die Menschenrechtsklauseln in Freihandelsverträgen bislang recht wirkungslos geblieben sind und gerade Sanktionen und ein effektives Monitoring in der Vergangenheit nicht so stattgefunden haben, wie man sich das wünschen sollte?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Katharina Dröge",
-            "speakerstatus": "speaker",
-            "text": "Gibt es konkrete Vorschläge der Bundesregierung dafür, wie ein effektiveres Monitoring und eine effektivere Durchsetzbarkeit von Menschenrechtsklauseln beim Mercosur-Freihandelsvertrag aussehen könnten?",
-            "sentences": [
-              {
-                "text": "Gibt es konkrete Vorschläge der Bundesregierung dafür, wie ein effektiveres Monitoring und eine effektivere Durchsetzbarkeit von Menschenrechtsklauseln beim Mercosur-Freihandelsvertrag aussehen könnten?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Michelle Müntefering",
-            "speakerstatus": "speaker",
-            "text": "Zunächst mal: Dieses Abkommen wird ja, wie gerade schon gesagt, momentan verhandelt. Man kann, glaube ich, immer besser werden – generell.",
-            "sentences": [
-              {
-                "text": "Zunächst mal: Dieses Abkommen wird ja, wie gerade schon gesagt, momentan verhandelt."
-              },
-              {
-                "text": "Man kann, glaube ich, immer besser werden – generell."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Michelle Müntefering",
-            "speakerstatus": "speaker",
-            "text": "Was die Durchsetzung der Menschenrechte betrifft: Wichtig ist, dass auch die Zivilgesellschaft an Monitoring­verfahren beteiligt wird, und das gilt auch für dieses Abkommen. Dafür setzt sich die Bundesregierung auch ein.",
-            "sentences": [
-              {
-                "text": "Was die Durchsetzung der Menschenrechte betrifft: Wichtig ist, dass auch die Zivilgesellschaft an Monitoring­verfahren beteiligt wird, und das gilt auch für dieses Abkommen."
-              },
-              {
-                "text": "Dafür setzt sich die Bundesregierung auch ein."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Zu einer weiteren Nachfrage hat der Abgeordnete Dr. Hoffmann das Wort.",
-            "sentences": [
-              {
-                "text": "Zu einer weiteren Nachfrage hat der Abgeordnete Dr. Hoffmann das Wort."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Christoph Hoffmann",
-            "speakerstatus": "speaker",
-            "text": "Frau Müntefering, Sie haben gerade über die Abholzungsraten in Brasilien gesprochen. Das ist schwer erträglich, weil Sie wieder Maßnahmen dort mit „Ja“, „Vielleicht“, „Irgendwann mal“ usw. ankündigen. Ich muss feststellen, dass wir seit 1967 Vorhaben zum Schutz des Regenwaldes in Brasilien fördern. Wir haben da schon 567 Millionen Euro reingesteckt. Das Ergebnis ist: Die Abholzungsraten steigen. Machen wir da was falsch, oder wie muss ich das sehen?",
-            "sentences": [
-              {
-                "text": "Frau Müntefering, Sie haben gerade über die Abholzungsraten in Brasilien gesprochen."
-              },
-              {
-                "text": "Das ist schwer erträglich, weil Sie wieder Maßnahmen dort mit „Ja“, „Vielleicht“, „Irgendwann mal“ usw. ankündigen."
-              },
-              {
-                "text": "Ich muss feststellen, dass wir seit 1967 Vorhaben zum Schutz des Regenwaldes in Brasilien fördern."
-              },
-              {
-                "text": "Wir haben da schon 567 Millionen Euro reingesteckt."
-              },
-              {
-                "text": "Das Ergebnis ist: Die Abholzungsraten steigen."
-              },
-              {
-                "text": "Machen wir da was falsch, oder wie muss ich das sehen?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Michelle Müntefering",
-            "speakerstatus": "speaker",
-            "text": "Ich habe mich gerade auf die konkrete Vorlage dieses Abkommens, auf die Verhandlungen, die momentan geführt werden, bezogen. Die Verfassung von 1988 garantiert den indigenen Völkern Brasiliens umfassende, exklusive und unabdingbare Rechte auf Schutz ihres kulturellen Erbes, Nutzung ihrer traditionellen Territorien und Konsultationen auch bei wichtigen Verfahren. Selbstverständlich steht das in einem engen Zusammenhang.",
-            "sentences": [
-              {
-                "text": "Ich habe mich gerade auf die konkrete Vorlage dieses Abkommens, auf die Verhandlungen, die momentan geführt werden, bezogen."
-              },
-              {
-                "text": "Die Verfassung von 1988 garantiert den indigenen Völkern Brasiliens umfassende, exklusive und unabdingbare Rechte auf Schutz ihres kulturellen Erbes, Nutzung ihrer traditionellen Territorien und Konsultationen auch bei wichtigen Verfahren."
-              },
-              {
-                "text": "Selbstverständlich steht das in einem engen Zusammenhang."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Michelle Müntefering",
-            "speakerstatus": "speaker",
-            "text": "Die Problematik, die Sie ansprechen – der Schutz der Regenwälder und der Territorien der indigenen Bevölkerung –, liegt uns sehr am Herzen. Wir werden sie weiter ansprechen und auch weiter verfolgen, und in der Tat: In diesem Bereich ist in den letzten Jahren auch schon viel gemacht worden.",
-            "sentences": [
-              {
-                "text": "Die Problematik, die Sie ansprechen – der Schutz der Regenwälder und der Territorien der indigenen Bevölkerung –, liegt uns sehr am Herzen."
-              },
-              {
-                "text": "Wir werden sie weiter ansprechen und auch weiter verfolgen, und in der Tat: In diesem Bereich ist in den letzten Jahren auch schon viel gemacht worden."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Die Fragen 21 und 22 des Abgeordneten Kai Gehring sollen schriftlich beantwortet werden.",
-            "sentences": [
-              {
-                "text": "Die Fragen 21 und 22 des Abgeordneten Kai Gehring sollen schriftlich beantwortet werden."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Ich rufe die Frage 23 des Abgeordneten Johannes Huber auf:",
-            "sentences": [
-              {
-                "text": "Ich rufe die Frage 23 des Abgeordneten Johannes Huber auf:"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Bitte, Frau Staatsministerin.",
-            "sentences": [
-              {
-                "text": "Bitte, Frau Staatsministerin."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Michelle Müntefering",
-            "speakerstatus": "speaker",
-            "text": "Sehr geehrter Herr Huber, die Bilderberg-Konferenzen finden jährlich als informelle Treffen statt, die die Organisatoren privat ausrichten. Nach Angabe der Veranstalter wer den die Teilnehmerinnen und Teilnehmer persönlich eingeladen, nicht in Wahrnehmung ihres Amtes oder ihrer Funktion.",
-            "sentences": [
-              {
-                "text": "Sehr geehrter Herr Huber, die Bilderberg-Konferenzen finden jährlich als informelle Treffen statt, die die Organisatoren privat ausrichten."
-              },
-              {
-                "text": "Nach Angabe der Veranstalter wer den die Teilnehmerinnen und Teilnehmer persönlich eingeladen, nicht in Wahrnehmung ihres Amtes oder ihrer Funktion."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Michelle Müntefering",
-            "speakerstatus": "speaker",
-            "text": "Nach Kenntnis der Bundesregierung hat dieses Jahr die Bundesministerin der Verteidigung, Ursula von der Leyen, teilgenommen. Eine weitere Teilnahme von Personen, die gleichzeitig Mitglieder der Bundesregierung sind, ist nicht bekannt. Über die Teilnahme weiterer Personen, die auch deutsche Staatsbürger sind, hat die Bundesregierung keine eigenen Erkenntnisse. Die Website der Veranstalter enthält jedoch auch eine Teilnehmerliste.",
-            "sentences": [
-              {
-                "text": "Nach Kenntnis der Bundesregierung hat dieses Jahr die Bundesministerin der Verteidigung, Ursula von der Leyen, teilgenommen."
-              },
-              {
-                "text": "Eine weitere Teilnahme von Personen, die gleichzeitig Mitglieder der Bundesregierung sind, ist nicht bekannt."
-              },
-              {
-                "text": "Über die Teilnahme weiterer Personen, die auch deutsche Staatsbürger sind, hat die Bundesregierung keine eigenen Erkenntnisse."
-              },
-              {
-                "text": "Die Website der Veranstalter enthält jedoch auch eine Teilnehmerliste."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Sie haben das Wort zur ersten Nachfrage.",
-            "sentences": [
-              {
-                "text": "Sie haben das Wort zur ersten Nachfrage."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Johannes Huber",
-            "speakerstatus": "speaker",
-            "text": "Zuerst vielen Dank für die Bestätigung der Bundesregierung – das zu der angeblichen Verschwörungstheorie –, dass das Bilderberger Treffen tatsächlich stattgefunden hat und auch so existiert. – Das steht auch im Internet.",
-            "sentences": [
-              {
-                "text": "Zuerst vielen Dank für die Bestätigung der Bundesregierung – das zu der angeblichen Verschwörungstheorie –, dass das Bilderberger Treffen tatsächlich stattgefunden hat und auch so existiert."
-              },
-              {
-                "text": "– Das steht auch im Internet."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Johannes Huber",
-            "speakerstatus": "speaker",
-            "text": "Frau von der Leyen, die anwesend war – das haben Sie auch noch mal bestätigt –, müsste auch die Frau Teuteberg vom möglicherweise baldigen Koalitionspartner FDP getroffen haben. – Das steht auch im Internet.",
-            "sentences": [
-              {
-                "text": "Frau von der Leyen, die anwesend war – das haben Sie auch noch mal bestätigt –, müsste auch die Frau Teuteberg vom möglicherweise baldigen Koalitionspartner FDP getroffen haben."
-              },
-              {
-                "text": "– Das steht auch im Internet."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Johannes Huber",
-            "speakerstatus": "speaker",
-            "text": "Sie haben jetzt bestätigt – das ist sehr ehrenwert –, dass sich auch diese Personen der Politik in Deutschland quasi im Hinterzimmer mit der Weltelite aus Politik, Wirtschaft und Medien getroffen haben, nämlich Leuten wie Henry Kissinger, Manuel Barroso, dem König der Niederlande, Jens Stoltenberg und Louise Arbour, der Vorkämpferin des Migrationspaktes, wie wir mittlerweile wissen.",
-            "sentences": [
-              {
-                "text": "Sie haben jetzt bestätigt – das ist sehr ehrenwert –, dass sich auch diese Personen der Politik in Deutschland quasi im Hinterzimmer mit der Weltelite aus Politik, Wirtschaft und Medien getroffen haben, nämlich Leuten wie Henry Kissinger, Manuel Barroso, dem König der Niederlande, Jens Stoltenberg und Louise Arbour, der Vorkämpferin des Migrationspaktes, wie wir mittlerweile wissen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Johannes Huber",
-            "speakerstatus": "speaker",
-            "text": "Spätestens seit den Vorfällen in Österreich wissen wir, dass es eine Verschwörung ist – so die Definition –, wenn intransparente Absprachen getroffen werden und niemand darüber berichten darf, so wie das hier der Fall ist. Jetzt die Frage.",
-            "sentences": [
-              {
-                "text": "Spätestens seit den Vorfällen in Österreich wissen wir, dass es eine Verschwörung ist – so die Definition –, wenn intransparente Absprachen getroffen werden und niemand darüber berichten darf, so wie das hier der Fall ist."
-              },
-              {
-                "text": "Jetzt die Frage."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Herr Huber, Sie müssen jetzt ein Fragezeichen setzen. Dazu haben wir das optische Signal.",
-            "sentences": [
-              {
-                "text": "Herr Huber, Sie müssen jetzt ein Fragezeichen setzen."
-              },
-              {
-                "text": "Dazu haben wir das optische Signal."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Johannes Huber",
-            "speakerstatus": "speaker",
-            "text": "Mache ich gerne. – Laut Tagesordnung wurde über Russland und China gesprochen, ohne dass ein Vertreter dieser Staaten anwesend war. Meine Frage ist jetzt ganz direkt:",
-            "sentences": [
-              {
-                "text": "Mache ich gerne."
-              },
-              {
-                "text": "– Laut Tagesordnung wurde über Russland und China gesprochen, ohne dass ein Vertreter dieser Staaten anwesend war."
-              },
-              {
-                "text": "Meine Frage ist jetzt ganz direkt:"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Versuchen Sie jetzt bitte, die Frage abzuschließen.",
-            "sentences": [
-              {
-                "text": "Versuchen Sie jetzt bitte, die Frage abzuschließen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Johannes Huber",
-            "speakerstatus": "speaker",
-            "text": "Was wurde über Russland und China in Abwesenheit der beiden Staaten gesprochen? – Vielen Dank.",
-            "sentences": [
-              {
-                "text": "Was wurde über Russland und China in Abwesenheit der beiden Staaten gesprochen?"
-              },
-              {
-                "text": "– Vielen Dank."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Michelle Müntefering",
-            "speakerstatus": "speaker",
-            "text": "Ich habe die Frage so verstanden: Wurde darüber – in Bezugnahme auf das vorher Gesagte – gesprochen? – Zunächst mal: Es ist bekannt, dass die Konferenz aus unterschiedlichen und sich wandelnden Gründen in der Kritik steht. Insbesondere online und über Social Media wird das lebhaft diskutiert.",
-            "sentences": [
-              {
-                "text": "Ich habe die Frage so verstanden: Wurde darüber – in Bezugnahme auf das vorher Gesagte – gesprochen?"
-              },
-              {
-                "text": "– Zunächst mal: Es ist bekannt, dass die Konferenz aus unterschiedlichen und sich wandelnden Gründen in der Kritik steht."
-              },
-              {
-                "text": "Insbesondere online und über Social Media wird das lebhaft diskutiert."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Michelle Müntefering",
-            "speakerstatus": "speaker",
-            "text": "Mitglieder der Bundesregierung nehmen, wie gesagt, als Person an der Konferenz teil. Insofern betrifft die Konferenz die unmittelbare und operative Arbeit der Bundesregierung nicht, und die Bundesregierung kommentiert keine privaten Konferenzen, die nicht unmittelbar im Zusammenhang mit ihrer Tätigkeit stehen.",
-            "sentences": [
-              {
-                "text": "Mitglieder der Bundesregierung nehmen, wie gesagt, als Person an der Konferenz teil."
-              },
-              {
-                "text": "Insofern betrifft die Konferenz die unmittelbare und operative Arbeit der Bundesregierung nicht, und die Bundesregierung kommentiert keine privaten Konferenzen, die nicht unmittelbar im Zusammenhang mit ihrer Tätigkeit stehen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Sie haben die Möglichkeit zu einer zweiten Nachfrage. – Ich bitte, die Minute jetzt einzuhalten.",
-            "sentences": [
-              {
-                "text": "Sie haben die Möglichkeit zu einer zweiten Nachfrage."
-              },
-              {
-                "text": "– Ich bitte, die Minute jetzt einzuhalten."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Johannes Huber",
-            "speakerstatus": "speaker",
-            "text": "Mache ich sehr gerne; die Frage ist auch recht kurz. – Ich möchte noch mal nachfragen: Sie haben bestätigt, dass die Verteidigungsministerin der Bundesrepublik Deutschland, Ursula von der Leyen, dort teilgenommen hat. Können Sie ausschließen, dass dort auch über die nächsten Schritte hin zu einer EU-Armee gesprochen wurde, weil laut Tagesordnung auch Europa ein großes Thema war, und was wurde insbesondere mit Frau ­Arbour bezüglich des Migrationspaktes möglicherweise besprochen?",
-            "sentences": [
-              {
-                "text": "Mache ich sehr gerne; die Frage ist auch recht kurz."
-              },
-              {
-                "text": "– Ich möchte noch mal nachfragen: Sie haben bestätigt, dass die Verteidigungsministerin der Bundesrepublik Deutschland, Ursula von der Leyen, dort teilgenommen hat."
-              },
-              {
-                "text": "Können Sie ausschließen, dass dort auch über die nächsten Schritte hin zu einer EU-Armee gesprochen wurde, weil laut Tagesordnung auch Europa ein großes Thema war, und was wurde insbesondere mit Frau ­Arbour bezüglich des Migrationspaktes möglicherweise besprochen?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Michelle Müntefering",
-            "speakerstatus": "speaker",
-            "text": "Wie ich gerade schon gesagt habe: Wir kommentieren keine Treffen.",
-            "sentences": [
-              {
-                "text": "Wie ich gerade schon gesagt habe: Wir kommentieren keine Treffen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Michelle Müntefering",
-            "speakerstatus": "speaker",
-            "text": "Zu den Konferenzen wurden auch in der Vergangenheit Mitglieder der Bundesregierung eingeladen. Die Bundesregierung steht aufgabenbedingt mit einer Vielzahl von Vertretern aus dem internationalen Bereich in einem ständigen Austausch, und darunter fällt auch die Teilnahme an internationalen Konferenzen.",
-            "sentences": [
-              {
-                "text": "Zu den Konferenzen wurden auch in der Vergangenheit Mitglieder der Bundesregierung eingeladen."
-              },
-              {
-                "text": "Die Bundesregierung steht aufgabenbedingt mit einer Vielzahl von Vertretern aus dem internationalen Bereich in einem ständigen Austausch, und darunter fällt auch die Teilnahme an internationalen Konferenzen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Ich rufe die Frage 24 der Abgeordneten Heike Hänsel auf:",
-            "sentences": [
-              {
-                "text": "Ich rufe die Frage 24 der Abgeordneten Heike Hänsel auf:"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Sie haben das Wort, Frau Staatsministerin.",
-            "sentences": [
-              {
-                "text": "Sie haben das Wort, Frau Staatsministerin."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Michelle Müntefering",
-            "speakerstatus": "speaker",
-            "text": "Sehr geehrte Frau Kollegin Hänsel, an den Gedenkveranstaltungen zum 75. Jahrestag der Verbrechen in Klissoura und Pyrgoi in Nordgriechenland hat die Leitung des Generalkonsulats Thessaloniki jeweils mit einer Kranzniederlegung teilgenommen. In den vergangenen Jahren hat die Leitung der deutschen Botschaft an der Gedenkfeier in Distomo teilgenommen. Sofern eine erneute Einladung erfolgt, wird sie dieser auch gerne folgen.",
-            "sentences": [
-              {
-                "text": "Sehr geehrte Frau Kollegin Hänsel, an den Gedenkveranstaltungen zum 75. Jahrestag der Verbrechen in Klissoura und Pyrgoi in Nordgriechenland hat die Leitung des Generalkonsulats Thessaloniki jeweils mit einer Kranzniederlegung teilgenommen."
-              },
-              {
-                "text": "In den vergangenen Jahren hat die Leitung der deutschen Botschaft an der Gedenkfeier in Distomo teilgenommen."
-              },
-              {
-                "text": "Sofern eine erneute Einladung erfolgt, wird sie dieser auch gerne folgen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Michelle Müntefering",
-            "speakerstatus": "speaker",
-            "text": "Die Bundesregierung hat wiederholt verdeutlicht, dass der Vertrag über die abschließende Regelung in Bezug auf Deutschland vom 12. September 1990, der sogenannte Zwei-plus-Vier-Vertrag, die endgültige Regelung der durch den Krieg entstandenen Rechtsfragen enthält. Es wurde bei den Verhandlungen deutlich, dass es weitere friedensvertragliche Regelungen über rechtliche Fragen im Zusammenhang mit dem Zwei-plus-Vier-Vertrag nicht geben werde. Hieraus ergab sich, dass auch die Reparationsfrage nach dem Willen der Vertragspartner nicht mehr geregelt werden sollte.",
-            "sentences": [
-              {
-                "text": "Die Bundesregierung hat wiederholt verdeutlicht, dass der Vertrag über die abschließende Regelung in Bezug auf Deutschland vom 12. September 1990, der sogenannte Zwei-plus-Vier-Vertrag, die endgültige Regelung der durch den Krieg entstandenen Rechtsfragen enthält."
-              },
-              {
-                "text": "Es wurde bei den Verhandlungen deutlich, dass es weitere friedensvertragliche Regelungen über rechtliche Fragen im Zusammenhang mit dem Zwei-plus-Vier-Vertrag nicht geben werde."
-              },
-              {
-                "text": "Hieraus ergab sich, dass auch die Reparationsfrage nach dem Willen der Vertragspartner nicht mehr geregelt werden sollte."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Michelle Müntefering",
-            "speakerstatus": "speaker",
-            "text": "Die KSZE-Außenminister waren am 1. Oktober 1990 über den Vertrag unterrichtet worden, und auch Griechenland hat diesem Vertrag als KSZE-Teilnehmerstaat in der Charta von Paris im November 1990 zugestimmt.",
-            "sentences": [
-              {
-                "text": "Die KSZE-Außenminister waren am 1. Oktober 1990 über den Vertrag unterrichtet worden, und auch Griechenland hat diesem Vertrag als KSZE-Teilnehmerstaat in der Charta von Paris im November 1990 zugestimmt."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Sie haben das Wort zur ersten Nachfrage.",
-            "sentences": [
-              {
-                "text": "Sie haben das Wort zur ersten Nachfrage."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Heike Hänsel",
-            "speakerstatus": "speaker",
-            "text": "Danke, Frau Präsidentin. – Nun muss man ja sagen: Es haben in Griechenland zahlreiche grausame Massaker der SS und auch der Wehrmacht stattgefunden – bis heute eine große Wunde in der Bevölkerung Griechenlands, die den Opfern dieser Massaker jedes Jahr ein würdiges Gedenken gestaltet.",
-            "sentences": [
-              {
-                "text": "Danke, Frau Präsidentin."
-              },
-              {
-                "text": "– Nun muss man ja sagen: Es haben in Griechenland zahlreiche grausame Massaker der SS und auch der Wehrmacht stattgefunden – bis heute eine große Wunde in der Bevölkerung Griechenlands, die den Opfern dieser Massaker jedes Jahr ein würdiges Gedenken gestaltet."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Heike Hänsel",
-            "speakerstatus": "speaker",
-            "text": "Meine Frage anlässlich des 75. Jahrestages dieser Massaker: Wäre es nicht eigentlich angebracht, sich nicht nur in Griechenland durch das Generalkonsulat vertreten zu lassen, sondern auch hier in Deutschland dieser Opfer zu gedenken und für dieses Gedenken einen großen, würdigen Rahmen mit der Kanzlerin und mit dem Bundespräsidenten zu organisieren?",
-            "sentences": [
-              {
-                "text": "Meine Frage anlässlich des 75. Jahrestages dieser Massaker: Wäre es nicht eigentlich angebracht, sich nicht nur in Griechenland durch das Generalkonsulat vertreten zu lassen, sondern auch hier in Deutschland dieser Opfer zu gedenken und für dieses Gedenken einen großen, würdigen Rahmen mit der Kanzlerin und mit dem Bundespräsidenten zu organisieren?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Michelle Müntefering",
-            "speakerstatus": "speaker",
-            "text": "Die Bundesregierung führt in der Regel keine eigenen staatlichen Gedenkveranstaltungen durch. Dem erinnerungskulturellen Verständnis der Bundesregierung entspricht es vielmehr, autonom agierende Gedenkstätten, Museen und Erinnerungsorte zu fördern, die das Gedenken und Erinnern auf wissenschaftlicher Grundlage umfassend gestalten.",
-            "sentences": [
-              {
-                "text": "Die Bundesregierung führt in der Regel keine eigenen staatlichen Gedenkveranstaltungen durch."
-              },
-              {
-                "text": "Dem erinnerungskulturellen Verständnis der Bundesregierung entspricht es vielmehr, autonom agierende Gedenkstätten, Museen und Erinnerungsorte zu fördern, die das Gedenken und Erinnern auf wissenschaftlicher Grundlage umfassend gestalten."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Michelle Müntefering",
-            "speakerstatus": "speaker",
-            "text": "Das Thema „Griechenland unter deutscher Besatzung während des Zweiten Weltkriegs“ wird etwa in der vom Bund geförderten Stiftung Topographie des Terrors in vielfältiger Weise behandelt, etwa in der Ausstellung und in Vortragsveranstaltungen.",
-            "sentences": [
-              {
-                "text": "Das Thema „Griechenland unter deutscher Besatzung während des Zweiten Weltkriegs“ wird etwa in der vom Bund geförderten Stiftung Topographie des Terrors in vielfältiger Weise behandelt, etwa in der Ausstellung und in Vortragsveranstaltungen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Sie haben das Wort zu einer zweiten Nachfrage.",
-            "sentences": [
-              {
-                "text": "Sie haben das Wort zu einer zweiten Nachfrage."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Heike Hänsel",
-            "speakerstatus": "speaker",
-            "text": "Nun ist die Frage der Reparationszahlungen trotzdem umstritten. Es gibt da andere Einschätzungen, auch bezüglich der Zwangsanleihe von über 400 Millionen Reichsmark während des Zweiten Weltkrieges unter deutscher Besatzung. Dazu hat der Wissenschaftliche Dienst in einem Gutachten festgestellt, dass es durchaus Klagemöglichkeiten bezüglich der Rückzahlung der Zwangsanleihe gäbe.",
-            "sentences": [
-              {
-                "text": "Nun ist die Frage der Reparationszahlungen trotzdem umstritten."
-              },
-              {
-                "text": "Es gibt da andere Einschätzungen, auch bezüglich der Zwangsanleihe von über 400 Millionen Reichsmark während des Zweiten Weltkrieges unter deutscher Besatzung."
-              },
-              {
-                "text": "Dazu hat der Wissenschaftliche Dienst in einem Gutachten festgestellt, dass es durchaus Klagemöglichkeiten bezüglich der Rückzahlung der Zwangsanleihe gäbe."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Heike Hänsel",
-            "speakerstatus": "speaker",
-            "text": "Nun gibt es seit dieser Woche eine Verbalnote der griechischen Regierung, in der die Bundesregierung aufgefordert wird, Gespräche über Reparationsforderungen und Kriegsschäden aufzunehmen. Wie wird die Bundesregierung auf diese Verbalnote reagieren? Ist sie denn bereit, zum Beispie l über die Frage der Zwangsanleihe oder auch über die Frage der während des Zweiten Weltkrieges entwendeten Kulturgüter zu verhandeln?",
-            "sentences": [
-              {
-                "text": "Nun gibt es seit dieser Woche eine Verbalnote der griechischen Regierung, in der die Bundesregierung aufgefordert wird, Gespräche über Reparationsforderungen und Kriegsschäden aufzunehmen."
-              },
-              {
-                "text": "Wie wird die Bundesregierung auf diese Verbalnote reagieren?"
-              },
-              {
-                "text": "Ist sie denn bereit, zum Beispie l über die Frage der Zwangsanleihe oder auch über die Frage der während des Zweiten Weltkrieges entwendeten Kulturgüter zu verhandeln?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Michelle Müntefering",
-            "speakerstatus": "speaker",
-            "text": "Eine Verbalnote der griechischen Regierung, mit der die griechische Regierung um die Aufnahme von Gesprächen bittet, wurde der Bundesregierung gestern durch den griechischen Botschafter übergeben. Die Bundesregierung wird die Verbalnote unseres EU- und NATO-Partners Griechenland prüfen. Das ändert jedoch nichts an der Rechtsauffassung der Bundesregierung, die ich eingangs bereits geschildert habe.",
-            "sentences": [
-              {
-                "text": "Eine Verbalnote der griechischen Regierung, mit der die griechische Regierung um die Aufnahme von Gesprächen bittet, wurde der Bundesregierung gestern durch den griechischen Botschafter übergeben."
-              },
-              {
-                "text": "Die Bundesregierung wird die Verbalnote unseres EU- und NATO-Partners Griechenland prüfen."
-              },
-              {
-                "text": "Das ändert jedoch nichts an der Rechtsauffassung der Bundesregierung, die ich eingangs bereits geschildert habe."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Michelle Müntefering",
-            "speakerstatus": "speaker",
-            "text": "Zu den Zwangskrediten, die Sie angesprochen haben. Die Ausführungen zur Reparationsfrage gelten unverändert auch für diese sogenannte Zwangsanleihe. Dieser Schaden wird infolge des historischen und sachlichen Zusammenhangs als Kriegsschaden und Reparationsforderung klassifiziert.",
-            "sentences": [
-              {
-                "text": "Zu den Zwangskrediten, die Sie angesprochen haben."
-              },
-              {
-                "text": "Die Ausführungen zur Reparationsfrage gelten unverändert auch für diese sogenannte Zwangsanleihe."
-              },
-              {
-                "text": "Dieser Schaden wird infolge des historischen und sachlichen Zusammenhangs als Kriegsschaden und Reparationsforderung klassifiziert."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Ich rufe die Frage 25 der Abgeordneten Heike Hänsel auf:",
-            "sentences": [
-              {
-                "text": "Ich rufe die Frage 25 der Abgeordneten Heike Hänsel auf:"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Bitte, Frau Staatsministerin.",
-            "sentences": [
-              {
-                "text": "Bitte, Frau Staatsministerin."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Michelle Müntefering",
-            "speakerstatus": "speaker",
-            "text": "Grundsätzlich gilt: Sanktionen sind ein legitimes politisches Mittel. Das Ziel ist es, Druck aufzubauen, um Verhaltensänderungen herbeizuführen. Sanktionen müssen deshalb zielgerichtet sein. Der Sanktionierte muss davon ausgehen können, dass die Sanktionen abgebaut werden, wenn er eine Verhaltensänderung vollzieht. Die Bundesregierung – wie auch ihre Partner in der EU – lehnt extraterritorial wirkende Sanktionen ab.",
-            "sentences": [
-              {
-                "text": "Grundsätzlich gilt: Sanktionen sind ein legitimes politisches Mittel."
-              },
-              {
-                "text": "Das Ziel ist es, Druck aufzubauen, um Verhaltensänderungen herbeizuführen."
-              },
-              {
-                "text": "Sanktionen müssen deshalb zielgerichtet sein."
-              },
-              {
-                "text": "Der Sanktionierte muss davon ausgehen können, dass die Sanktionen abgebaut werden, wenn er eine Verhaltensänderung vollzieht."
-              },
-              {
-                "text": "Die Bundesregierung – wie auch ihre Partner in der EU – lehnt extraterritorial wirkende Sanktionen ab."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Michelle Müntefering",
-            "speakerstatus": "speaker",
-            "text": "Hinsichtlich Irans teilen die USA und die Bundesregierung das gemeinsame Ziel, dass die iranische Regierung nicht in den Besitz von Atomwaffen gelangt, dass sie sich hinsichtlich ihres Raketenprogramms an geltende Sicherheitsratsresolutionen hält und dass die destruktiven Aktivitäten des Iran in den Bürgerkriegsländern Syrien und Jemen gestoppt werden. Die EU hat daher selbst eine ganze Reihe zielgerichteter Sanktionen gegen Iran verhängt.",
-            "sentences": [
-              {
-                "text": "Hinsichtlich Irans teilen die USA und die Bundesregierung das gemeinsame Ziel, dass die iranische Regierung nicht in den Besitz von Atomwaffen gelangt, dass sie sich hinsichtlich ihres Raketenprogramms an geltende Sicherheitsratsresolutionen hält und dass die destruktiven Aktivitäten des Iran in den Bürgerkriegsländern Syrien und Jemen gestoppt werden."
-              },
-              {
-                "text": "Die EU hat daher selbst eine ganze Reihe zielgerichteter Sanktionen gegen Iran verhängt."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Michelle Müntefering",
-            "speakerstatus": "speaker",
-            "text": "Im Gegensatz zu den USA hält die Bundesregierung gemeinsam mit ihren E3- und EU-Partnern am Gemeinsamen umfassenden Aktionsplan, dem JCPoA, fest und bedauert die Wiedereinsetzung der US-Sanktionen gegen Iran in diesem Zusammenhang.",
-            "sentences": [
-              {
-                "text": "Im Gegensatz zu den USA hält die Bundesregierung gemeinsam mit ihren E3- und EU-Partnern am Gemeinsamen umfassenden Aktionsplan, dem JCPoA, fest und bedauert die Wiedereinsetzung der US-Sanktionen gegen Iran in diesem Zusammenhang."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Michelle Müntefering",
-            "speakerstatus": "speaker",
-            "text": "Lassen Sie mich noch kurz auf Venezuela und Kuba eingehen, die Sie mit angesprochen haben. Die katastrophale wirtschaftliche und humanitäre Lage in Venezuela bereitet uns seit Langem große Sorgen. Wir haben hier und auch im Ausschuss schon mehrfach darüber diskutiert. Für diese dramatische Situation trägt das Regime von Nicolás Maduro die Hauptverantwortung. Jahrelange Misswirtschaft und korrupte Strukturen haben das erdölreichste Land der Welt nahe an den wirtschaftlichen Zusammenbruch geführt. Die USA, aber auch die EU haben daher Sanktionen verhängt, um das Regime von ­Nicolás Maduro zu einer Verhaltensänderung zu bewegen.",
-            "sentences": [
-              {
-                "text": "Lassen Sie mich noch kurz auf Venezuela und Kuba eingehen, die Sie mit angesprochen haben."
-              },
-              {
-                "text": "Die katastrophale wirtschaftliche und humanitäre Lage in Venezuela bereitet uns seit Langem große Sorgen."
-              },
-              {
-                "text": "Wir haben hier und auch im Ausschuss schon mehrfach darüber diskutiert."
-              },
-              {
-                "text": "Für diese dramatische Situation trägt das Regime von Nicolás Maduro die Hauptverantwortung."
-              },
-              {
-                "text": "Jahrelange Misswirtschaft und korrupte Strukturen haben das erdölreichste Land der Welt nahe an den wirtschaftlichen Zusammenbruch geführt."
-              },
-              {
-                "text": "Die USA, aber auch die EU haben daher Sanktionen verhängt, um das Regime von ­Nicolás Maduro zu einer Verhaltensänderung zu bewegen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Michelle Müntefering",
-            "speakerstatus": "speaker",
-            "text": "Mit Blick auf Kuba bedauert die Bundesregierung die Nichtverlängerung der Aussetzung und die Anwendung von Titel III des Helms-Burton-Gesetzes auf europäische Unternehmen. Die EU hat sich in einem gemeinsamen Statement mit Kanada geäußert und die daraus resultierenden extraterritorialen Sanktionswirkungen scharf kritisiert.",
-            "sentences": [
-              {
-                "text": "Mit Blick auf Kuba bedauert die Bundesregierung die Nichtverlängerung der Aussetzung und die Anwendung von Titel III des Helms-Burton-Gesetzes auf europäische Unternehmen."
-              },
-              {
-                "text": "Die EU hat sich in einem gemeinsamen Statement mit Kanada geäußert und die daraus resultierenden extraterritorialen Sanktionswirkungen scharf kritisiert."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Sie haben das Wort zur ersten Nachfrage.",
-            "sentences": [
-              {
-                "text": "Sie haben das Wort zur ersten Nachfrage."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Heike Hänsel",
-            "speakerstatus": "speaker",
-            "text": "Danke schön. – Nun war letzte Woche der UN-Sonderberichterstatter für Auswirkungen von Sanktionen hier in Deutschland, Herr Jazairy. Er hat die Auswirkungen dieser unilateral verhängten Zwangsmaßnahmen massiv kritisiert und diese Maßnahmen auch als Verletzung von Menschenrechten bezeichnet, vor allem weil sie sich eben direkt auf die Zivilbevölkerung auswirken.",
-            "sentences": [
-              {
-                "text": "Danke schön."
-              },
-              {
-                "text": "– Nun war letzte Woche der UN-Sonderberichterstatter für Auswirkungen von Sanktionen hier in Deutschland, Herr Jazairy."
-              },
-              {
-                "text": "Er hat die Auswirkungen dieser unilateral verhängten Zwangsmaßnahmen massiv kritisiert und diese Maßnahmen auch als Verletzung von Menschenrechten bezeichnet, vor allem weil sie sich eben direkt auf die Zivilbevölkerung auswirken."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Heike Hänsel",
-            "speakerstatus": "speaker",
-            "text": "Es gibt zum Beispiel Berechnungen des Center for Economic and Policy Research in Washington, wonach im Laufe der Sanktionen in Venezuela seit 2017 über 40 000 Menschen gestorben sind. Wenn ein Land in einer wirtschaftlichen Krise ist, braucht es ja nicht noch mehr Sanktionen, sondern Unterstützung für die Zivilbevölkerung. Insofern hat der Sonderberichterstatter massiv kritisiert, dass man mit diesen Sanktionen die Rechte dieser Menschen verletzt, und gesagt, dass man die Menschen nicht für politische Ziele missbrauchen darf, zum Beispiel für eine Regime-Change-Politik.",
-            "sentences": [
-              {
-                "text": "Es gibt zum Beispiel Berechnungen des Center for Economic and Policy Research in Washington, wonach im Laufe der Sanktionen in Venezuela seit 2017 über 40 000 Menschen gestorben sind."
-              },
-              {
-                "text": "Wenn ein Land in einer wirtschaftlichen Krise ist, braucht es ja nicht noch mehr Sanktionen, sondern Unterstützung für die Zivilbevölkerung."
-              },
-              {
-                "text": "Insofern hat der Sonderberichterstatter massiv kritisiert, dass man mit diesen Sanktionen die Rechte dieser Menschen verletzt, und gesagt, dass man die Menschen nicht für politische Ziele missbrauchen darf, zum Beispiel für eine Regime-Change-Politik."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Setzen Sie jetzt bitte das Fragezeichen.",
-            "sentences": [
-              {
-                "text": "Setzen Sie jetzt bitte das Fragezeichen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Heike Hänsel",
-            "speakerstatus": "speaker",
-            "text": "Was sagen Sie zu dieser Einschätzung?",
-            "sentences": [
-              {
-                "text": "Was sagen Sie zu dieser Einschätzung?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Michelle Müntefering",
-            "speakerstatus": "speaker",
-            "text": "Sehr geehrte Frau Hänsel, ich habe es gerade anfangs dargestellt, wie wir als Bundesregierung die Sanktionspolitik allgemein betrachten, zu welchen Zielen sie führen soll. Wir sind in Bezug auf Venezuela in umfangreichen Gesprächen; das wissen Sie. Darüber hinaus ist es richtig, dass man diesen Druck entsprechend aufrechterhält.",
-            "sentences": [
-              {
-                "text": "Sehr geehrte Frau Hänsel, ich habe es gerade anfangs dargestellt, wie wir als Bundesregierung die Sanktionspolitik allgemein betrachten, zu welchen Zielen sie führen soll."
-              },
-              {
-                "text": "Wir sind in Bezug auf Venezuela in umfangreichen Gesprächen; das wissen Sie."
-              },
-              {
-                "text": "Darüber hinaus ist es richtig, dass man diesen Druck entsprechend aufrechterhält."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Sie haben das Wort zur zweiten Nachfrage.",
-            "sentences": [
-              {
-                "text": "Sie haben das Wort zur zweiten Nachfrage."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Heike Hänsel",
-            "speakerstatus": "speaker",
-            "text": "Sie haben ja auch die extraterritorialen Sanktionen angesprochen. Deren Auswirkungen betreffen mit Blick auf den Iran, aber eben auch Kuba zum Beispiel auch deutsche Unternehmen. Diese Sanktionen verstoßen eindeutig gegen das Völkerrecht.",
-            "sentences": [
-              {
-                "text": "Sie haben ja auch die extraterritorialen Sanktionen angesprochen."
-              },
-              {
-                "text": "Deren Auswirkungen betreffen mit Blick auf den Iran, aber eben auch Kuba zum Beispiel auch deutsche Unternehmen."
-              },
-              {
-                "text": "Diese Sanktionen verstoßen eindeutig gegen das Völkerrecht."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Heike Hänsel",
-            "speakerstatus": "speaker",
-            "text": "Deswegen meine Frage: Wird denn die Bundesregierung als nichtständiges Mitglied des Sicherheitsrates eine Initiative ergreifen, um diese extraterritorialen Sanktionen zu beenden oder zu verurteilen, um sie im UN-Sicherheitsrat zum Thema zu machen?",
-            "sentences": [
-              {
-                "text": "Deswegen meine Frage: Wird denn die Bundesregierung als nichtständiges Mitglied des Sicherheitsrates eine Initiative ergreifen, um diese extraterritorialen Sanktionen zu beenden oder zu verurteilen, um sie im UN-Sicherheitsrat zum Thema zu machen?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Michelle Müntefering",
-            "speakerstatus": "speaker",
-            "text": "Hierzu kann ich Ihnen zunächst mal sagen, dass eine Bewertung von Sanktionsmaßnahmen der USA nur im jeweiligen konkreten Einzelfall möglich ist und dass wir grundsätzlich Sekundärsanktionen ablehnen. Fragen der Sanktionspolitik sind regelmäßig Gegenstand des Dialogs mit Partnern in der EU und mit den USA.",
-            "sentences": [
-              {
-                "text": "Hierzu kann ich Ihnen zunächst mal sagen, dass eine Bewertung von Sanktionsmaßnahmen der USA nur im jeweiligen konkreten Einzelfall möglich ist und dass wir grundsätzlich Sekundärsanktionen ablehnen."
-              },
-              {
-                "text": "Fragen der Sanktionspolitik sind regelmäßig Gegenstand des Dialogs mit Partnern in der EU und mit den USA."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Zu einer Nachfrage hat der Abgeordnete Dr. Kraft das Wort.",
-            "sentences": [
-              {
-                "text": "Zu einer Nachfrage hat der Abgeordnete Dr. Kraft das Wort."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Rainer Kraft",
-            "speakerstatus": "speaker",
-            "text": "Vielen Dank, Frau Präsident. – Frau Staatssekretärin, wie bewertet das Bundesministerium des Äußeren die Möglichkeit, dass Deutschland in Bezug auf die bald fertiggestellte Pipeline Nord Stream 2 zwischen Russland und Deutschland selbst Ziel von US-Sanktionen werden kann?",
-            "sentences": [
-              {
-                "text": "Vielen Dank, Frau Präsident."
-              },
-              {
-                "text": "– Frau Staatssekretärin, wie bewertet das Bundesministerium des Äußeren die Möglichkeit, dass Deutschland in Bezug auf die bald fertiggestellte Pipeline Nord Stream 2 zwischen Russland und Deutschland selbst Ziel von US-Sanktionen werden kann?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Michelle Müntefering",
-            "speakerstatus": "speaker",
-            "text": "Ich habe gerade zweimal ausgeführt, wie wir zu extraterritorialen Sanktionen stehen. Das hat die Bundesregierung auch in der Vergangenheit deutlich gemacht. Dem ist eigentlich nichts hinzuzufügen.",
-            "sentences": [
-              {
-                "text": "Ich habe gerade zweimal ausgeführt, wie wir zu extraterritorialen Sanktionen stehen."
-              },
-              {
-                "text": "Das hat die Bundesregierung auch in der Vergangenheit deutlich gemacht."
-              },
-              {
-                "text": "Dem ist eigentlich nichts hinzuzufügen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Die Frage 26 der Abgeordneten Lisa Badum, die Fragen 27 und 28 der Abgeordneten Sevim Dağdelen, die Fragen 29 und 30 der Abgeordneten Zaklin Nastic wie auch die Frage 31 des Abgeordneten Ottmar von Holtz sollen schriftlich beantwortet werden.",
-            "sentences": [
-              {
-                "text": "Die Frage 26 der Abgeordneten Lisa Badum, die Fragen 27 und 28 der Abgeordneten Sevim Dağdelen, die Fragen 29 und 30 der Abgeordneten Zaklin Nastic wie auch die Frage 31 des Abgeordneten Ottmar von Holtz sollen schriftlich beantwortet werden."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Ich rufe die Frage 32 des Kollegen Andrej Hunko auf:",
-            "sentences": [
-              {
-                "text": "Ich rufe die Frage 32 des Kollegen Andrej Hunko auf:"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Bitte, Frau Staatsministerin.",
-            "sentences": [
-              {
-                "text": "Bitte, Frau Staatsministerin."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Michelle Müntefering",
-            "speakerstatus": "speaker",
-            "text": "Sehr geehrter Herr Hunko, der internationale Karlspreis macht die historische und überragende Bedeutung des europäischen Projekts deutlich. Der Preis wurde vor über 60 Jahren das erste Mal verliehen, als in Europa nach den Verheerungen der Weltkriege die ersten Schritte hin zur europäischen Integration gemacht worden sind.",
-            "sentences": [
-              {
-                "text": "Sehr geehrter Herr Hunko, der internationale Karlspreis macht die historische und überragende Bedeutung des europäischen Projekts deutlich."
-              },
-              {
-                "text": "Der Preis wurde vor über 60 Jahren das erste Mal verliehen, als in Europa nach den Verheerungen der Weltkriege die ersten Schritte hin zur europäischen Integration gemacht worden sind."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Michelle Müntefering",
-            "speakerstatus": "speaker",
-            "text": "Der Karlspreis ist sicher eine der höchsten Anerkennungen für erbrachte Leistungen und Verdienste um die europäische Integration. Gle ichzeitig gibt seine Verleihung auch Impulse für die Zukunft. Die Verleihung an António Guterres als engagiertem Anwalt für Multilateralismus auf der europäischen und internationalen Ebene, insbesondere bei den Themen Migration und Klimawandel, ist in diesem Sinne auch ein wichtiger Impuls für die Zukunft.",
-            "sentences": [
-              {
-                "text": "Der Karlspreis ist sicher eine der höchsten Anerkennungen für erbrachte Leistungen und Verdienste um die europäische Integration."
-              },
-              {
-                "text": "Gle ichzeitig gibt seine Verleihung auch Impulse für die Zukunft."
-              },
-              {
-                "text": "Die Verleihung an António Guterres als engagiertem Anwalt für Multilateralismus auf der europäischen und internationalen Ebene, insbesondere bei den Themen Migration und Klimawandel, ist in diesem Sinne auch ein wichtiger Impuls für die Zukunft."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Michelle Müntefering",
-            "speakerstatus": "speaker",
-            "text": "In der Regel nimmt die Bundesregierung an der Verleihung in Aachen teil, so auch im letzten Jahr, als Bundeskanzlerin Angela Merkel die Laudatio auf Emmanuel Macron hielt. Auch in diesem Jahr war eine Teilnahme durch eine Vertreterin oder einen Vertreter der Bundesregierung eingeplant. Wegen anderer terminlicher Verpflichtungen konnte diese aber kurzfristig leider nicht erfolgen.",
-            "sentences": [
-              {
-                "text": "In der Regel nimmt die Bundesregierung an der Verleihung in Aachen teil, so auch im letzten Jahr, als Bundeskanzlerin Angela Merkel die Laudatio auf Emmanuel Macron hielt."
-              },
-              {
-                "text": "Auch in diesem Jahr war eine Teilnahme durch eine Vertreterin oder einen Vertreter der Bundesregierung eingeplant."
-              },
-              {
-                "text": "Wegen anderer terminlicher Verpflichtungen konnte diese aber kurzfristig leider nicht erfolgen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Sie haben das Wort zur ersten Nachfrage.",
-            "sentences": [
-              {
-                "text": "Sie haben das Wort zur ersten Nachfrage."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Andrej Hunko",
-            "speakerstatus": "speaker",
-            "text": "Vielen Dank, Frau Staatsministerin. – Sie haben ja jetzt einmal dargestellt, was der Karlspreis bedeutet. Als Aachener ist mir das durchaus bekannt. Ich kann Ihnen aber sagen, dass es zu erheblichen Irritationen in Aachen geführt hat, dass ausgerechnet bei der Verleihung dieses Preises an den UN-Generalsekretär, bei der unter anderem der portugiesische Ministerpräsident, Herr Juncker und das spanische Staatsoberhaupt da waren, die Bundesregierung erstmals, wenn ich das richtig sehe – das ist der zweite Teil meiner Frage: ob zum ersten Mal überhaupt –, nicht anwesend war. Das wurde in Aachen als diplomatischer Affront gewertet.",
-            "sentences": [
-              {
-                "text": "Vielen Dank, Frau Staatsministerin."
-              },
-              {
-                "text": "– Sie haben ja jetzt einmal dargestellt, was der Karlspreis bedeutet."
-              },
-              {
-                "text": "Als Aachener ist mir das durchaus bekannt."
-              },
-              {
-                "text": "Ich kann Ihnen aber sagen, dass es zu erheblichen Irritationen in Aachen geführt hat, dass ausgerechnet bei der Verleihung dieses Preises an den UN-Generalsekretär, bei der unter anderem der portugiesische Ministerpräsident, Herr Juncker und das spanische Staatsoberhaupt da waren, die Bundesregierung erstmals, wenn ich das richtig sehe – das ist der zweite Teil meiner Frage: ob zum ersten Mal überhaupt –, nicht anwesend war."
-              },
-              {
-                "text": "Das wurde in Aachen als diplomatischer Affront gewertet."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Andrej Hunko",
-            "speakerstatus": "speaker",
-            "text": "Sie verweisen nun auf andere Termine. Deshalb noch einmal die Frage: Was ist denn so wichtig, dass man einer solchen Verleihung fernbleibt?",
-            "sentences": [
-              {
-                "text": "Sie verweisen nun auf andere Termine."
-              },
-              {
-                "text": "Deshalb noch einmal die Frage: Was ist denn so wichtig, dass man einer solchen Verleihung fernbleibt?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Michelle Müntefering",
-            "speakerstatus": "speaker",
-            "text": "Es war vorgesehen, dass die Justizministerin Katarina Barley die Bundesregierung bei der Karlspreisverleihung vertritt. Aber sie musste leider ihre Teilnahme aus persönlichen Gründen kurzfristig absagen. Die Bundesregierung hat sich einen Tag vorher auch bemüht, einen Ersatz, einen Vertreter zu finden. Das ist leider nicht gelungen. Ich gehe davon aus, dass wir als Bundesregierung selbstverständlich im nächsten Jahr wieder vertreten sein werden.",
-            "sentences": [
-              {
-                "text": "Es war vorgesehen, dass die Justizministerin Katarina Barley die Bundesregierung bei der Karlspreisverleihung vertritt."
-              },
-              {
-                "text": "Aber sie musste leider ihre Teilnahme aus persönlichen Gründen kurzfristig absagen."
-              },
-              {
-                "text": "Die Bundesregierung hat sich einen Tag vorher auch bemüht, einen Ersatz, einen Vertreter zu finden."
-              },
-              {
-                "text": "Das ist leider nicht gelungen."
-              },
-              {
-                "text": "Ich gehe davon aus, dass wir als Bundesregierung selbstverständlich im nächsten Jahr wieder vertreten sein werden."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Sie haben das Recht, eine zweite Nachfrage zu stellen.",
-            "sentences": [
-              {
-                "text": "Sie haben das Recht, eine zweite Nachfrage zu stellen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Andrej Hunko",
-            "speakerstatus": "speaker",
-            "text": "Dann möchte ich die Frage stellen: War das schon einmal der Fall? Hat es das schon einmal gegeben, dass die Bundesregierung bei der Verleihung des Aachener Karls­preises nicht anwesend war?",
-            "sentences": [
-              {
-                "text": "Dann möchte ich die Frage stellen: War das schon einmal der Fall?"
-              },
-              {
-                "text": "Hat es das schon einmal gegeben, dass die Bundesregierung bei der Verleihung des Aachener Karls­preises nicht anwesend war?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Michelle Müntefering",
-            "speakerstatus": "speaker",
-            "text": "Das kann ich gerne in Erfahrung bringen und Ihnen dann mitteilen. Das weiß ich jetzt so nicht.",
-            "sentences": [
-              {
-                "text": "Das kann ich gerne in Erfahrung bringen und Ihnen dann mitteilen."
-              },
-              {
-                "text": "Das weiß ich jetzt so nicht."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Gut, dann gilt das als verabredet. – Herr Krischer, Sie haben das Wort zu einer Nachfrage, und aus der FDP gibt es dann auch noch eine. – Bitte.",
-            "sentences": [
-              {
-                "text": "Gut, dann gilt das als verabredet."
-              },
-              {
-                "text": "– Herr Krischer, Sie haben das Wort zu einer Nachfrage, und aus der FDP gibt es dann auch noch eine."
-              },
-              {
-                "text": "– Bitte."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Oliver Krischer",
-            "speakerstatus": "speaker",
-            "text": "Herzlichen Dank für Ihre Ausführungen, Frau Müntefering, und dafür, noch einmal deutlicher dargestellt zu haben, warum Herr Guterres den Karlspreis bekommen hat.",
-            "sentences": [
-              {
-                "text": "Herzlichen Dank für Ihre Ausführungen, Frau Müntefering, und dafür, noch einmal deutlicher dargestellt zu haben, warum Herr Guterres den Karlspreis bekommen hat."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Oliver Krischer",
-            "speakerstatus": "speaker",
-            "text": "Auch mir wurde übermittelt, dass es in der Stadt Aachen großes Unverständnis darüber gibt, dass die Bundesregierung zum ersten Mal bei einer solchen Preisverleihung nicht dabei war. Mich würde interessieren: Ist der Bundesregierung zumindest die Rede von Herrn Guterres übermittelt worden, der einen sehr eindringlichen Appell explizit an die Bundesregierung gerichtet hat, beispielsweise in Deutschland eine CO 2 -Bepreisung einzuführen und Subventionen für fossile Energieträger abzubauen? Kann ich davon ausgehen, dass die Mitglieder der Bundesregierung diese Äußerungen des UN-Generalsekretärs auch zur Kenntnis nehmen?",
-            "sentences": [
-              {
-                "text": "Auch mir wurde übermittelt, dass es in der Stadt Aachen großes Unverständnis darüber gibt, dass die Bundesregierung zum ersten Mal bei einer solchen Preisverleihung nicht dabei war."
-              },
-              {
-                "text": "Mich würde interessieren: Ist der Bundesregierung zumindest die Rede von Herrn Guterres übermittelt worden, der einen sehr eindringlichen Appell explizit an die Bundesregierung gerichtet hat, beispielsweise in Deutschland eine CO 2 -Bepreisung einzuführen und Subventionen für fossile Energieträger abzubauen?"
-              },
-              {
-                "text": "Kann ich davon ausgehen, dass die Mitglieder der Bundesregierung diese Äußerungen des UN-Generalsekretärs auch zur Kenntnis nehmen?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Michelle Müntefering",
-            "speakerstatus": "speaker",
-            "text": "Sehr geehrter Herr Krischer, selbst wenn die Bundesregierung nicht persönlich vertreten war, können Sie fest davon ausgehen, dass sowohl die Rede von Herrn Guterres als auch seine inhaltlichen Positionen bei der Bundesregierung angekommen sind; denn wir stehen mit Herrn Guterres selbstverständlich in engstem Austausch.",
-            "sentences": [
-              {
-                "text": "Sehr geehrter Herr Krischer, selbst wenn die Bundesregierung nicht persönlich vertreten war, können Sie fest davon ausgehen, dass sowohl die Rede von Herrn Guterres als auch seine inhaltlichen Positionen bei der Bundesregierung angekommen sind; denn wir stehen mit Herrn Guterres selbstverständlich in engstem Austausch."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Eine weitere Nachfrage stellt der Kollege Graf Lambsdorff.",
-            "sentences": [
-              {
-                "text": "Eine weitere Nachfrage stellt der Kollege Graf Lambsdorff."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Alexander Graf Lambsdorff",
-            "speakerstatus": "speaker",
-            "text": "Frau Barley sollte die Bundesregierung vertreten am 30. Mai, an Christi Himmelfahrt. Sie hat bereits am 26. Mai abends mehrfach öffentlich bekundet, ihr Regierungsamt nach der Europawahl niederzulegen. Sie hätte die Bundesregierung gar nicht mehr vertreten können. Können Sie mir erklären, wie Sie darauf kommen, dass Sie eine Ministerin, die keine Ministerin mehr ist, als Vertreterin der Bundesregierung schicken, die dann nicht erscheint? Ich bin selten mit Andrej Hunko einer Meinung, aber das ist wirklich unfassbar.",
-            "sentences": [
-              {
-                "text": "Frau Barley sollte die Bundesregierung vertreten am 30. Mai, an Christi Himmelfahrt."
-              },
-              {
-                "text": "Sie hat bereits am 26. Mai abends mehrfach öffentlich bekundet, ihr Regierungsamt nach der Europawahl niederzulegen."
-              },
-              {
-                "text": "Sie hätte die Bundesregierung gar nicht mehr vertreten können."
-              },
-              {
-                "text": "Können Sie mir erklären, wie Sie darauf kommen, dass Sie eine Ministerin, die keine Ministerin mehr ist, als Vertreterin der Bundesregierung schicken, die dann nicht erscheint?"
-              },
-              {
-                "text": "Ich bin selten mit Andrej Hunko einer Meinung, aber das ist wirklich unfassbar."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Michelle Müntefering",
-            "speakerstatus": "speaker",
-            "text": "Das ist nach meiner Kenntnis das erste Mal passiert. Wir werden noch einmal eruieren, ob es wirklich das erste Mal war. Ich habe gerade darauf hingewiesen, dass das im nächsten Jahr nicht wieder der Fall sein wird. Sehr geehrter Kollege Graf Lambsdorff, das ist ein Ausnahmefall gewesen, und es gab persönliche Gründe. Dafür bitte ich hier um Verständnis.",
-            "sentences": [
-              {
-                "text": "Das ist nach meiner Kenntnis das erste Mal passiert."
-              },
-              {
-                "text": "Wir werden noch einmal eruieren, ob es wirklich das erste Mal war."
-              },
-              {
-                "text": "Ich habe gerade darauf hingewiesen, dass das im nächsten Jahr nicht wieder der Fall sein wird."
-              },
-              {
-                "text": "Sehr geehrter Kollege Graf Lambsdorff, das ist ein Ausnahmefall gewesen, und es gab persönliche Gründe."
-              },
-              {
-                "text": "Dafür bitte ich hier um Verständnis."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Sie haben leider keine Chance, eine zweite Nachfrage zu stellen. Wir haben das im Protokoll festgehalten. Sicherlich werden Sie ein Format finden, um das weiter zu bearbeiten.",
-            "sentences": [
-              {
-                "text": "Sie haben leider keine Chance, eine zweite Nachfrage zu stellen."
-              },
-              {
-                "text": "Wir haben das im Protokoll festgehalten."
-              },
-              {
-                "text": "Sicherlich werden Sie ein Format finden, um das weiter zu bearbeiten."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Die Frage 33 des Abgeordneten Omid Nouripour und die Frage 34 des Abgeordneten Manuel Sarrazin sollen schriftlich beantwortet werden.",
-            "sentences": [
-              {
-                "text": "Die Frage 33 des Abgeordneten Omid Nouripour und die Frage 34 des Abgeordneten Manuel Sarrazin sollen schriftlich beantwortet werden."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Ich rufe die Frage 35 des Abgeordneten Dr. Christoph Hoffmann zu friedens- und dialogfördernden Maßnahmen der Bundesregierung angesichts der Situation in Kamerun auf und weise darauf hin, dass wir noch vier Minuten Fragestunde haben, um dann zum nächsten Tagesordnungspunkt überzugehen.",
-            "sentences": [
-              {
-                "text": "Ich rufe die Frage 35 des Abgeordneten Dr. Christoph Hoffmann zu friedens- und dialogfördernden Maßnahmen der Bundesregierung angesichts der Situation in Kamerun auf und weise darauf hin, dass wir noch vier Minuten Fragestunde haben, um dann zum nächsten Tagesordnungspunkt überzugehen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Bitte, Frau Staatsministerin.",
-            "sentences": [
-              {
-                "text": "Bitte, Frau Staatsministerin."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Michelle Müntefering",
-            "speakerstatus": "speaker",
-            "text": "Ist der Kollege Hoffmann da?",
-            "sentences": [
-              {
-                "text": "Ist der Kollege Hoffmann da?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Das wäre die Frage. Wo ist er?",
-            "sentences": [
-              {
-                "text": "Das wäre die Frage."
-              },
-              {
-                "text": "Wo ist er?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Michelle Müntefering",
-            "speakerstatus": "speaker",
-            "text": "Ich kenne ihn, sehe ihn aber nicht.",
-            "sentences": [
-              {
-                "text": "Ich kenne ihn, sehe ihn aber nicht."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Dann verfahren wir, wie in der Geschäftsordnung vorgesehen. Das heißt, die Frage wird nicht beantwortet.",
-            "sentences": [
-              {
-                "text": "Dann verfahren wir, wie in der Geschäftsordnung vorgesehen."
-              },
-              {
-                "text": "Das heißt, die Frage wird nicht beantwortet."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Dann danke ich Ihnen, Frau Staatsministerin. Wir sind am Ende Ihres Geschäftsbereiches.",
-            "sentences": [
-              {
-                "text": "Dann danke ich Ihnen, Frau Staatsministerin."
-              },
-              {
-                "text": "Wir sind am Ende Ihres Geschäftsbereiches."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Ich rufe noch den Geschäftsbereich des Bundesministeriums für Wirtschaft und Energie auf. Zur Beantwortung steht der Parlamentarische Staatssekretär Christian Hirte zur Verfügung.",
-            "sentences": [
-              {
-                "text": "Ich rufe noch den Geschäftsbereich des Bundesministeriums für Wirtschaft und Energie auf."
-              },
-              {
-                "text": "Zur Beantwortung steht der Parlamentarische Staatssekretär Christian Hirte zur Verfügung."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Wenn nicht irgendetwas in dieser Minute geschehen ist, wird auch die Frage 36 des Abgeordneten Dr. Christoph Hoffmann nicht beantwortet. Oder ist er jetzt da? – Das ist nicht der Fall. Dann verfahren wir, wie in der Geschäftsordnung vorgesehen.",
-            "sentences": [
-              {
-                "text": "Wenn nicht irgendetwas in dieser Minute geschehen ist, wird auch die Frage 36 des Abgeordneten Dr. Christoph Hoffmann nicht beantwortet."
-              },
-              {
-                "text": "Oder ist er jetzt da?"
-              },
-              {
-                "text": "– Das ist nicht der Fall."
-              },
-              {
-                "text": "Dann verfahren wir, wie in der Geschäftsordnung vorgesehen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Dann rufe ich die Frage 37 des Abgeordneten Oliver Luksic auf:",
-            "sentences": [
-              {
-                "text": "Dann rufe ich die Frage 37 des Abgeordneten Oliver Luksic auf:"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Bitte, Herr Staatssekretär.",
-            "sentences": [
-              {
-                "text": "Bitte, Herr Staatssekretär."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Christian Hirte",
-            "speakerstatus": "speaker",
-            "text": "Frau Präsidentin! Herr Kollege, gemäß den vom Bundeskabinett am 22. Mai beschlossenen Eckpunkten zur Umsetzung der strukturpolitischen Empfehlungen der Kommission „Wachstum, Strukturwandel und Beschäftigung“ für ein „Strukturstärkungsgesetz Kohleregionen“ sollen an Steinkohlekraftwerksstandorten, an denen der Steinkohlesektor eine erhebliche wirtschaftliche Relevanz besitzt, relevante Projekte mit bis zu 1 Milliarde Euro unterstützt werden. Von erheblicher Relevanz ist dann auszugehen, wenn der Wertschöpfungsanteil des Steinkohlesektors an der Gesamtwertschöpfung in dem betreffenden Landkreis mindestens 0,2 Prozent beträgt und der Standort im Rahmen der Gemeinschaftsaufgabe „Verbesserung der regionalen Wirtschaftsstruktur“ als strukturschwac h gilt. Auf Basis dieser Kriterien ist vorgesehen, auch Steinkohlestandorten im Saarland wie Saarlouis oder dem Regionalverband Saarbrücken Mittel zur Unterstützung des Strukturwandels zukommen zu lassen. Über die Verteilung der Mittel ist derzeit noch keine Aussage möglich.",
-            "sentences": [
-              {
-                "text": "Frau Präsidentin!"
-              },
-              {
-                "text": "Herr Kollege, gemäß den vom Bundeskabinett am 22. Mai beschlossenen Eckpunkten zur Umsetzung der strukturpolitischen Empfehlungen der Kommission „Wachstum, Strukturwandel und Beschäftigung“ für ein „Strukturstärkungsgesetz Kohleregionen“ sollen an Steinkohlekraftwerksstandorten, an denen der Steinkohlesektor eine erhebliche wirtschaftliche Relevanz besitzt, relevante Projekte mit bis zu 1 Milliarde Euro unterstützt werden."
-              },
-              {
-                "text": "Von erheblicher Relevanz ist dann auszugehen, wenn der Wertschöpfungsanteil des Steinkohlesektors an der Gesamtwertschöpfung in dem betreffenden Landkreis mindestens 0,2 Prozent beträgt und der Standort im Rahmen der Gemeinschaftsaufgabe „Verbesserung der regionalen Wirtschaftsstruktur“ als strukturschwac h gilt."
-              },
-              {
-                "text": "Auf Basis dieser Kriterien ist vorgesehen, auch Steinkohlestandorten im Saarland wie Saarlouis oder dem Regionalverband Saarbrücken Mittel zur Unterstützung des Strukturwandels zukommen zu lassen."
-              },
-              {
-                "text": "Über die Verteilung der Mittel ist derzeit noch keine Aussage möglich."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Sie haben das Wort zur ersten Nachfrage.",
-            "sentences": [
-              {
-                "text": "Sie haben das Wort zur ersten Nachfrage."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Oliver Luksic",
-            "speakerstatus": "speaker",
-            "text": "Vielen Dank, Herr Staatssekretär. – Das heißt, in zwei Landkreisen ist dies denkbar. In einem dritten Landkreis, in dem sich relevante Kraftwerke befinden, ist das nicht geplant, wenn ich Sie richtig verstanden habe. Ich möchte gern das Kraftwerk Bexbach ansprechen, das nicht nur regional eine wichtige Rolle spielt, sondern laut der Bundesnetzagentur auch systemrelevant ist. Es sollte bereits vom Netz gehen, weil es sich nicht mehr rechnet. Es musste aber am Netz bleiben. Es liegt im Saarpfalz-Kreis. Sie haben gerade die Kriterien vorgetragen. Im Rahmen der GRW ist der Saarpfalz-Kreis nicht aufgeführt. Das heißt, wenn man das Kraftwerk beispielsweise auf Gaskraft – das wäre sinnvoll – umrüsten wollte, würde die Bundesregierung dies nicht unterstützen. Oder ist das Ihrer Meinung nach eine sinnvolle Maßnahme, weil auch die Bundesnetzagentur davon ausgeht, dass das ein systemrelevantes Kraftwerk ist?",
-            "sentences": [
-              {
-                "text": "Vielen Dank, Herr Staatssekretär."
-              },
-              {
-                "text": "– Das heißt, in zwei Landkreisen ist dies denkbar."
-              },
-              {
-                "text": "In einem dritten Landkreis, in dem sich relevante Kraftwerke befinden, ist das nicht geplant, wenn ich Sie richtig verstanden habe."
-              },
-              {
-                "text": "Ich möchte gern das Kraftwerk Bexbach ansprechen, das nicht nur regional eine wichtige Rolle spielt, sondern laut der Bundesnetzagentur auch systemrelevant ist."
-              },
-              {
-                "text": "Es sollte bereits vom Netz gehen, weil es sich nicht mehr rechnet."
-              },
-              {
-                "text": "Es musste aber am Netz bleiben."
-              },
-              {
-                "text": "Es liegt im Saarpfalz-Kreis."
-              },
-              {
-                "text": "Sie haben gerade die Kriterien vorgetragen."
-              },
-              {
-                "text": "Im Rahmen der GRW ist der Saarpfalz-Kreis nicht aufgeführt."
-              },
-              {
-                "text": "Das heißt, wenn man das Kraftwerk beispielsweise auf Gaskraft – das wäre sinnvoll – umrüsten wollte, würde die Bundesregierung dies nicht unterstützen."
-              },
-              {
-                "text": "Oder ist das Ihrer Meinung nach eine sinnvolle Maßnahme, weil auch die Bundesnetzagentur davon ausgeht, dass das ein systemrelevantes Kraftwerk ist?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Christian Hirte",
-            "speakerstatus": "speaker",
-            "text": "Herr Kollege Luksic, wenn ich das richtig verstanden habe, fragen Sie, ob jenseits der Kriterien, die ich gerade genannt habe, die Mittel verwandt werden können. Das ist nicht geplant. Aber die abstrakten Kriterien könnten möglicherweise für weitere Landkreise außer den von mir genannten im Saarland herangezogen werden.",
-            "sentences": [
-              {
-                "text": "Herr Kollege Luksic, wenn ich das richtig verstanden habe, fragen Sie, ob jenseits der Kriterien, die ich gerade genannt habe, die Mittel verwandt werden können."
-              },
-              {
-                "text": "Das ist nicht geplant."
-              },
-              {
-                "text": "Aber die abstrakten Kriterien könnten möglicherweise für weitere Landkreise außer den von mir genannten im Saarland herangezogen werden."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Sie haben die Möglichkeit zur zweiten Nachfrage.",
-            "sentences": [
-              {
-                "text": "Sie haben die Möglichkeit zur zweiten Nachfrage."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Oliver Luksic",
-            "speakerstatus": "speaker",
-            "text": "Vielen Dank, Frau Präsidentin. – Herr Staatssekretär, nach den von Ihnen vorgetragenen Kriterien ist der Saarpfalz-Kreis nicht darunter. Wenn es anders ist, bitte ich, mir das schriftlich mitzuteilen.",
-            "sentences": [
-              {
-                "text": "Vielen Dank, Frau Präsidentin."
-              },
-              {
-                "text": "– Herr Staatssekretär, nach den von Ihnen vorgetragenen Kriterien ist der Saarpfalz-Kreis nicht darunter."
-              },
-              {
-                "text": "Wenn es anders ist, bitte ich, mir das schriftlich mitzuteilen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Oliver Luksic",
-            "speakerstatus": "speaker",
-            "text": "In meiner zweiten Nachfrage geht es um die Projektliste, die das Saarland eingereicht hat. Es gibt eine ganze Reihe an Wünschen, die durch die von Ihnen genannten Kriterien meines Erachtens ein Stück weit beschränkt werden. Beispielsweise wird die Hochgeschwindigkeitsverbindung nach Paris genannt. Da hat mir die Bundesregierung auf Anfrage mitgeteilt, dass auf deutscher Seite die Beschleunigungsmaßnahmen aus der höchsten Dringlichkeitsstufe herausgefallen sind. Es geht des Weiteren um künstliche Intelligenz und das Thema Bundesbehörden. Deswegen lautet meine Frage: Gibt es konkrete Pläne oder Maßnahmen, um in nächster Zeit etwas von dem Projektkatalog, den das Saarland eingereicht hat, im Rahmen der von Ihnen genannten Kriterien anzugehen, oder gibt es dazu noch keine Planungen?",
-            "sentences": [
-              {
-                "text": "In meiner zweiten Nachfrage geht es um die Projektliste, die das Saarland eingereicht hat."
-              },
-              {
-                "text": "Es gibt eine ganze Reihe an Wünschen, die durch die von Ihnen genannten Kriterien meines Erachtens ein Stück weit beschränkt werden."
-              },
-              {
-                "text": "Beispielsweise wird die Hochgeschwindigkeitsverbindung nach Paris genannt."
-              },
-              {
-                "text": "Da hat mir die Bundesregierung auf Anfrage mitgeteilt, dass auf deutscher Seite die Beschleunigungsmaßnahmen aus der höchsten Dringlichkeitsstufe herausgefallen sind."
-              },
-              {
-                "text": "Es geht des Weiteren um künstliche Intelligenz und das Thema Bundesbehörden."
-              },
-              {
-                "text": "Deswegen lautet meine Frage: Gibt es konkrete Pläne oder Maßnahmen, um in nächster Zeit etwas von dem Projektkatalog, den das Saarland eingereicht hat, im Rahmen der von Ihnen genannten Kriterien anzugehen, oder gibt es dazu noch keine Planungen?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Christian Hirte",
-            "speakerstatus": "speaker",
-            "text": "Herr Kollege! Frau Präsidentin! Es ist so, dass derzeit noch die konkreten Kriterien und die Projektvorhaben beraten und ermittelt werden. Sie liegen noch nicht abschließend vor. Dazu wird noch eine gewisse Zeit benötigt. Sobald die Rahmenbedingungen endgültig klar sind, werden wir darüber natürlich informieren.",
-            "sentences": [
-              {
-                "text": "Herr Kollege!"
-              },
-              {
-                "text": "Frau Präsidentin!"
-              },
-              {
-                "text": "Es ist so, dass derzeit noch die konkreten Kriterien und die Projektvorhaben beraten und ermittelt werden."
-              },
-              {
-                "text": "Sie liegen noch nicht abschließend vor."
-              },
-              {
-                "text": "Dazu wird noch eine gewisse Zeit benötigt."
-              },
-              {
-                "text": "Sobald die Rahmenbedingungen endgültig klar sind, werden wir darüber natürlich informieren."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Danke, Herr Staatssekretär. – Wir sind damit am Ende der Fragestunde. Die übrigen Fragen werden schriftlich beantwortet.",
-            "sentences": [
-              {
-                "text": "Danke, Herr Staatssekretär."
-              },
-              {
-                "text": "– Wir sind damit am Ende der Fragestunde."
-              },
-              {
-                "text": "Die übrigen Fragen werden schriftlich beantwortet."
-              }
-            ]
           }
         ]
       }
@@ -11320,7 +9670,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 84,
+      "speechIndex": 1086,
       "title": "Aktuelle Stunde zu konkreten Maßnahmen für den Klimaschutz"
     },
     "people": [
@@ -11333,12 +9683,45 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19103-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19103-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
         "originTextID": "",
         "textBody": [
+          {
+            "type": "speech",
+            "speaker": "Petra Pau",
+            "speakerstatus": "vice-president",
+            "text": "Aktuelle Stunde",
+            "sentences": [
+              {
+                "text": "Aktuelle Stunde"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Petra Pau",
+            "speakerstatus": "vice-president",
+            "text": "auf Verlangen der Fraktion BÜNDNIS 90/DIE GRÜNEN",
+            "sentences": [
+              {
+                "text": "auf Verlangen der Fraktion BÜNDNIS 90/DIE GRÜNEN"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Petra Pau",
+            "speakerstatus": "vice-president",
+            "text": "Haltung der Bundesregierung zu konkreten Maßnahmen für den Klimaschutz, insbesondere CO 2 -Preis und Kohleausstieg",
+            "sentences": [
+              {
+                "text": "Haltung der Bundesregierung zu konkreten Maßnahmen für den Klimaschutz, insbesondere CO 2 -Preis und Kohleausstieg"
+              }
+            ]
+          },
           {
             "type": "speech",
             "speaker": "Petra Pau",
@@ -11382,7 +9765,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 85,
+      "speechIndex": 1087,
       "title": "Aktuelle Stunde zu konkreten Maßnahmen für den Klimaschutz"
     },
     "people": [
@@ -11403,7 +9786,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19103-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19103-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -12037,7 +10420,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 86,
+      "speechIndex": 1088,
       "title": "Aktuelle Stunde zu konkreten Maßnahmen für den Klimaschutz"
     },
     "people": [
@@ -12058,7 +10441,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19103-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19103-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -12686,7 +11069,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 87,
+      "speechIndex": 1089,
       "title": "Aktuelle Stunde zu konkreten Maßnahmen für den Klimaschutz"
     },
     "people": [
@@ -12707,7 +11090,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19103-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19103-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -13220,7 +11603,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 88,
+      "speechIndex": 1090,
       "title": "Aktuelle Stunde zu konkreten Maßnahmen für den Klimaschutz"
     },
     "people": [
@@ -13241,7 +11624,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19103-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19103-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -13946,7 +12329,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 89,
+      "speechIndex": 1091,
       "title": "Aktuelle Stunde zu konkreten Maßnahmen für den Klimaschutz"
     },
     "people": [
@@ -13967,7 +12350,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19103-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19103-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -14545,7 +12928,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 90,
+      "speechIndex": 1092,
       "title": "Aktuelle Stunde zu konkreten Maßnahmen für den Klimaschutz"
     },
     "people": [
@@ -14566,7 +12949,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19103-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19103-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -15041,7 +13424,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 91,
+      "speechIndex": 1093,
       "title": "Aktuelle Stunde zu konkreten Maßnahmen für den Klimaschutz"
     },
     "people": [
@@ -15062,7 +13445,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19103-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19103-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -15488,7 +13871,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 92,
+      "speechIndex": 1094,
       "title": "Aktuelle Stunde zu konkreten Maßnahmen für den Klimaschutz"
     },
     "people": [
@@ -15509,7 +13892,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19103-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19103-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -15950,7 +14333,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 93,
+      "speechIndex": 1095,
       "title": "Aktuelle Stunde zu konkreten Maßnahmen für den Klimaschutz"
     },
     "people": [
@@ -15971,7 +14354,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19103-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19103-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -16442,7 +14825,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 94,
+      "speechIndex": 1096,
       "title": "Aktuelle Stunde zu konkreten Maßnahmen für den Klimaschutz"
     },
     "people": [
@@ -16463,7 +14846,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19103-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19103-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -17108,7 +15491,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 95,
+      "speechIndex": 1097,
       "title": "Aktuelle Stunde zu konkreten Maßnahmen für den Klimaschutz"
     },
     "people": [
@@ -17129,7 +15512,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19103-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19103-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -17570,7 +15953,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 96,
+      "speechIndex": 1098,
       "title": "Aktuelle Stunde zu konkreten Maßnahmen für den Klimaschutz"
     },
     "people": [
@@ -17591,7 +15974,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19103-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19103-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -18142,7 +16525,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 97,
+      "speechIndex": 1099,
       "title": "Aktuelle Stunde zu konkreten Maßnahmen für den Klimaschutz"
     },
     "people": [
@@ -18163,7 +16546,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19103-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19103-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -18504,7 +16887,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 98,
+      "speechIndex": 1100,
       "title": "Aktuelle Stunde zu konkreten Maßnahmen für den Klimaschutz"
     },
     "people": [
@@ -18515,17 +16898,12 @@
         "lastname": "Gremmels",
         "context": "main-speaker",
         "faction": "SPD"
-      },
-      {
-        "type": "memberOfParliament",
-        "label": "Thomas Oppermann",
-        "context": "vice-president"
       }
     ],
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19103-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19103-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -19037,18 +17415,55 @@
                 "text": "Danke schön."
               }
             ]
-          },
-          {
-            "type": "comment",
-            "speaker": null,
-            "speakerstatus": null,
-            "text": "(Beifall bei der SPD)",
-            "sentences": [
-              {
-                "text": "(Beifall bei der SPD)"
-              }
-            ]
-          },
+          }
+        ]
+      }
+    ],
+    "documents": [],
+    "key": "19-103 zusatzpunkt 1 (timon gremmels)",
+    "dateStart": "2019-06-05T14:54:56",
+    "dateEnd": "2019-06-05T15:00:24",
+    "media": {
+      "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7361184/7361184_h264_720_400_2000kb_baseline_de_2192.mp4",
+      "sourcePage": "http://dbtg.tv/fvid/7361184",
+      "duration": 328.0,
+      "creator": "Deutscher Bundestag",
+      "license": "CC-BY-SA",
+      "originMediaID": "7361184",
+      "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7361184/7361184_mp3_128kb_stereo_de_128.mp3"
+    }
+  },
+  {
+    "parliament": "DE",
+    "electoralPeriod": {
+      "number": "19"
+    },
+    "session": {
+      "number": "103",
+      "dateStart": "2019-06-05T13:00",
+      "dateEnd": "2019-06-05T17:00"
+    },
+    "agendaItem": {
+      "officialTitle": "Zusatzpunkt 1",
+      "speechIndex": 1101,
+      "title": "Aktuelle Stunde zu konkreten Maßnahmen für den Klimaschutz"
+    },
+    "people": [
+      {
+        "type": "memberOfParliament",
+        "label": "Thomas Oppermann",
+        "context": "vice-president"
+      }
+    ],
+    "textContents": [
+      {
+        "type": "proceedings",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19103-data.xml",
+        "creator": "Deutscher Bundestag",
+        "license": "Public Domain",
+        "language": "DE-de",
+        "originTextID": "",
+        "textBody": [
           {
             "type": "speech",
             "speaker": "Thomas Oppermann",
@@ -19103,32 +17518,9 @@
       }
     ],
     "documents": [],
-    "key": "19-103 zusatzpunkt 1 (timon gremmels)",
-    "dateStart": "2019-06-05T14:54:56",
-    "dateEnd": "2019-06-05T15:00:24",
-    "media": {
-      "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7361184/7361184_h264_720_400_2000kb_baseline_de_2192.mp4",
-      "sourcePage": "http://dbtg.tv/fvid/7361184",
-      "duration": 328.0,
-      "creator": "Deutscher Bundestag",
-      "license": "CC-BY-SA",
-      "originMediaID": "7361184",
-      "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7361184/7361184_mp3_128kb_stereo_de_128.mp3"
-    }
-  },
-  {
-    "parliament": "DE",
-    "electoralPeriod": {
-      "number": 19
-    },
-    "session": {
-      "number": 103
-    },
-    "agendaItem": {
-      "title": "Aktuelle Stunde zu konkreten Maßnahmen für den Klimaschutz",
-      "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 40
-    },
+    "key": "19-103 zusatzpunkt 1 (thomas oppermann)",
+    "dateStart": "2019-06-05T15:00:24",
+    "dateEnd": "2019-06-05T15:00:32",
     "media": {
       "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7361185/7361185_h264_720_400_2000kb_baseline_de_2192.mp4",
       "sourcePage": "http://dbtg.tv/fvid/7361185",
@@ -19137,18 +17529,7 @@
       "license": "CC-BY-SA",
       "originMediaID": "7361185",
       "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7361185/7361185_mp3_128kb_stereo_de_128.mp3"
-    },
-    "dateStart": "2019-06-05T15:00:24",
-    "dateEnd": "2019-06-05T15:00:32",
-    "people": [
-      {
-        "label": "Thomas Oppermann",
-        "faction": "SPD",
-        "context": "main-speaker",
-        "role": "Bundestagsvizepräsident"
-      }
-    ],
-    "key": "19-103 zusatzpunkt 1 (thomas oppermann)"
+    }
   },
   {
     "parliament": "DE",

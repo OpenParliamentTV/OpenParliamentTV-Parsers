@@ -11,7 +11,7 @@
     },
     "agendaItem": {
       "officialTitle": "Sitzungseröffnung",
-      "speechIndex": 0,
+      "speechIndex": 1000,
       "title": "Sitzungseröffnung"
     },
     "people": [
@@ -24,7 +24,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19097-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19097-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -76,7 +76,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 2,
+      "speechIndex": 1002,
       "title": "Befragung der Bundesregierung"
     },
     "people": [
@@ -89,12 +89,23 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19097-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19097-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
         "originTextID": "",
         "textBody": [
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "Befragung der Bundesregierung",
+            "sentences": [
+              {
+                "text": "Befragung der Bundesregierung"
+              }
+            ]
+          },
           {
             "type": "speech",
             "speaker": "Wolfgang Schäuble",
@@ -149,7 +160,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 3,
+      "speechIndex": 1003,
       "title": "Befragung der Bundesregierung"
     },
     "people": [
@@ -170,7 +181,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19097-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19097-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -434,7 +445,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 2",
-      "speechIndex": 78,
+      "speechIndex": 1079,
       "title": "Fragestunde"
     },
     "people": [
@@ -647,12 +658,23 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19097-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19097-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
         "originTextID": "",
         "textBody": [
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "Fragestunde",
+            "sentences": [
+              {
+                "text": "Fragestunde"
+              }
+            ]
+          },
           {
             "type": "speech",
             "speaker": "Claudia Roth",
@@ -6563,7 +6585,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 2",
-      "speechIndex": 79,
+      "speechIndex": 1080,
       "title": "Fragestunde"
     },
     "people": [
@@ -6707,81 +6729,28 @@
         "lastname": "Straetmanns",
         "context": "speaker",
         "faction": "DIE LINKE"
-      },
-      {
-        "type": "memberOfParliament",
-        "label": "Stefan Gelbhaar",
-        "firstname": "Stefan",
-        "lastname": "Gelbhaar",
-        "context": "speaker",
-        "faction": "BÜNDNIS 90/DIE GRÜNEN"
-      },
-      {
-        "type": "memberOfParliament",
-        "label": "Torsten Herbst",
-        "firstname": "Torsten",
-        "lastname": "Herbst",
-        "context": "speaker",
-        "faction": "FDP"
-      },
-      {
-        "type": "memberOfParliament",
-        "label": "Christian Jung",
-        "firstname": "Christian",
-        "lastname": "Jung",
-        "context": "speaker",
-        "faction": "FDP"
-      },
-      {
-        "type": "memberOfParliament",
-        "label": "Oliver Luksic",
-        "firstname": "Oliver",
-        "lastname": "Luksic",
-        "context": "speaker",
-        "faction": "FDP"
-      },
-      {
-        "type": "memberOfParliament",
-        "label": "Rita Schwarzelühr-Sutter",
-        "firstname": "Rita",
-        "lastname": "Schwarzelühr-Sutter",
-        "context": "speaker",
-        "faction": ""
-      },
-      {
-        "type": "memberOfParliament",
-        "label": "Dirk Spaniel",
-        "firstname": "Dirk",
-        "lastname": "Spaniel",
-        "context": "speaker",
-        "faction": "AfD"
-      },
-      {
-        "type": "memberOfParliament",
-        "label": "Judith Skudelny",
-        "firstname": "Judith",
-        "lastname": "Skudelny",
-        "context": "speaker",
-        "faction": "FDP"
-      },
-      {
-        "type": "memberOfParliament",
-        "label": "Sylvia Kotting-Uhl",
-        "firstname": "Sylvia",
-        "lastname": "Kotting-Uhl",
-        "context": "speaker",
-        "faction": "BÜNDNIS 90/DIE GRÜNEN"
       }
     ],
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19097-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19097-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
         "originTextID": "",
         "textBody": [
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "Fragestunde",
+            "sentences": [
+              {
+                "text": "Fragestunde"
+              }
+            ]
+          },
           {
             "type": "speech",
             "speaker": "Claudia Roth",
@@ -9633,2349 +9602,6 @@
                 "text": "Herr Ferlemann."
               }
             ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Enak Ferlemann",
-            "speakerstatus": "speaker",
-            "text": "Es gibt überall Rechtsprechungen, die zeigen, dass das Vorgehen unserer Behörden in vergleichbaren Fällen vollkommen korrekt war. Zuständig ist die Berufsgenossenschaft für die Verkehrswirtschaft, Dienststelle Schiffssicherheit. Sie hat aus unserer Sicht einwandfrei gehandelt. Es gibt keinen Anlass, dort im Wege der Rechts- oder Fachaufsicht einzugreifen. Wir tun das ganz bewusst auch deshalb nicht, weil es hier nicht um die Frage geht, ob man für die Seenotrettung von Flüchtlingen im Mittelmeer ist, ja oder nein. Es geht hier ausschließlich um die Fragen der Schiffssicherheit. Deswegen ist das Vorgehen korrekt.",
-            "sentences": [
-              {
-                "text": "Es gibt überall Rechtsprechungen, die zeigen, dass das Vorgehen unserer Behörden in vergleichbaren Fällen vollkommen korrekt war."
-              },
-              {
-                "text": "Zuständig ist die Berufsgenossenschaft für die Verkehrswirtschaft, Dienststelle Schiffssicherheit."
-              },
-              {
-                "text": "Sie hat aus unserer Sicht einwandfrei gehandelt."
-              },
-              {
-                "text": "Es gibt keinen Anlass, dort im Wege der Rechts- oder Fachaufsicht einzugreifen."
-              },
-              {
-                "text": "Wir tun das ganz bewusst auch deshalb nicht, weil es hier nicht um die Frage geht, ob man für die Seenotrettung von Flüchtlingen im Mittelmeer ist, ja oder nein."
-              },
-              {
-                "text": "Es geht hier ausschließlich um die Fragen der Schiffssicherheit."
-              },
-              {
-                "text": "Deswegen ist das Vorgehen korrekt."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Enak Ferlemann",
-            "speakerstatus": "speaker",
-            "text": "Sie wissen, dass dieser Vorgang bei einem deutschen Gericht liegt. Deswegen möchte ich darauf verzichten, die einzelnen Detailfragen, die vom Gericht beurteilt werden müssen, jetzt bundesregierungsseitig zu bewerten.",
-            "sentences": [
-              {
-                "text": "Sie wissen, dass dieser Vorgang bei einem deutschen Gericht liegt."
-              },
-              {
-                "text": "Deswegen möchte ich darauf verzichten, die einzelnen Detailfragen, die vom Gericht beurteilt werden müssen, jetzt bundesregierungsseitig zu bewerten."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Claudia Roth",
-            "speakerstatus": "vice-president",
-            "text": "Vielen Dank. – Dann kommen wir zur Frage 18 des Kollegen Stefan Gelbhaar:",
-            "sentences": [
-              {
-                "text": "Vielen Dank."
-              },
-              {
-                "text": "– Dann kommen wir zur Frage 18 des Kollegen Stefan Gelbhaar:"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Claudia Roth",
-            "speakerstatus": "vice-president",
-            "text": "Herr Ferlemann, bitte.",
-            "sentences": [
-              {
-                "text": "Herr Ferlemann, bitte."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Enak Ferlemann",
-            "speakerstatus": "speaker",
-            "text": "Der Kollege Gelbhaar fragt nach dem wunderbaren Projekt BER, also dem Flughafen Berlin Brandenburg. Ich gebe dazu folgende Antwort: Mit der Verwaltung der Bundesbeteiligung der Flughafen Berlin Brandenburg GmbH und deren Projekt Flughafen BER sind sechs Mitarbeitende des BMVI beschäftigt. Weitere Mitarbeitende aus Abteilungen des BMVI, insbesondere der Zentralabteilung sowie der Abteilungen „Luftfahrt“, „Bundesfernstraßen“, „Eisenbahnen“ und „Grundsatzangelegenheiten“, sind anlassbezogen mit dem Flughafen BER befasst. Für die Abstimmungen einschließlich der Information der Hausleitung gelten insbesondere die Gemeinsame Geschäftsordnung der Bundesministerien, die Ergänzende Geschäftsordnung des BMVI sowie der Geschäftsverteilungsplan des BMVI.",
-            "sentences": [
-              {
-                "text": "Der Kollege Gelbhaar fragt nach dem wunderbaren Projekt BER, also dem Flughafen Berlin Brandenburg."
-              },
-              {
-                "text": "Ich gebe dazu folgende Antwort: Mit der Verwaltung der Bundesbeteiligung der Flughafen Berlin Brandenburg GmbH und deren Projekt Flughafen BER sind sechs Mitarbeitende des BMVI beschäftigt."
-              },
-              {
-                "text": "Weitere Mitarbeitende aus Abteilungen des BMVI, insbesondere der Zentralabteilung sowie der Abteilungen „Luftfahrt“, „Bundesfernstraßen“, „Eisenbahnen“ und „Grundsatzangelegenheiten“, sind anlassbezogen mit dem Flughafen BER befasst."
-              },
-              {
-                "text": "Für die Abstimmungen einschließlich der Information der Hausleitung gelten insbesondere die Gemeinsame Geschäftsordnung der Bundesministerien, die Ergänzende Geschäftsordnung des BMVI sowie der Geschäftsverteilungsplan des BMVI."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Claudia Roth",
-            "speakerstatus": "vice-president",
-            "text": "Vielen Dank, Herr Ferlemann. – Herr Gelbhaar, bitte.",
-            "sentences": [
-              {
-                "text": "Vielen Dank, Herr Ferlemann."
-              },
-              {
-                "text": "– Herr Gelbhaar, bitte."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Stefan Gelbhaar",
-            "speakerstatus": "speaker",
-            "text": "Vielen Dank, Frau Vorsitzende. – Sie haben den zweiten Teil der Frage nicht beantwortet – darauf möchte ich Sie explizit stoßen –, nämlich, wie oft dem Bundesminister von den, wie wir jetzt gehört haben, sechs Mitarbeitern, die im BMVI das Thema bearbeiten, Bericht erstattet wird. Das interessiert mich vor allem vor dem Hintergrund, dass Herr Scheuer mal spontan zum BER gefahren ist. Offensichtlich hat er den Informationen seines eigenen Hauses nicht ganz trauen wollen, sondern das Projekt einmal mit eigenen Augen erblicken wollen. Das finde ich gut, das finde ich richtig.",
-            "sentences": [
-              {
-                "text": "Vielen Dank, Frau Vorsitzende."
-              },
-              {
-                "text": "– Sie haben den zweiten Teil der Frage nicht beantwortet – darauf möchte ich Sie explizit stoßen –, nämlich, wie oft dem Bundesminister von den, wie wir jetzt gehört haben, sechs Mitarbeitern, die im BMVI das Thema bearbeiten, Bericht erstattet wird."
-              },
-              {
-                "text": "Das interessiert mich vor allem vor dem Hintergrund, dass Herr Scheuer mal spontan zum BER gefahren ist."
-              },
-              {
-                "text": "Offensichtlich hat er den Informationen seines eigenen Hauses nicht ganz trauen wollen, sondern das Projekt einmal mit eigenen Augen erblicken wollen."
-              },
-              {
-                "text": "Das finde ich gut, das finde ich richtig."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Stefan Gelbhaar",
-            "speakerstatus": "speaker",
-            "text": "Ich möchte auch gerne noch eine Zusatzfrage einflechten: Wie hat sich denn die Häufigkeit seit dem Ende der Amtszeit von Minister Dobrindt verändert? Gibt es da eine Zunahme, oder gibt es weiterhin ein Laisser-faire, wie wir es im Zusammenhang mit dem BER bei vielen oder allen Beteiligten in den letzten Jahren beobachten konnten?",
-            "sentences": [
-              {
-                "text": "Ich möchte auch gerne noch eine Zusatzfrage einflechten: Wie hat sich denn die Häufigkeit seit dem Ende der Amtszeit von Minister Dobrindt verändert?"
-              },
-              {
-                "text": "Gibt es da eine Zunahme, oder gibt es weiterhin ein Laisser-faire, wie wir es im Zusammenhang mit dem BER bei vielen oder allen Beteiligten in den letzten Jahren beobachten konnten?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Claudia Roth",
-            "speakerstatus": "vice-president",
-            "text": "Herr Ferlemann, bitte.",
-            "sentences": [
-              {
-                "text": "Herr Ferlemann, bitte."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Enak Ferlemann",
-            "speakerstatus": "speaker",
-            "text": "Als Allererstes kann ich den versteckten Vorwurf nicht bestätigen, dass wir den Mitarbeitern des Ministeriums nicht trauen. Das sind hervorragende Kolleginnen und Kollegen, die die Hausleitung exzellent beraten. Deswegen kann ich das so nicht stehen lassen.",
-            "sentences": [
-              {
-                "text": "Als Allererstes kann ich den versteckten Vorwurf nicht bestätigen, dass wir den Mitarbeitern des Ministeriums nicht trauen."
-              },
-              {
-                "text": "Das sind hervorragende Kolleginnen und Kollegen, die die Hausleitung exzellent beraten."
-              },
-              {
-                "text": "Deswegen kann ich das so nicht stehen lassen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Enak Ferlemann",
-            "speakerstatus": "speaker",
-            "text": "Der zweite Punkt. Es ist doch gut, wenn ein Bundesminister durch Inaugenscheinnahme von Projekten vor Ort zu einer persönlichen Einschätzung kommt.",
-            "sentences": [
-              {
-                "text": "Der zweite Punkt."
-              },
-              {
-                "text": "Es ist doch gut, wenn ein Bundesminister durch Inaugenscheinnahme von Projekten vor Ort zu einer persönlichen Einschätzung kommt."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Enak Ferlemann",
-            "speakerstatus": "speaker",
-            "text": "Insofern ist das gar nicht zu beanstanden, sondern zu begrüßen.",
-            "sentences": [
-              {
-                "text": "Insofern ist das gar nicht zu beanstanden, sondern zu begrüßen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Enak Ferlemann",
-            "speakerstatus": "speaker",
-            "text": "Die Häufigkeit der Berichterstattung hat sich nicht verändert. Im Übrigen wird dieses Projekt im Aufsichtsrat von uns sehr engmaschig begleitet. Der Kollege Staatssekretär, der für uns im Aufsichtsrat sitzt, wird auch durch das Controlling engmaschig begleitet und unterstützt; denn es ist unsere Aufgabe, dieses Projekt irgendwann einmal im wahrsten Sinne des Wortes zum Fliegen zu bringen.",
-            "sentences": [
-              {
-                "text": "Die Häufigkeit der Berichterstattung hat sich nicht verändert."
-              },
-              {
-                "text": "Im Übrigen wird dieses Projekt im Aufsichtsrat von uns sehr engmaschig begleitet."
-              },
-              {
-                "text": "Der Kollege Staatssekretär, der für uns im Aufsichtsrat sitzt, wird auch durch das Controlling engmaschig begleitet und unterstützt; denn es ist unsere Aufgabe, dieses Projekt irgendwann einmal im wahrsten Sinne des Wortes zum Fliegen zu bringen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Claudia Roth",
-            "speakerstatus": "vice-president",
-            "text": "Herr Gelbhaar.",
-            "sentences": [
-              {
-                "text": "Herr Gelbhaar."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Stefan Gelbhaar",
-            "speakerstatus": "speaker",
-            "text": "Das BMVI scheint viele solcher schwierigen Projekte zu haben. – Ich hoffe, mein Vorwurf war nicht versteckt. Er sollte ganz klar hier im Raum stehen.",
-            "sentences": [
-              {
-                "text": "Das BMVI scheint viele solcher schwierigen Projekte zu haben."
-              },
-              {
-                "text": "– Ich hoffe, mein Vorwurf war nicht versteckt."
-              },
-              {
-                "text": "Er sollte ganz klar hier im Raum stehen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Stefan Gelbhaar",
-            "speakerstatus": "speaker",
-            "text": "Ich möchte nachfragen – auch weil Sie gerade von Engmaschigkeit gesprochen haben –: Was heißt denn „häufig“? Auf den Tag genau vor sieben Jahren wurde verkündet: Die BER-Eröffnung muss verschoben werden. – Mir ist bis heute nicht klar, welche Rolle das Bundesverkehrsministerium in dem ganzen Projekt spielt bzw. einnehmen will; denn man hat immer das Gefühl, dass Sie sich vor der Verantwortung wegdrücken. Deswegen sehr explizit die Frage: Ist es denn in den sieben Jahren irgendwann einmal dazu gekommen, dass man gesagt hat: „Okay, das ziehen wir jetzt an die Spitze des Ministeriums, um es endlich zu einem positiven Ende zu bringen“, oder sagt das Ministerium: „Ist ja alles dufte, wird schon; lassen wir da mal Berlin und Brandenburg weitermachen“?",
-            "sentences": [
-              {
-                "text": "Ich möchte nachfragen – auch weil Sie gerade von Engmaschigkeit gesprochen haben –: Was heißt denn „häufig“?"
-              },
-              {
-                "text": "Auf den Tag genau vor sieben Jahren wurde verkündet: Die BER-Eröffnung muss verschoben werden."
-              },
-              {
-                "text": "– Mir ist bis heute nicht klar, welche Rolle das Bundesverkehrsministerium in dem ganzen Projekt spielt bzw. einnehmen will; denn man hat immer das Gefühl, dass Sie sich vor der Verantwortung wegdrücken."
-              },
-              {
-                "text": "Deswegen sehr explizit die Frage: Ist es denn in den sieben Jahren irgendwann einmal dazu gekommen, dass man gesagt hat: „Okay, das ziehen wir jetzt an die Spitze des Ministeriums, um es endlich zu einem positiven Ende zu bringen“, oder sagt das Ministerium: „Ist ja alles dufte, wird schon; lassen wir da mal Berlin und Brandenburg weitermachen“?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Claudia Roth",
-            "speakerstatus": "vice-president",
-            "text": "Herr Ferlemann, bitte.",
-            "sentences": [
-              {
-                "text": "Herr Ferlemann, bitte."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Enak Ferlemann",
-            "speakerstatus": "speaker",
-            "text": "Unsere Aufgabe ergibt sich dadurch, dass wir zu 26 Prozent an dem Projekt beteiligt sind. Insofern sind wir Projektbeteiligter und entsprechend in das Projekt involviert. Gesteuert wird es über den Aufsichtsrat, in dem ein Staatssekretär des Bundesverkehrsministeriums seinen Sitz und seine Stimme hat. Er stellt Fragen, entscheidet mit über Aufträge und nimmt Beschlussfassungen vor. Es gibt vorab eine Abstimmung, wie wir uns verhalten. Das wird durch ein Controlling vorbereitet. Es gibt eine Stabsstelle, die das Projekt sehr streng begleitet.",
-            "sentences": [
-              {
-                "text": "Unsere Aufgabe ergibt sich dadurch, dass wir zu 26 Prozent an dem Projekt beteiligt sind."
-              },
-              {
-                "text": "Insofern sind wir Projektbeteiligter und entsprechend in das Projekt involviert."
-              },
-              {
-                "text": "Gesteuert wird es über den Aufsichtsrat, in dem ein Staatssekretär des Bundesverkehrsministeriums seinen Sitz und seine Stimme hat."
-              },
-              {
-                "text": "Er stellt Fragen, entscheidet mit über Aufträge und nimmt Beschlussfassungen vor."
-              },
-              {
-                "text": "Es gibt vorab eine Abstimmung, wie wir uns verhalten."
-              },
-              {
-                "text": "Das wird durch ein Controlling vorbereitet."
-              },
-              {
-                "text": "Es gibt eine Stabsstelle, die das Projekt sehr streng begleitet."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Enak Ferlemann",
-            "speakerstatus": "speaker",
-            "text": "Wir sind unter den Gesellschaftern bisher diejenigen gewesen, die durch kritische Fragen aufgefallen sind. Derzeit gibt es wieder Diskussionen. Sie können sicher sein, dass wir die wichtigen Fragen, die das Projekt betreffen, stellen. Es wird von uns klar angesprochen, was wir an dem Projekt nicht gut finden. Und dass es nicht gut läuft, ist evident.",
-            "sentences": [
-              {
-                "text": "Wir sind unter den Gesellschaftern bisher diejenigen gewesen, die durch kritische Fragen aufgefallen sind."
-              },
-              {
-                "text": "Derzeit gibt es wieder Diskussionen."
-              },
-              {
-                "text": "Sie können sicher sein, dass wir die wichtigen Fragen, die das Projekt betreffen, stellen."
-              },
-              {
-                "text": "Es wird von uns klar angesprochen, was wir an dem Projekt nicht gut finden."
-              },
-              {
-                "text": "Und dass es nicht gut läuft, ist evident."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Claudia Roth",
-            "speakerstatus": "vice-president",
-            "text": "Vielen Dank, Herr Ferlemann und Herr Gelbhaar.",
-            "sentences": [
-              {
-                "text": "Vielen Dank, Herr Ferlemann und Herr Gelbhaar."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Claudia Roth",
-            "speakerstatus": "vice-president",
-            "text": "Ich rufe die Frage 19 des Kollegen Torsten Herbst auf:",
-            "sentences": [
-              {
-                "text": "Ich rufe die Frage 19 des Kollegen Torsten Herbst auf:"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Claudia Roth",
-            "speakerstatus": "vice-president",
-            "text": "Herr Ferlemann, bitte.",
-            "sentences": [
-              {
-                "text": "Herr Ferlemann, bitte."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Enak Ferlemann",
-            "speakerstatus": "speaker",
-            "text": "Auf Ihre Frage gebe ich Ihnen folgende Antwort: Das BAG erstellt ausschließlich länderübergreifende Statistiken. Eine regionale Auswertung der einzelnen Länder findet nicht statt. Für die Kontrollzahlen der Jahre 2015 bis 2018 wird auf folgende Tabelle verwiesen, die Sie von mir auch schriftlich bekommen: kontrollierte Fahrzeuge 2015  181 745, 2016  166 793, 2017  150 613 und 2018  153 793. Davon wurden in Bezug auf Verstöße gegen Lenk- und Ruhezeiten 2015  34 907, 2016  32 951, 2017  27 179 und 2018  32 781 Fälle beanstandet.",
-            "sentences": [
-              {
-                "text": "Auf Ihre Frage gebe ich Ihnen folgende Antwort: Das BAG erstellt ausschließlich länderübergreifende Statistiken."
-              },
-              {
-                "text": "Eine regionale Auswertung der einzelnen Länder findet nicht statt."
-              },
-              {
-                "text": "Für die Kontrollzahlen der Jahre 2015 bis 2018 wird auf folgende Tabelle verwiesen, die Sie von mir auch schriftlich bekommen: kontrollierte Fahrzeuge 2015  181 745, 2016  166 793, 2017  150 613 und 2018  153 793. Davon wurden in Bezug auf Verstöße gegen Lenk- und Ruhezeiten 2015  34 907, 2016  32 951, 2017  27 179 und 2018  32 781 Fälle beanstandet."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Claudia Roth",
-            "speakerstatus": "vice-president",
-            "text": "Vielen Dank. – Herr Herbst, bitte.",
-            "sentences": [
-              {
-                "text": "Vielen Dank."
-              },
-              {
-                "text": "– Herr Herbst, bitte."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Torsten Herbst",
-            "speakerstatus": "speaker",
-            "text": "Vielen Dank. – Vor dem Hintergrund Ihrer Ausführungen, dass die Kontrollen tendenziell zurückgehen, möchte ich Sie fragen, ob eine Erhöhung der Kontrolldichte vorgesehen ist und, wenn nicht, warum nicht bzw. woran es gegebenenfalls scheitert.",
-            "sentences": [
-              {
-                "text": "Vielen Dank."
-              },
-              {
-                "text": "– Vor dem Hintergrund Ihrer Ausführungen, dass die Kontrollen tendenziell zurückgehen, möchte ich Sie fragen, ob eine Erhöhung der Kontrolldichte vorgesehen ist und, wenn nicht, warum nicht bzw. woran es gegebenenfalls scheitert."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Enak Ferlemann",
-            "speakerstatus": "speaker",
-            "text": "Einen Rückgang bei der Kontrolldichte kann ich nicht feststellen. Es wird nach wie vor kontrolliert. Ich würde mir sogar mehr Kontrolle wünschen. Mehr Kontrolle setzt aber mehr Personal voraus, und das haben wir nicht. Das heißt – so beantworte ich Ihre Frage –, wenn wir noch mehr kontrollieren sollen, dann brauchen wir beim BAG mehr Personal. Wir führen übrigens häufig Kontrollen gemeinsam mit den Kollegen des Zolls durch, was sich sehr bewährt hat. Aber wie gesagt: Wenn wir noch mehr kontrollieren sollen, dann brauchen wir mehr Personal.",
-            "sentences": [
-              {
-                "text": "Einen Rückgang bei der Kontrolldichte kann ich nicht feststellen."
-              },
-              {
-                "text": "Es wird nach wie vor kontrolliert."
-              },
-              {
-                "text": "Ich würde mir sogar mehr Kontrolle wünschen."
-              },
-              {
-                "text": "Mehr Kontrolle setzt aber mehr Personal voraus, und das haben wir nicht."
-              },
-              {
-                "text": "Das heißt – so beantworte ich Ihre Frage –, wenn wir noch mehr kontrollieren sollen, dann brauchen wir beim BAG mehr Personal."
-              },
-              {
-                "text": "Wir führen übrigens häufig Kontrollen gemeinsam mit den Kollegen des Zolls durch, was sich sehr bewährt hat."
-              },
-              {
-                "text": "Aber wie gesagt: Wenn wir noch mehr kontrollieren sollen, dann brauchen wir mehr Personal."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Claudia Roth",
-            "speakerstatus": "vice-president",
-            "text": "Herr Herbst, wollen Sie eine Nachfrage stellen?",
-            "sentences": [
-              {
-                "text": "Herr Herbst, wollen Sie eine Nachfrage stellen?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Torsten Herbst",
-            "speakerstatus": "speaker",
-            "text": "Ja, sehr gerne. – Sie hatten gerade das Thema Personal angesprochen. Auf eine Kleine Anfrage unserer Fraktion hatten Sie geantwortet, dass im letzten Jahr – der Stichtag liegt, glaube ich, im Juni – 28 Prozent der Planstellen beim Bundesamt nicht besetzt waren. Wenn das so ist: Was wollen Sie tun, um eine zügige Besetzung der Stellen zu gewährleisten, damit auch tatsächlich Personal vorhanden ist, das die Aufgaben wahrnehmen kann?",
-            "sentences": [
-              {
-                "text": "Ja, sehr gerne."
-              },
-              {
-                "text": "– Sie hatten gerade das Thema Personal angesprochen."
-              },
-              {
-                "text": "Auf eine Kleine Anfrage unserer Fraktion hatten Sie geantwortet, dass im letzten Jahr – der Stichtag liegt, glaube ich, im Juni – 28 Prozent der Planstellen beim Bundesamt nicht besetzt waren."
-              },
-              {
-                "text": "Wenn das so ist: Was wollen Sie tun, um eine zügige Besetzung der Stellen zu gewährleisten, damit auch tatsächlich Personal vorhanden ist, das die Aufgaben wahrnehmen kann?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Enak Ferlemann",
-            "speakerstatus": "speaker",
-            "text": "Das Problem ist, dass es schwer ist, gerade für diesen Dienst Personal zu finden. Wir schreiben die Stellen aus, aber um die Bewerber stehen wir mittlerweile in Konkurrenz mit vielen anderen Dienststellen. Der Dienst ist durchaus schwer. Er ist auch nicht ungefährlich. Er findet zudem häufig zu Zeiten statt, die nicht den normalen Arbeitszeiten entsprechen, zum Teil muss man nachts und auch am Wochenende arbeiten. Von daher ist es nicht einfach, Personal zu rekrutieren. Wir werben aber sehr intensiv und hoffen, dass wir die ausgeschriebenen Stellen besetzen können.",
-            "sentences": [
-              {
-                "text": "Das Problem ist, dass es schwer ist, gerade für diesen Dienst Personal zu finden."
-              },
-              {
-                "text": "Wir schreiben die Stellen aus, aber um die Bewerber stehen wir mittlerweile in Konkurrenz mit vielen anderen Dienststellen."
-              },
-              {
-                "text": "Der Dienst ist durchaus schwer."
-              },
-              {
-                "text": "Er ist auch nicht ungefährlich."
-              },
-              {
-                "text": "Er findet zudem häufig zu Zeiten statt, die nicht den normalen Arbeitszeiten entsprechen, zum Teil muss man nachts und auch am Wochenende arbeiten."
-              },
-              {
-                "text": "Von daher ist es nicht einfach, Personal zu rekrutieren."
-              },
-              {
-                "text": "Wir werben aber sehr intensiv und hoffen, dass wir die ausgeschriebenen Stellen besetzen können."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Claudia Roth",
-            "speakerstatus": "vice-president",
-            "text": "Herr Kraft, bitte.",
-            "sentences": [
-              {
-                "text": "Herr Kraft, bitte."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Rainer Kraft",
-            "speakerstatus": "speaker",
-            "text": "Danke, Frau Präsident. – Herr Staatssekretär, liegen Ihnen respektive Ihrem Ministerium Zahlen vor, wie viele Überschreitungen der Lenk- und Ruhezeiten darauf zurückzuführen sind, dass die Fahrer beim Anfahren eines Parkplatzes keinen Stellplatz für ihren Lkw finden und somit gezwungen sind, den nächsten oder vielleicht übernächsten Parkplatz anzufahren, und dadurch ihre Zeiten überschreiten?",
-            "sentences": [
-              {
-                "text": "Danke, Frau Präsident."
-              },
-              {
-                "text": "– Herr Staatssekretär, liegen Ihnen respektive Ihrem Ministerium Zahlen vor, wie viele Überschreitungen der Lenk- und Ruhezeiten darauf zurückzuführen sind, dass die Fahrer beim Anfahren eines Parkplatzes keinen Stellplatz für ihren Lkw finden und somit gezwungen sind, den nächsten oder vielleicht übernächsten Parkplatz anzufahren, und dadurch ihre Zeiten überschreiten?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Enak Ferlemann",
-            "speakerstatus": "speaker",
-            "text": "Sehr geehrter Herr Kollege, das ist mir nicht bekannt. Ich müsste beim BAG nachfragen, ob es eine Statistik über diese Fälle gibt. Die würde ich Ihnen dann zur Verfügung stellen.",
-            "sentences": [
-              {
-                "text": "Sehr geehrter Herr Kollege, das ist mir nicht bekannt."
-              },
-              {
-                "text": "Ich müsste beim BAG nachfragen, ob es eine Statistik über diese Fälle gibt."
-              },
-              {
-                "text": "Die würde ich Ihnen dann zur Verfügung stellen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Claudia Roth",
-            "speakerstatus": "vice-president",
-            "text": "Vielen Dank. – Eine Nachfrage des Kollegen Jung. Bitte schön.",
-            "sentences": [
-              {
-                "text": "Vielen Dank."
-              },
-              {
-                "text": "– Eine Nachfrage des Kollegen Jung."
-              },
-              {
-                "text": "Bitte schön."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Christian Jung",
-            "speakerstatus": "speaker",
-            "text": "Herr Staatssekretär Ferlemann, in diesem Zusammenhang stellt sich die Frage, ob der Bund mehr Kontrollparkplätze mit Waagen bauen bzw. zur Verfügung stellen könnte. Es gibt zwar einige dementsprechende Projekte, aber eigentlich brauchte man ein flächendeckendes Angebot. Auch das BAG hat Ihrem Haus in den vergangenen Jahren immer wieder Vorschläge dazu unterbreitet. Besteht die Möglichkeit, dass Sie mehr Kontrollparkplätze mit Waagen planen und entsprechende Projekte verwirklichen, und, wenn ja, wann?",
-            "sentences": [
-              {
-                "text": "Herr Staatssekretär Ferlemann, in diesem Zusammenhang stellt sich die Frage, ob der Bund mehr Kontrollparkplätze mit Waagen bauen bzw. zur Verfügung stellen könnte."
-              },
-              {
-                "text": "Es gibt zwar einige dementsprechende Projekte, aber eigentlich brauchte man ein flächendeckendes Angebot."
-              },
-              {
-                "text": "Auch das BAG hat Ihrem Haus in den vergangenen Jahren immer wieder Vorschläge dazu unterbreitet."
-              },
-              {
-                "text": "Besteht die Möglichkeit, dass Sie mehr Kontrollparkplätze mit Waagen planen und entsprechende Projekte verwirklichen, und, wenn ja, wann?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Enak Ferlemann",
-            "speakerstatus": "speaker",
-            "text": "Sehr geehrter Herr Kollege, wir haben generell das Problem, dass wir zu wenige Parkplätze für Lkws in Deutschland haben. Wir müssen deutlich mehr Parkplätze schaffen. Wenn wir das tun, überlegen wir, auf den Parkplätzen Waagen gleich mit einzurichten. Das ist eine kostenaufwendige Aufgabe. Wir prüfen sehr genau, an welchen Stellen diese Kontrollmöglichkeiten geschaffen werden können. Gemeinsam mit den Kollegen von der Polizei, die seitens der Länder zuständig sind, aber auch mit den Kollegen vom Zoll und anderen wird besprochen, an welchen Stellen wir solche Plätze bauen. Ich kann Ihnen schriftlich mitteilen, an welchen Stellen wir einen solchen Ausbau in der nächsten Zeit planen, damit Sie eine korrekte Antwort bekommen. Die einzelnen Stellen kann ich Ihnen nicht aus dem Stegreif nennen. Dass wir mehr Plätze mit Waagen brauchen, um die Maße, das Gewicht usw. prüfen zu können, ist klar. Das ist von uns so vorgesehen.",
-            "sentences": [
-              {
-                "text": "Sehr geehrter Herr Kollege, wir haben generell das Problem, dass wir zu wenige Parkplätze für Lkws in Deutschland haben."
-              },
-              {
-                "text": "Wir müssen deutlich mehr Parkplätze schaffen."
-              },
-              {
-                "text": "Wenn wir das tun, überlegen wir, auf den Parkplätzen Waagen gleich mit einzurichten."
-              },
-              {
-                "text": "Das ist eine kostenaufwendige Aufgabe."
-              },
-              {
-                "text": "Wir prüfen sehr genau, an welchen Stellen diese Kontrollmöglichkeiten geschaffen werden können."
-              },
-              {
-                "text": "Gemeinsam mit den Kollegen von der Polizei, die seitens der Länder zuständig sind, aber auch mit den Kollegen vom Zoll und anderen wird besprochen, an welchen Stellen wir solche Plätze bauen."
-              },
-              {
-                "text": "Ich kann Ihnen schriftlich mitteilen, an welchen Stellen wir einen solchen Ausbau in der nächsten Zeit planen, damit Sie eine korrekte Antwort bekommen."
-              },
-              {
-                "text": "Die einzelnen Stellen kann ich Ihnen nicht aus dem Stegreif nennen."
-              },
-              {
-                "text": "Dass wir mehr Plätze mit Waagen brauchen, um die Maße, das Gewicht usw. prüfen zu können, ist klar."
-              },
-              {
-                "text": "Das ist von uns so vorgesehen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Claudia Roth",
-            "speakerstatus": "vice-president",
-            "text": "Vielen Dank. – Jetzt kommen wir zur Frage 20 der Kollegin Steffi Lemke:",
-            "sentences": [
-              {
-                "text": "Vielen Dank."
-              },
-              {
-                "text": "– Jetzt kommen wir zur Frage 20 der Kollegin Steffi Lemke:"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Claudia Roth",
-            "speakerstatus": "vice-president",
-            "text": "Herr Ferlemann, bitte.",
-            "sentences": [
-              {
-                "text": "Herr Ferlemann, bitte."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Enak Ferlemann",
-            "speakerstatus": "speaker",
-            "text": "Ich beantworte die Frage wie folgt: Die Kosten für das Neubauteilstück der A 14 von Osterburg bis zur Landesgrenze Sachsen-Anhalt/Brandenburg, Verkehrseinheit 2.2 und 3.1/3.2a inklusive Teil Elbbrücke, werden derzeit mit rund 311 Millionen Euro berechnet. In Vorbereitung der Bundesverkehrswege- und Bedarfsplanung 2003 bzw. 2004 wurden Alternativen in der Linienführung der Autobahn und auch der bestandsnahe Ausbau der B 189 untersucht. Ergebnis war, dass nur ein durchgängiger Autobahnneubau das maßgebliche Planungsziel, nämlich die Verbesserung der Erreichbarkeit, erfüllt.",
-            "sentences": [
-              {
-                "text": "Ich beantworte die Frage wie folgt: Die Kosten für das Neubauteilstück der A 14 von Osterburg bis zur Landesgrenze Sachsen-Anhalt/Brandenburg, Verkehrseinheit 2.2 und 3.1/3.2a inklusive Teil Elbbrücke, werden derzeit mit rund 311 Millionen Euro berechnet."
-              },
-              {
-                "text": "In Vorbereitung der Bundesverkehrswege- und Bedarfsplanung 2003 bzw. 2004 wurden Alternativen in der Linienführung der Autobahn und auch der bestandsnahe Ausbau der B 189 untersucht."
-              },
-              {
-                "text": "Ergebnis war, dass nur ein durchgängiger Autobahnneubau das maßgebliche Planungsziel, nämlich die Verbesserung der Erreichbarkeit, erfüllt."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Claudia Roth",
-            "speakerstatus": "vice-president",
-            "text": "Vielen Dank. – Frau Lemke.",
-            "sentences": [
-              {
-                "text": "Vielen Dank."
-              },
-              {
-                "text": "– Frau Lemke."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Steffi Lemke",
-            "speakerstatus": "speaker",
-            "text": "Vielen Dank für die Antwort, Herr Staatssekretär. Der Kern meiner Frage war allerdings, ob die alternativen Kosten geprüft worden sind. Es ging also nicht um die Trassenführung oder die Machbarkeit. Das Verkehrsaufkommen ist für einen Autobahnneubau dort relativ gering. Es sind, glaube ich, 17 000 Fahrzeuge pro Tag. Die Frage war, ob die alternativen Kosten geprüft worden sind.",
-            "sentences": [
-              {
-                "text": "Vielen Dank für die Antwort, Herr Staatssekretär."
-              },
-              {
-                "text": "Der Kern meiner Frage war allerdings, ob die alternativen Kosten geprüft worden sind."
-              },
-              {
-                "text": "Es ging also nicht um die Trassenführung oder die Machbarkeit."
-              },
-              {
-                "text": "Das Verkehrsaufkommen ist für einen Autobahnneubau dort relativ gering."
-              },
-              {
-                "text": "Es sind, glaube ich, 17 000 Fahrzeuge pro Tag."
-              },
-              {
-                "text": "Die Frage war, ob die alternativen Kosten geprüft worden sind."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Claudia Roth",
-            "speakerstatus": "vice-president",
-            "text": "Herr Ferlemann.",
-            "sentences": [
-              {
-                "text": "Herr Ferlemann."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Enak Ferlemann",
-            "speakerstatus": "speaker",
-            "text": "Wenn wir einen Projektvergleich mit mehreren Varianten durchführen, gibt es immer auch eine Kostenabschätzung, natürlich keine genaue Auskalkulation, weil das in einer sehr frühen Planungsphase stattfindet. Kern der Bundesverkehrswegeplanung ist neben der Kosten-Nutzen-Analyse vor allem, festzustellen, welches Projekt den verkehrlichen Zweck am sinnvollsten und am besten erfüllt, und zwar unter Berücksichtigung städtebaulicher, landschaftsökologischer, wasserbaulicher, archäologischer und anderer Gesichtspunkte. Dabei hat sich herausgestellt, dass dem Autobahnbau eindeutig ein Vorteil innewohnt. Deswegen greifen wir nicht auf einen Ausbau der B 189 zurück. Von daher hat sich eine weitere Kostenschätzung erübrigt; denn wir haben uns für dieses Projekt entschieden.",
-            "sentences": [
-              {
-                "text": "Wenn wir einen Projektvergleich mit mehreren Varianten durchführen, gibt es immer auch eine Kostenabschätzung, natürlich keine genaue Auskalkulation, weil das in einer sehr frühen Planungsphase stattfindet."
-              },
-              {
-                "text": "Kern der Bundesverkehrswegeplanung ist neben der Kosten-Nutzen-Analyse vor allem, festzustellen, welches Projekt den verkehrlichen Zweck am sinnvollsten und am besten erfüllt, und zwar unter Berücksichtigung städtebaulicher, landschaftsökologischer, wasserbaulicher, archäologischer und anderer Gesichtspunkte."
-              },
-              {
-                "text": "Dabei hat sich herausgestellt, dass dem Autobahnbau eindeutig ein Vorteil innewohnt."
-              },
-              {
-                "text": "Deswegen greifen wir nicht auf einen Ausbau der B 189 zurück."
-              },
-              {
-                "text": "Von daher hat sich eine weitere Kostenschätzung erübrigt; denn wir haben uns für dieses Projekt entschieden."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Claudia Roth",
-            "speakerstatus": "vice-president",
-            "text": "Frau Lemke, eine Zusatzfrage?",
-            "sentences": [
-              {
-                "text": "Frau Lemke, eine Zusatzfrage?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Steffi Lemke",
-            "speakerstatus": "speaker",
-            "text": "Ja. – Wir drehen uns ein bisschen um den Kern der Frage herum. Das heißt, Sie haben nicht geprüft, wie viele Steuermittel hätten eingespart werden können, wenn man alternativ die B 189 ausgebaut hätte und dafür möglicherweise leichte Abstriche bei der Zielerreichung in Kauf genommen hätte. Darum dreht sich ja der Streit: Wie sinnvoll ist der Ausbau der A 14? Wäre ein Ausbau der B 189 nicht sinnvoller gewesen?",
-            "sentences": [
-              {
-                "text": "Ja."
-              },
-              {
-                "text": "– Wir drehen uns ein bisschen um den Kern der Frage herum."
-              },
-              {
-                "text": "Das heißt, Sie haben nicht geprüft, wie viele Steuermittel hätten eingespart werden können, wenn man alternativ die B 189 ausgebaut hätte und dafür möglicherweise leichte Abstriche bei der Zielerreichung in Kauf genommen hätte."
-              },
-              {
-                "text": "Darum dreht sich ja der Streit: Wie sinnvoll ist der Ausbau der A 14?"
-              },
-              {
-                "text": "Wäre ein Ausbau der B 189 nicht sinnvoller gewesen?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Steffi Lemke",
-            "speakerstatus": "speaker",
-            "text": "Sie sprachen, wenn ich Sie richtig verstanden habe, von 311 Millionen Euro. Ich würde gerne wissen, was der Ausbau der B 189 – mit leichten Abstrichen bei der Zielerreichung – im Vergleich dazu gekostet hätte.",
-            "sentences": [
-              {
-                "text": "Sie sprachen, wenn ich Sie richtig verstanden habe, von 311 Millionen Euro."
-              },
-              {
-                "text": "Ich würde gerne wissen, was der Ausbau der B 189 – mit leichten Abstrichen bei der Zielerreichung – im Vergleich dazu gekostet hätte."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Enak Ferlemann",
-            "speakerstatus": "speaker",
-            "text": "Ich kann nachfragen, ob wir den Kostenvergleich noch haben; der liegt ja schon einige Zeit zurück. Ob die Zahlen im Vergleich zu heutigen Zahlen aussagekräftig sind – sie stammen ja aus 2003, 2004 –, ist fraglich. Unabhängig davon genügt das Projekt B 189 den verkehrlichen Zielen absolut nicht. Das heißt, wenn man das verkehrliche Ziel der besseren Erreichbarkeit dieses Raumes erfüllen will, ist ein Autobahnneubau notwendig. Deswegen hat man sich damals dafür entschieden. Daher ist er in den Bundesverkehrswegeplan eingestellt worden.",
-            "sentences": [
-              {
-                "text": "Ich kann nachfragen, ob wir den Kostenvergleich noch haben; der liegt ja schon einige Zeit zurück."
-              },
-              {
-                "text": "Ob die Zahlen im Vergleich zu heutigen Zahlen aussagekräftig sind – sie stammen ja aus 2003, 2004 –, ist fraglich."
-              },
-              {
-                "text": "Unabhängig davon genügt das Projekt B 189 den verkehrlichen Zielen absolut nicht."
-              },
-              {
-                "text": "Das heißt, wenn man das verkehrliche Ziel der besseren Erreichbarkeit dieses Raumes erfüllen will, ist ein Autobahnneubau notwendig."
-              },
-              {
-                "text": "Deswegen hat man sich damals dafür entschieden."
-              },
-              {
-                "text": "Daher ist er in den Bundesverkehrswegeplan eingestellt worden."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Claudia Roth",
-            "speakerstatus": "vice-president",
-            "text": "Vielen Dank, Herr Ferlemann. – Wir machen weiter mit Frage 21 von Steffi Lemke:",
-            "sentences": [
-              {
-                "text": "Vielen Dank, Herr Ferlemann."
-              },
-              {
-                "text": "– Wir machen weiter mit Frage 21 von Steffi Lemke:"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Enak Ferlemann",
-            "speakerstatus": "speaker",
-            "text": "Die vom Bund zu tragenden Kosten für den Teil Elbebrücke – das ist die Vorlandbrücke und die Strombrücke – im Zuge der A 14 betragen rund 70 Millionen Euro. Die anteilige Finanzierung von A-14-Abschnitten mit EU-Mitteln ist aufgrund des abgelaufenen Programms des Europäischen Fonds für regionale Entwicklung nicht mehr möglich.",
-            "sentences": [
-              {
-                "text": "Die vom Bund zu tragenden Kosten für den Teil Elbebrücke – das ist die Vorlandbrücke und die Strombrücke – im Zuge der A 14 betragen rund 70 Millionen Euro."
-              },
-              {
-                "text": "Die anteilige Finanzierung von A-14-Abschnitten mit EU-Mitteln ist aufgrund des abgelaufenen Programms des Europäischen Fonds für regionale Entwicklung nicht mehr möglich."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Claudia Roth",
-            "speakerstatus": "vice-president",
-            "text": "Frau Lemke.",
-            "sentences": [
-              {
-                "text": "Frau Lemke."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Steffi Lemke",
-            "speakerstatus": "speaker",
-            "text": "Interpretiere ich Ihre Antwort so, dass sämtliche verbleibenden Kosten dann über den Bund zu tragen sind, und, wenn ja, wie viel sind das noch?",
-            "sentences": [
-              {
-                "text": "Interpretiere ich Ihre Antwort so, dass sämtliche verbleibenden Kosten dann über den Bund zu tragen sind, und, wenn ja, wie viel sind das noch?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Enak Ferlemann",
-            "speakerstatus": "speaker",
-            "text": "Sie interpretieren mich richtig. Welche Kosten das sind? Wir rechnen bei dem Gesamtvorhaben mit rund 1,565 Milliarden Euro. Davon sind 273 Millionen Euro bereits unter Verkehr. Sie müssen noch 61 Millionen Euro addieren; das ist der Abschnitt Wolmirstedt. Alle anderen Abschnitte sind entweder im Bau oder in der Planfeststellung und müssen daher noch durch den Bund finanziert werden.",
-            "sentences": [
-              {
-                "text": "Sie interpretieren mich richtig."
-              },
-              {
-                "text": "Welche Kosten das sind?"
-              },
-              {
-                "text": "Wir rechnen bei dem Gesamtvorhaben mit rund 1,565 Milliarden Euro."
-              },
-              {
-                "text": "Davon sind 273 Millionen Euro bereits unter Verkehr."
-              },
-              {
-                "text": "Sie müssen noch 61 Millionen Euro addieren; das ist der Abschnitt Wolmirstedt."
-              },
-              {
-                "text": "Alle anderen Abschnitte sind entweder im Bau oder in der Planfeststellung und müssen daher noch durch den Bund finanziert werden."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Claudia Roth",
-            "speakerstatus": "vice-president",
-            "text": "Frau Lemke noch einmal? – Gut.",
-            "sentences": [
-              {
-                "text": "Frau Lemke noch einmal?"
-              },
-              {
-                "text": "– Gut."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Steffi Lemke",
-            "speakerstatus": "speaker",
-            "text": "Also die 70 Millionen Euro für die Elbquerung noch komplett durch den Bund?",
-            "sentences": [
-              {
-                "text": "Also die 70 Millionen Euro für die Elbquerung noch komplett durch den Bund?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Enak Ferlemann",
-            "speakerstatus": "speaker",
-            "text": "Auch das müssten wir als Bund komplett bezahlen, ja.",
-            "sentences": [
-              {
-                "text": "Auch das müssten wir als Bund komplett bezahlen, ja."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Claudia Roth",
-            "speakerstatus": "vice-president",
-            "text": "Vielen Dank. – Dann kommen wir zur letzten Frage, die Herr Ferlemann bitte beantwortet, und zwar zur Frage 22 von Oliver Luksic:",
-            "sentences": [
-              {
-                "text": "Vielen Dank."
-              },
-              {
-                "text": "– Dann kommen wir zur letzten Frage, die Herr Ferlemann bitte beantwortet, und zwar zur Frage 22 von Oliver Luksic:"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Enak Ferlemann",
-            "speakerstatus": "speaker",
-            "text": "Dazu gebe ich folgende Antwort: Zur Schließung der Lücken im Autobahnnetz sind im Norden von Saarbrücken im geltenden Bedarfsplan für die Bundesfernstraßen 216 die Projekte „A 1, Neubau bis zur A 623“, und „A 623, Erweiterung bis zur A 620“ enthalten. Beide Maßnahmen sind in der Dringlichkeit WB*, also Weiterer Bedarf mit Planungsrecht, eingestuft. Mit der Verwirklichung der Projekte besteht die Chance, die Leistungsfähigkeit und Verkehrssicherheit der Verkehre innerhalb Saarbrückens erheblich zu verbessern und auch den weiträumigen grenzüberschreitenden Verkehr über das Verkehrsnetz Saarbrücken zu stärken.",
-            "sentences": [
-              {
-                "text": "Dazu gebe ich folgende Antwort: Zur Schließung der Lücken im Autobahnnetz sind im Norden von Saarbrücken im geltenden Bedarfsplan für die Bundesfernstraßen 216 die Projekte „A 1, Neubau bis zur A 623“, und „A 623, Erweiterung bis zur A 620“ enthalten."
-              },
-              {
-                "text": "Beide Maßnahmen sind in der Dringlichkeit WB*, also Weiterer Bedarf mit Planungsrecht, eingestuft."
-              },
-              {
-                "text": "Mit der Verwirklichung der Projekte besteht die Chance, die Leistungsfähigkeit und Verkehrssicherheit der Verkehre innerhalb Saarbrückens erheblich zu verbessern und auch den weiträumigen grenzüberschreitenden Verkehr über das Verkehrsnetz Saarbrücken zu stärken."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Enak Ferlemann",
-            "speakerstatus": "speaker",
-            "text": "Für Maßnahmen des Weiteren Bedarfs mit Planungsrecht können die Auftragsverwaltungen der Länder die Planung aufnehmen und die Vorhaben bis zur Baureife prüfen. Die Planung und Umsetzung der Maßnahmen obliegt den zuständigen Landesverwaltungen.",
-            "sentences": [
-              {
-                "text": "Für Maßnahmen des Weiteren Bedarfs mit Planungsrecht können die Auftragsverwaltungen der Länder die Planung aufnehmen und die Vorhaben bis zur Baureife prüfen."
-              },
-              {
-                "text": "Die Planung und Umsetzung der Maßnahmen obliegt den zuständigen Landesverwaltungen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Claudia Roth",
-            "speakerstatus": "vice-president",
-            "text": "Herr Kollege Luksic bitte.",
-            "sentences": [
-              {
-                "text": "Herr Kollege Luksic bitte."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Oliver Luksic",
-            "speakerstatus": "speaker",
-            "text": "Vielen Dank, Frau Präsidentin. – Sehr geehrter Herr Staatssekretär Ferlemann, herzlichen Dank für die Antwort. Dieses Projekt ist das wichtigste Verkehrsprojekt des Saarlandes im Bundesverkehrswegeplan 2030. Sie haben zu Recht beschrieben, dass es einen verkehrlichen Mehrwert bietet. Vor allem die Stadt Saarbrücken soll vom Lkw- und Pkw-Verkehr entlastet werden. Die Fahrzeiten verkürzen sich. Deswegen hat die Landesregierung dieses Projekt angemeldet.",
-            "sentences": [
-              {
-                "text": "Vielen Dank, Frau Präsidentin."
-              },
-              {
-                "text": "– Sehr geehrter Herr Staatssekretär Ferlemann, herzlichen Dank für die Antwort."
-              },
-              {
-                "text": "Dieses Projekt ist das wichtigste Verkehrsprojekt des Saarlandes im Bundesverkehrswegeplan 2030. Sie haben zu Recht beschrieben, dass es einen verkehrlichen Mehrwert bietet."
-              },
-              {
-                "text": "Vor allem die Stadt Saarbrücken soll vom Lkw- und Pkw-Verkehr entlastet werden."
-              },
-              {
-                "text": "Die Fahrzeiten verkürzen sich."
-              },
-              {
-                "text": "Deswegen hat die Landesregierung dieses Projekt angemeldet."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Oliver Luksic",
-            "speakerstatus": "speaker",
-            "text": "Es gibt allerdings erhebliche Kritik der Stadt Saarbrücken, die meinen Informationen nach auf der Bremse steht. Es wird vor allem bestritten, dass das Projekt einen verkehrlichen Mehrwert hat. Den gibt es nach meiner Lesart; das Kosten-Nutzen-Verhältnis ist positiv. Zum Zweiten wird bestritten, dass, wenn das Land dies planen würde, der Bund dies bezahlt.",
-            "sentences": [
-              {
-                "text": "Es gibt allerdings erhebliche Kritik der Stadt Saarbrücken, die meinen Informationen nach auf der Bremse steht."
-              },
-              {
-                "text": "Es wird vor allem bestritten, dass das Projekt einen verkehrlichen Mehrwert hat."
-              },
-              {
-                "text": "Den gibt es nach meiner Lesart; das Kosten-Nutzen-Verhältnis ist positiv."
-              },
-              {
-                "text": "Zum Zweiten wird bestritten, dass, wenn das Land dies planen würde, der Bund dies bezahlt."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Oliver Luksic",
-            "speakerstatus": "speaker",
-            "text": "Teilen Sie meine Auffassung, dass das Projekt zum Ersten einen großen verkehrlichen Mehrwert bietet und dass zum Zweiten, wenn das Land die Planung vorantreibt und abschließt, der Bund das Projekt auch finanzieren wird?",
-            "sentences": [
-              {
-                "text": "Teilen Sie meine Auffassung, dass das Projekt zum Ersten einen großen verkehrlichen Mehrwert bietet und dass zum Zweiten, wenn das Land die Planung vorantreibt und abschließt, der Bund das Projekt auch finanzieren wird?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Enak Ferlemann",
-            "speakerstatus": "speaker",
-            "text": "Zum Ersten: Das Projekt ist außerordentlich sinnvoll. Verkehrlich brächte es eine Riesenentlastung von Saarbrücken, vor allem vom Durchgangsverkehr. Es würde auch eine echte Lücke im deutschen Autobahnnetz schließen. Von daher legen wir durchaus großen Wert auf das Projekt.",
-            "sentences": [
-              {
-                "text": "Zum Ersten: Das Projekt ist außerordentlich sinnvoll."
-              },
-              {
-                "text": "Verkehrlich brächte es eine Riesenentlastung von Saarbrücken, vor allem vom Durchgangsverkehr."
-              },
-              {
-                "text": "Es würde auch eine echte Lücke im deutschen Autobahnnetz schließen."
-              },
-              {
-                "text": "Von daher legen wir durchaus großen Wert auf das Projekt."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Enak Ferlemann",
-            "speakerstatus": "speaker",
-            "text": "Man muss allerdings sagen: Dieses Projekt läuft durch Waldflächen und ein hügeliges Relief, das Sie ja gut kennen, zum Teil durch ein FFH-Gebiet und ein Vogelschutzgebiet, es ist also planerisch schwierig. Deswegen hat man es bei der Bundesverkehrswegeplanung in diese Kategorie eingeordnet: weil man davon ausgeht, dass man vor einem längere Zeit erfordernden Planungsprozess steht.",
-            "sentences": [
-              {
-                "text": "Man muss allerdings sagen: Dieses Projekt läuft durch Waldflächen und ein hügeliges Relief, das Sie ja gut kennen, zum Teil durch ein FFH-Gebiet und ein Vogelschutzgebiet, es ist also planerisch schwierig."
-              },
-              {
-                "text": "Deswegen hat man es bei der Bundesverkehrswegeplanung in diese Kategorie eingeordnet: weil man davon ausgeht, dass man vor einem längere Zeit erfordernden Planungsprozess steht."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Enak Ferlemann",
-            "speakerstatus": "speaker",
-            "text": "Die Bundesregierung gibt den Ländern mit der Kategorie „Weiterer Bedarf mit Planungsrecht“ die Möglichkeit, dieses Projekt durchzuplanen, wenn dann die Planung abgeschlossen ist, uns das auch vorzulegen; dann werden wir entscheiden, ob wir dieses Projekt direkt finanzieren können. Es hängt mit dem Gesamtfinanzierungsbedarf aus dem Vordringlichen Bedarf zusammen, ob wir die Möglichkeit haben, dieses Projekt, ich sage einmal, vorzuziehen; so wäre es dann ja.",
-            "sentences": [
-              {
-                "text": "Die Bundesregierung gibt den Ländern mit der Kategorie „Weiterer Bedarf mit Planungsrecht“ die Möglichkeit, dieses Projekt durchzuplanen, wenn dann die Planung abgeschlossen ist, uns das auch vorzulegen; dann werden wir entscheiden, ob wir dieses Projekt direkt finanzieren können."
-              },
-              {
-                "text": "Es hängt mit dem Gesamtfinanzierungsbedarf aus dem Vordringlichen Bedarf zusammen, ob wir die Möglichkeit haben, dieses Projekt, ich sage einmal, vorzuziehen; so wäre es dann ja."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Enak Ferlemann",
-            "speakerstatus": "speaker",
-            "text": "Ich würde bei diesem Projekt immer bejahen, dass wir es tun würden. Allerdings gehen wir davon aus, dass wir noch vor einem schwierigen Planungsprozess stehen.",
-            "sentences": [
-              {
-                "text": "Ich würde bei diesem Projekt immer bejahen, dass wir es tun würden."
-              },
-              {
-                "text": "Allerdings gehen wir davon aus, dass wir noch vor einem schwierigen Planungsprozess stehen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Claudia Roth",
-            "speakerstatus": "vice-president",
-            "text": "Herr Luksic? – Danke schön. – Danke schön, Herr Ferlemann.",
-            "sentences": [
-              {
-                "text": "Herr Luksic?"
-              },
-              {
-                "text": "– Danke schön."
-              },
-              {
-                "text": "– Danke schön, Herr Ferlemann."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Claudia Roth",
-            "speakerstatus": "vice-president",
-            "text": "Dann rufe ich den Geschäftsbereich des Bundesministeriums für Umwelt, Naturschutz und Reaktorsicherheit auf. Ich begrüße die Parlamentarische Staatssekretärin Rita Schwarzelühr-Sutter. Guten Tag, Frau Kollegin!",
-            "sentences": [
-              {
-                "text": "Dann rufe ich den Geschäftsbereich des Bundesministeriums für Umwelt, Naturschutz und Reaktorsicherheit auf."
-              },
-              {
-                "text": "Ich begrüße die Parlamentarische Staatssekretärin Rita Schwarzelühr-Sutter."
-              },
-              {
-                "text": "Guten Tag, Frau Kollegin!"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Claudia Roth",
-            "speakerstatus": "vice-president",
-            "text": "Herr Luksic kann gleich stehen bleiben; jetzt geht es um die Frage 23 von Herrn Luksic:",
-            "sentences": [
-              {
-                "text": "Herr Luksic kann gleich stehen bleiben; jetzt geht es um die Frage 23 von Herrn Luksic:"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Rita Schwarzelühr-Sutter",
-            "speakerstatus": "speaker",
-            "text": "Vielen Dank, Frau Präsidentin. – Lieber Kollege Luksic, ich beantworte Ihre Frage wie folgt: Die Bundesregierung sieht im Hinblick auf die CO 2 -Bilanz unverändert Vorteile bei batteriebetriebenen Elektrofahrzeugen. Dies wird durch Untersuchungen anderer Institutionen, beispielsweise eine Anfang des Jahres 2019 veröffentlichte Studie der Agora Verkehrswende, gestützt. Demnach liegt der gesamte CO 2 -Ausstoß eines batterieelektrischen Fahrzeuges – unter Einbeziehung der Produktion und selbst unter Beachtung des Strommixes aus dem Jahre 2016 auf die Nutzungsdauer eines Fahrzeugs gerechnet – deutlich unter dem von Diesel- oder Benzin-Pkw.",
-            "sentences": [
-              {
-                "text": "Vielen Dank, Frau Präsidentin."
-              },
-              {
-                "text": "– Lieber Kollege Luksic, ich beantworte Ihre Frage wie folgt: Die Bundesregierung sieht im Hinblick auf die CO 2 -Bilanz unverändert Vorteile bei batteriebetriebenen Elektrofahrzeugen."
-              },
-              {
-                "text": "Dies wird durch Untersuchungen anderer Institutionen, beispielsweise eine Anfang des Jahres 2019 veröffentlichte Studie der Agora Verkehrswende, gestützt."
-              },
-              {
-                "text": "Demnach liegt der gesamte CO 2 -Ausstoß eines batterieelektrischen Fahrzeuges – unter Einbeziehung der Produktion und selbst unter Beachtung des Strommixes aus dem Jahre 2016 auf die Nutzungsdauer eines Fahrzeugs gerechnet – deutlich unter dem von Diesel- oder Benzin-Pkw."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Rita Schwarzelühr-Sutter",
-            "speakerstatus": "speaker",
-            "text": "Mit zunehmendem Anteil von Strom aus erneuerbaren Energiequellen am Strommix sinkt der gesamte CO 2 -Ausstoß weiter und nimmt der Vorteil zu. Zusätzlich können durch die Verwendung von Strom aus erneuerbaren Energiequellen bei der Fahrzeug- und insbesondere bei der Batterieproduktion weitere Bilanzvorteile erzielt werden. Laut Medienberichten plant beispielsweise VW, bei der Produktion seines Elektrofahrzeuges Entsprechendes umzusetzen.",
-            "sentences": [
-              {
-                "text": "Mit zunehmendem Anteil von Strom aus erneuerbaren Energiequellen am Strommix sinkt der gesamte CO 2 -Ausstoß weiter und nimmt der Vorteil zu."
-              },
-              {
-                "text": "Zusätzlich können durch die Verwendung von Strom aus erneuerbaren Energiequellen bei der Fahrzeug- und insbesondere bei der Batterieproduktion weitere Bilanzvorteile erzielt werden."
-              },
-              {
-                "text": "Laut Medienberichten plant beispielsweise VW, bei der Produktion seines Elektrofahrzeuges Entsprechendes umzusetzen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Claudia Roth",
-            "speakerstatus": "vice-president",
-            "text": "Vielen Dank. – Herr Luksic.",
-            "sentences": [
-              {
-                "text": "Vielen Dank."
-              },
-              {
-                "text": "– Herr Luksic."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Oliver Luksic",
-            "speakerstatus": "speaker",
-            "text": "Vielen Dank, Frau Präsidentin. – Frau Staatssekretärin, herzlichen Dank für die Antwort. Ich glaube, die große Stärke der Studie von Sinn und anderen Ökonomen liegt darin, dass es eine Well-to-Wheel-Betrachtung, also eine Gesamtbilanzbetrachtung, gibt. In den Nachberechnungen wird ja auch darauf verwiesen, dass bei den anderen Berechnungen oft der europäische Strommix und nicht der deutsche Strommix relevant ist. Wenn man beispielsweise die Gesamtbilanz der Herstellungsprozesse von Batterien betrachtet, dann sieht man, dass der Vorteil sehr gering ist, und die Wissenschaft streitet sich jetzt darüber, wann sich die Kurven kreuzen. Auf jeden Fall hat ja auch VW einräumen müssen, dass die batteriebetriebene Elektromobilität erst ab einer gewissen Fahrleistung CO 2 -Vorteile hat.",
-            "sentences": [
-              {
-                "text": "Vielen Dank, Frau Präsidentin."
-              },
-              {
-                "text": "– Frau Staatssekretärin, herzlichen Dank für die Antwort."
-              },
-              {
-                "text": "Ich glaube, die große Stärke der Studie von Sinn und anderen Ökonomen liegt darin, dass es eine Well-to-Wheel-Betrachtung, also eine Gesamtbilanzbetrachtung, gibt."
-              },
-              {
-                "text": "In den Nachberechnungen wird ja auch darauf verwiesen, dass bei den anderen Berechnungen oft der europäische Strommix und nicht der deutsche Strommix relevant ist."
-              },
-              {
-                "text": "Wenn man beispielsweise die Gesamtbilanz der Herstellungsprozesse von Batterien betrachtet, dann sieht man, dass der Vorteil sehr gering ist, und die Wissenschaft streitet sich jetzt darüber, wann sich die Kurven kreuzen."
-              },
-              {
-                "text": "Auf jeden Fall hat ja auch VW einräumen müssen, dass die batteriebetriebene Elektromobilität erst ab einer gewissen Fahrleistung CO 2 -Vorteile hat."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Oliver Luksic",
-            "speakerstatus": "speaker",
-            "text": "Herr Habeck hat auch die sozialen Aspekte angesprochen. Allerdings hat er die Ursachen verwechselt. Faktum ist, dass die Einstiegsmobilität teurer wird. Kleine Fahrzeuge – der Ford Ka, der Opel Adam und andere – werden wegen dieser EU-Regulierung vom Markt verschwinden. Das führt dazu, dass Mobilität verteuert wird. Meine Frage ist: Was sagt das Bundesumweltministerium dazu?",
-            "sentences": [
-              {
-                "text": "Herr Habeck hat auch die sozialen Aspekte angesprochen."
-              },
-              {
-                "text": "Allerdings hat er die Ursachen verwechselt."
-              },
-              {
-                "text": "Faktum ist, dass die Einstiegsmobilität teurer wird."
-              },
-              {
-                "text": "Kleine Fahrzeuge – der Ford Ka, der Opel Adam und andere – werden wegen dieser EU-Regulierung vom Markt verschwinden."
-              },
-              {
-                "text": "Das führt dazu, dass Mobilität verteuert wird."
-              },
-              {
-                "text": "Meine Frage ist: Was sagt das Bundesumweltministerium dazu?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Rita Schwarzelühr-Sutter",
-            "speakerstatus": "speaker",
-            "text": "Die Bundesregierung wird zu den Äußerungen von Herrn Habeck keine Stellung beziehen.",
-            "sentences": [
-              {
-                "text": "Die Bundesregierung wird zu den Äußerungen von Herrn Habeck keine Stellung beziehen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Claudia Roth",
-            "speakerstatus": "vice-president",
-            "text": "Herr Luksic, haben Sie eine weitere Frage?",
-            "sentences": [
-              {
-                "text": "Herr Luksic, haben Sie eine weitere Frage?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Oliver Luksic",
-            "speakerstatus": "speaker",
-            "text": "Ja. – Nicht nur Herr Habeck, sondern auch alle Autohersteller – VW, Ford und andere – sagen, dass sich die Mobilität verteuern wird. Das ist ja auch Thema in der Arbeitsgruppe 1 des Verkehrsministeriums.",
-            "sentences": [
-              {
-                "text": "Ja."
-              },
-              {
-                "text": "– Nicht nur Herr Habeck, sondern auch alle Autohersteller – VW, Ford und andere – sagen, dass sich die Mobilität verteuern wird."
-              },
-              {
-                "text": "Das ist ja auch Thema in der Arbeitsgruppe 1 des Verkehrsministeriums."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Oliver Luksic",
-            "speakerstatus": "speaker",
-            "text": "Wenn Sie darauf nicht antworten wollen, möchte ich einen anderen Aspekt ansprechen, der damit zusammenhängt, und zwar das Problem der Verteilnetze. Es ist nicht nur so, dass der Strombedarf durch die Elektrifizierung insgesamt steigt – das möchte ich jetzt ausklammern; auch das sehe ich aber problematisch –, sondern meine Rückmeldung von ziemlich allen Stadtwerken und auch vom VKU ist, dass wir das Problem der sogenannten Zahnarztsackgasse haben werden: In Wohngebieten, in denen sich viele ökonomisch eher bessergestellte Menschen elektrobetriebene Fahrzeuge kaufen, die sie gleichzeitig laden wollen, werden die lokalen Verteilnetze an Grenzen kommen. Wenn es zum Hochlauf kommt, werden wir in Deutschland absehbar also Probleme haben.",
-            "sentences": [
-              {
-                "text": "Wenn Sie darauf nicht antworten wollen, möchte ich einen anderen Aspekt ansprechen, der damit zusammenhängt, und zwar das Problem der Verteilnetze."
-              },
-              {
-                "text": "Es ist nicht nur so, dass der Strombedarf durch die Elektrifizierung insgesamt steigt – das möchte ich jetzt ausklammern; auch das sehe ich aber problematisch –, sondern meine Rückmeldung von ziemlich allen Stadtwerken und auch vom VKU ist, dass wir das Problem der sogenannten Zahnarztsackgasse haben werden: In Wohngebieten, in denen sich viele ökonomisch eher bessergestellte Menschen elektrobetriebene Fahrzeuge kaufen, die sie gleichzeitig laden wollen, werden die lokalen Verteilnetze an Grenzen kommen."
-              },
-              {
-                "text": "Wenn es zum Hochlauf kommt, werden wir in Deutschland absehbar also Probleme haben."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Oliver Luksic",
-            "speakerstatus": "speaker",
-            "text": "Was ist die Antwort der Bundesregierung auf dieses Problem, das auch McKinsey und andere beschreiben, dass nämlich die lokalen Verteilnetze dafür nicht ausgelegt sind?",
-            "sentences": [
-              {
-                "text": "Was ist die Antwort der Bundesregierung auf dieses Problem, das auch McKinsey und andere beschreiben, dass nämlich die lokalen Verteilnetze dafür nicht ausgelegt sind?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Rita Schwarzelühr-Sutter",
-            "speakerstatus": "speaker",
-            "text": "Sehr geehrter Herr Kollege Luksic, ich möchte zum einen sagen, dass wir uns in der Bundesregierung sehr wohl bewusst sind, dass Mobilität für die Menschen und auch für unsere Wirtschaft wichtig ist. Dazu nehmen wir sehr wohl eine Position ein, aber nicht zu einzelnen Politikern.",
-            "sentences": [
-              {
-                "text": "Sehr geehrter Herr Kollege Luksic, ich möchte zum einen sagen, dass wir uns in der Bundesregierung sehr wohl bewusst sind, dass Mobilität für die Menschen und auch für unsere Wirtschaft wichtig ist."
-              },
-              {
-                "text": "Dazu nehmen wir sehr wohl eine Position ein, aber nicht zu einzelnen Politikern."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Rita Schwarzelühr-Sutter",
-            "speakerstatus": "speaker",
-            "text": "Zum anderen möchte ich betonen, dass es aufgrund der Zunahme der Zahl an Elektrofahrzeugen perspektivisch einer Optimierung im Verteilnetz bedarf. Ich weise hier auch auf Smart Grids hin. Dabei geht es darum, wann wie wo geladen wird. Auch das wird man natürlich beachten, und daneben wird auch berücksichtigt, dass unter anderem sogar die Speicherfunktion beim Beladen genutzt werden kann, sodass das Netz teilweise also sogar stabilisiert werden kann. Das werden wir im Rahmen der Sektorenkopplung auch berücksichtigen.",
-            "sentences": [
-              {
-                "text": "Zum anderen möchte ich betonen, dass es aufgrund der Zunahme der Zahl an Elektrofahrzeugen perspektivisch einer Optimierung im Verteilnetz bedarf."
-              },
-              {
-                "text": "Ich weise hier auch auf Smart Grids hin."
-              },
-              {
-                "text": "Dabei geht es darum, wann wie wo geladen wird."
-              },
-              {
-                "text": "Auch das wird man natürlich beachten, und daneben wird auch berücksichtigt, dass unter anderem sogar die Speicherfunktion beim Beladen genutzt werden kann, sodass das Netz teilweise also sogar stabilisiert werden kann."
-              },
-              {
-                "text": "Das werden wir im Rahmen der Sektorenkopplung auch berücksichtigen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Claudia Roth",
-            "speakerstatus": "vice-president",
-            "text": "Vielen herzlichen Dank. – Die nächste Rückfrage kommt von Herrn Spaniel.",
-            "sentences": [
-              {
-                "text": "Vielen herzlichen Dank."
-              },
-              {
-                "text": "– Die nächste Rückfrage kommt von Herrn Spaniel."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Dirk Spaniel",
-            "speakerstatus": "speaker",
-            "text": "Vielen Dank. – Frau Staatssekretärin, ich habe noch eine Frage dazu, was Sie gerade eben gesagt haben, dass nämlich die CO 2 -Bilanz von Elektrofahrzeugen vom Ministerium generell niedriger eingeschätzt wird als die CO 2 -Bilanz von Verbrennungsmotoren. Das fand ich sehr interessant. Das heißt, Sie rechnen mit einer bestimmten Art von Strommix.",
-            "sentences": [
-              {
-                "text": "Vielen Dank."
-              },
-              {
-                "text": "– Frau Staatssekretärin, ich habe noch eine Frage dazu, was Sie gerade eben gesagt haben, dass nämlich die CO 2 -Bilanz von Elektrofahrzeugen vom Ministerium generell niedriger eingeschätzt wird als die CO 2 -Bilanz von Verbrennungsmotoren."
-              },
-              {
-                "text": "Das fand ich sehr interessant."
-              },
-              {
-                "text": "Das heißt, Sie rechnen mit einer bestimmten Art von Strommix."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Dirk Spaniel",
-            "speakerstatus": "speaker",
-            "text": "Wenn man mit dem deutschen Strommix rechnet – das hat der Herr Luksic gerade ausgeführt –, werden beim Laden einer Kilowattstunde 517 Gramm CO 2 freigesetzt. Mich würde jetzt interessieren, ob Sie generell davon ausgehen, dass das erst auf null heruntergefahren werden muss. Oder wo liegt Ihrer Ansicht nach ungefähr der Punkt, ab dem elektromotorisch angetriebene Fahrzeuge tatsächlich einen positiven CO 2 -Effekt haben?",
-            "sentences": [
-              {
-                "text": "Wenn man mit dem deutschen Strommix rechnet – das hat der Herr Luksic gerade ausgeführt –, werden beim Laden einer Kilowattstunde 517 Gramm CO 2 freigesetzt."
-              },
-              {
-                "text": "Mich würde jetzt interessieren, ob Sie generell davon ausgehen, dass das erst auf null heruntergefahren werden muss."
-              },
-              {
-                "text": "Oder wo liegt Ihrer Ansicht nach ungefähr der Punkt, ab dem elektromotorisch angetriebene Fahrzeuge tatsächlich einen positiven CO 2 -Effekt haben?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Claudia Roth",
-            "speakerstatus": "vice-president",
-            "text": "Vielen Dank. – Frau Staatssekretärin, bitte.",
-            "sentences": [
-              {
-                "text": "Vielen Dank."
-              },
-              {
-                "text": "– Frau Staatssekretärin, bitte."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Rita Schwarzelühr-Sutter",
-            "speakerstatus": "speaker",
-            "text": "Vielen Dank, Frau Präsidentin. – Ich hatte gerade beschrieben und in der Antwort auf die Frage von Herrn Luksic auch gesagt, dass wir der Meinung sind, dass die Elektrofahrzeuge einen Vorteil haben. Im Vergleich zum Benziner ergibt sich natürlich ein anderer Vorteil als im Vergleich zum Diesel, und es hängt auch von der Fahrleistung ab.",
-            "sentences": [
-              {
-                "text": "Vielen Dank, Frau Präsidentin."
-              },
-              {
-                "text": "– Ich hatte gerade beschrieben und in der Antwort auf die Frage von Herrn Luksic auch gesagt, dass wir der Meinung sind, dass die Elektrofahrzeuge einen Vorteil haben."
-              },
-              {
-                "text": "Im Vergleich zum Benziner ergibt sich natürlich ein anderer Vorteil als im Vergleich zum Diesel, und es hängt auch von der Fahrleistung ab."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Rita Schwarzelühr-Sutter",
-            "speakerstatus": "speaker",
-            "text": "Jetzt haben Sie den Strommix angesprochen. Die Agora Verkehrswende hat in ihrer Studie in einem der Berechnungsfälle den Strommix von 2016 als Grundlage verwendet. Wir gehen davon aus, dass die erneuerbaren Energien weiter ausgebaut werden. Das ist in diesem Szenario noch nicht berücksichtigt, aber an anderer Stelle in der Studie durchaus betrachtet worden. Vor diesem Hintergrund würde die Bilanz sogar noch mehr für batteriebetriebene Fahrzeuge sprechen.",
-            "sentences": [
-              {
-                "text": "Jetzt haben Sie den Strommix angesprochen."
-              },
-              {
-                "text": "Die Agora Verkehrswende hat in ihrer Studie in einem der Berechnungsfälle den Strommix von 2016 als Grundlage verwendet."
-              },
-              {
-                "text": "Wir gehen davon aus, dass die erneuerbaren Energien weiter ausgebaut werden."
-              },
-              {
-                "text": "Das ist in diesem Szenario noch nicht berücksichtigt, aber an anderer Stelle in der Studie durchaus betrachtet worden."
-              },
-              {
-                "text": "Vor diesem Hintergrund würde die Bilanz sogar noch mehr für batteriebetriebene Fahrzeuge sprechen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Claudia Roth",
-            "speakerstatus": "vice-president",
-            "text": "Vielen Dank, Frau Staatssekretärin. – Frau Skudelny stellt die nächste Frage.",
-            "sentences": [
-              {
-                "text": "Vielen Dank, Frau Staatssekretärin."
-              },
-              {
-                "text": "– Frau Skudelny stellt die nächste Frage."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Judith Skudelny",
-            "speakerstatus": "speaker",
-            "text": "Vielen Dank. – Meine Frage bezieht sich auf die Entsorgung der Batterien. Gerade einmal 4 Prozent der Fahrzeuge, die in Deutschland zugelassen werden, werden in Deutschland entsorgt; das sind in der Regel Unfallfahrzeuge. Die allermeisten Fahrzeuge werden exportiert, zunächst einmal als Nutzfahrzeuge, später aber im Wesentlichen nach Afrika. Dort wird unter zum Teil menschenunwürdigen Zuständen ein Recycling versucht, was tatsächlich aber kein Recycling ist.",
-            "sentences": [
-              {
-                "text": "Vielen Dank."
-              },
-              {
-                "text": "– Meine Frage bezieht sich auf die Entsorgung der Batterien."
-              },
-              {
-                "text": "Gerade einmal 4 Prozent der Fahrzeuge, die in Deutschland zugelassen werden, werden in Deutschland entsorgt; das sind in der Regel Unfallfahrzeuge."
-              },
-              {
-                "text": "Die allermeisten Fahrzeuge werden exportiert, zunächst einmal als Nutzfahrzeuge, später aber im Wesentlichen nach Afrika."
-              },
-              {
-                "text": "Dort wird unter zum Teil menschenunwürdigen Zuständen ein Recycling versucht, was tatsächlich aber kein Recycling ist."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Judith Skudelny",
-            "speakerstatus": "speaker",
-            "text": "Da natürlich die Stoffe in den Elektroautos und in den Batterien noch deutlich gefährlicher sind als die Stoffe, die im Moment exportiert werden, würde mich interessieren, was die Bundesregierung plant, um ebendieses Recycling unter menschenunwürdigen Zuständen, beispielsweise in Afrika, zu verhindern. Mich würde zweitens interessieren, was das Ganze dann gegebenenfalls den Verbraucher in Deutschland kosten würde, weil diese Kosten bei der Elektromobilität natürlich mitgedacht werden müssen.",
-            "sentences": [
-              {
-                "text": "Da natürlich die Stoffe in den Elektroautos und in den Batterien noch deutlich gefährlicher sind als die Stoffe, die im Moment exportiert werden, würde mich interessieren, was die Bundesregierung plant, um ebendieses Recycling unter menschenunwürdigen Zuständen, beispielsweise in Afrika, zu verhindern."
-              },
-              {
-                "text": "Mich würde zweitens interessieren, was das Ganze dann gegebenenfalls den Verbraucher in Deutschland kosten würde, weil diese Kosten bei der Elektromobilität natürlich mitgedacht werden müssen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Claudia Roth",
-            "speakerstatus": "vice-president",
-            "text": "Frau Staatssekretärin.",
-            "sentences": [
-              {
-                "text": "Frau Staatssekretärin."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Rita Schwarzelühr-Sutter",
-            "speakerstatus": "speaker",
-            "text": "Sehr geehrte Frau Kollegin Skudelny, Sie wissen, dass die Entsorgung von Batterien im Batteriengesetz geregelt ist. Es besteht ein breit etabliertes System zur Rückgabe und Behandlung auch für Batterien aus Elektrofahrzeugen.",
-            "sentences": [
-              {
-                "text": "Sehr geehrte Frau Kollegin Skudelny, Sie wissen, dass die Entsorgung von Batterien im Batteriengesetz geregelt ist."
-              },
-              {
-                "text": "Es besteht ein breit etabliertes System zur Rückgabe und Behandlung auch für Batterien aus Elektrofahrzeugen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Rita Schwarzelühr-Sutter",
-            "speakerstatus": "speaker",
-            "text": "Die Stoffe, die Sie angesprochen haben, sind teilweise sehr wertvolle Stoffe. Auch da geht es um das Recycling. Dazu gibt es bei den Traktionsbatterien von elektrischen Fahrzeugen noch die Möglichkeit der Nachnutzung, zum Beispiel als stationäre Energiespeicher. Zu illegalen Exporten kann ich Ihnen hier nichts sagen.",
-            "sentences": [
-              {
-                "text": "Die Stoffe, die Sie angesprochen haben, sind teilweise sehr wertvolle Stoffe."
-              },
-              {
-                "text": "Auch da geht es um das Recycling."
-              },
-              {
-                "text": "Dazu gibt es bei den Traktionsbatterien von elektrischen Fahrzeugen noch die Möglichkeit der Nachnutzung, zum Beispiel als stationäre Energiespeicher."
-              },
-              {
-                "text": "Zu illegalen Exporten kann ich Ihnen hier nichts sagen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Claudia Roth",
-            "speakerstatus": "vice-president",
-            "text": "Vielen Dank. – Frau Kluckert, bitte.",
-            "sentences": [
-              {
-                "text": "Vielen Dank."
-              },
-              {
-                "text": "– Frau Kluckert, bitte."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Daniela Kluckert",
-            "speakerstatus": "speaker",
-            "text": "Vielen Dank, Frau Präsidentin. – Ich möchte noch einmal auf die Frage des Kollegen Luksic zurückkommen. Eine Batterie für ein kleines Auto kostet ungefähr 6 000 Euro. Wenn man davon ausgeht, dass Kleinwagen heutzutage schon in Gänze 10 000 bis 12 000 Euro kosten, dann kann man vorhersagen, dass Kleinwagen vom Markt verschwinden werden, wenn denn die Strategie der Bundesregierung auf EU-Ebene weiter so ist, allein auf die Elektromobilität zu setzen. Deswegen die Frage: Wie gehen Sie damit um, dass individuelle Mobilität für viele Menschen in Deutschland zukünftig so nicht mehr möglich sein wird?",
-            "sentences": [
-              {
-                "text": "Vielen Dank, Frau Präsidentin."
-              },
-              {
-                "text": "– Ich möchte noch einmal auf die Frage des Kollegen Luksic zurückkommen."
-              },
-              {
-                "text": "Eine Batterie für ein kleines Auto kostet ungefähr 6 000 Euro."
-              },
-              {
-                "text": "Wenn man davon ausgeht, dass Kleinwagen heutzutage schon in Gänze 10 000 bis 12 000 Euro kosten, dann kann man vorhersagen, dass Kleinwagen vom Markt verschwinden werden, wenn denn die Strategie der Bundesregierung auf EU-Ebene weiter so ist, allein auf die Elektromobilität zu setzen."
-              },
-              {
-                "text": "Deswegen die Frage: Wie gehen Sie damit um, dass individuelle Mobilität für viele Menschen in Deutschland zukünftig so nicht mehr möglich sein wird?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Rita Schwarzelühr-Sutter",
-            "speakerstatus": "speaker",
-            "text": "Sehr geehrte Frau Kollegin, ich hatte gerade betont, dass uns Mobilität sowohl für die Menschen in Deutschland als auch für die Wirtschaft wichtig ist. Sie sind ja marktwirtschaftlich geprägt. Sie wissen auch aus der Betriebswirtschaft, dass es Lernkurven gibt. Ich nehme einmal als Beispiel die Photovoltaik. Da haben wir innerhalb kürzester Zeit, nämlich von nicht einmal zehn Jahren, eine Kostenreduktion von über 75 Prozent erreicht. Wir haben auch nicht vor, von heute auf morgen auf Elektromobilität umzustellen.",
-            "sentences": [
-              {
-                "text": "Sehr geehrte Frau Kollegin, ich hatte gerade betont, dass uns Mobilität sowohl für die Menschen in Deutschland als auch für die Wirtschaft wichtig ist."
-              },
-              {
-                "text": "Sie sind ja marktwirtschaftlich geprägt."
-              },
-              {
-                "text": "Sie wissen auch aus der Betriebswirtschaft, dass es Lernkurven gibt."
-              },
-              {
-                "text": "Ich nehme einmal als Beispiel die Photovoltaik."
-              },
-              {
-                "text": "Da haben wir innerhalb kürzester Zeit, nämlich von nicht einmal zehn Jahren, eine Kostenreduktion von über 75 Prozent erreicht."
-              },
-              {
-                "text": "Wir haben auch nicht vor, von heute auf morgen auf Elektromobilität umzustellen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Rita Schwarzelühr-Sutter",
-            "speakerstatus": "speaker",
-            "text": "Wir geben Anreize, dass sich die Elektromobilität etabliert. Ich glaube, damit erübrigt sich alles andere. Wir werden nicht vorschreiben, wer welches Auto fährt, sondern wir geben durch die Elektrokaufprämie Anreize. Wir gehen davon aus, dass es wie bei anderen Technologien sicherlich auch hier zu einer Kostendegression kommen wird.",
-            "sentences": [
-              {
-                "text": "Wir geben Anreize, dass sich die Elektromobilität etabliert."
-              },
-              {
-                "text": "Ich glaube, damit erübrigt sich alles andere."
-              },
-              {
-                "text": "Wir werden nicht vorschreiben, wer welches Auto fährt, sondern wir geben durch die Elektrokaufprämie Anreize."
-              },
-              {
-                "text": "Wir gehen davon aus, dass es wie bei anderen Technologien sicherlich auch hier zu einer Kostendegression kommen wird."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Claudia Roth",
-            "speakerstatus": "vice-president",
-            "text": "Vielen Dank. – Nächster Fragesteller bei dieser Frage: Kollege Gelbhaar.",
-            "sentences": [
-              {
-                "text": "Vielen Dank."
-              },
-              {
-                "text": "– Nächster Fragesteller bei dieser Frage: Kollege Gelbhaar."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Stefan Gelbhaar",
-            "speakerstatus": "speaker",
-            "text": "Frau Staatssekretärin, ich möchte nicht wie die innovationsfeindlichen und zunehmend alarmistischen Öl- und Kohleparteien FDP und AfD fragen,",
-            "sentences": [
-              {
-                "text": "Frau Staatssekretärin, ich möchte nicht wie die innovationsfeindlichen und zunehmend alarmistischen Öl- und Kohleparteien FDP und AfD fragen,"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Stefan Gelbhaar",
-            "speakerstatus": "speaker",
-            "text": "sondern zum Ursprung der ersten Frage zurückkehren, und zwar zu Herrn Sinn. Ich möchte noch einen weiteren Namen nennen, und zwar den von Herrn Köhler.",
-            "sentences": [
-              {
-                "text": "sondern zum Ursprung der ersten Frage zurückkehren, und zwar zu Herrn Sinn."
-              },
-              {
-                "text": "Ich möchte noch einen weiteren Namen nennen, und zwar den von Herrn Köhler."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Stefan Gelbhaar",
-            "speakerstatus": "speaker",
-            "text": "Wie geht die Bundesregierung damit um, dass bei der Bevölkerung dann, wenn zunehmend Wissenschaftler, die den Zenit ihres Wirkens meistens schon überschritten haben, mit Studien in die Bütt gehen, die nach Tagen, manchmal auch nach Wochen oder Monaten widerlegt werden, immer etwas hängen bleibt, was sich dann in den sozialen und den anderen Medien immer weiter fortpflanzt, sodass man permanent nacharbeiten muss, um klarzustellen, was richtig und falsch ist? Wie gehen Sie insbesondere damit um, wenn das von Teilen der Regierung sogar noch übernommen wird, im konkreten Fall vom Verkehrsministerium die Studie von Herrn Dr. Köhler?",
-            "sentences": [
-              {
-                "text": "Wie geht die Bundesregierung damit um, dass bei der Bevölkerung dann, wenn zunehmend Wissenschaftler, die den Zenit ihres Wirkens meistens schon überschritten haben, mit Studien in die Bütt gehen, die nach Tagen, manchmal auch nach Wochen oder Monaten widerlegt werden, immer etwas hängen bleibt, was sich dann in den sozialen und den anderen Medien immer weiter fortpflanzt, sodass man permanent nacharbeiten muss, um klarzustellen, was richtig und falsch ist?"
-              },
-              {
-                "text": "Wie gehen Sie insbesondere damit um, wenn das von Teilen der Regierung sogar noch übernommen wird, im konkreten Fall vom Verkehrsministerium die Studie von Herrn Dr. Köhler?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Claudia Roth",
-            "speakerstatus": "vice-president",
-            "text": "Frau Staatssekretärin.",
-            "sentences": [
-              {
-                "text": "Frau Staatssekretärin."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Rita Schwarzelühr-Sutter",
-            "speakerstatus": "speaker",
-            "text": "Sehr geehrter Herr Kollege, die Bundesregierung prüft Gutachten und bewertet sie. Dann bespricht sie sich und bezieht Position.",
-            "sentences": [
-              {
-                "text": "Sehr geehrter Herr Kollege, die Bundesregierung prüft Gutachten und bewertet sie."
-              },
-              {
-                "text": "Dann bespricht sie sich und bezieht Position."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Claudia Roth",
-            "speakerstatus": "vice-president",
-            "text": "Dr. Jung hat sich noch zu dieser Frage zu Wort gemeldet.",
-            "sentences": [
-              {
-                "text": "Dr. Jung hat sich noch zu dieser Frage zu Wort gemeldet."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Christian Jung",
-            "speakerstatus": "speaker",
-            "text": "Frau Staatssekretärin, wir als Freie Demokraten sehen durchaus positive Aspekte der Elektromobilität. Aber man muss über die Batteriefrage sprechen. Ich persönlich befasse mich sehr viel mit dem Thema Brandschutz. Wir merken immer wieder bei Transporten, aber auch im Alltag, dass das eine oder andere Elektrofahrzeug wegen eines Brandes nicht lange überlebt. Ich will keine Witze über die CO 2 -Bilanz machen, wenn solche Fahrzeuge brennen. Die entscheidende Frage lautet vielmehr: Wie soll man Ihrer Ansicht nach solche Brände löschen? Das ist ein riesiges Problem, das wir unter Umweltschutzaspekten – zum Beispiel auch auf den Autobahnen – mehr berücksichtigen müssen. Wie lautet Ihre Antwort? Wie wollen Sie solche Fahrzeuge löschen?",
-            "sentences": [
-              {
-                "text": "Frau Staatssekretärin, wir als Freie Demokraten sehen durchaus positive Aspekte der Elektromobilität."
-              },
-              {
-                "text": "Aber man muss über die Batteriefrage sprechen."
-              },
-              {
-                "text": "Ich persönlich befasse mich sehr viel mit dem Thema Brandschutz."
-              },
-              {
-                "text": "Wir merken immer wieder bei Transporten, aber auch im Alltag, dass das eine oder andere Elektrofahrzeug wegen eines Brandes nicht lange überlebt."
-              },
-              {
-                "text": "Ich will keine Witze über die CO 2 -Bilanz machen, wenn solche Fahrzeuge brennen."
-              },
-              {
-                "text": "Die entscheidende Frage lautet vielmehr: Wie soll man Ihrer Ansicht nach solche Brände löschen?"
-              },
-              {
-                "text": "Das ist ein riesiges Problem, das wir unter Umweltschutzaspekten – zum Beispiel auch auf den Autobahnen – mehr berücksichtigen müssen."
-              },
-              {
-                "text": "Wie lautet Ihre Antwort?"
-              },
-              {
-                "text": "Wie wollen Sie solche Fahrzeuge löschen?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Claudia Roth",
-            "speakerstatus": "vice-president",
-            "text": "Frau Staatssekretärin.",
-            "sentences": [
-              {
-                "text": "Frau Staatssekretärin."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Rita Schwarzelühr-Sutter",
-            "speakerstatus": "speaker",
-            "text": "Ich sage jetzt ganz locker: Die Bundesregierung fährt nicht zum einzelnen Brandherd und löscht selber. Aber wir nehmen das sehr ernst, genauso wie bei anderen Transportmitteln, die strombetrieben sind. Entsprechende Vorfälle gab es im Bahnbereich. Wir arbeiten diesbezüglich eng mit den verantwortlichen Stellen zusammen.",
-            "sentences": [
-              {
-                "text": "Ich sage jetzt ganz locker: Die Bundesregierung fährt nicht zum einzelnen Brandherd und löscht selber."
-              },
-              {
-                "text": "Aber wir nehmen das sehr ernst, genauso wie bei anderen Transportmitteln, die strombetrieben sind."
-              },
-              {
-                "text": "Entsprechende Vorfälle gab es im Bahnbereich."
-              },
-              {
-                "text": "Wir arbeiten diesbezüglich eng mit den verantwortlichen Stellen zusammen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Claudia Roth",
-            "speakerstatus": "vice-president",
-            "text": "Vielen herzlichen Dank. – Bitte schön, Herr Kraft.",
-            "sentences": [
-              {
-                "text": "Vielen herzlichen Dank."
-              },
-              {
-                "text": "– Bitte schön, Herr Kraft."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Rainer Kraft",
-            "speakerstatus": "speaker",
-            "text": "Danke, Frau Präsidentin. – Frau Staatssekretärin, ich bin überrascht, dass Sie eine Studie zitieren können, die die CO 2 -Emissionen quantifiziert. Denn auf eine Kleine Anfrage hat die Bundesregierung vor einigen Monaten sinngemäß geantwortet: Über die Verfügbarkeit zum Beispiel von Kobalt, das in riesigen Mengen für den Bau von Akkumulatoren benötigt wird, liegen der Bundesregierung keine Quellen vor. Man geht nicht davon aus, dass das Kobalt aus dem Kongo kommt, wo es unter anderem von Kindern unter sklavenähnlichen Bedingungen aus dem Boden gekratzt wird, sondern, dass es aus anderen obskuren Quellen kommt, die nicht bekannt sind, die aber vielleicht noch prospektiert werden. Meine Frage lautet daher: Da die Quellen gemäß der Ansicht der Bundesregierung nicht bekannt sind, wie können die CO 2 -Emissionen aus dem Prospektieren der Quellen quantifiziert werden, um eine Bilanz für das Elektroauto aufzustellen?",
-            "sentences": [
-              {
-                "text": "Danke, Frau Präsidentin."
-              },
-              {
-                "text": "– Frau Staatssekretärin, ich bin überrascht, dass Sie eine Studie zitieren können, die die CO 2 -Emissionen quantifiziert."
-              },
-              {
-                "text": "Denn auf eine Kleine Anfrage hat die Bundesregierung vor einigen Monaten sinngemäß geantwortet: Über die Verfügbarkeit zum Beispiel von Kobalt, das in riesigen Mengen für den Bau von Akkumulatoren benötigt wird, liegen der Bundesregierung keine Quellen vor."
-              },
-              {
-                "text": "Man geht nicht davon aus, dass das Kobalt aus dem Kongo kommt, wo es unter anderem von Kindern unter sklavenähnlichen Bedingungen aus dem Boden gekratzt wird, sondern, dass es aus anderen obskuren Quellen kommt, die nicht bekannt sind, die aber vielleicht noch prospektiert werden."
-              },
-              {
-                "text": "Meine Frage lautet daher: Da die Quellen gemäß der Ansicht der Bundesregierung nicht bekannt sind, wie können die CO 2 -Emissionen aus dem Prospektieren der Quellen quantifiziert werden, um eine Bilanz für das Elektroauto aufzustellen?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Rita Schwarzelühr-Sutter",
-            "speakerstatus": "speaker",
-            "text": "Sehr geehrter Herr Kollege, es wurde die CO 2 -Bilanz von Fahrzeugen, die mit fossilen Brennstoffen betrieben werden, mit der von Fahrzeugen verglichen, die batteriebetrieben sind. Dabei wurden der Lebenszyklus und die Fahrleistungen berücksichtigt. Sie verweisen nun auf die Rohstoffe. Sie müssten dann auch die fossile Förderung einbeziehen. Schließlich gibt es unterschiedliche Förderbedingungen auch bei Öl und Gas. Ich nennen als Beispiel Teersande. Die Vergleichbarkeit, die wir hier etabliert haben, ist sicherlich valide. Wenn Sie die Fragestellung im Zusammenhang mit Elektrofahrzeugen ausweiten, dann müssen Sie das auch bei Fahrzeugen tun, die mit fossilen Treibstoffen betrieben werden.",
-            "sentences": [
-              {
-                "text": "Sehr geehrter Herr Kollege, es wurde die CO 2 -Bilanz von Fahrzeugen, die mit fossilen Brennstoffen betrieben werden, mit der von Fahrzeugen verglichen, die batteriebetrieben sind."
-              },
-              {
-                "text": "Dabei wurden der Lebenszyklus und die Fahrleistungen berücksichtigt."
-              },
-              {
-                "text": "Sie verweisen nun auf die Rohstoffe."
-              },
-              {
-                "text": "Sie müssten dann auch die fossile Förderung einbeziehen."
-              },
-              {
-                "text": "Schließlich gibt es unterschiedliche Förderbedingungen auch bei Öl und Gas."
-              },
-              {
-                "text": "Ich nennen als Beispiel Teersande."
-              },
-              {
-                "text": "Die Vergleichbarkeit, die wir hier etabliert haben, ist sicherlich valide."
-              },
-              {
-                "text": "Wenn Sie die Fragestellung im Zusammenhang mit Elektrofahrzeugen ausweiten, dann müssen Sie das auch bei Fahrzeugen tun, die mit fossilen Treibstoffen betrieben werden."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Claudia Roth",
-            "speakerstatus": "vice-president",
-            "text": "Vielen Dank. – Die Frage 24 des Kollegen Hubertus Zdebel von der Linksfraktion wird schriftlich beantwortet.",
-            "sentences": [
-              {
-                "text": "Vielen Dank."
-              },
-              {
-                "text": "– Die Frage 24 des Kollegen Hubertus Zdebel von der Linksfraktion wird schriftlich beantwortet."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Claudia Roth",
-            "speakerstatus": "vice-president",
-            "text": "Wir kommen nun zu Frage 25 der Kollegin Sylvia Kotting-Uhl, Bündnis 90/Die Grünen:",
-            "sentences": [
-              {
-                "text": "Wir kommen nun zu Frage 25 der Kollegin Sylvia Kotting-Uhl, Bündnis 90/Die Grünen:"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Claudia Roth",
-            "speakerstatus": "vice-president",
-            "text": "Frau Staatssekretärin, bitte.",
-            "sentences": [
-              {
-                "text": "Frau Staatssekretärin, bitte."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Rita Schwarzelühr-Sutter",
-            "speakerstatus": "speaker",
-            "text": "Vielen Dank. – Liebe Frau Kotting-Uhl, ich beantworte Ihre Frage wie folgt: Die Koalitionsvereinbarung sieht die Vorlage eines gemeinsamen Konzeptes der Bundesregierung zum perspektivischen Erhalt von Fachwissen und Personal für Betrieb, Rückbau und Sicherung von Nuklearanlagen in dieser Legislaturperiode vor. Die Bundesregierung beabsichtigt in dieser Legislaturperiode, diesen Zeitraum einzuhalten. Die Vorarbeiten zu Entwurf und Abstimmung eines gemeinsamen Konzepts laufen derzeit. Unabhängig von dem zu erarbeitenden Konzept gibt es bereits zahlreiche Aktivitäten der Bundesregierung mit der zentralen Zielstellung, die wissenschaftlich-technische Kompetenz im Bereich der nuklearen Sicherheit, des Strahlenschutzes, des Rückbaus, der Entsorgung und der Endlagerung aufzubauen, weiterzuentwickeln und zu erhalten.",
-            "sentences": [
-              {
-                "text": "Vielen Dank."
-              },
-              {
-                "text": "– Liebe Frau Kotting-Uhl, ich beantworte Ihre Frage wie folgt: Die Koalitionsvereinbarung sieht die Vorlage eines gemeinsamen Konzeptes der Bundesregierung zum perspektivischen Erhalt von Fachwissen und Personal für Betrieb, Rückbau und Sicherung von Nuklearanlagen in dieser Legislaturperiode vor."
-              },
-              {
-                "text": "Die Bundesregierung beabsichtigt in dieser Legislaturperiode, diesen Zeitraum einzuhalten."
-              },
-              {
-                "text": "Die Vorarbeiten zu Entwurf und Abstimmung eines gemeinsamen Konzepts laufen derzeit."
-              },
-              {
-                "text": "Unabhängig von dem zu erarbeitenden Konzept gibt es bereits zahlreiche Aktivitäten der Bundesregierung mit der zentralen Zielstellung, die wissenschaftlich-technische Kompetenz im Bereich der nuklearen Sicherheit, des Strahlenschutzes, des Rückbaus, der Entsorgung und der Endlagerung aufzubauen, weiterzuentwickeln und zu erhalten."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Claudia Roth",
-            "speakerstatus": "vice-president",
-            "text": "Frau Kotting-Uhl, bitte.",
-            "sentences": [
-              {
-                "text": "Frau Kotting-Uhl, bitte."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Sylvia Kotting-Uhl",
-            "speakerstatus": "speaker",
-            "text": "Vielen Dank, Frau Staatssekretärin. – Ich habe nicht aus Versehen, sondern mit Absicht in meiner Frage auf den Artikel in der „Süddeutschen Zeitung“ hingewiesen, in dem die Rede davon ist, dass die Hermeskredite für atomare Bestandteile eventuell wieder aufgenommen werden sollen, und zwar mit der Begründung des Know-how-Erhalts. Das soll ein Passus in dem werden, was Sie gerade ausarbeiten. Deswegen will ich Sie noch mal danach fragen, ob das bereits zur Sprache kommt.",
-            "sentences": [
-              {
-                "text": "Vielen Dank, Frau Staatssekretärin."
-              },
-              {
-                "text": "– Ich habe nicht aus Versehen, sondern mit Absicht in meiner Frage auf den Artikel in der „Süddeutschen Zeitung“ hingewiesen, in dem die Rede davon ist, dass die Hermeskredite für atomare Bestandteile eventuell wieder aufgenommen werden sollen, und zwar mit der Begründung des Know-how-Erhalts."
-              },
-              {
-                "text": "Das soll ein Passus in dem werden, was Sie gerade ausarbeiten."
-              },
-              {
-                "text": "Deswegen will ich Sie noch mal danach fragen, ob das bereits zur Sprache kommt."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Sylvia Kotting-Uhl",
-            "speakerstatus": "speaker",
-            "text": "Ich hatte auch nach der Federführung beim Konzept zum Know-how-Erhalt gefragt. Ich würde Sie bitten, auch das zu beantworten.",
-            "sentences": [
-              {
-                "text": "Ich hatte auch nach der Federführung beim Konzept zum Know-how-Erhalt gefragt."
-              },
-              {
-                "text": "Ich würde Sie bitten, auch das zu beantworten."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Rita Schwarzelühr-Sutter",
-            "speakerstatus": "speaker",
-            "text": "Sehr gerne, Frau Kollegin. – Im Jahr 2014 hat der Interministerielle Ausschuss für die Exportkreditgarantien des Bundes einen grundsätzlichen Deckungsausschluss für Nuklearanlagen mit definierten Ausnahmebereichen beschlossen. Danach werden grundsätzlich keine Exportkreditgarantien mehr für Lieferung und Leistung der Anlagen der nuklearen Stromerzeugung im Ausland übernommen.",
-            "sentences": [
-              {
-                "text": "Sehr gerne, Frau Kollegin."
-              },
-              {
-                "text": "– Im Jahr 2014 hat der Interministerielle Ausschuss für die Exportkreditgarantien des Bundes einen grundsätzlichen Deckungsausschluss für Nuklearanlagen mit definierten Ausnahmebereichen beschlossen."
-              },
-              {
-                "text": "Danach werden grundsätzlich keine Exportkreditgarantien mehr für Lieferung und Leistung der Anlagen der nuklearen Stromerzeugung im Ausland übernommen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Rita Schwarzelühr-Sutter",
-            "speakerstatus": "speaker",
-            "text": "Den in jüngerer Zeit geäußerten Vorschlägen, die für Bestandsanlagen geltenden Ausnahmeregelungen für sicherheitserhöhende Maßnahmen auch für AKW-Neubauten zu öffnen, unter anderem mit dem Ziel des perspektivischen Erhalts von Fachwissen und Personal zu Sicherheitsfragen bei Nuklearanlagen, kann das BMU nicht folgen. Zum Erhalt von Fachwissen ist nach Auffassung des BMU auf die bestehenden Ausnahmen für Bestandsanlagen und vor allem den Erhalt und die Stärkung der Kompetenzen von Sachverständigenorganisationen abzustellen.",
-            "sentences": [
-              {
-                "text": "Den in jüngerer Zeit geäußerten Vorschlägen, die für Bestandsanlagen geltenden Ausnahmeregelungen für sicherheitserhöhende Maßnahmen auch für AKW-Neubauten zu öffnen, unter anderem mit dem Ziel des perspektivischen Erhalts von Fachwissen und Personal zu Sicherheitsfragen bei Nuklearanlagen, kann das BMU nicht folgen."
-              },
-              {
-                "text": "Zum Erhalt von Fachwissen ist nach Auffassung des BMU auf die bestehenden Ausnahmen für Bestandsanlagen und vor allem den Erhalt und die Stärkung der Kompetenzen von Sachverständigenorganisationen abzustellen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Claudia Roth",
-            "speakerstatus": "vice-president",
-            "text": "Frau Kotting-Uhl.",
-            "sentences": [
-              {
-                "text": "Frau Kotting-Uhl."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Sylvia Kotting-Uhl",
-            "speakerstatus": "speaker",
-            "text": "Danke schön, Frau Staatssekretärin, und danke für die Möglichkeit zur zweiten Nachfrage. – Es ist Ihnen ja sicher nicht entgangen, dass sowohl das Bundeswirtschaftsministerium – der Wirtschaftsminister ist ja inzwischen anwesend – wie auch Fachabgeordnete der Union sich dahin gehend geäußert haben, dass die Hermesexporte und die Hermesdeckungen gerade für den Bereich Kompetenzerhalt durchaus zu bedenken, wenn nicht gar nötig seien. Ich freue mich über Ihre Aussage jetzt. Ich möchte Sie noch mal fragen, ob Sie mit mir der Meinung sind, dass diese Form von Krediten zum Know-how-Erhalt gerade für die Sicherheit von AKW – ich denke insbesondere an grenznahe AKW – nicht notwendig sind.",
-            "sentences": [
-              {
-                "text": "Danke schön, Frau Staatssekretärin, und danke für die Möglichkeit zur zweiten Nachfrage."
-              },
-              {
-                "text": "– Es ist Ihnen ja sicher nicht entgangen, dass sowohl das Bundeswirtschaftsministerium – der Wirtschaftsminister ist ja inzwischen anwesend – wie auch Fachabgeordnete der Union sich dahin gehend geäußert haben, dass die Hermesexporte und die Hermesdeckungen gerade für den Bereich Kompetenzerhalt durchaus zu bedenken, wenn nicht gar nötig seien."
-              },
-              {
-                "text": "Ich freue mich über Ihre Aussage jetzt."
-              },
-              {
-                "text": "Ich möchte Sie noch mal fragen, ob Sie mit mir der Meinung sind, dass diese Form von Krediten zum Know-how-Erhalt gerade für die Sicherheit von AKW – ich denke insbesondere an grenznahe AKW – nicht notwendig sind."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Sylvia Kotting-Uhl",
-            "speakerstatus": "speaker",
-            "text": "Zum dritten Mal stelle ich die Frage nach der Federführung; denn sie ist gerade für diesen Aspekt relevant.",
-            "sentences": [
-              {
-                "text": "Zum dritten Mal stelle ich die Frage nach der Federführung; denn sie ist gerade für diesen Aspekt relevant."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Rita Schwarzelühr-Sutter",
-            "speakerstatus": "speaker",
-            "text": "Liebe Kollegin Kotting-Uhl, das BMU steht mit dem BMWi, dem Wirtschaftsministerium, und dem BMBF in Kontakt, um die weiteren Prozesse zur Konzepterstellung auf Ebene der Bundesregierung zu gestalten. Darüber hinaus arbeitet mein Haus derzeit für seinen Zuständigkeitsbereich an einer Analyse, die die perspektivischen Bedarfe zum Gegenstand hat.",
-            "sentences": [
-              {
-                "text": "Liebe Kollegin Kotting-Uhl, das BMU steht mit dem BMWi, dem Wirtschaftsministerium, und dem BMBF in Kontakt, um die weiteren Prozesse zur Konzepterstellung auf Ebene der Bundesregierung zu gestalten."
-              },
-              {
-                "text": "Darüber hinaus arbeitet mein Haus derzeit für seinen Zuständigkeitsbereich an einer Analyse, die die perspektivischen Bedarfe zum Gegenstand hat."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Rita Schwarzelühr-Sutter",
-            "speakerstatus": "speaker",
-            "text": "Die für die Konzepterstellung erforderliche Bedarfsanalyse erfolgt auf einem gestuften Ansatz. Hierbei wird eine ganzheitliche Betrachtung vorgenommen. Über den Auftrag des Koalitionsvertrages hinausgehend wird auch der Strahlenschutz aufgrund seiner Gesamtbedeutung in die Betrachtung einbezogen.",
-            "sentences": [
-              {
-                "text": "Die für die Konzepterstellung erforderliche Bedarfsanalyse erfolgt auf einem gestuften Ansatz."
-              },
-              {
-                "text": "Hierbei wird eine ganzheitliche Betrachtung vorgenommen."
-              },
-              {
-                "text": "Über den Auftrag des Koalitionsvertrages hinausgehend wird auch der Strahlenschutz aufgrund seiner Gesamtbedeutung in die Betrachtung einbezogen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Rita Schwarzelühr-Sutter",
-            "speakerstatus": "speaker",
-            "text": "Unabhängig von der Zuständigkeit des BMU sind derzeit das BfE, das BfS, die BGE und die BGZ beteiligt, und zu einem späteren Zeitpunkt werden ergänzend die Länder sowie Sachverständigenorganisationen, Fortbildungseinrichtungen, Betreiber in die Prozesse integriert.",
-            "sentences": [
-              {
-                "text": "Unabhängig von der Zuständigkeit des BMU sind derzeit das BfE, das BfS, die BGE und die BGZ beteiligt, und zu einem späteren Zeitpunkt werden ergänzend die Länder sowie Sachverständigenorganisationen, Fortbildungseinrichtungen, Betreiber in die Prozesse integriert."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Claudia Roth",
-            "speakerstatus": "vice-president",
-            "text": "Vielen Dank. – Jetzt noch Dr. Kraft.",
-            "sentences": [
-              {
-                "text": "Vielen Dank."
-              },
-              {
-                "text": "– Jetzt noch Dr. Kraft."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Rainer Kraft",
-            "speakerstatus": "speaker",
-            "text": "Danke, Frau Präsident. – Frau Staatssekretärin, die Auswahl deutscher Lieferanten für Sicherheitstechnik für nukleare Anlagen soll ja so erfolgen, dass diese Lieferanten erste Wahl sind, was Sicherheitstechnik angeht. Sie sollen von den Betreibern von Kernkraftwerken bewusst ausgewählt werden. Diese erste Wahl, was Sicherheitstechnik für Kernkraftwerke angeht, den zukünftigen Betreibern vorzuenthalten, führt ja dann dazu, dass Betreiber zweiter Wahl ausgewählt werden, die einen niedrigeren Sicherheitsstand für nukleare Anlagen in Europa, also bei uns und unseren europäischen Partnern, gewährleisten.",
-            "sentences": [
-              {
-                "text": "Danke, Frau Präsident."
-              },
-              {
-                "text": "– Frau Staatssekretärin, die Auswahl deutscher Lieferanten für Sicherheitstechnik für nukleare Anlagen soll ja so erfolgen, dass diese Lieferanten erste Wahl sind, was Sicherheitstechnik angeht."
-              },
-              {
-                "text": "Sie sollen von den Betreibern von Kernkraftwerken bewusst ausgewählt werden."
-              },
-              {
-                "text": "Diese erste Wahl, was Sicherheitstechnik für Kernkraftwerke angeht, den zukünftigen Betreibern vorzuenthalten, führt ja dann dazu, dass Betreiber zweiter Wahl ausgewählt werden, die einen niedrigeren Sicherheitsstand für nukleare Anlagen in Europa, also bei uns und unseren europäischen Partnern, gewährleisten."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Rainer Kraft",
-            "speakerstatus": "speaker",
-            "text": "Die Frage ist jetzt: Wie kann das Ministerium bzw. die Regierung es verantworten, dass wir unseren europäischen Partnern gegenüber nicht Anlagen maximaler Sicherheit gewährleisten, und wie wollen Sie das Sicherheitsrisiko für die nuklearen Anlagen einschätzen, die nicht mit Sicherheitstechnik erster Wahl ausgerüstet werden?",
-            "sentences": [
-              {
-                "text": "Die Frage ist jetzt: Wie kann das Ministerium bzw. die Regierung es verantworten, dass wir unseren europäischen Partnern gegenüber nicht Anlagen maximaler Sicherheit gewährleisten, und wie wollen Sie das Sicherheitsrisiko für die nuklearen Anlagen einschätzen, die nicht mit Sicherheitstechnik erster Wahl ausgerüstet werden?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Rita Schwarzelühr-Sutter",
-            "speakerstatus": "speaker",
-            "text": "Sehr geehrter Herr Kollege Kraft, wir haben hier eine ganz genaue Regelung, und es geht hier um die Frage von Neubauten. Bei Bestandsanlagen ist es klar geregelt, und da haben wir auch keinen Dissens. Von den Neubauten haben wir in Europa, glaube ich, nicht so viele; da haben wir gerade mal zwei, die in Bau sind.",
-            "sentences": [
-              {
-                "text": "Sehr geehrter Herr Kollege Kraft, wir haben hier eine ganz genaue Regelung, und es geht hier um die Frage von Neubauten."
-              },
-              {
-                "text": "Bei Bestandsanlagen ist es klar geregelt, und da haben wir auch keinen Dissens."
-              },
-              {
-                "text": "Von den Neubauten haben wir in Europa, glaube ich, nicht so viele; da haben wir gerade mal zwei, die in Bau sind."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Rita Schwarzelühr-Sutter",
-            "speakerstatus": "speaker",
-            "text": "Dann geht es hier ja um den Kompetenzerhalt. Für Wirtschaftsförderung ist mein Haus nicht zuständig. Es kann auch exportiert werden. Die Frage ist ja die nach den Exportgarantien. Darüber müssen wir uns verständigen, und da müssen wir eine gemeinsame Position finden.",
-            "sentences": [
-              {
-                "text": "Dann geht es hier ja um den Kompetenzerhalt."
-              },
-              {
-                "text": "Für Wirtschaftsförderung ist mein Haus nicht zuständig."
-              },
-              {
-                "text": "Es kann auch exportiert werden."
-              },
-              {
-                "text": "Die Frage ist ja die nach den Exportgarantien."
-              },
-              {
-                "text": "Darüber müssen wir uns verständigen, und da müssen wir eine gemeinsame Position finden."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Claudia Roth",
-            "speakerstatus": "vice-president",
-            "text": "Vielen Dank.",
-            "sentences": [
-              {
-                "text": "Vielen Dank."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Claudia Roth",
-            "speakerstatus": "vice-president",
-            "text": "Jetzt kommen wir zur letzten Frage, die ich noch zulasse. Das ist die Frage 26 der Kollegin Sylvia Kotting-Uhl:",
-            "sentences": [
-              {
-                "text": "Jetzt kommen wir zur letzten Frage, die ich noch zulasse."
-              },
-              {
-                "text": "Das ist die Frage 26 der Kollegin Sylvia Kotting-Uhl:"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Claudia Roth",
-            "speakerstatus": "vice-president",
-            "text": "Frau Staatssekretärin.",
-            "sentences": [
-              {
-                "text": "Frau Staatssekretärin."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Rita Schwarzelühr-Sutter",
-            "speakerstatus": "speaker",
-            "text": "Ihre Frage beantworte ich wie folgt: Grundsätzlich werden sicherheitstechnische Nachrüstungen für Atomkraftwerke auf der Basis von sicherheitstechnischen Bewertungen nach einem jeweils aktuellen kerntechnischen Bewertungsmaßstab abgeleitet und nicht aufgrund einer Bewertung der Umsetzbarkeit.",
-            "sentences": [
-              {
-                "text": "Ihre Frage beantworte ich wie folgt: Grundsätzlich werden sicherheitstechnische Nachrüstungen für Atomkraftwerke auf der Basis von sicherheitstechnischen Bewertungen nach einem jeweils aktuellen kerntechnischen Bewertungsmaßstab abgeleitet und nicht aufgrund einer Bewertung der Umsetzbarkeit."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Rita Schwarzelühr-Sutter",
-            "speakerstatus": "speaker",
-            "text": "Im Zuge der deutschen Wiedervereinigung wurden eingehende Sicherheitsanalysen für die Atomkraftwerke sowjetischer Bauart, so auch für Greifswald 5, durchgeführt. Diese ergaben Sicherheitsdefizite gegenüber dem maßgeblichen bundesdeutschen Regelwerk. Wegen technischer und vor allem ökonomischer Gründe – im Wesentlichen die Unwägbarkeiten bei den Genehmigungsverfahren für Nachrüstungsmaßnahmen und gleichzeitig ein stark gesunkener Elektrizitätsbedarf – fand sich kein Investor für die Nachrüstung der Reaktoren.",
-            "sentences": [
-              {
-                "text": "Im Zuge der deutschen Wiedervereinigung wurden eingehende Sicherheitsanalysen für die Atomkraftwerke sowjetischer Bauart, so auch für Greifswald 5, durchgeführt."
-              },
-              {
-                "text": "Diese ergaben Sicherheitsdefizite gegenüber dem maßgeblichen bundesdeutschen Regelwerk."
-              },
-              {
-                "text": "Wegen technischer und vor allem ökonomischer Gründe – im Wesentlichen die Unwägbarkeiten bei den Genehmigungsverfahren für Nachrüstungsmaßnahmen und gleichzeitig ein stark gesunkener Elektrizitätsbedarf – fand sich kein Investor für die Nachrüstung der Reaktoren."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Claudia Roth",
-            "speakerstatus": "vice-president",
-            "text": "Eine Rückfrage lasse ich noch zu.",
-            "sentences": [
-              {
-                "text": "Eine Rückfrage lasse ich noch zu."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Sylvia Kotting-Uhl",
-            "speakerstatus": "speaker",
-            "text": "Frau Staatssekretärin, vielen Dank für die Antwort. – Das heißt, Sie können mir nicht bestätigen, dass in einem Gutachten von 1992, auf das sich das BMU berufen hat, die GRS bei Greifswald 5 besonders folgende Defizite festgestellt hat: mangelnder Sicherheitseinschluss und mangelnder Schutz gegen Einwirkungen von außen. Diese Defizite seien praktisch nicht nachrüstbar. Also war die Nichtnachrüstbarkeit auf den Stand der Sicherheitsanforderungen der Hauptgrund dafür, Greifswald 5 ebenso abzuschalten wie Greifswald 1 bis 4.",
-            "sentences": [
-              {
-                "text": "Frau Staatssekretärin, vielen Dank für die Antwort."
-              },
-              {
-                "text": "– Das heißt, Sie können mir nicht bestätigen, dass in einem Gutachten von 1992, auf das sich das BMU berufen hat, die GRS bei Greifswald 5 besonders folgende Defizite festgestellt hat: mangelnder Sicherheitseinschluss und mangelnder Schutz gegen Einwirkungen von außen."
-              },
-              {
-                "text": "Diese Defizite seien praktisch nicht nachrüstbar."
-              },
-              {
-                "text": "Also war die Nichtnachrüstbarkeit auf den Stand der Sicherheitsanforderungen der Hauptgrund dafür, Greifswald 5 ebenso abzuschalten wie Greifswald 1 bis 4."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Rita Schwarzelühr-Sutter",
-            "speakerstatus": "speaker",
-            "text": "Ich hatte Ihnen gerade gesagt: Aus technischen und ökonomischen Gründen wurde diese Entscheidung entsprechend gefällt.",
-            "sentences": [
-              {
-                "text": "Ich hatte Ihnen gerade gesagt: Aus technischen und ökonomischen Gründen wurde diese Entscheidung entsprechend gefällt."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Claudia Roth",
-            "speakerstatus": "vice-president",
-            "text": "Vielen herzlichen Dank, Frau Staatssekretärin. Vielen Dank, liebe Kolleginnen und Kollegen.",
-            "sentences": [
-              {
-                "text": "Vielen herzlichen Dank, Frau Staatssekretärin."
-              },
-              {
-                "text": "Vielen Dank, liebe Kolleginnen und Kollegen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Claudia Roth",
-            "speakerstatus": "vice-president",
-            "text": "Die jetzt nicht live beantworteten Fragen werden schriftlich beantwortet. – Ich danke auch den Staatsekretären und Staatsekretärinnen, die anwesend waren, um zu antworten.",
-            "sentences": [
-              {
-                "text": "Die jetzt nicht live beantworteten Fragen werden schriftlich beantwortet."
-              },
-              {
-                "text": "– Ich danke auch den Staatsekretären und Staatsekretärinnen, die anwesend waren, um zu antworten."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Claudia Roth",
-            "speakerstatus": "vice-president",
-            "text": "Bevor wir jetzt zur Aktuellen Stunde kommen, muss ich Ihnen sagen, dass die heutige Tagesordnung um die Beratung einer Beschlussempfehlung des Ausschusses für Wahlprüfung, Immunität und Geschäftsordnung, Drucksache 19/9947, zu einem Antrag auf Genehmigung zur Durchführung eines Strafverfahrens erweitert und jetzt gleich als Zusatzpunkt 2 aufgerufen werden soll. Dieses Verfahren entspricht der langjährigen Praxis des Deutschen Bundestages. – Ich entnehme, dass sich da Widerspruch erhebt.",
-            "sentences": [
-              {
-                "text": "Bevor wir jetzt zur Aktuellen Stunde kommen, muss ich Ihnen sagen, dass die heutige Tagesordnung um die Beratung einer Beschlussempfehlung des Ausschusses für Wahlprüfung, Immunität und Geschäftsordnung, Drucksache 19/9947, zu einem Antrag auf Genehmigung zur Durchführung eines Strafverfahrens erweitert und jetzt gleich als Zusatzpunkt 2 aufgerufen werden soll."
-              },
-              {
-                "text": "Dieses Verfahren entspricht der langjährigen Praxis des Deutschen Bundestages."
-              },
-              {
-                "text": "– Ich entnehme, dass sich da Widerspruch erhebt."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Claudia Roth",
-            "speakerstatus": "vice-president",
-            "text": "– Doch, sie ist ausgeteilt worden.",
-            "sentences": [
-              {
-                "text": "– Doch, sie ist ausgeteilt worden."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Claudia Roth",
-            "speakerstatus": "vice-president",
-            "text": "– Gucken Sie bitte noch mal nach. Die Drucksache ist wirklich gerade an alle ausgeteilt worden.",
-            "sentences": [
-              {
-                "text": "– Gucken Sie bitte noch mal nach."
-              },
-              {
-                "text": "Die Drucksache ist wirklich gerade an alle ausgeteilt worden."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Claudia Roth",
-            "speakerstatus": "vice-president",
-            "text": "Sind Sie trotzdem einverstanden, dass wir jetzt abstimmen?",
-            "sentences": [
-              {
-                "text": "Sind Sie trotzdem einverstanden, dass wir jetzt abstimmen?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Claudia Roth",
-            "speakerstatus": "vice-president",
-            "text": "– Alles klar, gut.",
-            "sentences": [
-              {
-                "text": "– Alles klar, gut."
-              }
-            ]
           }
         ]
       }
@@ -12012,7 +9638,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 2",
-      "speechIndex": 80,
+      "speechIndex": 1082,
       "title": "Aufhebung der Immunität"
     },
     "people": [
@@ -12025,12 +9651,45 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19097-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19097-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
         "originTextID": "",
         "textBody": [
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "Beratung der Beschlussempfehlung des Ausschusses für Wahlprüfung, Immunität und Geschäftsordnung",
+            "sentences": [
+              {
+                "text": "Beratung der Beschlussempfehlung des Ausschusses für Wahlprüfung, Immunität und Geschäftsordnung"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "(1. Ausschuss)",
+            "sentences": [
+              {
+                "text": "(1. Ausschuss)"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "Antrag auf Genehmigung zur Durchführung eines Strafverfahrens",
+            "sentences": [
+              {
+                "text": "Antrag auf Genehmigung zur Durchführung eines Strafverfahrens"
+              }
+            ]
+          },
           {
             "type": "speech",
             "speaker": "Claudia Roth",
@@ -12100,7 +9759,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 82,
+      "speechIndex": 1084,
       "title": "Aktuelle Stunde zum Stand der Wirtschaftsverfassung Deutschlands"
     },
     "people": [
@@ -12113,12 +9772,45 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19097-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19097-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
         "originTextID": "",
         "textBody": [
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "Aktuelle Stunde",
+            "sentences": [
+              {
+                "text": "Aktuelle Stunde"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "auf Verlangen der Fraktion der FDP",
+            "sentences": [
+              {
+                "text": "auf Verlangen der Fraktion der FDP"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "Stand der Wirtschaftsverfassung Deutschlands – Ein Plädoyer für die soziale Marktwirtschaft",
+            "sentences": [
+              {
+                "text": "Stand der Wirtschaftsverfassung Deutschlands – Ein Plädoyer für die soziale Marktwirtschaft"
+              }
+            ]
+          },
           {
             "type": "speech",
             "speaker": "Claudia Roth",
@@ -12159,7 +9851,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 83,
+      "speechIndex": 1085,
       "title": "Aktuelle Stunde zum Stand der Wirtschaftsverfassung Deutschlands"
     },
     "people": [
@@ -12180,7 +9872,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19097-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19097-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -12698,7 +10390,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 84,
+      "speechIndex": 1086,
       "title": "Aktuelle Stunde zum Stand der Wirtschaftsverfassung Deutschlands"
     },
     "people": [
@@ -12719,7 +10411,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19097-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19097-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -13451,7 +11143,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 85,
+      "speechIndex": 1087,
       "title": "Aktuelle Stunde zum Stand der Wirtschaftsverfassung Deutschlands"
     },
     "people": [
@@ -13472,7 +11164,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19097-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19097-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -13807,7 +11499,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 86,
+      "speechIndex": 1088,
       "title": "Aktuelle Stunde zum Stand der Wirtschaftsverfassung Deutschlands"
     },
     "people": [
@@ -13828,7 +11520,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19097-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19097-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -14240,7 +11932,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 87,
+      "speechIndex": 1089,
       "title": "Aktuelle Stunde zum Stand der Wirtschaftsverfassung Deutschlands"
     },
     "people": [
@@ -14261,7 +11953,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19097-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19097-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -14900,7 +12592,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 88,
+      "speechIndex": 1090,
       "title": "Aktuelle Stunde zum Stand der Wirtschaftsverfassung Deutschlands"
     },
     "people": [
@@ -14921,7 +12613,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19097-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19097-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -15494,7 +13186,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 89,
+      "speechIndex": 1091,
       "title": "Aktuelle Stunde zum Stand der Wirtschaftsverfassung Deutschlands"
     },
     "people": [
@@ -15515,7 +13207,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19097-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19097-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -16190,7 +13882,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 90,
+      "speechIndex": 1092,
       "title": "Aktuelle Stunde zum Stand der Wirtschaftsverfassung Deutschlands"
     },
     "people": [
@@ -16211,7 +13903,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19097-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19097-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -16711,7 +14403,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 91,
+      "speechIndex": 1093,
       "title": "Aktuelle Stunde zum Stand der Wirtschaftsverfassung Deutschlands"
     },
     "people": [
@@ -16732,7 +14424,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19097-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19097-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -17257,7 +14949,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 92,
+      "speechIndex": 1094,
       "title": "Aktuelle Stunde zum Stand der Wirtschaftsverfassung Deutschlands"
     },
     "people": [
@@ -17278,7 +14970,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19097-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19097-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -17960,7 +15652,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 93,
+      "speechIndex": 1095,
       "title": "Aktuelle Stunde zum Stand der Wirtschaftsverfassung Deutschlands"
     },
     "people": [
@@ -17981,7 +15673,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19097-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19097-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -18429,7 +16121,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 94,
+      "speechIndex": 1096,
       "title": "Aktuelle Stunde zum Stand der Wirtschaftsverfassung Deutschlands"
     },
     "people": [
@@ -18450,7 +16142,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19097-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19097-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -18878,7 +16570,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 95,
+      "speechIndex": 1097,
       "title": "Aktuelle Stunde zum Stand der Wirtschaftsverfassung Deutschlands"
     },
     "people": [
@@ -18899,7 +16591,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19097-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19097-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -19344,7 +17036,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 96,
+      "speechIndex": 1098,
       "title": "Aktuelle Stunde zum Stand der Wirtschaftsverfassung Deutschlands"
     },
     "people": [
@@ -19355,17 +17047,12 @@
         "lastname": "Metzler",
         "context": "main-speaker",
         "faction": "CDU/CSU"
-      },
-      {
-        "type": "memberOfParliament",
-        "label": "Wolfgang Kubicki",
-        "context": "vice-president"
       }
     ],
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19097-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19097-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -19693,18 +17380,55 @@
                 "text": "Herzlichen Dank für die Aufmerksamkeit."
               }
             ]
-          },
-          {
-            "type": "comment",
-            "speaker": null,
-            "speakerstatus": null,
-            "text": "(Beifall bei der CDU/CSU sowie des Abg. Falko Mohrs [SPD])",
-            "sentences": [
-              {
-                "text": "(Beifall bei der CDU/CSU sowie des Abg. Falko Mohrs [SPD])"
-              }
-            ]
-          },
+          }
+        ]
+      }
+    ],
+    "documents": [],
+    "key": "19-97 zusatzpunkt 1 (jan metzler)",
+    "dateStart": "2019-05-08T14:55:03",
+    "dateEnd": "2019-05-08T15:00:20",
+    "media": {
+      "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7352767/7352767_h264_720_400_2000kb_baseline_de_2192.mp4",
+      "sourcePage": "http://dbtg.tv/fvid/7352767",
+      "duration": 317.0,
+      "creator": "Deutscher Bundestag",
+      "license": "CC-BY-SA",
+      "originMediaID": "7352767",
+      "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7352767/7352767_mp3_128kb_stereo_de_128.mp3"
+    }
+  },
+  {
+    "parliament": "DE",
+    "electoralPeriod": {
+      "number": "19"
+    },
+    "session": {
+      "number": "97",
+      "dateStart": "2019-05-08T13:00",
+      "dateEnd": "2019-05-08T17:00"
+    },
+    "agendaItem": {
+      "officialTitle": "Zusatzpunkt 1",
+      "speechIndex": 1099,
+      "title": "Aktuelle Stunde zum Stand der Wirtschaftsverfassung Deutschlands"
+    },
+    "people": [
+      {
+        "type": "memberOfParliament",
+        "label": "Wolfgang Kubicki",
+        "context": "vice-president"
+      }
+    ],
+    "textContents": [
+      {
+        "type": "proceedings",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19097-data.xml",
+        "creator": "Deutscher Bundestag",
+        "license": "Public Domain",
+        "language": "DE-de",
+        "originTextID": "",
+        "textBody": [
           {
             "type": "speech",
             "speaker": "Wolfgang Kubicki",
@@ -19756,32 +17480,9 @@
       }
     ],
     "documents": [],
-    "key": "19-97 zusatzpunkt 1 (jan metzler)",
-    "dateStart": "2019-05-08T14:55:03",
-    "dateEnd": "2019-05-08T15:00:20",
-    "media": {
-      "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7352767/7352767_h264_720_400_2000kb_baseline_de_2192.mp4",
-      "sourcePage": "http://dbtg.tv/fvid/7352767",
-      "duration": 317.0,
-      "creator": "Deutscher Bundestag",
-      "license": "CC-BY-SA",
-      "originMediaID": "7352767",
-      "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7352767/7352767_mp3_128kb_stereo_de_128.mp3"
-    }
-  },
-  {
-    "parliament": "DE",
-    "electoralPeriod": {
-      "number": 19
-    },
-    "session": {
-      "number": 97
-    },
-    "agendaItem": {
-      "title": "Aktuelle Stunde zum Stand der Wirtschaftsverfassung Deutschlands",
-      "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 42
-    },
+    "key": "19-97 zusatzpunkt 1 (wolfgang kubicki)",
+    "dateStart": "2019-05-08T15:00:20",
+    "dateEnd": "2019-05-08T15:00:26",
     "media": {
       "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7352768/7352768_h264_720_400_2000kb_baseline_de_2192.mp4",
       "sourcePage": "http://dbtg.tv/fvid/7352768",
@@ -19790,18 +17491,7 @@
       "license": "CC-BY-SA",
       "originMediaID": "7352768",
       "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7352768/7352768_mp3_128kb_stereo_de_128.mp3"
-    },
-    "dateStart": "2019-05-08T15:00:20",
-    "dateEnd": "2019-05-08T15:00:26",
-    "people": [
-      {
-        "label": "Wolfgang Kubicki",
-        "faction": "FDP",
-        "context": "main-speaker",
-        "role": "Bundestagsvizepräsident"
-      }
-    ],
-    "key": "19-97 zusatzpunkt 1 (wolfgang kubicki)"
+    }
   },
   {
     "parliament": "DE",

@@ -11,7 +11,7 @@
     },
     "agendaItem": {
       "officialTitle": "Sitzungseröffnung",
-      "speechIndex": 0,
+      "speechIndex": 1000,
       "title": "Sitzungseröffnung"
     },
     "people": [
@@ -24,7 +24,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19125-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19125-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -76,7 +76,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 26",
-      "speechIndex": 2,
+      "speechIndex": 1002,
       "title": "Vereinbarte Debatte - 30 Jahre Mauerfall"
     },
     "people": [
@@ -89,7 +89,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19125-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19125-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -103,6 +103,28 @@
             "sentences": [
               {
                 "text": "Ich rufe Tagesordnungspunkt 26 auf:"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "Vereinbarte Debatte",
+            "sentences": [
+              {
+                "text": "Vereinbarte Debatte"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "30 Jahre Mauerfall",
+            "sentences": [
+              {
+                "text": "30 Jahre Mauerfall"
               }
             ]
           },
@@ -163,7 +185,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 26",
-      "speechIndex": 3,
+      "speechIndex": 1003,
       "title": "Vereinbarte Debatte - 30 Jahre Mauerfall"
     },
     "people": [
@@ -184,7 +206,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19125-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19125-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -832,7 +854,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 26",
-      "speechIndex": 4,
+      "speechIndex": 1004,
       "title": "Vereinbarte Debatte - 30 Jahre Mauerfall"
     },
     "people": [
@@ -853,7 +875,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19125-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19125-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -1416,7 +1438,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 26",
-      "speechIndex": 5,
+      "speechIndex": 1005,
       "title": "Vereinbarte Debatte - 30 Jahre Mauerfall"
     },
     "people": [
@@ -1437,7 +1459,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19125-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19125-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -1959,7 +1981,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 26",
-      "speechIndex": 6,
+      "speechIndex": 1006,
       "title": "Vereinbarte Debatte - 30 Jahre Mauerfall"
     },
     "people": [
@@ -1980,7 +2002,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19125-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19125-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -2784,7 +2806,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 26",
-      "speechIndex": 7,
+      "speechIndex": 1007,
       "title": "Vereinbarte Debatte - 30 Jahre Mauerfall"
     },
     "people": [
@@ -2805,7 +2827,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19125-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19125-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -3882,7 +3904,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 26",
-      "speechIndex": 8,
+      "speechIndex": 1008,
       "title": "Vereinbarte Debatte - 30 Jahre Mauerfall"
     },
     "people": [
@@ -3903,7 +3925,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19125-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19125-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -4390,7 +4412,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 26",
-      "speechIndex": 9,
+      "speechIndex": 1009,
       "title": "Vereinbarte Debatte - 30 Jahre Mauerfall"
     },
     "people": [
@@ -4411,7 +4433,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19125-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19125-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -4759,7 +4781,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 26",
-      "speechIndex": 10,
+      "speechIndex": 1010,
       "title": "Vereinbarte Debatte - 30 Jahre Mauerfall"
     },
     "people": [
@@ -4780,7 +4802,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19125-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19125-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -5540,7 +5562,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 26",
-      "speechIndex": 11,
+      "speechIndex": 1011,
       "title": "Vereinbarte Debatte - 30 Jahre Mauerfall"
     },
     "people": [
@@ -5561,7 +5583,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19125-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19125-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -5868,7 +5890,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 26",
-      "speechIndex": 12,
+      "speechIndex": 1012,
       "title": "Vereinbarte Debatte - 30 Jahre Mauerfall"
     },
     "people": [
@@ -5889,7 +5911,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19125-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19125-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -6124,7 +6146,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 26",
-      "speechIndex": 13,
+      "speechIndex": 1013,
       "title": "Vereinbarte Debatte - 30 Jahre Mauerfall"
     },
     "people": [
@@ -6145,7 +6167,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19125-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19125-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -6684,7 +6706,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 26",
-      "speechIndex": 14,
+      "speechIndex": 1014,
       "title": "Vereinbarte Debatte - 30 Jahre Mauerfall"
     },
     "people": [
@@ -6705,7 +6727,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19125-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19125-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -6913,7 +6935,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 26",
-      "speechIndex": 15,
+      "speechIndex": 1015,
       "title": "Vereinbarte Debatte - 30 Jahre Mauerfall"
     },
     "people": [
@@ -6934,7 +6956,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19125-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19125-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -7468,7 +7490,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 26",
-      "speechIndex": 16,
+      "speechIndex": 1016,
       "title": "Vereinbarte Debatte - 30 Jahre Mauerfall"
     },
     "people": [
@@ -7489,7 +7511,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19125-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19125-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -7811,7 +7833,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 26",
-      "speechIndex": 17,
+      "speechIndex": 1017,
       "title": "Vereinbarte Debatte - 30 Jahre Mauerfall"
     },
     "people": [
@@ -7832,7 +7854,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19125-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19125-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -8044,7 +8066,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 26",
-      "speechIndex": 18,
+      "speechIndex": 1018,
       "title": "Vereinbarte Debatte - 30 Jahre Mauerfall"
     },
     "people": [
@@ -8055,17 +8077,12 @@
         "lastname": "Hauptmann",
         "context": "main-speaker",
         "faction": "CDU/CSU"
-      },
-      {
-        "type": "memberOfParliament",
-        "label": "Wolfgang Schäuble",
-        "context": "president"
       }
     ],
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19125-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19125-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -8313,28 +8330,6 @@
                 "text": "Herzlichen Dank."
               }
             ]
-          },
-          {
-            "type": "comment",
-            "speaker": null,
-            "speakerstatus": null,
-            "text": "(Beifall bei der CDU/CSU und der FDP)",
-            "sentences": [
-              {
-                "text": "(Beifall bei der CDU/CSU und der FDP)"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Wolfgang Schäuble",
-            "speakerstatus": "president",
-            "text": "Damit schließe ich die Aussprache.",
-            "sentences": [
-              {
-                "text": "Damit schließe ich die Aussprache."
-              }
-            ]
           }
         ]
       }
@@ -8356,16 +8351,52 @@
   {
     "parliament": "DE",
     "electoralPeriod": {
-      "number": 19
+      "number": "19"
     },
     "session": {
-      "number": 125
+      "number": "125",
+      "dateStart": "2019-11-08T9:00",
+      "dateEnd": "2019-11-08T18:58"
     },
     "agendaItem": {
-      "title": "Vereinbarte Debatte - 30 Jahre Mauerfall",
       "officialTitle": "Tagesordnungspunkt 26",
-      "speechIndex": 19
+      "speechIndex": 1019,
+      "title": "Vereinbarte Debatte - 30 Jahre Mauerfall"
     },
+    "people": [
+      {
+        "type": "memberOfParliament",
+        "label": "Wolfgang Schäuble",
+        "context": "president"
+      }
+    ],
+    "textContents": [
+      {
+        "type": "proceedings",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19125-data.xml",
+        "creator": "Deutscher Bundestag",
+        "license": "Public Domain",
+        "language": "DE-de",
+        "originTextID": "",
+        "textBody": [
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "Damit schließe ich die Aussprache.",
+            "sentences": [
+              {
+                "text": "Damit schließe ich die Aussprache."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "documents": [],
+    "key": "19-125 tagesordnungspunkt 26 (wolfgang schauble) #1",
+    "dateStart": "2019-11-08T09:50:34",
+    "dateEnd": "2019-11-08T09:50:41",
     "media": {
       "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7400322/7400322_h264_720_400_2000kb_baseline_de_2192.mp4",
       "sourcePage": "http://dbtg.tv/fvid/7400322",
@@ -8374,18 +8405,7 @@
       "license": "CC-BY-SA",
       "originMediaID": "7400322",
       "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7400322/7400322_mp3_128kb_stereo_de_128.mp3"
-    },
-    "dateStart": "2019-11-08T09:50:34",
-    "dateEnd": "2019-11-08T09:50:41",
-    "people": [
-      {
-        "label": "Wolfgang Schäuble",
-        "faction": "CDU/CSU",
-        "context": "main-speaker",
-        "role": "Bundestagspräsident"
-      }
-    ],
-    "key": "19-125 tagesordnungspunkt 26 (wolfgang schauble) #1"
+    }
   },
   {
     "parliament": "DE",
@@ -8875,7 +8895,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 28",
-      "speechIndex": 33,
+      "speechIndex": 1034,
       "title": "Nationale Tourismusstrategie"
     },
     "people": [
@@ -8888,7 +8908,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19125-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19125-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -8902,6 +8922,61 @@
             "sentences": [
               {
                 "text": "Ich rufe den Tagesordnungspunkt 28 auf:"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Thomas Oppermann",
+            "speakerstatus": "vice-president",
+            "text": "Beratung der Beschlussempfehlung und des Berichts des Ausschusses für Tourismus (20. Ausschuss)",
+            "sentences": [
+              {
+                "text": "Beratung der Beschlussempfehlung und des Berichts des Ausschusses für Tourismus (20. Ausschuss)"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Thomas Oppermann",
+            "speakerstatus": "vice-president",
+            "text": "–zu dem Antrag der Fraktionen der CDU/CSU und SPD",
+            "sentences": [
+              {
+                "text": "–zu dem Antrag der Fraktionen der CDU/CSU und SPD"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Thomas Oppermann",
+            "speakerstatus": "vice-president",
+            "text": "Mit nationaler Tourismusstrategie den Standort Deutschland weiter stärken",
+            "sentences": [
+              {
+                "text": "Mit nationaler Tourismusstrategie den Standort Deutschland weiter stärken"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Thomas Oppermann",
+            "speakerstatus": "vice-president",
+            "text": "–zu dem Antrag der Abgeordneten Markus Tressel, Stefan Schmidt, Matthias Gastel, weiterer Abgeordneter und der Fraktion BÜNDNIS 90/DIE GRÜNEN",
+            "sentences": [
+              {
+                "text": "–zu dem Antrag der Abgeordneten Markus Tressel, Stefan Schmidt, Matthias Gastel, weiterer Abgeordneter und der Fraktion BÜNDNIS 90/DIE GRÜNEN"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Thomas Oppermann",
+            "speakerstatus": "vice-president",
+            "text": "Nationale Tourismusstrategie fair, sozial, ökologisch und klimafreundlich gestalten",
+            "sentences": [
+              {
+                "text": "Nationale Tourismusstrategie fair, sozial, ökologisch und klimafreundlich gestalten"
               }
             ]
           },
@@ -8978,7 +9053,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 28",
-      "speechIndex": 34,
+      "speechIndex": 1035,
       "title": "Nationale Tourismusstrategie"
     },
     "people": [
@@ -8999,7 +9074,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19125-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19125-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -9533,7 +9608,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 28",
-      "speechIndex": 35,
+      "speechIndex": 1036,
       "title": "Nationale Tourismusstrategie"
     },
     "people": [
@@ -9554,7 +9629,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19125-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19125-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -10164,7 +10239,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 28",
-      "speechIndex": 36,
+      "speechIndex": 1037,
       "title": "Nationale Tourismusstrategie"
     },
     "people": [
@@ -10185,7 +10260,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19125-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19125-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -10599,7 +10674,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 28",
-      "speechIndex": 37,
+      "speechIndex": 1038,
       "title": "Nationale Tourismusstrategie"
     },
     "people": [
@@ -10620,7 +10695,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19125-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19125-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -11374,7 +11449,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 28",
-      "speechIndex": 38,
+      "speechIndex": 1039,
       "title": "Nationale Tourismusstrategie"
     },
     "people": [
@@ -11395,7 +11470,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19125-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19125-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -11804,7 +11879,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 28",
-      "speechIndex": 39,
+      "speechIndex": 1040,
       "title": "Nationale Tourismusstrategie"
     },
     "people": [
@@ -11825,7 +11900,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19125-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19125-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -12273,7 +12348,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 28",
-      "speechIndex": 40,
+      "speechIndex": 1041,
       "title": "Nationale Tourismusstrategie"
     },
     "people": [
@@ -12294,7 +12369,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19125-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19125-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -12699,7 +12774,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 28",
-      "speechIndex": 41,
+      "speechIndex": 1042,
       "title": "Nationale Tourismusstrategie"
     },
     "people": [
@@ -12720,7 +12795,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19125-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19125-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -13037,7 +13112,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 28",
-      "speechIndex": 42,
+      "speechIndex": 1043,
       "title": "Nationale Tourismusstrategie"
     },
     "people": [
@@ -13058,7 +13133,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19125-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19125-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -13461,7 +13536,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 28",
-      "speechIndex": 43,
+      "speechIndex": 1044,
       "title": "Nationale Tourismusstrategie"
     },
     "people": [
@@ -13482,7 +13557,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19125-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19125-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -13900,7 +13975,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 28",
-      "speechIndex": 44,
+      "speechIndex": 1045,
       "title": "Nationale Tourismusstrategie"
     },
     "people": [
@@ -13921,7 +13996,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19125-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19125-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -14169,7 +14244,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 28",
-      "speechIndex": 45,
+      "speechIndex": 1046,
       "title": "Nationale Tourismusstrategie"
     },
     "people": [
@@ -14182,7 +14257,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19125-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19125-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -14288,7 +14363,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 29",
-      "speechIndex": 46,
+      "speechIndex": 1047,
       "title": "Pflegeversicherung"
     },
     "people": [
@@ -14301,7 +14376,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19125-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19125-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -14315,6 +14390,28 @@
             "sentences": [
               {
                 "text": "Ich rufe den Tagesordnungspunkt 29 auf:"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "Beratung des Antrags der Abgeordneten Kordula Schulz-Asche, Maria Klein-Schmeink, Dr. Kirsten Kappert-Gonther, weiterer Abgeordneter und der Fraktion BÜNDNIS 90/DIE GRÜNEN",
+            "sentences": [
+              {
+                "text": "Beratung des Antrags der Abgeordneten Kordula Schulz-Asche, Maria Klein-Schmeink, Dr. Kirsten Kappert-Gonther, weiterer Abgeordneter und der Fraktion BÜNDNIS 90/DIE GRÜNEN"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "Die Pflegeversicherung verlässlich und solidarisch gestalten – Die doppelte Pflegegarantie umsetzen",
+            "sentences": [
+              {
+                "text": "Die Pflegeversicherung verlässlich und solidarisch gestalten – Die doppelte Pflegegarantie umsetzen"
               }
             ]
           },
@@ -14392,7 +14489,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 29",
-      "speechIndex": 47,
+      "speechIndex": 1048,
       "title": "Pflegeversicherung"
     },
     "people": [
@@ -14413,7 +14510,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19125-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19125-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -14781,7 +14878,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 29",
-      "speechIndex": 48,
+      "speechIndex": 1049,
       "title": "Pflegeversicherung"
     },
     "people": [
@@ -14802,7 +14899,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19125-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19125-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -15069,7 +15166,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 29",
-      "speechIndex": 49,
+      "speechIndex": 1050,
       "title": "Pflegeversicherung"
     },
     "people": [
@@ -15090,7 +15187,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19125-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19125-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -15382,7 +15479,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 29",
-      "speechIndex": 50,
+      "speechIndex": 1051,
       "title": "Pflegeversicherung"
     },
     "people": [
@@ -15403,7 +15500,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19125-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19125-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -15866,7 +15963,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 29",
-      "speechIndex": 51,
+      "speechIndex": 1052,
       "title": "Pflegeversicherung"
     },
     "people": [
@@ -15887,7 +15984,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19125-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19125-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -16311,7 +16408,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 29",
-      "speechIndex": 52,
+      "speechIndex": 1053,
       "title": "Pflegeversicherung"
     },
     "people": [
@@ -16332,7 +16429,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19125-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19125-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -16676,7 +16773,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 29",
-      "speechIndex": 53,
+      "speechIndex": 1054,
       "title": "Pflegeversicherung"
     },
     "people": [
@@ -16697,7 +16794,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19125-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19125-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -17052,7 +17149,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 29",
-      "speechIndex": 54,
+      "speechIndex": 1055,
       "title": "Pflegeversicherung"
     },
     "people": [
@@ -17073,7 +17170,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19125-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19125-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -17398,7 +17495,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 29",
-      "speechIndex": 55,
+      "speechIndex": 1056,
       "title": "Pflegeversicherung"
     },
     "people": [
@@ -17419,7 +17516,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19125-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19125-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -17800,7 +17897,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 29",
-      "speechIndex": 56,
+      "speechIndex": 1057,
       "title": "Pflegeversicherung"
     },
     "people": [
@@ -17821,7 +17918,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19125-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19125-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -18307,7 +18404,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 29",
-      "speechIndex": 57,
+      "speechIndex": 1058,
       "title": "Pflegeversicherung"
     },
     "people": [
@@ -18328,7 +18425,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19125-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19125-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -18730,7 +18827,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 29",
-      "speechIndex": 58,
+      "speechIndex": 1059,
       "title": "Pflegeversicherung"
     },
     "people": [
@@ -18743,7 +18840,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19125-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19125-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -19144,7 +19241,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 31",
-      "speechIndex": 69,
+      "speechIndex": 1070,
       "title": "Änderung der Geschäftsordnung - Petitionen -"
     },
     "people": [
@@ -19157,7 +19254,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19125-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19125-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -19171,6 +19268,28 @@
             "sentences": [
               {
                 "text": "Ich rufe den Tagesordnungspunkt 31 auf:"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "Beratung des Antrags der Abgeordneten Thomas Seitz, Johannes Huber, Andreas Bleck, weiterer Abgeordneter und der Fraktion der AfD",
+            "sentences": [
+              {
+                "text": "Beratung des Antrags der Abgeordneten Thomas Seitz, Johannes Huber, Andreas Bleck, weiterer Abgeordneter und der Fraktion der AfD"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "Bürgereingaben ernst nehmen – Änderung der Geschäftsordnung des Deutschen Bundestages – Verbindliche Regelungen für öffentliche Petitionen",
+            "sentences": [
+              {
+                "text": "Bürgereingaben ernst nehmen – Änderung der Geschäftsordnung des Deutschen Bundestages – Verbindliche Regelungen für öffentliche Petitionen"
               }
             ]
           },
@@ -19251,7 +19370,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 31",
-      "speechIndex": 70,
+      "speechIndex": 1071,
       "title": "Änderung der Geschäftsordnung - Petitionen -"
     },
     "people": [
@@ -19272,7 +19391,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19125-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19125-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -19854,7 +19973,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 31",
-      "speechIndex": 71,
+      "speechIndex": 1072,
       "title": "Änderung der Geschäftsordnung - Petitionen -"
     },
     "people": [
@@ -19875,7 +19994,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19125-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19125-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -20491,7 +20610,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 31",
-      "speechIndex": 72,
+      "speechIndex": 1073,
       "title": "Änderung der Geschäftsordnung - Petitionen -"
     },
     "people": [
@@ -20512,7 +20631,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19125-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19125-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -20972,7 +21091,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 31",
-      "speechIndex": 73,
+      "speechIndex": 1074,
       "title": "Änderung der Geschäftsordnung - Petitionen -"
     },
     "people": [
@@ -20993,7 +21112,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19125-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19125-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -21432,7 +21551,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 31",
-      "speechIndex": 74,
+      "speechIndex": 1075,
       "title": "Änderung der Geschäftsordnung - Petitionen -"
     },
     "people": [
@@ -21453,7 +21572,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19125-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19125-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -21849,7 +21968,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 31",
-      "speechIndex": 75,
+      "speechIndex": 1076,
       "title": "Änderung der Geschäftsordnung - Petitionen -"
     },
     "people": [
@@ -21870,7 +21989,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19125-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19125-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -22228,7 +22347,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 31",
-      "speechIndex": 76,
+      "speechIndex": 1077,
       "title": "Änderung der Geschäftsordnung - Petitionen -"
     },
     "people": [
@@ -22249,7 +22368,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19125-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19125-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -22720,7 +22839,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 31",
-      "speechIndex": 77,
+      "speechIndex": 1078,
       "title": "Änderung der Geschäftsordnung - Petitionen -"
     },
     "people": [
@@ -22741,7 +22860,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19125-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19125-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -23228,7 +23347,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 31",
-      "speechIndex": 78,
+      "speechIndex": 1079,
       "title": "Änderung der Geschäftsordnung - Petitionen -"
     },
     "people": [
@@ -23241,7 +23360,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19125-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19125-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -23302,7 +23421,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 30",
-      "speechIndex": 79,
+      "speechIndex": 1080,
       "title": "Sportereignis \"Invictus Games\""
     },
     "people": [
@@ -23315,7 +23434,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19125-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19125-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -23329,6 +23448,28 @@
             "sentences": [
               {
                 "text": "Ich rufe den Tagesordnungspunkt 30 auf:"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Kubicki",
+            "speakerstatus": "vice-president",
+            "text": "Beratung der Beschlussempfehlung und des Berichts des Sportausschusses (5. Ausschuss) zu dem Antrag der Fraktionen der CDU/CSU und SPD",
+            "sentences": [
+              {
+                "text": "Beratung der Beschlussempfehlung und des Berichts des Sportausschusses (5. Ausschuss) zu dem Antrag der Fraktionen der CDU/CSU und SPD"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Kubicki",
+            "speakerstatus": "vice-president",
+            "text": "Invictus Games – Das Sportereignis der versehrten Soldatinnen und Soldaten als ein deutliches Zeichen der Anerkennung und Wertschätzung nach Deutschland holen",
+            "sentences": [
+              {
+                "text": "Invictus Games – Das Sportereignis der versehrten Soldatinnen und Soldaten als ein deutliches Zeichen der Anerkennung und Wertschätzung nach Deutschland holen"
               }
             ]
           },
@@ -23400,7 +23541,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 30",
-      "speechIndex": 80,
+      "speechIndex": 1081,
       "title": "Sportereignis \"Invictus Games\""
     },
     "people": [
@@ -23421,7 +23562,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19125-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19125-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -23779,7 +23920,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 30",
-      "speechIndex": 81,
+      "speechIndex": 1082,
       "title": "Sportereignis \"Invictus Games\""
     },
     "people": [
@@ -23800,7 +23941,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19125-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19125-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -24178,7 +24319,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 30",
-      "speechIndex": 82,
+      "speechIndex": 1083,
       "title": "Sportereignis \"Invictus Games\""
     },
     "people": [
@@ -24199,7 +24340,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19125-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19125-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -24422,7 +24563,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 30",
-      "speechIndex": 83,
+      "speechIndex": 1084,
       "title": "Sportereignis \"Invictus Games\""
     },
     "people": [
@@ -24443,7 +24584,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19125-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19125-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -24743,7 +24884,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 30",
-      "speechIndex": 84,
+      "speechIndex": 1085,
       "title": "Sportereignis \"Invictus Games\""
     },
     "people": [
@@ -24764,7 +24905,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19125-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19125-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -25084,7 +25225,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 30",
-      "speechIndex": 85,
+      "speechIndex": 1086,
       "title": "Sportereignis \"Invictus Games\""
     },
     "people": [
@@ -25105,7 +25246,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19125-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19125-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -25402,7 +25543,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 30",
-      "speechIndex": 86,
+      "speechIndex": 1087,
       "title": "Sportereignis \"Invictus Games\""
     },
     "people": [
@@ -25423,7 +25564,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19125-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19125-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -25726,7 +25867,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 30",
-      "speechIndex": 87,
+      "speechIndex": 1088,
       "title": "Sportereignis \"Invictus Games\""
     },
     "people": [
@@ -25747,7 +25888,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19125-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19125-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -25966,7 +26107,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 30",
-      "speechIndex": 88,
+      "speechIndex": 1089,
       "title": "Sportereignis \"Invictus Games\""
     },
     "people": [
@@ -25979,7 +26120,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19125-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19125-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -26048,7 +26189,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 33",
-      "speechIndex": 89,
+      "speechIndex": 1090,
       "title": "Chancengleichheit in der Bildung"
     },
     "people": [
@@ -26061,7 +26202,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19125-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19125-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -26075,6 +26216,127 @@
             "sentences": [
               {
                 "text": "Ich rufe den Tagesordnungspunkt 33 auf:"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Kubicki",
+            "speakerstatus": "vice-president",
+            "text": "Beratung der Beschlussempfehlung und des Berichts des Ausschusses für Bildung, Forschung und Technikfolgenabschätzung (18. Ausschuss)",
+            "sentences": [
+              {
+                "text": "Beratung der Beschlussempfehlung und des Berichts des Ausschusses für Bildung, Forschung und Technikfolgenabschätzung (18. Ausschuss)"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Kubicki",
+            "speakerstatus": "vice-president",
+            "text": "–zu dem Antrag der Fraktionen der CDU/CSU und SPD",
+            "sentences": [
+              {
+                "text": "–zu dem Antrag der Fraktionen der CDU/CSU und SPD"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Kubicki",
+            "speakerstatus": "vice-president",
+            "text": "Gemeinsame Initiative von Bund und Ländern zur Förderung von Schulen in benachteiligten sozialen Lagen und mit besonderen Aufgaben der Integration",
+            "sentences": [
+              {
+                "text": "Gemeinsame Initiative von Bund und Ländern zur Förderung von Schulen in benachteiligten sozialen Lagen und mit besonderen Aufgaben der Integration"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Kubicki",
+            "speakerstatus": "vice-president",
+            "text": "–zu dem Antrag der Abgeordneten Dr. Götz Frömming, Nicole Höchst, Dr. Marc Jongen, weiterer Abgeordneter und der Fraktion der AfD",
+            "sentences": [
+              {
+                "text": "–zu dem Antrag der Abgeordneten Dr. Götz Frömming, Nicole Höchst, Dr. Marc Jongen, weiterer Abgeordneter und der Fraktion der AfD"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Kubicki",
+            "speakerstatus": "vice-president",
+            "text": "Bildungsgerechtigkeit wiederherstellen – Leistungsgedanken stärken",
+            "sentences": [
+              {
+                "text": "Bildungsgerechtigkeit wiederherstellen – Leistungsgedanken stärken"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Kubicki",
+            "speakerstatus": "vice-president",
+            "text": "–zu dem Antrag der Abgeordneten Nicola Beer, Katja Suding, Dr. Jens Brandenburg (Rhein-Neckar), weiterer Abgeordneter und der Fraktion der FDP",
+            "sentences": [
+              {
+                "text": "–zu dem Antrag der Abgeordneten Nicola Beer, Katja Suding, Dr. Jens Brandenburg (Rhein-Neckar), weiterer Abgeordneter und der Fraktion der FDP"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Kubicki",
+            "speakerstatus": "vice-president",
+            "text": "Chancengerechtigkeit ernst nehmen – Leistungsfähigkeit des Bildungssystems voranbringen",
+            "sentences": [
+              {
+                "text": "Chancengerechtigkeit ernst nehmen – Leistungsfähigkeit des Bildungssystems voranbringen"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Kubicki",
+            "speakerstatus": "vice-president",
+            "text": "–zu dem Antrag der Abgeordneten Birke Bull-Bischoff, Dr. Petra Sitte, Doris Achelwilm, weiterer Abgeordneter und der Fraktion DIE LINKE",
+            "sentences": [
+              {
+                "text": "–zu dem Antrag der Abgeordneten Birke Bull-Bischoff, Dr. Petra Sitte, Doris Achelwilm, weiterer Abgeordneter und der Fraktion DIE LINKE"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Kubicki",
+            "speakerstatus": "vice-president",
+            "text": "Für eine gemeinsame Bildungsstrategie zum Abbau sozialer Ungleichheit",
+            "sentences": [
+              {
+                "text": "Für eine gemeinsame Bildungsstrategie zum Abbau sozialer Ungleichheit"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Kubicki",
+            "speakerstatus": "vice-president",
+            "text": "–zu dem Antrag der Abgeordneten Margit Stumpp, Kai Gehring, Beate Walter-Rosenheimer, weiterer Abgeordneter und der Fraktion BÜNDNIS 90/DIE GRÜNEN",
+            "sentences": [
+              {
+                "text": "–zu dem Antrag der Abgeordneten Margit Stumpp, Kai Gehring, Beate Walter-Rosenheimer, weiterer Abgeordneter und der Fraktion BÜNDNIS 90/DIE GRÜNEN"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Kubicki",
+            "speakerstatus": "vice-president",
+            "text": "Nationaler Bildungsbericht 2018 – Zeit für einen bildungspolitischen Aufbruch",
+            "sentences": [
+              {
+                "text": "Nationaler Bildungsbericht 2018 – Zeit für einen bildungspolitischen Aufbruch"
               }
             ]
           },
@@ -26177,7 +26439,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 33",
-      "speechIndex": 90,
+      "speechIndex": 1091,
       "title": "Chancengleichheit in der Bildung"
     },
     "people": [
@@ -26198,7 +26460,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19125-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19125-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -26445,7 +26707,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 33",
-      "speechIndex": 91,
+      "speechIndex": 1092,
       "title": "Chancengleichheit in der Bildung"
     },
     "people": [
@@ -26466,7 +26728,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19125-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19125-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -26763,7 +27025,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 33",
-      "speechIndex": 92,
+      "speechIndex": 1093,
       "title": "Chancengleichheit in der Bildung"
     },
     "people": [
@@ -26784,7 +27046,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19125-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19125-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -27106,7 +27368,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 33",
-      "speechIndex": 93,
+      "speechIndex": 1094,
       "title": "Chancengleichheit in der Bildung"
     },
     "people": [
@@ -27127,7 +27389,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19125-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19125-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -27440,7 +27702,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 33",
-      "speechIndex": 94,
+      "speechIndex": 1095,
       "title": "Chancengleichheit in der Bildung"
     },
     "people": [
@@ -27461,7 +27723,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19125-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19125-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -27875,7 +28137,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 33",
-      "speechIndex": 98,
+      "speechIndex": 1099,
       "title": "Chancengleichheit in der Bildung"
     },
     "people": [
@@ -27888,7 +28150,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19125-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19125-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -28077,7 +28339,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 33",
-      "speechIndex": 95,
+      "speechIndex": 1096,
       "title": "Chancengleichheit in der Bildung"
     },
     "people": [
@@ -28098,7 +28360,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19125-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19125-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -28412,7 +28674,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 33",
-      "speechIndex": 96,
+      "speechIndex": 1097,
       "title": "Chancengleichheit in der Bildung"
     },
     "people": [
@@ -28433,7 +28695,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19125-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19125-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -28791,7 +29053,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 33",
-      "speechIndex": 97,
+      "speechIndex": 1098,
       "title": "Chancengleichheit in der Bildung"
     },
     "people": [
@@ -28812,7 +29074,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19125-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19125-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -29162,7 +29424,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 34",
-      "speechIndex": 99,
+      "speechIndex": 1100,
       "title": "Kapitalinteressen in der Gesundheitsversorgung"
     },
     "people": [
@@ -29175,7 +29437,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19125-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19125-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -29189,6 +29451,28 @@
             "sentences": [
               {
                 "text": "Ich rufe den Tagesordnungspunkt 34 auf:"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Kubicki",
+            "speakerstatus": "vice-president",
+            "text": "Beratung des Antrags der Abgeordneten Dr. Achim Kessler, Susanne Ferschl, Matthias W. Birkwald, weiterer Abgeordneter und der Fraktion DIE LINKE",
+            "sentences": [
+              {
+                "text": "Beratung des Antrags der Abgeordneten Dr. Achim Kessler, Susanne Ferschl, Matthias W. Birkwald, weiterer Abgeordneter und der Fraktion DIE LINKE"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Kubicki",
+            "speakerstatus": "vice-president",
+            "text": "Kapitalinteressen in der Gesundheitsversorgung offenlegen",
+            "sentences": [
+              {
+                "text": "Kapitalinteressen in der Gesundheitsversorgung offenlegen"
               }
             ]
           },
@@ -29269,7 +29553,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 34",
-      "speechIndex": 100,
+      "speechIndex": 1101,
       "title": "Kapitalinteressen in der Gesundheitsversorgung"
     },
     "people": [
@@ -29290,7 +29574,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19125-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19125-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -29669,7 +29953,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 34",
-      "speechIndex": 101,
+      "speechIndex": 1102,
       "title": "Kapitalinteressen in der Gesundheitsversorgung"
     },
     "people": [
@@ -29690,7 +29974,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19125-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19125-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -30105,7 +30389,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 34",
-      "speechIndex": 102,
+      "speechIndex": 1103,
       "title": "Kapitalinteressen in der Gesundheitsversorgung"
     },
     "people": [
@@ -30126,7 +30410,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19125-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19125-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -30480,7 +30764,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 34",
-      "speechIndex": 103,
+      "speechIndex": 1104,
       "title": "Kapitalinteressen in der Gesundheitsversorgung"
     },
     "people": [
@@ -30501,7 +30785,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19125-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19125-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -30883,7 +31167,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 34",
-      "speechIndex": 104,
+      "speechIndex": 1105,
       "title": "Kapitalinteressen in der Gesundheitsversorgung"
     },
     "people": [
@@ -30904,7 +31188,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19125-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19125-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -31233,7 +31517,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 34",
-      "speechIndex": 105,
+      "speechIndex": 1106,
       "title": "Kapitalinteressen in der Gesundheitsversorgung"
     },
     "people": [
@@ -31254,7 +31538,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19125-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19125-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -31598,7 +31882,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 34",
-      "speechIndex": 106,
+      "speechIndex": 1107,
       "title": "Kapitalinteressen in der Gesundheitsversorgung"
     },
     "people": [
@@ -31619,7 +31903,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19125-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19125-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -31964,7 +32248,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 34",
-      "speechIndex": 107,
+      "speechIndex": 1108,
       "title": "Kapitalinteressen in der Gesundheitsversorgung"
     },
     "people": [
@@ -31985,7 +32269,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19125-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19125-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -32297,7 +32581,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 34",
-      "speechIndex": 108,
+      "speechIndex": 1109,
       "title": "Kapitalinteressen in der Gesundheitsversorgung"
     },
     "people": [
@@ -32318,7 +32602,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19125-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19125-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -32615,7 +32899,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 34",
-      "speechIndex": 109,
+      "speechIndex": 1110,
       "title": "Kapitalinteressen in der Gesundheitsversorgung"
     },
     "people": [
@@ -32628,7 +32912,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19125-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19125-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -32689,7 +32973,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 12",
-      "speechIndex": 110,
+      "speechIndex": 1111,
       "title": "Aktuelle Stunde - Durchsetzung des Rechtsstaates im Fall Ibrahim Miri"
     },
     "people": [
@@ -32702,7 +32986,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19125-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19125-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -32716,6 +33000,39 @@
             "sentences": [
               {
                 "text": "Ich rufe den Zusatzpunkt 12 auf:"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Petra Pau",
+            "speakerstatus": "vice-president",
+            "text": "Aktuelle Stunde",
+            "sentences": [
+              {
+                "text": "Aktuelle Stunde"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Petra Pau",
+            "speakerstatus": "vice-president",
+            "text": "auf Verlangen der Fraktion der FDP",
+            "sentences": [
+              {
+                "text": "auf Verlangen der Fraktion der FDP"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Petra Pau",
+            "speakerstatus": "vice-president",
+            "text": "Durchsetzung des Rechtsstaats im Fall Ibrahim Miri",
+            "sentences": [
+              {
+                "text": "Durchsetzung des Rechtsstaats im Fall Ibrahim Miri"
               }
             ]
           },
@@ -32773,7 +33090,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 12",
-      "speechIndex": 111,
+      "speechIndex": 1112,
       "title": "Aktuelle Stunde - Durchsetzung des Rechtsstaates im Fall Ibrahim Miri"
     },
     "people": [
@@ -32794,7 +33111,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19125-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19125-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -33347,7 +33664,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 12",
-      "speechIndex": 112,
+      "speechIndex": 1113,
       "title": "Aktuelle Stunde - Durchsetzung des Rechtsstaates im Fall Ibrahim Miri"
     },
     "people": [
@@ -33368,7 +33685,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19125-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19125-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -34622,7 +34939,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 12",
-      "speechIndex": 113,
+      "speechIndex": 1114,
       "title": "Aktuelle Stunde - Durchsetzung des Rechtsstaates im Fall Ibrahim Miri"
     },
     "people": [
@@ -34643,7 +34960,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19125-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19125-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -35112,7 +35429,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 12",
-      "speechIndex": 114,
+      "speechIndex": 1115,
       "title": "Aktuelle Stunde - Durchsetzung des Rechtsstaates im Fall Ibrahim Miri"
     },
     "people": [
@@ -35133,7 +35450,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19125-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19125-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -35584,7 +35901,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 12",
-      "speechIndex": 115,
+      "speechIndex": 1116,
       "title": "Aktuelle Stunde - Durchsetzung des Rechtsstaates im Fall Ibrahim Miri"
     },
     "people": [
@@ -35605,7 +35922,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19125-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19125-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -36058,7 +36375,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 12",
-      "speechIndex": 116,
+      "speechIndex": 1117,
       "title": "Aktuelle Stunde - Durchsetzung des Rechtsstaates im Fall Ibrahim Miri"
     },
     "people": [
@@ -36079,7 +36396,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19125-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19125-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -36639,7 +36956,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 12",
-      "speechIndex": 117,
+      "speechIndex": 1118,
       "title": "Aktuelle Stunde - Durchsetzung des Rechtsstaates im Fall Ibrahim Miri"
     },
     "people": [
@@ -36660,7 +36977,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19125-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19125-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -37267,7 +37584,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 12",
-      "speechIndex": 118,
+      "speechIndex": 1119,
       "title": "Aktuelle Stunde - Durchsetzung des Rechtsstaates im Fall Ibrahim Miri"
     },
     "people": [
@@ -37288,7 +37605,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19125-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19125-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -37967,7 +38284,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 12",
-      "speechIndex": 119,
+      "speechIndex": 1120,
       "title": "Aktuelle Stunde - Durchsetzung des Rechtsstaates im Fall Ibrahim Miri"
     },
     "people": [
@@ -37988,7 +38305,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19125-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19125-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -38406,7 +38723,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 12",
-      "speechIndex": 120,
+      "speechIndex": 1121,
       "title": "Aktuelle Stunde - Durchsetzung des Rechtsstaates im Fall Ibrahim Miri"
     },
     "people": [
@@ -38427,7 +38744,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19125-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19125-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -38942,7 +39259,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 12",
-      "speechIndex": 121,
+      "speechIndex": 1122,
       "title": "Aktuelle Stunde - Durchsetzung des Rechtsstaates im Fall Ibrahim Miri"
     },
     "people": [
@@ -38963,7 +39280,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19125-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19125-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -39666,7 +39983,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 12",
-      "speechIndex": 122,
+      "speechIndex": 1123,
       "title": "Aktuelle Stunde - Durchsetzung des Rechtsstaates im Fall Ibrahim Miri"
     },
     "people": [
@@ -39687,7 +40004,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19125-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19125-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -40254,7 +40571,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 12",
-      "speechIndex": 123,
+      "speechIndex": 1124,
       "title": "Aktuelle Stunde - Durchsetzung des Rechtsstaates im Fall Ibrahim Miri"
     },
     "people": [
@@ -40275,7 +40592,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19125-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19125-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -40683,7 +41000,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 12",
-      "speechIndex": 124,
+      "speechIndex": 1125,
       "title": "Aktuelle Stunde - Durchsetzung des Rechtsstaates im Fall Ibrahim Miri"
     },
     "people": [
@@ -40699,7 +41016,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19125-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19125-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -41212,7 +41529,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 12",
-      "speechIndex": 125,
+      "speechIndex": 1126,
       "title": "Aktuelle Stunde - Durchsetzung des Rechtsstaates im Fall Ibrahim Miri"
     },
     "people": [
@@ -41225,7 +41542,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19125-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19125-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",

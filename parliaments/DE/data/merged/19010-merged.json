@@ -11,7 +11,7 @@
     },
     "agendaItem": {
       "officialTitle": "Sitzungseröffnung",
-      "speechIndex": 0,
+      "speechIndex": 1000,
       "title": "Sitzungseröffnung"
     },
     "people": [
@@ -24,7 +24,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19010-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19010-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -73,7 +73,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 2,
+      "speechIndex": 1002,
       "title": "Befragung der Bundesregierung"
     },
     "people": [
@@ -86,12 +86,23 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19010-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19010-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
         "originTextID": "",
         "textBody": [
+          {
+            "type": "speech",
+            "speaker": "Petra Pau",
+            "speakerstatus": "vice-president",
+            "text": "Befragung der Bundesregierung",
+            "sentences": [
+              {
+                "text": "Befragung der Bundesregierung"
+              }
+            ]
+          },
           {
             "type": "speech",
             "speaker": "Petra Pau",
@@ -146,7 +157,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 3,
+      "speechIndex": 1003,
       "title": "Befragung der Bundesregierung"
     },
     "people": [
@@ -167,7 +178,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19010-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19010-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -456,7 +467,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 22,
+      "speechIndex": 1022,
       "title": "Befragung der Bundesregierung"
     },
     "people": [
@@ -477,7 +488,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19010-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19010-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -554,7 +565,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 5,
+      "speechIndex": 1005,
       "title": "Befragung der Bundesregierung"
     },
     "people": [
@@ -575,7 +586,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19010-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19010-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -668,16 +679,52 @@
   {
     "parliament": "DE",
     "electoralPeriod": {
-      "number": 19
+      "number": "19"
     },
     "session": {
-      "number": 10
+      "number": "10",
+      "dateStart": "2018-01-31T14:30",
+      "dateEnd": "2018-01-31T18:24"
     },
     "agendaItem": {
-      "title": "Befragung der Bundesregierung",
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 6
+      "speechIndex": 1049,
+      "title": "Befragung der Bundesregierung"
     },
+    "people": [
+      {
+        "type": "memberOfParliament",
+        "label": "Petra Pau",
+        "context": "vice-president"
+      }
+    ],
+    "textContents": [
+      {
+        "type": "proceedings",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19010-data.xml",
+        "creator": "Deutscher Bundestag",
+        "license": "Public Domain",
+        "language": "DE-de",
+        "originTextID": "",
+        "textBody": [
+          {
+            "type": "speech",
+            "speaker": "Petra Pau",
+            "speakerstatus": "vice-president",
+            "text": "Ich danke der Frau Ministerin, den Staatssekretären und Kolleginnen und Kollegen, die ansonsten an der Beantwortung beteiligt waren, und natürlich allen Kolleginnen und Kollegen Fragestellern und beende damit die Regierungsbefragung.",
+            "sentences": [
+              {
+                "text": "Ich danke der Frau Ministerin, den Staatssekretären und Kolleginnen und Kollegen, die ansonsten an der Beantwortung beteiligt waren, und natürlich allen Kolleginnen und Kollegen Fragestellern und beende damit die Regierungsbefragung."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "documents": [],
+    "key": "19-10 tagesordnungspunkt 1 (petra pau) #1",
+    "dateStart": "2018-01-31T14:02:42",
+    "dateEnd": "2018-01-31T14:03:41",
     "media": {
       "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7197533/7197533_h264_720_400_2000kb_baseline_de_2192.mp4",
       "sourcePage": "http://dbtg.tv/fvid/7197533",
@@ -686,18 +733,7 @@
       "license": "CC-BY-SA",
       "originMediaID": "7197533",
       "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7197533/7197533_mp3_128kb_stereo_de_128.mp3"
-    },
-    "dateStart": "2018-01-31T14:02:42",
-    "dateEnd": "2018-01-31T14:03:41",
-    "people": [
-      {
-        "label": "Petra Pau",
-        "faction": "Die Linke",
-        "context": "main-speaker",
-        "role": "Bundestagsvizepräsidentin"
-      }
-    ],
-    "key": "19-10 tagesordnungspunkt 1 (petra pau) #1"
+    }
   },
   {
     "parliament": "DE",
@@ -711,7 +747,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 29,
+      "speechIndex": 1029,
       "title": "Befragung der Bundesregierung"
     },
     "people": [
@@ -732,7 +768,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19010-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19010-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -795,7 +831,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 7,
+      "speechIndex": 1007,
       "title": "Befragung der Bundesregierung"
     },
     "people": [
@@ -816,7 +852,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19010-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19010-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -899,7 +935,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 34,
+      "speechIndex": 1034,
       "title": "Befragung der Bundesregierung"
     },
     "people": [
@@ -920,7 +956,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19010-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19010-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -1040,7 +1076,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 9,
+      "speechIndex": 1009,
       "title": "Befragung der Bundesregierung"
     },
     "people": [
@@ -1061,7 +1097,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19010-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19010-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -1153,7 +1189,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 42,
+      "speechIndex": 1042,
       "title": "Befragung der Bundesregierung"
     },
     "people": [
@@ -1174,7 +1210,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19010-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19010-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -1243,7 +1279,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 11,
+      "speechIndex": 1011,
       "title": "Befragung der Bundesregierung"
     },
     "people": [
@@ -1264,7 +1300,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19010-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19010-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -1357,77 +1393,16 @@
   {
     "parliament": "DE",
     "electoralPeriod": {
-      "number": "19"
+      "number": 19
     },
     "session": {
-      "number": "10",
-      "dateStart": "2018-01-31T14:30",
-      "dateEnd": "2018-01-31T18:24"
+      "number": 10
     },
     "agendaItem": {
+      "title": "Befragung der Bundesregierung",
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 48,
-      "title": "Befragung der Bundesregierung"
+      "speechIndex": 14
     },
-    "people": [
-      {
-        "type": "memberOfParliament",
-        "label": "Ole Schröder",
-        "firstname": "Ole",
-        "lastname": "Schröder",
-        "context": "main-speaker",
-        "faction": ""
-      },
-      {
-        "type": "memberOfParliament",
-        "label": "Petra Pau",
-        "context": "vice-president"
-      }
-    ],
-    "textContents": [
-      {
-        "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19010-data.xml",
-        "creator": "Deutscher Bundestag",
-        "license": "Public Domain",
-        "language": "DE-de",
-        "originTextID": "",
-        "textBody": [
-          {
-            "type": "speech",
-            "speaker": "Ole Schröder",
-            "speakerstatus": "main-speaker",
-            "text": "Ich saß gestern im Hauptausschuss. Wir haben solche Überlegungen nicht geäußert. Ich habe gestern im Hauptausschuss lediglich dargestellt, welche möglichen Kriterien es geben könnte, um einen Härtefall entsprechend zu definieren.",
-            "sentences": [
-              {
-                "text": "Ich saß gestern im Hauptausschuss."
-              },
-              {
-                "text": "Wir haben solche Überlegungen nicht geäußert."
-              },
-              {
-                "text": "Ich habe gestern im Hauptausschuss lediglich dargestellt, welche möglichen Kriterien es geben könnte, um einen Härtefall entsprechend zu definieren."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Ich danke der Frau Ministerin, den Staatssekretären und Kolleginnen und Kollegen, die ansonsten an der Beantwortung beteiligt waren, und natürlich allen Kolleginnen und Kollegen Fragestellern und beende damit die Regierungsbefragung.",
-            "sentences": [
-              {
-                "text": "Ich danke der Frau Ministerin, den Staatssekretären und Kolleginnen und Kollegen, die ansonsten an der Beantwortung beteiligt waren, und natürlich allen Kolleginnen und Kollegen Fragestellern und beende damit die Regierungsbefragung."
-              }
-            ]
-          }
-        ]
-      }
-    ],
-    "documents": [],
-    "key": "19-10 tagesordnungspunkt 1 (ole schroder) #1",
-    "dateStart": "2018-01-31T14:18:49",
-    "dateEnd": "2018-01-31T14:19:08",
     "media": {
       "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7197545/7197545_h264_720_400_2000kb_baseline_de_2192.mp4",
       "sourcePage": "http://dbtg.tv/fvid/7197545",
@@ -1436,7 +1411,18 @@
       "license": "CC-BY-SA",
       "originMediaID": "7197545",
       "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7197545/7197545_mp3_128kb_stereo_de_128.mp3"
-    }
+    },
+    "dateStart": "2018-01-31T14:18:49",
+    "dateEnd": "2018-01-31T14:19:08",
+    "people": [
+      {
+        "label": "Ole Schröder",
+        "faction": "",
+        "context": "main-speaker",
+        "role": "Parlamentarischer Staatssekretär des Innern"
+      }
+    ],
+    "key": "19-10 tagesordnungspunkt 1 (ole schroder) #1"
   },
   {
     "parliament": "DE",
@@ -1484,7 +1470,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 2",
-      "speechIndex": 49,
+      "speechIndex": 1050,
       "title": "Fragestunde"
     },
     "people": [
@@ -1750,12 +1736,23 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19010-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19010-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
         "originTextID": "",
         "textBody": [
+          {
+            "type": "speech",
+            "speaker": "Petra Pau",
+            "speakerstatus": "vice-president",
+            "text": "Fragestunde",
+            "sentences": [
+              {
+                "text": "Fragestunde"
+              }
+            ]
+          },
           {
             "type": "speech",
             "speaker": "Petra Pau",
@@ -8496,7 +8493,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 2",
-      "speechIndex": 50,
+      "speechIndex": 1051,
       "title": "Fragestunde"
     },
     "people": [
@@ -8677,97 +8674,28 @@
         "lastname": "Schröder",
         "context": "speaker",
         "faction": ""
-      },
-      {
-        "type": "memberOfParliament",
-        "label": "Stefan Schmidt",
-        "firstname": "Stefan",
-        "lastname": "Schmidt",
-        "context": "speaker",
-        "faction": "BÜNDNIS 90/DIE GRÜNEN"
-      },
-      {
-        "type": "memberOfParliament",
-        "label": "Benjamin Strasser",
-        "firstname": "Benjamin",
-        "lastname": "Strasser",
-        "context": "speaker",
-        "faction": "FDP"
-      },
-      {
-        "type": "memberOfParliament",
-        "label": "Michel Brandt",
-        "firstname": "Michel",
-        "lastname": "Brandt",
-        "context": "speaker",
-        "faction": "DIE LINKE"
-      },
-      {
-        "type": "memberOfParliament",
-        "label": "Canan Bayram",
-        "firstname": "Canan",
-        "lastname": "Bayram",
-        "context": "speaker",
-        "faction": "BÜNDNIS 90/DIE GRÜNEN"
-      },
-      {
-        "type": "memberOfParliament",
-        "label": "Hansjörg Müller",
-        "firstname": "Hansjörg",
-        "lastname": "Müller",
-        "context": "speaker",
-        "faction": "AfD"
-      },
-      {
-        "type": "memberOfParliament",
-        "label": "Christian Lange",
-        "firstname": "Christian",
-        "lastname": "Lange",
-        "context": "speaker",
-        "faction": ""
-      },
-      {
-        "type": "memberOfParliament",
-        "label": "Manuel Höferlin",
-        "firstname": "Manuel",
-        "lastname": "Höferlin",
-        "context": "speaker",
-        "faction": "FDP"
-      },
-      {
-        "type": "memberOfParliament",
-        "label": "Wieland Schinnenburg",
-        "firstname": "Wieland",
-        "lastname": "Schinnenburg",
-        "context": "speaker",
-        "faction": "FDP"
-      },
-      {
-        "type": "memberOfParliament",
-        "label": "Michael Theurer",
-        "firstname": "Michael",
-        "lastname": "Theurer",
-        "context": "speaker",
-        "faction": "FDP"
-      },
-      {
-        "type": "memberOfParliament",
-        "label": "Uwe Beckmeyer",
-        "firstname": "Uwe",
-        "lastname": "Beckmeyer",
-        "context": "speaker",
-        "faction": ""
       }
     ],
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19010-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19010-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
         "originTextID": "",
         "textBody": [
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Kubicki",
+            "speakerstatus": "vice-president",
+            "text": "Fragestunde",
+            "sentences": [
+              {
+                "text": "Fragestunde"
+              }
+            ]
+          },
           {
             "type": "speech",
             "speaker": "Wolfgang Kubicki",
@@ -12139,2353 +12067,6 @@
                 "text": "Ob die Bundespolizei bei der Zuverlässigkeitsüberprüfung durch die Luftsicherheitsbehörden durch eine entsprechende Änderung von § 7 Absatz 3 Nummer 2 Luftsicherheitsgesetz künftig stärker miteinzubeziehen ist, wird von der Bundesregierung derzeit erwogen."
               }
             ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Sie haben das Wort zur ersten Nachfrage.",
-            "sentences": [
-              {
-                "text": "Sie haben das Wort zur ersten Nachfrage."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Lars Herrmann",
-            "speakerstatus": "speaker",
-            "text": "Vielen Dank, Frau Präsidentin. – Herr Staatssekretär, ist Ihnen bekannt, dass die Behörden, die derzeit mit der Zuverlässigkeitsüberprüfung nach § 7 betraut sind, überhaupt nicht in der Lage sind, die Datenbestände der Bundespolizei anzuzapfen, insbesondere den Bundespolizeiaktennachweis. Es gibt keinen Zugriff auf den sogenannten Geschützten Grenzfahndungsbestand. Aus meiner Sicht ist da dringender Handlungsbedarf gegeben. Ist absehbar, wann genau die Bundespolizei in § 7 miteinbezogen wird, oder wird das eher so lange dauern wie der Bau des Flughafens BER hier um die Ecke?",
-            "sentences": [
-              {
-                "text": "Vielen Dank, Frau Präsidentin."
-              },
-              {
-                "text": "– Herr Staatssekretär, ist Ihnen bekannt, dass die Behörden, die derzeit mit der Zuverlässigkeitsüberprüfung nach § 7 betraut sind, überhaupt nicht in der Lage sind, die Datenbestände der Bundespolizei anzuzapfen, insbesondere den Bundespolizeiaktennachweis."
-              },
-              {
-                "text": "Es gibt keinen Zugriff auf den sogenannten Geschützten Grenzfahndungsbestand."
-              },
-              {
-                "text": "Aus meiner Sicht ist da dringender Handlungsbedarf gegeben."
-              },
-              {
-                "text": "Ist absehbar, wann genau die Bundespolizei in § 7 miteinbezogen wird, oder wird das eher so lange dauern wie der Bau des Flughafens BER hier um die Ecke?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Ole Schröder",
-            "speakerstatus": "speaker",
-            "text": "Das Ganze regelt ja ein Bundesgesetz. Das Gesetz ist in der letzten Wahlperiode angepasst worden. Da ist ja genau dieser Aspekt intensiv innerhalb der Koalition diskutiert worden. Man konnte sich innerhalb der Koalition nicht darauf einigen, dass die Bundespolizei im Rahmen der Regelabfrage miteinbezogen wird. Aber selbstverständlich ist das weiter innerhalb einer neuen Koalition zu diskutieren.",
-            "sentences": [
-              {
-                "text": "Das Ganze regelt ja ein Bundesgesetz."
-              },
-              {
-                "text": "Das Gesetz ist in der letzten Wahlperiode angepasst worden."
-              },
-              {
-                "text": "Da ist ja genau dieser Aspekt intensiv innerhalb der Koalition diskutiert worden."
-              },
-              {
-                "text": "Man konnte sich innerhalb der Koalition nicht darauf einigen, dass die Bundespolizei im Rahmen der Regelabfrage miteinbezogen wird."
-              },
-              {
-                "text": "Aber selbstverständlich ist das weiter innerhalb einer neuen Koalition zu diskutieren."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Sie haben das Wort zur zweiten Nachfrage.",
-            "sentences": [
-              {
-                "text": "Sie haben das Wort zur zweiten Nachfrage."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Lars Herrmann",
-            "speakerstatus": "speaker",
-            "text": "Vielen Dank. – Ist Ihnen bekannt, dass es unter anderem bei der zuständigen Luftsicherheitsbehörde in Stuttgart gängige Praxis ist, dass man es bei der Zuverlässigkeitsüberprüfung als ausreichend erachtet, dass der Antragsteller Kopien vorlegt und mit seiner Unterschrift bestätigt, dass die Kopien dem Original entsprechen? Wie bewerten Sie das vor dem Hintergrund vor allem von Bewerbern mit Migrationshintergrund, also mit afghanischer, syrischer oder irakischer Staatsangehörigkeit, wenn die mit ihrer eigenen Unterschrift bestätigen, dass die Kopie dem Original entspricht? Halten Sie diesen Prüfungsstandard im Sinne von § 7 Luftsicherheitsgesetz für ausreichend?",
-            "sentences": [
-              {
-                "text": "Vielen Dank."
-              },
-              {
-                "text": "– Ist Ihnen bekannt, dass es unter anderem bei der zuständigen Luftsicherheitsbehörde in Stuttgart gängige Praxis ist, dass man es bei der Zuverlässigkeitsüberprüfung als ausreichend erachtet, dass der Antragsteller Kopien vorlegt und mit seiner Unterschrift bestätigt, dass die Kopien dem Original entsprechen?"
-              },
-              {
-                "text": "Wie bewerten Sie das vor dem Hintergrund vor allem von Bewerbern mit Migrationshintergrund, also mit afghanischer, syrischer oder irakischer Staatsangehörigkeit, wenn die mit ihrer eigenen Unterschrift bestätigen, dass die Kopie dem Original entspricht?"
-              },
-              {
-                "text": "Halten Sie diesen Prüfungsstandard im Sinne von § 7 Luftsicherheitsgesetz für ausreichend?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Ole Schröder",
-            "speakerstatus": "speaker",
-            "text": "Ich kann zu Einzelfällen keine Stellung nehmen. Ihre Anfrage bezieht sich darauf, welche Dateien der Sicherheitsbehörden bei der Regelabfrage mit einbezogen werden. Diese Abfrage der Dateien ist notwendig, um unter Umständen prüfen zu können, ob die vorgelegten Dokumente richtig sind. Selbstverständlich muss sichergestellt werden, dass die Dokumente echt und nicht unecht sind.",
-            "sentences": [
-              {
-                "text": "Ich kann zu Einzelfällen keine Stellung nehmen."
-              },
-              {
-                "text": "Ihre Anfrage bezieht sich darauf, welche Dateien der Sicherheitsbehörden bei der Regelabfrage mit einbezogen werden."
-              },
-              {
-                "text": "Diese Abfrage der Dateien ist notwendig, um unter Umständen prüfen zu können, ob die vorgelegten Dokumente richtig sind."
-              },
-              {
-                "text": "Selbstverständlich muss sichergestellt werden, dass die Dokumente echt und nicht unecht sind."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Wolfgang Kubicki",
-            "speakerstatus": "vice-president",
-            "text": "Herzlichen Dank. – Es gibt keine weitere Nachfrage.",
-            "sentences": [
-              {
-                "text": "Herzlichen Dank."
-              },
-              {
-                "text": "– Es gibt keine weitere Nachfrage."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Wolfgang Kubicki",
-            "speakerstatus": "vice-president",
-            "text": "Ich rufe die Frage 39 des Kollegen Stefan Schmidt auf:",
-            "sentences": [
-              {
-                "text": "Ich rufe die Frage 39 des Kollegen Stefan Schmidt auf:"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Ole Schröder",
-            "speakerstatus": "speaker",
-            "text": "Herr Kollege, ich beantworte Ihre Frage wie folgt: Die Bundesregierung begrüßt generell alle Bestrebungen, die zur Verbesserung bei der Aufenthaltsbeendigung vollziehbar ausreisepflichtiger Asylbewerber und der Bekämpfung der grenzüberschreitenden Kriminalität beitragen. Das gilt auch für den Vorstoß des bayerischen Finanzministers, die Abschiebungspraxis in Bayern noch effizienter als bislang zu gestalten und die Schleierfahndung der bayerischen Polizei flankierend zu den grenzpolizeilichen Maßnahmen der Bundespolizei in Bayern zu intensivieren. Von daher unterstützen wir diese Maßnahme.",
-            "sentences": [
-              {
-                "text": "Herr Kollege, ich beantworte Ihre Frage wie folgt: Die Bundesregierung begrüßt generell alle Bestrebungen, die zur Verbesserung bei der Aufenthaltsbeendigung vollziehbar ausreisepflichtiger Asylbewerber und der Bekämpfung der grenzüberschreitenden Kriminalität beitragen."
-              },
-              {
-                "text": "Das gilt auch für den Vorstoß des bayerischen Finanzministers, die Abschiebungspraxis in Bayern noch effizienter als bislang zu gestalten und die Schleierfahndung der bayerischen Polizei flankierend zu den grenzpolizeilichen Maßnahmen der Bundespolizei in Bayern zu intensivieren."
-              },
-              {
-                "text": "Von daher unterstützen wir diese Maßnahme."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Wolfgang Kubicki",
-            "speakerstatus": "vice-president",
-            "text": "Eine Nachfrage, Herr Schmidt?",
-            "sentences": [
-              {
-                "text": "Eine Nachfrage, Herr Schmidt?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Stefan Schmidt",
-            "speakerstatus": "speaker",
-            "text": "Vielen Dank, Herr Präsident. – Herr Staatssekretär, Sie unterstützen den Vorschlag also. Ich frage mich, ob diese Gesetzgebung konkret beim Thema „Asyl und Abschiebungen“ nicht mit der des Bundes konkurriert. Es gibt hierzu in erster Linie entsprechende Bundesbehörden, und auch die Zuständigkeit des Bundes ist gegeben.",
-            "sentences": [
-              {
-                "text": "Vielen Dank, Herr Präsident."
-              },
-              {
-                "text": "– Herr Staatssekretär, Sie unterstützen den Vorschlag also."
-              },
-              {
-                "text": "Ich frage mich, ob diese Gesetzgebung konkret beim Thema „Asyl und Abschiebungen“ nicht mit der des Bundes konkurriert."
-              },
-              {
-                "text": "Es gibt hierzu in erster Linie entsprechende Bundesbehörden, und auch die Zuständigkeit des Bundes ist gegeben."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Wolfgang Kubicki",
-            "speakerstatus": "vice-president",
-            "text": "Herr Staatssekretär.",
-            "sentences": [
-              {
-                "text": "Herr Staatssekretär."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Ole Schröder",
-            "speakerstatus": "speaker",
-            "text": "Nein, das Gegenteil ist der Fall. Für die Vollziehung von Abschiebungen sind die Länder zuständig. Der Bund unterstützt die Länder. Insofern sind wir sehr dankbar, wenn die Länder jetzt noch stärker Eigeninitiative ergreifen.",
-            "sentences": [
-              {
-                "text": "Nein, das Gegenteil ist der Fall."
-              },
-              {
-                "text": "Für die Vollziehung von Abschiebungen sind die Länder zuständig."
-              },
-              {
-                "text": "Der Bund unterstützt die Länder."
-              },
-              {
-                "text": "Insofern sind wir sehr dankbar, wenn die Länder jetzt noch stärker Eigeninitiative ergreifen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Wolfgang Kubicki",
-            "speakerstatus": "vice-president",
-            "text": "Eine weitere Nachfrage, Herr Kollege Schmidt?",
-            "sentences": [
-              {
-                "text": "Eine weitere Nachfrage, Herr Kollege Schmidt?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Stefan Schmidt",
-            "speakerstatus": "speaker",
-            "text": "Ja, meine zweite Nachfrage wäre: Wie können Sie sicherstellen, dass es im Zuge der Einrichtung eines solchen Landesamtes nicht zu Ungleichbehandlungen kommt, wie es bisweilen bei anderen Fragen, gerade beim Thema „Asyl und Abschiebungen“, durchaus die Regel ist. Ich nenne zum Beispiel das Stichwort „Abschiebungen nach Afghanistan“, wobei die einzelnen Bundesländer sehr unterschiedliche Praktiken haben. Ich frage mich, wie Sie als Bundesregierung sicherstellen wollen, dass sich diese Ungleichbehandlung durch die Einrichtung des Landesamtes für Asyl und Abschiebungen nicht noch einmal verschärft.",
-            "sentences": [
-              {
-                "text": "Ja, meine zweite Nachfrage wäre: Wie können Sie sicherstellen, dass es im Zuge der Einrichtung eines solchen Landesamtes nicht zu Ungleichbehandlungen kommt, wie es bisweilen bei anderen Fragen, gerade beim Thema „Asyl und Abschiebungen“, durchaus die Regel ist."
-              },
-              {
-                "text": "Ich nenne zum Beispiel das Stichwort „Abschiebungen nach Afghanistan“, wobei die einzelnen Bundesländer sehr unterschiedliche Praktiken haben."
-              },
-              {
-                "text": "Ich frage mich, wie Sie als Bundesregierung sicherstellen wollen, dass sich diese Ungleichbehandlung durch die Einrichtung des Landesamtes für Asyl und Abschiebungen nicht noch einmal verschärft."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Ole Schröder",
-            "speakerstatus": "speaker",
-            "text": "Sie sprechen da ein generelles Problem unseres föderalistischen Systems an: dass natürlich der Vollzug der Bundesgesetze bei den einzelnen Ländern sehr unterschiedlich gehandhabt wird. Das erleben wir insbesondere bei der Abschiebepraxis, wo wir Bundesländer haben, die sehr wenige Anstrengungen unternehmen, und andere Bundesländer haben, wie Bayern, die hier vorbildlicher vorgehen.",
-            "sentences": [
-              {
-                "text": "Sie sprechen da ein generelles Problem unseres föderalistischen Systems an: dass natürlich der Vollzug der Bundesgesetze bei den einzelnen Ländern sehr unterschiedlich gehandhabt wird."
-              },
-              {
-                "text": "Das erleben wir insbesondere bei der Abschiebepraxis, wo wir Bundesländer haben, die sehr wenige Anstrengungen unternehmen, und andere Bundesländer haben, wie Bayern, die hier vorbildlicher vorgehen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Wolfgang Kubicki",
-            "speakerstatus": "vice-president",
-            "text": "Ich habe richtig gesehen, Frau Kollegin Bause, Sie hatten eine Nachfrage? – Nein.",
-            "sentences": [
-              {
-                "text": "Ich habe richtig gesehen, Frau Kollegin Bause, Sie hatten eine Nachfrage?"
-              },
-              {
-                "text": "– Nein."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Wolfgang Kubicki",
-            "speakerstatus": "vice-president",
-            "text": "– Frau Polat, Sie hatten eine Nachfrage. Entschuldigen Sie bitte.",
-            "sentences": [
-              {
-                "text": "– Frau Polat, Sie hatten eine Nachfrage."
-              },
-              {
-                "text": "Entschuldigen Sie bitte."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Filiz Polat",
-            "speakerstatus": "speaker",
-            "text": "Sie hatten schon einmal Probleme mit meinem Namen. Deswegen dachte ich, ich warte.",
-            "sentences": [
-              {
-                "text": "Sie hatten schon einmal Probleme mit meinem Namen."
-              },
-              {
-                "text": "Deswegen dachte ich, ich warte."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Filiz Polat",
-            "speakerstatus": "speaker",
-            "text": "Vielen Dank, Herr Präsident. – Ich frage die Bundesregierung, weil in den Äußerungen von Markus Söder ausdrücklich von einem Landesamt für Asyl und Abschiebungen gesprochen wird: Sind auch eigenständige Asylverfahren geplant, also sollen die Beamten des Landesamtes eigene Asylverfahren durchführen, oder handelt es sich dabei um ein klassisches Ausreisezentrum im Rahmen des Asylgesetzes?",
-            "sentences": [
-              {
-                "text": "Vielen Dank, Herr Präsident."
-              },
-              {
-                "text": "– Ich frage die Bundesregierung, weil in den Äußerungen von Markus Söder ausdrücklich von einem Landesamt für Asyl und Abschiebungen gesprochen wird: Sind auch eigenständige Asylverfahren geplant, also sollen die Beamten des Landesamtes eigene Asylverfahren durchführen, oder handelt es sich dabei um ein klassisches Ausreisezentrum im Rahmen des Asylgesetzes?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Wolfgang Kubicki",
-            "speakerstatus": "vice-president",
-            "text": "Herr Staatssekretär.",
-            "sentences": [
-              {
-                "text": "Herr Staatssekretär."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Ole Schröder",
-            "speakerstatus": "speaker",
-            "text": "Ich kann mich hier zu den konkreten Vorschlägen, die aus Bayern kommen, nicht äußern.",
-            "sentences": [
-              {
-                "text": "Ich kann mich hier zu den konkreten Vorschlägen, die aus Bayern kommen, nicht äußern."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Ole Schröder",
-            "speakerstatus": "speaker",
-            "text": "Soweit ich das aber verstanden habe, geht es der Staatsregierung in Bayern darum, dass sie ihre eigenen Kompetenzen ausfüllt. Selbstverständlich haben die Länder auch im Bereich Asyl erhebliche Kompetenzen, wenn es zum Beispiel um Unterbringung und Abschiebung geht.",
-            "sentences": [
-              {
-                "text": "Soweit ich das aber verstanden habe, geht es der Staatsregierung in Bayern darum, dass sie ihre eigenen Kompetenzen ausfüllt."
-              },
-              {
-                "text": "Selbstverständlich haben die Länder auch im Bereich Asyl erhebliche Kompetenzen, wenn es zum Beispiel um Unterbringung und Abschiebung geht."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Wolfgang Kubicki",
-            "speakerstatus": "vice-president",
-            "text": "Herzlichen Dank. – Jetzt: Frau Kollegin Bause.",
-            "sentences": [
-              {
-                "text": "Herzlichen Dank."
-              },
-              {
-                "text": "– Jetzt: Frau Kollegin Bause."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Margarete Bause",
-            "speakerstatus": "speaker",
-            "text": "Herr Präsident! Herr Staatssekretär, wenn Sie das alles begrüßen: Gibt es schon konkrete Gespräche zwischen dem Freistaat Bayern und der Bundesregierung dazu, diese Absichtserklärungen in die Tat umzusetzen?",
-            "sentences": [
-              {
-                "text": "Herr Präsident!"
-              },
-              {
-                "text": "Herr Staatssekretär, wenn Sie das alles begrüßen: Gibt es schon konkrete Gespräche zwischen dem Freistaat Bayern und der Bundesregierung dazu, diese Absichtserklärungen in die Tat umzusetzen?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Ole Schröder",
-            "speakerstatus": "speaker",
-            "text": "Solche Gespräche sind meines Wissens bisher noch nicht geführt worden.",
-            "sentences": [
-              {
-                "text": "Solche Gespräche sind meines Wissens bisher noch nicht geführt worden."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Wolfgang Kubicki",
-            "speakerstatus": "vice-president",
-            "text": "Frau Kollegin Lemke, bitte zu einer weiteren Nachfrage.",
-            "sentences": [
-              {
-                "text": "Frau Kollegin Lemke, bitte zu einer weiteren Nachfrage."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Steffi Lemke",
-            "speakerstatus": "speaker",
-            "text": "Herr Staatssekretär, ich würde mich gerne an zwei Stellen vergewissern, ob ich Sie richtig verstanden habe.",
-            "sentences": [
-              {
-                "text": "Herr Staatssekretär, ich würde mich gerne an zwei Stellen vergewissern, ob ich Sie richtig verstanden habe."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Steffi Lemke",
-            "speakerstatus": "speaker",
-            "text": "Sie führten eingangs aus, dass Sie die Vorschläge von Herrn Söder unterstützen. Ich würde gerne wissen, ob Sie sie im Detail kennen, weil Sie in Ihrer zweiten Antwort sagten, Sie könnten zu Details nicht Stellung nehmen. Insofern würde mich nicht nur interessieren, ob Sie die Vorschläge im Detail kennen, sondern auch, ob Sie sie unterstützen oder ob das insgesamt eher so eine „Wir unterstützen mal“-Erklärung war.",
-            "sentences": [
-              {
-                "text": "Sie führten eingangs aus, dass Sie die Vorschläge von Herrn Söder unterstützen."
-              },
-              {
-                "text": "Ich würde gerne wissen, ob Sie sie im Detail kennen, weil Sie in Ihrer zweiten Antwort sagten, Sie könnten zu Details nicht Stellung nehmen."
-              },
-              {
-                "text": "Insofern würde mich nicht nur interessieren, ob Sie die Vorschläge im Detail kennen, sondern auch, ob Sie sie unterstützen oder ob das insgesamt eher so eine „Wir unterstützen mal“-Erklärung war."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Steffi Lemke",
-            "speakerstatus": "speaker",
-            "text": "Das Zweite, was ich gerne wissen würde, ist, ob das eine Position ist, die innerhalb der Bundesregierung, also auch mit dem Koalitionspartner SPD, abgestimmt ist und ob Sie für die Bundesregierung insgesamt sprechen, wenn Sie sagen, dass Sie diese Vorschläge unterstützen.",
-            "sentences": [
-              {
-                "text": "Das Zweite, was ich gerne wissen würde, ist, ob das eine Position ist, die innerhalb der Bundesregierung, also auch mit dem Koalitionspartner SPD, abgestimmt ist und ob Sie für die Bundesregierung insgesamt sprechen, wenn Sie sagen, dass Sie diese Vorschläge unterstützen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Ole Schröder",
-            "speakerstatus": "speaker",
-            "text": "Die Bundesregierung unterstützt generell die Anstrengungen der Länder, ihre eigenen Kompetenzen auch entsprechend auszufüllen und die notwendigen Ressourcen zur Verfügung zu stellen. Bisher war es immer so, dass die Länder im Bereich Asyl an den Bund herangetreten sind und gefordert haben, dass der Bund die Länder doch bitte stärker bei der Wahrnehmung ihrer eigenen Kompetenzen unterstützen soll. Deshalb sind wir sehr froh, dass jetzt ein Bundesland ganz klar sagt: Wir sind bereit, unsere eigenen Kompetenzen noch stärker auszufüllen als bisher.",
-            "sentences": [
-              {
-                "text": "Die Bundesregierung unterstützt generell die Anstrengungen der Länder, ihre eigenen Kompetenzen auch entsprechend auszufüllen und die notwendigen Ressourcen zur Verfügung zu stellen."
-              },
-              {
-                "text": "Bisher war es immer so, dass die Länder im Bereich Asyl an den Bund herangetreten sind und gefordert haben, dass der Bund die Länder doch bitte stärker bei der Wahrnehmung ihrer eigenen Kompetenzen unterstützen soll."
-              },
-              {
-                "text": "Deshalb sind wir sehr froh, dass jetzt ein Bundesland ganz klar sagt: Wir sind bereit, unsere eigenen Kompetenzen noch stärker auszufüllen als bisher."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Wolfgang Kubicki",
-            "speakerstatus": "vice-president",
-            "text": "Herzlichen Dank, Herr Staatssekretär. – Ich sehe keine weiteren Nachfragen.",
-            "sentences": [
-              {
-                "text": "Herzlichen Dank, Herr Staatssekretär."
-              },
-              {
-                "text": "– Ich sehe keine weiteren Nachfragen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Wolfgang Kubicki",
-            "speakerstatus": "vice-president",
-            "text": "Dann kommen wir zur Frage 40 des Abgeordneten Benjamin Strasser:",
-            "sentences": [
-              {
-                "text": "Dann kommen wir zur Frage 40 des Abgeordneten Benjamin Strasser:"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Ole Schröder",
-            "speakerstatus": "speaker",
-            "text": "Herr Kollege, ich beantworte Ihre Frage wie folgt: Am 23. Januar 2018 standen seitens der Bundespolizei die zur Begleitung der Sammelabschiebung erforderlichen 57 Beamten der Bundespolizei mit der Zusatzausbildung „Personenbegleiter Luft“ zur Verfügung.",
-            "sentences": [
-              {
-                "text": "Herr Kollege, ich beantworte Ihre Frage wie folgt: Am 23. Januar 2018 standen seitens der Bundespolizei die zur Begleitung der Sammelabschiebung erforderlichen 57 Beamten der Bundespolizei mit der Zusatzausbildung „Personenbegleiter Luft“ zur Verfügung."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Wolfgang Kubicki",
-            "speakerstatus": "vice-president",
-            "text": "Eine Nachfrage des Kollegen Strasser.",
-            "sentences": [
-              {
-                "text": "Eine Nachfrage des Kollegen Strasser."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Benjamin Strasser",
-            "speakerstatus": "speaker",
-            "text": "Vielen Dank, Herr Staatssekretär. – Nach der Berichterstattung des „Spiegels“ und der „Süddeutschen Zeitung“ sollten bei dieser Abschiebung insgesamt 80 Personen abgeschoben werden, was aber an zu wenigen Vollzugskräften gescheitert sein soll. Deswegen meine Frage: Wie viele ausreisepflichtige Personen sollten bei der Abschiebung am 23. Januar 2018 abgeschoben werden, wie viele wurden abgeschoben, und aus welchen Gründen wurden gegebenenfalls weniger Menschen abgeschoben als geplant?",
-            "sentences": [
-              {
-                "text": "Vielen Dank, Herr Staatssekretär."
-              },
-              {
-                "text": "– Nach der Berichterstattung des „Spiegels“ und der „Süddeutschen Zeitung“ sollten bei dieser Abschiebung insgesamt 80 Personen abgeschoben werden, was aber an zu wenigen Vollzugskräften gescheitert sein soll."
-              },
-              {
-                "text": "Deswegen meine Frage: Wie viele ausreisepflichtige Personen sollten bei der Abschiebung am 23. Januar 2018 abgeschoben werden, wie viele wurden abgeschoben, und aus welchen Gründen wurden gegebenenfalls weniger Menschen abgeschoben als geplant?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Ole Schröder",
-            "speakerstatus": "speaker",
-            "text": "Ich kann Ihnen nicht genau sagen, wie viele Personen ursprünglich abgeschoben werden sollten; aber es ist immer so, dass die von den Ländern ursprünglich gemeldete Zahl am Ende nicht der Anzahl von Personen entspricht, die dann wirklich mit dem Flugzeug im Rahmen der Abschiebung in ihre Herkunftsländer zurückgebracht wurden. Das wird natürlich dann auch berücksichtigt, wenn es um die Planung der Begleitpersonen geht.",
-            "sentences": [
-              {
-                "text": "Ich kann Ihnen nicht genau sagen, wie viele Personen ursprünglich abgeschoben werden sollten; aber es ist immer so, dass die von den Ländern ursprünglich gemeldete Zahl am Ende nicht der Anzahl von Personen entspricht, die dann wirklich mit dem Flugzeug im Rahmen der Abschiebung in ihre Herkunftsländer zurückgebracht wurden."
-              },
-              {
-                "text": "Das wird natürlich dann auch berücksichtigt, wenn es um die Planung der Begleitpersonen geht."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Wolfgang Kubicki",
-            "speakerstatus": "vice-president",
-            "text": "Eine weitere Nachfrage des Kollegen Strasser. Bitte.",
-            "sentences": [
-              {
-                "text": "Eine weitere Nachfrage des Kollegen Strasser."
-              },
-              {
-                "text": "Bitte."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Benjamin Strasser",
-            "speakerstatus": "speaker",
-            "text": "Ist der Bundesregierung denn bekannt, ob es in der Vergangenheit bei anderen Abschiebungen hinsichtlich der Vollzugskräfte zu Problemen kam, entsprechendes Personal zu rekrutieren?",
-            "sentences": [
-              {
-                "text": "Ist der Bundesregierung denn bekannt, ob es in der Vergangenheit bei anderen Abschiebungen hinsichtlich der Vollzugskräfte zu Problemen kam, entsprechendes Personal zu rekrutieren?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Ole Schröder",
-            "speakerstatus": "speaker",
-            "text": "Bisher kam es in keinem Fall zu Problemen, entsprechendes Personal zu rekrutieren.",
-            "sentences": [
-              {
-                "text": "Bisher kam es in keinem Fall zu Problemen, entsprechendes Personal zu rekrutieren."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Wolfgang Kubicki",
-            "speakerstatus": "vice-president",
-            "text": "Ich sehe keine weitere Nachfrage.",
-            "sentences": [
-              {
-                "text": "Ich sehe keine weitere Nachfrage."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Wolfgang Kubicki",
-            "speakerstatus": "vice-president",
-            "text": "Dann kommen wir zur Frage 41 des Kollegen ­Benjamin Strasser zum gleichen Themenkomplex:",
-            "sentences": [
-              {
-                "text": "Dann kommen wir zur Frage 41 des Kollegen ­Benjamin Strasser zum gleichen Themenkomplex:"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Ole Schröder",
-            "speakerstatus": "speaker",
-            "text": "Die erforderliche Anzahl der einzusetzenden Vollzugskräfte der Bundespolizei mit der Zusatzausbildung „Personenbegleiter Luft“ richtet sich primär nach der Anzahl der Rückzuführenden und einer Beurteilung des zu erwartenden Verhaltens. Diese Umstände können jedoch erst unmittelbar vor dem Abflug des Luftfahrzeugs bestimmt werden. Zum Zeitpunkt des Abflugs standen ausreichend Vollzugskräfte der Bundespolizei mit der Zusatzausbildung „Personenbegleiter Luft“ für die Durchführung der Sammelabschiebung zur Verfügung.",
-            "sentences": [
-              {
-                "text": "Die erforderliche Anzahl der einzusetzenden Vollzugskräfte der Bundespolizei mit der Zusatzausbildung „Personenbegleiter Luft“ richtet sich primär nach der Anzahl der Rückzuführenden und einer Beurteilung des zu erwartenden Verhaltens."
-              },
-              {
-                "text": "Diese Umstände können jedoch erst unmittelbar vor dem Abflug des Luftfahrzeugs bestimmt werden."
-              },
-              {
-                "text": "Zum Zeitpunkt des Abflugs standen ausreichend Vollzugskräfte der Bundespolizei mit der Zusatzausbildung „Personenbegleiter Luft“ für die Durchführung der Sammelabschiebung zur Verfügung."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Wolfgang Kubicki",
-            "speakerstatus": "vice-president",
-            "text": "Eine weitere Nachfrage des Kollegen Strasser.",
-            "sentences": [
-              {
-                "text": "Eine weitere Nachfrage des Kollegen Strasser."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Benjamin Strasser",
-            "speakerstatus": "speaker",
-            "text": "Welche Maßnahmen gedenkt die Bundesregierung zu ergreifen, um die Anzahl der „Personenbegleiter Luft“ zu erhöhen?",
-            "sentences": [
-              {
-                "text": "Welche Maßnahmen gedenkt die Bundesregierung zu ergreifen, um die Anzahl der „Personenbegleiter Luft“ zu erhöhen?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Ole Schröder",
-            "speakerstatus": "speaker",
-            "text": "Bisher haben wir eine ausreichende Anzahl „Personenbegleiter Luft“, aber selbstverständlich evaluieren wir das laufend, und es muss in der Tat überlegt werden, wieweit es sinnvoll ist, diese Begleiter aus dem normalen Regeldienst zu rekrutieren, oder ob es hierzu besonderer Einheiten bedarf.",
-            "sentences": [
-              {
-                "text": "Bisher haben wir eine ausreichende Anzahl „Personenbegleiter Luft“, aber selbstverständlich evaluieren wir das laufend, und es muss in der Tat überlegt werden, wieweit es sinnvoll ist, diese Begleiter aus dem normalen Regeldienst zu rekrutieren, oder ob es hierzu besonderer Einheiten bedarf."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Wolfgang Kubicki",
-            "speakerstatus": "vice-president",
-            "text": "Eine letzte Nachfrage des Kollegen Strasser.",
-            "sentences": [
-              {
-                "text": "Eine letzte Nachfrage des Kollegen Strasser."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Benjamin Strasser",
-            "speakerstatus": "speaker",
-            "text": "Ist der Bundesregierung gerade aufgrund von Vorwürfen aus Mitarbeitervertretungen und Gewerkschaften bekannt, dass den entsprechenden Beamtinnen und Beamten keine Zulagen für die Einsätze gezahlt werden? Falls ja: Gedenkt sie hier entsprechend zu handeln?",
-            "sentences": [
-              {
-                "text": "Ist der Bundesregierung gerade aufgrund von Vorwürfen aus Mitarbeitervertretungen und Gewerkschaften bekannt, dass den entsprechenden Beamtinnen und Beamten keine Zulagen für die Einsätze gezahlt werden?"
-              },
-              {
-                "text": "Falls ja: Gedenkt sie hier entsprechend zu handeln?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Ole Schröder",
-            "speakerstatus": "speaker",
-            "text": "Es gibt keine spezielle Zulage. Das ist richtig. Selbstverständlich gibt es hierzu auch Überlegungen.",
-            "sentences": [
-              {
-                "text": "Es gibt keine spezielle Zulage."
-              },
-              {
-                "text": "Das ist richtig."
-              },
-              {
-                "text": "Selbstverständlich gibt es hierzu auch Überlegungen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Wolfgang Kubicki",
-            "speakerstatus": "vice-president",
-            "text": "Herzlichen Dank. – Gibt es weitere Nachfragen? – Das ist nicht der Fall.",
-            "sentences": [
-              {
-                "text": "Herzlichen Dank."
-              },
-              {
-                "text": "– Gibt es weitere Nachfragen?"
-              },
-              {
-                "text": "– Das ist nicht der Fall."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Wolfgang Kubicki",
-            "speakerstatus": "vice-president",
-            "text": "Dann kommen wir zur Frage 42 des Abgeordneten Michel Brandt:",
-            "sentences": [
-              {
-                "text": "Dann kommen wir zur Frage 42 des Abgeordneten Michel Brandt:"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Ole Schröder",
-            "speakerstatus": "speaker",
-            "text": "Ich beantworte Ihre Frage wie folgt: Bei begründeter Furcht vor Verfolgung wird Flüchtlingsschutz gewährt, wenn auch die sonstigen Voraussetzungen hierfür vorliegen. Die christliche Minderheit wird in Pakistan weniger durch staatliche Gesetze, sondern durch das Verhalten von Teilen der Gesellschaft diskriminiert und kann dabei auch Opfer religiös motivierter Gewalt, in der Regel durch radikale Islamisten, sein.",
-            "sentences": [
-              {
-                "text": "Ich beantworte Ihre Frage wie folgt: Bei begründeter Furcht vor Verfolgung wird Flüchtlingsschutz gewährt, wenn auch die sonstigen Voraussetzungen hierfür vorliegen."
-              },
-              {
-                "text": "Die christliche Minderheit wird in Pakistan weniger durch staatliche Gesetze, sondern durch das Verhalten von Teilen der Gesellschaft diskriminiert und kann dabei auch Opfer religiös motivierter Gewalt, in der Regel durch radikale Islamisten, sein."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Ole Schröder",
-            "speakerstatus": "speaker",
-            "text": "Im Vergleich zu anderen Minderheiten wurde die christliche Minderheit bisher aber nur selten direkt angegriffen. Im Einzelfall kommt es auch zu schutzrelevanten staatlichen Verfolgungsmaßnahmen aufgrund der Religionsstrafgesetzgebung.",
-            "sentences": [
-              {
-                "text": "Im Vergleich zu anderen Minderheiten wurde die christliche Minderheit bisher aber nur selten direkt angegriffen."
-              },
-              {
-                "text": "Im Einzelfall kommt es auch zu schutzrelevanten staatlichen Verfolgungsmaßnahmen aufgrund der Religionsstrafgesetzgebung."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Ole Schröder",
-            "speakerstatus": "speaker",
-            "text": "Auch Konvertiten unterliegen keiner Gruppenverfolgung. Es gibt in Pakistan keine strafrechtliche Bestimmung, die Apostasie bzw. Konversion für strafbar erklärt. Es kann jedoch zu einer Anklage wegen Blasphemie oder Beleidigung des Islams kommen.",
-            "sentences": [
-              {
-                "text": "Auch Konvertiten unterliegen keiner Gruppenverfolgung."
-              },
-              {
-                "text": "Es gibt in Pakistan keine strafrechtliche Bestimmung, die Apostasie bzw. Konversion für strafbar erklärt."
-              },
-              {
-                "text": "Es kann jedoch zu einer Anklage wegen Blasphemie oder Beleidigung des Islams kommen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Wolfgang Kubicki",
-            "speakerstatus": "vice-president",
-            "text": "Herr Kollege Brandt, eine Nachfrage?",
-            "sentences": [
-              {
-                "text": "Herr Kollege Brandt, eine Nachfrage?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Wolfgang Kubicki",
-            "speakerstatus": "vice-president",
-            "text": "Dann kommen wir, wenn es keine weitere Nachfrage gibt, zur Frage 43 des Kollegen Brandt – gleicher Themenkomplex –:",
-            "sentences": [
-              {
-                "text": "Dann kommen wir, wenn es keine weitere Nachfrage gibt, zur Frage 43 des Kollegen Brandt – gleicher Themenkomplex –:"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Wolfgang Kubicki",
-            "speakerstatus": "vice-president",
-            "text": "– Herr Staatssekretär, Sie haben das Wort.",
-            "sentences": [
-              {
-                "text": "– Herr Staatssekretär, Sie haben das Wort."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Ole Schröder",
-            "speakerstatus": "speaker",
-            "text": "Können Sie mir den Inhalt der Frage nennen?",
-            "sentences": [
-              {
-                "text": "Können Sie mir den Inhalt der Frage nennen?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Wolfgang Kubicki",
-            "speakerstatus": "vice-president",
-            "text": "Das betrifft ebenfalls geflüchtete Christen aus Pakistan. Ich lese Ihnen die Frage vor, dann können Sie sich das Suchen sparen.",
-            "sentences": [
-              {
-                "text": "Das betrifft ebenfalls geflüchtete Christen aus Pakistan."
-              },
-              {
-                "text": "Ich lese Ihnen die Frage vor, dann können Sie sich das Suchen sparen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Ole Schröder",
-            "speakerstatus": "speaker",
-            "text": "Vielen Dank für die Unterstützung. Ich habe die Antwort gefunden. – Die Konversion eines Asylbewerbers wird im Asylverfahren berücksichtigt, wenn das Bekenntnis des Konvertiten für die neue Religion glaubhaft ist und eine begründete Furcht vor Verfolgung bei Rückkehr in das Heimatland glaubhaft gemacht wird. Im Rahmen der persönlichen Anhörung prüft der Entscheider die näheren Umstände des Glaubenswechsels. Asylbewerber sind daneben immer gehalten, sofern möglich, Nachweise bzw. Beweismittel vorzulegen, zum Beispiel eine Taufbescheinigung. Die Taufbescheinigung bestätigt jedoch nur, dass ein Glaubensübertritt stattgefunden hat. Sie sagt aber nichts darüber aus, wie der Antragsteller seinen neuen Glauben bei der Rückkehr in sein Heimatland voraussichtlich leben wird und welche Gefahren sich hieraus ergeben können. Die Klärung dieser Frage ist Bestandteil der persönlichen Anhörung.",
-            "sentences": [
-              {
-                "text": "Vielen Dank für die Unterstützung."
-              },
-              {
-                "text": "Ich habe die Antwort gefunden."
-              },
-              {
-                "text": "– Die Konversion eines Asylbewerbers wird im Asylverfahren berücksichtigt, wenn das Bekenntnis des Konvertiten für die neue Religion glaubhaft ist und eine begründete Furcht vor Verfolgung bei Rückkehr in das Heimatland glaubhaft gemacht wird."
-              },
-              {
-                "text": "Im Rahmen der persönlichen Anhörung prüft der Entscheider die näheren Umstände des Glaubenswechsels."
-              },
-              {
-                "text": "Asylbewerber sind daneben immer gehalten, sofern möglich, Nachweise bzw. Beweismittel vorzulegen, zum Beispiel eine Taufbescheinigung."
-              },
-              {
-                "text": "Die Taufbescheinigung bestätigt jedoch nur, dass ein Glaubensübertritt stattgefunden hat."
-              },
-              {
-                "text": "Sie sagt aber nichts darüber aus, wie der Antragsteller seinen neuen Glauben bei der Rückkehr in sein Heimatland voraussichtlich leben wird und welche Gefahren sich hieraus ergeben können."
-              },
-              {
-                "text": "Die Klärung dieser Frage ist Bestandteil der persönlichen Anhörung."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Wolfgang Kubicki",
-            "speakerstatus": "vice-president",
-            "text": "Eine Nachfrage, Herr Kollege Brandt? – Bitte.",
-            "sentences": [
-              {
-                "text": "Eine Nachfrage, Herr Kollege Brandt?"
-              },
-              {
-                "text": "– Bitte."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Michel Brandt",
-            "speakerstatus": "speaker",
-            "text": "Wieso kann das Bundesamt für Migration und Flüchtlinge die Glaubensfestigkeit – das bezieht sich auf den konkreten Fall, den ich Ihnen geschickt habe – eines Schutzsuchenden besser beurteilen als der Bischof vor Ort? Das würde mich interessieren.",
-            "sentences": [
-              {
-                "text": "Wieso kann das Bundesamt für Migration und Flüchtlinge die Glaubensfestigkeit – das bezieht sich auf den konkreten Fall, den ich Ihnen geschickt habe – eines Schutzsuchenden besser beurteilen als der Bischof vor Ort?"
-              },
-              {
-                "text": "Das würde mich interessieren."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Ole Schröder",
-            "speakerstatus": "speaker",
-            "text": "Wir behaupten nicht, dass das Bundesamt für Migration das besser beurteilen kann. Aber selbstverständlich muss sich das Bundesamt ein eigenes Bild machen und kann sich nicht allein auf die Aussagen Dritter verlassen.",
-            "sentences": [
-              {
-                "text": "Wir behaupten nicht, dass das Bundesamt für Migration das besser beurteilen kann."
-              },
-              {
-                "text": "Aber selbstverständlich muss sich das Bundesamt ein eigenes Bild machen und kann sich nicht allein auf die Aussagen Dritter verlassen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Wolfgang Kubicki",
-            "speakerstatus": "vice-president",
-            "text": "Herr Kollege Brandt, eine weitere Nachfrage? – Dann Frau Kollegin Polat.",
-            "sentences": [
-              {
-                "text": "Herr Kollege Brandt, eine weitere Nachfrage?"
-              },
-              {
-                "text": "– Dann Frau Kollegin Polat."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Filiz Polat",
-            "speakerstatus": "speaker",
-            "text": "Ja, Herr Präsident, das hat mich motiviert, noch einmal nachzufragen. – Nach welchen Kriterien erfolgt eine solche Überprüfung im Asylverfahren? Setzt das auch voraus, dass der Asylentscheider oder der Befragende selbst der entsprechenden Konfession angehören sollte?",
-            "sentences": [
-              {
-                "text": "Ja, Herr Präsident, das hat mich motiviert, noch einmal nachzufragen."
-              },
-              {
-                "text": "– Nach welchen Kriterien erfolgt eine solche Überprüfung im Asylverfahren?"
-              },
-              {
-                "text": "Setzt das auch voraus, dass der Asylentscheider oder der Befragende selbst der entsprechenden Konfession angehören sollte?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Ole Schröder",
-            "speakerstatus": "speaker",
-            "text": "Selbstverständlich erfolgt das durch eine intensive Befragung. Natürlich ist dazu eine gewisse Kompetenz des Befragers notwendig. Es ist aber nicht notwendig, dass er selbst der betreffenden Religionsgemeinschaft aktiv angehört.",
-            "sentences": [
-              {
-                "text": "Selbstverständlich erfolgt das durch eine intensive Befragung."
-              },
-              {
-                "text": "Natürlich ist dazu eine gewisse Kompetenz des Befragers notwendig."
-              },
-              {
-                "text": "Es ist aber nicht notwendig, dass er selbst der betreffenden Religionsgemeinschaft aktiv angehört."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Wolfgang Kubicki",
-            "speakerstatus": "vice-president",
-            "text": "Herzlichen Dank. – Eine weitere Nachfrage. Bitte.",
-            "sentences": [
-              {
-                "text": "Herzlichen Dank."
-              },
-              {
-                "text": "– Eine weitere Nachfrage."
-              },
-              {
-                "text": "Bitte."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Canan Bayram",
-            "speakerstatus": "speaker",
-            "text": "Vielen Dank, Herr Präsident. – Die weitere Frage, die sich stellt, ist: Wie gewährleistet das Bundesamt, dass genügend des christlichen Glaubens kundige Sachbearbeiter oder Entscheider vor Ort sind? Wie wird das geregelt? Wie muss der Antragsteller nachweisen, in welcher Form er im Herkunftsland seinen Glauben ausüben will? Gibt es dafür Kriterien, zum Beispiel wie oft man die Kirche besucht oder wie man sich verhält? Ich frage mich, wie diese konkrete Abfrage stattfindet.",
-            "sentences": [
-              {
-                "text": "Vielen Dank, Herr Präsident."
-              },
-              {
-                "text": "– Die weitere Frage, die sich stellt, ist: Wie gewährleistet das Bundesamt, dass genügend des christlichen Glaubens kundige Sachbearbeiter oder Entscheider vor Ort sind?"
-              },
-              {
-                "text": "Wie wird das geregelt?"
-              },
-              {
-                "text": "Wie muss der Antragsteller nachweisen, in welcher Form er im Herkunftsland seinen Glauben ausüben will?"
-              },
-              {
-                "text": "Gibt es dafür Kriterien, zum Beispiel wie oft man die Kirche besucht oder wie man sich verhält?"
-              },
-              {
-                "text": "Ich frage mich, wie diese konkrete Abfrage stattfindet."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Ole Schröder",
-            "speakerstatus": "speaker",
-            "text": "Zum einen: Es findet auch hier eine Planung – wie bei allen anderen Themen –, nämlich welche Personen mit welchen Kompetenzen im Bundesamt zur Verfügung stehen müssen, statt. Zum anderen: Das findet durch intensive Befragung statt. Notwendig ist der Nachweis, dass, wenn der Glaube ausgeübt und praktiziert wird, eine konkrete Bedrohung in dem Herkunftsstaat vorliegt.",
-            "sentences": [
-              {
-                "text": "Zum einen: Es findet auch hier eine Planung – wie bei allen anderen Themen –, nämlich welche Personen mit welchen Kompetenzen im Bundesamt zur Verfügung stehen müssen, statt."
-              },
-              {
-                "text": "Zum anderen: Das findet durch intensive Befragung statt."
-              },
-              {
-                "text": "Notwendig ist der Nachweis, dass, wenn der Glaube ausgeübt und praktiziert wird, eine konkrete Bedrohung in dem Herkunftsstaat vorliegt."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Wolfgang Kubicki",
-            "speakerstatus": "vice-president",
-            "text": "Herzlichen Dank. – Eine weitere Nachfrage.",
-            "sentences": [
-              {
-                "text": "Herzlichen Dank."
-              },
-              {
-                "text": "– Eine weitere Nachfrage."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Ottmar von Holtz",
-            "speakerstatus": "speaker",
-            "text": "Vielen Dank, Herr Präsident. – Herr Staatssekretär, der EuGH hat im Januar die Entscheidung getroffen, dass die Feststellung der sexuellen Orientierung nicht zulässig ist. Warum ist dann eine Feststellung der Glaubensrichtung möglich?",
-            "sentences": [
-              {
-                "text": "Vielen Dank, Herr Präsident."
-              },
-              {
-                "text": "– Herr Staatssekretär, der EuGH hat im Januar die Entscheidung getroffen, dass die Feststellung der sexuellen Orientierung nicht zulässig ist."
-              },
-              {
-                "text": "Warum ist dann eine Feststellung der Glaubensrichtung möglich?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Ole Schröder",
-            "speakerstatus": "speaker",
-            "text": "Der Europäische Gerichtshof hat nicht festgestellt, dass sich das Bundesamt für Migration und Flüchtlinge nicht vergewissern darf, ob beispielsweise Homosexualität vorliegt. Der Europäische Gerichtshof hat sich lediglich dahin gehend geäußert, dass es nicht den Menschenrechten entspricht, bestimmte Beweismaterialien und bestimmte Gutachten beizuziehen.",
-            "sentences": [
-              {
-                "text": "Der Europäische Gerichtshof hat nicht festgestellt, dass sich das Bundesamt für Migration und Flüchtlinge nicht vergewissern darf, ob beispielsweise Homosexualität vorliegt."
-              },
-              {
-                "text": "Der Europäische Gerichtshof hat sich lediglich dahin gehend geäußert, dass es nicht den Menschenrechten entspricht, bestimmte Beweismaterialien und bestimmte Gutachten beizuziehen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Wolfgang Kubicki",
-            "speakerstatus": "vice-president",
-            "text": "Herzlichen Dank, Frau Kollegin Bayram, Herr Kollege von Holtz. Wir haben die Namen gerade identifiziert; das ist wichtig für das Protokoll. – Danke, für die Antwort. Es gibt keine weitere Nachfrage.",
-            "sentences": [
-              {
-                "text": "Herzlichen Dank, Frau Kollegin Bayram, Herr Kollege von Holtz."
-              },
-              {
-                "text": "Wir haben die Namen gerade identifiziert; das ist wichtig für das Protokoll."
-              },
-              {
-                "text": "– Danke, für die Antwort."
-              },
-              {
-                "text": "Es gibt keine weitere Nachfrage."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Wolfgang Kubicki",
-            "speakerstatus": "vice-president",
-            "text": "Ich rufe Frage 44 des Abgeordneten Hansjörg Müller auf:",
-            "sentences": [
-              {
-                "text": "Ich rufe Frage 44 des Abgeordneten Hansjörg Müller auf:"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Ole Schröder",
-            "speakerstatus": "speaker",
-            "text": "In der Vorbereitung des Trilogs zwischen dem Europäischen Parlament, der Europäischen Kommission und dem Rat wirkt die Bundesregierung darauf hin, eine interessengerechte Ratsposition, die sich insbesondere an der Verhinderung von Sekundärmigration orientiert, zu verabschieden. Die Bundesregierung wird versuchen, diese Position auch im Rahmen des Trilogs mit dem Europäischen Parlament und der Europäischen Kommission durchzusetzen. Zu den Einzelheiten ihrer Meinungsbildung, die in den Kernbereich exekutiver Eigenverantwortung fallen, nimmt die Bundesregierung nicht Stellung.",
-            "sentences": [
-              {
-                "text": "In der Vorbereitung des Trilogs zwischen dem Europäischen Parlament, der Europäischen Kommission und dem Rat wirkt die Bundesregierung darauf hin, eine interessengerechte Ratsposition, die sich insbesondere an der Verhinderung von Sekundärmigration orientiert, zu verabschieden."
-              },
-              {
-                "text": "Die Bundesregierung wird versuchen, diese Position auch im Rahmen des Trilogs mit dem Europäischen Parlament und der Europäischen Kommission durchzusetzen."
-              },
-              {
-                "text": "Zu den Einzelheiten ihrer Meinungsbildung, die in den Kernbereich exekutiver Eigenverantwortung fallen, nimmt die Bundesregierung nicht Stellung."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Wolfgang Kubicki",
-            "speakerstatus": "vice-president",
-            "text": "Herr Kollege Müller, eine Nachfrage?",
-            "sentences": [
-              {
-                "text": "Herr Kollege Müller, eine Nachfrage?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Hansjörg Müller",
-            "speakerstatus": "speaker",
-            "text": "Ich bedanke mich, Herr Präsident, Herr Staatssekretär, für die Antwort, die mich aber nicht zufriedenstellt, da die EU nachgewiesenermaßen Umsiedlungsprogramme durchführt. Die EU hat vor, die Dublin-III-Verordnung abzuschaffen; das heißt, ein Asylantrag muss nicht mehr in dem Land, wo man zuerst europäisches Territorium betritt, gestellt werden. Vielmehr kann jeder, der europäisches Territorium betritt, sagen, er habe Verwandte in Deutschland, und dann darf er hier einen Asylantrag stellen. Wenn das kommt, dann kommt die nächste Asyllawine auf uns zu. Ich erwarte von der Bundesregierung, dass sie hier präventiv tätig wird. Ich möchte gerne konkret wissen, wie.",
-            "sentences": [
-              {
-                "text": "Ich bedanke mich, Herr Präsident, Herr Staatssekretär, für die Antwort, die mich aber nicht zufriedenstellt, da die EU nachgewiesenermaßen Umsiedlungsprogramme durchführt."
-              },
-              {
-                "text": "Die EU hat vor, die Dublin-III-Verordnung abzuschaffen; das heißt, ein Asylantrag muss nicht mehr in dem Land, wo man zuerst europäisches Territorium betritt, gestellt werden."
-              },
-              {
-                "text": "Vielmehr kann jeder, der europäisches Territorium betritt, sagen, er habe Verwandte in Deutschland, und dann darf er hier einen Asylantrag stellen."
-              },
-              {
-                "text": "Wenn das kommt, dann kommt die nächste Asyllawine auf uns zu."
-              },
-              {
-                "text": "Ich erwarte von der Bundesregierung, dass sie hier präventiv tätig wird."
-              },
-              {
-                "text": "Ich möchte gerne konkret wissen, wie."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Ole Schröder",
-            "speakerstatus": "speaker",
-            "text": "Wir bringen uns – wie ich das ja beschrieben habe – ein und sind dabei, unsere Position im Trilog auch durchzusetzen. Das wichtigste Anliegen ist, dass wir Sekundärmigration innerhalb von Europa verhindern. Dabei ist die Verhandlung über die Dublin-III-Verordnung von ganz entscheidender Bedeutung.",
-            "sentences": [
-              {
-                "text": "Wir bringen uns – wie ich das ja beschrieben habe – ein und sind dabei, unsere Position im Trilog auch durchzusetzen."
-              },
-              {
-                "text": "Das wichtigste Anliegen ist, dass wir Sekundärmigration innerhalb von Europa verhindern."
-              },
-              {
-                "text": "Dabei ist die Verhandlung über die Dublin-III-Verordnung von ganz entscheidender Bedeutung."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Wolfgang Kubicki",
-            "speakerstatus": "vice-president",
-            "text": "Herr Kollege Müller, ich sehe, Sie haben eine weitere Nachfrage.",
-            "sentences": [
-              {
-                "text": "Herr Kollege Müller, ich sehe, Sie haben eine weitere Nachfrage."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Hansjörg Müller",
-            "speakerstatus": "speaker",
-            "text": "Ich danke Ihnen, Herr Präsident. – Verstehe ich Sie richtig, Sie zielen auf die Verhinderung der Sekundärmigration ab? Das heißt für mich im Umkehrschluss, dass eine Primärmigration nach Deutschland möglich wäre.",
-            "sentences": [
-              {
-                "text": "Ich danke Ihnen, Herr Präsident."
-              },
-              {
-                "text": "– Verstehe ich Sie richtig, Sie zielen auf die Verhinderung der Sekundärmigration ab?"
-              },
-              {
-                "text": "Das heißt für mich im Umkehrschluss, dass eine Primärmigration nach Deutschland möglich wäre."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Ole Schröder",
-            "speakerstatus": "speaker",
-            "text": "Dieser Umkehrschluss ist falsch. Vielmehr lehnen wir selbstverständlich den Vorschlag ab, der jetzt vom Europäischen Parlament gemacht wird, nach dem die bloße Behauptung, dass man beispielsweise Geschwister in einem Mitgliedstaat hat, ausreicht, damit man in den entsprechenden Mitgliedstaat kommt, um dort das Asylverfahren zu durchlaufen; denn wir hätten natürlich eine Menge Ankerpersonen in Deutschland. – Das ist der erste Punkt.",
-            "sentences": [
-              {
-                "text": "Dieser Umkehrschluss ist falsch."
-              },
-              {
-                "text": "Vielmehr lehnen wir selbstverständlich den Vorschlag ab, der jetzt vom Europäischen Parlament gemacht wird, nach dem die bloße Behauptung, dass man beispielsweise Geschwister in einem Mitgliedstaat hat, ausreicht, damit man in den entsprechenden Mitgliedstaat kommt, um dort das Asylverfahren zu durchlaufen; denn wir hätten natürlich eine Menge Ankerpersonen in Deutschland."
-              },
-              {
-                "text": "– Das ist der erste Punkt."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Ole Schröder",
-            "speakerstatus": "speaker",
-            "text": "Der zweite Punkt ist, dass wir zusätzlich bei den Verhandlungen über das europäische Asylsystem alles daransetzen, um Sekundärmigration zu verhindern, weil sonst natürlich jegliche Verteilung innerhalb Europas Makulatur wäre.",
-            "sentences": [
-              {
-                "text": "Der zweite Punkt ist, dass wir zusätzlich bei den Verhandlungen über das europäische Asylsystem alles daransetzen, um Sekundärmigration zu verhindern, weil sonst natürlich jegliche Verteilung innerhalb Europas Makulatur wäre."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Wolfgang Kubicki",
-            "speakerstatus": "vice-president",
-            "text": "Herzlichen Dank. – Gibt es weitere Nachfragen hierzu? – Das ist nicht der Fall.",
-            "sentences": [
-              {
-                "text": "Herzlichen Dank."
-              },
-              {
-                "text": "– Gibt es weitere Nachfragen hierzu?"
-              },
-              {
-                "text": "– Das ist nicht der Fall."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Wolfgang Kubicki",
-            "speakerstatus": "vice-president",
-            "text": "Dann kommen wir zur Frage 45 des Abgeordneten Hansjörg Müller:",
-            "sentences": [
-              {
-                "text": "Dann kommen wir zur Frage 45 des Abgeordneten Hansjörg Müller:"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Ole Schröder",
-            "speakerstatus": "speaker",
-            "text": "Ich weise zunächst für die Bundesregierung darauf hin, dass meine Aussage im Rahmen der Fragestunde vom 17. Januar zur Feststellung von Familienverhältnissen vom Fragesteller inkorrekt wiedergegeben ist. Die Überprüfung von Familienverhältnissen – Zitat –",
-            "sentences": [
-              {
-                "text": "Ich weise zunächst für die Bundesregierung darauf hin, dass meine Aussage im Rahmen der Fragestunde vom 17. Januar zur Feststellung von Familienverhältnissen vom Fragesteller inkorrekt wiedergegeben ist."
-              },
-              {
-                "text": "Die Überprüfung von Familienverhältnissen – Zitat –"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Ole Schröder",
-            "speakerstatus": "speaker",
-            "text": "So habe ich mich ausgedrückt. Die hier zitierten Äußerungen lassen sich auch im Protokoll der Fragestunde nachlesen.",
-            "sentences": [
-              {
-                "text": "So habe ich mich ausgedrückt."
-              },
-              {
-                "text": "Die hier zitierten Äußerungen lassen sich auch im Protokoll der Fragestunde nachlesen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Ole Schröder",
-            "speakerstatus": "speaker",
-            "text": "In der Sache ist darauf hinzuweisen, dass die Überprüfbarkeit von Familienverhältnissen nach Auffassung der Bundesregierung auch künftig möglich bleiben muss.",
-            "sentences": [
-              {
-                "text": "In der Sache ist darauf hinzuweisen, dass die Überprüfbarkeit von Familienverhältnissen nach Auffassung der Bundesregierung auch künftig möglich bleiben muss."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Ole Schröder",
-            "speakerstatus": "speaker",
-            "text": "Darüber hinaus ist die Bundesregierung in den Verhandlungen zur Reformierung des Gemeinsamen Europäischen Asylsystems allgemein bestrebt, möglichem Missbrauch und einer unangemessenen Belastung einzelner Mitgliedstaaten vorzubeugen.",
-            "sentences": [
-              {
-                "text": "Darüber hinaus ist die Bundesregierung in den Verhandlungen zur Reformierung des Gemeinsamen Europäischen Asylsystems allgemein bestrebt, möglichem Missbrauch und einer unangemessenen Belastung einzelner Mitgliedstaaten vorzubeugen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Ole Schröder",
-            "speakerstatus": "speaker",
-            "text": "Zu den Einzelheiten ihrer Meinungsbildung, die in den Kernbereich exekutiver Eigenverantwortung fallen, nimmt die Bundesregierung nicht Stellung. Es sei aber darauf hingewiesen, dass nach den geltenden Dublin-III-Verordnungen Überstellungen infolge eines bestehenden Familienverhältnisses nur nach intensiver Überprüfung sowohl durch den abgebenden als auch durch den aufnehmenden Mitgliedstaat stattfinden.",
-            "sentences": [
-              {
-                "text": "Zu den Einzelheiten ihrer Meinungsbildung, die in den Kernbereich exekutiver Eigenverantwortung fallen, nimmt die Bundesregierung nicht Stellung."
-              },
-              {
-                "text": "Es sei aber darauf hingewiesen, dass nach den geltenden Dublin-III-Verordnungen Überstellungen infolge eines bestehenden Familienverhältnisses nur nach intensiver Überprüfung sowohl durch den abgebenden als auch durch den aufnehmenden Mitgliedstaat stattfinden."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Wolfgang Kubicki",
-            "speakerstatus": "vice-president",
-            "text": "Vielen Dank, Herr Staatssekretär. – Eine Nachfrage, Herr Kollege Müller.",
-            "sentences": [
-              {
-                "text": "Vielen Dank, Herr Staatssekretär."
-              },
-              {
-                "text": "– Eine Nachfrage, Herr Kollege Müller."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Hansjörg Müller",
-            "speakerstatus": "speaker",
-            "text": "Nur eine ganz kurze Nachfrage. – Es ist natürlich in der Tat schwierig, das festzustellen. Wie wird bei einer behaupteten Verwandtschaftsbeziehung im Zweifel – wenn nicht klar ist, ob man die Verwandtschaft feststellen kann oder nicht – entschieden: pro Asylantrag oder dagegen?",
-            "sentences": [
-              {
-                "text": "Nur eine ganz kurze Nachfrage."
-              },
-              {
-                "text": "– Es ist natürlich in der Tat schwierig, das festzustellen."
-              },
-              {
-                "text": "Wie wird bei einer behaupteten Verwandtschaftsbeziehung im Zweifel – wenn nicht klar ist, ob man die Verwandtschaft feststellen kann oder nicht – entschieden: pro Asylantrag oder dagegen?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Ole Schröder",
-            "speakerstatus": "speaker",
-            "text": "Im Zweifelsfall wird gegen den Familiennachzug entschieden. Derjenige, der einen Antrag stellt, muss nachweisen, dass er zur Familie gehört. Da reicht eben nicht eine bloße Befragung, sondern die Bearbeiter an den Botschaften geben sich da wirklich ausgesprochen viel Mühe; sie geben sich auch die Mühe. Geben auch Sie sich die Mühe, sich das einmal anzugucken. Da wird wirklich zeitgleich mit demjenigen, der vorgibt, Ehepartner zu sein, und demjenigen, der der angebliche Ehepartner ist, telefoniert: Wie war es beispielsweise bei der Hochzeit? Welche Verwandten haben Sie noch? – Es wird gefragt: Haben Sie denn mal ein Hochzeitsfoto? – Dann gibt es auch noch die Möglichkeit eines Speicheltests. Es wird hier also nicht einfach akzeptiert, wenn jemand behauptet, Teil der Familie zu sein.",
-            "sentences": [
-              {
-                "text": "Im Zweifelsfall wird gegen den Familiennachzug entschieden."
-              },
-              {
-                "text": "Derjenige, der einen Antrag stellt, muss nachweisen, dass er zur Familie gehört."
-              },
-              {
-                "text": "Da reicht eben nicht eine bloße Befragung, sondern die Bearbeiter an den Botschaften geben sich da wirklich ausgesprochen viel Mühe; sie geben sich auch die Mühe."
-              },
-              {
-                "text": "Geben auch Sie sich die Mühe, sich das einmal anzugucken."
-              },
-              {
-                "text": "Da wird wirklich zeitgleich mit demjenigen, der vorgibt, Ehepartner zu sein, und demjenigen, der der angebliche Ehepartner ist, telefoniert: Wie war es beispielsweise bei der Hochzeit?"
-              },
-              {
-                "text": "Welche Verwandten haben Sie noch?"
-              },
-              {
-                "text": "– Es wird gefragt: Haben Sie denn mal ein Hochzeitsfoto?"
-              },
-              {
-                "text": "– Dann gibt es auch noch die Möglichkeit eines Speicheltests."
-              },
-              {
-                "text": "Es wird hier also nicht einfach akzeptiert, wenn jemand behauptet, Teil der Familie zu sein."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Ole Schröder",
-            "speakerstatus": "speaker",
-            "text": "Genau das ist das Problem des Vorschlags des Europäischen Parlaments: Da reicht die bloße Behauptung aus. Allerdings geht es da nicht um den Familiennachzug, sondern im Rahmen des Dublin-Systems um die Frage, wo der Asylantrag gestellt wird.",
-            "sentences": [
-              {
-                "text": "Genau das ist das Problem des Vorschlags des Europäischen Parlaments: Da reicht die bloße Behauptung aus."
-              },
-              {
-                "text": "Allerdings geht es da nicht um den Familiennachzug, sondern im Rahmen des Dublin-Systems um die Frage, wo der Asylantrag gestellt wird."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Wolfgang Kubicki",
-            "speakerstatus": "vice-president",
-            "text": "Vielen Dank, Herr Staatssekretär.",
-            "sentences": [
-              {
-                "text": "Vielen Dank, Herr Staatssekretär."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Hansjörg Müller",
-            "speakerstatus": "speaker",
-            "text": "Ich bedanke mich sehr.",
-            "sentences": [
-              {
-                "text": "Ich bedanke mich sehr."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Wolfgang Kubicki",
-            "speakerstatus": "vice-president",
-            "text": "Keine weitere Nachfrage? – Dann ist dieser Punkt abgeschlossen.",
-            "sentences": [
-              {
-                "text": "Keine weitere Nachfrage?"
-              },
-              {
-                "text": "– Dann ist dieser Punkt abgeschlossen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Wolfgang Kubicki",
-            "speakerstatus": "vice-president",
-            "text": "Die Frage 46 der Abgeordneten Martina Renner betreffend die Stellung von Zeugenbeiständen im Rahmen der NSU-Untersuchungsausschüsse wird schriftlich beantwortet.",
-            "sentences": [
-              {
-                "text": "Die Frage 46 der Abgeordneten Martina Renner betreffend die Stellung von Zeugenbeiständen im Rahmen der NSU-Untersuchungsausschüsse wird schriftlich beantwortet."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Wolfgang Kubicki",
-            "speakerstatus": "vice-president",
-            "text": "Dann sind wir am Ende dieses Geschäftsbereichs.",
-            "sentences": [
-              {
-                "text": "Dann sind wir am Ende dieses Geschäftsbereichs."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Wolfgang Kubicki",
-            "speakerstatus": "vice-president",
-            "text": "Wir kommen jetzt zum Geschäftsbereich des Bundesministeriums der Justiz und für Verbraucherschutz. Herr Staatssekretär Christian Lange wird die Fragen beantworten.",
-            "sentences": [
-              {
-                "text": "Wir kommen jetzt zum Geschäftsbereich des Bundesministeriums der Justiz und für Verbraucherschutz."
-              },
-              {
-                "text": "Herr Staatssekretär Christian Lange wird die Fragen beantworten."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Wolfgang Kubicki",
-            "speakerstatus": "vice-president",
-            "text": "Die Frage 47 der Abgeordneten Helin Evrim ­Sommer wird ebenfalls schriftlich beantwortet. Sie betrifft mögliche Strafanzeigen gegen den ehemaligen iranischen Obersten Richter, Herrn Ajatollah Shahroudi, in Deutschland.",
-            "sentences": [
-              {
-                "text": "Die Frage 47 der Abgeordneten Helin Evrim ­Sommer wird ebenfalls schriftlich beantwortet."
-              },
-              {
-                "text": "Sie betrifft mögliche Strafanzeigen gegen den ehemaligen iranischen Obersten Richter, Herrn Ajatollah Shahroudi, in Deutschland."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Wolfgang Kubicki",
-            "speakerstatus": "vice-president",
-            "text": "Wir kommen jetzt zur Frage 48 der Abgeordneten Canan Bayram:",
-            "sentences": [
-              {
-                "text": "Wir kommen jetzt zur Frage 48 der Abgeordneten Canan Bayram:"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Christian Lange",
-            "speakerstatus": "speaker",
-            "text": "Vielen Dank, Herr Präsident. – Frau Kollegin, ich beantworte Ihre Frage wie folgt: Die neue Bundesregierung wird sich zu gegebener Zeit sicherlich eine Meinung bilden und sich intensiv mit der Frage beschäftigen, wie Strafprozesse effektiver ausgestaltet werden können, und zwar schon deshalb, weil die Justizministerkonferenz im Herbst 2017 einstimmig darum gebeten hat, den in der vergangenen Legislaturperiode begonnenen Reformprozess in Abstimmung mit den Ländern fortzusetzen.",
-            "sentences": [
-              {
-                "text": "Vielen Dank, Herr Präsident."
-              },
-              {
-                "text": "– Frau Kollegin, ich beantworte Ihre Frage wie folgt: Die neue Bundesregierung wird sich zu gegebener Zeit sicherlich eine Meinung bilden und sich intensiv mit der Frage beschäftigen, wie Strafprozesse effektiver ausgestaltet werden können, und zwar schon deshalb, weil die Justizministerkonferenz im Herbst 2017 einstimmig darum gebeten hat, den in der vergangenen Legislaturperiode begonnenen Reformprozess in Abstimmung mit den Ländern fortzusetzen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Christian Lange",
-            "speakerstatus": "speaker",
-            "text": "Wie Sie wissen, hat das Gesetz zur effektiveren und praxistauglicheren Ausgestaltung des Strafverfahrens, das wir im vergangenen Jahr beschlossen haben, nicht alle Themen behandeln können, die von der Expertenkommission vorgeschlagen worden sind, die das Bundesjustizministerium zu Beginn der vorigen Legislaturperiode eingesetzt hatte. Das betrifft zum Beispiel die Frage der Dokumentation der Hauptverhandlung oder die Bündelung der Nebenklagevertretung in der Hauptverhandlung.",
-            "sentences": [
-              {
-                "text": "Wie Sie wissen, hat das Gesetz zur effektiveren und praxistauglicheren Ausgestaltung des Strafverfahrens, das wir im vergangenen Jahr beschlossen haben, nicht alle Themen behandeln können, die von der Expertenkommission vorgeschlagen worden sind, die das Bundesjustizministerium zu Beginn der vorigen Legislaturperiode eingesetzt hatte."
-              },
-              {
-                "text": "Das betrifft zum Beispiel die Frage der Dokumentation der Hauptverhandlung oder die Bündelung der Nebenklagevertretung in der Hauptverhandlung."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Christian Lange",
-            "speakerstatus": "speaker",
-            "text": "Wie aus den von Ihnen zitierten Presseberichten zutreffend hervorgeht, wurden zudem weitere Reformvorschläge aus dem Bereich der Justiz an die Bundesregierung herangetragen. Selbstverständlich werden auch bei einer Fortführung des Reformprozesses die Betroffenenrechte, sowohl der Beschuldigten als auch der Opfer, gewahrt.",
-            "sentences": [
-              {
-                "text": "Wie aus den von Ihnen zitierten Presseberichten zutreffend hervorgeht, wurden zudem weitere Reformvorschläge aus dem Bereich der Justiz an die Bundesregierung herangetragen."
-              },
-              {
-                "text": "Selbstverständlich werden auch bei einer Fortführung des Reformprozesses die Betroffenenrechte, sowohl der Beschuldigten als auch der Opfer, gewahrt."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Wolfgang Kubicki",
-            "speakerstatus": "vice-president",
-            "text": "Herzlichen Dank. – Frau Kollegin Canan Bayram, haben Sie eine Nachfrage?",
-            "sentences": [
-              {
-                "text": "Herzlichen Dank."
-              },
-              {
-                "text": "– Frau Kollegin Canan Bayram, haben Sie eine Nachfrage?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Canan Bayram",
-            "speakerstatus": "speaker",
-            "text": "Vielen Dank, Herr Präsident. – Ja, ich habe eine Nachfrage: Können Sie für das, was in der Zuständigkeit des Bundesministeriums der Justiz und für Verbraucherschutz liegt, einen Ablaufplan angeben und darlegen, wann tatsächlich, vielleicht noch in diesem Jahr, ein Entwurf oder ein Verfahren vorgestellt werden kann und welche Maßnahmen dies im Schwerpunkt betrifft, also welche Verfahren insbesondere gestrafft werden sollen? Können Sie das etwas eingrenzen? Ich fand, dass Ihre Ausführungen bisher sehr allgemein waren.",
-            "sentences": [
-              {
-                "text": "Vielen Dank, Herr Präsident."
-              },
-              {
-                "text": "– Ja, ich habe eine Nachfrage: Können Sie für das, was in der Zuständigkeit des Bundesministeriums der Justiz und für Verbraucherschutz liegt, einen Ablaufplan angeben und darlegen, wann tatsächlich, vielleicht noch in diesem Jahr, ein Entwurf oder ein Verfahren vorgestellt werden kann und welche Maßnahmen dies im Schwerpunkt betrifft, also welche Verfahren insbesondere gestrafft werden sollen?"
-              },
-              {
-                "text": "Können Sie das etwas eingrenzen?"
-              },
-              {
-                "text": "Ich fand, dass Ihre Ausführungen bisher sehr allgemein waren."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Christian Lange",
-            "speakerstatus": "speaker",
-            "text": "Das liegt daran, dass die neue Bundesregierung noch nicht gebildet ist; wir wollen ja der neuen Bundesregierung auch nicht vorgreifen. Deshalb kann es auch noch keine konkreten inhaltlichen Planungen geben. Es gibt lediglich zahlreiche Vorschläge, die zunächst zu bewerten sind.",
-            "sentences": [
-              {
-                "text": "Das liegt daran, dass die neue Bundesregierung noch nicht gebildet ist; wir wollen ja der neuen Bundesregierung auch nicht vorgreifen."
-              },
-              {
-                "text": "Deshalb kann es auch noch keine konkreten inhaltlichen Planungen geben."
-              },
-              {
-                "text": "Es gibt lediglich zahlreiche Vorschläge, die zunächst zu bewerten sind."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Christian Lange",
-            "speakerstatus": "speaker",
-            "text": "Gerade im Bereich des Beweisantragsrechts oder des Befangenheitsrechts, in dem der Gesetzgeber erst jüngst die von mir schon erwähnten Änderungen vorgenommen hat – bei denen wir sehr bewusst darauf geachtet haben, dass sinnvolle Effektivierungen nicht zulasten der Beschuldigtenrechte vorgenommen werden –, sollten zunächst Erfahrungen mit den gerade erst in Kraft getretenen Änderungen gesammelt werden.",
-            "sentences": [
-              {
-                "text": "Gerade im Bereich des Beweisantragsrechts oder des Befangenheitsrechts, in dem der Gesetzgeber erst jüngst die von mir schon erwähnten Änderungen vorgenommen hat – bei denen wir sehr bewusst darauf geachtet haben, dass sinnvolle Effektivierungen nicht zulasten der Beschuldigtenrechte vorgenommen werden –, sollten zunächst Erfahrungen mit den gerade erst in Kraft getretenen Änderungen gesammelt werden."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Christian Lange",
-            "speakerstatus": "speaker",
-            "text": "Ein künftiges Reformvorhaben sollte daher andere Aspekte in den Vordergrund stellen.",
-            "sentences": [
-              {
-                "text": "Ein künftiges Reformvorhaben sollte daher andere Aspekte in den Vordergrund stellen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Christian Lange",
-            "speakerstatus": "speaker",
-            "text": "Ich bitte nochmals um Verständnis dafür, dass die konkrete Ausgestaltung der neuen Bundesregierung vorbehalten bleibt.",
-            "sentences": [
-              {
-                "text": "Ich bitte nochmals um Verständnis dafür, dass die konkrete Ausgestaltung der neuen Bundesregierung vorbehalten bleibt."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Wolfgang Kubicki",
-            "speakerstatus": "vice-president",
-            "text": "Herzlichen Dank. – Eine weitere Nachfrage, Frau Kollegin Bayram?",
-            "sentences": [
-              {
-                "text": "Herzlichen Dank."
-              },
-              {
-                "text": "– Eine weitere Nachfrage, Frau Kollegin Bayram?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Canan Bayram",
-            "speakerstatus": "speaker",
-            "text": "Ja. – Ich versuche tatsächlich, noch eine Antwort auf meine Frage zu bekommen. Deswegen möchte ich präzise fragen: Gibt es im Moment schriftlich ausgearbeitete Unterlagen, aus denen hervorgeht, was tatsächlich geplant ist? Ansonsten frage ich mich, warum der amtierende Justizminister solche Dinge in die Welt setzt, wenn das alles so unkonkret ist.",
-            "sentences": [
-              {
-                "text": "Ja."
-              },
-              {
-                "text": "– Ich versuche tatsächlich, noch eine Antwort auf meine Frage zu bekommen."
-              },
-              {
-                "text": "Deswegen möchte ich präzise fragen: Gibt es im Moment schriftlich ausgearbeitete Unterlagen, aus denen hervorgeht, was tatsächlich geplant ist?"
-              },
-              {
-                "text": "Ansonsten frage ich mich, warum der amtierende Justizminister solche Dinge in die Welt setzt, wenn das alles so unkonkret ist."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Christian Lange",
-            "speakerstatus": "speaker",
-            "text": "Ich habe Ihnen bereits geantwortet, dass es verschiedene Reformvorschläge vonseiten der Länder gibt. Es gibt einen einstimmigen Beschluss der Justizministerkonferenz, die uns dazu auffordert. Es gibt eine Expertenkommission, die Vorschläge gemacht hat. All das liegt schriftlich vor. Das ist bekannt und öffentlich.",
-            "sentences": [
-              {
-                "text": "Ich habe Ihnen bereits geantwortet, dass es verschiedene Reformvorschläge vonseiten der Länder gibt."
-              },
-              {
-                "text": "Es gibt einen einstimmigen Beschluss der Justizministerkonferenz, die uns dazu auffordert."
-              },
-              {
-                "text": "Es gibt eine Expertenkommission, die Vorschläge gemacht hat."
-              },
-              {
-                "text": "All das liegt schriftlich vor."
-              },
-              {
-                "text": "Das ist bekannt und öffentlich."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Christian Lange",
-            "speakerstatus": "speaker",
-            "text": "Die Bundesregierung selbst hat sich allerdings dazu, da es sich im Augenblick noch um eine geschäftsführende Regierung handelt, noch keine gemeinsame Meinung gebildet. Aber wir werden dies hoffentlich demnächst tun können.",
-            "sentences": [
-              {
-                "text": "Die Bundesregierung selbst hat sich allerdings dazu, da es sich im Augenblick noch um eine geschäftsführende Regierung handelt, noch keine gemeinsame Meinung gebildet."
-              },
-              {
-                "text": "Aber wir werden dies hoffentlich demnächst tun können."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Wolfgang Kubicki",
-            "speakerstatus": "vice-president",
-            "text": "Vielen Dank. – Frau Kollegin Bayram, auch wenn die Antwort unbefriedigend erscheinen mag: Der Herr Staatssekretär antwortet im Rahmen seiner Möglichkeiten.",
-            "sentences": [
-              {
-                "text": "Vielen Dank."
-              },
-              {
-                "text": "– Frau Kollegin Bayram, auch wenn die Antwort unbefriedigend erscheinen mag: Der Herr Staatssekretär antwortet im Rahmen seiner Möglichkeiten."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Christian Lange",
-            "speakerstatus": "speaker",
-            "text": "Das kann ich nur bestätigen.",
-            "sentences": [
-              {
-                "text": "Das kann ich nur bestätigen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Wolfgang Kubicki",
-            "speakerstatus": "vice-president",
-            "text": "Es gibt keine weiteren Nachfragen.",
-            "sentences": [
-              {
-                "text": "Es gibt keine weiteren Nachfragen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Wolfgang Kubicki",
-            "speakerstatus": "vice-president",
-            "text": "Ich rufe die Frage 49 des Abgeordneten Manuel ­Höferlin auf:",
-            "sentences": [
-              {
-                "text": "Ich rufe die Frage 49 des Abgeordneten Manuel ­Höferlin auf:"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Christian Lange",
-            "speakerstatus": "speaker",
-            "text": "Vielen Dank, Herr Präsident. – Herr Kollege, ich beantworte Ihre Frage wie folgt: Der Gesetzgeber hat mit § 31a der Bundesrechtsanwaltsordnung der Bundesrechtsanwaltskammer die Aufgabe übertragen, für jeden Rechtsanwalt ein besonderes elektronisches Anwaltspostfach – kurz: beA – empfangsbereit einzurichten.",
-            "sentences": [
-              {
-                "text": "Vielen Dank, Herr Präsident."
-              },
-              {
-                "text": "– Herr Kollege, ich beantworte Ihre Frage wie folgt: Der Gesetzgeber hat mit § 31a der Bundesrechtsanwaltsordnung der Bundesrechtsanwaltskammer die Aufgabe übertragen, für jeden Rechtsanwalt ein besonderes elektronisches Anwaltspostfach – kurz: beA – empfangsbereit einzurichten."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Christian Lange",
-            "speakerstatus": "speaker",
-            "text": "Die Bundesrechtsanwaltskammer kann dieser Verpflichtung nach ihren Angaben derzeit aufgrund eines aufgetretenen Sicherheitsproblems nicht nachkommen. Die Bundesrechtsanwaltskammer hat erklärt, dass das beA wieder zur Verfügung steht, sobald die Sicherheit des Systems im erforderlichen Umfang gewährleistet ist. Das Bundesministerium der Justiz und für Verbraucherschutz übt nach § 176 Absatz 2 Satz 1 der Bundesrechtsanwaltsordnung die Staatsaufsicht über die Bundesrechtsanwaltskammer als im Rahmen der Selbstverwaltung der Anwaltschaft tätige Körperschaft des öffentlichen Rechts aus.",
-            "sentences": [
-              {
-                "text": "Die Bundesrechtsanwaltskammer kann dieser Verpflichtung nach ihren Angaben derzeit aufgrund eines aufgetretenen Sicherheitsproblems nicht nachkommen."
-              },
-              {
-                "text": "Die Bundesrechtsanwaltskammer hat erklärt, dass das beA wieder zur Verfügung steht, sobald die Sicherheit des Systems im erforderlichen Umfang gewährleistet ist."
-              },
-              {
-                "text": "Das Bundesministerium der Justiz und für Verbraucherschutz übt nach § 176 Absatz 2 Satz 1 der Bundesrechtsanwaltsordnung die Staatsaufsicht über die Bundesrechtsanwaltskammer als im Rahmen der Selbstverwaltung der Anwaltschaft tätige Körperschaft des öffentlichen Rechts aus."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Christian Lange",
-            "speakerstatus": "speaker",
-            "text": "Die Aufsicht des Bundesministeriums der Justiz und für Verbraucherschutz beschränkt sich nach § 176 Absatz 2 Satz 2 der Bundesrechtsanwaltsordnung darauf, dass Gesetz und Satzung beachtet und die der Bundesrechtsanwaltskammer übertragenen Aufgaben erfüllt werden.",
-            "sentences": [
-              {
-                "text": "Die Aufsicht des Bundesministeriums der Justiz und für Verbraucherschutz beschränkt sich nach § 176 Absatz 2 Satz 2 der Bundesrechtsanwaltsordnung darauf, dass Gesetz und Satzung beachtet und die der Bundesrechtsanwaltskammer übertragenen Aufgaben erfüllt werden."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Wolfgang Kubicki",
-            "speakerstatus": "vice-president",
-            "text": "Ich sehe, Sie haben Bedarf an einer weiteren Nachfrage. Sie haben das Wort, Herr Kollege Höferlin.",
-            "sentences": [
-              {
-                "text": "Ich sehe, Sie haben Bedarf an einer weiteren Nachfrage."
-              },
-              {
-                "text": "Sie haben das Wort, Herr Kollege Höferlin."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Manuel Höferlin",
-            "speakerstatus": "speaker",
-            "text": "Vielen Dank, Herr Präsident. – Herr Staatssekretär, vor dem Hintergrund, dass zweimal in einem Monat von Experten des Chaos Computer Clubs Lücken bei der Software entdeckt wurden bzw. die Sicherheit infrage gestellt wurde, frage ich Sie, ob Sie etwas Konkretes planen, zum Beispiel ein Daraufhinwirken, dass der Quellcode offengelegt wird oder dass Experten die Vorgänge bei der Anwaltskammer noch einmal prüfen.",
-            "sentences": [
-              {
-                "text": "Vielen Dank, Herr Präsident."
-              },
-              {
-                "text": "– Herr Staatssekretär, vor dem Hintergrund, dass zweimal in einem Monat von Experten des Chaos Computer Clubs Lücken bei der Software entdeckt wurden bzw. die Sicherheit infrage gestellt wurde, frage ich Sie, ob Sie etwas Konkretes planen, zum Beispiel ein Daraufhinwirken, dass der Quellcode offengelegt wird oder dass Experten die Vorgänge bei der Anwaltskammer noch einmal prüfen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Christian Lange",
-            "speakerstatus": "speaker",
-            "text": "Herr Kollege, unser Haus steht in ständigem Kontakt mit der Bundesrechtsanwaltskammer, damit sichergestellt wird, dass das beA entsprechend den gesetzlichen Vorgaben sobald wie möglich wieder in Betrieb genommen wird. Wir beobachten das und verlassen uns auf die gemachten Zusagen.",
-            "sentences": [
-              {
-                "text": "Herr Kollege, unser Haus steht in ständigem Kontakt mit der Bundesrechtsanwaltskammer, damit sichergestellt wird, dass das beA entsprechend den gesetzlichen Vorgaben sobald wie möglich wieder in Betrieb genommen wird."
-              },
-              {
-                "text": "Wir beobachten das und verlassen uns auf die gemachten Zusagen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Wolfgang Kubicki",
-            "speakerstatus": "vice-president",
-            "text": "Herr Kollege Höferlin, ich sehe, Sie haben eine weitere Nachfrage.",
-            "sentences": [
-              {
-                "text": "Herr Kollege Höferlin, ich sehe, Sie haben eine weitere Nachfrage."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Manuel Höferlin",
-            "speakerstatus": "speaker",
-            "text": "Herr Präsident, das sehen Sie richtig. – Da es hier möglicherweise um das Grundvertrauen in Organe der Rechtspflege geht und Sie zweifellos dafür zuständig sind – Sie haben eben erwähnt, dass Sie die Rechtsaufsicht haben –, frage ich Sie als Vertreter der geschäftsführenden Bundesregierung: Planen Sie konkrete Maßnahmen, sollte eine Inbetriebnahme nicht zeitnah erfolgen, und wenn ja, welche?",
-            "sentences": [
-              {
-                "text": "Herr Präsident, das sehen Sie richtig."
-              },
-              {
-                "text": "– Da es hier möglicherweise um das Grundvertrauen in Organe der Rechtspflege geht und Sie zweifellos dafür zuständig sind – Sie haben eben erwähnt, dass Sie die Rechtsaufsicht haben –, frage ich Sie als Vertreter der geschäftsführenden Bundesregierung: Planen Sie konkrete Maßnahmen, sollte eine Inbetriebnahme nicht zeitnah erfolgen, und wenn ja, welche?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Christian Lange",
-            "speakerstatus": "speaker",
-            "text": "Die im Zuge des Ausfalls des beA eingeleiteten Prüfungen, die wir seitens des Ministeriums vorgenommen haben, sind noch nicht abgeschlossen. Deswegen kann ich Ihnen noch nicht sagen, welche Maßnahmen wir vornehmen werden.",
-            "sentences": [
-              {
-                "text": "Die im Zuge des Ausfalls des beA eingeleiteten Prüfungen, die wir seitens des Ministeriums vorgenommen haben, sind noch nicht abgeschlossen."
-              },
-              {
-                "text": "Deswegen kann ich Ihnen noch nicht sagen, welche Maßnahmen wir vornehmen werden."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Wolfgang Kubicki",
-            "speakerstatus": "vice-president",
-            "text": "Herzlichen Dank. – Der Kollege Strasser hat eine Nachfrage.",
-            "sentences": [
-              {
-                "text": "Herzlichen Dank."
-              },
-              {
-                "text": "– Der Kollege Strasser hat eine Nachfrage."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Benjamin Strasser",
-            "speakerstatus": "speaker",
-            "text": "Vielen Dank, Herr Präsident. – Herr Staatssekretär, rechnet die geschäftsführende Bundesregierung mit einer zeitnahen Verfügbarkeit des beA, und falls nicht, ist die geschäftsführende Bundesregierung der Rechtsansicht, dass jeder Rechtsanwalt bis zur erneuten Inbetriebnahme des beA verpflichtet ist, selber für einen sicheren Übermittlungsweg zu sorgen?",
-            "sentences": [
-              {
-                "text": "Vielen Dank, Herr Präsident."
-              },
-              {
-                "text": "– Herr Staatssekretär, rechnet die geschäftsführende Bundesregierung mit einer zeitnahen Verfügbarkeit des beA, und falls nicht, ist die geschäftsführende Bundesregierung der Rechtsansicht, dass jeder Rechtsanwalt bis zur erneuten Inbetriebnahme des beA verpflichtet ist, selber für einen sicheren Übermittlungsweg zu sorgen?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Christian Lange",
-            "speakerstatus": "speaker",
-            "text": "Die Bundesrechtsanwaltskammer hat uns, im ständigen Kontakt befindlich, versichert, dass sie alles unternimmt, um die technischen Defekte möglichst schnell zu beheben. Zu einzelnen rechtlichen Fragen, die sich ergeben, falls es nicht dazu kommen sollte, nehmen wir im Augenblick nicht Stellung. Wir haben die Prüfung, ob wir entsprechende Maßnahmen einleiten oder nicht, noch nicht abgeschlossen. Deshalb bitte ich um Verständnis, dass wir dazu, zum jetzigen Zeitpunkt jedenfalls, noch nicht Stellung nehmen.",
-            "sentences": [
-              {
-                "text": "Die Bundesrechtsanwaltskammer hat uns, im ständigen Kontakt befindlich, versichert, dass sie alles unternimmt, um die technischen Defekte möglichst schnell zu beheben."
-              },
-              {
-                "text": "Zu einzelnen rechtlichen Fragen, die sich ergeben, falls es nicht dazu kommen sollte, nehmen wir im Augenblick nicht Stellung."
-              },
-              {
-                "text": "Wir haben die Prüfung, ob wir entsprechende Maßnahmen einleiten oder nicht, noch nicht abgeschlossen."
-              },
-              {
-                "text": "Deshalb bitte ich um Verständnis, dass wir dazu, zum jetzigen Zeitpunkt jedenfalls, noch nicht Stellung nehmen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Wolfgang Kubicki",
-            "speakerstatus": "vice-president",
-            "text": "Herzlichen Dank. – Eine weitere Nachfrage: Frau Kollegin Keul.",
-            "sentences": [
-              {
-                "text": "Herzlichen Dank."
-              },
-              {
-                "text": "– Eine weitere Nachfrage: Frau Kollegin Keul."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Katja Keul",
-            "speakerstatus": "speaker",
-            "text": "Vielen Dank. – Ich möchte daran anschließen. Es wurde eben nach Maßnahmen gefragt. Aber wie ist es eigentlich mit dem gesetzgeberischen Handlungsbedarf, wenn sich herausstellt, dass die Sicherheit auf längere Zeit nicht in dem Maße gewährleistet werden kann, wie es eigentlich notwendig wäre? Können wir dann überhaupt eine Gesetzeslage aufrechterhalten, die die Anwaltschaft dazu verpflichtet, etwas zu tun, was sie gar nicht tun kann?",
-            "sentences": [
-              {
-                "text": "Vielen Dank."
-              },
-              {
-                "text": "– Ich möchte daran anschließen."
-              },
-              {
-                "text": "Es wurde eben nach Maßnahmen gefragt."
-              },
-              {
-                "text": "Aber wie ist es eigentlich mit dem gesetzgeberischen Handlungsbedarf, wenn sich herausstellt, dass die Sicherheit auf längere Zeit nicht in dem Maße gewährleistet werden kann, wie es eigentlich notwendig wäre?"
-              },
-              {
-                "text": "Können wir dann überhaupt eine Gesetzeslage aufrechterhalten, die die Anwaltschaft dazu verpflichtet, etwas zu tun, was sie gar nicht tun kann?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Christian Lange",
-            "speakerstatus": "speaker",
-            "text": "Zunächst einmal, Frau Kollegin: Sie sind der Gesetzgeber. Es ist Ihnen unbenommen, eine entsprechende gesetzgeberische Maßnahme einzuleiten. Unabhängig von dieser Tatsache kann ich gerne wiederholen, dass wir prüfen, ob die eingeleiteten Maßnahmen der Anwaltskammer ausreichen, und gegebenenfalls auch, ob gesetzgeberischer Bedarf besteht. Allerdings ist diese Prüfung noch nicht abgeschlossen.",
-            "sentences": [
-              {
-                "text": "Zunächst einmal, Frau Kollegin: Sie sind der Gesetzgeber."
-              },
-              {
-                "text": "Es ist Ihnen unbenommen, eine entsprechende gesetzgeberische Maßnahme einzuleiten."
-              },
-              {
-                "text": "Unabhängig von dieser Tatsache kann ich gerne wiederholen, dass wir prüfen, ob die eingeleiteten Maßnahmen der Anwaltskammer ausreichen, und gegebenenfalls auch, ob gesetzgeberischer Bedarf besteht."
-              },
-              {
-                "text": "Allerdings ist diese Prüfung noch nicht abgeschlossen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Wolfgang Kubicki",
-            "speakerstatus": "vice-president",
-            "text": "Herzlichen Dank. – Herr Kollege Schinnenburg, wenn ich das richtig gesehen habe.",
-            "sentences": [
-              {
-                "text": "Herzlichen Dank."
-              },
-              {
-                "text": "– Herr Kollege Schinnenburg, wenn ich das richtig gesehen habe."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Wieland Schinnenburg",
-            "speakerstatus": "speaker",
-            "text": "Herr Staatssekretär, eine besondere Brisanz ist ja dadurch aufgetreten, dass seit dem 1. Januar 2018 für Anwälte die Pflicht besteht, das beA zu nutzen. Mit anderen Worten: Ab dann muss ein Anwalt ein per beA zugestelltes Schriftstück gegen sich gelten lassen; die Fristen beginnen zu laufen. Das ist nun ausgesetzt worden. Beabsichtigt die Bundesregierung, einen Gesetzentwurf vorzulegen, der vorsieht, die Frist deutlich zu verlängern – also nicht nur die 12 bis 15 Wochen, bis das beA vielleicht funktioniert –, sodass die Regelung vielleicht generell erst ab dem 1. Januar 2019 greift? Plant die Bundesregierung etwas in der Richtung?",
-            "sentences": [
-              {
-                "text": "Herr Staatssekretär, eine besondere Brisanz ist ja dadurch aufgetreten, dass seit dem 1. Januar 2018 für Anwälte die Pflicht besteht, das beA zu nutzen."
-              },
-              {
-                "text": "Mit anderen Worten: Ab dann muss ein Anwalt ein per beA zugestelltes Schriftstück gegen sich gelten lassen; die Fristen beginnen zu laufen."
-              },
-              {
-                "text": "Das ist nun ausgesetzt worden."
-              },
-              {
-                "text": "Beabsichtigt die Bundesregierung, einen Gesetzentwurf vorzulegen, der vorsieht, die Frist deutlich zu verlängern – also nicht nur die 12 bis 15 Wochen, bis das beA vielleicht funktioniert –, sodass die Regelung vielleicht generell erst ab dem 1. Januar 2019 greift?"
-              },
-              {
-                "text": "Plant die Bundesregierung etwas in der Richtung?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Christian Lange",
-            "speakerstatus": "speaker",
-            "text": "Ich antworte darauf, wie ich eben der Kollegin Keul geantwortet habe: Wir befinden uns im Prüfprozess; wir haben die Prüfung noch nicht abgeschlossen. Deswegen kann ich Ihnen noch nicht sagen, ob wir daraus einen entsprechenden gesetzgeberischen Handlungsbedarf ableiten. Das ist noch offen.",
-            "sentences": [
-              {
-                "text": "Ich antworte darauf, wie ich eben der Kollegin Keul geantwortet habe: Wir befinden uns im Prüfprozess; wir haben die Prüfung noch nicht abgeschlossen."
-              },
-              {
-                "text": "Deswegen kann ich Ihnen noch nicht sagen, ob wir daraus einen entsprechenden gesetzgeberischen Handlungsbedarf ableiten."
-              },
-              {
-                "text": "Das ist noch offen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Wolfgang Kubicki",
-            "speakerstatus": "vice-president",
-            "text": "Ich sehe, dass der Kollege Michael Theurer eine Nachfrage stellen möchte.",
-            "sentences": [
-              {
-                "text": "Ich sehe, dass der Kollege Michael Theurer eine Nachfrage stellen möchte."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Michael Theurer",
-            "speakerstatus": "speaker",
-            "text": "Vielen Dank, Herr Präsident. – Herr Staatssekretär, Sie haben jetzt mehrfach ausgeführt, dass die Prüfung durch die Bundesregierung noch nicht abgeschlossen ist. Bis wann rechnen Sie mit dem Abschluss der Prüfung?",
-            "sentences": [
-              {
-                "text": "Vielen Dank, Herr Präsident."
-              },
-              {
-                "text": "– Herr Staatssekretär, Sie haben jetzt mehrfach ausgeführt, dass die Prüfung durch die Bundesregierung noch nicht abgeschlossen ist."
-              },
-              {
-                "text": "Bis wann rechnen Sie mit dem Abschluss der Prüfung?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Christian Lange",
-            "speakerstatus": "speaker",
-            "text": "Wir rechnen zunächst einmal damit, dass die Rechtsanwaltskammer ihre technischen Probleme in den Griff kriegt. Das ist das Erste, womit wir rechnen. Obwohl wir in engem Kontakt stehen und ständig beobachten, kann ich Ihnen nicht sagen, wie wir das Technische im Augenblick einschätzen. Sie können aber sicher sein, dass wir das aufmerksam beobachten werden. Falls wir zu einem Ergebnis kommen sollten,",
-            "sentences": [
-              {
-                "text": "Wir rechnen zunächst einmal damit, dass die Rechtsanwaltskammer ihre technischen Probleme in den Griff kriegt."
-              },
-              {
-                "text": "Das ist das Erste, womit wir rechnen."
-              },
-              {
-                "text": "Obwohl wir in engem Kontakt stehen und ständig beobachten, kann ich Ihnen nicht sagen, wie wir das Technische im Augenblick einschätzen."
-              },
-              {
-                "text": "Sie können aber sicher sein, dass wir das aufmerksam beobachten werden."
-              },
-              {
-                "text": "Falls wir zu einem Ergebnis kommen sollten,"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Christian Lange",
-            "speakerstatus": "speaker",
-            "text": "werden wir Ihnen einen entsprechenden Gesetzentwurf vorlegen; da können Sie sicher sein. Ich will aber betonen, dass Sie als selbstbewusste Abgeordnete auch die Initiative ergreifen können.",
-            "sentences": [
-              {
-                "text": "werden wir Ihnen einen entsprechenden Gesetzentwurf vorlegen; da können Sie sicher sein."
-              },
-              {
-                "text": "Ich will aber betonen, dass Sie als selbstbewusste Abgeordnete auch die Initiative ergreifen können."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Wolfgang Kubicki",
-            "speakerstatus": "vice-president",
-            "text": "Letzteres ist zweifelsohne richtig. Wir hoffen nur, dass das nicht der BER der Anwaltschaft wird.",
-            "sentences": [
-              {
-                "text": "Letzteres ist zweifelsohne richtig."
-              },
-              {
-                "text": "Wir hoffen nur, dass das nicht der BER der Anwaltschaft wird."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Wolfgang Kubicki",
-            "speakerstatus": "vice-president",
-            "text": "Ich sehe keine weiteren Nachfragen. – Ich bedanke mich ganz herzlich.",
-            "sentences": [
-              {
-                "text": "Ich sehe keine weiteren Nachfragen."
-              },
-              {
-                "text": "– Ich bedanke mich ganz herzlich."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Wolfgang Kubicki",
-            "speakerstatus": "vice-president",
-            "text": "Wir kommen zum Geschäftsbereich des Bundesministeriums der Finanzen. Die Frage 50 des Kollegen Stephan Brandner, die Fragen 51 und 52 des Kollegen Peter Boehringer und die Frage 53 des Kollegen Klaus-Peter Willsch werden schriftlich beantwortet.",
-            "sentences": [
-              {
-                "text": "Wir kommen zum Geschäftsbereich des Bundesministeriums der Finanzen."
-              },
-              {
-                "text": "Die Frage 50 des Kollegen Stephan Brandner, die Fragen 51 und 52 des Kollegen Peter Boehringer und die Frage 53 des Kollegen Klaus-Peter Willsch werden schriftlich beantwortet."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Wolfgang Kubicki",
-            "speakerstatus": "vice-president",
-            "text": "Wir kommen zum Geschäftsbereich des Bundesministeriums für Wirtschaft und Energie. Die Frage 54 des Abgeordneten Oliver Krischer wird schriftlich beantwortet.",
-            "sentences": [
-              {
-                "text": "Wir kommen zum Geschäftsbereich des Bundesministeriums für Wirtschaft und Energie."
-              },
-              {
-                "text": "Die Frage 54 des Abgeordneten Oliver Krischer wird schriftlich beantwortet."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Wolfgang Kubicki",
-            "speakerstatus": "vice-president",
-            "text": "Ich rufe die Frage 55 des Abgeordneten Stefan Schmidt auf:",
-            "sentences": [
-              {
-                "text": "Ich rufe die Frage 55 des Abgeordneten Stefan Schmidt auf:"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Wolfgang Kubicki",
-            "speakerstatus": "vice-president",
-            "text": "Sehr verehrte Kolleginnen und Kollegen, ich werde darauf hingewiesen, dass wir pünktlich mit der Aktuellen Stunde beginnen wollen. Das wollen wir auch; aber wir haben noch 1 Minute und 30 Sekunden für die Beantwortung der Frage 55.",
-            "sentences": [
-              {
-                "text": "Sehr verehrte Kolleginnen und Kollegen, ich werde darauf hingewiesen, dass wir pünktlich mit der Aktuellen Stunde beginnen wollen."
-              },
-              {
-                "text": "Das wollen wir auch; aber wir haben noch 1 Minute und 30 Sekunden für die Beantwortung der Frage 55."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Uwe Beckmeyer",
-            "speakerstatus": "speaker",
-            "text": "Herr Präsident! Meine sehr geehrten Damen und Herren! Für die Bundesregierung beantworte ich die Frage wie folgt: Die Bundesregierung verfolgt eine restriktive und verantwortungsvolle Rüstungsexportpolitik. Über die Erteilung von Genehmigungen für Rüstungsexporte entscheidet die Bundesregierung im Einzelfall und im Lichte der jeweiligen Situation nach sorgfältiger Prüfung unter Einbeziehung außen- und sicherheitspolitischer Erwägungen. Grundlage hierfür sind die rechtlichen Vorgaben des Gesetzes über die Kontrolle von Kriegswaffen, des Außenwirtschaftsgesetzes und der Außenwirtschaftsverordnung sowie die Politischen Grundsätze der Bundesregierung aus dem Jahr 2000, der Gemeinsame Standpunkt des Rates der Europäischen Union vom 8. Dezember 2008 betreffend gemeinsame Regeln für die Kontrolle der Ausfuhr von Militärtechnologie und Militärgütern und der Vertrag über den Waffenhandel, Arms Trade Treaty. Der Beachtung der Menschenrechte wird bei Rüstungsexportentscheidungen ein besonderes Gewicht beigemessen.",
-            "sentences": [
-              {
-                "text": "Herr Präsident!"
-              },
-              {
-                "text": "Meine sehr geehrten Damen und Herren!"
-              },
-              {
-                "text": "Für die Bundesregierung beantworte ich die Frage wie folgt: Die Bundesregierung verfolgt eine restriktive und verantwortungsvolle Rüstungsexportpolitik."
-              },
-              {
-                "text": "Über die Erteilung von Genehmigungen für Rüstungsexporte entscheidet die Bundesregierung im Einzelfall und im Lichte der jeweiligen Situation nach sorgfältiger Prüfung unter Einbeziehung außen- und sicherheitspolitischer Erwägungen."
-              },
-              {
-                "text": "Grundlage hierfür sind die rechtlichen Vorgaben des Gesetzes über die Kontrolle von Kriegswaffen, des Außenwirtschaftsgesetzes und der Außenwirtschaftsverordnung sowie die Politischen Grundsätze der Bundesregierung aus dem Jahr 2000, der Gemeinsame Standpunkt des Rates der Europäischen Union vom 8. Dezember 2008 betreffend gemeinsame Regeln für die Kontrolle der Ausfuhr von Militärtechnologie und Militärgütern und der Vertrag über den Waffenhandel, Arms Trade Treaty."
-              },
-              {
-                "text": "Der Beachtung der Menschenrechte wird bei Rüstungsexportentscheidungen ein besonderes Gewicht beigemessen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Uwe Beckmeyer",
-            "speakerstatus": "speaker",
-            "text": "Die Bundesregierung folgt der Entscheidung des Bundesverfassungsgerichts vom 21. Oktober 2014 und unterrichtet über die Eckdaten eines genehmigten Ausfuhrvorhabens, zum Beispiel den Wert der Ausfuhrgenehmigungen. Über Voranfragen bzw. etwaige laufende Verfahren erteilt die Bundesregierung grundsätzlich keine Auskunft.",
-            "sentences": [
-              {
-                "text": "Die Bundesregierung folgt der Entscheidung des Bundesverfassungsgerichts vom 21. Oktober 2014 und unterrichtet über die Eckdaten eines genehmigten Ausfuhrvorhabens, zum Beispiel den Wert der Ausfuhrgenehmigungen."
-              },
-              {
-                "text": "Über Voranfragen bzw. etwaige laufende Verfahren erteilt die Bundesregierung grundsätzlich keine Auskunft."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Wolfgang Kubicki",
-            "speakerstatus": "vice-president",
-            "text": "Herzlichen Dank. – Ich sehe, dass es eine Nachfrage gibt. Ich lasse die Nachfrage noch zu. Dann wird die Fragestunde beendet.",
-            "sentences": [
-              {
-                "text": "Herzlichen Dank."
-              },
-              {
-                "text": "– Ich sehe, dass es eine Nachfrage gibt."
-              },
-              {
-                "text": "Ich lasse die Nachfrage noch zu."
-              },
-              {
-                "text": "Dann wird die Fragestunde beendet."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Stefan Schmidt",
-            "speakerstatus": "speaker",
-            "text": "Vielen Dank, Herr Präsident. Ich fürchte, ich brauche angesichts dieser ausweichenden Antwort des Parlamentarischen Staatssekretärs zwei Nachfragen.",
-            "sentences": [
-              {
-                "text": "Vielen Dank, Herr Präsident."
-              },
-              {
-                "text": "Ich fürchte, ich brauche angesichts dieser ausweichenden Antwort des Parlamentarischen Staatssekretärs zwei Nachfragen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Stefan Schmidt",
-            "speakerstatus": "speaker",
-            "text": "Ich kenne natürlich die Grundsätze, die von der damaligen Bundesregierung beschlossen wurden. Ich finde, sie immer wieder zu zitieren und dann doch nicht einzuhalten, ist nicht unbedingt hilfreich. Ich würde ganz konkret darum bitten, meine Frage zu beantworten, insbesondere die Frage, inwiefern Voranfragen widerrufen wurden, nachdem die Sondierungsergebnisse vorlagen und man in Koalitionsverhandlungen eingetreten ist – gemäß dem von mir zitierten Presseartikels. Ich möchte ganz konkret wissen, ob die Voranfrage revidiert wurde. Wenn Voranfragen erst später revidiert werden, könnten sich daraus ja Schadenersatzforderungen an die Bundesrepublik ergeben.",
-            "sentences": [
-              {
-                "text": "Ich kenne natürlich die Grundsätze, die von der damaligen Bundesregierung beschlossen wurden."
-              },
-              {
-                "text": "Ich finde, sie immer wieder zu zitieren und dann doch nicht einzuhalten, ist nicht unbedingt hilfreich."
-              },
-              {
-                "text": "Ich würde ganz konkret darum bitten, meine Frage zu beantworten, insbesondere die Frage, inwiefern Voranfragen widerrufen wurden, nachdem die Sondierungsergebnisse vorlagen und man in Koalitionsverhandlungen eingetreten ist – gemäß dem von mir zitierten Presseartikels."
-              },
-              {
-                "text": "Ich möchte ganz konkret wissen, ob die Voranfrage revidiert wurde."
-              },
-              {
-                "text": "Wenn Voranfragen erst später revidiert werden, könnten sich daraus ja Schadenersatzforderungen an die Bundesrepublik ergeben."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Uwe Beckmeyer",
-            "speakerstatus": "speaker",
-            "text": "Herr Abgeordneter, mit einer Voranfrage kann ja geklärt werden, ob für ein in Aussicht stehendes, aber derzeit noch nicht konkretisiertes Ausfuhrvorhaben eine Genehmigung erteilt werden könnte, zum Beispiel um an einem Vergabeverfahren teilzunehmen oder Verträge abzuschließen. Sofern dieses Ausfuhrvorhaben realisiert werden soll, muss der Ausführer die Erteilung der Ausfuhrgenehmigung beantragen, soweit vorhanden, unter Verweis auf die bereits getroffene positive Voranfrage. Bei Vorliegen einer im Wesentlichen unveränderten Sach- und Rechtslage wird die Genehmigung dann erteilt. Erst die Ausfuhrgenehmigung wird statistisch erfasst und wird in den Rüstungsexportbericht Eingang finden. Insofern bitte ich, auf den Verweis in der Hauptfrage Rücksicht zu nehmen und meine Antwort darauf zu berücksichtigen, dass wir über die entsprechenden Eckdaten von Genehmigungen hinaus keine Auskunft geben.",
-            "sentences": [
-              {
-                "text": "Herr Abgeordneter, mit einer Voranfrage kann ja geklärt werden, ob für ein in Aussicht stehendes, aber derzeit noch nicht konkretisiertes Ausfuhrvorhaben eine Genehmigung erteilt werden könnte, zum Beispiel um an einem Vergabeverfahren teilzunehmen oder Verträge abzuschließen."
-              },
-              {
-                "text": "Sofern dieses Ausfuhrvorhaben realisiert werden soll, muss der Ausführer die Erteilung der Ausfuhrgenehmigung beantragen, soweit vorhanden, unter Verweis auf die bereits getroffene positive Voranfrage."
-              },
-              {
-                "text": "Bei Vorliegen einer im Wesentlichen unveränderten Sach- und Rechtslage wird die Genehmigung dann erteilt."
-              },
-              {
-                "text": "Erst die Ausfuhrgenehmigung wird statistisch erfasst und wird in den Rüstungsexportbericht Eingang finden."
-              },
-              {
-                "text": "Insofern bitte ich, auf den Verweis in der Hauptfrage Rücksicht zu nehmen und meine Antwort darauf zu berücksichtigen, dass wir über die entsprechenden Eckdaten von Genehmigungen hinaus keine Auskunft geben."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Wolfgang Kubicki",
-            "speakerstatus": "vice-president",
-            "text": "Herzlichen Dank. – Es folgt eine weitere Nachfrage des Kollegen Schmidt. Dann sollten wir zum Schluss kommen.",
-            "sentences": [
-              {
-                "text": "Herzlichen Dank."
-              },
-              {
-                "text": "– Es folgt eine weitere Nachfrage des Kollegen Schmidt."
-              },
-              {
-                "text": "Dann sollten wir zum Schluss kommen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Stefan Schmidt",
-            "speakerstatus": "speaker",
-            "text": "Ich danke Ihnen. – Ich fürchte, ich bekomme die Frage, ob hier ein konkreter Widerruf stattgefunden hat, heute nicht mehr beantwortet. Deshalb stelle ich eine weitere Frage, nämlich inwiefern die von mir zitierte Vereinbarung zu am Jemen-Krieg beteiligten Ländern auch für andere Krisengebiete gilt oder ob dies nur für den Konflikt im Jemen zutreffend ist.",
-            "sentences": [
-              {
-                "text": "Ich danke Ihnen."
-              },
-              {
-                "text": "– Ich fürchte, ich bekomme die Frage, ob hier ein konkreter Widerruf stattgefunden hat, heute nicht mehr beantwortet."
-              },
-              {
-                "text": "Deshalb stelle ich eine weitere Frage, nämlich inwiefern die von mir zitierte Vereinbarung zu am Jemen-Krieg beteiligten Ländern auch für andere Krisengebiete gilt oder ob dies nur für den Konflikt im Jemen zutreffend ist."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Uwe Beckmeyer",
-            "speakerstatus": "speaker",
-            "text": "Herr Abgeordneter, Ihre Frage zielt darauf, ob wir grundsätzlich eine restriktive Rüstungsexportpolitik betreiben. Das kann ich ausdrücklich bejahen. Dies gilt nicht nur für den Jemen, sondern generell für Rüstungsexporte in die Welt.",
-            "sentences": [
-              {
-                "text": "Herr Abgeordneter, Ihre Frage zielt darauf, ob wir grundsätzlich eine restriktive Rüstungsexportpolitik betreiben."
-              },
-              {
-                "text": "Das kann ich ausdrücklich bejahen."
-              },
-              {
-                "text": "Dies gilt nicht nur für den Jemen, sondern generell für Rüstungsexporte in die Welt."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Uwe Beckmeyer",
-            "speakerstatus": "speaker",
-            "text": "Insofern haben wir hier eine klare Haltung. Ich habe die Hoffnung, dass auch die künftige Bundesregierung eine solch klare Haltung einnehmen wird.",
-            "sentences": [
-              {
-                "text": "Insofern haben wir hier eine klare Haltung."
-              },
-              {
-                "text": "Ich habe die Hoffnung, dass auch die künftige Bundesregierung eine solch klare Haltung einnehmen wird."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Wolfgang Kubicki",
-            "speakerstatus": "vice-president",
-            "text": "Ich bedanke mich herzlich. – Liebe Kolleginnen und Kollegen, damit ist die Fragestunde beendet.",
-            "sentences": [
-              {
-                "text": "Ich bedanke mich herzlich."
-              },
-              {
-                "text": "– Liebe Kolleginnen und Kollegen, damit ist die Fragestunde beendet."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Wolfgang Kubicki",
-            "speakerstatus": "vice-president",
-            "text": "Die nicht aufgerufenen Fragen werden entsprechend der Geschäftsordnung behandelt.",
-            "sentences": [
-              {
-                "text": "Die nicht aufgerufenen Fragen werden entsprechend der Geschäftsordnung behandelt."
-              }
-            ]
           }
         ]
       }
@@ -14522,7 +12103,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 51,
+      "speechIndex": 1053,
       "title": "Aktuelle Stunde zu einer europäischen Bankenunion"
     },
     "people": [
@@ -14535,12 +12116,45 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19010-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19010-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
         "originTextID": "",
         "textBody": [
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Kubicki",
+            "speakerstatus": "vice-president",
+            "text": "Aktuelle Stunde",
+            "sentences": [
+              {
+                "text": "Aktuelle Stunde"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Kubicki",
+            "speakerstatus": "vice-president",
+            "text": "auf Verlangen der Fraktion der FDP",
+            "sentences": [
+              {
+                "text": "auf Verlangen der Fraktion der FDP"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Kubicki",
+            "speakerstatus": "vice-president",
+            "text": "Positionierung der Bundesregierung zu einer europäischen Bankenunion",
+            "sentences": [
+              {
+                "text": "Positionierung der Bundesregierung zu einer europäischen Bankenunion"
+              }
+            ]
+          },
           {
             "type": "speech",
             "speaker": "Wolfgang Kubicki",
@@ -14581,7 +12195,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 52,
+      "speechIndex": 1054,
       "title": "Aktuelle Stunde zu einer europäischen Bankenunion"
     },
     "people": [
@@ -14602,7 +12216,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19010-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19010-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -15184,7 +12798,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 53,
+      "speechIndex": 1055,
       "title": "Aktuelle Stunde zu einer europäischen Bankenunion"
     },
     "people": [
@@ -15205,7 +12819,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19010-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19010-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -15654,7 +13268,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 54,
+      "speechIndex": 1056,
       "title": "Aktuelle Stunde zu einer europäischen Bankenunion"
     },
     "people": [
@@ -15675,7 +13289,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19010-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19010-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -16159,7 +13773,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 55,
+      "speechIndex": 1057,
       "title": "Aktuelle Stunde zu einer europäischen Bankenunion"
     },
     "people": [
@@ -16180,7 +13794,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19010-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19010-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -16667,7 +14281,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 56,
+      "speechIndex": 1058,
       "title": "Aktuelle Stunde zu einer europäischen Bankenunion"
     },
     "people": [
@@ -16688,7 +14302,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19010-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19010-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -17189,16 +14803,127 @@
   {
     "parliament": "DE",
     "electoralPeriod": {
-      "number": 19
+      "number": "19"
     },
     "session": {
-      "number": 10
+      "number": "10",
+      "dateStart": "2018-01-31T14:30",
+      "dateEnd": "2018-01-31T18:24"
     },
     "agendaItem": {
-      "title": "Aktuelle Stunde zu einer europäischen Bankenunion",
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 53
+      "speechIndex": 1067,
+      "title": "Aktuelle Stunde zu einer europäischen Bankenunion"
     },
+    "people": [
+      {
+        "type": "memberOfParliament",
+        "label": "Wolfgang Kubicki",
+        "context": "vice-president"
+      }
+    ],
+    "textContents": [
+      {
+        "type": "proceedings",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19010-data.xml",
+        "creator": "Deutscher Bundestag",
+        "license": "Public Domain",
+        "language": "DE-de",
+        "originTextID": "",
+        "textBody": [
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Kubicki",
+            "speakerstatus": "vice-president",
+            "text": "Herr Kollege, kommen Sie freundlicherweise zum Schluss?",
+            "sentences": [
+              {
+                "text": "Herr Kollege, kommen Sie freundlicherweise zum Schluss?"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Kubicki",
+            "speakerstatus": "vice-president",
+            "text": "Herr Kollege, es wäre schön, wenn Sie Ihrer Ankündigung auch Taten folgen lassen würden.",
+            "sentences": [
+              {
+                "text": "Herr Kollege, es wäre schön, wenn Sie Ihrer Ankündigung auch Taten folgen lassen würden."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Kubicki",
+            "speakerstatus": "vice-president",
+            "text": "Vielen Dank, Herr Kollege. Das war sehr nachsichtig.",
+            "sentences": [
+              {
+                "text": "Vielen Dank, Herr Kollege."
+              },
+              {
+                "text": "Das war sehr nachsichtig."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Kubicki",
+            "speakerstatus": "vice-president",
+            "text": "Damit ist die Aktuelle Stunde beendet.",
+            "sentences": [
+              {
+                "text": "Damit ist die Aktuelle Stunde beendet."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Kubicki",
+            "speakerstatus": "vice-president",
+            "text": "Wir sind damit am Schluss unserer heutigen Tagesordnung. Ich wünsche Ihnen allen einen wunderschönen Abend, vielleicht auch zur Gewinnung neuer Einsichten. Ich erwarte Sie morgen fröhlich, gut gelaunt und frisch im Plenarsaal zurück.",
+            "sentences": [
+              {
+                "text": "Wir sind damit am Schluss unserer heutigen Tagesordnung."
+              },
+              {
+                "text": "Ich wünsche Ihnen allen einen wunderschönen Abend, vielleicht auch zur Gewinnung neuer Einsichten."
+              },
+              {
+                "text": "Ich erwarte Sie morgen fröhlich, gut gelaunt und frisch im Plenarsaal zurück."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Kubicki",
+            "speakerstatus": "vice-president",
+            "text": "Ich berufe die nächste Sitzung des Deutschen Bundestages auf morgen, Donnerstag, den 1. Februar 2018, 9 Uhr, ein.",
+            "sentences": [
+              {
+                "text": "Ich berufe die nächste Sitzung des Deutschen Bundestages auf morgen, Donnerstag, den 1. Februar 2018, 9 Uhr, ein."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Kubicki",
+            "speakerstatus": "vice-president",
+            "text": "Die Sitzung ist geschlossen.",
+            "sentences": [
+              {
+                "text": "Die Sitzung ist geschlossen."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "documents": [],
+    "key": "19-10 zusatzpunkt 1 (wolfgang kubicki) #1",
+    "dateStart": "2018-01-31T16:40:20",
+    "dateEnd": "2018-01-31T16:40:53",
     "media": {
       "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7197610/7197610_h264_720_400_2000kb_baseline_de_2192.mp4",
       "sourcePage": "http://dbtg.tv/fvid/7197610",
@@ -17207,18 +14932,7 @@
       "license": "CC-BY-SA",
       "originMediaID": "7197610",
       "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7197610/7197610_mp3_128kb_stereo_de_128.mp3"
-    },
-    "dateStart": "2018-01-31T16:40:20",
-    "dateEnd": "2018-01-31T16:40:53",
-    "people": [
-      {
-        "label": "Wolfgang Kubicki",
-        "faction": "FDP",
-        "context": "main-speaker",
-        "role": "Bundestagsvizepräsident"
-      }
-    ],
-    "key": "19-10 zusatzpunkt 1 (wolfgang kubicki) #1"
+    }
   },
   {
     "parliament": "DE",
@@ -17232,7 +14946,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 57,
+      "speechIndex": 1059,
       "title": "Aktuelle Stunde zu einer europäischen Bankenunion"
     },
     "people": [
@@ -17253,7 +14967,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19010-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19010-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -17679,7 +15393,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 58,
+      "speechIndex": 1060,
       "title": "Aktuelle Stunde zu einer europäischen Bankenunion"
     },
     "people": [
@@ -17700,7 +15414,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19010-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19010-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -18001,7 +15715,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 59,
+      "speechIndex": 1061,
       "title": "Aktuelle Stunde zu einer europäischen Bankenunion"
     },
     "people": [
@@ -18022,7 +15736,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19010-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19010-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -18396,7 +16110,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 60,
+      "speechIndex": 1062,
       "title": "Aktuelle Stunde zu einer europäischen Bankenunion"
     },
     "people": [
@@ -18417,7 +16131,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19010-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19010-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -18829,7 +16543,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 61,
+      "speechIndex": 1063,
       "title": "Aktuelle Stunde zu einer europäischen Bankenunion"
     },
     "people": [
@@ -18850,7 +16564,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19010-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19010-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -19335,7 +17049,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 62,
+      "speechIndex": 1064,
       "title": "Aktuelle Stunde zu einer europäischen Bankenunion"
     },
     "people": [
@@ -19356,7 +17070,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19010-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19010-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -19849,7 +17563,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 63,
+      "speechIndex": 1065,
       "title": "Aktuelle Stunde zu einer europäischen Bankenunion"
     },
     "people": [
@@ -19870,7 +17584,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19010-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19010-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -20188,7 +17902,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 64,
+      "speechIndex": 1066,
       "title": "Aktuelle Stunde zu einer europäischen Bankenunion"
     },
     "people": [
@@ -20209,7 +17923,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19010-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19010-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -20569,103 +18283,6 @@
             "sentences": [
               {
                 "text": "Meine Damen und Herren, ich kann wirklich nicht erkennen, warum von diesem guten Grundsatz abgewichen werden soll."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Hermann-Josef Tebroke",
-            "speakerstatus": "main-speaker",
-            "text": "Ich danke für Ihre Aufmerksamkeit.",
-            "sentences": [
-              {
-                "text": "Ich danke für Ihre Aufmerksamkeit."
-              }
-            ]
-          },
-          {
-            "type": "comment",
-            "speaker": null,
-            "speakerstatus": null,
-            "text": "(Beifall bei der CDU/CSU sowie bei Abgeordneten der FDP)",
-            "sentences": [
-              {
-                "text": "(Beifall bei der CDU/CSU sowie bei Abgeordneten der FDP)"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Wolfgang Kubicki",
-            "speakerstatus": "vice-president",
-            "text": "Vielen Dank, Herr Kollege. Das war sehr nachsichtig.",
-            "sentences": [
-              {
-                "text": "Vielen Dank, Herr Kollege."
-              },
-              {
-                "text": "Das war sehr nachsichtig."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Wolfgang Kubicki",
-            "speakerstatus": "vice-president",
-            "text": "Damit ist die Aktuelle Stunde beendet.",
-            "sentences": [
-              {
-                "text": "Damit ist die Aktuelle Stunde beendet."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Wolfgang Kubicki",
-            "speakerstatus": "vice-president",
-            "text": "Wir sind damit am Schluss unserer heutigen Tagesordnung. Ich wünsche Ihnen allen einen wunderschönen Abend, vielleicht auch zur Gewinnung neuer Einsichten. Ich erwarte Sie morgen fröhlich, gut gelaunt und frisch im Plenarsaal zurück.",
-            "sentences": [
-              {
-                "text": "Wir sind damit am Schluss unserer heutigen Tagesordnung."
-              },
-              {
-                "text": "Ich wünsche Ihnen allen einen wunderschönen Abend, vielleicht auch zur Gewinnung neuer Einsichten."
-              },
-              {
-                "text": "Ich erwarte Sie morgen fröhlich, gut gelaunt und frisch im Plenarsaal zurück."
-              }
-            ]
-          },
-          {
-            "type": "comment",
-            "speaker": null,
-            "speakerstatus": null,
-            "text": "(Matthias W. Birkwald [DIE LINKE]: Fröhlich sind wir Rheinländer immer, Herr Präsident!)",
-            "sentences": [
-              {
-                "text": "(Matthias W. Birkwald [DIE LINKE]: Fröhlich sind wir Rheinländer immer, Herr Präsident!)"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Wolfgang Kubicki",
-            "speakerstatus": "vice-president",
-            "text": "Ich berufe die nächste Sitzung des Deutschen Bundestages auf morgen, Donnerstag, den 1. Februar 2018, 9 Uhr, ein.",
-            "sentences": [
-              {
-                "text": "Ich berufe die nächste Sitzung des Deutschen Bundestages auf morgen, Donnerstag, den 1. Februar 2018, 9 Uhr, ein."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Wolfgang Kubicki",
-            "speakerstatus": "vice-president",
-            "text": "Die Sitzung ist geschlossen.",
-            "sentences": [
-              {
-                "text": "Die Sitzung ist geschlossen."
               }
             ]
           }

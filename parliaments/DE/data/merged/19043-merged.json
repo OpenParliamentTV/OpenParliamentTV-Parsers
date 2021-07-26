@@ -11,7 +11,7 @@
     },
     "agendaItem": {
       "officialTitle": "Sitzungseröffnung",
-      "speechIndex": 0,
+      "speechIndex": 1000,
       "title": "Sitzungseröffnung"
     },
     "people": [
@@ -24,7 +24,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19043-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19043-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -96,7 +96,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 11",
-      "speechIndex": 2,
+      "speechIndex": 1002,
       "title": "Finanzhilfen zugunsten Griechenlands"
     },
     "people": [
@@ -109,12 +109,45 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19043-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19043-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
         "originTextID": "",
         "textBody": [
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "Beratung des Antrags des Bundesministeriums der Finanzen",
+            "sentences": [
+              {
+                "text": "Beratung des Antrags des Bundesministeriums der Finanzen"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "Finanzhilfen zugunsten Griechenlands:",
+            "sentences": [
+              {
+                "text": "Finanzhilfen zugunsten Griechenlands:"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "Vierte und letzte Überprüfung des ESM-Anpassungsprogramms, mittelfristige schuldenbezogene Maßnahmen",
+            "sentences": [
+              {
+                "text": "Vierte und letzte Überprüfung des ESM-Anpassungsprogramms, mittelfristige schuldenbezogene Maßnahmen"
+              }
+            ]
+          },
           {
             "type": "speech",
             "speaker": "Wolfgang Schäuble",
@@ -189,7 +222,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 11",
-      "speechIndex": 3,
+      "speechIndex": 1003,
       "title": "Finanzhilfen zugunsten Griechenlands"
     },
     "people": [
@@ -218,7 +251,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19043-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19043-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -1043,7 +1076,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 11",
-      "speechIndex": 4,
+      "speechIndex": 1004,
       "title": "Finanzhilfen zugunsten Griechenlands"
     },
     "people": [
@@ -1064,7 +1097,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19043-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19043-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -1492,7 +1525,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 11",
-      "speechIndex": 5,
+      "speechIndex": 1005,
       "title": "Finanzhilfen zugunsten Griechenlands"
     },
     "people": [
@@ -1513,7 +1546,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19043-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19043-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -2038,7 +2071,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 11",
-      "speechIndex": 6,
+      "speechIndex": 1006,
       "title": "Finanzhilfen zugunsten Griechenlands"
     },
     "people": [
@@ -2067,7 +2100,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19043-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19043-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -2866,7 +2899,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 11",
-      "speechIndex": 7,
+      "speechIndex": 1007,
       "title": "Finanzhilfen zugunsten Griechenlands"
     },
     "people": [
@@ -2887,7 +2920,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19043-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19043-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -3315,7 +3348,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 11",
-      "speechIndex": 8,
+      "speechIndex": 1008,
       "title": "Finanzhilfen zugunsten Griechenlands"
     },
     "people": [
@@ -3336,7 +3369,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19043-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19043-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -3880,7 +3913,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 11",
-      "speechIndex": 9,
+      "speechIndex": 1009,
       "title": "Finanzhilfen zugunsten Griechenlands"
     },
     "people": [
@@ -3901,7 +3934,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19043-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19043-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -4207,7 +4240,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 11",
-      "speechIndex": 10,
+      "speechIndex": 1010,
       "title": "Finanzhilfen zugunsten Griechenlands"
     },
     "people": [
@@ -4228,7 +4261,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19043-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19043-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -4567,7 +4600,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 11",
-      "speechIndex": 11,
+      "speechIndex": 1011,
       "title": "Finanzhilfen zugunsten Griechenlands"
     },
     "people": [
@@ -4588,7 +4621,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19043-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19043-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -4998,7 +5031,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 11",
-      "speechIndex": 12,
+      "speechIndex": 1012,
       "title": "Finanzhilfen zugunsten Griechenlands"
     },
     "people": [
@@ -5019,7 +5052,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19043-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19043-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -5380,7 +5413,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 11",
-      "speechIndex": 13,
+      "speechIndex": 1013,
       "title": "Finanzhilfen zugunsten Griechenlands"
     },
     "people": [
@@ -5401,7 +5434,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19043-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19043-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -5898,7 +5931,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 11",
-      "speechIndex": 14,
+      "speechIndex": 1014,
       "title": "Finanzhilfen zugunsten Griechenlands"
     },
     "people": [
@@ -5919,7 +5952,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19043-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19043-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -6019,7 +6052,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 11",
-      "speechIndex": 15,
+      "speechIndex": 1015,
       "title": "Finanzhilfen zugunsten Griechenlands"
     },
     "people": [
@@ -6040,7 +6073,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19043-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19043-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -6142,7 +6175,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 11",
-      "speechIndex": 16,
+      "speechIndex": 1016,
       "title": "Finanzhilfen zugunsten Griechenlands"
     },
     "people": [
@@ -6163,7 +6196,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19043-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19043-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -6364,7 +6397,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 11",
-      "speechIndex": 17,
+      "speechIndex": 1017,
       "title": "Finanzhilfen zugunsten Griechenlands"
     },
     "people": [
@@ -6385,7 +6418,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19043-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19043-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -6582,6 +6615,71 @@
                 "text": "Damit schließe ich die Aussprache."
               }
             ]
+          }
+        ]
+      }
+    ],
+    "documents": [
+      {
+        "type": "officialDocument",
+        "label": "Drucksache 19/2961",
+        "sourceURI": "https://dserver.bundestag.de/btd/19/029/1902961.pdf"
+      }
+    ],
+    "key": "19-43 zusatzpunkt 11 (alois rainer)",
+    "dateStart": "2018-06-29T08:12:22",
+    "dateEnd": "2018-06-29T08:17:33",
+    "media": {
+      "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7249479/7249479_h264_720_400_2000kb_baseline_de_2192.mp4",
+      "sourcePage": "http://dbtg.tv/fvid/7249479",
+      "duration": 311.0,
+      "creator": "Deutscher Bundestag",
+      "license": "CC-BY-SA",
+      "originMediaID": "7249479",
+      "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7249479/7249479_mp3_128kb_stereo_de_128.mp3"
+    }
+  },
+  {
+    "parliament": "DE",
+    "electoralPeriod": {
+      "number": "19"
+    },
+    "session": {
+      "number": "43",
+      "dateStart": "2018-06-29T09:00",
+      "dateEnd": "2018-06-29T17:07"
+    },
+    "agendaItem": {
+      "officialTitle": "Zusatzpunkt 11",
+      "speechIndex": 1018,
+      "title": "Finanzhilfen zugunsten Griechenlands"
+    },
+    "people": [
+      {
+        "type": "memberOfParliament",
+        "label": "Wolfgang Schäuble",
+        "context": "president"
+      }
+    ],
+    "textContents": [
+      {
+        "type": "proceedings",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19043-data.xml",
+        "creator": "Deutscher Bundestag",
+        "license": "Public Domain",
+        "language": "DE-de",
+        "originTextID": "",
+        "textBody": [
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "Damit schließe ich die Aussprache.",
+            "sentences": [
+              {
+                "text": "Damit schließe ich die Aussprache."
+              }
+            ]
           },
           {
             "type": "speech",
@@ -6646,17 +6744,6 @@
             ]
           },
           {
-            "type": "comment",
-            "speaker": null,
-            "speakerstatus": null,
-            "text": "(Kerstin Vieregge [CDU/CSU]: Ich habe meine Stimme noch nicht abgegeben!)",
-            "sentences": [
-              {
-                "text": "(Kerstin Vieregge [CDU/CSU]: Ich habe meine Stimme noch nicht abgegeben!)"
-              }
-            ]
-          },
-          {
             "type": "speech",
             "speaker": "Wolfgang Schäuble",
             "speakerstatus": "president",
@@ -6697,17 +6784,6 @@
                 "text": "Ich bitte, wieder Platz zu nehmen, damit wir fortfahren können."
               }
             ]
-          },
-          {
-            "type": "comment",
-            "speaker": null,
-            "speakerstatus": null,
-            "text": "(Glocke des Präsidenten)",
-            "sentences": [
-              {
-                "text": "(Glocke des Präsidenten)"
-              }
-            ]
           }
         ]
       }
@@ -6719,32 +6795,9 @@
         "sourceURI": "https://dserver.bundestag.de/btd/19/029/1902961.pdf"
       }
     ],
-    "key": "19-43 zusatzpunkt 11 (alois rainer)",
-    "dateStart": "2018-06-29T08:12:22",
-    "dateEnd": "2018-06-29T08:17:33",
-    "media": {
-      "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7249479/7249479_h264_720_400_2000kb_baseline_de_2192.mp4",
-      "sourcePage": "http://dbtg.tv/fvid/7249479",
-      "duration": 311.0,
-      "creator": "Deutscher Bundestag",
-      "license": "CC-BY-SA",
-      "originMediaID": "7249479",
-      "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7249479/7249479_mp3_128kb_stereo_de_128.mp3"
-    }
-  },
-  {
-    "parliament": "DE",
-    "electoralPeriod": {
-      "number": 19
-    },
-    "session": {
-      "number": 43
-    },
-    "agendaItem": {
-      "title": "Finanzhilfen zugunsten Griechenlands",
-      "officialTitle": "Zusatzpunkt 11",
-      "speechIndex": 18
-    },
+    "key": "19-43 zusatzpunkt 11 (wolfgang schauble) #1",
+    "dateStart": "2018-06-29T08:17:33",
+    "dateEnd": "2018-06-29T08:22:56",
     "media": {
       "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7249483/7249483_h264_720_400_2000kb_baseline_de_2192.mp4",
       "sourcePage": "http://dbtg.tv/fvid/7249483",
@@ -6753,18 +6806,7 @@
       "license": "CC-BY-SA",
       "originMediaID": "7249483",
       "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7249483/7249483_mp3_128kb_stereo_de_128.mp3"
-    },
-    "dateStart": "2018-06-29T08:17:33",
-    "dateEnd": "2018-06-29T08:22:56",
-    "people": [
-      {
-        "label": "Wolfgang Schäuble",
-        "faction": "CDU/CSU",
-        "context": "main-speaker",
-        "role": "Bundestagspräsident"
-      }
-    ],
-    "key": "19-43 zusatzpunkt 11 (wolfgang schauble) #1"
+    }
   },
   {
     "parliament": "DE",
@@ -6778,7 +6820,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 20",
-      "speechIndex": 18,
+      "speechIndex": 1019,
       "title": "Zukunftsfähigkeit Deutschlands - Bildung und Forschung"
     },
     "people": [
@@ -6791,12 +6833,34 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19043-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19043-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
         "originTextID": "",
         "textBody": [
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "Beratung des Antrags der Abgeordneten Katja Suding, Nicola Beer, Mario Brandenburg, weiterer Abgeordneter und der Fraktion der FDP",
+            "sentences": [
+              {
+                "text": "Beratung des Antrags der Abgeordneten Katja Suding, Nicola Beer, Mario Brandenburg, weiterer Abgeordneter und der Fraktion der FDP"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "Die Zukunftsfähigkeit Deutschlands sichern – Bildung und Forschung in den Mittelpunkt stellen",
+            "sentences": [
+              {
+                "text": "Die Zukunftsfähigkeit Deutschlands sichern – Bildung und Forschung in den Mittelpunkt stellen"
+              }
+            ]
+          },
           {
             "type": "speech",
             "speaker": "Wolfgang Schäuble",
@@ -6860,7 +6924,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 20",
-      "speechIndex": 19,
+      "speechIndex": 1020,
       "title": "Zukunftsfähigkeit Deutschlands - Bildung und Forschung"
     },
     "people": [
@@ -6876,7 +6940,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19043-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19043-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -7591,7 +7655,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 20",
-      "speechIndex": 20,
+      "speechIndex": 1021,
       "title": "Zukunftsfähigkeit Deutschlands - Bildung und Forschung"
     },
     "people": [
@@ -7612,7 +7676,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19043-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19043-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -8150,7 +8214,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 20",
-      "speechIndex": 21,
+      "speechIndex": 1022,
       "title": "Zukunftsfähigkeit Deutschlands - Bildung und Forschung"
     },
     "people": [
@@ -8171,7 +8235,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19043-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19043-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -8663,7 +8727,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 20",
-      "speechIndex": 22,
+      "speechIndex": 1023,
       "title": "Zukunftsfähigkeit Deutschlands - Bildung und Forschung"
     },
     "people": [
@@ -8684,7 +8748,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19043-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19043-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -9183,7 +9247,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 20",
-      "speechIndex": 23,
+      "speechIndex": 1024,
       "title": "Zukunftsfähigkeit Deutschlands - Bildung und Forschung"
     },
     "people": [
@@ -9204,7 +9268,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19043-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19043-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -9533,7 +9597,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 20",
-      "speechIndex": 24,
+      "speechIndex": 1025,
       "title": "Zukunftsfähigkeit Deutschlands - Bildung und Forschung"
     },
     "people": [
@@ -9554,7 +9618,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19043-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19043-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -10096,7 +10160,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 20",
-      "speechIndex": 25,
+      "speechIndex": 1026,
       "title": "Zukunftsfähigkeit Deutschlands - Bildung und Forschung"
     },
     "people": [
@@ -10117,7 +10181,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19043-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19043-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -10695,7 +10759,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 20",
-      "speechIndex": 26,
+      "speechIndex": 1027,
       "title": "Zukunftsfähigkeit Deutschlands - Bildung und Forschung"
     },
     "people": [
@@ -10716,7 +10780,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19043-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19043-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -11188,7 +11252,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 20",
-      "speechIndex": 27,
+      "speechIndex": 1028,
       "title": "Zukunftsfähigkeit Deutschlands - Bildung und Forschung"
     },
     "people": [
@@ -11209,7 +11273,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19043-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19043-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -11527,7 +11591,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 20",
-      "speechIndex": 28,
+      "speechIndex": 1029,
       "title": "Zukunftsfähigkeit Deutschlands - Bildung und Forschung"
     },
     "people": [
@@ -11548,7 +11612,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19043-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19043-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -11867,7 +11931,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 20",
-      "speechIndex": 29,
+      "speechIndex": 1030,
       "title": "Zukunftsfähigkeit Deutschlands - Bildung und Forschung"
     },
     "people": [
@@ -11896,7 +11960,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19043-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19043-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -12522,7 +12586,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 20",
-      "speechIndex": 30,
+      "speechIndex": 1031,
       "title": "Zukunftsfähigkeit Deutschlands - Bildung und Forschung"
     },
     "people": [
@@ -12533,17 +12597,12 @@
         "lastname": "Esdar",
         "context": "main-speaker",
         "faction": "SPD"
-      },
-      {
-        "type": "memberOfParliament",
-        "label": "Wolfgang Kubicki",
-        "context": "vice-president"
       }
     ],
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19043-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19043-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -12828,18 +12887,61 @@
                 "text": "Danke schön."
               }
             ]
-          },
-          {
-            "type": "comment",
-            "speaker": null,
-            "speakerstatus": null,
-            "text": "(Beifall bei der SPD sowie bei Abgeordneten der CDU/CSU und der LINKEN – Dr. Florian Toncar [FDP]: Arroganz ersetzt noch keine Rede!)",
-            "sentences": [
-              {
-                "text": "(Beifall bei der SPD sowie bei Abgeordneten der CDU/CSU und der LINKEN – Dr. Florian Toncar [FDP]: Arroganz ersetzt noch keine Rede!)"
-              }
-            ]
-          },
+          }
+        ]
+      }
+    ],
+    "documents": [
+      {
+        "type": "officialDocument",
+        "label": "Drucksache 19/2988",
+        "sourceURI": "https://dserver.bundestag.de/btd/19/029/1902988.pdf"
+      }
+    ],
+    "key": "19-43 tagesordnungspunkt 20 (wiebke esdar)",
+    "dateStart": "2018-06-29T09:25:25",
+    "dateEnd": "2018-06-29T09:29:57",
+    "media": {
+      "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7249503/7249503_h264_720_400_2000kb_baseline_de_2192.mp4",
+      "sourcePage": "http://dbtg.tv/fvid/7249503",
+      "duration": 272.0,
+      "creator": "Deutscher Bundestag",
+      "license": "CC-BY-SA",
+      "originMediaID": "7249503",
+      "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7249503/7249503_mp3_128kb_stereo_de_128.mp3"
+    }
+  },
+  {
+    "parliament": "DE",
+    "electoralPeriod": {
+      "number": "19"
+    },
+    "session": {
+      "number": "43",
+      "dateStart": "2018-06-29T09:00",
+      "dateEnd": "2018-06-29T17:07"
+    },
+    "agendaItem": {
+      "officialTitle": "Tagesordnungspunkt 20",
+      "speechIndex": 1032,
+      "title": "Zukunftsfähigkeit Deutschlands - Bildung und Forschung"
+    },
+    "people": [
+      {
+        "type": "memberOfParliament",
+        "label": "Wolfgang Kubicki",
+        "context": "vice-president"
+      }
+    ],
+    "textContents": [
+      {
+        "type": "proceedings",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19043-data.xml",
+        "creator": "Deutscher Bundestag",
+        "license": "Public Domain",
+        "language": "DE-de",
+        "originTextID": "",
+        "textBody": [
           {
             "type": "speech",
             "speaker": "Wolfgang Kubicki",
@@ -12884,32 +12986,9 @@
         "sourceURI": "https://dserver.bundestag.de/btd/19/029/1902988.pdf"
       }
     ],
-    "key": "19-43 tagesordnungspunkt 20 (wiebke esdar)",
-    "dateStart": "2018-06-29T09:25:25",
-    "dateEnd": "2018-06-29T09:29:57",
-    "media": {
-      "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7249503/7249503_h264_720_400_2000kb_baseline_de_2192.mp4",
-      "sourcePage": "http://dbtg.tv/fvid/7249503",
-      "duration": 272.0,
-      "creator": "Deutscher Bundestag",
-      "license": "CC-BY-SA",
-      "originMediaID": "7249503",
-      "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7249503/7249503_mp3_128kb_stereo_de_128.mp3"
-    }
-  },
-  {
-    "parliament": "DE",
-    "electoralPeriod": {
-      "number": 19
-    },
-    "session": {
-      "number": 43
-    },
-    "agendaItem": {
-      "title": "Zukunftsfähigkeit Deutschlands - Bildung und Forschung",
-      "officialTitle": "Tagesordnungspunkt 20",
-      "speechIndex": 33
-    },
+    "key": "19-43 tagesordnungspunkt 20 (wolfgang kubicki)",
+    "dateStart": "2018-06-29T09:29:57",
+    "dateEnd": "2018-06-29T09:30:16",
     "media": {
       "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7249505/7249505_h264_720_400_2000kb_baseline_de_2192.mp4",
       "sourcePage": "http://dbtg.tv/fvid/7249505",
@@ -12918,18 +12997,7 @@
       "license": "CC-BY-SA",
       "originMediaID": "7249505",
       "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7249505/7249505_mp3_128kb_stereo_de_128.mp3"
-    },
-    "dateStart": "2018-06-29T09:29:57",
-    "dateEnd": "2018-06-29T09:30:16",
-    "people": [
-      {
-        "label": "Wolfgang Kubicki",
-        "faction": "FDP",
-        "context": "main-speaker",
-        "role": "Bundestagsvizepräsident"
-      }
-    ],
-    "key": "19-43 tagesordnungspunkt 20 (wolfgang kubicki)"
+    }
   },
   {
     "parliament": "DE",
@@ -12943,7 +13011,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 19",
-      "speechIndex": 31,
+      "speechIndex": 1033,
       "title": "Deutschland im Sicherheitsrat der Vereinten Nationen"
     },
     "people": [
@@ -12956,12 +13024,78 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19043-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19043-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
         "originTextID": "",
         "textBody": [
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Kubicki",
+            "speakerstatus": "vice-president",
+            "text": "a) Beratung des Antrags der Fraktionen der CDU/CSU und SPD",
+            "sentences": [
+              {
+                "text": "a) Beratung des Antrags der Fraktionen der CDU/CSU und SPD"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Kubicki",
+            "speakerstatus": "vice-president",
+            "text": "Deutschlands Mitgliedschaft im Sicherheitsrat der Vereinten Nationen – Für eine dauerhaft friedliche, stabile und gerechte Ordnung in der Welt",
+            "sentences": [
+              {
+                "text": "Deutschlands Mitgliedschaft im Sicherheitsrat der Vereinten Nationen – Für eine dauerhaft friedliche, stabile und gerechte Ordnung in der Welt"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Kubicki",
+            "speakerstatus": "vice-president",
+            "text": "b) Beratung des Antrags der Abgeordneten Heike Hänsel, Dr. Alexander S. Neu, Kathrin Vogler, weiterer Abgeordneter und der Fraktion DIE LINKE",
+            "sentences": [
+              {
+                "text": "b) Beratung des Antrags der Abgeordneten Heike Hänsel, Dr. Alexander S. Neu, Kathrin Vogler, weiterer Abgeordneter und der Fraktion DIE LINKE"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Kubicki",
+            "speakerstatus": "vice-president",
+            "text": "Völkerrecht durchsetzen, zivile UN-Initiativen stärken, Abrüstung für Sicherheit und Armutsbekämpfung vorantreiben",
+            "sentences": [
+              {
+                "text": "Völkerrecht durchsetzen, zivile UN-Initiativen stärken, Abrüstung für Sicherheit und Armutsbekämpfung vorantreiben"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Kubicki",
+            "speakerstatus": "vice-president",
+            "text": "c) Beratung des Antrags der Abgeordneten Dr. Frithjof Schmidt, Margarete Bause, Uwe Kekeritz, weiterer Abgeordneter und der Fraktion BÜNDNIS 90/DIE GRÜNEN",
+            "sentences": [
+              {
+                "text": "c) Beratung des Antrags der Abgeordneten Dr. Frithjof Schmidt, Margarete Bause, Uwe Kekeritz, weiterer Abgeordneter und der Fraktion BÜNDNIS 90/DIE GRÜNEN"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Kubicki",
+            "speakerstatus": "vice-president",
+            "text": "Nichtständigen Sitz im Sicherheitsrat nutzen, Vereinte Nationen stärken",
+            "sentences": [
+              {
+                "text": "Nichtständigen Sitz im Sicherheitsrat nutzen, Vereinte Nationen stärken"
+              }
+            ]
+          },
           {
             "type": "speech",
             "speaker": "Wolfgang Kubicki",
@@ -13035,7 +13169,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 19",
-      "speechIndex": 32,
+      "speechIndex": 1034,
       "title": "Deutschland im Sicherheitsrat der Vereinten Nationen"
     },
     "people": [
@@ -13056,7 +13190,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19043-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19043-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -13616,7 +13750,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 19",
-      "speechIndex": 33,
+      "speechIndex": 1035,
       "title": "Deutschland im Sicherheitsrat der Vereinten Nationen"
     },
     "people": [
@@ -13637,7 +13771,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19043-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19043-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -14141,7 +14275,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 19",
-      "speechIndex": 34,
+      "speechIndex": 1036,
       "title": "Deutschland im Sicherheitsrat der Vereinten Nationen"
     },
     "people": [
@@ -14162,7 +14296,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19043-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19043-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -14519,7 +14653,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 19",
-      "speechIndex": 35,
+      "speechIndex": 1037,
       "title": "Deutschland im Sicherheitsrat der Vereinten Nationen"
     },
     "people": [
@@ -14540,7 +14674,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19043-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19043-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -14960,7 +15094,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 19",
-      "speechIndex": 36,
+      "speechIndex": 1038,
       "title": "Deutschland im Sicherheitsrat der Vereinten Nationen"
     },
     "people": [
@@ -14981,7 +15115,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19043-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19043-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -15484,7 +15618,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 19",
-      "speechIndex": 37,
+      "speechIndex": 1039,
       "title": "Deutschland im Sicherheitsrat der Vereinten Nationen"
     },
     "people": [
@@ -15505,7 +15639,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19043-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19043-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -15948,7 +16082,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 19",
-      "speechIndex": 38,
+      "speechIndex": 1040,
       "title": "Deutschland im Sicherheitsrat der Vereinten Nationen"
     },
     "people": [
@@ -15969,7 +16103,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19043-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19043-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -16351,7 +16485,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 19",
-      "speechIndex": 39,
+      "speechIndex": 1041,
       "title": "Deutschland im Sicherheitsrat der Vereinten Nationen"
     },
     "people": [
@@ -16372,7 +16506,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19043-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19043-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -16651,7 +16785,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 19",
-      "speechIndex": 40,
+      "speechIndex": 1042,
       "title": "Deutschland im Sicherheitsrat der Vereinten Nationen"
     },
     "people": [
@@ -16672,7 +16806,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19043-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19043-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -17017,7 +17151,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 19",
-      "speechIndex": 41,
+      "speechIndex": 1043,
       "title": "Deutschland im Sicherheitsrat der Vereinten Nationen"
     },
     "people": [
@@ -17038,7 +17172,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19043-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19043-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -17317,7 +17451,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 19",
-      "speechIndex": 42,
+      "speechIndex": 1044,
       "title": "Deutschland im Sicherheitsrat der Vereinten Nationen"
     },
     "people": [
@@ -17338,7 +17472,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19043-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19043-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -17521,6 +17655,81 @@
                 "text": "(Beifall bei der CDU/CSU sowie bei Abgeordneten der FDP)"
               }
             ]
+          }
+        ]
+      }
+    ],
+    "documents": [
+      {
+        "type": "officialDocument",
+        "label": "Drucksache 19/2982",
+        "sourceURI": "https://dserver.bundestag.de/btd/19/029/1902982.pdf"
+      },
+      {
+        "type": "officialDocument",
+        "label": "Drucksache 19/2980",
+        "sourceURI": "https://dserver.bundestag.de/btd/19/029/1902980.pdf"
+      },
+      {
+        "type": "officialDocument",
+        "label": "Drucksache 19/2975",
+        "sourceURI": "https://dserver.bundestag.de/btd/19/029/1902975.pdf"
+      }
+    ],
+    "key": "19-43 tagesordnungspunkt 19 (peter beyer)",
+    "dateStart": "2018-06-29T10:30:06",
+    "dateEnd": "2018-06-29T10:34:39",
+    "media": {
+      "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7249523/7249523_h264_720_400_2000kb_baseline_de_2192.mp4",
+      "sourcePage": "http://dbtg.tv/fvid/7249523",
+      "duration": 273.0,
+      "creator": "Deutscher Bundestag",
+      "license": "CC-BY-SA",
+      "originMediaID": "7249523",
+      "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7249523/7249523_mp3_128kb_stereo_de_128.mp3"
+    }
+  },
+  {
+    "parliament": "DE",
+    "electoralPeriod": {
+      "number": "19"
+    },
+    "session": {
+      "number": "43",
+      "dateStart": "2018-06-29T09:00",
+      "dateEnd": "2018-06-29T17:07"
+    },
+    "agendaItem": {
+      "officialTitle": "Tagesordnungspunkt 19",
+      "speechIndex": 1045,
+      "title": "Deutschland im Sicherheitsrat der Vereinten Nationen"
+    },
+    "people": [
+      {
+        "type": "memberOfParliament",
+        "label": "Wolfgang Kubicki",
+        "context": "vice-president"
+      }
+    ],
+    "textContents": [
+      {
+        "type": "proceedings",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19043-data.xml",
+        "creator": "Deutscher Bundestag",
+        "license": "Public Domain",
+        "language": "DE-de",
+        "originTextID": "",
+        "textBody": [
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Kubicki",
+            "speakerstatus": "vice-president",
+            "text": "Herr Kollege, kommen Sie bitte zum Schluss.",
+            "sentences": [
+              {
+                "text": "Herr Kollege, kommen Sie bitte zum Schluss."
+              }
+            ]
           },
           {
             "type": "speech",
@@ -17588,17 +17797,6 @@
             ]
           },
           {
-            "type": "comment",
-            "speaker": null,
-            "speakerstatus": null,
-            "text": "(Zurufe von der SPD: Michael!)",
-            "sentences": [
-              {
-                "text": "(Zurufe von der SPD: Michael!)"
-              }
-            ]
-          },
-          {
             "type": "speech",
             "speaker": "Wolfgang Kubicki",
             "speakerstatus": "vice-president",
@@ -17606,17 +17804,6 @@
             "sentences": [
               {
                 "text": "– Ich darf die Kolleginnen und Kollegen von der CDU/CSU-Fraktion darauf hinweisen, dass man nur einmal abstimmen darf."
-              }
-            ]
-          },
-          {
-            "type": "comment",
-            "speaker": null,
-            "speakerstatus": null,
-            "text": "(Heiterkeit)",
-            "sentences": [
-              {
-                "text": "(Heiterkeit)"
               }
             ]
           },
@@ -17683,32 +17870,9 @@
         "sourceURI": "https://dserver.bundestag.de/btd/19/029/1902975.pdf"
       }
     ],
-    "key": "19-43 tagesordnungspunkt 19 (peter beyer)",
-    "dateStart": "2018-06-29T10:30:06",
-    "dateEnd": "2018-06-29T10:34:39",
-    "media": {
-      "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7249523/7249523_h264_720_400_2000kb_baseline_de_2192.mp4",
-      "sourcePage": "http://dbtg.tv/fvid/7249523",
-      "duration": 273.0,
-      "creator": "Deutscher Bundestag",
-      "license": "CC-BY-SA",
-      "originMediaID": "7249523",
-      "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7249523/7249523_mp3_128kb_stereo_de_128.mp3"
-    }
-  },
-  {
-    "parliament": "DE",
-    "electoralPeriod": {
-      "number": 19
-    },
-    "session": {
-      "number": 43
-    },
-    "agendaItem": {
-      "title": "Deutschland im Sicherheitsrat der Vereinten Nationen",
-      "officialTitle": "Tagesordnungspunkt 19",
-      "speechIndex": 46
-    },
+    "key": "19-43 tagesordnungspunkt 19 (wolfgang kubicki) #1",
+    "dateStart": "2018-06-29T10:34:39",
+    "dateEnd": "2018-06-29T10:36:44",
     "media": {
       "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7249524/7249524_h264_720_400_2000kb_baseline_de_2192.mp4",
       "sourcePage": "http://dbtg.tv/fvid/7249524",
@@ -17717,18 +17881,7 @@
       "license": "CC-BY-SA",
       "originMediaID": "7249524",
       "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7249524/7249524_mp3_128kb_stereo_de_128.mp3"
-    },
-    "dateStart": "2018-06-29T10:34:39",
-    "dateEnd": "2018-06-29T10:36:44",
-    "people": [
-      {
-        "label": "Wolfgang Kubicki",
-        "faction": "FDP",
-        "context": "main-speaker",
-        "role": "Bundestagsvizepräsident"
-      }
-    ],
-    "key": "19-43 tagesordnungspunkt 19 (wolfgang kubicki) #1"
+    }
   },
   {
     "parliament": "DE",
@@ -17742,7 +17895,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 22",
-      "speechIndex": 43,
+      "speechIndex": 1046,
       "title": "Mietrecht"
     },
     "people": [
@@ -17755,12 +17908,34 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19043-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19043-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
         "originTextID": "",
         "textBody": [
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Kubicki",
+            "speakerstatus": "vice-president",
+            "text": "Beratung des Antrags der Abgeordneten Christian Kühn (Tübingen), Canan Bayram, Daniela Wagner, weiterer Abgeordneter und der Fraktion BÜNDNIS 90/DIE GRÜNEN",
+            "sentences": [
+              {
+                "text": "Beratung des Antrags der Abgeordneten Christian Kühn (Tübingen), Canan Bayram, Daniela Wagner, weiterer Abgeordneter und der Fraktion BÜNDNIS 90/DIE GRÜNEN"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Kubicki",
+            "speakerstatus": "vice-president",
+            "text": "Mietrecht jetzt wirksam reformieren – Bezahlbares Wohnen sichern",
+            "sentences": [
+              {
+                "text": "Mietrecht jetzt wirksam reformieren – Bezahlbares Wohnen sichern"
+              }
+            ]
+          },
           {
             "type": "speech",
             "speaker": "Wolfgang Kubicki",
@@ -17835,7 +18010,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 22",
-      "speechIndex": 44,
+      "speechIndex": 1047,
       "title": "Mietrecht"
     },
     "people": [
@@ -17856,7 +18031,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19043-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19043-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -18163,7 +18338,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 22",
-      "speechIndex": 45,
+      "speechIndex": 1048,
       "title": "Mietrecht"
     },
     "people": [
@@ -18184,7 +18359,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19043-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19043-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -18829,7 +19004,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 22",
-      "speechIndex": 46,
+      "speechIndex": 1049,
       "title": "Mietrecht"
     },
     "people": [
@@ -18850,7 +19025,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19043-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19043-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -18967,7 +19142,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 22",
-      "speechIndex": 47,
+      "speechIndex": 1050,
       "title": "Mietrecht"
     },
     "people": [
@@ -18988,7 +19163,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19043-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19043-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -19232,7 +19407,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 22",
-      "speechIndex": 48,
+      "speechIndex": 1051,
       "title": "Mietrecht"
     },
     "people": [
@@ -19253,7 +19428,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19043-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19043-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -20295,7 +20470,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 22",
-      "speechIndex": 49,
+      "speechIndex": 1052,
       "title": "Mietrecht"
     },
     "people": [
@@ -20316,7 +20491,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19043-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19043-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -20892,7 +21067,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 22",
-      "speechIndex": 50,
+      "speechIndex": 1053,
       "title": "Mietrecht"
     },
     "people": [
@@ -20913,7 +21088,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19043-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19043-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -21324,7 +21499,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 22",
-      "speechIndex": 51,
+      "speechIndex": 1054,
       "title": "Mietrecht"
     },
     "people": [
@@ -21345,7 +21520,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19043-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19043-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -22128,7 +22303,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 22",
-      "speechIndex": 52,
+      "speechIndex": 1055,
       "title": "Mietrecht"
     },
     "people": [
@@ -22149,7 +22324,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19043-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19043-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -22729,7 +22904,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 22",
-      "speechIndex": 53,
+      "speechIndex": 1056,
       "title": "Mietrecht"
     },
     "people": [
@@ -22750,7 +22925,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19043-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19043-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -22914,7 +23089,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 22",
-      "speechIndex": 54,
+      "speechIndex": 1057,
       "title": "Mietrecht"
     },
     "people": [
@@ -22935,7 +23110,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19043-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19043-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -23024,7 +23199,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 22",
-      "speechIndex": 55,
+      "speechIndex": 1058,
       "title": "Mietrecht"
     },
     "people": [
@@ -23045,7 +23220,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19043-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19043-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -23234,7 +23409,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 22",
-      "speechIndex": 56,
+      "speechIndex": 1059,
       "title": "Mietrecht"
     },
     "people": [
@@ -23255,7 +23430,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19043-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19043-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -23823,7 +23998,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 22",
-      "speechIndex": 57,
+      "speechIndex": 1060,
       "title": "Mietrecht"
     },
     "people": [
@@ -23844,7 +24019,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19043-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19043-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -24345,7 +24520,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 22",
-      "speechIndex": 58,
+      "speechIndex": 1061,
       "title": "Mietrecht"
     },
     "people": [
@@ -24366,7 +24541,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19043-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19043-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -24890,7 +25065,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 22",
-      "speechIndex": 59,
+      "speechIndex": 1062,
       "title": "Mietrecht"
     },
     "people": [
@@ -24911,7 +25086,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19043-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19043-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -25467,7 +25642,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 22",
-      "speechIndex": 60,
+      "speechIndex": 1063,
       "title": "Mietrecht"
     },
     "people": [
@@ -25478,17 +25653,12 @@
         "lastname": "Mindrup",
         "context": "main-speaker",
         "faction": "SPD"
-      },
-      {
-        "type": "memberOfParliament",
-        "label": "Hans-Peter Friedrich",
-        "context": "vice-president"
       }
     ],
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19043-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19043-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -25834,18 +26004,61 @@
                 "text": "Danke."
               }
             ]
-          },
-          {
-            "type": "comment",
-            "speaker": null,
-            "speakerstatus": null,
-            "text": "(Beifall bei der SPD und der CDU/CSU)",
-            "sentences": [
-              {
-                "text": "(Beifall bei der SPD und der CDU/CSU)"
-              }
-            ]
-          },
+          }
+        ]
+      }
+    ],
+    "documents": [
+      {
+        "type": "officialDocument",
+        "label": "Drucksache 19/2976",
+        "sourceURI": "https://dserver.bundestag.de/btd/19/029/1902976.pdf"
+      }
+    ],
+    "key": "19-43 tagesordnungspunkt 22 (klaus mindrup)",
+    "dateStart": "2018-06-29T11:45:01",
+    "dateEnd": "2018-06-29T11:49:17",
+    "media": {
+      "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7249553/7249553_h264_720_400_2000kb_baseline_de_2192.mp4",
+      "sourcePage": "http://dbtg.tv/fvid/7249553",
+      "duration": 256.0,
+      "creator": "Deutscher Bundestag",
+      "license": "CC-BY-SA",
+      "originMediaID": "7249553",
+      "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7249553/7249553_mp3_128kb_stereo_de_128.mp3"
+    }
+  },
+  {
+    "parliament": "DE",
+    "electoralPeriod": {
+      "number": "19"
+    },
+    "session": {
+      "number": "43",
+      "dateStart": "2018-06-29T09:00",
+      "dateEnd": "2018-06-29T17:07"
+    },
+    "agendaItem": {
+      "officialTitle": "Tagesordnungspunkt 22",
+      "speechIndex": 1064,
+      "title": "Mietrecht"
+    },
+    "people": [
+      {
+        "type": "memberOfParliament",
+        "label": "Hans-Peter Friedrich",
+        "context": "vice-president"
+      }
+    ],
+    "textContents": [
+      {
+        "type": "proceedings",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19043-data.xml",
+        "creator": "Deutscher Bundestag",
+        "license": "Public Domain",
+        "language": "DE-de",
+        "originTextID": "",
+        "textBody": [
           {
             "type": "speech",
             "speaker": "Hans-Peter Friedrich",
@@ -25887,32 +26100,9 @@
         "sourceURI": "https://dserver.bundestag.de/btd/19/029/1902976.pdf"
       }
     ],
-    "key": "19-43 tagesordnungspunkt 22 (klaus mindrup)",
-    "dateStart": "2018-06-29T11:45:01",
-    "dateEnd": "2018-06-29T11:49:17",
-    "media": {
-      "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7249553/7249553_h264_720_400_2000kb_baseline_de_2192.mp4",
-      "sourcePage": "http://dbtg.tv/fvid/7249553",
-      "duration": 256.0,
-      "creator": "Deutscher Bundestag",
-      "license": "CC-BY-SA",
-      "originMediaID": "7249553",
-      "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7249553/7249553_mp3_128kb_stereo_de_128.mp3"
-    }
-  },
-  {
-    "parliament": "DE",
-    "electoralPeriod": {
-      "number": 19
-    },
-    "session": {
-      "number": 43
-    },
-    "agendaItem": {
-      "title": "Mietrecht",
-      "officialTitle": "Tagesordnungspunkt 22",
-      "speechIndex": 65
-    },
+    "key": "19-43 tagesordnungspunkt 22 (hans-peter friedrich)",
+    "dateStart": "2018-06-29T11:49:17",
+    "dateEnd": "2018-06-29T11:49:31",
     "media": {
       "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7249554/7249554_h264_720_400_2000kb_baseline_de_2192.mp4",
       "sourcePage": "http://dbtg.tv/fvid/7249554",
@@ -25921,18 +26111,7 @@
       "license": "CC-BY-SA",
       "originMediaID": "7249554",
       "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7249554/7249554_mp3_128kb_stereo_de_128.mp3"
-    },
-    "dateStart": "2018-06-29T11:49:17",
-    "dateEnd": "2018-06-29T11:49:31",
-    "people": [
-      {
-        "label": "Hans-Peter Friedrich",
-        "faction": "CDU/CSU",
-        "context": "main-speaker",
-        "role": "Bundestagsvizepräsident"
-      }
-    ],
-    "key": "19-43 tagesordnungspunkt 22 (hans-peter friedrich)"
+    }
   },
   {
     "parliament": "DE",
@@ -25946,7 +26125,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 21",
-      "speechIndex": 61,
+      "speechIndex": 1065,
       "title": "Änderung des Tiergesundheitsgesetzes"
     },
     "people": [
@@ -25959,12 +26138,23 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19043-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19043-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
         "originTextID": "",
         "textBody": [
+          {
+            "type": "speech",
+            "speaker": "Hans-Peter Friedrich",
+            "speakerstatus": "vice-president",
+            "text": "Erste Beratung des von den Fraktionen der CDU/CSU und SPD eingebrachten Entwurfs eines Gesetzes zur Änderung des Tiergesundheitsgesetzes und des Bundesjagdgesetzes",
+            "sentences": [
+              {
+                "text": "Erste Beratung des von den Fraktionen der CDU/CSU und SPD eingebrachten Entwurfs eines Gesetzes zur Änderung des Tiergesundheitsgesetzes und des Bundesjagdgesetzes"
+              }
+            ]
+          },
           {
             "type": "speech",
             "speaker": "Hans-Peter Friedrich",
@@ -26028,7 +26218,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 21",
-      "speechIndex": 62,
+      "speechIndex": 1066,
       "title": "Änderung des Tiergesundheitsgesetzes"
     },
     "people": [
@@ -26049,7 +26239,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19043-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19043-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -26324,7 +26514,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 21",
-      "speechIndex": 63,
+      "speechIndex": 1067,
       "title": "Änderung des Tiergesundheitsgesetzes"
     },
     "people": [
@@ -26345,7 +26535,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19043-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19043-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -26722,7 +26912,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 21",
-      "speechIndex": 64,
+      "speechIndex": 1068,
       "title": "Änderung des Tiergesundheitsgesetzes"
     },
     "people": [
@@ -26743,7 +26933,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19043-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19043-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -27126,7 +27316,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 21",
-      "speechIndex": 65,
+      "speechIndex": 1069,
       "title": "Änderung des Tiergesundheitsgesetzes"
     },
     "people": [
@@ -27155,7 +27345,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19043-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19043-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -27540,7 +27730,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 21",
-      "speechIndex": 66,
+      "speechIndex": 1070,
       "title": "Änderung des Tiergesundheitsgesetzes"
     },
     "people": [
@@ -27561,7 +27751,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19043-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19043-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -27947,7 +28137,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 21",
-      "speechIndex": 67,
+      "speechIndex": 1071,
       "title": "Änderung des Tiergesundheitsgesetzes"
     },
     "people": [
@@ -27968,7 +28158,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19043-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19043-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -28383,7 +28573,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 21",
-      "speechIndex": 68,
+      "speechIndex": 1072,
       "title": "Änderung des Tiergesundheitsgesetzes"
     },
     "people": [
@@ -28412,7 +28602,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19043-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19043-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -28856,26 +29046,69 @@
                 "text": "Ich bin sicher, dass wir dann auch eine ordentliche Lösung hinbekommen."
               }
             ]
-          },
+          }
+        ]
+      }
+    ],
+    "documents": [
+      {
+        "type": "officialDocument",
+        "label": "Drucksache 19/2977",
+        "sourceURI": "https://dserver.bundestag.de/btd/19/029/1902977.pdf"
+      }
+    ],
+    "key": "19-43 tagesordnungspunkt 21 (hermann farber)",
+    "dateStart": "2018-06-29T12:22:27",
+    "dateEnd": "2018-06-29T12:29:39",
+    "media": {
+      "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7249565/7249565_h264_720_400_2000kb_baseline_de_2192.mp4",
+      "sourcePage": "http://dbtg.tv/fvid/7249565",
+      "duration": 432.0,
+      "creator": "Deutscher Bundestag",
+      "license": "CC-BY-SA",
+      "originMediaID": "7249565",
+      "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7249565/7249565_mp3_128kb_stereo_de_128.mp3"
+    }
+  },
+  {
+    "parliament": "DE",
+    "electoralPeriod": {
+      "number": "19"
+    },
+    "session": {
+      "number": "43",
+      "dateStart": "2018-06-29T09:00",
+      "dateEnd": "2018-06-29T17:07"
+    },
+    "agendaItem": {
+      "officialTitle": "Tagesordnungspunkt 21",
+      "speechIndex": 1073,
+      "title": "Änderung des Tiergesundheitsgesetzes"
+    },
+    "people": [
+      {
+        "type": "memberOfParliament",
+        "label": "Hans-Peter Friedrich",
+        "context": "vice-president"
+      }
+    ],
+    "textContents": [
+      {
+        "type": "proceedings",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19043-data.xml",
+        "creator": "Deutscher Bundestag",
+        "license": "Public Domain",
+        "language": "DE-de",
+        "originTextID": "",
+        "textBody": [
           {
             "type": "speech",
-            "speaker": "Hermann Färber",
-            "speakerstatus": "main-speaker",
-            "text": "Herzlichen Dank.",
+            "speaker": "Hans-Peter Friedrich",
+            "speakerstatus": "vice-president",
+            "text": "Herr Kollege, lassen Sie eine Zwischenfrage zu?",
             "sentences": [
               {
-                "text": "Herzlichen Dank."
-              }
-            ]
-          },
-          {
-            "type": "comment",
-            "speaker": null,
-            "speakerstatus": null,
-            "text": "(Beifall bei der CDU/CSU)",
-            "sentences": [
-              {
-                "text": "(Beifall bei der CDU/CSU)"
+                "text": "Herr Kollege, lassen Sie eine Zwischenfrage zu?"
               }
             ]
           },
@@ -28923,32 +29156,9 @@
         "sourceURI": "https://dserver.bundestag.de/btd/19/029/1902977.pdf"
       }
     ],
-    "key": "19-43 tagesordnungspunkt 21 (hermann farber)",
-    "dateStart": "2018-06-29T12:22:27",
-    "dateEnd": "2018-06-29T12:29:39",
-    "media": {
-      "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7249565/7249565_h264_720_400_2000kb_baseline_de_2192.mp4",
-      "sourcePage": "http://dbtg.tv/fvid/7249565",
-      "duration": 432.0,
-      "creator": "Deutscher Bundestag",
-      "license": "CC-BY-SA",
-      "originMediaID": "7249565",
-      "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7249565/7249565_mp3_128kb_stereo_de_128.mp3"
-    }
-  },
-  {
-    "parliament": "DE",
-    "electoralPeriod": {
-      "number": 19
-    },
-    "session": {
-      "number": 43
-    },
-    "agendaItem": {
-      "title": "Änderung des Tiergesundheitsgesetzes",
-      "officialTitle": "Tagesordnungspunkt 21",
-      "speechIndex": 74
-    },
+    "key": "19-43 tagesordnungspunkt 21 (hans-peter friedrich) #1",
+    "dateStart": "2018-06-29T12:29:39",
+    "dateEnd": "2018-06-29T12:29:55",
     "media": {
       "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7249566/7249566_h264_720_400_2000kb_baseline_de_2192.mp4",
       "sourcePage": "http://dbtg.tv/fvid/7249566",
@@ -28957,18 +29167,7 @@
       "license": "CC-BY-SA",
       "originMediaID": "7249566",
       "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7249566/7249566_mp3_128kb_stereo_de_128.mp3"
-    },
-    "dateStart": "2018-06-29T12:29:39",
-    "dateEnd": "2018-06-29T12:29:55",
-    "people": [
-      {
-        "label": "Hans-Peter Friedrich",
-        "faction": "CDU/CSU",
-        "context": "main-speaker",
-        "role": "Bundestagsvizepräsident"
-      }
-    ],
-    "key": "19-43 tagesordnungspunkt 21 (hans-peter friedrich) #1"
+    }
   },
   {
     "parliament": "DE",
@@ -29322,7 +29521,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 12",
-      "speechIndex": 79,
+      "speechIndex": 1085,
       "title": "Gewerbesteuerliche Hinzurechnung - Urlaubssteuer"
     },
     "people": [
@@ -29335,7 +29534,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19043-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19043-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -29390,7 +29589,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 23",
-      "speechIndex": 81,
+      "speechIndex": 1087,
       "title": "Meeresschutzgebiet im Weddellmeer der Antarktis"
     },
     "people": [
@@ -29403,12 +29602,34 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19043-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19043-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
         "originTextID": "",
         "textBody": [
+          {
+            "type": "speech",
+            "speaker": "Petra Pau",
+            "speakerstatus": "vice-president",
+            "text": "Beratung des Antrags der Fraktionen CDU/CSU, SPD, FDP und BÜNDNIS 90/DIE GRÜNEN",
+            "sentences": [
+              {
+                "text": "Beratung des Antrags der Fraktionen CDU/CSU, SPD, FDP und BÜNDNIS 90/DIE GRÜNEN"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Petra Pau",
+            "speakerstatus": "vice-president",
+            "text": "Meeresschutzgebiet im Weddellmeer der Antarktis",
+            "sentences": [
+              {
+                "text": "Meeresschutzgebiet im Weddellmeer der Antarktis"
+              }
+            ]
+          },
           {
             "type": "speech",
             "speaker": "Petra Pau",
@@ -29486,7 +29707,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 23",
-      "speechIndex": 82,
+      "speechIndex": 1088,
       "title": "Meeresschutzgebiet im Weddellmeer der Antarktis"
     },
     "people": [
@@ -29507,7 +29728,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19043-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19043-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -29773,7 +29994,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 23",
-      "speechIndex": 83,
+      "speechIndex": 1089,
       "title": "Meeresschutzgebiet im Weddellmeer der Antarktis"
     },
     "people": [
@@ -29794,7 +30015,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19043-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19043-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -30095,7 +30316,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 23",
-      "speechIndex": 84,
+      "speechIndex": 1090,
       "title": "Meeresschutzgebiet im Weddellmeer der Antarktis"
     },
     "people": [
@@ -30116,7 +30337,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19043-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19043-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -30488,7 +30709,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 23",
-      "speechIndex": 85,
+      "speechIndex": 1091,
       "title": "Meeresschutzgebiet im Weddellmeer der Antarktis"
     },
     "people": [
@@ -30509,7 +30730,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19043-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19043-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -30839,7 +31060,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 23",
-      "speechIndex": 86,
+      "speechIndex": 1092,
       "title": "Meeresschutzgebiet im Weddellmeer der Antarktis"
     },
     "people": [
@@ -30860,7 +31081,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19043-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19043-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -31142,7 +31363,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 23",
-      "speechIndex": 87,
+      "speechIndex": 1093,
       "title": "Meeresschutzgebiet im Weddellmeer der Antarktis"
     },
     "people": [
@@ -31163,7 +31384,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19043-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19043-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -31502,7 +31723,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 23",
-      "speechIndex": 88,
+      "speechIndex": 1094,
       "title": "Meeresschutzgebiet im Weddellmeer der Antarktis"
     },
     "people": [
@@ -31523,7 +31744,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19043-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19043-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -31893,7 +32114,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 23",
-      "speechIndex": 89,
+      "speechIndex": 1095,
       "title": "Meeresschutzgebiet im Weddellmeer der Antarktis"
     },
     "people": [
@@ -31904,17 +32125,12 @@
         "lastname": "Saathoff",
         "context": "main-speaker",
         "faction": "SPD"
-      },
-      {
-        "type": "memberOfParliament",
-        "label": "Petra Pau",
-        "context": "vice-president"
       }
     ],
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19043-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19043-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -32186,7 +32402,61 @@
                 "text": "(Beifall bei der SPD, der CDU/CSU und dem BÜNDNIS 90/DIE GRÜNEN sowie bei Abgeordneten der FDP und der LINKEN)"
               }
             ]
-          },
+          }
+        ]
+      }
+    ],
+    "documents": [
+      {
+        "type": "officialDocument",
+        "label": "Drucksache 19/2985",
+        "sourceURI": "https://dserver.bundestag.de/btd/19/029/1902985.pdf"
+      }
+    ],
+    "key": "19-43 tagesordnungspunkt 23 (johann saathoff)",
+    "dateStart": "2018-06-29T13:52:48",
+    "dateEnd": "2018-06-29T13:57:04",
+    "media": {
+      "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7249596/7249596_h264_720_400_2000kb_baseline_de_2192.mp4",
+      "sourcePage": "http://dbtg.tv/fvid/7249596",
+      "duration": 256.0,
+      "creator": "Deutscher Bundestag",
+      "license": "CC-BY-SA",
+      "originMediaID": "7249596",
+      "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7249596/7249596_mp3_128kb_stereo_de_128.mp3"
+    }
+  },
+  {
+    "parliament": "DE",
+    "electoralPeriod": {
+      "number": "19"
+    },
+    "session": {
+      "number": "43",
+      "dateStart": "2018-06-29T09:00",
+      "dateEnd": "2018-06-29T17:07"
+    },
+    "agendaItem": {
+      "officialTitle": "Tagesordnungspunkt 23",
+      "speechIndex": 1096,
+      "title": "Meeresschutzgebiet im Weddellmeer der Antarktis"
+    },
+    "people": [
+      {
+        "type": "memberOfParliament",
+        "label": "Petra Pau",
+        "context": "vice-president"
+      }
+    ],
+    "textContents": [
+      {
+        "type": "proceedings",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19043-data.xml",
+        "creator": "Deutscher Bundestag",
+        "license": "Public Domain",
+        "language": "DE-de",
+        "originTextID": "",
+        "textBody": [
           {
             "type": "speech",
             "speaker": "Petra Pau",
@@ -32220,17 +32490,6 @@
                 "text": "– Der Antrag ist einstimmig angenommen."
               }
             ]
-          },
-          {
-            "type": "comment",
-            "speaker": null,
-            "speakerstatus": null,
-            "text": "(Beifall im ganzen Hause)",
-            "sentences": [
-              {
-                "text": "(Beifall im ganzen Hause)"
-              }
-            ]
           }
         ]
       }
@@ -32242,32 +32501,9 @@
         "sourceURI": "https://dserver.bundestag.de/btd/19/029/1902985.pdf"
       }
     ],
-    "key": "19-43 tagesordnungspunkt 23 (johann saathoff)",
-    "dateStart": "2018-06-29T13:52:48",
-    "dateEnd": "2018-06-29T13:57:04",
-    "media": {
-      "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7249596/7249596_h264_720_400_2000kb_baseline_de_2192.mp4",
-      "sourcePage": "http://dbtg.tv/fvid/7249596",
-      "duration": 256.0,
-      "creator": "Deutscher Bundestag",
-      "license": "CC-BY-SA",
-      "originMediaID": "7249596",
-      "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7249596/7249596_mp3_128kb_stereo_de_128.mp3"
-    }
-  },
-  {
-    "parliament": "DE",
-    "electoralPeriod": {
-      "number": 19
-    },
-    "session": {
-      "number": 43
-    },
-    "agendaItem": {
-      "title": "Meeresschutzgebiet im Weddellmeer der Antarktis",
-      "officialTitle": "Tagesordnungspunkt 23",
-      "speechIndex": 95
-    },
+    "key": "19-43 tagesordnungspunkt 23 (petra pau) #1",
+    "dateStart": "2018-06-29T13:57:04",
+    "dateEnd": "2018-06-29T13:57:38",
     "media": {
       "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7249597/7249597_h264_720_400_2000kb_baseline_de_2192.mp4",
       "sourcePage": "http://dbtg.tv/fvid/7249597",
@@ -32276,18 +32512,7 @@
       "license": "CC-BY-SA",
       "originMediaID": "7249597",
       "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7249597/7249597_mp3_128kb_stereo_de_128.mp3"
-    },
-    "dateStart": "2018-06-29T13:57:04",
-    "dateEnd": "2018-06-29T13:57:38",
-    "people": [
-      {
-        "label": "Petra Pau",
-        "faction": "Die Linke",
-        "context": "main-speaker",
-        "role": "Bundestagsvizepräsidentin"
-      }
-    ],
-    "key": "19-43 tagesordnungspunkt 23 (petra pau) #1"
+    }
   },
   {
     "parliament": "DE",
@@ -32301,7 +32526,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 25",
-      "speechIndex": 90,
+      "speechIndex": 1097,
       "title": "Bekämpfung von Geldwäsche und Terrorfinanzierung"
     },
     "people": [
@@ -32314,12 +32539,34 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19043-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19043-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
         "originTextID": "",
         "textBody": [
+          {
+            "type": "speech",
+            "speaker": "Petra Pau",
+            "speakerstatus": "vice-president",
+            "text": "Beratung des Antrags der Abgeordneten Fabio De Masi, Jörg Cezanne, Klaus Ernst, weiterer Abgeordneter und der Fraktion DIE LINKE",
+            "sentences": [
+              {
+                "text": "Beratung des Antrags der Abgeordneten Fabio De Masi, Jörg Cezanne, Klaus Ernst, weiterer Abgeordneter und der Fraktion DIE LINKE"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Petra Pau",
+            "speakerstatus": "vice-president",
+            "text": "Geldwäsche und Terrorfinanzierung in Deutschland wirksam bekämpfen – Financial Intelligence Unit befähigen",
+            "sentences": [
+              {
+                "text": "Geldwäsche und Terrorfinanzierung in Deutschland wirksam bekämpfen – Financial Intelligence Unit befähigen"
+              }
+            ]
+          },
           {
             "type": "speech",
             "speaker": "Petra Pau",
@@ -32397,7 +32644,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 25",
-      "speechIndex": 91,
+      "speechIndex": 1098,
       "title": "Bekämpfung von Geldwäsche und Terrorfinanzierung"
     },
     "people": [
@@ -32418,7 +32665,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19043-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19043-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -32730,7 +32977,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 25",
-      "speechIndex": 92,
+      "speechIndex": 1099,
       "title": "Bekämpfung von Geldwäsche und Terrorfinanzierung"
     },
     "people": [
@@ -32767,7 +33014,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19043-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19043-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -33912,7 +34159,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 25",
-      "speechIndex": 93,
+      "speechIndex": 1100,
       "title": "Bekämpfung von Geldwäsche und Terrorfinanzierung"
     },
     "people": [
@@ -33933,7 +34180,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19043-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19043-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -34575,7 +34822,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 25",
-      "speechIndex": 94,
+      "speechIndex": 1101,
       "title": "Bekämpfung von Geldwäsche und Terrorfinanzierung"
     },
     "people": [
@@ -34596,7 +34843,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19043-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19043-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -34710,7 +34957,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 25",
-      "speechIndex": 95,
+      "speechIndex": 1102,
       "title": "Bekämpfung von Geldwäsche und Terrorfinanzierung"
     },
     "people": [
@@ -34731,7 +34978,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19043-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19043-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -34876,7 +35123,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 25",
-      "speechIndex": 96,
+      "speechIndex": 1103,
       "title": "Bekämpfung von Geldwäsche und Terrorfinanzierung"
     },
     "people": [
@@ -34897,7 +35144,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19043-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19043-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -35299,7 +35546,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 25",
-      "speechIndex": 97,
+      "speechIndex": 1104,
       "title": "Bekämpfung von Geldwäsche und Terrorfinanzierung"
     },
     "people": [
@@ -35320,7 +35567,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19043-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19043-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -35648,7 +35895,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 25",
-      "speechIndex": 98,
+      "speechIndex": 1105,
       "title": "Bekämpfung von Geldwäsche und Terrorfinanzierung"
     },
     "people": [
@@ -35669,7 +35916,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19043-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19043-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -36096,7 +36343,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 25",
-      "speechIndex": 99,
+      "speechIndex": 1106,
       "title": "Bekämpfung von Geldwäsche und Terrorfinanzierung"
     },
     "people": [
@@ -36117,7 +36364,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19043-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19043-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -36539,7 +36786,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 25",
-      "speechIndex": 100,
+      "speechIndex": 1107,
       "title": "Bekämpfung von Geldwäsche und Terrorfinanzierung"
     },
     "people": [
@@ -36560,7 +36807,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19043-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19043-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -37079,16 +37326,418 @@
   {
     "parliament": "DE",
     "electoralPeriod": {
-      "number": 19
+      "number": "19"
     },
     "session": {
-      "number": 43
+      "number": "43",
+      "dateStart": "2018-06-29T09:00",
+      "dateEnd": "2018-06-29T17:07"
     },
     "agendaItem": {
-      "title": "Bekämpfung von Geldwäsche und Terrorfinanzierung",
       "officialTitle": "Tagesordnungspunkt 25",
-      "speechIndex": 108
+      "speechIndex": 1109,
+      "title": "Bekämpfung von Geldwäsche und Terrorfinanzierung"
     },
+    "people": [
+      {
+        "type": "memberOfParliament",
+        "label": "Petra Pau",
+        "context": "vice-president"
+      }
+    ],
+    "textContents": [
+      {
+        "type": "proceedings",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19043-data.xml",
+        "creator": "Deutscher Bundestag",
+        "license": "Public Domain",
+        "language": "DE-de",
+        "originTextID": "",
+        "textBody": [
+          {
+            "type": "speech",
+            "speaker": "Petra Pau",
+            "speakerstatus": "vice-president",
+            "text": "Ich bitte jetzt erst mal um Ruhe. – Wir sind im Moment noch bei der Ausschussüberweisung, und ich kläre jetzt erst einmal, ob der Sitzungsvorstand die Beschlussfähigkeit, das heißt die Anwesenheit von 355 Abgeordneten, hier vorne zweifelsfrei feststellen kann. Dazu gibt es eine Regel. Damit ich das exakt so mache, brauche ich die Geschäftsordnung.",
+            "sentences": [
+              {
+                "text": "Ich bitte jetzt erst mal um Ruhe."
+              },
+              {
+                "text": "– Wir sind im Moment noch bei der Ausschussüberweisung, und ich kläre jetzt erst einmal, ob der Sitzungsvorstand die Beschlussfähigkeit, das heißt die Anwesenheit von 355 Abgeordneten, hier vorne zweifelsfrei feststellen kann."
+              },
+              {
+                "text": "Dazu gibt es eine Regel."
+              },
+              {
+                "text": "Damit ich das exakt so mache, brauche ich die Geschäftsordnung."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Petra Pau",
+            "speakerstatus": "vice-president",
+            "text": "§ 45 Absatz 2 unserer Geschäftsordnung lautet:",
+            "sentences": [
+              {
+                "text": "§ 45 Absatz 2 unserer Geschäftsordnung lautet:"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Petra Pau",
+            "speakerstatus": "vice-president",
+            "text": "– usw. –",
+            "sentences": [
+              {
+                "text": "– usw. –"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Petra Pau",
+            "speakerstatus": "vice-president",
+            "text": "Da die Beschlussfähigkeit durch den Sitzungsvorstand bezweifelt wurde und die Fraktion Die Linke diese ebenso bezweifelt, müssen wir in Verbindung mit der Abstimmung über die Ausschussüberweisung der Vorlage auf Drucksache 19/2592 nun auch zur Feststellung der Beschlussfähigkeit kommen. Dazu haben wir ein Verfahren, das wir in dieser Woche in einem anderen Zusammenhang schon einmal geübt haben.",
+            "sentences": [
+              {
+                "text": "Da die Beschlussfähigkeit durch den Sitzungsvorstand bezweifelt wurde und die Fraktion Die Linke diese ebenso bezweifelt, müssen wir in Verbindung mit der Abstimmung über die Ausschussüberweisung der Vorlage auf Drucksache 19/2592 nun auch zur Feststellung der Beschlussfähigkeit kommen."
+              },
+              {
+                "text": "Dazu haben wir ein Verfahren, das wir in dieser Woche in einem anderen Zusammenhang schon einmal geübt haben."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Petra Pau",
+            "speakerstatus": "vice-president",
+            "text": "– Die Kollegin Lemke hat noch ein weiteres Geschäftsordnungsanliegen.",
+            "sentences": [
+              {
+                "text": "– Die Kollegin Lemke hat noch ein weiteres Geschäftsordnungsanliegen."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Petra Pau",
+            "speakerstatus": "vice-president",
+            "text": "– Die Kollegin Lemke hat eine Unsicherheit bezüglich der Geschäftsordnung. Ich bin mir aber sehr sicher, dass wir hier mit einem Hammelsprung die Beschlussfähigkeit feststellen müssen. Nur in der Kernzeit kann ich die Beschlussfähigkeit auch durch Handaufheben feststellen. Das war genau das, was ich eben beim Zitat ausgelassen habe. Ich entschuldige mich dafür. Die einzelnen Paragrafen sind da entsprechend festgeschrieben.",
+            "sentences": [
+              {
+                "text": "– Die Kollegin Lemke hat eine Unsicherheit bezüglich der Geschäftsordnung."
+              },
+              {
+                "text": "Ich bin mir aber sehr sicher, dass wir hier mit einem Hammelsprung die Beschlussfähigkeit feststellen müssen."
+              },
+              {
+                "text": "Nur in der Kernzeit kann ich die Beschlussfähigkeit auch durch Handaufheben feststellen."
+              },
+              {
+                "text": "Das war genau das, was ich eben beim Zitat ausgelassen habe."
+              },
+              {
+                "text": "Ich entschuldige mich dafür."
+              },
+              {
+                "text": "Die einzelnen Paragrafen sind da entsprechend festgeschrieben."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Petra Pau",
+            "speakerstatus": "vice-president",
+            "text": "Wir müssen das Verfahren des Hammelsprungs in Gang setzen. Ich bitte alle Kolleginnen und Kollegen, und zwar bitte zügig – ich habe heute schon einmal einen Hinweis auf die fortgeschrittene Zeit gegeben –, den Saal zu verlassen.",
+            "sentences": [
+              {
+                "text": "Wir müssen das Verfahren des Hammelsprungs in Gang setzen."
+              },
+              {
+                "text": "Ich bitte alle Kolleginnen und Kollegen, und zwar bitte zügig – ich habe heute schon einmal einen Hinweis auf die fortgeschrittene Zeit gegeben –, den Saal zu verlassen."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Petra Pau",
+            "speakerstatus": "vice-president",
+            "text": "Ich gebe auf dem Weg nach draußen noch einen Hinweis: Wir haben jetzt zwei Abstimmungen in einer. Wir stimmen einmal über die Überweisung in die Ausschüsse ab. Das heißt, wer der Ausschussüberweisung zustimmt, kommt dann, nachdem die Türen geschlossen und wieder geöffnet wurden, durch die Tür mit dem „Ja“ in den Saal. Wer die Ausschussüberweisung nicht wünscht, kommt nachher durch die Tür mit dem „Nein“ in den Saal. Wer sich enthalten will, kommt durch die dritte Tür „Enthaltung“ in den Saal. Gleichzeitig wird durch die Schriftführerinnen und Schriftführer, die ich schon vorsorglich bitte, ihre Plätze einzunehmen, gezählt, wie viele Abgeordnete insgesamt an ebendieser Abstimmung über die Ausschussüberweisung der Drucksache 19/2592 teilnehmen. Wir stellen nachher beide Abstimmungsergebnisse und die Folgerungen daraus fest.",
+            "sentences": [
+              {
+                "text": "Ich gebe auf dem Weg nach draußen noch einen Hinweis: Wir haben jetzt zwei Abstimmungen in einer."
+              },
+              {
+                "text": "Wir stimmen einmal über die Überweisung in die Ausschüsse ab."
+              },
+              {
+                "text": "Das heißt, wer der Ausschussüberweisung zustimmt, kommt dann, nachdem die Türen geschlossen und wieder geöffnet wurden, durch die Tür mit dem „Ja“ in den Saal."
+              },
+              {
+                "text": "Wer die Ausschussüberweisung nicht wünscht, kommt nachher durch die Tür mit dem „Nein“ in den Saal."
+              },
+              {
+                "text": "Wer sich enthalten will, kommt durch die dritte Tür „Enthaltung“ in den Saal."
+              },
+              {
+                "text": "Gleichzeitig wird durch die Schriftführerinnen und Schriftführer, die ich schon vorsorglich bitte, ihre Plätze einzunehmen, gezählt, wie viele Abgeordnete insgesamt an ebendieser Abstimmung über die Ausschussüberweisung der Drucksache 19/2592 teilnehmen."
+              },
+              {
+                "text": "Wir stellen nachher beide Abstimmungsergebnisse und die Folgerungen daraus fest."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Petra Pau",
+            "speakerstatus": "vice-president",
+            "text": "Ich bitte darum, dass die Schriftführerinnen und Schriftführer die vorgesehenen Plätze einnehmen. Sie wissen – das ist eine ständige Übung –: An jeder Tür muss eine Schriftführerin oder ein Schriftführer aus einer Oppositionsfraktion anwesend sein, und an jeder Tür muss eine Schriftführerin oder ein Schriftführer aus einer der die Koalition tragenden Fraktionen anwesend sein. Da alle Fraktionen hier anwesend sind, bitte ich darum, dafür zu sorgen, dass sowohl die Oppositionsfraktionen als auch die die Koalition tragenden Fraktionen ihrer Verantwortung nachkommen.",
+            "sentences": [
+              {
+                "text": "Ich bitte darum, dass die Schriftführerinnen und Schriftführer die vorgesehenen Plätze einnehmen."
+              },
+              {
+                "text": "Sie wissen – das ist eine ständige Übung –: An jeder Tür muss eine Schriftführerin oder ein Schriftführer aus einer Oppositionsfraktion anwesend sein, und an jeder Tür muss eine Schriftführerin oder ein Schriftführer aus einer der die Koalition tragenden Fraktionen anwesend sein."
+              },
+              {
+                "text": "Da alle Fraktionen hier anwesend sind, bitte ich darum, dafür zu sorgen, dass sowohl die Oppositionsfraktionen als auch die die Koalition tragenden Fraktionen ihrer Verantwortung nachkommen."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Petra Pau",
+            "speakerstatus": "vice-president",
+            "text": "Ich bitte um ein Zeichen, während die letzten Kolleginnen und Kollegen den Saal verlassen, ob an jeder Abstimmungstür die erforderlichen Schriftführerinnen und Schriftführer anwesend sind. – Gut. Wenn ich das richtig überblicke, ist auch kein Kollege mehr in den Reihen. Ich bitte, die Türen zu schließen. – Die Türen sind geschlossen.",
+            "sentences": [
+              {
+                "text": "Ich bitte um ein Zeichen, während die letzten Kolleginnen und Kollegen den Saal verlassen, ob an jeder Abstimmungstür die erforderlichen Schriftführerinnen und Schriftführer anwesend sind."
+              },
+              {
+                "text": "– Gut."
+              },
+              {
+                "text": "Wenn ich das richtig überblicke, ist auch kein Kollege mehr in den Reihen."
+              },
+              {
+                "text": "Ich bitte, die Türen zu schließen."
+              },
+              {
+                "text": "– Die Türen sind geschlossen."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Petra Pau",
+            "speakerstatus": "vice-president",
+            "text": "Wir öffnen die Türen wieder. Die Abstimmung ist eröffnet.",
+            "sentences": [
+              {
+                "text": "Wir öffnen die Türen wieder."
+              },
+              {
+                "text": "Die Abstimmung ist eröffnet."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Petra Pau",
+            "speakerstatus": "vice-president",
+            "text": "Ich bitte die Kolleginnen und Kollegen, durch die Tür ihrer Wahl den Saal zu betreten und erinnere daran, dass wir nicht nur die Beschlussfähigkeit feststellen, sondern gleichzeitig auch über die Ausschussüberweisung abstimmen. Das heißt, wer der Überweisung zustimmt, nimmt die Tür, die mit „Ja“ gekennzeichnet ist. Wer die Ausschussüberweisung ablehnt, nimmt die Tür, die mit „Nein“ gekennzeichnet ist. Wer sich enthalten möchte, kommt durch die dritte Tür, von mir aus gesehen rechts, und enthält sich damit bei der Abstimmung über die Ausschussüberweisung.",
+            "sentences": [
+              {
+                "text": "Ich bitte die Kolleginnen und Kollegen, durch die Tür ihrer Wahl den Saal zu betreten und erinnere daran, dass wir nicht nur die Beschlussfähigkeit feststellen, sondern gleichzeitig auch über die Ausschussüberweisung abstimmen."
+              },
+              {
+                "text": "Das heißt, wer der Überweisung zustimmt, nimmt die Tür, die mit „Ja“ gekennzeichnet ist."
+              },
+              {
+                "text": "Wer die Ausschussüberweisung ablehnt, nimmt die Tür, die mit „Nein“ gekennzeichnet ist."
+              },
+              {
+                "text": "Wer sich enthalten möchte, kommt durch die dritte Tür, von mir aus gesehen rechts, und enthält sich damit bei der Abstimmung über die Ausschussüberweisung."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Petra Pau",
+            "speakerstatus": "vice-president",
+            "text": "Ich bitte die Kolleginnen und Kollegen, die Abstimmung zügig durchzuführen, das heißt, durch die Tür ihrer Wahl zur Ausschussüberweisung wieder den Saal zu betreten, und im Übrigen die Plätze einzunehmen.",
+            "sentences": [
+              {
+                "text": "Ich bitte die Kolleginnen und Kollegen, die Abstimmung zügig durchzuführen, das heißt, durch die Tür ihrer Wahl zur Ausschussüberweisung wieder den Saal zu betreten, und im Übrigen die Plätze einzunehmen."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Petra Pau",
+            "speakerstatus": "vice-president",
+            "text": "Ist noch ein Mitglied des Bundestages anwesend, welches den Saal nicht wieder betreten konnte? – Ich bitte die Kolleginnen und Kollegen, die dort hinten vor den Türen stehen, uns den Blick auf die Türen frei zu machen, damit wir uns davon überzeugen können, dass niemand daran gehindert wird, an ebendieser Abstimmung teilzunehmen.",
+            "sentences": [
+              {
+                "text": "Ist noch ein Mitglied des Bundestages anwesend, welches den Saal nicht wieder betreten konnte?"
+              },
+              {
+                "text": "– Ich bitte die Kolleginnen und Kollegen, die dort hinten vor den Türen stehen, uns den Blick auf die Türen frei zu machen, damit wir uns davon überzeugen können, dass niemand daran gehindert wird, an ebendieser Abstimmung teilzunehmen."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Petra Pau",
+            "speakerstatus": "vice-president",
+            "text": "Darf ich davon ausgehen, dass die Personen, die noch vor den Türen stehen, keine Mitglieder des Bundestages sind? – Das ist der Fall.",
+            "sentences": [
+              {
+                "text": "Darf ich davon ausgehen, dass die Personen, die noch vor den Türen stehen, keine Mitglieder des Bundestages sind?"
+              },
+              {
+                "text": "– Das ist der Fall."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Petra Pau",
+            "speakerstatus": "vice-president",
+            "text": "Dann ist die Abstimmung geschlossen. Ich bitte die Schriftführerinnen und Schriftführer, das Ergebnis festzustellen und mir mitzuteilen.",
+            "sentences": [
+              {
+                "text": "Dann ist die Abstimmung geschlossen."
+              },
+              {
+                "text": "Ich bitte die Schriftführerinnen und Schriftführer, das Ergebnis festzustellen und mir mitzuteilen."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Petra Pau",
+            "speakerstatus": "vice-president",
+            "text": "– Liebe Kolleginnen und Kollegen, während das Abstimmungsergebnis noch festgestellt wird, habe ich Anlass, auf Folgendes hinzuweisen: Erst gestern haben wir im Ältestenrat noch einmal darüber gesprochen, dass Film- und Fotoaufnahmen weder im Plenum des Deutschen Bundestages noch durch Besucherinnen und Besucher erlaubt sind.",
+            "sentences": [
+              {
+                "text": "– Liebe Kolleginnen und Kollegen, während das Abstimmungsergebnis noch festgestellt wird, habe ich Anlass, auf Folgendes hinzuweisen: Erst gestern haben wir im Ältestenrat noch einmal darüber gesprochen, dass Film- und Fotoaufnahmen weder im Plenum des Deutschen Bundestages noch durch Besucherinnen und Besucher erlaubt sind."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Petra Pau",
+            "speakerstatus": "vice-president",
+            "text": "– Auch durch Abgeordnete nicht, Kollege Braun. Das haben wir gestern noch einmal zweifelsfrei festgestellt.",
+            "sentences": [
+              {
+                "text": "– Auch durch Abgeordnete nicht, Kollege Braun."
+              },
+              {
+                "text": "Das haben wir gestern noch einmal zweifelsfrei festgestellt."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Petra Pau",
+            "speakerstatus": "vice-president",
+            "text": "Ich gebe das von den Schriftführerinnen und Schriftführern ermittelte Ergebnis der Abstimmung über die Ausschussüberweisung bekannt: abgegebene Stimmen 125. Mit Ja haben 122 Abgeordnete gestimmt, mit Nein haben 3 Abgeordnete gestimmt, es gab keine Enthaltungen.",
+            "sentences": [
+              {
+                "text": "Ich gebe das von den Schriftführerinnen und Schriftführern ermittelte Ergebnis der Abstimmung über die Ausschussüberweisung bekannt: abgegebene Stimmen 125. Mit Ja haben 122 Abgeordnete gestimmt, mit Nein haben 3 Abgeordnete gestimmt, es gab keine Enthaltungen."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Petra Pau",
+            "speakerstatus": "vice-president",
+            "text": "Anhand dieses Ergebnisses stellen wir gleichzeitig fest, dass die Beschlussfähigkeit nicht erreicht wurde. Da zur Beschlussfähigkeit 355 Stimmen erforderlich sind, sind wir nicht beschlussfähig.",
+            "sentences": [
+              {
+                "text": "Anhand dieses Ergebnisses stellen wir gleichzeitig fest, dass die Beschlussfähigkeit nicht erreicht wurde."
+              },
+              {
+                "text": "Da zur Beschlussfähigkeit 355 Stimmen erforderlich sind, sind wir nicht beschlussfähig."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Petra Pau",
+            "speakerstatus": "vice-president",
+            "text": "Daraus folgt erstens, dass eine Ausschussüberweisung nicht erfolgt ist.",
+            "sentences": [
+              {
+                "text": "Daraus folgt erstens, dass eine Ausschussüberweisung nicht erfolgt ist."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Petra Pau",
+            "speakerstatus": "vice-president",
+            "text": "Infolge der Beschlussunfähigkeit habe ich zweitens die Sitzung gemäß § 20 Absatz 5 der Geschäftsordnung aufzuheben.",
+            "sentences": [
+              {
+                "text": "Infolge der Beschlussunfähigkeit habe ich zweitens die Sitzung gemäß § 20 Absatz 5 der Geschäftsordnung aufzuheben."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Petra Pau",
+            "speakerstatus": "vice-president",
+            "text": "Der Präsident des Deutschen Bundestages hat an der Abstimmung teilgenommen und mir gerade übermitteln lassen, dass er von seinem Recht, am heutigen Tage eine weitere Sitzung des Deutschen Bundestages einzuberufen, keinen Gebrauch macht. Es bleibt also bei der Aufhebung der Sitzung.",
+            "sentences": [
+              {
+                "text": "Der Präsident des Deutschen Bundestages hat an der Abstimmung teilgenommen und mir gerade übermitteln lassen, dass er von seinem Recht, am heutigen Tage eine weitere Sitzung des Deutschen Bundestages einzuberufen, keinen Gebrauch macht."
+              },
+              {
+                "text": "Es bleibt also bei der Aufhebung der Sitzung."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Petra Pau",
+            "speakerstatus": "vice-president",
+            "text": "Ich berufe die nächste Sitzung des Deutschen Bundestages auf Dienstag, den 3. Juli 2018, 9 Uhr, ein.",
+            "sentences": [
+              {
+                "text": "Ich berufe die nächste Sitzung des Deutschen Bundestages auf Dienstag, den 3. Juli 2018, 9 Uhr, ein."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Petra Pau",
+            "speakerstatus": "vice-president",
+            "text": "Die Sitzung ist geschlossen.",
+            "sentences": [
+              {
+                "text": "Die Sitzung ist geschlossen."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "documents": [
+      {
+        "type": "officialDocument",
+        "label": "Drucksache 19/2592",
+        "sourceURI": "https://dserver.bundestag.de/btd/19/025/1902592.pdf"
+      }
+    ],
+    "key": "19-43 tagesordnungspunkt 25 (petra pau) #1",
+    "dateStart": "2018-06-29T15:07:35",
+    "dateEnd": "2018-06-29T15:23:36",
     "media": {
       "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7249617/7249617_h264_720_400_2000kb_baseline_de_2192.mp4",
       "sourcePage": "http://dbtg.tv/fvid/7249617",
@@ -37097,17 +37746,6 @@
       "license": "CC-BY-SA",
       "originMediaID": "7249617",
       "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7249617/7249617_mp3_128kb_stereo_de_128.mp3"
-    },
-    "dateStart": "2018-06-29T15:07:35",
-    "dateEnd": "2018-06-29T15:23:36",
-    "people": [
-      {
-        "label": "Petra Pau",
-        "faction": "Die Linke",
-        "context": "main-speaker",
-        "role": "Bundestagsvizepräsidentin"
-      }
-    ],
-    "key": "19-43 tagesordnungspunkt 25 (petra pau) #1"
+    }
   }
 ]

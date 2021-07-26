@@ -11,7 +11,7 @@
     },
     "agendaItem": {
       "officialTitle": "Sitzungseröffnung",
-      "speechIndex": 0,
+      "speechIndex": 1000,
       "title": "Sitzungseröffnung"
     },
     "people": [
@@ -24,7 +24,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19154-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19154-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -354,7 +354,7 @@
     },
     "agendaItem": {
       "officialTitle": "Sitzungseröffnung",
-      "speechIndex": 1,
+      "speechIndex": 1001,
       "title": "Sitzungseröffnung"
     },
     "people": [
@@ -367,7 +367,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19154-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19154-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -697,7 +697,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 2,
+      "speechIndex": 1002,
       "title": "Überweisungen im vereinfachten Verfahren"
     },
     "people": [
@@ -710,7 +710,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19154-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19154-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -724,6 +724,105 @@
             "sentences": [
               {
                 "text": "Damit rufe ich die Tagesordnungspunkte 1 a bis 1 h auf:"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "a) Beratung des Antrags der Fraktionen der CDU/CSU und SPD",
+            "sentences": [
+              {
+                "text": "a) Beratung des Antrags der Fraktionen der CDU/CSU und SPD"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "Beschluss des Bundestages gemäß Artikel 115 Absatz 2 Satz 6 und 7 des Grundgesetzes",
+            "sentences": [
+              {
+                "text": "Beschluss des Bundestages gemäß Artikel 115 Absatz 2 Satz 6 und 7 des Grundgesetzes"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "b) Erste Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes über die Feststellung eines Nachtrags zum Bundeshaushaltsplan für das Haushaltsjahr 2020 (Nachtragshaushaltsgesetz 2020)",
+            "sentences": [
+              {
+                "text": "b) Erste Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes über die Feststellung eines Nachtrags zum Bundeshaushaltsplan für das Haushaltsjahr 2020 (Nachtragshaushaltsgesetz 2020)"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "c) Erste Beratung des von den Fraktionen der CDU/CSU und SPD eingebrachten Entwurfs eines Gesetzes zur Errichtung eines Wirtschaftsstabilisierungsfonds (Wirtschaftsstabilisierungsfondsgesetz – WStFG)",
+            "sentences": [
+              {
+                "text": "c) Erste Beratung des von den Fraktionen der CDU/CSU und SPD eingebrachten Entwurfs eines Gesetzes zur Errichtung eines Wirtschaftsstabilisierungsfonds (Wirtschaftsstabilisierungsfondsgesetz – WStFG)"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "d) Erste Beratung des von den Fraktionen der CDU/CSU und SPD eingebrachten Entwurfs eines Gesetzes zur Abmilderung der Folgen der COVID-19-Pandemie im Zivil-, Insolvenz- und Strafverfahrensrecht",
+            "sentences": [
+              {
+                "text": "d) Erste Beratung des von den Fraktionen der CDU/CSU und SPD eingebrachten Entwurfs eines Gesetzes zur Abmilderung der Folgen der COVID-19-Pandemie im Zivil-, Insolvenz- und Strafverfahrensrecht"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "e) Erste Beratung des von den Fraktionen der CDU/CSU und SPD eingebrachten Entwurfs eines Gesetzes zum Schutz der Bevölkerung bei einer epidemischen Lage von nationaler Tragweite",
+            "sentences": [
+              {
+                "text": "e) Erste Beratung des von den Fraktionen der CDU/CSU und SPD eingebrachten Entwurfs eines Gesetzes zum Schutz der Bevölkerung bei einer epidemischen Lage von nationaler Tragweite"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "f) Erste Beratung des von den Fraktionen der CDU/CSU und SPD eingebrachten Entwurfs eines Gesetzes zum Ausgleich COVID-19-bedingter finanzieller Belastungen der Krankenhäuser und weiterer Gesundheitseinrichtungen(COVID-19-Krankenhausentlastungsgesetz)",
+            "sentences": [
+              {
+                "text": "f) Erste Beratung des von den Fraktionen der CDU/CSU und SPD eingebrachten Entwurfs eines Gesetzes zum Ausgleich COVID-19-bedingter finanzieller Belastungen der Krankenhäuser und weiterer Gesundheitseinrichtungen(COVID-19-Krankenhausentlastungsgesetz)"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "g) Erste Beratung des von den Fraktionen der CDU/CSU und SPD eingebrachten Entwurfs eines Gesetzes für den erleichterten Zugang zu sozialer Sicherung und zum Einsatz und zur Absicherung sozialer Dienstleister aufgrund des Coronavirus SARS-CoV-2 (Sozialschutz-Paket)",
+            "sentences": [
+              {
+                "text": "g) Erste Beratung des von den Fraktionen der CDU/CSU und SPD eingebrachten Entwurfs eines Gesetzes für den erleichterten Zugang zu sozialer Sicherung und zum Einsatz und zur Absicherung sozialer Dienstleister aufgrund des Coronavirus SARS-CoV-2 (Sozialschutz-Paket)"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "h) Erste Beratung des von den Abgeordneten Roman Johannes Reusch, Stephan Brandner, Fabian Jacobi, weiteren Abgeordneten und der Fraktion der AfD eingebrachten Entwurfs eines Gesetzes zur Sicherstellung konsistenter Maßnahmen zum Schutz der Bevölkerung bei einer bundesweiten Gesundheitsgefahr im Fall einer Epidemie",
+            "sentences": [
+              {
+                "text": "h) Erste Beratung des von den Abgeordneten Roman Johannes Reusch, Stephan Brandner, Fabian Jacobi, weiteren Abgeordneten und der Fraktion der AfD eingebrachten Entwurfs eines Gesetzes zur Sicherstellung konsistenter Maßnahmen zum Schutz der Bevölkerung bei einer bundesweiten Gesundheitsgefahr im Fall einer Epidemie"
               }
             ]
           },
@@ -828,7 +927,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 2",
-      "speechIndex": 4,
+      "speechIndex": 1004,
       "title": "Vereinbarte Debatte - Bewältigung der Corona-Krise"
     },
     "people": [
@@ -841,7 +940,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19154-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19154-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -855,6 +954,28 @@
             "sentences": [
               {
                 "text": "Dann rufe ich den Tagesordnungspunkt 2 auf:"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "Vereinbarte Debatte",
+            "sentences": [
+              {
+                "text": "Vereinbarte Debatte"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "Bewältigung der Coronakrise",
+            "sentences": [
+              {
+                "text": "Bewältigung der Coronakrise"
               }
             ]
           },
@@ -909,7 +1030,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 2",
-      "speechIndex": 5,
+      "speechIndex": 1005,
       "title": "Vereinbarte Debatte - Bewältigung der Corona-Krise"
     },
     "people": [
@@ -930,7 +1051,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19154-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19154-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -1651,7 +1772,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 2",
-      "speechIndex": 6,
+      "speechIndex": 1006,
       "title": "Vereinbarte Debatte - Bewältigung der Corona-Krise"
     },
     "people": [
@@ -1672,7 +1793,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19154-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19154-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -2037,7 +2158,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 2",
-      "speechIndex": 7,
+      "speechIndex": 1007,
       "title": "Vereinbarte Debatte - Bewältigung der Corona-Krise"
     },
     "people": [
@@ -2058,7 +2179,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19154-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19154-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -2634,7 +2755,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 2",
-      "speechIndex": 8,
+      "speechIndex": 1008,
       "title": "Vereinbarte Debatte - Bewältigung der Corona-Krise"
     },
     "people": [
@@ -2655,7 +2776,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19154-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19154-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -3188,7 +3309,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 2",
-      "speechIndex": 9,
+      "speechIndex": 1009,
       "title": "Vereinbarte Debatte - Bewältigung der Corona-Krise"
     },
     "people": [
@@ -3209,7 +3330,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19154-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19154-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -3942,7 +4063,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 2",
-      "speechIndex": 10,
+      "speechIndex": 1010,
       "title": "Vereinbarte Debatte - Bewältigung der Corona-Krise"
     },
     "people": [
@@ -3963,7 +4084,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19154-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19154-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -4653,7 +4774,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 2",
-      "speechIndex": 11,
+      "speechIndex": 1011,
       "title": "Vereinbarte Debatte - Bewältigung der Corona-Krise"
     },
     "people": [
@@ -4674,7 +4795,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19154-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19154-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -5258,7 +5379,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 2",
-      "speechIndex": 12,
+      "speechIndex": 1012,
       "title": "Vereinbarte Debatte - Bewältigung der Corona-Krise"
     },
     "people": [
@@ -5279,7 +5400,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19154-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19154-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -5742,7 +5863,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 2",
-      "speechIndex": 13,
+      "speechIndex": 1013,
       "title": "Vereinbarte Debatte - Bewältigung der Corona-Krise"
     },
     "people": [
@@ -5763,7 +5884,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19154-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19154-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -6182,7 +6303,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 2",
-      "speechIndex": 14,
+      "speechIndex": 1014,
       "title": "Vereinbarte Debatte - Bewältigung der Corona-Krise"
     },
     "people": [
@@ -6203,7 +6324,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19154-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19154-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -6485,7 +6606,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 2",
-      "speechIndex": 15,
+      "speechIndex": 1015,
       "title": "Vereinbarte Debatte - Bewältigung der Corona-Krise"
     },
     "people": [
@@ -6506,7 +6627,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19154-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19154-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -6746,7 +6867,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 2",
-      "speechIndex": 16,
+      "speechIndex": 1016,
       "title": "Vereinbarte Debatte - Bewältigung der Corona-Krise"
     },
     "people": [
@@ -6767,7 +6888,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19154-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19154-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -7000,7 +7121,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 2",
-      "speechIndex": 17,
+      "speechIndex": 1017,
       "title": "Vereinbarte Debatte - Bewältigung der Corona-Krise"
     },
     "people": [
@@ -7021,7 +7142,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19154-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19154-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -7265,7 +7386,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 2",
-      "speechIndex": 18,
+      "speechIndex": 1018,
       "title": "Vereinbarte Debatte - Bewältigung der Corona-Krise"
     },
     "people": [
@@ -7278,7 +7399,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19154-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19154-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -7375,7 +7496,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 3",
-      "speechIndex": 19,
+      "speechIndex": 1019,
       "title": "Änderung der Geschäftsordnung"
     },
     "people": [
@@ -7388,7 +7509,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19154-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19154-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -7402,6 +7523,39 @@
             "sentences": [
               {
                 "text": "Ich rufe den Tagesordnungspunkt 3 auf:"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "Beratung der Beschlussempfehlung des Ausschusses für Wahlprüfung, Immunität und Geschäftsordnung (1. Ausschuss)",
+            "sentences": [
+              {
+                "text": "Beratung der Beschlussempfehlung des Ausschusses für Wahlprüfung, Immunität und Geschäftsordnung (1. Ausschuss)"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "Änderung der Geschäftsordnung des Deutschen Bundestages",
+            "sentences": [
+              {
+                "text": "Änderung der Geschäftsordnung des Deutschen Bundestages"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "hier: Regelung zur besonderen Anwendung der Geschäftsordnung aufgrund der allgemeinen Beeinträchtigung durch COVID-19 sowie Änderung der Anlage 6 GO-BT",
+            "sentences": [
+              {
+                "text": "hier: Regelung zur besonderen Anwendung der Geschäftsordnung aufgrund der allgemeinen Beeinträchtigung durch COVID-19 sowie Änderung der Anlage 6 GO-BT"
               }
             ]
           },
@@ -7485,7 +7639,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 3",
-      "speechIndex": 20,
+      "speechIndex": 1020,
       "title": "Änderung der Geschäftsordnung"
     },
     "people": [
@@ -7506,7 +7660,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19154-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19154-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -7712,16 +7866,106 @@
   {
     "parliament": "DE",
     "electoralPeriod": {
-      "number": 19
+      "number": "19"
     },
     "session": {
-      "number": 154
+      "number": "154",
+      "dateStart": "2020-03-25T9:00",
+      "dateEnd": "2020-03-25T17:21"
     },
     "agendaItem": {
-      "title": "Änderung der Geschäftsordnung",
       "officialTitle": "Tagesordnungspunkt 3",
-      "speechIndex": 22
+      "speechIndex": 1022,
+      "title": "Änderung der Geschäftsordnung"
     },
+    "people": [
+      {
+        "type": "memberOfParliament",
+        "label": "Wolfgang Schäuble",
+        "context": "president"
+      }
+    ],
+    "textContents": [
+      {
+        "type": "proceedings",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19154-data.xml",
+        "creator": "Deutscher Bundestag",
+        "license": "Public Domain",
+        "language": "DE-de",
+        "originTextID": "0722-7980",
+        "textBody": [
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "Nur zur Vermeidung von Missverständnissen: Der Antrag zur Änderung der Geschäftsordnung ist bei einer Enthaltung im Übrigen bereits einstimmig angenommen worden. – Sie beide haben jetzt Erklärungen zur Abstimmung abgegeben, die ich gemäß § 31 unserer Geschäftsordnung nach der Abstimmung habe abgeben lassen. Wir müssen also nicht mehr abstimmen; die Sache ist bereits entschieden.",
+            "sentences": [
+              {
+                "text": "Nur zur Vermeidung von Missverständnissen: Der Antrag zur Änderung der Geschäftsordnung ist bei einer Enthaltung im Übrigen bereits einstimmig angenommen worden."
+              },
+              {
+                "text": "– Sie beide haben jetzt Erklärungen zur Abstimmung abgegeben, die ich gemäß § 31 unserer Geschäftsordnung nach der Abstimmung habe abgeben lassen."
+              },
+              {
+                "text": "Wir müssen also nicht mehr abstimmen; die Sache ist bereits entschieden."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "– Ich habe eine festgestellt, ich habe eine gesehen.",
+            "sentences": [
+              {
+                "text": "– Ich habe eine festgestellt, ich habe eine gesehen."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "– Es tut mir leid. Ich habe das auch gesagt, und da hat niemand widersprochen. Ich glaube auch nicht, dass das von einer besonderen Bedeutung im Kampf gegen – –",
+            "sentences": [
+              {
+                "text": "– Es tut mir leid."
+              },
+              {
+                "text": "Ich habe das auch gesagt, und da hat niemand widersprochen."
+              },
+              {
+                "text": "Ich glaube auch nicht, dass das von einer besonderen Bedeutung im Kampf gegen – –"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "Aber wir vermerken im Protokoll, dass Sie jetzt mitteilen, dass zwei weitere Abgeordnete aus der AfD sich auch enthalten haben. Im Übrigen haben wir alle die persönliche Erklärung zur Abstimmung des Kollegen Seitz vernommen und auch zu Protokoll genommen.",
+            "sentences": [
+              {
+                "text": "Aber wir vermerken im Protokoll, dass Sie jetzt mitteilen, dass zwei weitere Abgeordnete aus der AfD sich auch enthalten haben."
+              },
+              {
+                "text": "Im Übrigen haben wir alle die persönliche Erklärung zur Abstimmung des Kollegen Seitz vernommen und auch zu Protokoll genommen."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "documents": [
+      {
+        "type": "officialDocument",
+        "label": "Drucksache 19/18126",
+        "sourceURI": "https://dserver.bundestag.de/btd/19/181/1918126.pdf"
+      }
+    ],
+    "key": "19-154 tagesordnungspunkt 3 (wolfgang schauble) #1",
+    "dateStart": "2020-03-25T13:05:00",
+    "dateEnd": "2020-03-25T13:05:08",
     "media": {
       "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7435614/7435614_h264_720_400_2000kb_baseline_de_2192.mp4",
       "sourcePage": "http://dbtg.tv/fvid/7435614",
@@ -7730,18 +7974,7 @@
       "license": "CC-BY-SA",
       "originMediaID": "7435614",
       "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7435614/7435614_mp3_128kb_stereo_de_128.mp3"
-    },
-    "dateStart": "2020-03-25T13:05:00",
-    "dateEnd": "2020-03-25T13:05:08",
-    "people": [
-      {
-        "label": "Wolfgang Schäuble",
-        "faction": "CDU/CSU",
-        "context": "main-speaker",
-        "role": "Bundestagspräsident"
-      }
-    ],
-    "key": "19-154 tagesordnungspunkt 3 (wolfgang schauble) #1"
+    }
   },
   {
     "parliament": "DE",
@@ -7755,7 +7988,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 3",
-      "speechIndex": 21,
+      "speechIndex": 1021,
       "title": "Änderung der Geschäftsordnung"
     },
     "people": [
@@ -7776,7 +8009,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19154-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19154-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -8058,70 +8291,6 @@
                 "text": "(Stephan Brandner [AfD]: Es gab drei Enthaltungen!)"
               }
             ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Wolfgang Schäuble",
-            "speakerstatus": "president",
-            "text": "– Ich habe eine festgestellt, ich habe eine gesehen.",
-            "sentences": [
-              {
-                "text": "– Ich habe eine festgestellt, ich habe eine gesehen."
-              }
-            ]
-          },
-          {
-            "type": "comment",
-            "speaker": null,
-            "speakerstatus": null,
-            "text": "(Zurufe von der AfD)",
-            "sentences": [
-              {
-                "text": "(Zurufe von der AfD)"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Wolfgang Schäuble",
-            "speakerstatus": "president",
-            "text": "– Es tut mir leid. Ich habe das auch gesagt, und da hat niemand widersprochen. Ich glaube auch nicht, dass das von einer besonderen Bedeutung im Kampf gegen – –",
-            "sentences": [
-              {
-                "text": "– Es tut mir leid."
-              },
-              {
-                "text": "Ich habe das auch gesagt, und da hat niemand widersprochen."
-              },
-              {
-                "text": "Ich glaube auch nicht, dass das von einer besonderen Bedeutung im Kampf gegen – –"
-              }
-            ]
-          },
-          {
-            "type": "comment",
-            "speaker": null,
-            "speakerstatus": null,
-            "text": "(Beifall bei Abgeordneten der CDU/CSU, der SPD, der FDP, der LINKEN und des BÜNDNISSES 90/DIE GRÜNEN)",
-            "sentences": [
-              {
-                "text": "(Beifall bei Abgeordneten der CDU/CSU, der SPD, der FDP, der LINKEN und des BÜNDNISSES 90/DIE GRÜNEN)"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Wolfgang Schäuble",
-            "speakerstatus": "president",
-            "text": "Aber wir vermerken im Protokoll, dass Sie jetzt mitteilen, dass zwei weitere Abgeordnete aus der AfD sich auch enthalten haben. Im Übrigen haben wir alle die persönliche Erklärung zur Abstimmung des Kollegen Seitz vernommen und auch zu Protokoll genommen.",
-            "sentences": [
-              {
-                "text": "Aber wir vermerken im Protokoll, dass Sie jetzt mitteilen, dass zwei weitere Abgeordnete aus der AfD sich auch enthalten haben."
-              },
-              {
-                "text": "Im Übrigen haben wir alle die persönliche Erklärung zur Abstimmung des Kollegen Seitz vernommen und auch zu Protokoll genommen."
-              }
-            ]
           }
         ]
       }
@@ -8192,7 +8361,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 4",
-      "speechIndex": 22,
+      "speechIndex": 1023,
       "title": "COVID 19 - Kreditobergrenzen, Nachtragshaushalt, Wirtschaftsfonds"
     },
     "people": [
@@ -8205,7 +8374,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19154-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19154-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -8219,6 +8388,226 @@
             "sentences": [
               {
                 "text": "Jetzt rufe ich die Tagesordnungspunkte 4 a bis 4 e auf:"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "a) Beratung der Beschlussempfehlung des Haushaltsausschusses (8. Ausschuss) zu dem Antrag der Fraktionen der CDU/CSU und SPD",
+            "sentences": [
+              {
+                "text": "a) Beratung der Beschlussempfehlung des Haushaltsausschusses (8. Ausschuss) zu dem Antrag der Fraktionen der CDU/CSU und SPD"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "Beschluss des Bundestages gemäß Artikel 115 Absatz 2 Satz 6 und 7 des Grundgesetzes",
+            "sentences": [
+              {
+                "text": "Beschluss des Bundestages gemäß Artikel 115 Absatz 2 Satz 6 und 7 des Grundgesetzes"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "b) Zweite und dritte Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes über die Feststellung eines Nachtrags zum Bundeshaushaltsplan für das Haushaltsjahr 2020 (Nachtragshaushaltsgesetz 2020)",
+            "sentences": [
+              {
+                "text": "b) Zweite und dritte Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes über die Feststellung eines Nachtrags zum Bundeshaushaltsplan für das Haushaltsjahr 2020 (Nachtragshaushaltsgesetz 2020)"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "Beschlussempfehlung und Bericht des Haushaltsausschusses (8. Ausschuss)",
+            "sentences": [
+              {
+                "text": "Beschlussempfehlung und Bericht des Haushaltsausschusses (8. Ausschuss)"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "Drucksache 19/18132",
+            "sentences": [
+              {
+                "text": "Drucksache 19/18132"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "c) Zweite und dritte Beratung des von den Fraktionen der CDU/CSU und SPD eingebrachten Entwurfs eines Gesetzes zur Errichtung eines Wirtschaftsstabilisierungsfonds (Wirtschaftsstabilisierungsfondsgesetz – WStFG)",
+            "sentences": [
+              {
+                "text": "c) Zweite und dritte Beratung des von den Fraktionen der CDU/CSU und SPD eingebrachten Entwurfs eines Gesetzes zur Errichtung eines Wirtschaftsstabilisierungsfonds (Wirtschaftsstabilisierungsfondsgesetz – WStFG)"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "Beschlussempfehlung und Bericht des Haushaltsausschusses (8. Ausschuss)",
+            "sentences": [
+              {
+                "text": "Beschlussempfehlung und Bericht des Haushaltsausschusses (8. Ausschuss)"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "Drucksache 19/18133",
+            "sentences": [
+              {
+                "text": "Drucksache 19/18133"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "d) Beratung der Unterrichtung durch die Bundesregierung",
+            "sentences": [
+              {
+                "text": "d) Beratung der Unterrichtung durch die Bundesregierung"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "Eckpunkte zur Corona-Soforthilfe für Kleinstunternehmen und Soloselbständige",
+            "sentences": [
+              {
+                "text": "Eckpunkte zur Corona-Soforthilfe für Kleinstunternehmen und Soloselbständige"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "e) Beratung des Antrags der Abgeordneten Stefan Keuter, Albrecht Glaser, Franziska Gminder, weiterer Abgeordneter und der Fraktion der AfD",
+            "sentences": [
+              {
+                "text": "e) Beratung des Antrags der Abgeordneten Stefan Keuter, Albrecht Glaser, Franziska Gminder, weiterer Abgeordneter und der Fraktion der AfD"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "Antrag auf uneingeschränkte und sofortige Abschaffung des Solidaritätszuschlags aufgrund der Corona-Pandemie",
+            "sentences": [
+              {
+                "text": "Antrag auf uneingeschränkte und sofortige Abschaffung des Solidaritätszuschlags aufgrund der Corona-Pandemie"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "f) Beratung des Antrags der Abgeordneten Stephan Protschka, Stephan Brandner, Jürgen Braun, weiterer Abgeordneter und der Fraktion der AfD",
+            "sentences": [
+              {
+                "text": "f) Beratung des Antrags der Abgeordneten Stephan Protschka, Stephan Brandner, Jürgen Braun, weiterer Abgeordneter und der Fraktion der AfD"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "Anreize für mehr Erntehelfer in der Landwirtschaft während der Corona-Krise",
+            "sentences": [
+              {
+                "text": "Anreize für mehr Erntehelfer in der Landwirtschaft während der Corona-Krise"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "g) Beratung des Antrags der Abgeordneten Steffen Kotré, Tino Chrupalla, Dr. Heiko Heßenkemper, weiterer Abgeordneter und der Fraktion der AfD",
+            "sentences": [
+              {
+                "text": "g) Beratung des Antrags der Abgeordneten Steffen Kotré, Tino Chrupalla, Dr. Heiko Heßenkemper, weiterer Abgeordneter und der Fraktion der AfD"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "Wirtschaftliche Maßnahmen gegen die Auswirkungen der Coronakrise",
+            "sentences": [
+              {
+                "text": "Wirtschaftliche Maßnahmen gegen die Auswirkungen der Coronakrise"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "h) Beratung des Antrags der Abgeordneten Martin Hebner, Norbert Kleinwächter, Corinna Miazga, weiterer Abgeordneter und der Fraktion der AfD",
+            "sentences": [
+              {
+                "text": "h) Beratung des Antrags der Abgeordneten Martin Hebner, Norbert Kleinwächter, Corinna Miazga, weiterer Abgeordneter und der Fraktion der AfD"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "Fristenverlängerung aufgrund der Corona-Pandemie für alle zu § 93 der Geschäftsordnung des Deutschen Bundestages überwiesenen EU-Dokumente",
+            "sentences": [
+              {
+                "text": "Fristenverlängerung aufgrund der Corona-Pandemie für alle zu § 93 der Geschäftsordnung des Deutschen Bundestages überwiesenen EU-Dokumente"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "i) Beratung des Antrags der Abgeordneten Karsten Hilse, Dr. Rainer Kraft, Marc Bernhard, weiterer Abgeordneter und der Fraktion der AfD",
+            "sentences": [
+              {
+                "text": "i) Beratung des Antrags der Abgeordneten Karsten Hilse, Dr. Rainer Kraft, Marc Bernhard, weiterer Abgeordneter und der Fraktion der AfD"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "Lebensnotwendige Energieversorgung sicher und kosteneffizient ermöglichen – Klimaschutzmaßnahmen und Förderung unvorhersehbar schwankender Energiequellen beenden",
+            "sentences": [
+              {
+                "text": "Lebensnotwendige Energieversorgung sicher und kosteneffizient ermöglichen – Klimaschutzmaßnahmen und Förderung unvorhersehbar schwankender Energiequellen beenden"
               }
             ]
           },
@@ -8360,7 +8749,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 4",
-      "speechIndex": 23,
+      "speechIndex": 1024,
       "title": "COVID 19 - Kreditobergrenzen, Nachtragshaushalt, Wirtschaftsfonds"
     },
     "people": [
@@ -8381,7 +8770,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19154-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19154-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -8817,7 +9206,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 4",
-      "speechIndex": 24,
+      "speechIndex": 1025,
       "title": "COVID 19 - Kreditobergrenzen, Nachtragshaushalt, Wirtschaftsfonds"
     },
     "people": [
@@ -8838,7 +9227,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19154-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19154-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -9324,7 +9713,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 4",
-      "speechIndex": 25,
+      "speechIndex": 1026,
       "title": "COVID 19 - Kreditobergrenzen, Nachtragshaushalt, Wirtschaftsfonds"
     },
     "people": [
@@ -9353,7 +9742,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19154-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19154-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -9757,7 +10146,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 4",
-      "speechIndex": 26,
+      "speechIndex": 1027,
       "title": "COVID 19 - Kreditobergrenzen, Nachtragshaushalt, Wirtschaftsfonds"
     },
     "people": [
@@ -9778,7 +10167,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19154-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19154-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -10110,7 +10499,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 4",
-      "speechIndex": 27,
+      "speechIndex": 1028,
       "title": "COVID 19 - Kreditobergrenzen, Nachtragshaushalt, Wirtschaftsfonds"
     },
     "people": [
@@ -10131,7 +10520,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19154-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19154-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -10470,7 +10859,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 4",
-      "speechIndex": 28,
+      "speechIndex": 1029,
       "title": "COVID 19 - Kreditobergrenzen, Nachtragshaushalt, Wirtschaftsfonds"
     },
     "people": [
@@ -10491,7 +10880,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19154-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19154-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -10846,7 +11235,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 4",
-      "speechIndex": 29,
+      "speechIndex": 1030,
       "title": "COVID 19 - Kreditobergrenzen, Nachtragshaushalt, Wirtschaftsfonds"
     },
     "people": [
@@ -10867,7 +11256,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19154-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19154-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -11212,7 +11601,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 4",
-      "speechIndex": 30,
+      "speechIndex": 1031,
       "title": "COVID 19 - Kreditobergrenzen, Nachtragshaushalt, Wirtschaftsfonds"
     },
     "people": [
@@ -11233,7 +11622,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19154-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19154-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -11547,7 +11936,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 4",
-      "speechIndex": 31,
+      "speechIndex": 1032,
       "title": "COVID 19 - Kreditobergrenzen, Nachtragshaushalt, Wirtschaftsfonds"
     },
     "people": [
@@ -11568,7 +11957,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19154-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19154-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -11852,7 +12241,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 4",
-      "speechIndex": 32,
+      "speechIndex": 1033,
       "title": "COVID 19 - Kreditobergrenzen, Nachtragshaushalt, Wirtschaftsfonds"
     },
     "people": [
@@ -11865,7 +12254,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19154-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19154-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -12377,7 +12766,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 5",
-      "speechIndex": 33,
+      "speechIndex": 1034,
       "title": "COVID 19 - Zivil-, Insolvenz-, Strafverfahrensrecht"
     },
     "people": [
@@ -12390,7 +12779,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19154-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19154-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -12404,6 +12793,50 @@
             "sentences": [
               {
                 "text": "Damit rufe ich den Tagesordnungspunkt 5 auf:"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "– Zweite und dritte Beratung des von den Fraktionen der CDU/CSU und SPD eingebrachten Entwurfs eines Gesetzes zur Abmilderung der Folgen der COVID-19-Pandemie im Zivil-, Insolvenz- und Strafverfahrensrecht",
+            "sentences": [
+              {
+                "text": "– Zweite und dritte Beratung des von den Fraktionen der CDU/CSU und SPD eingebrachten Entwurfs eines Gesetzes zur Abmilderung der Folgen der COVID-19-Pandemie im Zivil-, Insolvenz- und Strafverfahrensrecht"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "Beschlussempfehlung und Bericht des Ausschusses für Recht und Verbraucherschutz (6. Ausschuss)",
+            "sentences": [
+              {
+                "text": "Beschlussempfehlung und Bericht des Ausschusses für Recht und Verbraucherschutz (6. Ausschuss)"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "Drucksachen 19/18129, 19/18158",
+            "sentences": [
+              {
+                "text": "Drucksachen 19/18129, 19/18158"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "– Bericht des Haushaltsausschusses (8. Ausschuss) gemäß § 96 der Geschäftsordnung",
+            "sentences": [
+              {
+                "text": "– Bericht des Haushaltsausschusses (8. Ausschuss) gemäß § 96 der Geschäftsordnung"
               }
             ]
           },
@@ -12480,7 +12913,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 5",
-      "speechIndex": 34,
+      "speechIndex": 1035,
       "title": "COVID 19 - Zivil-, Insolvenz-, Strafverfahrensrecht"
     },
     "people": [
@@ -12501,7 +12934,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19154-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19154-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -12884,7 +13317,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 5",
-      "speechIndex": 35,
+      "speechIndex": 1036,
       "title": "COVID 19 - Zivil-, Insolvenz-, Strafverfahrensrecht"
     },
     "people": [
@@ -12905,7 +13338,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19154-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19154-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -13120,7 +13553,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 5",
-      "speechIndex": 36,
+      "speechIndex": 1037,
       "title": "COVID 19 - Zivil-, Insolvenz-, Strafverfahrensrecht"
     },
     "people": [
@@ -13141,7 +13574,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19154-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19154-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -13525,7 +13958,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 5",
-      "speechIndex": 37,
+      "speechIndex": 1038,
       "title": "COVID 19 - Zivil-, Insolvenz-, Strafverfahrensrecht"
     },
     "people": [
@@ -13546,7 +13979,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19154-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19154-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -13809,7 +14242,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 5",
-      "speechIndex": 38,
+      "speechIndex": 1039,
       "title": "COVID 19 - Zivil-, Insolvenz-, Strafverfahrensrecht"
     },
     "people": [
@@ -13830,7 +14263,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19154-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19154-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -14103,7 +14536,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 5",
-      "speechIndex": 39,
+      "speechIndex": 1040,
       "title": "COVID 19 - Zivil-, Insolvenz-, Strafverfahrensrecht"
     },
     "people": [
@@ -14124,7 +14557,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19154-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19154-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -14475,7 +14908,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 5",
-      "speechIndex": 40,
+      "speechIndex": 1041,
       "title": "COVID 19 - Zivil-, Insolvenz-, Strafverfahrensrecht"
     },
     "people": [
@@ -14496,7 +14929,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19154-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19154-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -14815,7 +15248,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 5",
-      "speechIndex": 41,
+      "speechIndex": 1042,
       "title": "COVID 19 - Zivil-, Insolvenz-, Strafverfahrensrecht"
     },
     "people": [
@@ -14836,7 +15269,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19154-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19154-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -15090,7 +15523,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 5",
-      "speechIndex": 42,
+      "speechIndex": 1043,
       "title": "COVID 19 - Zivil-, Insolvenz-, Strafverfahrensrecht"
     },
     "people": [
@@ -15111,7 +15544,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19154-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19154-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -15405,7 +15838,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 5",
-      "speechIndex": 43,
+      "speechIndex": 1044,
       "title": "COVID 19 - Zivil-, Insolvenz-, Strafverfahrensrecht"
     },
     "people": [
@@ -15426,7 +15859,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19154-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19154-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -15631,7 +16064,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 5",
-      "speechIndex": 44,
+      "speechIndex": 1045,
       "title": "COVID 19 - Zivil-, Insolvenz-, Strafverfahrensrecht"
     },
     "people": [
@@ -15644,7 +16077,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19154-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19154-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -16020,7 +16453,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 6",
-      "speechIndex": 45,
+      "speechIndex": 1046,
       "title": "COVID 19 - Epidemieschutz, Krankenhausentlastung, Sozialschutz"
     },
     "people": [
@@ -16033,7 +16466,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19154-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19154-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -16047,6 +16480,259 @@
             "sentences": [
               {
                 "text": "Dann rufe ich die Tagesordnungspunkte 6 a bis 6 h auf:"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "a) – Zweite und dritte Beratung des von den Fraktionen der CDU/CSU und SPD eingebrachten Entwurfs eines Gesetzes zum Schutz der Bevölkerung bei einer epidemischen Lage von nationaler Tragweite",
+            "sentences": [
+              {
+                "text": "a) – Zweite und dritte Beratung des von den Fraktionen der CDU/CSU und SPD eingebrachten Entwurfs eines Gesetzes zum Schutz der Bevölkerung bei einer epidemischen Lage von nationaler Tragweite"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "Beschlussempfehlung und Bericht des Ausschusses für Gesundheit (14. Ausschuss)",
+            "sentences": [
+              {
+                "text": "Beschlussempfehlung und Bericht des Ausschusses für Gesundheit (14. Ausschuss)"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "Drucksachen 19/18156, 19/18168",
+            "sentences": [
+              {
+                "text": "Drucksachen 19/18156, 19/18168"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "– Bericht des Haushaltsausschusses (8. Ausschuss) gemäß § 96 der Geschäftsordnung",
+            "sentences": [
+              {
+                "text": "– Bericht des Haushaltsausschusses (8. Ausschuss) gemäß § 96 der Geschäftsordnung"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "b) – Zweite und dritte Beratung des von den Fraktionen der CDU/CSU und SPD eingebrachten Entwurfs eines Gesetzes zum Ausgleich COVID-19-bedingter finanzieller Belastungen der Krankenhäuser und weiterer Gesundheitseinrichtungen(COVID-19-Krankenhausentlastungsgesetz)",
+            "sentences": [
+              {
+                "text": "b) – Zweite und dritte Beratung des von den Fraktionen der CDU/CSU und SPD eingebrachten Entwurfs eines Gesetzes zum Ausgleich COVID-19-bedingter finanzieller Belastungen der Krankenhäuser und weiterer Gesundheitseinrichtungen(COVID-19-Krankenhausentlastungsgesetz)"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "Beschlussempfehlung und Bericht des Ausschusses für Gesundheit (14. Ausschuss)",
+            "sentences": [
+              {
+                "text": "Beschlussempfehlung und Bericht des Ausschusses für Gesundheit (14. Ausschuss)"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "Drucksachen 19/18151, 19/18163",
+            "sentences": [
+              {
+                "text": "Drucksachen 19/18151, 19/18163"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "– Bericht des Haushaltsausschusses (8. Ausschuss) gemäß § 96 der Geschäftsordnung",
+            "sentences": [
+              {
+                "text": "– Bericht des Haushaltsausschusses (8. Ausschuss) gemäß § 96 der Geschäftsordnung"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "c) – Zweite und dritte Beratung des von den Fraktionen der CDU/CSU und SPD eingebrachten Entwurfs eines Gesetzes für den erleichterten Zugang zu sozialer Sicherung und zum Einsatz und zur Absicherung sozialer Dienstleister aufgrund des Coronavirus SARS-CoV-2 (Sozialschutz-Paket)",
+            "sentences": [
+              {
+                "text": "c) – Zweite und dritte Beratung des von den Fraktionen der CDU/CSU und SPD eingebrachten Entwurfs eines Gesetzes für den erleichterten Zugang zu sozialer Sicherung und zum Einsatz und zur Absicherung sozialer Dienstleister aufgrund des Coronavirus SARS-CoV-2 (Sozialschutz-Paket)"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "Beschlussempfehlung und Bericht des Ausschusses für Arbeit und Soziales (11. Ausschuss)",
+            "sentences": [
+              {
+                "text": "Beschlussempfehlung und Bericht des Ausschusses für Arbeit und Soziales (11. Ausschuss)"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "Drucksache 19/18130",
+            "sentences": [
+              {
+                "text": "Drucksache 19/18130"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "– Bericht des Haushaltsausschusses (8. Ausschuss) gemäß § 96 der Geschäftsordnung",
+            "sentences": [
+              {
+                "text": "– Bericht des Haushaltsausschusses (8. Ausschuss) gemäß § 96 der Geschäftsordnung"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "d) Zweite und dritte Beratung des von den Abgeordneten Roman Johannes Reusch, Stephan Brandner, Fabian Jacobi, weiteren Abgeordneten und der Fraktion der AfD eingebrachten Entwurfs eines Gesetzes zur Sicherstellung konsistenter Maßnahmen zum Schutz der Bevölkerung bei einer bundesweiten Gesundheitsgefahr im Fall einer Epidemie",
+            "sentences": [
+              {
+                "text": "d) Zweite und dritte Beratung des von den Abgeordneten Roman Johannes Reusch, Stephan Brandner, Fabian Jacobi, weiteren Abgeordneten und der Fraktion der AfD eingebrachten Entwurfs eines Gesetzes zur Sicherstellung konsistenter Maßnahmen zum Schutz der Bevölkerung bei einer bundesweiten Gesundheitsgefahr im Fall einer Epidemie"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "Beschlussempfehlung und Bericht des Ausschusses für Gesundheit (14. Ausschuss)",
+            "sentences": [
+              {
+                "text": "Beschlussempfehlung und Bericht des Ausschusses für Gesundheit (14. Ausschuss)"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "Drucksachen 19/18155, 19/18164",
+            "sentences": [
+              {
+                "text": "Drucksachen 19/18155, 19/18164"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "e) Beratung des Antrags der Abgeordneten Martin Reichardt, Mariana Iris Harder-Kühnel, Frank Pasemann, weiterer Abgeordneter und der Fraktion der AfD",
+            "sentences": [
+              {
+                "text": "e) Beratung des Antrags der Abgeordneten Martin Reichardt, Mariana Iris Harder-Kühnel, Frank Pasemann, weiterer Abgeordneter und der Fraktion der AfD"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "Schul- und Kitaschließungen – Rechtssicherheit für Eltern und ihre Kinder",
+            "sentences": [
+              {
+                "text": "Schul- und Kitaschließungen – Rechtssicherheit für Eltern und ihre Kinder"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "f) Beratung des Antrags der Abgeordneten Karsten Hilse, Stephan Brandner, Jürgen Braun, weiterer Abgeordneter und der Fraktion der AfD",
+            "sentences": [
+              {
+                "text": "f) Beratung des Antrags der Abgeordneten Karsten Hilse, Stephan Brandner, Jürgen Braun, weiterer Abgeordneter und der Fraktion der AfD"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "Lebensnotwendige Logistik erhalten – LKW-Fahrer und damit die Versorgung mit lebenswichtigen Gütern unterstützen beziehungsweise sicherstellen",
+            "sentences": [
+              {
+                "text": "Lebensnotwendige Logistik erhalten – LKW-Fahrer und damit die Versorgung mit lebenswichtigen Gütern unterstützen beziehungsweise sicherstellen"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "g) Beratung des Antrags der Abgeordneten Dr. Dirk Spaniel, Karsten Hilse, Marc Bernhard, weiterer Abgeordneter und der Fraktion der AfD",
+            "sentences": [
+              {
+                "text": "g) Beratung des Antrags der Abgeordneten Dr. Dirk Spaniel, Karsten Hilse, Marc Bernhard, weiterer Abgeordneter und der Fraktion der AfD"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "Sichere Eigenversorgung und Mobilität – Parkraumbewirtschaftung aussetzen, emissionsbedingte Fahrverbotszonen vorübergehend aufheben, Busspuren für PKW freigeben",
+            "sentences": [
+              {
+                "text": "Sichere Eigenversorgung und Mobilität – Parkraumbewirtschaftung aussetzen, emissionsbedingte Fahrverbotszonen vorübergehend aufheben, Busspuren für PKW freigeben"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "h) Beratung des Antrags der Abgeordneten Martin Reichardt, Marcus Bühl, Siegbert Droese, weiterer Abgeordneter und der Fraktion der AfD",
+            "sentences": [
+              {
+                "text": "h) Beratung des Antrags der Abgeordneten Martin Reichardt, Marcus Bühl, Siegbert Droese, weiterer Abgeordneter und der Fraktion der AfD"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "Sonderprogramm „Bundesfreiwilligendienst mit Familien- und Seniorenbezug“ in das Bundesfreiwilligengesetz aufnehmen",
+            "sentences": [
+              {
+                "text": "Sonderprogramm „Bundesfreiwilligendienst mit Familien- und Seniorenbezug“ in das Bundesfreiwilligengesetz aufnehmen"
               }
             ]
           },
@@ -16174,7 +16860,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 6",
-      "speechIndex": 46,
+      "speechIndex": 1047,
       "title": "COVID 19 - Epidemieschutz, Krankenhausentlastung, Sozialschutz"
     },
     "people": [
@@ -16195,7 +16881,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19154-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19154-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -16497,7 +17183,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 6",
-      "speechIndex": 47,
+      "speechIndex": 1048,
       "title": "COVID 19 - Epidemieschutz, Krankenhausentlastung, Sozialschutz"
     },
     "people": [
@@ -16518,7 +17204,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19154-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19154-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -16947,7 +17633,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 6",
-      "speechIndex": 55,
+      "speechIndex": 1056,
       "title": "COVID 19 - Epidemieschutz, Krankenhausentlastung, Sozialschutz"
     },
     "people": [
@@ -16960,7 +17646,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19154-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19154-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -17574,7 +18260,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 6",
-      "speechIndex": 48,
+      "speechIndex": 1049,
       "title": "COVID 19 - Epidemieschutz, Krankenhausentlastung, Sozialschutz"
     },
     "people": [
@@ -17595,7 +18281,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19154-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19154-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -18041,7 +18727,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 6",
-      "speechIndex": 49,
+      "speechIndex": 1050,
       "title": "COVID 19 - Epidemieschutz, Krankenhausentlastung, Sozialschutz"
     },
     "people": [
@@ -18062,7 +18748,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19154-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19154-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -18380,7 +19066,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 6",
-      "speechIndex": 50,
+      "speechIndex": 1051,
       "title": "COVID 19 - Epidemieschutz, Krankenhausentlastung, Sozialschutz"
     },
     "people": [
@@ -18401,7 +19087,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19154-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19154-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -18841,7 +19527,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 6",
-      "speechIndex": 51,
+      "speechIndex": 1052,
       "title": "COVID 19 - Epidemieschutz, Krankenhausentlastung, Sozialschutz"
     },
     "people": [
@@ -18862,7 +19548,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19154-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19154-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -19238,7 +19924,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 6",
-      "speechIndex": 52,
+      "speechIndex": 1053,
       "title": "COVID 19 - Epidemieschutz, Krankenhausentlastung, Sozialschutz"
     },
     "people": [
@@ -19259,7 +19945,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19154-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19154-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -19531,7 +20217,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 6",
-      "speechIndex": 53,
+      "speechIndex": 1054,
       "title": "COVID 19 - Epidemieschutz, Krankenhausentlastung, Sozialschutz"
     },
     "people": [
@@ -19552,7 +20238,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19154-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19154-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -19894,7 +20580,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 6",
-      "speechIndex": 54,
+      "speechIndex": 1055,
       "title": "COVID 19 - Epidemieschutz, Krankenhausentlastung, Sozialschutz"
     },
     "people": [
@@ -19910,7 +20596,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19154-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19154-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -20251,7 +20937,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 7",
-      "speechIndex": 56,
+      "speechIndex": 1057,
       "title": "Bundeswehreinsatz im Irak"
     },
     "people": [
@@ -20264,7 +20950,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19154-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19154-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -20281,6 +20967,39 @@
               },
               {
                 "text": "–:"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "– Beratung der Beschlussempfehlung und des Berichts des Auswärtigen Ausschusses (3. Ausschuss) zu dem Antrag der Bundesregierung",
+            "sentences": [
+              {
+                "text": "– Beratung der Beschlussempfehlung und des Berichts des Auswärtigen Ausschusses (3. Ausschuss) zu dem Antrag der Bundesregierung"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "Ergänzung des Einsatzes bewaffneter deutscher Streitkräfte – Stabilisierung sichern, Wiedererstarken des IS verhindern, Versöhnung fördern in Irak und Syrien",
+            "sentences": [
+              {
+                "text": "Ergänzung des Einsatzes bewaffneter deutscher Streitkräfte – Stabilisierung sichern, Wiedererstarken des IS verhindern, Versöhnung fördern in Irak und Syrien"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "– Bericht des Haushaltsausschusses (8. Ausschuss) gemäß § 96 der Geschäftsordnung",
+            "sentences": [
+              {
+                "text": "– Bericht des Haushaltsausschusses (8. Ausschuss) gemäß § 96 der Geschäftsordnung"
               }
             ]
           },
@@ -20376,7 +21095,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 7",
-      "speechIndex": 57,
+      "speechIndex": 1058,
       "title": "Bundeswehreinsatz im Irak"
     },
     "people": [
@@ -20397,7 +21116,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19154-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19154-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -20647,7 +21366,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 7",
-      "speechIndex": 58,
+      "speechIndex": 1059,
       "title": "Bundeswehreinsatz im Irak"
     },
     "people": [
@@ -20668,7 +21387,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19154-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19154-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -21036,7 +21755,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 7",
-      "speechIndex": 59,
+      "speechIndex": 1060,
       "title": "Bundeswehreinsatz im Irak"
     },
     "people": [
@@ -21057,7 +21776,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19154-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19154-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -21384,7 +22103,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 7",
-      "speechIndex": 60,
+      "speechIndex": 1061,
       "title": "Bundeswehreinsatz im Irak"
     },
     "people": [
@@ -21405,7 +22124,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19154-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19154-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -21685,7 +22404,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 7",
-      "speechIndex": 61,
+      "speechIndex": 1062,
       "title": "Bundeswehreinsatz im Irak"
     },
     "people": [
@@ -21706,7 +22425,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19154-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19154-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -22037,7 +22756,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 7",
-      "speechIndex": 62,
+      "speechIndex": 1063,
       "title": "Bundeswehreinsatz im Irak"
     },
     "people": [
@@ -22058,7 +22777,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19154-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19154-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -22375,7 +23094,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 7",
-      "speechIndex": 63,
+      "speechIndex": 1064,
       "title": "Bundeswehreinsatz im Irak"
     },
     "people": [
@@ -22396,7 +23115,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19154-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19154-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -22721,7 +23440,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 7",
-      "speechIndex": 64,
+      "speechIndex": 1065,
       "title": "Bundeswehreinsatz im Irak"
     },
     "people": [
@@ -22742,7 +23461,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19154-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19154-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -23074,7 +23793,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 7",
-      "speechIndex": 65,
+      "speechIndex": 1066,
       "title": "Bundeswehreinsatz im Irak"
     },
     "people": [
@@ -23095,7 +23814,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19154-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19154-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -23308,7 +24027,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 7",
-      "speechIndex": 66,
+      "speechIndex": 1067,
       "title": "Bundeswehreinsatz im Irak"
     },
     "people": [
@@ -23321,7 +24040,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19154-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19154-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",

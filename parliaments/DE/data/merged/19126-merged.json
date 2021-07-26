@@ -11,7 +11,7 @@
     },
     "agendaItem": {
       "officialTitle": "Sitzungseröffnung",
-      "speechIndex": 0,
+      "speechIndex": 1000,
       "title": "Sitzungseröffnung"
     },
     "people": [
@@ -24,7 +24,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19126-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19126-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -211,7 +211,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 6",
-      "speechIndex": 6,
+      "speechIndex": 1012,
       "title": "Befragung der Bundesregierung"
     },
     "people": [
@@ -224,7 +224,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19126-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19126-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -238,6 +238,17 @@
             "sentences": [
               {
                 "text": "Ich rufe den Tagesordnungspunkt 6 auf:"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Kubicki",
+            "speakerstatus": "vice-president",
+            "text": "Befragung der Bundesregierung",
+            "sentences": [
+              {
+                "text": "Befragung der Bundesregierung"
               }
             ]
           },
@@ -284,7 +295,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 6",
-      "speechIndex": 7,
+      "speechIndex": 1013,
       "title": "Befragung der Bundesregierung"
     },
     "people": [
@@ -305,7 +316,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19126-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19126-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -538,7 +549,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 6",
-      "speechIndex": 64,
+      "speechIndex": 1070,
       "title": "Befragung der Bundesregierung"
     },
     "people": [
@@ -551,7 +562,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19126-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19126-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -603,7 +614,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 7",
-      "speechIndex": 65,
+      "speechIndex": 1071,
       "title": "Fragestunde"
     },
     "people": [
@@ -773,7 +784,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19126-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19126-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -787,6 +798,17 @@
             "sentences": [
               {
                 "text": "Aber wir kommen jetzt zum Tagesordnungspunkt 7:"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "Fragestunde",
+            "sentences": [
+              {
+                "text": "Fragestunde"
               }
             ]
           },
@@ -6213,7 +6235,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 67,
+      "speechIndex": 1074,
       "title": "Direktzahlungen-Durchführungsgesetz"
     },
     "people": [
@@ -6226,7 +6248,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19126-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19126-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -6240,6 +6262,39 @@
             "sentences": [
               {
                 "text": "Ich rufe den Zusatzpunkt 1 auf:"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Thomas Oppermann",
+            "speakerstatus": "vice-president",
+            "text": "Zweite und dritte Beratung des von der Bundesregierung eingebrachten Entwurfs eines Zweiten Gesetzes zur Änderung des Direktzahlungen-Durchführungsgesetzes",
+            "sentences": [
+              {
+                "text": "Zweite und dritte Beratung des von der Bundesregierung eingebrachten Entwurfs eines Zweiten Gesetzes zur Änderung des Direktzahlungen-Durchführungsgesetzes"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Thomas Oppermann",
+            "speakerstatus": "vice-president",
+            "text": "Beschlussempfehlung und Bericht des Ausschusses für Ernährung und Landwirtschaft (10. Ausschuss)",
+            "sentences": [
+              {
+                "text": "Beschlussempfehlung und Bericht des Ausschusses für Ernährung und Landwirtschaft (10. Ausschuss)"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Thomas Oppermann",
+            "speakerstatus": "vice-president",
+            "text": "Drucksache 19/14745",
+            "sentences": [
+              {
+                "text": "Drucksache 19/14745"
               }
             ]
           },
@@ -6344,7 +6399,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 68,
+      "speechIndex": 1075,
       "title": "Direktzahlungen-Durchführungsgesetz"
     },
     "people": [
@@ -6365,7 +6420,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19126-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19126-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -6703,7 +6758,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 69,
+      "speechIndex": 1076,
       "title": "Direktzahlungen-Durchführungsgesetz"
     },
     "people": [
@@ -6724,7 +6779,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19126-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19126-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -7120,7 +7175,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 70,
+      "speechIndex": 1077,
       "title": "Direktzahlungen-Durchführungsgesetz"
     },
     "people": [
@@ -7141,7 +7196,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19126-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19126-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -7592,7 +7647,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 71,
+      "speechIndex": 1078,
       "title": "Direktzahlungen-Durchführungsgesetz"
     },
     "people": [
@@ -7613,7 +7668,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19126-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19126-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -7973,7 +8028,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 72,
+      "speechIndex": 1079,
       "title": "Direktzahlungen-Durchführungsgesetz"
     },
     "people": [
@@ -7994,7 +8049,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19126-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19126-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -8324,7 +8379,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 73,
+      "speechIndex": 1080,
       "title": "Direktzahlungen-Durchführungsgesetz"
     },
     "people": [
@@ -8345,7 +8400,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19126-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19126-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -8721,7 +8776,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 74,
+      "speechIndex": 1081,
       "title": "Direktzahlungen-Durchführungsgesetz"
     },
     "people": [
@@ -8742,7 +8797,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19126-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19126-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -9135,7 +9190,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 75,
+      "speechIndex": 1082,
       "title": "Direktzahlungen-Durchführungsgesetz"
     },
     "people": [
@@ -9148,7 +9203,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19126-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19126-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -9432,7 +9487,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 2",
-      "speechIndex": 76,
+      "speechIndex": 1083,
       "title": "Energiewirtschaftsgesetz"
     },
     "people": [
@@ -9445,7 +9500,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19126-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19126-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -9459,6 +9514,39 @@
             "sentences": [
               {
                 "text": "Ich rufe den Zusatzpunkt 2 auf:"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Thomas Oppermann",
+            "speakerstatus": "vice-president",
+            "text": "Zweite und dritte Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Änderung des Energiewirtschaftsgesetzes zur Umsetzung der Richtlinie (EU) 2019/692 des Europäischen Parlamentes und des Rates über gemeinsame Vorschriften für den Erdgasbinnenmarkt",
+            "sentences": [
+              {
+                "text": "Zweite und dritte Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Änderung des Energiewirtschaftsgesetzes zur Umsetzung der Richtlinie (EU) 2019/692 des Europäischen Parlamentes und des Rates über gemeinsame Vorschriften für den Erdgasbinnenmarkt"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Thomas Oppermann",
+            "speakerstatus": "vice-president",
+            "text": "Beschlussempfehlung und Bericht des Ausschusses für Wirtschaft und Energie (9. Ausschuss)",
+            "sentences": [
+              {
+                "text": "Beschlussempfehlung und Bericht des Ausschusses für Wirtschaft und Energie (9. Ausschuss)"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Thomas Oppermann",
+            "speakerstatus": "vice-president",
+            "text": "Drucksache 19/14878",
+            "sentences": [
+              {
+                "text": "Drucksache 19/14878"
               }
             ]
           },
@@ -9552,7 +9640,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 2",
-      "speechIndex": 77,
+      "speechIndex": 1084,
       "title": "Energiewirtschaftsgesetz"
     },
     "people": [
@@ -9573,7 +9661,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19126-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19126-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -9855,7 +9943,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 2",
-      "speechIndex": 78,
+      "speechIndex": 1085,
       "title": "Energiewirtschaftsgesetz"
     },
     "people": [
@@ -9876,7 +9964,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19126-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19126-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -10255,7 +10343,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 2",
-      "speechIndex": 86,
+      "speechIndex": 1093,
       "title": "Energiewirtschaftsgesetz"
     },
     "people": [
@@ -10268,7 +10356,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19126-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19126-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -10367,7 +10455,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 2",
-      "speechIndex": 79,
+      "speechIndex": 1086,
       "title": "Energiewirtschaftsgesetz"
     },
     "people": [
@@ -10388,7 +10476,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19126-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19126-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -10867,7 +10955,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 2",
-      "speechIndex": 80,
+      "speechIndex": 1087,
       "title": "Energiewirtschaftsgesetz"
     },
     "people": [
@@ -10888,7 +10976,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19126-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19126-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -11115,7 +11203,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 2",
-      "speechIndex": 81,
+      "speechIndex": 1088,
       "title": "Energiewirtschaftsgesetz"
     },
     "people": [
@@ -11136,7 +11224,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19126-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19126-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -11407,7 +11495,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 2",
-      "speechIndex": 82,
+      "speechIndex": 1089,
       "title": "Energiewirtschaftsgesetz"
     },
     "people": [
@@ -11428,7 +11516,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19126-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19126-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -11796,7 +11884,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 2",
-      "speechIndex": 83,
+      "speechIndex": 1090,
       "title": "Energiewirtschaftsgesetz"
     },
     "people": [
@@ -11817,7 +11905,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19126-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19126-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -12140,7 +12228,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 2",
-      "speechIndex": 84,
+      "speechIndex": 1091,
       "title": "Energiewirtschaftsgesetz"
     },
     "people": [
@@ -12161,7 +12249,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19126-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19126-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -12335,7 +12423,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 2",
-      "speechIndex": 85,
+      "speechIndex": 1092,
       "title": "Energiewirtschaftsgesetz"
     },
     "people": [
@@ -12356,7 +12444,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19126-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19126-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -12518,7 +12606,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 3",
-      "speechIndex": 87,
+      "speechIndex": 1094,
       "title": "Abkommen mit der Ukraine"
     },
     "people": [
@@ -12531,7 +12619,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19126-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19126-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -12545,6 +12633,39 @@
             "sentences": [
               {
                 "text": "Ich rufe Zusatzpunkt 3 auf:"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Thomas Oppermann",
+            "speakerstatus": "vice-president",
+            "text": "Zweite und dritte Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zu dem Abkommen vom 7. November 2018 zwischen der Bundesrepublik Deutschland und der Ukraine über Soziale Sicherheit",
+            "sentences": [
+              {
+                "text": "Zweite und dritte Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zu dem Abkommen vom 7. November 2018 zwischen der Bundesrepublik Deutschland und der Ukraine über Soziale Sicherheit"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Thomas Oppermann",
+            "speakerstatus": "vice-president",
+            "text": "Beschlussempfehlung und Bericht des Ausschusses für Arbeit und Soziales (11. Ausschuss)",
+            "sentences": [
+              {
+                "text": "Beschlussempfehlung und Bericht des Ausschusses für Arbeit und Soziales (11. Ausschuss)"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Thomas Oppermann",
+            "speakerstatus": "vice-president",
+            "text": "Drucksache 19/14830",
+            "sentences": [
+              {
+                "text": "Drucksache 19/14830"
               }
             ]
           },
@@ -12611,7 +12732,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 3",
-      "speechIndex": 88,
+      "speechIndex": 1095,
       "title": "Abkommen mit der Ukraine"
     },
     "people": [
@@ -12632,7 +12753,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19126-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19126-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -12987,7 +13108,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 3",
-      "speechIndex": 89,
+      "speechIndex": 1096,
       "title": "Abkommen mit der Ukraine"
     },
     "people": [
@@ -13008,7 +13129,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19126-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19126-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -13408,7 +13529,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 3",
-      "speechIndex": 90,
+      "speechIndex": 1097,
       "title": "Abkommen mit der Ukraine"
     },
     "people": [
@@ -13429,7 +13550,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19126-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19126-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -13803,7 +13924,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 3",
-      "speechIndex": 91,
+      "speechIndex": 1098,
       "title": "Abkommen mit der Ukraine"
     },
     "people": [
@@ -13824,7 +13945,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19126-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19126-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -14081,7 +14202,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 3",
-      "speechIndex": 92,
+      "speechIndex": 1099,
       "title": "Abkommen mit der Ukraine"
     },
     "people": [
@@ -14102,7 +14223,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19126-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19126-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -14373,7 +14494,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 3",
-      "speechIndex": 93,
+      "speechIndex": 1100,
       "title": "Abkommen mit der Ukraine"
     },
     "people": [
@@ -14394,7 +14515,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19126-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19126-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -14709,7 +14830,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 3",
-      "speechIndex": 94,
+      "speechIndex": 1101,
       "title": "Abkommen mit der Ukraine"
     },
     "people": [
@@ -14730,7 +14851,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19126-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19126-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -14892,7 +15013,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 3",
-      "speechIndex": 95,
+      "speechIndex": 1102,
       "title": "Abkommen mit der Ukraine"
     },
     "people": [
@@ -14905,7 +15026,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19126-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19126-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -15003,7 +15124,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 4",
-      "speechIndex": 96,
+      "speechIndex": 1103,
       "title": "Entsorgung radioaktiver Abfälle"
     },
     "people": [
@@ -15016,7 +15137,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19126-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19126-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -15030,6 +15151,39 @@
             "sentences": [
               {
                 "text": "Ich rufe den Zusatzpunkt 4 auf:"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Petra Pau",
+            "speakerstatus": "vice-president",
+            "text": "Zweite und dritte Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Änderung des Umweltauditgesetzes, des Atomgesetzes, des Standortauswahlgesetzes, der Endlagervorausleistungsverordnung und anderer Gesetze und Verordnungen",
+            "sentences": [
+              {
+                "text": "Zweite und dritte Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Änderung des Umweltauditgesetzes, des Atomgesetzes, des Standortauswahlgesetzes, der Endlagervorausleistungsverordnung und anderer Gesetze und Verordnungen"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Petra Pau",
+            "speakerstatus": "vice-president",
+            "text": "Beschlussempfehlung und Bericht des Ausschusses für Umwelt, Naturschutz und nukleare Sicherheit (16. Ausschuss)",
+            "sentences": [
+              {
+                "text": "Beschlussempfehlung und Bericht des Ausschusses für Umwelt, Naturschutz und nukleare Sicherheit (16. Ausschuss)"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Petra Pau",
+            "speakerstatus": "vice-president",
+            "text": "Drucksache 19/14847",
+            "sentences": [
+              {
+                "text": "Drucksache 19/14847"
               }
             ]
           },
@@ -15104,7 +15258,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 4",
-      "speechIndex": 97,
+      "speechIndex": 1104,
       "title": "Entsorgung radioaktiver Abfälle"
     },
     "people": [
@@ -15125,7 +15279,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19126-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19126-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -15340,7 +15494,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 4",
-      "speechIndex": 98,
+      "speechIndex": 1105,
       "title": "Entsorgung radioaktiver Abfälle"
     },
     "people": [
@@ -15361,7 +15515,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19126-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19126-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -15732,7 +15886,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 4",
-      "speechIndex": 99,
+      "speechIndex": 1106,
       "title": "Entsorgung radioaktiver Abfälle"
     },
     "people": [
@@ -15753,7 +15907,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19126-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19126-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -16036,7 +16190,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 4",
-      "speechIndex": 100,
+      "speechIndex": 1107,
       "title": "Entsorgung radioaktiver Abfälle"
     },
     "people": [
@@ -16057,7 +16211,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19126-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19126-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -16426,7 +16580,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 4",
-      "speechIndex": 101,
+      "speechIndex": 1108,
       "title": "Entsorgung radioaktiver Abfälle"
     },
     "people": [
@@ -16447,7 +16601,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19126-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19126-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -16699,7 +16853,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 4",
-      "speechIndex": 102,
+      "speechIndex": 1109,
       "title": "Entsorgung radioaktiver Abfälle"
     },
     "people": [
@@ -16712,7 +16866,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19126-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19126-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",

@@ -11,7 +11,7 @@
     },
     "agendaItem": {
       "officialTitle": "Sitzungseröffnung",
-      "speechIndex": 0,
+      "speechIndex": 1000,
       "title": "Sitzungseröffnung"
     },
     "people": [
@@ -24,7 +24,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19123-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19123-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -115,7 +115,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 2,
+      "speechIndex": 1002,
       "title": "Befragung der Bundesregierung"
     },
     "people": [
@@ -128,7 +128,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19123-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19123-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -142,6 +142,17 @@
             "sentences": [
               {
                 "text": "Dann rufe ich den Tagesordnungspunkt 1 auf:"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "Befragung der Bundesregierung",
+            "sentences": [
+              {
+                "text": "Befragung der Bundesregierung"
               }
             ]
           },
@@ -196,7 +207,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 3,
+      "speechIndex": 1003,
       "title": "Befragung der Bundesregierung"
     },
     "people": [
@@ -217,7 +228,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19123-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19123-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -435,16 +446,55 @@
   {
     "parliament": "DE",
     "electoralPeriod": {
-      "number": 19
+      "number": "19"
     },
     "session": {
-      "number": 123
+      "number": "123",
+      "dateStart": "2019-11-06T13:00",
+      "dateEnd": "2019-11-06T16:42"
     },
     "agendaItem": {
-      "title": "Befragung der Bundesregierung",
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 4
+      "speechIndex": 1066,
+      "title": "Befragung der Bundesregierung"
     },
+    "people": [
+      {
+        "type": "memberOfParliament",
+        "label": "Wolfgang Schäuble",
+        "context": "president"
+      }
+    ],
+    "textContents": [
+      {
+        "type": "proceedings",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19123-data.xml",
+        "creator": "Deutscher Bundestag",
+        "license": "Public Domain",
+        "language": "DE-de",
+        "originTextID": "",
+        "textBody": [
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "Danke sehr. – Damit beende ich die Regierungsbefragung und bedanke mich beim Herrn Bundesminister des Auswärtigen mit dem Ratschlag an alle Mitglieder der Bundesregierung, bei der Befragung immer auch die Ampel zur Einhaltung der Redezeit strenger zu beachten.",
+            "sentences": [
+              {
+                "text": "Danke sehr."
+              },
+              {
+                "text": "– Damit beende ich die Regierungsbefragung und bedanke mich beim Herrn Bundesminister des Auswärtigen mit dem Ratschlag an alle Mitglieder der Bundesregierung, bei der Befragung immer auch die Ampel zur Einhaltung der Redezeit strenger zu beachten."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "documents": [],
+    "key": "19-123 tagesordnungspunkt 1 (wolfgang schauble) #1",
+    "dateStart": "2019-11-06T13:08:03",
+    "dateEnd": "2019-11-06T13:08:41",
     "media": {
       "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7399331/7399331_h264_720_400_2000kb_baseline_de_2192.mp4",
       "sourcePage": "http://dbtg.tv/fvid/7399331",
@@ -453,18 +503,7 @@
       "license": "CC-BY-SA",
       "originMediaID": "7399331",
       "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7399331/7399331_mp3_128kb_stereo_de_128.mp3"
-    },
-    "dateStart": "2019-11-06T13:08:03",
-    "dateEnd": "2019-11-06T13:08:41",
-    "people": [
-      {
-        "label": "Wolfgang Schäuble",
-        "faction": "CDU/CSU",
-        "context": "main-speaker",
-        "role": "Bundestagspräsident"
-      }
-    ],
-    "key": "19-123 tagesordnungspunkt 1 (wolfgang schauble) #1"
+    }
   },
   {
     "parliament": "DE",
@@ -478,7 +517,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 2",
-      "speechIndex": 67,
+      "speechIndex": 1068,
       "title": "Fragestunde"
     },
     "people": [
@@ -606,60 +645,12 @@
         "lastname": "Fricke",
         "context": "speaker",
         "faction": "FDP"
-      },
-      {
-        "type": "memberOfParliament",
-        "label": "Alexander Graf Lambsdorff",
-        "firstname": "Alexander",
-        "lastname": "Graf Lambsdorff",
-        "context": "speaker",
-        "faction": "FDP"
-      },
-      {
-        "type": "memberOfParliament",
-        "label": "Stefan Zierke",
-        "firstname": "Stefan",
-        "lastname": "Zierke",
-        "context": "speaker",
-        "faction": ""
-      },
-      {
-        "type": "memberOfParliament",
-        "label": "Sabine Weiss",
-        "firstname": "Sabine",
-        "lastname": "Weiss",
-        "context": "speaker",
-        "faction": ""
-      },
-      {
-        "type": "memberOfParliament",
-        "label": "Kirsten Kappert-Gonther",
-        "firstname": "Kirsten",
-        "lastname": "Kappert-Gonther",
-        "context": "speaker",
-        "faction": "BÜNDNIS 90/DIE GRÜNEN"
-      },
-      {
-        "type": "memberOfParliament",
-        "label": "Steffen Bilger",
-        "firstname": "Steffen",
-        "lastname": "Bilger",
-        "context": "speaker",
-        "faction": ""
-      },
-      {
-        "type": "memberOfParliament",
-        "label": "Daniela Kluckert",
-        "firstname": "Daniela",
-        "lastname": "Kluckert",
-        "context": "speaker",
-        "faction": "FDP"
       }
     ],
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19123-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19123-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -673,6 +664,17 @@
             "sentences": [
               {
                 "text": "Ich rufe den Tagesordnungspunkt 2 auf:"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Petra Pau",
+            "speakerstatus": "vice-president",
+            "text": "Fragestunde",
+            "sentences": [
+              {
+                "text": "Fragestunde"
               }
             ]
           },
@@ -3329,1826 +3331,6 @@
                 "text": "– Wenn Sie nämlich auf die EU-Verfahren schauen – der Herr Staatssekretär hat es ja noch mal dargelegt, hat gesagt, es gibt die zonale Zulassung –, dann muss man fragen: Wer macht denn diese zonale Zulassung, wer führt die durch?"
               }
             ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Harald Ebner",
-            "speakerstatus": "speaker",
-            "text": "– Das machen die Mitgliedstaaten, genau. – Und was machen die? Die lassen nicht die Wirkstoffe zu – das macht nämlich die Kommission bzw. die EFSA –, sondern die Produkte mit Safenern Beistoffen und allem, also die Kombination verschiedener Stoffe, die dann am Ende verkauft werden. Und die landen auf dem Acker. Wenn uns jetzt das Braunschweiger Urteil die Werkzeuge dazu aus der Hand nimmt, wie wollen wir denn dann, Herr Staatssekretär, beispielsweise die Auflagen, die mit der Glyphosatzulassung 2017 verbunden waren, einhalten? Warum legen Sie dann – jetzt muss ich noch mal fragen – keine Revision ein, wenn Sie sehen, dass das alles nicht funktioniert?",
-            "sentences": [
-              {
-                "text": "– Das machen die Mitgliedstaaten, genau."
-              },
-              {
-                "text": "– Und was machen die?"
-              },
-              {
-                "text": "Die lassen nicht die Wirkstoffe zu – das macht nämlich die Kommission bzw. die EFSA –, sondern die Produkte mit Safenern Beistoffen und allem, also die Kombination verschiedener Stoffe, die dann am Ende verkauft werden."
-              },
-              {
-                "text": "Und die landen auf dem Acker."
-              },
-              {
-                "text": "Wenn uns jetzt das Braunschweiger Urteil die Werkzeuge dazu aus der Hand nimmt, wie wollen wir denn dann, Herr Staatssekretär, beispielsweise die Auflagen, die mit der Glyphosatzulassung 2017 verbunden waren, einhalten?"
-              },
-              {
-                "text": "Warum legen Sie dann – jetzt muss ich noch mal fragen – keine Revision ein, wenn Sie sehen, dass das alles nicht funktioniert?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Michael Stübgen",
-            "speakerstatus": "speaker",
-            "text": "Ich weiß nicht, wie oft ich es noch wiederholen soll. Es ist nicht so, dass nur das Braunschweiger Verwaltungsgericht so entschieden hat. Es gibt ein Urteil des Oberverwaltungsgerichts Lüneburg vom 10. Oktober dieses Jahres mit ähnlichem Ergebnis. Dort wird festgestellt, dass die vom UBA ergriffenen Biodiv-Auflagen nicht gesetzeskonform sind. Vor allen Dingen haben Widersprüche kraft Gesetzes aufschiebende Wirkung. Das heißt: Diese Auflagen wirken nicht; dieses Mittel darf weiter rechtmäßig vermarktet werden. Es gibt ein weiteres Urteil vom Verwaltungsgericht Braunschweig vom 26. August dieses Jahres. Da geht es um das Pflanzenschutzmittel Sunfire. Auch hier wurde die aufschiebende Wirkung eines Widerspruchs bejaht. Es ist also nicht so, dass es nur in einem Urteil darum geht. Vielmehr beschäftigen sich mittlerweile die Verwaltungsgerichte mit genau diesem Punkt. Und es ist doch nicht richtig, wenn Sie sagen, dass uns dieses Gericht – ich staune, wie Sie über Gerichte in Deutschland reden – sozusagen die Chance nimmt, Menschen zu schützen. Das ist doch völliger Unsinn. Die Gerichte haben nach Europarecht klar und korrekt entschieden. Das ist ganz eindeutig, und wir richten uns nach diesem Urteil, das im Übrigen unsere Rechtsauffassung bestätigt.",
-            "sentences": [
-              {
-                "text": "Ich weiß nicht, wie oft ich es noch wiederholen soll."
-              },
-              {
-                "text": "Es ist nicht so, dass nur das Braunschweiger Verwaltungsgericht so entschieden hat."
-              },
-              {
-                "text": "Es gibt ein Urteil des Oberverwaltungsgerichts Lüneburg vom 10. Oktober dieses Jahres mit ähnlichem Ergebnis."
-              },
-              {
-                "text": "Dort wird festgestellt, dass die vom UBA ergriffenen Biodiv-Auflagen nicht gesetzeskonform sind."
-              },
-              {
-                "text": "Vor allen Dingen haben Widersprüche kraft Gesetzes aufschiebende Wirkung."
-              },
-              {
-                "text": "Das heißt: Diese Auflagen wirken nicht; dieses Mittel darf weiter rechtmäßig vermarktet werden."
-              },
-              {
-                "text": "Es gibt ein weiteres Urteil vom Verwaltungsgericht Braunschweig vom 26. August dieses Jahres."
-              },
-              {
-                "text": "Da geht es um das Pflanzenschutzmittel Sunfire."
-              },
-              {
-                "text": "Auch hier wurde die aufschiebende Wirkung eines Widerspruchs bejaht."
-              },
-              {
-                "text": "Es ist also nicht so, dass es nur in einem Urteil darum geht."
-              },
-              {
-                "text": "Vielmehr beschäftigen sich mittlerweile die Verwaltungsgerichte mit genau diesem Punkt."
-              },
-              {
-                "text": "Und es ist doch nicht richtig, wenn Sie sagen, dass uns dieses Gericht – ich staune, wie Sie über Gerichte in Deutschland reden – sozusagen die Chance nimmt, Menschen zu schützen."
-              },
-              {
-                "text": "Das ist doch völliger Unsinn."
-              },
-              {
-                "text": "Die Gerichte haben nach Europarecht klar und korrekt entschieden."
-              },
-              {
-                "text": "Das ist ganz eindeutig, und wir richten uns nach diesem Urteil, das im Übrigen unsere Rechtsauffassung bestätigt."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Die letzte Nachfrage zu dieser Frage stellt die Kollegin Lemke.",
-            "sentences": [
-              {
-                "text": "Die letzte Nachfrage zu dieser Frage stellt die Kollegin Lemke."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Steffi Lemke",
-            "speakerstatus": "speaker",
-            "text": "Es tut mir leid, aber das kann so nicht im Raum stehen bleiben, Staatssekretär Stübgen. Wir haben Sie hier mehrfach befragt, und Sie sind der Antwort dazu immer wieder ausgewichen. Es gibt eine Zulassung für Glyphosat, die die Nationalstaaten mit Auflagen belegt, und zwar zum Biodiversitätsschutz. Da hilft es jetzt auch nichts, dass Sie sich hinstellen und sagen: Das ist ein Herbizid; das hat mit Biodiv nichts zu tun. – Das funktioniert so nicht. Es gibt die klare Auflage für die Nationalstaaten, den Biodiversitätsschutz sicherzustellen und nötigenfalls Schutzmaßnahmen auf nationaler Ebene zu ergreifen.",
-            "sentences": [
-              {
-                "text": "Es tut mir leid, aber das kann so nicht im Raum stehen bleiben, Staatssekretär Stübgen."
-              },
-              {
-                "text": "Wir haben Sie hier mehrfach befragt, und Sie sind der Antwort dazu immer wieder ausgewichen."
-              },
-              {
-                "text": "Es gibt eine Zulassung für Glyphosat, die die Nationalstaaten mit Auflagen belegt, und zwar zum Biodiversitätsschutz."
-              },
-              {
-                "text": "Da hilft es jetzt auch nichts, dass Sie sich hinstellen und sagen: Das ist ein Herbizid; das hat mit Biodiv nichts zu tun."
-              },
-              {
-                "text": "– Das funktioniert so nicht."
-              },
-              {
-                "text": "Es gibt die klare Auflage für die Nationalstaaten, den Biodiversitätsschutz sicherzustellen und nötigenfalls Schutzmaßnahmen auf nationaler Ebene zu ergreifen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Steffi Lemke",
-            "speakerstatus": "speaker",
-            "text": "Deshalb – auch an Sie, Herr Lambsdorff – noch mal: Es geht nicht darum, dass wir uns gegen EU-Recht aussprechen. Wir sprechen uns mit dieser kritischen Hinterfragerei für das EU-Recht und dafür aus, dass die Nationalstaaten dazu verpflichtet worden sind, diese Schutzmaßnahmen umzusetzen. Ich frage Sie noch mal, wie Sie das jetzt tun wollen, wenn Sie gegen dieses Gerichtsurteil nicht in Berufung gegangen sind, weil es damit letztinstanzliche Wirkung entfaltet.",
-            "sentences": [
-              {
-                "text": "Deshalb – auch an Sie, Herr Lambsdorff – noch mal: Es geht nicht darum, dass wir uns gegen EU-Recht aussprechen."
-              },
-              {
-                "text": "Wir sprechen uns mit dieser kritischen Hinterfragerei für das EU-Recht und dafür aus, dass die Nationalstaaten dazu verpflichtet worden sind, diese Schutzmaßnahmen umzusetzen."
-              },
-              {
-                "text": "Ich frage Sie noch mal, wie Sie das jetzt tun wollen, wenn Sie gegen dieses Gerichtsurteil nicht in Berufung gegangen sind, weil es damit letztinstanzliche Wirkung entfaltet."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Michael Stübgen",
-            "speakerstatus": "speaker",
-            "text": "Kommen wir jetzt noch mal zum Glyphosat. Bei der Verlängerung der Zulassung für den Wirkstoff Glyphosat Ende 2017, soweit ich weiß, bis zum 15. Dezember 2022 gab es allgemein formulierte Auflagen oder Bitten an Mitgliedstaaten durch die Europäische Kommission, Biodiversitätsanforderungen zu entwickeln. Schauen Sie sich an, was in unserem Koalitionsvertrag steht. Wir entwickeln nämlich zum einen – wir gehen davon aus, dass die Europäische Kommission so ziemlich genau das von uns fordert – eine Reduktionsstrategie. Das heißt, wir sorgen dafür, dass Glyphosat deutlich reduziert angewandt wird, bis zu 80 Prozent bis 2021 und weniger.",
-            "sentences": [
-              {
-                "text": "Kommen wir jetzt noch mal zum Glyphosat."
-              },
-              {
-                "text": "Bei der Verlängerung der Zulassung für den Wirkstoff Glyphosat Ende 2017, soweit ich weiß, bis zum 15. Dezember 2022 gab es allgemein formulierte Auflagen oder Bitten an Mitgliedstaaten durch die Europäische Kommission, Biodiversitätsanforderungen zu entwickeln."
-              },
-              {
-                "text": "Schauen Sie sich an, was in unserem Koalitionsvertrag steht."
-              },
-              {
-                "text": "Wir entwickeln nämlich zum einen – wir gehen davon aus, dass die Europäische Kommission so ziemlich genau das von uns fordert – eine Reduktionsstrategie."
-              },
-              {
-                "text": "Das heißt, wir sorgen dafür, dass Glyphosat deutlich reduziert angewandt wird, bis zu 80 Prozent bis 2021 und weniger."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Michael Stübgen",
-            "speakerstatus": "speaker",
-            "text": "Damit tun wir zum Beispiel etwas für Biodiversität. Zum anderen gehen wir bis 2022 vom Komplettausstieg aus der Anwendung von Glyphosat aus.",
-            "sentences": [
-              {
-                "text": "Damit tun wir zum Beispiel etwas für Biodiversität."
-              },
-              {
-                "text": "Zum anderen gehen wir bis 2022 vom Komplettausstieg aus der Anwendung von Glyphosat aus."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Michael Stübgen",
-            "speakerstatus": "speaker",
-            "text": "Davor ist allerdings das EU-Recht; denn es kann sein, dass die europäischen Behörden, die europäischen Entscheider die Zulassung auch über 2022 hinaus verlängern. Dies müsste übrigens bis Ende November beantragt werden. Bisher liegt noch kein Antrag dazu vor. Dann können wir es nicht einfach alleine verbieten. Das hat Österreich bzw. Kärnten versucht, ist gescheitert.",
-            "sentences": [
-              {
-                "text": "Davor ist allerdings das EU-Recht; denn es kann sein, dass die europäischen Behörden, die europäischen Entscheider die Zulassung auch über 2022 hinaus verlängern."
-              },
-              {
-                "text": "Dies müsste übrigens bis Ende November beantragt werden."
-              },
-              {
-                "text": "Bisher liegt noch kein Antrag dazu vor."
-              },
-              {
-                "text": "Dann können wir es nicht einfach alleine verbieten."
-              },
-              {
-                "text": "Das hat Österreich bzw. Kärnten versucht, ist gescheitert."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Michael Stübgen",
-            "speakerstatus": "speaker",
-            "text": "Das heißt, wir gehen davon aus und werden uns für ein Auslaufen 2022 einsetzen. Bis dahin streben wir eine klare Reduktion an. Damit machen wir genau das, was eigentlich Ihr Wille und Wunsch sein müsste: Wir reduzieren den Einsatz von Glyphosat.",
-            "sentences": [
-              {
-                "text": "Das heißt, wir gehen davon aus und werden uns für ein Auslaufen 2022 einsetzen."
-              },
-              {
-                "text": "Bis dahin streben wir eine klare Reduktion an."
-              },
-              {
-                "text": "Damit machen wir genau das, was eigentlich Ihr Wille und Wunsch sein müsste: Wir reduzieren den Einsatz von Glyphosat."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Michael Stübgen",
-            "speakerstatus": "speaker",
-            "text": "Nur noch einen einzigen Satz – ich will es noch mal sagen –: Glyphosat ist ein Herbizid. Das bringt keine Insekten um. Konzentrieren wir uns doch mal auf Probleme, warum der Insektenrückgang so stark ist. Das hat mit Glyphosat sehr wenig zu tun.",
-            "sentences": [
-              {
-                "text": "Nur noch einen einzigen Satz – ich will es noch mal sagen –: Glyphosat ist ein Herbizid."
-              },
-              {
-                "text": "Das bringt keine Insekten um."
-              },
-              {
-                "text": "Konzentrieren wir uns doch mal auf Probleme, warum der Insektenrückgang so stark ist."
-              },
-              {
-                "text": "Das hat mit Glyphosat sehr wenig zu tun."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Jetzt habe überwiegend ich das Wort, um es dann jemandem zu erteilen. Ich lasse noch eine Nachfrage des Kollegen Lambsdorff zu. Ich bitte jetzt wirklich alle Beteiligten – jeder kann erkennen, wann die Frage- bzw. Antwortzeit abgelaufen ist –, das auch zu berücksichtigen, sodass wir noch weitere Fragen aufrufen können. – Bitte.",
-            "sentences": [
-              {
-                "text": "Jetzt habe überwiegend ich das Wort, um es dann jemandem zu erteilen."
-              },
-              {
-                "text": "Ich lasse noch eine Nachfrage des Kollegen Lambsdorff zu."
-              },
-              {
-                "text": "Ich bitte jetzt wirklich alle Beteiligten – jeder kann erkennen, wann die Frage- bzw. Antwortzeit abgelaufen ist –, das auch zu berücksichtigen, sodass wir noch weitere Fragen aufrufen können."
-              },
-              {
-                "text": "– Bitte."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Alexander Graf Lambsdorff",
-            "speakerstatus": "speaker",
-            "text": "Frau Präsident, ich bin eben direkt angesprochen worden von den Kollegen von den Grünen. – Herr Staatssekretär, können Sie bestätigen, dass sowohl EFSA als auch ECHA Glyphosat europäisch Unbedenklichkeit bescheinigt haben im Jahre 2016, die Bundesregierung allerdings daraufhin durch das damals SPD-geführte Bundesumweltministerium, auch das UBA, unter Beteiligung, Einbindung der Grünen dafür gesorgt hat, dass die Bundesrepublik Deutschland sich enthalten musste und somit die europäische Zulassung gescheitert ist und die Kommission den Ball zurückgespielt hat an die Mitgliedstaaten, weil es eben nicht gelungen ist, eine europäische Lösung, basierend auf wissenschaftlichen Erkenntnissen, herbeizuführen? Das ist für die Kollegen, die sonst „follow the science“ skandieren, ein bemerkenswerter Vorgang. Ich finde, das sollte hier noch mal aufgearbeitet werden.",
-            "sentences": [
-              {
-                "text": "Frau Präsident, ich bin eben direkt angesprochen worden von den Kollegen von den Grünen."
-              },
-              {
-                "text": "– Herr Staatssekretär, können Sie bestätigen, dass sowohl EFSA als auch ECHA Glyphosat europäisch Unbedenklichkeit bescheinigt haben im Jahre 2016, die Bundesregierung allerdings daraufhin durch das damals SPD-geführte Bundesumweltministerium, auch das UBA, unter Beteiligung, Einbindung der Grünen dafür gesorgt hat, dass die Bundesrepublik Deutschland sich enthalten musste und somit die europäische Zulassung gescheitert ist und die Kommission den Ball zurückgespielt hat an die Mitgliedstaaten, weil es eben nicht gelungen ist, eine europäische Lösung, basierend auf wissenschaftlichen Erkenntnissen, herbeizuführen?"
-              },
-              {
-                "text": "Das ist für die Kollegen, die sonst „follow the science“ skandieren, ein bemerkenswerter Vorgang."
-              },
-              {
-                "text": "Ich finde, das sollte hier noch mal aufgearbeitet werden."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Michael Stübgen",
-            "speakerstatus": "speaker",
-            "text": "Sehr geehrter Herr Kollege, Punkt eins: Ich kann bestätigen, was Sie jetzt gesagt haben. Punkt zwei: Ich kann noch hinzufügen, dass mittlerweile auch – ich habe jetzt leider den Namen vergessen – das US-amerikanische Gesundheitsamt",
-            "sentences": [
-              {
-                "text": "Sehr geehrter Herr Kollege, Punkt eins: Ich kann bestätigen, was Sie jetzt gesagt haben."
-              },
-              {
-                "text": "Punkt zwei: Ich kann noch hinzufügen, dass mittlerweile auch – ich habe jetzt leider den Namen vergessen – das US-amerikanische Gesundheitsamt"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Michael Stübgen",
-            "speakerstatus": "speaker",
-            "text": "– FDA – bestätigt hat, dass es keinerlei Hinweise gibt, dass Glyphosat krebserregend ist – bei ordnungsgemäßer Anwendung natürlich.",
-            "sentences": [
-              {
-                "text": "– FDA – bestätigt hat, dass es keinerlei Hinweise gibt, dass Glyphosat krebserregend ist – bei ordnungsgemäßer Anwendung natürlich."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Wir kommen nun zur Frage 27 der Abgeordneten Carina Konrad:",
-            "sentences": [
-              {
-                "text": "Wir kommen nun zur Frage 27 der Abgeordneten Carina Konrad:"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Bitte, Herr Staatssekretär.",
-            "sentences": [
-              {
-                "text": "Bitte, Herr Staatssekretär."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Michael Stübgen",
-            "speakerstatus": "speaker",
-            "text": "Vielen Dank, Frau Präsidentin. – Frau Kollegin Konrad, ich beantworte Ihre Frage wie folgt: Das Gespräch von Frau Bundesministerin Klöckner mit ihren Länderkollegen war ein Erfolg. In zentralen Fragen konnte ein Schulterschluss erreicht werden.",
-            "sentences": [
-              {
-                "text": "Vielen Dank, Frau Präsidentin."
-              },
-              {
-                "text": "– Frau Kollegin Konrad, ich beantworte Ihre Frage wie folgt: Das Gespräch von Frau Bundesministerin Klöckner mit ihren Länderkollegen war ein Erfolg."
-              },
-              {
-                "text": "In zentralen Fragen konnte ein Schulterschluss erreicht werden."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Michael Stübgen",
-            "speakerstatus": "speaker",
-            "text": "– Das ist gar nicht zum Lachen. Wir freuen uns nämlich darüber.",
-            "sentences": [
-              {
-                "text": "– Das ist gar nicht zum Lachen."
-              },
-              {
-                "text": "Wir freuen uns nämlich darüber."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Michael Stübgen",
-            "speakerstatus": "speaker",
-            "text": "Es bestand Einigkeit, dass es einer schlagkräftigen Lebensmittelüberwachung bedarf, die Missstände in Lebensmittelunternehmen frühzeitig erkennt und schnellstmöglich die notwendigen Maßnahmen ergreift. Der Bund ist zwar Vorreiter in bestimmten Maßnahmen zur Optimierung der amtlichen Lebensmittelüberwachung. Allerdings sind vor allem die Länder gefordert, ihre Verantwortung wahrzunehmen. Sie müssen insbesondere für ausreichende Kontrollkapazitäten sorgen und ihre Weisungsrechte in der Vor-Ort-Ebene stärken. Der Bund wird all dies am 28. November 2019 in vertieften Gesprächen mit den Ländern zum Follow-up aufgreifen. Dabei sollen folgende Themen im Mittelpunkt stehen: erstens Gewährleistung der Rückverfolgbarkeit durch einheitliche Standards für Lieferlisten; zweitens Verbesserung der Kommunikation im Vorfeld einer Lebensmittelkrise; drittens Management von Daten zur vollständigen Genomsequenzierung zur Aufklärung von Krankheitsausbruchsgeschehen.",
-            "sentences": [
-              {
-                "text": "Es bestand Einigkeit, dass es einer schlagkräftigen Lebensmittelüberwachung bedarf, die Missstände in Lebensmittelunternehmen frühzeitig erkennt und schnellstmöglich die notwendigen Maßnahmen ergreift."
-              },
-              {
-                "text": "Der Bund ist zwar Vorreiter in bestimmten Maßnahmen zur Optimierung der amtlichen Lebensmittelüberwachung."
-              },
-              {
-                "text": "Allerdings sind vor allem die Länder gefordert, ihre Verantwortung wahrzunehmen."
-              },
-              {
-                "text": "Sie müssen insbesondere für ausreichende Kontrollkapazitäten sorgen und ihre Weisungsrechte in der Vor-Ort-Ebene stärken."
-              },
-              {
-                "text": "Der Bund wird all dies am 28. November 2019 in vertieften Gesprächen mit den Ländern zum Follow-up aufgreifen."
-              },
-              {
-                "text": "Dabei sollen folgende Themen im Mittelpunkt stehen: erstens Gewährleistung der Rückverfolgbarkeit durch einheitliche Standards für Lieferlisten; zweitens Verbesserung der Kommunikation im Vorfeld einer Lebensmittelkrise; drittens Management von Daten zur vollständigen Genomsequenzierung zur Aufklärung von Krankheitsausbruchsgeschehen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Sie haben das Wort zur ersten Nachfrage.",
-            "sentences": [
-              {
-                "text": "Sie haben das Wort zur ersten Nachfrage."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Carina Konrad",
-            "speakerstatus": "speaker",
-            "text": "Vielen Dank. – Herr Stübgen, es geht natürlich um den konkreten Fall Wilke. Es gab Tote, es gab unzählige Menschen, die erkrankt sind, und der Fall ist alles andere als aufgeklärt. Bis zum heutigen Zeitpunkt wird das hessische Parlament von der zuständigen Ministerin immer noch im Unklaren gelassen über die Erkenntnisse, die in dem betroffenen Landkreis vor Ort gewonnen wurden. Also, es ist alles andere als transparent.",
-            "sentences": [
-              {
-                "text": "Vielen Dank."
-              },
-              {
-                "text": "– Herr Stübgen, es geht natürlich um den konkreten Fall Wilke."
-              },
-              {
-                "text": "Es gab Tote, es gab unzählige Menschen, die erkrankt sind, und der Fall ist alles andere als aufgeklärt."
-              },
-              {
-                "text": "Bis zum heutigen Zeitpunkt wird das hessische Parlament von der zuständigen Ministerin immer noch im Unklaren gelassen über die Erkenntnisse, die in dem betroffenen Landkreis vor Ort gewonnen wurden."
-              },
-              {
-                "text": "Also, es ist alles andere als transparent."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Carina Konrad",
-            "speakerstatus": "speaker",
-            "text": "Nebenher – das finde ich besonders bedauerlich –: Es ist kein Anzeichen von Empathie oder Mitgefühl seitens der zuständigen Landesministerin Priska Hinz zu erkennen. Dieser Fall ist in ganz Deutschland von Bedeutung, weil die Waren in ganz Deutschland verkauft wurden. Weil es deshalb auch so unheimlich wichtig ist, zu erkennen, was schiefgelaufen ist, begrüße ich es auch, dass Gespräche stattgefunden haben. Die Frage ist doch: Welche Erkenntnisse sind aus dem konkreten Fall Wilke gewonnen worden?",
-            "sentences": [
-              {
-                "text": "Nebenher – das finde ich besonders bedauerlich –: Es ist kein Anzeichen von Empathie oder Mitgefühl seitens der zuständigen Landesministerin Priska Hinz zu erkennen."
-              },
-              {
-                "text": "Dieser Fall ist in ganz Deutschland von Bedeutung, weil die Waren in ganz Deutschland verkauft wurden."
-              },
-              {
-                "text": "Weil es deshalb auch so unheimlich wichtig ist, zu erkennen, was schiefgelaufen ist, begrüße ich es auch, dass Gespräche stattgefunden haben."
-              },
-              {
-                "text": "Die Frage ist doch: Welche Erkenntnisse sind aus dem konkreten Fall Wilke gewonnen worden?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Michael Stübgen",
-            "speakerstatus": "speaker",
-            "text": "Vielen Dank, Frau Kollegin, für die Frage. – Ich habe die drei Punkte genannt, von denen wir meinen, dass hier Änderungsbedarf besteht. Ich kann das noch mal wiederholen: Rückverfolgbarkeit durch einheitliche Standards bei den Lieferlisten. Es hat sich gezeigt, dass es die in Deutschland so noch nicht gibt. Wir müssen das dringend vereinheitlichen.",
-            "sentences": [
-              {
-                "text": "Vielen Dank, Frau Kollegin, für die Frage."
-              },
-              {
-                "text": "– Ich habe die drei Punkte genannt, von denen wir meinen, dass hier Änderungsbedarf besteht."
-              },
-              {
-                "text": "Ich kann das noch mal wiederholen: Rückverfolgbarkeit durch einheitliche Standards bei den Lieferlisten."
-              },
-              {
-                "text": "Es hat sich gezeigt, dass es die in Deutschland so noch nicht gibt."
-              },
-              {
-                "text": "Wir müssen das dringend vereinheitlichen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Michael Stübgen",
-            "speakerstatus": "speaker",
-            "text": "Die Kommunikation hat insofern funktioniert, als das BVL – das ist das Bundesamt für Verbraucherschutz und Lebensmittelsicherheit – unmittelbar oder sehr, sehr früh von den hessischen Behörden informiert wurde. Das ist unmittelbar in das europäische Schnellwarnsystem eingestellt worden, ebenso bei lebensmittelwarnung.de und allen möglichen Informationsportalen, die wir in Deutschland haben. Das hat funktioniert. Aber bedauerlicherweise hat unser Haus aus der Presse davon erfahren. Das BVL hat direkt funktioniert.",
-            "sentences": [
-              {
-                "text": "Die Kommunikation hat insofern funktioniert, als das BVL – das ist das Bundesamt für Verbraucherschutz und Lebensmittelsicherheit – unmittelbar oder sehr, sehr früh von den hessischen Behörden informiert wurde."
-              },
-              {
-                "text": "Das ist unmittelbar in das europäische Schnellwarnsystem eingestellt worden, ebenso bei lebensmittelwarnung.de und allen möglichen Informationsportalen, die wir in Deutschland haben."
-              },
-              {
-                "text": "Das hat funktioniert."
-              },
-              {
-                "text": "Aber bedauerlicherweise hat unser Haus aus der Presse davon erfahren."
-              },
-              {
-                "text": "Das BVL hat direkt funktioniert."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Michael Stübgen",
-            "speakerstatus": "speaker",
-            "text": "Wir haben auch Erfahrungen. Deswegen habe ich das Whole-Genome-Sequencing-Verfahren genannt. Das ist ein Verfahren, das in Deutschland von einem unserer Ressortforschungsinstitute entwickelt worden ist. Hier sehen wir die Möglichkeit, dass wir sehr schnell die Ursachen von Vergiftungserscheinungen erkennen. Es ist oft unklar, woher sie eigentlich kommen. Dieses System ist entwickelt worden aufgrund der Vergiftungen durch Boxhornkleekeimlinge. Über dieses Verfahren kommt man sehr schnell zu den Ursachen. Wir haben im Moment ein Pilotverfahren, das von meinem Haus finanziert wird. Wir wollen, dass es so schnell wie möglich zum Standardverfahren in allen Bundesländern, in ganz Deutschland, wird, weil es ausreichend getestet und eine zusätzliche Möglichkeit ist, hier schneller zu reagieren.",
-            "sentences": [
-              {
-                "text": "Wir haben auch Erfahrungen."
-              },
-              {
-                "text": "Deswegen habe ich das Whole-Genome-Sequencing-Verfahren genannt."
-              },
-              {
-                "text": "Das ist ein Verfahren, das in Deutschland von einem unserer Ressortforschungsinstitute entwickelt worden ist."
-              },
-              {
-                "text": "Hier sehen wir die Möglichkeit, dass wir sehr schnell die Ursachen von Vergiftungserscheinungen erkennen."
-              },
-              {
-                "text": "Es ist oft unklar, woher sie eigentlich kommen."
-              },
-              {
-                "text": "Dieses System ist entwickelt worden aufgrund der Vergiftungen durch Boxhornkleekeimlinge."
-              },
-              {
-                "text": "Über dieses Verfahren kommt man sehr schnell zu den Ursachen."
-              },
-              {
-                "text": "Wir haben im Moment ein Pilotverfahren, das von meinem Haus finanziert wird."
-              },
-              {
-                "text": "Wir wollen, dass es so schnell wie möglich zum Standardverfahren in allen Bundesländern, in ganz Deutschland, wird, weil es ausreichend getestet und eine zusätzliche Möglichkeit ist, hier schneller zu reagieren."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Sie haben das Wort zur zweiten Nachfrage.",
-            "sentences": [
-              {
-                "text": "Sie haben das Wort zur zweiten Nachfrage."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Carina Konrad",
-            "speakerstatus": "speaker",
-            "text": "Gott sei Dank gab es diese Pressemitteilung, die Sie eben erwähnt haben, weil dadurch auch in anderen Bundesländern Unternehmen, die Produkte von Wilke verarbeitet haben – auch in meinem Landkreis, dem Rhein-Hunsrück-Kreis –, darauf aufmerksam gemacht wurden, dass es bei Wilke ein Problem gibt. Die Information kam ja eben nicht über die behördlichen, die amtlichen Meldeketten. Es gab eine Pressemeldung, die die Unternehmen selbst dazu gebracht hat, sich in unserem Fall beim zuständigen Veterinäramt zu melden und Maßnahmen, wie bei uns im Rhein-Hunsrück-Kreis, zu koordinieren. Aber es kann ja nicht das Vorgehen sein, dass Leute selbst aktiv werden müssen, wenn ein solcher Fall auftritt. Deshalb frage ich Sie ganz konkret: Ist das Risikomanagement der hessischen Landesregierung hier adäquat gewesen? Gibt es einen direkten Austausch dazu zwischen der Bundeslandwirtschaftsministerin und Ministerin Priska Hinz? Können Sie zum heutigen Zeitpunkt sicher sagen, dass keine Produkte von Wilke, die belastet sein könnten, im Umlauf sind?",
-            "sentences": [
-              {
-                "text": "Gott sei Dank gab es diese Pressemitteilung, die Sie eben erwähnt haben, weil dadurch auch in anderen Bundesländern Unternehmen, die Produkte von Wilke verarbeitet haben – auch in meinem Landkreis, dem Rhein-Hunsrück-Kreis –, darauf aufmerksam gemacht wurden, dass es bei Wilke ein Problem gibt."
-              },
-              {
-                "text": "Die Information kam ja eben nicht über die behördlichen, die amtlichen Meldeketten."
-              },
-              {
-                "text": "Es gab eine Pressemeldung, die die Unternehmen selbst dazu gebracht hat, sich in unserem Fall beim zuständigen Veterinäramt zu melden und Maßnahmen, wie bei uns im Rhein-Hunsrück-Kreis, zu koordinieren."
-              },
-              {
-                "text": "Aber es kann ja nicht das Vorgehen sein, dass Leute selbst aktiv werden müssen, wenn ein solcher Fall auftritt."
-              },
-              {
-                "text": "Deshalb frage ich Sie ganz konkret: Ist das Risikomanagement der hessischen Landesregierung hier adäquat gewesen?"
-              },
-              {
-                "text": "Gibt es einen direkten Austausch dazu zwischen der Bundeslandwirtschaftsministerin und Ministerin Priska Hinz?"
-              },
-              {
-                "text": "Können Sie zum heutigen Zeitpunkt sicher sagen, dass keine Produkte von Wilke, die belastet sein könnten, im Umlauf sind?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Michael Stübgen",
-            "speakerstatus": "speaker",
-            "text": "Ich kann zur ersten Frage sagen: Uns liegen keine Hinweise vor, dass die hessischen Behörden nicht umgehend, schnell und effizient gehandelt haben.",
-            "sentences": [
-              {
-                "text": "Ich kann zur ersten Frage sagen: Uns liegen keine Hinweise vor, dass die hessischen Behörden nicht umgehend, schnell und effizient gehandelt haben."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Michael Stübgen",
-            "speakerstatus": "speaker",
-            "text": "Zweitens. Ich habe darauf hingewiesen: Uns ist bei der ersten Kontrolle aufgefallen, dass wir Nachholbedarf bei der Gewährleistung der Rückverfolgbarkeit durch einheitliche Standards für Lieferlisten haben. Sie haben zu Recht darauf hingewiesen, dass diese Produkte verarbeitet worden sind, obwohl sie hochgiftig waren. Dabei gab es gewisse Lücken, das schnell festzustellen. Nach unserer Kenntnis geht die Gefahr, dass Anteile in irgendwelchen verarbeiteten Lebensmittelprodukten noch nicht entdeckt und die Produkte nicht vom Markt genommen worden sind, Richtung null. Aber hundertprozentig kann ich Ihnen das auch nicht erklären.",
-            "sentences": [
-              {
-                "text": "Zweitens."
-              },
-              {
-                "text": "Ich habe darauf hingewiesen: Uns ist bei der ersten Kontrolle aufgefallen, dass wir Nachholbedarf bei der Gewährleistung der Rückverfolgbarkeit durch einheitliche Standards für Lieferlisten haben."
-              },
-              {
-                "text": "Sie haben zu Recht darauf hingewiesen, dass diese Produkte verarbeitet worden sind, obwohl sie hochgiftig waren."
-              },
-              {
-                "text": "Dabei gab es gewisse Lücken, das schnell festzustellen."
-              },
-              {
-                "text": "Nach unserer Kenntnis geht die Gefahr, dass Anteile in irgendwelchen verarbeiteten Lebensmittelprodukten noch nicht entdeckt und die Produkte nicht vom Markt genommen worden sind, Richtung null."
-              },
-              {
-                "text": "Aber hundertprozentig kann ich Ihnen das auch nicht erklären."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Wir kommen zur Frage 28 des Abgeordneten Dr. Christoph Hoffmann:",
-            "sentences": [
-              {
-                "text": "Wir kommen zur Frage 28 des Abgeordneten Dr. Christoph Hoffmann:"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Bitte, Herr Staatssekretär.",
-            "sentences": [
-              {
-                "text": "Bitte, Herr Staatssekretär."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Michael Stübgen",
-            "speakerstatus": "speaker",
-            "text": "Vielen Dank, Frau Präsidentin. – Herr Kollege Hoffmann, Sie fragen, wann das Forstschäden-Ausgleichsgesetz in Kraft gesetzt werden soll. Ich vermute, weil das Forstschäden-Ausgleichsgesetz seit Jahrzehnten in Kraft ist, dass Ihre Frage sich darauf bezieht, ob wir die Möglichkeiten des Forstschäden-Ausgleichsgesetzes zur Anwendung bringen wollen.",
-            "sentences": [
-              {
-                "text": "Vielen Dank, Frau Präsidentin."
-              },
-              {
-                "text": "– Herr Kollege Hoffmann, Sie fragen, wann das Forstschäden-Ausgleichsgesetz in Kraft gesetzt werden soll."
-              },
-              {
-                "text": "Ich vermute, weil das Forstschäden-Ausgleichsgesetz seit Jahrzehnten in Kraft ist, dass Ihre Frage sich darauf bezieht, ob wir die Möglichkeiten des Forstschäden-Ausgleichsgesetzes zur Anwendung bringen wollen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Michael Stübgen",
-            "speakerstatus": "speaker",
-            "text": "In der Hoffnung, dass ich richtig liege, beantworte ich Ihre Frage, von der ich meine, sie so verstanden zu haben, wie folgt: Derzeit ist nicht vorgesehen, von der in § 1 Forstschäden-Ausgleichsgesetz vorgesehenen Ermächtigung zur Beschränkung des ordentlichen Holzeinschlages der Forstwirtschaft Gebrauch zu machen. Eine solche Einschlagsbeschränkung ist nur sinnvoll, wenn damit einer überregionalen Störung des Rohholzmarktes infolge außerordentlicher Holznutzungen wirksam begegnet werden kann. Da die aktuelle Forstkalamität aber nahezu flächendeckend alle Regionen in Deutschland betrifft und damit der vom Gesetz vorgesehene Ausgleich der Holzmengen zwischen betroffenen und weniger betroffenen Gebieten nicht erreichbar ist, sehen Bund und Länder eine Einschlagsbeschränkung derzeit als nicht zielführend an.",
-            "sentences": [
-              {
-                "text": "In der Hoffnung, dass ich richtig liege, beantworte ich Ihre Frage, von der ich meine, sie so verstanden zu haben, wie folgt: Derzeit ist nicht vorgesehen, von der in § 1 Forstschäden-Ausgleichsgesetz vorgesehenen Ermächtigung zur Beschränkung des ordentlichen Holzeinschlages der Forstwirtschaft Gebrauch zu machen."
-              },
-              {
-                "text": "Eine solche Einschlagsbeschränkung ist nur sinnvoll, wenn damit einer überregionalen Störung des Rohholzmarktes infolge außerordentlicher Holznutzungen wirksam begegnet werden kann."
-              },
-              {
-                "text": "Da die aktuelle Forstkalamität aber nahezu flächendeckend alle Regionen in Deutschland betrifft und damit der vom Gesetz vorgesehene Ausgleich der Holzmengen zwischen betroffenen und weniger betroffenen Gebieten nicht erreichbar ist, sehen Bund und Länder eine Einschlagsbeschränkung derzeit als nicht zielführend an."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Sie haben das Wort zur ersten Nachfrage.",
-            "sentences": [
-              {
-                "text": "Sie haben das Wort zur ersten Nachfrage."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Christoph Hoffmann",
-            "speakerstatus": "speaker",
-            "text": "Frau Präsidentin! Herr Staatssekretär, das ist natürlich sehr unbefriedigend. Das Forstschäden-Ausgleichsgesetz ist genau dafür da, wenn der Holzmarkt verstopft ist, die öffentlichen Waldbesitzer dazu anzuhalten, kein neues frisches Holz einzuschlagen. Sie würden damit auch öffentliches Kapital vernichten, weil im Augenblick der Holzpreis völlig daniederliegt. Die Holzmarktstörung ist immens. Ich glaube, das würden auch Sie unterschreiben.",
-            "sentences": [
-              {
-                "text": "Frau Präsidentin!"
-              },
-              {
-                "text": "Herr Staatssekretär, das ist natürlich sehr unbefriedigend."
-              },
-              {
-                "text": "Das Forstschäden-Ausgleichsgesetz ist genau dafür da, wenn der Holzmarkt verstopft ist, die öffentlichen Waldbesitzer dazu anzuhalten, kein neues frisches Holz einzuschlagen."
-              },
-              {
-                "text": "Sie würden damit auch öffentliches Kapital vernichten, weil im Augenblick der Holzpreis völlig daniederliegt."
-              },
-              {
-                "text": "Die Holzmarktstörung ist immens."
-              },
-              {
-                "text": "Ich glaube, das würden auch Sie unterschreiben."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Christoph Hoffmann",
-            "speakerstatus": "speaker",
-            "text": "Wenn Sie schon das Forstschäden-Ausgleichsgesetz nicht zur Anwendung bringen: Welche anderen Maßnahmen bleiben der Bundesregierung, um den Holzmarkt zu entlasten? Gerade die kleinen privaten Waldbesitzer stehen mit dem Rücken zur Wand. Das Holz ist abgestorben, steht im Wald, würde verrotten, CO",
-            "sentences": [
-              {
-                "text": "Wenn Sie schon das Forstschäden-Ausgleichsgesetz nicht zur Anwendung bringen: Welche anderen Maßnahmen bleiben der Bundesregierung, um den Holzmarkt zu entlasten?"
-              },
-              {
-                "text": "Gerade die kleinen privaten Waldbesitzer stehen mit dem Rücken zur Wand."
-              },
-              {
-                "text": "Das Holz ist abgestorben, steht im Wald, würde verrotten, CO"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Michael Stübgen",
-            "speakerstatus": "speaker",
-            "text": "Wir teilen Ihre Ansicht, dass die Schäden so groß sind, und zwar flächendeckend in Deutschland, dass der Holzpreis einen extrem niedrigen Wert hat, also unter Einschlagspreis liegt. Das wissen wir alle. Aufgrund dieser Tatsache gibt es Privateinschläge, die nicht notwendig sind, im Moment faktisch nicht. Das heißt, es wird freiwillig darauf verzichtet. Deswegen haben wir gesagt: Es lohnt sich jetzt nicht, irgendetwas zu verbieten, was gar nicht stattfindet. Denn der Holzpreis ist schlichtweg zu niedrig.",
-            "sentences": [
-              {
-                "text": "Wir teilen Ihre Ansicht, dass die Schäden so groß sind, und zwar flächendeckend in Deutschland, dass der Holzpreis einen extrem niedrigen Wert hat, also unter Einschlagspreis liegt."
-              },
-              {
-                "text": "Das wissen wir alle."
-              },
-              {
-                "text": "Aufgrund dieser Tatsache gibt es Privateinschläge, die nicht notwendig sind, im Moment faktisch nicht."
-              },
-              {
-                "text": "Das heißt, es wird freiwillig darauf verzichtet."
-              },
-              {
-                "text": "Deswegen haben wir gesagt: Es lohnt sich jetzt nicht, irgendetwas zu verbieten, was gar nicht stattfindet."
-              },
-              {
-                "text": "Denn der Holzpreis ist schlichtweg zu niedrig."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Michael Stübgen",
-            "speakerstatus": "speaker",
-            "text": "Aber Ihre Frage war: Was versuchen wir? Wir haben bereits im Herbst 2018 einen neuen GAK-Fördertatbestand F, Förderung von Maßnahmen zur Bewältigung der durch Extremwetterereignisse verursachten Folgen im Wald, geschaffen. Das ist in Kraft. Die Länder rufen ab. Die Länder machen ihre Kofinanzierung. Wir werden in diesem Bereich – das ist jetzt festgelegt – 547 Millionen Euro zur Wiederbewaldung von Schadflächen, zur verstärkten Anpassung der Wälder an Klimawandel etc. in den nächsten vier Jahren zur Verfügung stellen, einschließlich zusätzlicher Hilfen, zum Beispiel zum Ausbau von Trockenlagerplätzen und Nasslagerplätzen für Holz, einschließlich der Unterstützung der Beräumung. Also: Wir tun in diesem Bereich sehr viel, um zu helfen. Aber ich sage Ihnen: Diese massiven Schäden – zwei Sturmjahre, zwei Dürrejahre – der Forstwirtschaft werden von staatlichen Maßnahmen nicht vollkommen abgedeckt werden können.",
-            "sentences": [
-              {
-                "text": "Aber Ihre Frage war: Was versuchen wir?"
-              },
-              {
-                "text": "Wir haben bereits im Herbst 2018 einen neuen GAK-Fördertatbestand F, Förderung von Maßnahmen zur Bewältigung der durch Extremwetterereignisse verursachten Folgen im Wald, geschaffen."
-              },
-              {
-                "text": "Das ist in Kraft."
-              },
-              {
-                "text": "Die Länder rufen ab."
-              },
-              {
-                "text": "Die Länder machen ihre Kofinanzierung."
-              },
-              {
-                "text": "Wir werden in diesem Bereich – das ist jetzt festgelegt – 547 Millionen Euro zur Wiederbewaldung von Schadflächen, zur verstärkten Anpassung der Wälder an Klimawandel etc. in den nächsten vier Jahren zur Verfügung stellen, einschließlich zusätzlicher Hilfen, zum Beispiel zum Ausbau von Trockenlagerplätzen und Nasslagerplätzen für Holz, einschließlich der Unterstützung der Beräumung."
-              },
-              {
-                "text": "Also: Wir tun in diesem Bereich sehr viel, um zu helfen."
-              },
-              {
-                "text": "Aber ich sage Ihnen: Diese massiven Schäden – zwei Sturmjahre, zwei Dürrejahre – der Forstwirtschaft werden von staatlichen Maßnahmen nicht vollkommen abgedeckt werden können."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Sie haben das Wort zur zweiten Nachfrage.",
-            "sentences": [
-              {
-                "text": "Sie haben das Wort zur zweiten Nachfrage."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Christoph Hoffmann",
-            "speakerstatus": "speaker",
-            "text": "Sie haben völlig recht: Die Situation ist dramatisch. Die Waldbesitzer stehen mit dem Rücken zur Wand. Wenn keine Marktentlastung erfolgt, kann sich der Holzpreis auf Dauer nicht erholen. Wir werden im nächsten Jahr genau dieselben Schäden sehen. Deshalb muss es Ziel sein, das Holz in thermische Verwertung zu bringen, sprich: irgendwo im großen Stil zu verfeuern, oder in den Export zu bringen. Dazu braucht es Transporthilfen, die bisher in all Ihren Fördermöglichkeiten nicht vorgesehen sind. Es nützt dem Waldbesitzer nichts, wenn er Geld für das Aufforsten bekommt, wenn er nicht mal das Holz, das jetzt noch tot dasteht, entfernen kann.",
-            "sentences": [
-              {
-                "text": "Sie haben völlig recht: Die Situation ist dramatisch."
-              },
-              {
-                "text": "Die Waldbesitzer stehen mit dem Rücken zur Wand."
-              },
-              {
-                "text": "Wenn keine Marktentlastung erfolgt, kann sich der Holzpreis auf Dauer nicht erholen."
-              },
-              {
-                "text": "Wir werden im nächsten Jahr genau dieselben Schäden sehen."
-              },
-              {
-                "text": "Deshalb muss es Ziel sein, das Holz in thermische Verwertung zu bringen, sprich: irgendwo im großen Stil zu verfeuern, oder in den Export zu bringen."
-              },
-              {
-                "text": "Dazu braucht es Transporthilfen, die bisher in all Ihren Fördermöglichkeiten nicht vorgesehen sind."
-              },
-              {
-                "text": "Es nützt dem Waldbesitzer nichts, wenn er Geld für das Aufforsten bekommt, wenn er nicht mal das Holz, das jetzt noch tot dasteht, entfernen kann."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Michael Stübgen",
-            "speakerstatus": "speaker",
-            "text": "Danke, Herr Kollege. – Erstens. Ich habe gesagt: Wir fördern nachhaltig Lagerplätze. Es ist das Ziel, dass das Holz sicher gelagert werden kann, bis der Preis wieder gestiegen ist. Dann kann man in dem Bereich wieder etwas machen.",
-            "sentences": [
-              {
-                "text": "Danke, Herr Kollege."
-              },
-              {
-                "text": "– Erstens."
-              },
-              {
-                "text": "Ich habe gesagt: Wir fördern nachhaltig Lagerplätze."
-              },
-              {
-                "text": "Es ist das Ziel, dass das Holz sicher gelagert werden kann, bis der Preis wieder gestiegen ist."
-              },
-              {
-                "text": "Dann kann man in dem Bereich wieder etwas machen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Michael Stübgen",
-            "speakerstatus": "speaker",
-            "text": "Zweitens. Wir haben verschiedene steuerrechtliche Dinge in Kraft gesetzt, um Waldbesitzern zu helfen.",
-            "sentences": [
-              {
-                "text": "Zweitens."
-              },
-              {
-                "text": "Wir haben verschiedene steuerrechtliche Dinge in Kraft gesetzt, um Waldbesitzern zu helfen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Michael Stübgen",
-            "speakerstatus": "speaker",
-            "text": "Drittens. Ich persönlich bin der Sache nachgegangen, was die mögliche thermische Verwertung großer Mengen Holz betrifft. Ich komme aus der Lausitz. Da gibt es noch Kohlekraftwerke. Das Problem ist – das haben wir in meinem Haus genau analysieren lassen –, dass wir große Mengen auf diese Weise dort nicht wegkriegen, weil die meisten Kraftwerke nur eine bedingte Menge Holz mit aufnehmen können, sodass dieser Weg offensichtlich keine Erfolgschance hat. Wir haben uns um die Frage bemüht, aber in diesem Punkt können wir nicht für Entlastung sorgen. Sie haben aber recht: Es ist wichtig, dass das Schadholz möglichst bald aus den Wäldern kommt. Wir fördern Lagerkapazitäten, sodass das Holz untergebracht werden kann, bis sich der Holzmarkt wieder beruhigt hat. Genauso wichtig ist es natürlich, dass wir für Wiederaufforstung sorgen.",
-            "sentences": [
-              {
-                "text": "Drittens."
-              },
-              {
-                "text": "Ich persönlich bin der Sache nachgegangen, was die mögliche thermische Verwertung großer Mengen Holz betrifft."
-              },
-              {
-                "text": "Ich komme aus der Lausitz."
-              },
-              {
-                "text": "Da gibt es noch Kohlekraftwerke."
-              },
-              {
-                "text": "Das Problem ist – das haben wir in meinem Haus genau analysieren lassen –, dass wir große Mengen auf diese Weise dort nicht wegkriegen, weil die meisten Kraftwerke nur eine bedingte Menge Holz mit aufnehmen können, sodass dieser Weg offensichtlich keine Erfolgschance hat."
-              },
-              {
-                "text": "Wir haben uns um die Frage bemüht, aber in diesem Punkt können wir nicht für Entlastung sorgen."
-              },
-              {
-                "text": "Sie haben aber recht: Es ist wichtig, dass das Schadholz möglichst bald aus den Wäldern kommt."
-              },
-              {
-                "text": "Wir fördern Lagerkapazitäten, sodass das Holz untergebracht werden kann, bis sich der Holzmarkt wieder beruhigt hat."
-              },
-              {
-                "text": "Genauso wichtig ist es natürlich, dass wir für Wiederaufforstung sorgen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Zu einer Nachfrage hat die Kollegin Konrad das Wort.",
-            "sentences": [
-              {
-                "text": "Zu einer Nachfrage hat die Kollegin Konrad das Wort."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Carina Konrad",
-            "speakerstatus": "speaker",
-            "text": "Vielen Dank. – Die Lage ist dramatisch: Sie ist für die Waldbesitzer dramatisch; sie ist auch für die kommunalen Waldbesitzer dramatisch. Die Situation ist im Moment so dramatisch – Kollege Hoffmann hat sie sehr, sehr gut beschrieben –, weil es keine Unterstützung dabei gibt, das Holz aus dem Wald herauszuschaffen. Das führt im nächsten Jahr zu noch größeren Problemen. Wenn nämlich wieder ein trockenes Jahr kommt, steigt nicht nur die Waldbrandgefahr insgesamt, vielmehr wird sich auch der Borkenkäfer weiter ausbreiten.",
-            "sentences": [
-              {
-                "text": "Vielen Dank."
-              },
-              {
-                "text": "– Die Lage ist dramatisch: Sie ist für die Waldbesitzer dramatisch; sie ist auch für die kommunalen Waldbesitzer dramatisch."
-              },
-              {
-                "text": "Die Situation ist im Moment so dramatisch – Kollege Hoffmann hat sie sehr, sehr gut beschrieben –, weil es keine Unterstützung dabei gibt, das Holz aus dem Wald herauszuschaffen."
-              },
-              {
-                "text": "Das führt im nächsten Jahr zu noch größeren Problemen."
-              },
-              {
-                "text": "Wenn nämlich wieder ein trockenes Jahr kommt, steigt nicht nur die Waldbrandgefahr insgesamt, vielmehr wird sich auch der Borkenkäfer weiter ausbreiten."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Carina Konrad",
-            "speakerstatus": "speaker",
-            "text": "Es gab ja einen Waldgipfel. Er wurde ja medial sehr stark forciert. Davon haben sich die Waldbesitzer einen Impuls und auch eine direkte Unterstützung erwartet. Die derzeitige Enttäuschung ist groß darüber, dass das so ein bisschen auf sich warten lässt. Deshalb richte ich den dringenden Appell an die Bundesregierung, es sehr ernst zu nehmen, dass die Lage im Wald so dramatisch ist. Die Aufforstungshilfen sind erst der zweite Schritt. Im ersten Schritt muss das Schadholz aus dem Wald herausgeholt werden. Deshalb frage ich mit Hinweis auf den Kollegen Hoffmann nach: Was können die Waldbesitzer da jetzt konkret von der Bundesregierung erwarten?",
-            "sentences": [
-              {
-                "text": "Es gab ja einen Waldgipfel."
-              },
-              {
-                "text": "Er wurde ja medial sehr stark forciert."
-              },
-              {
-                "text": "Davon haben sich die Waldbesitzer einen Impuls und auch eine direkte Unterstützung erwartet."
-              },
-              {
-                "text": "Die derzeitige Enttäuschung ist groß darüber, dass das so ein bisschen auf sich warten lässt."
-              },
-              {
-                "text": "Deshalb richte ich den dringenden Appell an die Bundesregierung, es sehr ernst zu nehmen, dass die Lage im Wald so dramatisch ist."
-              },
-              {
-                "text": "Die Aufforstungshilfen sind erst der zweite Schritt."
-              },
-              {
-                "text": "Im ersten Schritt muss das Schadholz aus dem Wald herausgeholt werden."
-              },
-              {
-                "text": "Deshalb frage ich mit Hinweis auf den Kollegen Hoffmann nach: Was können die Waldbesitzer da jetzt konkret von der Bundesregierung erwarten?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Michael Stübgen",
-            "speakerstatus": "speaker",
-            "text": "Frau Kollegin, das meiste habe ich schon genannt. Ich selber durfte am Ende dieses Waldgipfels reden. Da war genau die Positionierung: Wir haben es geschafft, dass wir in den nächsten vier Jahren 547  Millionen Euro Bundesmittel für diesen Bereich zur Verfügung stellen. Dazu kommen, weil es über die GAK abgewickelt wird, 40 Prozent Kofinanzierung der Länder, sodass man über 700 Millionen Euro zur Verfügung hat, um genau da eingreifen zu können, um den Waldbauern zu helfen, um die Schäden zu beseitigen.",
-            "sentences": [
-              {
-                "text": "Frau Kollegin, das meiste habe ich schon genannt."
-              },
-              {
-                "text": "Ich selber durfte am Ende dieses Waldgipfels reden."
-              },
-              {
-                "text": "Da war genau die Positionierung: Wir haben es geschafft, dass wir in den nächsten vier Jahren 547  Millionen Euro Bundesmittel für diesen Bereich zur Verfügung stellen."
-              },
-              {
-                "text": "Dazu kommen, weil es über die GAK abgewickelt wird, 40 Prozent Kofinanzierung der Länder, sodass man über 700 Millionen Euro zur Verfügung hat, um genau da eingreifen zu können, um den Waldbauern zu helfen, um die Schäden zu beseitigen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Michael Stübgen",
-            "speakerstatus": "speaker",
-            "text": "Schwerpunkt ist bei uns die Wiederaufforstung, damit auf den Flächen wieder Wald wächst. Schwerpunkt ist zum anderen, dass wir mehr dafür tun, klimastabilere Wälder zu haben, als wir sie in vielen Bereichen in Deutschland bisher haben.",
-            "sentences": [
-              {
-                "text": "Schwerpunkt ist bei uns die Wiederaufforstung, damit auf den Flächen wieder Wald wächst."
-              },
-              {
-                "text": "Schwerpunkt ist zum anderen, dass wir mehr dafür tun, klimastabilere Wälder zu haben, als wir sie in vielen Bereichen in Deutschland bisher haben."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Danke, Herr Staatssekretär. – Wir sind damit am Ende Ihres Geschäftsbereiches.",
-            "sentences": [
-              {
-                "text": "Danke, Herr Staatssekretär."
-              },
-              {
-                "text": "– Wir sind damit am Ende Ihres Geschäftsbereiches."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Ich rufe den Geschäftsbereich des Bundesministeriums für Familie, Senioren, Frauen und Jugend auf. Zur Beantwortung der Fragen steht der Parlamentarische Staatssekretär Stefan Zierke bereit.",
-            "sentences": [
-              {
-                "text": "Ich rufe den Geschäftsbereich des Bundesministeriums für Familie, Senioren, Frauen und Jugend auf."
-              },
-              {
-                "text": "Zur Beantwortung der Fragen steht der Parlamentarische Staatssekretär Stefan Zierke bereit."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Ich rufe die Frage 29 der Abgeordneten Katrin Werner auf:",
-            "sentences": [
-              {
-                "text": "Ich rufe die Frage 29 der Abgeordneten Katrin Werner auf:"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Bitte, Herr Staatssekretär.",
-            "sentences": [
-              {
-                "text": "Bitte, Herr Staatssekretär."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Stefan Zierke",
-            "speakerstatus": "speaker",
-            "text": "Sehr geehrte Frau Präsidentin! Sehr geehrte Frau Abgeordnete Werner, die Studie ist noch nicht abgeschlossen, weil schwerwiegende persönliche Gründe aufseiten eines Studienleiters den weiteren Fortgang der Studie erheblich verzögert haben. Der Studienleiter Professor Dr. Franz Petermann ist im August nach schwerer Krankheit leider verstorben. Es werden derzeit umfassende Anstrengungen unternommen, um die Studie so zeitnah, wie unter den gegebenen Bedingungen möglich, zum Abschluss zu bringen.",
-            "sentences": [
-              {
-                "text": "Sehr geehrte Frau Präsidentin!"
-              },
-              {
-                "text": "Sehr geehrte Frau Abgeordnete Werner, die Studie ist noch nicht abgeschlossen, weil schwerwiegende persönliche Gründe aufseiten eines Studienleiters den weiteren Fortgang der Studie erheblich verzögert haben."
-              },
-              {
-                "text": "Der Studienleiter Professor Dr. Franz Petermann ist im August nach schwerer Krankheit leider verstorben."
-              },
-              {
-                "text": "Es werden derzeit umfassende Anstrengungen unternommen, um die Studie so zeitnah, wie unter den gegebenen Bedingungen möglich, zum Abschluss zu bringen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Frau Werner, Sie haben das Wort zu einer Nachfrage.",
-            "sentences": [
-              {
-                "text": "Frau Werner, Sie haben das Wort zu einer Nachfrage."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Katrin Werner",
-            "speakerstatus": "speaker",
-            "text": "Danke schön. – Ich würde gern, logischerweise anknüpfend an vorhin – da ging es an den Bereich des Justizministeriums –, schon noch mal nachfragen. Dort hat ja jetzt die Arbeitsgruppe ein Thesenpapier mit 50 Punkten vorgelegt, wo es um das Sorge- und Umgangsrecht gehen soll. Es ist ja angekündigt worden, dass es eine Gesetzesvorlage geben wird, wahrscheinlich irgendwann im nächsten Jahr. Insofern wäre schon die Frage, auch wenn der Abschluss der Studie noch eine Weile dauert: Inwieweit gibt es zwischen beiden Ministerien eine Abstimmung über den zeitlichen Rahmen, bis es dann zu einer Gesetzesvorlage kommen kann? Wurde da in Gesprächen schon was verabredet, sodass wir im Frühjahr nächsten Jahres damit rechnen könnten? Es ist jetzt einfach ein 50-Punkte-Thesenpapier über die Presse veröffentlicht worden, und die eine oder andere These führt ja doch zu einer gewissen Unbehaglichkeit bei Betroffenen.",
-            "sentences": [
-              {
-                "text": "Danke schön."
-              },
-              {
-                "text": "– Ich würde gern, logischerweise anknüpfend an vorhin – da ging es an den Bereich des Justizministeriums –, schon noch mal nachfragen."
-              },
-              {
-                "text": "Dort hat ja jetzt die Arbeitsgruppe ein Thesenpapier mit 50 Punkten vorgelegt, wo es um das Sorge- und Umgangsrecht gehen soll."
-              },
-              {
-                "text": "Es ist ja angekündigt worden, dass es eine Gesetzesvorlage geben wird, wahrscheinlich irgendwann im nächsten Jahr."
-              },
-              {
-                "text": "Insofern wäre schon die Frage, auch wenn der Abschluss der Studie noch eine Weile dauert: Inwieweit gibt es zwischen beiden Ministerien eine Abstimmung über den zeitlichen Rahmen, bis es dann zu einer Gesetzesvorlage kommen kann?"
-              },
-              {
-                "text": "Wurde da in Gesprächen schon was verabredet, sodass wir im Frühjahr nächsten Jahres damit rechnen könnten?"
-              },
-              {
-                "text": "Es ist jetzt einfach ein 50-Punkte-Thesenpapier über die Presse veröffentlicht worden, und die eine oder andere These führt ja doch zu einer gewissen Unbehaglichkeit bei Betroffenen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Bitte, Herr Staatssekretär.",
-            "sentences": [
-              {
-                "text": "Bitte, Herr Staatssekretär."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Stefan Zierke",
-            "speakerstatus": "speaker",
-            "text": "Wie schon mein Kollege sagte, warten wir natürlich den Abschlussbericht ab, und wir möchten dem natürlich auch nicht vorgreifen, auch nicht denjenigen, die diesen Bericht erstellen, das zum einen. Zum Zweiten ist geplant, den Beirat zu befragen und auch diesem Beirat nicht vorzugreifen. Geplant ist, den Abschlussbericht schnellstmöglich fertigzustellen, um dann in das Gesetzgebungsverfahren zu gehen, und das natürlich in Abstimmung mit dem Justizministerium.",
-            "sentences": [
-              {
-                "text": "Wie schon mein Kollege sagte, warten wir natürlich den Abschlussbericht ab, und wir möchten dem natürlich auch nicht vorgreifen, auch nicht denjenigen, die diesen Bericht erstellen, das zum einen."
-              },
-              {
-                "text": "Zum Zweiten ist geplant, den Beirat zu befragen und auch diesem Beirat nicht vorzugreifen."
-              },
-              {
-                "text": "Geplant ist, den Abschlussbericht schnellstmöglich fertigzustellen, um dann in das Gesetzgebungsverfahren zu gehen, und das natürlich in Abstimmung mit dem Justizministerium."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Frau Werner, Sie haben das Wort zu einer zweiten Nachfrage.",
-            "sentences": [
-              {
-                "text": "Frau Werner, Sie haben das Wort zu einer zweiten Nachfrage."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Katrin Werner",
-            "speakerstatus": "speaker",
-            "text": "Wenn ich es richtig verstanden habe, warten wir auf den Abschluss der Studie. Dann gibt es in Abstimmung mit beiden Ministerien irgendwann einen Gesetzentwurf. Insofern würde mich schon interessieren, ob Ihr Ministerium vorhat, zu den 50 Punkten des Thesenpapiers in nächster Zeit vorab eine Einschätzung abzugeben. Diese Punkte sind veröffentlicht worden, und sie sind an der ein oder anderen Stelle, finde ich, schon sehr beängstigend. Es sind viele gute Dinge enthalten; aber sie werfen auch viele Fragen auf. Vorhin wurde von mir ja auch gefragt, inwieweit die Istanbul-Konvention berücksichtigt wird. Das sind alles Themen, die in den Bereich des Ministeriums für Familie, Senioren, Frauen und Jugend hineinspielen. Insofern wäre meine Bitte, sich dazu zu äußern, wie das Ministerium zu diesem Thesenpapier steht. Können Sie das schon jetzt sagen, oder soll es dazu noch eine separate Stellungnahme geben?",
-            "sentences": [
-              {
-                "text": "Wenn ich es richtig verstanden habe, warten wir auf den Abschluss der Studie."
-              },
-              {
-                "text": "Dann gibt es in Abstimmung mit beiden Ministerien irgendwann einen Gesetzentwurf."
-              },
-              {
-                "text": "Insofern würde mich schon interessieren, ob Ihr Ministerium vorhat, zu den 50 Punkten des Thesenpapiers in nächster Zeit vorab eine Einschätzung abzugeben."
-              },
-              {
-                "text": "Diese Punkte sind veröffentlicht worden, und sie sind an der ein oder anderen Stelle, finde ich, schon sehr beängstigend."
-              },
-              {
-                "text": "Es sind viele gute Dinge enthalten; aber sie werfen auch viele Fragen auf."
-              },
-              {
-                "text": "Vorhin wurde von mir ja auch gefragt, inwieweit die Istanbul-Konvention berücksichtigt wird."
-              },
-              {
-                "text": "Das sind alles Themen, die in den Bereich des Ministeriums für Familie, Senioren, Frauen und Jugend hineinspielen."
-              },
-              {
-                "text": "Insofern wäre meine Bitte, sich dazu zu äußern, wie das Ministerium zu diesem Thesenpapier steht."
-              },
-              {
-                "text": "Können Sie das schon jetzt sagen, oder soll es dazu noch eine separate Stellungnahme geben?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Stefan Zierke",
-            "speakerstatus": "speaker",
-            "text": "Die Bewertung dieser Thesen findet natürlich bei uns im Ministerium statt. Aber ich kann nur antworten: Wir warten den Abschlussbericht ab, weil wir wirklich nicht vorgreifen wollen. Wir wollen auch nicht der Meinungsbildung vorgreifen. Wir warten den Abschlussbericht ab. Da viele Thesen im Raum stehen, ist es uns ein großes Anliegen, diesen Abschlussbericht zügig fertigzustellen und dann auch die entsprechenden Berichte zu bewerten, die Sie in dem Zuge ebenfalls bewerten werden, und dann in das Gesetzgebungsverfahren zu kommen, sodass Sie als Parlament die Möglichkeit haben, zu bewerten, ob genau diese Thesen Einfluss genommen haben oder nicht.",
-            "sentences": [
-              {
-                "text": "Die Bewertung dieser Thesen findet natürlich bei uns im Ministerium statt."
-              },
-              {
-                "text": "Aber ich kann nur antworten: Wir warten den Abschlussbericht ab, weil wir wirklich nicht vorgreifen wollen."
-              },
-              {
-                "text": "Wir wollen auch nicht der Meinungsbildung vorgreifen."
-              },
-              {
-                "text": "Wir warten den Abschlussbericht ab."
-              },
-              {
-                "text": "Da viele Thesen im Raum stehen, ist es uns ein großes Anliegen, diesen Abschlussbericht zügig fertigzustellen und dann auch die entsprechenden Berichte zu bewerten, die Sie in dem Zuge ebenfalls bewerten werden, und dann in das Gesetzgebungsverfahren zu kommen, sodass Sie als Parlament die Möglichkeit haben, zu bewerten, ob genau diese Thesen Einfluss genommen haben oder nicht."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Danke, Herr Staatssekretär. – Die Frage 30 der Abgeordneten Polat soll schriftlich beantwortet werden. Damit sind wir am Ende des Geschäftsbereichs des Bundesministeriums für Familie, Senioren, Frauen und Jugend.",
-            "sentences": [
-              {
-                "text": "Danke, Herr Staatssekretär."
-              },
-              {
-                "text": "– Die Frage 30 der Abgeordneten Polat soll schriftlich beantwortet werden."
-              },
-              {
-                "text": "Damit sind wir am Ende des Geschäftsbereichs des Bundesministeriums für Familie, Senioren, Frauen und Jugend."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Ich rufe den Geschäftsbereich des Bundesministeriums für Gesundheit auf. Zur Beantwortung steht die Parlamentarische Staatssekretärin Sabine Weiss bereit.",
-            "sentences": [
-              {
-                "text": "Ich rufe den Geschäftsbereich des Bundesministeriums für Gesundheit auf."
-              },
-              {
-                "text": "Zur Beantwortung steht die Parlamentarische Staatssekretärin Sabine Weiss bereit."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Wir kommen zur Frage 31 der Abgeordneten Dr. Kirsten Kappert-Gonther:",
-            "sentences": [
-              {
-                "text": "Wir kommen zur Frage 31 der Abgeordneten Dr. Kirsten Kappert-Gonther:"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Bitte, Frau Staatssekretärin.",
-            "sentences": [
-              {
-                "text": "Bitte, Frau Staatssekretärin."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Sabine Weiss",
-            "speakerstatus": "speaker",
-            "text": "Schönen Dank, Frau Präsidentin. – Liebe Kollegin Kappert-Gonther, schönen Dank für die Frage. – Die Bundesregierung nimmt wahr, dass eine Verbesserung der Rechtssicherheit bei der Berufsausübung für Notfallsanitäterinnen und Notfallsanitäter ein wichtiges Anliegen ist, und zwar über die derzeitige Situation des § 34 StGB – rechtfertigender Notstand – hinaus. Dies zeigt auch die Bundesratsinitiative der Länder zur Änderung des Notfallsanitätergesetzes. Hierzu wird zurzeit innerhalb der Bundesregierung eine Stellungnahme abgestimmt. Diese bleibt abzuwarten. Voraussichtlicher Kabinettstermin ist der 18. November.",
-            "sentences": [
-              {
-                "text": "Schönen Dank, Frau Präsidentin."
-              },
-              {
-                "text": "– Liebe Kollegin Kappert-Gonther, schönen Dank für die Frage."
-              },
-              {
-                "text": "– Die Bundesregierung nimmt wahr, dass eine Verbesserung der Rechtssicherheit bei der Berufsausübung für Notfallsanitäterinnen und Notfallsanitäter ein wichtiges Anliegen ist, und zwar über die derzeitige Situation des § 34 StGB – rechtfertigender Notstand – hinaus."
-              },
-              {
-                "text": "Dies zeigt auch die Bundesratsinitiative der Länder zur Änderung des Notfallsanitätergesetzes."
-              },
-              {
-                "text": "Hierzu wird zurzeit innerhalb der Bundesregierung eine Stellungnahme abgestimmt."
-              },
-              {
-                "text": "Diese bleibt abzuwarten."
-              },
-              {
-                "text": "Voraussichtlicher Kabinettstermin ist der 18. November."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Sie haben das Wort zur ersten Nachfrage, Frau Kappert-Gonther.",
-            "sentences": [
-              {
-                "text": "Sie haben das Wort zur ersten Nachfrage, Frau Kappert-Gonther."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Kirsten Kappert-Gonther",
-            "speakerstatus": "speaker",
-            "text": "Vielen Dank, Frau Staatssekretärin. – Es stimmt uns hoffnungsvoll, dass Sie als Regierung auch verstanden haben, dass die Rechtssicherheit da wirklich notwendigerweise hergestellt werden muss, damit den Patientinnen und Patienten im Falle eines Notfalls die bestmögliche Hilfe zuteilwerden kann.",
-            "sentences": [
-              {
-                "text": "Vielen Dank, Frau Staatssekretärin."
-              },
-              {
-                "text": "– Es stimmt uns hoffnungsvoll, dass Sie als Regierung auch verstanden haben, dass die Rechtssicherheit da wirklich notwendigerweise hergestellt werden muss, damit den Patientinnen und Patienten im Falle eines Notfalls die bestmögliche Hilfe zuteilwerden kann."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Kirsten Kappert-Gonther",
-            "speakerstatus": "speaker",
-            "text": "Nun haben Sie gerade schon was zu einem möglichen Termin gesagt. Wie sieht denn bis dahin der Zeitplan aus? Also, wie würden die Beratungen bei Ihnen sein, und welchen internen Diskussionsbedarf sehen Sie noch?",
-            "sentences": [
-              {
-                "text": "Nun haben Sie gerade schon was zu einem möglichen Termin gesagt."
-              },
-              {
-                "text": "Wie sieht denn bis dahin der Zeitplan aus?"
-              },
-              {
-                "text": "Also, wie würden die Beratungen bei Ihnen sein, und welchen internen Diskussionsbedarf sehen Sie noch?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Sabine Weiss",
-            "speakerstatus": "speaker",
-            "text": "Wie gesagt, die Stellungnahme wird zurzeit innerhalb der Ressorts abgestimmt. In 14 Tagen ist der voraussichtliche Kabinettstermin. Ich kann Ihnen leider bis dahin noch nichts Näheres zu dieser Stellungnahme sagen. Das werden wir sicherlich in 14 Tagen nachholen können.",
-            "sentences": [
-              {
-                "text": "Wie gesagt, die Stellungnahme wird zurzeit innerhalb der Ressorts abgestimmt."
-              },
-              {
-                "text": "In 14 Tagen ist der voraussichtliche Kabinettstermin."
-              },
-              {
-                "text": "Ich kann Ihnen leider bis dahin noch nichts Näheres zu dieser Stellungnahme sagen."
-              },
-              {
-                "text": "Das werden wir sicherlich in 14 Tagen nachholen können."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Sie haben das Wort zur zweiten Nachfrage.",
-            "sentences": [
-              {
-                "text": "Sie haben das Wort zur zweiten Nachfrage."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Kirsten Kappert-Gonther",
-            "speakerstatus": "speaker",
-            "text": "Vielen Dank für die Worterteilung. – Frau Staatssekretärin, stimmt denn die Bundesregierung der Einschätzung zu, dass die Aufhebung des Heilkundevorbehalts für die Notfallsanitäter und die Notfallsanitäterinnen deren Handlungsspielraum endlich rechtssicher machen, aber nicht inhaltlich erweitern würde?",
-            "sentences": [
-              {
-                "text": "Vielen Dank für die Worterteilung."
-              },
-              {
-                "text": "– Frau Staatssekretärin, stimmt denn die Bundesregierung der Einschätzung zu, dass die Aufhebung des Heilkundevorbehalts für die Notfallsanitäter und die Notfallsanitäterinnen deren Handlungsspielraum endlich rechtssicher machen, aber nicht inhaltlich erweitern würde?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Sabine Weiss",
-            "speakerstatus": "speaker",
-            "text": "Wie gesagt, ich weiß, dass es jetzt ein bisschen ungünstig ist; aber ich kann wieder nur darauf verweisen: Die Stellungnahme wird zurzeit abgestimmt. Ich kann dieser Stellungnahme nicht vorgreifen, und deswegen bitte ich Sie, sich noch 14 Tage zu gedulden.",
-            "sentences": [
-              {
-                "text": "Wie gesagt, ich weiß, dass es jetzt ein bisschen ungünstig ist; aber ich kann wieder nur darauf verweisen: Die Stellungnahme wird zurzeit abgestimmt."
-              },
-              {
-                "text": "Ich kann dieser Stellungnahme nicht vorgreifen, und deswegen bitte ich Sie, sich noch 14 Tage zu gedulden."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Wir kommen damit zur Frage 32 der Abgeordneten Dr. Kirsten Kappert-Gonther:",
-            "sentences": [
-              {
-                "text": "Wir kommen damit zur Frage 32 der Abgeordneten Dr. Kirsten Kappert-Gonther:"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Bitte, Frau Staatssekretärin.",
-            "sentences": [
-              {
-                "text": "Bitte, Frau Staatssekretärin."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Sabine Weiss",
-            "speakerstatus": "speaker",
-            "text": "Schönen Dank, Frau Präsidentin. – Liebe Kollegin Kappert-Gonther, die Drogenbeauftragte der Bundesregierung hat den angekündigten offenen Austausch mit Verbänden und Akteuren begonnen. Gespräche, um den Einfluss einer kontrollierten Abgabe von Cannabis auf die Gesundheit der Nutzerinnen und Nutzer abzuwägen, wurden bisher noch nicht geführt. Die Drogenbeauftragte hat jedoch gestern im Rahmen ihrer Präsentation des Drogen- und Suchtberichtes 2019 in Berlin laut einer Pressemitteilung des Evangelischen Pressedienstes angekündigt, dass sie mit Befürwortern und Gegnern einer Teilfreigabe den Dialog suchen werde.",
-            "sentences": [
-              {
-                "text": "Schönen Dank, Frau Präsidentin."
-              },
-              {
-                "text": "– Liebe Kollegin Kappert-Gonther, die Drogenbeauftragte der Bundesregierung hat den angekündigten offenen Austausch mit Verbänden und Akteuren begonnen."
-              },
-              {
-                "text": "Gespräche, um den Einfluss einer kontrollierten Abgabe von Cannabis auf die Gesundheit der Nutzerinnen und Nutzer abzuwägen, wurden bisher noch nicht geführt."
-              },
-              {
-                "text": "Die Drogenbeauftragte hat jedoch gestern im Rahmen ihrer Präsentation des Drogen- und Suchtberichtes 2019 in Berlin laut einer Pressemitteilung des Evangelischen Pressedienstes angekündigt, dass sie mit Befürwortern und Gegnern einer Teilfreigabe den Dialog suchen werde."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Sie haben das Wort zur ersten Nachfrage.",
-            "sentences": [
-              {
-                "text": "Sie haben das Wort zur ersten Nachfrage."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Kirsten Kappert-Gonther",
-            "speakerstatus": "speaker",
-            "text": "Vielen Dank. – Frau Staatssekretärin, wir hoffen, dass wir diesen Worten entnehmen dürfen, dass die Bundesregierung langsam versteht, dass die Cannabisprohibition gescheitert ist und dem Gesundheits- und Jugendschutz im Wege steht.",
-            "sentences": [
-              {
-                "text": "Vielen Dank."
-              },
-              {
-                "text": "– Frau Staatssekretärin, wir hoffen, dass wir diesen Worten entnehmen dürfen, dass die Bundesregierung langsam versteht, dass die Cannabisprohibition gescheitert ist und dem Gesundheits- und Jugendschutz im Wege steht."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Kirsten Kappert-Gonther",
-            "speakerstatus": "speaker",
-            "text": "Wir begrüßen den angekündigten offenen Dialog. Ich würde gerne wissen, wie er dokumentiert wird und wie gegenüber der Öffentlichkeit, aber auch gegenüber dem Parlament Transparenz geschaffen wird, wenn es darum geht: Was wird diskutiert? Mit wem wird diskutiert? Wie ist der Fortgang der Diskussionen?",
-            "sentences": [
-              {
-                "text": "Wir begrüßen den angekündigten offenen Dialog."
-              },
-              {
-                "text": "Ich würde gerne wissen, wie er dokumentiert wird und wie gegenüber der Öffentlichkeit, aber auch gegenüber dem Parlament Transparenz geschaffen wird, wenn es darum geht: Was wird diskutiert?"
-              },
-              {
-                "text": "Mit wem wird diskutiert?"
-              },
-              {
-                "text": "Wie ist der Fortgang der Diskussionen?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Sabine Weiss",
-            "speakerstatus": "speaker",
-            "text": "Ich kann Ihnen Ihre Hoffnung derzeit nicht bestätigen, dass Bewegung eintritt, was das Verbot von Cannabis anbetrifft. Dazu kann ich nichts sagen. Ich kann nur sagen: Die Drogenbeauftragte führt offene Gespräche sowohl mit Befürwortern als auch mit Gegnern. Inwieweit das dann dazu führt, dass Weiteres angekurbelt wird, bleibt abzuwarten. Ich will die Drogenbeauftragte da in keiner Weise in ein enges Korsett schnüren.",
-            "sentences": [
-              {
-                "text": "Ich kann Ihnen Ihre Hoffnung derzeit nicht bestätigen, dass Bewegung eintritt, was das Verbot von Cannabis anbetrifft."
-              },
-              {
-                "text": "Dazu kann ich nichts sagen."
-              },
-              {
-                "text": "Ich kann nur sagen: Die Drogenbeauftragte führt offene Gespräche sowohl mit Befürwortern als auch mit Gegnern."
-              },
-              {
-                "text": "Inwieweit das dann dazu führt, dass Weiteres angekurbelt wird, bleibt abzuwarten."
-              },
-              {
-                "text": "Ich will die Drogenbeauftragte da in keiner Weise in ein enges Korsett schnüren."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Sie stellen die zweite Nachfrage?",
-            "sentences": [
-              {
-                "text": "Sie stellen die zweite Nachfrage?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Kirsten Kappert-Gonther",
-            "speakerstatus": "speaker",
-            "text": "Vielen Dank für das Wort. – Ich möchte konkret nachfragen. Sie haben mir nicht die Frage beantwortet, wie die Öffentlichkeit oder das Parlament über die Diskussionen, die geführt werden, und über den Diskussionsstand informiert werden. Können Sie dazu Genaueres sagen? Meinetwegen fragen wir in jeder Fragestunde nach, was nun herausgekommen ist, aber vielleicht haben Sie eine Vorstellung, wie Sie uns geeignet informieren.",
-            "sentences": [
-              {
-                "text": "Vielen Dank für das Wort."
-              },
-              {
-                "text": "– Ich möchte konkret nachfragen."
-              },
-              {
-                "text": "Sie haben mir nicht die Frage beantwortet, wie die Öffentlichkeit oder das Parlament über die Diskussionen, die geführt werden, und über den Diskussionsstand informiert werden."
-              },
-              {
-                "text": "Können Sie dazu Genaueres sagen?"
-              },
-              {
-                "text": "Meinetwegen fragen wir in jeder Fragestunde nach, was nun herausgekommen ist, aber vielleicht haben Sie eine Vorstellung, wie Sie uns geeignet informieren."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Sabine Weiss",
-            "speakerstatus": "speaker",
-            "text": "Ich glaube, dass die Drogenbeauftragte selbstständig genug ist, um zunächst ihren eigenen Weg zu gehen. Die Drogenbeauftragte kann sich im Gesundheitsausschuss, wenn das beantragt wird, positionieren und dazu Stellung nehmen.",
-            "sentences": [
-              {
-                "text": "Ich glaube, dass die Drogenbeauftragte selbstständig genug ist, um zunächst ihren eigenen Weg zu gehen."
-              },
-              {
-                "text": "Die Drogenbeauftragte kann sich im Gesundheitsausschuss, wenn das beantragt wird, positionieren und dazu Stellung nehmen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Vielen Dank, Frau Staatssekretärin. – Wir sind schon am Ende des Geschäftsbereichs des Bundesministeriums für Gesundheit.",
-            "sentences": [
-              {
-                "text": "Vielen Dank, Frau Staatssekretärin."
-              },
-              {
-                "text": "– Wir sind schon am Ende des Geschäftsbereichs des Bundesministeriums für Gesundheit."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Wir kommen nun zum Geschäftsbereich des Bundesministeriums für Verkehr und digitale Infrastruktur. Zur Beantwortung steht der Parlamentarische Staatssekretär Steffen Bilger zur Verfügung.",
-            "sentences": [
-              {
-                "text": "Wir kommen nun zum Geschäftsbereich des Bundesministeriums für Verkehr und digitale Infrastruktur."
-              },
-              {
-                "text": "Zur Beantwortung steht der Parlamentarische Staatssekretär Steffen Bilger zur Verfügung."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Ich rufe die Frage 33 der Abgeordneten Daniela Kluckert auf:",
-            "sentences": [
-              {
-                "text": "Ich rufe die Frage 33 der Abgeordneten Daniela Kluckert auf:"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Steffen Bilger",
-            "speakerstatus": "speaker",
-            "text": "Vielen Dank, Frau Präsidentin. – Frau Kollegin Kluckert, Sie haben die Frage wortgleich bereits in der Fragestunde der letzten Sitzungswoche gestellt. Ich vermute, dass es sich um ein Versehen handelt, dass Sie die Frage noch mal eingereicht haben. Möglicherweise waren Sie aber auch mit der Antwort meines Kollegen Ferlemann nicht zufrieden. Jedenfalls möchte ich in der Beantwortung auf die Antwort aus der letzten Fragestunde verweisen.",
-            "sentences": [
-              {
-                "text": "Vielen Dank, Frau Präsidentin."
-              },
-              {
-                "text": "– Frau Kollegin Kluckert, Sie haben die Frage wortgleich bereits in der Fragestunde der letzten Sitzungswoche gestellt."
-              },
-              {
-                "text": "Ich vermute, dass es sich um ein Versehen handelt, dass Sie die Frage noch mal eingereicht haben."
-              },
-              {
-                "text": "Möglicherweise waren Sie aber auch mit der Antwort meines Kollegen Ferlemann nicht zufrieden."
-              },
-              {
-                "text": "Jedenfalls möchte ich in der Beantwortung auf die Antwort aus der letzten Fragestunde verweisen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Sie haben die Möglichkeit der ersten Nachfrage.",
-            "sentences": [
-              {
-                "text": "Sie haben die Möglichkeit der ersten Nachfrage."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Daniela Kluckert",
-            "speakerstatus": "speaker",
-            "text": "Danke schön, Frau Präsidentin. – Herr Staatssekretär, nun sind in der Automobilindustrie in Deutschland – das betonen wir immer wieder – 1,8 Millionen Menschen beschäftigt. Es gibt gerade einen Riesenumbruch in der Automobilindustrie, der mit der Förderpolitik und mit den Vorgaben der Bundesregierung zu tun hat. Dadurch sind viele Unwägbarkeiten entstanden. Das autonome Fahren, also die damit verbundene Technik, stärker auf die Straße zu bringen, ist sicherlich eine Chance für den Autostandort Deutschland und für die Beschäftigten der Automobilindustrie.",
-            "sentences": [
-              {
-                "text": "Danke schön, Frau Präsidentin."
-              },
-              {
-                "text": "– Herr Staatssekretär, nun sind in der Automobilindustrie in Deutschland – das betonen wir immer wieder – 1,8 Millionen Menschen beschäftigt."
-              },
-              {
-                "text": "Es gibt gerade einen Riesenumbruch in der Automobilindustrie, der mit der Förderpolitik und mit den Vorgaben der Bundesregierung zu tun hat."
-              },
-              {
-                "text": "Dadurch sind viele Unwägbarkeiten entstanden."
-              },
-              {
-                "text": "Das autonome Fahren, also die damit verbundene Technik, stärker auf die Straße zu bringen, ist sicherlich eine Chance für den Autostandort Deutschland und für die Beschäftigten der Automobilindustrie."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Daniela Kluckert",
-            "speakerstatus": "speaker",
-            "text": "Wenn man sich umguckt, dann sieht man, dass es zum Beispiel in den Niederlanden schon möglich ist, auf Level 4 autonom zu fahren. Jetzt frage ich mich schon, wann in Deutschland ein bisschen mehr Zug reinkommt und auch hier die Möglichkeit besteht, autonomes Fahren auf die Straße zu bringen, um Erfahrungen zu sammeln, die dann in neue Geschäftsmodelle umgesetzt werden können.",
-            "sentences": [
-              {
-                "text": "Wenn man sich umguckt, dann sieht man, dass es zum Beispiel in den Niederlanden schon möglich ist, auf Level 4 autonom zu fahren."
-              },
-              {
-                "text": "Jetzt frage ich mich schon, wann in Deutschland ein bisschen mehr Zug reinkommt und auch hier die Möglichkeit besteht, autonomes Fahren auf die Straße zu bringen, um Erfahrungen zu sammeln, die dann in neue Geschäftsmodelle umgesetzt werden können."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Bitte, Herr Staatssekretär.",
-            "sentences": [
-              {
-                "text": "Bitte, Herr Staatssekretär."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Steffen Bilger",
-            "speakerstatus": "speaker",
-            "text": "Ich glaube, wir sind uns einig, Frau Kollegin Kluckert, dass es zwei große Zukunftsthemen rund um das Auto gibt. Das eine sind die alternativen Antriebe, und das andere sind die Digitalisierung und die konkreten Auswirkungen, gerade das autonome Fahren.",
-            "sentences": [
-              {
-                "text": "Ich glaube, wir sind uns einig, Frau Kollegin Kluckert, dass es zwei große Zukunftsthemen rund um das Auto gibt."
-              },
-              {
-                "text": "Das eine sind die alternativen Antriebe, und das andere sind die Digitalisierung und die konkreten Auswirkungen, gerade das autonome Fahren."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Steffen Bilger",
-            "speakerstatus": "speaker",
-            "text": "Wir wollen die Zukunft der Mobilität gestalten, ganz klar. Dafür machen wir auch viel. Wir sind intensiv beteiligt in allen Abstimmungsgremien auf internationaler Ebene – denn es wird sehr viel auf der Ebene der UN geregelt, was den globalen Rahmen anbelangt –, auf der Ebene der Europäischen Union sind wir selbstverständlich auch intensiv beteiligt, und dann geht es noch um das, was wir national regeln können. Da sind wir auch nicht so schlecht, wie manchmal angenommen wird; denn wir haben in der letzten Legislatur bereits einen Rahmen in unserem Straßenverkehrsrecht geschaffen, der bei der Anwendung des autonomen Fahrens sehr viel ermöglicht. Aber wir wussten damals schon: Das geht natürlich auch weiter. – Deswegen sind wir zurzeit in der Vorbereitung eines neuen Gesetzes, mit dem wir den rechtlichen Rahmen aktualisieren und noch einmal schärfen wollen. Das ist sehr wichtig.",
-            "sentences": [
-              {
-                "text": "Wir wollen die Zukunft der Mobilität gestalten, ganz klar."
-              },
-              {
-                "text": "Dafür machen wir auch viel."
-              },
-              {
-                "text": "Wir sind intensiv beteiligt in allen Abstimmungsgremien auf internationaler Ebene – denn es wird sehr viel auf der Ebene der UN geregelt, was den globalen Rahmen anbelangt –, auf der Ebene der Europäischen Union sind wir selbstverständlich auch intensiv beteiligt, und dann geht es noch um das, was wir national regeln können."
-              },
-              {
-                "text": "Da sind wir auch nicht so schlecht, wie manchmal angenommen wird; denn wir haben in der letzten Legislatur bereits einen Rahmen in unserem Straßenverkehrsrecht geschaffen, der bei der Anwendung des autonomen Fahrens sehr viel ermöglicht."
-              },
-              {
-                "text": "Aber wir wussten damals schon: Das geht natürlich auch weiter."
-              },
-              {
-                "text": "– Deswegen sind wir zurzeit in der Vorbereitung eines neuen Gesetzes, mit dem wir den rechtlichen Rahmen aktualisieren und noch einmal schärfen wollen."
-              },
-              {
-                "text": "Das ist sehr wichtig."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Steffen Bilger",
-            "speakerstatus": "speaker",
-            "text": "Es geht aber auch um Unterstützung von Forschung und Anwendung. Dazu gibt es innerhalb der Bundesregierung in verschiedenen Ministerien zahlreiche wirklich spannende Projekte, in unserem Ressort beispielsweise das Testfeld an der A 9, aber auch die Unterstützung für Testfelder in den Städten, wo wir das autonome Fahren in die Anwendung bringen.",
-            "sentences": [
-              {
-                "text": "Es geht aber auch um Unterstützung von Forschung und Anwendung."
-              },
-              {
-                "text": "Dazu gibt es innerhalb der Bundesregierung in verschiedenen Ministerien zahlreiche wirklich spannende Projekte, in unserem Ressort beispielsweise das Testfeld an der A 9, aber auch die Unterstützung für Testfelder in den Städten, wo wir das autonome Fahren in die Anwendung bringen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Steffen Bilger",
-            "speakerstatus": "speaker",
-            "text": "Also: Die Bundesregierung ist an diesen ganzen Themen dran. Wir wollen den Bereich in Deutschland wirklich entwickeln.",
-            "sentences": [
-              {
-                "text": "Also: Die Bundesregierung ist an diesen ganzen Themen dran."
-              },
-              {
-                "text": "Wir wollen den Bereich in Deutschland wirklich entwickeln."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Sie haben das Wort zur zweiten Nachfrage.",
-            "sentences": [
-              {
-                "text": "Sie haben das Wort zur zweiten Nachfrage."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Daniela Kluckert",
-            "speakerstatus": "speaker",
-            "text": "Nun ist es so, dass wir es aus dem Verkehrsministerium kennen, dass dargestellt wird, dass alles gut läuft, dass wir uns keine Sorgen zu machen brauchen, dass alles richtig angepackt wird – außer bei der Maut, wenn Sie mir diese Bemerkung erlauben. Aber immer wieder sehen wir, dass eben nichts funktioniert und die Versprechen nicht eingehalten werden. Es war zum Beispiel so, dass Minister Scheuer schon Anfang des vergangenen Jahres angekündigt hat, dass uns zügig ein Gesetzentwurf zum autonomen Fahren vorgelegt wird. Wir warten also seit Anfang dieses Jahres auf einen solchen Gesetzentwurf. Deswegen meine Frage: Wann kommt der Gesetzentwurf?",
-            "sentences": [
-              {
-                "text": "Nun ist es so, dass wir es aus dem Verkehrsministerium kennen, dass dargestellt wird, dass alles gut läuft, dass wir uns keine Sorgen zu machen brauchen, dass alles richtig angepackt wird – außer bei der Maut, wenn Sie mir diese Bemerkung erlauben."
-              },
-              {
-                "text": "Aber immer wieder sehen wir, dass eben nichts funktioniert und die Versprechen nicht eingehalten werden."
-              },
-              {
-                "text": "Es war zum Beispiel so, dass Minister Scheuer schon Anfang des vergangenen Jahres angekündigt hat, dass uns zügig ein Gesetzentwurf zum autonomen Fahren vorgelegt wird."
-              },
-              {
-                "text": "Wir warten also seit Anfang dieses Jahres auf einen solchen Gesetzentwurf."
-              },
-              {
-                "text": "Deswegen meine Frage: Wann kommt der Gesetzentwurf?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Daniela Kluckert",
-            "speakerstatus": "speaker",
-            "text": "Ich frage das auch im Hinblick darauf, dass vieles – Sie haben es angesprochen – auf internationaler Ebene geregelt wird, wir aber auch auf nationaler Ebene einiges regeln können. In den USA beispielsweise wird das autonome Fahren bereits auf einer Vielzahl von Kilometern – insgesamt sind es 20 Millionen Kilometer – erprobt. Diese Erprobungen werfen uns schon ein Stück zurück und bringen andere voran. Das wollen wir so nicht stehen lassen.",
-            "sentences": [
-              {
-                "text": "Ich frage das auch im Hinblick darauf, dass vieles – Sie haben es angesprochen – auf internationaler Ebene geregelt wird, wir aber auch auf nationaler Ebene einiges regeln können."
-              },
-              {
-                "text": "In den USA beispielsweise wird das autonome Fahren bereits auf einer Vielzahl von Kilometern – insgesamt sind es 20 Millionen Kilometer – erprobt."
-              },
-              {
-                "text": "Diese Erprobungen werfen uns schon ein Stück zurück und bringen andere voran."
-              },
-              {
-                "text": "Das wollen wir so nicht stehen lassen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Steffen Bilger",
-            "speakerstatus": "speaker",
-            "text": "Frau Kollegin Kluckert, ich glaube, wir müssen unser Licht nicht unter den Scheffel stellen. Wir haben in Deutschland bei der Anwendung des autonomen Fahrens sowie bei der Forschung und Entwicklung dazu wirklich schon viel erreicht. Heute gab es eine Meldung über einen Untersuchungsbericht zu einem tödlichen Unfall. In den USA ist schon viel passiert. Wir haben beispielsweise durch die Änderung des Straßenverkehrsrechts in der vergangenen Legislaturperiode nicht nur die Möglichkeit geschaffen, dass wir autonomes Fahren bei uns auf den Straßen in die Anwendung bringen, sondern wir haben auch Fragen des Datenschutzes, der Versicherungspflicht und der Haftung geklärt. Wir behandeln alle Bestandteile – bis hin zu den ethischen Fragen. Verantwortlich sind wir im Bundesverkehrsministerium. Ich kann Ihnen absolut versichern, dass wir die wichtigen Themen auf der Agenda haben und intensiv daran arbeiten.",
-            "sentences": [
-              {
-                "text": "Frau Kollegin Kluckert, ich glaube, wir müssen unser Licht nicht unter den Scheffel stellen."
-              },
-              {
-                "text": "Wir haben in Deutschland bei der Anwendung des autonomen Fahrens sowie bei der Forschung und Entwicklung dazu wirklich schon viel erreicht."
-              },
-              {
-                "text": "Heute gab es eine Meldung über einen Untersuchungsbericht zu einem tödlichen Unfall."
-              },
-              {
-                "text": "In den USA ist schon viel passiert."
-              },
-              {
-                "text": "Wir haben beispielsweise durch die Änderung des Straßenverkehrsrechts in der vergangenen Legislaturperiode nicht nur die Möglichkeit geschaffen, dass wir autonomes Fahren bei uns auf den Straßen in die Anwendung bringen, sondern wir haben auch Fragen des Datenschutzes, der Versicherungspflicht und der Haftung geklärt."
-              },
-              {
-                "text": "Wir behandeln alle Bestandteile – bis hin zu den ethischen Fragen."
-              },
-              {
-                "text": "Verantwortlich sind wir im Bundesverkehrsministerium."
-              },
-              {
-                "text": "Ich kann Ihnen absolut versichern, dass wir die wichtigen Themen auf der Agenda haben und intensiv daran arbeiten."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Steffen Bilger",
-            "speakerstatus": "speaker",
-            "text": "Wir haben heute Morgen im Ausschuss und, ich glaube, auch schon in der vorangegangenen Sitzung darüber gesprochen, dass unser Gesetzentwurf für das kommende Jahr vorgesehen ist.",
-            "sentences": [
-              {
-                "text": "Wir haben heute Morgen im Ausschuss und, ich glaube, auch schon in der vorangegangenen Sitzung darüber gesprochen, dass unser Gesetzentwurf für das kommende Jahr vorgesehen ist."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Danke, Herr Staatssekretär Bilger. – Wir sind damit am Ende der Fragestunde. Alle übrigen Fragen werden schriftlich beantwortet.",
-            "sentences": [
-              {
-                "text": "Danke, Herr Staatssekretär Bilger."
-              },
-              {
-                "text": "– Wir sind damit am Ende der Fragestunde."
-              },
-              {
-                "text": "Alle übrigen Fragen werden schriftlich beantwortet."
-              }
-            ]
           }
         ]
       }
@@ -5689,7 +3871,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 68,
+      "speechIndex": 1070,
       "title": "Aktuelle Stunde - Neutralitätsgebot im öffentlich-rechtlichen Rundfunk"
     },
     "people": [
@@ -5702,7 +3884,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19123-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19123-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -5716,6 +3898,39 @@
             "sentences": [
               {
                 "text": "Ich rufe den Zusatzpunkt 1 auf:"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Petra Pau",
+            "speakerstatus": "vice-president",
+            "text": "Aktuelle Stunde",
+            "sentences": [
+              {
+                "text": "Aktuelle Stunde"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Petra Pau",
+            "speakerstatus": "vice-president",
+            "text": "auf Verlangen der Fraktion der AfD",
+            "sentences": [
+              {
+                "text": "auf Verlangen der Fraktion der AfD"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Petra Pau",
+            "speakerstatus": "vice-president",
+            "text": "Neutralitätsgebot im öffentlich-rechtlichen Rundfunk bewahren – Kinder schützen",
+            "sentences": [
+              {
+                "text": "Neutralitätsgebot im öffentlich-rechtlichen Rundfunk bewahren – Kinder schützen"
               }
             ]
           },
@@ -5762,7 +3977,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 69,
+      "speechIndex": 1071,
       "title": "Aktuelle Stunde - Neutralitätsgebot im öffentlich-rechtlichen Rundfunk"
     },
     "people": [
@@ -5783,7 +3998,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19123-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19123-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -6321,7 +4536,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 70,
+      "speechIndex": 1072,
       "title": "Aktuelle Stunde - Neutralitätsgebot im öffentlich-rechtlichen Rundfunk"
     },
     "people": [
@@ -6342,7 +4557,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19123-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19123-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -6857,7 +5072,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 71,
+      "speechIndex": 1073,
       "title": "Aktuelle Stunde - Neutralitätsgebot im öffentlich-rechtlichen Rundfunk"
     },
     "people": [
@@ -6878,7 +5093,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19123-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19123-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -7305,7 +5520,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 72,
+      "speechIndex": 1074,
       "title": "Aktuelle Stunde - Neutralitätsgebot im öffentlich-rechtlichen Rundfunk"
     },
     "people": [
@@ -7326,7 +5541,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19123-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19123-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -7950,7 +6165,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 73,
+      "speechIndex": 1075,
       "title": "Aktuelle Stunde - Neutralitätsgebot im öffentlich-rechtlichen Rundfunk"
     },
     "people": [
@@ -7971,7 +6186,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19123-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19123-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -8442,7 +6657,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 74,
+      "speechIndex": 1076,
       "title": "Aktuelle Stunde - Neutralitätsgebot im öffentlich-rechtlichen Rundfunk"
     },
     "people": [
@@ -8463,7 +6678,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19123-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19123-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -9008,7 +7223,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 75,
+      "speechIndex": 1077,
       "title": "Aktuelle Stunde - Neutralitätsgebot im öffentlich-rechtlichen Rundfunk"
     },
     "people": [
@@ -9029,7 +7244,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19123-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19123-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -9610,7 +7825,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 76,
+      "speechIndex": 1078,
       "title": "Aktuelle Stunde - Neutralitätsgebot im öffentlich-rechtlichen Rundfunk"
     },
     "people": [
@@ -9631,7 +7846,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19123-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19123-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -10213,7 +8428,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 77,
+      "speechIndex": 1079,
       "title": "Aktuelle Stunde - Neutralitätsgebot im öffentlich-rechtlichen Rundfunk"
     },
     "people": [
@@ -10234,7 +8449,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19123-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19123-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -10621,7 +8836,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 78,
+      "speechIndex": 1080,
       "title": "Aktuelle Stunde - Neutralitätsgebot im öffentlich-rechtlichen Rundfunk"
     },
     "people": [
@@ -10642,7 +8857,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19123-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19123-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -10984,7 +9199,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 79,
+      "speechIndex": 1081,
       "title": "Aktuelle Stunde - Neutralitätsgebot im öffentlich-rechtlichen Rundfunk"
     },
     "people": [
@@ -11005,7 +9220,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19123-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19123-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -11628,7 +9843,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 80,
+      "speechIndex": 1082,
       "title": "Aktuelle Stunde - Neutralitätsgebot im öffentlich-rechtlichen Rundfunk"
     },
     "people": [
@@ -11649,7 +9864,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19123-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19123-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -12109,7 +10324,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 81,
+      "speechIndex": 1083,
       "title": "Aktuelle Stunde - Neutralitätsgebot im öffentlich-rechtlichen Rundfunk"
     },
     "people": [
@@ -12122,12 +10337,23 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19123-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19123-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
         "originTextID": "",
         "textBody": [
+          {
+            "type": "speech",
+            "speaker": "Thomas Oppermann",
+            "speakerstatus": "vice-president",
+            "text": "Berichtigung",
+            "sentences": [
+              {
+                "text": "Berichtigung"
+              }
+            ]
+          },
           {
             "type": "speech",
             "speaker": "Thomas Oppermann",

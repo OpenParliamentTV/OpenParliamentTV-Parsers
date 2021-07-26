@@ -11,7 +11,7 @@
     },
     "agendaItem": {
       "officialTitle": "Sitzungseröffnung",
-      "speechIndex": 0,
+      "speechIndex": 1000,
       "title": "Sitzungseröffnung"
     },
     "people": [
@@ -24,7 +24,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19102-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19102-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -96,7 +96,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 24",
-      "speechIndex": 2,
+      "speechIndex": 1002,
       "title": "Maritime Wirtschaftspolitik"
     },
     "people": [
@@ -109,12 +109,122 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19102-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19102-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
         "originTextID": "",
         "textBody": [
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "a) Beratung des Antrags der Fraktionen der CDU/CSU und SPD",
+            "sentences": [
+              {
+                "text": "a) Beratung des Antrags der Fraktionen der CDU/CSU und SPD"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "Nachhaltige maritime Wirtschaftspolitik umsetzen",
+            "sentences": [
+              {
+                "text": "Nachhaltige maritime Wirtschaftspolitik umsetzen"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "b) Beratung der Unterrichtung durch die Bundesregierung",
+            "sentences": [
+              {
+                "text": "b) Beratung der Unterrichtung durch die Bundesregierung"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "Sechster Bericht der Bundesregierung über die Entwicklung und Zukunftsperspektiven der maritimen Wirtschaft in Deutschland",
+            "sentences": [
+              {
+                "text": "Sechster Bericht der Bundesregierung über die Entwicklung und Zukunftsperspektiven der maritimen Wirtschaft in Deutschland"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "c) Beratung des Antrags der Abgeordneten Dr. Bernd Baumann, Frank Magnitz, Marcus Bühl, weiterer Abgeordneter und der Fraktion der AfD",
+            "sentences": [
+              {
+                "text": "c) Beratung des Antrags der Abgeordneten Dr. Bernd Baumann, Frank Magnitz, Marcus Bühl, weiterer Abgeordneter und der Fraktion der AfD"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "Deutsche Seehäfen stärken – Einfuhrumsatzsteuer reformieren",
+            "sentences": [
+              {
+                "text": "Deutsche Seehäfen stärken – Einfuhrumsatzsteuer reformieren"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "e) Beratung des Antrags der Abgeordneten Hagen Reinhold, Michael Theurer, Reinhard Houben, weiterer Abgeordneter und der Fraktion der FDP",
+            "sentences": [
+              {
+                "text": "e) Beratung des Antrags der Abgeordneten Hagen Reinhold, Michael Theurer, Reinhard Houben, weiterer Abgeordneter und der Fraktion der FDP"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "Für eine starke maritime Wirtschaft als Teil der deutschen Industrie der Zukunft",
+            "sentences": [
+              {
+                "text": "Für eine starke maritime Wirtschaft als Teil der deutschen Industrie der Zukunft"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "f) Beratung des Antrags der Abgeordneten Claudia Müller, Oliver Krischer, Lisa Badum, weiterer Abgeordneter und der Fraktion BÜNDNIS 90/DIE GRÜNEN",
+            "sentences": [
+              {
+                "text": "f) Beratung des Antrags der Abgeordneten Claudia Müller, Oliver Krischer, Lisa Badum, weiterer Abgeordneter und der Fraktion BÜNDNIS 90/DIE GRÜNEN"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "Maßnahmen für mehr Klimaschutz im internationalen Seeverkehr",
+            "sentences": [
+              {
+                "text": "Maßnahmen für mehr Klimaschutz im internationalen Seeverkehr"
+              }
+            ]
+          },
           {
             "type": "speech",
             "speaker": "Wolfgang Schäuble",
@@ -198,7 +308,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 24",
-      "speechIndex": 3,
+      "speechIndex": 1003,
       "title": "Maritime Wirtschaftspolitik"
     },
     "people": [
@@ -219,7 +329,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19102-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19102-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -596,7 +706,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 24",
-      "speechIndex": 4,
+      "speechIndex": 1004,
       "title": "Maritime Wirtschaftspolitik"
     },
     "people": [
@@ -617,7 +727,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19102-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19102-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -913,7 +1023,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 24",
-      "speechIndex": 5,
+      "speechIndex": 1005,
       "title": "Maritime Wirtschaftspolitik"
     },
     "people": [
@@ -934,7 +1044,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19102-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19102-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -1483,7 +1593,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 24",
-      "speechIndex": 6,
+      "speechIndex": 1006,
       "title": "Maritime Wirtschaftspolitik"
     },
     "people": [
@@ -1504,7 +1614,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19102-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19102-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -2146,7 +2256,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 24",
-      "speechIndex": 7,
+      "speechIndex": 1007,
       "title": "Maritime Wirtschaftspolitik"
     },
     "people": [
@@ -2167,7 +2277,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19102-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19102-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -2797,7 +2907,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 24",
-      "speechIndex": 8,
+      "speechIndex": 1008,
       "title": "Maritime Wirtschaftspolitik"
     },
     "people": [
@@ -2818,7 +2928,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19102-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19102-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -3309,7 +3419,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 24",
-      "speechIndex": 9,
+      "speechIndex": 1009,
       "title": "Maritime Wirtschaftspolitik"
     },
     "people": [
@@ -3330,7 +3440,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19102-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19102-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -3593,7 +3703,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 24",
-      "speechIndex": 10,
+      "speechIndex": 1010,
       "title": "Maritime Wirtschaftspolitik"
     },
     "people": [
@@ -3614,7 +3724,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19102-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19102-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -3979,7 +4089,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 24",
-      "speechIndex": 11,
+      "speechIndex": 1011,
       "title": "Maritime Wirtschaftspolitik"
     },
     "people": [
@@ -4008,7 +4118,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19102-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19102-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -4518,7 +4628,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 24",
-      "speechIndex": 12,
+      "speechIndex": 1012,
       "title": "Maritime Wirtschaftspolitik"
     },
     "people": [
@@ -4539,7 +4649,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19102-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19102-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -4848,7 +4958,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 24",
-      "speechIndex": 13,
+      "speechIndex": 1013,
       "title": "Maritime Wirtschaftspolitik"
     },
     "people": [
@@ -4869,7 +4979,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19102-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19102-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -5205,7 +5315,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 24",
-      "speechIndex": 14,
+      "speechIndex": 1014,
       "title": "Maritime Wirtschaftspolitik"
     },
     "people": [
@@ -5216,17 +5326,12 @@
         "lastname": "Ludwig",
         "context": "main-speaker",
         "faction": "CDU/CSU"
-      },
-      {
-        "type": "memberOfParliament",
-        "label": "Wolfgang Kubicki",
-        "context": "vice-president"
       }
     ],
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19102-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19102-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -5456,18 +5561,81 @@
                 "text": "Vielen herzlichen Dank."
               }
             ]
-          },
-          {
-            "type": "comment",
-            "speaker": null,
-            "speakerstatus": null,
-            "text": "(Beifall bei der CDU/CSU sowie der Abg. Leni Breymaier [SPD])",
-            "sentences": [
-              {
-                "text": "(Beifall bei der CDU/CSU sowie der Abg. Leni Breymaier [SPD])"
-              }
-            ]
-          },
+          }
+        ]
+      }
+    ],
+    "documents": [
+      {
+        "type": "officialDocument",
+        "label": "Drucksache 19/10149",
+        "sourceURI": "https://dserver.bundestag.de/btd/19/101/1910149.pdf"
+      },
+      {
+        "type": "officialDocument",
+        "label": "Drucksache 19/9030",
+        "sourceURI": "https://dserver.bundestag.de/btd/19/090/1909030.pdf"
+      },
+      {
+        "type": "officialDocument",
+        "label": "Drucksache 19/10173",
+        "sourceURI": "https://dserver.bundestag.de/btd/19/101/1910173.pdf"
+      },
+      {
+        "type": "officialDocument",
+        "label": "Drucksache 19/10163",
+        "sourceURI": "https://dserver.bundestag.de/btd/19/101/1910163.pdf"
+      },
+      {
+        "type": "officialDocument",
+        "label": "Drucksache 19/10201",
+        "sourceURI": "https://dserver.bundestag.de/btd/19/102/1910201.pdf"
+      }
+    ],
+    "key": "19-102 tagesordnungspunkt 24 (daniela ludwig)",
+    "dateStart": "2019-05-17T08:04:59",
+    "dateEnd": "2019-05-17T08:09:28",
+    "media": {
+      "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7356130/7356130_h264_720_400_2000kb_baseline_de_2192.mp4",
+      "sourcePage": "http://dbtg.tv/fvid/7356130",
+      "duration": 269.0,
+      "creator": "Deutscher Bundestag",
+      "license": "CC-BY-SA",
+      "originMediaID": "7356130",
+      "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7356130/7356130_mp3_128kb_stereo_de_128.mp3"
+    }
+  },
+  {
+    "parliament": "DE",
+    "electoralPeriod": {
+      "number": "19"
+    },
+    "session": {
+      "number": "102",
+      "dateStart": "2019-05-17T09:00",
+      "dateEnd": "2019-05-17T17:30"
+    },
+    "agendaItem": {
+      "officialTitle": "Tagesordnungspunkt 24",
+      "speechIndex": 1015,
+      "title": "Maritime Wirtschaftspolitik"
+    },
+    "people": [
+      {
+        "type": "memberOfParliament",
+        "label": "Wolfgang Kubicki",
+        "context": "vice-president"
+      }
+    ],
+    "textContents": [
+      {
+        "type": "proceedings",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19102-data.xml",
+        "creator": "Deutscher Bundestag",
+        "license": "Public Domain",
+        "language": "DE-de",
+        "originTextID": "",
+        "textBody": [
           {
             "type": "speech",
             "speaker": "Wolfgang Kubicki",
@@ -5558,32 +5726,9 @@
         "sourceURI": "https://dserver.bundestag.de/btd/19/102/1910201.pdf"
       }
     ],
-    "key": "19-102 tagesordnungspunkt 24 (daniela ludwig)",
-    "dateStart": "2019-05-17T08:04:59",
-    "dateEnd": "2019-05-17T08:09:28",
-    "media": {
-      "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7356130/7356130_h264_720_400_2000kb_baseline_de_2192.mp4",
-      "sourcePage": "http://dbtg.tv/fvid/7356130",
-      "duration": 269.0,
-      "creator": "Deutscher Bundestag",
-      "license": "CC-BY-SA",
-      "originMediaID": "7356130",
-      "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7356130/7356130_mp3_128kb_stereo_de_128.mp3"
-    }
-  },
-  {
-    "parliament": "DE",
-    "electoralPeriod": {
-      "number": 19
-    },
-    "session": {
-      "number": 102
-    },
-    "agendaItem": {
-      "title": "Maritime Wirtschaftspolitik",
-      "officialTitle": "Tagesordnungspunkt 24",
-      "speechIndex": 15
-    },
+    "key": "19-102 tagesordnungspunkt 24 (wolfgang kubicki)",
+    "dateStart": "2019-05-17T08:09:28",
+    "dateEnd": "2019-05-17T08:10:32",
     "media": {
       "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7356134/7356134_h264_720_400_2000kb_baseline_de_2192.mp4",
       "sourcePage": "http://dbtg.tv/fvid/7356134",
@@ -5592,18 +5737,7 @@
       "license": "CC-BY-SA",
       "originMediaID": "7356134",
       "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7356134/7356134_mp3_128kb_stereo_de_128.mp3"
-    },
-    "dateStart": "2019-05-17T08:09:28",
-    "dateEnd": "2019-05-17T08:10:32",
-    "people": [
-      {
-        "label": "Wolfgang Kubicki",
-        "faction": "FDP",
-        "context": "main-speaker",
-        "role": "Bundestagsvizepräsident"
-      }
-    ],
-    "key": "19-102 tagesordnungspunkt 24 (wolfgang kubicki)"
+    }
   },
   {
     "parliament": "DE",
@@ -5617,7 +5751,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 25",
-      "speechIndex": 15,
+      "speechIndex": 1016,
       "title": "Europol"
     },
     "people": [
@@ -5630,12 +5764,34 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19102-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19102-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
         "originTextID": "",
         "textBody": [
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Kubicki",
+            "speakerstatus": "vice-president",
+            "text": "Beratung des Antrags der Abgeordneten Konstantin Kuhle, Stephan Thomae, Grigorios Aggelidis, weiterer Abgeordneter und der Fraktion der FDP",
+            "sentences": [
+              {
+                "text": "Beratung des Antrags der Abgeordneten Konstantin Kuhle, Stephan Thomae, Grigorios Aggelidis, weiterer Abgeordneter und der Fraktion der FDP"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Kubicki",
+            "speakerstatus": "vice-president",
+            "text": "Europol zu einem europäischen Kriminalamt aufwerten",
+            "sentences": [
+              {
+                "text": "Europol zu einem europäischen Kriminalamt aufwerten"
+              }
+            ]
+          },
           {
             "type": "speech",
             "speaker": "Wolfgang Kubicki",
@@ -5713,7 +5869,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 25",
-      "speechIndex": 16,
+      "speechIndex": 1017,
       "title": "Europol"
     },
     "people": [
@@ -5734,7 +5890,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19102-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19102-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -6102,7 +6258,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 25",
-      "speechIndex": 17,
+      "speechIndex": 1018,
       "title": "Europol"
     },
     "people": [
@@ -6123,7 +6279,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19102-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19102-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -6682,7 +6838,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 25",
-      "speechIndex": 18,
+      "speechIndex": 1019,
       "title": "Europol"
     },
     "people": [
@@ -6703,7 +6859,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19102-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19102-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -7113,7 +7269,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 25",
-      "speechIndex": 19,
+      "speechIndex": 1020,
       "title": "Europol"
     },
     "people": [
@@ -7134,7 +7290,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19102-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19102-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -7665,7 +7821,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 25",
-      "speechIndex": 20,
+      "speechIndex": 1021,
       "title": "Europol"
     },
     "people": [
@@ -7686,7 +7842,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19102-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19102-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -8113,7 +8269,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 25",
-      "speechIndex": 21,
+      "speechIndex": 1022,
       "title": "Europol"
     },
     "people": [
@@ -8134,7 +8290,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19102-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19102-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -8636,7 +8792,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 25",
-      "speechIndex": 22,
+      "speechIndex": 1023,
       "title": "Europol"
     },
     "people": [
@@ -8673,7 +8829,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19102-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19102-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -9691,7 +9847,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 25",
-      "speechIndex": 23,
+      "speechIndex": 1024,
       "title": "Europol"
     },
     "people": [
@@ -9720,7 +9876,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19102-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19102-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -10296,7 +10452,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 25",
-      "speechIndex": 24,
+      "speechIndex": 1025,
       "title": "Europol"
     },
     "people": [
@@ -10317,7 +10473,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19102-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19102-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -10958,7 +11114,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 25",
-      "speechIndex": 25,
+      "speechIndex": 1026,
       "title": "Europol"
     },
     "people": [
@@ -10987,7 +11143,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19102-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19102-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -11560,7 +11716,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 25",
-      "speechIndex": 26,
+      "speechIndex": 1027,
       "title": "Europol"
     },
     "people": [
@@ -11581,7 +11737,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19102-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19102-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -12197,7 +12353,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 25",
-      "speechIndex": 27,
+      "speechIndex": 1028,
       "title": "Europol"
     },
     "people": [
@@ -12208,17 +12364,12 @@
         "lastname": "Ullrich",
         "context": "main-speaker",
         "faction": "CDU/CSU"
-      },
-      {
-        "type": "memberOfParliament",
-        "label": "Wolfgang Kubicki",
-        "context": "vice-president"
       }
     ],
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19102-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19102-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -12447,18 +12598,61 @@
                 "text": "Herzlichen Dank."
               }
             ]
-          },
-          {
-            "type": "comment",
-            "speaker": null,
-            "speakerstatus": null,
-            "text": "(Beifall bei der CDU/CSU sowie bei Abgeordneten der SPD und der FDP)",
-            "sentences": [
-              {
-                "text": "(Beifall bei der CDU/CSU sowie bei Abgeordneten der SPD und der FDP)"
-              }
-            ]
-          },
+          }
+        ]
+      }
+    ],
+    "documents": [
+      {
+        "type": "officialDocument",
+        "label": "Drucksache 19/10164",
+        "sourceURI": "https://dserver.bundestag.de/btd/19/101/1910164.pdf"
+      }
+    ],
+    "key": "19-102 tagesordnungspunkt 25 (volker ullrich)",
+    "dateStart": "2019-05-17T09:19:36",
+    "dateEnd": "2019-05-17T09:24:58",
+    "media": {
+      "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7356177/7356177_h264_720_400_2000kb_baseline_de_2192.mp4",
+      "sourcePage": "http://dbtg.tv/fvid/7356177",
+      "duration": 322.0,
+      "creator": "Deutscher Bundestag",
+      "license": "CC-BY-SA",
+      "originMediaID": "7356177",
+      "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7356177/7356177_mp3_128kb_stereo_de_128.mp3"
+    }
+  },
+  {
+    "parliament": "DE",
+    "electoralPeriod": {
+      "number": "19"
+    },
+    "session": {
+      "number": "102",
+      "dateStart": "2019-05-17T09:00",
+      "dateEnd": "2019-05-17T17:30"
+    },
+    "agendaItem": {
+      "officialTitle": "Tagesordnungspunkt 25",
+      "speechIndex": 1029,
+      "title": "Europol"
+    },
+    "people": [
+      {
+        "type": "memberOfParliament",
+        "label": "Wolfgang Kubicki",
+        "context": "vice-president"
+      }
+    ],
+    "textContents": [
+      {
+        "type": "proceedings",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19102-data.xml",
+        "creator": "Deutscher Bundestag",
+        "license": "Public Domain",
+        "language": "DE-de",
+        "originTextID": "",
+        "textBody": [
           {
             "type": "speech",
             "speaker": "Wolfgang Kubicki",
@@ -12503,32 +12697,9 @@
         "sourceURI": "https://dserver.bundestag.de/btd/19/101/1910164.pdf"
       }
     ],
-    "key": "19-102 tagesordnungspunkt 25 (volker ullrich)",
-    "dateStart": "2019-05-17T09:19:36",
-    "dateEnd": "2019-05-17T09:24:58",
-    "media": {
-      "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7356177/7356177_h264_720_400_2000kb_baseline_de_2192.mp4",
-      "sourcePage": "http://dbtg.tv/fvid/7356177",
-      "duration": 322.0,
-      "creator": "Deutscher Bundestag",
-      "license": "CC-BY-SA",
-      "originMediaID": "7356177",
-      "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7356177/7356177_mp3_128kb_stereo_de_128.mp3"
-    }
-  },
-  {
-    "parliament": "DE",
-    "electoralPeriod": {
-      "number": 19
-    },
-    "session": {
-      "number": 102
-    },
-    "agendaItem": {
-      "title": "Europol",
-      "officialTitle": "Tagesordnungspunkt 25",
-      "speechIndex": 29
-    },
+    "key": "19-102 tagesordnungspunkt 25 (wolfgang kubicki) #1",
+    "dateStart": "2019-05-17T09:24:58",
+    "dateEnd": "2019-05-17T09:25:13",
     "media": {
       "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7356178/7356178_h264_720_400_2000kb_baseline_de_2192.mp4",
       "sourcePage": "http://dbtg.tv/fvid/7356178",
@@ -12537,18 +12708,7 @@
       "license": "CC-BY-SA",
       "originMediaID": "7356178",
       "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7356178/7356178_mp3_128kb_stereo_de_128.mp3"
-    },
-    "dateStart": "2019-05-17T09:24:58",
-    "dateEnd": "2019-05-17T09:25:13",
-    "people": [
-      {
-        "label": "Wolfgang Kubicki",
-        "faction": "FDP",
-        "context": "main-speaker",
-        "role": "Bundestagsvizepräsident"
-      }
-    ],
-    "key": "19-102 tagesordnungspunkt 25 (wolfgang kubicki) #1"
+    }
   },
   {
     "parliament": "DE",
@@ -12562,7 +12722,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 26",
-      "speechIndex": 28,
+      "speechIndex": 1030,
       "title": "Bundeswehreinsatz in Libanon (UNIFIL)"
     },
     "people": [
@@ -12575,12 +12735,34 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19102-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19102-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
         "originTextID": "",
         "textBody": [
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Kubicki",
+            "speakerstatus": "vice-president",
+            "text": "Beratung des Antrags der Bundesregierung",
+            "sentences": [
+              {
+                "text": "Beratung des Antrags der Bundesregierung"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Kubicki",
+            "speakerstatus": "vice-president",
+            "text": "Fortsetzung der Beteiligung bewaffneter deutscher Streitkräfte an der „United Nations Interim Force in Lebanon“ (UNIFIL)",
+            "sentences": [
+              {
+                "text": "Fortsetzung der Beteiligung bewaffneter deutscher Streitkräfte an der „United Nations Interim Force in Lebanon“ (UNIFIL)"
+              }
+            ]
+          },
           {
             "type": "speech",
             "speaker": "Wolfgang Kubicki",
@@ -12675,7 +12857,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 26",
-      "speechIndex": 29,
+      "speechIndex": 1031,
       "title": "Bundeswehreinsatz in Libanon (UNIFIL)"
     },
     "people": [
@@ -12696,7 +12878,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19102-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19102-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -13210,7 +13392,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 26",
-      "speechIndex": 30,
+      "speechIndex": 1032,
       "title": "Bundeswehreinsatz in Libanon (UNIFIL)"
     },
     "people": [
@@ -13231,7 +13413,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19102-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19102-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -13774,7 +13956,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 26",
-      "speechIndex": 31,
+      "speechIndex": 1033,
       "title": "Bundeswehreinsatz in Libanon (UNIFIL)"
     },
     "people": [
@@ -13795,7 +13977,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19102-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19102-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -14116,7 +14298,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 26",
-      "speechIndex": 32,
+      "speechIndex": 1034,
       "title": "Bundeswehreinsatz in Libanon (UNIFIL)"
     },
     "people": [
@@ -14137,7 +14319,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19102-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19102-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -14424,7 +14606,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 26",
-      "speechIndex": 33,
+      "speechIndex": 1035,
       "title": "Bundeswehreinsatz in Libanon (UNIFIL)"
     },
     "people": [
@@ -14445,7 +14627,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19102-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19102-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -14754,7 +14936,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 26",
-      "speechIndex": 34,
+      "speechIndex": 1036,
       "title": "Bundeswehreinsatz in Libanon (UNIFIL)"
     },
     "people": [
@@ -14775,7 +14957,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19102-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19102-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -15067,7 +15249,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 26",
-      "speechIndex": 35,
+      "speechIndex": 1037,
       "title": "Bundeswehreinsatz in Libanon (UNIFIL)"
     },
     "people": [
@@ -15088,7 +15270,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19102-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19102-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -15343,7 +15525,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 26",
-      "speechIndex": 36,
+      "speechIndex": 1038,
       "title": "Bundeswehreinsatz in Libanon (UNIFIL)"
     },
     "people": [
@@ -15354,17 +15536,12 @@
         "lastname": "Kiesewetter",
         "context": "main-speaker",
         "faction": "CDU/CSU"
-      },
-      {
-        "type": "memberOfParliament",
-        "label": "Hans-Peter Friedrich",
-        "context": "vice-president"
       }
     ],
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19102-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19102-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -15584,18 +15761,61 @@
                 "text": "Herzlichen Dank."
               }
             ]
-          },
-          {
-            "type": "comment",
-            "speaker": null,
-            "speakerstatus": null,
-            "text": "(Beifall bei der CDU/CSU und der SPD)",
-            "sentences": [
-              {
-                "text": "(Beifall bei der CDU/CSU und der SPD)"
-              }
-            ]
-          },
+          }
+        ]
+      }
+    ],
+    "documents": [
+      {
+        "type": "officialDocument",
+        "label": "Drucksache 19/9956",
+        "sourceURI": "https://dserver.bundestag.de/btd/19/099/1909956.pdf"
+      }
+    ],
+    "key": "19-102 tagesordnungspunkt 26 (roderich kiesewetter)",
+    "dateStart": "2019-05-17T10:01:46",
+    "dateEnd": "2019-05-17T10:05:52",
+    "media": {
+      "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7356190/7356190_h264_720_400_2000kb_baseline_de_2192.mp4",
+      "sourcePage": "http://dbtg.tv/fvid/7356190",
+      "duration": 246.0,
+      "creator": "Deutscher Bundestag",
+      "license": "CC-BY-SA",
+      "originMediaID": "7356190",
+      "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7356190/7356190_mp3_128kb_stereo_de_128.mp3"
+    }
+  },
+  {
+    "parliament": "DE",
+    "electoralPeriod": {
+      "number": "19"
+    },
+    "session": {
+      "number": "102",
+      "dateStart": "2019-05-17T09:00",
+      "dateEnd": "2019-05-17T17:30"
+    },
+    "agendaItem": {
+      "officialTitle": "Tagesordnungspunkt 26",
+      "speechIndex": 1039,
+      "title": "Bundeswehreinsatz in Libanon (UNIFIL)"
+    },
+    "people": [
+      {
+        "type": "memberOfParliament",
+        "label": "Hans-Peter Friedrich",
+        "context": "vice-president"
+      }
+    ],
+    "textContents": [
+      {
+        "type": "proceedings",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19102-data.xml",
+        "creator": "Deutscher Bundestag",
+        "license": "Public Domain",
+        "language": "DE-de",
+        "originTextID": "",
+        "textBody": [
           {
             "type": "speech",
             "speaker": "Hans-Peter Friedrich",
@@ -15640,32 +15860,9 @@
         "sourceURI": "https://dserver.bundestag.de/btd/19/099/1909956.pdf"
       }
     ],
-    "key": "19-102 tagesordnungspunkt 26 (roderich kiesewetter)",
-    "dateStart": "2019-05-17T10:01:46",
-    "dateEnd": "2019-05-17T10:05:52",
-    "media": {
-      "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7356190/7356190_h264_720_400_2000kb_baseline_de_2192.mp4",
-      "sourcePage": "http://dbtg.tv/fvid/7356190",
-      "duration": 246.0,
-      "creator": "Deutscher Bundestag",
-      "license": "CC-BY-SA",
-      "originMediaID": "7356190",
-      "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7356190/7356190_mp3_128kb_stereo_de_128.mp3"
-    }
-  },
-  {
-    "parliament": "DE",
-    "electoralPeriod": {
-      "number": 19
-    },
-    "session": {
-      "number": 102
-    },
-    "agendaItem": {
-      "title": "Bundeswehreinsatz in Libanon (UNIFIL)",
-      "officialTitle": "Tagesordnungspunkt 26",
-      "speechIndex": 39
-    },
+    "key": "19-102 tagesordnungspunkt 26 (hans-peter friedrich)",
+    "dateStart": "2019-05-17T10:05:52",
+    "dateEnd": "2019-05-17T10:06:21",
     "media": {
       "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7356191/7356191_h264_720_400_2000kb_baseline_de_2192.mp4",
       "sourcePage": "http://dbtg.tv/fvid/7356191",
@@ -15674,18 +15871,7 @@
       "license": "CC-BY-SA",
       "originMediaID": "7356191",
       "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7356191/7356191_mp3_128kb_stereo_de_128.mp3"
-    },
-    "dateStart": "2019-05-17T10:05:52",
-    "dateEnd": "2019-05-17T10:06:21",
-    "people": [
-      {
-        "label": "Hans-Peter Friedrich",
-        "faction": "CDU/CSU",
-        "context": "main-speaker",
-        "role": "Bundestagsvizepräsident"
-      }
-    ],
-    "key": "19-102 tagesordnungspunkt 26 (hans-peter friedrich)"
+    }
   },
   {
     "parliament": "DE",
@@ -15699,7 +15885,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 27",
-      "speechIndex": 37,
+      "speechIndex": 1040,
       "title": "Schutz von Gewässern und Grundwasser"
     },
     "people": [
@@ -15712,12 +15898,56 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19102-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19102-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
         "originTextID": "",
         "textBody": [
+          {
+            "type": "speech",
+            "speaker": "Hans-Peter Friedrich",
+            "speakerstatus": "vice-president",
+            "text": "a) Beratung des Antrags der Abgeordneten Dr. Bettina Hoffmann, Britta Haßelmann, Lisa Badum, weiterer Abgeordneter und der Fraktion BÜNDNIS 90/DIE GRÜNEN",
+            "sentences": [
+              {
+                "text": "a) Beratung des Antrags der Abgeordneten Dr. Bettina Hoffmann, Britta Haßelmann, Lisa Badum, weiterer Abgeordneter und der Fraktion BÜNDNIS 90/DIE GRÜNEN"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Hans-Peter Friedrich",
+            "speakerstatus": "vice-president",
+            "text": "Wasser muss sauber und bezahlbar bleiben",
+            "sentences": [
+              {
+                "text": "Wasser muss sauber und bezahlbar bleiben"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Hans-Peter Friedrich",
+            "speakerstatus": "vice-president",
+            "text": "b) Beratung des Antrags der Abgeordneten Dr. Bettina Hoffmann, Friedrich Ostendorff, Lisa Badum, weiterer Abgeordneter und der Fraktion BÜNDNIS 90/DIE GRÜNEN",
+            "sentences": [
+              {
+                "text": "b) Beratung des Antrags der Abgeordneten Dr. Bettina Hoffmann, Friedrich Ostendorff, Lisa Badum, weiterer Abgeordneter und der Fraktion BÜNDNIS 90/DIE GRÜNEN"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Hans-Peter Friedrich",
+            "speakerstatus": "vice-president",
+            "text": "Grundwasser schützen, Überdüngung stoppen",
+            "sentences": [
+              {
+                "text": "Grundwasser schützen, Überdüngung stoppen"
+              }
+            ]
+          },
           {
             "type": "speech",
             "speaker": "Hans-Peter Friedrich",
@@ -15803,7 +16033,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 27",
-      "speechIndex": 38,
+      "speechIndex": 1041,
       "title": "Schutz von Gewässern und Grundwasser"
     },
     "people": [
@@ -15824,7 +16054,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19102-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19102-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -16183,7 +16413,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 27",
-      "speechIndex": 39,
+      "speechIndex": 1042,
       "title": "Schutz von Gewässern und Grundwasser"
     },
     "people": [
@@ -16204,7 +16434,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19102-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19102-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -16758,7 +16988,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 27",
-      "speechIndex": 40,
+      "speechIndex": 1043,
       "title": "Schutz von Gewässern und Grundwasser"
     },
     "people": [
@@ -16779,7 +17009,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19102-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19102-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -17216,7 +17446,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 27",
-      "speechIndex": 41,
+      "speechIndex": 1044,
       "title": "Schutz von Gewässern und Grundwasser"
     },
     "people": [
@@ -17237,7 +17467,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19102-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19102-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -17568,7 +17798,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 27",
-      "speechIndex": 42,
+      "speechIndex": 1045,
       "title": "Schutz von Gewässern und Grundwasser"
     },
     "people": [
@@ -17589,7 +17819,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19102-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19102-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -17987,7 +18217,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 27",
-      "speechIndex": 43,
+      "speechIndex": 1046,
       "title": "Schutz von Gewässern und Grundwasser"
     },
     "people": [
@@ -18008,7 +18238,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19102-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19102-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -18490,7 +18720,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 27",
-      "speechIndex": 44,
+      "speechIndex": 1047,
       "title": "Schutz von Gewässern und Grundwasser"
     },
     "people": [
@@ -18511,7 +18741,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19102-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19102-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -18883,7 +19113,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 27",
-      "speechIndex": 45,
+      "speechIndex": 1048,
       "title": "Schutz von Gewässern und Grundwasser"
     },
     "people": [
@@ -18904,7 +19134,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19102-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19102-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -19260,7 +19490,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 27",
-      "speechIndex": 46,
+      "speechIndex": 1049,
       "title": "Schutz von Gewässern und Grundwasser"
     },
     "people": [
@@ -19281,7 +19511,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19102-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19102-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -19720,7 +19950,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 27",
-      "speechIndex": 47,
+      "speechIndex": 1050,
       "title": "Schutz von Gewässern und Grundwasser"
     },
     "people": [
@@ -19741,7 +19971,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19102-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19102-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -20063,7 +20293,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 27",
-      "speechIndex": 48,
+      "speechIndex": 1051,
       "title": "Schutz von Gewässern und Grundwasser"
     },
     "people": [
@@ -20084,7 +20314,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19102-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19102-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -20465,7 +20695,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 27",
-      "speechIndex": 49,
+      "speechIndex": 1052,
       "title": "Schutz von Gewässern und Grundwasser"
     },
     "people": [
@@ -20476,17 +20706,12 @@
         "lastname": "Auernhammer",
         "context": "main-speaker",
         "faction": "CDU/CSU"
-      },
-      {
-        "type": "memberOfParliament",
-        "label": "Hans-Peter Friedrich",
-        "context": "vice-president"
       }
     ],
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19102-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19102-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -20915,18 +21140,66 @@
                 "text": "Ich bedanke mich."
               }
             ]
-          },
-          {
-            "type": "comment",
-            "speaker": null,
-            "speakerstatus": null,
-            "text": "(Beifall bei der CDU/CSU sowie bei Abgeordneten der FDP)",
-            "sentences": [
-              {
-                "text": "(Beifall bei der CDU/CSU sowie bei Abgeordneten der FDP)"
-              }
-            ]
-          },
+          }
+        ]
+      }
+    ],
+    "documents": [
+      {
+        "type": "officialDocument",
+        "label": "Drucksache 19/8649",
+        "sourceURI": "https://dserver.bundestag.de/btd/19/086/1908649.pdf"
+      },
+      {
+        "type": "officialDocument",
+        "label": "Drucksache 19/9959",
+        "sourceURI": "https://dserver.bundestag.de/btd/19/099/1909959.pdf"
+      }
+    ],
+    "key": "19-102 tagesordnungspunkt 27 (artur auernhammer)",
+    "dateStart": "2019-05-17T11:04:54",
+    "dateEnd": "2019-05-17T11:11:05",
+    "media": {
+      "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7356214/7356214_h264_720_400_2000kb_baseline_de_2192.mp4",
+      "sourcePage": "http://dbtg.tv/fvid/7356214",
+      "duration": 371.0,
+      "creator": "Deutscher Bundestag",
+      "license": "CC-BY-SA",
+      "originMediaID": "7356214",
+      "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7356214/7356214_mp3_128kb_stereo_de_128.mp3"
+    }
+  },
+  {
+    "parliament": "DE",
+    "electoralPeriod": {
+      "number": "19"
+    },
+    "session": {
+      "number": "102",
+      "dateStart": "2019-05-17T09:00",
+      "dateEnd": "2019-05-17T17:30"
+    },
+    "agendaItem": {
+      "officialTitle": "Tagesordnungspunkt 27",
+      "speechIndex": 1053,
+      "title": "Schutz von Gewässern und Grundwasser"
+    },
+    "people": [
+      {
+        "type": "memberOfParliament",
+        "label": "Hans-Peter Friedrich",
+        "context": "vice-president"
+      }
+    ],
+    "textContents": [
+      {
+        "type": "proceedings",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19102-data.xml",
+        "creator": "Deutscher Bundestag",
+        "license": "Public Domain",
+        "language": "DE-de",
+        "originTextID": "",
+        "textBody": [
           {
             "type": "speech",
             "speaker": "Hans-Peter Friedrich",
@@ -21048,32 +21321,9 @@
         "sourceURI": "https://dserver.bundestag.de/btd/19/099/1909959.pdf"
       }
     ],
-    "key": "19-102 tagesordnungspunkt 27 (artur auernhammer)",
-    "dateStart": "2019-05-17T11:04:54",
-    "dateEnd": "2019-05-17T11:11:05",
-    "media": {
-      "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7356214/7356214_h264_720_400_2000kb_baseline_de_2192.mp4",
-      "sourcePage": "http://dbtg.tv/fvid/7356214",
-      "duration": 371.0,
-      "creator": "Deutscher Bundestag",
-      "license": "CC-BY-SA",
-      "originMediaID": "7356214",
-      "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7356214/7356214_mp3_128kb_stereo_de_128.mp3"
-    }
-  },
-  {
-    "parliament": "DE",
-    "electoralPeriod": {
-      "number": 19
-    },
-    "session": {
-      "number": 102
-    },
-    "agendaItem": {
-      "title": "Schutz von Gewässern und Grundwasser",
-      "officialTitle": "Tagesordnungspunkt 27",
-      "speechIndex": 53
-    },
+    "key": "19-102 tagesordnungspunkt 27 (hans-peter friedrich) #1",
+    "dateStart": "2019-05-17T11:11:05",
+    "dateEnd": "2019-05-17T11:12:29",
     "media": {
       "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7356215/7356215_h264_720_400_2000kb_baseline_de_2192.mp4",
       "sourcePage": "http://dbtg.tv/fvid/7356215",
@@ -21082,18 +21332,7 @@
       "license": "CC-BY-SA",
       "originMediaID": "7356215",
       "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7356215/7356215_mp3_128kb_stereo_de_128.mp3"
-    },
-    "dateStart": "2019-05-17T11:11:05",
-    "dateEnd": "2019-05-17T11:12:29",
-    "people": [
-      {
-        "label": "Hans-Peter Friedrich",
-        "faction": "CDU/CSU",
-        "context": "main-speaker",
-        "role": "Bundestagsvizepräsident"
-      }
-    ],
-    "key": "19-102 tagesordnungspunkt 27 (hans-peter friedrich) #1"
+    }
   },
   {
     "parliament": "DE",
@@ -21515,7 +21754,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 29",
-      "speechIndex": 61,
+      "speechIndex": 1066,
       "title": "EU-Budget"
     },
     "people": [
@@ -21528,12 +21767,34 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19102-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19102-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
         "originTextID": "",
         "textBody": [
+          {
+            "type": "speech",
+            "speaker": "Hans-Peter Friedrich",
+            "speakerstatus": "vice-president",
+            "text": "Beratung des Antrags der Abgeordneten Dr. Alice Weidel, Dr. Bernd Baumann, Peter Boehringer, weiterer Abgeordneter und der Fraktion der AfD",
+            "sentences": [
+              {
+                "text": "Beratung des Antrags der Abgeordneten Dr. Alice Weidel, Dr. Bernd Baumann, Peter Boehringer, weiterer Abgeordneter und der Fraktion der AfD"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Hans-Peter Friedrich",
+            "speakerstatus": "vice-president",
+            "text": "EU-Budget zum Wohle Europas kürzen",
+            "sentences": [
+              {
+                "text": "EU-Budget zum Wohle Europas kürzen"
+              }
+            ]
+          },
           {
             "type": "speech",
             "speaker": "Hans-Peter Friedrich",
@@ -21600,7 +21861,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 29",
-      "speechIndex": 62,
+      "speechIndex": 1067,
       "title": "EU-Budget"
     },
     "people": [
@@ -21621,7 +21882,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19102-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19102-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -22141,7 +22402,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 29",
-      "speechIndex": 63,
+      "speechIndex": 1068,
       "title": "EU-Budget"
     },
     "people": [
@@ -22162,7 +22423,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19102-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19102-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -22543,7 +22804,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 29",
-      "speechIndex": 64,
+      "speechIndex": 1069,
       "title": "EU-Budget"
     },
     "people": [
@@ -22564,7 +22825,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19102-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19102-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -22975,7 +23236,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 29",
-      "speechIndex": 65,
+      "speechIndex": 1070,
       "title": "EU-Budget"
     },
     "people": [
@@ -22996,7 +23257,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19102-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19102-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -23459,7 +23720,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 29",
-      "speechIndex": 66,
+      "speechIndex": 1071,
       "title": "EU-Budget"
     },
     "people": [
@@ -23480,7 +23741,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19102-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19102-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -23593,7 +23854,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 29",
-      "speechIndex": 67,
+      "speechIndex": 1072,
       "title": "EU-Budget"
     },
     "people": [
@@ -23622,7 +23883,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19102-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19102-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -23908,7 +24169,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 29",
-      "speechIndex": 68,
+      "speechIndex": 1073,
       "title": "EU-Budget"
     },
     "people": [
@@ -23929,7 +24190,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19102-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19102-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -24283,7 +24544,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 29",
-      "speechIndex": 69,
+      "speechIndex": 1074,
       "title": "EU-Budget"
     },
     "people": [
@@ -24304,7 +24565,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19102-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19102-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -24763,7 +25024,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 29",
-      "speechIndex": 70,
+      "speechIndex": 1075,
       "title": "EU-Budget"
     },
     "people": [
@@ -24784,7 +25045,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19102-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19102-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -25068,7 +25329,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 29",
-      "speechIndex": 71,
+      "speechIndex": 1076,
       "title": "EU-Budget"
     },
     "people": [
@@ -25089,7 +25350,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19102-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19102-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -25426,7 +25687,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 29",
-      "speechIndex": 72,
+      "speechIndex": 1077,
       "title": "EU-Budget"
     },
     "people": [
@@ -25437,17 +25698,12 @@
         "lastname": "Amthor",
         "context": "main-speaker",
         "faction": "CDU/CSU"
-      },
-      {
-        "type": "memberOfParliament",
-        "label": "Claudia Roth",
-        "context": "vice-president"
       }
     ],
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19102-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19102-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -25765,7 +26021,61 @@
                 "text": "(Beifall bei der CDU/CSU sowie bei Abgeordneten der SPD)"
               }
             ]
-          },
+          }
+        ]
+      }
+    ],
+    "documents": [
+      {
+        "type": "officialDocument",
+        "label": "Drucksache 19/10171",
+        "sourceURI": "https://dserver.bundestag.de/btd/19/101/1910171.pdf"
+      }
+    ],
+    "key": "19-102 tagesordnungspunkt 29 (philipp amthor)",
+    "dateStart": "2019-05-17T12:38:48",
+    "dateEnd": "2019-05-17T12:42:42",
+    "media": {
+      "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7356253/7356253_h264_720_400_2000kb_baseline_de_2192.mp4",
+      "sourcePage": "http://dbtg.tv/fvid/7356253",
+      "duration": 234.0,
+      "creator": "Deutscher Bundestag",
+      "license": "CC-BY-SA",
+      "originMediaID": "7356253",
+      "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7356253/7356253_mp3_128kb_stereo_de_128.mp3"
+    }
+  },
+  {
+    "parliament": "DE",
+    "electoralPeriod": {
+      "number": "19"
+    },
+    "session": {
+      "number": "102",
+      "dateStart": "2019-05-17T09:00",
+      "dateEnd": "2019-05-17T17:30"
+    },
+    "agendaItem": {
+      "officialTitle": "Tagesordnungspunkt 29",
+      "speechIndex": 1078,
+      "title": "EU-Budget"
+    },
+    "people": [
+      {
+        "type": "memberOfParliament",
+        "label": "Claudia Roth",
+        "context": "vice-president"
+      }
+    ],
+    "textContents": [
+      {
+        "type": "proceedings",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19102-data.xml",
+        "creator": "Deutscher Bundestag",
+        "license": "Public Domain",
+        "language": "DE-de",
+        "originTextID": "",
+        "textBody": [
           {
             "type": "speech",
             "speaker": "Claudia Roth",
@@ -25797,17 +26107,6 @@
               },
               {
                 "text": "Die Fraktion der AfD wünscht Federführung beim Haushaltsausschuss."
-              }
-            ]
-          },
-          {
-            "type": "comment",
-            "speaker": null,
-            "speakerstatus": null,
-            "text": "(Gunther Krichbaum [CDU/CSU]: So ein Unsinn!)",
-            "sentences": [
-              {
-                "text": "(Gunther Krichbaum [CDU/CSU]: So ein Unsinn!)"
               }
             ]
           },
@@ -25876,32 +26175,9 @@
         "sourceURI": "https://dserver.bundestag.de/btd/19/101/1910171.pdf"
       }
     ],
-    "key": "19-102 tagesordnungspunkt 29 (philipp amthor)",
-    "dateStart": "2019-05-17T12:38:48",
-    "dateEnd": "2019-05-17T12:42:42",
-    "media": {
-      "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7356253/7356253_h264_720_400_2000kb_baseline_de_2192.mp4",
-      "sourcePage": "http://dbtg.tv/fvid/7356253",
-      "duration": 234.0,
-      "creator": "Deutscher Bundestag",
-      "license": "CC-BY-SA",
-      "originMediaID": "7356253",
-      "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7356253/7356253_mp3_128kb_stereo_de_128.mp3"
-    }
-  },
-  {
-    "parliament": "DE",
-    "electoralPeriod": {
-      "number": 19
-    },
-    "session": {
-      "number": 102
-    },
-    "agendaItem": {
-      "title": "EU-Budget",
-      "officialTitle": "Tagesordnungspunkt 29",
-      "speechIndex": 79
-    },
+    "key": "19-102 tagesordnungspunkt 29 (claudia roth)",
+    "dateStart": "2019-05-17T12:42:42",
+    "dateEnd": "2019-05-17T12:44:23",
     "media": {
       "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7356254/7356254_h264_720_400_2000kb_baseline_de_2192.mp4",
       "sourcePage": "http://dbtg.tv/fvid/7356254",
@@ -25910,18 +26186,7 @@
       "license": "CC-BY-SA",
       "originMediaID": "7356254",
       "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7356254/7356254_mp3_128kb_stereo_de_128.mp3"
-    },
-    "dateStart": "2019-05-17T12:42:42",
-    "dateEnd": "2019-05-17T12:44:23",
-    "people": [
-      {
-        "label": "Claudia Roth",
-        "faction": "BÜNDNIS 90/DIE GRÜNEN",
-        "context": "main-speaker",
-        "role": "Bundestagsvizepräsidentin"
-      }
-    ],
-    "key": "19-102 tagesordnungspunkt 29 (claudia roth)"
+    }
   },
   {
     "parliament": "DE",
@@ -25935,7 +26200,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 11",
-      "speechIndex": 73,
+      "speechIndex": 1079,
       "title": "BDS-Bewegung"
     },
     "people": [
@@ -25948,12 +26213,45 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19102-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19102-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
         "originTextID": "",
         "textBody": [
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "Der BDS-Bewegung entschlossen entgegentreten – Antisemitismus bekämpfen",
+            "sentences": [
+              {
+                "text": "Der BDS-Bewegung entschlossen entgegentreten – Antisemitismus bekämpfen"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "BDS-Bewegung verurteilen – Existenz des Staates Israel schützen",
+            "sentences": [
+              {
+                "text": "BDS-Bewegung verurteilen – Existenz des Staates Israel schützen"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "BDS-Bewegung ablehnen – Friedliche Lösung im Nahen Osten befördern",
+            "sentences": [
+              {
+                "text": "BDS-Bewegung ablehnen – Friedliche Lösung im Nahen Osten befördern"
+              }
+            ]
+          },
           {
             "type": "speech",
             "speaker": "Claudia Roth",
@@ -26041,7 +26339,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 11",
-      "speechIndex": 74,
+      "speechIndex": 1080,
       "title": "BDS-Bewegung"
     },
     "people": [
@@ -26062,7 +26360,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19102-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19102-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -26529,7 +26827,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 11",
-      "speechIndex": 75,
+      "speechIndex": 1081,
       "title": "BDS-Bewegung"
     },
     "people": [
@@ -26550,7 +26848,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19102-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19102-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -26988,7 +27286,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 11",
-      "speechIndex": 76,
+      "speechIndex": 1082,
       "title": "BDS-Bewegung"
     },
     "people": [
@@ -27009,7 +27307,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19102-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19102-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -27290,7 +27588,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 11",
-      "speechIndex": 77,
+      "speechIndex": 1083,
       "title": "BDS-Bewegung"
     },
     "people": [
@@ -27311,7 +27609,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19102-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19102-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -27672,7 +27970,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 11",
-      "speechIndex": 78,
+      "speechIndex": 1084,
       "title": "BDS-Bewegung"
     },
     "people": [
@@ -27693,7 +27991,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19102-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19102-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -28037,7 +28335,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 11",
-      "speechIndex": 79,
+      "speechIndex": 1085,
       "title": "BDS-Bewegung"
     },
     "people": [
@@ -28058,7 +28356,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19102-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19102-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -28458,7 +28756,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 11",
-      "speechIndex": 80,
+      "speechIndex": 1086,
       "title": "BDS-Bewegung"
     },
     "people": [
@@ -28479,7 +28777,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19102-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19102-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -28647,7 +28945,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 11",
-      "speechIndex": 81,
+      "speechIndex": 1087,
       "title": "BDS-Bewegung"
     },
     "people": [
@@ -28668,7 +28966,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19102-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19102-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -28941,7 +29239,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 11",
-      "speechIndex": 82,
+      "speechIndex": 1088,
       "title": "BDS-Bewegung"
     },
     "people": [
@@ -28962,7 +29260,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19102-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19102-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -29292,150 +29590,6 @@
                 "text": "Enthalten hat sich fast einheitlich die AfD-Fraktion."
               }
             ]
-          },
-          {
-            "type": "comment",
-            "speaker": null,
-            "speakerstatus": null,
-            "text": "(Jürgen Braun [AfD]: Einheitlich!)",
-            "sentences": [
-              {
-                "text": "(Jürgen Braun [AfD]: Einheitlich!)"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Claudia Roth",
-            "speakerstatus": "vice-president",
-            "text": "– Es ist wirklich schwierig, Herr Braun. Gut, einheitlich. – Enthalten haben sich die AfD-Fraktion sowie einige Kolleginnen und Kollegen von Bündnis 90/Die Grünen und der Linken. – Entschuldigen Sie, aber es ist sehr unübersichtlich. Ich hoffe, dass ich das jetzt richtig gesagt habe. Damit ist der Antrag – –",
-            "sentences": [
-              {
-                "text": "– Es ist wirklich schwierig, Herr Braun."
-              },
-              {
-                "text": "Gut, einheitlich."
-              },
-              {
-                "text": "– Enthalten haben sich die AfD-Fraktion sowie einige Kolleginnen und Kollegen von Bündnis 90/Die Grünen und der Linken."
-              },
-              {
-                "text": "– Entschuldigen Sie, aber es ist sehr unübersichtlich."
-              },
-              {
-                "text": "Ich hoffe, dass ich das jetzt richtig gesagt habe."
-              },
-              {
-                "text": "Damit ist der Antrag – –"
-              }
-            ]
-          },
-          {
-            "type": "comment",
-            "speaker": null,
-            "speakerstatus": null,
-            "text": "(Abg. Michael Grosse-Brömer [CDU/CSU] begibt sich zum Präsidium)",
-            "sentences": [
-              {
-                "text": "(Abg. Michael Grosse-Brömer [CDU/CSU] begibt sich zum Präsidium)"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Claudia Roth",
-            "speakerstatus": "vice-president",
-            "text": "– Es gibt Unklarheiten. Deswegen frage ich Sie noch mal – auch diejenigen, die sich jetzt schon um die Boxen versammelt haben –: Wer stimmt für den Antrag? – Wer stimmt dagegen? – Wer enthält sich? – Danke schön, Herr Grosse-Brömer; es war tatsächlich so. Für uns war das anders sichtbar. – Für den Antrag haben gestimmt die CDU/CSU-Fraktion, die FDP-Fraktion, die SPD-Fraktion, Herr Mieruch und große Teile der Grünenfraktion. Dagegengestimmt haben Teile der Linken – –",
-            "sentences": [
-              {
-                "text": "– Es gibt Unklarheiten."
-              },
-              {
-                "text": "Deswegen frage ich Sie noch mal – auch diejenigen, die sich jetzt schon um die Boxen versammelt haben –: Wer stimmt für den Antrag?"
-              },
-              {
-                "text": "– Wer stimmt dagegen?"
-              },
-              {
-                "text": "– Wer enthält sich?"
-              },
-              {
-                "text": "– Danke schön, Herr Grosse-Brömer; es war tatsächlich so."
-              },
-              {
-                "text": "Für uns war das anders sichtbar."
-              },
-              {
-                "text": "– Für den Antrag haben gestimmt die CDU/CSU-Fraktion, die FDP-Fraktion, die SPD-Fraktion, Herr Mieruch und große Teile der Grünenfraktion."
-              },
-              {
-                "text": "Dagegengestimmt haben Teile der Linken – –"
-              }
-            ]
-          },
-          {
-            "type": "comment",
-            "speaker": null,
-            "speakerstatus": null,
-            "text": "(Kerstin Kassner [DIE LINKE]: Die Fraktion!)",
-            "sentences": [
-              {
-                "text": "(Kerstin Kassner [DIE LINKE]: Die Fraktion!)"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Claudia Roth",
-            "speakerstatus": "vice-president",
-            "text": "– Teile der Linken haben sich enthalten. So, jetzt ist mal Ruhe hier!",
-            "sentences": [
-              {
-                "text": "– Teile der Linken haben sich enthalten."
-              },
-              {
-                "text": "So, jetzt ist mal Ruhe hier!"
-              }
-            ]
-          },
-          {
-            "type": "comment",
-            "speaker": null,
-            "speakerstatus": null,
-            "text": "(Beifall bei Abgeordneten der CDU/CSU, der SPD, der FDP und des BÜNDNISSES 90/DIE GRÜNEN)",
-            "sentences": [
-              {
-                "text": "(Beifall bei Abgeordneten der CDU/CSU, der SPD, der FDP und des BÜNDNISSES 90/DIE GRÜNEN)"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Claudia Roth",
-            "speakerstatus": "vice-president",
-            "text": "Große Teile der Linken haben dagegengestimmt, und Teile der Grünenfraktion haben dagegengestimmt. Enthalten haben sich die AfD-Fraktion, Teile der Grünen und Teile der Linken. Damit ist der Antrag angenommen.",
-            "sentences": [
-              {
-                "text": "Große Teile der Linken haben dagegengestimmt, und Teile der Grünenfraktion haben dagegengestimmt."
-              },
-              {
-                "text": "Enthalten haben sich die AfD-Fraktion, Teile der Grünen und Teile der Linken."
-              },
-              {
-                "text": "Damit ist der Antrag angenommen."
-              }
-            ]
-          },
-          {
-            "type": "comment",
-            "speaker": null,
-            "speakerstatus": null,
-            "text": "(Beifall bei der CDU/CSU, der SPD und der FDP sowie bei Abgeordneten des BÜNDNISSES 90/DIE GRÜNEN)",
-            "sentences": [
-              {
-                "text": "(Beifall bei der CDU/CSU, der SPD und der FDP sowie bei Abgeordneten des BÜNDNISSES 90/DIE GRÜNEN)"
-              }
-            ]
           }
         ]
       }
@@ -29473,16 +29627,223 @@
   {
     "parliament": "DE",
     "electoralPeriod": {
-      "number": 19
+      "number": "19"
     },
     "session": {
-      "number": 102
+      "number": "102",
+      "dateStart": "2019-05-17T09:00",
+      "dateEnd": "2019-05-17T17:30"
     },
     "agendaItem": {
-      "title": "BDS-Bewegung",
       "officialTitle": "Zusatzpunkt 11",
-      "speechIndex": 90
+      "speechIndex": 1089,
+      "title": "BDS-Bewegung"
     },
+    "people": [
+      {
+        "type": "memberOfParliament",
+        "label": "Claudia Roth",
+        "context": "vice-president"
+      }
+    ],
+    "textContents": [
+      {
+        "type": "proceedings",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19102-data.xml",
+        "creator": "Deutscher Bundestag",
+        "license": "Public Domain",
+        "language": "DE-de",
+        "originTextID": "",
+        "textBody": [
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "Herr Lindh, Ihre Redezeit!",
+            "sentences": [
+              {
+                "text": "Herr Lindh, Ihre Redezeit!"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "Vielen Dank, Helge Lindh. – Damit schließe ich die Aussprache.",
+            "sentences": [
+              {
+                "text": "Vielen Dank, Helge Lindh."
+              },
+              {
+                "text": "– Damit schließe ich die Aussprache."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "Wir stimmen jetzt noch nicht namentlich ab. Es ist etwas unübersichtlich, weil sich manche Kolleginnen und Kollegen schon um die Urnen versammelt haben. Das wird es nicht leichter machen, gleich festzustellen, wie Sie zu den anderen Punkten abstimmen. Aber da wir sehr spät dran sind, kann ich manches verstehen.",
+            "sentences": [
+              {
+                "text": "Wir stimmen jetzt noch nicht namentlich ab."
+              },
+              {
+                "text": "Es ist etwas unübersichtlich, weil sich manche Kolleginnen und Kollegen schon um die Urnen versammelt haben."
+              },
+              {
+                "text": "Das wird es nicht leichter machen, gleich festzustellen, wie Sie zu den anderen Punkten abstimmen."
+              },
+              {
+                "text": "Aber da wir sehr spät dran sind, kann ich manches verstehen."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "Ich kündige jetzt erst mal an: Es gibt mehrere Erklärungen gemäß § 31 der Geschäftsordnung unseres Bundestages zum Zusatzpunkt 11. Wir kommen zur Abstimmung über den Antrag der Fraktionen der CDU/CSU, SPD, FDP und Bündnis 90/Die Grünen auf Drucksache 19/10191 mit dem Titel „Der BDS-Bewegung entschlossen entgegentreten – Antisemitismus bekämpfen“. Wer stimmt für diesen Antrag? – Wer stimmt dagegen? – Wer enthält sich? – Der Antrag ist angenommen. Für den Antrag gestimmt haben die große Mehrheit von CDU/CSU, SPD, FDP, Bündnis 90/Die Grünen und der Kollege Mieruch. Dagegengestimmt haben Abgeordnete von den Linken und von Bündnis 90/Die Grünen. Enthalten hat sich fast einheitlich die AfD-Fraktion.",
+            "sentences": [
+              {
+                "text": "Ich kündige jetzt erst mal an: Es gibt mehrere Erklärungen gemäß § 31 der Geschäftsordnung unseres Bundestages zum Zusatzpunkt 11. Wir kommen zur Abstimmung über den Antrag der Fraktionen der CDU/CSU, SPD, FDP und Bündnis 90/Die Grünen auf Drucksache 19/10191 mit dem Titel „Der BDS-Bewegung entschlossen entgegentreten – Antisemitismus bekämpfen“."
+              },
+              {
+                "text": "Wer stimmt für diesen Antrag?"
+              },
+              {
+                "text": "– Wer stimmt dagegen?"
+              },
+              {
+                "text": "– Wer enthält sich?"
+              },
+              {
+                "text": "– Der Antrag ist angenommen."
+              },
+              {
+                "text": "Für den Antrag gestimmt haben die große Mehrheit von CDU/CSU, SPD, FDP, Bündnis 90/Die Grünen und der Kollege Mieruch."
+              },
+              {
+                "text": "Dagegengestimmt haben Abgeordnete von den Linken und von Bündnis 90/Die Grünen."
+              },
+              {
+                "text": "Enthalten hat sich fast einheitlich die AfD-Fraktion."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "– Es ist wirklich schwierig, Herr Braun. Gut, einheitlich. – Enthalten haben sich die AfD-Fraktion sowie einige Kolleginnen und Kollegen von Bündnis 90/Die Grünen und der Linken. – Entschuldigen Sie, aber es ist sehr unübersichtlich. Ich hoffe, dass ich das jetzt richtig gesagt habe. Damit ist der Antrag – –",
+            "sentences": [
+              {
+                "text": "– Es ist wirklich schwierig, Herr Braun."
+              },
+              {
+                "text": "Gut, einheitlich."
+              },
+              {
+                "text": "– Enthalten haben sich die AfD-Fraktion sowie einige Kolleginnen und Kollegen von Bündnis 90/Die Grünen und der Linken."
+              },
+              {
+                "text": "– Entschuldigen Sie, aber es ist sehr unübersichtlich."
+              },
+              {
+                "text": "Ich hoffe, dass ich das jetzt richtig gesagt habe."
+              },
+              {
+                "text": "Damit ist der Antrag – –"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "– Es gibt Unklarheiten. Deswegen frage ich Sie noch mal – auch diejenigen, die sich jetzt schon um die Boxen versammelt haben –: Wer stimmt für den Antrag? – Wer stimmt dagegen? – Wer enthält sich? – Danke schön, Herr Grosse-Brömer; es war tatsächlich so. Für uns war das anders sichtbar. – Für den Antrag haben gestimmt die CDU/CSU-Fraktion, die FDP-Fraktion, die SPD-Fraktion, Herr Mieruch und große Teile der Grünenfraktion. Dagegengestimmt haben Teile der Linken – –",
+            "sentences": [
+              {
+                "text": "– Es gibt Unklarheiten."
+              },
+              {
+                "text": "Deswegen frage ich Sie noch mal – auch diejenigen, die sich jetzt schon um die Boxen versammelt haben –: Wer stimmt für den Antrag?"
+              },
+              {
+                "text": "– Wer stimmt dagegen?"
+              },
+              {
+                "text": "– Wer enthält sich?"
+              },
+              {
+                "text": "– Danke schön, Herr Grosse-Brömer; es war tatsächlich so."
+              },
+              {
+                "text": "Für uns war das anders sichtbar."
+              },
+              {
+                "text": "– Für den Antrag haben gestimmt die CDU/CSU-Fraktion, die FDP-Fraktion, die SPD-Fraktion, Herr Mieruch und große Teile der Grünenfraktion."
+              },
+              {
+                "text": "Dagegengestimmt haben Teile der Linken – –"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "– Teile der Linken haben sich enthalten. So, jetzt ist mal Ruhe hier!",
+            "sentences": [
+              {
+                "text": "– Teile der Linken haben sich enthalten."
+              },
+              {
+                "text": "So, jetzt ist mal Ruhe hier!"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "Große Teile der Linken haben dagegengestimmt, und Teile der Grünenfraktion haben dagegengestimmt. Enthalten haben sich die AfD-Fraktion, Teile der Grünen und Teile der Linken. Damit ist der Antrag angenommen.",
+            "sentences": [
+              {
+                "text": "Große Teile der Linken haben dagegengestimmt, und Teile der Grünenfraktion haben dagegengestimmt."
+              },
+              {
+                "text": "Enthalten haben sich die AfD-Fraktion, Teile der Grünen und Teile der Linken."
+              },
+              {
+                "text": "Damit ist der Antrag angenommen."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "documents": [
+      {
+        "type": "officialDocument",
+        "label": "Drucksache 19/10191",
+        "sourceURI": "https://dserver.bundestag.de/btd/19/101/1910191.pdf"
+      },
+      {
+        "type": "officialDocument",
+        "label": "Drucksache 19/9757",
+        "sourceURI": "https://dserver.bundestag.de/btd/19/097/1909757.pdf"
+      },
+      {
+        "type": "officialDocument",
+        "label": "Drucksache 19/10261",
+        "sourceURI": "https://dserver.bundestag.de/btd/19/102/1910261.pdf"
+      }
+    ],
+    "key": "19-102 zusatzpunkt 11 (claudia roth) #1",
+    "dateStart": "2019-05-17T13:22:01",
+    "dateEnd": "2019-05-17T13:32:28",
     "media": {
       "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7356270/7356270_h264_720_400_2000kb_baseline_de_2192.mp4",
       "sourcePage": "http://dbtg.tv/fvid/7356270",
@@ -29491,18 +29852,7 @@
       "license": "CC-BY-SA",
       "originMediaID": "7356270",
       "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7356270/7356270_mp3_128kb_stereo_de_128.mp3"
-    },
-    "dateStart": "2019-05-17T13:22:01",
-    "dateEnd": "2019-05-17T13:32:28",
-    "people": [
-      {
-        "label": "Claudia Roth",
-        "faction": "BÜNDNIS 90/DIE GRÜNEN",
-        "context": "main-speaker",
-        "role": "Bundestagsvizepräsidentin"
-      }
-    ],
-    "key": "19-102 zusatzpunkt 11 (claudia roth) #1"
+    }
   },
   {
     "parliament": "DE",
@@ -29516,7 +29866,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 30",
-      "speechIndex": 87,
+      "speechIndex": 1094,
       "title": "Rüstungsexport"
     },
     "people": [
@@ -29529,12 +29879,89 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19102-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19102-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
         "originTextID": "",
         "textBody": [
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "a) Beratung des Antrags der Abgeordneten Sevim Dağdelen, Heike Hänsel, Michel Brandt, weiterer Abgeordneter und der Fraktion DIE LINKE",
+            "sentences": [
+              {
+                "text": "a) Beratung des Antrags der Abgeordneten Sevim Dağdelen, Heike Hänsel, Michel Brandt, weiterer Abgeordneter und der Fraktion DIE LINKE"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "Exporte von Kriegswaffen und sonstigen Rüstungsgütern nach Ägypten stoppen",
+            "sentences": [
+              {
+                "text": "Exporte von Kriegswaffen und sonstigen Rüstungsgütern nach Ägypten stoppen"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "b) Beratung der Beschlussempfehlung und des Berichts des Ausschusses für Wirtschaft und Energie (9. Ausschuss)",
+            "sentences": [
+              {
+                "text": "b) Beratung der Beschlussempfehlung und des Berichts des Ausschusses für Wirtschaft und Energie (9. Ausschuss)"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "– zu dem Antrag der Abgeordneten Enrico Komning, Tino Chrupalla, Armin-Paulus Hampel, weiterer Abgeordneter und der Fraktion der AfD",
+            "sentences": [
+              {
+                "text": "– zu dem Antrag der Abgeordneten Enrico Komning, Tino Chrupalla, Armin-Paulus Hampel, weiterer Abgeordneter und der Fraktion der AfD"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "Rechtssicherheit für Unternehmen – Aufträge durch verhängte Ausfuhrstopps durch die Bundesrepublik Deutschland übernehmen",
+            "sentences": [
+              {
+                "text": "Rechtssicherheit für Unternehmen – Aufträge durch verhängte Ausfuhrstopps durch die Bundesrepublik Deutschland übernehmen"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "– zu dem Antrag der Abgeordneten Sevim Dağdelen, Heike Hänsel, Michel Brandt, weiterer Abgeordneter und der Fraktion DIE LINKE",
+            "sentences": [
+              {
+                "text": "– zu dem Antrag der Abgeordneten Sevim Dağdelen, Heike Hänsel, Michel Brandt, weiterer Abgeordneter und der Fraktion DIE LINKE"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "Keine Rüstungsexporte an Saudi-Arabien und andere am Jemenkrieg beteiligte Staaten",
+            "sentences": [
+              {
+                "text": "Keine Rüstungsexporte an Saudi-Arabien und andere am Jemenkrieg beteiligte Staaten"
+              }
+            ]
+          },
           {
             "type": "speech",
             "speaker": "Claudia Roth",
@@ -29613,7 +30040,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 30",
-      "speechIndex": 88,
+      "speechIndex": 1095,
       "title": "Rüstungsexport"
     },
     "people": [
@@ -29634,7 +30061,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19102-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19102-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -29955,7 +30382,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 30",
-      "speechIndex": 89,
+      "speechIndex": 1096,
       "title": "Rüstungsexport"
     },
     "people": [
@@ -29976,7 +30403,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19102-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19102-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -30577,7 +31004,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 30",
-      "speechIndex": 90,
+      "speechIndex": 1097,
       "title": "Rüstungsexport"
     },
     "people": [
@@ -30593,7 +31020,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19102-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19102-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -30989,16 +31416,218 @@
   {
     "parliament": "DE",
     "electoralPeriod": {
-      "number": 19
+      "number": "19"
     },
     "session": {
-      "number": 102
+      "number": "102",
+      "dateStart": "2019-05-17T09:00",
+      "dateEnd": "2019-05-17T17:30"
     },
     "agendaItem": {
-      "title": "Rüstungsexport",
       "officialTitle": "Tagesordnungspunkt 30",
-      "speechIndex": 95
+      "speechIndex": 1103,
+      "title": "Rüstungsexport"
     },
+    "people": [
+      {
+        "type": "memberOfParliament",
+        "label": "Claudia Roth",
+        "context": "vice-president"
+      }
+    ],
+    "textContents": [
+      {
+        "type": "proceedings",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19102-data.xml",
+        "creator": "Deutscher Bundestag",
+        "license": "Public Domain",
+        "language": "DE-de",
+        "originTextID": "",
+        "textBody": [
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "Vielen Dank, Dr. Daniela De Ridder. – Damit schließe ich die Aussprache.",
+            "sentences": [
+              {
+                "text": "Vielen Dank, Dr. Daniela De Ridder."
+              },
+              {
+                "text": "– Damit schließe ich die Aussprache."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "Interfraktionell wird Überweisung der Vorlage auf Drucksache 19/10152 an die in der Tagesordnung aufgeführten Ausschüsse vorgeschlagen. Die Federführung ist strittig. Die Fraktionen der CDU/CSU und SPD wünschen Federführung beim Ausschuss für Wirtschaft und Energie. Die Fraktion Die Linke wünscht Federführung beim Auswärtigen Ausschuss.",
+            "sentences": [
+              {
+                "text": "Interfraktionell wird Überweisung der Vorlage auf Drucksache 19/10152 an die in der Tagesordnung aufgeführten Ausschüsse vorgeschlagen."
+              },
+              {
+                "text": "Die Federführung ist strittig."
+              },
+              {
+                "text": "Die Fraktionen der CDU/CSU und SPD wünschen Federführung beim Ausschuss für Wirtschaft und Energie."
+              },
+              {
+                "text": "Die Fraktion Die Linke wünscht Federführung beim Auswärtigen Ausschuss."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "Ich lasse zuerst über den Überweisungsvorschlag der Fraktion Die Linke abstimmen: Federführung beim Auswärtigen Ausschuss. Wer stimmt für diesen Überweisungsvorschlag? – Wer stimmt dagegen? – Enthaltungen? – Keine. Der Überweisungsvorschlag ist abgelehnt. Zugestimmt haben die Fraktion Die Linke und die Fraktion Bündnis 90/Die Grünen. Dagegengestimmt haben die SPD, CDU/CSU, FDP und AfD-Fraktion.",
+            "sentences": [
+              {
+                "text": "Ich lasse zuerst über den Überweisungsvorschlag der Fraktion Die Linke abstimmen: Federführung beim Auswärtigen Ausschuss."
+              },
+              {
+                "text": "Wer stimmt für diesen Überweisungsvorschlag?"
+              },
+              {
+                "text": "– Wer stimmt dagegen?"
+              },
+              {
+                "text": "– Enthaltungen?"
+              },
+              {
+                "text": "– Keine."
+              },
+              {
+                "text": "Der Überweisungsvorschlag ist abgelehnt."
+              },
+              {
+                "text": "Zugestimmt haben die Fraktion Die Linke und die Fraktion Bündnis 90/Die Grünen."
+              },
+              {
+                "text": "Dagegengestimmt haben die SPD, CDU/CSU, FDP und AfD-Fraktion."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "Jetzt stimmen wir andersrum ab. Ich lasse nun abstimmen über den Überweisungsvorschlag der Fraktionen der CDU/CSU und SPD. Jetzt geht es um die Federführung beim Ausschuss für Wirtschaft und Energie. Wer stimmt für diesen Überweisungsvorschlag? – Wer stimmt dagegen? – Wer enthält sich? – Der Überweisungsvorschlag ist angenommen. Zugestimmt haben die Fraktionen von CDU/CSU, SPD, FDP und AfD. Dagegen waren die Fraktionen Die Linke und Bündnis 90/Die Grünen.",
+            "sentences": [
+              {
+                "text": "Jetzt stimmen wir andersrum ab."
+              },
+              {
+                "text": "Ich lasse nun abstimmen über den Überweisungsvorschlag der Fraktionen der CDU/CSU und SPD."
+              },
+              {
+                "text": "Jetzt geht es um die Federführung beim Ausschuss für Wirtschaft und Energie."
+              },
+              {
+                "text": "Wer stimmt für diesen Überweisungsvorschlag?"
+              },
+              {
+                "text": "– Wer stimmt dagegen?"
+              },
+              {
+                "text": "– Wer enthält sich?"
+              },
+              {
+                "text": "– Der Überweisungsvorschlag ist angenommen."
+              },
+              {
+                "text": "Zugestimmt haben die Fraktionen von CDU/CSU, SPD, FDP und AfD. Dagegen waren die Fraktionen Die Linke und Bündnis 90/Die Grünen."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "Wir kommen zur Abstimmung über die Beschlussempfehlung des Ausschusses für Wirtschaft und Energie auf Drucksache 19/10026. Der Ausschuss empfiehlt unter Buchstabe a seiner Beschlussempfehlung die Ablehnung des Antrags der Fraktion der AfD auf Drucksache 19/7039 mit dem Titel „Rechtssicherheit für Unternehmen – Aufträge durch verhängte Ausfuhrstopps durch die Bundesrepublik Deutschland übernehmen“. Wer stimmt für diese Beschlussempfehlung? – Wer stimmt dagegen? – Enthaltungen sehe ich keine. Die Beschlussempfehlung ist angenommen bei Zustimmung der Fraktionen der FDP, der CDU/CSU, Bündnis 90/Die Grünen, SPD und der Linken. Die Gegenstimme kam von der AfD-Fraktion. Die Beschlussempfehlung ist damit angenommen.",
+            "sentences": [
+              {
+                "text": "Wir kommen zur Abstimmung über die Beschlussempfehlung des Ausschusses für Wirtschaft und Energie auf Drucksache 19/10026. Der Ausschuss empfiehlt unter Buchstabe a seiner Beschlussempfehlung die Ablehnung des Antrags der Fraktion der AfD auf Drucksache 19/7039 mit dem Titel „Rechtssicherheit für Unternehmen – Aufträge durch verhängte Ausfuhrstopps durch die Bundesrepublik Deutschland übernehmen“."
+              },
+              {
+                "text": "Wer stimmt für diese Beschlussempfehlung?"
+              },
+              {
+                "text": "– Wer stimmt dagegen?"
+              },
+              {
+                "text": "– Enthaltungen sehe ich keine."
+              },
+              {
+                "text": "Die Beschlussempfehlung ist angenommen bei Zustimmung der Fraktionen der FDP, der CDU/CSU, Bündnis 90/Die Grünen, SPD und der Linken."
+              },
+              {
+                "text": "Die Gegenstimme kam von der AfD-Fraktion."
+              },
+              {
+                "text": "Die Beschlussempfehlung ist damit angenommen."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "Unter Buchstabe b seiner Beschlussempfehlung empfiehlt der Ausschuss die Ablehnung des Antrags der Fraktion Die Linke auf Drucksache 19/8965 mit dem Titel „Keine Rüstungsexporte an Saudi-Arabien und andere am Jemenkrieg beteiligte Staaten“. Wer stimmt für diese Beschlussempfehlung? – Wer stimmt dagegen? – Enthaltungen? – Keine. Die Beschlussempfehlung ist angenommen. Zugestimmt haben die Fraktionen von SPD, CDU/CSU, FDP und AfD. Dagegengestimmt haben die Fraktionen der Linken und Bündnis 90/Die Grünen.",
+            "sentences": [
+              {
+                "text": "Unter Buchstabe b seiner Beschlussempfehlung empfiehlt der Ausschuss die Ablehnung des Antrags der Fraktion Die Linke auf Drucksache 19/8965 mit dem Titel „Keine Rüstungsexporte an Saudi-Arabien und andere am Jemenkrieg beteiligte Staaten“."
+              },
+              {
+                "text": "Wer stimmt für diese Beschlussempfehlung?"
+              },
+              {
+                "text": "– Wer stimmt dagegen?"
+              },
+              {
+                "text": "– Enthaltungen?"
+              },
+              {
+                "text": "– Keine."
+              },
+              {
+                "text": "Die Beschlussempfehlung ist angenommen."
+              },
+              {
+                "text": "Zugestimmt haben die Fraktionen von SPD, CDU/CSU, FDP und AfD. Dagegengestimmt haben die Fraktionen der Linken und Bündnis 90/Die Grünen."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "documents": [
+      {
+        "type": "officialDocument",
+        "label": "Drucksache 19/10152",
+        "sourceURI": "https://dserver.bundestag.de/btd/19/101/1910152.pdf"
+      },
+      {
+        "type": "officialDocument",
+        "label": "Drucksache 19/7039",
+        "sourceURI": "https://dserver.bundestag.de/btd/19/070/1907039.pdf"
+      },
+      {
+        "type": "officialDocument",
+        "label": "Drucksache 19/8965",
+        "sourceURI": "https://dserver.bundestag.de/btd/19/089/1908965.pdf"
+      },
+      {
+        "type": "officialDocument",
+        "label": "Drucksache 19/10026",
+        "sourceURI": "https://dserver.bundestag.de/btd/19/100/1910026.pdf"
+      }
+    ],
+    "key": "19-102 tagesordnungspunkt 30 (claudia roth) #1",
+    "dateStart": "2019-05-17T13:50:54",
+    "dateEnd": "2019-05-17T13:51:37",
     "media": {
       "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7356277/7356277_h264_720_400_2000kb_baseline_de_2192.mp4",
       "sourcePage": "http://dbtg.tv/fvid/7356277",
@@ -31007,18 +31636,7 @@
       "license": "CC-BY-SA",
       "originMediaID": "7356277",
       "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7356277/7356277_mp3_128kb_stereo_de_128.mp3"
-    },
-    "dateStart": "2019-05-17T13:50:54",
-    "dateEnd": "2019-05-17T13:51:37",
-    "people": [
-      {
-        "label": "Claudia Roth",
-        "faction": "BÜNDNIS 90/DIE GRÜNEN",
-        "context": "main-speaker",
-        "role": "Bundestagsvizepräsidentin"
-      }
-    ],
-    "key": "19-102 tagesordnungspunkt 30 (claudia roth) #1"
+    }
   },
   {
     "parliament": "DE",
@@ -31032,7 +31650,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 30",
-      "speechIndex": 91,
+      "speechIndex": 1098,
       "title": "Rüstungsexport"
     },
     "people": [
@@ -31053,7 +31671,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19102-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19102-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -31343,7 +31961,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 30",
-      "speechIndex": 92,
+      "speechIndex": 1099,
       "title": "Rüstungsexport"
     },
     "people": [
@@ -31364,7 +31982,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19102-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19102-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -31818,7 +32436,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 30",
-      "speechIndex": 93,
+      "speechIndex": 1100,
       "title": "Rüstungsexport"
     },
     "people": [
@@ -31839,7 +32457,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19102-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19102-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -32286,7 +32904,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 30",
-      "speechIndex": 94,
+      "speechIndex": 1101,
       "title": "Rüstungsexport"
     },
     "people": [
@@ -32307,7 +32925,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19102-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19102-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -32853,7 +33471,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 30",
-      "speechIndex": 95,
+      "speechIndex": 1102,
       "title": "Rüstungsexport"
     },
     "people": [
@@ -32864,17 +33482,12 @@
         "lastname": "De Ridder",
         "context": "main-speaker",
         "faction": "SPD"
-      },
-      {
-        "type": "memberOfParliament",
-        "label": "Claudia Roth",
-        "context": "vice-president"
       }
     ],
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19102-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19102-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -33226,173 +33839,6 @@
                 "text": "Vielen Dank."
               }
             ]
-          },
-          {
-            "type": "comment",
-            "speaker": null,
-            "speakerstatus": null,
-            "text": "(Beifall bei der SPD, der CDU/CSU und der FDP)",
-            "sentences": [
-              {
-                "text": "(Beifall bei der SPD, der CDU/CSU und der FDP)"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Claudia Roth",
-            "speakerstatus": "vice-president",
-            "text": "Vielen Dank, Dr. Daniela De Ridder. – Damit schließe ich die Aussprache.",
-            "sentences": [
-              {
-                "text": "Vielen Dank, Dr. Daniela De Ridder."
-              },
-              {
-                "text": "– Damit schließe ich die Aussprache."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Claudia Roth",
-            "speakerstatus": "vice-president",
-            "text": "Interfraktionell wird Überweisung der Vorlage auf Drucksache 19/10152 an die in der Tagesordnung aufgeführten Ausschüsse vorgeschlagen. Die Federführung ist strittig. Die Fraktionen der CDU/CSU und SPD wünschen Federführung beim Ausschuss für Wirtschaft und Energie. Die Fraktion Die Linke wünscht Federführung beim Auswärtigen Ausschuss.",
-            "sentences": [
-              {
-                "text": "Interfraktionell wird Überweisung der Vorlage auf Drucksache 19/10152 an die in der Tagesordnung aufgeführten Ausschüsse vorgeschlagen."
-              },
-              {
-                "text": "Die Federführung ist strittig."
-              },
-              {
-                "text": "Die Fraktionen der CDU/CSU und SPD wünschen Federführung beim Ausschuss für Wirtschaft und Energie."
-              },
-              {
-                "text": "Die Fraktion Die Linke wünscht Federführung beim Auswärtigen Ausschuss."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Claudia Roth",
-            "speakerstatus": "vice-president",
-            "text": "Ich lasse zuerst über den Überweisungsvorschlag der Fraktion Die Linke abstimmen: Federführung beim Auswärtigen Ausschuss. Wer stimmt für diesen Überweisungsvorschlag? – Wer stimmt dagegen? – Enthaltungen? – Keine. Der Überweisungsvorschlag ist abgelehnt. Zugestimmt haben die Fraktion Die Linke und die Fraktion Bündnis 90/Die Grünen. Dagegengestimmt haben die SPD, CDU/CSU, FDP und AfD-Fraktion.",
-            "sentences": [
-              {
-                "text": "Ich lasse zuerst über den Überweisungsvorschlag der Fraktion Die Linke abstimmen: Federführung beim Auswärtigen Ausschuss."
-              },
-              {
-                "text": "Wer stimmt für diesen Überweisungsvorschlag?"
-              },
-              {
-                "text": "– Wer stimmt dagegen?"
-              },
-              {
-                "text": "– Enthaltungen?"
-              },
-              {
-                "text": "– Keine."
-              },
-              {
-                "text": "Der Überweisungsvorschlag ist abgelehnt."
-              },
-              {
-                "text": "Zugestimmt haben die Fraktion Die Linke und die Fraktion Bündnis 90/Die Grünen."
-              },
-              {
-                "text": "Dagegengestimmt haben die SPD, CDU/CSU, FDP und AfD-Fraktion."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Claudia Roth",
-            "speakerstatus": "vice-president",
-            "text": "Jetzt stimmen wir andersrum ab. Ich lasse nun abstimmen über den Überweisungsvorschlag der Fraktionen der CDU/CSU und SPD. Jetzt geht es um die Federführung beim Ausschuss für Wirtschaft und Energie. Wer stimmt für diesen Überweisungsvorschlag? – Wer stimmt dagegen? – Wer enthält sich? – Der Überweisungsvorschlag ist angenommen. Zugestimmt haben die Fraktionen von CDU/CSU, SPD, FDP und AfD. Dagegen waren die Fraktionen Die Linke und Bündnis 90/Die Grünen.",
-            "sentences": [
-              {
-                "text": "Jetzt stimmen wir andersrum ab."
-              },
-              {
-                "text": "Ich lasse nun abstimmen über den Überweisungsvorschlag der Fraktionen der CDU/CSU und SPD."
-              },
-              {
-                "text": "Jetzt geht es um die Federführung beim Ausschuss für Wirtschaft und Energie."
-              },
-              {
-                "text": "Wer stimmt für diesen Überweisungsvorschlag?"
-              },
-              {
-                "text": "– Wer stimmt dagegen?"
-              },
-              {
-                "text": "– Wer enthält sich?"
-              },
-              {
-                "text": "– Der Überweisungsvorschlag ist angenommen."
-              },
-              {
-                "text": "Zugestimmt haben die Fraktionen von CDU/CSU, SPD, FDP und AfD. Dagegen waren die Fraktionen Die Linke und Bündnis 90/Die Grünen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Claudia Roth",
-            "speakerstatus": "vice-president",
-            "text": "Wir kommen zur Abstimmung über die Beschlussempfehlung des Ausschusses für Wirtschaft und Energie auf Drucksache 19/10026. Der Ausschuss empfiehlt unter Buchstabe a seiner Beschlussempfehlung die Ablehnung des Antrags der Fraktion der AfD auf Drucksache 19/7039 mit dem Titel „Rechtssicherheit für Unternehmen – Aufträge durch verhängte Ausfuhrstopps durch die Bundesrepublik Deutschland übernehmen“. Wer stimmt für diese Beschlussempfehlung? – Wer stimmt dagegen? – Enthaltungen sehe ich keine. Die Beschlussempfehlung ist angenommen bei Zustimmung der Fraktionen der FDP, der CDU/CSU, Bündnis 90/Die Grünen, SPD und der Linken. Die Gegenstimme kam von der AfD-Fraktion. Die Beschlussempfehlung ist damit angenommen.",
-            "sentences": [
-              {
-                "text": "Wir kommen zur Abstimmung über die Beschlussempfehlung des Ausschusses für Wirtschaft und Energie auf Drucksache 19/10026. Der Ausschuss empfiehlt unter Buchstabe a seiner Beschlussempfehlung die Ablehnung des Antrags der Fraktion der AfD auf Drucksache 19/7039 mit dem Titel „Rechtssicherheit für Unternehmen – Aufträge durch verhängte Ausfuhrstopps durch die Bundesrepublik Deutschland übernehmen“."
-              },
-              {
-                "text": "Wer stimmt für diese Beschlussempfehlung?"
-              },
-              {
-                "text": "– Wer stimmt dagegen?"
-              },
-              {
-                "text": "– Enthaltungen sehe ich keine."
-              },
-              {
-                "text": "Die Beschlussempfehlung ist angenommen bei Zustimmung der Fraktionen der FDP, der CDU/CSU, Bündnis 90/Die Grünen, SPD und der Linken."
-              },
-              {
-                "text": "Die Gegenstimme kam von der AfD-Fraktion."
-              },
-              {
-                "text": "Die Beschlussempfehlung ist damit angenommen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Claudia Roth",
-            "speakerstatus": "vice-president",
-            "text": "Unter Buchstabe b seiner Beschlussempfehlung empfiehlt der Ausschuss die Ablehnung des Antrags der Fraktion Die Linke auf Drucksache 19/8965 mit dem Titel „Keine Rüstungsexporte an Saudi-Arabien und andere am Jemenkrieg beteiligte Staaten“. Wer stimmt für diese Beschlussempfehlung? – Wer stimmt dagegen? – Enthaltungen? – Keine. Die Beschlussempfehlung ist angenommen. Zugestimmt haben die Fraktionen von SPD, CDU/CSU, FDP und AfD. Dagegengestimmt haben die Fraktionen der Linken und Bündnis 90/Die Grünen.",
-            "sentences": [
-              {
-                "text": "Unter Buchstabe b seiner Beschlussempfehlung empfiehlt der Ausschuss die Ablehnung des Antrags der Fraktion Die Linke auf Drucksache 19/8965 mit dem Titel „Keine Rüstungsexporte an Saudi-Arabien und andere am Jemenkrieg beteiligte Staaten“."
-              },
-              {
-                "text": "Wer stimmt für diese Beschlussempfehlung?"
-              },
-              {
-                "text": "– Wer stimmt dagegen?"
-              },
-              {
-                "text": "– Enthaltungen?"
-              },
-              {
-                "text": "– Keine."
-              },
-              {
-                "text": "Die Beschlussempfehlung ist angenommen."
-              },
-              {
-                "text": "Zugestimmt haben die Fraktionen von SPD, CDU/CSU, FDP und AfD. Dagegengestimmt haben die Fraktionen der Linken und Bündnis 90/Die Grünen."
-              }
-            ]
           }
         ]
       }
@@ -33478,7 +33924,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 13",
-      "speechIndex": 96,
+      "speechIndex": 1104,
       "title": "Aktuelle Stunde zu Maßnahmen gegen Homo- und Transfeindlichkeit"
     },
     "people": [
@@ -33491,7 +33937,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19102-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19102-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -33501,10 +33947,32 @@
             "type": "speech",
             "speaker": "Claudia Roth",
             "speakerstatus": "vice-president",
+            "text": "Aktuelle Stunde",
+            "sentences": [
+              {
+                "text": "Aktuelle Stunde"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
             "text": "auf Verlangen der Fraktion BÜNDNIS 90/DIE GRÜNEN",
             "sentences": [
               {
                 "text": "auf Verlangen der Fraktion BÜNDNIS 90/DIE GRÜNEN"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "Maßnahmen gegen Homo- und Transfeindlichkeit und für die Akzeptanz sexueller und geschlechtlicher Vielfalt",
+            "sentences": [
+              {
+                "text": "Maßnahmen gegen Homo- und Transfeindlichkeit und für die Akzeptanz sexueller und geschlechtlicher Vielfalt"
               }
             ]
           },
@@ -33559,7 +34027,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 13",
-      "speechIndex": 97,
+      "speechIndex": 1105,
       "title": "Aktuelle Stunde zu Maßnahmen gegen Homo- und Transfeindlichkeit"
     },
     "people": [
@@ -33580,7 +34048,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19102-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19102-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -34148,7 +34616,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 13",
-      "speechIndex": 98,
+      "speechIndex": 1106,
       "title": "Aktuelle Stunde zu Maßnahmen gegen Homo- und Transfeindlichkeit"
     },
     "people": [
@@ -34169,7 +34637,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19102-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19102-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -34666,7 +35134,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 13",
-      "speechIndex": 99,
+      "speechIndex": 1107,
       "title": "Aktuelle Stunde zu Maßnahmen gegen Homo- und Transfeindlichkeit"
     },
     "people": [
@@ -34687,7 +35155,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19102-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19102-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -35403,7 +35871,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 13",
-      "speechIndex": 100,
+      "speechIndex": 1108,
       "title": "Aktuelle Stunde zu Maßnahmen gegen Homo- und Transfeindlichkeit"
     },
     "people": [
@@ -35424,7 +35892,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19102-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19102-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -35823,7 +36291,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 13",
-      "speechIndex": 101,
+      "speechIndex": 1109,
       "title": "Aktuelle Stunde zu Maßnahmen gegen Homo- und Transfeindlichkeit"
     },
     "people": [
@@ -35844,7 +36312,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19102-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19102-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -36219,7 +36687,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 13",
-      "speechIndex": 102,
+      "speechIndex": 1110,
       "title": "Aktuelle Stunde zu Maßnahmen gegen Homo- und Transfeindlichkeit"
     },
     "people": [
@@ -36240,7 +36708,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19102-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19102-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -36593,7 +37061,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 13",
-      "speechIndex": 103,
+      "speechIndex": 1111,
       "title": "Aktuelle Stunde zu Maßnahmen gegen Homo- und Transfeindlichkeit"
     },
     "people": [
@@ -36614,7 +37082,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19102-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19102-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -37034,7 +37502,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 13",
-      "speechIndex": 104,
+      "speechIndex": 1112,
       "title": "Aktuelle Stunde zu Maßnahmen gegen Homo- und Transfeindlichkeit"
     },
     "people": [
@@ -37055,7 +37523,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19102-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19102-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -37796,7 +38264,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 13",
-      "speechIndex": 105,
+      "speechIndex": 1113,
       "title": "Aktuelle Stunde zu Maßnahmen gegen Homo- und Transfeindlichkeit"
     },
     "people": [
@@ -37817,7 +38285,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19102-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19102-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -38214,7 +38682,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 13",
-      "speechIndex": 106,
+      "speechIndex": 1114,
       "title": "Aktuelle Stunde zu Maßnahmen gegen Homo- und Transfeindlichkeit"
     },
     "people": [
@@ -38235,7 +38703,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19102-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19102-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -38889,7 +39357,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 13",
-      "speechIndex": 107,
+      "speechIndex": 1115,
       "title": "Aktuelle Stunde zu Maßnahmen gegen Homo- und Transfeindlichkeit"
     },
     "people": [
@@ -38910,7 +39378,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19102-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19102-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -39387,7 +39855,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 13",
-      "speechIndex": 108,
+      "speechIndex": 1116,
       "title": "Aktuelle Stunde zu Maßnahmen gegen Homo- und Transfeindlichkeit"
     },
     "people": [
@@ -39408,7 +39876,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19102-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19102-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -39819,7 +40287,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 13",
-      "speechIndex": 109,
+      "speechIndex": 1117,
       "title": "Aktuelle Stunde zu Maßnahmen gegen Homo- und Transfeindlichkeit"
     },
     "people": [
@@ -39830,17 +40298,12 @@
         "lastname": "Patzelt",
         "context": "main-speaker",
         "faction": "CDU/CSU"
-      },
-      {
-        "type": "memberOfParliament",
-        "label": "Wolfgang Schäuble",
-        "context": "president"
       }
     ],
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19102-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19102-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -40095,18 +40558,55 @@
                 "text": "Es ist schade, dass wir so miteinander kämpfen, anstatt zu sagen: Wir suchen gemeinsamen einen Weg."
               }
             ]
-          },
-          {
-            "type": "comment",
-            "speaker": null,
-            "speakerstatus": null,
-            "text": "(Beifall bei der CDU/CSU und der AfD – Steffi Lemke [BÜNDNIS 90/DIE GRÜNEN]: Manchmal reicht zuhören nicht aus!)",
-            "sentences": [
-              {
-                "text": "(Beifall bei der CDU/CSU und der AfD – Steffi Lemke [BÜNDNIS 90/DIE GRÜNEN]: Manchmal reicht zuhören nicht aus!)"
-              }
-            ]
-          },
+          }
+        ]
+      }
+    ],
+    "documents": [],
+    "key": "19-102 zusatzpunkt 13 (martin patzelt)",
+    "dateStart": "2019-05-17T15:24:41",
+    "dateEnd": "2019-05-17T15:29:36",
+    "media": {
+      "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7356306/7356306_h264_720_400_2000kb_baseline_de_2192.mp4",
+      "sourcePage": "http://dbtg.tv/fvid/7356306",
+      "duration": 295.0,
+      "creator": "Deutscher Bundestag",
+      "license": "CC-BY-SA",
+      "originMediaID": "7356306",
+      "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7356306/7356306_mp3_128kb_stereo_de_128.mp3"
+    }
+  },
+  {
+    "parliament": "DE",
+    "electoralPeriod": {
+      "number": "19"
+    },
+    "session": {
+      "number": "102",
+      "dateStart": "2019-05-17T09:00",
+      "dateEnd": "2019-05-17T17:30"
+    },
+    "agendaItem": {
+      "officialTitle": "Zusatzpunkt 13",
+      "speechIndex": 1118,
+      "title": "Aktuelle Stunde zu Maßnahmen gegen Homo- und Transfeindlichkeit"
+    },
+    "people": [
+      {
+        "type": "memberOfParliament",
+        "label": "Wolfgang Schäuble",
+        "context": "president"
+      }
+    ],
+    "textContents": [
+      {
+        "type": "proceedings",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19102-data.xml",
+        "creator": "Deutscher Bundestag",
+        "license": "Public Domain",
+        "language": "DE-de",
+        "originTextID": "",
+        "textBody": [
           {
             "type": "speech",
             "speaker": "Wolfgang Schäuble",
@@ -40161,32 +40661,9 @@
       }
     ],
     "documents": [],
-    "key": "19-102 zusatzpunkt 13 (martin patzelt)",
-    "dateStart": "2019-05-17T15:24:41",
-    "dateEnd": "2019-05-17T15:29:36",
-    "media": {
-      "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7356306/7356306_h264_720_400_2000kb_baseline_de_2192.mp4",
-      "sourcePage": "http://dbtg.tv/fvid/7356306",
-      "duration": 295.0,
-      "creator": "Deutscher Bundestag",
-      "license": "CC-BY-SA",
-      "originMediaID": "7356306",
-      "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7356306/7356306_mp3_128kb_stereo_de_128.mp3"
-    }
-  },
-  {
-    "parliament": "DE",
-    "electoralPeriod": {
-      "number": 19
-    },
-    "session": {
-      "number": 102
-    },
-    "agendaItem": {
-      "title": "Aktuelle Stunde zu Maßnahmen gegen Homo- und Transfeindlichkeit",
-      "officialTitle": "Zusatzpunkt 13",
-      "speechIndex": 116
-    },
+    "key": "19-102 zusatzpunkt 13 (wolfgang schauble)",
+    "dateStart": "2019-05-17T15:29:36",
+    "dateEnd": "2019-05-17T15:29:43",
     "media": {
       "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7356307/7356307_h264_720_400_2000kb_baseline_de_2192.mp4",
       "sourcePage": "http://dbtg.tv/fvid/7356307",
@@ -40195,18 +40672,7 @@
       "license": "CC-BY-SA",
       "originMediaID": "7356307",
       "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7356307/7356307_mp3_128kb_stereo_de_128.mp3"
-    },
-    "dateStart": "2019-05-17T15:29:36",
-    "dateEnd": "2019-05-17T15:29:43",
-    "people": [
-      {
-        "label": "Wolfgang Schäuble",
-        "faction": "CDU/CSU",
-        "context": "main-speaker",
-        "role": "Bundestagspräsident"
-      }
-    ],
-    "key": "19-102 zusatzpunkt 13 (wolfgang schauble)"
+    }
   },
   {
     "parliament": "DE",

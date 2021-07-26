@@ -11,7 +11,7 @@
     },
     "agendaItem": {
       "officialTitle": "Sitzungseröffnung",
-      "speechIndex": 0,
+      "speechIndex": 1000,
       "title": "Sitzungseröffnung"
     },
     "people": [
@@ -24,7 +24,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19082-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19082-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -107,7 +107,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 2,
+      "speechIndex": 1002,
       "title": "Information über Schwangerschaftsabbruch"
     },
     "people": [
@@ -120,12 +120,23 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19082-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19082-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
         "originTextID": "",
         "textBody": [
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "Erste Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Verbesserung der Information über einen Schwangerschaftsabbruch",
+            "sentences": [
+              {
+                "text": "Erste Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Verbesserung der Information über einen Schwangerschaftsabbruch"
+              }
+            ]
+          },
           {
             "type": "speech",
             "speaker": "Wolfgang Schäuble",
@@ -184,7 +195,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 2",
-      "speechIndex": 4,
+      "speechIndex": 1004,
       "title": "Befragung der Bundesregierung"
     },
     "people": [
@@ -197,12 +208,23 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19082-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19082-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
         "originTextID": "",
         "textBody": [
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "Befragung der Bundesregierung",
+            "sentences": [
+              {
+                "text": "Befragung der Bundesregierung"
+              }
+            ]
+          },
           {
             "type": "speech",
             "speaker": "Wolfgang Schäuble",
@@ -254,7 +276,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 2",
-      "speechIndex": 5,
+      "speechIndex": 1005,
       "title": "Befragung der Bundesregierung"
     },
     "people": [
@@ -275,7 +297,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19082-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19082-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -619,7 +641,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 2",
-      "speechIndex": 7,
+      "speechIndex": 1007,
       "title": "Befragung der Bundesregierung"
     },
     "people": [
@@ -640,7 +662,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19082-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19082-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -754,7 +776,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 2",
-      "speechIndex": 44,
+      "speechIndex": 1044,
       "title": "Befragung der Bundesregierung"
     },
     "people": [
@@ -775,7 +797,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19082-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19082-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -841,7 +863,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 2",
-      "speechIndex": 9,
+      "speechIndex": 1009,
       "title": "Befragung der Bundesregierung"
     },
     "people": [
@@ -862,7 +884,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19082-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19082-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -963,7 +985,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 2",
-      "speechIndex": 11,
+      "speechIndex": 1011,
       "title": "Befragung der Bundesregierung"
     },
     "people": [
@@ -984,7 +1006,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19082-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19082-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -1121,7 +1143,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 2",
-      "speechIndex": 13,
+      "speechIndex": 1013,
       "title": "Befragung der Bundesregierung"
     },
     "people": [
@@ -1150,7 +1172,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19082-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19082-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -1327,7 +1349,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 2",
-      "speechIndex": 15,
+      "speechIndex": 1015,
       "title": "Befragung der Bundesregierung"
     },
     "people": [
@@ -1348,7 +1370,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19082-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19082-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -1449,7 +1471,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 2",
-      "speechIndex": 17,
+      "speechIndex": 1017,
       "title": "Befragung der Bundesregierung"
     },
     "people": [
@@ -1470,7 +1492,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19082-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19082-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -1613,7 +1635,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 2",
-      "speechIndex": 19,
+      "speechIndex": 1019,
       "title": "Befragung der Bundesregierung"
     },
     "people": [
@@ -1634,7 +1656,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19082-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19082-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -1729,7 +1751,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 2",
-      "speechIndex": 57,
+      "speechIndex": 1057,
       "title": "Befragung der Bundesregierung"
     },
     "people": [
@@ -1750,7 +1772,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19082-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19082-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -1842,7 +1864,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 2",
-      "speechIndex": 21,
+      "speechIndex": 1021,
       "title": "Befragung der Bundesregierung"
     },
     "people": [
@@ -1863,7 +1885,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19082-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19082-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -1991,7 +2013,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 2",
-      "speechIndex": 23,
+      "speechIndex": 1023,
       "title": "Befragung der Bundesregierung"
     },
     "people": [
@@ -2012,7 +2034,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19082-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19082-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -2095,16 +2117,63 @@
   {
     "parliament": "DE",
     "electoralPeriod": {
-      "number": 19
+      "number": "19"
     },
     "session": {
-      "number": 82
+      "number": "82",
+      "dateStart": "2019-02-20T13:00",
+      "dateEnd": "2019-02-20T16:45"
     },
     "agendaItem": {
-      "title": "Befragung der Bundesregierung",
       "officialTitle": "Tagesordnungspunkt 2",
-      "speechIndex": 16
+      "speechIndex": 1062,
+      "title": "Befragung der Bundesregierung"
     },
+    "people": [
+      {
+        "type": "memberOfParliament",
+        "label": "Claudia Roth",
+        "context": "vice-president"
+      }
+    ],
+    "textContents": [
+      {
+        "type": "proceedings",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19082-data.xml",
+        "creator": "Deutscher Bundestag",
+        "license": "Public Domain",
+        "language": "DE-de",
+        "originTextID": "",
+        "textBody": [
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "Vielen herzlichen Dank, Frau Ministerin, und vielen herzlichen Dank, liebe Kolleginnen und Kollegen, für die interessanten Fragen und Antworten.",
+            "sentences": [
+              {
+                "text": "Vielen herzlichen Dank, Frau Ministerin, und vielen herzlichen Dank, liebe Kolleginnen und Kollegen, für die interessanten Fragen und Antworten."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "Damit ist die Regierungsbefragung beendet.",
+            "sentences": [
+              {
+                "text": "Damit ist die Regierungsbefragung beendet."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "documents": [],
+    "key": "19-82 tagesordnungspunkt 2 (claudia roth)",
+    "dateStart": "2019-02-20T13:01:42",
+    "dateEnd": "2019-02-20T13:01:50",
     "media": {
       "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7328250/7328250_h264_720_400_2000kb_baseline_de_2192.mp4",
       "sourcePage": "http://dbtg.tv/fvid/7328250",
@@ -2113,18 +2182,7 @@
       "license": "CC-BY-SA",
       "originMediaID": "7328250",
       "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7328250/7328250_mp3_128kb_stereo_de_128.mp3"
-    },
-    "dateStart": "2019-02-20T13:01:42",
-    "dateEnd": "2019-02-20T13:01:50",
-    "people": [
-      {
-        "label": "Claudia Roth",
-        "faction": "BÜNDNIS 90/DIE GRÜNEN",
-        "context": "main-speaker",
-        "role": "Bundestagsvizepräsidentin"
-      }
-    ],
-    "key": "19-82 tagesordnungspunkt 2 (claudia roth)"
+    }
   },
   {
     "parliament": "DE",
@@ -2138,7 +2196,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 3",
-      "speechIndex": 62,
+      "speechIndex": 1063,
       "title": "Fragestunde"
     },
     "people": [
@@ -2343,12 +2401,23 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19082-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19082-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
         "originTextID": "",
         "textBody": [
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "Fragestunde",
+            "sentences": [
+              {
+                "text": "Fragestunde"
+              }
+            ]
+          },
           {
             "type": "speech",
             "speaker": "Claudia Roth",
@@ -8509,7 +8578,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 3",
-      "speechIndex": 63,
+      "speechIndex": 1064,
       "title": "Fragestunde"
     },
     "people": [
@@ -8645,81 +8714,28 @@
         "lastname": "Dröge",
         "context": "speaker",
         "faction": "BÜNDNIS 90/DIE GRÜNEN"
-      },
-      {
-        "type": "memberOfParliament",
-        "label": "Rita Hagl-Kehl",
-        "firstname": "Rita",
-        "lastname": "Hagl-Kehl",
-        "context": "speaker",
-        "faction": ""
-      },
-      {
-        "type": "memberOfParliament",
-        "label": "Manuela Rottmann",
-        "firstname": "Manuela",
-        "lastname": "Rottmann",
-        "context": "speaker",
-        "faction": "BÜNDNIS 90/DIE GRÜNEN"
-      },
-      {
-        "type": "memberOfParliament",
-        "label": "Christian Lange",
-        "firstname": "Christian",
-        "lastname": "Lange",
-        "context": "speaker",
-        "faction": ""
-      },
-      {
-        "type": "memberOfParliament",
-        "label": "Katrin Werner",
-        "firstname": "Katrin",
-        "lastname": "Werner",
-        "context": "speaker",
-        "faction": "DIE LINKE"
-      },
-      {
-        "type": "memberOfParliament",
-        "label": "Thomas Silberhorn",
-        "firstname": "Thomas",
-        "lastname": "Silberhorn",
-        "context": "speaker",
-        "faction": ""
-      },
-      {
-        "type": "memberOfParliament",
-        "label": "Marcus Faber",
-        "firstname": "Marcus",
-        "lastname": "Faber",
-        "context": "speaker",
-        "faction": "FDP"
-      },
-      {
-        "type": "memberOfParliament",
-        "label": "Thomas Gebhart",
-        "firstname": "Thomas",
-        "lastname": "Gebhart",
-        "context": "speaker",
-        "faction": ""
-      },
-      {
-        "type": "memberOfParliament",
-        "label": "Pia Zimmermann",
-        "firstname": "Pia",
-        "lastname": "Zimmermann",
-        "context": "speaker",
-        "faction": "DIE LINKE"
       }
     ],
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19082-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19082-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
         "originTextID": "",
         "textBody": [
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "Fragestunde",
+            "sentences": [
+              {
+                "text": "Fragestunde"
+              }
+            ]
+          },
           {
             "type": "speech",
             "speaker": "Claudia Roth",
@@ -12151,1985 +12167,6 @@
                 "text": "Herr Wittke."
               }
             ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Oliver Wittke",
-            "speakerstatus": "speaker",
-            "text": "Der Bundesregierung ist bekannt, dass das europäische Wettbewerbsrecht bereits heute die Marktmacht auf globalen Märkten betrachtet, wenn der angestrebte Zusammenschluss dies erfordert. Derzeit werden verschiedene Ideen für eine Änderung des europäischen und des deutschen Kartellrechts geprüft.",
-            "sentences": [
-              {
-                "text": "Der Bundesregierung ist bekannt, dass das europäische Wettbewerbsrecht bereits heute die Marktmacht auf globalen Märkten betrachtet, wenn der angestrebte Zusammenschluss dies erfordert."
-              },
-              {
-                "text": "Derzeit werden verschiedene Ideen für eine Änderung des europäischen und des deutschen Kartellrechts geprüft."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Claudia Roth",
-            "speakerstatus": "vice-president",
-            "text": "Frau Dröge, Rückfrage?",
-            "sentences": [
-              {
-                "text": "Frau Dröge, Rückfrage?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Katharina Dröge",
-            "speakerstatus": "speaker",
-            "text": "Ja. – Also, ich finde es super, dass das der Bundesregierung bekannt ist. Ich hatte das auch gehofft.",
-            "sentences": [
-              {
-                "text": "Ja."
-              },
-              {
-                "text": "– Also, ich finde es super, dass das der Bundesregierung bekannt ist."
-              },
-              {
-                "text": "Ich hatte das auch gehofft."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Oliver Wittke",
-            "speakerstatus": "speaker",
-            "text": "Sie haben danach gefragt.",
-            "sentences": [
-              {
-                "text": "Sie haben danach gefragt."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Katharina Dröge",
-            "speakerstatus": "speaker",
-            "text": "– Genau. – Dem Wirtschaftsminister ist es anscheinend nicht bekannt gewesen, als er dieses Papier geschrieben hat. Deswegen wollte ich ihn hilfreicherweise noch einmal darauf hinweisen. Er schreibt ja in seinem Papier: Oft scheitern deutsche und europäische Fusionen mit Blick auf den Weltmarkt daran, dass es zu eng regional oder national gefasst ist. – Weil Sie in dem Papier „oft“ schreiben, würde ich Sie einfach bitten, ein Beispiel zu nennen – in der Vergangenheit –, wo eine Fusion daran gescheitert ist, dass man nicht den globalen Markt betrachtet hat – außer Siemens/Alstom, wo sich Herr Minister Altmaier ja positioniert hat. „Oft“ ist ja nicht ein Fall; deswegen können Sie mit Sicherheit jetzt noch zwei oder drei andere Beispiele nennen, wo aus Ihrer Sicht Fusionen an dieser zu engen Betrachtung des Kartellrechts gescheitert sind.",
-            "sentences": [
-              {
-                "text": "– Genau."
-              },
-              {
-                "text": "– Dem Wirtschaftsminister ist es anscheinend nicht bekannt gewesen, als er dieses Papier geschrieben hat."
-              },
-              {
-                "text": "Deswegen wollte ich ihn hilfreicherweise noch einmal darauf hinweisen."
-              },
-              {
-                "text": "Er schreibt ja in seinem Papier: Oft scheitern deutsche und europäische Fusionen mit Blick auf den Weltmarkt daran, dass es zu eng regional oder national gefasst ist."
-              },
-              {
-                "text": "– Weil Sie in dem Papier „oft“ schreiben, würde ich Sie einfach bitten, ein Beispiel zu nennen – in der Vergangenheit –, wo eine Fusion daran gescheitert ist, dass man nicht den globalen Markt betrachtet hat – außer Siemens/Alstom, wo sich Herr Minister Altmaier ja positioniert hat. „"
-              },
-              {
-                "text": "Oft“ ist ja nicht ein Fall; deswegen können Sie mit Sicherheit jetzt noch zwei oder drei andere Beispiele nennen, wo aus Ihrer Sicht Fusionen an dieser zu engen Betrachtung des Kartellrechts gescheitert sind."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Claudia Roth",
-            "speakerstatus": "vice-president",
-            "text": "Herr Wittke.",
-            "sentences": [
-              {
-                "text": "Herr Wittke."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Oliver Wittke",
-            "speakerstatus": "speaker",
-            "text": "Darf ich, Frau Kollegin, zurückfragen, warum ich Siemens/Alstom nicht als Beispiel nennen darf? Es ist das prominenteste –",
-            "sentences": [
-              {
-                "text": "Darf ich, Frau Kollegin, zurückfragen, warum ich Siemens/Alstom nicht als Beispiel nennen darf?"
-              },
-              {
-                "text": "Es ist das prominenteste –"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Katharina Dröge",
-            "speakerstatus": "speaker",
-            "text": "Eins ist nicht „oft“, –",
-            "sentences": [
-              {
-                "text": "Eins ist nicht „oft“, –"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Oliver Wittke",
-            "speakerstatus": "speaker",
-            "text": "– und das umfassendste Beispiel, –",
-            "sentences": [
-              {
-                "text": "– und das umfassendste Beispiel, –"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Katharina Dröge",
-            "speakerstatus": "speaker",
-            "text": "– eins ist einfach nur eins, nicht?",
-            "sentences": [
-              {
-                "text": "– eins ist einfach nur eins, nicht?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Oliver Wittke",
-            "speakerstatus": "speaker",
-            "text": "– und darum bin ich der Auffassung – –",
-            "sentences": [
-              {
-                "text": "– und darum bin ich der Auffassung – –"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Katharina Dröge",
-            "speakerstatus": "speaker",
-            "text": "Zwei oder drei wären gut.",
-            "sentences": [
-              {
-                "text": "Zwei oder drei wären gut."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Oliver Wittke",
-            "speakerstatus": "speaker",
-            "text": "Habe ich das Wort, oder – – Vielen Dank.",
-            "sentences": [
-              {
-                "text": "Habe ich das Wort, oder – – Vielen Dank."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Claudia Roth",
-            "speakerstatus": "vice-president",
-            "text": "Ja. Es ist eine Rückfrage gestellt worden.",
-            "sentences": [
-              {
-                "text": "Ja."
-              },
-              {
-                "text": "Es ist eine Rückfrage gestellt worden."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Oliver Wittke",
-            "speakerstatus": "speaker",
-            "text": "Entschuldigung, aber ich werde doch meine Antwort zu Ende führen dürfen.",
-            "sentences": [
-              {
-                "text": "Entschuldigung, aber ich werde doch meine Antwort zu Ende führen dürfen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Claudia Roth",
-            "speakerstatus": "vice-president",
-            "text": "Moment! Jetzt fangen wir an. Eine Frage war da.",
-            "sentences": [
-              {
-                "text": "Moment!"
-              },
-              {
-                "text": "Jetzt fangen wir an."
-              },
-              {
-                "text": "Eine Frage war da."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Oliver Wittke",
-            "speakerstatus": "speaker",
-            "text": "Bestandteil meiner Antwort war eine Frage; damit habe ich meine Antwort eingeleitet. Trotzdem darf ich meine Antwort ja vielleicht zu Ende führen.",
-            "sentences": [
-              {
-                "text": "Bestandteil meiner Antwort war eine Frage; damit habe ich meine Antwort eingeleitet."
-              },
-              {
-                "text": "Trotzdem darf ich meine Antwort ja vielleicht zu Ende führen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Claudia Roth",
-            "speakerstatus": "vice-president",
-            "text": "So, Herr Wittke hat jetzt das Wort.",
-            "sentences": [
-              {
-                "text": "So, Herr Wittke hat jetzt das Wort."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Oliver Wittke",
-            "speakerstatus": "speaker",
-            "text": "Ich glaube, dass dieses Beispiel wunderbar zeigt, wo das Problem liegt: Es kann nicht sein, dass wir nur auf den europäischen Markt achten, wenn es um Zukunftstechnologien geht. Die Bahntechnologie ist eine Zukunftstechnologie, und da findet der Wettbewerb weltweit und nicht nur in Europa statt.",
-            "sentences": [
-              {
-                "text": "Ich glaube, dass dieses Beispiel wunderbar zeigt, wo das Problem liegt: Es kann nicht sein, dass wir nur auf den europäischen Markt achten, wenn es um Zukunftstechnologien geht."
-              },
-              {
-                "text": "Die Bahntechnologie ist eine Zukunftstechnologie, und da findet der Wettbewerb weltweit und nicht nur in Europa statt."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Oliver Wittke",
-            "speakerstatus": "speaker",
-            "text": "Darum hätten wir uns auf europäischer Ebene eine andere Beurteilung gewünscht, und darum – ich wiederhole das, was ich gerade gesagt habe – arbeiten wir an einer Veränderung sowohl des deutschen als auch des europäischen Kartellrechts.",
-            "sentences": [
-              {
-                "text": "Darum hätten wir uns auf europäischer Ebene eine andere Beurteilung gewünscht, und darum – ich wiederhole das, was ich gerade gesagt habe – arbeiten wir an einer Veränderung sowohl des deutschen als auch des europäischen Kartellrechts."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Claudia Roth",
-            "speakerstatus": "vice-president",
-            "text": "Frau Dröge, die zweite Rückfrage.",
-            "sentences": [
-              {
-                "text": "Frau Dröge, die zweite Rückfrage."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Katharina Dröge",
-            "speakerstatus": "speaker",
-            "text": "Dass Sie die Fusionsentscheidung Siemens/Alstom falsch finden, ist mir bekannt. Trotzdem sollten Sie zur Kenntnis nehmen, dass auch bei dieser Fusionsentscheidung die Auswirkungen auf den globalen Markt abgewogen wurden.",
-            "sentences": [
-              {
-                "text": "Dass Sie die Fusionsentscheidung Siemens/Alstom falsch finden, ist mir bekannt."
-              },
-              {
-                "text": "Trotzdem sollten Sie zur Kenntnis nehmen, dass auch bei dieser Fusionsentscheidung die Auswirkungen auf den globalen Markt abgewogen wurden."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Katharina Dröge",
-            "speakerstatus": "speaker",
-            "text": "Ich finde es schon relevant, ob Sie noch ein oder zwei andere Beispiele nennen könnten, wo das ebenfalls der Fall ist. Sonst ändern Sie das europäische Kartellrecht am Ende wegen einer Fusionsentscheidung, und Sie haben ja eben gesagt, Sie wollten nicht in die Vergangenheit blicken, sondern die Märkte der Zukunft gestalten. Dafür müsste es ein bisschen mehr Fälle geben als einen.",
-            "sentences": [
-              {
-                "text": "Ich finde es schon relevant, ob Sie noch ein oder zwei andere Beispiele nennen könnten, wo das ebenfalls der Fall ist."
-              },
-              {
-                "text": "Sonst ändern Sie das europäische Kartellrecht am Ende wegen einer Fusionsentscheidung, und Sie haben ja eben gesagt, Sie wollten nicht in die Vergangenheit blicken, sondern die Märkte der Zukunft gestalten."
-              },
-              {
-                "text": "Dafür müsste es ein bisschen mehr Fälle geben als einen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Claudia Roth",
-            "speakerstatus": "vice-president",
-            "text": "Herr Wittke.",
-            "sentences": [
-              {
-                "text": "Herr Wittke."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Oliver Wittke",
-            "speakerstatus": "speaker",
-            "text": "Ich habe jetzt kein Fragezeichen gehört. Sorry!",
-            "sentences": [
-              {
-                "text": "Ich habe jetzt kein Fragezeichen gehört."
-              },
-              {
-                "text": "Sorry!"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Oliver Wittke",
-            "speakerstatus": "speaker",
-            "text": "– Sie haben eine Aussage getroffen.",
-            "sentences": [
-              {
-                "text": "– Sie haben eine Aussage getroffen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Claudia Roth",
-            "speakerstatus": "vice-president",
-            "text": "Die Frage war, ob es noch mehr Fälle gibt.",
-            "sentences": [
-              {
-                "text": "Die Frage war, ob es noch mehr Fälle gibt."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Oliver Wittke",
-            "speakerstatus": "speaker",
-            "text": "Es gibt weitere Fälle. Im Bereich der Erdölverarbeitung, im Rüstungsbereich und auch in anderen Branchen gab es in der Vergangenheit derartige Fälle, ja.",
-            "sentences": [
-              {
-                "text": "Es gibt weitere Fälle."
-              },
-              {
-                "text": "Im Bereich der Erdölverarbeitung, im Rüstungsbereich und auch in anderen Branchen gab es in der Vergangenheit derartige Fälle, ja."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Oliver Wittke",
-            "speakerstatus": "speaker",
-            "text": "Der aktuellste Fall – und dabei bleibe ich – und der, der uns im Moment am meisten wehtut, ist die geplante Fusion der Bahnsparten von Siemens und Alstom. Wir bedauern das zutiefst. Es wäre schön gewesen, wenn Sie in Ihrer Fragestellung dieses Bedauern auch geteilt hätten.",
-            "sentences": [
-              {
-                "text": "Der aktuellste Fall – und dabei bleibe ich – und der, der uns im Moment am meisten wehtut, ist die geplante Fusion der Bahnsparten von Siemens und Alstom."
-              },
-              {
-                "text": "Wir bedauern das zutiefst."
-              },
-              {
-                "text": "Es wäre schön gewesen, wenn Sie in Ihrer Fragestellung dieses Bedauern auch geteilt hätten."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Claudia Roth",
-            "speakerstatus": "vice-president",
-            "text": "So, jetzt stopp! – Dazu Frau Kollegin Andreae.",
-            "sentences": [
-              {
-                "text": "So, jetzt stopp!"
-              },
-              {
-                "text": "– Dazu Frau Kollegin Andreae."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Kerstin Andreae",
-            "speakerstatus": "speaker",
-            "text": "Wir werden uns natürlich erlauben, nochmal genauer nachzufragen, welche anderen Beispiele Sie anführen können; das möchte ich jetzt aber weglassen.",
-            "sentences": [
-              {
-                "text": "Wir werden uns natürlich erlauben, nochmal genauer nachzufragen, welche anderen Beispiele Sie anführen können; das möchte ich jetzt aber weglassen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Kerstin Andreae",
-            "speakerstatus": "speaker",
-            "text": "In meiner Frage geht es noch mal um die Nationale Industriestrategie 2030, die jetzt hier als Denkanstoß dargestellt wird und bei der ich immer noch nicht genau verstanden habe, wer alles daran mitgeschrieben hat. Dort gibt es eine Überschrift, die uns sehr irritiert, nämlich „Size matters!“, also „Größe zählt!“. Das ist für ein Land, das vom Mittelstand geprägt ist und in dem wir die Hidden Champions immer in den Vordergrund stellen, eigentlich ziemlich falsch; denn entscheidend ist nicht die Größe, sondern die Innovation.",
-            "sentences": [
-              {
-                "text": "In meiner Frage geht es noch mal um die Nationale Industriestrategie 2030, die jetzt hier als Denkanstoß dargestellt wird und bei der ich immer noch nicht genau verstanden habe, wer alles daran mitgeschrieben hat."
-              },
-              {
-                "text": "Dort gibt es eine Überschrift, die uns sehr irritiert, nämlich „Size matters!“,"
-              },
-              {
-                "text": "also „Größe zählt!“."
-              },
-              {
-                "text": "Das ist für ein Land, das vom Mittelstand geprägt ist und in dem wir die Hidden Champions immer in den Vordergrund stellen, eigentlich ziemlich falsch; denn entscheidend ist nicht die Größe, sondern die Innovation."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Kerstin Andreae",
-            "speakerstatus": "speaker",
-            "text": "Erklären Sie mir mal, wie das Wirtschaftsministerium in diesem uns als Denkanstoß vorgelegten Papier zu dieser unglaublichen Aussage „Größe zählt!“ kommt.",
-            "sentences": [
-              {
-                "text": "Erklären Sie mir mal, wie das Wirtschaftsministerium in diesem uns als Denkanstoß vorgelegten Papier zu dieser unglaublichen Aussage „Größe zählt!“"
-              },
-              {
-                "text": "kommt."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Oliver Wittke",
-            "speakerstatus": "speaker",
-            "text": "Wenn Sie das Papier genau gelesen haben, dann werden Sie festgestellt haben, dass es eine starke Mittelstandskomponente enthält. Es gibt nicht nur einen ganzen Abschnitt, der sich dem Mittelstand widmet, sondern von den zehn Branchen, die als quasi systemrelevant genannt werden, sind sechs Branchen mittelständisch geprägt.",
-            "sentences": [
-              {
-                "text": "Wenn Sie das Papier genau gelesen haben, dann werden Sie festgestellt haben, dass es eine starke Mittelstandskomponente enthält."
-              },
-              {
-                "text": "Es gibt nicht nur einen ganzen Abschnitt, der sich dem Mittelstand widmet, sondern von den zehn Branchen, die als quasi systemrelevant genannt werden, sind sechs Branchen mittelständisch geprägt."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Oliver Wittke",
-            "speakerstatus": "speaker",
-            "text": "Ich nenne den Maschinen- und Anlagenbau, die optische Industrie und den 3‑D-Druck. Wenn ich die Konzeption jetzt dabeihätte, dann könnte ich Ihnen weitere Branchen nennen.",
-            "sentences": [
-              {
-                "text": "Ich nenne den Maschinen- und Anlagenbau, die optische Industrie und den 3‑D-Druck."
-              },
-              {
-                "text": "Wenn ich die Konzeption jetzt dabeihätte, dann könnte ich Ihnen weitere Branchen nennen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Oliver Wittke",
-            "speakerstatus": "speaker",
-            "text": "Von den zehn systemrelevanten Branchen sind also sechs mittelständisch geprägt. Von daher verstehe ich nicht, wie Sie auf den Gedanken kommen können, dass es ein Papier ist, das nur auf Größe und Großunternehmen abzielt.",
-            "sentences": [
-              {
-                "text": "Von den zehn systemrelevanten Branchen sind also sechs mittelständisch geprägt."
-              },
-              {
-                "text": "Von daher verstehe ich nicht, wie Sie auf den Gedanken kommen können, dass es ein Papier ist, das nur auf Größe und Großunternehmen abzielt."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Claudia Roth",
-            "speakerstatus": "vice-president",
-            "text": "Vielen Dank. – Dann kommen wir zur Frage 32 der Kollegin Katharina Dröge:",
-            "sentences": [
-              {
-                "text": "Vielen Dank."
-              },
-              {
-                "text": "– Dann kommen wir zur Frage 32 der Kollegin Katharina Dröge:"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Claudia Roth",
-            "speakerstatus": "vice-president",
-            "text": "Herr Wittke.",
-            "sentences": [
-              {
-                "text": "Herr Wittke."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Oliver Wittke",
-            "speakerstatus": "speaker",
-            "text": "Vielen Dank, Frau Präsidentin. – Frau Kollegin Dröge, derzeit werden verschiedene Ideen für eine Änderung des europäischen und deutschen Kartellrechts geprüft.",
-            "sentences": [
-              {
-                "text": "Vielen Dank, Frau Präsidentin."
-              },
-              {
-                "text": "– Frau Kollegin Dröge, derzeit werden verschiedene Ideen für eine Änderung des europäischen und deutschen Kartellrechts geprüft."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Claudia Roth",
-            "speakerstatus": "vice-president",
-            "text": "Frau Dröge.",
-            "sentences": [
-              {
-                "text": "Frau Dröge."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Katharina Dröge",
-            "speakerstatus": "speaker",
-            "text": "Das ist mir klar. – Herr Altmaier und Herr Le Maire haben jetzt einen konkreten Vorschlag für die Einführung einer Ministererlaubnis gemacht, und deswegen noch mal die Frage: Wie soll sie ausgestaltet sein?",
-            "sentences": [
-              {
-                "text": "Das ist mir klar."
-              },
-              {
-                "text": "– Herr Altmaier und Herr Le Maire haben jetzt einen konkreten Vorschlag für die Einführung einer Ministererlaubnis gemacht, und deswegen noch mal die Frage: Wie soll sie ausgestaltet sein?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Katharina Dröge",
-            "speakerstatus": "speaker",
-            "text": "Sie wird wahrscheinlich – so habe ich die Medienberichterstattung interpretiert – durch eine Entscheidung des Ministerrates – vielleicht der Wirtschaftsminister; das könnten Sie ja beantworten – erteilt werden. Die Frage ist einfach, mit welchen Mehrheitsverhältnissen. Soll das am Veto eines Staates scheitern können? Soll es ein Einstimmigkeitsprinzip im Europäischen Rat oder eine Mehrheitsentscheidung geben? So was muss man sich ja schon überlegt haben, wenn zwei Minister zweier Länder gemeinsam an die Presse gehen und so einen Vorschlag machen.",
-            "sentences": [
-              {
-                "text": "Sie wird wahrscheinlich – so habe ich die Medienberichterstattung interpretiert – durch eine Entscheidung des Ministerrates – vielleicht der Wirtschaftsminister; das könnten Sie ja beantworten – erteilt werden."
-              },
-              {
-                "text": "Die Frage ist einfach, mit welchen Mehrheitsverhältnissen."
-              },
-              {
-                "text": "Soll das am Veto eines Staates scheitern können?"
-              },
-              {
-                "text": "Soll es ein Einstimmigkeitsprinzip im Europäischen Rat oder eine Mehrheitsentscheidung geben?"
-              },
-              {
-                "text": "So was muss man sich ja schon überlegt haben, wenn zwei Minister zweier Länder gemeinsam an die Presse gehen und so einen Vorschlag machen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Claudia Roth",
-            "speakerstatus": "vice-president",
-            "text": "Herr Wittke.",
-            "sentences": [
-              {
-                "text": "Herr Wittke."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Oliver Wittke",
-            "speakerstatus": "speaker",
-            "text": "Ganz genau, Frau Kollegin Dröge, darüber hat man sich Gedanken gemacht. Darüber wird man jetzt mit den europäischen Partnern sprechen, und das ist auch der richtige Weg;",
-            "sentences": [
-              {
-                "text": "Ganz genau, Frau Kollegin Dröge, darüber hat man sich Gedanken gemacht."
-              },
-              {
-                "text": "Darüber wird man jetzt mit den europäischen Partnern sprechen, und das ist auch der richtige Weg;"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Oliver Wittke",
-            "speakerstatus": "speaker",
-            "text": "denn der Ort, wo das am Ende beschlossen werden muss, ist Europa und nicht Berlin; es ist nicht der Deutsche Bundestag. Darum werden wir mit unseren europäischen Partnern genau diese Fragen erörtern, die Sie mir gerade gestellt haben.",
-            "sentences": [
-              {
-                "text": "denn der Ort, wo das am Ende beschlossen werden muss, ist Europa und nicht Berlin; es ist nicht der Deutsche Bundestag."
-              },
-              {
-                "text": "Darum werden wir mit unseren europäischen Partnern genau diese Fragen erörtern, die Sie mir gerade gestellt haben."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Claudia Roth",
-            "speakerstatus": "vice-president",
-            "text": "Frau Dröge.",
-            "sentences": [
-              {
-                "text": "Frau Dröge."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Katharina Dröge",
-            "speakerstatus": "speaker",
-            "text": "Ich nehme also zur Kenntnis, dass der Minister Vorschläge macht, die er der Presse kommuniziert, aber dem Deutschen Bundestag nicht erläutern will.",
-            "sentences": [
-              {
-                "text": "Ich nehme also zur Kenntnis, dass der Minister Vorschläge macht, die er der Presse kommuniziert, aber dem Deutschen Bundestag nicht erläutern will."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Katharina Dröge",
-            "speakerstatus": "speaker",
-            "text": "Da er ja gesagt hat: „Es soll eine europäische Initiative sein“, würde ich ihm als Denkanstoß einfach mal mitgeben – Sie geben ja auch die ganze Zeit Denkanstöße –, dass er einen Weg finden sollte, zu vermeiden, dass das am Ende eine uneuropäische Ministererlaubnis wird.",
-            "sentences": [
-              {
-                "text": "Da er ja gesagt hat: „Es soll eine europäische Initiative sein“, würde ich ihm als Denkanstoß einfach mal mitgeben – Sie geben ja auch die ganze Zeit Denkanstöße –, dass er einen Weg finden sollte, zu vermeiden, dass das am Ende eine uneuropäische Ministererlaubnis wird."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Katharina Dröge",
-            "speakerstatus": "speaker",
-            "text": "Das war jetzt ein Vorschlag von Deutschland und Frankreich. Sie haben ja eine etwas ausgeprägte Machtstellung im Europäischen Rat. Je nachdem, wie Sie die Mehrheitsverhältnisse bei der Erteilung einer Ministererlaubnis ausgestalten, kann es dann so kommen, dass in Zukunft deutsche und französische Fusionen durch Ministererlaubnisse genehmigt werden und zum Beispiel portugiesische und griechische Fusionen nicht. Deswegen ist es eine sehr europäische Frage, wie Sie zum Beispiel bei einer solchen Ministererlaubnis den Mehrheitsentscheid ausgestalten.",
-            "sentences": [
-              {
-                "text": "Das war jetzt ein Vorschlag von Deutschland und Frankreich."
-              },
-              {
-                "text": "Sie haben ja eine etwas ausgeprägte Machtstellung im Europäischen Rat."
-              },
-              {
-                "text": "Je nachdem, wie Sie die Mehrheitsverhältnisse bei der Erteilung einer Ministererlaubnis ausgestalten, kann es dann so kommen, dass in Zukunft deutsche und französische Fusionen durch Ministererlaubnisse genehmigt werden und zum Beispiel portugiesische und griechische Fusionen nicht."
-              },
-              {
-                "text": "Deswegen ist es eine sehr europäische Frage, wie Sie zum Beispiel bei einer solchen Ministererlaubnis den Mehrheitsentscheid ausgestalten."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Claudia Roth",
-            "speakerstatus": "vice-president",
-            "text": "Herr Wittke, bitte.",
-            "sentences": [
-              {
-                "text": "Herr Wittke, bitte."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Oliver Wittke",
-            "speakerstatus": "speaker",
-            "text": "Frau Präsidentin! Frau Kollegin Dröge, auch wenn Sie wiederum keine Frage gestellt haben, will ich auf Ihr State­ment gerne mit einem Statement antworten.",
-            "sentences": [
-              {
-                "text": "Frau Präsidentin!"
-              },
-              {
-                "text": "Frau Kollegin Dröge, auch wenn Sie wiederum keine Frage gestellt haben, will ich auf Ihr State­ment gerne mit einem Statement antworten."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Oliver Wittke",
-            "speakerstatus": "speaker",
-            "text": "Die beiden Minister Altmaier und Le Maire haben ein Ziel formuliert. Dieses Ziel muss auf europäischer Ebene erreicht werden. Weil wir ins Gelingen verliebt sind, erörtern wir das mit den europäischen Partnern, statt jetzt in Pressemitteilungen, in Pressemeldungen oder in Pressekonferenzen irgendwelche Kriterien vorzustellen,",
-            "sentences": [
-              {
-                "text": "Die beiden Minister Altmaier und Le Maire haben ein Ziel formuliert."
-              },
-              {
-                "text": "Dieses Ziel muss auf europäischer Ebene erreicht werden."
-              },
-              {
-                "text": "Weil wir ins Gelingen verliebt sind, erörtern wir das mit den europäischen Partnern, statt jetzt in Pressemitteilungen, in Pressemeldungen oder in Pressekonferenzen irgendwelche Kriterien vorzustellen,"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Oliver Wittke",
-            "speakerstatus": "speaker",
-            "text": "die nachher wieder eingesammelt werden müssen.",
-            "sentences": [
-              {
-                "text": "die nachher wieder eingesammelt werden müssen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Oliver Wittke",
-            "speakerstatus": "speaker",
-            "text": "Europäische Politik geht partnerschaftlich und nicht dadurch, dass eine Vorgabe von Frankreich und Deutschland gemacht wird. Das Ziel ist formuliert: Wir wollen am Ende mehr Möglichkeiten haben, solche Fusionen möglich zu machen, auch in Einzelfallentscheidungen. Der Weg dahin wird jetzt mit den europäischen Partnern besprochen.",
-            "sentences": [
-              {
-                "text": "Europäische Politik geht partnerschaftlich und nicht dadurch, dass eine Vorgabe von Frankreich und Deutschland gemacht wird."
-              },
-              {
-                "text": "Das Ziel ist formuliert: Wir wollen am Ende mehr Möglichkeiten haben, solche Fusionen möglich zu machen, auch in Einzelfallentscheidungen."
-              },
-              {
-                "text": "Der Weg dahin wird jetzt mit den europäischen Partnern besprochen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Claudia Roth",
-            "speakerstatus": "vice-president",
-            "text": "So, jetzt hat sich noch Frau Andreae gemeldet.",
-            "sentences": [
-              {
-                "text": "So, jetzt hat sich noch Frau Andreae gemeldet."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Kerstin Andreae",
-            "speakerstatus": "speaker",
-            "text": "Herr Wittke, man ist bei Ihren Antworten relativ geneigt, ärgerlich zu werden. Wenn Sie sagen: „Der Weg ist ein europäischer, und wir machen das Ganze partnerschaftlich“, aber zwei Wochen vorher der Wirtschaftsminister ein scheinbar unabgestimmtes Papier der Presse als Nationale Industriestrategie lanciert und dann erklärt: „Auf Basis dieser Nationalen Industriestrategie werden wir europäisch weiterentwickeln“, dann ist das nachgerade unverschämt im Hinblick auf das, was Sie jetzt gerade sagen. Sie haben uns erklärt: Das Ganze wird nur auf europäischer Ebene diskutiert.",
-            "sentences": [
-              {
-                "text": "Herr Wittke, man ist bei Ihren Antworten relativ geneigt, ärgerlich zu werden."
-              },
-              {
-                "text": "Wenn Sie sagen: „Der Weg ist ein europäischer, und wir machen das Ganze partnerschaftlich“, aber zwei Wochen vorher der Wirtschaftsminister ein scheinbar unabgestimmtes Papier der Presse als Nationale Industriestrategie lanciert und dann erklärt: „Auf Basis dieser Nationalen Industriestrategie werden wir europäisch weiterentwickeln“, dann ist das nachgerade unverschämt im Hinblick auf das, was Sie jetzt gerade sagen."
-              },
-              {
-                "text": "Sie haben uns erklärt: Das Ganze wird nur auf europäischer Ebene diskutiert."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Kerstin Andreae",
-            "speakerstatus": "speaker",
-            "text": "Aber ich möchte dann noch einmal freundlich weiterfragen, weil Sie immer eine Frage brauchen, um zu antworten oder auch nicht zu antworten.",
-            "sentences": [
-              {
-                "text": "Aber ich möchte dann noch einmal freundlich weiterfragen, weil Sie immer eine Frage brauchen, um zu antworten oder auch nicht zu antworten."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Oliver Wittke",
-            "speakerstatus": "speaker",
-            "text": "Das heißt ja hier auch Fragestunde.",
-            "sentences": [
-              {
-                "text": "Das heißt ja hier auch Fragestunde."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Kerstin Andreae",
-            "speakerstatus": "speaker",
-            "text": "Mit welchen anderen EU-Mitgliedstaaten haben sich die Bundesregierung und die französische Regierung bereits über ihre Vorschläge für eine Industriestrategie ausgetauscht? Also, gab es schon andere EU-Mitgliedstaaten, die hier konsultiert wurden? Wie soll eigentlich das weitere Vorgehen zur Umsetzung der Ideen ablaufen?",
-            "sentences": [
-              {
-                "text": "Mit welchen anderen EU-Mitgliedstaaten haben sich die Bundesregierung und die französische Regierung bereits über ihre Vorschläge für eine Industriestrategie ausgetauscht?"
-              },
-              {
-                "text": "Also, gab es schon andere EU-Mitgliedstaaten, die hier konsultiert wurden?"
-              },
-              {
-                "text": "Wie soll eigentlich das weitere Vorgehen zur Umsetzung der Ideen ablaufen?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Claudia Roth",
-            "speakerstatus": "vice-president",
-            "text": "Herr Wittke, bitte.",
-            "sentences": [
-              {
-                "text": "Herr Wittke, bitte."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Oliver Wittke",
-            "speakerstatus": "speaker",
-            "text": "Diese Frage, Frau Kollegin, möchte ich gerne schriftlich beantworten, weil ich mich nicht der Gefahr aussetzen möchte, dass Sie mir nachher sagen, ich hätte hier einen Staat nicht genannt, den wir schon konsultiert hätten. Darum möchte ich das gerne schriftlich nachreichen.",
-            "sentences": [
-              {
-                "text": "Diese Frage, Frau Kollegin, möchte ich gerne schriftlich beantworten, weil ich mich nicht der Gefahr aussetzen möchte, dass Sie mir nachher sagen, ich hätte hier einen Staat nicht genannt, den wir schon konsultiert hätten."
-              },
-              {
-                "text": "Darum möchte ich das gerne schriftlich nachreichen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Claudia Roth",
-            "speakerstatus": "vice-president",
-            "text": "Gut, das ist ein Angebot. Dann danke ich Ihnen recht herzlich, Herr Wittke. Damit sind Sie durch,",
-            "sentences": [
-              {
-                "text": "Gut, das ist ein Angebot."
-              },
-              {
-                "text": "Dann danke ich Ihnen recht herzlich, Herr Wittke."
-              },
-              {
-                "text": "Damit sind Sie durch,"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Claudia Roth",
-            "speakerstatus": "vice-president",
-            "text": "was Fragen von grünen Wirtschaftspolitikerinnen angeht.",
-            "sentences": [
-              {
-                "text": "was Fragen von grünen Wirtschaftspolitikerinnen angeht."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Claudia Roth",
-            "speakerstatus": "vice-president",
-            "text": "Ich rufe den Geschäftsbereich des Bundesministeriums der Justiz und für Verbraucherschutz auf. Ich begrüße Christian Lange und Rita Hagl-Kehl.",
-            "sentences": [
-              {
-                "text": "Ich rufe den Geschäftsbereich des Bundesministeriums der Justiz und für Verbraucherschutz auf."
-              },
-              {
-                "text": "Ich begrüße Christian Lange und Rita Hagl-Kehl."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Claudia Roth",
-            "speakerstatus": "vice-president",
-            "text": "Wir kommen zur Frage 33 von Dr. Manuela Rottmann:",
-            "sentences": [
-              {
-                "text": "Wir kommen zur Frage 33 von Dr. Manuela Rottmann:"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Claudia Roth",
-            "speakerstatus": "vice-president",
-            "text": "Sie wird von Frau Hagl-Kehl beantwortet.",
-            "sentences": [
-              {
-                "text": "Sie wird von Frau Hagl-Kehl beantwortet."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Rita Hagl-Kehl",
-            "speakerstatus": "speaker",
-            "text": "Sehr geehrte Frau Präsidentin! Liebe Frau Rottmann, die Untersuchung wurde im Sommer 2017 begonnen. Die Arbeiten werden rechtzeitig vor Auslaufen der Befristung des Kapitalanleger-Musterverfahrensgesetzes zum 1. November 2020 abgeschlossen sein.",
-            "sentences": [
-              {
-                "text": "Sehr geehrte Frau Präsidentin!"
-              },
-              {
-                "text": "Liebe Frau Rottmann, die Untersuchung wurde im Sommer 2017 begonnen."
-              },
-              {
-                "text": "Die Arbeiten werden rechtzeitig vor Auslaufen der Befristung des Kapitalanleger-Musterverfahrensgesetzes zum 1. November 2020 abgeschlossen sein."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Claudia Roth",
-            "speakerstatus": "vice-president",
-            "text": "Frau Kollegin Rottmann, bitte.",
-            "sentences": [
-              {
-                "text": "Frau Kollegin Rottmann, bitte."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Manuela Rottmann",
-            "speakerstatus": "speaker",
-            "text": "Vielen Dank für diese Antwort. – Ist der Bundesregierung bewusst, dass die Tatsache, dass sie völlig offenlässt, ob das Kapitalanleger-Musterverfahrensgesetz über den 31. Oktober 2020 hinaus Bestand haben wird, die aktuell ungefähr 50 bis 60 Kapitalanleger-Musterverfahren, unter anderem gegen VW, schwer belastet, weil sie damit für die Beklagten einen Anreiz setzt, diese Verfahren möglichst über diesen Stichtag hinaus zu verlängern? Dann werden nach der geltenden Rechtslage nämlich all diese Kollektivverfahren wieder in zig Einzelverfahren aufgesprengt. Ist das die Absicht der Bundesregierung?",
-            "sentences": [
-              {
-                "text": "Vielen Dank für diese Antwort."
-              },
-              {
-                "text": "– Ist der Bundesregierung bewusst, dass die Tatsache, dass sie völlig offenlässt, ob das Kapitalanleger-Musterverfahrensgesetz über den 31. Oktober 2020 hinaus Bestand haben wird, die aktuell ungefähr 50 bis 60 Kapitalanleger-Musterverfahren, unter anderem gegen VW, schwer belastet, weil sie damit für die Beklagten einen Anreiz setzt, diese Verfahren möglichst über diesen Stichtag hinaus zu verlängern?"
-              },
-              {
-                "text": "Dann werden nach der geltenden Rechtslage nämlich all diese Kollektivverfahren wieder in zig Einzelverfahren aufgesprengt."
-              },
-              {
-                "text": "Ist das die Absicht der Bundesregierung?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Rita Hagl-Kehl",
-            "speakerstatus": "speaker",
-            "text": "Frau Rottmann, es ist nicht die Absicht der Bundesregierung, irgendjemanden zu schädigen oder hier irgendetwas hinauszuzögern. Aber wir können natürlich nicht darüber entscheiden, ob wir die Geltungsdauer des Gesetzes verlängern oder nicht verlängern, bevor ebendiese Untersuchung stattgefunden hat.",
-            "sentences": [
-              {
-                "text": "Frau Rottmann, es ist nicht die Absicht der Bundesregierung, irgendjemanden zu schädigen oder hier irgendetwas hinauszuzögern."
-              },
-              {
-                "text": "Aber wir können natürlich nicht darüber entscheiden, ob wir die Geltungsdauer des Gesetzes verlängern oder nicht verlängern, bevor ebendiese Untersuchung stattgefunden hat."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Claudia Roth",
-            "speakerstatus": "vice-president",
-            "text": "Zweite Rückfrage?",
-            "sentences": [
-              {
-                "text": "Zweite Rückfrage?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Manuela Rottmann",
-            "speakerstatus": "speaker",
-            "text": "Diese Untersuchung ist von der Bundesregierung, deren Zusammensetzung in der letzten Zeit nicht so häufig gewechselt hat, im Jahr 2012 angekündigt worden. Ich freue mich, dass Sie im Jahr 2017 damit endlich angefangen haben.",
-            "sentences": [
-              {
-                "text": "Diese Untersuchung ist von der Bundesregierung, deren Zusammensetzung in der letzten Zeit nicht so häufig gewechselt hat, im Jahr 2012 angekündigt worden."
-              },
-              {
-                "text": "Ich freue mich, dass Sie im Jahr 2017 damit endlich angefangen haben."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Manuela Rottmann",
-            "speakerstatus": "speaker",
-            "text": "Ich habe noch eine weitere Frage: Können Sie sich vorstellen, dass an den Gerichten allmählich der Eindruck entsteht, dass Sie zwar auf der einen Seite auf der offenen Bühne eine Musterfeststellungsklage mit vielen Pferdefüßen einführen – da dürfen nur gemeinnützige Verbände und nur Verbraucher klagen –, Sie aber auf der anderen Seite die sehr erfolgreichen, sehr gut funktionierenden Kapitalanleger-Musterverfahren sabotieren, bei der auch institutionelle Anleger klagen können? Also: Ist die Musterfeststellungsklage eigentlich nur ein Ablenkungsmanöver davon, dass Sie das, was an kollektivem Rechtsschutz in Deutschland funktioniert, sabotieren wollen?",
-            "sentences": [
-              {
-                "text": "Ich habe noch eine weitere Frage: Können Sie sich vorstellen, dass an den Gerichten allmählich der Eindruck entsteht, dass Sie zwar auf der einen Seite auf der offenen Bühne eine Musterfeststellungsklage mit vielen Pferdefüßen einführen – da dürfen nur gemeinnützige Verbände und nur Verbraucher klagen –, Sie aber auf der anderen Seite die sehr erfolgreichen, sehr gut funktionierenden Kapitalanleger-Musterverfahren sabotieren, bei der auch institutionelle Anleger klagen können?"
-              },
-              {
-                "text": "Also: Ist die Musterfeststellungsklage eigentlich nur ein Ablenkungsmanöver davon, dass Sie das, was an kollektivem Rechtsschutz in Deutschland funktioniert, sabotieren wollen?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Rita Hagl-Kehl",
-            "speakerstatus": "speaker",
-            "text": "Die Bundesregierung hat natürlich nicht die Absicht, irgendetwas zu sabotieren. Aber Sie wissen auch, dass die Musterfeststellungsklage eigentlich eine ganz andere Zielrichtung und einen ganz anderen Hintergrund hat. Die Musterfeststellungsklage wurde eingeführt, damit Verbände für Verbraucher klagen können. Das ist eine ganz andere Zielrichtung als die Zielrichtung der anderen Klageform. Damit sabotieren wir nichts. Wir haben eine neue Klageform eingeführt, die unserer Meinung nach auch keine Pferdefüße hat. Allein die Zahl der Anmeldungen – über 404 000 – zu der Musterfeststellungsklage im Bereich VW-Abgasschummeleien – wie man das so schön nennt – zeigt, dass hier durchaus eine Nachfrage besteht und dass diese Klageform eigentlich überfällig war. Aber das hebelt eine andere Klageform nicht aus. Wie gesagt, das ist eine ganz andere Zielrichtung.",
-            "sentences": [
-              {
-                "text": "Die Bundesregierung hat natürlich nicht die Absicht, irgendetwas zu sabotieren."
-              },
-              {
-                "text": "Aber Sie wissen auch, dass die Musterfeststellungsklage eigentlich eine ganz andere Zielrichtung und einen ganz anderen Hintergrund hat."
-              },
-              {
-                "text": "Die Musterfeststellungsklage wurde eingeführt, damit Verbände für Verbraucher klagen können."
-              },
-              {
-                "text": "Das ist eine ganz andere Zielrichtung als die Zielrichtung der anderen Klageform."
-              },
-              {
-                "text": "Damit sabotieren wir nichts."
-              },
-              {
-                "text": "Wir haben eine neue Klageform eingeführt, die unserer Meinung nach auch keine Pferdefüße hat."
-              },
-              {
-                "text": "Allein die Zahl der Anmeldungen – über 404 000 – zu der Musterfeststellungsklage im Bereich VW-Abgasschummeleien – wie man das so schön nennt – zeigt, dass hier durchaus eine Nachfrage besteht und dass diese Klageform eigentlich überfällig war."
-              },
-              {
-                "text": "Aber das hebelt eine andere Klageform nicht aus."
-              },
-              {
-                "text": "Wie gesagt, das ist eine ganz andere Zielrichtung."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Claudia Roth",
-            "speakerstatus": "vice-president",
-            "text": "Vielen Dank, Frau Hagl-Kehl.",
-            "sentences": [
-              {
-                "text": "Vielen Dank, Frau Hagl-Kehl."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Claudia Roth",
-            "speakerstatus": "vice-president",
-            "text": "Dann kommen wir zur Frage 34 von Katrin Werner:",
-            "sentences": [
-              {
-                "text": "Dann kommen wir zur Frage 34 von Katrin Werner:"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Claudia Roth",
-            "speakerstatus": "vice-president",
-            "text": "Diese wird beantwortet von Christian Lange.",
-            "sentences": [
-              {
-                "text": "Diese wird beantwortet von Christian Lange."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Christian Lange",
-            "speakerstatus": "speaker",
-            "text": "Vielen Dank, Frau Präsidentin. – Liebe Frau Kollegin Werner, wir begrüßen die Bemühungen der Kinderkommission des Deutschen Bundestages um die Qualitätssicherung in Kindschaftsverfahren. Zu der wichtigen Frage der Qualifikation von Verfahrensbeiständen enthält der Koalitionsvertrag eine Aussage. Danach soll rechtlich verbindlich sichergestellt werden, dass Verfahrensbeistände über die erforderliche Qualifikation und Eignung verfügen.",
-            "sentences": [
-              {
-                "text": "Vielen Dank, Frau Präsidentin."
-              },
-              {
-                "text": "– Liebe Frau Kollegin Werner, wir begrüßen die Bemühungen der Kinderkommission des Deutschen Bundestages um die Qualitätssicherung in Kindschaftsverfahren."
-              },
-              {
-                "text": "Zu der wichtigen Frage der Qualifikation von Verfahrensbeiständen enthält der Koalitionsvertrag eine Aussage."
-              },
-              {
-                "text": "Danach soll rechtlich verbindlich sichergestellt werden, dass Verfahrensbeistände über die erforderliche Qualifikation und Eignung verfügen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Christian Lange",
-            "speakerstatus": "speaker",
-            "text": "Unser Haus hat jüngst die letzte große Reform des Familienverfahrensrechts aus dem Jahr 2009 evaluiert. Die Studie zeigt, dass sich die Verfahrensbeistandschaft als Instrument zur Stärkung der Interessenwahrnehmung des Kindes insgesamt bewährt hat. Insbesondere wurde festgestellt, dass sich die Beteiligung des Verfahrensbeistands positiv auf die Gestaltung einvernehmlicher Lösungen in kindschaftsrechtlichen Streitigkeiten auswirkt.",
-            "sentences": [
-              {
-                "text": "Unser Haus hat jüngst die letzte große Reform des Familienverfahrensrechts aus dem Jahr 2009 evaluiert."
-              },
-              {
-                "text": "Die Studie zeigt, dass sich die Verfahrensbeistandschaft als Instrument zur Stärkung der Interessenwahrnehmung des Kindes insgesamt bewährt hat."
-              },
-              {
-                "text": "Insbesondere wurde festgestellt, dass sich die Beteiligung des Verfahrensbeistands positiv auf die Gestaltung einvernehmlicher Lösungen in kindschaftsrechtlichen Streitigkeiten auswirkt."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Christian Lange",
-            "speakerstatus": "speaker",
-            "text": "Am 21. September vergangenen Jahres haben wir in unserem Hause eine Fachkonferenz durchgeführt, in deren Rahmen wir wichtige Aspekte der Studie vertieft, unter anderem mit Vertretern aus Justiz, Wissenschaft und Anwaltschaft, erörtert haben. Dabei nahmen Überlegungen zu Mindestqualifikationsanforderungen einen wichtigen Teil der Wortbeiträge ein.",
-            "sentences": [
-              {
-                "text": "Am 21. September vergangenen Jahres haben wir in unserem Hause eine Fachkonferenz durchgeführt, in deren Rahmen wir wichtige Aspekte der Studie vertieft, unter anderem mit Vertretern aus Justiz, Wissenschaft und Anwaltschaft, erörtert haben."
-              },
-              {
-                "text": "Dabei nahmen Überlegungen zu Mindestqualifikationsanforderungen einen wichtigen Teil der Wortbeiträge ein."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Christian Lange",
-            "speakerstatus": "speaker",
-            "text": "Wir werten die Ergebnisse der Studie und der Fachkonferenz aus und werden sicherstellen, dass auch der Berufsverband der Verfahrensbeistände in diesen Prozess eingebunden wird.",
-            "sentences": [
-              {
-                "text": "Wir werten die Ergebnisse der Studie und der Fachkonferenz aus und werden sicherstellen, dass auch der Berufsverband der Verfahrensbeistände in diesen Prozess eingebunden wird."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Claudia Roth",
-            "speakerstatus": "vice-president",
-            "text": "Vielen Dank, Christian Lange. – Frau Werner, bitte.",
-            "sentences": [
-              {
-                "text": "Vielen Dank, Christian Lange."
-              },
-              {
-                "text": "– Frau Werner, bitte."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Katrin Werner",
-            "speakerstatus": "speaker",
-            "text": "Danke schön für die Antwort. – Ich habe nur noch Detailfragen. Sie haben gesagt, dass Sie die Studie auswerten. Gibt es schon eine Zusammenarbeit mit den Bundesländern? Das wäre der nächste Schritt. Könnten Sie kurz auf den Zeitplan eingehen und sagen, wann man mit Änderungen und neuen Standards rechnen kann?",
-            "sentences": [
-              {
-                "text": "Danke schön für die Antwort."
-              },
-              {
-                "text": "– Ich habe nur noch Detailfragen."
-              },
-              {
-                "text": "Sie haben gesagt, dass Sie die Studie auswerten."
-              },
-              {
-                "text": "Gibt es schon eine Zusammenarbeit mit den Bundesländern?"
-              },
-              {
-                "text": "Das wäre der nächste Schritt."
-              },
-              {
-                "text": "Könnten Sie kurz auf den Zeitplan eingehen und sagen, wann man mit Änderungen und neuen Standards rechnen kann?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Christian Lange",
-            "speakerstatus": "speaker",
-            "text": "Ich kann Ihnen im Augenblick keinen verbindlichen Zeitplan darlegen. Aber Sie merken an unseren Bemühungen, dass wir kontinuierlich dabei sind. Insbesondere die Beteiligung des Berufsverbandes der Verfahrensbeistände ist uns ein wichtiges Anliegen. Wir wollen auf jeden Fall sicherstellen, dass auch diese Meinung der Zivilgesellschaft eine Rolle spielt.",
-            "sentences": [
-              {
-                "text": "Ich kann Ihnen im Augenblick keinen verbindlichen Zeitplan darlegen."
-              },
-              {
-                "text": "Aber Sie merken an unseren Bemühungen, dass wir kontinuierlich dabei sind."
-              },
-              {
-                "text": "Insbesondere die Beteiligung des Berufsverbandes der Verfahrensbeistände ist uns ein wichtiges Anliegen."
-              },
-              {
-                "text": "Wir wollen auf jeden Fall sicherstellen, dass auch diese Meinung der Zivilgesellschaft eine Rolle spielt."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Claudia Roth",
-            "speakerstatus": "vice-president",
-            "text": "Frau Werner, haben Sie eine zweite Zusatzfrage? – Das ist nicht der Fall. Danke schön.",
-            "sentences": [
-              {
-                "text": "Frau Werner, haben Sie eine zweite Zusatzfrage?"
-              },
-              {
-                "text": "– Das ist nicht der Fall."
-              },
-              {
-                "text": "Danke schön."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Claudia Roth",
-            "speakerstatus": "vice-president",
-            "text": "Dann kommen wir zur Frage 35 der Abgeordneten Katrin Werner:",
-            "sentences": [
-              {
-                "text": "Dann kommen wir zur Frage 35 der Abgeordneten Katrin Werner:"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Claudia Roth",
-            "speakerstatus": "vice-president",
-            "text": "Herr Lange, bitte.",
-            "sentences": [
-              {
-                "text": "Herr Lange, bitte."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Christian Lange",
-            "speakerstatus": "speaker",
-            "text": "Sehr gerne, Frau Präsidentin. – Frau Kollegin, ich weise auf die vom Bundesministerium für Familie, Senioren, Frauen und Jugend geförderte Studie „Kindeswohl zwischen Jugendhilfe und Justiz“ von Professor Johannes Münder und anderen hin, in der das Zusammenwirken von Jugendämtern und Familiengerichten den Forschungsschwerpunkt gebildet hat, aber auch die Rolle des Verfahrensbeistands in den Blick genommen wurde. Diese Untersuchung hat unter anderem die Erkenntnis erbracht, dass von den jungen Menschen selbst fast durchgängig die ihnen bestellten Verfahrensbeistände als sehr wertvolle Partnerinnen und Partner im Verfahren angesehen werden.",
-            "sentences": [
-              {
-                "text": "Sehr gerne, Frau Präsidentin."
-              },
-              {
-                "text": "– Frau Kollegin, ich weise auf die vom Bundesministerium für Familie, Senioren, Frauen und Jugend geförderte Studie „Kindeswohl zwischen Jugendhilfe und Justiz“ von Professor Johannes Münder und anderen hin, in der das Zusammenwirken von Jugendämtern und Familiengerichten den Forschungsschwerpunkt gebildet hat, aber auch die Rolle des Verfahrensbeistands in den Blick genommen wurde."
-              },
-              {
-                "text": "Diese Untersuchung hat unter anderem die Erkenntnis erbracht, dass von den jungen Menschen selbst fast durchgängig die ihnen bestellten Verfahrensbeistände als sehr wertvolle Partnerinnen und Partner im Verfahren angesehen werden."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Christian Lange",
-            "speakerstatus": "speaker",
-            "text": "Der im Koalitionsvertrag vereinbarte Beteiligungsprozess zur Modernisierung der Kinder- und Jugendhilfe umfasst auch die Einbeziehung der Erfahrung unter anderem von Kindern und Jugendlichen bei der Kinder- und Jugendhilfe und der Familiengerichtsbarkeit.",
-            "sentences": [
-              {
-                "text": "Der im Koalitionsvertrag vereinbarte Beteiligungsprozess zur Modernisierung der Kinder- und Jugendhilfe umfasst auch die Einbeziehung der Erfahrung unter anderem von Kindern und Jugendlichen bei der Kinder- und Jugendhilfe und der Familiengerichtsbarkeit."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Christian Lange",
-            "speakerstatus": "speaker",
-            "text": "Das Bundesministerium für Familie, Senioren, Frauen und Jugend hat daher entsprechende Erhebungen und systematische Auswertungen zu Erfahrungen von Kindern und Jugendlichen auch in familiengerichtlichen Verfahren im Rahmen einer wissenschaftlichen Begleitung in Auftrag gegeben. Ergebnisse werden Ende des Jahres vorliegen. Die Auswertungen werden mit Blick auf systemische und strukturelle Veränderungsbedarfe in das weitere Verfahren zur Modernisierung der Kinder- und Jugendhilfe aufgenommen. Weitere Forschungsprojekte dieser Art plant die Bundesregierung zurzeit nicht.",
-            "sentences": [
-              {
-                "text": "Das Bundesministerium für Familie, Senioren, Frauen und Jugend hat daher entsprechende Erhebungen und systematische Auswertungen zu Erfahrungen von Kindern und Jugendlichen auch in familiengerichtlichen Verfahren im Rahmen einer wissenschaftlichen Begleitung in Auftrag gegeben."
-              },
-              {
-                "text": "Ergebnisse werden Ende des Jahres vorliegen."
-              },
-              {
-                "text": "Die Auswertungen werden mit Blick auf systemische und strukturelle Veränderungsbedarfe in das weitere Verfahren zur Modernisierung der Kinder- und Jugendhilfe aufgenommen."
-              },
-              {
-                "text": "Weitere Forschungsprojekte dieser Art plant die Bundesregierung zurzeit nicht."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Claudia Roth",
-            "speakerstatus": "vice-president",
-            "text": "Danke, Herr Lange. – Frau Werner, Rückfrage? – Nein. Vielen Dank.",
-            "sentences": [
-              {
-                "text": "Danke, Herr Lange."
-              },
-              {
-                "text": "– Frau Werner, Rückfrage?"
-              },
-              {
-                "text": "– Nein."
-              },
-              {
-                "text": "Vielen Dank."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Claudia Roth",
-            "speakerstatus": "vice-president",
-            "text": "Dann kommen wir zur Frage 36 des Abgeordneten Stefan Schmidt. Die wird schriftlich beantwortet – ebenso wie Frage 37 der Abgeordneten Canan Bayram.",
-            "sentences": [
-              {
-                "text": "Dann kommen wir zur Frage 36 des Abgeordneten Stefan Schmidt."
-              },
-              {
-                "text": "Die wird schriftlich beantwortet – ebenso wie Frage 37 der Abgeordneten Canan Bayram."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Claudia Roth",
-            "speakerstatus": "vice-president",
-            "text": "Ich rufe den Geschäftsbereich des Bundesministeriums für Arbeit und Soziales auf. Davon ist niemand da, weil alle Fragen – die Fragen 38 und 39 der Abgeordneten Sabine Zimmermann sowie die Frage 40 des Abgeordneten Pascal Kober – schriftlich beantwortet werden.",
-            "sentences": [
-              {
-                "text": "Ich rufe den Geschäftsbereich des Bundesministeriums für Arbeit und Soziales auf."
-              },
-              {
-                "text": "Davon ist niemand da, weil alle Fragen – die Fragen 38 und 39 der Abgeordneten Sabine Zimmermann sowie die Frage 40 des Abgeordneten Pascal Kober – schriftlich beantwortet werden."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Claudia Roth",
-            "speakerstatus": "vice-president",
-            "text": "Wir kommen zum Geschäftsbereich des Bundesministeriums der Verteidigung. Ich begrüße Thomas Silberhorn, den Parlamentarischen Staatssekretär.",
-            "sentences": [
-              {
-                "text": "Wir kommen zum Geschäftsbereich des Bundesministeriums der Verteidigung."
-              },
-              {
-                "text": "Ich begrüße Thomas Silberhorn, den Parlamentarischen Staatssekretär."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Claudia Roth",
-            "speakerstatus": "vice-president",
-            "text": "Die Frage 41 der Abgeordneten Canan Bayram wird schriftlich beantwortet. Die Frage 42 von Filiz Polat wird nicht beantwortet, weil sie nicht im Saal und auch nicht entschuldigt ist; selber schuld. Es wird verfahren, wie in der Geschäftsordnung vorgesehen.",
-            "sentences": [
-              {
-                "text": "Die Frage 41 der Abgeordneten Canan Bayram wird schriftlich beantwortet."
-              },
-              {
-                "text": "Die Frage 42 von Filiz Polat wird nicht beantwortet, weil sie nicht im Saal und auch nicht entschuldigt ist; selber schuld."
-              },
-              {
-                "text": "Es wird verfahren, wie in der Geschäftsordnung vorgesehen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Claudia Roth",
-            "speakerstatus": "vice-president",
-            "text": "Wir kommen zur Frage 43 von Dr. Marcus Faber:",
-            "sentences": [
-              {
-                "text": "Wir kommen zur Frage 43 von Dr. Marcus Faber:"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Claudia Roth",
-            "speakerstatus": "vice-president",
-            "text": "Herr Silberhorn.",
-            "sentences": [
-              {
-                "text": "Herr Silberhorn."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Silberhorn",
-            "speakerstatus": "speaker",
-            "text": "Vielen Dank, Frau Präsidentin. – Bei der Betrachtung der Fähigkeitsentwicklung für Kampfflugzeuge liegt der Fokus in einem Wirkungsverbund Future Combat Air System. Die Entwicklung dieses deutsch-französischen Gemeinschaftsprojektes sichert die europäische Technologiehoheit und unsere Handlungsfähigkeit. Seit letzter Woche ist Spanien übrigens als dritter Partner in dieses zunächst bilaterale deutsch-französische Projekt mit aufgenommen.",
-            "sentences": [
-              {
-                "text": "Vielen Dank, Frau Präsidentin."
-              },
-              {
-                "text": "– Bei der Betrachtung der Fähigkeitsentwicklung für Kampfflugzeuge liegt der Fokus in einem Wirkungsverbund Future Combat Air System."
-              },
-              {
-                "text": "Die Entwicklung dieses deutsch-französischen Gemeinschaftsprojektes sichert die europäische Technologiehoheit und unsere Handlungsfähigkeit."
-              },
-              {
-                "text": "Seit letzter Woche ist Spanien übrigens als dritter Partner in dieses zunächst bilaterale deutsch-französische Projekt mit aufgenommen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Silberhorn",
-            "speakerstatus": "speaker",
-            "text": "Ab dem Jahr 2040 soll dieses Future Combat Air System alle Komponenten in der Luft verbinden – bemannte wie unbemannte. Bis zur Einführung dieses „System of Systems“, wie wir sagen, also bis 2040, ist es notwendig, die Fähigkeiten des Tornados mit einer Überbrückungslösung bruchfrei zu erhalten. Auf diesem Weg gibt es verschiedene Optionen und ein ganzes Bündel von Kriterien, die in den Abwägungsvorgang einfließen. In Abwägung dieser Kriterien ist die Bundesregierung zu der Auffassung gekommen, dass dies am besten unter Weiterbetrachtung der Systeme Eurofighter und F‑18 zu gewährleisten ist.",
-            "sentences": [
-              {
-                "text": "Ab dem Jahr 2040 soll dieses Future Combat Air System alle Komponenten in der Luft verbinden – bemannte wie unbemannte."
-              },
-              {
-                "text": "Bis zur Einführung dieses „System of Systems“, wie wir sagen, also bis 2040, ist es notwendig, die Fähigkeiten des Tornados mit einer Überbrückungslösung bruchfrei zu erhalten."
-              },
-              {
-                "text": "Auf diesem Weg gibt es verschiedene Optionen und ein ganzes Bündel von Kriterien, die in den Abwägungsvorgang einfließen."
-              },
-              {
-                "text": "In Abwägung dieser Kriterien ist die Bundesregierung zu der Auffassung gekommen, dass dies am besten unter Weiterbetrachtung der Systeme Eurofighter und F‑18 zu gewährleisten ist."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Claudia Roth",
-            "speakerstatus": "vice-president",
-            "text": "Dr. Faber, Rückfrage?",
-            "sentences": [
-              {
-                "text": "Dr. Faber, Rückfrage?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Marcus Faber",
-            "speakerstatus": "speaker",
-            "text": "Sie haben von den zahlreichen Kriterien vor allem eines, nämlich die Überbrückungslösung, genannt. Nun hat sich die Bundesregierung, wie Sie dargestellt haben, entschieden, den Eurofighter und den F‑18 weiter zu betrachten.",
-            "sentences": [
-              {
-                "text": "Sie haben von den zahlreichen Kriterien vor allem eines, nämlich die Überbrückungslösung, genannt."
-              },
-              {
-                "text": "Nun hat sich die Bundesregierung, wie Sie dargestellt haben, entschieden, den Eurofighter und den F‑18 weiter zu betrachten."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Marcus Faber",
-            "speakerstatus": "speaker",
-            "text": "Der Inspektor der Luftwaffe hat mir gestern gesagt, dass er auch beim F‑18 von 200 Flugstunden im Jahr bei einer Gesamtnutzungszeit pro Flugzeug von insgesamt 10 000 Stunden ausgeht, also von einer Nutzungsdauer von 50 Jahren, die die von Ihnen genannte Überbrückungslösung deutlich übersteigt. Deswegen war meine Frage, warum Sie den F‑35 aus der Betrachtung der Tornado-Nachfolge ausgeschlossen haben.",
-            "sentences": [
-              {
-                "text": "Der Inspektor der Luftwaffe hat mir gestern gesagt, dass er auch beim F‑18 von 200 Flugstunden im Jahr bei einer Gesamtnutzungszeit pro Flugzeug von insgesamt 10 000 Stunden ausgeht, also von einer Nutzungsdauer von 50 Jahren, die die von Ihnen genannte Überbrückungslösung deutlich übersteigt."
-              },
-              {
-                "text": "Deswegen war meine Frage, warum Sie den F‑35 aus der Betrachtung der Tornado-Nachfolge ausgeschlossen haben."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Silberhorn",
-            "speakerstatus": "speaker",
-            "text": "Herr Kollege, wir gehen davon aus, dass jedes neu zu beschaffende Flugzeug eine längere Nutzungsdauer als nur 15 Jahre hat. Das widerspricht aber nicht meiner Aussage, dass wir für diesen Zeitraum eine Überbrückungslösung haben.",
-            "sentences": [
-              {
-                "text": "Herr Kollege, wir gehen davon aus, dass jedes neu zu beschaffende Flugzeug eine längere Nutzungsdauer als nur 15 Jahre hat."
-              },
-              {
-                "text": "Das widerspricht aber nicht meiner Aussage, dass wir für diesen Zeitraum eine Überbrückungslösung haben."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Silberhorn",
-            "speakerstatus": "speaker",
-            "text": "Unter den vielen Kriterien ist eines der wesentlichen, das ich Ihnen auch genannt habe, die Harmonisierung einer solchen Überbrückungslösung mit dem künftigen Future Combat Air System. Im Übrigen spielen auch der Einführungszeitpunkt eines Nachfolgemodells eine Rolle und natürlich das Ziel, die Fähigkeit möglichst bruchfrei zu erhalten. In diesem Bündel von Kriterien, die wir an alle Optionen angelegt haben, haben wir uns auf zwei von ursprünglich vier Optionen verständigt, die jetzt näher zu betrachten sind.",
-            "sentences": [
-              {
-                "text": "Unter den vielen Kriterien ist eines der wesentlichen, das ich Ihnen auch genannt habe, die Harmonisierung einer solchen Überbrückungslösung mit dem künftigen Future Combat Air System."
-              },
-              {
-                "text": "Im Übrigen spielen auch der Einführungszeitpunkt eines Nachfolgemodells eine Rolle und natürlich das Ziel, die Fähigkeit möglichst bruchfrei zu erhalten."
-              },
-              {
-                "text": "In diesem Bündel von Kriterien, die wir an alle Optionen angelegt haben, haben wir uns auf zwei von ursprünglich vier Optionen verständigt, die jetzt näher zu betrachten sind."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Claudia Roth",
-            "speakerstatus": "vice-president",
-            "text": "Dr. Faber, haben Sie noch eine Rückfrage? – Ja. Bitte.",
-            "sentences": [
-              {
-                "text": "Dr. Faber, haben Sie noch eine Rückfrage?"
-              },
-              {
-                "text": "– Ja."
-              },
-              {
-                "text": "Bitte."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Marcus Faber",
-            "speakerstatus": "speaker",
-            "text": "Ich freue mich, zu hören, dass die Überbrückungslösung, die bisher immer als Begründung angegeben wurde, warum der F‑35 von der Betrachtung ausgeschlossen wurde, nicht mehr das entscheidende Kriterium für den Ausschluss ist. Können Sie bitte die Kriterien nennen, die ein Eurofighter und ein F‑18 erfüllen, aber beispielsweise ein F‑35 oder ein F‑15 nicht? – Danke schön.",
-            "sentences": [
-              {
-                "text": "Ich freue mich, zu hören, dass die Überbrückungslösung, die bisher immer als Begründung angegeben wurde, warum der F‑35 von der Betrachtung ausgeschlossen wurde, nicht mehr das entscheidende Kriterium für den Ausschluss ist."
-              },
-              {
-                "text": "Können Sie bitte die Kriterien nennen, die ein Eurofighter und ein F‑18 erfüllen, aber beispielsweise ein F‑35 oder ein F‑15 nicht?"
-              },
-              {
-                "text": "– Danke schön."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Silberhorn",
-            "speakerstatus": "speaker",
-            "text": "Unter den betrachteten Optionen sind alle Flugzeuge, die wir in den Abwägungsvorgang einbeziehen, grundsätzlich geeignet, eine solche Überbrückungslösung darzustellen. Sonst hätten wir sie nicht so intensiv überprüft.",
-            "sentences": [
-              {
-                "text": "Unter den betrachteten Optionen sind alle Flugzeuge, die wir in den Abwägungsvorgang einbeziehen, grundsätzlich geeignet, eine solche Überbrückungslösung darzustellen."
-              },
-              {
-                "text": "Sonst hätten wir sie nicht so intensiv überprüft."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Claudia Roth",
-            "speakerstatus": "vice-president",
-            "text": "Vielen Dank. – Dann kommen wir jetzt noch zum Geschäftsbereich des Bundesministeriums für Gesundheit. Ich begrüße Dr. Thomas Gebhart.",
-            "sentences": [
-              {
-                "text": "Vielen Dank."
-              },
-              {
-                "text": "– Dann kommen wir jetzt noch zum Geschäftsbereich des Bundesministeriums für Gesundheit."
-              },
-              {
-                "text": "Ich begrüße Dr. Thomas Gebhart."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Claudia Roth",
-            "speakerstatus": "vice-president",
-            "text": "Die beiden Fragen werden aber die letzten Fragen sein, die wir heute hier im Plenum behandeln. Das sage ich für die Kolleginnen und Kollegen, die möglicherweise noch etwas anderes vorhaben – ich schaue beispielsweise Herrn Pronold an, dessen Geschäftsbereich nicht mehr drankommen wird. Wir wollen dann um 15.35 Uhr mit der Aktuellen Stunde beginnen.",
-            "sentences": [
-              {
-                "text": "Die beiden Fragen werden aber die letzten Fragen sein, die wir heute hier im Plenum behandeln."
-              },
-              {
-                "text": "Das sage ich für die Kolleginnen und Kollegen, die möglicherweise noch etwas anderes vorhaben – ich schaue beispielsweise Herrn Pronold an, dessen Geschäftsbereich nicht mehr drankommen wird."
-              },
-              {
-                "text": "Wir wollen dann um 15.35 Uhr mit der Aktuellen Stunde beginnen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Claudia Roth",
-            "speakerstatus": "vice-president",
-            "text": "Jetzt kommen wir zur Frage 44 der Kollegin Pia Zimmermann:",
-            "sentences": [
-              {
-                "text": "Jetzt kommen wir zur Frage 44 der Kollegin Pia Zimmermann:"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Claudia Roth",
-            "speakerstatus": "vice-president",
-            "text": "Herr Dr. Gebhart, bitte.",
-            "sentences": [
-              {
-                "text": "Herr Dr. Gebhart, bitte."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Gebhart",
-            "speakerstatus": "speaker",
-            "text": "Frau Präsidentin! Frau Kollegin Zimmermann, ich beantworte Ihre Frage wie folgt: Im Bereich der gesetzlichen Krankenversicherung ist es Aufgabe der Krankenkassen, mit Pflegediensten Verträge zur Versorgung der Versicherten mit Leistungen häuslicher Krankenpflege zu schließen. Im Pflegepersonal-Stärkungsgesetz wurde bestimmt, dass der GKV-Spitzenverband mit den Spitzenverbänden der Pflegedienste in Rahmenempfehlungen Grundsätze für die Vergütung von längeren Wegezeiten, insbesondere in ländlichen Räumen, durch Zuschläge unter Einbeziehung der ambulanten Pflege nach dem Elften Buch Sozialgesetzbuch zu regeln hat. Nach der gesetzlichen Regelung sollen diese Rahmenempfehlungen erstmals bis zum 30. Juni 2019 beschlossen werden. Damit wird insbesondere die Versorgung in ländlichen Gebieten gestärkt, indem lange Wegezeiten über das Fünfte Buch Sozialgesetzbuch und das SGB XI besser honoriert werden.",
-            "sentences": [
-              {
-                "text": "Frau Präsidentin!"
-              },
-              {
-                "text": "Frau Kollegin Zimmermann, ich beantworte Ihre Frage wie folgt: Im Bereich der gesetzlichen Krankenversicherung ist es Aufgabe der Krankenkassen, mit Pflegediensten Verträge zur Versorgung der Versicherten mit Leistungen häuslicher Krankenpflege zu schließen."
-              },
-              {
-                "text": "Im Pflegepersonal-Stärkungsgesetz wurde bestimmt, dass der GKV-Spitzenverband mit den Spitzenverbänden der Pflegedienste in Rahmenempfehlungen Grundsätze für die Vergütung von längeren Wegezeiten, insbesondere in ländlichen Räumen, durch Zuschläge unter Einbeziehung der ambulanten Pflege nach dem Elften Buch Sozialgesetzbuch zu regeln hat."
-              },
-              {
-                "text": "Nach der gesetzlichen Regelung sollen diese Rahmenempfehlungen erstmals bis zum 30. Juni 2019 beschlossen werden."
-              },
-              {
-                "text": "Damit wird insbesondere die Versorgung in ländlichen Gebieten gestärkt, indem lange Wegezeiten über das Fünfte Buch Sozialgesetzbuch und das SGB XI besser honoriert werden."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Gebhart",
-            "speakerstatus": "speaker",
-            "text": "Im Bereich der gesetzlichen Pflegeversicherung ist es Aufgabe der Pflegekassen, mit den Pflegediensten Verträge zur Versorgung der Versicherten mit Leistungen der Langzeitpflege zu schließen. Sie kommen damit ihrem Auftrag aus § 12 SGB XI nach, der ihnen die Verantwortung für die Sicherstellung der pflegerischen Versorgung ihrer Versicherten zuweist.",
-            "sentences": [
-              {
-                "text": "Im Bereich der gesetzlichen Pflegeversicherung ist es Aufgabe der Pflegekassen, mit den Pflegediensten Verträge zur Versorgung der Versicherten mit Leistungen der Langzeitpflege zu schließen."
-              },
-              {
-                "text": "Sie kommen damit ihrem Auftrag aus § 12 SGB XI nach, der ihnen die Verantwortung für die Sicherstellung der pflegerischen Versorgung ihrer Versicherten zuweist."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Gebhart",
-            "speakerstatus": "speaker",
-            "text": "Gemäß § 9 SGB XI sind darüber hinaus die Länder verantwortlich für die Vorhaltung einer leistungsfähigen, zahlenmäßig ausreichenden und wirtschaftlichen pflegerischen Versorgungsstruktur. Dafür steht ihnen gemäß § 9 SGB XI insbesondere das Instrument der Investitionskostenförderung zur Verfügung.",
-            "sentences": [
-              {
-                "text": "Gemäß § 9 SGB XI sind darüber hinaus die Länder verantwortlich für die Vorhaltung einer leistungsfähigen, zahlenmäßig ausreichenden und wirtschaftlichen pflegerischen Versorgungsstruktur."
-              },
-              {
-                "text": "Dafür steht ihnen gemäß § 9 SGB XI insbesondere das Instrument der Investitionskostenförderung zur Verfügung."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Gebhart",
-            "speakerstatus": "speaker",
-            "text": "Ich will noch auf einen Punkt hinweisen: § 8a SGB XI regelt zudem, dass für jedes Land zur Beratung über Fragen der Pflegeversicherung ein Landespflegeausschuss gebildet wird. Dieser Ausschuss kann zur Umsetzung der pflegerischen Versorgung gemeinsame Empfehlungen abgeben. Sofern darüber hinaus nach Maßgabe landesrechtlicher Vorschriften regionale Ausschüsse zur Beratung über Fragen der Pflegeversicherung eingerichtet sind, haben die Pflegekassen daran gemäß § 8a Absatz 3 SGB XI mitzuwirken.",
-            "sentences": [
-              {
-                "text": "Ich will noch auf einen Punkt hinweisen: § 8a SGB XI regelt zudem, dass für jedes Land zur Beratung über Fragen der Pflegeversicherung ein Landespflegeausschuss gebildet wird."
-              },
-              {
-                "text": "Dieser Ausschuss kann zur Umsetzung der pflegerischen Versorgung gemeinsame Empfehlungen abgeben."
-              },
-              {
-                "text": "Sofern darüber hinaus nach Maßgabe landesrechtlicher Vorschriften regionale Ausschüsse zur Beratung über Fragen der Pflegeversicherung eingerichtet sind, haben die Pflegekassen daran gemäß § 8a Absatz 3 SGB XI mitzuwirken."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Gebhart",
-            "speakerstatus": "speaker",
-            "text": "Die Wirkungen der Pflege – –",
-            "sentences": [
-              {
-                "text": "Die Wirkungen der Pflege – –"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Claudia Roth",
-            "speakerstatus": "vice-president",
-            "text": "Herr Dr. Gebhart, jetzt sind Sie aber schon lange über der Zeit.",
-            "sentences": [
-              {
-                "text": "Herr Dr. Gebhart, jetzt sind Sie aber schon lange über der Zeit."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Gebhart",
-            "speakerstatus": "speaker",
-            "text": "Alles klar. Dann mache ich es ganz kurz.",
-            "sentences": [
-              {
-                "text": "Alles klar."
-              },
-              {
-                "text": "Dann mache ich es ganz kurz."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Claudia Roth",
-            "speakerstatus": "vice-president",
-            "text": "Frau Zimmermann, haben Sie noch eine Rückfrage? Herr Dr. Gebhart, dann können Sie den Rest vielleicht noch in Ihre Antwort einbinden. – Frau Zimmermann.",
-            "sentences": [
-              {
-                "text": "Frau Zimmermann, haben Sie noch eine Rückfrage?"
-              },
-              {
-                "text": "Herr Dr. Gebhart, dann können Sie den Rest vielleicht noch in Ihre Antwort einbinden."
-              },
-              {
-                "text": "– Frau Zimmermann."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Pia Zimmermann",
-            "speakerstatus": "speaker",
-            "text": "Vielen Dank, Frau Präsidentin. – Vielen Dank für die Beantwortung. Ich habe da eine Nachfrage. Die Kolleginnen und Kollegen, die in der ambulanten Pflege arbeiten, bekommen durchschnittlich 917 Euro weniger im Monat als ihre Kolleginnen und Kollegen, die in den Krankenhäusern arbeiten. Jetzt gibt es ja durchaus Möglichkeiten für die Bundesregierung, da auch einzugreifen. Meine Frage ist: Wie wollen Sie in diesen Bereichen gleichen Lohn für gleichwertige Arbeit durchsetzen?",
-            "sentences": [
-              {
-                "text": "Vielen Dank, Frau Präsidentin."
-              },
-              {
-                "text": "– Vielen Dank für die Beantwortung."
-              },
-              {
-                "text": "Ich habe da eine Nachfrage."
-              },
-              {
-                "text": "Die Kolleginnen und Kollegen, die in der ambulanten Pflege arbeiten, bekommen durchschnittlich 917 Euro weniger im Monat als ihre Kolleginnen und Kollegen, die in den Krankenhäusern arbeiten."
-              },
-              {
-                "text": "Jetzt gibt es ja durchaus Möglichkeiten für die Bundesregierung, da auch einzugreifen."
-              },
-              {
-                "text": "Meine Frage ist: Wie wollen Sie in diesen Bereichen gleichen Lohn für gleichwertige Arbeit durchsetzen?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Gebhart",
-            "speakerstatus": "speaker",
-            "text": "Das zielt eigentlich schon auf Ihre nächste Frage, die Sie gestellt haben. Es ist so: Wir haben mit dem Pflegepersonal-Stärkungsgesetz eine ganz wichtige Entscheidung getroffen, nämlich dass Tariflöhne in der häuslichen Krankenpflege refinanziert werden. Diese Regelung ist erst seit wenigen Tagen in Kraft; sie ist zum 1. Januar 2019 in Kraft getreten. Das heißt, sie muss jetzt ihre Wirkung entfalten. Ich kann Ihnen aber sagen: Wir werden ganz genau bewerten, wie sich diese neue Regelung in der Praxis auswirkt. Darüber hinaus möchte ich Ihnen auch sagen, dass im Zuge der Konzertierten Aktion Pflege das Thema „Entlohnung in der Pflege“ ebenfalls auf der Tagesordnung steht.",
-            "sentences": [
-              {
-                "text": "Das zielt eigentlich schon auf Ihre nächste Frage, die Sie gestellt haben."
-              },
-              {
-                "text": "Es ist so: Wir haben mit dem Pflegepersonal-Stärkungsgesetz eine ganz wichtige Entscheidung getroffen, nämlich dass Tariflöhne in der häuslichen Krankenpflege refinanziert werden."
-              },
-              {
-                "text": "Diese Regelung ist erst seit wenigen Tagen in Kraft; sie ist zum 1. Januar 2019 in Kraft getreten."
-              },
-              {
-                "text": "Das heißt, sie muss jetzt ihre Wirkung entfalten."
-              },
-              {
-                "text": "Ich kann Ihnen aber sagen: Wir werden ganz genau bewerten, wie sich diese neue Regelung in der Praxis auswirkt."
-              },
-              {
-                "text": "Darüber hinaus möchte ich Ihnen auch sagen, dass im Zuge der Konzertierten Aktion Pflege das Thema „Entlohnung in der Pflege“ ebenfalls auf der Tagesordnung steht."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Claudia Roth",
-            "speakerstatus": "vice-president",
-            "text": "Frau Zimmermann, haben Sie noch eine Rückfrage?",
-            "sentences": [
-              {
-                "text": "Frau Zimmermann, haben Sie noch eine Rückfrage?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Pia Zimmermann",
-            "speakerstatus": "speaker",
-            "text": "Es gibt außerdem das Problem, natürlich auch im ländlichen Raum, dass viele Pflegedienste gar nicht mehr alle betreuen können, weil sie das Personal dazu nicht haben. Da stellt sich die Frage: Wie möchte die Bundesregierung diesen Familien helfen und sie unterstützen, vor allen Dingen dabei, dass sie durch Pflege nicht arm werden?",
-            "sentences": [
-              {
-                "text": "Es gibt außerdem das Problem, natürlich auch im ländlichen Raum, dass viele Pflegedienste gar nicht mehr alle betreuen können, weil sie das Personal dazu nicht haben."
-              },
-              {
-                "text": "Da stellt sich die Frage: Wie möchte die Bundesregierung diesen Familien helfen und sie unterstützen, vor allen Dingen dabei, dass sie durch Pflege nicht arm werden?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Gebhart",
-            "speakerstatus": "speaker",
-            "text": "Zunächst einmal geht es darum, dass wir insgesamt in Deutschland mehr Pflegekräfte bekommen; deswegen ist die Konzertierte Aktion Pflege so wichtig. Ein ganz konkreter Schritt, den wir im aktuellen Gesetzgebungsvorhaben im Zusammenhang mit dem TSVG gehen, ist, dass wir ambulante Betreuungsdienste als Leistungserbringer vorsehen werden. Damit wollen wir einen Beitrag leisten, um das Problem des Fachkräftemangels zu lösen. Diese Maßnahme soll insbesondere auch Pflegefachkräfte entlasten.",
-            "sentences": [
-              {
-                "text": "Zunächst einmal geht es darum, dass wir insgesamt in Deutschland mehr Pflegekräfte bekommen; deswegen ist die Konzertierte Aktion Pflege so wichtig."
-              },
-              {
-                "text": "Ein ganz konkreter Schritt, den wir im aktuellen Gesetzgebungsvorhaben im Zusammenhang mit dem TSVG gehen, ist, dass wir ambulante Betreuungsdienste als Leistungserbringer vorsehen werden."
-              },
-              {
-                "text": "Damit wollen wir einen Beitrag leisten, um das Problem des Fachkräftemangels zu lösen."
-              },
-              {
-                "text": "Diese Maßnahme soll insbesondere auch Pflegefachkräfte entlasten."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Claudia Roth",
-            "speakerstatus": "vice-president",
-            "text": "Jetzt als letzte Frage, die ich heute in dieser Form zulasse, die Frage 45, auch von Kollegin Pia Zimmermann:",
-            "sentences": [
-              {
-                "text": "Jetzt als letzte Frage, die ich heute in dieser Form zulasse, die Frage 45, auch von Kollegin Pia Zimmermann:"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Claudia Roth",
-            "speakerstatus": "vice-president",
-            "text": "Herr Dr. Gebhart.",
-            "sentences": [
-              {
-                "text": "Herr Dr. Gebhart."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Gebhart",
-            "speakerstatus": "speaker",
-            "text": "Ich beantworte die Frage 45 wie folgt: Es ist Aufgabe der Krankenkassen, mit Pflegediensten Verträge zur Versorgung der Versicherten mit Leistungen häuslicher Krankenpflege zu schließen. Mit dem Pflegepersonal-Stärkungsgesetz wurde klargestellt, dass die Krankenkassen bei Verhandlungen mit Pflegediensten über die Vergütung von Leistungen der häuslichen Krankenpflege die Bezahlung von Tarifgehältern nicht als unwirtschaftlich zurückweisen dürfen.",
-            "sentences": [
-              {
-                "text": "Ich beantworte die Frage 45 wie folgt: Es ist Aufgabe der Krankenkassen, mit Pflegediensten Verträge zur Versorgung der Versicherten mit Leistungen häuslicher Krankenpflege zu schließen."
-              },
-              {
-                "text": "Mit dem Pflegepersonal-Stärkungsgesetz wurde klargestellt, dass die Krankenkassen bei Verhandlungen mit Pflegediensten über die Vergütung von Leistungen der häuslichen Krankenpflege die Bezahlung von Tarifgehältern nicht als unwirtschaftlich zurückweisen dürfen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Gebhart",
-            "speakerstatus": "speaker",
-            "text": "Wenn im Einzelfall keine Einigung zwischen Krankenkasse und Pflegedienst erreicht werden kann, besteht die Möglichkeit, ein Schiedsverfahren durchzuführen. Im Übrigen unterliegt das Handeln der Krankenkassen auch einer rechtlichen Überprüfung durch die Aufsichtsbehörden des Bundes und der Länder.",
-            "sentences": [
-              {
-                "text": "Wenn im Einzelfall keine Einigung zwischen Krankenkasse und Pflegedienst erreicht werden kann, besteht die Möglichkeit, ein Schiedsverfahren durchzuführen."
-              },
-              {
-                "text": "Im Übrigen unterliegt das Handeln der Krankenkassen auch einer rechtlichen Überprüfung durch die Aufsichtsbehörden des Bundes und der Länder."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Claudia Roth",
-            "speakerstatus": "vice-president",
-            "text": "Vielen Dank, Herr Dr. Gebhart. – Frau Zimmermann, Rückfrage?",
-            "sentences": [
-              {
-                "text": "Vielen Dank, Herr Dr. Gebhart."
-              },
-              {
-                "text": "– Frau Zimmermann, Rückfrage?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Pia Zimmermann",
-            "speakerstatus": "speaker",
-            "text": "Dazu habe ich noch eine Nachfrage, weil das für die Krankenkassen durchaus interpretierbar ist und die Krankenkassen da auch unterschiedlich handeln werden.",
-            "sentences": [
-              {
-                "text": "Dazu habe ich noch eine Nachfrage, weil das für die Krankenkassen durchaus interpretierbar ist und die Krankenkassen da auch unterschiedlich handeln werden."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Pia Zimmermann",
-            "speakerstatus": "speaker",
-            "text": "Jetzt ist klar, dass es ein Schiedsverfahren gibt. Es gibt aber viele Krankenkassen, mit denen sich die ambulanten Pflegedienste dann auseinandersetzen müssen. Die Frage ist: Was unternimmt denn die Bundesregierung, damit dieses tatsächlich eingehalten wird? Ist der Bundesregierung jetzt schon bekannt, welche Krankenkassen keine tarifliche Bezahlung der Beschäftigten refinanzieren wollen?",
-            "sentences": [
-              {
-                "text": "Jetzt ist klar, dass es ein Schiedsverfahren gibt."
-              },
-              {
-                "text": "Es gibt aber viele Krankenkassen, mit denen sich die ambulanten Pflegedienste dann auseinandersetzen müssen."
-              },
-              {
-                "text": "Die Frage ist: Was unternimmt denn die Bundesregierung, damit dieses tatsächlich eingehalten wird?"
-              },
-              {
-                "text": "Ist der Bundesregierung jetzt schon bekannt, welche Krankenkassen keine tarifliche Bezahlung der Beschäftigten refinanzieren wollen?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Gebhart",
-            "speakerstatus": "speaker",
-            "text": "Zunächst einmal ist es Aufgabe der Dienste und der Kassen, jeweilige Verträge zu schließen. Wenn es keine Einigung gibt, kommt es zu diesem Schiedsverfahren. Wenn man sich nicht auf eine Schiedsperson einigt, dann gibt es auch für diesen Fall Regelungen. Dann ist vorgesehen, dass die Aufsichtsbehörde des Bundes bzw. die des jeweiligen Landes Schiedspersonen bestimmt. So sind die Regelungen.",
-            "sentences": [
-              {
-                "text": "Zunächst einmal ist es Aufgabe der Dienste und der Kassen, jeweilige Verträge zu schließen."
-              },
-              {
-                "text": "Wenn es keine Einigung gibt, kommt es zu diesem Schiedsverfahren."
-              },
-              {
-                "text": "Wenn man sich nicht auf eine Schiedsperson einigt, dann gibt es auch für diesen Fall Regelungen."
-              },
-              {
-                "text": "Dann ist vorgesehen, dass die Aufsichtsbehörde des Bundes bzw. die des jeweiligen Landes Schiedspersonen bestimmt."
-              },
-              {
-                "text": "So sind die Regelungen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Gebhart",
-            "speakerstatus": "speaker",
-            "text": "Darüber hinaus kann ich Ihnen sagen: Dem Bundesversicherungsamt liegen nach aktueller Auskunft keine Erkenntnisse darüber vor, dass Krankenkassen in Vertrags- oder Schiedsverhandlungen versuchen, die Bestimmung, nach der Krankenkassen die Bezahlung von Tariflöhnen nicht als unwirtschaftlich zurückweisen dürfen, zu umgehen.",
-            "sentences": [
-              {
-                "text": "Darüber hinaus kann ich Ihnen sagen: Dem Bundesversicherungsamt liegen nach aktueller Auskunft keine Erkenntnisse darüber vor, dass Krankenkassen in Vertrags- oder Schiedsverhandlungen versuchen, die Bestimmung, nach der Krankenkassen die Bezahlung von Tariflöhnen nicht als unwirtschaftlich zurückweisen dürfen, zu umgehen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Pia Zimmermann",
-            "speakerstatus": "speaker",
-            "text": "Eine ganz kleine Nachfrage habe ich noch. – Die Krankenkassen könnten natürlich auch einheitlich vergüten. Wenn das so wäre, wenn die Krankenkassen also einheitlich bezahlen müssten, dann wäre eigentlich alles geregelt. Meine Frage: Gibt es irgendwelche Unternehmungen, Vorhaben der Bundesregierung, um das genau so zu regeln?",
-            "sentences": [
-              {
-                "text": "Eine ganz kleine Nachfrage habe ich noch."
-              },
-              {
-                "text": "– Die Krankenkassen könnten natürlich auch einheitlich vergüten."
-              },
-              {
-                "text": "Wenn das so wäre, wenn die Krankenkassen also einheitlich bezahlen müssten, dann wäre eigentlich alles geregelt."
-              },
-              {
-                "text": "Meine Frage: Gibt es irgendwelche Unternehmungen, Vorhaben der Bundesregierung, um das genau so zu regeln?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Gebhart",
-            "speakerstatus": "speaker",
-            "text": "Die unterschiedlichen Verträge, die bestehen, sind Ausfluss der Regelungen, so wie wir sie jetzt im Sozialgesetzbuch haben. Aktuell gibt es keine Vorhaben, dies zu ändern.",
-            "sentences": [
-              {
-                "text": "Die unterschiedlichen Verträge, die bestehen, sind Ausfluss der Regelungen, so wie wir sie jetzt im Sozialgesetzbuch haben."
-              },
-              {
-                "text": "Aktuell gibt es keine Vorhaben, dies zu ändern."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Claudia Roth",
-            "speakerstatus": "vice-president",
-            "text": "Vielen herzlichen Dank. – Danke schön, liebe Kolleginnen und Kollegen, für diese teilweise sehr muntere Befragung. Die restlichen Fragen werden schriftlich beantwortet.",
-            "sentences": [
-              {
-                "text": "Vielen herzlichen Dank."
-              },
-              {
-                "text": "– Danke schön, liebe Kolleginnen und Kollegen, für diese teilweise sehr muntere Befragung."
-              },
-              {
-                "text": "Die restlichen Fragen werden schriftlich beantwortet."
-              }
-            ]
           }
         ]
       }
@@ -14166,7 +12203,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 64,
+      "speechIndex": 1066,
       "title": "Aktuelle Stunde zur Münchner Sicherheitskonferenz"
     },
     "people": [
@@ -14179,12 +12216,45 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19082-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19082-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
         "originTextID": "",
         "textBody": [
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "Aktuelle Stunde",
+            "sentences": [
+              {
+                "text": "Aktuelle Stunde"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "auf Verlangen der Fraktionen der CDU/CSU und SPD",
+            "sentences": [
+              {
+                "text": "auf Verlangen der Fraktionen der CDU/CSU und SPD"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "Nach der Münchner Sicherheitskonferenz: Erhaltung und Stärkung der regelbasierten internationalen Ordnung",
+            "sentences": [
+              {
+                "text": "Nach der Münchner Sicherheitskonferenz: Erhaltung und Stärkung der regelbasierten internationalen Ordnung"
+              }
+            ]
+          },
           {
             "type": "speech",
             "speaker": "Claudia Roth",
@@ -14225,7 +12295,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 65,
+      "speechIndex": 1067,
       "title": "Aktuelle Stunde zur Münchner Sicherheitskonferenz"
     },
     "people": [
@@ -14246,7 +12316,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19082-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19082-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -14498,7 +12568,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 66,
+      "speechIndex": 1068,
       "title": "Aktuelle Stunde zur Münchner Sicherheitskonferenz"
     },
     "people": [
@@ -14519,7 +12589,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19082-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19082-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -14832,7 +12902,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 67,
+      "speechIndex": 1069,
       "title": "Aktuelle Stunde zur Münchner Sicherheitskonferenz"
     },
     "people": [
@@ -14853,7 +12923,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19082-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19082-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -15115,7 +13185,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 68,
+      "speechIndex": 1070,
       "title": "Aktuelle Stunde zur Münchner Sicherheitskonferenz"
     },
     "people": [
@@ -15136,7 +13206,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19082-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19082-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -15604,7 +13674,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 69,
+      "speechIndex": 1071,
       "title": "Aktuelle Stunde zur Münchner Sicherheitskonferenz"
     },
     "people": [
@@ -15625,7 +13695,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19082-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19082-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -16077,7 +14147,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 70,
+      "speechIndex": 1072,
       "title": "Aktuelle Stunde zur Münchner Sicherheitskonferenz"
     },
     "people": [
@@ -16098,7 +14168,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19082-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19082-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -16525,7 +14595,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 71,
+      "speechIndex": 1073,
       "title": "Aktuelle Stunde zur Münchner Sicherheitskonferenz"
     },
     "people": [
@@ -16546,7 +14616,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19082-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19082-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -16978,7 +15048,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 72,
+      "speechIndex": 1074,
       "title": "Aktuelle Stunde zur Münchner Sicherheitskonferenz"
     },
     "people": [
@@ -16999,7 +15069,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19082-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19082-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -17423,7 +15493,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 73,
+      "speechIndex": 1075,
       "title": "Aktuelle Stunde zur Münchner Sicherheitskonferenz"
     },
     "people": [
@@ -17444,7 +15514,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19082-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19082-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -17713,7 +15783,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 74,
+      "speechIndex": 1076,
       "title": "Aktuelle Stunde zur Münchner Sicherheitskonferenz"
     },
     "people": [
@@ -17734,7 +15804,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19082-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19082-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -18005,7 +16075,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 75,
+      "speechIndex": 1077,
       "title": "Aktuelle Stunde zur Münchner Sicherheitskonferenz"
     },
     "people": [
@@ -18026,7 +16096,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19082-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19082-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -18305,7 +16375,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 76,
+      "speechIndex": 1078,
       "title": "Aktuelle Stunde zur Münchner Sicherheitskonferenz"
     },
     "people": [
@@ -18316,17 +16386,12 @@
         "lastname": "Kiesewetter",
         "context": "main-speaker",
         "faction": "CDU/CSU"
-      },
-      {
-        "type": "memberOfParliament",
-        "label": "Hans-Peter Friedrich",
-        "context": "vice-president"
       }
     ],
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19082-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19082-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -18506,18 +16571,55 @@
                 "text": "Herzlichen Dank."
               }
             ]
-          },
-          {
-            "type": "comment",
-            "speaker": null,
-            "speakerstatus": null,
-            "text": "(Beifall bei der CDU/CSU sowie bei Abgeordneten der SPD und der FDP)",
-            "sentences": [
-              {
-                "text": "(Beifall bei der CDU/CSU sowie bei Abgeordneten der SPD und der FDP)"
-              }
-            ]
-          },
+          }
+        ]
+      }
+    ],
+    "documents": [],
+    "key": "19-82 zusatzpunkt 1 (roderich kiesewetter)",
+    "dateStart": "2019-02-20T15:39:35",
+    "dateEnd": "2019-02-20T15:45:08",
+    "media": {
+      "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7328674/7328674_h264_720_400_2000kb_baseline_de_2192.mp4",
+      "sourcePage": "http://dbtg.tv/fvid/7328674",
+      "duration": 333.0,
+      "creator": "Deutscher Bundestag",
+      "license": "CC-BY-SA",
+      "originMediaID": "7328674",
+      "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7328674/7328674_mp3_128kb_stereo_de_128.mp3"
+    }
+  },
+  {
+    "parliament": "DE",
+    "electoralPeriod": {
+      "number": "19"
+    },
+    "session": {
+      "number": "82",
+      "dateStart": "2019-02-20T13:00",
+      "dateEnd": "2019-02-20T16:45"
+    },
+    "agendaItem": {
+      "officialTitle": "Zusatzpunkt 1",
+      "speechIndex": 1079,
+      "title": "Aktuelle Stunde zur Münchner Sicherheitskonferenz"
+    },
+    "people": [
+      {
+        "type": "memberOfParliament",
+        "label": "Hans-Peter Friedrich",
+        "context": "vice-president"
+      }
+    ],
+    "textContents": [
+      {
+        "type": "proceedings",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19082-data.xml",
+        "creator": "Deutscher Bundestag",
+        "license": "Public Domain",
+        "language": "DE-de",
+        "originTextID": "",
+        "textBody": [
           {
             "type": "speech",
             "speaker": "Hans-Peter Friedrich",
@@ -18569,6 +16671,28 @@
             "type": "speech",
             "speaker": "Hans-Peter Friedrich",
             "speakerstatus": "vice-president",
+            "text": "(Schluss: 16.45 Uhr)",
+            "sentences": [
+              {
+                "text": "(Schluss: 16.45 Uhr)"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Hans-Peter Friedrich",
+            "speakerstatus": "vice-president",
+            "text": "Berichtigung",
+            "sentences": [
+              {
+                "text": "Berichtigung"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Hans-Peter Friedrich",
+            "speakerstatus": "vice-president",
             "text": "79. Sitzung, Seite 9217 B, zweiter Absatz, zweiter Satz, ist wie folgt zu lesen: „Ergänzend war dem Netzauftritt des Auswärtigen Amtes das Motto der Berlinale zu entnehmen – Zitat –: ‚Das Private ist politisch‘.“",
             "sentences": [
               {
@@ -18580,32 +16704,9 @@
       }
     ],
     "documents": [],
-    "key": "19-82 zusatzpunkt 1 (roderich kiesewetter)",
-    "dateStart": "2019-02-20T15:39:35",
-    "dateEnd": "2019-02-20T15:45:08",
-    "media": {
-      "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7328674/7328674_h264_720_400_2000kb_baseline_de_2192.mp4",
-      "sourcePage": "http://dbtg.tv/fvid/7328674",
-      "duration": 333.0,
-      "creator": "Deutscher Bundestag",
-      "license": "CC-BY-SA",
-      "originMediaID": "7328674",
-      "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7328674/7328674_mp3_128kb_stereo_de_128.mp3"
-    }
-  },
-  {
-    "parliament": "DE",
-    "electoralPeriod": {
-      "number": 19
-    },
-    "session": {
-      "number": 82
-    },
-    "agendaItem": {
-      "title": "Aktuelle Stunde zur Münchner Sicherheitskonferenz",
-      "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 53
-    },
+    "key": "19-82 zusatzpunkt 1 (hans-peter friedrich)",
+    "dateStart": "2019-02-20T15:45:08",
+    "dateEnd": "2019-02-20T15:45:12",
     "media": {
       "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7328675/7328675_h264_720_400_2000kb_baseline_de_2192.mp4",
       "sourcePage": "http://dbtg.tv/fvid/7328675",
@@ -18614,18 +16715,7 @@
       "license": "CC-BY-SA",
       "originMediaID": "7328675",
       "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7328675/7328675_mp3_128kb_stereo_de_128.mp3"
-    },
-    "dateStart": "2019-02-20T15:45:08",
-    "dateEnd": "2019-02-20T15:45:12",
-    "people": [
-      {
-        "label": "Hans-Peter Friedrich",
-        "faction": "CDU/CSU",
-        "context": "main-speaker",
-        "role": "Bundestagsvizepräsident"
-      }
-    ],
-    "key": "19-82 zusatzpunkt 1 (hans-peter friedrich)"
+    }
   },
   {
     "parliament": "DE",

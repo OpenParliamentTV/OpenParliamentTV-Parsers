@@ -11,7 +11,7 @@
     },
     "agendaItem": {
       "officialTitle": "Sitzungseröffnung",
-      "speechIndex": 0,
+      "speechIndex": 1000,
       "title": "Sitzungseröffnung"
     },
     "people": [
@@ -24,7 +24,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19199-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19199-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -140,6 +140,39 @@
             "sentences": [
               {
                 "text": "Wir setzen die Haushaltsberatungen – Tagesordnungspunkt I – fort:"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "a) Zweite Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes über die Feststellung des Bundeshaushaltsplans für das Haushaltsjahr 2021 (Haushaltsgesetz 2021)",
+            "sentences": [
+              {
+                "text": "a) Zweite Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes über die Feststellung des Bundeshaushaltsplans für das Haushaltsjahr 2021 (Haushaltsgesetz 2021)"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "b) Beratung der Beschlussempfehlung des Haushaltsausschusses (8. Ausschuss) zu der Unterrichtung durch die Bundesregierung",
+            "sentences": [
+              {
+                "text": "b) Beratung der Beschlussempfehlung des Haushaltsausschusses (8. Ausschuss) zu der Unterrichtung durch die Bundesregierung"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "Finanzplan des Bundes 2020 bis 2024",
+            "sentences": [
+              {
+                "text": "Finanzplan des Bundes 2020 bis 2024"
               }
             ]
           }
@@ -1743,7 +1776,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 3",
-      "speechIndex": 52,
+      "speechIndex": 1052,
       "title": "Wahl „Stiftung Haus der kleinen Forscher“"
     },
     "people": [
@@ -1756,7 +1789,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19199-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19199-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -1770,6 +1803,28 @@
             "sentences": [
               {
                 "text": "Ich rufe den Zusatzpunkt 3 auf:"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Kubicki",
+            "speakerstatus": "vice-president",
+            "text": "Wahlvorschlag der Fraktion der AfD",
+            "sentences": [
+              {
+                "text": "Wahlvorschlag der Fraktion der AfD"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Kubicki",
+            "speakerstatus": "vice-president",
+            "text": "Wahl eines Mitglieds des Stiftungsrates der „Stiftung Haus der kleinen Forscher“",
+            "sentences": [
+              {
+                "text": "Wahl eines Mitglieds des Stiftungsrates der „Stiftung Haus der kleinen Forscher“"
               }
             ]
           },
@@ -3953,7 +4008,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 4",
-      "speechIndex": 116,
+      "speechIndex": 1116,
       "title": "Aufhebung der Immunität"
     },
     "people": [
@@ -3966,7 +4021,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19199-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19199-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -3980,6 +4035,28 @@
             "sentences": [
               {
                 "text": "Ich rufe den Zusatzpunkt 4 auf:"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Dagmar Ziegler",
+            "speakerstatus": "vice-president",
+            "text": "Beratung der Beschlussempfehlung des Ausschusses für Wahlprüfung, Immunität und Geschäftsordnung (1. Ausschuss)",
+            "sentences": [
+              {
+                "text": "Beratung der Beschlussempfehlung des Ausschusses für Wahlprüfung, Immunität und Geschäftsordnung (1. Ausschuss)"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Dagmar Ziegler",
+            "speakerstatus": "vice-president",
+            "text": "Antrag auf Genehmigung zur Durchführung eines berufsrechtlichen Ermittlungsverfahrens",
+            "sentences": [
+              {
+                "text": "Antrag auf Genehmigung zur Durchführung eines berufsrechtlichen Ermittlungsverfahrens"
               }
             ]
           },

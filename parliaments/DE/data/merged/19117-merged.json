@@ -11,7 +11,7 @@
     },
     "agendaItem": {
       "officialTitle": "Sitzungseröffnung",
-      "speechIndex": 0,
+      "speechIndex": 1000,
       "title": "Sitzungseröffnung"
     },
     "people": [
@@ -24,7 +24,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19117-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19117-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -170,7 +170,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 4",
-      "speechIndex": 4,
+      "speechIndex": 1004,
       "title": "Befragung der Bundesregierung"
     },
     "people": [
@@ -183,7 +183,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19117-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19117-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -197,6 +197,17 @@
             "sentences": [
               {
                 "text": "Ich rufe den Tagesordnungspunkt 4 auf:"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "Befragung der Bundesregierung",
+            "sentences": [
+              {
+                "text": "Befragung der Bundesregierung"
               }
             ]
           },
@@ -251,7 +262,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 4",
-      "speechIndex": 5,
+      "speechIndex": 1005,
       "title": "Befragung der Bundesregierung"
     },
     "people": [
@@ -272,7 +283,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19117-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19117-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -553,7 +564,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 5",
-      "speechIndex": 79,
+      "speechIndex": 1079,
       "title": "Fragestunde"
     },
     "people": [
@@ -718,7 +729,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19117-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19117-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -732,6 +743,17 @@
             "sentences": [
               {
                 "text": "Ich rufe den Tagesordnungspunkt 5 auf:"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Petra Pau",
+            "speakerstatus": "vice-president",
+            "text": "Fragestunde",
+            "sentences": [
+              {
+                "text": "Fragestunde"
               }
             ]
           },
@@ -5514,7 +5536,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 5",
-      "speechIndex": 80,
+      "speechIndex": 1080,
       "title": "Fragestunde"
     },
     "people": [
@@ -5650,36 +5672,12 @@
         "lastname": "Hilse",
         "context": "speaker",
         "faction": "AfD"
-      },
-      {
-        "type": "memberOfParliament",
-        "label": "Christoph Hoffmann",
-        "firstname": "Christoph",
-        "lastname": "Hoffmann",
-        "context": "speaker",
-        "faction": "FDP"
-      },
-      {
-        "type": "memberOfParliament",
-        "label": "Norbert Barthle",
-        "firstname": "Norbert",
-        "lastname": "Barthle",
-        "context": "speaker",
-        "faction": ""
-      },
-      {
-        "type": "memberOfParliament",
-        "label": "Eva-Maria Schreiber",
-        "firstname": "Eva-Maria",
-        "lastname": "Schreiber",
-        "context": "speaker",
-        "faction": "DIE LINKE"
       }
     ],
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19117-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19117-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -5693,6 +5691,17 @@
             "sentences": [
               {
                 "text": "Ich rufe den Tagesordnungspunkt 5 auf:"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Petra Pau",
+            "speakerstatus": "vice-president",
+            "text": "Fragestunde",
+            "sentences": [
+              {
+                "text": "Fragestunde"
               }
             ]
           },
@@ -8496,1473 +8505,6 @@
                 "text": "Sie haben das Wort zur zweiten Nachfrage."
               }
             ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Karlheinz Busen",
-            "speakerstatus": "speaker",
-            "text": "Das ist leider eine ganz falsche Antwort. Das Beste ist der Wirtschaftswald.",
-            "sentences": [
-              {
-                "text": "Das ist leider eine ganz falsche Antwort."
-              },
-              {
-                "text": "Das Beste ist der Wirtschaftswald."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Karlheinz Busen",
-            "speakerstatus": "speaker",
-            "text": "Dennoch habe ich eine zweite Frage: Frau Schulze sagte kürzlich im „Spiegel“, es müsse eine Prämie für Waldbesitzer geben, die ihren Wald stilllegen. – Wie hoch, meinen Sie, soll so eine Prämie nach Vorstellung des Bundesumweltministeriums sein?",
-            "sentences": [
-              {
-                "text": "Dennoch habe ich eine zweite Frage: Frau Schulze sagte kürzlich im „Spiegel“, es müsse eine Prämie für Waldbesitzer geben, die ihren Wald stilllegen."
-              },
-              {
-                "text": "– Wie hoch, meinen Sie, soll so eine Prämie nach Vorstellung des Bundesumweltministeriums sein?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Florian Pronold",
-            "speakerstatus": "speaker",
-            "text": "Unser Ziel ist, dass der Flächenanteil der Wälder mit natürlicher Waldentwicklung 5 Prozent beträgt, was bedeutet, dass dort keine entsprechenden Maßnahmen vorgesehen werden. Ich glaube, man wird auch diesen Aspekt gemeinsam mit dem Landwirtschaftsministerium im Zuge der Fragen, die es etwa dazu gibt, wie wir Wälder resilienter gegenüber dem Klimawandel machen, besprechen und beraten müssen. Zu einer genauen Prämienhöhe kann ich Ihnen jetzt noch keine Auskunft geben.",
-            "sentences": [
-              {
-                "text": "Unser Ziel ist, dass der Flächenanteil der Wälder mit natürlicher Waldentwicklung 5 Prozent beträgt, was bedeutet, dass dort keine entsprechenden Maßnahmen vorgesehen werden."
-              },
-              {
-                "text": "Ich glaube, man wird auch diesen Aspekt gemeinsam mit dem Landwirtschaftsministerium im Zuge der Fragen, die es etwa dazu gibt, wie wir Wälder resilienter gegenüber dem Klimawandel machen, besprechen und beraten müssen."
-              },
-              {
-                "text": "Zu einer genauen Prämienhöhe kann ich Ihnen jetzt noch keine Auskunft geben."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Die nächste Nachfrage stellt die Kollegin Konrad.",
-            "sentences": [
-              {
-                "text": "Die nächste Nachfrage stellt die Kollegin Konrad."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Carina Konrad",
-            "speakerstatus": "speaker",
-            "text": "Vielen Dank, Frau Präsidentin. – Herr Pronold, Sie haben gesagt, dass es die Empfehlung des Bundesumweltministeriums sei, Schadholz grundsätzlich nicht dem Wald zu entnehmen. Darin sehe ich einen grundsätzlichen Widerspruch zu den Aussagen, die die Bundeslandwirtschaftsministerin Klöckner in den letzten Tagen und Wochen gemacht hat. Sie war ja sehr viel im Wald unterwegs und hat sich ein Bild von der dramatischen Lage in manchen Wäldern gemacht.",
-            "sentences": [
-              {
-                "text": "Vielen Dank, Frau Präsidentin."
-              },
-              {
-                "text": "– Herr Pronold, Sie haben gesagt, dass es die Empfehlung des Bundesumweltministeriums sei, Schadholz grundsätzlich nicht dem Wald zu entnehmen."
-              },
-              {
-                "text": "Darin sehe ich einen grundsätzlichen Widerspruch zu den Aussagen, die die Bundeslandwirtschaftsministerin Klöckner in den letzten Tagen und Wochen gemacht hat."
-              },
-              {
-                "text": "Sie war ja sehr viel im Wald unterwegs und hat sich ein Bild von der dramatischen Lage in manchen Wäldern gemacht."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Carina Konrad",
-            "speakerstatus": "speaker",
-            "text": "Ich frage mich jetzt schon – das fragen sich auch die Feuerwehren landesweit und bundesweit –, wie man denn damit umgehen soll, wenn die Waldbrandgefahr, die in genau diesen Beständen deutlich erhöht ist, im nächsten Jahr, wenn es wieder so trocken wird, noch einmal deutlich steigt. Welche Antwort geben Sie denn den Leuten, die sich darum sorgen, dass dann eben auch große, jetzt noch gesunde Waldflächen durch die erhöhte Waldbrandgefahr Schaden nehmen könnten?",
-            "sentences": [
-              {
-                "text": "Ich frage mich jetzt schon – das fragen sich auch die Feuerwehren landesweit und bundesweit –, wie man denn damit umgehen soll, wenn die Waldbrandgefahr, die in genau diesen Beständen deutlich erhöht ist, im nächsten Jahr, wenn es wieder so trocken wird, noch einmal deutlich steigt."
-              },
-              {
-                "text": "Welche Antwort geben Sie denn den Leuten, die sich darum sorgen, dass dann eben auch große, jetzt noch gesunde Waldflächen durch die erhöhte Waldbrandgefahr Schaden nehmen könnten?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Florian Pronold",
-            "speakerstatus": "speaker",
-            "text": "Sie haben meine Antwort vorhin nicht richtig wiedergegeben. Ich habe nicht davon gesprochen, dass die Bundesregierung oder das Umweltministerium der Auffassung ist, dass Schadholz nicht aus dem Wald entfernt werden soll. Es geht um die 2,8 Prozent der Waldflächen, die dauerhaft rechtlich gesichert einer natürlichen Waldentwicklung überlassen ist.",
-            "sentences": [
-              {
-                "text": "Sie haben meine Antwort vorhin nicht richtig wiedergegeben."
-              },
-              {
-                "text": "Ich habe nicht davon gesprochen, dass die Bundesregierung oder das Umweltministerium der Auffassung ist, dass Schadholz nicht aus dem Wald entfernt werden soll."
-              },
-              {
-                "text": "Es geht um die 2,8 Prozent der Waldflächen, die dauerhaft rechtlich gesichert einer natürlichen Waldentwicklung überlassen ist."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Florian Pronold",
-            "speakerstatus": "speaker",
-            "text": "Ich komme aus dem Bayerischen Wald; ich kann Sie dahin einladen. Da wird schon über viele Jahrzehnte eine heftige Debatte geführt. Dort gibt es einen Naturpark. Da hatten wir viele Debatten über die Frage, wie sich der Nationalpark Bayerischer Wald entwickelt und wie auch über Jahre hinweg ein Baumbestand reaktiviert werden kann, der nach Sturmschäden ziemlich verheerend ausgesehen hat. Die natürliche Entwicklung eines solchen Waldbestandes ist nach unserer Auffassung auch eine sehr gute Möglichkeit, den Wald resilient gegenüber den Klimaherausforderungen zu machen, die ihm zukünftig drohen. Nur auf den derzeit 2,8 Prozent der Flächen – da wollen wir etwas mehr – bezog sich die Aussage, dass es prinzipiell keine Entnahme geben soll, außer es ist Gefahr im Verzug. Der Fall, den Sie geschildert haben, dass daraus eine erhöhte Waldbrandgefahr resultiert, entspräche Gefahr im Verzug. Dann können natürlich entsprechende Maßnahmen ergriffen werden.",
-            "sentences": [
-              {
-                "text": "Ich komme aus dem Bayerischen Wald; ich kann Sie dahin einladen."
-              },
-              {
-                "text": "Da wird schon über viele Jahrzehnte eine heftige Debatte geführt."
-              },
-              {
-                "text": "Dort gibt es einen Naturpark."
-              },
-              {
-                "text": "Da hatten wir viele Debatten über die Frage, wie sich der Nationalpark Bayerischer Wald entwickelt und wie auch über Jahre hinweg ein Baumbestand reaktiviert werden kann, der nach Sturmschäden ziemlich verheerend ausgesehen hat."
-              },
-              {
-                "text": "Die natürliche Entwicklung eines solchen Waldbestandes ist nach unserer Auffassung auch eine sehr gute Möglichkeit, den Wald resilient gegenüber den Klimaherausforderungen zu machen, die ihm zukünftig drohen."
-              },
-              {
-                "text": "Nur auf den derzeit 2,8 Prozent der Flächen – da wollen wir etwas mehr – bezog sich die Aussage, dass es prinzipiell keine Entnahme geben soll, außer es ist Gefahr im Verzug."
-              },
-              {
-                "text": "Der Fall, den Sie geschildert haben, dass daraus eine erhöhte Waldbrandgefahr resultiert, entspräche Gefahr im Verzug."
-              },
-              {
-                "text": "Dann können natürlich entsprechende Maßnahmen ergriffen werden."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Die nächste Nachfrage stellt der Abgeordnete Kraft.",
-            "sentences": [
-              {
-                "text": "Die nächste Nachfrage stellt der Abgeordnete Kraft."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Rainer Kraft",
-            "speakerstatus": "speaker",
-            "text": "Vielen Dank, Frau Präsidentin. – Herr Staatssekretär, Sie haben es gerade teilweise vorweggenommen. Ich frage deswegen zur Klarifikation, weil Sie es eingangs nicht sagten.",
-            "sentences": [
-              {
-                "text": "Vielen Dank, Frau Präsidentin."
-              },
-              {
-                "text": "– Herr Staatssekretär, Sie haben es gerade teilweise vorweggenommen."
-              },
-              {
-                "text": "Ich frage deswegen zur Klarifikation, weil Sie es eingangs nicht sagten."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Rainer Kraft",
-            "speakerstatus": "speaker",
-            "text": "Es gibt Wälder, in denen Sie keine Eingriffe haben wollen. Bei Gefahr im Verzug lassen Sie Eingriffe zu in der Form, dass dann eben das entfernt werden darf, was für Gefahr im Verzug verantwortlich ist. Aber Sie schließen aus, dass es irgendwelche Eingriffe oder Entfernungen von Schadholz gibt, die nicht mit der Einordnung „Gefahr im Verzug“ abgedeckt sind.",
-            "sentences": [
-              {
-                "text": "Es gibt Wälder, in denen Sie keine Eingriffe haben wollen."
-              },
-              {
-                "text": "Bei Gefahr im Verzug lassen Sie Eingriffe zu in der Form, dass dann eben das entfernt werden darf, was für Gefahr im Verzug verantwortlich ist."
-              },
-              {
-                "text": "Aber Sie schließen aus, dass es irgendwelche Eingriffe oder Entfernungen von Schadholz gibt, die nicht mit der Einordnung „Gefahr im Verzug“ abgedeckt sind."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Florian Pronold",
-            "speakerstatus": "speaker",
-            "text": "Wie ich eingangs erläutert habe, ist das Konzept, dass es dort eine natürliche Entwicklung geben soll. Es gibt Länderkompetenzen, die sich auf diese Wälder erstrecken, und entsprechende Schutzgebietsverordnungen, die unterschiedliche Regelungen vorsehen. Deswegen ist der Regelfall, soweit mir das bekannt ist, zu versuchen, dort nicht einzugreifen. Aber ich kann nicht ausschließen, dass es dann, wenn die Gefahr besteht, dass ein Borkenkäferbefall oder ein anderer Schädlingsbefall auf andere Teile übergreifen könnte, zu entsprechenden Maßnahmen kommen kann.",
-            "sentences": [
-              {
-                "text": "Wie ich eingangs erläutert habe, ist das Konzept, dass es dort eine natürliche Entwicklung geben soll."
-              },
-              {
-                "text": "Es gibt Länderkompetenzen, die sich auf diese Wälder erstrecken, und entsprechende Schutzgebietsverordnungen, die unterschiedliche Regelungen vorsehen."
-              },
-              {
-                "text": "Deswegen ist der Regelfall, soweit mir das bekannt ist, zu versuchen, dort nicht einzugreifen."
-              },
-              {
-                "text": "Aber ich kann nicht ausschließen, dass es dann, wenn die Gefahr besteht, dass ein Borkenkäferbefall oder ein anderer Schädlingsbefall auf andere Teile übergreifen könnte, zu entsprechenden Maßnahmen kommen kann."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Die letzte Nachfrage zur Frage 15 stellt der Abgeordnete Hoffmann.",
-            "sentences": [
-              {
-                "text": "Die letzte Nachfrage zur Frage 15 stellt der Abgeordnete Hoffmann."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Christoph Hoffmann",
-            "speakerstatus": "speaker",
-            "text": "Herr Staatssekretär, Sie haben gerade erwähnt, dass die sogenannten stillgelegten Wälder oder auch Bannwälder schneller Resilienz entwickeln bzw. auch zu resistenten Individuen führen würden. Auf welche wissenschaftliche Untersuchung berufen Sie sich denn da? Das kann eigentlich gar nicht sein.",
-            "sentences": [
-              {
-                "text": "Herr Staatssekretär, Sie haben gerade erwähnt, dass die sogenannten stillgelegten Wälder oder auch Bannwälder schneller Resilienz entwickeln bzw. auch zu resistenten Individuen führen würden."
-              },
-              {
-                "text": "Auf welche wissenschaftliche Untersuchung berufen Sie sich denn da?"
-              },
-              {
-                "text": "Das kann eigentlich gar nicht sein."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Florian Pronold",
-            "speakerstatus": "speaker",
-            "text": "Also, wie Sie wahrscheinlich auch habe ich einige Gespräche geführt, etwa mit Förstern und anderen Beteiligten. Ich will Ihnen gerne zu dieser Frage der Resilienz eine entsprechende Quelle schriftlich nachreichen. Ich habe diese hier jetzt nicht vorliegen, aber das kann ich gerne nachholen.",
-            "sentences": [
-              {
-                "text": "Also, wie Sie wahrscheinlich auch habe ich einige Gespräche geführt, etwa mit Förstern und anderen Beteiligten."
-              },
-              {
-                "text": "Ich will Ihnen gerne zu dieser Frage der Resilienz eine entsprechende Quelle schriftlich nachreichen."
-              },
-              {
-                "text": "Ich habe diese hier jetzt nicht vorliegen, aber das kann ich gerne nachholen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Die Frage 16 des Abgeordneten Dr. Christoph Hoffmann wird nach unseren Richtlinien schriftlich beantwortet.",
-            "sentences": [
-              {
-                "text": "Die Frage 16 des Abgeordneten Dr. Christoph Hoffmann wird nach unseren Richtlinien schriftlich beantwortet."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Ich rufe die Frage 17 des Abgeordneten Dr. Rainer Kraft auf:",
-            "sentences": [
-              {
-                "text": "Ich rufe die Frage 17 des Abgeordneten Dr. Rainer Kraft auf:"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Bitte, Herr Staatssekretär.",
-            "sentences": [
-              {
-                "text": "Bitte, Herr Staatssekretär."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Florian Pronold",
-            "speakerstatus": "speaker",
-            "text": "Sehr geehrter Herr Kollege, es gibt soziokulturelle Unterschiede zwischen Männern und Frauen in verschiedenen Gesellschaften, die zu unterschiedlichen Betroffenheiten und Auswirkungen beim Klimawandel führen. Deswegen ist es auf internationaler Ebene schon lange üblich, dass wir die Frage von Gleichstellung und Gender Mainstreaming auch bei der Anpassung an den Klimawandel mitdenken und die unterschiedlichen Lösungsansätze, die im Bereich des Klimaschutzes verfolgt werden, mit anderen Zielen, die wir zum Beispiel mit den Sustainable Development Goals haben, in Übereinstimmung bringen.",
-            "sentences": [
-              {
-                "text": "Sehr geehrter Herr Kollege, es gibt soziokulturelle Unterschiede zwischen Männern und Frauen in verschiedenen Gesellschaften, die zu unterschiedlichen Betroffenheiten und Auswirkungen beim Klimawandel führen."
-              },
-              {
-                "text": "Deswegen ist es auf internationaler Ebene schon lange üblich, dass wir die Frage von Gleichstellung und Gender Mainstreaming auch bei der Anpassung an den Klimawandel mitdenken und die unterschiedlichen Lösungsansätze, die im Bereich des Klimaschutzes verfolgt werden, mit anderen Zielen, die wir zum Beispiel mit den Sustainable Development Goals haben, in Übereinstimmung bringen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Florian Pronold",
-            "speakerstatus": "speaker",
-            "text": "Vor diesem Hintergrund betrachtet die Bundesregierung eine gleichberechtigte Mitbestimmung von Frauen in der Klimapolitik auf allen Ebenen als essenziell. Seitens der UN-Klimaverhandlungen wurde zu diesem Zweck bereits bei der COP 23 in Bonn ein Gender-Aktionsplan verabschiedet. Der Aktionsplan wird aktuell überprüft und aktualisiert und stand deshalb – das ist ja auch Gegenstand Ihrer Frage – auf der Agenda der sogenannten PreCOP.",
-            "sentences": [
-              {
-                "text": "Vor diesem Hintergrund betrachtet die Bundesregierung eine gleichberechtigte Mitbestimmung von Frauen in der Klimapolitik auf allen Ebenen als essenziell."
-              },
-              {
-                "text": "Seitens der UN-Klimaverhandlungen wurde zu diesem Zweck bereits bei der COP 23 in Bonn ein Gender-Aktionsplan verabschiedet."
-              },
-              {
-                "text": "Der Aktionsplan wird aktuell überprüft und aktualisiert und stand deshalb – das ist ja auch Gegenstand Ihrer Frage – auf der Agenda der sogenannten PreCOP."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Sie haben das Wort zu einer ersten Nachfrage.",
-            "sentences": [
-              {
-                "text": "Sie haben das Wort zu einer ersten Nachfrage."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Rainer Kraft",
-            "speakerstatus": "speaker",
-            "text": "Vielen Dank, Frau Präsidentin. – Herr Staatssekretär, ich durfte in diesem Sommer an dem High-level Political Forum zu nachhaltiger Entwicklung teilnehmen. Ihre Kollegin Frau Schwarzelühr-Sutter war ebenfalls zugegen. Es ist in den Nachhaltigkeitsberichten der anderen Nationen und in den Veranstaltungen sowohl der UN als auch der Interparlamentarischen Union ziemlich klar geworden, dass es für diese Gremien exakt zwei Geschlechter auf dieser Welt gibt, nämlich Männer und Frauen. Wie steht die Bundesregierung zu diesen Erkenntnissen dieser multilateralen Gremien?",
-            "sentences": [
-              {
-                "text": "Vielen Dank, Frau Präsidentin."
-              },
-              {
-                "text": "– Herr Staatssekretär, ich durfte in diesem Sommer an dem High-level Political Forum zu nachhaltiger Entwicklung teilnehmen."
-              },
-              {
-                "text": "Ihre Kollegin Frau Schwarzelühr-Sutter war ebenfalls zugegen."
-              },
-              {
-                "text": "Es ist in den Nachhaltigkeitsberichten der anderen Nationen und in den Veranstaltungen sowohl der UN als auch der Interparlamentarischen Union ziemlich klar geworden, dass es für diese Gremien exakt zwei Geschlechter auf dieser Welt gibt, nämlich Männer und Frauen."
-              },
-              {
-                "text": "Wie steht die Bundesregierung zu diesen Erkenntnissen dieser multilateralen Gremien?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Florian Pronold",
-            "speakerstatus": "speaker",
-            "text": "Ich glaube, dass es keine Beschlussfassung dieser multilateralen Gremien zu dieser Frage gegeben hat. Sie kennen die Rechtsprechung der deutschen Gerichte in diesem Fall. Wir wissen, dass es eben nicht nur zwei Geschlechter gibt, sondern auch Menschen mit anderen Geschlechtsidentitäten. Ich halte es für richtig, so wie die Bundesregierung, dass das auch in diesen Prozessen abgebildet wird.",
-            "sentences": [
-              {
-                "text": "Ich glaube, dass es keine Beschlussfassung dieser multilateralen Gremien zu dieser Frage gegeben hat."
-              },
-              {
-                "text": "Sie kennen die Rechtsprechung der deutschen Gerichte in diesem Fall."
-              },
-              {
-                "text": "Wir wissen, dass es eben nicht nur zwei Geschlechter gibt, sondern auch Menschen mit anderen Geschlechtsidentitäten."
-              },
-              {
-                "text": "Ich halte es für richtig, so wie die Bundesregierung, dass das auch in diesen Prozessen abgebildet wird."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Damit haben Sie das Wort zu einer zweiten Nachfrage.",
-            "sentences": [
-              {
-                "text": "Damit haben Sie das Wort zu einer zweiten Nachfrage."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Rainer Kraft",
-            "speakerstatus": "speaker",
-            "text": "Okay, gut, das nehmen wir so zur Kenntnis. – Sie sprachen an, dass von den Geschlechtern die Auswirkungen des Klimawandels sehr unterschiedlich aufgenommen werden. Könnte das ein Grund dafür sein, dass vornehmlich Männer aus Afrika zu uns flüchten? Nehmen diese Männer, die zu uns flüchten, die Wandlungen des Klimas in Afrika stärker wahr als die dort lebenden Frauen?",
-            "sentences": [
-              {
-                "text": "Okay, gut, das nehmen wir so zur Kenntnis."
-              },
-              {
-                "text": "– Sie sprachen an, dass von den Geschlechtern die Auswirkungen des Klimawandels sehr unterschiedlich aufgenommen werden."
-              },
-              {
-                "text": "Könnte das ein Grund dafür sein, dass vornehmlich Männer aus Afrika zu uns flüchten?"
-              },
-              {
-                "text": "Nehmen diese Männer, die zu uns flüchten, die Wandlungen des Klimas in Afrika stärker wahr als die dort lebenden Frauen?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Florian Pronold",
-            "speakerstatus": "speaker",
-            "text": "Es hat mich tatsächlich schon die Frage beschäftigt, wann Sie bei dieser Frage wieder auf die Flüchtlingsfrage kommen. Ich muss Ihnen insofern Respekt zollen, als Sie es bei wirklich jedem Thema schaffen, auch das wieder anzusprechen. Aber ich finde, dass das Thema Klimawandel und auch das Thema Gleichstellung viel zu ernste Themen sind, um sie in dieser Art und Weise lächerlich zu machen.",
-            "sentences": [
-              {
-                "text": "Es hat mich tatsächlich schon die Frage beschäftigt, wann Sie bei dieser Frage wieder auf die Flüchtlingsfrage kommen."
-              },
-              {
-                "text": "Ich muss Ihnen insofern Respekt zollen, als Sie es bei wirklich jedem Thema schaffen, auch das wieder anzusprechen."
-              },
-              {
-                "text": "Aber ich finde, dass das Thema Klimawandel und auch das Thema Gleichstellung viel zu ernste Themen sind, um sie in dieser Art und Weise lächerlich zu machen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Ich rufe die Frage 18 der Abgeordneten Judith Skudelny auf:",
-            "sentences": [
-              {
-                "text": "Ich rufe die Frage 18 der Abgeordneten Judith Skudelny auf:"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Bitte, Herr Staatssekretär.",
-            "sentences": [
-              {
-                "text": "Bitte, Herr Staatssekretär."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Florian Pronold",
-            "speakerstatus": "speaker",
-            "text": "Sehr geehrte Frau Kollegin, gegen die Bundesrepublik Deutschland sind derzeit 76 Vertragsverletzungsverfahren anhängig. Für zwölf dieser Verfahren ist das Bundesumweltministerium zuständig. Der aktuelle Stand der Vertragsverletzungsverfahren kann auf der Webseite der Europäischen Kommission nachgelesen werden.",
-            "sentences": [
-              {
-                "text": "Sehr geehrte Frau Kollegin, gegen die Bundesrepublik Deutschland sind derzeit 76 Vertragsverletzungsverfahren anhängig."
-              },
-              {
-                "text": "Für zwölf dieser Verfahren ist das Bundesumweltministerium zuständig."
-              },
-              {
-                "text": "Der aktuelle Stand der Vertragsverletzungsverfahren kann auf der Webseite der Europäischen Kommission nachgelesen werden."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Florian Pronold",
-            "speakerstatus": "speaker",
-            "text": "Sie sprechen in Ihrer Frage drei konkrete Verfahren an, auf die ich gerne in aller Kürze eingehen will. Vorher vielleicht noch der Hinweis, dass von den zwölf Vertragsverletzungsverfahren, die in der Zuständigkeit des Umweltministeriums liegen, wir streng genommen in eigener Zuständigkeit drei haben, die tatsächlich demnächst wahrscheinlich abgeschlossen sein werden, und dass wir etwa acht haben, bei denen eine vorrangige Zuständigkeit von Ländern und Kommunen gegeben ist und bei denen wir versuchen, Einfluss darauf zu nehmen, dass wir auch in deren Verantwortungsbereich das Vertragsverletzungsverfahren abwenden können. Eines liegt bei einem anderen Ministerium, weil es um Nitratbelastung geht; aber da wir für die Gewässer zuständig sind und die Nitratbelastung sich dort auswirkt, liegt es formal bei uns.",
-            "sentences": [
-              {
-                "text": "Sie sprechen in Ihrer Frage drei konkrete Verfahren an, auf die ich gerne in aller Kürze eingehen will."
-              },
-              {
-                "text": "Vorher vielleicht noch der Hinweis, dass von den zwölf Vertragsverletzungsverfahren, die in der Zuständigkeit des Umweltministeriums liegen, wir streng genommen in eigener Zuständigkeit drei haben, die tatsächlich demnächst wahrscheinlich abgeschlossen sein werden, und dass wir etwa acht haben, bei denen eine vorrangige Zuständigkeit von Ländern und Kommunen gegeben ist und bei denen wir versuchen, Einfluss darauf zu nehmen, dass wir auch in deren Verantwortungsbereich das Vertragsverletzungsverfahren abwenden können."
-              },
-              {
-                "text": "Eines liegt bei einem anderen Ministerium, weil es um Nitratbelastung geht; aber da wir für die Gewässer zuständig sind und die Nitratbelastung sich dort auswirkt, liegt es formal bei uns."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Florian Pronold",
-            "speakerstatus": "speaker",
-            "text": "Von den drei konkret von Ihnen angesprochenen Verfahren betrifft eines die Frage des Umgebungslärms. Dort geht es um Versäumnisse auf Länder- und Gemeindeebene, wo unsere Einflussmöglichkeiten relativ gering sind.",
-            "sentences": [
-              {
-                "text": "Von den drei konkret von Ihnen angesprochenen Verfahren betrifft eines die Frage des Umgebungslärms."
-              },
-              {
-                "text": "Dort geht es um Versäumnisse auf Länder- und Gemeindeebene, wo unsere Einflussmöglichkeiten relativ gering sind."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Florian Pronold",
-            "speakerstatus": "speaker",
-            "text": "In der Frage der Richtlinie zu alternativen Kraftstoffen liegt die Federführung nicht bei uns, sondern beim Verkehrsministerium. Wir haben als BMU eine Teilbetroffenheit, wenn es um die Kennzeichnungspflicht zur Kompatibilität zwischen Fahrzeug und Kraftstoffen geht – und ein paar andere Dinge –, aber die Federführung liegt bei einem anderen Ministerium.",
-            "sentences": [
-              {
-                "text": "In der Frage der Richtlinie zu alternativen Kraftstoffen liegt die Federführung nicht bei uns, sondern beim Verkehrsministerium."
-              },
-              {
-                "text": "Wir haben als BMU eine Teilbetroffenheit, wenn es um die Kennzeichnungspflicht zur Kompatibilität zwischen Fahrzeug und Kraftstoffen geht – und ein paar andere Dinge –, aber die Federführung liegt bei einem anderen Ministerium."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Florian Pronold",
-            "speakerstatus": "speaker",
-            "text": "Das dritte von Ihnen angesprochene Vertragsverletzungsverfahren, zur Qualität von Otto- und Dieselkraftstoffen, ist am 6. Juni 2019 eingestellt worden.",
-            "sentences": [
-              {
-                "text": "Das dritte von Ihnen angesprochene Vertragsverletzungsverfahren, zur Qualität von Otto- und Dieselkraftstoffen, ist am 6. Juni 2019 eingestellt worden."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Sie haben das Wort zur ersten Nachfrage.",
-            "sentences": [
-              {
-                "text": "Sie haben das Wort zur ersten Nachfrage."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Judith Skudelny",
-            "speakerstatus": "speaker",
-            "text": "Zunächst einmal bedanke ich mich und drücke Ihnen die Daumen, dass Ihrer Vorausschau gemäß einige der Vertragsverletzungsverfahren vielleicht demnächst positiv abgeschlossen werden können.",
-            "sentences": [
-              {
-                "text": "Zunächst einmal bedanke ich mich und drücke Ihnen die Daumen, dass Ihrer Vorausschau gemäß einige der Vertragsverletzungsverfahren vielleicht demnächst positiv abgeschlossen werden können."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Judith Skudelny",
-            "speakerstatus": "speaker",
-            "text": "Was die AFID-Richtlinie, die Richtlinie über den Aufbau der Infrastruktur für synthetische Kraftstoffe, betrifft, möchte ich vom Bundesumweltministerium wissen, warum diese Richtlinie nicht zeitnah umgesetzt wird. Die Bundesregierung spricht immer wieder davon, dass wir bei Maßnahmen gegen den Klimawandel, aber auch bei Maßnahmen gegen andere Belastungen, wie beispielsweise Belastungen der Luftqualität, technologieoffen agieren wollen. Wir konzentrieren uns in Deutschland allerdings auf die Antriebe und nicht auf die Kraftstoffe. Das wäre eine Möglichkeit, hier tatsächlich technologieoffen dem Klimawandel entgegenzutreten.",
-            "sentences": [
-              {
-                "text": "Was die AFID-Richtlinie, die Richtlinie über den Aufbau der Infrastruktur für synthetische Kraftstoffe, betrifft, möchte ich vom Bundesumweltministerium wissen, warum diese Richtlinie nicht zeitnah umgesetzt wird."
-              },
-              {
-                "text": "Die Bundesregierung spricht immer wieder davon, dass wir bei Maßnahmen gegen den Klimawandel, aber auch bei Maßnahmen gegen andere Belastungen, wie beispielsweise Belastungen der Luftqualität, technologieoffen agieren wollen."
-              },
-              {
-                "text": "Wir konzentrieren uns in Deutschland allerdings auf die Antriebe und nicht auf die Kraftstoffe."
-              },
-              {
-                "text": "Das wäre eine Möglichkeit, hier tatsächlich technologieoffen dem Klimawandel entgegenzutreten."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Florian Pronold",
-            "speakerstatus": "speaker",
-            "text": "Also, ich habe Ihnen gerade vorher geschildert, dass die Federführung bei diesem Vertragsverletzungsverfahren nicht bei uns liegt, sondern beim Verkehrsministerium. Ich habe Ihnen dargelegt, inwiefern das BMU betroffen ist. Ich kann Ihnen allgemein sagen, für die gesamte Bundesregierung, dass wir ressortübergreifend ein hohes Interesse haben, dass wir sehr schnell zu Lösungen kommen, was die sogenannten alternativen Kraftstoffe angeht; sie stellen aus unserer Sicht einen wichtigen Baustein dar, um Folgen des Klimawandels zu minimieren.",
-            "sentences": [
-              {
-                "text": "Also, ich habe Ihnen gerade vorher geschildert, dass die Federführung bei diesem Vertragsverletzungsverfahren nicht bei uns liegt, sondern beim Verkehrsministerium."
-              },
-              {
-                "text": "Ich habe Ihnen dargelegt, inwiefern das BMU betroffen ist."
-              },
-              {
-                "text": "Ich kann Ihnen allgemein sagen, für die gesamte Bundesregierung, dass wir ressortübergreifend ein hohes Interesse haben, dass wir sehr schnell zu Lösungen kommen, was die sogenannten alternativen Kraftstoffe angeht; sie stellen aus unserer Sicht einen wichtigen Baustein dar, um Folgen des Klimawandels zu minimieren."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Sie haben das Wort zur zweiten Nachfrage.",
-            "sentences": [
-              {
-                "text": "Sie haben das Wort zur zweiten Nachfrage."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Judith Skudelny",
-            "speakerstatus": "speaker",
-            "text": "Wofür tatsächlich das Bundesumweltministerium zuständig ist, ist die Klassifizierung, die in der 10. Bundes-Immissionsschutzverordnung umgesetzt wird. Diese wurde nach meinen Informationen immer wieder ins Kabinett eingebracht, dort aber immer wieder von der Tagesordnung gestrichen, und zwar seit März 2019. Offensichtlich gibt es hier eine Vorlage, offensichtlich gibt es hier Diskussionen. Mich würde interessieren, wie der Stand der Diskussion ist und wann Sie eine richtlinienkonforme Umsetzung in ein Gesetz vorhaben. Es gibt Grundlagen, es gibt Bedarf. Synthetische Kraftstoffe – das haben Sie selber gesagt – sind im Fokus der Bundesregierung. Dann wäre es schön, Sie würde diese Richtlinie auch umsetzen.",
-            "sentences": [
-              {
-                "text": "Wofür tatsächlich das Bundesumweltministerium zuständig ist, ist die Klassifizierung, die in der 10. Bundes-Immissionsschutzverordnung umgesetzt wird."
-              },
-              {
-                "text": "Diese wurde nach meinen Informationen immer wieder ins Kabinett eingebracht, dort aber immer wieder von der Tagesordnung gestrichen, und zwar seit März 2019. Offensichtlich gibt es hier eine Vorlage, offensichtlich gibt es hier Diskussionen."
-              },
-              {
-                "text": "Mich würde interessieren, wie der Stand der Diskussion ist und wann Sie eine richtlinienkonforme Umsetzung in ein Gesetz vorhaben."
-              },
-              {
-                "text": "Es gibt Grundlagen, es gibt Bedarf."
-              },
-              {
-                "text": "Synthetische Kraftstoffe – das haben Sie selber gesagt – sind im Fokus der Bundesregierung."
-              },
-              {
-                "text": "Dann wäre es schön, Sie würde diese Richtlinie auch umsetzen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Florian Pronold",
-            "speakerstatus": "speaker",
-            "text": "Ich bin mir, ehrlich gesagt, nicht ganz sicher, welches Verfahren Sie jetzt genau ansprechen, und würde Ihnen eine schriftliche Auskunft dazu geben.",
-            "sentences": [
-              {
-                "text": "Ich bin mir, ehrlich gesagt, nicht ganz sicher, welches Verfahren Sie jetzt genau ansprechen, und würde Ihnen eine schriftliche Auskunft dazu geben."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Das gilt dann als vereinbart und auch, dass Sie gegebenenfalls dem Herrn Staatssekretär noch helfen, die Frage genau zu identifizieren.",
-            "sentences": [
-              {
-                "text": "Das gilt dann als vereinbart und auch, dass Sie gegebenenfalls dem Herrn Staatssekretär noch helfen, die Frage genau zu identifizieren."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Florian Pronold",
-            "speakerstatus": "speaker",
-            "text": "Kriege ich aus dem Protokoll.",
-            "sentences": [
-              {
-                "text": "Kriege ich aus dem Protokoll."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Ich rufe die Frage 19 der Abgeordneten Judith Skudelny auf:",
-            "sentences": [
-              {
-                "text": "Ich rufe die Frage 19 der Abgeordneten Judith Skudelny auf:"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Bitte, Herr Staatssekretär.",
-            "sentences": [
-              {
-                "text": "Bitte, Herr Staatssekretär."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Florian Pronold",
-            "speakerstatus": "speaker",
-            "text": "Sehr geehrte Frau Kollegin, die europäische Richtlinie (EU) 2015/720, auf welcher der Entwurf für ein Erstes Gesetz zur Änderung des Verpackungsgesetzes beruht, hat die Verringerung des Verbrauchs leichter Kunststofftragetaschen zum Ziel. Die Richtlinie definiert Kunststofftragetaschen als „Tragetaschen mit oder ohne Tragegriff aus Kunststoff“ und in diesem Kontext Kunststoff als",
-            "sentences": [
-              {
-                "text": "Sehr geehrte Frau Kollegin, die europäische Richtlinie (EU) 2015/720, auf welcher der Entwurf für ein Erstes Gesetz zur Änderung des Verpackungsgesetzes beruht, hat die Verringerung des Verbrauchs leichter Kunststofftragetaschen zum Ziel."
-              },
-              {
-                "text": "Die Richtlinie definiert Kunststofftragetaschen als „Tragetaschen mit oder ohne Tragegriff aus Kunststoff“ und in diesem Kontext Kunststoff als"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Florian Pronold",
-            "speakerstatus": "speaker",
-            "text": "Eine Verbotsregelung – und das war ja Gegenstand Ihrer Frage –, die auch Tragetaschen erfasst, denen lediglich ein gewisser Kunststoffanteil zu eigen ist, etwa zur Erhöhung der Reißfestigkeit, kann damit europarechtlich als nicht zulässig erachtet werden.",
-            "sentences": [
-              {
-                "text": "Eine Verbotsregelung – und das war ja Gegenstand Ihrer Frage –, die auch Tragetaschen erfasst, denen lediglich ein gewisser Kunststoffanteil zu eigen ist, etwa zur Erhöhung der Reißfestigkeit, kann damit europarechtlich als nicht zulässig erachtet werden."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Sie haben das Wort zu ersten Nachfrage.",
-            "sentences": [
-              {
-                "text": "Sie haben das Wort zu ersten Nachfrage."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Judith Skudelny",
-            "speakerstatus": "speaker",
-            "text": "Die Zentrale Stelle Verpackungsregister, die für Kunststoffverpackungen und auch Tragetüten zuständig ist, definiert Verbundstoffe als Stoffe, die einen Anteil an Fremdstoffen ab 6 Prozent haben. Das heißt beispielsweise, Papiertüten mit einem Papieranteil von 6 Prozent bis zu einem Papieranteil von 95 Prozent sind bei uns Verbundstoffe. Es gibt eine unglaublich große Bandbreite an Kunststoffzusätzen, die Sie dem Papier zufügen können, beispielsweise um Wasser abzuweisen oder die Reißfestigkeit zu verbessern. Glauben Sie nicht, dass es notwendig ist, eine bessere Definition zu verwenden, als sich nur auf die Richtlinie zu beziehen, damit Ihr geplantes Gesetz praktikabel wird?",
-            "sentences": [
-              {
-                "text": "Die Zentrale Stelle Verpackungsregister, die für Kunststoffverpackungen und auch Tragetüten zuständig ist, definiert Verbundstoffe als Stoffe, die einen Anteil an Fremdstoffen ab 6 Prozent haben."
-              },
-              {
-                "text": "Das heißt beispielsweise, Papiertüten mit einem Papieranteil von 6 Prozent bis zu einem Papieranteil von 95 Prozent sind bei uns Verbundstoffe."
-              },
-              {
-                "text": "Es gibt eine unglaublich große Bandbreite an Kunststoffzusätzen, die Sie dem Papier zufügen können, beispielsweise um Wasser abzuweisen oder die Reißfestigkeit zu verbessern."
-              },
-              {
-                "text": "Glauben Sie nicht, dass es notwendig ist, eine bessere Definition zu verwenden, als sich nur auf die Richtlinie zu beziehen, damit Ihr geplantes Gesetz praktikabel wird?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Florian Pronold",
-            "speakerstatus": "speaker",
-            "text": "Ich glaube, das muss man sogar noch in einen größeren Zusammenhang stellen. Wie wir beim Verpackungsgesetz festgelegt haben, wollen wir dort ökologische Lizenzentgelte einführen. Das heißt, Verpackungen, die ökologisch vorteilhafter sind, die leichter recycelbar usw. usf. sind, sollen weniger mit Lizenzabgaben belastet werden als diejenigen, die unvorteilhaft sind.",
-            "sentences": [
-              {
-                "text": "Ich glaube, das muss man sogar noch in einen größeren Zusammenhang stellen."
-              },
-              {
-                "text": "Wie wir beim Verpackungsgesetz festgelegt haben, wollen wir dort ökologische Lizenzentgelte einführen."
-              },
-              {
-                "text": "Das heißt, Verpackungen, die ökologisch vorteilhafter sind, die leichter recycelbar usw. usf. sind, sollen weniger mit Lizenzabgaben belastet werden als diejenigen, die unvorteilhaft sind."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Florian Pronold",
-            "speakerstatus": "speaker",
-            "text": "Jede Mischung von Materialien bedeutet immer einen negativen Punkt für die Recyclingfähigkeit. Deswegen muss auch das Ziel sein, dass wir über diese Mechanismen zu besseren Verpackungen und auch zu besseren Tragetaschen kommen. Ich will einfach noch mal darauf hinweisen, wie ich es im Bundesrat schon gemacht habe, dass es nicht so ist, dass es, wenn man reine Papiertüten anstelle von Plastiktüten nimmt, ökologisch vorteilhafter oder nachhaltiger ist, sondern dass es nur dann ökologisch vorteilhafter und nachhaltiger ist, wenn man Tüten verwendet, die man mehrmals benutzt.",
-            "sentences": [
-              {
-                "text": "Jede Mischung von Materialien bedeutet immer einen negativen Punkt für die Recyclingfähigkeit."
-              },
-              {
-                "text": "Deswegen muss auch das Ziel sein, dass wir über diese Mechanismen zu besseren Verpackungen und auch zu besseren Tragetaschen kommen."
-              },
-              {
-                "text": "Ich will einfach noch mal darauf hinweisen, wie ich es im Bundesrat schon gemacht habe, dass es nicht so ist, dass es, wenn man reine Papiertüten anstelle von Plastiktüten nimmt, ökologisch vorteilhafter oder nachhaltiger ist, sondern dass es nur dann ökologisch vorteilhafter und nachhaltiger ist, wenn man Tüten verwendet, die man mehrmals benutzt."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Sie haben das Wort zu einer zweiten Nachfrage.",
-            "sentences": [
-              {
-                "text": "Sie haben das Wort zu einer zweiten Nachfrage."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Judith Skudelny",
-            "speakerstatus": "speaker",
-            "text": "Da haben Sie vollkommen recht. – Was mich in diesem Zusammenhang wundert, ist, dass die Bundesregierung und insbesondere das BMU in ihren Antworten gesagt haben, dass man nicht bereit ist, eine neue Studie zu Ökobilanzen bezüglich Kunststoff- und Papiertüten durchzuführen. Die Studie von 2014, auf die Sie sich immer wieder berufen, hat zum Ergebnis, dass eigentlich neue Studien notwendig wären.",
-            "sentences": [
-              {
-                "text": "Da haben Sie vollkommen recht."
-              },
-              {
-                "text": "– Was mich in diesem Zusammenhang wundert, ist, dass die Bundesregierung und insbesondere das BMU in ihren Antworten gesagt haben, dass man nicht bereit ist, eine neue Studie zu Ökobilanzen bezüglich Kunststoff- und Papiertüten durchzuführen."
-              },
-              {
-                "text": "Die Studie von 2014, auf die Sie sich immer wieder berufen, hat zum Ergebnis, dass eigentlich neue Studien notwendig wären."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Judith Skudelny",
-            "speakerstatus": "speaker",
-            "text": "Was mich noch viel mehr erschüttert, ist, dass Sie nicht mal nachfragen, wie viele Papiertüten in Deutschland überhaupt verwendet werden. Das heißt, wenn Sie das eine verbieten, um ökologisch eine Verbesserung zu erreichen, das andere aber nicht tun, nämlich Daten erheben, um zu sehen, ob es Ausweichbewegungen gibt oder ob es andere schlechtere Auswirkungen hat, dann kann das Ganze doch nicht funktionieren. Sie verbieten dann das eine nur symbolisch, weil das Ergebnis Sie eigentlich nicht interessiert.",
-            "sentences": [
-              {
-                "text": "Was mich noch viel mehr erschüttert, ist, dass Sie nicht mal nachfragen, wie viele Papiertüten in Deutschland überhaupt verwendet werden."
-              },
-              {
-                "text": "Das heißt, wenn Sie das eine verbieten, um ökologisch eine Verbesserung zu erreichen, das andere aber nicht tun, nämlich Daten erheben, um zu sehen, ob es Ausweichbewegungen gibt oder ob es andere schlechtere Auswirkungen hat, dann kann das Ganze doch nicht funktionieren."
-              },
-              {
-                "text": "Sie verbieten dann das eine nur symbolisch, weil das Ergebnis Sie eigentlich nicht interessiert."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Florian Pronold",
-            "speakerstatus": "speaker",
-            "text": "Also, es ist doch toll – dafür hätte ich eigentlich Lob erwartet –, dass wir über die freiwillige Vereinbarung, die wir mit dem Handel geschlossen haben, zu einer Pro-Kopf-Reduzierung beim Plastiktütenverbrauch gekommen sind, die weit über die Zielvorgabe hinausgeht, die die EU festgelegt hat.",
-            "sentences": [
-              {
-                "text": "Also, es ist doch toll – dafür hätte ich eigentlich Lob erwartet –, dass wir über die freiwillige Vereinbarung, die wir mit dem Handel geschlossen haben, zu einer Pro-Kopf-Reduzierung beim Plastiktütenverbrauch gekommen sind, die weit über die Zielvorgabe hinausgeht, die die EU festgelegt hat."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Florian Pronold",
-            "speakerstatus": "speaker",
-            "text": "Jetzt haben wir festgestellt, dass es trotzdem nicht weitergeht und dass es rund 20 Prozent gibt, die man nur über ein entsprechendes Verbot erreichen kann. Ich kann Ihnen sagen: Unser Interesse besteht auch darin, zu ermitteln, ob es Ausweichreaktionen gibt und wie sie ausschauen, und wir haben insgesamt ein Interesse daran, dass es dort zu nachhaltigen Entwicklungen kommt.",
-            "sentences": [
-              {
-                "text": "Jetzt haben wir festgestellt, dass es trotzdem nicht weitergeht und dass es rund 20 Prozent gibt, die man nur über ein entsprechendes Verbot erreichen kann."
-              },
-              {
-                "text": "Ich kann Ihnen sagen: Unser Interesse besteht auch darin, zu ermitteln, ob es Ausweichreaktionen gibt und wie sie ausschauen, und wir haben insgesamt ein Interesse daran, dass es dort zu nachhaltigen Entwicklungen kommt."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Florian Pronold",
-            "speakerstatus": "speaker",
-            "text": "Die Problematik, die Sie angesprochen haben, ist uns sehr wohl bewusst. Ich habe sie selber schon des Öfteren öffentlich angesprochen. Wir werden – zum Beispiel ist das gerade vorgestern erfolgt – auch in Gesprächen mit dem Handelsverband und mit den großen Handelsunternehmen genau die Frage aufwerfen, was denn dort passiert – übrigens nicht nur dort, sondern auch bei den sogenannten Hemdchenbeuteln und bei den Netzen, die jetzt für die unverpackten Waren im Obst- und Gemüsebereich eingeführt werden. Wir werden all diesen Fragen nachgehen; denn unser Ziel sind tatsächlich Abfallvermeidung und nachhaltige Verpackungen.",
-            "sentences": [
-              {
-                "text": "Die Problematik, die Sie angesprochen haben, ist uns sehr wohl bewusst."
-              },
-              {
-                "text": "Ich habe sie selber schon des Öfteren öffentlich angesprochen."
-              },
-              {
-                "text": "Wir werden – zum Beispiel ist das gerade vorgestern erfolgt – auch in Gesprächen mit dem Handelsverband und mit den großen Handelsunternehmen genau die Frage aufwerfen, was denn dort passiert – übrigens nicht nur dort, sondern auch bei den sogenannten Hemdchenbeuteln und bei den Netzen, die jetzt für die unverpackten Waren im Obst- und Gemüsebereich eingeführt werden."
-              },
-              {
-                "text": "Wir werden all diesen Fragen nachgehen; denn unser Ziel sind tatsächlich Abfallvermeidung und nachhaltige Verpackungen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Eine weitere Nachfrage stellt der Abgeordnete Dr. Kraft.",
-            "sentences": [
-              {
-                "text": "Eine weitere Nachfrage stellt der Abgeordnete Dr. Kraft."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Rainer Kraft",
-            "speakerstatus": "speaker",
-            "text": "Vielen Dank, Frau Präsidentin. – Herr Staatssekretär, ich beziehe mich auf Ihre Äußerungen, die Sie gerade getätigt haben, nämlich dass es Ihnen nicht weit genug gegangen ist, obwohl die EU-Vorgabe ja massiv unterschritten worden ist. Die EU-Vorgabe ist meines Wissens 40 Tüten pro Kopf pro Jahr; der Einzelhandel in Deutschland hat es auf 25 Tüten pro Kopf pro Jahr gebracht. Wenn Sie jetzt sagen, es gehe nicht weit genug, sodass am Ende das Verbot kommen müsse, dann muss hier die Frage gestellt werden: Wie ernst war es Ihnen eigentlich mit der freiwilligen Zusammenarbeit mit dem Einzelhandel, und war das Verbot nicht eigentlich schon die ganze Zeit Ihr Endziel?",
-            "sentences": [
-              {
-                "text": "Vielen Dank, Frau Präsidentin."
-              },
-              {
-                "text": "– Herr Staatssekretär, ich beziehe mich auf Ihre Äußerungen, die Sie gerade getätigt haben, nämlich dass es Ihnen nicht weit genug gegangen ist, obwohl die EU-Vorgabe ja massiv unterschritten worden ist."
-              },
-              {
-                "text": "Die EU-Vorgabe ist meines Wissens 40 Tüten pro Kopf pro Jahr; der Einzelhandel in Deutschland hat es auf 25 Tüten pro Kopf pro Jahr gebracht."
-              },
-              {
-                "text": "Wenn Sie jetzt sagen, es gehe nicht weit genug, sodass am Ende das Verbot kommen müsse, dann muss hier die Frage gestellt werden: Wie ernst war es Ihnen eigentlich mit der freiwilligen Zusammenarbeit mit dem Einzelhandel, und war das Verbot nicht eigentlich schon die ganze Zeit Ihr Endziel?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Florian Pronold",
-            "speakerstatus": "speaker",
-            "text": "Unser Ziel ist, dass wir die Abfallhierarchie einhalten. Das bedeutet, dass man Abfälle möglichst vermeidet und dort, wo es nicht geht, Produkte im Umlauf hat, die möglichst recycelt werden können. Erst dann, in der dritten Stufe, stellt sich die Frage der sonstigen Verwertung. Das Wichtigste ist, dass zum Beispiel Plastiktüten nicht in die Umwelt geraten. Das ist etwas, was im Übrigen von fast allen Menschen in der Bundesrepublik Deutschland geteilt wird. Auch deswegen war es richtig, ein solches Verbot vorzusehen – wie auch bei anderen Themen, die zum Beispiel die EU angegangen hat. Wenn Sie über die Einweg-Plastik-Richtlinie nachdenken, stellen Sie fest: Es gibt viele Dinge, die hier immer wieder in den Verkehr kommen, die auch in der Umwelt landen, die sich an den Stränden finden lassen. Erst das Verbot führt jetzt übrigens dazu, dass auch in den Märkten umgestellt wird, dass es eine andere Produktpalette gibt, dass es Innovationen gibt.",
-            "sentences": [
-              {
-                "text": "Unser Ziel ist, dass wir die Abfallhierarchie einhalten."
-              },
-              {
-                "text": "Das bedeutet, dass man Abfälle möglichst vermeidet und dort, wo es nicht geht, Produkte im Umlauf hat, die möglichst recycelt werden können."
-              },
-              {
-                "text": "Erst dann, in der dritten Stufe, stellt sich die Frage der sonstigen Verwertung."
-              },
-              {
-                "text": "Das Wichtigste ist, dass zum Beispiel Plastiktüten nicht in die Umwelt geraten."
-              },
-              {
-                "text": "Das ist etwas, was im Übrigen von fast allen Menschen in der Bundesrepublik Deutschland geteilt wird."
-              },
-              {
-                "text": "Auch deswegen war es richtig, ein solches Verbot vorzusehen – wie auch bei anderen Themen, die zum Beispiel die EU angegangen hat."
-              },
-              {
-                "text": "Wenn Sie über die Einweg-Plastik-Richtlinie nachdenken, stellen Sie fest: Es gibt viele Dinge, die hier immer wieder in den Verkehr kommen, die auch in der Umwelt landen, die sich an den Stränden finden lassen."
-              },
-              {
-                "text": "Erst das Verbot führt jetzt übrigens dazu, dass auch in den Märkten umgestellt wird, dass es eine andere Produktpalette gibt, dass es Innovationen gibt."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Florian Pronold",
-            "speakerstatus": "speaker",
-            "text": "Gerade in den Gesprächen mit dem Einzelhandel vor zwei Tagen war es für mich äußerst spannend, zu hören, was an Innovationen kommt, wenn man nicht nur marktwirtschaftliche Kräfte wirken lässt, sondern auch Ordnungsrecht einsetzt, um unsere Natur zu schützen.",
-            "sentences": [
-              {
-                "text": "Gerade in den Gesprächen mit dem Einzelhandel vor zwei Tagen war es für mich äußerst spannend, zu hören, was an Innovationen kommt, wenn man nicht nur marktwirtschaftliche Kräfte wirken lässt, sondern auch Ordnungsrecht einsetzt, um unsere Natur zu schützen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Die Fragen 20 und 21 der Abgeordneten Steffi Lemke, die Fragen 22 und 23 der Abgeordneten Sylvia Kotting-Uhl und die Frage 24 des Abgeordneten Hubertus Zdebel zum Geschäftsbereich des Bundesministeriums für Umwelt, Naturschutz und nukleare Sicherheit werden schriftlich beantwortet. – Danke, Herr Staatssekretär.",
-            "sentences": [
-              {
-                "text": "Die Fragen 20 und 21 der Abgeordneten Steffi Lemke, die Fragen 22 und 23 der Abgeordneten Sylvia Kotting-Uhl und die Frage 24 des Abgeordneten Hubertus Zdebel zum Geschäftsbereich des Bundesministeriums für Umwelt, Naturschutz und nukleare Sicherheit werden schriftlich beantwortet."
-              },
-              {
-                "text": "– Danke, Herr Staatssekretär."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Ich rufe den Geschäftsbereich des Bundesministeriums für Bildung und Forschung auf. Zur Beantwortung hätte der Parlamentarische Staatssekretär Dr. Michael Meister zur Verfügung gestanden.",
-            "sentences": [
-              {
-                "text": "Ich rufe den Geschäftsbereich des Bundesministeriums für Bildung und Forschung auf."
-              },
-              {
-                "text": "Zur Beantwortung hätte der Parlamentarische Staatssekretär Dr. Michael Meister zur Verfügung gestanden."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Da die Frage 25 des Abgeordneten Hubertus Zdebel sowie die Fragen 26 und 27 des Abgeordneten Kai Gehring aber schriftlich beantwortet werden, kommen wir sofort zum Geschäftsbereich des Bundesministeriums für wirtschaftliche Zusammenarbeit und Entwicklung. Zur Beantwortung steht der Parlamentarische Staatssekretär Norbert Barthle zur Verfügung.",
-            "sentences": [
-              {
-                "text": "Da die Frage 25 des Abgeordneten Hubertus Zdebel sowie die Fragen 26 und 27 des Abgeordneten Kai Gehring aber schriftlich beantwortet werden, kommen wir sofort zum Geschäftsbereich des Bundesministeriums für wirtschaftliche Zusammenarbeit und Entwicklung."
-              },
-              {
-                "text": "Zur Beantwortung steht der Parlamentarische Staatssekretär Norbert Barthle zur Verfügung."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Ich rufe die Frage 28 des Abgeordneten Dr. Christoph Hoffmann auf:",
-            "sentences": [
-              {
-                "text": "Ich rufe die Frage 28 des Abgeordneten Dr. Christoph Hoffmann auf:"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Bitte, Herr Staatssekretär.",
-            "sentences": [
-              {
-                "text": "Bitte, Herr Staatssekretär."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Norbert Barthle",
-            "speakerstatus": "speaker",
-            "text": "Vielen Dank, Frau Präsidentin. – Herr Kollege Hoffmann, die in Ihrer Frage enthaltenen zwei Teilfragen beantworte ich wie folgt:",
-            "sentences": [
-              {
-                "text": "Vielen Dank, Frau Präsidentin."
-              },
-              {
-                "text": "– Herr Kollege Hoffmann, die in Ihrer Frage enthaltenen zwei Teilfragen beantworte ich wie folgt:"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Norbert Barthle",
-            "speakerstatus": "speaker",
-            "text": "Zu Teil eins: Ja, das BMZ hat die Konferenz mit 30 000 Euro unterstützt.",
-            "sentences": [
-              {
-                "text": "Zu Teil eins: Ja, das BMZ hat die Konferenz mit 30 000 Euro unterstützt."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Norbert Barthle",
-            "speakerstatus": "speaker",
-            "text": "Zu Teil zwei: Die Annahme, dass es unterstützende Evidenz für die Forschungsergebnisse des Wissenschaftlers Gilles-Éric Séralini gibt, stützt sich auf die Tatsache, dass es neben den Studien aus der Arbeitsgruppe von Gilles-Éric Séralini weitere wissenschaftliche Artikel gibt, die die gesundheitliche Unbedenklichkeit von gentechnisch veränderten Organismen, GVO abgekürzt, infrage stellen, zum Beispiel eine Langzeitstudie, die im „Journal of Organic Systems“, 8(1), Seite 38 bis 54, veröffentlicht wurde.",
-            "sentences": [
-              {
-                "text": "Zu Teil zwei: Die Annahme, dass es unterstützende Evidenz für die Forschungsergebnisse des Wissenschaftlers Gilles-Éric Séralini gibt, stützt sich auf die Tatsache, dass es neben den Studien aus der Arbeitsgruppe von Gilles-Éric Séralini weitere wissenschaftliche Artikel gibt, die die gesundheitliche Unbedenklichkeit von gentechnisch veränderten Organismen, GVO abgekürzt, infrage stellen, zum Beispiel eine Langzeitstudie, die im „Journal of Organic Systems“, 8(1), Seite 38 bis 54, veröffentlicht wurde."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Sie haben das Wort zur ersten Nachfrage.",
-            "sentences": [
-              {
-                "text": "Sie haben das Wort zur ersten Nachfrage."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Christoph Hoffmann",
-            "speakerstatus": "speaker",
-            "text": "Vielen Dank, Herr Staatssekretär, für die Beantwortung der Frage. Immerhin sind wir der Sache nähergekommen. Das BMZ hat diese Konferenz mit 30 000 Euro unterstützt. Auf meine schriftliche Frage hin konnte man sich noch nicht durchringen, diesen Betrag zu nennen.",
-            "sentences": [
-              {
-                "text": "Vielen Dank, Herr Staatssekretär, für die Beantwortung der Frage."
-              },
-              {
-                "text": "Immerhin sind wir der Sache nähergekommen."
-              },
-              {
-                "text": "Das BMZ hat diese Konferenz mit 30 000 Euro unterstützt."
-              },
-              {
-                "text": "Auf meine schriftliche Frage hin konnte man sich noch nicht durchringen, diesen Betrag zu nennen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Christoph Hoffmann",
-            "speakerstatus": "speaker",
-            "text": "Meine Nachfrage geht aber dahin: Sie hatten mir in der Antwort auf die schriftliche Frage versichert, dass die Forschungsergebnisse des Wissenschaftlers Séralini korrekt seien. Aber die EU hat einen Versuch unter den gleichen Versuchsbedingungen wie Séralini gefördert und kam zu der Feststellung, dass die Ergebnisse, die Herr Séralini vorgelegt hat, total falsch sind. Es war nicht nachvollziehbar, wie er zu seinen Ergebnissen kommt. Akademische Wissenschaft zeichnet sich dadurch aus, dass sie nachvollziehbare Ergebnisse liefert.",
-            "sentences": [
-              {
-                "text": "Meine Nachfrage geht aber dahin: Sie hatten mir in der Antwort auf die schriftliche Frage versichert, dass die Forschungsergebnisse des Wissenschaftlers Séralini korrekt seien."
-              },
-              {
-                "text": "Aber die EU hat einen Versuch unter den gleichen Versuchsbedingungen wie Séralini gefördert und kam zu der Feststellung, dass die Ergebnisse, die Herr Séralini vorgelegt hat, total falsch sind."
-              },
-              {
-                "text": "Es war nicht nachvollziehbar, wie er zu seinen Ergebnissen kommt."
-              },
-              {
-                "text": "Akademische Wissenschaft zeichnet sich dadurch aus, dass sie nachvollziehbare Ergebnisse liefert."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Christoph Hoffmann",
-            "speakerstatus": "speaker",
-            "text": "Das steht der Aussage, die Sie eben getätigt hatten, voll entgegen. Wie können Sie sich das erklären?",
-            "sentences": [
-              {
-                "text": "Das steht der Aussage, die Sie eben getätigt hatten, voll entgegen."
-              },
-              {
-                "text": "Wie können Sie sich das erklären?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Norbert Barthle",
-            "speakerstatus": "speaker",
-            "text": "Danke, Herr Kollege Hoffmann. – Zunächst mal: Der Herr Séralini ist Professor für Molekularbiologie an der französischen Universität Caen. Er gilt als international renommierter Wissenschaftler, wurde unter anderem 2015 von der Vereinigung Deutscher Wissenschaftler und der International Association Of Lawyers Against Nuclear Arms ausgezeichnet.",
-            "sentences": [
-              {
-                "text": "Danke, Herr Kollege Hoffmann."
-              },
-              {
-                "text": "– Zunächst mal: Der Herr Séralini ist Professor für Molekularbiologie an der französischen Universität Caen."
-              },
-              {
-                "text": "Er gilt als international renommierter Wissenschaftler, wurde unter anderem 2015 von der Vereinigung Deutscher Wissenschaftler und der International Association Of Lawyers Against Nuclear Arms ausgezeichnet."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Norbert Barthle",
-            "speakerstatus": "speaker",
-            "text": "Es gibt Kritik an der Arbeit von Séralini; das wissen wir. Ihm wird vorgeworfen, dass er bei seiner Arbeit, bei seiner Forschung wissenschaftliche Standards außer Acht gelassen habe. Das wird in der Regel von den Forschern geäußert, die, wenn es um Gesundheitsrisiken durch GVO geht, von Unbedenklichkeit sprechen. Diese Diskussionen sind sehr stark ideologisch aufgeladen.",
-            "sentences": [
-              {
-                "text": "Es gibt Kritik an der Arbeit von Séralini; das wissen wir."
-              },
-              {
-                "text": "Ihm wird vorgeworfen, dass er bei seiner Arbeit, bei seiner Forschung wissenschaftliche Standards außer Acht gelassen habe."
-              },
-              {
-                "text": "Das wird in der Regel von den Forschern geäußert, die, wenn es um Gesundheitsrisiken durch GVO geht, von Unbedenklichkeit sprechen."
-              },
-              {
-                "text": "Diese Diskussionen sind sehr stark ideologisch aufgeladen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Norbert Barthle",
-            "speakerstatus": "speaker",
-            "text": "Es gibt Forschungsergebnisse, die Séralini unterstützen. Die Risikobewertungsstelle der Europäischen Behörde für Lebensmittelsicherheit, EFSA, oder das Bundesinstitut für Risikobewertung, BfR, gehen derzeit davon aus, dass GVO höchstwahrscheinlich für Mensch und Tier unbedenklich seien. Es gibt aber weder einen eindeutigen wissenschaftlichen Nachweis für die gesundheitliche Unbedenklichkeit noch einen für die Bedenklichkeit. Deshalb ist es aus Sicht des BMZ wichtig, dass man den konstruktiven Dialog fortsetzt. Wir als Bundesregierung unterstützen dieses – offen für alle weiteren Erkenntnisse.",
-            "sentences": [
-              {
-                "text": "Es gibt Forschungsergebnisse, die Séralini unterstützen."
-              },
-              {
-                "text": "Die Risikobewertungsstelle der Europäischen Behörde für Lebensmittelsicherheit, EFSA, oder das Bundesinstitut für Risikobewertung, BfR, gehen derzeit davon aus, dass GVO höchstwahrscheinlich für Mensch und Tier unbedenklich seien."
-              },
-              {
-                "text": "Es gibt aber weder einen eindeutigen wissenschaftlichen Nachweis für die gesundheitliche Unbedenklichkeit noch einen für die Bedenklichkeit."
-              },
-              {
-                "text": "Deshalb ist es aus Sicht des BMZ wichtig, dass man den konstruktiven Dialog fortsetzt."
-              },
-              {
-                "text": "Wir als Bundesregierung unterstützen dieses – offen für alle weiteren Erkenntnisse."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Sie haben das Wort zur zweiten Nachfrage.",
-            "sentences": [
-              {
-                "text": "Sie haben das Wort zur zweiten Nachfrage."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Christoph Hoffmann",
-            "speakerstatus": "speaker",
-            "text": "Herr Staatssekretär, ich muss noch einmal darauf zurückkommen: Die EU hat in diesem Zusammenhang eine Wiederholung der Versuche von Séralini mit Genmais durchgeführt. Diese Studie kam zu dem Ergebnis, dass die Ergebnisse, die er dort vorlegt, nicht nachvollziehbar sind. Genau darauf bezog sich auch seine Äußerung auf dieser Konferenz. Sie finanzieren also im Grunde eine Konferenz, auf der etwas als Tatsache behauptet wird, was in anderen Versuchen nicht nachvollziehbar war; daran stören wir uns. Meine Frage an Sie ist, ob sich das BMZ nicht selbst daran stört.",
-            "sentences": [
-              {
-                "text": "Herr Staatssekretär, ich muss noch einmal darauf zurückkommen: Die EU hat in diesem Zusammenhang eine Wiederholung der Versuche von Séralini mit Genmais durchgeführt."
-              },
-              {
-                "text": "Diese Studie kam zu dem Ergebnis, dass die Ergebnisse, die er dort vorlegt, nicht nachvollziehbar sind."
-              },
-              {
-                "text": "Genau darauf bezog sich auch seine Äußerung auf dieser Konferenz."
-              },
-              {
-                "text": "Sie finanzieren also im Grunde eine Konferenz, auf der etwas als Tatsache behauptet wird, was in anderen Versuchen nicht nachvollziehbar war; daran stören wir uns."
-              },
-              {
-                "text": "Meine Frage an Sie ist, ob sich das BMZ nicht selbst daran stört."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Norbert Barthle",
-            "speakerstatus": "speaker",
-            "text": "Herr Kollege, ich möchte nochmals betonen, dass es zu den Studien von Herrn Séralini unterschiedliche Auffassungen gibt, will aber vor allem sagen, dass bei dieser Konferenz nicht nur dieser Wissenschaftler aufgetreten ist, sondern dass auch internationale Wissenschaftlerinnen und Wissenschaftler sowie Mitarbeiterinnen und Mitarbeiter etwa der Welternährungsorganisation, FAO, der Internationalen Vereinigung der ökologischen Landbaubewegungen, IFOAM, verschiedene Nichtregierungsorganisationen und verschiedene Firmen anwesend waren. Es war also eine Konferenz mit unterschiedlichsten Teilnehmerinnen und Teilnehmern, die in einer offenen, pluralen Diskussion die Frage erörtert haben. Wir als BMZ erachten es als wichtig, dass wir mit allen Vertreterinnen und Vertretern aus Politik, Wissenschaft und Praxis diese für die Zukunft unserer Ernährung wichtige Frage erläutern können.",
-            "sentences": [
-              {
-                "text": "Herr Kollege, ich möchte nochmals betonen, dass es zu den Studien von Herrn Séralini unterschiedliche Auffassungen gibt, will aber vor allem sagen, dass bei dieser Konferenz nicht nur dieser Wissenschaftler aufgetreten ist, sondern dass auch internationale Wissenschaftlerinnen und Wissenschaftler sowie Mitarbeiterinnen und Mitarbeiter etwa der Welternährungsorganisation, FAO, der Internationalen Vereinigung der ökologischen Landbaubewegungen, IFOAM, verschiedene Nichtregierungsorganisationen und verschiedene Firmen anwesend waren."
-              },
-              {
-                "text": "Es war also eine Konferenz mit unterschiedlichsten Teilnehmerinnen und Teilnehmern, die in einer offenen, pluralen Diskussion die Frage erörtert haben."
-              },
-              {
-                "text": "Wir als BMZ erachten es als wichtig, dass wir mit allen Vertreterinnen und Vertretern aus Politik, Wissenschaft und Praxis diese für die Zukunft unserer Ernährung wichtige Frage erläutern können."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Zu einer Nachfrage hat die Kollegin Konrad das Wort.",
-            "sentences": [
-              {
-                "text": "Zu einer Nachfrage hat die Kollegin Konrad das Wort."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Carina Konrad",
-            "speakerstatus": "speaker",
-            "text": "Vielen Dank, Herr Staatssekretär. – Sie haben eben selbst gesagt, dass die Studien von Herrn Séralini und seine Ergebnisse höchst umstritten sind. Ich frage mich schon, warum von Deutschland 30 000 Euro in eine Konferenz investiert werden, die zwar das Ziel hat, die Entwicklungszusammenarbeit in Afrika und auch Afrika selbst in Bezug auf die Zukunft der agrarischen Ausrichtung voranzubringen, auf der aber solch umstrittene Wissenschaftler auftreten. Hätte es da niemand anderen gegeben?",
-            "sentences": [
-              {
-                "text": "Vielen Dank, Herr Staatssekretär."
-              },
-              {
-                "text": "– Sie haben eben selbst gesagt, dass die Studien von Herrn Séralini und seine Ergebnisse höchst umstritten sind."
-              },
-              {
-                "text": "Ich frage mich schon, warum von Deutschland 30 000 Euro in eine Konferenz investiert werden, die zwar das Ziel hat, die Entwicklungszusammenarbeit in Afrika und auch Afrika selbst in Bezug auf die Zukunft der agrarischen Ausrichtung voranzubringen, auf der aber solch umstrittene Wissenschaftler auftreten."
-              },
-              {
-                "text": "Hätte es da niemand anderen gegeben?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Norbert Barthle",
-            "speakerstatus": "speaker",
-            "text": "Frau Kollegin, ich will noch einmal darauf hinweisen, dass es von den Koalitionsfraktionen den Antrag „Nachhaltige Entwicklungsziele erreichen – Potenziale aus der Agrarökologie anerkennen und unterstützen“ gab; dieser wurde eingebracht und beschlossen. Als Folge dieses Antrags hat die Konferenz stattgefunden mit einem breiten Spektrum, wie gesagt, unterschiedlicher, pluraler Auffassungen. Wir als BMZ betrachten es als unsere Aufgabe, als Aufgabe der Bundesregierung, in einen offenen Diskurs nicht regulierend einzugreifen, sondern unterschiedliche Meinungen zuzulassen.",
-            "sentences": [
-              {
-                "text": "Frau Kollegin, ich will noch einmal darauf hinweisen, dass es von den Koalitionsfraktionen den Antrag „Nachhaltige Entwicklungsziele erreichen – Potenziale aus der Agrarökologie anerkennen und unterstützen“ gab; dieser wurde eingebracht und beschlossen."
-              },
-              {
-                "text": "Als Folge dieses Antrags hat die Konferenz stattgefunden mit einem breiten Spektrum, wie gesagt, unterschiedlicher, pluraler Auffassungen."
-              },
-              {
-                "text": "Wir als BMZ betrachten es als unsere Aufgabe, als Aufgabe der Bundesregierung, in einen offenen Diskurs nicht regulierend einzugreifen, sondern unterschiedliche Meinungen zuzulassen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Ich rufe die Frage 29 der Abgeordneten Eva-Maria Schreiber auf:",
-            "sentences": [
-              {
-                "text": "Ich rufe die Frage 29 der Abgeordneten Eva-Maria Schreiber auf:"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Bitte, Herr Staatssekretär.",
-            "sentences": [
-              {
-                "text": "Bitte, Herr Staatssekretär."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Norbert Barthle",
-            "speakerstatus": "speaker",
-            "text": "Vielen Dank, Frau Präsidentin. – Die Frage der Kollegin Schreiber beantworte ich wie folgt: Die Bundesregierung teilt die Einschätzung der beiden Nichtregierungsorganisationen nicht. Die Bundesregierung und die Deutsche Investitions- und Entwicklungsgesellschaft, DEG, waren seit dem Rückzug von Addax Bioenergy weiter vor Ort aktiv, um sich dort für die Verbesserung der sozialen Lage einzusetzen. Zudem ist die DEG mit den neuen Eigentümern des Unternehmens Sunbird Bioenergy Africa in Kontakt getreten und hat ausdrücklich angeboten, bei der Prüfung der Umwelt- und Sozialverträglichkeit von Aktivitäten Unterstützung zu leisten. Sunbird Bioenergy Africa hat dieses Angebot nicht angenommen.",
-            "sentences": [
-              {
-                "text": "Vielen Dank, Frau Präsidentin."
-              },
-              {
-                "text": "– Die Frage der Kollegin Schreiber beantworte ich wie folgt: Die Bundesregierung teilt die Einschätzung der beiden Nichtregierungsorganisationen nicht."
-              },
-              {
-                "text": "Die Bundesregierung und die Deutsche Investitions- und Entwicklungsgesellschaft, DEG, waren seit dem Rückzug von Addax Bioenergy weiter vor Ort aktiv, um sich dort für die Verbesserung der sozialen Lage einzusetzen."
-              },
-              {
-                "text": "Zudem ist die DEG mit den neuen Eigentümern des Unternehmens Sunbird Bioenergy Africa in Kontakt getreten und hat ausdrücklich angeboten, bei der Prüfung der Umwelt- und Sozialverträglichkeit von Aktivitäten Unterstützung zu leisten."
-              },
-              {
-                "text": "Sunbird Bioenergy Africa hat dieses Angebot nicht angenommen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Norbert Barthle",
-            "speakerstatus": "speaker",
-            "text": "Die Bundesregierung hat die soziale Lage vor Ort wiederholt in verschiedenen Gesprächen, sowohl mit der neuen Regierung Sierra Leones als auch mit relevanten zivilgesellschaftlichen Organisationen, thematisiert, zuletzt im Rahmen von Regierungsgesprächen im November 2018 in Freetown, Sierra Leone. Anträge zur Unterstützung von Vorhaben zur Förderung der lokalen Entwicklung durch Aus- und Weiterbildungsangebote und von Unternehmungsgründungen über Förderprogramme des Bundesministeriums für wirtschaftliche Zusammenarbeit und Entwicklung, BMZ, in Zusammenarbeit mit der Zivilgesellschaft sind zum jetzigen Zeitpunkt noch nicht eingegangen.",
-            "sentences": [
-              {
-                "text": "Die Bundesregierung hat die soziale Lage vor Ort wiederholt in verschiedenen Gesprächen, sowohl mit der neuen Regierung Sierra Leones als auch mit relevanten zivilgesellschaftlichen Organisationen, thematisiert, zuletzt im Rahmen von Regierungsgesprächen im November 2018 in Freetown, Sierra Leone."
-              },
-              {
-                "text": "Anträge zur Unterstützung von Vorhaben zur Förderung der lokalen Entwicklung durch Aus- und Weiterbildungsangebote und von Unternehmungsgründungen über Förderprogramme des Bundesministeriums für wirtschaftliche Zusammenarbeit und Entwicklung, BMZ, in Zusammenarbeit mit der Zivilgesellschaft sind zum jetzigen Zeitpunkt noch nicht eingegangen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Norbert Barthle",
-            "speakerstatus": "speaker",
-            "text": "Darüber hinaus unterstützt die Bundesregierung die Arbeit zivilgesellschaftlicher Organisationen in der Makeni-Region, so zum Beispiel über Brot für die Welt und das lokale NRO-Netzwerk MADAM, Mankind Activities Development Accreditation Movement, und durch SiLNoRF, Sierra Leone Network on the Right to Food. Dabei geht es unter anderem um Unterstützung für die Bäuerinnen und Bauern sowie Gemeindevertretungen in der Region in Landrechtsfragen und Aus- und Weiterbildungsangebote.",
-            "sentences": [
-              {
-                "text": "Darüber hinaus unterstützt die Bundesregierung die Arbeit zivilgesellschaftlicher Organisationen in der Makeni-Region, so zum Beispiel über Brot für die Welt und das lokale NRO-Netzwerk MADAM, Mankind Activities Development Accreditation Movement, und durch SiLNoRF, Sierra Leone Network on the Right to Food."
-              },
-              {
-                "text": "Dabei geht es unter anderem um Unterstützung für die Bäuerinnen und Bauern sowie Gemeindevertretungen in der Region in Landrechtsfragen und Aus- und Weiterbildungsangebote."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Norbert Barthle",
-            "speakerstatus": "speaker",
-            "text": "Im Übrigen verweise ich noch auf die Antwort der Bundesregierung auf die Kleine Anfrage „KfW-Auslandsgeschäfte im Agrarbereich“, Bundestagsdrucksache 19/7868.",
-            "sentences": [
-              {
-                "text": "Im Übrigen verweise ich noch auf die Antwort der Bundesregierung auf die Kleine Anfrage „KfW-Auslandsgeschäfte im Agrarbereich“, Bundestagsdrucksache 19/7868."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Sie haben das Wort zur ersten Nachfrage. Ich weise darauf hin, dass ich jetzt gehalten bin, die eine Minute wirklich exakt einzuhalten, weil wir dann am Ende der Fragestunde sind.",
-            "sentences": [
-              {
-                "text": "Sie haben das Wort zur ersten Nachfrage."
-              },
-              {
-                "text": "Ich weise darauf hin, dass ich jetzt gehalten bin, die eine Minute wirklich exakt einzuhalten, weil wir dann am Ende der Fragestunde sind."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Eva-Maria Schreiber",
-            "speakerstatus": "speaker",
-            "text": "Ich begrüße sehr, dass sich die Bundesregierung mit Haushaltsgeldern engagiert, um eine lokale NGO in Makeni zu unterstützen. Eine lokale NGO allein kann aber nicht alle Probleme der lokalen Bevölkerung lösen. Dazu braucht es in meinen und – davon gehe ich nach Ihrer Antwort aus – wohl auch in Ihren Augen eine bilaterale Entwicklungszusammenarbeit mit Sierra Leone. Da ist meine Frage: Inwiefern plant die Bundesregierung, in Kooperation mit der Regierung von Sierra Leone die Region um Makeni mithilfe bilateraler Entwicklungsbeiträge zu stärken, und wird sich die Bundesregierung dafür einsetzen, die Umsetzung der freiwilligen Leitlinien zu Landnutzungsrechten in der Makeni-Region zu unterstützen? Schließlich ist Sierra Leone ein Partnerland Deutschlands bei der Implementierung dieser Leitlinien, die illegitime Landaneignung durch Investoren verhindern sollen.",
-            "sentences": [
-              {
-                "text": "Ich begrüße sehr, dass sich die Bundesregierung mit Haushaltsgeldern engagiert, um eine lokale NGO in Makeni zu unterstützen."
-              },
-              {
-                "text": "Eine lokale NGO allein kann aber nicht alle Probleme der lokalen Bevölkerung lösen."
-              },
-              {
-                "text": "Dazu braucht es in meinen und – davon gehe ich nach Ihrer Antwort aus – wohl auch in Ihren Augen eine bilaterale Entwicklungszusammenarbeit mit Sierra Leone."
-              },
-              {
-                "text": "Da ist meine Frage: Inwiefern plant die Bundesregierung, in Kooperation mit der Regierung von Sierra Leone die Region um Makeni mithilfe bilateraler Entwicklungsbeiträge zu stärken, und wird sich die Bundesregierung dafür einsetzen, die Umsetzung der freiwilligen Leitlinien zu Landnutzungsrechten in der Makeni-Region zu unterstützen?"
-              },
-              {
-                "text": "Schließlich ist Sierra Leone ein Partnerland Deutschlands bei der Implementierung dieser Leitlinien, die illegitime Landaneignung durch Investoren verhindern sollen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Norbert Barthle",
-            "speakerstatus": "speaker",
-            "text": "Frau Kollegin, inwiefern wir Sierra Leone bilateral unterstützen werden und unterstützen können, muss ich Ihnen schriftlich beantworten; das habe ich nicht parat. Auf die Frage zu dem genannten Unternehmen bin ich sehr gut vorbereitet; da kann ich weitere Auskünfte geben.",
-            "sentences": [
-              {
-                "text": "Frau Kollegin, inwiefern wir Sierra Leone bilateral unterstützen werden und unterstützen können, muss ich Ihnen schriftlich beantworten; das habe ich nicht parat."
-              },
-              {
-                "text": "Auf die Frage zu dem genannten Unternehmen bin ich sehr gut vorbereitet; da kann ich weitere Auskünfte geben."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Norbert Barthle",
-            "speakerstatus": "speaker",
-            "text": "Dass wir die Rechte der Bevölkerung, was Landnutzung angeht, unterstützen, ist keine Frage. Insofern setzen wir uns dafür ein, dass bei jeder Maßnahme, bei jedem Unterfangen, das in einem Partnerland angedacht ist und geplant wird, und auch bei DEG-Engagements in jedem einzelnen Fall die jeweiligen sozialen Rahmenbedingungen genauestens untersucht werden, bevor überhaupt ein Engagement eingegangen wird. Darauf möchte ich deutlich hinweisen.",
-            "sentences": [
-              {
-                "text": "Dass wir die Rechte der Bevölkerung, was Landnutzung angeht, unterstützen, ist keine Frage."
-              },
-              {
-                "text": "Insofern setzen wir uns dafür ein, dass bei jeder Maßnahme, bei jedem Unterfangen, das in einem Partnerland angedacht ist und geplant wird, und auch bei DEG-Engagements in jedem einzelnen Fall die jeweiligen sozialen Rahmenbedingungen genauestens untersucht werden, bevor überhaupt ein Engagement eingegangen wird."
-              },
-              {
-                "text": "Darauf möchte ich deutlich hinweisen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Sie haben die Möglichkeit zu einer zweiten Nachfrage.",
-            "sentences": [
-              {
-                "text": "Sie haben die Möglichkeit zu einer zweiten Nachfrage."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Eva-Maria Schreiber",
-            "speakerstatus": "speaker",
-            "text": "Dann habe ich noch eine ganz kurze Nachfrage: Wie oft sind Sie vom BMZ tatsächlich persönlich vor Ort gewesen und haben sich von der Situation ein Bild gemacht?",
-            "sentences": [
-              {
-                "text": "Dann habe ich noch eine ganz kurze Nachfrage: Wie oft sind Sie vom BMZ tatsächlich persönlich vor Ort gewesen und haben sich von der Situation ein Bild gemacht?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Norbert Barthle",
-            "speakerstatus": "speaker",
-            "text": "Da Sierra Leone nicht zu den Ländern gehört, die in mein Auftragsgebiet fallen, war ich dort noch nicht vor Ort.",
-            "sentences": [
-              {
-                "text": "Da Sierra Leone nicht zu den Ländern gehört, die in mein Auftragsgebiet fallen, war ich dort noch nicht vor Ort."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Norbert Barthle",
-            "speakerstatus": "speaker",
-            "text": "– Ich persönlich. BMZ: Das kann ich so nicht beantworten. Ich nehme an, dass jemand aus dem BMZ vor Ort war oder ist. Ich bin mir sicher, dass von der GIZ, unserer ausführenden Organisation, mit Sicherheit jemand da ist oder war. Wenn das nicht der Fall sein sollte, prüfe ich gerne nach. Ansonsten bin ich ganz sicher, dass jemand von der DEG da war.",
-            "sentences": [
-              {
-                "text": "– Ich persönlich."
-              },
-              {
-                "text": "BMZ: Das kann ich so nicht beantworten."
-              },
-              {
-                "text": "Ich nehme an, dass jemand aus dem BMZ vor Ort war oder ist."
-              },
-              {
-                "text": "Ich bin mir sicher, dass von der GIZ, unserer ausführenden Organisation, mit Sicherheit jemand da ist oder war."
-              },
-              {
-                "text": "Wenn das nicht der Fall sein sollte, prüfe ich gerne nach."
-              },
-              {
-                "text": "Ansonsten bin ich ganz sicher, dass jemand von der DEG da war."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Danke, Herr Staatssekretär. – Wir sind damit am Ende der Fragestunde. Die übrigen Fragen werden schriftlich beantwortet.",
-            "sentences": [
-              {
-                "text": "Danke, Herr Staatssekretär."
-              },
-              {
-                "text": "– Wir sind damit am Ende der Fragestunde."
-              },
-              {
-                "text": "Die übrigen Fragen werden schriftlich beantwortet."
-              }
-            ]
           }
         ]
       }
@@ -9999,7 +8541,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 81,
+      "speechIndex": 1082,
       "title": "Aktuelle Stunde zum Einmarsch der Türkei in Syrien"
     },
     "people": [
@@ -10012,7 +8554,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19117-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19117-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -10026,6 +8568,39 @@
             "sentences": [
               {
                 "text": "Ich rufe den Zusatzpunkt 1 auf:"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Petra Pau",
+            "speakerstatus": "vice-president",
+            "text": "Aktuelle Stunde",
+            "sentences": [
+              {
+                "text": "Aktuelle Stunde"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Petra Pau",
+            "speakerstatus": "vice-president",
+            "text": "auf Verlangen der Fraktion DIE LINKE",
+            "sentences": [
+              {
+                "text": "auf Verlangen der Fraktion DIE LINKE"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Petra Pau",
+            "speakerstatus": "vice-president",
+            "text": "Haltung der Bundesregierung zum Einmarsch der Türkei in Syrien – Einmarsch als völkerrechtswidrig verurteilen",
+            "sentences": [
+              {
+                "text": "Haltung der Bundesregierung zum Einmarsch der Türkei in Syrien – Einmarsch als völkerrechtswidrig verurteilen"
               }
             ]
           },
@@ -10072,7 +8647,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 82,
+      "speechIndex": 1083,
       "title": "Aktuelle Stunde zum Einmarsch der Türkei in Syrien"
     },
     "people": [
@@ -10093,7 +8668,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19117-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19117-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -10511,7 +9086,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 83,
+      "speechIndex": 1084,
       "title": "Aktuelle Stunde zum Einmarsch der Türkei in Syrien"
     },
     "people": [
@@ -10532,7 +9107,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19117-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19117-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -11038,7 +9613,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 84,
+      "speechIndex": 1085,
       "title": "Aktuelle Stunde zum Einmarsch der Türkei in Syrien"
     },
     "people": [
@@ -11059,7 +9634,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19117-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19117-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -11616,7 +10191,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 85,
+      "speechIndex": 1086,
       "title": "Aktuelle Stunde zum Einmarsch der Türkei in Syrien"
     },
     "people": [
@@ -11637,7 +10212,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19117-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19117-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -12141,7 +10716,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 86,
+      "speechIndex": 1087,
       "title": "Aktuelle Stunde zum Einmarsch der Türkei in Syrien"
     },
     "people": [
@@ -12162,7 +10737,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19117-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19117-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -12626,7 +11201,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 87,
+      "speechIndex": 1088,
       "title": "Aktuelle Stunde zum Einmarsch der Türkei in Syrien"
     },
     "people": [
@@ -12647,7 +11222,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19117-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19117-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -13059,7 +11634,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 88,
+      "speechIndex": 1089,
       "title": "Aktuelle Stunde zum Einmarsch der Türkei in Syrien"
     },
     "people": [
@@ -13080,7 +11655,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19117-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19117-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -13408,7 +11983,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 89,
+      "speechIndex": 1090,
       "title": "Aktuelle Stunde zum Einmarsch der Türkei in Syrien"
     },
     "people": [
@@ -13429,7 +12004,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19117-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19117-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -13958,7 +12533,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 90,
+      "speechIndex": 1091,
       "title": "Aktuelle Stunde zum Einmarsch der Türkei in Syrien"
     },
     "people": [
@@ -13979,7 +12554,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19117-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19117-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -14321,7 +12896,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 91,
+      "speechIndex": 1092,
       "title": "Aktuelle Stunde zum Einmarsch der Türkei in Syrien"
     },
     "people": [
@@ -14342,7 +12917,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19117-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19117-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -14733,7 +13308,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 92,
+      "speechIndex": 1093,
       "title": "Aktuelle Stunde zum Einmarsch der Türkei in Syrien"
     },
     "people": [
@@ -14754,7 +13329,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19117-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19117-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -15082,7 +13657,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 93,
+      "speechIndex": 1094,
       "title": "Aktuelle Stunde zum Einmarsch der Türkei in Syrien"
     },
     "people": [
@@ -15103,7 +13678,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19117-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19117-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -15450,7 +14025,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 94,
+      "speechIndex": 1095,
       "title": "Aktuelle Stunde zum Einmarsch der Türkei in Syrien"
     },
     "people": [
@@ -15471,7 +14046,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19117-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19117-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -15749,7 +14324,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 95,
+      "speechIndex": 1096,
       "title": "Aktuelle Stunde zum Einmarsch der Türkei in Syrien"
     },
     "people": [
@@ -15765,7 +14340,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19117-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19117-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -16125,7 +14700,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 96,
+      "speechIndex": 1097,
       "title": "Aktuelle Stunde zum Einmarsch der Türkei in Syrien"
     },
     "people": [
@@ -16138,7 +14713,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19117-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19117-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",

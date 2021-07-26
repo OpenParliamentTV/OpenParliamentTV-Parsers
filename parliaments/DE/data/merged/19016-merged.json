@@ -11,7 +11,7 @@
     },
     "agendaItem": {
       "officialTitle": "Sitzungseröffnung",
-      "speechIndex": 0,
+      "speechIndex": 1000,
       "title": "Sitzungseröffnung"
     },
     "people": [
@@ -24,7 +24,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19016-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19016-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -93,7 +93,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 2,
+      "speechIndex": 1002,
       "title": "Befragung der Bundesregierung"
     },
     "people": [
@@ -106,12 +106,23 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19016-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19016-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
         "originTextID": "",
         "textBody": [
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "Befragung der Bundesregierung",
+            "sentences": [
+              {
+                "text": "Befragung der Bundesregierung"
+              }
+            ]
+          },
           {
             "type": "speech",
             "speaker": "Wolfgang Schäuble",
@@ -169,7 +180,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 3,
+      "speechIndex": 1003,
       "title": "Befragung der Bundesregierung"
     },
     "people": [
@@ -190,7 +201,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19016-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19016-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -444,7 +455,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 5,
+      "speechIndex": 1005,
       "title": "Befragung der Bundesregierung"
     },
     "people": [
@@ -465,7 +476,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19016-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19016-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -592,7 +603,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 7,
+      "speechIndex": 1007,
       "title": "Befragung der Bundesregierung"
     },
     "people": [
@@ -613,7 +624,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19016-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19016-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -719,7 +730,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 9,
+      "speechIndex": 1009,
       "title": "Befragung der Bundesregierung"
     },
     "people": [
@@ -740,7 +751,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19016-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19016-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -803,7 +814,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 11,
+      "speechIndex": 1011,
       "title": "Befragung der Bundesregierung"
     },
     "people": [
@@ -824,7 +835,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19016-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19016-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -918,7 +929,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 13,
+      "speechIndex": 1013,
       "title": "Befragung der Bundesregierung"
     },
     "people": [
@@ -939,7 +950,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19016-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19016-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -1064,7 +1075,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 15,
+      "speechIndex": 1015,
       "title": "Befragung der Bundesregierung"
     },
     "people": [
@@ -1085,7 +1096,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19016-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19016-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -1148,7 +1159,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 17,
+      "speechIndex": 1017,
       "title": "Befragung der Bundesregierung"
     },
     "people": [
@@ -1169,7 +1180,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19016-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19016-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -1258,7 +1269,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 19,
+      "speechIndex": 1019,
       "title": "Befragung der Bundesregierung"
     },
     "people": [
@@ -1279,7 +1290,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19016-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19016-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -1434,7 +1445,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 21,
+      "speechIndex": 1021,
       "title": "Befragung der Bundesregierung"
     },
     "people": [
@@ -1455,7 +1466,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19016-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19016-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -1541,7 +1552,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 23,
+      "speechIndex": 1023,
       "title": "Befragung der Bundesregierung"
     },
     "people": [
@@ -1562,7 +1573,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19016-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19016-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -1640,7 +1651,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 25,
+      "speechIndex": 1025,
       "title": "Befragung der Bundesregierung"
     },
     "people": [
@@ -1661,7 +1672,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19016-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19016-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -1753,7 +1764,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 27,
+      "speechIndex": 1027,
       "title": "Befragung der Bundesregierung"
     },
     "people": [
@@ -1774,7 +1785,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19016-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19016-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -1871,7 +1882,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 29,
+      "speechIndex": 1029,
       "title": "Befragung der Bundesregierung"
     },
     "people": [
@@ -1892,7 +1903,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19016-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19016-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -1992,7 +2003,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 31,
+      "speechIndex": 1031,
       "title": "Befragung der Bundesregierung"
     },
     "people": [
@@ -2013,7 +2024,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19016-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19016-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -2097,7 +2108,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 33,
+      "speechIndex": 1033,
       "title": "Befragung der Bundesregierung"
     },
     "people": [
@@ -2118,7 +2129,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19016-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19016-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -2207,7 +2218,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 35,
+      "speechIndex": 1035,
       "title": "Befragung der Bundesregierung"
     },
     "people": [
@@ -2228,7 +2239,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19016-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19016-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -2329,7 +2340,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 37,
+      "speechIndex": 1037,
       "title": "Befragung der Bundesregierung"
     },
     "people": [
@@ -2350,7 +2361,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19016-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19016-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -2427,7 +2438,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 39,
+      "speechIndex": 1039,
       "title": "Befragung der Bundesregierung"
     },
     "people": [
@@ -2448,7 +2459,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19016-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19016-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -2514,7 +2525,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 50,
+      "speechIndex": 1050,
       "title": "Befragung der Bundesregierung"
     },
     "people": [
@@ -2535,7 +2546,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19016-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19016-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -2641,7 +2652,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 2",
-      "speechIndex": 53,
+      "speechIndex": 1054,
       "title": "Fragestunde"
     },
     "people": [
@@ -2864,12 +2875,23 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19016-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19016-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
         "originTextID": "",
         "textBody": [
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "Fragestunde",
+            "sentences": [
+              {
+                "text": "Fragestunde"
+              }
+            ]
+          },
           {
             "type": "speech",
             "speaker": "Wolfgang Schäuble",
@@ -8806,16 +8828,58 @@
   {
     "parliament": "DE",
     "electoralPeriod": {
-      "number": 19
+      "number": "19"
     },
     "session": {
-      "number": 16
+      "number": "16",
+      "dateStart": "2018-02-28T13:00",
+      "dateEnd": "2018-02-28T16:53"
     },
     "agendaItem": {
-      "title": "Befragung der Bundesregierung",
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 24
+      "speechIndex": 1053,
+      "title": "Befragung der Bundesregierung"
     },
+    "people": [
+      {
+        "type": "memberOfParliament",
+        "label": "Wolfgang Schäuble",
+        "context": "president"
+      }
+    ],
+    "textContents": [
+      {
+        "type": "proceedings",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19016-data.xml",
+        "creator": "Deutscher Bundestag",
+        "license": "Public Domain",
+        "language": "DE-de",
+        "originTextID": "",
+        "textBody": [
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "Danke sehr. – Damit ist die Regierungsbefragung für heute beendet. Ich bedanke mich, insbesondere bei der Bundesministerin.",
+            "sentences": [
+              {
+                "text": "Danke sehr."
+              },
+              {
+                "text": "– Damit ist die Regierungsbefragung für heute beendet."
+              },
+              {
+                "text": "Ich bedanke mich, insbesondere bei der Bundesministerin."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "documents": [],
+    "key": "19-16 tagesordnungspunkt 1 (wolfgang schauble) #1",
+    "dateStart": "2018-02-28T12:53:41",
+    "dateEnd": "2018-02-28T12:54:54",
     "media": {
       "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7205032/7205032_h264_720_400_2000kb_baseline_de_2192.mp4",
       "sourcePage": "http://dbtg.tv/fvid/7205032",
@@ -8824,18 +8888,7 @@
       "license": "CC-BY-SA",
       "originMediaID": "7205032",
       "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7205032/7205032_mp3_128kb_stereo_de_128.mp3"
-    },
-    "dateStart": "2018-02-28T12:53:41",
-    "dateEnd": "2018-02-28T12:54:54",
-    "people": [
-      {
-        "label": "Wolfgang Schäuble",
-        "faction": "CDU/CSU",
-        "context": "main-speaker",
-        "role": "Bundestagspräsident"
-      }
-    ],
-    "key": "19-16 tagesordnungspunkt 1 (wolfgang schauble) #1"
+    }
   },
   {
     "parliament": "DE",
@@ -9665,7 +9718,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 2",
-      "speechIndex": 54,
+      "speechIndex": 1055,
       "title": "Fragestunde"
     },
     "people": [
@@ -9803,97 +9856,28 @@
         "lastname": "Hoffmann",
         "context": "speaker",
         "faction": "FDP"
-      },
-      {
-        "type": "memberOfParliament",
-        "label": "Manuela Rottmann",
-        "firstname": "Manuela",
-        "lastname": "Rottmann",
-        "context": "speaker",
-        "faction": "BÜNDNIS 90/DIE GRÜNEN"
-      },
-      {
-        "type": "memberOfParliament",
-        "label": "Stephan Brandner",
-        "firstname": "Stephan",
-        "lastname": "Brandner",
-        "context": "speaker",
-        "faction": "AfD"
-      },
-      {
-        "type": "memberOfParliament",
-        "label": "Christian Lange",
-        "firstname": "Christian",
-        "lastname": "Lange",
-        "context": "speaker",
-        "faction": ""
-      },
-      {
-        "type": "memberOfParliament",
-        "label": "Michael Meister",
-        "firstname": "Michael",
-        "lastname": "Meister",
-        "context": "speaker",
-        "faction": ""
-      },
-      {
-        "type": "memberOfParliament",
-        "label": "Axel E. Fischer",
-        "firstname": "Axel E.",
-        "lastname": "Fischer",
-        "context": "speaker",
-        "faction": "CDU/CSU"
-      },
-      {
-        "type": "memberOfParliament",
-        "label": "Dirk Wiese",
-        "firstname": "Dirk",
-        "lastname": "Wiese",
-        "context": "speaker",
-        "faction": ""
-      },
-      {
-        "type": "memberOfParliament",
-        "label": "Kathrin Vogler",
-        "firstname": "Kathrin",
-        "lastname": "Vogler",
-        "context": "speaker",
-        "faction": "DIE LINKE"
-      },
-      {
-        "type": "memberOfParliament",
-        "label": "Thomas Sattelberger",
-        "firstname": "Thomas",
-        "lastname": "Sattelberger",
-        "context": "speaker",
-        "faction": "FDP"
-      },
-      {
-        "type": "memberOfParliament",
-        "label": "Grigorios Aggelidis",
-        "firstname": "Grigorios",
-        "lastname": "Aggelidis",
-        "context": "speaker",
-        "faction": "FDP"
-      },
-      {
-        "type": "memberOfParliament",
-        "label": "Katharina Dröge",
-        "firstname": "Katharina",
-        "lastname": "Dröge",
-        "context": "speaker",
-        "faction": "BÜNDNIS 90/DIE GRÜNEN"
       }
     ],
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19016-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19016-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
         "originTextID": "",
         "textBody": [
+          {
+            "type": "speech",
+            "speaker": "Petra Pau",
+            "speakerstatus": "vice-president",
+            "text": "Fragestunde",
+            "sentences": [
+              {
+                "text": "Fragestunde"
+              }
+            ]
+          },
           {
             "type": "speech",
             "speaker": "Petra Pau",
@@ -13446,2363 +13430,6 @@
                 "text": "Die Fragen 22 und 23 des Abgeordneten Dr. Konstantin von Notz sowie die Fragen 24 und 25 des Abgeordneten Benjamin Strasser werden schriftlich beantwortet."
               }
             ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Hans-Peter Friedrich",
-            "speakerstatus": "vice-president",
-            "text": "Wir kommen zu Frage 26 des Kollegen Uwe Kekeritz:",
-            "sentences": [
-              {
-                "text": "Wir kommen zu Frage 26 des Kollegen Uwe Kekeritz:"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Ole Schröder",
-            "speakerstatus": "speaker",
-            "text": "Herr Kollege, ich beantworte Ihre Frage wie folgt: Der Bundesregierung liegen zu dem in Bezug genommenen Sachverhalt keine Erkenntnisse vor.",
-            "sentences": [
-              {
-                "text": "Herr Kollege, ich beantworte Ihre Frage wie folgt: Der Bundesregierung liegen zu dem in Bezug genommenen Sachverhalt keine Erkenntnisse vor."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Hans-Peter Friedrich",
-            "speakerstatus": "vice-president",
-            "text": "Sie haben das Wort zu einer Zusatzfrage.",
-            "sentences": [
-              {
-                "text": "Sie haben das Wort zu einer Zusatzfrage."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Uwe Kekeritz",
-            "speakerstatus": "speaker",
-            "text": "So kurz und knapp habe ich mir das vorgestellt. Nichtsdestotrotz bleibt für mich als Nichtjurist eine ganz wesentliche Frage. In diesem Fall ist es doch eindeutig so – dem scheint offiziell nicht widersprochen zu werden –, dass die russischen Ermittlungsbehörden Kontakt mit den bayerischen Behörden, insbesondere dem LKA, aufgenommen haben, um in diesem Fall gemeinsam zu ermitteln. Es ging um Geldwäsche. Die Russen haben ganz klar gesagt: Da gibt es einen Investor, der Geldwäsche betreibt; wir möchten dies gerne mit den bayerischen Behörden verfolgen.",
-            "sentences": [
-              {
-                "text": "So kurz und knapp habe ich mir das vorgestellt."
-              },
-              {
-                "text": "Nichtsdestotrotz bleibt für mich als Nichtjurist eine ganz wesentliche Frage."
-              },
-              {
-                "text": "In diesem Fall ist es doch eindeutig so – dem scheint offiziell nicht widersprochen zu werden –, dass die russischen Ermittlungsbehörden Kontakt mit den bayerischen Behörden, insbesondere dem LKA, aufgenommen haben, um in diesem Fall gemeinsam zu ermitteln."
-              },
-              {
-                "text": "Es ging um Geldwäsche."
-              },
-              {
-                "text": "Die Russen haben ganz klar gesagt: Da gibt es einen Investor, der Geldwäsche betreibt; wir möchten dies gerne mit den bayerischen Behörden verfolgen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Uwe Kekeritz",
-            "speakerstatus": "speaker",
-            "text": "Meine grundsätzliche Frage ist: Wie ist es möglich, dass eine deutsche Behörde dann sagt: „Das lehnen wir ab“? Wie kann man sagen, dass dabei kein Anfangsverdacht vorliegt?",
-            "sentences": [
-              {
-                "text": "Meine grundsätzliche Frage ist: Wie ist es möglich, dass eine deutsche Behörde dann sagt: „Das lehnen wir ab“?"
-              },
-              {
-                "text": "Wie kann man sagen, dass dabei kein Anfangsverdacht vorliegt?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Hans-Peter Friedrich",
-            "speakerstatus": "vice-president",
-            "text": "Herr Staatssekretär.",
-            "sentences": [
-              {
-                "text": "Herr Staatssekretär."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Ole Schröder",
-            "speakerstatus": "speaker",
-            "text": "Mir liegen zu diesem Sachverhalt keine Erkenntnisse vor. Es gab auch keine diesbezügliche Verdachtsmeldung, die wir beim BKA identifizieren konnten. Strafverfolgung ist Sache der Länder, insbesondere der Staatsanwaltschaften, die über die unabhängigen Gerichte kontrolliert werden. Insofern können wir hier keine weitere Auskunft geben.",
-            "sentences": [
-              {
-                "text": "Mir liegen zu diesem Sachverhalt keine Erkenntnisse vor."
-              },
-              {
-                "text": "Es gab auch keine diesbezügliche Verdachtsmeldung, die wir beim BKA identifizieren konnten."
-              },
-              {
-                "text": "Strafverfolgung ist Sache der Länder, insbesondere der Staatsanwaltschaften, die über die unabhängigen Gerichte kontrolliert werden."
-              },
-              {
-                "text": "Insofern können wir hier keine weitere Auskunft geben."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Hans-Peter Friedrich",
-            "speakerstatus": "vice-president",
-            "text": "Weitere Zusatzfragen?",
-            "sentences": [
-              {
-                "text": "Weitere Zusatzfragen?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Uwe Kekeritz",
-            "speakerstatus": "speaker",
-            "text": "Ja, eine Zusatzfrage habe ich noch. Wir haben ja ein gesamtgesellschaftliches Wohnungsproblem – von Hamburg über Düsseldorf, Frankfurt, Stuttgart bis München. Alle sagen: Wir müssen gemeinsam etwas dagegen tun – Bund und Länder. Jetzt ist meine Frage an Sie: Wie bewertet es die Bundesregierung, wenn ein Finanzminister 32 000 günstige Wohnungen im Raum München/Nürnberg verkauft, um eine marode Landesbank zu sanieren? Wird so etwas bei Ihnen in irgendwelchen Konferenzen diskutiert? Wie bewerten Sie das?",
-            "sentences": [
-              {
-                "text": "Ja, eine Zusatzfrage habe ich noch."
-              },
-              {
-                "text": "Wir haben ja ein gesamtgesellschaftliches Wohnungsproblem – von Hamburg über Düsseldorf, Frankfurt, Stuttgart bis München."
-              },
-              {
-                "text": "Alle sagen: Wir müssen gemeinsam etwas dagegen tun – Bund und Länder."
-              },
-              {
-                "text": "Jetzt ist meine Frage an Sie: Wie bewertet es die Bundesregierung, wenn ein Finanzminister 32 000 günstige Wohnungen im Raum München/Nürnberg verkauft, um eine marode Landesbank zu sanieren?"
-              },
-              {
-                "text": "Wird so etwas bei Ihnen in irgendwelchen Konferenzen diskutiert?"
-              },
-              {
-                "text": "Wie bewerten Sie das?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Hans-Peter Friedrich",
-            "speakerstatus": "vice-president",
-            "text": "Herr Staatssekretär.",
-            "sentences": [
-              {
-                "text": "Herr Staatssekretär."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Ole Schröder",
-            "speakerstatus": "speaker",
-            "text": "Wir geben zu solchen Sachverhalten der Länder keine Stellungnahme ab. Wir bewerten so etwas auch nicht.",
-            "sentences": [
-              {
-                "text": "Wir geben zu solchen Sachverhalten der Länder keine Stellungnahme ab."
-              },
-              {
-                "text": "Wir bewerten so etwas auch nicht."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Hans-Peter Friedrich",
-            "speakerstatus": "vice-president",
-            "text": "Zum selben Thema rufe ich die Frage 27 der Kollegin Lisa Paus auf:",
-            "sentences": [
-              {
-                "text": "Zum selben Thema rufe ich die Frage 27 der Kollegin Lisa Paus auf:"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Ole Schröder",
-            "speakerstatus": "speaker",
-            "text": "Ich beantworte Ihre Frage wie folgt: Die in Bezug genommenen Verdachtsanzeigen im Zusammenhang mit dem Verkauf der landeseigenen Wohnungen können beim BKA nicht identifiziert werden. Dem BKA ist bekannt, dass bezüglich des Vorgangs von 2013 bei den bayerischen Strafverfolgungsbehörden eine anonyme Strafanzeige vom 22. November 2012 existiert, die dem BKA jedoch nicht vorliegt. Dem BKA liegen weitere Informationen zu einer Verdachtsmeldung der Firma Patrizia Deutschland GmbH vom 18. Mai 2016 vor, die jedoch nach Prüfung des Vorgangs keinen Bezug zu dem Vorfall von 2013 aufweisen.",
-            "sentences": [
-              {
-                "text": "Ich beantworte Ihre Frage wie folgt: Die in Bezug genommenen Verdachtsanzeigen im Zusammenhang mit dem Verkauf der landeseigenen Wohnungen können beim BKA nicht identifiziert werden."
-              },
-              {
-                "text": "Dem BKA ist bekannt, dass bezüglich des Vorgangs von 2013 bei den bayerischen Strafverfolgungsbehörden eine anonyme Strafanzeige vom 22. November 2012 existiert, die dem BKA jedoch nicht vorliegt."
-              },
-              {
-                "text": "Dem BKA liegen weitere Informationen zu einer Verdachtsmeldung der Firma Patrizia Deutschland GmbH vom 18. Mai 2016 vor, die jedoch nach Prüfung des Vorgangs keinen Bezug zu dem Vorfall von 2013 aufweisen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Hans-Peter Friedrich",
-            "speakerstatus": "vice-president",
-            "text": "Erste Zusatzfrage, Frau Kollegin.",
-            "sentences": [
-              {
-                "text": "Erste Zusatzfrage, Frau Kollegin."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Lisa Paus",
-            "speakerstatus": "speaker",
-            "text": "Ich hatte die Bundesregierung insgesamt danach gefragt, welche Stellen des Bundes im Einzelnen informiert gewesen sind. Sie haben sich jetzt auf das BKA bezogen. Es gibt aber die Meldung vom WDR, in der es heißt, dass eine Ermittlergruppe aus Landeskriminalamt und Zoll Verdachtsanzeigen aufgenommen und ernst genommen haben soll. Der Zoll ist ja auch Teil der Bundesverwaltung. Von daher: Könnten Sie mir etwas zu der Frage sagen, ob es Informationen beim Zoll gegeben hat?",
-            "sentences": [
-              {
-                "text": "Ich hatte die Bundesregierung insgesamt danach gefragt, welche Stellen des Bundes im Einzelnen informiert gewesen sind."
-              },
-              {
-                "text": "Sie haben sich jetzt auf das BKA bezogen."
-              },
-              {
-                "text": "Es gibt aber die Meldung vom WDR, in der es heißt, dass eine Ermittlergruppe aus Landeskriminalamt und Zoll Verdachtsanzeigen aufgenommen und ernst genommen haben soll."
-              },
-              {
-                "text": "Der Zoll ist ja auch Teil der Bundesverwaltung."
-              },
-              {
-                "text": "Von daher: Könnten Sie mir etwas zu der Frage sagen, ob es Informationen beim Zoll gegeben hat?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Hans-Peter Friedrich",
-            "speakerstatus": "vice-president",
-            "text": "Herr Staatssekretär.",
-            "sentences": [
-              {
-                "text": "Herr Staatssekretär."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Ole Schröder",
-            "speakerstatus": "speaker",
-            "text": "Ich habe ja von einer Verdachtsmeldung vom 18. Mai 2016 gesprochen. Aber diese Verdachtsmeldung hat überhaupt keinen Bezug zu dem von Ihnen beschriebenen Sachverhalt.",
-            "sentences": [
-              {
-                "text": "Ich habe ja von einer Verdachtsmeldung vom 18. Mai 2016 gesprochen."
-              },
-              {
-                "text": "Aber diese Verdachtsmeldung hat überhaupt keinen Bezug zu dem von Ihnen beschriebenen Sachverhalt."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Hans-Peter Friedrich",
-            "speakerstatus": "vice-president",
-            "text": "Zweite Zusatzfrage.",
-            "sentences": [
-              {
-                "text": "Zweite Zusatzfrage."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Lisa Paus",
-            "speakerstatus": "speaker",
-            "text": "Sebastian Fiedler, der Vizechef des Bundes Deutscher Kriminalbeamter, hat, als er zu dem vorliegenden Fall befragt wurde, gesagt, dass nach seiner Erfahrung Fälle weit geringerer Dimension Berichtspflichten an die Landesregierungen auslösen. Deswegen ist meine Frage an die Bundesregierung, die ja eine ähnliche Praxis haben wird: Wie bewerten Sie das? Ist es vorstellbar, dass die Landesregierung von diesen Verdachtsmeldungen tatsächlich nichts gewusst hat?",
-            "sentences": [
-              {
-                "text": "Sebastian Fiedler, der Vizechef des Bundes Deutscher Kriminalbeamter, hat, als er zu dem vorliegenden Fall befragt wurde, gesagt, dass nach seiner Erfahrung Fälle weit geringerer Dimension Berichtspflichten an die Landesregierungen auslösen."
-              },
-              {
-                "text": "Deswegen ist meine Frage an die Bundesregierung, die ja eine ähnliche Praxis haben wird: Wie bewerten Sie das?"
-              },
-              {
-                "text": "Ist es vorstellbar, dass die Landesregierung von diesen Verdachtsmeldungen tatsächlich nichts gewusst hat?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Hans-Peter Friedrich",
-            "speakerstatus": "vice-president",
-            "text": "Herr Staatssekretär.",
-            "sentences": [
-              {
-                "text": "Herr Staatssekretär."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Ole Schröder",
-            "speakerstatus": "speaker",
-            "text": "Das kann ich mir durchaus vorstellen. Ich kann nur sagen, dass eine Verdachtsmeldung beim BKA jedenfalls nicht als zu diesem Fall gehörend identifiziert werden konnte.",
-            "sentences": [
-              {
-                "text": "Das kann ich mir durchaus vorstellen."
-              },
-              {
-                "text": "Ich kann nur sagen, dass eine Verdachtsmeldung beim BKA jedenfalls nicht als zu diesem Fall gehörend identifiziert werden konnte."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Hans-Peter Friedrich",
-            "speakerstatus": "vice-president",
-            "text": "Weitere Zusatzfrage? – Dann kommen wir zur Frage 28, ebenfalls von Frau Paus:",
-            "sentences": [
-              {
-                "text": "Weitere Zusatzfrage?"
-              },
-              {
-                "text": "– Dann kommen wir zur Frage 28, ebenfalls von Frau Paus:"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Ole Schröder",
-            "speakerstatus": "speaker",
-            "text": "Nach der Aufgabenverteilung des Grundgesetzes obliegen strafprozessuale Ermittlungsmaßnahmen in Bezug auf Geldwäscheverdachtsmeldungen den Strafverfolgungsbehörden der Länder unter der Leitung der jeweils zuständigen Staatsanwaltschaft.",
-            "sentences": [
-              {
-                "text": "Nach der Aufgabenverteilung des Grundgesetzes obliegen strafprozessuale Ermittlungsmaßnahmen in Bezug auf Geldwäscheverdachtsmeldungen den Strafverfolgungsbehörden der Länder unter der Leitung der jeweils zuständigen Staatsanwaltschaft."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Hans-Peter Friedrich",
-            "speakerstatus": "vice-president",
-            "text": "Erste Zusatzfrage, Frau Kollegin.",
-            "sentences": [
-              {
-                "text": "Erste Zusatzfrage, Frau Kollegin."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Lisa Paus",
-            "speakerstatus": "speaker",
-            "text": "Plant die Bundesregierung aufgrund der jetzt bekannt gewordenen Pressemeldungen, dem noch einmal nachzugehen und erneut Ermittlungen aufzunehmen?",
-            "sentences": [
-              {
-                "text": "Plant die Bundesregierung aufgrund der jetzt bekannt gewordenen Pressemeldungen, dem noch einmal nachzugehen und erneut Ermittlungen aufzunehmen?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Ole Schröder",
-            "speakerstatus": "speaker",
-            "text": "Zu diesem Fall konnte ja keine Verdachtsmeldung bei den Bundesbehörden identifiziert werden. Insofern sehen wir überhaupt keine Veranlassung, hier erneut zu ermitteln, zumal die Staatsanwaltschaft das Verfahren ja eingestellt hat.",
-            "sentences": [
-              {
-                "text": "Zu diesem Fall konnte ja keine Verdachtsmeldung bei den Bundesbehörden identifiziert werden."
-              },
-              {
-                "text": "Insofern sehen wir überhaupt keine Veranlassung, hier erneut zu ermitteln, zumal die Staatsanwaltschaft das Verfahren ja eingestellt hat."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Hans-Peter Friedrich",
-            "speakerstatus": "vice-president",
-            "text": "Keine weitere Zusatzfrage. – Dann kommen wir zur Frage 29 der Kollegin Dr. Manuela Rottmann:",
-            "sentences": [
-              {
-                "text": "Keine weitere Zusatzfrage."
-              },
-              {
-                "text": "– Dann kommen wir zur Frage 29 der Kollegin Dr. Manuela Rottmann:"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Ole Schröder",
-            "speakerstatus": "speaker",
-            "text": "Ich beantworte Ihre Frage wie folgt: Die in Bezug genommenen Verdachtsanzeigen im Zusammenhang mit dem Verkauf der landeseigenen Wohnungen an die Patrizia Immobilien AG können beim BKA nicht identifiziert werden. Dem BKA ist bekannt, dass im Zusammenhang mit dem in Bezug genommenen Vorgang von 2013 bei den bayerischen Strafverfolgungsbehörden eine anonyme Strafanzeige vom 22. November 2012 existiert, die dem BKA jedoch nicht vorliegt. Dem BKA liegen weitere Informationen zu einer Verdachtsmeldung der Firma Patrizia Deutschland GmbH vom 18. Mai 2016 vor, die jedoch nach Prüfung des Vorgangs keinen Bezug zu dem Vorfall von 2013 aufweist. Eine Bewertung der Bedeutung des Sachverhalts ist daher der Bundesregierung nicht möglich. Mit der Aufgabenverlagerung vom BKA zur neuen Zentralstelle für Finanztransaktionsuntersuchungen beim Zoll ist eine Stärkung und Ausweitung der Auskunfts- und Datenabrufrechte der neuen Zentralstelle zum Zweck der Vertiefung der Analyse der Geldwäscheverdachtsmeldungen zur besseren Unterstützung der zuständigen Strafverfolgungsbehörden, insbesondere bei Geldwäscheermittlungen, verbunden. Hierzu hat eine erhebliche Personalaufstockung mit multidisziplinärem Personaleinsatz bei der Zentralstelle für Finanztransaktionsuntersuchungen stattgefunden, deren Ausbau andauert.",
-            "sentences": [
-              {
-                "text": "Ich beantworte Ihre Frage wie folgt: Die in Bezug genommenen Verdachtsanzeigen im Zusammenhang mit dem Verkauf der landeseigenen Wohnungen an die Patrizia Immobilien AG können beim BKA nicht identifiziert werden."
-              },
-              {
-                "text": "Dem BKA ist bekannt, dass im Zusammenhang mit dem in Bezug genommenen Vorgang von 2013 bei den bayerischen Strafverfolgungsbehörden eine anonyme Strafanzeige vom 22. November 2012 existiert, die dem BKA jedoch nicht vorliegt."
-              },
-              {
-                "text": "Dem BKA liegen weitere Informationen zu einer Verdachtsmeldung der Firma Patrizia Deutschland GmbH vom 18. Mai 2016 vor, die jedoch nach Prüfung des Vorgangs keinen Bezug zu dem Vorfall von 2013 aufweist."
-              },
-              {
-                "text": "Eine Bewertung der Bedeutung des Sachverhalts ist daher der Bundesregierung nicht möglich."
-              },
-              {
-                "text": "Mit der Aufgabenverlagerung vom BKA zur neuen Zentralstelle für Finanztransaktionsuntersuchungen beim Zoll ist eine Stärkung und Ausweitung der Auskunfts- und Datenabrufrechte der neuen Zentralstelle zum Zweck der Vertiefung der Analyse der Geldwäscheverdachtsmeldungen zur besseren Unterstützung der zuständigen Strafverfolgungsbehörden, insbesondere bei Geldwäscheermittlungen, verbunden."
-              },
-              {
-                "text": "Hierzu hat eine erhebliche Personalaufstockung mit multidisziplinärem Personaleinsatz bei der Zentralstelle für Finanztransaktionsuntersuchungen stattgefunden, deren Ausbau andauert."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Hans-Peter Friedrich",
-            "speakerstatus": "vice-president",
-            "text": "Erste Zusatzfrage, bitte schön.",
-            "sentences": [
-              {
-                "text": "Erste Zusatzfrage, bitte schön."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Manuela Rottmann",
-            "speakerstatus": "speaker",
-            "text": "Vielen Dank, Herr Staatssekretär. – Ich habe eine Nachfrage, die Sie, glaube ich, auf jeden Fall beantworten können. Nehmen wir einmal an, der Bund verkauft Immobilien – was ja öfter einmal vorkommt – durch die BImA oder andere Akteure. Wir haben jetzt eine wunderbare Stelle zur besseren Prüfung von Geldwäschevorwürfen geschaffen. Ist denn durch die Mitteilungspflichten innerhalb der Bundesregierung sichergestellt, dass, wenn ein Bundesministerium sich in Verhandlungen mit einem Unternehmen befindet, gegen das Behörden Ermittlungen durchführen, die nach ihrer Einschätzung den Anfangsverdacht einer Geldwäsche begründen, diese Erkenntnisse auch dem zuständigen Bundesminister zugänglich gemacht werden, damit verhindert werden kann, dass der Bund sich an Geldwäschepraktiken beteiligt?",
-            "sentences": [
-              {
-                "text": "Vielen Dank, Herr Staatssekretär."
-              },
-              {
-                "text": "– Ich habe eine Nachfrage, die Sie, glaube ich, auf jeden Fall beantworten können."
-              },
-              {
-                "text": "Nehmen wir einmal an, der Bund verkauft Immobilien – was ja öfter einmal vorkommt – durch die BImA oder andere Akteure."
-              },
-              {
-                "text": "Wir haben jetzt eine wunderbare Stelle zur besseren Prüfung von Geldwäschevorwürfen geschaffen."
-              },
-              {
-                "text": "Ist denn durch die Mitteilungspflichten innerhalb der Bundesregierung sichergestellt, dass, wenn ein Bundesministerium sich in Verhandlungen mit einem Unternehmen befindet, gegen das Behörden Ermittlungen durchführen, die nach ihrer Einschätzung den Anfangsverdacht einer Geldwäsche begründen, diese Erkenntnisse auch dem zuständigen Bundesminister zugänglich gemacht werden, damit verhindert werden kann, dass der Bund sich an Geldwäschepraktiken beteiligt?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Hans-Peter Friedrich",
-            "speakerstatus": "vice-president",
-            "text": "Herr Staatssekretär.",
-            "sentences": [
-              {
-                "text": "Herr Staatssekretär."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Ole Schröder",
-            "speakerstatus": "speaker",
-            "text": "Entscheidend ist am Ende, was die unabhängigen Ermittlungsbehörden dazu sagen. Ermittlungen werden in einem Rechtsstaat nun einmal federführend von den Staatsanwaltschaften durchgeführt. Wenn die Staatsanwaltschaft ein solches Ermittlungsverfahren einstellt, dann ist es nicht Sache der Regierung, dem noch einmal nachzugehen und diese Entscheidung weiter zu hinterfragen.",
-            "sentences": [
-              {
-                "text": "Entscheidend ist am Ende, was die unabhängigen Ermittlungsbehörden dazu sagen."
-              },
-              {
-                "text": "Ermittlungen werden in einem Rechtsstaat nun einmal federführend von den Staatsanwaltschaften durchgeführt."
-              },
-              {
-                "text": "Wenn die Staatsanwaltschaft ein solches Ermittlungsverfahren einstellt, dann ist es nicht Sache der Regierung, dem noch einmal nachzugehen und diese Entscheidung weiter zu hinterfragen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Hans-Peter Friedrich",
-            "speakerstatus": "vice-president",
-            "text": "Zweite Zusatzfrage, bitte schön.",
-            "sentences": [
-              {
-                "text": "Zweite Zusatzfrage, bitte schön."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Manuela Rottmann",
-            "speakerstatus": "speaker",
-            "text": "Vielen Dank. – Stellen Sie sich vor, Sie befinden sich in Verhandlungen und wissen nichts davon, dass gleichzeitig Ermittlungen wegen des Verdachts der Geldwäsche gegen genau diesen Investor laufen. Müsste die Bundesregierung, bevor es zum Beispiel zu einem Vertragsabschluss kommt, nicht sicherstellen, dass die Erkenntnisse, dass solche Ermittlungsverfahren laufen, weitergegeben werden?",
-            "sentences": [
-              {
-                "text": "Vielen Dank."
-              },
-              {
-                "text": "– Stellen Sie sich vor, Sie befinden sich in Verhandlungen und wissen nichts davon, dass gleichzeitig Ermittlungen wegen des Verdachts der Geldwäsche gegen genau diesen Investor laufen."
-              },
-              {
-                "text": "Müsste die Bundesregierung, bevor es zum Beispiel zu einem Vertragsabschluss kommt, nicht sicherstellen, dass die Erkenntnisse, dass solche Ermittlungsverfahren laufen, weitergegeben werden?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Hans-Peter Friedrich",
-            "speakerstatus": "vice-president",
-            "text": "Herr Staatssekretär.",
-            "sentences": [
-              {
-                "text": "Herr Staatssekretär."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Ole Schröder",
-            "speakerstatus": "speaker",
-            "text": "Das ist rein hypothetisch. In diesem Fall, um den es konkret geht – das ist unser Sachstand –, sind die Ermittlungen von der zuständigen Staatsanwaltschaft eingestellt worden.",
-            "sentences": [
-              {
-                "text": "Das ist rein hypothetisch."
-              },
-              {
-                "text": "In diesem Fall, um den es konkret geht – das ist unser Sachstand –, sind die Ermittlungen von der zuständigen Staatsanwaltschaft eingestellt worden."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Hans-Peter Friedrich",
-            "speakerstatus": "vice-president",
-            "text": "Wir kommen zur letzten Frage des Geschäftsbereichs des Bundesministeriums des Innern. Ich rufe Frage 30 des Kollegen Stephan Brandner von der AfD auf:",
-            "sentences": [
-              {
-                "text": "Wir kommen zur letzten Frage des Geschäftsbereichs des Bundesministeriums des Innern."
-              },
-              {
-                "text": "Ich rufe Frage 30 des Kollegen Stephan Brandner von der AfD auf:"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Ole Schröder",
-            "speakerstatus": "speaker",
-            "text": "Herr Kollege, ich beantworte Ihre Frage wie folgt: Die Gesamtzahl der in sämtlichen obersten Bundesbehörden – diese umfassen auch solche außerhalb der Bundesregierung, zum Beispiel das Bundespräsidialamt, den Bundesrechnungshof oder die Verwaltung des Bundestages, des Bundesrates und des Bundesverfassungsgerichts – beschäftigten Mitarbeiterinnen und Mitarbeiter beläuft sich nach der Personalstatistik des Statistischen Bundesamtes zum Stand 30. Juni 2016 auf 23 740 Personen. Die persönlichen Angaben der Mitarbeiterinnen und Mitarbeiter werden jeweils einzeln in den Personalverwaltungssystemen ihrer Behörde geführt. Eine übergreifende Statistik des Statistischen Bundesamtes gibt es hierzu nicht.",
-            "sentences": [
-              {
-                "text": "Herr Kollege, ich beantworte Ihre Frage wie folgt: Die Gesamtzahl der in sämtlichen obersten Bundesbehörden – diese umfassen auch solche außerhalb der Bundesregierung, zum Beispiel das Bundespräsidialamt, den Bundesrechnungshof oder die Verwaltung des Bundestages, des Bundesrates und des Bundesverfassungsgerichts – beschäftigten Mitarbeiterinnen und Mitarbeiter beläuft sich nach der Personalstatistik des Statistischen Bundesamtes zum Stand 30. Juni 2016 auf 23 740 Personen."
-              },
-              {
-                "text": "Die persönlichen Angaben der Mitarbeiterinnen und Mitarbeiter werden jeweils einzeln in den Personalverwaltungssystemen ihrer Behörde geführt."
-              },
-              {
-                "text": "Eine übergreifende Statistik des Statistischen Bundesamtes gibt es hierzu nicht."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Hans-Peter Friedrich",
-            "speakerstatus": "vice-president",
-            "text": "Sie haben das Wort zu einer ersten Zusatzfrage.",
-            "sentences": [
-              {
-                "text": "Sie haben das Wort zu einer ersten Zusatzfrage."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Stephan Brandner",
-            "speakerstatus": "speaker",
-            "text": "Die Frage bezog sich auf die Herkunft der Mitarbeiter aus den neuen Bundesländern. Das können Sie nicht aufschlüsseln? Sie kennen die Geburtsorte der Beschäftigten nicht?",
-            "sentences": [
-              {
-                "text": "Die Frage bezog sich auf die Herkunft der Mitarbeiter aus den neuen Bundesländern."
-              },
-              {
-                "text": "Das können Sie nicht aufschlüsseln?"
-              },
-              {
-                "text": "Sie kennen die Geburtsorte der Beschäftigten nicht?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Hans-Peter Friedrich",
-            "speakerstatus": "vice-president",
-            "text": "Herr Staatssekretär.",
-            "sentences": [
-              {
-                "text": "Herr Staatssekretär."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Ole Schröder",
-            "speakerstatus": "speaker",
-            "text": "Dazu gibt es keine Gesamtstatistik. Deshalb können wir das nicht aufschlüsseln.",
-            "sentences": [
-              {
-                "text": "Dazu gibt es keine Gesamtstatistik."
-              },
-              {
-                "text": "Deshalb können wir das nicht aufschlüsseln."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Hans-Peter Friedrich",
-            "speakerstatus": "vice-president",
-            "text": "Zweite Zusatzfrage?",
-            "sentences": [
-              {
-                "text": "Zweite Zusatzfrage?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Stephan Brandner",
-            "speakerstatus": "speaker",
-            "text": "Mir fällt keine mehr ein.",
-            "sentences": [
-              {
-                "text": "Mir fällt keine mehr ein."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Hans-Peter Friedrich",
-            "speakerstatus": "vice-president",
-            "text": "Gut. – Dann sind wir mit diesem Geschäftsbereich zu Ende. Vielen Dank, Herr Staatssekretär Schröder.",
-            "sentences": [
-              {
-                "text": "Gut."
-              },
-              {
-                "text": "– Dann sind wir mit diesem Geschäftsbereich zu Ende."
-              },
-              {
-                "text": "Vielen Dank, Herr Staatssekretär Schröder."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Hans-Peter Friedrich",
-            "speakerstatus": "vice-president",
-            "text": "Wir kommen zum Geschäftsbereich des Bundesministeriums der Justiz und für Verbraucherschutz. Zur Beantwortung der Fragen steht Herr Staatssekretär Lange zur Verfügung.",
-            "sentences": [
-              {
-                "text": "Wir kommen zum Geschäftsbereich des Bundesministeriums der Justiz und für Verbraucherschutz."
-              },
-              {
-                "text": "Zur Beantwortung der Fragen steht Herr Staatssekretär Lange zur Verfügung."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Hans-Peter Friedrich",
-            "speakerstatus": "vice-president",
-            "text": "Ich rufe die Frage 31 des Kollegen Stephan Brandner von der AfD auf:",
-            "sentences": [
-              {
-                "text": "Ich rufe die Frage 31 des Kollegen Stephan Brandner von der AfD auf:"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Hans-Peter Friedrich",
-            "speakerstatus": "vice-president",
-            "text": "Bitte, Herr Staatssekretär.",
-            "sentences": [
-              {
-                "text": "Bitte, Herr Staatssekretär."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Christian Lange",
-            "speakerstatus": "speaker",
-            "text": "Vielen Dank, Herr Präsident. – Ich beantworte Ihre Frage wie folgt: Der Bundesminister der Justiz und für Verbraucherschutz Heiko Maas hat sich am 15. Februar 2018 gegenüber den Zeitungen des RedaktionsNetzwerks Deutschland wie folgt geäußert – ich zitiere –:",
-            "sentences": [
-              {
-                "text": "Vielen Dank, Herr Präsident."
-              },
-              {
-                "text": "– Ich beantworte Ihre Frage wie folgt: Der Bundesminister der Justiz und für Verbraucherschutz Heiko Maas hat sich am 15. Februar 2018 gegenüber den Zeitungen des RedaktionsNetzwerks Deutschland wie folgt geäußert – ich zitiere –:"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Christian Lange",
-            "speakerstatus": "speaker",
-            "text": "Diese Aussage steht in ihrer Klarheit für sich. Eine Bewertung erübrigt sich.",
-            "sentences": [
-              {
-                "text": "Diese Aussage steht in ihrer Klarheit für sich."
-              },
-              {
-                "text": "Eine Bewertung erübrigt sich."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Hans-Peter Friedrich",
-            "speakerstatus": "vice-president",
-            "text": "Herr Kollege Brandner, erste Zusatzfrage? – Bitte schön.",
-            "sentences": [
-              {
-                "text": "Herr Kollege Brandner, erste Zusatzfrage?"
-              },
-              {
-                "text": "– Bitte schön."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Stephan Brandner",
-            "speakerstatus": "speaker",
-            "text": "Ich zweifle nicht an der Klarheit der Aussagen von Herrn Maas. Wir leiden oft genug unter den klaren Aussagen des Herrn Maas. Mir geht es um die Frage, ob die Bundesregierung darin eine Tatsachenbehauptung sieht so wie ich. Es geht um den letzten Satz, den Sie, Herr Staatssekretär, zitiert haben. Ich zitiere noch einmal:",
-            "sentences": [
-              {
-                "text": "Ich zweifle nicht an der Klarheit der Aussagen von Herrn Maas."
-              },
-              {
-                "text": "Wir leiden oft genug unter den klaren Aussagen des Herrn Maas."
-              },
-              {
-                "text": "Mir geht es um die Frage, ob die Bundesregierung darin eine Tatsachenbehauptung sieht so wie ich."
-              },
-              {
-                "text": "Es geht um den letzten Satz, den Sie, Herr Staatssekretär, zitiert haben."
-              },
-              {
-                "text": "Ich zitiere noch einmal:"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Stephan Brandner",
-            "speakerstatus": "speaker",
-            "text": "„Die weit überwiegende Mehrheit der Doppelstaatler“ – das ist eine Tatsachenbehauptung. Auf welche Erhebungen gründet Herr Maas diese Aussage?",
-            "sentences": [
-              {
-                "text": "„Die weit überwiegende Mehrheit der Doppelstaatler“ – das ist eine Tatsachenbehauptung."
-              },
-              {
-                "text": "Auf welche Erhebungen gründet Herr Maas diese Aussage?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Hans-Peter Friedrich",
-            "speakerstatus": "vice-president",
-            "text": "Herr Staatssekretär.",
-            "sentences": [
-              {
-                "text": "Herr Staatssekretär."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Christian Lange",
-            "speakerstatus": "speaker",
-            "text": "Der Bundesminister der Justiz und für Verbraucherschutz hat seine Bewertung, bei der es sich nicht um eine Tatsachenbehauptung handelt, am 15. Februar geäußert, also in unmittelbarem zeitlichen Kontext mit einer Rede des Vorsitzenden der AfD in Sachsen-Anhalt, gegen den es nach dessen Rede mehrere Strafanzeigen wegen Volksverhetzung gab.",
-            "sentences": [
-              {
-                "text": "Der Bundesminister der Justiz und für Verbraucherschutz hat seine Bewertung, bei der es sich nicht um eine Tatsachenbehauptung handelt, am 15. Februar geäußert, also in unmittelbarem zeitlichen Kontext mit einer Rede des Vorsitzenden der AfD in Sachsen-Anhalt, gegen den es nach dessen Rede mehrere Strafanzeigen wegen Volksverhetzung gab."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Hans-Peter Friedrich",
-            "speakerstatus": "vice-president",
-            "text": "Weitere Zusatzfrage? – Herr Kollege Brandner.",
-            "sentences": [
-              {
-                "text": "Weitere Zusatzfrage?"
-              },
-              {
-                "text": "– Herr Kollege Brandner."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Stephan Brandner",
-            "speakerstatus": "speaker",
-            "text": "Verstehe ich Sie dann richtig, Herr Staatssekretär, dass die Aussage „Die weit überwiegende Mehrheit der Doppelstaatler steht offensichtlich deutlich entschlossener hinter unserem Grundgesetz als die selbsternannten Patrioten bei AfD und Pegida“ keine Tatsachenbehauptung ist?",
-            "sentences": [
-              {
-                "text": "Verstehe ich Sie dann richtig, Herr Staatssekretär, dass die Aussage „Die weit überwiegende Mehrheit der Doppelstaatler steht offensichtlich deutlich entschlossener hinter unserem Grundgesetz als die selbsternannten Patrioten bei AfD und Pegida“ keine Tatsachenbehauptung ist?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Christian Lange",
-            "speakerstatus": "speaker",
-            "text": "Herr Kollege, ich wiederhole mich gerne: Es handelt sich um eine Bewertung des Herrn Bundesministers.",
-            "sentences": [
-              {
-                "text": "Herr Kollege, ich wiederhole mich gerne: Es handelt sich um eine Bewertung des Herrn Bundesministers."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Hans-Peter Friedrich",
-            "speakerstatus": "vice-president",
-            "text": "Gut. – Haben wir noch eine Nachfrage dazu? – Frau Kollegin, bitte schön.",
-            "sentences": [
-              {
-                "text": "Gut."
-              },
-              {
-                "text": "– Haben wir noch eine Nachfrage dazu?"
-              },
-              {
-                "text": "– Frau Kollegin, bitte schön."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Manuela Rottmann",
-            "speakerstatus": "speaker",
-            "text": "Herr Staatssekretär, teilen Sie meine Verwunderung darüber, dass es die AfD für eine Tatsachenbehauptung hält, dass die Partei aus „selbsternannten Patrioten“ besteht?",
-            "sentences": [
-              {
-                "text": "Herr Staatssekretär, teilen Sie meine Verwunderung darüber, dass es die AfD für eine Tatsachenbehauptung hält, dass die Partei aus „selbsternannten Patrioten“ besteht?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Hans-Peter Friedrich",
-            "speakerstatus": "vice-president",
-            "text": "Herr Staatssekretär.",
-            "sentences": [
-              {
-                "text": "Herr Staatssekretär."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Christian Lange",
-            "speakerstatus": "speaker",
-            "text": "Frau Kollegin, die geschäftsführende Bundesregierung äußert sich nicht zu allen Einschätzungen der Fraktion der AfD.",
-            "sentences": [
-              {
-                "text": "Frau Kollegin, die geschäftsführende Bundesregierung äußert sich nicht zu allen Einschätzungen der Fraktion der AfD."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Hans-Peter Friedrich",
-            "speakerstatus": "vice-president",
-            "text": "Dann ist auch das beantwortet. – Frage 32 der Abgeordneten Bayram wird schriftlich beantwortet.",
-            "sentences": [
-              {
-                "text": "Dann ist auch das beantwortet."
-              },
-              {
-                "text": "– Frage 32 der Abgeordneten Bayram wird schriftlich beantwortet."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Hans-Peter Friedrich",
-            "speakerstatus": "vice-president",
-            "text": "Vielen Dank, Herr Staatssekretär.",
-            "sentences": [
-              {
-                "text": "Vielen Dank, Herr Staatssekretär."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Hans-Peter Friedrich",
-            "speakerstatus": "vice-president",
-            "text": "Wir kommen zum Geschäftsbereich des Bundesministeriums der Finanzen. Zur Beantwortung steht Staatssekretär Dr. Michael Meister zur Verfügung.",
-            "sentences": [
-              {
-                "text": "Wir kommen zum Geschäftsbereich des Bundesministeriums der Finanzen."
-              },
-              {
-                "text": "Zur Beantwortung steht Staatssekretär Dr. Michael Meister zur Verfügung."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Hans-Peter Friedrich",
-            "speakerstatus": "vice-president",
-            "text": "Wir kommen zur Frage 33 des Kollegen Klaus-Peter Willsch:",
-            "sentences": [
-              {
-                "text": "Wir kommen zur Frage 33 des Kollegen Klaus-Peter Willsch:"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Hans-Peter Friedrich",
-            "speakerstatus": "vice-president",
-            "text": "Herr Staatssekretär, bitte schön.",
-            "sentences": [
-              {
-                "text": "Herr Staatssekretär, bitte schön."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Michael Meister",
-            "speakerstatus": "speaker",
-            "text": "Herr Präsident! Lieber Kollege Willsch, die griechische Schuldenagentur konnte am 8. Februar dieses Jahres erstmals wieder seit 2010 eine Staatsanleihe mit siebenjähriger Laufzeit am Finanzmarkt platzieren. Die Emission brachte 3 Milliarden Euro ein – bei einer Nachfrage am Markt in Höhe von 7 Milliarden Euro. Das ist die Emission mit der längsten Laufzeit seit Jahren. Zuvor hatte Griechenland 2014 und zuletzt im Juli 2017 jeweils fünfjährige Anleihen begeben und im November 2017 einen umfangreichen Anleihetausch durchgeführt. Diese Entwicklungen sind durchaus positiv zu bewerten.",
-            "sentences": [
-              {
-                "text": "Herr Präsident!"
-              },
-              {
-                "text": "Lieber Kollege Willsch, die griechische Schuldenagentur konnte am 8. Februar dieses Jahres erstmals wieder seit 2010 eine Staatsanleihe mit siebenjähriger Laufzeit am Finanzmarkt platzieren."
-              },
-              {
-                "text": "Die Emission brachte 3 Milliarden Euro ein – bei einer Nachfrage am Markt in Höhe von 7 Milliarden Euro."
-              },
-              {
-                "text": "Das ist die Emission mit der längsten Laufzeit seit Jahren."
-              },
-              {
-                "text": "Zuvor hatte Griechenland 2014 und zuletzt im Juli 2017 jeweils fünfjährige Anleihen begeben und im November 2017 einen umfangreichen Anleihetausch durchgeführt."
-              },
-              {
-                "text": "Diese Entwicklungen sind durchaus positiv zu bewerten."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Michael Meister",
-            "speakerstatus": "speaker",
-            "text": "Entscheidend für die Refinanzierungsfähigkeit Griechenlands über das Programmende hinaus bleibt die erfolgreiche und konsequente Umsetzung der Reformagenda.",
-            "sentences": [
-              {
-                "text": "Entscheidend für die Refinanzierungsfähigkeit Griechenlands über das Programmende hinaus bleibt die erfolgreiche und konsequente Umsetzung der Reformagenda."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Hans-Peter Friedrich",
-            "speakerstatus": "vice-president",
-            "text": "Vielen Dank. – Erste Zusatzfrage, Herr Kollege Willsch.",
-            "sentences": [
-              {
-                "text": "Vielen Dank."
-              },
-              {
-                "text": "– Erste Zusatzfrage, Herr Kollege Willsch."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Klaus-Peter Willsch",
-            "speakerstatus": "speaker",
-            "text": "Herr Staatssekretär, hat die Bundesregierung Kenntnis davon, zu welchem Termin die Anleihen in welcher Höhe fällig werden? Könnten wir diesen Anleihekalender haben?",
-            "sentences": [
-              {
-                "text": "Herr Staatssekretär, hat die Bundesregierung Kenntnis davon, zu welchem Termin die Anleihen in welcher Höhe fällig werden?"
-              },
-              {
-                "text": "Könnten wir diesen Anleihekalender haben?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Michael Meister",
-            "speakerstatus": "speaker",
-            "text": "Wir selbst haben den Anleihekalender Griechenlands nicht dezidiert vorliegen. Aber wir können mit Sicherheit beim ESM nachfragen, ob es dort eine solche Übersicht gibt. Wenn sie zur Verfügung gestellt werden kann, dann können wir sie in geeigneter Weise weiterreichen.",
-            "sentences": [
-              {
-                "text": "Wir selbst haben den Anleihekalender Griechenlands nicht dezidiert vorliegen."
-              },
-              {
-                "text": "Aber wir können mit Sicherheit beim ESM nachfragen, ob es dort eine solche Übersicht gibt."
-              },
-              {
-                "text": "Wenn sie zur Verfügung gestellt werden kann, dann können wir sie in geeigneter Weise weiterreichen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Hans-Peter Friedrich",
-            "speakerstatus": "vice-president",
-            "text": "Zweite Zusatzfrage? – Bitte.",
-            "sentences": [
-              {
-                "text": "Zweite Zusatzfrage?"
-              },
-              {
-                "text": "– Bitte."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Klaus-Peter Willsch",
-            "speakerstatus": "speaker",
-            "text": "Geht die Bundesregierung nach wie vor davon aus, dass Griechenland die im Rahmen der drei Pakete erhaltenen Kredite vollständig und fristgerecht tilgen wird?",
-            "sentences": [
-              {
-                "text": "Geht die Bundesregierung nach wie vor davon aus, dass Griechenland die im Rahmen der drei Pakete erhaltenen Kredite vollständig und fristgerecht tilgen wird?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Michael Meister",
-            "speakerstatus": "speaker",
-            "text": "Ja.",
-            "sentences": [
-              {
-                "text": "Ja."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Hans-Peter Friedrich",
-            "speakerstatus": "vice-president",
-            "text": "Eine Zusatzfrage des Kollegen Axel Fischer.",
-            "sentences": [
-              {
-                "text": "Eine Zusatzfrage des Kollegen Axel Fischer."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Axel E. Fischer",
-            "speakerstatus": "speaker",
-            "text": "Ich frage die geschäftsführende Bundesregierung, wie sie die Refinanzierungsfähigkeit der Länder Irland, Portugal, Italien und Spanien bewertet.",
-            "sentences": [
-              {
-                "text": "Ich frage die geschäftsführende Bundesregierung, wie sie die Refinanzierungsfähigkeit der Länder Irland, Portugal, Italien und Spanien bewertet."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Michael Meister",
-            "speakerstatus": "speaker",
-            "text": "Wir gehen davon aus, dass sich die Situation aufgrund des Wachstums, sowohl in Irland wie auch in Spanien, für beide Länder deutlich verbessert hat.",
-            "sentences": [
-              {
-                "text": "Wir gehen davon aus, dass sich die Situation aufgrund des Wachstums, sowohl in Irland wie auch in Spanien, für beide Länder deutlich verbessert hat."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Michael Meister",
-            "speakerstatus": "speaker",
-            "text": "Was Spanien anbelangt, gab es in jüngerer Vergangenheit eine vorzeitige Rückzahlung in Richtung ESM. Das zeigt, dass offensichtlich auch die spanische Regierung davon ausgeht, sich vernünftig refinanzieren zu können.",
-            "sentences": [
-              {
-                "text": "Was Spanien anbelangt, gab es in jüngerer Vergangenheit eine vorzeitige Rückzahlung in Richtung ESM."
-              },
-              {
-                "text": "Das zeigt, dass offensichtlich auch die spanische Regierung davon ausgeht, sich vernünftig refinanzieren zu können."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Michael Meister",
-            "speakerstatus": "speaker",
-            "text": "Bei Irland ist seit Ende des Hilfsprogramms die Nachprogrammschau im Gange. Dort haben wir in Bezug auf die Nachprogrammkontrolle jeweils positive Informationen erhalten.",
-            "sentences": [
-              {
-                "text": "Bei Irland ist seit Ende des Hilfsprogramms die Nachprogrammschau im Gange."
-              },
-              {
-                "text": "Dort haben wir in Bezug auf die Nachprogrammkontrolle jeweils positive Informationen erhalten."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Hans-Peter Friedrich",
-            "speakerstatus": "vice-president",
-            "text": "Die Frage 34 der Abgeordneten Canan Bayram wird schriftlich beantwortet.",
-            "sentences": [
-              {
-                "text": "Die Frage 34 der Abgeordneten Canan Bayram wird schriftlich beantwortet."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Hans-Peter Friedrich",
-            "speakerstatus": "vice-president",
-            "text": "Herr Staatssekretär, damit sind wir am Ende des Geschäftsbereichs.",
-            "sentences": [
-              {
-                "text": "Herr Staatssekretär, damit sind wir am Ende des Geschäftsbereichs."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Hans-Peter Friedrich",
-            "speakerstatus": "vice-president",
-            "text": "Wir kommen zum Geschäftsbereich des Bundesministeriums für Wirtschaft und Energie. Zur Verfügung steht der Parlamentarische Staatssekretär Dirk Wiese.",
-            "sentences": [
-              {
-                "text": "Wir kommen zum Geschäftsbereich des Bundesministeriums für Wirtschaft und Energie."
-              },
-              {
-                "text": "Zur Verfügung steht der Parlamentarische Staatssekretär Dirk Wiese."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Hans-Peter Friedrich",
-            "speakerstatus": "vice-president",
-            "text": "Ich rufe die Frage 35 der Kollegin Katja Keul auf:",
-            "sentences": [
-              {
-                "text": "Ich rufe die Frage 35 der Kollegin Katja Keul auf:"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Hans-Peter Friedrich",
-            "speakerstatus": "vice-president",
-            "text": "Bitte schön, Herr Staatssekretär.",
-            "sentences": [
-              {
-                "text": "Bitte schön, Herr Staatssekretär."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Dirk Wiese",
-            "speakerstatus": "speaker",
-            "text": "Sehr gerne, sehr geehrter Herr Präsident. – Liebe Frau Kollegin, der Aufbau von Produktionsstätten im Ausland ist eine Unternehmensentscheidung. Daraus resultierende Ausfuhren gelisteter Güter oder gelisteter Technologie aus Deutschland sind genehmigungspflichtig. Hierfür gelten die restriktiven Regeln der Rüstungsexportkon­trolle.",
-            "sentences": [
-              {
-                "text": "Sehr gerne, sehr geehrter Herr Präsident."
-              },
-              {
-                "text": "– Liebe Frau Kollegin, der Aufbau von Produktionsstätten im Ausland ist eine Unternehmensentscheidung."
-              },
-              {
-                "text": "Daraus resultierende Ausfuhren gelisteter Güter oder gelisteter Technologie aus Deutschland sind genehmigungspflichtig."
-              },
-              {
-                "text": "Hierfür gelten die restriktiven Regeln der Rüstungsexportkon­trolle."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Dirk Wiese",
-            "speakerstatus": "speaker",
-            "text": "Im Übrigen folgt die Bundesregierung dem Urteil des Bundesverfassungsgerichts vom 21. Oktober 2014 und unterrichtet über abschließende positive Genehmigungsentscheidungen sowie über die Eckdaten eines Ausfuhrgeschäfts. Die Bundesregierung sieht gemäß dem Urteil von weiter gehenden Ausführungen ab. Dies betrifft unter anderem Angaben dazu, ob bestimmte Genehmigungsanträge gestellt wurden oder nicht.",
-            "sentences": [
-              {
-                "text": "Im Übrigen folgt die Bundesregierung dem Urteil des Bundesverfassungsgerichts vom 21. Oktober 2014 und unterrichtet über abschließende positive Genehmigungsentscheidungen sowie über die Eckdaten eines Ausfuhrgeschäfts."
-              },
-              {
-                "text": "Die Bundesregierung sieht gemäß dem Urteil von weiter gehenden Ausführungen ab."
-              },
-              {
-                "text": "Dies betrifft unter anderem Angaben dazu, ob bestimmte Genehmigungsanträge gestellt wurden oder nicht."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Hans-Peter Friedrich",
-            "speakerstatus": "vice-president",
-            "text": "Sie haben das Wort zu einer ersten Zusatzfrage.",
-            "sentences": [
-              {
-                "text": "Sie haben das Wort zu einer ersten Zusatzfrage."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Katja Keul",
-            "speakerstatus": "speaker",
-            "text": "Vielen Dank. – Ich muss meine Frage noch einmal stellen, weil sie noch nicht beantwortet wurde. Die Verträge sind geschlossen, und die Fabrik wird aufgebaut; das ist kein Geheimnis. Ich habe die Bundesregierung gefragt, ob das ein genehmigungspflichtiger Vorgang war oder nicht. Gab es dazu ein Genehmigungsverfahren, gab es dazu in irgendeiner Weise eine Genehmigung, oder ist das wirklich eine freie Entscheidung von Heckler & Koch? – Das ist doch eigentlich eine einfache Frage.",
-            "sentences": [
-              {
-                "text": "Vielen Dank."
-              },
-              {
-                "text": "– Ich muss meine Frage noch einmal stellen, weil sie noch nicht beantwortet wurde."
-              },
-              {
-                "text": "Die Verträge sind geschlossen, und die Fabrik wird aufgebaut; das ist kein Geheimnis."
-              },
-              {
-                "text": "Ich habe die Bundesregierung gefragt, ob das ein genehmigungspflichtiger Vorgang war oder nicht."
-              },
-              {
-                "text": "Gab es dazu ein Genehmigungsverfahren, gab es dazu in irgendeiner Weise eine Genehmigung, oder ist das wirklich eine freie Entscheidung von Heckler & Koch?"
-              },
-              {
-                "text": "– Das ist doch eigentlich eine einfache Frage."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Hans-Peter Friedrich",
-            "speakerstatus": "vice-president",
-            "text": "Herr Staatssekretär.",
-            "sentences": [
-              {
-                "text": "Herr Staatssekretär."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Dirk Wiese",
-            "speakerstatus": "speaker",
-            "text": "Sehr gerne. – Wie ich Ihnen in meiner Antwort gesagt habe: Der Aufbau von Produktionsstätten im Ausland ist eine Unternehmensentscheidung. Aufgabe der Bundesregierung ist es, die strengen gesetzlichen Vorgaben im Bereich der Rüstungsexportkontrolle umzusetzen. Es ist eine rein unternehmerische Entscheidung, den Aufbau durchzuführen.",
-            "sentences": [
-              {
-                "text": "Sehr gerne."
-              },
-              {
-                "text": "– Wie ich Ihnen in meiner Antwort gesagt habe: Der Aufbau von Produktionsstätten im Ausland ist eine Unternehmensentscheidung."
-              },
-              {
-                "text": "Aufgabe der Bundesregierung ist es, die strengen gesetzlichen Vorgaben im Bereich der Rüstungsexportkontrolle umzusetzen."
-              },
-              {
-                "text": "Es ist eine rein unternehmerische Entscheidung, den Aufbau durchzuführen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Hans-Peter Friedrich",
-            "speakerstatus": "vice-president",
-            "text": "Sie haben das Wort zu einer zweiten Zusatzfrage.",
-            "sentences": [
-              {
-                "text": "Sie haben das Wort zu einer zweiten Zusatzfrage."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Katja Keul",
-            "speakerstatus": "speaker",
-            "text": "Ich habe immer noch die gleiche Frage; denn sie wurde nicht beantwortet. Gibt es eine Genehmigung an Heckler & Koch für den Aufbau dieser Produktionsstätte? Immerhin wird dort das AR-15 produziert. Hier dürfen nur 10-Schuss-Magazine verwendet werden, aber in Amerika dürfen auch 60-Schuss-Magazine verwendet werden, und das kam bisher bei allen Massakern, auch bei dem letzten in Florida, zur Anwendung. – Das ist doch eine einfache Frage: Hat die Bundesregierung dafür eine Genehmigung erteilt?",
-            "sentences": [
-              {
-                "text": "Ich habe immer noch die gleiche Frage; denn sie wurde nicht beantwortet."
-              },
-              {
-                "text": "Gibt es eine Genehmigung an Heckler & Koch für den Aufbau dieser Produktionsstätte?"
-              },
-              {
-                "text": "Immerhin wird dort das AR-15 produziert."
-              },
-              {
-                "text": "Hier dürfen nur 10-Schuss-Magazine verwendet werden, aber in Amerika dürfen auch 60-Schuss-Magazine verwendet werden, und das kam bisher bei allen Massakern, auch bei dem letzten in Florida, zur Anwendung."
-              },
-              {
-                "text": "– Das ist doch eine einfache Frage: Hat die Bundesregierung dafür eine Genehmigung erteilt?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Hans-Peter Friedrich",
-            "speakerstatus": "vice-president",
-            "text": "Herr Staatssekretär.",
-            "sentences": [
-              {
-                "text": "Herr Staatssekretär."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Dirk Wiese",
-            "speakerstatus": "speaker",
-            "text": "Sehr gerne. – Das ist eine einfache Frage, und ich hatte in meinen vorherigen Antworten bereits darauf abgestellt. Aber ich sage es noch einmal: Der Aufbau von Produktionsstätten im Ausland ist eine Unternehmens­entscheidung.",
-            "sentences": [
-              {
-                "text": "Sehr gerne."
-              },
-              {
-                "text": "– Das ist eine einfache Frage, und ich hatte in meinen vorherigen Antworten bereits darauf abgestellt."
-              },
-              {
-                "text": "Aber ich sage es noch einmal: Der Aufbau von Produktionsstätten im Ausland ist eine Unternehmens­entscheidung."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Dirk Wiese",
-            "speakerstatus": "speaker",
-            "text": "Daraus resultierende Ausfuhren gelisteter Güter oder gelisteter Technologie aus Deutschland sind genehmigungspflichtig. Hierfür gelten die restriktiven Regeln der Rüstungsexportkontrolle.",
-            "sentences": [
-              {
-                "text": "Daraus resultierende Ausfuhren gelisteter Güter oder gelisteter Technologie aus Deutschland sind genehmigungspflichtig."
-              },
-              {
-                "text": "Hierfür gelten die restriktiven Regeln der Rüstungsexportkontrolle."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Hans-Peter Friedrich",
-            "speakerstatus": "vice-president",
-            "text": "Es gibt es dazu eine Zusatzfrage? – Kollegin Vogler.",
-            "sentences": [
-              {
-                "text": "Es gibt es dazu eine Zusatzfrage?"
-              },
-              {
-                "text": "– Kollegin Vogler."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Kathrin Vogler",
-            "speakerstatus": "speaker",
-            "text": "Vielen Dank. – An dieser Stelle möchte ich nachfragen, ob sich die Bundesregierung mit den Ergebnissen der Hauptversammlung von Heckler & Koch vom August letzten Jahres beschäftigt hat und wie sie es bewertet, dass der Vorstand der Firma Heckler & Koch es inzwischen offensichtlich anstrebt, sich eine neue Exportstrategie zu geben, die sehr viel restriktiver ist als die von der Bundesregierung immer als besonders restriktiv bezeichneten Exportrichtlinien der Bundesregierung.",
-            "sentences": [
-              {
-                "text": "Vielen Dank."
-              },
-              {
-                "text": "– An dieser Stelle möchte ich nachfragen, ob sich die Bundesregierung mit den Ergebnissen der Hauptversammlung von Heckler & Koch vom August letzten Jahres beschäftigt hat und wie sie es bewertet, dass der Vorstand der Firma Heckler & Koch es inzwischen offensichtlich anstrebt, sich eine neue Exportstrategie zu geben, die sehr viel restriktiver ist als die von der Bundesregierung immer als besonders restriktiv bezeichneten Exportrichtlinien der Bundesregierung."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Hans-Peter Friedrich",
-            "speakerstatus": "vice-president",
-            "text": "Herr Staatssekretär.",
-            "sentences": [
-              {
-                "text": "Herr Staatssekretär."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Dirk Wiese",
-            "speakerstatus": "speaker",
-            "text": "Sehr geehrte Frau Kollegin, die Bundesregierung nimmt keine Bewertung von Hauptversammlungen entsprechender Unternehmen vor.",
-            "sentences": [
-              {
-                "text": "Sehr geehrte Frau Kollegin, die Bundesregierung nimmt keine Bewertung von Hauptversammlungen entsprechender Unternehmen vor."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Hans-Peter Friedrich",
-            "speakerstatus": "vice-president",
-            "text": "Herr Kollege Kekeritz zu einer weiteren Zusatzfrage.",
-            "sentences": [
-              {
-                "text": "Herr Kollege Kekeritz zu einer weiteren Zusatzfrage."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Uwe Kekeritz",
-            "speakerstatus": "speaker",
-            "text": "Herr Staatssekretär, Sie haben jetzt dreimal die Frage von Katja Keul nicht beantwortet. Können Sie bitte mitteilen, welchen Teil der Frage Sie nicht verstanden haben?",
-            "sentences": [
-              {
-                "text": "Herr Staatssekretär, Sie haben jetzt dreimal die Frage von Katja Keul nicht beantwortet."
-              },
-              {
-                "text": "Können Sie bitte mitteilen, welchen Teil der Frage Sie nicht verstanden haben?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Dirk Wiese",
-            "speakerstatus": "speaker",
-            "text": "Sehr geehrter Kollege Kekeritz, die Frage der Kollegin Keul habe ich sehr wohl verstanden und auch beantwortet. Ich weise aber noch einmal darauf hin: Der Aufbau von Produktionsstätten im Ausland ist eine Unternehmensentscheidung.",
-            "sentences": [
-              {
-                "text": "Sehr geehrter Kollege Kekeritz, die Frage der Kollegin Keul habe ich sehr wohl verstanden und auch beantwortet."
-              },
-              {
-                "text": "Ich weise aber noch einmal darauf hin: Der Aufbau von Produktionsstätten im Ausland ist eine Unternehmensentscheidung."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Dirk Wiese",
-            "speakerstatus": "speaker",
-            "text": "Daraus resultierende Ausfuhren gelisteter Güter oder gelisteter Technologie aus Deutschland sind genehmigungspflichtig. Hierfür gelten die restriktiven Regeln der Rüstungsexportkontrolle. – Die Frage ist sehr wohl angekommen.",
-            "sentences": [
-              {
-                "text": "Daraus resultierende Ausfuhren gelisteter Güter oder gelisteter Technologie aus Deutschland sind genehmigungspflichtig."
-              },
-              {
-                "text": "Hierfür gelten die restriktiven Regeln der Rüstungsexportkontrolle."
-              },
-              {
-                "text": "– Die Frage ist sehr wohl angekommen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Hans-Peter Friedrich",
-            "speakerstatus": "vice-president",
-            "text": "Frau Paus hat eine weitere Zusatzfrage. Bitte schön.",
-            "sentences": [
-              {
-                "text": "Frau Paus hat eine weitere Zusatzfrage."
-              },
-              {
-                "text": "Bitte schön."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Lisa Paus",
-            "speakerstatus": "speaker",
-            "text": "Hat Heckler & Koch die Genehmigung der Ausfuhr von Gütern und Technologien, die dem Rüstungskontrollgesetz unterliegen, für die Produktionsstätte in den USA beantragt, und wurde dies von der Bundesregierung genehmigt?",
-            "sentences": [
-              {
-                "text": "Hat Heckler & Koch die Genehmigung der Ausfuhr von Gütern und Technologien, die dem Rüstungskontrollgesetz unterliegen, für die Produktionsstätte in den USA beantragt, und wurde dies von der Bundesregierung genehmigt?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Hans-Peter Friedrich",
-            "speakerstatus": "vice-president",
-            "text": "Herr Staatssekretär.",
-            "sentences": [
-              {
-                "text": "Herr Staatssekretär."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Dirk Wiese",
-            "speakerstatus": "speaker",
-            "text": "Sehr geehrte Frau Kollegin, nach jetzigem Stand – das habe ich gerade ausgeführt – ist der Aufbau der Produktionsstätte eine Unternehmensentscheidung. Zur jetzigen Frage: Die Ausfuhr gelisteter Güter und gelisteter Technologie aus Deutschland ist genehmigungspflichtig.",
-            "sentences": [
-              {
-                "text": "Sehr geehrte Frau Kollegin, nach jetzigem Stand – das habe ich gerade ausgeführt – ist der Aufbau der Produktionsstätte eine Unternehmensentscheidung."
-              },
-              {
-                "text": "Zur jetzigen Frage: Die Ausfuhr gelisteter Güter und gelisteter Technologie aus Deutschland ist genehmigungspflichtig."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Dirk Wiese",
-            "speakerstatus": "speaker",
-            "text": "Da zum bisherigen Stand dies aber nicht vorliegt, ist momentan auch keine Genehmigung vorhanden. Das habe ich in den Antworten auf die vorherigen Fragen ausgeführt.",
-            "sentences": [
-              {
-                "text": "Da zum bisherigen Stand dies aber nicht vorliegt, ist momentan auch keine Genehmigung vorhanden."
-              },
-              {
-                "text": "Das habe ich in den Antworten auf die vorherigen Fragen ausgeführt."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Hans-Peter Friedrich",
-            "speakerstatus": "vice-president",
-            "text": "Dann haben wir das jetzt auch geklärt.",
-            "sentences": [
-              {
-                "text": "Dann haben wir das jetzt auch geklärt."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Hans-Peter Friedrich",
-            "speakerstatus": "vice-president",
-            "text": "Die Frage 36 des Abgeordneten Dr. Alexander S. Neu wird schriftlich beantwortet.",
-            "sentences": [
-              {
-                "text": "Die Frage 36 des Abgeordneten Dr. Alexander S. Neu wird schriftlich beantwortet."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Hans-Peter Friedrich",
-            "speakerstatus": "vice-president",
-            "text": "Ich rufe die Frage 37 des Kollegen Dr. Thomas ­Sattelberger von der FDP-Fraktion auf:",
-            "sentences": [
-              {
-                "text": "Ich rufe die Frage 37 des Kollegen Dr. Thomas ­Sattelberger von der FDP-Fraktion auf:"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Hans-Peter Friedrich",
-            "speakerstatus": "vice-president",
-            "text": "Herr Staatssekretär.",
-            "sentences": [
-              {
-                "text": "Herr Staatssekretär."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Dirk Wiese",
-            "speakerstatus": "speaker",
-            "text": "Herr Präsident! Sehr geehrter Kollege! Bevor ich zu den inhaltlichen Punkten komme, lassen Sie mich vielleicht eines vorweg sagen: Der Sachverständigenrat hat mit den Empfehlungen in seinem Jahresgutachten 2017/2018 vor allem Handlungsempfehlungen an eine neue Bundesregierung gegeben. Die geschäftsführende Bundesregierung kann an dieser Stelle nicht den zu treffenden Entscheidungen einer neuen Bundesregierung vorgreifen.",
-            "sentences": [
-              {
-                "text": "Herr Präsident!"
-              },
-              {
-                "text": "Sehr geehrter Kollege!"
-              },
-              {
-                "text": "Bevor ich zu den inhaltlichen Punkten komme, lassen Sie mich vielleicht eines vorweg sagen: Der Sachverständigenrat hat mit den Empfehlungen in seinem Jahresgutachten 2017/2018 vor allem Handlungsempfehlungen an eine neue Bundesregierung gegeben."
-              },
-              {
-                "text": "Die geschäftsführende Bundesregierung kann an dieser Stelle nicht den zu treffenden Entscheidungen einer neuen Bundesregierung vorgreifen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Dirk Wiese",
-            "speakerstatus": "speaker",
-            "text": "Die Vorschläge des Sachverständigenrates zur Digitalisierung werden allerdings von der geschäftsführenden Bundesregierung insgesamt begrüßt. Sie sind für die Weiterentwicklung des Digitalstandorts Deutschland wichtig und entsprechen von der Stoßrichtung her den richtigen Maßnahmen.",
-            "sentences": [
-              {
-                "text": "Die Vorschläge des Sachverständigenrates zur Digitalisierung werden allerdings von der geschäftsführenden Bundesregierung insgesamt begrüßt."
-              },
-              {
-                "text": "Sie sind für die Weiterentwicklung des Digitalstandorts Deutschland wichtig und entsprechen von der Stoßrichtung her den richtigen Maßnahmen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Dirk Wiese",
-            "speakerstatus": "speaker",
-            "text": "Die Bundesregierung hat in der letzten Legislaturperiode mit der Digitalen Agenda 2014–2017 aus unserer Sicht den richtigen Weg für mehr digitale Innovation und Geschäftsmodelle eingeschlagen und vieles vorangebracht. Mit der Digitalen Agenda haben wir vor drei Jahren, glaube ich, Meilensteine in der Digitalpolitik rund um die drei Kernziele Wachstum und Beschäftigung, Zugang und Teilhabe sowie Vertrauen und Sicherheit definiert.",
-            "sentences": [
-              {
-                "text": "Die Bundesregierung hat in der letzten Legislaturperiode mit der Digitalen Agenda 2014–2017 aus unserer Sicht den richtigen Weg für mehr digitale Innovation und Geschäftsmodelle eingeschlagen und vieles vorangebracht."
-              },
-              {
-                "text": "Mit der Digitalen Agenda haben wir vor drei Jahren, glaube ich, Meilensteine in der Digitalpolitik rund um die drei Kernziele Wachstum und Beschäftigung, Zugang und Teilhabe sowie Vertrauen und Sicherheit definiert."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Dirk Wiese",
-            "speakerstatus": "speaker",
-            "text": "Der Legislaturbericht Digitale Agenda, der am 26. April 2017 vom Bundeskabinett verabschiedet wurde, zeigt, dass wir als Bundesregierung bei der Umsetzung der Maßnahmen und der Erreichung der Ziele erfolgreich waren.",
-            "sentences": [
-              {
-                "text": "Der Legislaturbericht Digitale Agenda, der am 26. April 2017 vom Bundeskabinett verabschiedet wurde, zeigt, dass wir als Bundesregierung bei der Umsetzung der Maßnahmen und der Erreichung der Ziele erfolgreich waren."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Dirk Wiese",
-            "speakerstatus": "speaker",
-            "text": "Hervorheben möchte ich aus den Handlungsfeldern an dieser Stelle etwa die Unterstützung von KMUs bei der Digitalisierung durch bundesweit mittlerweile 23 Mittelstand 4.0-Kompetenzzentren. Diese bieten gerade KMUs Digitalisierung zum Anfassen und fördern digitale Innovation.",
-            "sentences": [
-              {
-                "text": "Hervorheben möchte ich aus den Handlungsfeldern an dieser Stelle etwa die Unterstützung von KMUs bei der Digitalisierung durch bundesweit mittlerweile 23 Mittelstand 4.0-Kompetenzzentren."
-              },
-              {
-                "text": "Diese bieten gerade KMUs Digitalisierung zum Anfassen und fördern digitale Innovation."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Dirk Wiese",
-            "speakerstatus": "speaker",
-            "text": "Gleichzeitig haben wir mit der Plattform Industrie 4.0 die deutsche Wirtschaft bei der Transformation unterstützt, sodass deutsche Unternehmen international weiterhin zu den Vor- und Spitzenreitern im Bereich indus­trieller Anwendung, Industrie 4.0 und Internet of Things gehören.",
-            "sentences": [
-              {
-                "text": "Gleichzeitig haben wir mit der Plattform Industrie 4.0 die deutsche Wirtschaft bei der Transformation unterstützt, sodass deutsche Unternehmen international weiterhin zu den Vor- und Spitzenreitern im Bereich indus­trieller Anwendung, Industrie 4.0 und Internet of Things gehören."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Dirk Wiese",
-            "speakerstatus": "speaker",
-            "text": "Wichtig ist ebenfalls, hervorzuheben, dass erste Umsetzungsschritte unter anderem auch mit dem Weißbuch „Digitale Plattformen“ bereits begonnen wurden. Hierzu zählt unter anderem eine Initiative zu Reallaboren als regulatorische Experimentierräume. Diese sollen für ein breites Spektrum digitaler Informationsfelder etabliert werden. So können bestehende oder neue regulatorische Instrumente zeitlich und räumlich begrenzt unter realen Bedingungen erprobt werden.",
-            "sentences": [
-              {
-                "text": "Wichtig ist ebenfalls, hervorzuheben, dass erste Umsetzungsschritte unter anderem auch mit dem Weißbuch „Digitale Plattformen“ bereits begonnen wurden."
-              },
-              {
-                "text": "Hierzu zählt unter anderem eine Initiative zu Reallaboren als regulatorische Experimentierräume."
-              },
-              {
-                "text": "Diese sollen für ein breites Spektrum digitaler Informationsfelder etabliert werden."
-              },
-              {
-                "text": "So können bestehende oder neue regulatorische Instrumente zeitlich und räumlich begrenzt unter realen Bedingungen erprobt werden."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Hans-Peter Friedrich",
-            "speakerstatus": "vice-president",
-            "text": "Herr Kollege Sattelberger, Sie haben das Wort zu einer ersten Zusatzfrage.",
-            "sentences": [
-              {
-                "text": "Herr Kollege Sattelberger, Sie haben das Wort zu einer ersten Zusatzfrage."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Sattelberger",
-            "speakerstatus": "speaker",
-            "text": "Danke, Herr Präsident. – Herr Staatssekretär, im Saarbrücker Manifest zum IT-Gipfel 2016 haben die IT-Koryphäen aus Wissenschaft und Wirtschaft zwei Punkte festgestellt:",
-            "sentences": [
-              {
-                "text": "Danke, Herr Präsident."
-              },
-              {
-                "text": "– Herr Staatssekretär, im Saarbrücker Manifest zum IT-Gipfel 2016 haben die IT-Koryphäen aus Wissenschaft und Wirtschaft zwei Punkte festgestellt:"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Sattelberger",
-            "speakerstatus": "speaker",
-            "text": "Erstens. Deutschland hat die erste Digitalisierungswelle überwiegend verschlafen, und Asien und die USA sind als Gewinner hervorgegangen.",
-            "sentences": [
-              {
-                "text": "Erstens."
-              },
-              {
-                "text": "Deutschland hat die erste Digitalisierungswelle überwiegend verschlafen, und Asien und die USA sind als Gewinner hervorgegangen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Sattelberger",
-            "speakerstatus": "speaker",
-            "text": "Zweitens. Das Saarbrücker Manifest fordert „einen echten Niveausprung“ zur Weltgeltung durch ein europäisches Programm wie bei Airbus oder CERN. Welche Konsequenzen hat die Bundesregierung aus dieser drastischen Diagnose gezogen?",
-            "sentences": [
-              {
-                "text": "Zweitens."
-              },
-              {
-                "text": "Das Saarbrücker Manifest fordert „einen echten Niveausprung“ zur Weltgeltung durch ein europäisches Programm wie bei Airbus oder CERN."
-              },
-              {
-                "text": "Welche Konsequenzen hat die Bundesregierung aus dieser drastischen Diagnose gezogen?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Hans-Peter Friedrich",
-            "speakerstatus": "vice-president",
-            "text": "Herr Staatssekretär.",
-            "sentences": [
-              {
-                "text": "Herr Staatssekretär."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Dirk Wiese",
-            "speakerstatus": "speaker",
-            "text": "Sehr geehrter Herr Kollege Sattelberger, ich möchte Ihnen darauf gerne antworten, dass laut dem Monitoring-Report Wirtschaft Digital 2017 die Innovatorenquote der IKT-Branche, das heißt der Anteil der Unternehmen, die Produkt- oder Prozessinnovationen eingeführt haben, 2016 bei 58 Prozent mit Innovationsausgaben von 17,2 Milliarden Euro lag. Im Branchenvergleich – um hier auch die Digitalisierungsbranche in den Blick zu nehmen – liegt die IKT-Branche mit 8,3 Prozent auf dem zweiten Platz hinter dem Fahrzeugbau mit 9,9 Prozent. In diesem Sinne, glaube ich, ist mit diesen Schritten vieles vorangegangen, und es kommt natürlich immer darauf an, welche Studien man sich anschaut.",
-            "sentences": [
-              {
-                "text": "Sehr geehrter Herr Kollege Sattelberger, ich möchte Ihnen darauf gerne antworten, dass laut dem Monitoring-Report Wirtschaft Digital 2017 die Innovatorenquote der IKT-Branche, das heißt der Anteil der Unternehmen, die Produkt- oder Prozessinnovationen eingeführt haben, 2016 bei 58 Prozent mit Innovationsausgaben von 17,2 Milliarden Euro lag."
-              },
-              {
-                "text": "Im Branchenvergleich – um hier auch die Digitalisierungsbranche in den Blick zu nehmen – liegt die IKT-Branche mit 8,3 Prozent auf dem zweiten Platz hinter dem Fahrzeugbau mit 9,9 Prozent."
-              },
-              {
-                "text": "In diesem Sinne, glaube ich, ist mit diesen Schritten vieles vorangegangen, und es kommt natürlich immer darauf an, welche Studien man sich anschaut."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Hans-Peter Friedrich",
-            "speakerstatus": "vice-president",
-            "text": "Herr Kollege, zweite Zusatzfrage.",
-            "sentences": [
-              {
-                "text": "Herr Kollege, zweite Zusatzfrage."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Sattelberger",
-            "speakerstatus": "speaker",
-            "text": "Nachdem Sie auf die Forderung nach einem europäischen Programm im digitalen Bereich im Sinne einer Zusammenarbeit wie bei CERN oder Airbus nicht eingegangen sind, möchte ich darauf hinweisen, dass im neuen Koalitionsvertrag zum ersten Mal der Begriff „Sprunginnovation“ genannt wird. Ich gehe nicht davon aus, dass dieser Begriff für die Koalitionäre neu war, sondern die Angehörigen der geschäftsführenden Regierung und der alten Großen Koalition den Begriff der Sprunginnovation schon kannten. Es geht um so etwas wie das erste Elektro­auto von Tesla, das iPhone oder die Genom-Editierung in der Zukunft. Leider finden diese Sprunginnovationen ausschließlich in den USA und in Israel statt.",
-            "sentences": [
-              {
-                "text": "Nachdem Sie auf die Forderung nach einem europäischen Programm im digitalen Bereich im Sinne einer Zusammenarbeit wie bei CERN oder Airbus nicht eingegangen sind, möchte ich darauf hinweisen, dass im neuen Koalitionsvertrag zum ersten Mal der Begriff „Sprunginnovation“ genannt wird."
-              },
-              {
-                "text": "Ich gehe nicht davon aus, dass dieser Begriff für die Koalitionäre neu war, sondern die Angehörigen der geschäftsführenden Regierung und der alten Großen Koalition den Begriff der Sprunginnovation schon kannten."
-              },
-              {
-                "text": "Es geht um so etwas wie das erste Elektro­auto von Tesla, das iPhone oder die Genom-Editierung in der Zukunft."
-              },
-              {
-                "text": "Leider finden diese Sprunginnovationen ausschließlich in den USA und in Israel statt."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Sattelberger",
-            "speakerstatus": "speaker",
-            "text": "Was hat die Bundesregierung in den letzten vier Jahren unternommen, um Sprunginnovationen zu fördern?",
-            "sentences": [
-              {
-                "text": "Was hat die Bundesregierung in den letzten vier Jahren unternommen, um Sprunginnovationen zu fördern?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Hans-Peter Friedrich",
-            "speakerstatus": "vice-president",
-            "text": "Herr Staatssekretär.",
-            "sentences": [
-              {
-                "text": "Herr Staatssekretär."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Dirk Wiese",
-            "speakerstatus": "speaker",
-            "text": "Sehr geehrter Herr Kollege, ich hatte vorhin die Digitale Agenda 2014–2017 angesprochen, die von der vorangegangenen Bundesregierung auf den Weg gebracht worden ist, ebenso die Innovationsagenda, die gleichfalls auf den Weg gebracht worden ist. Sehen Sie es mir bitte nach, wenn ich zum ersten Teil Ihrer Frage Folgendes sage: Der Koalitionsvertrag ist eine Vereinbarung zwischen drei Parteien, die wir als geschäftsführende Bundesregierung an dieser Stelle nicht kommentieren können.",
-            "sentences": [
-              {
-                "text": "Sehr geehrter Herr Kollege, ich hatte vorhin die Digitale Agenda 2014–2017 angesprochen, die von der vorangegangenen Bundesregierung auf den Weg gebracht worden ist, ebenso die Innovationsagenda, die gleichfalls auf den Weg gebracht worden ist."
-              },
-              {
-                "text": "Sehen Sie es mir bitte nach, wenn ich zum ersten Teil Ihrer Frage Folgendes sage: Der Koalitionsvertrag ist eine Vereinbarung zwischen drei Parteien, die wir als geschäftsführende Bundesregierung an dieser Stelle nicht kommentieren können."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Guten Tag! Wir haben den Vorsitz gewechselt. – Die nächste Frage stellt der Kollege Aggelidis von der FDP-Fraktion. – Bitte.",
-            "sentences": [
-              {
-                "text": "Guten Tag!"
-              },
-              {
-                "text": "Wir haben den Vorsitz gewechselt."
-              },
-              {
-                "text": "– Die nächste Frage stellt der Kollege Aggelidis von der FDP-Fraktion."
-              },
-              {
-                "text": "– Bitte."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Grigorios Aggelidis",
-            "speakerstatus": "speaker",
-            "text": "Vielen Dank, Frau Präsidentin. – Sehr geehrter Herr Staatssekretär, ich möchte auf das Ergebnis der Konferenz in 2016 zurückkommen. Sie haben zwar ausgeführt, was die Wirtschaft gemacht hat – so sage ich das einmal – bzw. wodurch Dynamik in die Wirtschaft gekommen ist. Mich würde aber interessieren: Welche konkreten Maßnahmen hat nach 2016 die Bundesregierung ergriffen, um in Sachen Dynamik deutlich voranzukommen?",
-            "sentences": [
-              {
-                "text": "Vielen Dank, Frau Präsidentin."
-              },
-              {
-                "text": "– Sehr geehrter Herr Staatssekretär, ich möchte auf das Ergebnis der Konferenz in 2016 zurückkommen."
-              },
-              {
-                "text": "Sie haben zwar ausgeführt, was die Wirtschaft gemacht hat – so sage ich das einmal – bzw. wodurch Dynamik in die Wirtschaft gekommen ist."
-              },
-              {
-                "text": "Mich würde aber interessieren: Welche konkreten Maßnahmen hat nach 2016 die Bundesregierung ergriffen, um in Sachen Dynamik deutlich voranzukommen?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Dirk Wiese",
-            "speakerstatus": "speaker",
-            "text": "Sehr geehrter Herr Kollege, darauf komme ich gerne zu sprechen. Zum einen ist in diesem Zusammenhang die Fortsetzung und Ausweitung des bundesweiten Programms zur Gründung von Mittelstand 4.0-Kompetenzzentren zu nennen. Mittlerweile gibt es 23 Mittelstandskompetenzzentren. Die letzte Eröffnung fand vor kurzem in Siegen statt. Zum anderen kann ich die sogenannte Digital Hub Initiative nennen, die mittlerweile an zwölf Standorten in der Bundesrepublik Deutschland ihre Arbeit aufgenommen hat. Sie ist, glaube ich, eine sehr wichtige Schnittstelle, wenn es um Digitalisierung und Innovationen geht, und zwar gerade für die Zusammenarbeit mit den KMUs.",
-            "sentences": [
-              {
-                "text": "Sehr geehrter Herr Kollege, darauf komme ich gerne zu sprechen."
-              },
-              {
-                "text": "Zum einen ist in diesem Zusammenhang die Fortsetzung und Ausweitung des bundesweiten Programms zur Gründung von Mittelstand 4.0-Kompetenzzentren zu nennen."
-              },
-              {
-                "text": "Mittlerweile gibt es 23 Mittelstandskompetenzzentren."
-              },
-              {
-                "text": "Die letzte Eröffnung fand vor kurzem in Siegen statt."
-              },
-              {
-                "text": "Zum anderen kann ich die sogenannte Digital Hub Initiative nennen, die mittlerweile an zwölf Standorten in der Bundesrepublik Deutschland ihre Arbeit aufgenommen hat."
-              },
-              {
-                "text": "Sie ist, glaube ich, eine sehr wichtige Schnittstelle, wenn es um Digitalisierung und Innovationen geht, und zwar gerade für die Zusammenarbeit mit den KMUs."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Danke. – Die Fragen 38 und 39 der Abgeordneten Ingrid Nestle sollen schriftlich beantwortet werden.",
-            "sentences": [
-              {
-                "text": "Danke."
-              },
-              {
-                "text": "– Die Fragen 38 und 39 der Abgeordneten Ingrid Nestle sollen schriftlich beantwortet werden."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Ich rufe die Frage 40 der Abgeordneten Katharina Dröge auf:",
-            "sentences": [
-              {
-                "text": "Ich rufe die Frage 40 der Abgeordneten Katharina Dröge auf:"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Bitte, Herr Staatssekretär.",
-            "sentences": [
-              {
-                "text": "Bitte, Herr Staatssekretär."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Dirk Wiese",
-            "speakerstatus": "speaker",
-            "text": "Sehr geehrte Frau Präsidentin! Sehr geehrte Frau Kollegin, die Verhandlungen zu einem Abkommen zwischen der EU und dem Mercosur dauern noch an. Daher möchte ich zuerst den ersten Teil Ihrer Frage beantworten.",
-            "sentences": [
-              {
-                "text": "Sehr geehrte Frau Präsidentin!"
-              },
-              {
-                "text": "Sehr geehrte Frau Kollegin, die Verhandlungen zu einem Abkommen zwischen der EU und dem Mercosur dauern noch an."
-              },
-              {
-                "text": "Daher möchte ich zuerst den ersten Teil Ihrer Frage beantworten."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Dirk Wiese",
-            "speakerstatus": "speaker",
-            "text": "Das Vorsorgeprinzip ist im EU-Primärrecht verankert. Es kann von völkerrechtlichen Verträgen, wie zum Beispiel von Freihandelsabkommen, nicht außer Kraft gesetzt werden. Durch das EU-Mercosur-Abkommen soll das „Right to Regulate“ der Parteien mit Blick auf Politikziele wie Gesundheit, Sicherheit und Umwelt beibehalten werden. Das Vorsorgeprinzip wird darüber hinaus durch Artikel XX GATT geschützt, welcher in den allgemeinen Ausnahmen des Abkommens mit Mercosur verankert werden soll.",
-            "sentences": [
-              {
-                "text": "Das Vorsorgeprinzip ist im EU-Primärrecht verankert."
-              },
-              {
-                "text": "Es kann von völkerrechtlichen Verträgen, wie zum Beispiel von Freihandelsabkommen, nicht außer Kraft gesetzt werden."
-              },
-              {
-                "text": "Durch das EU-Mercosur-Abkommen soll das „Right to Regulate“ der Parteien mit Blick auf Politikziele wie Gesundheit, Sicherheit und Umwelt beibehalten werden."
-              },
-              {
-                "text": "Das Vorsorgeprinzip wird darüber hinaus durch Artikel XX GATT geschützt, welcher in den allgemeinen Ausnahmen des Abkommens mit Mercosur verankert werden soll."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Dirk Wiese",
-            "speakerstatus": "speaker",
-            "text": "Darüber hinaus unterstützt die Bundesregierung die Europäische Kommission dabei, das Vorsorgeprinzip speziell mit Blick auf Arbeit und Umwelt im Nachhaltigkeitskapitel zu verankern. Der Abkommenstext wird nach Abschluss der Verhandlungen keine Verpflichtungen enthalten, die dazu führen, dass Vorschriften der EU, zum Beispiel in den Bereichen der Produkt- und Lebensmittelsicherheit, geändert werden müssen oder auf Produkte aus den Mercosur-Staaten nicht angewandt werden dürfen. Ebenso wenig steht das Abkommen der Einführung zusätzlicher Anforderungen in diesen Bereichen entgegen. Das Vorsorgeprinzip wird somit im Abkommen durchgängig gewahrt werden.",
-            "sentences": [
-              {
-                "text": "Darüber hinaus unterstützt die Bundesregierung die Europäische Kommission dabei, das Vorsorgeprinzip speziell mit Blick auf Arbeit und Umwelt im Nachhaltigkeitskapitel zu verankern."
-              },
-              {
-                "text": "Der Abkommenstext wird nach Abschluss der Verhandlungen keine Verpflichtungen enthalten, die dazu führen, dass Vorschriften der EU, zum Beispiel in den Bereichen der Produkt- und Lebensmittelsicherheit, geändert werden müssen oder auf Produkte aus den Mercosur-Staaten nicht angewandt werden dürfen."
-              },
-              {
-                "text": "Ebenso wenig steht das Abkommen der Einführung zusätzlicher Anforderungen in diesen Bereichen entgegen."
-              },
-              {
-                "text": "Das Vorsorgeprinzip wird somit im Abkommen durchgängig gewahrt werden."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Dirk Wiese",
-            "speakerstatus": "speaker",
-            "text": "Zum zweiten Teil der Frage: Die Bundesregierung sieht keinen Anlass zu der Annahme, dass das Abkommen die Abholzung des tropischen Regenwaldes oder Landvertreibung verstärkt. In den laufenden Verhandlungen strebt die EU ein ehrgeiziges Nachhaltigkeitskapitel an. Darin werden sich die Parteien auf die effektive Umsetzung zahlreicher multilateraler Umwelt- und Klimaabkommen, zum Beispiel des Pariser Abkommens zum Klimaschutz, verpflichten. Darüber hinaus soll das Abkommen explizite Regelungen zu „Handel und nachhaltiger Forstwirtschaft“ sowie zu „Handel und Biodiversität“ enthalten. Vorgesehen ist unter anderem die Zusammenarbeit in bilateralen, regionalen und internationalen Foren mit Blick auf Handel, Schutz der Walddecke und Förderung von nachhaltiger Forstwirtschaft im Einklang mit der 2030-Agenda für Nachhaltige Entwicklung; das möchte ich unterstreichen. Die Zivilgesellschaft wird beim Monitoring der Umsetzung dieser Vereinbarungen selbstverständlich eng eingebunden werden.",
-            "sentences": [
-              {
-                "text": "Zum zweiten Teil der Frage: Die Bundesregierung sieht keinen Anlass zu der Annahme, dass das Abkommen die Abholzung des tropischen Regenwaldes oder Landvertreibung verstärkt."
-              },
-              {
-                "text": "In den laufenden Verhandlungen strebt die EU ein ehrgeiziges Nachhaltigkeitskapitel an."
-              },
-              {
-                "text": "Darin werden sich die Parteien auf die effektive Umsetzung zahlreicher multilateraler Umwelt- und Klimaabkommen, zum Beispiel des Pariser Abkommens zum Klimaschutz, verpflichten."
-              },
-              {
-                "text": "Darüber hinaus soll das Abkommen explizite Regelungen zu „Handel und nachhaltiger Forstwirtschaft“ sowie zu „Handel und Biodiversität“ enthalten."
-              },
-              {
-                "text": "Vorgesehen ist unter anderem die Zusammenarbeit in bilateralen, regionalen und internationalen Foren mit Blick auf Handel, Schutz der Walddecke und Förderung von nachhaltiger Forstwirtschaft im Einklang mit der 2030-Agenda für Nachhaltige Entwicklung; das möchte ich unterstreichen."
-              },
-              {
-                "text": "Die Zivilgesellschaft wird beim Monitoring der Umsetzung dieser Vereinbarungen selbstverständlich eng eingebunden werden."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Sie haben das Wort zur ersten Nachfrage.",
-            "sentences": [
-              {
-                "text": "Sie haben das Wort zur ersten Nachfrage."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Katharina Dröge",
-            "speakerstatus": "speaker",
-            "text": "Vielen Dank. – Ich möchte ganz konkret zu der Position der Bundesregierung in der Frage des Patentrechts für Medikamente nachfragen. Es gab Medienberichte darüber, dass sich die Europäische Union für eine Verschärfung des Patentrechts hinsichtlich der Mercosur-Staaten einsetzt und dies zu einer Gefährdung der öffentlichen Gesundheitsversorgung insbesondere bedürftiger Menschen führen könnte, vor allem mit Blick auf Generika. Es gibt eine Studie eines Forschungsinstituts in Brasilien, die besagt, dass beispielsweise die Behandlung von HIV und Hepatitis C zu jährlichen Mehrkosten von mindestens 520 Millionen Euro führen könnte. Wie positioniert sich die Bundesregierung zu der europäischen Forderung, die Patentrechte bei Medikamenten mit Blick auf die Mercosur-Staaten zu verschärfen?",
-            "sentences": [
-              {
-                "text": "Vielen Dank."
-              },
-              {
-                "text": "– Ich möchte ganz konkret zu der Position der Bundesregierung in der Frage des Patentrechts für Medikamente nachfragen."
-              },
-              {
-                "text": "Es gab Medienberichte darüber, dass sich die Europäische Union für eine Verschärfung des Patentrechts hinsichtlich der Mercosur-Staaten einsetzt und dies zu einer Gefährdung der öffentlichen Gesundheitsversorgung insbesondere bedürftiger Menschen führen könnte, vor allem mit Blick auf Generika."
-              },
-              {
-                "text": "Es gibt eine Studie eines Forschungsinstituts in Brasilien, die besagt, dass beispielsweise die Behandlung von HIV und Hepatitis C zu jährlichen Mehrkosten von mindestens 520 Millionen Euro führen könnte."
-              },
-              {
-                "text": "Wie positioniert sich die Bundesregierung zu der europäischen Forderung, die Patentrechte bei Medikamenten mit Blick auf die Mercosur-Staaten zu verschärfen?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Dirk Wiese",
-            "speakerstatus": "speaker",
-            "text": "Sehr geehrte Frau Präsidentin! Vielen Dank für die Nachfrage. – Mir ist der entsprechende Bericht an dieser Stelle nicht bekannt. Ich werde Ihnen die Informationen nach der Fragestunde schriftlich nachreichen.",
-            "sentences": [
-              {
-                "text": "Sehr geehrte Frau Präsidentin!"
-              },
-              {
-                "text": "Vielen Dank für die Nachfrage."
-              },
-              {
-                "text": "– Mir ist der entsprechende Bericht an dieser Stelle nicht bekannt."
-              },
-              {
-                "text": "Ich werde Ihnen die Informationen nach der Fragestunde schriftlich nachreichen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Gut. – Dann haben Sie das Wort zur zweiten Nachfrage.",
-            "sentences": [
-              {
-                "text": "Gut."
-              },
-              {
-                "text": "– Dann haben Sie das Wort zur zweiten Nachfrage."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Katharina Dröge",
-            "speakerstatus": "speaker",
-            "text": "Vielen Dank, das freut mich. – Die zweite Frage betrifft die Auswirkungen auf den Landwirtschaftssektor. Es geht um hohe Exportquoten für Rindfleisch. Welche Auswirkungen auf die europäische, insbesondere aber auf die deutsche Landwirtschaft erwartet die Bundesregierung durch das Mercosur-Abkommen? Wie kann man verhindern, dass dieses Handelsabkommen negative Auswirkungen insbesondere auf die kleinbäuerliche Struktur in den Mercosur-Staaten haben wird?",
-            "sentences": [
-              {
-                "text": "Vielen Dank, das freut mich."
-              },
-              {
-                "text": "– Die zweite Frage betrifft die Auswirkungen auf den Landwirtschaftssektor."
-              },
-              {
-                "text": "Es geht um hohe Exportquoten für Rindfleisch."
-              },
-              {
-                "text": "Welche Auswirkungen auf die europäische, insbesondere aber auf die deutsche Landwirtschaft erwartet die Bundesregierung durch das Mercosur-Abkommen?"
-              },
-              {
-                "text": "Wie kann man verhindern, dass dieses Handelsabkommen negative Auswirkungen insbesondere auf die kleinbäuerliche Struktur in den Mercosur-Staaten haben wird?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Dirk Wiese",
-            "speakerstatus": "speaker",
-            "text": "Sehr geehrte Frau Kollegin, wie Sie wissen, ist der Agrarbereich in Freihandelsabkommen immer ein sensibles Thema, da es hier von europäischer Seite sowohl defensive als auch offensive Interessen gibt. Es ist aber aus meiner Sicht in diesem Abkommen sichergestellt, dass die entsprechenden Sorgen und Nöte letztendlich auch angegangen werden. Dazu gehört an dieser Stelle unter anderem auch das EU-Nachhaltigkeitskapitel. Von daher glaube ich, dass diesen wichtigen Punkten von europäischer Seite Rechnung getragen worden ist und in den noch anstehenden Verhandlungen weiterhin Rechnung getragen wird.",
-            "sentences": [
-              {
-                "text": "Sehr geehrte Frau Kollegin, wie Sie wissen, ist der Agrarbereich in Freihandelsabkommen immer ein sensibles Thema, da es hier von europäischer Seite sowohl defensive als auch offensive Interessen gibt."
-              },
-              {
-                "text": "Es ist aber aus meiner Sicht in diesem Abkommen sichergestellt, dass die entsprechenden Sorgen und Nöte letztendlich auch angegangen werden."
-              },
-              {
-                "text": "Dazu gehört an dieser Stelle unter anderem auch das EU-Nachhaltigkeitskapitel."
-              },
-              {
-                "text": "Von daher glaube ich, dass diesen wichtigen Punkten von europäischer Seite Rechnung getragen worden ist und in den noch anstehenden Verhandlungen weiterhin Rechnung getragen wird."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Wir kommen damit zur Frage 41 der Kollegin Katharina Dröge:",
-            "sentences": [
-              {
-                "text": "Wir kommen damit zur Frage 41 der Kollegin Katharina Dröge:"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Bitte, Herr Staatssekretär.",
-            "sentences": [
-              {
-                "text": "Bitte, Herr Staatssekretär."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Dirk Wiese",
-            "speakerstatus": "speaker",
-            "text": "Sehr geehrte Frau Präsidentin! Liebe Frau Kollegin, die Verhandlungen zur Modernisierung des EU-Mexiko-Globalabkommens dauern noch an. Die Bundesregierung hat sich im Rat der Europäischen Union dafür eingesetzt, dass in das modernisierte Globalabkommen Regelungen aufgenommen werden, nach denen Investor-Staat-Streitigkeiten zukünftig durch ein öffentlich legitimiertes Investitionsgericht beigelegt werden.",
-            "sentences": [
-              {
-                "text": "Sehr geehrte Frau Präsidentin!"
-              },
-              {
-                "text": "Liebe Frau Kollegin, die Verhandlungen zur Modernisierung des EU-Mexiko-Globalabkommens dauern noch an."
-              },
-              {
-                "text": "Die Bundesregierung hat sich im Rat der Europäischen Union dafür eingesetzt, dass in das modernisierte Globalabkommen Regelungen aufgenommen werden, nach denen Investor-Staat-Streitigkeiten zukünftig durch ein öffentlich legitimiertes Investitionsgericht beigelegt werden."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Dirk Wiese",
-            "speakerstatus": "speaker",
-            "text": "Die Bundesregierung weist darauf hin, dass im aktuellen Entwurf eines modernisierten EU-Mexiko-Globalabkommens die Unterstützung der Verbreitung und Nutzung der OECD-Leitsätze für multinationale Unternehmen vorgesehen ist. Dies wird von Deutschland nachdrücklich befürwortet. Die OECD-Leitsätze sind eines der wichtigsten internationalen Instrumente zur Förderung verantwortungsbewusster Unternehmensführung. Sie beinhalten unter anderem Kapital zu Menschenrechts- und Umweltfragen. Im Falle etwaiger Verstöße hiergegen durch multinationale Unternehmen können Betroffene Beschwerden bei den jeweils zuständigen nationalen Kontaktstellen einreichen.",
-            "sentences": [
-              {
-                "text": "Die Bundesregierung weist darauf hin, dass im aktuellen Entwurf eines modernisierten EU-Mexiko-Globalabkommens die Unterstützung der Verbreitung und Nutzung der OECD-Leitsätze für multinationale Unternehmen vorgesehen ist."
-              },
-              {
-                "text": "Dies wird von Deutschland nachdrücklich befürwortet."
-              },
-              {
-                "text": "Die OECD-Leitsätze sind eines der wichtigsten internationalen Instrumente zur Förderung verantwortungsbewusster Unternehmensführung."
-              },
-              {
-                "text": "Sie beinhalten unter anderem Kapital zu Menschenrechts- und Umweltfragen."
-              },
-              {
-                "text": "Im Falle etwaiger Verstöße hiergegen durch multinationale Unternehmen können Betroffene Beschwerden bei den jeweils zuständigen nationalen Kontaktstellen einreichen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Sie haben das Wort zur ersten Nachfrage.",
-            "sentences": [
-              {
-                "text": "Sie haben das Wort zur ersten Nachfrage."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Katharina Dröge",
-            "speakerstatus": "speaker",
-            "text": "Herr Wiese, jetzt zu einer Frage, über die wir heute Morgen schon im Ausschuss miteinander diskutiert und die Sie nicht befriedigend beantwortet haben. Wir haben heute Morgen über das Freihandelsabkommen mit Australien und Neuseeland diskutiert; hier sind in den Mandaten keine Schiedsgerichte vorgesehen. Diesen Freitag werden wir über das EU-Kanada-Abkommen sprechen, in dem Schiedsgerichte enthalten sind. Sie haben hier in den letzten Jahren immer die Auffassung vertreten, man brauche Schiedsgerichte in Freihandelsabkommen. Jetzt gehen Sie als Europäische Union den Weg, keine Schiedsgerichte in Freihandelsabkommen aufzunehmen. Meine Frage ist: Wie erklären Sie dieses Mit-zweierlei-Maß-Messen bei Kanada auf der einen Seite und bei Australien und Neuseeland auf der anderen Seite?",
-            "sentences": [
-              {
-                "text": "Herr Wiese, jetzt zu einer Frage, über die wir heute Morgen schon im Ausschuss miteinander diskutiert und die Sie nicht befriedigend beantwortet haben."
-              },
-              {
-                "text": "Wir haben heute Morgen über das Freihandelsabkommen mit Australien und Neuseeland diskutiert; hier sind in den Mandaten keine Schiedsgerichte vorgesehen."
-              },
-              {
-                "text": "Diesen Freitag werden wir über das EU-Kanada-Abkommen sprechen, in dem Schiedsgerichte enthalten sind."
-              },
-              {
-                "text": "Sie haben hier in den letzten Jahren immer die Auffassung vertreten, man brauche Schiedsgerichte in Freihandelsabkommen."
-              },
-              {
-                "text": "Jetzt gehen Sie als Europäische Union den Weg, keine Schiedsgerichte in Freihandelsabkommen aufzunehmen."
-              },
-              {
-                "text": "Meine Frage ist: Wie erklären Sie dieses Mit-zweierlei-Maß-Messen bei Kanada auf der einen Seite und bei Australien und Neuseeland auf der anderen Seite?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Bitte, Herr Staatssekretär.",
-            "sentences": [
-              {
-                "text": "Bitte, Herr Staatssekretär."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Dirk Wiese",
-            "speakerstatus": "speaker",
-            "text": "Sehr geehrte Frau Kollegin, erst einmal möchte ich deutlich machen, dass es sich nicht um die alten privaten Schiedsgerichte handelt,",
-            "sentences": [
-              {
-                "text": "Sehr geehrte Frau Kollegin, erst einmal möchte ich deutlich machen, dass es sich nicht um die alten privaten Schiedsgerichte handelt,"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Dirk Wiese",
-            "speakerstatus": "speaker",
-            "text": "wie es von Ihnen gerade ein bisschen suggeriert worden ist.",
-            "sentences": [
-              {
-                "text": "wie es von Ihnen gerade ein bisschen suggeriert worden ist."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Dirk Wiese",
-            "speakerstatus": "speaker",
-            "text": "Vielmehr geht es um Investor-Staat-Streitigkeiten, die zukünftig durch ein öffentlich legitimiertes Investitionsgericht beigelegt werden sollen. Das ist der Inhalt, der geplant und angedacht ist und der, was das EU-Mexiko-Globalabkommen angeht, aktuell in Verhandlungen steckt.",
-            "sentences": [
-              {
-                "text": "Vielmehr geht es um Investor-Staat-Streitigkeiten, die zukünftig durch ein öffentlich legitimiertes Investitionsgericht beigelegt werden sollen."
-              },
-              {
-                "text": "Das ist der Inhalt, der geplant und angedacht ist und der, was das EU-Mexiko-Globalabkommen angeht, aktuell in Verhandlungen steckt."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Dirk Wiese",
-            "speakerstatus": "speaker",
-            "text": "Ja, es ist richtig – ich hatte Ihnen diese Frage bereits heute Morgen im Wirtschaftsausschuss beantwortet –, dass in dem angedachten Abkommen mit Australien und Neuseeland bzw. in dem entsprechenden Verhandlungsmandat – derzeit wird zwischen den Regierungen über das Verhandlungsmandat gesprochen; dieses Abkommen werden wir sicherlich auch hier im Deutschen Bundestag noch ausführlich debattieren – keine Investor-Staat-Schiedsstreitigkeiten vorgesehen sind; das ist der aktuelle Stand heute.",
-            "sentences": [
-              {
-                "text": "Ja, es ist richtig – ich hatte Ihnen diese Frage bereits heute Morgen im Wirtschaftsausschuss beantwortet –, dass in dem angedachten Abkommen mit Australien und Neuseeland bzw. in dem entsprechenden Verhandlungsmandat – derzeit wird zwischen den Regierungen über das Verhandlungsmandat gesprochen; dieses Abkommen werden wir sicherlich auch hier im Deutschen Bundestag noch ausführlich debattieren – keine Investor-Staat-Schiedsstreitigkeiten vorgesehen sind; das ist der aktuelle Stand heute."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Damit haben Sie das Wort zur zweiten Nachfrage.",
-            "sentences": [
-              {
-                "text": "Damit haben Sie das Wort zur zweiten Nachfrage."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Katharina Dröge",
-            "speakerstatus": "speaker",
-            "text": "Interessant, dass die Bundesregierung an dieser Stelle mit zweierlei Maß misst. – Ich würde gerne eine zweite Frage zum EU-Mexiko-Abkommen stellen. Das Thema Geldwäsche ist aus meiner Sicht mit Blick auf Mexiko sehr relevant. Ein Kollege hat im Europaparlament nachgefragt, inwieweit dieses Problem im Rahmen des EU-Mexiko-Abkommens angegangen wird. Er hat die Antwort bekommen, es sei nicht die Aufgabe, dieses Problem im Rahmen von Freihandelsabkommen zu lösen. Ich finde das interessant, weil im Rahmen von Freihandelsabkommen gerade über die Deregulierung von Finanzdienstleistungen und Finanzflüssen verhandelt wird. Wäre es nicht auch aus Ihrer Sicht die Aufgabe einer guten Freihandelspolitik, auch die Bekämpfung von Geldwäsche zum Gegenstand von Freihandelsabkommen zu machen?",
-            "sentences": [
-              {
-                "text": "Interessant, dass die Bundesregierung an dieser Stelle mit zweierlei Maß misst."
-              },
-              {
-                "text": "– Ich würde gerne eine zweite Frage zum EU-Mexiko-Abkommen stellen."
-              },
-              {
-                "text": "Das Thema Geldwäsche ist aus meiner Sicht mit Blick auf Mexiko sehr relevant."
-              },
-              {
-                "text": "Ein Kollege hat im Europaparlament nachgefragt, inwieweit dieses Problem im Rahmen des EU-Mexiko-Abkommens angegangen wird."
-              },
-              {
-                "text": "Er hat die Antwort bekommen, es sei nicht die Aufgabe, dieses Problem im Rahmen von Freihandelsabkommen zu lösen."
-              },
-              {
-                "text": "Ich finde das interessant, weil im Rahmen von Freihandelsabkommen gerade über die Deregulierung von Finanzdienstleistungen und Finanzflüssen verhandelt wird."
-              },
-              {
-                "text": "Wäre es nicht auch aus Ihrer Sicht die Aufgabe einer guten Freihandelspolitik, auch die Bekämpfung von Geldwäsche zum Gegenstand von Freihandelsabkommen zu machen?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Bitte, Herr Staatssekretär.",
-            "sentences": [
-              {
-                "text": "Bitte, Herr Staatssekretär."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Dirk Wiese",
-            "speakerstatus": "speaker",
-            "text": "Sehr geehrte Frau Kollegin, vielen Dank für die Nachfrage. – Ich hatte vorhin ausgeführt, dass die sogenannten OECD-Leitsätze für multinationale Unternehmen in dem geplanten EU-Globalabkommen mit Mexiko Widerhall finden. Diese behandeln unter anderem das Thema „Verantwortungsbewusste Unternehmensführung“. Die OECD-Leitsätze sind also in die Verhandlungen aufgenommen worden und sollen in das Globalabkommen – die Verhandlungen laufen noch – hineinkommen. Dem Fall, den Sie geschildert haben, wird man eventuell an dieser Stelle, aber sicherlich auch an anderer Stelle Rechnung tragen.",
-            "sentences": [
-              {
-                "text": "Sehr geehrte Frau Kollegin, vielen Dank für die Nachfrage."
-              },
-              {
-                "text": "– Ich hatte vorhin ausgeführt, dass die sogenannten OECD-Leitsätze für multinationale Unternehmen in dem geplanten EU-Globalabkommen mit Mexiko Widerhall finden."
-              },
-              {
-                "text": "Diese behandeln unter anderem das Thema „Verantwortungsbewusste Unternehmensführung“."
-              },
-              {
-                "text": "Die OECD-Leitsätze sind also in die Verhandlungen aufgenommen worden und sollen in das Globalabkommen – die Verhandlungen laufen noch – hineinkommen."
-              },
-              {
-                "text": "Dem Fall, den Sie geschildert haben, wird man eventuell an dieser Stelle, aber sicherlich auch an anderer Stelle Rechnung tragen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Danke, Herr Staatssekretär. – Wir sind damit am Ende Ihres Geschäftsbereiches, und wir sind auch am Ende der Fragestunde. Alle anderen Fragen werden natürlich, wie üblich, schriftlich beantwortet.",
-            "sentences": [
-              {
-                "text": "Danke, Herr Staatssekretär."
-              },
-              {
-                "text": "– Wir sind damit am Ende Ihres Geschäftsbereiches, und wir sind auch am Ende der Fragestunde."
-              },
-              {
-                "text": "Alle anderen Fragen werden natürlich, wie üblich, schriftlich beantwortet."
-              }
-            ]
           }
         ]
       }
@@ -15839,7 +13466,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 55,
+      "speechIndex": 1057,
       "title": "Aktuelle Stunde zu erneuten Steigerungen bei Rüstungsexporten"
     },
     "people": [
@@ -15852,12 +13479,45 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19016-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19016-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
         "originTextID": "",
         "textBody": [
+          {
+            "type": "speech",
+            "speaker": "Petra Pau",
+            "speakerstatus": "vice-president",
+            "text": "Aktuelle Stunde",
+            "sentences": [
+              {
+                "text": "Aktuelle Stunde"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Petra Pau",
+            "speakerstatus": "vice-president",
+            "text": "auf Verlangen der Fraktion DIE LINKE",
+            "sentences": [
+              {
+                "text": "auf Verlangen der Fraktion DIE LINKE"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Petra Pau",
+            "speakerstatus": "vice-president",
+            "text": "Erneute Steigerungen bei Rüstungsexporten",
+            "sentences": [
+              {
+                "text": "Erneute Steigerungen bei Rüstungsexporten"
+              }
+            ]
+          },
           {
             "type": "speech",
             "speaker": "Petra Pau",
@@ -15901,7 +13561,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 56,
+      "speechIndex": 1058,
       "title": "Aktuelle Stunde zu erneuten Steigerungen bei Rüstungsexporten"
     },
     "people": [
@@ -15922,7 +13582,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19016-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19016-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -16429,7 +14089,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 57,
+      "speechIndex": 1059,
       "title": "Aktuelle Stunde zu erneuten Steigerungen bei Rüstungsexporten"
     },
     "people": [
@@ -16450,7 +14110,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19016-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19016-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -16962,7 +14622,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 58,
+      "speechIndex": 1060,
       "title": "Aktuelle Stunde zu erneuten Steigerungen bei Rüstungsexporten"
     },
     "people": [
@@ -16983,7 +14643,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19016-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19016-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -17448,7 +15108,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 59,
+      "speechIndex": 1061,
       "title": "Aktuelle Stunde zu erneuten Steigerungen bei Rüstungsexporten"
     },
     "people": [
@@ -17469,7 +15129,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19016-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19016-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -17846,7 +15506,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 60,
+      "speechIndex": 1062,
       "title": "Aktuelle Stunde zu erneuten Steigerungen bei Rüstungsexporten"
     },
     "people": [
@@ -17867,7 +15527,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19016-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19016-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -18278,7 +15938,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 61,
+      "speechIndex": 1063,
       "title": "Aktuelle Stunde zu erneuten Steigerungen bei Rüstungsexporten"
     },
     "people": [
@@ -18299,7 +15959,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19016-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19016-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -18746,7 +16406,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 62,
+      "speechIndex": 1064,
       "title": "Aktuelle Stunde zu erneuten Steigerungen bei Rüstungsexporten"
     },
     "people": [
@@ -18767,7 +16427,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19016-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19016-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -19219,7 +16879,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 63,
+      "speechIndex": 1065,
       "title": "Aktuelle Stunde zu erneuten Steigerungen bei Rüstungsexporten"
     },
     "people": [
@@ -19240,7 +16900,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19016-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19016-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -19771,7 +17431,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 64,
+      "speechIndex": 1066,
       "title": "Aktuelle Stunde zu erneuten Steigerungen bei Rüstungsexporten"
     },
     "people": [
@@ -19792,7 +17452,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19016-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19016-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -20135,7 +17795,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 65,
+      "speechIndex": 1067,
       "title": "Aktuelle Stunde zu erneuten Steigerungen bei Rüstungsexporten"
     },
     "people": [
@@ -20156,7 +17816,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19016-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19016-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -20635,7 +18295,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 66,
+      "speechIndex": 1068,
       "title": "Aktuelle Stunde zu erneuten Steigerungen bei Rüstungsexporten"
     },
     "people": [
@@ -20656,7 +18316,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19016-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19016-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -21040,7 +18700,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 67,
+      "speechIndex": 1069,
       "title": "Aktuelle Stunde zu erneuten Steigerungen bei Rüstungsexporten"
     },
     "people": [
@@ -21061,7 +18721,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19016-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19016-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -21522,7 +19182,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 68,
+      "speechIndex": 1070,
       "title": "Aktuelle Stunde zu erneuten Steigerungen bei Rüstungsexporten"
     },
     "people": [
@@ -21533,17 +19193,12 @@
         "lastname": "Lämmel",
         "context": "main-speaker",
         "faction": "CDU/CSU"
-      },
-      {
-        "type": "memberOfParliament",
-        "label": "Petra Pau",
-        "context": "vice-president"
       }
     ],
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19016-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19016-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -22001,18 +19656,55 @@
                 "text": "Insofern kann ich nur sagen: Heute insgesamt drei Stunden Debatte, aber im Prinzip null Erkenntnisgewinn."
               }
             ]
-          },
-          {
-            "type": "comment",
-            "speaker": null,
-            "speakerstatus": null,
-            "text": "(Beifall bei der CDU/CSU – Kersten Steinke [DIE LINKE]: Das ist bedauerlich! – Katharina Dröge [BÜNDNIS 90/DIE GRÜNEN]: Sie haben nichts erkannt, Herr Lämmel!)",
-            "sentences": [
-              {
-                "text": "(Beifall bei der CDU/CSU – Kersten Steinke [DIE LINKE]: Das ist bedauerlich! – Katharina Dröge [BÜNDNIS 90/DIE GRÜNEN]: Sie haben nichts erkannt, Herr Lämmel!)"
-              }
-            ]
-          },
+          }
+        ]
+      }
+    ],
+    "documents": [],
+    "key": "19-16 zusatzpunkt 1 (andreas g. lammel)",
+    "dateStart": "2018-02-28T15:47:37",
+    "dateEnd": "2018-02-28T15:53:03",
+    "media": {
+      "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7205090/7205090_h264_720_400_2000kb_baseline_de_2192.mp4",
+      "sourcePage": "http://dbtg.tv/fvid/7205090",
+      "duration": 326.0,
+      "creator": "Deutscher Bundestag",
+      "license": "CC-BY-SA",
+      "originMediaID": "7205090",
+      "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7205090/7205090_mp3_128kb_stereo_de_128.mp3"
+    }
+  },
+  {
+    "parliament": "DE",
+    "electoralPeriod": {
+      "number": "19"
+    },
+    "session": {
+      "number": "16",
+      "dateStart": "2018-02-28T13:00",
+      "dateEnd": "2018-02-28T16:53"
+    },
+    "agendaItem": {
+      "officialTitle": "Zusatzpunkt 1",
+      "speechIndex": 1071,
+      "title": "Aktuelle Stunde zu erneuten Steigerungen bei Rüstungsexporten"
+    },
+    "people": [
+      {
+        "type": "memberOfParliament",
+        "label": "Petra Pau",
+        "context": "vice-president"
+      }
+    ],
+    "textContents": [
+      {
+        "type": "proceedings",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19016-data.xml",
+        "creator": "Deutscher Bundestag",
+        "license": "Public Domain",
+        "language": "DE-de",
+        "originTextID": "",
+        "textBody": [
           {
             "type": "speech",
             "speaker": "Petra Pau",
@@ -22064,32 +19756,9 @@
       }
     ],
     "documents": [],
-    "key": "19-16 zusatzpunkt 1 (andreas g. lammel)",
-    "dateStart": "2018-02-28T15:47:37",
-    "dateEnd": "2018-02-28T15:53:03",
-    "media": {
-      "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7205090/7205090_h264_720_400_2000kb_baseline_de_2192.mp4",
-      "sourcePage": "http://dbtg.tv/fvid/7205090",
-      "duration": 326.0,
-      "creator": "Deutscher Bundestag",
-      "license": "CC-BY-SA",
-      "originMediaID": "7205090",
-      "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7205090/7205090_mp3_128kb_stereo_de_128.mp3"
-    }
-  },
-  {
-    "parliament": "DE",
-    "electoralPeriod": {
-      "number": 19
-    },
-    "session": {
-      "number": 16
-    },
-    "agendaItem": {
-      "title": "Aktuelle Stunde zu erneuten Steigerungen bei Rüstungsexporten",
-      "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 64
-    },
+    "key": "19-16 zusatzpunkt 1 (petra pau) #1",
+    "dateStart": "2018-02-28T15:53:03",
+    "dateEnd": "2018-02-28T15:53:08",
     "media": {
       "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7205091/7205091_h264_720_400_2000kb_baseline_de_2192.mp4",
       "sourcePage": "http://dbtg.tv/fvid/7205091",
@@ -22098,18 +19767,7 @@
       "license": "CC-BY-SA",
       "originMediaID": "7205091",
       "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7205091/7205091_mp3_128kb_stereo_de_128.mp3"
-    },
-    "dateStart": "2018-02-28T15:53:03",
-    "dateEnd": "2018-02-28T15:53:08",
-    "people": [
-      {
-        "label": "Petra Pau",
-        "faction": "Die Linke",
-        "context": "main-speaker",
-        "role": "Bundestagsvizepräsidentin"
-      }
-    ],
-    "key": "19-16 zusatzpunkt 1 (petra pau) #1"
+    }
   },
   {
     "parliament": "DE",

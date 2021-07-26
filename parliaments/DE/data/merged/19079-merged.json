@@ -11,7 +11,7 @@
     },
     "agendaItem": {
       "officialTitle": "Sitzungseröffnung",
-      "speechIndex": 0,
+      "speechIndex": 1000,
       "title": "Sitzungseröffnung"
     },
     "people": [
@@ -24,7 +24,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19079-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19079-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -76,7 +76,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 2,
+      "speechIndex": 1002,
       "title": "Befragung der Bundesregierung"
     },
     "people": [
@@ -89,12 +89,23 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19079-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19079-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
         "originTextID": "",
         "textBody": [
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "Befragung der Bundesregierung",
+            "sentences": [
+              {
+                "text": "Befragung der Bundesregierung"
+              }
+            ]
+          },
           {
             "type": "speech",
             "speaker": "Wolfgang Schäuble",
@@ -149,7 +160,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 3,
+      "speechIndex": 1003,
       "title": "Befragung der Bundesregierung"
     },
     "people": [
@@ -170,7 +181,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19079-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19079-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -385,7 +396,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 5,
+      "speechIndex": 1005,
       "title": "Befragung der Bundesregierung"
     },
     "people": [
@@ -406,7 +417,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19079-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19079-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -516,7 +527,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 7,
+      "speechIndex": 1007,
       "title": "Befragung der Bundesregierung"
     },
     "people": [
@@ -537,7 +548,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19079-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19079-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -606,7 +617,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 32,
+      "speechIndex": 1032,
       "title": "Befragung der Bundesregierung"
     },
     "people": [
@@ -627,7 +638,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19079-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19079-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -738,7 +749,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 9,
+      "speechIndex": 1009,
       "title": "Befragung der Bundesregierung"
     },
     "people": [
@@ -759,7 +770,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19079-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19079-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -845,7 +856,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 11,
+      "speechIndex": 1011,
       "title": "Befragung der Bundesregierung"
     },
     "people": [
@@ -866,7 +877,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19079-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19079-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -992,7 +1003,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 13,
+      "speechIndex": 1013,
       "title": "Befragung der Bundesregierung"
     },
     "people": [
@@ -1013,7 +1024,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19079-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19079-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -1094,7 +1105,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 15,
+      "speechIndex": 1015,
       "title": "Befragung der Bundesregierung"
     },
     "people": [
@@ -1115,7 +1126,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19079-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19079-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -1198,7 +1209,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 17,
+      "speechIndex": 1017,
       "title": "Befragung der Bundesregierung"
     },
     "people": [
@@ -1219,7 +1230,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19079-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19079-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -1327,7 +1338,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 19,
+      "speechIndex": 1019,
       "title": "Befragung der Bundesregierung"
     },
     "people": [
@@ -1348,7 +1359,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19079-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19079-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -1423,7 +1434,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 21,
+      "speechIndex": 1021,
       "title": "Befragung der Bundesregierung"
     },
     "people": [
@@ -1444,7 +1455,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19079-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19079-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -1518,7 +1529,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 23,
+      "speechIndex": 1023,
       "title": "Befragung der Bundesregierung"
     },
     "people": [
@@ -1539,7 +1550,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19079-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19079-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -1628,7 +1639,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 25,
+      "speechIndex": 1025,
       "title": "Befragung der Bundesregierung"
     },
     "people": [
@@ -1649,7 +1660,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19079-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19079-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -1735,7 +1746,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 27,
+      "speechIndex": 1027,
       "title": "Befragung der Bundesregierung"
     },
     "people": [
@@ -1756,7 +1767,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19079-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19079-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -1876,7 +1887,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 30,
+      "speechIndex": 1030,
       "title": "Befragung der Bundesregierung"
     },
     "people": [
@@ -1897,7 +1908,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19079-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19079-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -1986,16 +1997,58 @@
   {
     "parliament": "DE",
     "electoralPeriod": {
-      "number": 19
+      "number": "19"
     },
     "session": {
-      "number": 79
+      "number": "79",
+      "dateStart": "2019-02-13T13:00",
+      "dateEnd": "2019-02-13T17:01"
     },
     "agendaItem": {
-      "title": "Befragung der Bundesregierung",
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 18
+      "speechIndex": 1055,
+      "title": "Befragung der Bundesregierung"
     },
+    "people": [
+      {
+        "type": "memberOfParliament",
+        "label": "Thomas Oppermann",
+        "context": "vice-president"
+      }
+    ],
+    "textContents": [
+      {
+        "type": "proceedings",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19079-data.xml",
+        "creator": "Deutscher Bundestag",
+        "license": "Public Domain",
+        "language": "DE-de",
+        "originTextID": "",
+        "textBody": [
+          {
+            "type": "speech",
+            "speaker": "Thomas Oppermann",
+            "speakerstatus": "vice-president",
+            "text": "Vielen Dank, Herr Minister. – Das war die letzte Frage. Ich schließe die Befragung der Bundesregierung.",
+            "sentences": [
+              {
+                "text": "Vielen Dank, Herr Minister."
+              },
+              {
+                "text": "– Das war die letzte Frage."
+              },
+              {
+                "text": "Ich schließe die Befragung der Bundesregierung."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "documents": [],
+    "key": "19-79 tagesordnungspunkt 1 (thomas oppermann)",
+    "dateStart": "2019-02-13T13:09:35",
+    "dateEnd": "2019-02-13T13:09:44",
     "media": {
       "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7325315/7325315_h264_720_400_2000kb_baseline_de_2192.mp4",
       "sourcePage": "http://dbtg.tv/fvid/7325315",
@@ -2004,18 +2057,7 @@
       "license": "CC-BY-SA",
       "originMediaID": "7325315",
       "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7325315/7325315_mp3_128kb_stereo_de_128.mp3"
-    },
-    "dateStart": "2019-02-13T13:09:35",
-    "dateEnd": "2019-02-13T13:09:44",
-    "people": [
-      {
-        "label": "Thomas Oppermann",
-        "faction": "SPD",
-        "context": "main-speaker",
-        "role": "Bundestagsvizepräsident"
-      }
-    ],
-    "key": "19-79 tagesordnungspunkt 1 (thomas oppermann)"
+    }
   },
   {
     "parliament": "DE",
@@ -2029,7 +2071,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 2",
-      "speechIndex": 55,
+      "speechIndex": 1056,
       "title": "Fragestunde"
     },
     "people": [
@@ -2242,12 +2284,23 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19079-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19079-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
         "originTextID": "",
         "textBody": [
+          {
+            "type": "speech",
+            "speaker": "Thomas Oppermann",
+            "speakerstatus": "vice-president",
+            "text": "Fragestunde",
+            "sentences": [
+              {
+                "text": "Fragestunde"
+              }
+            ]
+          },
           {
             "type": "speech",
             "speaker": "Thomas Oppermann",
@@ -7056,7 +7109,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 2",
-      "speechIndex": 56,
+      "speechIndex": 1057,
       "title": "Fragestunde"
     },
     "people": [
@@ -7200,81 +7253,28 @@
         "lastname": "Brantner",
         "context": "speaker",
         "faction": "BÜNDNIS 90/DIE GRÜNEN"
-      },
-      {
-        "type": "memberOfParliament",
-        "label": "Marco Wanderwitz",
-        "firstname": "Marco",
-        "lastname": "Wanderwitz",
-        "context": "speaker",
-        "faction": ""
-      },
-      {
-        "type": "memberOfParliament",
-        "label": "Canan Bayram",
-        "firstname": "Canan",
-        "lastname": "Bayram",
-        "context": "speaker",
-        "faction": "BÜNDNIS 90/DIE GRÜNEN"
-      },
-      {
-        "type": "memberOfParliament",
-        "label": "Michael Roth",
-        "firstname": "Michael",
-        "lastname": "Roth",
-        "context": "speaker",
-        "faction": ""
-      },
-      {
-        "type": "memberOfParliament",
-        "label": "Alexander S. Neu",
-        "firstname": "Alexander S.",
-        "lastname": "Neu",
-        "context": "speaker",
-        "faction": "DIE LINKE"
-      },
-      {
-        "type": "memberOfParliament",
-        "label": "Simone Barrientos",
-        "firstname": "Simone",
-        "lastname": "Barrientos",
-        "context": "speaker",
-        "faction": "DIE LINKE"
-      },
-      {
-        "type": "memberOfParliament",
-        "label": "Kathrin Vogler",
-        "firstname": "Kathrin",
-        "lastname": "Vogler",
-        "context": "speaker",
-        "faction": "DIE LINKE"
-      },
-      {
-        "type": "memberOfParliament",
-        "label": "Andrej Hunko",
-        "firstname": "Andrej",
-        "lastname": "Hunko",
-        "context": "speaker",
-        "faction": "DIE LINKE"
-      },
-      {
-        "type": "memberOfParliament",
-        "label": "Diether Dehm",
-        "firstname": "Diether",
-        "lastname": "Dehm",
-        "context": "speaker",
-        "faction": "DIE LINKE"
       }
     ],
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19079-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19079-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
         "originTextID": "",
         "textBody": [
+          {
+            "type": "speech",
+            "speaker": "Thomas Oppermann",
+            "speakerstatus": "vice-president",
+            "text": "Fragestunde",
+            "sentences": [
+              {
+                "text": "Fragestunde"
+              }
+            ]
+          },
           {
             "type": "speech",
             "speaker": "Thomas Oppermann",
@@ -9887,1554 +9887,6 @@
                 "text": "Zur Beantwortung steht der Parlamentarische Staatssekretär Marco Wanderwitz bereit."
               }
             ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Die Fragen 12 und 13 des Abgeordneten Dr. André Hahn und die Frage 14 der Abgeordneten Linda Teuteberg werden schriftlich beantwortet.",
-            "sentences": [
-              {
-                "text": "Die Fragen 12 und 13 des Abgeordneten Dr. André Hahn und die Frage 14 der Abgeordneten Linda Teuteberg werden schriftlich beantwortet."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Die Frage 15 stellt die Abgeordnete Canan Bayram von Bündnis 90/Die Grünen:",
-            "sentences": [
-              {
-                "text": "Die Frage 15 stellt die Abgeordnete Canan Bayram von Bündnis 90/Die Grünen:"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Herr Staatssekretär.",
-            "sentences": [
-              {
-                "text": "Herr Staatssekretär."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Marco Wanderwitz",
-            "speakerstatus": "speaker",
-            "text": "Herr Präsident! Sehr geehrte Frau Kollegin Bayram, zunächst weise ich – wie seitens der Bundesregierung schon im Rahmen der Beantwortung anderer entsprechender Fragen zuvor – darauf hin, dass der Begriff „Trojaner“ im Kontext von Ermittlungsinstrumenten der Sicherheitsbehörden des Bundes missverständlich bzw. unzutreffend ist. Als Trojaner werden in der Regel widerrechtlich auf einem Informationssystem ausgeführte Schadprogramme bezeichnet, die eine nützliche Funktion vortäuschen, im Hintergrund jedoch ohne Wissen des Anwenders zumeist schädliche Funktionen erfüllen.",
-            "sentences": [
-              {
-                "text": "Herr Präsident!"
-              },
-              {
-                "text": "Sehr geehrte Frau Kollegin Bayram, zunächst weise ich – wie seitens der Bundesregierung schon im Rahmen der Beantwortung anderer entsprechender Fragen zuvor – darauf hin, dass der Begriff „Trojaner“ im Kontext von Ermittlungsinstrumenten der Sicherheitsbehörden des Bundes missverständlich bzw. unzutreffend ist."
-              },
-              {
-                "text": "Als Trojaner werden in der Regel widerrechtlich auf einem Informationssystem ausgeführte Schadprogramme bezeichnet, die eine nützliche Funktion vortäuschen, im Hintergrund jedoch ohne Wissen des Anwenders zumeist schädliche Funktionen erfüllen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Marco Wanderwitz",
-            "speakerstatus": "speaker",
-            "text": "Die Sicherheitsbehörden des Bundes hingegen setzen keine Trojaner ein, sondern sie können im Rahmen ihrer gesetzlichen Befugnisse bei Vorliegen der rechtlichen Rahmenbedingungen Software zur informationstechnischen Überwachung bzw. Informationsgewinnung wie zum Beispiel Quellen-Telekommunikationsüberwachung oder Onlinedurchsuchung einsetzen.",
-            "sentences": [
-              {
-                "text": "Die Sicherheitsbehörden des Bundes hingegen setzen keine Trojaner ein, sondern sie können im Rahmen ihrer gesetzlichen Befugnisse bei Vorliegen der rechtlichen Rahmenbedingungen Software zur informationstechnischen Überwachung bzw. Informationsgewinnung wie zum Beispiel Quellen-Telekommunikationsüberwachung oder Onlinedurchsuchung einsetzen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Marco Wanderwitz",
-            "speakerstatus": "speaker",
-            "text": "Sofern Polizeibehörden oder Nachrichtendienste des Bundes im Rahmen ihrer gesetzlichen Befugnisse Instrumente zur informationstechnischen Überwachung bzw. Informationsgewinnung einsetzen können, werden die einschlägigen gesetzlichen und behördeninternen Protokollierungs- und Dokumentationspflichten erfüllt sowie technische und organisatorische Maßnahmen umgesetzt, um eine unbefugte bzw. missbräuchliche Nutzung der Instrumente zu verhindern. Durch technische Maßnahmen wird sichergestellt, dass während des Einsatzes des technischen Mittels nur den mit der Überwachung bzw. Informationsgewinnung betrauten Mitarbeiterinnen und Mitarbeitern ausschließlich eine von der jeweiligen Anordnung umfasste Kenntnisnahme ermöglicht wird. Die erzeugten Protokolle sind gesondert geschützt und unterliegen der gesetzlichen Zweckbindung.",
-            "sentences": [
-              {
-                "text": "Sofern Polizeibehörden oder Nachrichtendienste des Bundes im Rahmen ihrer gesetzlichen Befugnisse Instrumente zur informationstechnischen Überwachung bzw. Informationsgewinnung einsetzen können, werden die einschlägigen gesetzlichen und behördeninternen Protokollierungs- und Dokumentationspflichten erfüllt sowie technische und organisatorische Maßnahmen umgesetzt, um eine unbefugte bzw. missbräuchliche Nutzung der Instrumente zu verhindern."
-              },
-              {
-                "text": "Durch technische Maßnahmen wird sichergestellt, dass während des Einsatzes des technischen Mittels nur den mit der Überwachung bzw. Informationsgewinnung betrauten Mitarbeiterinnen und Mitarbeitern ausschließlich eine von der jeweiligen Anordnung umfasste Kenntnisnahme ermöglicht wird."
-              },
-              {
-                "text": "Die erzeugten Protokolle sind gesondert geschützt und unterliegen der gesetzlichen Zweckbindung."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Marco Wanderwitz",
-            "speakerstatus": "speaker",
-            "text": "Darüber hinaus bestehen umfangreiche Prüf- und Kontrollbefugnisse hinsichtlich der durch die Behörden gespeicherten und verarbeiteten personenbezogenen Daten, zum Beispiel im nachrichtendienstlichen Bereich seitens der G 10-Kommission des Deutschen Bundestages sowie seitens des Bundesbeauftragten für den Datenschutz und die Informationsfreiheit.",
-            "sentences": [
-              {
-                "text": "Darüber hinaus bestehen umfangreiche Prüf- und Kontrollbefugnisse hinsichtlich der durch die Behörden gespeicherten und verarbeiteten personenbezogenen Daten, zum Beispiel im nachrichtendienstlichen Bereich seitens der G 10-Kommission des Deutschen Bundestages sowie seitens des Bundesbeauftragten für den Datenschutz und die Informationsfreiheit."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Vielen Dank. – Wollen Sie nachfragen, Frau Kollegin?",
-            "sentences": [
-              {
-                "text": "Vielen Dank."
-              },
-              {
-                "text": "– Wollen Sie nachfragen, Frau Kollegin?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Canan Bayram",
-            "speakerstatus": "speaker",
-            "text": "Gerne, vielen Dank, Herr Präsident. – Herr Staatssekretär, ich habe ja gefragt, welche Vorkehrungen Sie treffen wollen, damit insbesondere rechtsextremistische Mitarbeiter bei der Polizei oder anderen Sicherheitsbehörden so etwas nicht auf eine Art und Weise verwenden, die uns an das erinnern würde, was aktuell mit Blick auf die Anwaltskollegin in Frankfurt diskutiert wird.",
-            "sentences": [
-              {
-                "text": "Gerne, vielen Dank, Herr Präsident."
-              },
-              {
-                "text": "– Herr Staatssekretär, ich habe ja gefragt, welche Vorkehrungen Sie treffen wollen, damit insbesondere rechtsextremistische Mitarbeiter bei der Polizei oder anderen Sicherheitsbehörden so etwas nicht auf eine Art und Weise verwenden, die uns an das erinnern würde, was aktuell mit Blick auf die Anwaltskollegin in Frankfurt diskutiert wird."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Canan Bayram",
-            "speakerstatus": "speaker",
-            "text": "Es wäre ganz schön, wenn Sie die Frage beantworten würden.",
-            "sentences": [
-              {
-                "text": "Es wäre ganz schön, wenn Sie die Frage beantworten würden."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Marco Wanderwitz",
-            "speakerstatus": "speaker",
-            "text": "Frau Kollegin, zum einen sind uns keinerlei solche Fälle, wie Sie sie hier beschreiben, bekannt, und zum anderen halten wir die von mir beschriebenen Protokollierungs- und Dokumentationspflichten, technischen und organisatorischen Schutzmaßnahmen und externen Prüf- und Kontrollkompetenzen für geeignet, eine missbräuchliche Nutzung bestmöglich zu verhindern.",
-            "sentences": [
-              {
-                "text": "Frau Kollegin, zum einen sind uns keinerlei solche Fälle, wie Sie sie hier beschreiben, bekannt, und zum anderen halten wir die von mir beschriebenen Protokollierungs- und Dokumentationspflichten, technischen und organisatorischen Schutzmaßnahmen und externen Prüf- und Kontrollkompetenzen für geeignet, eine missbräuchliche Nutzung bestmöglich zu verhindern."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Weitere Nachfrage.",
-            "sentences": [
-              {
-                "text": "Weitere Nachfrage."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Canan Bayram",
-            "speakerstatus": "speaker",
-            "text": "Vielen Dank, Herr Präsident. – Herr Staatssekretär, habe ich Sie richtig verstanden, dass Sie auf meine Frage geantwortet haben, dass Sie ausschließen können, dass rechtsextremistische Mitarbeiter bei den Sicherheitsbehörden durch die von mir als „Staatstrojaner“ und von Ihnen anders bezeichneten Instrumente Zugriff auf sensible Daten erlangen können?",
-            "sentences": [
-              {
-                "text": "Vielen Dank, Herr Präsident."
-              },
-              {
-                "text": "– Herr Staatssekretär, habe ich Sie richtig verstanden, dass Sie auf meine Frage geantwortet haben, dass Sie ausschließen können, dass rechtsextremistische Mitarbeiter bei den Sicherheitsbehörden durch die von mir als „Staatstrojaner“ und von Ihnen anders bezeichneten Instrumente Zugriff auf sensible Daten erlangen können?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Marco Wanderwitz",
-            "speakerstatus": "speaker",
-            "text": "Ich kann gerne noch mal meine Antwort wiederholen: Wir sind der Meinung, dass eine missbräuchliche Nutzung durch die von mir beschriebenen Instrumente bestmöglich verhindert wird.",
-            "sentences": [
-              {
-                "text": "Ich kann gerne noch mal meine Antwort wiederholen: Wir sind der Meinung, dass eine missbräuchliche Nutzung durch die von mir beschriebenen Instrumente bestmöglich verhindert wird."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Weitere Nachfragen liegen nicht vor.",
-            "sentences": [
-              {
-                "text": "Weitere Nachfragen liegen nicht vor."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Wir kommen zu Frage 16 der Abgeordneten Filiz Polat, Bündnis 90/Die Grünen:",
-            "sentences": [
-              {
-                "text": "Wir kommen zu Frage 16 der Abgeordneten Filiz Polat, Bündnis 90/Die Grünen:"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Herr Staatssekretär.",
-            "sentences": [
-              {
-                "text": "Herr Staatssekretär."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Marco Wanderwitz",
-            "speakerstatus": "speaker",
-            "text": "Liebe Frau Kollegin Polat, der Bundesregierung liegen zu der genannten Frage keine statistischen Erkenntnisse vor. Eine statistische Erfassung seitens des Bundesamtes für Migration und Flüchtlinge erfolgte für den abgefragten Zeitraum bis zum 2. April 2017 nicht. Seit dem 3. April 2017 unterhält das BAMF an allen Standorten ein Onlinesystem zur Erfassung, Überprüfung und Sendungsverfolgung aller im Original vorgelegten bzw. eingegangenen Identitätspapiere und Urkunden im Asylverfahren; PassTA wird dieses System genannt. Eine rückwirkende Auswertung des Bestandes in PassTA ist aufgrund kontinuierlicher Zu- und Abgänge jedoch nicht möglich.",
-            "sentences": [
-              {
-                "text": "Liebe Frau Kollegin Polat, der Bundesregierung liegen zu der genannten Frage keine statistischen Erkenntnisse vor."
-              },
-              {
-                "text": "Eine statistische Erfassung seitens des Bundesamtes für Migration und Flüchtlinge erfolgte für den abgefragten Zeitraum bis zum 2. April 2017 nicht."
-              },
-              {
-                "text": "Seit dem 3. April 2017 unterhält das BAMF an allen Standorten ein Onlinesystem zur Erfassung, Überprüfung und Sendungsverfolgung aller im Original vorgelegten bzw. eingegangenen Identitätspapiere und Urkunden im Asylverfahren; PassTA wird dieses System genannt."
-              },
-              {
-                "text": "Eine rückwirkende Auswertung des Bestandes in PassTA ist aufgrund kontinuierlicher Zu- und Abgänge jedoch nicht möglich."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Marco Wanderwitz",
-            "speakerstatus": "speaker",
-            "text": "Jeder Bearbeitungsstand eines Originaldokumentes innerhalb des BAMF – bis hin zur Abgabe des Dokuments – ist in PassTA zu dokumentieren. Ziel der Anwendung ist es, Transparenz über Prüfstatus und Aufbewahrungsort von Dokumenten, die zur Identitätsfeststellung einbehalten wurden, sicherzustellen.",
-            "sentences": [
-              {
-                "text": "Jeder Bearbeitungsstand eines Originaldokumentes innerhalb des BAMF – bis hin zur Abgabe des Dokuments – ist in PassTA zu dokumentieren."
-              },
-              {
-                "text": "Ziel der Anwendung ist es, Transparenz über Prüfstatus und Aufbewahrungsort von Dokumenten, die zur Identitätsfeststellung einbehalten wurden, sicherzustellen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Möchten Sie eine Nachfrage stellen?",
-            "sentences": [
-              {
-                "text": "Möchten Sie eine Nachfrage stellen?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Filiz Polat",
-            "speakerstatus": "speaker",
-            "text": "Sehr geehrter Herr Präsident! Sehr geehrter Herr Staatssekretär, unabhängig von einer Statistik: Haben die Bundesregierung und das Innenministerium Kenntnis davon, dass Pässe nach wie vor verloren gegangen bzw. nicht auffindbar sind?",
-            "sentences": [
-              {
-                "text": "Sehr geehrter Herr Präsident!"
-              },
-              {
-                "text": "Sehr geehrter Herr Staatssekretär, unabhängig von einer Statistik: Haben die Bundesregierung und das Innenministerium Kenntnis davon, dass Pässe nach wie vor verloren gegangen bzw. nicht auffindbar sind?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Marco Wanderwitz",
-            "speakerstatus": "speaker",
-            "text": "Die Einführung von PassTA hatte den Hintergrund, mehr Transparenz über Prüfstatus und Aufbewahrungsort zu generieren. Gleichwohl sind uns keine konkreten Fälle bekannt, die auf irgendeine Art und Weise weiter zu verfolgen oder problematisch sind.",
-            "sentences": [
-              {
-                "text": "Die Einführung von PassTA hatte den Hintergrund, mehr Transparenz über Prüfstatus und Aufbewahrungsort zu generieren."
-              },
-              {
-                "text": "Gleichwohl sind uns keine konkreten Fälle bekannt, die auf irgendeine Art und Weise weiter zu verfolgen oder problematisch sind."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Eine weitere Nachfrage von Frau Polat.",
-            "sentences": [
-              {
-                "text": "Eine weitere Nachfrage von Frau Polat."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Filiz Polat",
-            "speakerstatus": "speaker",
-            "text": "Sehr geehrter Herr Präsident! Sehr geehrter Herr Staatssekretär, konnte anhand der verschwundenen Pässe, die wiederaufgefunden worden sind, ermittelt werden, welche Gründe vorlagen, warum diese Pässe beim BAMF und in den Außenstellen des BAMF verloren gegangen sind?",
-            "sentences": [
-              {
-                "text": "Sehr geehrter Herr Präsident!"
-              },
-              {
-                "text": "Sehr geehrter Herr Staatssekretär, konnte anhand der verschwundenen Pässe, die wiederaufgefunden worden sind, ermittelt werden, welche Gründe vorlagen, warum diese Pässe beim BAMF und in den Außenstellen des BAMF verloren gegangen sind?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Marco Wanderwitz",
-            "speakerstatus": "speaker",
-            "text": "Ich kann nur berichten, wie das Verfahren abläuft, wenn es dazu kommt, dass Pässe oder sonstige Dokumente verloren gehen. Meinem Kenntnisstand nach ist es zu solchen Fällen insbesondere auf dem Postweg bzw. beim Versand gekommen. Darüber hinaus kann ich jetzt an dieser Stelle keine Auskünfte geben, weil ich schlicht keine weiteren Kenntnisse habe.",
-            "sentences": [
-              {
-                "text": "Ich kann nur berichten, wie das Verfahren abläuft, wenn es dazu kommt, dass Pässe oder sonstige Dokumente verloren gehen."
-              },
-              {
-                "text": "Meinem Kenntnisstand nach ist es zu solchen Fällen insbesondere auf dem Postweg bzw. beim Versand gekommen."
-              },
-              {
-                "text": "Darüber hinaus kann ich jetzt an dieser Stelle keine Auskünfte geben, weil ich schlicht keine weiteren Kenntnisse habe."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Vielen Dank. – Die Frage 17 des Abgeordneten Stephan Brandner wird schriftlich beantwortet. Dann haben wir den Bereich des Innern abgeschlossen.",
-            "sentences": [
-              {
-                "text": "Vielen Dank."
-              },
-              {
-                "text": "– Die Frage 17 des Abgeordneten Stephan Brandner wird schriftlich beantwortet."
-              },
-              {
-                "text": "Dann haben wir den Bereich des Innern abgeschlossen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Wir gehen weiter zum Geschäftsbereich des Auswärtigen Amtes. Zur Beantwortung steht Staatsminister Michael Roth bereit.",
-            "sentences": [
-              {
-                "text": "Wir gehen weiter zum Geschäftsbereich des Auswärtigen Amtes."
-              },
-              {
-                "text": "Zur Beantwortung steht Staatsminister Michael Roth bereit."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Die Frage 18 des Abgeordneten Stephan Brandner wird ebenfalls schriftlich beantwortet.",
-            "sentences": [
-              {
-                "text": "Die Frage 18 des Abgeordneten Stephan Brandner wird ebenfalls schriftlich beantwortet."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Ich rufe die Frage 19 des Abgeordneten Dr. Alexander Neu auf:",
-            "sentences": [
-              {
-                "text": "Ich rufe die Frage 19 des Abgeordneten Dr. Alexander Neu auf:"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Herr Staatsminister.",
-            "sentences": [
-              {
-                "text": "Herr Staatsminister."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Michael Roth",
-            "speakerstatus": "speaker",
-            "text": "Vielen Dank, Herr Präsident. – Ihr Einverständnis vorausgesetzt, möchte ich nur einen Hinweis geben. Es gibt eine Reihe von Fragen, die die aktuelle Lage in Venezuela betreffen. Deswegen kann ich nicht ganz ausschließen, dass es zu Wiederholungen und Doppelungen kommt. Offenkundig gibt es dazu eine Reihe von Nachfragen. – Jetzt bin ich bei der Frage des Kollegen Neu.",
-            "sentences": [
-              {
-                "text": "Vielen Dank, Herr Präsident."
-              },
-              {
-                "text": "– Ihr Einverständnis vorausgesetzt, möchte ich nur einen Hinweis geben."
-              },
-              {
-                "text": "Es gibt eine Reihe von Fragen, die die aktuelle Lage in Venezuela betreffen."
-              },
-              {
-                "text": "Deswegen kann ich nicht ganz ausschließen, dass es zu Wiederholungen und Doppelungen kommt."
-              },
-              {
-                "text": "Offenkundig gibt es dazu eine Reihe von Nachfragen."
-              },
-              {
-                "text": "– Jetzt bin ich bei der Frage des Kollegen Neu."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Michael Roth",
-            "speakerstatus": "speaker",
-            "text": "Lassen Sie mich vorab etwas zur Einordnung der Gesamtsituation in Venezuela sagen. Die Lage in dem Land ist weiterhin äußerst angespannt. Deutschland engagiert sich gemeinsam mit Partnern aus der EU und Lateinamerika für schnelle humanitäre Hilfe und freie und faire Präsidentschaftswahlen im Einklang mit der venezolanischen Verfassung als Grundlage zur Wiederherstellung des Friedens und der Rechtsstaatlichkeit. Um auf diesem Weg voranzukommen, traf sich die internationale Kontaktgruppe am 7. Februar dieses Jahres zum ersten Mal in Montevideo. Sie besteht aus acht Staaten der Europäischen Union sowie fünf Ländern aus Lateinamerika. Die Kontaktgruppe bekräftigt in ihrem Statement die Forderung nach einer friedlichen und demokratischen Lösung der Krise. Die Gruppe ruft alle Seiten zum Gewaltverzicht auf. Wir fordern die Rückkehr zu Rechtsstaatlichkeit und zur Gewaltenteilung.",
-            "sentences": [
-              {
-                "text": "Lassen Sie mich vorab etwas zur Einordnung der Gesamtsituation in Venezuela sagen."
-              },
-              {
-                "text": "Die Lage in dem Land ist weiterhin äußerst angespannt."
-              },
-              {
-                "text": "Deutschland engagiert sich gemeinsam mit Partnern aus der EU und Lateinamerika für schnelle humanitäre Hilfe und freie und faire Präsidentschaftswahlen im Einklang mit der venezolanischen Verfassung als Grundlage zur Wiederherstellung des Friedens und der Rechtsstaatlichkeit."
-              },
-              {
-                "text": "Um auf diesem Weg voranzukommen, traf sich die internationale Kontaktgruppe am 7. Februar dieses Jahres zum ersten Mal in Montevideo."
-              },
-              {
-                "text": "Sie besteht aus acht Staaten der Europäischen Union sowie fünf Ländern aus Lateinamerika."
-              },
-              {
-                "text": "Die Kontaktgruppe bekräftigt in ihrem Statement die Forderung nach einer friedlichen und demokratischen Lösung der Krise."
-              },
-              {
-                "text": "Die Gruppe ruft alle Seiten zum Gewaltverzicht auf."
-              },
-              {
-                "text": "Wir fordern die Rückkehr zu Rechtsstaatlichkeit und zur Gewaltenteilung."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Michael Roth",
-            "speakerstatus": "speaker",
-            "text": "Die venezolanische Regierung veröffentlicht seit 2015 keine wirtschaftlichen oder sozioökonomischen Zahlen mehr. Die Caritas geht davon aus, dass die Venezolanerinnen und Venezolaner im Jahr 2018 im Durchschnitt 10 Kilogramm Gewicht verloren haben. 80 Prozent der Menschen geben laut Caritas an, sich nicht mehr verlässlich mit Lebensmitteln versorgen zu können. 12 Prozent der Bevölkerung sind unterernährt – das sind die Angaben der Welternährungsorganisation –, darunter befinden sich sehr viele Kinder. Nach Angaben der Vereinten Nationen sind deswegen bereits mehr als 3 Millionen Menschen auf der Flucht; sie haben ihr Heimatland verlassen.",
-            "sentences": [
-              {
-                "text": "Die venezolanische Regierung veröffentlicht seit 2015 keine wirtschaftlichen oder sozioökonomischen Zahlen mehr."
-              },
-              {
-                "text": "Die Caritas geht davon aus, dass die Venezolanerinnen und Venezolaner im Jahr 2018 im Durchschnitt 10 Kilogramm Gewicht verloren haben."
-              },
-              {
-                "text": "80 Prozent der Menschen geben laut Caritas an, sich nicht mehr verlässlich mit Lebensmitteln versorgen zu können."
-              },
-              {
-                "text": "12 Prozent der Bevölkerung sind unterernährt – das sind die Angaben der Welternährungsorganisation –, darunter befinden sich sehr viele Kinder."
-              },
-              {
-                "text": "Nach Angaben der Vereinten Nationen sind deswegen bereits mehr als 3 Millionen Menschen auf der Flucht; sie haben ihr Heimatland verlassen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Michael Roth",
-            "speakerstatus": "speaker",
-            "text": "Die Bundesregierung kann derzeit nicht einschätzen, wie und ob das von den USA verhängte Ölembargo sich auf diese Zahlen auswirken wird. Das Embargo tritt erst mit Übergangsfristen in Kraft.",
-            "sentences": [
-              {
-                "text": "Die Bundesregierung kann derzeit nicht einschätzen, wie und ob das von den USA verhängte Ölembargo sich auf diese Zahlen auswirken wird."
-              },
-              {
-                "text": "Das Embargo tritt erst mit Übergangsfristen in Kraft."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Vielen Dank. – Haben Sie eine Zusatzfrage?",
-            "sentences": [
-              {
-                "text": "Vielen Dank."
-              },
-              {
-                "text": "– Haben Sie eine Zusatzfrage?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Alexander S. Neu",
-            "speakerstatus": "speaker",
-            "text": "Herr Staatsminister Roth, der Leiter der Delegation des Internationalen Komitees vom Roten Kreuz hat sich dagegen ausgesprochen, an der Verteilung der Lieferungen der Amerikaner teilzunehmen, mit dem Hinweis, dass die Unabhängigkeit, die Unparteilichkeit und die Neutralität nicht gewährleistet seien. Auch die UNO und der Präsident der Internationalen Rotkreuz- und Rothalbmond-Bewegung, Francesco Rocca, haben davor gewarnt, die humanitäre Hilfe zu politisieren. Teilt die Bundesregierung die Position der genannten Organisationen, dass die Hilfslieferungen der Amerikaner letztendlich zu nichts anderem als zu politischer Propaganda dienen?",
-            "sentences": [
-              {
-                "text": "Herr Staatsminister Roth, der Leiter der Delegation des Internationalen Komitees vom Roten Kreuz hat sich dagegen ausgesprochen, an der Verteilung der Lieferungen der Amerikaner teilzunehmen, mit dem Hinweis, dass die Unabhängigkeit, die Unparteilichkeit und die Neutralität nicht gewährleistet seien."
-              },
-              {
-                "text": "Auch die UNO und der Präsident der Internationalen Rotkreuz- und Rothalbmond-Bewegung, Francesco Rocca, haben davor gewarnt, die humanitäre Hilfe zu politisieren."
-              },
-              {
-                "text": "Teilt die Bundesregierung die Position der genannten Organisationen, dass die Hilfslieferungen der Amerikaner letztendlich zu nichts anderem als zu politischer Propaganda dienen?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Michael Roth",
-            "speakerstatus": "speaker",
-            "text": "Es ist eine große Tragödie, lieber Kollege Neu, für die betroffenen Menschen in Venezuela, dass sie keinen Zugang zu Nahrungsmitteln und medizinischer Versorgung haben. Dem versucht die Bundesregierung dadurch Abhilfe zu leisten, dass sie noch einmal 5 Millionen Euro für die humanitäre Hilfe zur Verfügung gestellt hat. Wir haben bislang schon knapp 15 Millionen Euro an humanitärer Hilfe für die geflüchteten Menschen in der Nachbarschaft bereitgestellt. Dabei leisten wir keine Direkthilfen, sondern wir bedienen uns dort entsprechender Nichtregierungsorganisationen, die das im Auftrag Deutschlands oder der Europäischen Union erfüllen. Aber es ist skandalös, dass die venezolanische Regierung sich derzeit weigert, ihren Menschen diese notwendige Hilfe zukommen zu lassen.",
-            "sentences": [
-              {
-                "text": "Es ist eine große Tragödie, lieber Kollege Neu, für die betroffenen Menschen in Venezuela, dass sie keinen Zugang zu Nahrungsmitteln und medizinischer Versorgung haben."
-              },
-              {
-                "text": "Dem versucht die Bundesregierung dadurch Abhilfe zu leisten, dass sie noch einmal 5 Millionen Euro für die humanitäre Hilfe zur Verfügung gestellt hat."
-              },
-              {
-                "text": "Wir haben bislang schon knapp 15 Millionen Euro an humanitärer Hilfe für die geflüchteten Menschen in der Nachbarschaft bereitgestellt."
-              },
-              {
-                "text": "Dabei leisten wir keine Direkthilfen, sondern wir bedienen uns dort entsprechender Nichtregierungsorganisationen, die das im Auftrag Deutschlands oder der Europäischen Union erfüllen."
-              },
-              {
-                "text": "Aber es ist skandalös, dass die venezolanische Regierung sich derzeit weigert, ihren Menschen diese notwendige Hilfe zukommen zu lassen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Michael Roth",
-            "speakerstatus": "speaker",
-            "text": "Noch ein Punkt, der mich besonders fassungslos macht: Die Menschen in Venezuela erhalten von der Regierung eine Identifikationskarte, sie werden dort registriert, und damit kann unerwünschtes Verhalten unmittelbar sanktioniert werden. Das heißt, die Menschen in Venezuela erhalten nur dann Grundnahrungsmittel, wenn sie an Pro-Regierung-Versammlungen oder an Wahlen mit dieser Karte teilnehmen. Das muss bestätigt werden, und diese Daten sind dann bei der Abholung der Lebensmittel abrufbar. Das ist die Realität in diesem Land.",
-            "sentences": [
-              {
-                "text": "Noch ein Punkt, der mich besonders fassungslos macht: Die Menschen in Venezuela erhalten von der Regierung eine Identifikationskarte, sie werden dort registriert, und damit kann unerwünschtes Verhalten unmittelbar sanktioniert werden."
-              },
-              {
-                "text": "Das heißt, die Menschen in Venezuela erhalten nur dann Grundnahrungsmittel, wenn sie an Pro-Regierung-Versammlungen oder an Wahlen mit dieser Karte teilnehmen."
-              },
-              {
-                "text": "Das muss bestätigt werden, und diese Daten sind dann bei der Abholung der Lebensmittel abrufbar."
-              },
-              {
-                "text": "Das ist die Realität in diesem Land."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Danke, Herr Staatsminister. – Herr Neu, eine weitere Zusatzfrage.",
-            "sentences": [
-              {
-                "text": "Danke, Herr Staatsminister."
-              },
-              {
-                "text": "– Herr Neu, eine weitere Zusatzfrage."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Alexander S. Neu",
-            "speakerstatus": "speaker",
-            "text": "Herr Staatsminister, das war keine Antwort auf die Frage, die ich gestellt habe; das, was Sie gerade zum Besten gegeben haben, war Propaganda. – Versuchen wir es mit einer weiteren Frage. Sie haben gerade gesagt, dass 5 Millionen Euro zur Verfügung gestellt werden. Wenn es Hunderttausende oder Millionen von Flüchtlingen gibt, dann ist das natürlich gar nichts. Wenn Ihnen also die Venezolaner so leidtun, wie Sie hier vorgeben, dann müssten doch sicherlich mehr als 5 Millionen Euro drin sein. Die UNO hat insgesamt 109 Millionen Euro errechnet. Wie viele Millionen Euro sind Sie bereit draufzulegen?",
-            "sentences": [
-              {
-                "text": "Herr Staatsminister, das war keine Antwort auf die Frage, die ich gestellt habe; das, was Sie gerade zum Besten gegeben haben, war Propaganda."
-              },
-              {
-                "text": "– Versuchen wir es mit einer weiteren Frage."
-              },
-              {
-                "text": "Sie haben gerade gesagt, dass 5 Millionen Euro zur Verfügung gestellt werden."
-              },
-              {
-                "text": "Wenn es Hunderttausende oder Millionen von Flüchtlingen gibt, dann ist das natürlich gar nichts."
-              },
-              {
-                "text": "Wenn Ihnen also die Venezolaner so leidtun, wie Sie hier vorgeben, dann müssten doch sicherlich mehr als 5 Millionen Euro drin sein."
-              },
-              {
-                "text": "Die UNO hat insgesamt 109 Millionen Euro errechnet."
-              },
-              {
-                "text": "Wie viele Millionen Euro sind Sie bereit draufzulegen?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Michael Roth",
-            "speakerstatus": "speaker",
-            "text": "Herr Präsident! Lieber Kollege Neu, das ist ein erster Schritt, und wir theoretisieren hier, solange sich die venezolanische Regierung weigert, den betroffenen Menschen humanitäre Hilfe zukommen zu lassen. Ich bin mir ziemlich sicher: Wenn es einen ungehinderten Zugang gibt und die Menschen von der humanitären Hilfe, die angeboten wird, profitieren, wird es sicherlich nicht an Geldmitteln mangeln. Die Bundesregierung ist jedenfalls bereit, notwendige Mittel gemeinsam mit anderen internationalen Partnern zur Verfügung zu stellen.",
-            "sentences": [
-              {
-                "text": "Herr Präsident!"
-              },
-              {
-                "text": "Lieber Kollege Neu, das ist ein erster Schritt, und wir theoretisieren hier, solange sich die venezolanische Regierung weigert, den betroffenen Menschen humanitäre Hilfe zukommen zu lassen."
-              },
-              {
-                "text": "Ich bin mir ziemlich sicher: Wenn es einen ungehinderten Zugang gibt und die Menschen von der humanitären Hilfe, die angeboten wird, profitieren, wird es sicherlich nicht an Geldmitteln mangeln."
-              },
-              {
-                "text": "Die Bundesregierung ist jedenfalls bereit, notwendige Mittel gemeinsam mit anderen internationalen Partnern zur Verfügung zu stellen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Ich mache jetzt trotz Ihrer Wortmeldung, Frau Hänsel, mit der nächsten Frage weiter, weil Sie drei eigene Fragen zu dem Thema vorgelegt haben.",
-            "sentences": [
-              {
-                "text": "Ich mache jetzt trotz Ihrer Wortmeldung, Frau Hänsel, mit der nächsten Frage weiter, weil Sie drei eigene Fragen zu dem Thema vorgelegt haben."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Ich rufe jetzt die Frage 20 der Abgeordneten Simone Barrientos auf:",
-            "sentences": [
-              {
-                "text": "Ich rufe jetzt die Frage 20 der Abgeordneten Simone Barrientos auf:"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Herr Staatsminister.",
-            "sentences": [
-              {
-                "text": "Herr Staatsminister."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Michael Roth",
-            "speakerstatus": "speaker",
-            "text": "Vielen Dank, Herr Präsident. – Frau Kollegin Barrientos, für die Bundesregierung ist Juan Guaidó im Einklang mit der venezolanischen Verfassung der Übergangspräsident des Landes, und er hat – das ist sein Auftrag – möglichst rasch freie und faire Präsidentschaftswahlen zu organisieren, sobald die politischen Rahmenbedingungen in Venezuela dies zulassen.",
-            "sentences": [
-              {
-                "text": "Vielen Dank, Herr Präsident."
-              },
-              {
-                "text": "– Frau Kollegin Barrientos, für die Bundesregierung ist Juan Guaidó im Einklang mit der venezolanischen Verfassung der Übergangspräsident des Landes, und er hat – das ist sein Auftrag – möglichst rasch freie und faire Präsidentschaftswahlen zu organisieren, sobald die politischen Rahmenbedingungen in Venezuela dies zulassen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Möchten Sie eine Zusatzfrage stellen?",
-            "sentences": [
-              {
-                "text": "Möchten Sie eine Zusatzfrage stellen?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Simone Barrientos",
-            "speakerstatus": "speaker",
-            "text": "Ja, vielen Dank. – Die Logik der Opposition der Nationalversammlung ist: Wir erkennen nicht an. – Deshalb entsteht eine Vakanz. Diese wiederum berechtigt nach Artikel 233 der geltenden venezolanischen Verfassung, einen Interimspräsidenten zu benennen. Er ist nicht der anerkannte Interimspräsident, sondern der selbsternannte. Das möchten wir festhalten. Die Verfassung sieht aber die Nichtanerkennung einer Wahl – erst recht durch das Ausland – als zwingenden Hinderungsgrund für die Anerkennung nicht vor. Außerdem sieht Artikel 231 vor, dass der Präsident vor dem Obersten Gerichtshof dann verteidigt wird, wenn er – ich übersetze aus der Verfassung – „gleich aus welchem Grund nicht vor der Nationalversammlung das Amt antreten kann“.",
-            "sentences": [
-              {
-                "text": "Ja, vielen Dank."
-              },
-              {
-                "text": "– Die Logik der Opposition der Nationalversammlung ist: Wir erkennen nicht an."
-              },
-              {
-                "text": "– Deshalb entsteht eine Vakanz."
-              },
-              {
-                "text": "Diese wiederum berechtigt nach Artikel 233 der geltenden venezolanischen Verfassung, einen Interimspräsidenten zu benennen."
-              },
-              {
-                "text": "Er ist nicht der anerkannte Interimspräsident, sondern der selbsternannte."
-              },
-              {
-                "text": "Das möchten wir festhalten."
-              },
-              {
-                "text": "Die Verfassung sieht aber die Nichtanerkennung einer Wahl – erst recht durch das Ausland – als zwingenden Hinderungsgrund für die Anerkennung nicht vor."
-              },
-              {
-                "text": "Außerdem sieht Artikel 231 vor, dass der Präsident vor dem Obersten Gerichtshof dann verteidigt wird, wenn er – ich übersetze aus der Verfassung – „gleich aus welchem Grund nicht vor der Nationalversammlung das Amt antreten kann“."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Simone Barrientos",
-            "speakerstatus": "speaker",
-            "text": "Auf welche rechtliche Grundlage stützt die Bundesregierung ihre Ansicht, dass eine Präsidentschaftswahl in Venezuela, die durch das Ausland – ich betone: durch das Ausland – nicht als frei und fair anerkannt wird, einen in Artikel 233 der venezolanischen Verfassung definierten „zwingenden Hinderungsgrund“, die sogenannte falta absoluta, erfüllt?",
-            "sentences": [
-              {
-                "text": "Auf welche rechtliche Grundlage stützt die Bundesregierung ihre Ansicht, dass eine Präsidentschaftswahl in Venezuela, die durch das Ausland – ich betone: durch das Ausland – nicht als frei und fair anerkannt wird, einen in Artikel 233 der venezolanischen Verfassung definierten „zwingenden Hinderungsgrund“, die sogenannte falta absoluta, erfüllt?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Michael Roth",
-            "speakerstatus": "speaker",
-            "text": "Seit der illegitimen und undemokratischen Wahl des Präsidenten Maduro im vergangenen Jahr – im Mai 2018 – ist die Haltung der Europäischen Union und der Bundesregierung sehr klar, und wir haben das auch immer wieder durch öffentliche Statements entsprechend bekundet. Für uns ist die Nationalversammlung Venezuelas das einzig demokratisch legitimierte Organ. Es steht für uns völlig außer Frage, dass es schnellstmöglich zu demokratischen, freien und fairen Präsidentschaftswahlen in Venezuela zu kommen hat. Genau das ist die Aufgabe des Übergangspräsidenten. Es gibt eine entsprechende Auslegung des Artikels 233 der venezolanischen Verfassung. Nach unserer Kenntnis betrachtet die Opposition die Amtseinführung eines Präsidenten, der nicht in freien und fairen Wahlen gewählt wurde, als einen Gewaltakt gegen die Verfassung und den Präsidenten, und insofern gilt er aus Sicht der Opposition als amtsunfähig.",
-            "sentences": [
-              {
-                "text": "Seit der illegitimen und undemokratischen Wahl des Präsidenten Maduro im vergangenen Jahr – im Mai 2018 – ist die Haltung der Europäischen Union und der Bundesregierung sehr klar, und wir haben das auch immer wieder durch öffentliche Statements entsprechend bekundet."
-              },
-              {
-                "text": "Für uns ist die Nationalversammlung Venezuelas das einzig demokratisch legitimierte Organ."
-              },
-              {
-                "text": "Es steht für uns völlig außer Frage, dass es schnellstmöglich zu demokratischen, freien und fairen Präsidentschaftswahlen in Venezuela zu kommen hat."
-              },
-              {
-                "text": "Genau das ist die Aufgabe des Übergangspräsidenten."
-              },
-              {
-                "text": "Es gibt eine entsprechende Auslegung des Artikels 233 der venezolanischen Verfassung."
-              },
-              {
-                "text": "Nach unserer Kenntnis betrachtet die Opposition die Amtseinführung eines Präsidenten, der nicht in freien und fairen Wahlen gewählt wurde, als einen Gewaltakt gegen die Verfassung und den Präsidenten, und insofern gilt er aus Sicht der Opposition als amtsunfähig."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Simone Barrientos",
-            "speakerstatus": "speaker",
-            "text": "Aus Sicht der Opposition und aus Sicht von Herrn ­Guaidó, der zu den Wahlen gar nicht angetreten ist – – Entschuldigung, ich habe noch eine Nachfrage. Sie haben mir das Wort gar nicht erteilt. Ich habe es mir einfach genommen. Das ist mein lateinamerikanisches Blut; so könnte man vermuten.",
-            "sentences": [
-              {
-                "text": "Aus Sicht der Opposition und aus Sicht von Herrn ­Guaidó, der zu den Wahlen gar nicht angetreten ist – – Entschuldigung, ich habe noch eine Nachfrage."
-              },
-              {
-                "text": "Sie haben mir das Wort gar nicht erteilt."
-              },
-              {
-                "text": "Ich habe es mir einfach genommen."
-              },
-              {
-                "text": "Das ist mein lateinamerikanisches Blut; so könnte man vermuten."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Simone Barrientos",
-            "speakerstatus": "speaker",
-            "text": "Also: Der Kollege Guaidó hat an der Wahl gar nicht teilgenommen, obwohl er es hätte tun können. Die Opposition hat die Wahl in weiten Teilen boykottiert. Ich war in Venezuela und berufe mich in diesem Fall gar nicht auf mich, sondern auf den Kollegen Zapatero aus Spanien, der die Wahlen von Anfang bis Ende verfolgt und gesagt hat: Es gibt eigentlich gar keinen demokratischeren Wahlprozess als den in Venezuela. – Wir werden uns da nicht einigen. Es muss aber schon noch einmal gesagt werden: Das ist Ihre Auffassung, die nicht überall geteilt wird. Maduro ist ja von sehr vielen Ländern anerkannt worden. Auch das fällt immer gern unter den Tisch.",
-            "sentences": [
-              {
-                "text": "Also: Der Kollege Guaidó hat an der Wahl gar nicht teilgenommen, obwohl er es hätte tun können."
-              },
-              {
-                "text": "Die Opposition hat die Wahl in weiten Teilen boykottiert."
-              },
-              {
-                "text": "Ich war in Venezuela und berufe mich in diesem Fall gar nicht auf mich, sondern auf den Kollegen Zapatero aus Spanien, der die Wahlen von Anfang bis Ende verfolgt und gesagt hat: Es gibt eigentlich gar keinen demokratischeren Wahlprozess als den in Venezuela."
-              },
-              {
-                "text": "– Wir werden uns da nicht einigen."
-              },
-              {
-                "text": "Es muss aber schon noch einmal gesagt werden: Das ist Ihre Auffassung, die nicht überall geteilt wird."
-              },
-              {
-                "text": "Maduro ist ja von sehr vielen Ländern anerkannt worden."
-              },
-              {
-                "text": "Auch das fällt immer gern unter den Tisch."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Simone Barrientos",
-            "speakerstatus": "speaker",
-            "text": "Ich kenne keine anderen Beispiele aus der Geschichte der bundesrepublikanischen Diplomatie, die zeigen, dass Gegenpräsidenten anerkannt wurden, die keine reale Macht in einem Land hatten. – Danke.",
-            "sentences": [
-              {
-                "text": "Ich kenne keine anderen Beispiele aus der Geschichte der bundesrepublikanischen Diplomatie, die zeigen, dass Gegenpräsidenten anerkannt wurden, die keine reale Macht in einem Land hatten."
-              },
-              {
-                "text": "– Danke."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Michael Roth",
-            "speakerstatus": "speaker",
-            "text": "Herr Präsident! Frau Kollegin, ich habe bereits auf die besonders dramatische und außergewöhnliche Lage in Venezuela hingewiesen. Ich kann mir aber nicht vorstellen, dass Ihnen entgangen sein sollte, dass die aussichtsreichsten Oppositionsparteien und deren Kandidaten bei den Wahlen ausgeschlossen worden sind. Insofern kann man dem derzeitigen Interimspräsidenten Guaidó nicht vorwerfen, er habe gar nicht an den Wahlen teilgenommen. Dort sind die aussichtsreichsten Kandidaten von der Wahl bewusst ausgeschlossen worden. Es hat einen verbreiteten Missbrauch, Wählernötigung und einen ungleichen Zugang zu Medien gegeben. Insofern sind diese Wahlen weder fair noch glaubwürdig.",
-            "sentences": [
-              {
-                "text": "Herr Präsident!"
-              },
-              {
-                "text": "Frau Kollegin, ich habe bereits auf die besonders dramatische und außergewöhnliche Lage in Venezuela hingewiesen."
-              },
-              {
-                "text": "Ich kann mir aber nicht vorstellen, dass Ihnen entgangen sein sollte, dass die aussichtsreichsten Oppositionsparteien und deren Kandidaten bei den Wahlen ausgeschlossen worden sind."
-              },
-              {
-                "text": "Insofern kann man dem derzeitigen Interimspräsidenten Guaidó nicht vorwerfen, er habe gar nicht an den Wahlen teilgenommen."
-              },
-              {
-                "text": "Dort sind die aussichtsreichsten Kandidaten von der Wahl bewusst ausgeschlossen worden."
-              },
-              {
-                "text": "Es hat einen verbreiteten Missbrauch, Wählernötigung und einen ungleichen Zugang zu Medien gegeben."
-              },
-              {
-                "text": "Insofern sind diese Wahlen weder fair noch glaubwürdig."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Vielen Dank. – Ich erteile der Kollegin Vogler das Wort für eine Zusatzfrage, weil sie keine drei weiteren Fragen eingereicht hat. – Bitte sehr, Frau Kollegin.",
-            "sentences": [
-              {
-                "text": "Vielen Dank."
-              },
-              {
-                "text": "– Ich erteile der Kollegin Vogler das Wort für eine Zusatzfrage, weil sie keine drei weiteren Fragen eingereicht hat."
-              },
-              {
-                "text": "– Bitte sehr, Frau Kollegin."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Kathrin Vogler",
-            "speakerstatus": "speaker",
-            "text": "Vielen Dank. – Sie haben gerade dargestellt, dass das Vorgehen der Bundesregierung in Venezuela etwas mit der dramatischen Lage dort zu tun hat. Dann frage ich mich erst recht, warum die Bundesregierung den neugewählten, nein, nicht gewählten, sondern selbst inthronisierten Präsidenten Kameruns, Paul Biya, anerkannt hat, nachdem die Wahlen dort ganz offensichtlich gefälscht worden sind, und warum sie nicht Maurice Kamto, der vermutlich der Wahlsieger war, aber am letzten Wochenende in das Gefängnis geworfen worden ist, als legitimen Präsidenten anerkennt. Das ist wirklich eine derart absurde Argumentation. Kann es sein, dass es der Bundesregierung hierbei in erster Linie darum geht, dem Bündnispartner USA Zugriff auf das venezolanische Öl zu ermöglichen?",
-            "sentences": [
-              {
-                "text": "Vielen Dank."
-              },
-              {
-                "text": "– Sie haben gerade dargestellt, dass das Vorgehen der Bundesregierung in Venezuela etwas mit der dramatischen Lage dort zu tun hat."
-              },
-              {
-                "text": "Dann frage ich mich erst recht, warum die Bundesregierung den neugewählten, nein, nicht gewählten, sondern selbst inthronisierten Präsidenten Kameruns, Paul Biya, anerkannt hat, nachdem die Wahlen dort ganz offensichtlich gefälscht worden sind, und warum sie nicht Maurice Kamto, der vermutlich der Wahlsieger war, aber am letzten Wochenende in das Gefängnis geworfen worden ist, als legitimen Präsidenten anerkennt."
-              },
-              {
-                "text": "Das ist wirklich eine derart absurde Argumentation."
-              },
-              {
-                "text": "Kann es sein, dass es der Bundesregierung hierbei in erster Linie darum geht, dem Bündnispartner USA Zugriff auf das venezolanische Öl zu ermöglichen?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Michael Roth",
-            "speakerstatus": "speaker",
-            "text": "Ich habe die Umstände der Präsidentschaftswahlen im Mai vergangenen Jahres geschildert. Daraus sollte deutlich geworden sein, was sich in diesem Land abgespielt hat.",
-            "sentences": [
-              {
-                "text": "Ich habe die Umstände der Präsidentschaftswahlen im Mai vergangenen Jahres geschildert."
-              },
-              {
-                "text": "Daraus sollte deutlich geworden sein, was sich in diesem Land abgespielt hat."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Michael Roth",
-            "speakerstatus": "speaker",
-            "text": "Die Diskussionen in der Europäischen Union zu dieser Frage sind sehr intensiv geführt worden. Die Bundesregierung hat sich immer um ein Höchstmaß an Geschlossenheit und Entschlossenheit der Europäischen Union bemüht. Wir stehen hier im Einklang mit 22 weiteren EU-Mitgliedstaaten und einer Reihe von lateinamerikanischen Nachbarstaaten, die diesen Übergangspräsidenten anerkannt haben.",
-            "sentences": [
-              {
-                "text": "Die Diskussionen in der Europäischen Union zu dieser Frage sind sehr intensiv geführt worden."
-              },
-              {
-                "text": "Die Bundesregierung hat sich immer um ein Höchstmaß an Geschlossenheit und Entschlossenheit der Europäischen Union bemüht."
-              },
-              {
-                "text": "Wir stehen hier im Einklang mit 22 weiteren EU-Mitgliedstaaten und einer Reihe von lateinamerikanischen Nachbarstaaten, die diesen Übergangspräsidenten anerkannt haben."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Michael Roth",
-            "speakerstatus": "speaker",
-            "text": "Ich möchte noch einmal hervorheben: Es ist die zentrale Aufgabe dieses Übergangspräsidenten, freie und faire Präsidentschaftswahlen herbeizuführen, weil aus unserer Sicht nur die Nationalversammlung demokratisch legitimiert ist.",
-            "sentences": [
-              {
-                "text": "Ich möchte noch einmal hervorheben: Es ist die zentrale Aufgabe dieses Übergangspräsidenten, freie und faire Präsidentschaftswahlen herbeizuführen, weil aus unserer Sicht nur die Nationalversammlung demokratisch legitimiert ist."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Vielen Dank. – Wir kommen jetzt zu Frage 21 des Abgeordneten Andrej Hunko, Fraktion Die Linke:",
-            "sentences": [
-              {
-                "text": "Vielen Dank."
-              },
-              {
-                "text": "– Wir kommen jetzt zu Frage 21 des Abgeordneten Andrej Hunko, Fraktion Die Linke:"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Herr Staatsminister.",
-            "sentences": [
-              {
-                "text": "Herr Staatsminister."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Michael Roth",
-            "speakerstatus": "speaker",
-            "text": "Vielen Dank, Herr Präsident. – Wir sind jetzt in der Situation, dass ich eine Frage beantworte, die ich offenkundig schon einmal zu beantworten versucht habe.",
-            "sentences": [
-              {
-                "text": "Vielen Dank, Herr Präsident."
-              },
-              {
-                "text": "– Wir sind jetzt in der Situation, dass ich eine Frage beantworte, die ich offenkundig schon einmal zu beantworten versucht habe."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Dann können Sie das kürzer machen.",
-            "sentences": [
-              {
-                "text": "Dann können Sie das kürzer machen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Michael Roth",
-            "speakerstatus": "speaker",
-            "text": "Für uns ist Juan Guaidó im Einklang mit der venezolanischen Verfassung der legitime Übergangspräsident auf dem Weg zu Präsidentschaftsneuwahlen in Venezuela. Es handelt sich hier um einen Sonderfall, der zudem auf ein klares Mandat beschränkt ist, das die venezolanische Verfassung Guaidó zuweist, nämlich die Organisation von freien und fairen Präsidentschaftswahlen. Die Bundesregierung hat mit ihrer politischen Erklärung ihre Unterstützung für Guaidó auf diesem Weg zum Ausdruck gebracht.",
-            "sentences": [
-              {
-                "text": "Für uns ist Juan Guaidó im Einklang mit der venezolanischen Verfassung der legitime Übergangspräsident auf dem Weg zu Präsidentschaftsneuwahlen in Venezuela."
-              },
-              {
-                "text": "Es handelt sich hier um einen Sonderfall, der zudem auf ein klares Mandat beschränkt ist, das die venezolanische Verfassung Guaidó zuweist, nämlich die Organisation von freien und fairen Präsidentschaftswahlen."
-              },
-              {
-                "text": "Die Bundesregierung hat mit ihrer politischen Erklärung ihre Unterstützung für Guaidó auf diesem Weg zum Ausdruck gebracht."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Haben Sie eine Nachfrage, Herr Hunko?",
-            "sentences": [
-              {
-                "text": "Haben Sie eine Nachfrage, Herr Hunko?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Andrej Hunko",
-            "speakerstatus": "speaker",
-            "text": "Vielen Dank. – Herr Staatsminister, die Frage bezieht sich darauf, ob Sie die Einschätzung haben, dass Guaidó in dem Lande über eine reale Macht verfügt. Der Grund für diese Frage ist, dass der Wissenschaftliche Dienst des Deutschen Bundestages sagt: Eine Anerkennung als Präsident – die Sie ja vorgenommen haben – ist dann völkerrechtswidrig, wenn er gar keine reale Macht hat, was ja ganz offensichtlich der Fall ist. Hier steht sozusagen der Vorwurf der Missachtung des Völkerrechts im Raume. Deswegen noch mal meine Nachfrage: Sind Sie der Meinung, dass Guaidó die Kontrolle über die Sicherheitskräfte – die Polizei, das Militär – hat oder nicht?",
-            "sentences": [
-              {
-                "text": "Vielen Dank."
-              },
-              {
-                "text": "– Herr Staatsminister, die Frage bezieht sich darauf, ob Sie die Einschätzung haben, dass Guaidó in dem Lande über eine reale Macht verfügt."
-              },
-              {
-                "text": "Der Grund für diese Frage ist, dass der Wissenschaftliche Dienst des Deutschen Bundestages sagt: Eine Anerkennung als Präsident – die Sie ja vorgenommen haben – ist dann völkerrechtswidrig, wenn er gar keine reale Macht hat, was ja ganz offensichtlich der Fall ist."
-              },
-              {
-                "text": "Hier steht sozusagen der Vorwurf der Missachtung des Völkerrechts im Raume."
-              },
-              {
-                "text": "Deswegen noch mal meine Nachfrage: Sind Sie der Meinung, dass Guaidó die Kontrolle über die Sicherheitskräfte – die Polizei, das Militär – hat oder nicht?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Michael Roth",
-            "speakerstatus": "speaker",
-            "text": "Vielen Dank. – Herr Präsident! Lieber Kollege, Sie wissen, dass die Bundesregierung grundsätzlich Gutachten des Wissenschaftliches Dienstes des Deutschen Bundestages nicht weiter bewertet; wir nehmen sie zur Kenntnis.",
-            "sentences": [
-              {
-                "text": "Vielen Dank."
-              },
-              {
-                "text": "– Herr Präsident!"
-              },
-              {
-                "text": "Lieber Kollege, Sie wissen, dass die Bundesregierung grundsätzlich Gutachten des Wissenschaftliches Dienstes des Deutschen Bundestages nicht weiter bewertet; wir nehmen sie zur Kenntnis."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Michael Roth",
-            "speakerstatus": "speaker",
-            "text": "Ich habe darauf hingewiesen, dass 23 Staaten der Europäischen Union, unter anderem auch Deutschland, Guaidó als Interimspräsidenten mit dem klaren Auftrag, Neuwahlen alsbald herbeizuführen, anerkannt haben.",
-            "sentences": [
-              {
-                "text": "Ich habe darauf hingewiesen, dass 23 Staaten der Europäischen Union, unter anderem auch Deutschland, Guaidó als Interimspräsidenten mit dem klaren Auftrag, Neuwahlen alsbald herbeizuführen, anerkannt haben."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Michael Roth",
-            "speakerstatus": "speaker",
-            "text": "Das bedeutet aber nicht, dass sich an den politischen Verhältnissen in Venezuela selbst etwas Grundlegendes geändert hat. Die Gesellschaft ist nach wie vor gespalten. Herr Maduro hat bislang keinerlei Bereitschaft erkennen lassen, auf einen Dialogprozess einzugehen und den Forderungen nachzukommen. Wir selbst arbeiten engagiert in der Kontaktgruppe, auch mit lateinamerikanischen Nachbarstaaten, um eine friedliche Lösung dieses Konflikts herbeizuführen.",
-            "sentences": [
-              {
-                "text": "Das bedeutet aber nicht, dass sich an den politischen Verhältnissen in Venezuela selbst etwas Grundlegendes geändert hat."
-              },
-              {
-                "text": "Die Gesellschaft ist nach wie vor gespalten."
-              },
-              {
-                "text": "Herr Maduro hat bislang keinerlei Bereitschaft erkennen lassen, auf einen Dialogprozess einzugehen und den Forderungen nachzukommen."
-              },
-              {
-                "text": "Wir selbst arbeiten engagiert in der Kontaktgruppe, auch mit lateinamerikanischen Nachbarstaaten, um eine friedliche Lösung dieses Konflikts herbeizuführen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Vielen Dank. – Wollen Sie eine weitere Zusatzfrage stellen?",
-            "sentences": [
-              {
-                "text": "Vielen Dank."
-              },
-              {
-                "text": "– Wollen Sie eine weitere Zusatzfrage stellen?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Andrej Hunko",
-            "speakerstatus": "speaker",
-            "text": "Ja. – Sie weichen im Grunde genommen der Antwort auf die Frage aus, ob Guaidó über eine reale Kontrolle in Venezuela verfügt. Es macht es ja nicht besser, wenn insgesamt 23 Staaten der Europäischen Union das Völkerrecht brechen, als wenn es nur die Bundesregierung macht. Es ist nicht die Weltgemeinschaft; es ist die Mehrheit der EU-Staaten. Es ist nicht die Mehrheit der Organisation Amerikanischer Staaten. Es gab dort keine Mehrheit für die Anerkennung; das muss man auch deutlich sagen. Andere Teile der Welt – Afrika, China, Russland – kommen zu einer ganz anderen Auffassung. Sie sagten, Sie möchten eine friedliche Lösung: Halten Sie es nicht für besser, anstatt einer solch einseitigen Anerkennung, dass sich die Bundesrepublik neutral verhält und zum Beispiel die Initiative von Mexiko und Uruguay unterstützt, die einen Dialogprozess in Venezuela auslösen wollen?",
-            "sentences": [
-              {
-                "text": "Ja."
-              },
-              {
-                "text": "– Sie weichen im Grunde genommen der Antwort auf die Frage aus, ob Guaidó über eine reale Kontrolle in Venezuela verfügt."
-              },
-              {
-                "text": "Es macht es ja nicht besser, wenn insgesamt 23 Staaten der Europäischen Union das Völkerrecht brechen, als wenn es nur die Bundesregierung macht."
-              },
-              {
-                "text": "Es ist nicht die Weltgemeinschaft; es ist die Mehrheit der EU-Staaten."
-              },
-              {
-                "text": "Es ist nicht die Mehrheit der Organisation Amerikanischer Staaten."
-              },
-              {
-                "text": "Es gab dort keine Mehrheit für die Anerkennung; das muss man auch deutlich sagen."
-              },
-              {
-                "text": "Andere Teile der Welt – Afrika, China, Russland – kommen zu einer ganz anderen Auffassung."
-              },
-              {
-                "text": "Sie sagten, Sie möchten eine friedliche Lösung: Halten Sie es nicht für besser, anstatt einer solch einseitigen Anerkennung, dass sich die Bundesrepublik neutral verhält und zum Beispiel die Initiative von Mexiko und Uruguay unterstützt, die einen Dialogprozess in Venezuela auslösen wollen?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Michael Roth",
-            "speakerstatus": "speaker",
-            "text": "Herr Präsident! Lieber Herr Kollege Hunko, diese Bundesregierung ist nicht neutral. Seit Mai vergangenen Jahres, seit diesen illegitimen und undemokratischen Wahlen haben wir klar ausgesprochen, dass Maduro nicht die demokratische Legitimation besitzt, um seinen Amtsgeschäften nachzukommen.",
-            "sentences": [
-              {
-                "text": "Herr Präsident!"
-              },
-              {
-                "text": "Lieber Herr Kollege Hunko, diese Bundesregierung ist nicht neutral."
-              },
-              {
-                "text": "Seit Mai vergangenen Jahres, seit diesen illegitimen und undemokratischen Wahlen haben wir klar ausgesprochen, dass Maduro nicht die demokratische Legitimation besitzt, um seinen Amtsgeschäften nachzukommen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Michael Roth",
-            "speakerstatus": "speaker",
-            "text": "Das ist die klare Haltung der Bundesregierung und der internationalen Staatengemeinschaft.",
-            "sentences": [
-              {
-                "text": "Das ist die klare Haltung der Bundesregierung und der internationalen Staatengemeinschaft."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Michael Roth",
-            "speakerstatus": "speaker",
-            "text": "Am 26. Januar hat sich der Sicherheitsrat der Vereinten Nationen mit Venezuela befasst. Sie wissen doch genau, warum wir dort zu keinem Fortschritt gekommen sind: weil sowohl Russland als auch China sich entsprechend zugunsten von Herrn Maduro verhalten haben. Das ist die bittere Realität in den Vereinten Nationen.",
-            "sentences": [
-              {
-                "text": "Am 26. Januar hat sich der Sicherheitsrat der Vereinten Nationen mit Venezuela befasst."
-              },
-              {
-                "text": "Sie wissen doch genau, warum wir dort zu keinem Fortschritt gekommen sind: weil sowohl Russland als auch China sich entsprechend zugunsten von Herrn Maduro verhalten haben."
-              },
-              {
-                "text": "Das ist die bittere Realität in den Vereinten Nationen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Vielen Dank. – Wir kommen gleich zur nächsten Frage, zur Frage 22 von Herrn Hunko:",
-            "sentences": [
-              {
-                "text": "Vielen Dank."
-              },
-              {
-                "text": "– Wir kommen gleich zur nächsten Frage, zur Frage 22 von Herrn Hunko:"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Herr Staatsminister.",
-            "sentences": [
-              {
-                "text": "Herr Staatsminister."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Michael Roth",
-            "speakerstatus": "speaker",
-            "text": "Herr Präsident! Lieber Kollege Hunko, die Bundesregierung steht mit der US-amerikanischen Regierung in einem kontinuierlichen Austausch, insbesondere zu Venezuela. Wir setzen uns gemeinsam mit unseren Partnern, auch mit den USA, für eine friedliche Lösung des Konflikts in Venezuela ein, und wir rufen ausdrücklich alle Seiten zum Gewaltverzicht auf.",
-            "sentences": [
-              {
-                "text": "Herr Präsident!"
-              },
-              {
-                "text": "Lieber Kollege Hunko, die Bundesregierung steht mit der US-amerikanischen Regierung in einem kontinuierlichen Austausch, insbesondere zu Venezuela."
-              },
-              {
-                "text": "Wir setzen uns gemeinsam mit unseren Partnern, auch mit den USA, für eine friedliche Lösung des Konflikts in Venezuela ein, und wir rufen ausdrücklich alle Seiten zum Gewaltverzicht auf."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Haben Sie eine Nachfrage?",
-            "sentences": [
-              {
-                "text": "Haben Sie eine Nachfrage?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Andrej Hunko",
-            "speakerstatus": "speaker",
-            "text": "Ja. – Herr Staatsminister, teilt die Bundesregierung die eindeutige Auffassung des Wissenschaftlichen Dienstes des Bundestages, dass die Androhung von militärischer Gewalt, wie sie ja seitens der USA vorgenommen wurde, und die Androhung, Maduro in das Foltergefängnis Guantánamo zu schicken, eindeutige Brüche des Völkerrechts sind? Ist die Bundesregierung bereit, sich von solchen Drohungen zu distanzieren?",
-            "sentences": [
-              {
-                "text": "Ja."
-              },
-              {
-                "text": "– Herr Staatsminister, teilt die Bundesregierung die eindeutige Auffassung des Wissenschaftlichen Dienstes des Bundestages, dass die Androhung von militärischer Gewalt, wie sie ja seitens der USA vorgenommen wurde, und die Androhung, Maduro in das Foltergefängnis Guantánamo zu schicken, eindeutige Brüche des Völkerrechts sind?"
-              },
-              {
-                "text": "Ist die Bundesregierung bereit, sich von solchen Drohungen zu distanzieren?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Michael Roth",
-            "speakerstatus": "speaker",
-            "text": "Herr Präsident! Lieber Kollege Hunko, ich habe schon darauf hingewiesen, dass die Bundesregierung Gutachten des Wissenschaftlichen Dienstes des Deutschen Bundestages zur Kenntnis nimmt. Wir machen uns die Inhalte grundsätzlich nicht zu eigen; wir nehmen sie zur Kenntnis. Ich habe schon hervorgehoben, worum es uns geht: Es geht uns um eine friedliche Lösung dieses Konfliktes. Wir treten für den Gewaltverzicht aller Beteiligten ein, und wir drängen auf eine politische Lösung, bei der am Ende alsbald Neuwahlen stehen. Die haben demokratisch, frei und fair zu sein.",
-            "sentences": [
-              {
-                "text": "Herr Präsident!"
-              },
-              {
-                "text": "Lieber Kollege Hunko, ich habe schon darauf hingewiesen, dass die Bundesregierung Gutachten des Wissenschaftlichen Dienstes des Deutschen Bundestages zur Kenntnis nimmt."
-              },
-              {
-                "text": "Wir machen uns die Inhalte grundsätzlich nicht zu eigen; wir nehmen sie zur Kenntnis."
-              },
-              {
-                "text": "Ich habe schon hervorgehoben, worum es uns geht: Es geht uns um eine friedliche Lösung dieses Konfliktes."
-              },
-              {
-                "text": "Wir treten für den Gewaltverzicht aller Beteiligten ein, und wir drängen auf eine politische Lösung, bei der am Ende alsbald Neuwahlen stehen."
-              },
-              {
-                "text": "Die haben demokratisch, frei und fair zu sein."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Vielen Dank. – Herr Hunko, die zweite Nachfrage. Bitte sehr.",
-            "sentences": [
-              {
-                "text": "Vielen Dank."
-              },
-              {
-                "text": "– Herr Hunko, die zweite Nachfrage."
-              },
-              {
-                "text": "Bitte sehr."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Andrej Hunko",
-            "speakerstatus": "speaker",
-            "text": "Eine militärische Intervention in Venezuela seitens der USA steht im Raum. Schließt die Bundesregierung eine direkte oder indirekte Beteiligung an einer solchen militärischen Intervention in Venezuela aus?",
-            "sentences": [
-              {
-                "text": "Eine militärische Intervention in Venezuela seitens der USA steht im Raum."
-              },
-              {
-                "text": "Schließt die Bundesregierung eine direkte oder indirekte Beteiligung an einer solchen militärischen Intervention in Venezuela aus?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Michael Roth",
-            "speakerstatus": "speaker",
-            "text": "Herr Präsident! Lieber Kollege Hunko, ich weiß nicht, wie ich es noch deutlicher sagen soll: Wir treten für eine friedliche Lösung ein, und eine friedliche Lösung verzichtet auf militärische Mittel. Das ist die Haltung der Bundesregierung.",
-            "sentences": [
-              {
-                "text": "Herr Präsident!"
-              },
-              {
-                "text": "Lieber Kollege Hunko, ich weiß nicht, wie ich es noch deutlicher sagen soll: Wir treten für eine friedliche Lösung ein, und eine friedliche Lösung verzichtet auf militärische Mittel."
-              },
-              {
-                "text": "Das ist die Haltung der Bundesregierung."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Danke. – Zusatzfrage, Frau Vogler.",
-            "sentences": [
-              {
-                "text": "Danke."
-              },
-              {
-                "text": "– Zusatzfrage, Frau Vogler."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Kathrin Vogler",
-            "speakerstatus": "speaker",
-            "text": "Vielen Dank, Herr Präsident. – Herr Staatsminister, das sehen ja offensichtlich nicht alle Verbündeten so, wenn man die Äußerungen, die der amerikanische Außenminister Mike Pompeo auf Fox News gemacht hat, in Betracht zieht. Er schafft schon jetzt sozusagen eine militärische Drohkulisse oder eine interventionsvorbereitende Erzählung, indem er zum Beispiel erklärt, dass in Venezuela aktive Zellen der Hisbollah seien, die die Bürgerinnen und Bürger der Vereinigten Staaten unmittelbar bedrohten, wogegen man die Bürgerinnen und Bürger der Vereinigten Staaten notfalls auch militärisch verteidigen müsse. Das scheint für mich eher eine Geschichte zu sein, die mich an so manche Brutkastenlüge oder Hufeisen-Pläne erinnert. Nichtsdestotrotz ist es offensichtlich so, dass in den USA schon argumentativ vorbereitet wird, militärisch zu intervenieren.",
-            "sentences": [
-              {
-                "text": "Vielen Dank, Herr Präsident."
-              },
-              {
-                "text": "– Herr Staatsminister, das sehen ja offensichtlich nicht alle Verbündeten so, wenn man die Äußerungen, die der amerikanische Außenminister Mike Pompeo auf Fox News gemacht hat, in Betracht zieht."
-              },
-              {
-                "text": "Er schafft schon jetzt sozusagen eine militärische Drohkulisse oder eine interventionsvorbereitende Erzählung, indem er zum Beispiel erklärt, dass in Venezuela aktive Zellen der Hisbollah seien, die die Bürgerinnen und Bürger der Vereinigten Staaten unmittelbar bedrohten, wogegen man die Bürgerinnen und Bürger der Vereinigten Staaten notfalls auch militärisch verteidigen müsse."
-              },
-              {
-                "text": "Das scheint für mich eher eine Geschichte zu sein, die mich an so manche Brutkastenlüge oder Hufeisen-Pläne erinnert."
-              },
-              {
-                "text": "Nichtsdestotrotz ist es offensichtlich so, dass in den USA schon argumentativ vorbereitet wird, militärisch zu intervenieren."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Kathrin Vogler",
-            "speakerstatus": "speaker",
-            "text": "Deswegen frage ich Sie: Verfügt die Bundesregierung über eigene Erkenntnisse, was aktive Zellen der Hisbollah angeht? Würde sie dies als berechtigten Verteidigungsfall für die USA gelten lassen oder ihrem Verbündeten dabei in die Parade fahren?",
-            "sentences": [
-              {
-                "text": "Deswegen frage ich Sie: Verfügt die Bundesregierung über eigene Erkenntnisse, was aktive Zellen der Hisbollah angeht?"
-              },
-              {
-                "text": "Würde sie dies als berechtigten Verteidigungsfall für die USA gelten lassen oder ihrem Verbündeten dabei in die Parade fahren?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Michael Roth",
-            "speakerstatus": "speaker",
-            "text": "Herr Präsident! Frau Kollegin, ich kann zu diesen sogenannten Erkenntnissen nichts sagen. Mir liegen jedenfalls keine eigenen Erkenntnisse dazu vor. Mir scheint, dass die größte Bedrohung für die Sicherheit der Menschen in Venezuela Herr Maduro ist.",
-            "sentences": [
-              {
-                "text": "Herr Präsident!"
-              },
-              {
-                "text": "Frau Kollegin, ich kann zu diesen sogenannten Erkenntnissen nichts sagen."
-              },
-              {
-                "text": "Mir liegen jedenfalls keine eigenen Erkenntnisse dazu vor."
-              },
-              {
-                "text": "Mir scheint, dass die größte Bedrohung für die Sicherheit der Menschen in Venezuela Herr Maduro ist."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Vielen Dank.",
-            "sentences": [
-              {
-                "text": "Vielen Dank."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "– Nein, ich lasse Ihre Frage nicht zu; die Zeit für die Fragestunde ist nämlich gleich um. – Ich rufe als letzte Frage die Frage 23 des Abgeordneten Dr. Diether Dehm auf:",
-            "sentences": [
-              {
-                "text": "– Nein, ich lasse Ihre Frage nicht zu; die Zeit für die Fragestunde ist nämlich gleich um."
-              },
-              {
-                "text": "– Ich rufe als letzte Frage die Frage 23 des Abgeordneten Dr. Diether Dehm auf:"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Herr Staatsminister.",
-            "sentences": [
-              {
-                "text": "Herr Staatsminister."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Michael Roth",
-            "speakerstatus": "speaker",
-            "text": "Vielen Dank, Herr Präsident. – Lieber Kollege Dieter Dehm, ich weiß nicht, ob Ihnen allen der Tweet bekannt ist. Deswegen trage ich ihn in der deutschen Übersetzung kurz vor:",
-            "sentences": [
-              {
-                "text": "Vielen Dank, Herr Präsident."
-              },
-              {
-                "text": "– Lieber Kollege Dieter Dehm, ich weiß nicht, ob Ihnen allen der Tweet bekannt ist."
-              },
-              {
-                "text": "Deswegen trage ich ihn in der deutschen Übersetzung kurz vor:"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Michael Roth",
-            "speakerstatus": "speaker",
-            "text": "Aus Sicht der Bundesregierung drückt der von Ihnen, Herr Kollege Dehm, zitierte Tweet in erster Linie den Dank des venezolanischen Parlamentspräsidenten an Ministerpräsident Netanjahu für dessen Anerkennung des Interimspräsidenten aus.",
-            "sentences": [
-              {
-                "text": "Aus Sicht der Bundesregierung drückt der von Ihnen, Herr Kollege Dehm, zitierte Tweet in erster Linie den Dank des venezolanischen Parlamentspräsidenten an Ministerpräsident Netanjahu für dessen Anerkennung des Interimspräsidenten aus."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Herr Dehm.",
-            "sentences": [
-              {
-                "text": "Herr Dehm."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Diether Dehm",
-            "speakerstatus": "speaker",
-            "text": "Ich möchte dazu ergänzend fragen, welche Erkenntnisse die Bundesregierung über Guaidós Rolle bei bewaffneten Straßenblockaden von Teilen der Opposition hat – den sogenannten Guarimbas; das sind Todesschwadronen –, bei denen schon mehrere Menschen ermordet worden sind, und ob sich Ihnen hier nicht auch Parallelen zu Allende aufdrängen?",
-            "sentences": [
-              {
-                "text": "Ich möchte dazu ergänzend fragen, welche Erkenntnisse die Bundesregierung über Guaidós Rolle bei bewaffneten Straßenblockaden von Teilen der Opposition hat – den sogenannten Guarimbas; das sind Todesschwadronen –, bei denen schon mehrere Menschen ermordet worden sind, und ob sich Ihnen hier nicht auch Parallelen zu Allende aufdrängen?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Michael Roth",
-            "speakerstatus": "speaker",
-            "text": "Herr Präsident! Lieber Kollege Diether Dehm, das bezieht sich schon ein wenig auf Ihre zweite Frage, wo Sie nachhaken und fragen, wie Herr Guaidó zur Gewalt­anwendung steht. Ich will hervorheben, dass der Interimspräsident Guaidó eine gewaltsame Lösung bislang kategorisch abgelehnt hat. Das ist auch die Auffassung, die er gegenüber der Bundesregierung und anderen Vertreterinnen und Vertretern der internationalen Staatengemeinschaft wiederholt bekundet hat.",
-            "sentences": [
-              {
-                "text": "Herr Präsident!"
-              },
-              {
-                "text": "Lieber Kollege Diether Dehm, das bezieht sich schon ein wenig auf Ihre zweite Frage, wo Sie nachhaken und fragen, wie Herr Guaidó zur Gewalt­anwendung steht."
-              },
-              {
-                "text": "Ich will hervorheben, dass der Interimspräsident Guaidó eine gewaltsame Lösung bislang kategorisch abgelehnt hat."
-              },
-              {
-                "text": "Das ist auch die Auffassung, die er gegenüber der Bundesregierung und anderen Vertreterinnen und Vertretern der internationalen Staatengemeinschaft wiederholt bekundet hat."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Sie haben jetzt noch eine Möglichkeit, nachzufragen.",
-            "sentences": [
-              {
-                "text": "Sie haben jetzt noch eine Möglichkeit, nachzufragen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Diether Dehm",
-            "speakerstatus": "speaker",
-            "text": "Dann möchte ich nachfragen, wie die bedeutende Sympathie von Guaidó für Bolsonaro zu erklären ist?",
-            "sentences": [
-              {
-                "text": "Dann möchte ich nachfragen, wie die bedeutende Sympathie von Guaidó für Bolsonaro zu erklären ist?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Michael Roth",
-            "speakerstatus": "speaker",
-            "text": "Herr Präsident! Herr Kollege Dehm, ich weiß nichts von einer besonderen Sympathie oder Solidarität. Ich weiß nur, dass Interimspräsident Guaidó",
-            "sentences": [
-              {
-                "text": "Herr Präsident!"
-              },
-              {
-                "text": "Herr Kollege Dehm, ich weiß nichts von einer besonderen Sympathie oder Solidarität."
-              },
-              {
-                "text": "Ich weiß nur, dass Interimspräsident Guaidó"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Michael Roth",
-            "speakerstatus": "speaker",
-            "text": "wiederholt bekundet hat, dass er diesen Konflikt nur friedlich zu lösen versucht und dass er die Anwendung von Gewalt strikt ablehnt.",
-            "sentences": [
-              {
-                "text": "wiederholt bekundet hat, dass er diesen Konflikt nur friedlich zu lösen versucht und dass er die Anwendung von Gewalt strikt ablehnt."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Vielen Dank, Herr Staatsminister. – Die Zeit für die Fragestunde ist um. Ich schließe damit diesen Tagesordnungspunkt.",
-            "sentences": [
-              {
-                "text": "Vielen Dank, Herr Staatsminister."
-              },
-              {
-                "text": "– Die Zeit für die Fragestunde ist um."
-              },
-              {
-                "text": "Ich schließe damit diesen Tagesordnungspunkt."
-              }
-            ]
           }
         ]
       }
@@ -11471,7 +9923,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 57,
+      "speechIndex": 1059,
       "title": "Aktuelle Stunde/ Vereinbarkeit von Nord Stream 2 mit EU-Klima- und Energiezielen"
     },
     "people": [
@@ -11484,12 +9936,45 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19079-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19079-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
         "originTextID": "",
         "textBody": [
+          {
+            "type": "speech",
+            "speaker": "Thomas Oppermann",
+            "speakerstatus": "vice-president",
+            "text": "Aktuelle Stunde",
+            "sentences": [
+              {
+                "text": "Aktuelle Stunde"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Thomas Oppermann",
+            "speakerstatus": "vice-president",
+            "text": "auf Verlangen der Fraktion BÜNDNIS 90/DIE GRÜNEN",
+            "sentences": [
+              {
+                "text": "auf Verlangen der Fraktion BÜNDNIS 90/DIE GRÜNEN"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Thomas Oppermann",
+            "speakerstatus": "vice-president",
+            "text": "Vereinbarkeit von Nord Stream 2 mit den Klima- und Energiezielen der EU",
+            "sentences": [
+              {
+                "text": "Vereinbarkeit von Nord Stream 2 mit den Klima- und Energiezielen der EU"
+              }
+            ]
+          },
           {
             "type": "speech",
             "speaker": "Thomas Oppermann",
@@ -11533,7 +10018,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 58,
+      "speechIndex": 1060,
       "title": "Aktuelle Stunde/ Vereinbarkeit von Nord Stream 2 mit EU-Klima- und Energiezielen"
     },
     "people": [
@@ -11554,7 +10039,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19079-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19079-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -12070,7 +10555,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 59,
+      "speechIndex": 1061,
       "title": "Aktuelle Stunde/ Vereinbarkeit von Nord Stream 2 mit EU-Klima- und Energiezielen"
     },
     "people": [
@@ -12091,7 +10576,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19079-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19079-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -12814,7 +11299,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 60,
+      "speechIndex": 1062,
       "title": "Aktuelle Stunde/ Vereinbarkeit von Nord Stream 2 mit EU-Klima- und Energiezielen"
     },
     "people": [
@@ -12835,7 +11320,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19079-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19079-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -13228,7 +11713,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 61,
+      "speechIndex": 1063,
       "title": "Aktuelle Stunde/ Vereinbarkeit von Nord Stream 2 mit EU-Klima- und Energiezielen"
     },
     "people": [
@@ -13249,7 +11734,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19079-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19079-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -13672,7 +12157,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 62,
+      "speechIndex": 1064,
       "title": "Aktuelle Stunde/ Vereinbarkeit von Nord Stream 2 mit EU-Klima- und Energiezielen"
     },
     "people": [
@@ -13693,7 +12178,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19079-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19079-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -14193,7 +12678,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 63,
+      "speechIndex": 1065,
       "title": "Aktuelle Stunde/ Vereinbarkeit von Nord Stream 2 mit EU-Klima- und Energiezielen"
     },
     "people": [
@@ -14214,7 +12699,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19079-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19079-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -14801,7 +13286,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 64,
+      "speechIndex": 1066,
       "title": "Aktuelle Stunde/ Vereinbarkeit von Nord Stream 2 mit EU-Klima- und Energiezielen"
     },
     "people": [
@@ -14822,7 +13307,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19079-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19079-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -15289,7 +13774,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 65,
+      "speechIndex": 1067,
       "title": "Aktuelle Stunde/ Vereinbarkeit von Nord Stream 2 mit EU-Klima- und Energiezielen"
     },
     "people": [
@@ -15310,7 +13795,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19079-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19079-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -15811,7 +14296,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 66,
+      "speechIndex": 1068,
       "title": "Aktuelle Stunde/ Vereinbarkeit von Nord Stream 2 mit EU-Klima- und Energiezielen"
     },
     "people": [
@@ -15832,7 +14317,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19079-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19079-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -16364,7 +14849,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 67,
+      "speechIndex": 1069,
       "title": "Aktuelle Stunde/ Vereinbarkeit von Nord Stream 2 mit EU-Klima- und Energiezielen"
     },
     "people": [
@@ -16385,7 +14870,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19079-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19079-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -17121,7 +15606,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 68,
+      "speechIndex": 1070,
       "title": "Aktuelle Stunde/ Vereinbarkeit von Nord Stream 2 mit EU-Klima- und Energiezielen"
     },
     "people": [
@@ -17142,7 +15627,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19079-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19079-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -17498,7 +15983,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 69,
+      "speechIndex": 1071,
       "title": "Aktuelle Stunde/ Vereinbarkeit von Nord Stream 2 mit EU-Klima- und Energiezielen"
     },
     "people": [
@@ -17519,7 +16004,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19079-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19079-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -18044,7 +16529,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 70,
+      "speechIndex": 1072,
       "title": "Aktuelle Stunde/ Vereinbarkeit von Nord Stream 2 mit EU-Klima- und Energiezielen"
     },
     "people": [
@@ -18065,7 +16550,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19079-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19079-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -18604,7 +17089,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 71,
+      "speechIndex": 1073,
       "title": "Aktuelle Stunde/ Vereinbarkeit von Nord Stream 2 mit EU-Klima- und Energiezielen"
     },
     "people": [
@@ -18615,17 +17100,12 @@
         "lastname": "Helfrich",
         "context": "main-speaker",
         "faction": "CDU/CSU"
-      },
-      {
-        "type": "memberOfParliament",
-        "label": "Hans-Peter Friedrich",
-        "context": "vice-president"
       }
     ],
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19079-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19079-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -18914,18 +17394,55 @@
                 "text": "Herzlichen Dank."
               }
             ]
-          },
-          {
-            "type": "comment",
-            "speaker": null,
-            "speakerstatus": null,
-            "text": "(Beifall bei der CDU/CSU sowie bei Abgeordneten der FDP)",
-            "sentences": [
-              {
-                "text": "(Beifall bei der CDU/CSU sowie bei Abgeordneten der FDP)"
-              }
-            ]
-          },
+          }
+        ]
+      }
+    ],
+    "documents": [],
+    "key": "19-79 zusatzpunkt 1 (mark helfrich)",
+    "dateStart": "2019-02-13T15:57:06",
+    "dateEnd": "2019-02-13T16:01:28",
+    "media": {
+      "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7325543/7325543_h264_720_400_2000kb_baseline_de_2192.mp4",
+      "sourcePage": "http://dbtg.tv/fvid/7325543",
+      "duration": 262.0,
+      "creator": "Deutscher Bundestag",
+      "license": "CC-BY-SA",
+      "originMediaID": "7325543",
+      "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7325543/7325543_mp3_128kb_stereo_de_128.mp3"
+    }
+  },
+  {
+    "parliament": "DE",
+    "electoralPeriod": {
+      "number": "19"
+    },
+    "session": {
+      "number": "79",
+      "dateStart": "2019-02-13T13:00",
+      "dateEnd": "2019-02-13T17:01"
+    },
+    "agendaItem": {
+      "officialTitle": "Zusatzpunkt 1",
+      "speechIndex": 1074,
+      "title": "Aktuelle Stunde/ Vereinbarkeit von Nord Stream 2 mit EU-Klima- und Energiezielen"
+    },
+    "people": [
+      {
+        "type": "memberOfParliament",
+        "label": "Hans-Peter Friedrich",
+        "context": "vice-president"
+      }
+    ],
+    "textContents": [
+      {
+        "type": "proceedings",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19079-data.xml",
+        "creator": "Deutscher Bundestag",
+        "license": "Public Domain",
+        "language": "DE-de",
+        "originTextID": "",
+        "textBody": [
           {
             "type": "speech",
             "speaker": "Hans-Peter Friedrich",
@@ -18969,32 +17486,9 @@
       }
     ],
     "documents": [],
-    "key": "19-79 zusatzpunkt 1 (mark helfrich)",
-    "dateStart": "2019-02-13T15:57:06",
-    "dateEnd": "2019-02-13T16:01:28",
-    "media": {
-      "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7325543/7325543_h264_720_400_2000kb_baseline_de_2192.mp4",
-      "sourcePage": "http://dbtg.tv/fvid/7325543",
-      "duration": 262.0,
-      "creator": "Deutscher Bundestag",
-      "license": "CC-BY-SA",
-      "originMediaID": "7325543",
-      "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7325543/7325543_mp3_128kb_stereo_de_128.mp3"
-    }
-  },
-  {
-    "parliament": "DE",
-    "electoralPeriod": {
-      "number": 19
-    },
-    "session": {
-      "number": 79
-    },
-    "agendaItem": {
-      "title": "Aktuelle Stunde/ Vereinbarkeit von Nord Stream 2 mit EU-Klima- und Energiezielen",
-      "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 54
-    },
+    "key": "19-79 zusatzpunkt 1 (hans-peter friedrich)",
+    "dateStart": "2019-02-13T16:01:28",
+    "dateEnd": "2019-02-13T16:01:30",
     "media": {
       "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7325544/7325544_h264_720_400_2000kb_baseline_de_2192.mp4",
       "sourcePage": "http://dbtg.tv/fvid/7325544",
@@ -19003,18 +17497,7 @@
       "license": "CC-BY-SA",
       "originMediaID": "7325544",
       "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7325544/7325544_mp3_128kb_stereo_de_128.mp3"
-    },
-    "dateStart": "2019-02-13T16:01:28",
-    "dateEnd": "2019-02-13T16:01:30",
-    "people": [
-      {
-        "label": "Hans-Peter Friedrich",
-        "faction": "CDU/CSU",
-        "context": "main-speaker",
-        "role": "Bundestagsvizepräsident"
-      }
-    ],
-    "key": "19-79 zusatzpunkt 1 (hans-peter friedrich)"
+    }
   },
   {
     "parliament": "DE",

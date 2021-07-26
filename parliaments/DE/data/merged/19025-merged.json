@@ -11,7 +11,7 @@
     },
     "agendaItem": {
       "officialTitle": "Sitzungseröffnung",
-      "speechIndex": 0,
+      "speechIndex": 1000,
       "title": "Sitzungseröffnung"
     },
     "people": [
@@ -24,7 +24,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19025-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19025-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -96,7 +96,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 2,
+      "speechIndex": 1002,
       "title": "Befragung der Bundesregierung"
     },
     "people": [
@@ -109,12 +109,23 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19025-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19025-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
         "originTextID": "",
         "textBody": [
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "Befragung der Bundesregierung",
+            "sentences": [
+              {
+                "text": "Befragung der Bundesregierung"
+              }
+            ]
+          },
           {
             "type": "speech",
             "speaker": "Wolfgang Schäuble",
@@ -166,7 +177,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 3,
+      "speechIndex": 1003,
       "title": "Befragung der Bundesregierung"
     },
     "people": [
@@ -187,7 +198,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19025-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19025-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -479,7 +490,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 5,
+      "speechIndex": 1005,
       "title": "Befragung der Bundesregierung"
     },
     "people": [
@@ -500,7 +511,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19025-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19025-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -682,7 +693,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 48,
+      "speechIndex": 1048,
       "title": "Befragung der Bundesregierung"
     },
     "people": [
@@ -703,7 +714,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19025-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19025-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -805,7 +816,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 50,
+      "speechIndex": 1050,
       "title": "Befragung der Bundesregierung"
     },
     "people": [
@@ -826,7 +837,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19025-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19025-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -889,7 +900,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 54,
+      "speechIndex": 1054,
       "title": "Befragung der Bundesregierung"
     },
     "people": [
@@ -910,7 +921,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19025-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19025-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -1009,7 +1020,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 56,
+      "speechIndex": 1056,
       "title": "Befragung der Bundesregierung"
     },
     "people": [
@@ -1030,7 +1041,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19025-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19025-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -1150,7 +1161,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 7,
+      "speechIndex": 1007,
       "title": "Befragung der Bundesregierung"
     },
     "people": [
@@ -1171,7 +1182,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19025-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19025-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -1260,7 +1271,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 52,
+      "speechIndex": 1052,
       "title": "Befragung der Bundesregierung"
     },
     "people": [
@@ -1281,7 +1292,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19025-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19025-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -1384,16 +1395,55 @@
   {
     "parliament": "DE",
     "electoralPeriod": {
-      "number": 19
+      "number": "19"
     },
     "session": {
-      "number": 25
+      "number": "25",
+      "dateStart": "2018-04-18T13:00",
+      "dateEnd": "2018-04-18T16:58"
     },
     "agendaItem": {
-      "title": "Befragung der Bundesregierung",
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 11
+      "speechIndex": 1061,
+      "title": "Befragung der Bundesregierung"
     },
+    "people": [
+      {
+        "type": "memberOfParliament",
+        "label": "Thomas Oppermann",
+        "context": "vice-president"
+      }
+    ],
+    "textContents": [
+      {
+        "type": "proceedings",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19025-data.xml",
+        "creator": "Deutscher Bundestag",
+        "license": "Public Domain",
+        "language": "DE-de",
+        "originTextID": "",
+        "textBody": [
+          {
+            "type": "speech",
+            "speaker": "Thomas Oppermann",
+            "speakerstatus": "vice-president",
+            "text": "Vielen Dank. – Damit ist die Regierungsbefragung beendet.",
+            "sentences": [
+              {
+                "text": "Vielen Dank."
+              },
+              {
+                "text": "– Damit ist die Regierungsbefragung beendet."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "documents": [],
+    "key": "19-25 tagesordnungspunkt 1 (thomas oppermann)",
+    "dateStart": "2018-04-18T12:06:34",
+    "dateEnd": "2018-04-18T12:06:42",
     "media": {
       "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7218652/7218652_h264_720_400_2000kb_baseline_de_2192.mp4",
       "sourcePage": "http://dbtg.tv/fvid/7218652",
@@ -1402,18 +1452,7 @@
       "license": "CC-BY-SA",
       "originMediaID": "7218652",
       "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7218652/7218652_mp3_128kb_stereo_de_128.mp3"
-    },
-    "dateStart": "2018-04-18T12:06:34",
-    "dateEnd": "2018-04-18T12:06:42",
-    "people": [
-      {
-        "label": "Thomas Oppermann",
-        "faction": "SPD",
-        "context": "main-speaker",
-        "role": "Bundestagsvizepräsident"
-      }
-    ],
-    "key": "19-25 tagesordnungspunkt 1 (thomas oppermann)"
+    }
   },
   {
     "parliament": "DE",
@@ -1427,7 +1466,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 2",
-      "speechIndex": 61,
+      "speechIndex": 1062,
       "title": "Fragestunde"
     },
     "people": [
@@ -1560,12 +1599,23 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19025-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19025-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
         "originTextID": "",
         "textBody": [
+          {
+            "type": "speech",
+            "speaker": "Thomas Oppermann",
+            "speakerstatus": "vice-president",
+            "text": "Fragestunde",
+            "sentences": [
+              {
+                "text": "Fragestunde"
+              }
+            ]
+          },
           {
             "type": "speech",
             "speaker": "Thomas Oppermann",
@@ -7032,7 +7082,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 2",
-      "speechIndex": 62,
+      "speechIndex": 1063,
       "title": "Fragestunde"
     },
     "people": [
@@ -7165,12 +7215,23 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19025-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19025-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
         "originTextID": "",
         "textBody": [
+          {
+            "type": "speech",
+            "speaker": "Thomas Oppermann",
+            "speakerstatus": "vice-president",
+            "text": "Fragestunde",
+            "sentences": [
+              {
+                "text": "Fragestunde"
+              }
+            ]
+          },
           {
             "type": "speech",
             "speaker": "Thomas Oppermann",
@@ -10388,1845 +10449,6 @@
                 "text": "Können Sie uns vielleicht weitere Auskünfte dazu geben, wie genau die Synergien zwischen Innerem und Bauen aussehen?"
               }
             ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Günter Krings",
-            "speakerstatus": "main-speaker",
-            "text": "Herr Präsident! Frau Kollegin, zunächst einmal habe ich vor allem auf eine Frage von Herrn Kühn reagiert, der darauf hingewiesen hat, dass es beispielsweise Sy­nergien zwischen Raumordnung und Bauen gibt. Dies ist auch dann der Fall, wenn das Thema in zwei verschiedenen Abteilungen angesiedelt ist; denn es ist unter einem Dach. Die entscheidende Größe im politischen Betrieb in Berlin – das werden Sie wissen – sind nicht Abteilungen, sondern Ministerien, und es gibt eine klare ministerielle Verantwortung. Spätestens dort werden die Dinge zusammengeführt, falls es einmal unterschiedliche Vorstellungen gibt. Das wäre ein Beispiel.",
-            "sentences": [
-              {
-                "text": "Herr Präsident!"
-              },
-              {
-                "text": "Frau Kollegin, zunächst einmal habe ich vor allem auf eine Frage von Herrn Kühn reagiert, der darauf hingewiesen hat, dass es beispielsweise Sy­nergien zwischen Raumordnung und Bauen gibt."
-              },
-              {
-                "text": "Dies ist auch dann der Fall, wenn das Thema in zwei verschiedenen Abteilungen angesiedelt ist; denn es ist unter einem Dach."
-              },
-              {
-                "text": "Die entscheidende Größe im politischen Betrieb in Berlin – das werden Sie wissen – sind nicht Abteilungen, sondern Ministerien, und es gibt eine klare ministerielle Verantwortung."
-              },
-              {
-                "text": "Spätestens dort werden die Dinge zusammengeführt, falls es einmal unterschiedliche Vorstellungen gibt."
-              },
-              {
-                "text": "Das wäre ein Beispiel."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Günter Krings",
-            "speakerstatus": "main-speaker",
-            "text": "Ich möchte mit sehr großer Zurückhaltung darauf hinweisen, dass es auch zwischen Bauen und Innerem Bezüge gibt – das kam heute im Innenausschuss zutage –, die ich allerdings nicht überbewerten würde. Da geht es zum Beispiel um die Fragen: Was machen wir mit unseren Städten? Bauen wir sie so, dass wir bestimmte Sicherheitselemente schon im Stadtbild bzw. in der städtischen Bauweise berücksichtigen? Das Stichwort „Angsträume vermeiden“ spielt hier eine Rolle. Ein anderes Thema ist die Frage: Wie kann man Anschläge verhindern? Diesen Synergieeffekt würde ich zwar nicht als riesengroß bewerten, aber auch ihn gibt es. Es wird eine Reihe solcher Punkte geben.",
-            "sentences": [
-              {
-                "text": "Ich möchte mit sehr großer Zurückhaltung darauf hinweisen, dass es auch zwischen Bauen und Innerem Bezüge gibt – das kam heute im Innenausschuss zutage –, die ich allerdings nicht überbewerten würde."
-              },
-              {
-                "text": "Da geht es zum Beispiel um die Fragen: Was machen wir mit unseren Städten?"
-              },
-              {
-                "text": "Bauen wir sie so, dass wir bestimmte Sicherheitselemente schon im Stadtbild bzw. in der städtischen Bauweise berücksichtigen?"
-              },
-              {
-                "text": "Das Stichwort „Angsträume vermeiden“ spielt hier eine Rolle."
-              },
-              {
-                "text": "Ein anderes Thema ist die Frage: Wie kann man Anschläge verhindern?"
-              },
-              {
-                "text": "Diesen Synergieeffekt würde ich zwar nicht als riesengroß bewerten, aber auch ihn gibt es."
-              },
-              {
-                "text": "Es wird eine Reihe solcher Punkte geben."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Günter Krings",
-            "speakerstatus": "main-speaker",
-            "text": "In der Geschichte der Bundesrepublik sind Ressorts immer wieder neu zusammengeschnitten worden. Das ist auch für die beiden Bauabteilungen, die jetzt bei uns sind, nicht einfach gewesen. Sie haben schon zum zweiten Mal hintereinander das Ressort gewechselt, sind aber trotzdem mit großem Enthusiasmus dabei. Insbesondere bei der Vorbereitung auf die Fragestunde halte ich immer wieder Rücksprache. Ich habe mich davon überzeugen können, dass es hochengagierte Mitarbeiter sind, die es uns auch nicht übel nehmen, dass sie jetzt bei uns im Ressort sind. Im Gegenteil: Sie freuen sich auf die Zusammenarbeit mit ihren neuen Kollegen im alten Teil des Bundesinnenministeriums. So etwas gehört dazu.",
-            "sentences": [
-              {
-                "text": "In der Geschichte der Bundesrepublik sind Ressorts immer wieder neu zusammengeschnitten worden."
-              },
-              {
-                "text": "Das ist auch für die beiden Bauabteilungen, die jetzt bei uns sind, nicht einfach gewesen."
-              },
-              {
-                "text": "Sie haben schon zum zweiten Mal hintereinander das Ressort gewechselt, sind aber trotzdem mit großem Enthusiasmus dabei."
-              },
-              {
-                "text": "Insbesondere bei der Vorbereitung auf die Fragestunde halte ich immer wieder Rücksprache."
-              },
-              {
-                "text": "Ich habe mich davon überzeugen können, dass es hochengagierte Mitarbeiter sind, die es uns auch nicht übel nehmen, dass sie jetzt bei uns im Ressort sind."
-              },
-              {
-                "text": "Im Gegenteil: Sie freuen sich auf die Zusammenarbeit mit ihren neuen Kollegen im alten Teil des Bundesinnenministeriums."
-              },
-              {
-                "text": "So etwas gehört dazu."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Günter Krings",
-            "speakerstatus": "main-speaker",
-            "text": "Im Übrigen hat das Innenministerium auch keine Angst vor der Größe. Wenn man sich die Geschichte unseres Hauses vor Augen führt, stellt man fest: Wir waren schon für Bildung, eine Zeit lang für Gesundheit, für Kultur und für viele andere Dinge zuständig. Vieles haben wir verloren, jetzt haben wir mal Zuständigkeiten dazugewonnen; das freut uns.",
-            "sentences": [
-              {
-                "text": "Im Übrigen hat das Innenministerium auch keine Angst vor der Größe."
-              },
-              {
-                "text": "Wenn man sich die Geschichte unseres Hauses vor Augen führt, stellt man fest: Wir waren schon für Bildung, eine Zeit lang für Gesundheit, für Kultur und für viele andere Dinge zuständig."
-              },
-              {
-                "text": "Vieles haben wir verloren, jetzt haben wir mal Zuständigkeiten dazugewonnen; das freut uns."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Die, die was gewinnen, freuen sich, die, die was verlieren, freuen sich nicht.",
-            "sentences": [
-              {
-                "text": "Die, die was gewinnen, freuen sich, die, die was verlieren, freuen sich nicht."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Die Fragen 9 und 10 der Abgeordneten Dr. Julia Verlinden, Bündnis 90/Die Grünen, werden schriftlich beantwortet.",
-            "sentences": [
-              {
-                "text": "Die Fragen 9 und 10 der Abgeordneten Dr. Julia Verlinden, Bündnis 90/Die Grünen, werden schriftlich beantwortet."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Dann kommen wir jetzt zur Frage 11 der Abgeordneten Bayram:",
-            "sentences": [
-              {
-                "text": "Dann kommen wir jetzt zur Frage 11 der Abgeordneten Bayram:"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Herr Staatssekretär.",
-            "sentences": [
-              {
-                "text": "Herr Staatssekretär."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Günter Krings",
-            "speakerstatus": "main-speaker",
-            "text": "Herr Präsident! Frau Kollegin Bayram, Gruppierungen, die einer der vier großen klassischen Mafiaorganisationen zugerechnet werden, sind nach Erkenntnissen der Bundesregierung in nicht unerheblichem Umfang auch in Deutschland aktiv. Im Rahmen des polizeilichen Informationsaustausches und aus Ermittlungsverfahren liegen Erkenntnisse vor, dass mutmaßliche Mitglieder der italienischen organisierten Kriminalität in Deutschland Investitionen, insbesondere im Gastronomiebereich, in der Hotellerie, im Baugewerbe, in verschiedenen Handelsbranchen und in Immobilien, getätigt haben.",
-            "sentences": [
-              {
-                "text": "Herr Präsident!"
-              },
-              {
-                "text": "Frau Kollegin Bayram, Gruppierungen, die einer der vier großen klassischen Mafiaorganisationen zugerechnet werden, sind nach Erkenntnissen der Bundesregierung in nicht unerheblichem Umfang auch in Deutschland aktiv."
-              },
-              {
-                "text": "Im Rahmen des polizeilichen Informationsaustausches und aus Ermittlungsverfahren liegen Erkenntnisse vor, dass mutmaßliche Mitglieder der italienischen organisierten Kriminalität in Deutschland Investitionen, insbesondere im Gastronomiebereich, in der Hotellerie, im Baugewerbe, in verschiedenen Handelsbranchen und in Immobilien, getätigt haben."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Günter Krings",
-            "speakerstatus": "main-speaker",
-            "text": "Bereits 2012 hat das Bundeskriminalamt die Fachstudie „Geldwäsche im Immobiliensektor in Deutschland“ erstellen lassen. Diese Studie diente dazu, bessere Erkenntnisse zum Aufbau des Immobiliensektors, zu dessen Teilnehmern sowie zu den Arten der Transaktionen zu gewinnen, um die Geldwäschegefährdung besser einschätzen zu können.",
-            "sentences": [
-              {
-                "text": "Bereits 2012 hat das Bundeskriminalamt die Fachstudie „Geldwäsche im Immobiliensektor in Deutschland“ erstellen lassen."
-              },
-              {
-                "text": "Diese Studie diente dazu, bessere Erkenntnisse zum Aufbau des Immobiliensektors, zu dessen Teilnehmern sowie zu den Arten der Transaktionen zu gewinnen, um die Geldwäschegefährdung besser einschätzen zu können."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Günter Krings",
-            "speakerstatus": "main-speaker",
-            "text": "Mangels konkreter Vergleichsmaßstäbe kann seitens der Bundesregierung nicht beurteilt werden, ob Deutschland, wie Sie es in der Frage formuliert haben, als Anlageort für Gelder, die die italienische organisierte Kriminalität erwirtschaftet, attraktiver ist als Italien. Wir können hier also keinen direkten Vergleich anstellen. Der Bundesregierung liegen Erkenntnisse darüber vor, dass in Italien im Rahmen von Ermittlungsverfahren regelmäßig große Vermögenswerte – unter anderem auch Immobilien – gesichert werden. Dies zeigt wiederum, dass dort Investitionen eben auch in sehr erheblichem Umfang getätigt werden.",
-            "sentences": [
-              {
-                "text": "Mangels konkreter Vergleichsmaßstäbe kann seitens der Bundesregierung nicht beurteilt werden, ob Deutschland, wie Sie es in der Frage formuliert haben, als Anlageort für Gelder, die die italienische organisierte Kriminalität erwirtschaftet, attraktiver ist als Italien."
-              },
-              {
-                "text": "Wir können hier also keinen direkten Vergleich anstellen."
-              },
-              {
-                "text": "Der Bundesregierung liegen Erkenntnisse darüber vor, dass in Italien im Rahmen von Ermittlungsverfahren regelmäßig große Vermögenswerte – unter anderem auch Immobilien – gesichert werden."
-              },
-              {
-                "text": "Dies zeigt wiederum, dass dort Investitionen eben auch in sehr erheblichem Umfang getätigt werden."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Günter Krings",
-            "speakerstatus": "main-speaker",
-            "text": "Unabhängig davon besteht bei der Bekämpfung organisierter Kriminalität eine enge und vertrauensvolle Zusammenarbeit zwischen den deutschen und den italienischen Behörden. Als unmittelbare Reaktion auf die Mafiamorde von Duisburg im Jahre 2007 wurde die deutsch-italienische Taskforce ins Leben gerufen, mit der die Zusammenarbeit im gemeinsamen Kampf gegen die Mafia weiter gestärkt wurde.",
-            "sentences": [
-              {
-                "text": "Unabhängig davon besteht bei der Bekämpfung organisierter Kriminalität eine enge und vertrauensvolle Zusammenarbeit zwischen den deutschen und den italienischen Behörden."
-              },
-              {
-                "text": "Als unmittelbare Reaktion auf die Mafiamorde von Duisburg im Jahre 2007 wurde die deutsch-italienische Taskforce ins Leben gerufen, mit der die Zusammenarbeit im gemeinsamen Kampf gegen die Mafia weiter gestärkt wurde."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Günter Krings",
-            "speakerstatus": "main-speaker",
-            "text": "Die Bundesregierung hat darüber hinaus in den letzten Jahren verschiedene gesetzliche Änderungen auf den Weg gebracht, die einen wichtigen Beitrag zur Bekämpfung der organisierten Kriminalität in Deutschland leisten. Der Kürze halber nenne ich nur zwei Beispiele:",
-            "sentences": [
-              {
-                "text": "Die Bundesregierung hat darüber hinaus in den letzten Jahren verschiedene gesetzliche Änderungen auf den Weg gebracht, die einen wichtigen Beitrag zur Bekämpfung der organisierten Kriminalität in Deutschland leisten."
-              },
-              {
-                "text": "Der Kürze halber nenne ich nur zwei Beispiele:"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Günter Krings",
-            "speakerstatus": "main-speaker",
-            "text": "Erster Punkt. Am 1. Juli 2017 ist unter anderem das Gesetz zur Reform der strafrechtlichen Vermögensabschöpfung in Kraft getreten. Dadurch wurde die effektive Einziehung von aus Straftaten erlangten Vermögenswerten vereinfacht.",
-            "sentences": [
-              {
-                "text": "Erster Punkt."
-              },
-              {
-                "text": "Am 1. Juli 2017 ist unter anderem das Gesetz zur Reform der strafrechtlichen Vermögensabschöpfung in Kraft getreten."
-              },
-              {
-                "text": "Dadurch wurde die effektive Einziehung von aus Straftaten erlangten Vermögenswerten vereinfacht."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Günter Krings",
-            "speakerstatus": "main-speaker",
-            "text": "Zweiter Punkt. Ende Juli 2017 wurde der Straftatbestand des § 129 Strafgesetzbuch, in dem es um die Bildung krimineller Vereinigungen geht, erweitert. Der Begriff „kriminelle Vereinigung“ erfasst nunmehr auch viele Strukturen organisierter Kriminalität, die zuvor eben nicht rechtssicher durch diese Strafvorschrift erfasst werden konnten.",
-            "sentences": [
-              {
-                "text": "Zweiter Punkt."
-              },
-              {
-                "text": "Ende Juli 2017 wurde der Straftatbestand des § 129 Strafgesetzbuch, in dem es um die Bildung krimineller Vereinigungen geht, erweitert."
-              },
-              {
-                "text": "Der Begriff „kriminelle Vereinigung“ erfasst nunmehr auch viele Strukturen organisierter Kriminalität, die zuvor eben nicht rechtssicher durch diese Strafvorschrift erfasst werden konnten."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Günter Krings",
-            "speakerstatus": "main-speaker",
-            "text": "Das zeigt, wir nehmen das sehr ernst und haben auch bereits gesetzgeberisch gehandelt.",
-            "sentences": [
-              {
-                "text": "Das zeigt, wir nehmen das sehr ernst und haben auch bereits gesetzgeberisch gehandelt."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Frau Bayram, haben Sie eine Zusatzfrage?",
-            "sentences": [
-              {
-                "text": "Frau Bayram, haben Sie eine Zusatzfrage?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Canan Bayram",
-            "speakerstatus": "speaker",
-            "text": "Ja, vielen Dank. – Meine Zusatzfrage ist, inwieweit die Unklarheit über den tatsächlichen Eigentümer, also die sogenannte Eigentumsverschleierung, dazu beiträgt, dass es vielleicht Formen von organisierter Kriminalität in der Immobilienbranche gibt, die nicht aufgedeckt werden können.",
-            "sentences": [
-              {
-                "text": "Ja, vielen Dank."
-              },
-              {
-                "text": "– Meine Zusatzfrage ist, inwieweit die Unklarheit über den tatsächlichen Eigentümer, also die sogenannte Eigentumsverschleierung, dazu beiträgt, dass es vielleicht Formen von organisierter Kriminalität in der Immobilienbranche gibt, die nicht aufgedeckt werden können."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Günter Krings",
-            "speakerstatus": "main-speaker",
-            "text": "Herr Präsident! Frau Kollegin, ich würde sagen, diese Frage sollte mit kriminalistischem Sachverstand beantwortet werden. Von daher würde ich die Antwort gerne schriftlich nachreichen. Ich habe meine private Meinung dazu, aber ich würde mir nicht anmaßen, genug kriminalistischen Sachverstand zu haben, um Ihnen die Frage ad hoc zu beantworten.",
-            "sentences": [
-              {
-                "text": "Herr Präsident!"
-              },
-              {
-                "text": "Frau Kollegin, ich würde sagen, diese Frage sollte mit kriminalistischem Sachverstand beantwortet werden."
-              },
-              {
-                "text": "Von daher würde ich die Antwort gerne schriftlich nachreichen."
-              },
-              {
-                "text": "Ich habe meine private Meinung dazu, aber ich würde mir nicht anmaßen, genug kriminalistischen Sachverstand zu haben, um Ihnen die Frage ad hoc zu beantworten."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Canan Bayram",
-            "speakerstatus": "speaker",
-            "text": "Vielen Dank. – Meine zweite Nachfrage ist, ob es in Ihrem Hause oder von der Bundesregierung Planungen gibt, die Eigentumsverschleierung tatsächlich zu bekämpfen, indem zum Beispiel weitere Register über die wahren Eigentümer von Immobilien eingeführt werden, die sich teilweise hinter Firmen verstecken, die offiziell im Grundbuch eingetragen sind, aber keine Auskunft zu den tatsächlichen Eigentümern geben. Gibt es also Ihrerseits Planungen, die Eigentumsverschleierung auf dem Immobilienmarkt zu bekämpfen?",
-            "sentences": [
-              {
-                "text": "Vielen Dank."
-              },
-              {
-                "text": "– Meine zweite Nachfrage ist, ob es in Ihrem Hause oder von der Bundesregierung Planungen gibt, die Eigentumsverschleierung tatsächlich zu bekämpfen, indem zum Beispiel weitere Register über die wahren Eigentümer von Immobilien eingeführt werden, die sich teilweise hinter Firmen verstecken, die offiziell im Grundbuch eingetragen sind, aber keine Auskunft zu den tatsächlichen Eigentümern geben."
-              },
-              {
-                "text": "Gibt es also Ihrerseits Planungen, die Eigentumsverschleierung auf dem Immobilienmarkt zu bekämpfen?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Günter Krings",
-            "speakerstatus": "main-speaker",
-            "text": "Herr Präsident! Frau Kollegin, wir haben in Deutschland ein funktionierendes Grundbuchsystem; das ist keineswegs in allen Ländern der Welt der Fall. Insofern haben wir einen wichtigen Schritt getan. Sie sagen jetzt: Das reicht nicht aus.",
-            "sentences": [
-              {
-                "text": "Herr Präsident!"
-              },
-              {
-                "text": "Frau Kollegin, wir haben in Deutschland ein funktionierendes Grundbuchsystem; das ist keineswegs in allen Ländern der Welt der Fall."
-              },
-              {
-                "text": "Insofern haben wir einen wichtigen Schritt getan."
-              },
-              {
-                "text": "Sie sagen jetzt: Das reicht nicht aus."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Günter Krings",
-            "speakerstatus": "main-speaker",
-            "text": "Ich persönlich kenne keine aktuellen Planungen, mit Blick auf die Registerpflichten weiterzugehen, werde das aber im Zuge der schon versprochenen schriftlichen Nachlieferung im Hause abfragen.",
-            "sentences": [
-              {
-                "text": "Ich persönlich kenne keine aktuellen Planungen, mit Blick auf die Registerpflichten weiterzugehen, werde das aber im Zuge der schon versprochenen schriftlichen Nachlieferung im Hause abfragen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Weitere Zusatzfrage von Frau Paus.",
-            "sentences": [
-              {
-                "text": "Weitere Zusatzfrage von Frau Paus."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Lisa Paus",
-            "speakerstatus": "speaker",
-            "text": "Herr Staatssekretär, in der Frage war der Hinweis auf einen Beitrag des Bayerischen Rundfunks verlinkt. Darin wurde darauf hingewiesen, dass vielleicht ein Grund für den größeren Erfolg der Ermittler in Italien darin liegt, dass in Italien quasi die Beweislastumkehr gilt, dass also in Italien der Käufer nachweisen muss, dass sein Geld legal erworben ist, während in Deutschland nachgewiesen werden muss, dass das Geld illegal erworben ist. Von daher: Wie bewerten Sie diesen Sachverhalt?",
-            "sentences": [
-              {
-                "text": "Herr Staatssekretär, in der Frage war der Hinweis auf einen Beitrag des Bayerischen Rundfunks verlinkt."
-              },
-              {
-                "text": "Darin wurde darauf hingewiesen, dass vielleicht ein Grund für den größeren Erfolg der Ermittler in Italien darin liegt, dass in Italien quasi die Beweislastumkehr gilt, dass also in Italien der Käufer nachweisen muss, dass sein Geld legal erworben ist, während in Deutschland nachgewiesen werden muss, dass das Geld illegal erworben ist."
-              },
-              {
-                "text": "Von daher: Wie bewerten Sie diesen Sachverhalt?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Lisa Paus",
-            "speakerstatus": "speaker",
-            "text": "Ein zweiter Punkt. Es gibt nach dem Geldwäschegesetz in Deutschland bei Hinweisen oder Anzeigen zur Geldwäsche die Mitwirkungspflicht, insbesondere für Notare. Diese Mitwirkung wird von den Notarkammern selber kontrolliert. Inwieweit sind Sie der Auffassung, dass diese Selbstverpflichtung derzeit so gut etabliert ist und zu so guten Ergebnissen führt, dass sie beibehalten werden sollte, oder sehen Sie da vielleicht Reformbedarf?",
-            "sentences": [
-              {
-                "text": "Ein zweiter Punkt."
-              },
-              {
-                "text": "Es gibt nach dem Geldwäschegesetz in Deutschland bei Hinweisen oder Anzeigen zur Geldwäsche die Mitwirkungspflicht, insbesondere für Notare."
-              },
-              {
-                "text": "Diese Mitwirkung wird von den Notarkammern selber kontrolliert."
-              },
-              {
-                "text": "Inwieweit sind Sie der Auffassung, dass diese Selbstverpflichtung derzeit so gut etabliert ist und zu so guten Ergebnissen führt, dass sie beibehalten werden sollte, oder sehen Sie da vielleicht Reformbedarf?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Herr Staatssekretär.",
-            "sentences": [
-              {
-                "text": "Herr Staatssekretär."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Günter Krings",
-            "speakerstatus": "main-speaker",
-            "text": "Vielen Dank. – Das waren jetzt wieder zwei Fragen, aber wir wollen mal nicht so sein.",
-            "sentences": [
-              {
-                "text": "Vielen Dank."
-              },
-              {
-                "text": "– Das waren jetzt wieder zwei Fragen, aber wir wollen mal nicht so sein."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Günter Krings",
-            "speakerstatus": "main-speaker",
-            "text": "Ich finde es mit Bezug auf Ihre zweite Frage gut, dass es diese Selbstverpflichtung gibt. Sie funktioniert meines Erachtens. Ob sie ausreicht, kann ich ad hoc nicht beantworten. Das kann und will ich gerne mal prüfen. Aber jedenfalls ist es ein erster, ganz wichtiger Schritt, der schon für eine Verbesserung gesorgt hat.",
-            "sentences": [
-              {
-                "text": "Ich finde es mit Bezug auf Ihre zweite Frage gut, dass es diese Selbstverpflichtung gibt."
-              },
-              {
-                "text": "Sie funktioniert meines Erachtens."
-              },
-              {
-                "text": "Ob sie ausreicht, kann ich ad hoc nicht beantworten."
-              },
-              {
-                "text": "Das kann und will ich gerne mal prüfen."
-              },
-              {
-                "text": "Aber jedenfalls ist es ein erster, ganz wichtiger Schritt, der schon für eine Verbesserung gesorgt hat."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Günter Krings",
-            "speakerstatus": "main-speaker",
-            "text": "Im Übrigen – das kann ich Ihnen aus meiner unmittelbaren Wahrnehmung der letzten Jahre sagen – habe ich im Haus darauf gedrungen und dafür gekämpft – das war manchmal gar nicht so einfach –, das Vorgehen bei Geldwäsche und Vermögensabschöpfung zu verbessern und es praxistauglicher zu machen. Das war manchmal aus den verschiedensten Gründen nicht so einfach.",
-            "sentences": [
-              {
-                "text": "Im Übrigen – das kann ich Ihnen aus meiner unmittelbaren Wahrnehmung der letzten Jahre sagen – habe ich im Haus darauf gedrungen und dafür gekämpft – das war manchmal gar nicht so einfach –, das Vorgehen bei Geldwäsche und Vermögensabschöpfung zu verbessern und es praxistauglicher zu machen."
-              },
-              {
-                "text": "Das war manchmal aus den verschiedensten Gründen nicht so einfach."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Günter Krings",
-            "speakerstatus": "main-speaker",
-            "text": "Insbesondere das Thema Beweislastumkehr ist in einem Rechtsstaat natürlich nicht so einfach. Vielleicht hat Italien ein etwas robusteres System, vielleicht in seiner Geschichte auch noch leidvollere Erfahrungen mit der Mafia. Jedenfalls stoßen wir in Deutschland sehr schnell an verfassungsrechtliche Grenzen.",
-            "sentences": [
-              {
-                "text": "Insbesondere das Thema Beweislastumkehr ist in einem Rechtsstaat natürlich nicht so einfach."
-              },
-              {
-                "text": "Vielleicht hat Italien ein etwas robusteres System, vielleicht in seiner Geschichte auch noch leidvollere Erfahrungen mit der Mafia."
-              },
-              {
-                "text": "Jedenfalls stoßen wir in Deutschland sehr schnell an verfassungsrechtliche Grenzen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Günter Krings",
-            "speakerstatus": "main-speaker",
-            "text": "Es ist aber meine persönliche Haltung – ich vermute, dass es die des ganzen Hauses ist –, dass wir die verfassungsrechtlichen Spielräume ausschöpfen wollen. Aber wir können nicht mehr machen, als die Verfassung zulässt. Eine komplette, einfache Beweislastumkehr – das war jedenfalls bisher die Auffassung unserer Verfassungsjuristen – wäre zu weitgehend.",
-            "sentences": [
-              {
-                "text": "Es ist aber meine persönliche Haltung – ich vermute, dass es die des ganzen Hauses ist –, dass wir die verfassungsrechtlichen Spielräume ausschöpfen wollen."
-              },
-              {
-                "text": "Aber wir können nicht mehr machen, als die Verfassung zulässt."
-              },
-              {
-                "text": "Eine komplette, einfache Beweislastumkehr – das war jedenfalls bisher die Auffassung unserer Verfassungsjuristen – wäre zu weitgehend."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Vielen Dank. – Ich sehe keine weiteren Nachfragen.",
-            "sentences": [
-              {
-                "text": "Vielen Dank."
-              },
-              {
-                "text": "– Ich sehe keine weiteren Nachfragen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Wir kommen zu Frage 12 der Abgeordneten Bayram:",
-            "sentences": [
-              {
-                "text": "Wir kommen zu Frage 12 der Abgeordneten Bayram:"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Herr Staatssekretär.",
-            "sentences": [
-              {
-                "text": "Herr Staatssekretär."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Günter Krings",
-            "speakerstatus": "main-speaker",
-            "text": "Frau Kollegin Bayram, Wohnraumknappheit und in der Folge steigende Mieten in wachsenden Großstädten und dynamischen Regionen stellen viele Menschen vor große Herausforderungen bei der Wohnungssuche; das wissen wir alle, zum Teil aus leidvollen Erfahrungen oder aus unserem Bekanntenkreis. Die steigenden Wohnkosten belasten die Haushalte mit unteren und mittleren Einkommen zunehmend.",
-            "sentences": [
-              {
-                "text": "Frau Kollegin Bayram, Wohnraumknappheit und in der Folge steigende Mieten in wachsenden Großstädten und dynamischen Regionen stellen viele Menschen vor große Herausforderungen bei der Wohnungssuche; das wissen wir alle, zum Teil aus leidvollen Erfahrungen oder aus unserem Bekanntenkreis."
-              },
-              {
-                "text": "Die steigenden Wohnkosten belasten die Haushalte mit unteren und mittleren Einkommen zunehmend."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Günter Krings",
-            "speakerstatus": "main-speaker",
-            "text": "Die Koalitionspartner haben daher im Koalitionsvertrag – übrigens, wenn ich das sagen darf, lange vor der von Ihnen erwähnten Demonstration „gegen Verdrängung und Mietenwahnsinn“; also von Verdrängung kann im Koalitionsvertrag keine Rede sein – eine Wohnraum­offensive beschlossen, die die Bundesregierung nun zügig umsetzen wird. Wir wollen erreichen, dass 1,5 Millionen Wohnungen und Eigenheime frei finanziert und öffentlich gefördert gebaut werden. Die Eckpunkte der Wohnraumoffensive werden Gegenstand eines Wohngipfels 2018 mit Ländern, Kommunen, Vertretern der Bau- und Immobilienwirtschaft, der Mieter- und Vermieterverbände und der Gewerkschaften sein.",
-            "sentences": [
-              {
-                "text": "Die Koalitionspartner haben daher im Koalitionsvertrag – übrigens, wenn ich das sagen darf, lange vor der von Ihnen erwähnten Demonstration „gegen Verdrängung und Mietenwahnsinn“; also von Verdrängung kann im Koalitionsvertrag keine Rede sein – eine Wohnraum­offensive beschlossen, die die Bundesregierung nun zügig umsetzen wird."
-              },
-              {
-                "text": "Wir wollen erreichen, dass 1,5 Millionen Wohnungen und Eigenheime frei finanziert und öffentlich gefördert gebaut werden."
-              },
-              {
-                "text": "Die Eckpunkte der Wohnraumoffensive werden Gegenstand eines Wohngipfels 2018 mit Ländern, Kommunen, Vertretern der Bau- und Immobilienwirtschaft, der Mieter- und Vermieterverbände und der Gewerkschaften sein."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Günter Krings",
-            "speakerstatus": "main-speaker",
-            "text": "Die Wohnraumoffensive soll unter anderem folgende Bestandteile enthalten – ich will sie nur ganz kurz aufzählen –: Der Bund übernimmt auch in Zukunft gemeinsam mit den Ländern Verantwortung für die soziale Wohnraumförderung. Dafür müssen und wollen wir das Grundgesetz ändern; also ein wichtiger Schritt. Wir werden eine befristete Sonderabschreibung einführen, um für den frei finanzierten Wohnungsneubau im bezahlbaren Mietsegment steuerliche Anreize zu schaffen. Wir werden mit einem Baukindergeld die Eigentumsbildung für Familien finanziell unterstützen. Wir wollen eine Anpassung des Wohngelds an die jeweiligen allgemeinen und individuellen Lebensbedingungen vornehmen. Die Veränderung der maßgeblichen Kriterien wollen wir regelmäßig prüfen. Schließlich: Wir werden die Regelungen zur Mietpreisbremse und zu Mieterhöhungen nach Modernisierungsmaßnahmen weiterentwickeln, um einen besseren Schutz der Mieterinnen und Mieter zu erreichen.",
-            "sentences": [
-              {
-                "text": "Die Wohnraumoffensive soll unter anderem folgende Bestandteile enthalten – ich will sie nur ganz kurz aufzählen –: Der Bund übernimmt auch in Zukunft gemeinsam mit den Ländern Verantwortung für die soziale Wohnraumförderung."
-              },
-              {
-                "text": "Dafür müssen und wollen wir das Grundgesetz ändern; also ein wichtiger Schritt."
-              },
-              {
-                "text": "Wir werden eine befristete Sonderabschreibung einführen, um für den frei finanzierten Wohnungsneubau im bezahlbaren Mietsegment steuerliche Anreize zu schaffen."
-              },
-              {
-                "text": "Wir werden mit einem Baukindergeld die Eigentumsbildung für Familien finanziell unterstützen."
-              },
-              {
-                "text": "Wir wollen eine Anpassung des Wohngelds an die jeweiligen allgemeinen und individuellen Lebensbedingungen vornehmen."
-              },
-              {
-                "text": "Die Veränderung der maßgeblichen Kriterien wollen wir regelmäßig prüfen."
-              },
-              {
-                "text": "Schließlich: Wir werden die Regelungen zur Mietpreisbremse und zu Mieterhöhungen nach Modernisierungsmaßnahmen weiterentwickeln, um einen besseren Schutz der Mieterinnen und Mieter zu erreichen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Vielen Dank. – Eine Nachfrage, Frau Bayram?",
-            "sentences": [
-              {
-                "text": "Vielen Dank."
-              },
-              {
-                "text": "– Eine Nachfrage, Frau Bayram?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Canan Bayram",
-            "speakerstatus": "speaker",
-            "text": "Vielen Dank. – Es ist so, dass bei der Initiative sehr viele Menschen mitdemonstriert haben. Manche sind selbst betroffen, weil sie einen Großteil ihres Einkommens, also bis zu 50 Prozent, für die Miete aufwenden müssen. Dieses Problem betrifft nicht nur in Berlin, sondern auch in vielen anderen Städten die Menschen.",
-            "sentences": [
-              {
-                "text": "Vielen Dank."
-              },
-              {
-                "text": "– Es ist so, dass bei der Initiative sehr viele Menschen mitdemonstriert haben."
-              },
-              {
-                "text": "Manche sind selbst betroffen, weil sie einen Großteil ihres Einkommens, also bis zu 50 Prozent, für die Miete aufwenden müssen."
-              },
-              {
-                "text": "Dieses Problem betrifft nicht nur in Berlin, sondern auch in vielen anderen Städten die Menschen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Canan Bayram",
-            "speakerstatus": "speaker",
-            "text": "Der Minister hatte gesagt, dass er gerade mit Blick auf die Situation in den Städten gezielt etwas tun will. Aber keine der Maßnahmen, die Sie bisher genannt haben, ist tatsächlich geeignet, die Bestandsmieterinnen und Bestandsmieter zu schützen. Können Sie vielleicht noch einmal ausführen, was Sie konkret machen, um die absurd hohen Mieten, die auf pervers hohe Spekulationserwartungen zurückgehen, einzudämmen?",
-            "sentences": [
-              {
-                "text": "Der Minister hatte gesagt, dass er gerade mit Blick auf die Situation in den Städten gezielt etwas tun will."
-              },
-              {
-                "text": "Aber keine der Maßnahmen, die Sie bisher genannt haben, ist tatsächlich geeignet, die Bestandsmieterinnen und Bestandsmieter zu schützen."
-              },
-              {
-                "text": "Können Sie vielleicht noch einmal ausführen, was Sie konkret machen, um die absurd hohen Mieten, die auf pervers hohe Spekulationserwartungen zurückgehen, einzudämmen?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Herr Staatssekretär.",
-            "sentences": [
-              {
-                "text": "Herr Staatssekretär."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Günter Krings",
-            "speakerstatus": "main-speaker",
-            "text": "Frau Kollegin, es gibt schon Instrumente, um zum Beispiel gegen spekulatives Leerstehenlassen von Gebäuden oder das Brachliegenlassen von Grundstücken auf baurechtliche oder planungsrechtliche Weise vorzugehen. Aber dass, wie Sie behauptet haben, all die von mir aufgezählten Maßnahmen damit nichts zu tun haben, sehe ich dezidiert anders. Wenn wir das Angebot vergrößern, wenn es interessanter wird, in Wohnraum zu investieren, wenn Wohnraum verstärkt angeboten wird, hat das natürlich Auswirkungen auf das Mietpreisniveau. Die Mietpreisbremse habe ich als nur ein Element, die Mieten zu regulieren, quasi als End of the Pipe genannt. Das geht sicherlich eher in die Richtung, die Sie favorisieren. Aber das alleine wird es nicht bringen. Wir brauchen vielmehr eine Erweiterung des Angebots, um spekulativem Handeln von vornherein die Grundlage zu entziehen.",
-            "sentences": [
-              {
-                "text": "Frau Kollegin, es gibt schon Instrumente, um zum Beispiel gegen spekulatives Leerstehenlassen von Gebäuden oder das Brachliegenlassen von Grundstücken auf baurechtliche oder planungsrechtliche Weise vorzugehen."
-              },
-              {
-                "text": "Aber dass, wie Sie behauptet haben, all die von mir aufgezählten Maßnahmen damit nichts zu tun haben, sehe ich dezidiert anders."
-              },
-              {
-                "text": "Wenn wir das Angebot vergrößern, wenn es interessanter wird, in Wohnraum zu investieren, wenn Wohnraum verstärkt angeboten wird, hat das natürlich Auswirkungen auf das Mietpreisniveau."
-              },
-              {
-                "text": "Die Mietpreisbremse habe ich als nur ein Element, die Mieten zu regulieren, quasi als End of the Pipe genannt."
-              },
-              {
-                "text": "Das geht sicherlich eher in die Richtung, die Sie favorisieren."
-              },
-              {
-                "text": "Aber das alleine wird es nicht bringen."
-              },
-              {
-                "text": "Wir brauchen vielmehr eine Erweiterung des Angebots, um spekulativem Handeln von vornherein die Grundlage zu entziehen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Vielen Dank. – Eine Zusatzfrage, bitte sehr.",
-            "sentences": [
-              {
-                "text": "Vielen Dank."
-              },
-              {
-                "text": "– Eine Zusatzfrage, bitte sehr."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Canan Bayram",
-            "speakerstatus": "speaker",
-            "text": "Ich bin Ihnen dankbar, dass Sie das Thema Mietpreisbremse aufgegriffen haben. Wenn man der aktuellen Berichterstattung folgt, stellt man fest, dass es Uneinigkeit bzw. Streit darüber gibt, was im Koalitionsvertrag vereinbart ist. Die Justizministerin will etwas machen. Aus der Union hört man, dass etwas ganz anderes vereinbart worden sei. Für mich ist entscheidend, ob sich eine Maßnahme mittelbar oder unmittelbar auswirkt. Unmittelbar auf die Mietverträge wirken sich die meisten von Ihnen genannten Maßnahmen nicht aus. Es gibt ein Ungleichgewicht zulasten der Wohnungsmieter, aber auch der Gewerbemieter. Durch die Erhöhung der Preise bezahlen wir anteilig die Spekulationsgewinne – auch beim Kaffeetrinken – mit. Es gelingt nicht, dies einzudämmen. Deswegen lautet meine Frage: Was unternehmen Sie, um die Immobilienspekulation, die zu einem Ungleichgewicht zwischen Vermieter und Mieter führt, zu stoppen?",
-            "sentences": [
-              {
-                "text": "Ich bin Ihnen dankbar, dass Sie das Thema Mietpreisbremse aufgegriffen haben."
-              },
-              {
-                "text": "Wenn man der aktuellen Berichterstattung folgt, stellt man fest, dass es Uneinigkeit bzw. Streit darüber gibt, was im Koalitionsvertrag vereinbart ist."
-              },
-              {
-                "text": "Die Justizministerin will etwas machen."
-              },
-              {
-                "text": "Aus der Union hört man, dass etwas ganz anderes vereinbart worden sei."
-              },
-              {
-                "text": "Für mich ist entscheidend, ob sich eine Maßnahme mittelbar oder unmittelbar auswirkt."
-              },
-              {
-                "text": "Unmittelbar auf die Mietverträge wirken sich die meisten von Ihnen genannten Maßnahmen nicht aus."
-              },
-              {
-                "text": "Es gibt ein Ungleichgewicht zulasten der Wohnungsmieter, aber auch der Gewerbemieter."
-              },
-              {
-                "text": "Durch die Erhöhung der Preise bezahlen wir anteilig die Spekulationsgewinne – auch beim Kaffeetrinken – mit."
-              },
-              {
-                "text": "Es gelingt nicht, dies einzudämmen."
-              },
-              {
-                "text": "Deswegen lautet meine Frage: Was unternehmen Sie, um die Immobilienspekulation, die zu einem Ungleichgewicht zwischen Vermieter und Mieter führt, zu stoppen?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Herr Staatssekretär.",
-            "sentences": [
-              {
-                "text": "Herr Staatssekretär."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Günter Krings",
-            "speakerstatus": "main-speaker",
-            "text": "Herr Präsident! Frau Kollegin, natürlich haben wir als Gesetzgeber nicht erst seit dem letzten Jahr, sondern seit vielen Jahren ein strukturelles Ungleichgewicht zwischen Vermieter und Mieter zur Kenntnis genommen. Deshalb gibt es in Deutschland ein umfassendes Mieterschutzrecht, das sich im internationalen Vergleich sehen lassen kann. Trotzdem gibt es die von Ihnen beschriebenen Effekte, die wir ebenfalls kritisch sehen; darin sind wir uns einig. Ich habe die Mietpreisbremse als eine Maßnahme aufgezählt. Hier geht es zuerst einmal um die Evaluierung der Mietpreisbremse auf Geeignetheit und Wirksamkeit bis Ende 2018. Gibt es Umgehungstatbestände, die wir aufgreifen müssen? Brauchen wir mehr Transparenz, etwa eine Auskunftspflicht des Vermieters? Aber ich unterscheide anders als Sie nicht zwischen unmittelbaren und mittelbaren Maßnahmen, sondern zwischen effektiven und ineffektiven, zwischen solchen, die nachhaltig wirken, und solchen, die nicht nachhaltig sind. Durch Bremsen alleine kommen wir nicht vorwärts bei den Fragen zum Mietraum; das wird einem sozusagen schon bildlich bestätigt. Vielmehr brauchen wir auch ein verstärktes Angebot. All die aufgezählten Maßnahmen gehören zusammen, und deswegen gibt es den von mir genannten Wohngipfel.",
-            "sentences": [
-              {
-                "text": "Herr Präsident!"
-              },
-              {
-                "text": "Frau Kollegin, natürlich haben wir als Gesetzgeber nicht erst seit dem letzten Jahr, sondern seit vielen Jahren ein strukturelles Ungleichgewicht zwischen Vermieter und Mieter zur Kenntnis genommen."
-              },
-              {
-                "text": "Deshalb gibt es in Deutschland ein umfassendes Mieterschutzrecht, das sich im internationalen Vergleich sehen lassen kann."
-              },
-              {
-                "text": "Trotzdem gibt es die von Ihnen beschriebenen Effekte, die wir ebenfalls kritisch sehen; darin sind wir uns einig."
-              },
-              {
-                "text": "Ich habe die Mietpreisbremse als eine Maßnahme aufgezählt."
-              },
-              {
-                "text": "Hier geht es zuerst einmal um die Evaluierung der Mietpreisbremse auf Geeignetheit und Wirksamkeit bis Ende 2018. Gibt es Umgehungstatbestände, die wir aufgreifen müssen?"
-              },
-              {
-                "text": "Brauchen wir mehr Transparenz, etwa eine Auskunftspflicht des Vermieters?"
-              },
-              {
-                "text": "Aber ich unterscheide anders als Sie nicht zwischen unmittelbaren und mittelbaren Maßnahmen, sondern zwischen effektiven und ineffektiven, zwischen solchen, die nachhaltig wirken, und solchen, die nicht nachhaltig sind."
-              },
-              {
-                "text": "Durch Bremsen alleine kommen wir nicht vorwärts bei den Fragen zum Mietraum; das wird einem sozusagen schon bildlich bestätigt."
-              },
-              {
-                "text": "Vielmehr brauchen wir auch ein verstärktes Angebot."
-              },
-              {
-                "text": "All die aufgezählten Maßnahmen gehören zusammen, und deswegen gibt es den von mir genannten Wohngipfel."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Herr Kühn.",
-            "sentences": [
-              {
-                "text": "Herr Kühn."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Christian Kühn",
-            "speakerstatus": "speaker",
-            "text": "Eine Nachfrage dazu. Im Moment herrscht viel Druck. Sie haben einige Maßnahmen beschrieben, die nach unserer Auffassung nicht zu mehr bezahlbarem Wohnraum führen, sondern höchstens zu Mitnahmeeffekten, wenn es zum Beispiel um Sonderabschreibungen geht. Stimmt es aber, dass der Wohngipfel, auf den nun zielgerichtet hingearbeitet wird, vor der Wahl in Bayern im Herbst stattfinden soll? Hat der gewählte Termin etwas mit dem Wahlkampf in Bayern zu tun, oder will man sich vielleicht noch ein bisschen mehr Zeit lassen, um über die entsprechenden Gesetzesvorhaben in angemessener Zeit hier im Parlament zu beraten?",
-            "sentences": [
-              {
-                "text": "Eine Nachfrage dazu."
-              },
-              {
-                "text": "Im Moment herrscht viel Druck."
-              },
-              {
-                "text": "Sie haben einige Maßnahmen beschrieben, die nach unserer Auffassung nicht zu mehr bezahlbarem Wohnraum führen, sondern höchstens zu Mitnahmeeffekten, wenn es zum Beispiel um Sonderabschreibungen geht."
-              },
-              {
-                "text": "Stimmt es aber, dass der Wohngipfel, auf den nun zielgerichtet hingearbeitet wird, vor der Wahl in Bayern im Herbst stattfinden soll?"
-              },
-              {
-                "text": "Hat der gewählte Termin etwas mit dem Wahlkampf in Bayern zu tun, oder will man sich vielleicht noch ein bisschen mehr Zeit lassen, um über die entsprechenden Gesetzesvorhaben in angemessener Zeit hier im Parlament zu beraten?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Herr Staatssekretär.",
-            "sentences": [
-              {
-                "text": "Herr Staatssekretär."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Günter Krings",
-            "speakerstatus": "main-speaker",
-            "text": "Ich habe den Zeitraum beschrieben. Sein Ende ist noch relativ weit weg. Es ist nach der Sommerpause, etwa im Herbst. Mir ist nicht bekannt, dass es irgendeinen Zusammenhang mit Terminen einer Landtagswahl oder irgendeiner anderen Wahl gibt.",
-            "sentences": [
-              {
-                "text": "Ich habe den Zeitraum beschrieben."
-              },
-              {
-                "text": "Sein Ende ist noch relativ weit weg."
-              },
-              {
-                "text": "Es ist nach der Sommerpause, etwa im Herbst."
-              },
-              {
-                "text": "Mir ist nicht bekannt, dass es irgendeinen Zusammenhang mit Terminen einer Landtagswahl oder irgendeiner anderen Wahl gibt."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Frau Paus.",
-            "sentences": [
-              {
-                "text": "Frau Paus."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Lisa Paus",
-            "speakerstatus": "speaker",
-            "text": "Ich wollte nachfragen, ob ich Sie hinsichtlich der Mietpreisbremse richtig verstanden habe. Sie haben gesagt, Sie machten jetzt bis Ende dieses Jahres die Evaluierung und dann werde es eine Reform geben. Habe ich Sie da richtig verstanden?",
-            "sentences": [
-              {
-                "text": "Ich wollte nachfragen, ob ich Sie hinsichtlich der Mietpreisbremse richtig verstanden habe."
-              },
-              {
-                "text": "Sie haben gesagt, Sie machten jetzt bis Ende dieses Jahres die Evaluierung und dann werde es eine Reform geben."
-              },
-              {
-                "text": "Habe ich Sie da richtig verstanden?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Günter Krings",
-            "speakerstatus": "main-speaker",
-            "text": "Frau Kollegin, naturgemäß hat eine Evaluierung zum Ziel, festzustellen, inwieweit es Reformbedarf gibt. Ich persönlich kann mir vorstellen, dass es den geben wird; aber die Frage wird sein, wie umfassend er sein wird. Darüber werden wir in der Koalition sicherlich diskutieren. Auf diese Diskussion freue ich mich, weil es eine ganz wichtige Diskussion ist.",
-            "sentences": [
-              {
-                "text": "Frau Kollegin, naturgemäß hat eine Evaluierung zum Ziel, festzustellen, inwieweit es Reformbedarf gibt."
-              },
-              {
-                "text": "Ich persönlich kann mir vorstellen, dass es den geben wird; aber die Frage wird sein, wie umfassend er sein wird."
-              },
-              {
-                "text": "Darüber werden wir in der Koalition sicherlich diskutieren."
-              },
-              {
-                "text": "Auf diese Diskussion freue ich mich, weil es eine ganz wichtige Diskussion ist."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Günter Krings",
-            "speakerstatus": "main-speaker",
-            "text": "Wichtig ist mir aber auch, noch einmal zu sagen, dass wir nicht meinen, wir könnten dieses Problem hauptsächlich mit der Mietpreisbremse lösen. Das habe ich eben, glaube ich, aus meiner Sicht dargestellt. Das mögen Sie anders sehen; aber es ist jedenfalls meine dezidierte Auffassung.",
-            "sentences": [
-              {
-                "text": "Wichtig ist mir aber auch, noch einmal zu sagen, dass wir nicht meinen, wir könnten dieses Problem hauptsächlich mit der Mietpreisbremse lösen."
-              },
-              {
-                "text": "Das habe ich eben, glaube ich, aus meiner Sicht dargestellt."
-              },
-              {
-                "text": "Das mögen Sie anders sehen; aber es ist jedenfalls meine dezidierte Auffassung."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Eine weitere Zusatzfrage der Kollegin Polat.",
-            "sentences": [
-              {
-                "text": "Eine weitere Zusatzfrage der Kollegin Polat."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Filiz Polat",
-            "speakerstatus": "speaker",
-            "text": "Danke, Herr Präsident. – Ich wollte in diesem Zusammenhang noch einmal auf die Bund-Länder-Vereinbarung zur Abgeltung der Kosten der Integration verweisen. In diesem Gesamtpaket sind ja die soziale Wohnraumförderung und die Wohnraumförderung im Kontext Entflechtungsmittel subsumiert. Wie verhält sich das zum Wohnungsgipfel? Gibt es da parallele Gespräche? Sind das dieselben Mittel? Wir sprechen einmal über 500 Millionen Euro von 2016 bis 2019 und, im Rahmen der Entflechtungsmittel, über 500 Millionen Euro von 2017 bis 2018.",
-            "sentences": [
-              {
-                "text": "Danke, Herr Präsident."
-              },
-              {
-                "text": "– Ich wollte in diesem Zusammenhang noch einmal auf die Bund-Länder-Vereinbarung zur Abgeltung der Kosten der Integration verweisen."
-              },
-              {
-                "text": "In diesem Gesamtpaket sind ja die soziale Wohnraumförderung und die Wohnraumförderung im Kontext Entflechtungsmittel subsumiert."
-              },
-              {
-                "text": "Wie verhält sich das zum Wohnungsgipfel?"
-              },
-              {
-                "text": "Gibt es da parallele Gespräche?"
-              },
-              {
-                "text": "Sind das dieselben Mittel?"
-              },
-              {
-                "text": "Wir sprechen einmal über 500 Millionen Euro von 2016 bis 2019 und, im Rahmen der Entflechtungsmittel, über 500 Millionen Euro von 2017 bis 2018."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Filiz Polat",
-            "speakerstatus": "speaker",
-            "text": "Weil die AfD immer auf die Probleme, die mit Flüchtlingen verbunden sind, verweist: Seitdem wir Zuwanderung von Geflüchteten haben, gibt es erstmals wieder Investitionen in den sozialen Wohnungsbau. Man muss hinzufügen, dass wir im Kontext der Zuwanderung davon profitiert haben, dass hier politisch endlich etwas getan wurde.",
-            "sentences": [
-              {
-                "text": "Weil die AfD immer auf die Probleme, die mit Flüchtlingen verbunden sind, verweist: Seitdem wir Zuwanderung von Geflüchteten haben, gibt es erstmals wieder Investitionen in den sozialen Wohnungsbau."
-              },
-              {
-                "text": "Man muss hinzufügen, dass wir im Kontext der Zuwanderung davon profitiert haben, dass hier politisch endlich etwas getan wurde."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Herr Staatssekretär.",
-            "sentences": [
-              {
-                "text": "Herr Staatssekretär."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Günter Krings",
-            "speakerstatus": "main-speaker",
-            "text": "In Ihrer ersten Frage ging es um konkrete Zahlen. Diese Frage kann ich Ihnen hier und heute nicht beantworten; aber ich kann Ihnen diese Zahlen gerne heraussuchen lassen. Ich hoffe, dass das Ministerium nicht allzu sauer ist, dass ich jetzt so viele Aufträge ins Haus gebe; aber ich glaube, das schaffen wir gut.",
-            "sentences": [
-              {
-                "text": "In Ihrer ersten Frage ging es um konkrete Zahlen."
-              },
-              {
-                "text": "Diese Frage kann ich Ihnen hier und heute nicht beantworten; aber ich kann Ihnen diese Zahlen gerne heraussuchen lassen."
-              },
-              {
-                "text": "Ich hoffe, dass das Ministerium nicht allzu sauer ist, dass ich jetzt so viele Aufträge ins Haus gebe; aber ich glaube, das schaffen wir gut."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Weitere Zusatzfragen gibt es nicht.",
-            "sentences": [
-              {
-                "text": "Weitere Zusatzfragen gibt es nicht."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Dann kommen wir zur Frage 13 des Abgeordneten Christian Kühn, Bündnis 90/Die Grünen:",
-            "sentences": [
-              {
-                "text": "Dann kommen wir zur Frage 13 des Abgeordneten Christian Kühn, Bündnis 90/Die Grünen:"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Herr Staatssekretär.",
-            "sentences": [
-              {
-                "text": "Herr Staatssekretär."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Günter Krings",
-            "speakerstatus": "main-speaker",
-            "text": "Als Ausgleich für den Wegfall früherer Bundesfinanzhilfen für die soziale Wohnraumförderung zahlt der Bund seit 2007 bis einschließlich 2019 sogenannte Kompensationsmittel an die Länder. Diese betrugen ab dem 1. Januar 2017 bis zum 31. Dezember 2018, also in diesen beiden Jahren, jährlich 1 518 200 000 Euro. Ab dem 1. Januar 2019 bis Ende 2019 betragen diese Mittel 1 018 200 000 Euro.",
-            "sentences": [
-              {
-                "text": "Als Ausgleich für den Wegfall früherer Bundesfinanzhilfen für die soziale Wohnraumförderung zahlt der Bund seit 2007 bis einschließlich 2019 sogenannte Kompensationsmittel an die Länder."
-              },
-              {
-                "text": "Diese betrugen ab dem 1. Januar 2017 bis zum 31. Dezember 2018, also in diesen beiden Jahren, jährlich 1 518 200 000 Euro."
-              },
-              {
-                "text": "Ab dem 1. Januar 2019 bis Ende 2019 betragen diese Mittel 1 018 200 000 Euro."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Günter Krings",
-            "speakerstatus": "main-speaker",
-            "text": "Die Koalitionsvereinbarung sieht vor, dass der soziale Wohnungsbau mindestens auf heutigem Niveau und langfristig verstetigt wird, also entgegen der ursprünglichen Planung der Föderalismuskommission, die eine Befristung vorsah; ich kann mich daran noch gut erinnern. Dafür ist es erforderlich, dass der Bund auch in Zukunft gemeinsam mit den Ländern Verantwortung für den sozialen Wohnungsbau übernehmen kann. So wird der Bund etwa in den Jahren 2020/2021 mindestens 2 Milliarden Euro für den sozialen Wohnungsbau zweckgebunden bereitstellen.",
-            "sentences": [
-              {
-                "text": "Die Koalitionsvereinbarung sieht vor, dass der soziale Wohnungsbau mindestens auf heutigem Niveau und langfristig verstetigt wird, also entgegen der ursprünglichen Planung der Föderalismuskommission, die eine Befristung vorsah; ich kann mich daran noch gut erinnern."
-              },
-              {
-                "text": "Dafür ist es erforderlich, dass der Bund auch in Zukunft gemeinsam mit den Ländern Verantwortung für den sozialen Wohnungsbau übernehmen kann."
-              },
-              {
-                "text": "So wird der Bund etwa in den Jahren 2020/2021 mindestens 2 Milliarden Euro für den sozialen Wohnungsbau zweckgebunden bereitstellen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Zusatzfrage, Herr Kühn.",
-            "sentences": [
-              {
-                "text": "Zusatzfrage, Herr Kühn."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Christian Kühn",
-            "speakerstatus": "speaker",
-            "text": "Wir führen im Augenblick eine Debatte über den sozialen Wohnungsbau. Sie haben eine Grundgesetzänderung auf den Weg gebracht. Ich bin sehr gespannt, wann und in welchem Format sie am Ende mit den Ländern verhandelt wird. Wir haben letztes Jahr eine weitreichende Grundgesetzänderung gehabt, bei der diese Fragen, wie ich finde, schon von der damaligen Großen Koalition hätten eingebracht werden können. Sie sagen nun: Langfristig sollen pro Jahr 2 Milliarden Euro, Geld des Bundes, in den sozialen Wohnungsbau fließen. Jetzt haben Sie die Vorstellung, dass für Kinderbaugeld bis zu 10 Milliarden Euro pro Jahr bereitgestellt werden sollen. Ich frage Sie: Finden Sie nicht, dass darin eine Unwucht liegt? Auf der einen Seite handelt es sich sozusagen um ein Instrument zur Förderung der oberen Mittelschicht; auf der anderen Seite sollen die Gelder für den sozialen Wohnungsbau um ein Vielfaches niedriger sein. Liegt darin nicht eine Unwucht? Ist es eine Priorisierung dieser Bundesregierung, dass sie den sozialen Wohnungsbau einfach nicht mit dem gleichen Stellenwert fördern will?",
-            "sentences": [
-              {
-                "text": "Wir führen im Augenblick eine Debatte über den sozialen Wohnungsbau."
-              },
-              {
-                "text": "Sie haben eine Grundgesetzänderung auf den Weg gebracht."
-              },
-              {
-                "text": "Ich bin sehr gespannt, wann und in welchem Format sie am Ende mit den Ländern verhandelt wird."
-              },
-              {
-                "text": "Wir haben letztes Jahr eine weitreichende Grundgesetzänderung gehabt, bei der diese Fragen, wie ich finde, schon von der damaligen Großen Koalition hätten eingebracht werden können."
-              },
-              {
-                "text": "Sie sagen nun: Langfristig sollen pro Jahr 2 Milliarden Euro, Geld des Bundes, in den sozialen Wohnungsbau fließen."
-              },
-              {
-                "text": "Jetzt haben Sie die Vorstellung, dass für Kinderbaugeld bis zu 10 Milliarden Euro pro Jahr bereitgestellt werden sollen."
-              },
-              {
-                "text": "Ich frage Sie: Finden Sie nicht, dass darin eine Unwucht liegt?"
-              },
-              {
-                "text": "Auf der einen Seite handelt es sich sozusagen um ein Instrument zur Förderung der oberen Mittelschicht; auf der anderen Seite sollen die Gelder für den sozialen Wohnungsbau um ein Vielfaches niedriger sein."
-              },
-              {
-                "text": "Liegt darin nicht eine Unwucht?"
-              },
-              {
-                "text": "Ist es eine Priorisierung dieser Bundesregierung, dass sie den sozialen Wohnungsbau einfach nicht mit dem gleichen Stellenwert fördern will?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Herr Staatssekretär.",
-            "sentences": [
-              {
-                "text": "Herr Staatssekretär."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Günter Krings",
-            "speakerstatus": "main-speaker",
-            "text": "Vielen Dank, Herr Präsident. – Herr Kollege, diese Unwucht sehe ich nicht. Ich würde auch die Prämisse Ihrer Frage hinterfragen oder sogar zurückweisen, dass es in diesem einen Fall, wie Sie gesagt haben, um die obere Mittelschicht geht.",
-            "sentences": [
-              {
-                "text": "Vielen Dank, Herr Präsident."
-              },
-              {
-                "text": "– Herr Kollege, diese Unwucht sehe ich nicht."
-              },
-              {
-                "text": "Ich würde auch die Prämisse Ihrer Frage hinterfragen oder sogar zurückweisen, dass es in diesem einen Fall, wie Sie gesagt haben, um die obere Mittelschicht geht."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Günter Krings",
-            "speakerstatus": "main-speaker",
-            "text": "Zunächst einmal: Sozialer Wohnungsbau ist nicht alleinige Aufgabe des Bundes. Nach jetziger Verfassungslage ist sie eigentlich gar nicht Aufgabe des Bundes, sondern der Länder. Wir haben dies im Rahmen der Föderalismuskommission I auch lange verhandelt. Ich habe da mehrere Monate meines jungen Lebens – damals jungen Lebens – zugebracht.",
-            "sentences": [
-              {
-                "text": "Zunächst einmal: Sozialer Wohnungsbau ist nicht alleinige Aufgabe des Bundes."
-              },
-              {
-                "text": "Nach jetziger Verfassungslage ist sie eigentlich gar nicht Aufgabe des Bundes, sondern der Länder."
-              },
-              {
-                "text": "Wir haben dies im Rahmen der Föderalismuskommission I auch lange verhandelt."
-              },
-              {
-                "text": "Ich habe da mehrere Monate meines jungen Lebens – damals jungen Lebens – zugebracht."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Günter Krings",
-            "speakerstatus": "main-speaker",
-            "text": "– Als Verfassungsjurist war es auch spannend, aber eben trotzdem an vielen Stellen sehr mühsam.",
-            "sentences": [
-              {
-                "text": "– Als Verfassungsjurist war es auch spannend, aber eben trotzdem an vielen Stellen sehr mühsam."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Günter Krings",
-            "speakerstatus": "main-speaker",
-            "text": "Im Rahmen der Föderalismuskommission I gab es eine Vereinbarung, mit der Bund und Länder am Ende zufrieden waren. Jetzt haben die Länder die Kompensationsmittel. Das hat dazu geführt, dass – das will ich vorsichtig formulieren; wir wollen das ja korporativ angehen – in einzelnen Ländern das Bundesgeld einfach Landesmittel ersetzt hat. Wir finden es, glaube ich, beide nicht gut, dass die Länder da zu wenig gemacht haben. Insofern dürften wir diese 2 Milliarden Euro nicht gegen eine Summe X für Baukindergeld stellen. Der Bund beteiligt sich ja an einer Aufgabe. Das wollen wir auch gerne verstetigen, und zwar in Zukunft nicht befristet, sondern auf Dauer. Es wird damit aber nicht alleinige Bundesaufgabe sein.",
-            "sentences": [
-              {
-                "text": "Im Rahmen der Föderalismuskommission I gab es eine Vereinbarung, mit der Bund und Länder am Ende zufrieden waren."
-              },
-              {
-                "text": "Jetzt haben die Länder die Kompensationsmittel."
-              },
-              {
-                "text": "Das hat dazu geführt, dass – das will ich vorsichtig formulieren; wir wollen das ja korporativ angehen – in einzelnen Ländern das Bundesgeld einfach Landesmittel ersetzt hat."
-              },
-              {
-                "text": "Wir finden es, glaube ich, beide nicht gut, dass die Länder da zu wenig gemacht haben."
-              },
-              {
-                "text": "Insofern dürften wir diese 2 Milliarden Euro nicht gegen eine Summe X für Baukindergeld stellen."
-              },
-              {
-                "text": "Der Bund beteiligt sich ja an einer Aufgabe."
-              },
-              {
-                "text": "Das wollen wir auch gerne verstetigen, und zwar in Zukunft nicht befristet, sondern auf Dauer."
-              },
-              {
-                "text": "Es wird damit aber nicht alleinige Bundesaufgabe sein."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Günter Krings",
-            "speakerstatus": "main-speaker",
-            "text": "Das Baukindergeld ist eine spezielle, auch zielgenaue Förderung für Familien, die Kinder haben und noch mit ihnen zusammenwohnen; ohne Kinder wäre es ja keine Familie. Das ist schon ziemlich zielgenau. Nachdem, was mir an Planung bekannt ist, soll es auch Obergrenzen geben. Ihre Befürchtungen, dass die Oberschicht profitiert, treffen nicht zu.",
-            "sentences": [
-              {
-                "text": "Das Baukindergeld ist eine spezielle, auch zielgenaue Förderung für Familien, die Kinder haben und noch mit ihnen zusammenwohnen; ohne Kinder wäre es ja keine Familie."
-              },
-              {
-                "text": "Das ist schon ziemlich zielgenau."
-              },
-              {
-                "text": "Nachdem, was mir an Planung bekannt ist, soll es auch Obergrenzen geben."
-              },
-              {
-                "text": "Ihre Befürchtungen, dass die Oberschicht profitiert, treffen nicht zu."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Günter Krings",
-            "speakerstatus": "main-speaker",
-            "text": "Ich finde es eine richtige und gute Idee, auf die sich die Koalitionspartner da geeinigt haben. Wir wollen es speziell Familien ermöglichen, eine Immobilie zu erwerben oder ein Haus zu bauen.",
-            "sentences": [
-              {
-                "text": "Ich finde es eine richtige und gute Idee, auf die sich die Koalitionspartner da geeinigt haben."
-              },
-              {
-                "text": "Wir wollen es speziell Familien ermöglichen, eine Immobilie zu erwerben oder ein Haus zu bauen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Weitere Zusatzfrage?",
-            "sentences": [
-              {
-                "text": "Weitere Zusatzfrage?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Christian Kühn",
-            "speakerstatus": "speaker",
-            "text": "Die zweite Zusatzfrage zielt noch einmal auf die Grundgesetzänderung: Inwieweit hat die Bundesregierung bereits Gespräche mit den Ländern zu dieser Grundgesetzänderung geführt, und inwieweit ist die Ressortabstimmung gediehen? Ich hatte gehört, dass der Kabinettsentwurf, der aus dem Finanzministerium gekommen ist und zweifelsohne auch die Frage des Bauens und des Wohnen betrifft, in der Bundesregierung bisher noch nicht abgestimmt worden ist und dass es da erheblichen Unmut gab.",
-            "sentences": [
-              {
-                "text": "Die zweite Zusatzfrage zielt noch einmal auf die Grundgesetzänderung: Inwieweit hat die Bundesregierung bereits Gespräche mit den Ländern zu dieser Grundgesetzänderung geführt, und inwieweit ist die Ressortabstimmung gediehen?"
-              },
-              {
-                "text": "Ich hatte gehört, dass der Kabinettsentwurf, der aus dem Finanzministerium gekommen ist und zweifelsohne auch die Frage des Bauens und des Wohnen betrifft, in der Bundesregierung bisher noch nicht abgestimmt worden ist und dass es da erheblichen Unmut gab."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Günter Krings",
-            "speakerstatus": "main-speaker",
-            "text": "Lieber Kollege, von Unmut kann ich aus eigener Erfahrung nicht berichten. Es gibt auch noch andere Projekte, die sich mit Grundgesetzänderungen befassen. Da wird man die Frage stellen, in welchem Format man das macht. Fasst man Grundgesetzänderungen zusammen? Macht man es nicht? Bleibt man bei einem bestimmten Thema? Das ist eben noch nicht abgeschlossen. Da muss ich Sie einfach um Geduld bitten. Ich kann Ihnen nicht einmal etwas schriftlich liefern. Da muss man jetzt einfach einmal ein bisschen abwarten.",
-            "sentences": [
-              {
-                "text": "Lieber Kollege, von Unmut kann ich aus eigener Erfahrung nicht berichten."
-              },
-              {
-                "text": "Es gibt auch noch andere Projekte, die sich mit Grundgesetzänderungen befassen."
-              },
-              {
-                "text": "Da wird man die Frage stellen, in welchem Format man das macht."
-              },
-              {
-                "text": "Fasst man Grundgesetzänderungen zusammen?"
-              },
-              {
-                "text": "Macht man es nicht?"
-              },
-              {
-                "text": "Bleibt man bei einem bestimmten Thema?"
-              },
-              {
-                "text": "Das ist eben noch nicht abgeschlossen."
-              },
-              {
-                "text": "Da muss ich Sie einfach um Geduld bitten."
-              },
-              {
-                "text": "Ich kann Ihnen nicht einmal etwas schriftlich liefern."
-              },
-              {
-                "text": "Da muss man jetzt einfach einmal ein bisschen abwarten."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Weitere Zusatzfragen? – Frau Paus.",
-            "sentences": [
-              {
-                "text": "Weitere Zusatzfragen?"
-              },
-              {
-                "text": "– Frau Paus."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Lisa Paus",
-            "speakerstatus": "speaker",
-            "text": "Sie hatten das Baukindergeld und die damit verbundenen Obergrenzen angesprochen. Im Koalitionsvertrag steht, dass Familien mit einem zu versteuernden Einkommen von bis zu 75 000 Euro plus pro Kind 15 000 Euro berechtigt sein sollen, Baukindergeld zu bekommen. Jetzt wissen zumindest die Finanzer, dass das de facto ein Bruttoeinkommen von bis zu 100 000 Euro ist, bei mehreren Kindern dann entsprechend steigend. Können Sie mir sagen, welche Familie dann eigentlich nicht berechtigt ist, dieses Baukindergeld zu bekommen? Denn es gibt nicht so viele Einkommensbezieher, die bei über 100 000 Euro im Jahr liegen. Das können Sie mir auch gerne schriftlich nachreichen.",
-            "sentences": [
-              {
-                "text": "Sie hatten das Baukindergeld und die damit verbundenen Obergrenzen angesprochen."
-              },
-              {
-                "text": "Im Koalitionsvertrag steht, dass Familien mit einem zu versteuernden Einkommen von bis zu 75 000 Euro plus pro Kind 15 000 Euro berechtigt sein sollen, Baukindergeld zu bekommen."
-              },
-              {
-                "text": "Jetzt wissen zumindest die Finanzer, dass das de facto ein Bruttoeinkommen von bis zu 100 000 Euro ist, bei mehreren Kindern dann entsprechend steigend."
-              },
-              {
-                "text": "Können Sie mir sagen, welche Familie dann eigentlich nicht berechtigt ist, dieses Baukindergeld zu bekommen?"
-              },
-              {
-                "text": "Denn es gibt nicht so viele Einkommensbezieher, die bei über 100 000 Euro im Jahr liegen."
-              },
-              {
-                "text": "Das können Sie mir auch gerne schriftlich nachreichen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Günter Krings",
-            "speakerstatus": "main-speaker",
-            "text": "Frau Kollegin, ich kann Ihnen da keine Zahlen nennen. Sie mögen die Obergrenze für zu hoch halten. Hätten wir gar keine im Koalitionsvertrag gehabt, hätten Sie sich beschwert, dass eine Obergrenze fehlt. Ich glaube, es ist schon gut, dass wir eine Obergrenze vorsehen. Wir sollten sie aber auch nicht zu streng gestalten, weil wir natürlich grundsätzlich sagen, dass dem Staat jedes Kind gleich viel wert sein muss. Auch Familien, die vielleicht ein bisschen mehr haben als andere, sollten die Möglichkeit haben, ein Haus zu bauen oder eine Wohnung zu erwerben. Deshalb bin ich schon der Meinung, dass wir die Obergrenze nicht zu strikt gestalten und zu tief ziehen sollten.",
-            "sentences": [
-              {
-                "text": "Frau Kollegin, ich kann Ihnen da keine Zahlen nennen."
-              },
-              {
-                "text": "Sie mögen die Obergrenze für zu hoch halten."
-              },
-              {
-                "text": "Hätten wir gar keine im Koalitionsvertrag gehabt, hätten Sie sich beschwert, dass eine Obergrenze fehlt."
-              },
-              {
-                "text": "Ich glaube, es ist schon gut, dass wir eine Obergrenze vorsehen."
-              },
-              {
-                "text": "Wir sollten sie aber auch nicht zu streng gestalten, weil wir natürlich grundsätzlich sagen, dass dem Staat jedes Kind gleich viel wert sein muss."
-              },
-              {
-                "text": "Auch Familien, die vielleicht ein bisschen mehr haben als andere, sollten die Möglichkeit haben, ein Haus zu bauen oder eine Wohnung zu erwerben."
-              },
-              {
-                "text": "Deshalb bin ich schon der Meinung, dass wir die Obergrenze nicht zu strikt gestalten und zu tief ziehen sollten."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Wir kommen zu Frage 14 des Kollegen Christian Kühn:",
-            "sentences": [
-              {
-                "text": "Wir kommen zu Frage 14 des Kollegen Christian Kühn:"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Günter Krings",
-            "speakerstatus": "main-speaker",
-            "text": "Vielen Dank, Herr Präsident. – Lieber Herr Kollege, das private Wohneigentum ist ein wichtiger Bestandteil der Wohnraumversorgung in Deutschland und trägt eben auch – das wurde bereits angesprochen – erheblich zur Entlastung der Wohnungsmärkte bei. Mit dem Baukindergeld sollen gezielt Familien mit Kindern beim Erwerb von selbstgenutztem Wohneigentum unterstützt werden. Durch die Berücksichtigung bei der Gesamtfinanzierung soll das Baukindergeld die individuelle Finanzierungsbelastung senken und dadurch vielen Familien erst den Schritt ins Wohneigentum ermöglichen. Die Einkommensgrenze, über die wir gerade gesprochen haben, begrenzt die Anspruchsberechtigung auf die Haushalte, die eine Förderung erhalten, um Wohneigentum schaffen zu können.",
-            "sentences": [
-              {
-                "text": "Vielen Dank, Herr Präsident."
-              },
-              {
-                "text": "– Lieber Herr Kollege, das private Wohneigentum ist ein wichtiger Bestandteil der Wohnraumversorgung in Deutschland und trägt eben auch – das wurde bereits angesprochen – erheblich zur Entlastung der Wohnungsmärkte bei."
-              },
-              {
-                "text": "Mit dem Baukindergeld sollen gezielt Familien mit Kindern beim Erwerb von selbstgenutztem Wohneigentum unterstützt werden."
-              },
-              {
-                "text": "Durch die Berücksichtigung bei der Gesamtfinanzierung soll das Baukindergeld die individuelle Finanzierungsbelastung senken und dadurch vielen Familien erst den Schritt ins Wohneigentum ermöglichen."
-              },
-              {
-                "text": "Die Einkommensgrenze, über die wir gerade gesprochen haben, begrenzt die Anspruchsberechtigung auf die Haushalte, die eine Förderung erhalten, um Wohneigentum schaffen zu können."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Zusatzfrage von Herrn Kühn.",
-            "sentences": [
-              {
-                "text": "Zusatzfrage von Herrn Kühn."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Christian Kühn",
-            "speakerstatus": "speaker",
-            "text": "Heute Morgen gab es ein parlamentarisches Frühstück genau zu der Frage von Kinderbaugeld und Eigentumsförderung. Dazu hat das Pestel Institut eine Studie vorgestellt. Die Überlegungen waren: Wo sind die Haushalte, die dieses Kinderbaugeld in Anspruch nehmen würden? Wo sind die Preise der Immobilien so, dass das Kinderbaugeld den Ausschlag dafür gibt, dass man am Ende die Kreditfinanzierung bekommt? In dieser Studie ist klar herausgekommen, dass die Metropolen, also Hamburg, München, Stuttgart, Frankfurt, Berlin, nicht dabei sind. Ist das Kinderbaugeld nicht etwas, das auf den ländlichen Raum, auf den Raum abzielt, wo die Immobilienpreise bereits heute entspannt sind, und das am Ende in den Metropolen gar keinen Effekt haben wird?",
-            "sentences": [
-              {
-                "text": "Heute Morgen gab es ein parlamentarisches Frühstück genau zu der Frage von Kinderbaugeld und Eigentumsförderung."
-              },
-              {
-                "text": "Dazu hat das Pestel Institut eine Studie vorgestellt."
-              },
-              {
-                "text": "Die Überlegungen waren: Wo sind die Haushalte, die dieses Kinderbaugeld in Anspruch nehmen würden?"
-              },
-              {
-                "text": "Wo sind die Preise der Immobilien so, dass das Kinderbaugeld den Ausschlag dafür gibt, dass man am Ende die Kreditfinanzierung bekommt?"
-              },
-              {
-                "text": "In dieser Studie ist klar herausgekommen, dass die Metropolen, also Hamburg, München, Stuttgart, Frankfurt, Berlin, nicht dabei sind."
-              },
-              {
-                "text": "Ist das Kinderbaugeld nicht etwas, das auf den ländlichen Raum, auf den Raum abzielt, wo die Immobilienpreise bereits heute entspannt sind, und das am Ende in den Metropolen gar keinen Effekt haben wird?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Günter Krings",
-            "speakerstatus": "main-speaker",
-            "text": "Herr Präsident! Lieber Kollege, es gibt zwischen den von Ihnen genannten Großstädten in Deutschland und dem eigentlichen ländlichen Raum auch noch viele Städte anderer Größenordnungen. Ich komme aus einer Stadt mit über 260 000 Einwohnern. Da sind in der Tat die Mieten geringer als in Städten wie Frankfurt oder inzwischen auch Berlin, aber trotzdem ist es für Menschen mit mittlerem Einkommen, vielleicht sogar gehobenem Einkommen nicht einfach, dort Wohnimmobilien zu erwerben. Mein Vater konnte damals ein Haus bauen, obwohl er in der Familie Alleinverdiener war. Heute sehe ich so etwas in meinem Bekanntenkreis kaum noch. Es ist also da ein echtes Problem. Wenn wir jetzt für diese Städte und Regionen, allerdings natürlich auch für die Großstädte, etwas tun, ist das richtig und wichtig.",
-            "sentences": [
-              {
-                "text": "Herr Präsident!"
-              },
-              {
-                "text": "Lieber Kollege, es gibt zwischen den von Ihnen genannten Großstädten in Deutschland und dem eigentlichen ländlichen Raum auch noch viele Städte anderer Größenordnungen."
-              },
-              {
-                "text": "Ich komme aus einer Stadt mit über 260 000 Einwohnern."
-              },
-              {
-                "text": "Da sind in der Tat die Mieten geringer als in Städten wie Frankfurt oder inzwischen auch Berlin, aber trotzdem ist es für Menschen mit mittlerem Einkommen, vielleicht sogar gehobenem Einkommen nicht einfach, dort Wohnimmobilien zu erwerben."
-              },
-              {
-                "text": "Mein Vater konnte damals ein Haus bauen, obwohl er in der Familie Alleinverdiener war."
-              },
-              {
-                "text": "Heute sehe ich so etwas in meinem Bekanntenkreis kaum noch."
-              },
-              {
-                "text": "Es ist also da ein echtes Problem."
-              },
-              {
-                "text": "Wenn wir jetzt für diese Städte und Regionen, allerdings natürlich auch für die Großstädte, etwas tun, ist das richtig und wichtig."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Günter Krings",
-            "speakerstatus": "main-speaker",
-            "text": "Einen Punkt will ich noch betonen, nämlich dass das nur ein Instrument im Baukasten ist, mit dem wir den Wohnungsmarkt entspannen und den Mietern helfen wollen. Entweder sinken die Mieten, oder die Menschen sollen Eigentum erwerben können. Von daher ist es nicht das einzige Instrument, das in diesem Kasten liegt.",
-            "sentences": [
-              {
-                "text": "Einen Punkt will ich noch betonen, nämlich dass das nur ein Instrument im Baukasten ist, mit dem wir den Wohnungsmarkt entspannen und den Mietern helfen wollen."
-              },
-              {
-                "text": "Entweder sinken die Mieten, oder die Menschen sollen Eigentum erwerben können."
-              },
-              {
-                "text": "Von daher ist es nicht das einzige Instrument, das in diesem Kasten liegt."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Wenn Sie keine Zusatzfrage mehr stellen, kann ich noch die nächste Frage aufrufen.",
-            "sentences": [
-              {
-                "text": "Wenn Sie keine Zusatzfrage mehr stellen, kann ich noch die nächste Frage aufrufen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Christian Kühn",
-            "speakerstatus": "speaker",
-            "text": "Ich habe noch eine Frage, die relevant ist. – Die Bundesrepublik Deutschland hat Erfahrungen mit diesem In­strument. Es gab die Eigenheimzulage. Die hat eine Große Koalition 2005 – da war der Herr Präsident Oppermann auch hier im Parlament; andere ebenfalls – abgeschafft. Man hat sie damals abgeschafft, weil es massive Mitnahmeeffekte gab. Es war die größte Einzelsubvention, die es in der Bundesrepublik bis dato gegeben hatte. Sie hat zu Baukostensteigerungen geführt. Sie hat zu erheblichen Mitnahmeeffekten geführt.",
-            "sentences": [
-              {
-                "text": "Ich habe noch eine Frage, die relevant ist."
-              },
-              {
-                "text": "– Die Bundesrepublik Deutschland hat Erfahrungen mit diesem In­strument."
-              },
-              {
-                "text": "Es gab die Eigenheimzulage."
-              },
-              {
-                "text": "Die hat eine Große Koalition 2005 – da war der Herr Präsident Oppermann auch hier im Parlament; andere ebenfalls – abgeschafft."
-              },
-              {
-                "text": "Man hat sie damals abgeschafft, weil es massive Mitnahmeeffekte gab."
-              },
-              {
-                "text": "Es war die größte Einzelsubvention, die es in der Bundesrepublik bis dato gegeben hatte."
-              },
-              {
-                "text": "Sie hat zu Baukostensteigerungen geführt."
-              },
-              {
-                "text": "Sie hat zu erheblichen Mitnahmeeffekten geführt."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Christian Kühn",
-            "speakerstatus": "speaker",
-            "text": "Deswegen frage ich Sie: Gibt es Studien, die erwarten lassen, dass dieses Kinderbaugeld einen anderen Effekt auf den deutschen Immobilienmärkten haben wird als die damalige Eigenheimzulage?",
-            "sentences": [
-              {
-                "text": "Deswegen frage ich Sie: Gibt es Studien, die erwarten lassen, dass dieses Kinderbaugeld einen anderen Effekt auf den deutschen Immobilienmärkten haben wird als die damalige Eigenheimzulage?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Herr Staatssekretär.",
-            "sentences": [
-              {
-                "text": "Herr Staatssekretär."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Günter Krings",
-            "speakerstatus": "main-speaker",
-            "text": "Herr Präsident! Lieber Kollege, „Baukindergeld“ sagen wir immer; aber auch bei „Kinderbaugeld“ weiß jeder, was gemeint ist.",
-            "sentences": [
-              {
-                "text": "Herr Präsident!"
-              },
-              {
-                "text": "Lieber Kollege, „Baukindergeld“ sagen wir immer; aber auch bei „Kinderbaugeld“ weiß jeder, was gemeint ist."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Günter Krings",
-            "speakerstatus": "main-speaker",
-            "text": "Die Eigenheimzulage hatte durchaus Anhänger, auch hier im Haus. Ich weiß, dass es damals – auch ich war dabei – nicht unumstritten war, sie abzuschaffen. Gerade weil das Baukindergeld familienbezogen ist, ist es spezifischer und auch zielgenauer als die damalige Eigenheimzulage, die vielleicht gewisse Mitnahmeeffekte hatte, die aber durchaus auch positive Effekte hatte.",
-            "sentences": [
-              {
-                "text": "Die Eigenheimzulage hatte durchaus Anhänger, auch hier im Haus."
-              },
-              {
-                "text": "Ich weiß, dass es damals – auch ich war dabei – nicht unumstritten war, sie abzuschaffen."
-              },
-              {
-                "text": "Gerade weil das Baukindergeld familienbezogen ist, ist es spezifischer und auch zielgenauer als die damalige Eigenheimzulage, die vielleicht gewisse Mitnahmeeffekte hatte, die aber durchaus auch positive Effekte hatte."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Günter Krings",
-            "speakerstatus": "main-speaker",
-            "text": "Als im politischen Raum das Baukindergeld vorgeschlagen worden ist, gab es auch Sachargumente und Empfehlungen von Fachleuten, denen Parteigremien gefolgt sind. So hat es dieses Instrument ins Wahlprogramm und dann ins Regierungsprogramm geschafft. Es ist durchaus auf einer Sachgrundlage erarbeitet worden.",
-            "sentences": [
-              {
-                "text": "Als im politischen Raum das Baukindergeld vorgeschlagen worden ist, gab es auch Sachargumente und Empfehlungen von Fachleuten, denen Parteigremien gefolgt sind."
-              },
-              {
-                "text": "So hat es dieses Instrument ins Wahlprogramm und dann ins Regierungsprogramm geschafft."
-              },
-              {
-                "text": "Es ist durchaus auf einer Sachgrundlage erarbeitet worden."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Ich rufe jetzt als letzte Frage noch die Frage 15 auf:",
-            "sentences": [
-              {
-                "text": "Ich rufe jetzt als letzte Frage noch die Frage 15 auf:"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Sie wird von der Abgeordneten Petra Pau gestellt.",
-            "sentences": [
-              {
-                "text": "Sie wird von der Abgeordneten Petra Pau gestellt."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Wenn Sie einverstanden sind, Frau Pau, können die Fragen 15 und 16 in einem Zug beantwortet werden.",
-            "sentences": [
-              {
-                "text": "Wenn Sie einverstanden sind, Frau Pau, können die Fragen 15 und 16 in einem Zug beantwortet werden."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Dann rufe ich auch noch die Frage 16 der Abgeordneten Petra Pau auf:",
-            "sentences": [
-              {
-                "text": "Dann rufe ich auch noch die Frage 16 der Abgeordneten Petra Pau auf:"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Herr Staatssekretär.",
-            "sentences": [
-              {
-                "text": "Herr Staatssekretär."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Günter Krings",
-            "speakerstatus": "main-speaker",
-            "text": "Herr Präsident! Liebe Kollegin – jetzt Abgeordnete und nicht Präsidentin –, natürlich beantworte ich Ihre beiden Fragen auch sehr gern.",
-            "sentences": [
-              {
-                "text": "Herr Präsident!"
-              },
-              {
-                "text": "Liebe Kollegin – jetzt Abgeordnete und nicht Präsidentin –, natürlich beantworte ich Ihre beiden Fragen auch sehr gern."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Günter Krings",
-            "speakerstatus": "main-speaker",
-            "text": "Der Beauftragte der Bundesregierung für jüdisches Leben in Deutschland und den Kampf gegen Antisemitismus wird sein Amt mit Wirkung vom 1. Mai 2018 antreten. Der Beauftragte soll gemäß Beschluss des Deutschen Bundestages zur Drucksache 19/444 vom 17. Januar 2018 folgende Aufgaben wahrnehmen: ressortübergreifende Koordination der Maßnahmen der Bundesregierung zur Bekämpfung des Antisemitismus, Ansprechpartner für Belange jüdischer Gruppen und gesellschaftlicher Organisationen, auch international mit Blick auf die EU und UN, Ansprechpartner und Vermittler für Antisemitismusbekämpfung durch Bund, Länder und Zivilgesellschaft, Koordinierung einer ständigen Bund-Länder-Kommission mit Vertreterinnen und Vertretern der zuständigen Stellen, Sensibilisierung der Gesellschaft für aktuelle und historische Formen des Antisemitismus durch Öffentlichkeitsarbeit sowie politische und kulturelle Bildung. Diese Aufzählung beschreibt dann eben auch die Aufgaben des Beauftragten.",
-            "sentences": [
-              {
-                "text": "Der Beauftragte der Bundesregierung für jüdisches Leben in Deutschland und den Kampf gegen Antisemitismus wird sein Amt mit Wirkung vom 1. Mai 2018 antreten."
-              },
-              {
-                "text": "Der Beauftragte soll gemäß Beschluss des Deutschen Bundestages zur Drucksache 19/444 vom 17. Januar 2018 folgende Aufgaben wahrnehmen: ressortübergreifende Koordination der Maßnahmen der Bundesregierung zur Bekämpfung des Antisemitismus, Ansprechpartner für Belange jüdischer Gruppen und gesellschaftlicher Organisationen, auch international mit Blick auf die EU und UN, Ansprechpartner und Vermittler für Antisemitismusbekämpfung durch Bund, Länder und Zivilgesellschaft, Koordinierung einer ständigen Bund-Länder-Kommission mit Vertreterinnen und Vertretern der zuständigen Stellen, Sensibilisierung der Gesellschaft für aktuelle und historische Formen des Antisemitismus durch Öffentlichkeitsarbeit sowie politische und kulturelle Bildung."
-              },
-              {
-                "text": "Diese Aufzählung beschreibt dann eben auch die Aufgaben des Beauftragten."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Günter Krings",
-            "speakerstatus": "main-speaker",
-            "text": "Auf Ihre zweite Frage ganz kurz: Der Beauftragte der Bundesregierung für jüdisches Leben in Deutschland und den Kampf gegen Antisemitismus wird organisatorisch im Bundesministerium des Innern, für Bau und Heimat angesiedelt. Die Abstimmungen über die entsprechenden organisatorischen Ausstattungen und Ressourcen dauern derzeit noch an.",
-            "sentences": [
-              {
-                "text": "Auf Ihre zweite Frage ganz kurz: Der Beauftragte der Bundesregierung für jüdisches Leben in Deutschland und den Kampf gegen Antisemitismus wird organisatorisch im Bundesministerium des Innern, für Bau und Heimat angesiedelt."
-              },
-              {
-                "text": "Die Abstimmungen über die entsprechenden organisatorischen Ausstattungen und Ressourcen dauern derzeit noch an."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Eine Zusatzfrage, Frau Kollegin?",
-            "sentences": [
-              {
-                "text": "Eine Zusatzfrage, Frau Kollegin?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "speaker",
-            "text": "Ja, eine Frage noch. – Ist auch darüber nachgedacht worden, welche Rechte – wie Akteneinsichtsrecht, Zugang zu Behörden – dem Antisemitismusbeauftragten und Beauftragten für das jüdische Leben zugestanden werden? Sie haben die Aufgaben umfassend dargestellt. Das muss man dann auch mit der entsprechenden Durchsetzungskraft versehen.",
-            "sentences": [
-              {
-                "text": "Ja, eine Frage noch."
-              },
-              {
-                "text": "– Ist auch darüber nachgedacht worden, welche Rechte – wie Akteneinsichtsrecht, Zugang zu Behörden – dem Antisemitismusbeauftragten und Beauftragten für das jüdische Leben zugestanden werden?"
-              },
-              {
-                "text": "Sie haben die Aufgaben umfassend dargestellt."
-              },
-              {
-                "text": "Das muss man dann auch mit der entsprechenden Durchsetzungskraft versehen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Günter Krings",
-            "speakerstatus": "main-speaker",
-            "text": "Herr Präsident! Frau Kollegin, ich hatte es angesprochen: Die Abstimmungen laufen noch. Wenn Sie allerdings rechtliche Befugnisse ansprechen, wäre dazu eine Gesetzesänderung erforderlich. Das müssten wir hier im Hause besprechen.",
-            "sentences": [
-              {
-                "text": "Herr Präsident!"
-              },
-              {
-                "text": "Frau Kollegin, ich hatte es angesprochen: Die Abstimmungen laufen noch."
-              },
-              {
-                "text": "Wenn Sie allerdings rechtliche Befugnisse ansprechen, wäre dazu eine Gesetzesänderung erforderlich."
-              },
-              {
-                "text": "Das müssten wir hier im Hause besprechen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Günter Krings",
-            "speakerstatus": "main-speaker",
-            "text": "Ich weise aber darauf hin, dass wir auch eine größere Zahl von anderen Beauftragten haben. Einer davon ist seit geraumer Zeit bei uns angesiedelt, der Beauftragte der Bundesregierung für Aussiedlerfragen und nationale Minderheiten. In dem Bereich gibt es ebenfalls umfängliche Aufgaben. Sie werden aber auch ohne explizite juristische Eingriffsbefugnisse erledigt, weil er ein ganzes Haus zur Zuarbeit und Unterstützung zur Verfügung hat. Vielfach geht es ja um Sachaufklärung, und das ist auch ohne die rechtlichen Befugnisse machbar.",
-            "sentences": [
-              {
-                "text": "Ich weise aber darauf hin, dass wir auch eine größere Zahl von anderen Beauftragten haben."
-              },
-              {
-                "text": "Einer davon ist seit geraumer Zeit bei uns angesiedelt, der Beauftragte der Bundesregierung für Aussiedlerfragen und nationale Minderheiten."
-              },
-              {
-                "text": "In dem Bereich gibt es ebenfalls umfängliche Aufgaben."
-              },
-              {
-                "text": "Sie werden aber auch ohne explizite juristische Eingriffsbefugnisse erledigt, weil er ein ganzes Haus zur Zuarbeit und Unterstützung zur Verfügung hat."
-              },
-              {
-                "text": "Vielfach geht es ja um Sachaufklärung, und das ist auch ohne die rechtlichen Befugnisse machbar."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Vielen Dank, Herr Staatssekretär. Das war heute eine Fleißaufgabe.",
-            "sentences": [
-              {
-                "text": "Vielen Dank, Herr Staatssekretär."
-              },
-              {
-                "text": "Das war heute eine Fleißaufgabe."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Günter Krings",
-            "speakerstatus": "main-speaker",
-            "text": "Erstmalig in zwei Stunden! Erstmalig eine ganze Fragestunde mit einem ganzen Ressort zuzubringen, ist schon was.",
-            "sentences": [
-              {
-                "text": "Erstmalig in zwei Stunden!"
-              },
-              {
-                "text": "Erstmalig eine ganze Fragestunde mit einem ganzen Ressort zuzubringen, ist schon was."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Dabei haben wir nicht einmal alle Fragen des Ressorts behandelt.",
-            "sentences": [
-              {
-                "text": "Dabei haben wir nicht einmal alle Fragen des Ressorts behandelt."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Ich darf die Fragestunde beenden.",
-            "sentences": [
-              {
-                "text": "Ich darf die Fragestunde beenden."
-              }
-            ]
           }
         ]
       }
@@ -12263,7 +10485,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 63,
+      "speechIndex": 1065,
       "title": "Vereinbarte Debatte zur aktuellen Lage in Syrien"
     },
     "people": [
@@ -12276,7 +10498,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19025-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19025-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -12290,6 +10512,17 @@
             "sentences": [
               {
                 "text": "Vereinbarte Debatte"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Thomas Oppermann",
+            "speakerstatus": "vice-president",
+            "text": "zur aktuellen Lage in Syrien",
+            "sentences": [
+              {
+                "text": "zur aktuellen Lage in Syrien"
               }
             ]
           },
@@ -12333,7 +10566,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 64,
+      "speechIndex": 1066,
       "title": "Vereinbarte Debatte zur aktuellen Lage in Syrien"
     },
     "people": [
@@ -12354,7 +10587,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19025-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19025-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -12841,7 +11074,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 65,
+      "speechIndex": 1067,
       "title": "Vereinbarte Debatte zur aktuellen Lage in Syrien"
     },
     "people": [
@@ -12862,7 +11095,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19025-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19025-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -13240,7 +11473,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 66,
+      "speechIndex": 1068,
       "title": "Vereinbarte Debatte zur aktuellen Lage in Syrien"
     },
     "people": [
@@ -13261,7 +11494,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19025-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19025-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -13535,7 +11768,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 67,
+      "speechIndex": 1069,
       "title": "Vereinbarte Debatte zur aktuellen Lage in Syrien"
     },
     "people": [
@@ -13559,7 +11792,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19025-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19025-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -13836,7 +12069,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 68,
+      "speechIndex": 1070,
       "title": "Vereinbarte Debatte zur aktuellen Lage in Syrien"
     },
     "people": [
@@ -13860,7 +12093,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19025-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19025-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -14316,7 +12549,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 69,
+      "speechIndex": 1071,
       "title": "Vereinbarte Debatte zur aktuellen Lage in Syrien"
     },
     "people": [
@@ -14340,7 +12573,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19025-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19025-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -14826,7 +13059,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 70,
+      "speechIndex": 1072,
       "title": "Vereinbarte Debatte zur aktuellen Lage in Syrien"
     },
     "people": [
@@ -14850,7 +13083,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19025-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19025-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -15158,7 +13391,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 71,
+      "speechIndex": 1073,
       "title": "Vereinbarte Debatte zur aktuellen Lage in Syrien"
     },
     "people": [
@@ -15182,7 +13415,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19025-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19025-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -15310,7 +13543,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 72,
+      "speechIndex": 1074,
       "title": "Vereinbarte Debatte zur aktuellen Lage in Syrien"
     },
     "people": [
@@ -15334,7 +13567,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19025-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19025-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -15674,16 +13907,88 @@
   {
     "parliament": "DE",
     "electoralPeriod": {
-      "number": 19
+      "number": "19"
     },
     "session": {
-      "number": 25
+      "number": "25",
+      "dateStart": "2018-04-18T13:00",
+      "dateEnd": "2018-04-18T16:58"
     },
     "agendaItem": {
-      "title": "Vereinbarte Debatte zur aktuellen Lage in Syrien",
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 35
+      "speechIndex": 1083,
+      "title": "Vereinbarte Debatte zur aktuellen Lage in Syrien"
     },
+    "people": [
+      {
+        "type": "memberOfParliament",
+        "label": "Petra Pau",
+        "firstname": "Petra",
+        "lastname": "Pau",
+        "context": "vice-president",
+        "faction": "DIE LINKE"
+      }
+    ],
+    "textContents": [
+      {
+        "type": "proceedings",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19025-data.xml",
+        "creator": "Deutscher Bundestag",
+        "license": "Public Domain",
+        "language": "DE-de",
+        "originTextID": "",
+        "textBody": [
+          {
+            "type": "speech",
+            "speaker": "Petra Pau",
+            "speakerstatus": "vice-president",
+            "text": "Ich schließe die Aussprache.",
+            "sentences": [
+              {
+                "text": "Ich schließe die Aussprache."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Petra Pau",
+            "speakerstatus": "vice-president",
+            "text": "Wir sind damit am Schluss unserer heutigen Tagesordnung.",
+            "sentences": [
+              {
+                "text": "Wir sind damit am Schluss unserer heutigen Tagesordnung."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Petra Pau",
+            "speakerstatus": "vice-president",
+            "text": "Ich berufe die nächste Sitzung des Deutschen Bundestages auf morgen, Donnerstag, den 19. April 2018, 9 Uhr, ein.",
+            "sentences": [
+              {
+                "text": "Ich berufe die nächste Sitzung des Deutschen Bundestages auf morgen, Donnerstag, den 19. April 2018, 9 Uhr, ein."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Petra Pau",
+            "speakerstatus": "vice-president",
+            "text": "Die Sitzung ist geschlossen.",
+            "sentences": [
+              {
+                "text": "Die Sitzung ist geschlossen."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "documents": [],
+    "key": "19-25 zusatzpunkt 1 (petra pau)",
+    "dateStart": "2018-04-18T14:26:00",
+    "dateEnd": "2018-04-18T14:26:35",
     "media": {
       "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7218686/7218686_h264_720_400_2000kb_baseline_de_2192.mp4",
       "sourcePage": "http://dbtg.tv/fvid/7218686",
@@ -15692,18 +13997,7 @@
       "license": "CC-BY-SA",
       "originMediaID": "7218686",
       "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7218686/7218686_mp3_128kb_stereo_de_128.mp3"
-    },
-    "dateStart": "2018-04-18T14:26:00",
-    "dateEnd": "2018-04-18T14:26:35",
-    "people": [
-      {
-        "label": "Petra Pau",
-        "faction": "Die Linke",
-        "context": "main-speaker",
-        "role": "Bundestagsvizepräsidentin"
-      }
-    ],
-    "key": "19-25 zusatzpunkt 1 (petra pau)"
+    }
   },
   {
     "parliament": "DE",
@@ -15717,7 +14011,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 73,
+      "speechIndex": 1075,
       "title": "Vereinbarte Debatte zur aktuellen Lage in Syrien"
     },
     "people": [
@@ -15741,7 +14035,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19025-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19025-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -16035,7 +14329,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 74,
+      "speechIndex": 1076,
       "title": "Vereinbarte Debatte zur aktuellen Lage in Syrien"
     },
     "people": [
@@ -16059,7 +14353,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19025-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19025-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -16340,7 +14634,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 75,
+      "speechIndex": 1077,
       "title": "Vereinbarte Debatte zur aktuellen Lage in Syrien"
     },
     "people": [
@@ -16364,7 +14658,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19025-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19025-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -16575,7 +14869,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 77,
+      "speechIndex": 1079,
       "title": "Vereinbarte Debatte zur aktuellen Lage in Syrien"
     },
     "people": [
@@ -16599,7 +14893,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19025-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19025-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -16742,7 +15036,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 78,
+      "speechIndex": 1080,
       "title": "Vereinbarte Debatte zur aktuellen Lage in Syrien"
     },
     "people": [
@@ -16766,7 +15060,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19025-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19025-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -16936,7 +15230,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 79,
+      "speechIndex": 1081,
       "title": "Vereinbarte Debatte zur aktuellen Lage in Syrien"
     },
     "people": [
@@ -16960,7 +15254,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19025-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19025-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -17112,7 +15406,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 80,
+      "speechIndex": 1082,
       "title": "Vereinbarte Debatte zur aktuellen Lage in Syrien"
     },
     "people": [
@@ -17123,20 +15417,12 @@
         "lastname": "Hardt",
         "context": "main-speaker",
         "faction": "CDU/CSU"
-      },
-      {
-        "type": "memberOfParliament",
-        "label": "Petra Pau",
-        "firstname": "Petra",
-        "lastname": "Pau",
-        "context": "vice-president",
-        "faction": "DIE LINKE"
       }
     ],
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19025-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19025-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -17299,61 +15585,6 @@
             "sentences": [
               {
                 "text": "Herzlichen Dank."
-              }
-            ]
-          },
-          {
-            "type": "comment",
-            "speaker": null,
-            "speakerstatus": null,
-            "text": "(Beifall bei der CDU/CSU sowie bei Abgeordneten der SPD)",
-            "sentences": [
-              {
-                "text": "(Beifall bei der CDU/CSU sowie bei Abgeordneten der SPD)"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Ich schließe die Aussprache.",
-            "sentences": [
-              {
-                "text": "Ich schließe die Aussprache."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Wir sind damit am Schluss unserer heutigen Tagesordnung.",
-            "sentences": [
-              {
-                "text": "Wir sind damit am Schluss unserer heutigen Tagesordnung."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Ich berufe die nächste Sitzung des Deutschen Bundestages auf morgen, Donnerstag, den 19. April 2018, 9 Uhr, ein.",
-            "sentences": [
-              {
-                "text": "Ich berufe die nächste Sitzung des Deutschen Bundestages auf morgen, Donnerstag, den 19. April 2018, 9 Uhr, ein."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Die Sitzung ist geschlossen.",
-            "sentences": [
-              {
-                "text": "Die Sitzung ist geschlossen."
               }
             ]
           }

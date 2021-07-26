@@ -11,7 +11,7 @@
     },
     "agendaItem": {
       "officialTitle": "Sitzungseröffnung",
-      "speechIndex": 0,
+      "speechIndex": 1000,
       "title": "Sitzungseröffnung"
     },
     "people": [
@@ -24,7 +24,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19173-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19173-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -401,7 +401,7 @@
     },
     "agendaItem": {
       "officialTitle": "Sitzungseröffnung",
-      "speechIndex": 1,
+      "speechIndex": 1001,
       "title": "Sitzungseröffnung"
     },
     "people": [
@@ -414,7 +414,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19173-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19173-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -791,7 +791,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 5",
-      "speechIndex": 2,
+      "speechIndex": 1002,
       "title": "Wahlen zu Gremien"
     },
     "people": [
@@ -804,7 +804,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19173-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19173-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -818,6 +818,72 @@
             "sentences": [
               {
                 "text": "Jetzt rufe ich die Zusatzpunkte 5 a bis 5 c auf:"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "a) Wahlvorschlag der Fraktion der AfD",
+            "sentences": [
+              {
+                "text": "a) Wahlvorschlag der Fraktion der AfD"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "Wahl von Mitgliedern des Sondergremiums gemäß § 3 Absatz 3 des Stabilisierungsmechanismusgesetzes",
+            "sentences": [
+              {
+                "text": "Wahl von Mitgliedern des Sondergremiums gemäß § 3 Absatz 3 des Stabilisierungsmechanismusgesetzes"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "b) Wahlvorschlag der Fraktion der AfD",
+            "sentences": [
+              {
+                "text": "b) Wahlvorschlag der Fraktion der AfD"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "Wahl eines Mitglieds des Vertrauensgremiums gemäß § 10a Absatz 2 der Bundeshaushaltsordnung",
+            "sentences": [
+              {
+                "text": "Wahl eines Mitglieds des Vertrauensgremiums gemäß § 10a Absatz 2 der Bundeshaushaltsordnung"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "c) Wahlvorschlag der Fraktion der AfD",
+            "sentences": [
+              {
+                "text": "c) Wahlvorschlag der Fraktion der AfD"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "Wahl von Mitgliedern des Gremiums gemäß § 3 des Bundesschuldenwesengesetzes",
+            "sentences": [
+              {
+                "text": "Wahl von Mitgliedern des Gremiums gemäß § 3 des Bundesschuldenwesengesetzes"
               }
             ]
           },
@@ -1026,7 +1092,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 8",
-      "speechIndex": 4,
+      "speechIndex": 1004,
       "title": "Tätigkeitsbericht des Petitionsausschusses 2019"
     },
     "people": [
@@ -1039,7 +1105,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19173-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19173-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -1053,6 +1119,39 @@
             "sentences": [
               {
                 "text": "Ich rufe den Tagesordnungspunkt 8 auf:"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "Beratung des Berichts des Petitionsausschusses",
+            "sentences": [
+              {
+                "text": "Beratung des Berichts des Petitionsausschusses"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "Bitten und Beschwerden an den Deutschen Bundestag",
+            "sentences": [
+              {
+                "text": "Bitten und Beschwerden an den Deutschen Bundestag"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "Die Tätigkeit des Petitionsausschusses des Deutschen Bundestages im Jahr 2019",
+            "sentences": [
+              {
+                "text": "Die Tätigkeit des Petitionsausschusses des Deutschen Bundestages im Jahr 2019"
               }
             ]
           },
@@ -1113,7 +1212,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 8",
-      "speechIndex": 5,
+      "speechIndex": 1005,
       "title": "Tätigkeitsbericht des Petitionsausschusses 2019"
     },
     "people": [
@@ -1134,7 +1233,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19173-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19173-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -1718,7 +1817,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 8",
-      "speechIndex": 6,
+      "speechIndex": 1006,
       "title": "Tätigkeitsbericht des Petitionsausschusses 2019"
     },
     "people": [
@@ -1739,7 +1838,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19173-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19173-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -2127,7 +2226,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 8",
-      "speechIndex": 7,
+      "speechIndex": 1007,
       "title": "Tätigkeitsbericht des Petitionsausschusses 2019"
     },
     "people": [
@@ -2148,7 +2247,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19173-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19173-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -2713,7 +2812,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 8",
-      "speechIndex": 8,
+      "speechIndex": 1008,
       "title": "Tätigkeitsbericht des Petitionsausschusses 2019"
     },
     "people": [
@@ -2734,7 +2833,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19173-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19173-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -3191,7 +3290,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 8",
-      "speechIndex": 9,
+      "speechIndex": 1009,
       "title": "Tätigkeitsbericht des Petitionsausschusses 2019"
     },
     "people": [
@@ -3212,7 +3311,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19173-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19173-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -3696,7 +3795,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 8",
-      "speechIndex": 10,
+      "speechIndex": 1010,
       "title": "Tätigkeitsbericht des Petitionsausschusses 2019"
     },
     "people": [
@@ -3717,7 +3816,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19173-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19173-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -4239,7 +4338,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 8",
-      "speechIndex": 11,
+      "speechIndex": 1011,
       "title": "Tätigkeitsbericht des Petitionsausschusses 2019"
     },
     "people": [
@@ -4260,7 +4359,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19173-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19173-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -4682,7 +4781,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 8",
-      "speechIndex": 12,
+      "speechIndex": 1012,
       "title": "Tätigkeitsbericht des Petitionsausschusses 2019"
     },
     "people": [
@@ -4703,7 +4802,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19173-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19173-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -5047,7 +5146,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 8",
-      "speechIndex": 13,
+      "speechIndex": 1013,
       "title": "Tätigkeitsbericht des Petitionsausschusses 2019"
     },
     "people": [
@@ -5068,7 +5167,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19173-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19173-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -5351,7 +5450,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 8",
-      "speechIndex": 14,
+      "speechIndex": 1014,
       "title": "Tätigkeitsbericht des Petitionsausschusses 2019"
     },
     "people": [
@@ -5372,7 +5471,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19173-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19173-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -5892,7 +5991,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 8",
-      "speechIndex": 15,
+      "speechIndex": 1015,
       "title": "Tätigkeitsbericht des Petitionsausschusses 2019"
     },
     "people": [
@@ -5903,17 +6002,12 @@
         "lastname": "Gremmels",
         "context": "main-speaker",
         "faction": "SPD"
-      },
-      {
-        "type": "memberOfParliament",
-        "label": "Wolfgang Schäuble",
-        "context": "president"
       }
     ],
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19173-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19173-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -6185,31 +6279,6 @@
                 "text": "(Beifall bei der SPD und der CDU/CSU)"
               }
             ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Wolfgang Schäuble",
-            "speakerstatus": "president",
-            "text": "Damit schließe ich die Aussprache. – Ich danke allen Mitgliedern des Petitionsausschusses und allen Mitarbeitern für ihre Arbeit im Namen des ganzen Bundestages.",
-            "sentences": [
-              {
-                "text": "Damit schließe ich die Aussprache."
-              },
-              {
-                "text": "– Ich danke allen Mitgliedern des Petitionsausschusses und allen Mitarbeitern für ihre Arbeit im Namen des ganzen Bundestages."
-              }
-            ]
-          },
-          {
-            "type": "comment",
-            "speaker": null,
-            "speakerstatus": null,
-            "text": "(Beifall)",
-            "sentences": [
-              {
-                "text": "(Beifall)"
-              }
-            ]
           }
         ]
       }
@@ -6237,16 +6306,61 @@
   {
     "parliament": "DE",
     "electoralPeriod": {
-      "number": 19
+      "number": "19"
     },
     "session": {
-      "number": 173
+      "number": "173",
+      "dateStart": "2020-09-10T09:00",
+      "dateEnd": "2020-09-10T22:55"
     },
     "agendaItem": {
-      "title": "Tätigkeitsbericht des Petitionsausschusses 2019",
       "officialTitle": "Tagesordnungspunkt 8",
-      "speechIndex": 16
+      "speechIndex": 1016,
+      "title": "Tätigkeitsbericht des Petitionsausschusses 2019"
     },
+    "people": [
+      {
+        "type": "memberOfParliament",
+        "label": "Wolfgang Schäuble",
+        "context": "president"
+      }
+    ],
+    "textContents": [
+      {
+        "type": "proceedings",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19173-data.xml",
+        "creator": "Deutscher Bundestag",
+        "license": "Public Domain",
+        "language": "DE-de",
+        "originTextID": "0722-7980",
+        "textBody": [
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "Damit schließe ich die Aussprache. – Ich danke allen Mitgliedern des Petitionsausschusses und allen Mitarbeitern für ihre Arbeit im Namen des ganzen Bundestages.",
+            "sentences": [
+              {
+                "text": "Damit schließe ich die Aussprache."
+              },
+              {
+                "text": "– Ich danke allen Mitgliedern des Petitionsausschusses und allen Mitarbeitern für ihre Arbeit im Namen des ganzen Bundestages."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "documents": [
+      {
+        "type": "officialDocument",
+        "label": "Drucksache 19/21900",
+        "sourceURI": "https://dserver.bundestag.de/btd/19/219/1921900.pdf"
+      }
+    ],
+    "key": "19-173 tagesordnungspunkt 8 (wolfgang schauble) #1",
+    "dateStart": "2020-09-10T08:24:35",
+    "dateEnd": "2020-09-10T08:24:47",
     "media": {
       "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7468933/7468933_h264_720_400_2000kb_baseline_de_2192.mp4",
       "sourcePage": "http://dbtg.tv/fvid/7468933",
@@ -6255,18 +6369,7 @@
       "license": "CC-BY-SA",
       "originMediaID": "7468933",
       "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7468933/7468933_mp3_128kb_stereo_de_128.mp3"
-    },
-    "dateStart": "2020-09-10T08:24:35",
-    "dateEnd": "2020-09-10T08:24:47",
-    "people": [
-      {
-        "label": "Wolfgang Schäuble",
-        "faction": "CDU/CSU",
-        "context": "main-speaker",
-        "role": "Bundestagspräsident"
-      }
-    ],
-    "key": "19-173 tagesordnungspunkt 8 (wolfgang schauble) #1"
+    }
   },
   {
     "parliament": "DE",
@@ -6280,7 +6383,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 20",
-      "speechIndex": 16,
+      "speechIndex": 1017,
       "title": "Marktwirtschaft - Einführung einer Beteiligungsbremse"
     },
     "people": [
@@ -6293,7 +6396,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19173-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19173-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -6307,6 +6410,28 @@
             "sentences": [
               {
                 "text": "Dann rufe ich Tagesordnungspunkt 20 auf:"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "Beratung des Antrags der Abgeordneten Reinhard Houben, Michael Theurer, Dr. Marcel Klinge, weiterer Abgeordneter und der Fraktion der FDP",
+            "sentences": [
+              {
+                "text": "Beratung des Antrags der Abgeordneten Reinhard Houben, Michael Theurer, Dr. Marcel Klinge, weiterer Abgeordneter und der Fraktion der FDP"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "Vorfahrt für die Marktwirtschaft – Einführung einer Beteiligungsbremse",
+            "sentences": [
+              {
+                "text": "Vorfahrt für die Marktwirtschaft – Einführung einer Beteiligungsbremse"
               }
             ]
           },
@@ -6370,7 +6495,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 20",
-      "speechIndex": 17,
+      "speechIndex": 1018,
       "title": "Marktwirtschaft - Einführung einer Beteiligungsbremse"
     },
     "people": [
@@ -6391,7 +6516,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19173-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19173-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -7020,7 +7145,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 20",
-      "speechIndex": 18,
+      "speechIndex": 1019,
       "title": "Marktwirtschaft - Einführung einer Beteiligungsbremse"
     },
     "people": [
@@ -7041,7 +7166,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19173-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19173-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -7626,7 +7751,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 20",
-      "speechIndex": 19,
+      "speechIndex": 1020,
       "title": "Marktwirtschaft - Einführung einer Beteiligungsbremse"
     },
     "people": [
@@ -7647,7 +7772,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19173-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19173-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -8188,7 +8313,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 20",
-      "speechIndex": 20,
+      "speechIndex": 1021,
       "title": "Marktwirtschaft - Einführung einer Beteiligungsbremse"
     },
     "people": [
@@ -8209,7 +8334,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19173-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19173-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -8531,7 +8656,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 20",
-      "speechIndex": 21,
+      "speechIndex": 1022,
       "title": "Marktwirtschaft - Einführung einer Beteiligungsbremse"
     },
     "people": [
@@ -8552,7 +8677,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19173-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19173-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -9047,7 +9172,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 20",
-      "speechIndex": 22,
+      "speechIndex": 1023,
       "title": "Marktwirtschaft - Einführung einer Beteiligungsbremse"
     },
     "people": [
@@ -9068,7 +9193,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19173-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19173-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -9533,7 +9658,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 20",
-      "speechIndex": 23,
+      "speechIndex": 1024,
       "title": "Marktwirtschaft - Einführung einer Beteiligungsbremse"
     },
     "people": [
@@ -9549,7 +9674,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19173-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19173-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -9823,16 +9948,89 @@
   {
     "parliament": "DE",
     "electoralPeriod": {
-      "number": 19
+      "number": "19"
     },
     "session": {
-      "number": 173
+      "number": "173",
+      "dateStart": "2020-09-10T09:00",
+      "dateEnd": "2020-09-10T22:55"
     },
     "agendaItem": {
-      "title": "Marktwirtschaft - Einführung einer Beteiligungsbremse",
       "officialTitle": "Tagesordnungspunkt 20",
-      "speechIndex": 25
+      "speechIndex": 1031,
+      "title": "Marktwirtschaft - Einführung einer Beteiligungsbremse"
     },
+    "people": [
+      {
+        "type": "memberOfParliament",
+        "label": "Claudia Roth",
+        "context": "vice-president"
+      }
+    ],
+    "textContents": [
+      {
+        "type": "proceedings",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19173-data.xml",
+        "creator": "Deutscher Bundestag",
+        "license": "Public Domain",
+        "language": "DE-de",
+        "originTextID": "0722-7980",
+        "textBody": [
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "Herr Kollege.",
+            "sentences": [
+              {
+                "text": "Herr Kollege."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "Vielen Dank, Mark Hauptmann. – Damit schließe ich die Aussprache.",
+            "sentences": [
+              {
+                "text": "Vielen Dank, Mark Hauptmann."
+              },
+              {
+                "text": "– Damit schließe ich die Aussprache."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "Intrafraktionell wird Überweisung der Vorlage auf Drucksache 19/22107 an die in der Tagesordnung aufgeführten Ausschüsse vorgeschlagen. – Dazu gibt es keine weiteren Vorschläge. Dann verfahren wir genau so. ",
+            "sentences": [
+              {
+                "text": "Intrafraktionell wird Überweisung der Vorlage auf Drucksache 19/22107 an die in der Tagesordnung aufgeführten Ausschüsse vorgeschlagen."
+              },
+              {
+                "text": "– Dazu gibt es keine weiteren Vorschläge."
+              },
+              {
+                "text": "Dann verfahren wir genau so."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "documents": [
+      {
+        "type": "officialDocument",
+        "label": "Drucksache 19/22107",
+        "sourceURI": "https://dserver.bundestag.de/btd/19/221/1922107.pdf"
+      }
+    ],
+    "key": "19-173 tagesordnungspunkt 20 (claudia roth)",
+    "dateStart": "2020-09-10T09:10:16",
+    "dateEnd": "2020-09-10T09:10:41",
     "media": {
       "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7468944/7468944_h264_720_400_2000kb_baseline_de_2192.mp4",
       "sourcePage": "http://dbtg.tv/fvid/7468944",
@@ -9841,18 +10039,7 @@
       "license": "CC-BY-SA",
       "originMediaID": "7468944",
       "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7468944/7468944_mp3_128kb_stereo_de_128.mp3"
-    },
-    "dateStart": "2020-09-10T09:10:16",
-    "dateEnd": "2020-09-10T09:10:41",
-    "people": [
-      {
-        "label": "Claudia Roth",
-        "faction": "BÜNDNIS 90/DIE GRÜNEN",
-        "context": "main-speaker",
-        "role": "Bundestagsvizepräsidentin"
-      }
-    ],
-    "key": "19-173 tagesordnungspunkt 20 (claudia roth)"
+    }
   },
   {
     "parliament": "DE",
@@ -9866,7 +10053,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 20",
-      "speechIndex": 24,
+      "speechIndex": 1025,
       "title": "Marktwirtschaft - Einführung einer Beteiligungsbremse"
     },
     "people": [
@@ -9887,7 +10074,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19173-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19173-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -10154,7 +10341,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 20",
-      "speechIndex": 25,
+      "speechIndex": 1026,
       "title": "Marktwirtschaft - Einführung einer Beteiligungsbremse"
     },
     "people": [
@@ -10175,7 +10362,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19173-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19173-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -10519,7 +10706,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 20",
-      "speechIndex": 26,
+      "speechIndex": 1027,
       "title": "Marktwirtschaft - Einführung einer Beteiligungsbremse"
     },
     "people": [
@@ -10540,7 +10727,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19173-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19173-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -10858,7 +11045,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 20",
-      "speechIndex": 27,
+      "speechIndex": 1028,
       "title": "Marktwirtschaft - Einführung einer Beteiligungsbremse"
     },
     "people": [
@@ -10879,7 +11066,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19173-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19173-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -11139,7 +11326,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 20",
-      "speechIndex": 28,
+      "speechIndex": 1029,
       "title": "Marktwirtschaft - Einführung einer Beteiligungsbremse"
     },
     "people": [
@@ -11160,7 +11347,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19173-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19173-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -11467,7 +11654,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 20",
-      "speechIndex": 29,
+      "speechIndex": 1030,
       "title": "Marktwirtschaft - Einführung einer Beteiligungsbremse"
     },
     "people": [
@@ -11488,7 +11675,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19173-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19173-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -11746,59 +11933,6 @@
                 "text": "Das macht deutlich, warum wir in der Regierung verantwortungsvoll für dieses Land handeln, Sie von der Opposition hingegen nicht."
               }
             ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Mark Hauptmann",
-            "speakerstatus": "main-speaker",
-            "text": "Herzlichen Dank.",
-            "sentences": [
-              {
-                "text": "Herzlichen Dank."
-              }
-            ]
-          },
-          {
-            "type": "comment",
-            "speaker": null,
-            "speakerstatus": null,
-            "text": "(Beifall bei der CDU/CSU)",
-            "sentences": [
-              {
-                "text": "(Beifall bei der CDU/CSU)"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Claudia Roth",
-            "speakerstatus": "vice-president",
-            "text": "Vielen Dank, Mark Hauptmann. – Damit schließe ich die Aussprache.",
-            "sentences": [
-              {
-                "text": "Vielen Dank, Mark Hauptmann."
-              },
-              {
-                "text": "– Damit schließe ich die Aussprache."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Claudia Roth",
-            "speakerstatus": "vice-president",
-            "text": "Intrafraktionell wird Überweisung der Vorlage auf Drucksache 19/22107 an die in der Tagesordnung aufgeführten Ausschüsse vorgeschlagen. – Dazu gibt es keine weiteren Vorschläge. Dann verfahren wir genau so. ",
-            "sentences": [
-              {
-                "text": "Intrafraktionell wird Überweisung der Vorlage auf Drucksache 19/22107 an die in der Tagesordnung aufgeführten Ausschüsse vorgeschlagen."
-              },
-              {
-                "text": "– Dazu gibt es keine weiteren Vorschläge."
-              },
-              {
-                "text": "Dann verfahren wir genau so."
-              }
-            ]
           }
         ]
       }
@@ -11869,7 +12003,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 10",
-      "speechIndex": 30,
+      "speechIndex": 1032,
       "title": "Arbeitsschutzkontrollgesetz"
     },
     "people": [
@@ -11882,7 +12016,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19173-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19173-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -11896,6 +12030,17 @@
             "sentences": [
               {
                 "text": "Ich rufe den Tagesordnungspunkt 10 auf:"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "Erste Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Verbesserung des Vollzugs im Arbeitsschutz (Arbeitsschutzkontrollgesetz)",
+            "sentences": [
+              {
+                "text": "Erste Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Verbesserung des Vollzugs im Arbeitsschutz (Arbeitsschutzkontrollgesetz)"
               }
             ]
           },
@@ -11956,7 +12101,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 10",
-      "speechIndex": 31,
+      "speechIndex": 1033,
       "title": "Arbeitsschutzkontrollgesetz"
     },
     "people": [
@@ -11977,7 +12122,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19173-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19173-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -12505,7 +12650,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 10",
-      "speechIndex": 32,
+      "speechIndex": 1034,
       "title": "Arbeitsschutzkontrollgesetz"
     },
     "people": [
@@ -12526,7 +12671,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19173-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19173-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -12632,7 +12777,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 10",
-      "speechIndex": 33,
+      "speechIndex": 1035,
       "title": "Arbeitsschutzkontrollgesetz"
     },
     "people": [
@@ -12653,7 +12798,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19173-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19173-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -12901,7 +13046,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 10",
-      "speechIndex": 34,
+      "speechIndex": 1036,
       "title": "Arbeitsschutzkontrollgesetz"
     },
     "people": [
@@ -12922,7 +13067,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19173-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19173-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -13229,7 +13374,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 10",
-      "speechIndex": 35,
+      "speechIndex": 1037,
       "title": "Arbeitsschutzkontrollgesetz"
     },
     "people": [
@@ -13250,7 +13395,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19173-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19173-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -13640,7 +13785,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 10",
-      "speechIndex": 36,
+      "speechIndex": 1038,
       "title": "Arbeitsschutzkontrollgesetz"
     },
     "people": [
@@ -13661,7 +13806,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19173-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19173-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -14146,7 +14291,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 10",
-      "speechIndex": 37,
+      "speechIndex": 1039,
       "title": "Arbeitsschutzkontrollgesetz"
     },
     "people": [
@@ -14167,7 +14312,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19173-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19173-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -14483,7 +14628,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 10",
-      "speechIndex": 38,
+      "speechIndex": 1040,
       "title": "Arbeitsschutzkontrollgesetz"
     },
     "people": [
@@ -14504,7 +14649,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19173-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19173-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -14799,7 +14944,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 10",
-      "speechIndex": 39,
+      "speechIndex": 1041,
       "title": "Arbeitsschutzkontrollgesetz"
     },
     "people": [
@@ -14820,7 +14965,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19173-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19173-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -15121,7 +15266,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 10",
-      "speechIndex": 40,
+      "speechIndex": 1042,
       "title": "Arbeitsschutzkontrollgesetz"
     },
     "people": [
@@ -15142,7 +15287,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19173-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19173-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -15604,7 +15749,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 10",
-      "speechIndex": 41,
+      "speechIndex": 1043,
       "title": "Arbeitsschutzkontrollgesetz"
     },
     "people": [
@@ -15625,7 +15770,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19173-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19173-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -15923,7 +16068,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 10",
-      "speechIndex": 42,
+      "speechIndex": 1044,
       "title": "Arbeitsschutzkontrollgesetz"
     },
     "people": [
@@ -15952,7 +16097,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19173-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19173-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -16469,7 +16614,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 10",
-      "speechIndex": 43,
+      "speechIndex": 1045,
       "title": "Arbeitsschutzkontrollgesetz"
     },
     "people": [
@@ -16490,7 +16635,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19173-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19173-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -16757,7 +16902,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 10",
-      "speechIndex": 44,
+      "speechIndex": 1046,
       "title": "Arbeitsschutzkontrollgesetz"
     },
     "people": [
@@ -16778,7 +16923,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19173-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19173-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -17130,7 +17275,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 10",
-      "speechIndex": 45,
+      "speechIndex": 1047,
       "title": "Arbeitsschutzkontrollgesetz"
     },
     "people": [
@@ -17151,7 +17296,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19173-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19173-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -17439,7 +17584,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 10",
-      "speechIndex": 46,
+      "speechIndex": 1048,
       "title": "Arbeitsschutzkontrollgesetz"
     },
     "people": [
@@ -17460,7 +17605,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19173-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19173-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -17895,7 +18040,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 10",
-      "speechIndex": 47,
+      "speechIndex": 1049,
       "title": "Arbeitsschutzkontrollgesetz"
     },
     "people": [
@@ -17916,7 +18061,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19173-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19173-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -18209,7 +18354,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 10",
-      "speechIndex": 48,
+      "speechIndex": 1050,
       "title": "Arbeitsschutzkontrollgesetz"
     },
     "people": [
@@ -18259,7 +18404,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19173-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19173-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -19503,7 +19648,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 10",
-      "speechIndex": 49,
+      "speechIndex": 1051,
       "title": "Arbeitsschutzkontrollgesetz"
     },
     "people": [
@@ -19516,7 +19661,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19173-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19173-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -19574,7 +19719,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 11",
-      "speechIndex": 50,
+      "speechIndex": 1052,
       "title": "Ganztagsbildung im Grundschulalter"
     },
     "people": [
@@ -19587,7 +19732,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19173-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19173-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -19601,6 +19746,28 @@
             "sentences": [
               {
                 "text": "Ich rufe den Tagesordnungspunkt 11 auf:"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Thomas Oppermann",
+            "speakerstatus": "vice-president",
+            "text": "Beratung des Antrags der Abgeordneten Katja Dörner, Margit Stumpp, Kai Gehring, weiterer Abgeordneter und der Fraktion BÜNDNIS 90/DIE GRÜNEN",
+            "sentences": [
+              {
+                "text": "Beratung des Antrags der Abgeordneten Katja Dörner, Margit Stumpp, Kai Gehring, weiterer Abgeordneter und der Fraktion BÜNDNIS 90/DIE GRÜNEN"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Thomas Oppermann",
+            "speakerstatus": "vice-president",
+            "text": "Zeit für mehr – Recht auf gute Ganztagsbildung im Grundschulalter umsetzen",
+            "sentences": [
+              {
+                "text": "Zeit für mehr – Recht auf gute Ganztagsbildung im Grundschulalter umsetzen"
               }
             ]
           },
@@ -19670,7 +19837,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 11",
-      "speechIndex": 51,
+      "speechIndex": 1053,
       "title": "Ganztagsbildung im Grundschulalter"
     },
     "people": [
@@ -19691,7 +19858,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19173-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19173-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -20111,7 +20278,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 11",
-      "speechIndex": 63,
+      "speechIndex": 1065,
       "title": "Ganztagsbildung im Grundschulalter"
     },
     "people": [
@@ -20124,7 +20291,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19173-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19173-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -20182,7 +20349,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 11",
-      "speechIndex": 52,
+      "speechIndex": 1054,
       "title": "Ganztagsbildung im Grundschulalter"
     },
     "people": [
@@ -20211,7 +20378,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19173-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19173-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -20996,7 +21163,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 11",
-      "speechIndex": 53,
+      "speechIndex": 1055,
       "title": "Ganztagsbildung im Grundschulalter"
     },
     "people": [
@@ -21017,7 +21184,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19173-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19173-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -21669,7 +21836,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 11",
-      "speechIndex": 54,
+      "speechIndex": 1056,
       "title": "Ganztagsbildung im Grundschulalter"
     },
     "people": [
@@ -21690,7 +21857,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19173-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19173-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -22135,7 +22302,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 11",
-      "speechIndex": 55,
+      "speechIndex": 1057,
       "title": "Ganztagsbildung im Grundschulalter"
     },
     "people": [
@@ -22156,7 +22323,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19173-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19173-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -22439,7 +22606,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 11",
-      "speechIndex": 56,
+      "speechIndex": 1058,
       "title": "Ganztagsbildung im Grundschulalter"
     },
     "people": [
@@ -22460,7 +22627,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19173-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19173-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -22693,7 +22860,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 11",
-      "speechIndex": 57,
+      "speechIndex": 1059,
       "title": "Ganztagsbildung im Grundschulalter"
     },
     "people": [
@@ -22714,7 +22881,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19173-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19173-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -23131,7 +23298,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 11",
-      "speechIndex": 58,
+      "speechIndex": 1060,
       "title": "Ganztagsbildung im Grundschulalter"
     },
     "people": [
@@ -23152,7 +23319,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19173-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19173-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -23481,7 +23648,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 11",
-      "speechIndex": 59,
+      "speechIndex": 1061,
       "title": "Ganztagsbildung im Grundschulalter"
     },
     "people": [
@@ -23497,7 +23664,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19173-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19173-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -24003,7 +24170,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 11",
-      "speechIndex": 60,
+      "speechIndex": 1062,
       "title": "Ganztagsbildung im Grundschulalter"
     },
     "people": [
@@ -24024,7 +24191,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19173-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19173-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -24356,7 +24523,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 11",
-      "speechIndex": 61,
+      "speechIndex": 1063,
       "title": "Ganztagsbildung im Grundschulalter"
     },
     "people": [
@@ -24377,7 +24544,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19173-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19173-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -24707,7 +24874,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 11",
-      "speechIndex": 62,
+      "speechIndex": 1064,
       "title": "Ganztagsbildung im Grundschulalter"
     },
     "people": [
@@ -24728,7 +24895,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19173-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19173-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -25378,7 +25545,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 8",
-      "speechIndex": 66,
+      "speechIndex": 1068,
       "title": "Wahlen zu Gremien"
     },
     "people": [
@@ -25391,7 +25558,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19173-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19173-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -25419,6 +25586,28 @@
             "sentences": [
               {
                 "text": "Zusatzpunkt 8 a:"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Thomas Oppermann",
+            "speakerstatus": "vice-president",
+            "text": "Wahlvorschlag der Fraktion der AfD",
+            "sentences": [
+              {
+                "text": "Wahlvorschlag der Fraktion der AfD"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Thomas Oppermann",
+            "speakerstatus": "vice-president",
+            "text": "Wahl eines Mitglieds des Kuratoriums der „Stiftung Denkmal für die ermordeten Juden Europas“",
+            "sentences": [
+              {
+                "text": "Wahl eines Mitglieds des Kuratoriums der „Stiftung Denkmal für die ermordeten Juden Europas“"
               }
             ]
           },
@@ -25456,6 +25645,28 @@
             "sentences": [
               {
                 "text": "Zusatzpunkt 8 b:"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Thomas Oppermann",
+            "speakerstatus": "vice-president",
+            "text": "Wahlvorschlag der Fraktion der AfD",
+            "sentences": [
+              {
+                "text": "Wahlvorschlag der Fraktion der AfD"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Thomas Oppermann",
+            "speakerstatus": "vice-president",
+            "text": "Wahl von Mitgliedern des Kuratoriums der „Bundesstiftung Magnus Hirschfeld“",
+            "sentences": [
+              {
+                "text": "Wahl von Mitgliedern des Kuratoriums der „Bundesstiftung Magnus Hirschfeld“"
               }
             ]
           },
@@ -25503,6 +25714,28 @@
             "type": "speech",
             "speaker": "Thomas Oppermann",
             "speakerstatus": "vice-president",
+            "text": "Wahlvorschlag der Fraktion der AfD",
+            "sentences": [
+              {
+                "text": "Wahlvorschlag der Fraktion der AfD"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Thomas Oppermann",
+            "speakerstatus": "vice-president",
+            "text": "Wahl der Mitglieder des Kuratoriums der Stiftung „Deutsches Historisches Museum“",
+            "sentences": [
+              {
+                "text": "Wahl der Mitglieder des Kuratoriums der Stiftung „Deutsches Historisches Museum“"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Thomas Oppermann",
+            "speakerstatus": "vice-president",
             "text": "Wir kommen zu dem Wahlvorschlag der Fraktion der AfD auf Drucksache 19/21840. Wer stimmt für diesen Wahlvorschlag? – Das sind die Abgeordneten der AfD. Wer stimmt dagegen? – Das sind alle anderen Fraktionen. Enthaltungen? – Keine. Damit ist der Wahlvorschlag abgelehnt.",
             "sentences": [
               {
@@ -25540,6 +25773,28 @@
             "type": "speech",
             "speaker": "Thomas Oppermann",
             "speakerstatus": "vice-president",
+            "text": "Wahlvorschlag der Fraktion der AfD",
+            "sentences": [
+              {
+                "text": "Wahlvorschlag der Fraktion der AfD"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Thomas Oppermann",
+            "speakerstatus": "vice-president",
+            "text": "Wahl der Mitglieder des Kuratoriums der Stiftung „Erinnerung, Verantwortung und Zukunft“",
+            "sentences": [
+              {
+                "text": "Wahl der Mitglieder des Kuratoriums der Stiftung „Erinnerung, Verantwortung und Zukunft“"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Thomas Oppermann",
+            "speakerstatus": "vice-president",
             "text": "Wir kommen zu dem Wahlvorschlag der Fraktion der AfD auf Drucksache 19/21841. Wer stimmt für diesen Wahlvorschlag? – Das sind wiederum die Abgeordneten der AfD. Wer stimmt dagegen? – Die übrigen Fraktionen des Hauses. Enthaltungen? – Damit ist dieser Wahlvorschlag mehrheitlich abgelehnt.",
             "sentences": [
               {
@@ -25567,6 +25822,28 @@
             "sentences": [
               {
                 "text": "Zusatzpunkt 8 e:"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Thomas Oppermann",
+            "speakerstatus": "vice-president",
+            "text": "Wahlvorschlag der Fraktion der AfD",
+            "sentences": [
+              {
+                "text": "Wahlvorschlag der Fraktion der AfD"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Thomas Oppermann",
+            "speakerstatus": "vice-president",
+            "text": "Wahl von Mitgliedern des Stiftungsrates der „Stiftung Flucht, Vertreibung, Versöhnung“ gemäß § 19 Absatz 2 Satz 1 Nummer 1 des Gesetzes zur Errichtung einer Stiftung „Deutsches Historisches Museum“",
+            "sentences": [
+              {
+                "text": "Wahl von Mitgliedern des Stiftungsrates der „Stiftung Flucht, Vertreibung, Versöhnung“ gemäß § 19 Absatz 2 Satz 1 Nummer 1 des Gesetzes zur Errichtung einer Stiftung „Deutsches Historisches Museum“"
               }
             ]
           },
@@ -25648,7 +25925,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 9",
-      "speechIndex": 68,
+      "speechIndex": 1070,
       "title": "Aktuelle Stunde – Extremismus bekämpfen"
     },
     "people": [
@@ -25661,7 +25938,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19173-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19173-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -25675,6 +25952,39 @@
             "sentences": [
               {
                 "text": "Ich rufe den Zusatzpunkt 9 auf:"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Thomas Oppermann",
+            "speakerstatus": "vice-president",
+            "text": "Aktuelle Stunde",
+            "sentences": [
+              {
+                "text": "Aktuelle Stunde"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Thomas Oppermann",
+            "speakerstatus": "vice-president",
+            "text": "auf Verlangen der Fraktionen der CDU/CSU und SPD",
+            "sentences": [
+              {
+                "text": "auf Verlangen der Fraktionen der CDU/CSU und SPD"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Thomas Oppermann",
+            "speakerstatus": "vice-president",
+            "text": "Keine Toleranz für die Feinde der Demokratie: Extremismus bekämpfen, Polizei und Justiz stärken",
+            "sentences": [
+              {
+                "text": "Keine Toleranz für die Feinde der Demokratie: Extremismus bekämpfen, Polizei und Justiz stärken"
               }
             ]
           },
@@ -25721,7 +26031,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 9",
-      "speechIndex": 69,
+      "speechIndex": 1071,
       "title": "Aktuelle Stunde – Extremismus bekämpfen"
     },
     "people": [
@@ -25742,7 +26052,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19173-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19173-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -26221,7 +26531,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 9",
-      "speechIndex": 70,
+      "speechIndex": 1072,
       "title": "Aktuelle Stunde – Extremismus bekämpfen"
     },
     "people": [
@@ -26242,7 +26552,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19173-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19173-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -26810,7 +27120,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 9",
-      "speechIndex": 71,
+      "speechIndex": 1073,
       "title": "Aktuelle Stunde – Extremismus bekämpfen"
     },
     "people": [
@@ -26831,7 +27141,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19173-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19173-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -27431,7 +27741,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 9",
-      "speechIndex": 72,
+      "speechIndex": 1074,
       "title": "Aktuelle Stunde – Extremismus bekämpfen"
     },
     "people": [
@@ -27452,7 +27762,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19173-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19173-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -27782,7 +28092,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 9",
-      "speechIndex": 73,
+      "speechIndex": 1075,
       "title": "Aktuelle Stunde – Extremismus bekämpfen"
     },
     "people": [
@@ -27803,7 +28113,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19173-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19173-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -28202,7 +28512,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 9",
-      "speechIndex": 74,
+      "speechIndex": 1076,
       "title": "Aktuelle Stunde – Extremismus bekämpfen"
     },
     "people": [
@@ -28223,7 +28533,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19173-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19173-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -28678,7 +28988,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 9",
-      "speechIndex": 75,
+      "speechIndex": 1077,
       "title": "Aktuelle Stunde – Extremismus bekämpfen"
     },
     "people": [
@@ -28699,7 +29009,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19173-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19173-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -29116,7 +29426,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 9",
-      "speechIndex": 76,
+      "speechIndex": 1078,
       "title": "Aktuelle Stunde – Extremismus bekämpfen"
     },
     "people": [
@@ -29137,7 +29447,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19173-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19173-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -29792,7 +30102,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 9",
-      "speechIndex": 77,
+      "speechIndex": 1079,
       "title": "Aktuelle Stunde – Extremismus bekämpfen"
     },
     "people": [
@@ -29813,7 +30123,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19173-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19173-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -30204,7 +30514,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 9",
-      "speechIndex": 78,
+      "speechIndex": 1080,
       "title": "Aktuelle Stunde – Extremismus bekämpfen"
     },
     "people": [
@@ -30225,7 +30535,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19173-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19173-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -30750,7 +31060,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 9",
-      "speechIndex": 79,
+      "speechIndex": 1081,
       "title": "Aktuelle Stunde – Extremismus bekämpfen"
     },
     "people": [
@@ -30771,7 +31081,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19173-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19173-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -31092,7 +31402,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 9",
-      "speechIndex": 80,
+      "speechIndex": 1082,
       "title": "Aktuelle Stunde – Extremismus bekämpfen"
     },
     "people": [
@@ -31113,7 +31423,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19173-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19173-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -31652,7 +31962,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 9",
-      "speechIndex": 81,
+      "speechIndex": 1083,
       "title": "Aktuelle Stunde – Extremismus bekämpfen"
     },
     "people": [
@@ -31673,7 +31983,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19173-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19173-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -32020,7 +32330,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 9",
-      "speechIndex": 82,
+      "speechIndex": 1084,
       "title": "Aktuelle Stunde – Extremismus bekämpfen"
     },
     "people": [
@@ -32031,17 +32341,12 @@
         "lastname": "Ullrich",
         "context": "main-speaker",
         "faction": "CDU/CSU"
-      },
-      {
-        "type": "memberOfParliament",
-        "label": "Hans-Peter Friedrich",
-        "context": "vice-president"
       }
     ],
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19173-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19173-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -32312,28 +32617,6 @@
                 "text": "Herzlichen Dank."
               }
             ]
-          },
-          {
-            "type": "comment",
-            "speaker": null,
-            "speakerstatus": null,
-            "text": "(Beifall bei der CDU/CSU sowie bei Abgeordneten der SPD)",
-            "sentences": [
-              {
-                "text": "(Beifall bei der CDU/CSU sowie bei Abgeordneten der SPD)"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Hans-Peter Friedrich",
-            "speakerstatus": "vice-president",
-            "text": "Liebe Kolleginnen und Kollegen, die Aktuelle Stunde ist beendet.",
-            "sentences": [
-              {
-                "text": "Liebe Kolleginnen und Kollegen, die Aktuelle Stunde ist beendet."
-              }
-            ]
           }
         ]
       }
@@ -32355,16 +32638,52 @@
   {
     "parliament": "DE",
     "electoralPeriod": {
-      "number": 19
+      "number": "19"
     },
     "session": {
-      "number": 173
+      "number": "173",
+      "dateStart": "2020-09-10T09:00",
+      "dateEnd": "2020-09-10T22:55"
     },
     "agendaItem": {
-      "title": "Aktuelle Stunde – Extremismus bekämpfen",
       "officialTitle": "Zusatzpunkt 9",
-      "speechIndex": 87
+      "speechIndex": 1085,
+      "title": "Aktuelle Stunde – Extremismus bekämpfen"
     },
+    "people": [
+      {
+        "type": "memberOfParliament",
+        "label": "Hans-Peter Friedrich",
+        "context": "vice-president"
+      }
+    ],
+    "textContents": [
+      {
+        "type": "proceedings",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19173-data.xml",
+        "creator": "Deutscher Bundestag",
+        "license": "Public Domain",
+        "language": "DE-de",
+        "originTextID": "0722-7980",
+        "textBody": [
+          {
+            "type": "speech",
+            "speaker": "Hans-Peter Friedrich",
+            "speakerstatus": "vice-president",
+            "text": "Liebe Kolleginnen und Kollegen, die Aktuelle Stunde ist beendet.",
+            "sentences": [
+              {
+                "text": "Liebe Kolleginnen und Kollegen, die Aktuelle Stunde ist beendet."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "documents": [],
+    "key": "19-173 zusatzpunkt 9 (hans-peter friedrich)",
+    "dateStart": "2020-09-10T14:02:03",
+    "dateEnd": "2020-09-10T14:02:09",
     "media": {
       "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7469014/7469014_h264_720_400_2000kb_baseline_de_2192.mp4",
       "sourcePage": "http://dbtg.tv/fvid/7469014",
@@ -32373,18 +32692,7 @@
       "license": "CC-BY-SA",
       "originMediaID": "7469014",
       "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7469014/7469014_mp3_128kb_stereo_de_128.mp3"
-    },
-    "dateStart": "2020-09-10T14:02:03",
-    "dateEnd": "2020-09-10T14:02:09",
-    "people": [
-      {
-        "label": "Hans-Peter Friedrich",
-        "faction": "CDU/CSU",
-        "context": "main-speaker",
-        "role": "Bundestagsvizepräsident"
-      }
-    ],
-    "key": "19-173 zusatzpunkt 9 (hans-peter friedrich)"
+    }
   },
   {
     "parliament": "DE",
@@ -32398,7 +32706,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 12",
-      "speechIndex": 83,
+      "speechIndex": 1086,
       "title": "Familienentlastung und Behinderten-Pauschbeträge"
     },
     "people": [
@@ -32411,7 +32719,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19173-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19173-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -32425,6 +32733,28 @@
             "sentences": [
               {
                 "text": "Wir kommen zu den Tagesordnungspunkten 12 a und 12 b:"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Hans-Peter Friedrich",
+            "speakerstatus": "vice-president",
+            "text": "a) Erste Beratung des von der Bundesregierung eingebrachten Entwurfs eines Zweiten Gesetzes zur steuerlichen Entlastung von Familien sowie zur Anpassung weiterer steuerlicher Regelungen (Zweites Familienentlastungsgesetz – 2. FamEntlastG)",
+            "sentences": [
+              {
+                "text": "a) Erste Beratung des von der Bundesregierung eingebrachten Entwurfs eines Zweiten Gesetzes zur steuerlichen Entlastung von Familien sowie zur Anpassung weiterer steuerlicher Regelungen (Zweites Familienentlastungsgesetz – 2. FamEntlastG)"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Hans-Peter Friedrich",
+            "speakerstatus": "vice-president",
+            "text": "b) Erste Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Erhöhung der Behinderten-Pauschbeträge und zur Anpassung weiterer steuerlicher Regelungen",
+            "sentences": [
+              {
+                "text": "b) Erste Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Erhöhung der Behinderten-Pauschbeträge und zur Anpassung weiterer steuerlicher Regelungen"
               }
             ]
           },
@@ -32504,7 +32834,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 12",
-      "speechIndex": 84,
+      "speechIndex": 1087,
       "title": "Familienentlastung und Behinderten-Pauschbeträge"
     },
     "people": [
@@ -32525,7 +32855,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19173-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19173-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -32764,7 +33094,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 12",
-      "speechIndex": 85,
+      "speechIndex": 1088,
       "title": "Familienentlastung und Behinderten-Pauschbeträge"
     },
     "people": [
@@ -32785,7 +33115,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19173-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19173-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -33369,7 +33699,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 12",
-      "speechIndex": 86,
+      "speechIndex": 1089,
       "title": "Familienentlastung und Behinderten-Pauschbeträge"
     },
     "people": [
@@ -33390,7 +33720,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19173-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19173-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -33798,7 +34128,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 12",
-      "speechIndex": 87,
+      "speechIndex": 1090,
       "title": "Familienentlastung und Behinderten-Pauschbeträge"
     },
     "people": [
@@ -33819,7 +34149,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19173-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19173-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -34187,7 +34517,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 12",
-      "speechIndex": 88,
+      "speechIndex": 1091,
       "title": "Familienentlastung und Behinderten-Pauschbeträge"
     },
     "people": [
@@ -34208,7 +34538,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19173-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19173-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -34516,7 +34846,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 12",
-      "speechIndex": 89,
+      "speechIndex": 1092,
       "title": "Familienentlastung und Behinderten-Pauschbeträge"
     },
     "people": [
@@ -34537,7 +34867,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19173-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19173-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -34871,7 +35201,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 12",
-      "speechIndex": 90,
+      "speechIndex": 1093,
       "title": "Familienentlastung und Behinderten-Pauschbeträge"
     },
     "people": [
@@ -34892,7 +35222,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19173-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19173-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -35172,7 +35502,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 12",
-      "speechIndex": 91,
+      "speechIndex": 1094,
       "title": "Familienentlastung und Behinderten-Pauschbeträge"
     },
     "people": [
@@ -35188,7 +35518,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19173-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19173-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -35615,7 +35945,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 12",
-      "speechIndex": 92,
+      "speechIndex": 1095,
       "title": "Familienentlastung und Behinderten-Pauschbeträge"
     },
     "people": [
@@ -35628,7 +35958,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19173-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19173-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -35705,7 +36035,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 13",
-      "speechIndex": 93,
+      "speechIndex": 1096,
       "title": "Aktionsplan gegen linksextremistische Gewalt"
     },
     "people": [
@@ -35718,7 +36048,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19173-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19173-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -35732,6 +36062,50 @@
             "sentences": [
               {
                 "text": "Ich rufe die Tagesordnungspunkte 13 a und 13 b auf:"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Hans-Peter Friedrich",
+            "speakerstatus": "vice-president",
+            "text": "a) Beratung des Antrags der Abgeordneten Martin Hess, Dr. Bernd Baumann, Dr. Gottfried Curio, weiterer Abgeordneter und der Fraktion der AfD",
+            "sentences": [
+              {
+                "text": "a) Beratung des Antrags der Abgeordneten Martin Hess, Dr. Bernd Baumann, Dr. Gottfried Curio, weiterer Abgeordneter und der Fraktion der AfD"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Hans-Peter Friedrich",
+            "speakerstatus": "vice-president",
+            "text": "Bundeseinheitlicher Aktionsplan 2020 gegen linksextremistische Gewalt und Terror – Null Toleranz statt Deeskalation",
+            "sentences": [
+              {
+                "text": "Bundeseinheitlicher Aktionsplan 2020 gegen linksextremistische Gewalt und Terror – Null Toleranz statt Deeskalation"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Hans-Peter Friedrich",
+            "speakerstatus": "vice-president",
+            "text": "b) Beratung des Antrags der Abgeordneten Martin Hess, Dr. Bernd Baumann, Dr. Gottfried Curio, weiterer Abgeordneter und der Fraktion der AfD",
+            "sentences": [
+              {
+                "text": "b) Beratung des Antrags der Abgeordneten Martin Hess, Dr. Bernd Baumann, Dr. Gottfried Curio, weiterer Abgeordneter und der Fraktion der AfD"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Hans-Peter Friedrich",
+            "speakerstatus": "vice-president",
+            "text": "Schnellstmögliche Beschaffung und Einführung von Distanz-Elektroimpulsgeräten für die Bundespolizei",
+            "sentences": [
+              {
+                "text": "Schnellstmögliche Beschaffung und Einführung von Distanz-Elektroimpulsgeräten für die Bundespolizei"
               }
             ]
           },
@@ -35803,7 +36177,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 13",
-      "speechIndex": 94,
+      "speechIndex": 1097,
       "title": "Aktionsplan gegen linksextremistische Gewalt"
     },
     "people": [
@@ -35824,7 +36198,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19173-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19173-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -36286,7 +36660,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 13",
-      "speechIndex": 95,
+      "speechIndex": 1098,
       "title": "Aktionsplan gegen linksextremistische Gewalt"
     },
     "people": [
@@ -36307,7 +36681,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19173-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19173-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -36796,7 +37170,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 13",
-      "speechIndex": 96,
+      "speechIndex": 1099,
       "title": "Aktionsplan gegen linksextremistische Gewalt"
     },
     "people": [
@@ -36817,7 +37191,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19173-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19173-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -37068,7 +37442,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 13",
-      "speechIndex": 97,
+      "speechIndex": 1100,
       "title": "Aktionsplan gegen linksextremistische Gewalt"
     },
     "people": [
@@ -37089,7 +37463,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19173-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19173-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -37572,7 +37946,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 13",
-      "speechIndex": 98,
+      "speechIndex": 1101,
       "title": "Aktionsplan gegen linksextremistische Gewalt"
     },
     "people": [
@@ -37593,7 +37967,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19173-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19173-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -37996,7 +38370,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 13",
-      "speechIndex": 99,
+      "speechIndex": 1102,
       "title": "Aktionsplan gegen linksextremistische Gewalt"
     },
     "people": [
@@ -38017,7 +38391,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19173-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19173-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -38402,7 +38776,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 13",
-      "speechIndex": 100,
+      "speechIndex": 1103,
       "title": "Aktionsplan gegen linksextremistische Gewalt"
     },
     "people": [
@@ -38423,7 +38797,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19173-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19173-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -38649,7 +39023,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 13",
-      "speechIndex": 101,
+      "speechIndex": 1104,
       "title": "Aktionsplan gegen linksextremistische Gewalt"
     },
     "people": [
@@ -38670,7 +39044,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19173-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19173-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -38914,7 +39288,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 13",
-      "speechIndex": 102,
+      "speechIndex": 1105,
       "title": "Aktionsplan gegen linksextremistische Gewalt"
     },
     "people": [
@@ -38935,7 +39309,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19173-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19173-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -39358,7 +39732,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 13",
-      "speechIndex": 103,
+      "speechIndex": 1106,
       "title": "Aktionsplan gegen linksextremistische Gewalt"
     },
     "people": [
@@ -39379,7 +39753,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19173-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19173-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -39632,7 +40006,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 13",
-      "speechIndex": 104,
+      "speechIndex": 1107,
       "title": "Aktionsplan gegen linksextremistische Gewalt"
     },
     "people": [
@@ -39653,7 +40027,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19173-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19173-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -40008,7 +40382,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 13",
-      "speechIndex": 105,
+      "speechIndex": 1108,
       "title": "Aktionsplan gegen linksextremistische Gewalt"
     },
     "people": [
@@ -40021,7 +40395,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19173-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19173-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -40087,7 +40461,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 14",
-      "speechIndex": 106,
+      "speechIndex": 1109,
       "title": "Zukunft der Krankenhäuser"
     },
     "people": [
@@ -40100,7 +40474,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19173-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19173-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -40114,6 +40488,39 @@
             "sentences": [
               {
                 "text": "Ich rufe auf die Tagesordnungspunkte 14 a und 14 b:"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Kubicki",
+            "speakerstatus": "vice-president",
+            "text": "a) Erste Beratung des von den Fraktionen der CDU/CSU und SPD eingebrachten Entwurfs eines Gesetzes für ein Zukunftsprogramm Krankenhäuser (Krankenhauszukunftsgesetz – KHZG)",
+            "sentences": [
+              {
+                "text": "a) Erste Beratung des von den Fraktionen der CDU/CSU und SPD eingebrachten Entwurfs eines Gesetzes für ein Zukunftsprogramm Krankenhäuser (Krankenhauszukunftsgesetz – KHZG)"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Kubicki",
+            "speakerstatus": "vice-president",
+            "text": "b) Beratung des Antrags der Abgeordneten Detlev Spangenberg, Marc Bernhard, Stephan Brandner, weiterer Abgeordneter und der Fraktion der AfD",
+            "sentences": [
+              {
+                "text": "b) Beratung des Antrags der Abgeordneten Detlev Spangenberg, Marc Bernhard, Stephan Brandner, weiterer Abgeordneter und der Fraktion der AfD"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Kubicki",
+            "speakerstatus": "vice-president",
+            "text": "Krankenhäuser in der Fläche erhalten – Wirtschaftliche Basis sichern, Bundesländer angemessen beteiligen",
+            "sentences": [
+              {
+                "text": "Krankenhäuser in der Fläche erhalten – Wirtschaftliche Basis sichern, Bundesländer angemessen beteiligen"
               }
             ]
           },
@@ -40179,7 +40586,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 14",
-      "speechIndex": 107,
+      "speechIndex": 1110,
       "title": "Zukunft der Krankenhäuser"
     },
     "people": [
@@ -40200,7 +40607,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19173-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19173-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -40499,7 +40906,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 14",
-      "speechIndex": 108,
+      "speechIndex": 1111,
       "title": "Zukunft der Krankenhäuser"
     },
     "people": [
@@ -40520,7 +40927,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19173-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19173-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -40804,7 +41211,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 14",
-      "speechIndex": 109,
+      "speechIndex": 1112,
       "title": "Zukunft der Krankenhäuser"
     },
     "people": [
@@ -40825,7 +41232,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19173-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19173-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -41307,7 +41714,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 14",
-      "speechIndex": 110,
+      "speechIndex": 1113,
       "title": "Zukunft der Krankenhäuser"
     },
     "people": [
@@ -41328,7 +41735,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19173-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19173-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -41586,7 +41993,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 14",
-      "speechIndex": 111,
+      "speechIndex": 1114,
       "title": "Zukunft der Krankenhäuser"
     },
     "people": [
@@ -41607,7 +42014,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19173-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19173-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -41968,7 +42375,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 14",
-      "speechIndex": 112,
+      "speechIndex": 1115,
       "title": "Zukunft der Krankenhäuser"
     },
     "people": [
@@ -41989,7 +42396,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19173-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19173-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -42265,7 +42672,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 14",
-      "speechIndex": 113,
+      "speechIndex": 1116,
       "title": "Zukunft der Krankenhäuser"
     },
     "people": [
@@ -42286,7 +42693,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19173-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19173-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -42624,7 +43031,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 14",
-      "speechIndex": 114,
+      "speechIndex": 1117,
       "title": "Zukunft der Krankenhäuser"
     },
     "people": [
@@ -42645,7 +43052,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19173-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19173-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -42942,7 +43349,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 14",
-      "speechIndex": 115,
+      "speechIndex": 1118,
       "title": "Zukunft der Krankenhäuser"
     },
     "people": [
@@ -42955,7 +43362,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19173-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19173-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -43361,7 +43768,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 16",
-      "speechIndex": 126,
+      "speechIndex": 1129,
       "title": "Arbeitsbedingungen Gig- u. Crowdworking"
     },
     "people": [
@@ -43374,7 +43781,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19173-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19173-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -43388,6 +43795,50 @@
             "sentences": [
               {
                 "text": "Ich rufe die Tagesordnungspunkte 16 a und 16 b auf:"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Kubicki",
+            "speakerstatus": "vice-president",
+            "text": "a) Beratung des Antrags der Abgeordneten Jessica Tatti, Susanne Ferschl, Doris Achelwilm, weiterer Abgeordneter und der Fraktion DIE LINKE",
+            "sentences": [
+              {
+                "text": "a) Beratung des Antrags der Abgeordneten Jessica Tatti, Susanne Ferschl, Doris Achelwilm, weiterer Abgeordneter und der Fraktion DIE LINKE"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Kubicki",
+            "speakerstatus": "vice-president",
+            "text": "Gute Arbeit und soziale Sicherheit für Gig-Worker bei der ortsgebundenen Plattformarbeit",
+            "sentences": [
+              {
+                "text": "Gute Arbeit und soziale Sicherheit für Gig-Worker bei der ortsgebundenen Plattformarbeit"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Kubicki",
+            "speakerstatus": "vice-president",
+            "text": "b) Beratung des Antrags der Abgeordneten Jessica Tatti, Susanne Ferschl, Doris Achelwilm, weiterer Abgeordneter und der Fraktion DIE LINKE",
+            "sentences": [
+              {
+                "text": "b) Beratung des Antrags der Abgeordneten Jessica Tatti, Susanne Ferschl, Doris Achelwilm, weiterer Abgeordneter und der Fraktion DIE LINKE"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Kubicki",
+            "speakerstatus": "vice-president",
+            "text": "Gute Arbeit und soziale Sicherheit für Crowd-Worker bei der ortsungebundenen Plattformarbeit",
+            "sentences": [
+              {
+                "text": "Gute Arbeit und soziale Sicherheit für Crowd-Worker bei der ortsungebundenen Plattformarbeit"
               }
             ]
           },
@@ -43453,7 +43904,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 16",
-      "speechIndex": 127,
+      "speechIndex": 1130,
       "title": "Arbeitsbedingungen Gig- u. Crowdworking"
     },
     "people": [
@@ -43474,7 +43925,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19173-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19173-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -43876,7 +44327,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 16",
-      "speechIndex": 128,
+      "speechIndex": 1131,
       "title": "Arbeitsbedingungen Gig- u. Crowdworking"
     },
     "people": [
@@ -43897,7 +44348,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19173-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19173-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -44340,7 +44791,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 16",
-      "speechIndex": 129,
+      "speechIndex": 1132,
       "title": "Arbeitsbedingungen Gig- u. Crowdworking"
     },
     "people": [
@@ -44361,7 +44812,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19173-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19173-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -44704,7 +45155,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 16",
-      "speechIndex": 130,
+      "speechIndex": 1133,
       "title": "Arbeitsbedingungen Gig- u. Crowdworking"
     },
     "people": [
@@ -44725,7 +45176,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19173-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19173-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -45074,7 +45525,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 16",
-      "speechIndex": 131,
+      "speechIndex": 1134,
       "title": "Arbeitsbedingungen Gig- u. Crowdworking"
     },
     "people": [
@@ -45095,7 +45546,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19173-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19173-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -45430,7 +45881,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 16",
-      "speechIndex": 132,
+      "speechIndex": 1135,
       "title": "Arbeitsbedingungen Gig- u. Crowdworking"
     },
     "people": [
@@ -45451,7 +45902,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19173-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19173-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -45772,7 +46223,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 16",
-      "speechIndex": 133,
+      "speechIndex": 1136,
       "title": "Arbeitsbedingungen Gig- u. Crowdworking"
     },
     "people": [
@@ -45788,7 +46239,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19173-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19173-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -46236,7 +46687,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 16",
-      "speechIndex": 134,
+      "speechIndex": 1137,
       "title": "Arbeitsbedingungen Gig- u. Crowdworking"
     },
     "people": [
@@ -46257,7 +46708,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19173-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19173-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -46457,7 +46908,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 16",
-      "speechIndex": 135,
+      "speechIndex": 1138,
       "title": "Arbeitsbedingungen Gig- u. Crowdworking"
     },
     "people": [
@@ -46470,7 +46921,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19173-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19173-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -46536,7 +46987,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 17",
-      "speechIndex": 136,
+      "speechIndex": 1139,
       "title": "Fairer Wettbewerb - Abmahnungen"
     },
     "people": [
@@ -46549,7 +47000,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19173-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19173-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -46563,6 +47014,127 @@
             "sentences": [
               {
                 "text": "Ich rufe die Tagesordnungspunkte 17 a bis 17 c auf:"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Hans-Peter Friedrich",
+            "speakerstatus": "vice-president",
+            "text": "a) Zweite und dritte Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Stärkung des fairen Wettbewerbs",
+            "sentences": [
+              {
+                "text": "a) Zweite und dritte Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Stärkung des fairen Wettbewerbs"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Hans-Peter Friedrich",
+            "speakerstatus": "vice-president",
+            "text": "Beschlussempfehlung und Bericht des Ausschusses für Recht und Verbraucherschutz (6. Ausschuss)",
+            "sentences": [
+              {
+                "text": "Beschlussempfehlung und Bericht des Ausschusses für Recht und Verbraucherschutz (6. Ausschuss)"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Hans-Peter Friedrich",
+            "speakerstatus": "vice-president",
+            "text": "Drucksache 19/22238",
+            "sentences": [
+              {
+                "text": "Drucksache 19/22238"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Hans-Peter Friedrich",
+            "speakerstatus": "vice-president",
+            "text": "b) Zweite und dritte Beratung des von den Abgeordneten Stephan Brandner, Fabian Jacobi, Dr. Lothar Maier, weiteren Abgeordneten und der Fraktion der AfD eingebrachten Entwurfs eines Gesetzes zur Bekämpfung des Abmahnmissbrauchs",
+            "sentences": [
+              {
+                "text": "b) Zweite und dritte Beratung des von den Abgeordneten Stephan Brandner, Fabian Jacobi, Dr. Lothar Maier, weiteren Abgeordneten und der Fraktion der AfD eingebrachten Entwurfs eines Gesetzes zur Bekämpfung des Abmahnmissbrauchs"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Hans-Peter Friedrich",
+            "speakerstatus": "vice-president",
+            "text": "Beschlussempfehlung und Bericht des Ausschusses für Recht und Verbraucherschutz (6. Ausschuss)",
+            "sentences": [
+              {
+                "text": "Beschlussempfehlung und Bericht des Ausschusses für Recht und Verbraucherschutz (6. Ausschuss)"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Hans-Peter Friedrich",
+            "speakerstatus": "vice-president",
+            "text": "Drucksache 19/22238",
+            "sentences": [
+              {
+                "text": "Drucksache 19/22238"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Hans-Peter Friedrich",
+            "speakerstatus": "vice-president",
+            "text": "c) Beratung der Beschlussempfehlung und des Berichts des Ausschusses für Recht und Verbraucherschutz (6. Ausschuss)",
+            "sentences": [
+              {
+                "text": "c) Beratung der Beschlussempfehlung und des Berichts des Ausschusses für Recht und Verbraucherschutz (6. Ausschuss)"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Hans-Peter Friedrich",
+            "speakerstatus": "vice-president",
+            "text": "– zu dem Antrag der Abgeordneten Roman Müller-Böhm, Stephan Thomae, Grigorios Aggelidis, weiterer Abgeordneter und der Fraktion der FDP",
+            "sentences": [
+              {
+                "text": "– zu dem Antrag der Abgeordneten Roman Müller-Böhm, Stephan Thomae, Grigorios Aggelidis, weiterer Abgeordneter und der Fraktion der FDP"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Hans-Peter Friedrich",
+            "speakerstatus": "vice-president",
+            "text": "Maßnahmen für mehr Fairness bei Abmahnungen",
+            "sentences": [
+              {
+                "text": "Maßnahmen für mehr Fairness bei Abmahnungen"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Hans-Peter Friedrich",
+            "speakerstatus": "vice-president",
+            "text": "– zu dem Antrag der Abgeordneten Dr. Manuela Rottmann, Tabea Rößner, Claudia Müller, weiterer Abgeordneter und der Fraktion BÜNDNIS 90/DIE GRÜNEN",
+            "sentences": [
+              {
+                "text": "– zu dem Antrag der Abgeordneten Dr. Manuela Rottmann, Tabea Rößner, Claudia Müller, weiterer Abgeordneter und der Fraktion BÜNDNIS 90/DIE GRÜNEN"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Hans-Peter Friedrich",
+            "speakerstatus": "vice-president",
+            "text": "Abmahnungen – Transparenz und Rechtssicherheit gegen Missbrauch",
+            "sentences": [
+              {
+                "text": "Abmahnungen – Transparenz und Rechtssicherheit gegen Missbrauch"
               }
             ]
           },
@@ -46657,7 +47229,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 17",
-      "speechIndex": 137,
+      "speechIndex": 1140,
       "title": "Fairer Wettbewerb - Abmahnungen"
     },
     "people": [
@@ -46678,7 +47250,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19173-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19173-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -47013,7 +47585,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 17",
-      "speechIndex": 138,
+      "speechIndex": 1141,
       "title": "Fairer Wettbewerb - Abmahnungen"
     },
     "people": [
@@ -47034,7 +47606,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19173-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19173-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -47268,7 +47840,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 17",
-      "speechIndex": 139,
+      "speechIndex": 1142,
       "title": "Fairer Wettbewerb - Abmahnungen"
     },
     "people": [
@@ -47289,7 +47861,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19173-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19173-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -47677,7 +48249,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 17",
-      "speechIndex": 140,
+      "speechIndex": 1143,
       "title": "Fairer Wettbewerb - Abmahnungen"
     },
     "people": [
@@ -47698,7 +48270,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19173-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19173-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -47940,7 +48512,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 17",
-      "speechIndex": 141,
+      "speechIndex": 1144,
       "title": "Fairer Wettbewerb - Abmahnungen"
     },
     "people": [
@@ -47961,7 +48533,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19173-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19173-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -48230,7 +48802,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 17",
-      "speechIndex": 142,
+      "speechIndex": 1145,
       "title": "Fairer Wettbewerb - Abmahnungen"
     },
     "people": [
@@ -48251,7 +48823,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19173-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19173-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -48595,7 +49167,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 17",
-      "speechIndex": 143,
+      "speechIndex": 1146,
       "title": "Fairer Wettbewerb - Abmahnungen"
     },
     "people": [
@@ -48616,7 +49188,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19173-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19173-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -48939,7 +49511,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 17",
-      "speechIndex": 144,
+      "speechIndex": 1147,
       "title": "Fairer Wettbewerb - Abmahnungen"
     },
     "people": [
@@ -48955,7 +49527,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19173-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19173-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -49285,7 +49857,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 17",
-      "speechIndex": 145,
+      "speechIndex": 1148,
       "title": "Fairer Wettbewerb - Abmahnungen"
     },
     "people": [
@@ -49298,7 +49870,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19173-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19173-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -49930,7 +50502,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 19",
-      "speechIndex": 155,
+      "speechIndex": 1158,
       "title": "Anpassung des Freizügigkeitsgesetzes/EU"
     },
     "people": [
@@ -49943,7 +50515,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19173-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19173-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -49957,6 +50529,17 @@
             "sentences": [
               {
                 "text": "Ich rufe den Tagesordnungspunkt 19 auf:"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Hans-Peter Friedrich",
+            "speakerstatus": "vice-president",
+            "text": "Erste Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur aktuellen Anpassung des Freizügigkeitsgesetzes/EU und weiterer Vorschriften an das Unionsrecht",
+            "sentences": [
+              {
+                "text": "Erste Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur aktuellen Anpassung des Freizügigkeitsgesetzes/EU und weiterer Vorschriften an das Unionsrecht"
               }
             ]
           },
@@ -50017,7 +50600,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 19",
-      "speechIndex": 156,
+      "speechIndex": 1159,
       "title": "Anpassung des Freizügigkeitsgesetzes/EU"
     },
     "people": [
@@ -50038,7 +50621,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19173-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19173-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -50279,7 +50862,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 19",
-      "speechIndex": 157,
+      "speechIndex": 1160,
       "title": "Anpassung des Freizügigkeitsgesetzes/EU"
     },
     "people": [
@@ -50295,7 +50878,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19173-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19173-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -50519,7 +51102,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 19",
-      "speechIndex": 158,
+      "speechIndex": 1161,
       "title": "Anpassung des Freizügigkeitsgesetzes/EU"
     },
     "people": [
@@ -50540,7 +51123,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19173-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19173-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -50761,7 +51344,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 19",
-      "speechIndex": 159,
+      "speechIndex": 1162,
       "title": "Anpassung des Freizügigkeitsgesetzes/EU"
     },
     "people": [
@@ -50782,7 +51365,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19173-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19173-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -51037,7 +51620,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 19",
-      "speechIndex": 160,
+      "speechIndex": 1163,
       "title": "Anpassung des Freizügigkeitsgesetzes/EU"
     },
     "people": [
@@ -51058,7 +51641,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19173-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19173-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -51317,7 +51900,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 19",
-      "speechIndex": 161,
+      "speechIndex": 1164,
       "title": "Anpassung des Freizügigkeitsgesetzes/EU"
     },
     "people": [
@@ -51333,7 +51916,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19173-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19173-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -51547,7 +52130,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 19",
-      "speechIndex": 162,
+      "speechIndex": 1165,
       "title": "Anpassung des Freizügigkeitsgesetzes/EU"
     },
     "people": [
@@ -51563,7 +52146,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19173-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19173-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -51754,7 +52337,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 19",
-      "speechIndex": 163,
+      "speechIndex": 1166,
       "title": "Anpassung des Freizügigkeitsgesetzes/EU"
     },
     "people": [
@@ -51767,7 +52350,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19173-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19173-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -51868,7 +52451,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 13",
-      "speechIndex": 164,
+      "speechIndex": 1167,
       "title": "Intelligente COVID-19-Strategie"
     },
     "people": [
@@ -51881,7 +52464,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19173-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19173-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -51895,6 +52478,28 @@
             "sentences": [
               {
                 "text": "Wir kommen zu Zusatzpunkt 13:"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Hans-Peter Friedrich",
+            "speakerstatus": "vice-president",
+            "text": "Beratung des Antrags der Abgeordneten Dr. Andrew Ullmann, Michael Theurer, Renata Alt, weiterer Abgeordneter und der Fraktion der FDP",
+            "sentences": [
+              {
+                "text": "Beratung des Antrags der Abgeordneten Dr. Andrew Ullmann, Michael Theurer, Renata Alt, weiterer Abgeordneter und der Fraktion der FDP"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Hans-Peter Friedrich",
+            "speakerstatus": "vice-president",
+            "text": "Praxistaugliche und intelligente COVID-19-Teststrategie",
+            "sentences": [
+              {
+                "text": "Praxistaugliche und intelligente COVID-19-Teststrategie"
               }
             ]
           },
@@ -51958,7 +52563,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 13",
-      "speechIndex": 165,
+      "speechIndex": 1168,
       "title": "Intelligente COVID-19-Strategie"
     },
     "people": [
@@ -51974,7 +52579,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19173-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19173-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -52300,7 +52905,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 13",
-      "speechIndex": 166,
+      "speechIndex": 1169,
       "title": "Intelligente COVID-19-Strategie"
     },
     "people": [
@@ -52321,7 +52926,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19173-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19173-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -52642,7 +53247,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 13",
-      "speechIndex": 172,
+      "speechIndex": 1175,
       "title": "Intelligente COVID-19-Strategie"
     },
     "people": [
@@ -52655,7 +53260,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19173-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19173-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -52730,7 +53335,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 13",
-      "speechIndex": 167,
+      "speechIndex": 1170,
       "title": "Intelligente COVID-19-Strategie"
     },
     "people": [
@@ -52751,7 +53356,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19173-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19173-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -53204,7 +53809,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 13",
-      "speechIndex": 168,
+      "speechIndex": 1171,
       "title": "Intelligente COVID-19-Strategie"
     },
     "people": [
@@ -53225,7 +53830,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19173-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19173-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -53778,7 +54383,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 13",
-      "speechIndex": 169,
+      "speechIndex": 1172,
       "title": "Intelligente COVID-19-Strategie"
     },
     "people": [
@@ -53799,7 +54404,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19173-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19173-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -54233,7 +54838,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 13",
-      "speechIndex": 170,
+      "speechIndex": 1173,
       "title": "Intelligente COVID-19-Strategie"
     },
     "people": [
@@ -54254,7 +54859,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19173-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19173-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -54551,7 +55156,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 13",
-      "speechIndex": 171,
+      "speechIndex": 1174,
       "title": "Intelligente COVID-19-Strategie"
     },
     "people": [
@@ -54567,7 +55172,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19173-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19173-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -54797,7 +55402,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 21",
-      "speechIndex": 173,
+      "speechIndex": 1176,
       "title": "Passgesetz"
     },
     "people": [
@@ -54810,7 +55415,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19173-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19173-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -54824,6 +55429,17 @@
             "sentences": [
               {
                 "text": "Ich rufe den Tagesordnungspunkt 21 auf:"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Kubicki",
+            "speakerstatus": "vice-president",
+            "text": "Erste Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Stärkung der Sicherheit im Pass-, Ausweis- und ausländerrechtlichen Dokumentenwesen",
+            "sentences": [
+              {
+                "text": "Erste Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Stärkung der Sicherheit im Pass-, Ausweis- und ausländerrechtlichen Dokumentenwesen"
               }
             ]
           },
@@ -54887,7 +55503,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 21",
-      "speechIndex": 174,
+      "speechIndex": 1177,
       "title": "Passgesetz"
     },
     "people": [
@@ -54908,7 +55524,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19173-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19173-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -55161,7 +55777,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 21",
-      "speechIndex": 175,
+      "speechIndex": 1178,
       "title": "Passgesetz"
     },
     "people": [
@@ -55182,7 +55798,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19173-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19173-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -55714,7 +56330,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 21",
-      "speechIndex": 176,
+      "speechIndex": 1179,
       "title": "Passgesetz"
     },
     "people": [
@@ -55735,7 +56351,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19173-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19173-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -56182,7 +56798,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 21",
-      "speechIndex": 177,
+      "speechIndex": 1180,
       "title": "Passgesetz"
     },
     "people": [
@@ -56203,7 +56819,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19173-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19173-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -56466,7 +57082,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 21",
-      "speechIndex": 178,
+      "speechIndex": 1181,
       "title": "Passgesetz"
     },
     "people": [
@@ -56482,7 +57098,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19173-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19173-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -56695,7 +57311,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 21",
-      "speechIndex": 179,
+      "speechIndex": 1182,
       "title": "Passgesetz"
     },
     "people": [
@@ -56708,7 +57324,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19173-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19173-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -56783,7 +57399,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 22",
-      "speechIndex": 180,
+      "speechIndex": 1183,
       "title": "Änderung des Bundeswahlgesetzes"
     },
     "people": [
@@ -56796,7 +57412,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19173-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19173-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -56810,6 +57426,17 @@
             "sentences": [
               {
                 "text": "Ich rufe den Tagesordnungspunkt 22 auf:"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Kubicki",
+            "speakerstatus": "vice-president",
+            "text": "Erste Beratung des von den Fraktionen der CDU/CSU und SPD eingebrachten Entwurfs eines Fünfundzwanzigsten Gesetzes zur Änderung des Bundeswahlgesetzes",
+            "sentences": [
+              {
+                "text": "Erste Beratung des von den Fraktionen der CDU/CSU und SPD eingebrachten Entwurfs eines Fünfundzwanzigsten Gesetzes zur Änderung des Bundeswahlgesetzes"
               }
             ]
           },
@@ -56873,7 +57500,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 22",
-      "speechIndex": 181,
+      "speechIndex": 1184,
       "title": "Änderung des Bundeswahlgesetzes"
     },
     "people": [
@@ -56894,7 +57521,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19173-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19173-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -57180,7 +57807,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 22",
-      "speechIndex": 182,
+      "speechIndex": 1185,
       "title": "Änderung des Bundeswahlgesetzes"
     },
     "people": [
@@ -57201,7 +57828,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19173-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19173-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -57524,7 +58151,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 22",
-      "speechIndex": 183,
+      "speechIndex": 1186,
       "title": "Änderung des Bundeswahlgesetzes"
     },
     "people": [
@@ -57545,7 +58172,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19173-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19173-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -58189,7 +58816,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 22",
-      "speechIndex": 184,
+      "speechIndex": 1187,
       "title": "Änderung des Bundeswahlgesetzes"
     },
     "people": [
@@ -58210,7 +58837,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19173-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19173-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -58552,7 +59179,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 22",
-      "speechIndex": 185,
+      "speechIndex": 1188,
       "title": "Änderung des Bundeswahlgesetzes"
     },
     "people": [
@@ -58573,7 +59200,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19173-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19173-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -58831,7 +59458,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 22",
-      "speechIndex": 186,
+      "speechIndex": 1189,
       "title": "Änderung des Bundeswahlgesetzes"
     },
     "people": [
@@ -58852,7 +59479,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19173-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19173-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -59165,7 +59792,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 22",
-      "speechIndex": 187,
+      "speechIndex": 1190,
       "title": "Änderung des Bundeswahlgesetzes"
     },
     "people": [
@@ -59186,7 +59813,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19173-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19173-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -59702,7 +60329,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 22",
-      "speechIndex": 188,
+      "speechIndex": 1191,
       "title": "Änderung des Bundeswahlgesetzes"
     },
     "people": [
@@ -59715,7 +60342,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19173-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19173-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -59776,7 +60403,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 23",
-      "speechIndex": 189,
+      "speechIndex": 1192,
       "title": "COVID-19-Insolvenzaussetzungsgesetz"
     },
     "people": [
@@ -59789,7 +60416,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19173-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19173-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -59803,6 +60430,17 @@
             "sentences": [
               {
                 "text": "Ich rufe den Tagesordnungspunkt 23 auf:"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Kubicki",
+            "speakerstatus": "vice-president",
+            "text": "Erste Beratung des von den Fraktionen der CDU/CSU und SPD eingebrachten Entwurfs eines Gesetzes zur Änderung des COVID-19-Insolvenzaussetzungsgesetzes",
+            "sentences": [
+              {
+                "text": "Erste Beratung des von den Fraktionen der CDU/CSU und SPD eingebrachten Entwurfs eines Gesetzes zur Änderung des COVID-19-Insolvenzaussetzungsgesetzes"
               }
             ]
           },
@@ -59863,7 +60501,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 23",
-      "speechIndex": 190,
+      "speechIndex": 1193,
       "title": "COVID-19-Insolvenzaussetzungsgesetz"
     },
     "people": [
@@ -59884,7 +60522,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19173-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19173-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -60182,7 +60820,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 23",
-      "speechIndex": 191,
+      "speechIndex": 1194,
       "title": "COVID-19-Insolvenzaussetzungsgesetz"
     },
     "people": [
@@ -60203,7 +60841,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19173-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19173-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -60479,7 +61117,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 23",
-      "speechIndex": 192,
+      "speechIndex": 1195,
       "title": "COVID-19-Insolvenzaussetzungsgesetz"
     },
     "people": [
@@ -60500,7 +61138,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19173-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19173-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -60877,7 +61515,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 23",
-      "speechIndex": 193,
+      "speechIndex": 1196,
       "title": "COVID-19-Insolvenzaussetzungsgesetz"
     },
     "people": [
@@ -60898,7 +61536,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19173-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19173-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -61114,7 +61752,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 23",
-      "speechIndex": 194,
+      "speechIndex": 1197,
       "title": "COVID-19-Insolvenzaussetzungsgesetz"
     },
     "people": [
@@ -61135,7 +61773,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19173-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19173-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -61416,7 +62054,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 23",
-      "speechIndex": 195,
+      "speechIndex": 1198,
       "title": "COVID-19-Insolvenzaussetzungsgesetz"
     },
     "people": [
@@ -61429,7 +62067,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19173-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19173-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",

@@ -11,7 +11,7 @@
     },
     "agendaItem": {
       "officialTitle": "Sitzungseröffnung",
-      "speechIndex": 0,
+      "speechIndex": 1000,
       "title": "Sitzungseröffnung"
     },
     "people": [
@@ -27,7 +27,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19009-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19009-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -76,7 +76,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 2,
+      "speechIndex": 1002,
       "title": "55 Jahre Élysée-Vertrag"
     },
     "people": [
@@ -92,12 +92,34 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19009-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19009-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
         "originTextID": "",
         "textBody": [
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "main-speaker",
+            "text": "1. Vereinbarte Debatte",
+            "sentences": [
+              {
+                "text": "1. Vereinbarte Debatte"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "main-speaker",
+            "text": "55 Jahre Élysée-Vertrag",
+            "sentences": [
+              {
+                "text": "55 Jahre Élysée-Vertrag"
+              }
+            ]
+          },
           {
             "type": "speech",
             "speaker": "Wolfgang Schäuble",
@@ -363,7 +385,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 3,
+      "speechIndex": 1003,
       "title": "55 Jahre Élysée-Vertrag"
     },
     "people": [
@@ -387,7 +409,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19009-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19009-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -1140,16 +1162,156 @@
   {
     "parliament": "DE",
     "electoralPeriod": {
-      "number": 19
+      "number": "19"
     },
     "session": {
-      "number": 9
+      "number": "9",
+      "dateStart": "2018-01-22T11:02",
+      "dateEnd": "2018-01-22T13:08"
     },
     "agendaItem": {
-      "title": "55 Jahre Élysée-Vertrag",
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 4
+      "speechIndex": 1018,
+      "title": "55 Jahre Élysée-Vertrag"
     },
+    "people": [
+      {
+        "type": "memberOfParliament",
+        "label": "Wolfgang Schäuble",
+        "firstname": "Dr. Wolfgang",
+        "lastname": "Schäuble",
+        "context": "president",
+        "faction": ""
+      }
+    ],
+    "textContents": [
+      {
+        "type": "proceedings",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19009-data.xml",
+        "creator": "Deutscher Bundestag",
+        "license": "Public Domain",
+        "language": "DE-de",
+        "originTextID": "",
+        "textBody": [
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "Damit schließe ich die Aussprache.",
+            "sentences": [
+              {
+                "text": "Damit schließe ich die Aussprache."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "Wir kommen zur Abstimmung über die Entschließungsanträge.",
+            "sentences": [
+              {
+                "text": "Wir kommen zur Abstimmung über die Entschließungsanträge."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "Ich rufe zunächst den Entschließungsantrag der Fraktion Die Linke mit dem Titel „Europa aus der Krise führen: Ein neuer Élysée-Vertrag“ auf. Wer stimmt für den Entschließungsantrag auf Drucksache 19/495? – Gegenprobe! – Enthaltungen? – Der Entschließungsantrag ist gegen die Stimmen der Fraktion Die Linke mit den Stimmen aller anderen Fraktionen abgelehnt.",
+            "sentences": [
+              {
+                "text": "Ich rufe zunächst den Entschließungsantrag der Fraktion Die Linke mit dem Titel „Europa aus der Krise führen: Ein neuer Élysée-Vertrag“ auf."
+              },
+              {
+                "text": "Wer stimmt für den Entschließungsantrag auf Drucksache 19/495?"
+              },
+              {
+                "text": "– Gegenprobe!"
+              },
+              {
+                "text": "– Enthaltungen?"
+              },
+              {
+                "text": "– Der Entschließungsantrag ist gegen die Stimmen der Fraktion Die Linke mit den Stimmen aller anderen Fraktionen abgelehnt."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "Damit komme ich zum Entschließungsantrag der Fraktionen CDU/CSU, SPD, FDP und Bündnis 90/Die Grünen mit dem Titel „Für einen neuen Élysée-Vertrag – Die Rolle der Parlamente in der deutsch-französischen Zusammenarbeit stärken, Gemeinsame Resolution von Deutschem Bundestag und Assemblée nationale zum 55. Jahrestag des Élysée-Vertrags am 22. Januar 2018“. Wer stimmt für den Entschließungsantrag auf Drucksache 19/440? – Wer stimmt dagegen? – Enthaltungen? – Der Entschließungsantrag ist bei einigen Enthaltungen aus der Fraktion Die Linke und Gegenstimmen der übrigen Mitglieder der Fraktion Die Linke und der AfD mit Zustimmung der übrigen Fraktionen angenommen.",
+            "sentences": [
+              {
+                "text": "Damit komme ich zum Entschließungsantrag der Fraktionen CDU/CSU, SPD, FDP und Bündnis 90/Die Grünen mit dem Titel „Für einen neuen Élysée-Vertrag – Die Rolle der Parlamente in der deutsch-französischen Zusammenarbeit stärken, Gemeinsame Resolution von Deutschem Bundestag und Assemblée nationale zum 55. Jahrestag des Élysée-Vertrags am 22. Januar 2018“."
+              },
+              {
+                "text": "Wer stimmt für den Entschließungsantrag auf Drucksache 19/440?"
+              },
+              {
+                "text": "– Wer stimmt dagegen?"
+              },
+              {
+                "text": "– Enthaltungen?"
+              },
+              {
+                "text": "– Der Entschließungsantrag ist bei einigen Enthaltungen aus der Fraktion Die Linke und Gegenstimmen der übrigen Mitglieder der Fraktion Die Linke und der AfD mit Zustimmung der übrigen Fraktionen angenommen."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "Ich möchte mich noch einmal herzlich bei Präsident François de Rugy und den Kollegen der französischen Delegation für ihre Teilnahme an dieser Sitzung bedanken.",
+            "sentences": [
+              {
+                "text": "Ich möchte mich noch einmal herzlich bei Präsident François de Rugy und den Kollegen der französischen Delegation für ihre Teilnahme an dieser Sitzung bedanken."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "Wir werden im Anschluss mit einer Delegation des Bundestages mit Ihnen gemeinsam nach Paris zur Sitzung der Assemblée nationale fliegen.",
+            "sentences": [
+              {
+                "text": "Wir werden im Anschluss mit einer Delegation des Bundestages mit Ihnen gemeinsam nach Paris zur Sitzung der Assemblée nationale fliegen."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "Ich berufe die nächste Sitzung des Deutschen Bundestages auf Mittwoch, den 31. Januar 2018, 14.30 Uhr, ein.",
+            "sentences": [
+              {
+                "text": "Ich berufe die nächste Sitzung des Deutschen Bundestages auf Mittwoch, den 31. Januar 2018, 14.30 Uhr, ein."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "Die Sitzung ist geschlossen.",
+            "sentences": [
+              {
+                "text": "Die Sitzung ist geschlossen."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "documents": [],
+    "key": "19-9 tagesordnungspunkt 1 (wolfgang schauble) #1",
+    "dateStart": "2018-01-22T10:23:15",
+    "dateEnd": "2018-01-22T10:24:20",
     "media": {
       "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7193787/7193787_h264_720_400_2000kb_baseline_de_2192.mp4",
       "sourcePage": "http://dbtg.tv/fvid/7193787",
@@ -1158,18 +1320,7 @@
       "license": "CC-BY-SA",
       "originMediaID": "7193787",
       "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7193787/7193787_mp3_128kb_stereo_de_128.mp3"
-    },
-    "dateStart": "2018-01-22T10:23:15",
-    "dateEnd": "2018-01-22T10:24:20",
-    "people": [
-      {
-        "label": "Wolfgang Schäuble",
-        "faction": "CDU/CSU",
-        "context": "main-speaker",
-        "role": "Bundestagspräsident"
-      }
-    ],
-    "key": "19-9 tagesordnungspunkt 1 (wolfgang schauble) #1"
+    }
   },
   {
     "parliament": "DE",
@@ -1183,7 +1334,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 4,
+      "speechIndex": 1004,
       "title": "55 Jahre Élysée-Vertrag"
     },
     "people": [
@@ -1207,7 +1358,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19009-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19009-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -1671,7 +1822,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 5,
+      "speechIndex": 1005,
       "title": "55 Jahre Élysée-Vertrag"
     },
     "people": [
@@ -1695,7 +1846,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19009-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19009-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -2220,7 +2371,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 6,
+      "speechIndex": 1006,
       "title": "55 Jahre Élysée-Vertrag"
     },
     "people": [
@@ -2244,7 +2395,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19009-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19009-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -2686,7 +2837,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 7,
+      "speechIndex": 1007,
       "title": "55 Jahre Élysée-Vertrag"
     },
     "people": [
@@ -2710,7 +2861,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19009-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19009-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -3227,7 +3378,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 8,
+      "speechIndex": 1008,
       "title": "55 Jahre Élysée-Vertrag"
     },
     "people": [
@@ -3251,7 +3402,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19009-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19009-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -3841,7 +3992,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 9,
+      "speechIndex": 1009,
       "title": "55 Jahre Élysée-Vertrag"
     },
     "people": [
@@ -3865,7 +4016,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19009-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19009-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -4255,7 +4406,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 10,
+      "speechIndex": 1010,
       "title": "55 Jahre Élysée-Vertrag"
     },
     "people": [
@@ -4279,7 +4430,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19009-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19009-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -4726,7 +4877,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 11,
+      "speechIndex": 1011,
       "title": "55 Jahre Élysée-Vertrag"
     },
     "people": [
@@ -4750,7 +4901,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19009-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19009-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -5335,7 +5486,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 12,
+      "speechIndex": 1012,
       "title": "55 Jahre Élysée-Vertrag"
     },
     "people": [
@@ -5359,7 +5510,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19009-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19009-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -5813,7 +5964,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 13,
+      "speechIndex": 1013,
       "title": "55 Jahre Élysée-Vertrag"
     },
     "people": [
@@ -5837,7 +5988,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19009-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19009-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -6136,7 +6287,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 14,
+      "speechIndex": 1014,
       "title": "55 Jahre Élysée-Vertrag"
     },
     "people": [
@@ -6160,7 +6311,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19009-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19009-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -6519,7 +6670,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 15,
+      "speechIndex": 1015,
       "title": "55 Jahre Élysée-Vertrag"
     },
     "people": [
@@ -6543,7 +6694,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19009-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19009-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -6867,7 +7018,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 16,
+      "speechIndex": 1016,
       "title": "55 Jahre Élysée-Vertrag"
     },
     "people": [
@@ -6891,7 +7042,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19009-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19009-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -7123,7 +7274,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 17,
+      "speechIndex": 1017,
       "title": "55 Jahre Élysée-Vertrag"
     },
     "people": [
@@ -7147,7 +7298,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19009-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19009-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -7430,129 +7581,6 @@
             "sentences": [
               {
                 "text": "Damit schließe ich die Aussprache."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Wolfgang Schäuble",
-            "speakerstatus": "president",
-            "text": "Wir kommen zur Abstimmung über die Entschließungsanträge.",
-            "sentences": [
-              {
-                "text": "Wir kommen zur Abstimmung über die Entschließungsanträge."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Wolfgang Schäuble",
-            "speakerstatus": "president",
-            "text": "Ich rufe zunächst den Entschließungsantrag der Fraktion Die Linke mit dem Titel „Europa aus der Krise führen: Ein neuer Élysée-Vertrag“ auf. Wer stimmt für den Entschließungsantrag auf Drucksache 19/495? – Gegenprobe! – Enthaltungen? – Der Entschließungsantrag ist gegen die Stimmen der Fraktion Die Linke mit den Stimmen aller anderen Fraktionen abgelehnt.",
-            "sentences": [
-              {
-                "text": "Ich rufe zunächst den Entschließungsantrag der Fraktion Die Linke mit dem Titel „Europa aus der Krise führen: Ein neuer Élysée-Vertrag“ auf."
-              },
-              {
-                "text": "Wer stimmt für den Entschließungsantrag auf Drucksache 19/495?"
-              },
-              {
-                "text": "– Gegenprobe!"
-              },
-              {
-                "text": "– Enthaltungen?"
-              },
-              {
-                "text": "– Der Entschließungsantrag ist gegen die Stimmen der Fraktion Die Linke mit den Stimmen aller anderen Fraktionen abgelehnt."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Wolfgang Schäuble",
-            "speakerstatus": "president",
-            "text": "Damit komme ich zum Entschließungsantrag der Fraktionen CDU/CSU, SPD, FDP und Bündnis 90/Die Grünen mit dem Titel „Für einen neuen Élysée-Vertrag – Die Rolle der Parlamente in der deutsch-französischen Zusammenarbeit stärken, Gemeinsame Resolution von Deutschem Bundestag und Assemblée nationale zum 55. Jahrestag des Élysée-Vertrags am 22. Januar 2018“. Wer stimmt für den Entschließungsantrag auf Drucksache 19/440? – Wer stimmt dagegen? – Enthaltungen? – Der Entschließungsantrag ist bei einigen Enthaltungen aus der Fraktion Die Linke und Gegenstimmen der übrigen Mitglieder der Fraktion Die Linke und der AfD mit Zustimmung der übrigen Fraktionen angenommen.",
-            "sentences": [
-              {
-                "text": "Damit komme ich zum Entschließungsantrag der Fraktionen CDU/CSU, SPD, FDP und Bündnis 90/Die Grünen mit dem Titel „Für einen neuen Élysée-Vertrag – Die Rolle der Parlamente in der deutsch-französischen Zusammenarbeit stärken, Gemeinsame Resolution von Deutschem Bundestag und Assemblée nationale zum 55. Jahrestag des Élysée-Vertrags am 22. Januar 2018“."
-              },
-              {
-                "text": "Wer stimmt für den Entschließungsantrag auf Drucksache 19/440?"
-              },
-              {
-                "text": "– Wer stimmt dagegen?"
-              },
-              {
-                "text": "– Enthaltungen?"
-              },
-              {
-                "text": "– Der Entschließungsantrag ist bei einigen Enthaltungen aus der Fraktion Die Linke und Gegenstimmen der übrigen Mitglieder der Fraktion Die Linke und der AfD mit Zustimmung der übrigen Fraktionen angenommen."
-              }
-            ]
-          },
-          {
-            "type": "comment",
-            "speaker": null,
-            "speakerstatus": null,
-            "text": "(Beifall bei der CDU/CSU, der SPD, der FDP und dem BÜNDNIS 90/DIE GRÜNEN)",
-            "sentences": [
-              {
-                "text": "(Beifall bei der CDU/CSU, der SPD, der FDP und dem BÜNDNIS 90/DIE GRÜNEN)"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Wolfgang Schäuble",
-            "speakerstatus": "president",
-            "text": "Ich möchte mich noch einmal herzlich bei Präsident François de Rugy und den Kollegen der französischen Delegation für ihre Teilnahme an dieser Sitzung bedanken.",
-            "sentences": [
-              {
-                "text": "Ich möchte mich noch einmal herzlich bei Präsident François de Rugy und den Kollegen der französischen Delegation für ihre Teilnahme an dieser Sitzung bedanken."
-              }
-            ]
-          },
-          {
-            "type": "comment",
-            "speaker": null,
-            "speakerstatus": null,
-            "text": "(Langanhaltender Beifall bei der Delegation der Assemblée nationale, der CDU/CSU, der SPD, der FDP, der LINKEN und dem BÜNDNIS 90/DIE GRÜNEN sowie bei Abgeordneten der AfD – Die Delegation der Assemblée nationale, die Fraktionen der CDU/CSU, der SPD, der FDP, der LINKEN, des Bündnisses 90/Die Grünen sowie Abgeordnete der AfD erheben sich)",
-            "sentences": [
-              {
-                "text": "(Langanhaltender Beifall bei der Delegation der Assemblée nationale, der CDU/CSU, der SPD, der FDP, der LINKEN und dem BÜNDNIS 90/DIE GRÜNEN sowie bei Abgeordneten der AfD – Die Delegation der Assemblée nationale, die Fraktionen der CDU/CSU, der SPD, der FDP, der LINKEN, des Bündnisses 90/Die Grünen sowie Abgeordnete der AfD erheben sich)"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Wolfgang Schäuble",
-            "speakerstatus": "president",
-            "text": "Wir werden im Anschluss mit einer Delegation des Bundestages mit Ihnen gemeinsam nach Paris zur Sitzung der Assemblée nationale fliegen.",
-            "sentences": [
-              {
-                "text": "Wir werden im Anschluss mit einer Delegation des Bundestages mit Ihnen gemeinsam nach Paris zur Sitzung der Assemblée nationale fliegen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Wolfgang Schäuble",
-            "speakerstatus": "president",
-            "text": "Ich berufe die nächste Sitzung des Deutschen Bundestages auf Mittwoch, den 31. Januar 2018, 14.30 Uhr, ein.",
-            "sentences": [
-              {
-                "text": "Ich berufe die nächste Sitzung des Deutschen Bundestages auf Mittwoch, den 31. Januar 2018, 14.30 Uhr, ein."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Wolfgang Schäuble",
-            "speakerstatus": "president",
-            "text": "Die Sitzung ist geschlossen.",
-            "sentences": [
-              {
-                "text": "Die Sitzung ist geschlossen."
               }
             ]
           }

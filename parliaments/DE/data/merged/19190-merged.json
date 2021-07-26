@@ -11,7 +11,7 @@
     },
     "agendaItem": {
       "officialTitle": "Sitzungseröffnung",
-      "speechIndex": 0,
+      "speechIndex": 1000,
       "title": "Sitzungseröffnung"
     },
     "people": [
@@ -24,7 +24,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19190-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19190-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -90,7 +90,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 27",
-      "speechIndex": 2,
+      "speechIndex": 1002,
       "title": "Corona-Maßnahmen"
     },
     "people": [
@@ -103,7 +103,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19190-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19190-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -117,6 +117,83 @@
             "sentences": [
               {
                 "text": "Dann rufe ich die Tagesordnungspunkte 27 a bis 27 d auf:"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "a) Erste Beratung des von den Fraktionen der CDU/CSU und SPD eingebrachten Entwurfs eines Dritten Gesetzes zum Schutz der Bevölkerung bei einer epidemischen Lage von nationaler Tragweite",
+            "sentences": [
+              {
+                "text": "a) Erste Beratung des von den Fraktionen der CDU/CSU und SPD eingebrachten Entwurfs eines Dritten Gesetzes zum Schutz der Bevölkerung bei einer epidemischen Lage von nationaler Tragweite"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "b) Beratung des Antrags der Abgeordneten Detlev Spangenberg, Dr. Robby Schlund, Paul Viktor Podolay, weiterer Abgeordneter und der Fraktion der AfD",
+            "sentences": [
+              {
+                "text": "b) Beratung des Antrags der Abgeordneten Detlev Spangenberg, Dr. Robby Schlund, Paul Viktor Podolay, weiterer Abgeordneter und der Fraktion der AfD"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "COVID-19 – Eigenverantwortung statt Verbote und Zwänge – Gesundheitlichen und wirtschaftlichen Kollaps verhindern, Kollateralschäden vermeiden",
+            "sentences": [
+              {
+                "text": "COVID-19 – Eigenverantwortung statt Verbote und Zwänge – Gesundheitlichen und wirtschaftlichen Kollaps verhindern, Kollateralschäden vermeiden"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "c) Beratung des Antrags der Abgeordneten Dr. Achim Kessler, Susanne Ferschl, Gökay Akbulut, weiterer Abgeordneter und der Fraktion DIE LINKE",
+            "sentences": [
+              {
+                "text": "c) Beratung des Antrags der Abgeordneten Dr. Achim Kessler, Susanne Ferschl, Gökay Akbulut, weiterer Abgeordneter und der Fraktion DIE LINKE"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "Demokratische Kontrolle auch in der Pandemie",
+            "sentences": [
+              {
+                "text": "Demokratische Kontrolle auch in der Pandemie"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "d) Beratung des Antrags der Abgeordneten Dr. Manuela Rottmann, Britta Haßelmann, Kordula Schulz-Asche, weiterer Abgeordneter und der Fraktion BÜNDNIS 90/DIE GRÜNEN",
+            "sentences": [
+              {
+                "text": "d) Beratung des Antrags der Abgeordneten Dr. Manuela Rottmann, Britta Haßelmann, Kordula Schulz-Asche, weiterer Abgeordneter und der Fraktion BÜNDNIS 90/DIE GRÜNEN"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "Rechtsstaat und Demokratie in der Corona-Pandemie",
+            "sentences": [
+              {
+                "text": "Rechtsstaat und Demokratie in der Corona-Pandemie"
               }
             ]
           },
@@ -192,7 +269,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 27",
-      "speechIndex": 3,
+      "speechIndex": 1003,
       "title": "Corona-Maßnahmen"
     },
     "people": [
@@ -221,7 +298,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19190-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19190-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -1052,7 +1129,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 27",
-      "speechIndex": 4,
+      "speechIndex": 1004,
       "title": "Corona-Maßnahmen"
     },
     "people": [
@@ -1073,7 +1150,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19190-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19190-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -1509,7 +1586,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 27",
-      "speechIndex": 5,
+      "speechIndex": 1005,
       "title": "Corona-Maßnahmen"
     },
     "people": [
@@ -1530,7 +1607,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19190-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19190-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -2170,7 +2247,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 27",
-      "speechIndex": 6,
+      "speechIndex": 1006,
       "title": "Corona-Maßnahmen"
     },
     "people": [
@@ -2191,7 +2268,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19190-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19190-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -2714,7 +2791,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 27",
-      "speechIndex": 7,
+      "speechIndex": 1007,
       "title": "Corona-Maßnahmen"
     },
     "people": [
@@ -2735,7 +2812,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19190-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19190-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -3115,7 +3192,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 27",
-      "speechIndex": 8,
+      "speechIndex": 1008,
       "title": "Corona-Maßnahmen"
     },
     "people": [
@@ -3136,7 +3213,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19190-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19190-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -3693,7 +3770,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 27",
-      "speechIndex": 9,
+      "speechIndex": 1009,
       "title": "Corona-Maßnahmen"
     },
     "people": [
@@ -3730,7 +3807,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19190-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19190-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -4699,7 +4776,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 27",
-      "speechIndex": 10,
+      "speechIndex": 1010,
       "title": "Corona-Maßnahmen"
     },
     "people": [
@@ -4720,7 +4797,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19190-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19190-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -5026,7 +5103,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 27",
-      "speechIndex": 11,
+      "speechIndex": 1011,
       "title": "Corona-Maßnahmen"
     },
     "people": [
@@ -5047,7 +5124,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19190-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19190-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -5562,7 +5639,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 27",
-      "speechIndex": 12,
+      "speechIndex": 1012,
       "title": "Corona-Maßnahmen"
     },
     "people": [
@@ -5583,7 +5660,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19190-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19190-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -5788,7 +5865,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 27",
-      "speechIndex": 13,
+      "speechIndex": 1013,
       "title": "Corona-Maßnahmen"
     },
     "people": [
@@ -5809,7 +5886,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19190-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19190-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -6143,7 +6220,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 27",
-      "speechIndex": 14,
+      "speechIndex": 1014,
       "title": "Corona-Maßnahmen"
     },
     "people": [
@@ -6164,7 +6241,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19190-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19190-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -6449,7 +6526,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 27",
-      "speechIndex": 15,
+      "speechIndex": 1015,
       "title": "Corona-Maßnahmen"
     },
     "people": [
@@ -6486,7 +6563,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19190-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19190-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -7251,7 +7328,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 27",
-      "speechIndex": 16,
+      "speechIndex": 1016,
       "title": "Corona-Maßnahmen"
     },
     "people": [
@@ -7264,7 +7341,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19190-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19190-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -7340,7 +7417,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 28",
-      "speechIndex": 17,
+      "speechIndex": 1017,
       "title": "Automobilindustrie"
     },
     "people": [
@@ -7353,7 +7430,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19190-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19190-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -7367,6 +7444,28 @@
             "sentences": [
               {
                 "text": "Ich rufe den Tagesordnungspunkt 28 auf:"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "Beratung des Antrags der Abgeordneten Michael Theurer, Reinhard Houben, Dr. Marcel Klinge, weiterer Abgeordneter und der Fraktion der FDP",
+            "sentences": [
+              {
+                "text": "Beratung des Antrags der Abgeordneten Michael Theurer, Reinhard Houben, Dr. Marcel Klinge, weiterer Abgeordneter und der Fraktion der FDP"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "Job-Kahlschlag in der Automobilindustrie verhindern, Industriestandort Deutschland zukunftsfit machen",
+            "sentences": [
+              {
+                "text": "Job-Kahlschlag in der Automobilindustrie verhindern, Industriestandort Deutschland zukunftsfit machen"
               }
             ]
           },
@@ -7430,7 +7529,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 28",
-      "speechIndex": 18,
+      "speechIndex": 1018,
       "title": "Automobilindustrie"
     },
     "people": [
@@ -7451,7 +7550,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19190-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19190-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -7863,7 +7962,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 28",
-      "speechIndex": 19,
+      "speechIndex": 1019,
       "title": "Automobilindustrie"
     },
     "people": [
@@ -7884,7 +7983,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19190-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19190-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -8337,7 +8436,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 28",
-      "speechIndex": 20,
+      "speechIndex": 1020,
       "title": "Automobilindustrie"
     },
     "people": [
@@ -8358,7 +8457,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19190-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19190-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -8763,7 +8862,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 28",
-      "speechIndex": 21,
+      "speechIndex": 1021,
       "title": "Automobilindustrie"
     },
     "people": [
@@ -8784,7 +8883,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19190-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19190-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -9202,7 +9301,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 28",
-      "speechIndex": 22,
+      "speechIndex": 1022,
       "title": "Automobilindustrie"
     },
     "people": [
@@ -9231,7 +9330,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19190-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19190-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -9929,7 +10028,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 28",
-      "speechIndex": 23,
+      "speechIndex": 1023,
       "title": "Automobilindustrie"
     },
     "people": [
@@ -9950,7 +10049,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19190-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19190-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -10446,7 +10545,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 28",
-      "speechIndex": 24,
+      "speechIndex": 1024,
       "title": "Automobilindustrie"
     },
     "people": [
@@ -10467,7 +10566,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19190-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19190-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -11009,7 +11108,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 28",
-      "speechIndex": 25,
+      "speechIndex": 1025,
       "title": "Automobilindustrie"
     },
     "people": [
@@ -11030,7 +11129,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19190-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19190-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -11419,7 +11518,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 28",
-      "speechIndex": 26,
+      "speechIndex": 1026,
       "title": "Automobilindustrie"
     },
     "people": [
@@ -11440,7 +11539,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19190-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19190-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -11902,7 +12001,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 28",
-      "speechIndex": 27,
+      "speechIndex": 1027,
       "title": "Automobilindustrie"
     },
     "people": [
@@ -11931,7 +12030,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19190-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19190-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -12508,7 +12607,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 28",
-      "speechIndex": 28,
+      "speechIndex": 1028,
       "title": "Automobilindustrie"
     },
     "people": [
@@ -12537,7 +12636,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19190-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19190-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -13327,7 +13426,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 28",
-      "speechIndex": 29,
+      "speechIndex": 1029,
       "title": "Automobilindustrie"
     },
     "people": [
@@ -13348,7 +13447,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19190-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19190-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -13761,7 +13860,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 28",
-      "speechIndex": 30,
+      "speechIndex": 1030,
       "title": "Automobilindustrie"
     },
     "people": [
@@ -13782,7 +13881,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19190-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19190-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -14147,7 +14246,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 28",
-      "speechIndex": 31,
+      "speechIndex": 1031,
       "title": "Automobilindustrie"
     },
     "people": [
@@ -14160,7 +14259,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19190-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19190-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -14215,7 +14314,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 29",
-      "speechIndex": 32,
+      "speechIndex": 1032,
       "title": "Bericht zur weltweiten Lage der Religionsfreiheit"
     },
     "people": [
@@ -14228,7 +14327,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19190-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19190-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -14242,6 +14341,39 @@
             "sentences": [
               {
                 "text": "Ich rufe den Tagesordnungspunkt 29 auf:"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "Beratung der Unterrichtung durch die Bundesregierung",
+            "sentences": [
+              {
+                "text": "Beratung der Unterrichtung durch die Bundesregierung"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "Zweiter Bericht der Bundesregierung zur weltweiten Lage der Religionsfreiheit",
+            "sentences": [
+              {
+                "text": "Zweiter Bericht der Bundesregierung zur weltweiten Lage der Religionsfreiheit"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "(Berichtszeitraum 2018 bis 2019)",
+            "sentences": [
+              {
+                "text": "(Berichtszeitraum 2018 bis 2019)"
               }
             ]
           },
@@ -14313,7 +14445,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 29",
-      "speechIndex": 33,
+      "speechIndex": 1033,
       "title": "Bericht zur weltweiten Lage der Religionsfreiheit"
     },
     "people": [
@@ -14334,7 +14466,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19190-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19190-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -14752,7 +14884,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 29",
-      "speechIndex": 34,
+      "speechIndex": 1034,
       "title": "Bericht zur weltweiten Lage der Religionsfreiheit"
     },
     "people": [
@@ -14773,7 +14905,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19190-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19190-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -15138,7 +15270,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 29",
-      "speechIndex": 35,
+      "speechIndex": 1035,
       "title": "Bericht zur weltweiten Lage der Religionsfreiheit"
     },
     "people": [
@@ -15159,7 +15291,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19190-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19190-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -15488,7 +15620,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 29",
-      "speechIndex": 36,
+      "speechIndex": 1036,
       "title": "Bericht zur weltweiten Lage der Religionsfreiheit"
     },
     "people": [
@@ -15509,7 +15641,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19190-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19190-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -15886,7 +16018,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 29",
-      "speechIndex": 37,
+      "speechIndex": 1037,
       "title": "Bericht zur weltweiten Lage der Religionsfreiheit"
     },
     "people": [
@@ -15907,7 +16039,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19190-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19190-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -16173,7 +16305,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 29",
-      "speechIndex": 38,
+      "speechIndex": 1038,
       "title": "Bericht zur weltweiten Lage der Religionsfreiheit"
     },
     "people": [
@@ -16194,7 +16326,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19190-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19190-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -16501,7 +16633,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 29",
-      "speechIndex": 39,
+      "speechIndex": 1039,
       "title": "Bericht zur weltweiten Lage der Religionsfreiheit"
     },
     "people": [
@@ -16522,7 +16654,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19190-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19190-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -16830,7 +16962,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 29",
-      "speechIndex": 40,
+      "speechIndex": 1040,
       "title": "Bericht zur weltweiten Lage der Religionsfreiheit"
     },
     "people": [
@@ -16851,7 +16983,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19190-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19190-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -17188,7 +17320,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 29",
-      "speechIndex": 41,
+      "speechIndex": 1041,
       "title": "Bericht zur weltweiten Lage der Religionsfreiheit"
     },
     "people": [
@@ -17209,7 +17341,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19190-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19190-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -17448,7 +17580,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 29",
-      "speechIndex": 42,
+      "speechIndex": 1042,
       "title": "Bericht zur weltweiten Lage der Religionsfreiheit"
     },
     "people": [
@@ -17461,7 +17593,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19190-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19190-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -17519,7 +17651,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 30",
-      "speechIndex": 43,
+      "speechIndex": 1043,
       "title": "Lage der älteren Generation - Digitalisierung"
     },
     "people": [
@@ -17532,7 +17664,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19190-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19190-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -17546,6 +17678,83 @@
             "sentences": [
               {
                 "text": "Ich rufe die Tagesordnungspunkte 30 a und 30 b auf:"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "a) Beratung der Unterrichtung durch die Bundesregierung",
+            "sentences": [
+              {
+                "text": "a) Beratung der Unterrichtung durch die Bundesregierung"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "Achter Bericht zur Lage der älteren Generation in der Bundesrepublik Deutschland",
+            "sentences": [
+              {
+                "text": "Achter Bericht zur Lage der älteren Generation in der Bundesrepublik Deutschland"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "Ältere Menschen und Digitalisierung",
+            "sentences": [
+              {
+                "text": "Ältere Menschen und Digitalisierung"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "und",
+            "sentences": [
+              {
+                "text": "und"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "Stellungnahme der Bundesregierung",
+            "sentences": [
+              {
+                "text": "Stellungnahme der Bundesregierung"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "b) Beratung der Beschlussempfehlung und des Berichts des Ausschusses für Familie, Senioren, Frauen und Jugend (13. Ausschuss) zu dem Antrag der Abgeordneten Otto Fricke, Grigorios Aggelidis, Dr. Andrew Ullmann, weiterer Abgeordneter und der Fraktion der FDP",
+            "sentences": [
+              {
+                "text": "b) Beratung der Beschlussempfehlung und des Berichts des Ausschusses für Familie, Senioren, Frauen und Jugend (13. Ausschuss) zu dem Antrag der Abgeordneten Otto Fricke, Grigorios Aggelidis, Dr. Andrew Ullmann, weiterer Abgeordneter und der Fraktion der FDP"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "Videotelefonie allen Bewohnern in Alten- und Pflegeheimen zugänglich machen",
+            "sentences": [
+              {
+                "text": "Videotelefonie allen Bewohnern in Alten- und Pflegeheimen zugänglich machen"
               }
             ]
           },
@@ -17622,7 +17831,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 30",
-      "speechIndex": 44,
+      "speechIndex": 1044,
       "title": "Lage der älteren Generation - Digitalisierung"
     },
     "people": [
@@ -17643,7 +17852,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19190-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19190-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -17940,7 +18149,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 30",
-      "speechIndex": 45,
+      "speechIndex": 1045,
       "title": "Lage der älteren Generation - Digitalisierung"
     },
     "people": [
@@ -17961,7 +18170,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19190-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19190-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -18264,7 +18473,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 30",
-      "speechIndex": 46,
+      "speechIndex": 1046,
       "title": "Lage der älteren Generation - Digitalisierung"
     },
     "people": [
@@ -18285,7 +18494,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19190-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19190-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -18631,7 +18840,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 30",
-      "speechIndex": 47,
+      "speechIndex": 1047,
       "title": "Lage der älteren Generation - Digitalisierung"
     },
     "people": [
@@ -18652,7 +18861,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19190-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19190-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -18938,7 +19147,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 30",
-      "speechIndex": 48,
+      "speechIndex": 1048,
       "title": "Lage der älteren Generation - Digitalisierung"
     },
     "people": [
@@ -18959,7 +19168,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19190-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19190-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -19252,7 +19461,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 30",
-      "speechIndex": 49,
+      "speechIndex": 1049,
       "title": "Lage der älteren Generation - Digitalisierung"
     },
     "people": [
@@ -19273,7 +19482,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19190-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19190-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -19551,7 +19760,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 30",
-      "speechIndex": 50,
+      "speechIndex": 1050,
       "title": "Lage der älteren Generation - Digitalisierung"
     },
     "people": [
@@ -19572,7 +19781,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19190-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19190-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -19920,7 +20129,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 30",
-      "speechIndex": 51,
+      "speechIndex": 1051,
       "title": "Lage der älteren Generation - Digitalisierung"
     },
     "people": [
@@ -19941,7 +20150,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19190-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19190-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -20284,7 +20493,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 30",
-      "speechIndex": 52,
+      "speechIndex": 1052,
       "title": "Lage der älteren Generation - Digitalisierung"
     },
     "people": [
@@ -20305,7 +20514,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19190-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19190-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -20767,7 +20976,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 30",
-      "speechIndex": 53,
+      "speechIndex": 1053,
       "title": "Lage der älteren Generation - Digitalisierung"
     },
     "people": [
@@ -20780,7 +20989,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19190-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19190-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -21424,7 +21633,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 34",
-      "speechIndex": 70,
+      "speechIndex": 1070,
       "title": "Vertrag über den Offenen Himmel"
     },
     "people": [
@@ -21437,7 +21646,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19190-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19190-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -21451,6 +21660,72 @@
             "sentences": [
               {
                 "text": "Ich rufe die Tagesordnungspunkte 34 a bis 34 c auf:"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Kubicki",
+            "speakerstatus": "vice-president",
+            "text": "a) Beratung des Antrags der Fraktionen der CDU/CSU und SPD",
+            "sentences": [
+              {
+                "text": "a) Beratung des Antrags der Fraktionen der CDU/CSU und SPD"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Kubicki",
+            "speakerstatus": "vice-president",
+            "text": "Für den Erhalt des Vertrags über den Offenen Himmel eintreten",
+            "sentences": [
+              {
+                "text": "Für den Erhalt des Vertrags über den Offenen Himmel eintreten"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Kubicki",
+            "speakerstatus": "vice-president",
+            "text": "b) Beratung der Beschlussempfehlung und des Berichts des Auswärtigen Ausschusses (3. Ausschuss) zu dem Antrag der Abgeordneten Matthias Höhn, Dr. Gregor Gysi, Heike Hänsel, weiterer Abgeordneter und der Fraktion DIE LINKE",
+            "sentences": [
+              {
+                "text": "b) Beratung der Beschlussempfehlung und des Berichts des Auswärtigen Ausschusses (3. Ausschuss) zu dem Antrag der Abgeordneten Matthias Höhn, Dr. Gregor Gysi, Heike Hänsel, weiterer Abgeordneter und der Fraktion DIE LINKE"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Kubicki",
+            "speakerstatus": "vice-president",
+            "text": "Militärische Beobachtungsflüge fortsetzen – Vertrag über den Offenen Himmel retten – Austritt der USA verhindern",
+            "sentences": [
+              {
+                "text": "Militärische Beobachtungsflüge fortsetzen – Vertrag über den Offenen Himmel retten – Austritt der USA verhindern"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Kubicki",
+            "speakerstatus": "vice-president",
+            "text": "c) Beratung der Beschlussempfehlung und des Berichts des Auswärtigen Ausschusses (3. Ausschuss) zu dem Antrag der Abgeordneten Katja Keul, Margarete Bause, Dr. Franziska Brantner, weiterer Abgeordneter und der Fraktion BÜNDNIS 90/DIE GRÜNEN",
+            "sentences": [
+              {
+                "text": "c) Beratung der Beschlussempfehlung und des Berichts des Auswärtigen Ausschusses (3. Ausschuss) zu dem Antrag der Abgeordneten Katja Keul, Margarete Bause, Dr. Franziska Brantner, weiterer Abgeordneter und der Fraktion BÜNDNIS 90/DIE GRÜNEN"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Kubicki",
+            "speakerstatus": "vice-president",
+            "text": "Vertrag über den Offenen Himmel aufrechterhalten",
+            "sentences": [
+              {
+                "text": "Vertrag über den Offenen Himmel aufrechterhalten"
               }
             ]
           },
@@ -21534,7 +21809,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 34",
-      "speechIndex": 71,
+      "speechIndex": 1071,
       "title": "Vertrag über den Offenen Himmel"
     },
     "people": [
@@ -21555,7 +21830,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19190-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19190-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -21893,7 +22168,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 34",
-      "speechIndex": 72,
+      "speechIndex": 1072,
       "title": "Vertrag über den Offenen Himmel"
     },
     "people": [
@@ -21914,7 +22189,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19190-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19190-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -22178,7 +22453,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 34",
-      "speechIndex": 73,
+      "speechIndex": 1073,
       "title": "Vertrag über den Offenen Himmel"
     },
     "people": [
@@ -22199,7 +22474,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19190-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19190-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -22513,7 +22788,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 34",
-      "speechIndex": 74,
+      "speechIndex": 1074,
       "title": "Vertrag über den Offenen Himmel"
     },
     "people": [
@@ -22534,7 +22809,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19190-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19190-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -22847,7 +23122,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 34",
-      "speechIndex": 75,
+      "speechIndex": 1075,
       "title": "Vertrag über den Offenen Himmel"
     },
     "people": [
@@ -22868,7 +23143,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19190-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19190-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -23157,7 +23432,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 34",
-      "speechIndex": 76,
+      "speechIndex": 1076,
       "title": "Vertrag über den Offenen Himmel"
     },
     "people": [
@@ -23178,7 +23453,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19190-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19190-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -23504,7 +23779,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 34",
-      "speechIndex": 77,
+      "speechIndex": 1077,
       "title": "Vertrag über den Offenen Himmel"
     },
     "people": [
@@ -23525,7 +23800,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19190-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19190-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -23747,7 +24022,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 34",
-      "speechIndex": 78,
+      "speechIndex": 1078,
       "title": "Vertrag über den Offenen Himmel"
     },
     "people": [
@@ -23768,7 +24043,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19190-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19190-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -23994,7 +24269,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 34",
-      "speechIndex": 79,
+      "speechIndex": 1079,
       "title": "Vertrag über den Offenen Himmel"
     },
     "people": [
@@ -24007,7 +24282,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19190-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19190-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",

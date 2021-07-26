@@ -11,7 +11,7 @@
     },
     "agendaItem": {
       "officialTitle": "Sitzungseröffnung",
-      "speechIndex": 0,
+      "speechIndex": 1000,
       "title": "Sitzungseröffnung"
     },
     "people": [
@@ -24,7 +24,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19013-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19013-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -87,7 +87,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 2,
+      "speechIndex": 1002,
       "title": "Befragung der Bundesregierung"
     },
     "people": [
@@ -100,12 +100,23 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19013-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19013-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
         "originTextID": "",
         "textBody": [
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "Befr agung der Bundesregierung",
+            "sentences": [
+              {
+                "text": "Befr agung der Bundesregierung"
+              }
+            ]
+          },
           {
             "type": "speech",
             "speaker": "Wolfgang Schäuble",
@@ -160,7 +171,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 3,
+      "speechIndex": 1003,
       "title": "Befragung der Bundesregierung"
     },
     "people": [
@@ -181,7 +192,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19013-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19013-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -371,7 +382,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 5,
+      "speechIndex": 1005,
       "title": "Befragung der Bundesregierung"
     },
     "people": [
@@ -392,7 +403,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19013-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19013-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -472,7 +483,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 7,
+      "speechIndex": 1007,
       "title": "Befragung der Bundesregierung"
     },
     "people": [
@@ -493,7 +504,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19013-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19013-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -615,7 +626,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 51,
+      "speechIndex": 1051,
       "title": "Befragung der Bundesregierung"
     },
     "people": [
@@ -636,7 +647,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19013-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19013-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -725,7 +736,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 53,
+      "speechIndex": 1053,
       "title": "Befragung der Bundesregierung"
     },
     "people": [
@@ -746,7 +757,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19013-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19013-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -821,7 +832,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 9,
+      "speechIndex": 1009,
       "title": "Befragung der Bundesregierung"
     },
     "people": [
@@ -842,7 +853,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19013-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19013-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -987,7 +998,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 57,
+      "speechIndex": 1057,
       "title": "Befragung der Bundesregierung"
     },
     "people": [
@@ -1008,7 +1019,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19013-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19013-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -1074,7 +1085,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 11,
+      "speechIndex": 1011,
       "title": "Befragung der Bundesregierung"
     },
     "people": [
@@ -1095,7 +1106,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19013-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19013-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -1195,7 +1206,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 13,
+      "speechIndex": 1013,
       "title": "Befragung der Bundesregierung"
     },
     "people": [
@@ -1216,7 +1227,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19013-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19013-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -1288,80 +1299,16 @@
   {
     "parliament": "DE",
     "electoralPeriod": {
-      "number": "19"
+      "number": 19
     },
     "session": {
-      "number": "13",
-      "dateStart": "2018-02-21T13:00",
-      "dateEnd": "2018-02-21T16:46"
+      "number": 13
     },
     "agendaItem": {
+      "title": "Befragung der Bundesregierung",
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 63,
-      "title": "Befragung der Bundesregierung"
+      "speechIndex": 12
     },
-    "people": [
-      {
-        "type": "memberOfParliament",
-        "label": "Maria Böhmer",
-        "firstname": "Maria",
-        "lastname": "Böhmer",
-        "context": "main-speaker",
-        "faction": ""
-      },
-      {
-        "type": "memberOfParliament",
-        "label": "Petra Pau",
-        "context": "vice-president"
-      }
-    ],
-    "textContents": [
-      {
-        "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19013-data.xml",
-        "creator": "Deutscher Bundestag",
-        "license": "Public Domain",
-        "language": "DE-de",
-        "originTextID": "",
-        "textBody": [
-          {
-            "type": "speech",
-            "speaker": "Maria Böhmer",
-            "speakerstatus": "main-speaker",
-            "text": "Wir sehen mit großer Sorge die Eskalierung in der Region Afrin. Wir haben mit aller Deutlichkeit an die beteiligten Gruppen appelliert, dass die Auseinandersetzungen ein Ende finden müssen. Sie wissen, es geht dabei nicht nur um eine Deeskalierung, sondern auch darum, dass der Schutz der Zivilbevölkerung und der Zugang zu humanitären Leistungen gewährleistet sein müssen. Das, was sich in dieser Region abspielt, ist Anlass zu allergrößter Sorge.",
-            "sentences": [
-              {
-                "text": "Wir sehen mit großer Sorge die Eskalierung in der Region Afrin."
-              },
-              {
-                "text": "Wir haben mit aller Deutlichkeit an die beteiligten Gruppen appelliert, dass die Auseinandersetzungen ein Ende finden müssen."
-              },
-              {
-                "text": "Sie wissen, es geht dabei nicht nur um eine Deeskalierung, sondern auch darum, dass der Schutz der Zivilbevölkerung und der Zugang zu humanitären Leistungen gewährleistet sein müssen."
-              },
-              {
-                "text": "Das, was sich in dieser Region abspielt, ist Anlass zu allergrößter Sorge."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Danke, Frau Staatsministerin, danke, Herr Minister und auch Herr Staatssekretär für die Antworten.",
-            "sentences": [
-              {
-                "text": "Danke, Frau Staatsministerin, danke, Herr Minister und auch Herr Staatssekretär für die Antworten."
-              }
-            ]
-          }
-        ]
-      }
-    ],
-    "documents": [],
-    "key": "19-13 tagesordnungspunkt 1 (maria bohmer)",
-    "dateStart": "2018-02-21T13:08:28",
-    "dateEnd": "2018-02-21T13:09:56",
     "media": {
       "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7202667/7202667_h264_720_400_2000kb_baseline_de_2192.mp4",
       "sourcePage": "http://dbtg.tv/fvid/7202667",
@@ -1370,7 +1317,18 @@
       "license": "CC-BY-SA",
       "originMediaID": "7202667",
       "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7202667/7202667_mp3_128kb_stereo_de_128.mp3"
-    }
+    },
+    "dateStart": "2018-02-21T13:08:28",
+    "dateEnd": "2018-02-21T13:09:56",
+    "people": [
+      {
+        "label": "Maria Böhmer",
+        "faction": "",
+        "context": "main-speaker",
+        "role": "Staatsministerin im Auswärtigen Amt"
+      }
+    ],
+    "key": "19-13 tagesordnungspunkt 1 (maria bohmer)"
   },
   {
     "parliament": "DE",
@@ -1384,7 +1342,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 2",
-      "speechIndex": 64,
+      "speechIndex": 1065,
       "title": "Fragestunde"
     },
     "people": [
@@ -1597,12 +1555,23 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19013-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19013-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
         "originTextID": "",
         "textBody": [
+          {
+            "type": "speech",
+            "speaker": "Petra Pau",
+            "speakerstatus": "vice-president",
+            "text": "Fragestunde",
+            "sentences": [
+              {
+                "text": "Fragestunde"
+              }
+            ]
+          },
           {
             "type": "speech",
             "speaker": "Petra Pau",
@@ -6615,7 +6584,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 2",
-      "speechIndex": 65,
+      "speechIndex": 1066,
       "title": "Fragestunde"
     },
     "people": [
@@ -6727,113 +6696,28 @@
         "lastname": "Ostendorff",
         "context": "speaker",
         "faction": "BÜNDNIS 90/DIE GRÜNEN"
-      },
-      {
-        "type": "memberOfParliament",
-        "label": "Steffi Lemke",
-        "firstname": "Steffi",
-        "lastname": "Lemke",
-        "context": "speaker",
-        "faction": "BÜNDNIS 90/DIE GRÜNEN"
-      },
-      {
-        "type": "memberOfParliament",
-        "label": "Ralf Brauksiepe",
-        "firstname": "Ralf",
-        "lastname": "Brauksiepe",
-        "context": "speaker",
-        "faction": ""
-      },
-      {
-        "type": "memberOfParliament",
-        "label": "Katja Keul",
-        "firstname": "Katja",
-        "lastname": "Keul",
-        "context": "speaker",
-        "faction": "BÜNDNIS 90/DIE GRÜNEN"
-      },
-      {
-        "type": "memberOfParliament",
-        "label": "Manuela Rottmann",
-        "firstname": "Manuela",
-        "lastname": "Rottmann",
-        "context": "speaker",
-        "faction": "BÜNDNIS 90/DIE GRÜNEN"
-      },
-      {
-        "type": "memberOfParliament",
-        "label": "Rita Schwarzelühr-Sutter",
-        "firstname": "Rita",
-        "lastname": "Schwarzelühr-Sutter",
-        "context": "speaker",
-        "faction": ""
-      },
-      {
-        "type": "memberOfParliament",
-        "label": "Thomas Silberhorn",
-        "firstname": "Thomas",
-        "lastname": "Silberhorn",
-        "context": "speaker",
-        "faction": ""
-      },
-      {
-        "type": "memberOfParliament",
-        "label": "Uwe Kekeritz",
-        "firstname": "Uwe",
-        "lastname": "Kekeritz",
-        "context": "speaker",
-        "faction": "BÜNDNIS 90/DIE GRÜNEN"
-      },
-      {
-        "type": "memberOfParliament",
-        "label": "Klaus-Dieter Fritsche",
-        "firstname": "Klaus-Dieter",
-        "lastname": "Fritsche",
-        "context": "speaker",
-        "faction": ""
-      },
-      {
-        "type": "memberOfParliament",
-        "label": "Martina Renner",
-        "firstname": "Martina",
-        "lastname": "Renner",
-        "context": "speaker",
-        "faction": "DIE LINKE"
-      },
-      {
-        "type": "memberOfParliament",
-        "label": "Maria Böhmer",
-        "firstname": "Maria",
-        "lastname": "Böhmer",
-        "context": "speaker",
-        "faction": ""
-      },
-      {
-        "type": "memberOfParliament",
-        "label": "Anton Friesen",
-        "firstname": "Anton",
-        "lastname": "Friesen",
-        "context": "speaker",
-        "faction": "AfD"
-      },
-      {
-        "type": "memberOfParliament",
-        "label": "Renata Alt",
-        "firstname": "Renata",
-        "lastname": "Alt",
-        "context": "speaker",
-        "faction": "FDP"
       }
     ],
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19013-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19013-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
         "originTextID": "",
         "textBody": [
+          {
+            "type": "speech",
+            "speaker": "Petra Pau",
+            "speakerstatus": "vice-president",
+            "text": "Fragestunde",
+            "sentences": [
+              {
+                "text": "Fragestunde"
+              }
+            ]
+          },
           {
             "type": "speech",
             "speaker": "Petra Pau",
@@ -9506,1698 +9390,6 @@
                 "text": "Ich rufe die Frage 20 der Abgeordneten Steffi Lemke, Fraktion Bündnis 90/Die Grünen, auf:"
               }
             ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Bitte, Frau Staatssekretärin.",
-            "sentences": [
-              {
-                "text": "Bitte, Frau Staatssekretärin."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Maria Flachsbarth",
-            "speakerstatus": "speaker",
-            "text": "Frau Kollegin Lemke, die Meldung des WDR steht im Zusammenhang mit einer aktuellen Publikation des Chemischen und Veterinäruntersuchungsamts Münsterland-Emscher-Lippe in Kooperation mit der Westfälischen Wilhelms-Universität Münster. 34 Mineralwässer wurden auf Mikroplastik untersucht: 10 in Einwegflaschen, 9 in Glasflaschen und 3 in Kartons. In allen untersuchten Mineralwasserproben wurden Mikroplastikpartikel nachgewiesen. Dabei blieb aber unklar, woher diese stammen. Statistisch relevante Gehalte an Mikroplastik, über die Hintergrundbelastung hinaus, konnten nur in Mehrwegplastikflaschen nachgewiesen werden. Dies kann darauf hinweisen, dass ein möglicher höherer Eintrag von Partikeln in Mineralwasser im Prozess der Mehrwegnutzung erfolgen kann. Bei Mineralwässern aus Plastikflaschen – Ein- und Mehrweg – konnte gezeigt werden, dass die Partikel überwiegend aus solchen Kunststoffen bestehen, aus denen Plastikflaschen und Schraubverschlüsse hergestellt wurden. Dies könnte ein Hinweis darauf sein, dass diese Partikel prozessbedingt eingetragen werden. Dazu sind allerdings weitere Untersuchungen notwendig.",
-            "sentences": [
-              {
-                "text": "Frau Kollegin Lemke, die Meldung des WDR steht im Zusammenhang mit einer aktuellen Publikation des Chemischen und Veterinäruntersuchungsamts Münsterland-Emscher-Lippe in Kooperation mit der Westfälischen Wilhelms-Universität Münster."
-              },
-              {
-                "text": "34 Mineralwässer wurden auf Mikroplastik untersucht: 10 in Einwegflaschen, 9 in Glasflaschen und 3 in Kartons."
-              },
-              {
-                "text": "In allen untersuchten Mineralwasserproben wurden Mikroplastikpartikel nachgewiesen."
-              },
-              {
-                "text": "Dabei blieb aber unklar, woher diese stammen."
-              },
-              {
-                "text": "Statistisch relevante Gehalte an Mikroplastik, über die Hintergrundbelastung hinaus, konnten nur in Mehrwegplastikflaschen nachgewiesen werden."
-              },
-              {
-                "text": "Dies kann darauf hinweisen, dass ein möglicher höherer Eintrag von Partikeln in Mineralwasser im Prozess der Mehrwegnutzung erfolgen kann."
-              },
-              {
-                "text": "Bei Mineralwässern aus Plastikflaschen – Ein- und Mehrweg – konnte gezeigt werden, dass die Partikel überwiegend aus solchen Kunststoffen bestehen, aus denen Plastikflaschen und Schraubverschlüsse hergestellt wurden."
-              },
-              {
-                "text": "Dies könnte ein Hinweis darauf sein, dass diese Partikel prozessbedingt eingetragen werden."
-              },
-              {
-                "text": "Dazu sind allerdings weitere Untersuchungen notwendig."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Sie haben das Wort zur ersten Nachfrage.",
-            "sentences": [
-              {
-                "text": "Sie haben das Wort zur ersten Nachfrage."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Steffi Lemke",
-            "speakerstatus": "speaker",
-            "text": "Zunächst vielen Dank für die ausführliche Antwort und die Darstellung der Fakten. – Meine Frage bezog sich auch darauf, ob Sie gesundheitliche Gefahren für die Konsumenten dieses Mineralwassers sehen. Ich finde es schon bedenklich, wenn pro Liter durchschnittlich 120 Mikroplastikpartikel gefunden wurden – und das in jeder Probe. Das heißt: Es gab keine Probe, die frei von Mikroplastikpartikeln gewesen ist. Wir reden über Partikel in einer Größe, die in der Lage sind, die Darmwände zu durchdringen, das heißt in den menschlichen Körper hineinzuwandern. Deshalb schloss ich die Frage an, ob Sie gesundheitliche Risiken sehen.",
-            "sentences": [
-              {
-                "text": "Zunächst vielen Dank für die ausführliche Antwort und die Darstellung der Fakten."
-              },
-              {
-                "text": "– Meine Frage bezog sich auch darauf, ob Sie gesundheitliche Gefahren für die Konsumenten dieses Mineralwassers sehen."
-              },
-              {
-                "text": "Ich finde es schon bedenklich, wenn pro Liter durchschnittlich 120 Mikroplastikpartikel gefunden wurden – und das in jeder Probe."
-              },
-              {
-                "text": "Das heißt: Es gab keine Probe, die frei von Mikroplastikpartikeln gewesen ist."
-              },
-              {
-                "text": "Wir reden über Partikel in einer Größe, die in der Lage sind, die Darmwände zu durchdringen, das heißt in den menschlichen Körper hineinzuwandern."
-              },
-              {
-                "text": "Deshalb schloss ich die Frage an, ob Sie gesundheitliche Risiken sehen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Maria Flachsbarth",
-            "speakerstatus": "speaker",
-            "text": "Frau Kollegin Lemke, diesbezüglich sind wir noch zu keiner definitiven und endgültigen Aussage in der Lage. Zu den eventuellen gesundheitlichen Risiken verweisen wir derzeit auf die Stellungnahme der Europäischen Behörde für Lebensmittelsicherheit, der EFSA, aus dem Jahr 2016: „Presence of microplastics and nanoplastics in food, with particular focus on seafood“. Darin kam die EFSA zu dem Schluss, dass eine verlässliche Risikobewertung aufgrund der unzureichenden Datenlage und fehlender analytischer Verfahren bislang noch nicht möglich ist. Weitere Forschung zur Toxikokinetik und Toxizität von oral aufgenommenen Mikroplastikpartikeln wurde empfohlen. Deshalb hat die Bundesregierung das Bundesinstitut für Risikobewertung gebeten, hierzu verschiedene Projekte zu initiieren. Das ist erfolgt.",
-            "sentences": [
-              {
-                "text": "Frau Kollegin Lemke, diesbezüglich sind wir noch zu keiner definitiven und endgültigen Aussage in der Lage."
-              },
-              {
-                "text": "Zu den eventuellen gesundheitlichen Risiken verweisen wir derzeit auf die Stellungnahme der Europäischen Behörde für Lebensmittelsicherheit, der EFSA, aus dem Jahr 2016: „Presence of microplastics and nanoplastics in food, with particular focus on seafood“."
-              },
-              {
-                "text": "Darin kam die EFSA zu dem Schluss, dass eine verlässliche Risikobewertung aufgrund der unzureichenden Datenlage und fehlender analytischer Verfahren bislang noch nicht möglich ist."
-              },
-              {
-                "text": "Weitere Forschung zur Toxikokinetik und Toxizität von oral aufgenommenen Mikroplastikpartikeln wurde empfohlen."
-              },
-              {
-                "text": "Deshalb hat die Bundesregierung das Bundesinstitut für Risikobewertung gebeten, hierzu verschiedene Projekte zu initiieren."
-              },
-              {
-                "text": "Das ist erfolgt."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Die zweite Nachfrage.",
-            "sentences": [
-              {
-                "text": "Die zweite Nachfrage."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Steffi Lemke",
-            "speakerstatus": "speaker",
-            "text": "Frau Staatssekretärin, ich wäre Ihnen sehr dankbar, wenn Sie schriftlich nachreichen könnten, was konkret von Ihnen initiiert worden ist. Dass die EFSA aussagt, sie könne gegenwärtig noch keine Bewertung vornehmen, beruhigt mich nicht, sondern beunruhigt mich zusätzlich, muss ich sagen. Das verstärkt die Vermutung, dass es Gesundheitsrisiken geben könnte. Wir wissen, dass sich Giftstoffe an Mikroplastikpartikeln anlagern, das heißt, möglicherweise diese Giftstoffe mit dem Trägermaterial Mikroplastik durch die Darmwände in den Körper eindringen könnten. Ich halte es für dringend geboten, in eigener Regie der Bundesregierung die Forschungen zu verstärken.",
-            "sentences": [
-              {
-                "text": "Frau Staatssekretärin, ich wäre Ihnen sehr dankbar, wenn Sie schriftlich nachreichen könnten, was konkret von Ihnen initiiert worden ist."
-              },
-              {
-                "text": "Dass die EFSA aussagt, sie könne gegenwärtig noch keine Bewertung vornehmen, beruhigt mich nicht, sondern beunruhigt mich zusätzlich, muss ich sagen."
-              },
-              {
-                "text": "Das verstärkt die Vermutung, dass es Gesundheitsrisiken geben könnte."
-              },
-              {
-                "text": "Wir wissen, dass sich Giftstoffe an Mikroplastikpartikeln anlagern, das heißt, möglicherweise diese Giftstoffe mit dem Trägermaterial Mikroplastik durch die Darmwände in den Körper eindringen könnten."
-              },
-              {
-                "text": "Ich halte es für dringend geboten, in eigener Regie der Bundesregierung die Forschungen zu verstärken."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Steffi Lemke",
-            "speakerstatus": "speaker",
-            "text": "Ich möchte Sie abschließend bitten, zusätzliche Aussagen zu der Frage der Nanopartikel zu treffen, von denen Forscher ja vermuten, dass sie noch deutlich gefährlicher sind. Aber die Nachweismethodik, die zur Verfügung steht, reicht nicht aus. Mich würde interessieren, ob es seitens der Bundesregierung eigene Anstrengungen gibt, um die Messmethoden, die Analysetechnik für Nanopartikel aus Plastik zu verbessern, um auch hier Risiken rechtzeitig erkennen und hoffentlich verhindern zu können.",
-            "sentences": [
-              {
-                "text": "Ich möchte Sie abschließend bitten, zusätzliche Aussagen zu der Frage der Nanopartikel zu treffen, von denen Forscher ja vermuten, dass sie noch deutlich gefährlicher sind."
-              },
-              {
-                "text": "Aber die Nachweismethodik, die zur Verfügung steht, reicht nicht aus."
-              },
-              {
-                "text": "Mich würde interessieren, ob es seitens der Bundesregierung eigene Anstrengungen gibt, um die Messmethoden, die Analysetechnik für Nanopartikel aus Plastik zu verbessern, um auch hier Risiken rechtzeitig erkennen und hoffentlich verhindern zu können."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Maria Flachsbarth",
-            "speakerstatus": "speaker",
-            "text": "Sehr geehrte Frau Kollegin Lemke, Ihre Besorgnis kann ich nachvollziehen. Eben deshalb haben wir das BfR gebeten, in diesem Bereich initiativ zu werden. Ich werde Ihnen selbstverständlich eine Übersicht über die bislang initiierten Projekte nachreichen. Für den Umgang mit Nanopartikeln insgesamt hat die Bundesregierung eine eigene Strategie aufgelegt. Sehr gerne werde ich im Detail auch darüber schriftlich informieren.",
-            "sentences": [
-              {
-                "text": "Sehr geehrte Frau Kollegin Lemke, Ihre Besorgnis kann ich nachvollziehen."
-              },
-              {
-                "text": "Eben deshalb haben wir das BfR gebeten, in diesem Bereich initiativ zu werden."
-              },
-              {
-                "text": "Ich werde Ihnen selbstverständlich eine Übersicht über die bislang initiierten Projekte nachreichen."
-              },
-              {
-                "text": "Für den Umgang mit Nanopartikeln insgesamt hat die Bundesregierung eine eigene Strategie aufgelegt."
-              },
-              {
-                "text": "Sehr gerne werde ich im Detail auch darüber schriftlich informieren."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Danke, Frau Staatssekretärin. – Wir sind damit schon am Ende Ihres Geschäftsbereichs.",
-            "sentences": [
-              {
-                "text": "Danke, Frau Staatssekretärin."
-              },
-              {
-                "text": "– Wir sind damit schon am Ende Ihres Geschäftsbereichs."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Ich rufe den Geschäftsbereich des Bundesministeriums der Verteidigung auf. Zur Beantwortung steht der Parlamentarische Staatssekretär Dr. Ralf Brauksiepe zur Verfügung.",
-            "sentences": [
-              {
-                "text": "Ich rufe den Geschäftsbereich des Bundesministeriums der Verteidigung auf."
-              },
-              {
-                "text": "Zur Beantwortung steht der Parlamentarische Staatssekretär Dr. Ralf Brauksiepe zur Verfügung."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Ich rufe die Frage 21 der Abgeordneten Katja Keul, Bündnis 90/Die Grünen, auf:",
-            "sentences": [
-              {
-                "text": "Ich rufe die Frage 21 der Abgeordneten Katja Keul, Bündnis 90/Die Grünen, auf:"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Bitte, Herr Staatssekretär.",
-            "sentences": [
-              {
-                "text": "Bitte, Herr Staatssekretär."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Ralf Brauksiepe",
-            "speakerstatus": "speaker",
-            "text": "Vielen Dank, Frau Präsidentin. – Frau Kollegin Keul, ich antworte Ihnen wie folgt: Die Abnahme der Anzahl der instandgesetzten Fahrzeuge in den drei HIL-Werken ist im Wesentlichen auf einen tendenziell erhöhten Instandsetzungsaufwand bei den Landsystemen zurückzuführen. Dieser hängt mit einer gestiegenen Nutzung der Fahrzeuge infolge des deutlich erhöhten Ausbildungs- und Übungsbetriebes in der Bundeswehr, unter anderem aufgrund von NATO-Verpflichtungen, zusammen. Dies führt zu einer erhöhten Abnutzung und einem steigenden Instandsetzungsaufwand pro Fahrzeug.",
-            "sentences": [
-              {
-                "text": "Vielen Dank, Frau Präsidentin."
-              },
-              {
-                "text": "– Frau Kollegin Keul, ich antworte Ihnen wie folgt: Die Abnahme der Anzahl der instandgesetzten Fahrzeuge in den drei HIL-Werken ist im Wesentlichen auf einen tendenziell erhöhten Instandsetzungsaufwand bei den Landsystemen zurückzuführen."
-              },
-              {
-                "text": "Dieser hängt mit einer gestiegenen Nutzung der Fahrzeuge infolge des deutlich erhöhten Ausbildungs- und Übungsbetriebes in der Bundeswehr, unter anderem aufgrund von NATO-Verpflichtungen, zusammen."
-              },
-              {
-                "text": "Dies führt zu einer erhöhten Abnutzung und einem steigenden Instandsetzungsaufwand pro Fahrzeug."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Ralf Brauksiepe",
-            "speakerstatus": "speaker",
-            "text": "Zudem wird in großer Stückzahl Gerät genutzt, das sich bereits sehr lange im Verfügungsbestand der Bundeswehr befindet und daher einem steigenden Instandsetzungsbedarf unterliegt. So ist zum Beispiel der durchschnittliche Instandhaltungsbedarf des Kampfpanzers Leopard 2 seit dem Jahr 2016 aufgrund einer angepassten Weisungslage von circa 1 800 Stunden auf circa 2 000 Stunden und damit um mehr als 10 Prozent gestiegen.",
-            "sentences": [
-              {
-                "text": "Zudem wird in großer Stückzahl Gerät genutzt, das sich bereits sehr lange im Verfügungsbestand der Bundeswehr befindet und daher einem steigenden Instandsetzungsbedarf unterliegt."
-              },
-              {
-                "text": "So ist zum Beispiel der durchschnittliche Instandhaltungsbedarf des Kampfpanzers Leopard 2 seit dem Jahr 2016 aufgrund einer angepassten Weisungslage von circa 1 800 Stunden auf circa 2 000 Stunden und damit um mehr als 10 Prozent gestiegen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Ralf Brauksiepe",
-            "speakerstatus": "speaker",
-            "text": "Hinsichtlich der Frage, wie viel Personal in den Jahren 2016 und 2017 abgebaut wurde, ist festzustellen, dass sich der Personalkörper in den drei HIL-Werken im erfragten Zeitraum von insgesamt 866 um 14 Personen auf 852 verringert hat, was einer Reduzierung von circa 1,6 Prozent entspricht. Damit stehen in den Werken geringfügig weniger Instandsetzungsstunden zur Verfügung.",
-            "sentences": [
-              {
-                "text": "Hinsichtlich der Frage, wie viel Personal in den Jahren 2016 und 2017 abgebaut wurde, ist festzustellen, dass sich der Personalkörper in den drei HIL-Werken im erfragten Zeitraum von insgesamt 866 um 14 Personen auf 852 verringert hat, was einer Reduzierung von circa 1,6 Prozent entspricht."
-              },
-              {
-                "text": "Damit stehen in den Werken geringfügig weniger Instandsetzungsstunden zur Verfügung."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Ralf Brauksiepe",
-            "speakerstatus": "speaker",
-            "text": "Die Werksinstandsetzung der Fahrzeuge, die nicht durch die HIL-Werke erfolgt, wird gemäß dem Geschäftsmodell der HIL GmbH durch diese bei der wehrtechnischen Industrie beauftragt. Der Instandhaltungsanteil der wehrtechnischen Industrie betrug in den beiden Vorjahren 70 Prozent bis 75 Prozent.",
-            "sentences": [
-              {
-                "text": "Die Werksinstandsetzung der Fahrzeuge, die nicht durch die HIL-Werke erfolgt, wird gemäß dem Geschäftsmodell der HIL GmbH durch diese bei der wehrtechnischen Industrie beauftragt."
-              },
-              {
-                "text": "Der Instandhaltungsanteil der wehrtechnischen Industrie betrug in den beiden Vorjahren 70 Prozent bis 75 Prozent."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Sie haben das Wort zur ersten Nachfrage.",
-            "sentences": [
-              {
-                "text": "Sie haben das Wort zur ersten Nachfrage."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Katja Keul",
-            "speakerstatus": "speaker",
-            "text": "Vielen Dank für diese Zahlen. – Verstehe ich Sie richtig, dass Sie sagen: „Wenn weniger Panzer instandgesetzt werden können, dann liegt das insgesamt nicht daran, dass der Arbeitsumfang geringer geworden ist, sondern dass man pro Panzer“ – so habe ich Sie verstanden – „mehr Arbeitszeit braucht, weil er mehr Abnutzung hat“? Heißt das im Ergebnis, dass die Umsätze der Werke gleichgeblieben sind? Oder sind die Umsätze jetzt gesunken?",
-            "sentences": [
-              {
-                "text": "Vielen Dank für diese Zahlen."
-              },
-              {
-                "text": "– Verstehe ich Sie richtig, dass Sie sagen: „Wenn weniger Panzer instandgesetzt werden können, dann liegt das insgesamt nicht daran, dass der Arbeitsumfang geringer geworden ist, sondern dass man pro Panzer“ – so habe ich Sie verstanden – „mehr Arbeitszeit braucht, weil er mehr Abnutzung hat“?"
-              },
-              {
-                "text": "Heißt das im Ergebnis, dass die Umsätze der Werke gleichgeblieben sind?"
-              },
-              {
-                "text": "Oder sind die Umsätze jetzt gesunken?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Ralf Brauksiepe",
-            "speakerstatus": "speaker",
-            "text": "Ich kann Ihnen zu den Umsatzzahlen der Werke nichts sagen. Danach wurde nicht gefragt. Was ich Ihnen sagen kann, ist, dass der Großteil der Instandsetzungsmaßnahmen außerhalb der Werke bei der Industrie erfolgt ist. Es ist schon Ende der 90er-Jahre die Entscheidung gefallen, dass die Bundeswehr von Aufgaben zu entlasten ist, die nicht zu ihren militärischen Kernfähigkeiten gehören. Die Werksinstandsetzungsleistungen stellen keine Kernfähigkeit der Bundeswehr dar. Das war die Grundlage für die Entscheidung über die Gründung der HIL, die im Jahr 2005 unter der Führung der damaligen Bundesregierung vollzogen worden ist. Von daher kann ich Ihnen sagen: Es ist keine Kernkompetenz der Bundeswehr. Die Arbeit wird größtenteils von der Industrie jetzt auch schon geleistet.",
-            "sentences": [
-              {
-                "text": "Ich kann Ihnen zu den Umsatzzahlen der Werke nichts sagen."
-              },
-              {
-                "text": "Danach wurde nicht gefragt."
-              },
-              {
-                "text": "Was ich Ihnen sagen kann, ist, dass der Großteil der Instandsetzungsmaßnahmen außerhalb der Werke bei der Industrie erfolgt ist."
-              },
-              {
-                "text": "Es ist schon Ende der 90er-Jahre die Entscheidung gefallen, dass die Bundeswehr von Aufgaben zu entlasten ist, die nicht zu ihren militärischen Kernfähigkeiten gehören."
-              },
-              {
-                "text": "Die Werksinstandsetzungsleistungen stellen keine Kernfähigkeit der Bundeswehr dar."
-              },
-              {
-                "text": "Das war die Grundlage für die Entscheidung über die Gründung der HIL, die im Jahr 2005 unter der Führung der damaligen Bundesregierung vollzogen worden ist."
-              },
-              {
-                "text": "Von daher kann ich Ihnen sagen: Es ist keine Kernkompetenz der Bundeswehr."
-              },
-              {
-                "text": "Die Arbeit wird größtenteils von der Industrie jetzt auch schon geleistet."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Ralf Brauksiepe",
-            "speakerstatus": "speaker",
-            "text": "Das, was ich beispielhaft für den Leopard 2 angeführt habe, ist keine Ausnahme, sondern Sie finden das an vielen anderen Stellen. Das Material, die Landsysteme, die einer verstärkten Nutzung unterliegen, müssen in der Regel auch pro Stück aufwendiger instandgehalten werden, als es früher der Fall war. Der Anstieg bei Leopard 2 hat beispielsweise etwas damit zu tun, dass es eine Anweisung des BAAINBw gibt, dass sandgestrahlt und neu lackiert wird, was früher nicht vorgesehen war und was den Aufwand pro Stück erhöht.",
-            "sentences": [
-              {
-                "text": "Das, was ich beispielhaft für den Leopard 2 angeführt habe, ist keine Ausnahme, sondern Sie finden das an vielen anderen Stellen."
-              },
-              {
-                "text": "Das Material, die Landsysteme, die einer verstärkten Nutzung unterliegen, müssen in der Regel auch pro Stück aufwendiger instandgehalten werden, als es früher der Fall war."
-              },
-              {
-                "text": "Der Anstieg bei Leopard 2 hat beispielsweise etwas damit zu tun, dass es eine Anweisung des BAAINBw gibt, dass sandgestrahlt und neu lackiert wird, was früher nicht vorgesehen war und was den Aufwand pro Stück erhöht."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Sie haben das Wort zur zweiten Nachfrage.",
-            "sentences": [
-              {
-                "text": "Sie haben das Wort zur zweiten Nachfrage."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Katja Keul",
-            "speakerstatus": "speaker",
-            "text": "Vielen Dank. – In Anbetracht der Tatsache, dass eine Privatisierung dieser Betriebe stattfindet, die immerhin noch 30 Prozent der Reparaturen durchführen, frage ich Sie noch einmal, ob die Bundesregierung sich wirklich sicher ist, dass es wirtschaftlicher ist, wenn die Rüstungsindustrie demnächst selber über Ersatzteile und Reparaturleistungen bestimmen kann und die öffentliche Hand nicht mehr darüber entscheiden kann, wer die Reparaturen am günstigsten durchführt. Mir erschließt sich das nicht. Solange ich eine Auswahl habe und mir überlegen kann, woher ich die Ersatzteile bekomme, kann ich ja auch die billigere Schraube kaufen. Wenn in Zukunft Krauss-Maffei Wegmann und Rheinmetall das Monopol auf Ersatzteile haben, kann ich mir nicht wirklich vorstellen, dass es für den Steuerzahler billiger wird.",
-            "sentences": [
-              {
-                "text": "Vielen Dank."
-              },
-              {
-                "text": "– In Anbetracht der Tatsache, dass eine Privatisierung dieser Betriebe stattfindet, die immerhin noch 30 Prozent der Reparaturen durchführen, frage ich Sie noch einmal, ob die Bundesregierung sich wirklich sicher ist, dass es wirtschaftlicher ist, wenn die Rüstungsindustrie demnächst selber über Ersatzteile und Reparaturleistungen bestimmen kann und die öffentliche Hand nicht mehr darüber entscheiden kann, wer die Reparaturen am günstigsten durchführt."
-              },
-              {
-                "text": "Mir erschließt sich das nicht."
-              },
-              {
-                "text": "Solange ich eine Auswahl habe und mir überlegen kann, woher ich die Ersatzteile bekomme, kann ich ja auch die billigere Schraube kaufen."
-              },
-              {
-                "text": "Wenn in Zukunft Krauss-Maffei Wegmann und Rheinmetall das Monopol auf Ersatzteile haben, kann ich mir nicht wirklich vorstellen, dass es für den Steuerzahler billiger wird."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Ralf Brauksiepe",
-            "speakerstatus": "speaker",
-            "text": "Frau Kollegin Keul, die damalige rot-grüne Bundesregierung, die die Gründung der HIL initiiert hat, hat damals vorgesehen, dass die Industrie Mehrheitseigentümer der HIL war. Der Bund war Minderheitsgesellschafter. Dies hat kartellrechtlichen Prüfungen nicht standgehalten, sodass – Stand heute – die gesamte HIL mit all ihren Werken im vollständigen Eigentum des Bundes ist.",
-            "sentences": [
-              {
-                "text": "Frau Kollegin Keul, die damalige rot-grüne Bundesregierung, die die Gründung der HIL initiiert hat, hat damals vorgesehen, dass die Industrie Mehrheitseigentümer der HIL war."
-              },
-              {
-                "text": "Der Bund war Minderheitsgesellschafter."
-              },
-              {
-                "text": "Dies hat kartellrechtlichen Prüfungen nicht standgehalten, sodass – Stand heute – die gesamte HIL mit all ihren Werken im vollständigen Eigentum des Bundes ist."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Ralf Brauksiepe",
-            "speakerstatus": "speaker",
-            "text": "Das wollte seit rot-grünen Zeiten keine Bundesregierung mehr.",
-            "sentences": [
-              {
-                "text": "Das wollte seit rot-grünen Zeiten keine Bundesregierung mehr."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Ralf Brauksiepe",
-            "speakerstatus": "speaker",
-            "text": "Die HIL hat zahlreiche Niederlassungen und Stützpunkte auf den Flächen der Bundeswehr, und die Materialerhaltungsstufen 2 und 3 – das sind, vereinfacht ausgedrückt, die nicht ganz so komplizierten Arbeiten – werden dort weiter von der HIL durchgeführt.",
-            "sentences": [
-              {
-                "text": "Die HIL hat zahlreiche Niederlassungen und Stützpunkte auf den Flächen der Bundeswehr, und die Materialerhaltungsstufen 2 und 3 – das sind, vereinfacht ausgedrückt, die nicht ganz so komplizierten Arbeiten – werden dort weiter von der HIL durchgeführt."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Ralf Brauksiepe",
-            "speakerstatus": "speaker",
-            "text": "In den drei Werken wird die umfangreichste Materialerhaltung betrieben; das ist die Materialerhaltungsstufe 4. Da arbeiten wir an der Abgabe der Werke. Das Ganze erfolgt natürlich nach den entsprechenden vergaberechtlichen Bestimmungen; all das erfolgt im Wettbewerb. Diese Bundesregierung ist fest davon überzeugt, dass der Wettbewerb am Ende zu den besten Lösungen führt. Wir sind nicht der Meinung, dass der Staat besser Panzer reparieren kann als die Industrie. Wir stehen damit in der Kontinuität aller bisherigen Bundesregierungen.",
-            "sentences": [
-              {
-                "text": "In den drei Werken wird die umfangreichste Materialerhaltung betrieben; das ist die Materialerhaltungsstufe 4. Da arbeiten wir an der Abgabe der Werke."
-              },
-              {
-                "text": "Das Ganze erfolgt natürlich nach den entsprechenden vergaberechtlichen Bestimmungen; all das erfolgt im Wettbewerb."
-              },
-              {
-                "text": "Diese Bundesregierung ist fest davon überzeugt, dass der Wettbewerb am Ende zu den besten Lösungen führt."
-              },
-              {
-                "text": "Wir sind nicht der Meinung, dass der Staat besser Panzer reparieren kann als die Industrie."
-              },
-              {
-                "text": "Wir stehen damit in der Kontinuität aller bisherigen Bundesregierungen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Es gibt noch eine weitere Nachfrage. Frau Dr. Rottmann.",
-            "sentences": [
-              {
-                "text": "Es gibt noch eine weitere Nachfrage."
-              },
-              {
-                "text": "Frau Dr. Rottmann."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Manuela Rottmann",
-            "speakerstatus": "speaker",
-            "text": "Vielen Dank. – Die Werke der HIL liegen, zum Beispiel in Darmstadt, auch in innerstädtischen Gebieten. Die Kommunen sind zum Teil auf diese Grundstücke angewiesen, um Wohnungsbau zu betreiben. Hat sich die Bundesregierung überlegt, wie sie die Wohnungsnot dort, wo es Standorte der HIL gibt, mit einer vernünftigen Verwertung dieser Grundstücke lindern kann? Eine Privatisierung der Werke sollte aus meiner Sicht nicht damit einhergehen, dass innerstädtische Grundstücke mit privatisiert werden.",
-            "sentences": [
-              {
-                "text": "Vielen Dank."
-              },
-              {
-                "text": "– Die Werke der HIL liegen, zum Beispiel in Darmstadt, auch in innerstädtischen Gebieten."
-              },
-              {
-                "text": "Die Kommunen sind zum Teil auf diese Grundstücke angewiesen, um Wohnungsbau zu betreiben."
-              },
-              {
-                "text": "Hat sich die Bundesregierung überlegt, wie sie die Wohnungsnot dort, wo es Standorte der HIL gibt, mit einer vernünftigen Verwertung dieser Grundstücke lindern kann?"
-              },
-              {
-                "text": "Eine Privatisierung der Werke sollte aus meiner Sicht nicht damit einhergehen, dass innerstädtische Grundstücke mit privatisiert werden."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Ralf Brauksiepe",
-            "speakerstatus": "speaker",
-            "text": "Frau Kollegin, ich kann mir nicht vorstellen, dass irgendeine Kommune ihre Wohnungsbaupolitik auf dem Privateigentum Dritter aufbaut. Es wäre ja eine seltsame Art, wenn man sagte: Ich will Wohnungen auf Gelände bauen, das anderen gehört, und will mal gucken, ob es mir durch irgendeinen günstigen Zufall zufällt.",
-            "sentences": [
-              {
-                "text": "Frau Kollegin, ich kann mir nicht vorstellen, dass irgendeine Kommune ihre Wohnungsbaupolitik auf dem Privateigentum Dritter aufbaut."
-              },
-              {
-                "text": "Es wäre ja eine seltsame Art, wenn man sagte: Ich will Wohnungen auf Gelände bauen, das anderen gehört, und will mal gucken, ob es mir durch irgendeinen günstigen Zufall zufällt."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Ralf Brauksiepe",
-            "speakerstatus": "speaker",
-            "text": "Wir haben drei Werke, und es geht in der Tat auch immer um die Frage, wie mit den frei werdenden Flächen dann zu verfahren ist. Das ist schon vor Ort in jedem einzelnen Fall besprochen worden, auch mit den örtlichen Verantwortlichen, und es ist auch eingeflossen in die Ausschreibung, die jetzt zum Teil läuft.",
-            "sentences": [
-              {
-                "text": "Wir haben drei Werke, und es geht in der Tat auch immer um die Frage, wie mit den frei werdenden Flächen dann zu verfahren ist."
-              },
-              {
-                "text": "Das ist schon vor Ort in jedem einzelnen Fall besprochen worden, auch mit den örtlichen Verantwortlichen, und es ist auch eingeflossen in die Ausschreibung, die jetzt zum Teil läuft."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Danke, Herr Staatssekretär. – Die Fragen 22 und 23 der Abgeordneten Hänsel sollen schriftlich beantwortet werden. Wir sind damit am Ende Ihres Geschäftsbereiches.",
-            "sentences": [
-              {
-                "text": "Danke, Herr Staatssekretär."
-              },
-              {
-                "text": "– Die Fragen 22 und 23 der Abgeordneten Hänsel sollen schriftlich beantwortet werden."
-              },
-              {
-                "text": "Wir sind damit am Ende Ihres Geschäftsbereiches."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Ich rufe den Geschäftsbereich des Bundesministeriums für Verkehr und digitale Infrastruktur auf.",
-            "sentences": [
-              {
-                "text": "Ich rufe den Geschäftsbereich des Bundesministeriums für Verkehr und digitale Infrastruktur auf."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Alle Fragen dieses Geschäftsbereiches werden schriftlich beantwortet. Das betrifft die Fragen 24 und 25 des Abgeordneten Gelbhaar, die Fragen 26 und 27 des Abgeordneten Wagner, die Fragen 28 und 29 des Abgeordneten Stefan Schmidt, die Fragen 30 und 31 des Abgeordneten Krischer, die Frage 32 des Abgeordneten Gehring, die Frage 33 des Abgeordneten Stephan Kühn, die Fragen 34 und 35 des Abgeordneten Gastel und die Frage 36 der Abgeordneten Remmers.",
-            "sentences": [
-              {
-                "text": "Alle Fragen dieses Geschäftsbereiches werden schriftlich beantwortet."
-              },
-              {
-                "text": "Das betrifft die Fragen 24 und 25 des Abgeordneten Gelbhaar, die Fragen 26 und 27 des Abgeordneten Wagner, die Fragen 28 und 29 des Abgeordneten Stefan Schmidt, die Fragen 30 und 31 des Abgeordneten Krischer, die Frage 32 des Abgeordneten Gehring, die Frage 33 des Abgeordneten Stephan Kühn, die Fragen 34 und 35 des Abgeordneten Gastel und die Frage 36 der Abgeordneten Remmers."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Wir kommen damit zum Geschäftsbereich des Bundesministeriums für Umwelt, Naturschutz, Bau und Reaktorsicherheit. Zur Beantwortung steht die Parlamentarische Staatssekretärin Rita Schwarzelühr-Sutter zur Verfügung.",
-            "sentences": [
-              {
-                "text": "Wir kommen damit zum Geschäftsbereich des Bundesministeriums für Umwelt, Naturschutz, Bau und Reaktorsicherheit."
-              },
-              {
-                "text": "Zur Beantwortung steht die Parlamentarische Staatssekretärin Rita Schwarzelühr-Sutter zur Verfügung."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Die Frage 37 des Abgeordneten Gehring, die Frage 38 des Abgeordneten Stephan Kühn, die Frage 39 der Abgeordneten Remmers und die Fragen 40 und 41 des Abgeordneten Christian Kühn werden gemäß Nummer 2 Absatz 2 unserer Richtlinien schriftlich beantwortet. Die Fragen 42 und 43 der Abgeordneten Sabine Zimmermann, die Fragen 44 und 45 der Abgeordneten Kotting-Uhl und die Fragen 46 und 47 der Abgeordneten Hoffmann sollen ebenfalls schriftlich beantwortet werden.",
-            "sentences": [
-              {
-                "text": "Die Frage 37 des Abgeordneten Gehring, die Frage 38 des Abgeordneten Stephan Kühn, die Frage 39 der Abgeordneten Remmers und die Fragen 40 und 41 des Abgeordneten Christian Kühn werden gemäß Nummer 2 Absatz 2 unserer Richtlinien schriftlich beantwortet."
-              },
-              {
-                "text": "Die Fragen 42 und 43 der Abgeordneten Sabine Zimmermann, die Fragen 44 und 45 der Abgeordneten Kotting-Uhl und die Fragen 46 und 47 der Abgeordneten Hoffmann sollen ebenfalls schriftlich beantwortet werden."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Ich rufe die Frage 48 der Abgeordneten Steffi Lemke auf:",
-            "sentences": [
-              {
-                "text": "Ich rufe die Frage 48 der Abgeordneten Steffi Lemke auf:"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Bitte, Frau Staatssekretärin.",
-            "sentences": [
-              {
-                "text": "Bitte, Frau Staatssekretärin."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Rita Schwarzelühr-Sutter",
-            "speakerstatus": "speaker",
-            "text": "Danke, Frau Präsidentin. – Sehr geehrte Kollegin Lemke, die in Ihrer Frage genannte Studie beschreibt Ergebnisse zum Verhalten des globalen Meeresspiegelniveaus aufgrund einer neuen Untersuchung von Satellitenmessungen mit Annahmen über dessen Entwicklung bis 2100. Die Studie bestätigt zum einen Ergebnisse des Fünften Sachstandsberichts des IPCC. Zum anderen weisen die Autoren darauf hin, dass die beobachtete Erhöhung des Meeresspiegels in etwa entlang des Hochemissionsszenarios RCP8.5 erfolgt. Aufgrund der Dynamik der großen Eisschilde – in der Antarktis und in Grönland – könnte der künftige Meeresspiegelanstieg auch deutlich höher ausfallen. – Diese Erkenntnisse sind der Bundesregierung bekannt und auch bereits in anderen Fachpublikationen beschrieben.",
-            "sentences": [
-              {
-                "text": "Danke, Frau Präsidentin."
-              },
-              {
-                "text": "– Sehr geehrte Kollegin Lemke, die in Ihrer Frage genannte Studie beschreibt Ergebnisse zum Verhalten des globalen Meeresspiegelniveaus aufgrund einer neuen Untersuchung von Satellitenmessungen mit Annahmen über dessen Entwicklung bis 2100. Die Studie bestätigt zum einen Ergebnisse des Fünften Sachstandsberichts des IPCC."
-              },
-              {
-                "text": "Zum anderen weisen die Autoren darauf hin, dass die beobachtete Erhöhung des Meeresspiegels in etwa entlang des Hochemissionsszenarios RCP8.5 erfolgt."
-              },
-              {
-                "text": "Aufgrund der Dynamik der großen Eisschilde – in der Antarktis und in Grönland – könnte der künftige Meeresspiegelanstieg auch deutlich höher ausfallen."
-              },
-              {
-                "text": "– Diese Erkenntnisse sind der Bundesregierung bekannt und auch bereits in anderen Fachpublikationen beschrieben."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Rita Schwarzelühr-Sutter",
-            "speakerstatus": "speaker",
-            "text": "Klar ist: Klimaschutz und Anpassung an unvermeidbare Folgen des Klimawandels sind wichtig. Die Bundesregierung hat sich deshalb zur Aufgabe gemacht, Vorkehrungen zu treffen, um im Rahmen der ressortübergreifenden Deutschen Anpassungsstrategie an den Klimawandel geeignete Maßnahmen gegen den Meeresspiegelanstieg zu entwickeln. Um mit dem Meeresspiegelanstieg zusammenhängende mögliche Gefahren und Anpassungsnotwendigkeiten frühzeitig zu erkennen und geeignete Maßnahmen zur Verringerung der Betroffenheit zu identifizieren und umzusetzen, hat die interministerielle Arbeitsgruppe „Anpassung“ unter der Federführung des BMUB beschlossen, zeitnah eine Strategie zum Umgang mit dem Meeresspiegelanstieg im Ressortkreis und mit den Bundesländern zu entwickeln, die in den Fortschrittsbericht zur Deutschen Anpassungsstrategie 2020 integriert werden soll.",
-            "sentences": [
-              {
-                "text": "Klar ist: Klimaschutz und Anpassung an unvermeidbare Folgen des Klimawandels sind wichtig."
-              },
-              {
-                "text": "Die Bundesregierung hat sich deshalb zur Aufgabe gemacht, Vorkehrungen zu treffen, um im Rahmen der ressortübergreifenden Deutschen Anpassungsstrategie an den Klimawandel geeignete Maßnahmen gegen den Meeresspiegelanstieg zu entwickeln."
-              },
-              {
-                "text": "Um mit dem Meeresspiegelanstieg zusammenhängende mögliche Gefahren und Anpassungsnotwendigkeiten frühzeitig zu erkennen und geeignete Maßnahmen zur Verringerung der Betroffenheit zu identifizieren und umzusetzen, hat die interministerielle Arbeitsgruppe „Anpassung“ unter der Federführung des BMUB beschlossen, zeitnah eine Strategie zum Umgang mit dem Meeresspiegelanstieg im Ressortkreis und mit den Bundesländern zu entwickeln, die in den Fortschrittsbericht zur Deutschen Anpassungsstrategie 2020 integriert werden soll."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Rita Schwarzelühr-Sutter",
-            "speakerstatus": "speaker",
-            "text": "Die Bundesregierung geht davon aus, dass Deutschland beim Hochwasserschutz an der Küste für die Zukunft strukturell gut aufgestellt ist. Nach der Kompetenzverteilung des Grundgesetzes liegt die Zuständigkeit für Maßnahmen des vorbeugenden Hochwasserschutzes sowohl im Binnenland als auch an der Küste bei den Ländern.",
-            "sentences": [
-              {
-                "text": "Die Bundesregierung geht davon aus, dass Deutschland beim Hochwasserschutz an der Küste für die Zukunft strukturell gut aufgestellt ist."
-              },
-              {
-                "text": "Nach der Kompetenzverteilung des Grundgesetzes liegt die Zuständigkeit für Maßnahmen des vorbeugenden Hochwasserschutzes sowohl im Binnenland als auch an der Küste bei den Ländern."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Sie haben das Wort zur ersten Nachfrage.",
-            "sentences": [
-              {
-                "text": "Sie haben das Wort zur ersten Nachfrage."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Steffi Lemke",
-            "speakerstatus": "speaker",
-            "text": "Danke, Frau Präsidentin. – Ich erlaube mir die Anmerkung, dass der Hinweis auf der Anzeigetafel hier im Plenum etwas irreführend ist: Es geht nicht um die Studie zum Anstieg des Meeresspiegels. Vielmehr geht es um die Kernaussage, dass der Meeresspiegel deutlich schneller ansteigt, als bisher erwartet wurde. Deshalb war meine Frage auch, welche Konsequenzen die Bundesregierung daraus zieht, dass dieser Prozess schneller abläuft, als bisher angenommen wurde.",
-            "sentences": [
-              {
-                "text": "Danke, Frau Präsidentin."
-              },
-              {
-                "text": "– Ich erlaube mir die Anmerkung, dass der Hinweis auf der Anzeigetafel hier im Plenum etwas irreführend ist: Es geht nicht um die Studie zum Anstieg des Meeresspiegels."
-              },
-              {
-                "text": "Vielmehr geht es um die Kernaussage, dass der Meeresspiegel deutlich schneller ansteigt, als bisher erwartet wurde."
-              },
-              {
-                "text": "Deshalb war meine Frage auch, welche Konsequenzen die Bundesregierung daraus zieht, dass dieser Prozess schneller abläuft, als bisher angenommen wurde."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Steffi Lemke",
-            "speakerstatus": "speaker",
-            "text": "Sie haben die Ergebnisse der Studie eben selber bestätigt. Die Kernaussage der Studie lautet, dass der Meeresspiegel bis zum Ende dieses Jahrhunderts um durchschnittlich 65 Zentimeter höher liegen könnte als im Jahr 2005. Deshalb meine Frage: Hat es darauf Reaktionen innerhalb der Bundesregierung gegeben? Auch unsere Küstenländer sind davon betroffen, und es kann aus meiner Sicht in diesem Zusammenhang nicht nur auf Länderzuständigkeiten verwiesen werden. Also: Welche zusätzlichen Maßnahmen ergreift die Bundesregierung aufgrund des schnelleren Meeresspiegelanstiegs?",
-            "sentences": [
-              {
-                "text": "Sie haben die Ergebnisse der Studie eben selber bestätigt."
-              },
-              {
-                "text": "Die Kernaussage der Studie lautet, dass der Meeresspiegel bis zum Ende dieses Jahrhunderts um durchschnittlich 65 Zentimeter höher liegen könnte als im Jahr 2005. Deshalb meine Frage: Hat es darauf Reaktionen innerhalb der Bundesregierung gegeben?"
-              },
-              {
-                "text": "Auch unsere Küstenländer sind davon betroffen, und es kann aus meiner Sicht in diesem Zusammenhang nicht nur auf Länderzuständigkeiten verwiesen werden."
-              },
-              {
-                "text": "Also: Welche zusätzlichen Maßnahmen ergreift die Bundesregierung aufgrund des schnelleren Meeresspiegelanstiegs?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Rita Schwarzelühr-Sutter",
-            "speakerstatus": "speaker",
-            "text": "Sie wissen, dass die Deutsche Anpassungsstrategie entsprechend fortgeschrieben wird. Einige Maßnahmen werden in die Anpassungsstrategie übergeleitet, die wir zusammen mit den Ländern in den Bund-Länder-Arbeitsgruppen und auch – ich habe es eben angesprochen – in der interministeriellen Arbeitsgruppe erarbeiten.",
-            "sentences": [
-              {
-                "text": "Sie wissen, dass die Deutsche Anpassungsstrategie entsprechend fortgeschrieben wird."
-              },
-              {
-                "text": "Einige Maßnahmen werden in die Anpassungsstrategie übergeleitet, die wir zusammen mit den Ländern in den Bund-Länder-Arbeitsgruppen und auch – ich habe es eben angesprochen – in der interministeriellen Arbeitsgruppe erarbeiten."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Rita Schwarzelühr-Sutter",
-            "speakerstatus": "speaker",
-            "text": "Vor dem Hintergrund der Ergebnisse der Studie müssen die bereits angedachten Maßnahmen überprüft und dementsprechend weiterentwickelt werden. Ein weiterer Ansatzpunkt ist, die Erderwärmung durch Klimaveränderungen zu beschränken und unter 2 Grad, möglichst unter 1,5 Grad, zu halten.",
-            "sentences": [
-              {
-                "text": "Vor dem Hintergrund der Ergebnisse der Studie müssen die bereits angedachten Maßnahmen überprüft und dementsprechend weiterentwickelt werden."
-              },
-              {
-                "text": "Ein weiterer Ansatzpunkt ist, die Erderwärmung durch Klimaveränderungen zu beschränken und unter 2 Grad, möglichst unter 1,5 Grad, zu halten."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Sie haben das Wort zur zweiten Nachfrage.",
-            "sentences": [
-              {
-                "text": "Sie haben das Wort zur zweiten Nachfrage."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Steffi Lemke",
-            "speakerstatus": "speaker",
-            "text": "Danke. – Frau Staatssekretärin, es wird Sie nicht verwundern, dass mich Ihre Antwort nicht zufriedenstellt. Meine Frage zielt darauf ab, dass die Prozesse schneller ablaufen und dramatischer sind, als die Forscher bisher angenommen haben. Die Forscher des Potsdam-Instituts für Klimafolgenforschung müssen sich ständig selber korrigieren, und zwar in Richtung Negativszenarien.",
-            "sentences": [
-              {
-                "text": "Danke."
-              },
-              {
-                "text": "– Frau Staatssekretärin, es wird Sie nicht verwundern, dass mich Ihre Antwort nicht zufriedenstellt."
-              },
-              {
-                "text": "Meine Frage zielt darauf ab, dass die Prozesse schneller ablaufen und dramatischer sind, als die Forscher bisher angenommen haben."
-              },
-              {
-                "text": "Die Forscher des Potsdam-Instituts für Klimafolgenforschung müssen sich ständig selber korrigieren, und zwar in Richtung Negativszenarien."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Steffi Lemke",
-            "speakerstatus": "speaker",
-            "text": "Wenn wir jetzt feststellen, dass der Eisschild auf der Antarktis wesentlich instabiler ist, als noch vor wenigen Jahren angenommen worden ist, und die Antarktis allein für einen potenziellen Meeresspiegelanstieg von 55 Metern – 55 Meter! – verantwortlich sein könnte, dann stellt sich mir die Frage, ob innerhalb der Bundesregierung das veränderte Tempo, das immer schnellere Tempo der Klimakrise berücksichtigt wird und man deshalb die eigenen Maßnahmen überprüft und verstärkt.",
-            "sentences": [
-              {
-                "text": "Wenn wir jetzt feststellen, dass der Eisschild auf der Antarktis wesentlich instabiler ist, als noch vor wenigen Jahren angenommen worden ist, und die Antarktis allein für einen potenziellen Meeresspiegelanstieg von 55 Metern – 55 Meter!"
-              },
-              {
-                "text": "– verantwortlich sein könnte, dann stellt sich mir die Frage, ob innerhalb der Bundesregierung das veränderte Tempo, das immer schnellere Tempo der Klimakrise berücksichtigt wird und man deshalb die eigenen Maßnahmen überprüft und verstärkt."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Rita Schwarzelühr-Sutter",
-            "speakerstatus": "speaker",
-            "text": "Die Bundesregierung ist sich dieser Dringlichkeit bewusst. Ich habe eben schon betont, dass die Maßnahmen vor dem Hintergrund der Ergebnisse der Studie sicherlich noch einmal überprüft werden. Im Übrigen wissen Sie auch, dass wir bis zum Ende dieses Jahrhunderts möglichst treibhausgasneutral wirtschaften und leben wollen und zu dem Zweck bereits einen Klimaschutzplan verabschiedet haben. Wenn die Koalition zustande kommt, dann werden wir auch ein Klimaschutzgesetz auf den Weg bringen.",
-            "sentences": [
-              {
-                "text": "Die Bundesregierung ist sich dieser Dringlichkeit bewusst."
-              },
-              {
-                "text": "Ich habe eben schon betont, dass die Maßnahmen vor dem Hintergrund der Ergebnisse der Studie sicherlich noch einmal überprüft werden."
-              },
-              {
-                "text": "Im Übrigen wissen Sie auch, dass wir bis zum Ende dieses Jahrhunderts möglichst treibhausgasneutral wirtschaften und leben wollen und zu dem Zweck bereits einen Klimaschutzplan verabschiedet haben."
-              },
-              {
-                "text": "Wenn die Koalition zustande kommt, dann werden wir auch ein Klimaschutzgesetz auf den Weg bringen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Danke, Frau Staatssekretärin. – Wir sind damit am Ende Ihres Geschäftsbereichs.",
-            "sentences": [
-              {
-                "text": "Danke, Frau Staatssekretärin."
-              },
-              {
-                "text": "– Wir sind damit am Ende Ihres Geschäftsbereichs."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Wir kommen zum Geschäftsbereich des Bundesministeriums für wirtschaftliche Zusammenarbeit und Entwicklung. Zur Beantwortung steht der Parlamentarische Staatssekretär Thomas Silberhorn zur Verfügung.",
-            "sentences": [
-              {
-                "text": "Wir kommen zum Geschäftsbereich des Bundesministeriums für wirtschaftliche Zusammenarbeit und Entwicklung."
-              },
-              {
-                "text": "Zur Beantwortung steht der Parlamentarische Staatssekretär Thomas Silberhorn zur Verfügung."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Die Frage 49 der Abgeordneten Eva-Maria Elisabeth Schreiber soll schriftlich beantwortet werden.",
-            "sentences": [
-              {
-                "text": "Die Frage 49 der Abgeordneten Eva-Maria Elisabeth Schreiber soll schriftlich beantwortet werden."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Ich rufe die Frage 50 des Abgeordneten Uwe Kekeritz auf:",
-            "sentences": [
-              {
-                "text": "Ich rufe die Frage 50 des Abgeordneten Uwe Kekeritz auf:"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Bitte, Herr Staatssekretär.",
-            "sentences": [
-              {
-                "text": "Bitte, Herr Staatssekretär."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Silberhorn",
-            "speakerstatus": "speaker",
-            "text": "Vielen Dank. – Herr Kollege, die Neue Allianz für Ernährungssicherung ist ein Ergebnis des G-8-Gipfels von 2012. Die Bundesregierung beteiligt sich an einer Evaluierung dieser Neuen Allianz für Ernährungssicherung zusammen mit Frankreich, den USA und Großbritannien, und zwar in den jeweiligen Fokusländern Burkina Faso, Ghana, Nigeria und Benin.",
-            "sentences": [
-              {
-                "text": "Vielen Dank."
-              },
-              {
-                "text": "– Herr Kollege, die Neue Allianz für Ernährungssicherung ist ein Ergebnis des G-8-Gipfels von 2012. Die Bundesregierung beteiligt sich an einer Evaluierung dieser Neuen Allianz für Ernährungssicherung zusammen mit Frankreich, den USA und Großbritannien, und zwar in den jeweiligen Fokusländern Burkina Faso, Ghana, Nigeria und Benin."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Silberhorn",
-            "speakerstatus": "speaker",
-            "text": "Die Ergebnisse zu Burkina Faso liegen vor. Deutschland ist federführend für die Evaluierung in Benin verantwortlich, die noch nicht abgeschlossen ist. Wir erwarten die Evaluierungsergebnisse spätestens Anfang April. Nach vollständigem Abschluss der Evaluierung wird die Bundesregierung die Ergebnisse fachlich und politisch bewerten und das weitere Vorgehen mit den relevanten internationalen Partnern diskutieren. Die Ergebnisse der Evaluierung sollen veröffentlicht werden.",
-            "sentences": [
-              {
-                "text": "Die Ergebnisse zu Burkina Faso liegen vor."
-              },
-              {
-                "text": "Deutschland ist federführend für die Evaluierung in Benin verantwortlich, die noch nicht abgeschlossen ist."
-              },
-              {
-                "text": "Wir erwarten die Evaluierungsergebnisse spätestens Anfang April."
-              },
-              {
-                "text": "Nach vollständigem Abschluss der Evaluierung wird die Bundesregierung die Ergebnisse fachlich und politisch bewerten und das weitere Vorgehen mit den relevanten internationalen Partnern diskutieren."
-              },
-              {
-                "text": "Die Ergebnisse der Evaluierung sollen veröffentlicht werden."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Silberhorn",
-            "speakerstatus": "speaker",
-            "text": "Zum zweiten Teil Ihrer Frage. Die Neue Allianz erarbeitet jährlich Fortschrittsberichte, in denen die einzelnen Länder ihren Fortschritt gegenüber ihren nationalen Vereinbarungen darlegen. Nach dem letzten Fortschrittsbericht 2015/16 haben private Investitionen innerhalb der Neuen Allianz für Ernährungssicherung in diesem Berichtszeitraum 10,4 Millionen Kleinbäuerinnen und Kleinbauern erreicht und mehr als 30 000 Jobs geschaffen.",
-            "sentences": [
-              {
-                "text": "Zum zweiten Teil Ihrer Frage."
-              },
-              {
-                "text": "Die Neue Allianz erarbeitet jährlich Fortschrittsberichte, in denen die einzelnen Länder ihren Fortschritt gegenüber ihren nationalen Vereinbarungen darlegen."
-              },
-              {
-                "text": "Nach dem letzten Fortschrittsbericht 2015/16 haben private Investitionen innerhalb der Neuen Allianz für Ernährungssicherung in diesem Berichtszeitraum 10,4 Millionen Kleinbäuerinnen und Kleinbauern erreicht und mehr als 30 000 Jobs geschaffen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Sie haben das Wort zur ersten Nachfrage.",
-            "sentences": [
-              {
-                "text": "Sie haben das Wort zur ersten Nachfrage."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Uwe Kekeritz",
-            "speakerstatus": "speaker",
-            "text": "Danke schön. – Es ist mir neu, dass Frankreich, die USA und Deutschland zusammen eine Evaluierung durchführen. Merkwürdig ist, dass die Franzosen aus der New Alliance aussteigen. Hat die französische Regierung mehr Informationen als die Bundesregierung, oder sind die Franzosen bei der Evaluierung schon weiter? Ich verstehe, ehrlich gesagt, diesen Zusammenhang nicht. Insofern fände ich es interessant, zu erfahren, was die französische Regierung mehr weiß als die Bundesregierung.",
-            "sentences": [
-              {
-                "text": "Danke schön."
-              },
-              {
-                "text": "– Es ist mir neu, dass Frankreich, die USA und Deutschland zusammen eine Evaluierung durchführen."
-              },
-              {
-                "text": "Merkwürdig ist, dass die Franzosen aus der New Alliance aussteigen."
-              },
-              {
-                "text": "Hat die französische Regierung mehr Informationen als die Bundesregierung, oder sind die Franzosen bei der Evaluierung schon weiter?"
-              },
-              {
-                "text": "Ich verstehe, ehrlich gesagt, diesen Zusammenhang nicht."
-              },
-              {
-                "text": "Insofern fände ich es interessant, zu erfahren, was die französische Regierung mehr weiß als die Bundesregierung."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Uwe Kekeritz",
-            "speakerstatus": "speaker",
-            "text": "Interessant ist auch Folgendes: Sie sagen, Sie haben 10 Millionen Bauern erreicht. Was heißt das? Inwieweit hat sich der Lebensstandard dieser Bauern verbessert, und inwieweit konnten positive Entwicklungen hinsichtlich Hunger und Not dieser Bevölkerungsgruppe festgestellt werden?",
-            "sentences": [
-              {
-                "text": "Interessant ist auch Folgendes: Sie sagen, Sie haben 10 Millionen Bauern erreicht."
-              },
-              {
-                "text": "Was heißt das?"
-              },
-              {
-                "text": "Inwieweit hat sich der Lebensstandard dieser Bauern verbessert, und inwieweit konnten positive Entwicklungen hinsichtlich Hunger und Not dieser Bevölkerungsgruppe festgestellt werden?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Silberhorn",
-            "speakerstatus": "speaker",
-            "text": "Das Partnerland von Frankreich ist Burkina Faso. In Bezug auf Burkina Faso ist die Evaluierung bereits abgeschlossen worden. Deswegen konnte Frankreich bereits Konsequenzen aus der Evaluierung ziehen. Die Evaluierungsergebnisse der weiteren Partnerländer stehen noch aus. Sie werden für Anfang April erwartet. Im Lichte der Ergebnisse dieser Evaluierung werden wir das Programm bewerten können und mit unseren Partnern darüber beraten, welche Konsequenzen wir ziehen.",
-            "sentences": [
-              {
-                "text": "Das Partnerland von Frankreich ist Burkina Faso."
-              },
-              {
-                "text": "In Bezug auf Burkina Faso ist die Evaluierung bereits abgeschlossen worden."
-              },
-              {
-                "text": "Deswegen konnte Frankreich bereits Konsequenzen aus der Evaluierung ziehen."
-              },
-              {
-                "text": "Die Evaluierungsergebnisse der weiteren Partnerländer stehen noch aus."
-              },
-              {
-                "text": "Sie werden für Anfang April erwartet."
-              },
-              {
-                "text": "Im Lichte der Ergebnisse dieser Evaluierung werden wir das Programm bewerten können und mit unseren Partnern darüber beraten, welche Konsequenzen wir ziehen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Silberhorn",
-            "speakerstatus": "speaker",
-            "text": "Zu den Kleinbauern. Wir haben von Anfang an Wert darauf gelegt, dass die Arbeit der Neuen Allianz für Ernährungssicherung den Fokus auf die Kleinbauern legt, im Übrigen auch auf die Einbeziehung von Frauen. Ich beziehe mich mit den Zahlen, die ich genannt habe, auf den letzten Fortschrittsbericht, den von 2015/16. Wir erwarten, dass wir im Zusammenhang mit den Evaluierungsergebnissen, die Anfang April vorliegen werden, nähere Auskünfte dazu erhalten.",
-            "sentences": [
-              {
-                "text": "Zu den Kleinbauern."
-              },
-              {
-                "text": "Wir haben von Anfang an Wert darauf gelegt, dass die Arbeit der Neuen Allianz für Ernährungssicherung den Fokus auf die Kleinbauern legt, im Übrigen auch auf die Einbeziehung von Frauen."
-              },
-              {
-                "text": "Ich beziehe mich mit den Zahlen, die ich genannt habe, auf den letzten Fortschrittsbericht, den von 2015/16. Wir erwarten, dass wir im Zusammenhang mit den Evaluierungsergebnissen, die Anfang April vorliegen werden, nähere Auskünfte dazu erhalten."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Sie haben das Wort zur zweiten Nachfrage.",
-            "sentences": [
-              {
-                "text": "Sie haben das Wort zur zweiten Nachfrage."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Uwe Kekeritz",
-            "speakerstatus": "speaker",
-            "text": "Wenn entscheidende Player aus der Allianz aussteigen, inwieweit macht die Mitgliedschaft in dieser Allianz dann überhaupt noch Sinn?",
-            "sentences": [
-              {
-                "text": "Wenn entscheidende Player aus der Allianz aussteigen, inwieweit macht die Mitgliedschaft in dieser Allianz dann überhaupt noch Sinn?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Silberhorn",
-            "speakerstatus": "speaker",
-            "text": "Das ist eine Frage, die wir uns stellen müssen, die wir uns aber erst stellen wollen, wenn die Evaluierungsergebnisse vorliegen. Wir müssen allerdings in Rechnung stellen, dass diese Neue Allianz für Ernährungssicherung das Ergebnis eines G‑8-Gipfels war. Es stellt sich in der Tat grundsätzlich die Frage, wie wir das weiterführen und es gegebenenfalls in herkömmliche Strukturen der bilateralen Zusammenarbeit integrieren können. Aber ich bitte um Verständnis dafür, dass wir der laufenden Evaluierung nicht vorgreifen können.",
-            "sentences": [
-              {
-                "text": "Das ist eine Frage, die wir uns stellen müssen, die wir uns aber erst stellen wollen, wenn die Evaluierungsergebnisse vorliegen."
-              },
-              {
-                "text": "Wir müssen allerdings in Rechnung stellen, dass diese Neue Allianz für Ernährungssicherung das Ergebnis eines G‑8-Gipfels war."
-              },
-              {
-                "text": "Es stellt sich in der Tat grundsätzlich die Frage, wie wir das weiterführen und es gegebenenfalls in herkömmliche Strukturen der bilateralen Zusammenarbeit integrieren können."
-              },
-              {
-                "text": "Aber ich bitte um Verständnis dafür, dass wir der laufenden Evaluierung nicht vorgreifen können."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Danke, Herr Staatssekretär. – Wir sind damit am Ende Ihres Geschäftsbereichs.",
-            "sentences": [
-              {
-                "text": "Danke, Herr Staatssekretär."
-              },
-              {
-                "text": "– Wir sind damit am Ende Ihres Geschäftsbereichs."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Ich rufe den Geschäftsbereich der Bundeskanzlerin und des Bundeskanzleramtes auf. Zur Beantwortung steht der Staatssekretär Klaus-Dieter Fritsche zur Verfügung.",
-            "sentences": [
-              {
-                "text": "Ich rufe den Geschäftsbereich der Bundeskanzlerin und des Bundeskanzleramtes auf."
-              },
-              {
-                "text": "Zur Beantwortung steht der Staatssekretär Klaus-Dieter Fritsche zur Verfügung."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Ich rufe die Frage 51 der Abgeordneten Martina Renner aus der Fraktion Die Linke auf:",
-            "sentences": [
-              {
-                "text": "Ich rufe die Frage 51 der Abgeordneten Martina Renner aus der Fraktion Die Linke auf:"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Bitte, Herr Staatssekretär.",
-            "sentences": [
-              {
-                "text": "Bitte, Herr Staatssekretär."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Klaus-Dieter Fritsche",
-            "speakerstatus": "speaker",
-            "text": "Vielen Dank, Frau Präsidentin. – Frau Abgeordnete, ich kann die Frage recht kurz beantworten: Es gab zu keinem Zeitpunkt einen Kontakt von Mitarbeitern des Bundesnachrichtendienstes mit Herrn Szczepanski.",
-            "sentences": [
-              {
-                "text": "Vielen Dank, Frau Präsidentin."
-              },
-              {
-                "text": "– Frau Abgeordnete, ich kann die Frage recht kurz beantworten: Es gab zu keinem Zeitpunkt einen Kontakt von Mitarbeitern des Bundesnachrichtendienstes mit Herrn Szczepanski."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Sie haben das Wort zu einer ersten Nachfrage.",
-            "sentences": [
-              {
-                "text": "Sie haben das Wort zu einer ersten Nachfrage."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Martina Renner",
-            "speakerstatus": "speaker",
-            "text": "Im Zuge der NSU-Aufklärung könnte neben der Frage des Kontaktes aber interessant sein, ob es im BND Informationen zu Carsten Szczepanski gab, weil er über seine Aktivitäten bei Blood & Honour und KKK mit internationalen militanten Neonazi-Organisationen in Kontakt stand und es dort um Waffenbeschaffungen und Ähnliches ging, was möglicherweise auch Gegenstand von Tätigkeiten des Bundesnachrichtendienstes war. Daher meine Frage: Hat die Bundesregierung den Untersuchungsausschüssen in den Ländern und im Bund alle Unterlagen im Bundesnachrichtendienst zu Carsten Szczepanski geliefert?",
-            "sentences": [
-              {
-                "text": "Im Zuge der NSU-Aufklärung könnte neben der Frage des Kontaktes aber interessant sein, ob es im BND Informationen zu Carsten Szczepanski gab, weil er über seine Aktivitäten bei Blood & Honour und KKK mit internationalen militanten Neonazi-Organisationen in Kontakt stand und es dort um Waffenbeschaffungen und Ähnliches ging, was möglicherweise auch Gegenstand von Tätigkeiten des Bundesnachrichtendienstes war."
-              },
-              {
-                "text": "Daher meine Frage: Hat die Bundesregierung den Untersuchungsausschüssen in den Ländern und im Bund alle Unterlagen im Bundesnachrichtendienst zu Carsten Szczepanski geliefert?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Klaus-Dieter Fritsche",
-            "speakerstatus": "speaker",
-            "text": "Frau Abgeordnete, zunächst einmal auf den BND eingehend: Es gibt im BND keine Erkenntnisse, auch nicht im Zuge seiner sonstigen Aufträge der Auslandsaufklärung, die irgendwelche Hinweise auf Herrn Szczepanski oder das Umfeld von Herrn Szczepanski betreffen. – Das ist das eine.",
-            "sentences": [
-              {
-                "text": "Frau Abgeordnete, zunächst einmal auf den BND eingehend: Es gibt im BND keine Erkenntnisse, auch nicht im Zuge seiner sonstigen Aufträge der Auslandsaufklärung, die irgendwelche Hinweise auf Herrn Szczepanski oder das Umfeld von Herrn Szczepanski betreffen."
-              },
-              {
-                "text": "– Das ist das eine."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Klaus-Dieter Fritsche",
-            "speakerstatus": "speaker",
-            "text": "Zum anderen gehe ich davon aus, dass die Bundesregierung im Rahmen des rechtlich Zulässigen all das den Landesuntersuchungsausschüssen vorgelegt hat, was diesen Ausschüssen vorzulegen ist.",
-            "sentences": [
-              {
-                "text": "Zum anderen gehe ich davon aus, dass die Bundesregierung im Rahmen des rechtlich Zulässigen all das den Landesuntersuchungsausschüssen vorgelegt hat, was diesen Ausschüssen vorzulegen ist."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Sie haben das Wort zu einer zweiten Nachfrage.",
-            "sentences": [
-              {
-                "text": "Sie haben das Wort zu einer zweiten Nachfrage."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Martina Renner",
-            "speakerstatus": "speaker",
-            "text": "Sie haben jetzt eingeschränkt, dass den Landesuntersuchungsausschüssen alles vorgelegt wurde, was rechtlich zulässig ist. Ich frage noch einmal konkret zum Untersuchungsausschuss des Bundes: Sind diesem alle Aktenrückhalte des Bundesnachrichtendienstes zu Carsten Szczepanski übergeben worden?",
-            "sentences": [
-              {
-                "text": "Sie haben jetzt eingeschränkt, dass den Landesuntersuchungsausschüssen alles vorgelegt wurde, was rechtlich zulässig ist."
-              },
-              {
-                "text": "Ich frage noch einmal konkret zum Untersuchungsausschuss des Bundes: Sind diesem alle Aktenrückhalte des Bundesnachrichtendienstes zu Carsten Szczepanski übergeben worden?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Klaus-Dieter Fritsche",
-            "speakerstatus": "speaker",
-            "text": "Da es in den Dateien des Bundesnachrichtendienstes aufgrund dessen, was ich bisher gesagt habe, keinerlei Daten über Herrn Szczepanski gibt, musste seitens des Bundesnachrichtendienstes und des Geschäftsbereichs des Bundeskanzleramtes nichts vorgelegt werden.",
-            "sentences": [
-              {
-                "text": "Da es in den Dateien des Bundesnachrichtendienstes aufgrund dessen, was ich bisher gesagt habe, keinerlei Daten über Herrn Szczepanski gibt, musste seitens des Bundesnachrichtendienstes und des Geschäftsbereichs des Bundeskanzleramtes nichts vorgelegt werden."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Danke, Herr Staatssekretär. – Wir sind damit schon am Ende Ihres Geschäftsbereiches.",
-            "sentences": [
-              {
-                "text": "Danke, Herr Staatssekretär."
-              },
-              {
-                "text": "– Wir sind damit schon am Ende Ihres Geschäftsbereiches."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Ich rufe den Geschäftsbereich des Auswärtigen Amtes auf. Zur Beantwortung steht die Staatsministerin Professor Dr. Maria Böhmer zur Verfügung.",
-            "sentences": [
-              {
-                "text": "Ich rufe den Geschäftsbereich des Auswärtigen Amtes auf."
-              },
-              {
-                "text": "Zur Beantwortung steht die Staatsministerin Professor Dr. Maria Böhmer zur Verfügung."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Ich rufe die Frage 52 des Abgeordneten Dr. Anton Friesen aus der AfD-Fraktion auf:",
-            "sentences": [
-              {
-                "text": "Ich rufe die Frage 52 des Abgeordneten Dr. Anton Friesen aus der AfD-Fraktion auf:"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Bitte, Frau Staatsministerin.",
-            "sentences": [
-              {
-                "text": "Bitte, Frau Staatsministerin."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Maria Böhmer",
-            "speakerstatus": "speaker",
-            "text": "Danke, Frau Präsidentin. – Herr Abgeordneter, ich darf Ihre Frage wie folgt beantworten: Die am 2. Februar vorgestellte US-Nuklearstrategie setzt zum Großteil die bereits unter Präsident Barack Obama eingeleitete Modernisierung der alternden nuklearen Triade der USA fort. Die USA bekennen sich weiterhin zur Bedeutung des Nichtverbreitungsvertrags, den bestehenden Abrüstungs- und Rüstungskontrollverpflichtungen sowie zur weltweiten Vernichtung aller Massenvernichtungswaffen. Neu sind die Ankündigungen der Bereitstellung einer begrenzten Anzahl von Sprengköpfen mit niedriger Kernladung sowie die mittelfristige Entwicklung eines nuklearfähigen seegestützten Marschflugkörpers.",
-            "sentences": [
-              {
-                "text": "Danke, Frau Präsidentin."
-              },
-              {
-                "text": "– Herr Abgeordneter, ich darf Ihre Frage wie folgt beantworten: Die am 2. Februar vorgestellte US-Nuklearstrategie setzt zum Großteil die bereits unter Präsident Barack Obama eingeleitete Modernisierung der alternden nuklearen Triade der USA fort."
-              },
-              {
-                "text": "Die USA bekennen sich weiterhin zur Bedeutung des Nichtverbreitungsvertrags, den bestehenden Abrüstungs- und Rüstungskontrollverpflichtungen sowie zur weltweiten Vernichtung aller Massenvernichtungswaffen."
-              },
-              {
-                "text": "Neu sind die Ankündigungen der Bereitstellung einer begrenzten Anzahl von Sprengköpfen mit niedriger Kernladung sowie die mittelfristige Entwicklung eines nuklearfähigen seegestützten Marschflugkörpers."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Maria Böhmer",
-            "speakerstatus": "speaker",
-            "text": "Laut der Nuklearstrategie reagieren die USA damit auf ein in den letzten Jahren verändertes internationales Sicherheitsumfeld. Die völkerrechtswidrige Annexion der Krim hat zu einem Vertrauensverlust gegenüber Russland geführt. Es gibt Hinweise darauf, dass Russland nicht nur konventionell, sondern auch nuklear aufrüstet. Darüber hinaus gibt es auch in Asien nukleare Aufrüstungstendenzen.",
-            "sentences": [
-              {
-                "text": "Laut der Nuklearstrategie reagieren die USA damit auf ein in den letzten Jahren verändertes internationales Sicherheitsumfeld."
-              },
-              {
-                "text": "Die völkerrechtswidrige Annexion der Krim hat zu einem Vertrauensverlust gegenüber Russland geführt."
-              },
-              {
-                "text": "Es gibt Hinweise darauf, dass Russland nicht nur konventionell, sondern auch nuklear aufrüstet."
-              },
-              {
-                "text": "Darüber hinaus gibt es auch in Asien nukleare Aufrüstungstendenzen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Maria Böhmer",
-            "speakerstatus": "speaker",
-            "text": "Die sich wechselseitig beschleunigende Entwicklung von neuen Nuklearwaffen betrachtet die Bundesregierung gleichwohl mit Sorge, auch für die Sicherheit in Europa. Deshalb setzen wir uns für neue Initiativen zur Rüstungskontrolle und Abrüstung ein. Die Bundesregierung setzt sich auch dafür ein, dass die bestehenden Rüstungskontrollverträge unbedingt eingehalten werden.",
-            "sentences": [
-              {
-                "text": "Die sich wechselseitig beschleunigende Entwicklung von neuen Nuklearwaffen betrachtet die Bundesregierung gleichwohl mit Sorge, auch für die Sicherheit in Europa."
-              },
-              {
-                "text": "Deshalb setzen wir uns für neue Initiativen zur Rüstungskontrolle und Abrüstung ein."
-              },
-              {
-                "text": "Die Bundesregierung setzt sich auch dafür ein, dass die bestehenden Rüstungskontrollverträge unbedingt eingehalten werden."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Sie haben das Wort zu einer ersten Nachfrage.",
-            "sentences": [
-              {
-                "text": "Sie haben das Wort zu einer ersten Nachfrage."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Anton Friesen",
-            "speakerstatus": "speaker",
-            "text": "Vielen Dank. – Zunächst einmal würde mich interessieren, wie die Bundesregierung die sinkende Einsatzschwelle von Atomwaffen durch die Entwicklung von sogenannten kleineren Atombomben im Hinblick auf eine mögliche Eskalation eines konventionellen Krieges zum Beispiel zu einem nuklearen Konflikt einschätzt. Das wäre die erste Frage.",
-            "sentences": [
-              {
-                "text": "Vielen Dank."
-              },
-              {
-                "text": "– Zunächst einmal würde mich interessieren, wie die Bundesregierung die sinkende Einsatzschwelle von Atomwaffen durch die Entwicklung von sogenannten kleineren Atombomben im Hinblick auf eine mögliche Eskalation eines konventionellen Krieges zum Beispiel zu einem nuklearen Konflikt einschätzt."
-              },
-              {
-                "text": "Das wäre die erste Frage."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Anton Friesen",
-            "speakerstatus": "speaker",
-            "text": "Zu meiner zweiten Frage.",
-            "sentences": [
-              {
-                "text": "Zu meiner zweiten Frage."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Wir warten bitte auf die Beantwortung der ersten Frage. Dann erteile ich das Wort zur zweiten.",
-            "sentences": [
-              {
-                "text": "Wir warten bitte auf die Beantwortung der ersten Frage."
-              },
-              {
-                "text": "Dann erteile ich das Wort zur zweiten."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Anton Friesen",
-            "speakerstatus": "speaker",
-            "text": "Ja, gerne.",
-            "sentences": [
-              {
-                "text": "Ja, gerne."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Maria Böhmer",
-            "speakerstatus": "speaker",
-            "text": "Danke, Frau Präsidentin. – Die Frage, die Sie stellen, liegt natürlich nahe. Das ist etwas, was uns alle bewegt und umtreiben muss. Ich will Ihnen hier die Einschätzung des Verteidigungsministers der Vereinigten Staaten, James Mattis, mitteilen; denn ich glaube, wie die USA es sehen, ist ein ganz wichtiger Punkt. Er hat in einer Stellungnahme vor dem Streitkräfteausschuss des Repräsentantenhauses am 6. Februar bekräftigt, dass der neue Ansatz der USA die Schwelle des Einsatzes von Nuklearwaffen nicht absenkt. Dass er sich vor dem Streitkräfteausschuss geäußert hat, signalisiert, dass diese Frage nicht nur uns umtreibt, sondern auch die in den USA hierfür zuständigen Kolleginnen und Kollegen beschäftigt. Ich setze darauf, dass wir diese Aussage als etwas erachten können, was die Intention der USA deutlich macht.",
-            "sentences": [
-              {
-                "text": "Danke, Frau Präsidentin."
-              },
-              {
-                "text": "– Die Frage, die Sie stellen, liegt natürlich nahe."
-              },
-              {
-                "text": "Das ist etwas, was uns alle bewegt und umtreiben muss."
-              },
-              {
-                "text": "Ich will Ihnen hier die Einschätzung des Verteidigungsministers der Vereinigten Staaten, James Mattis, mitteilen; denn ich glaube, wie die USA es sehen, ist ein ganz wichtiger Punkt."
-              },
-              {
-                "text": "Er hat in einer Stellungnahme vor dem Streitkräfteausschuss des Repräsentantenhauses am 6. Februar bekräftigt, dass der neue Ansatz der USA die Schwelle des Einsatzes von Nuklearwaffen nicht absenkt."
-              },
-              {
-                "text": "Dass er sich vor dem Streitkräfteausschuss geäußert hat, signalisiert, dass diese Frage nicht nur uns umtreibt, sondern auch die in den USA hierfür zuständigen Kolleginnen und Kollegen beschäftigt."
-              },
-              {
-                "text": "Ich setze darauf, dass wir diese Aussage als etwas erachten können, was die Intention der USA deutlich macht."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Sie haben das Wort zur zweiten Nachfrage.",
-            "sentences": [
-              {
-                "text": "Sie haben das Wort zur zweiten Nachfrage."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Anton Friesen",
-            "speakerstatus": "speaker",
-            "text": "Vielen Dank. – Sie haben ja hinsichtlich der Rüstungskontrollvereinbarungen schon angedeutet, dass es den INF-Vertrag gibt. Die zweite Nachfrage wäre: Auf welche Art und Weise wird sich die Bundesregierung dafür einsetzen, dass der INF-Vertrag so, also mit allen Vertragsparteien, erhalten bleibt und ihn nicht einzelne Vertragsparteien verletzen oder aus ihm ausscheiden?",
-            "sentences": [
-              {
-                "text": "Vielen Dank."
-              },
-              {
-                "text": "– Sie haben ja hinsichtlich der Rüstungskontrollvereinbarungen schon angedeutet, dass es den INF-Vertrag gibt."
-              },
-              {
-                "text": "Die zweite Nachfrage wäre: Auf welche Art und Weise wird sich die Bundesregierung dafür einsetzen, dass der INF-Vertrag so, also mit allen Vertragsparteien, erhalten bleibt und ihn nicht einzelne Vertragsparteien verletzen oder aus ihm ausscheiden?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Maria Böhmer",
-            "speakerstatus": "speaker",
-            "text": "Ich darf Ihnen versichern, dass wir als Bundesregierung – ich gehe davon aus, dass das auch für die zukünftige Bundesregierung gilt – alles daransetzen, dass bestehende Verträge eingehalten werden; denn nur dann, wenn man sich darauf verlassen kann, ist auch im Bereich der Abrüstung davon auszugehen, dass sich die Welt ein Stück sicherer darstellt. Gerade wenn wir die Frage der Nuklearwaffen diskutieren, ist dieser Punkt von entscheidender Bedeutung.",
-            "sentences": [
-              {
-                "text": "Ich darf Ihnen versichern, dass wir als Bundesregierung – ich gehe davon aus, dass das auch für die zukünftige Bundesregierung gilt – alles daransetzen, dass bestehende Verträge eingehalten werden; denn nur dann, wenn man sich darauf verlassen kann, ist auch im Bereich der Abrüstung davon auszugehen, dass sich die Welt ein Stück sicherer darstellt."
-              },
-              {
-                "text": "Gerade wenn wir die Frage der Nuklearwaffen diskutieren, ist dieser Punkt von entscheidender Bedeutung."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Die Frage 53 des Kollegen Omid Nouripour soll schriftlich beantwortet werden.",
-            "sentences": [
-              {
-                "text": "Die Frage 53 des Kollegen Omid Nouripour soll schriftlich beantwortet werden."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Als letzte Frage in der Fragestunde rufe ich jetzt die Frage 54 der Abgeordneten Renata Alt von der FDP-Fraktion auf:",
-            "sentences": [
-              {
-                "text": "Als letzte Frage in der Fragestunde rufe ich jetzt die Frage 54 der Abgeordneten Renata Alt von der FDP-Fraktion auf:"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Bitte, Frau Staatsministerin.",
-            "sentences": [
-              {
-                "text": "Bitte, Frau Staatsministerin."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Maria Böhmer",
-            "speakerstatus": "speaker",
-            "text": "Danke, Frau Präsidentin. – Frau Alt, zunächst herzlichen Dank, dass Sie so lange ausgehalten haben; mir ging es genauso. Ich will gerne auf Ihre Frage eingehen.",
-            "sentences": [
-              {
-                "text": "Danke, Frau Präsidentin."
-              },
-              {
-                "text": "– Frau Alt, zunächst herzlichen Dank, dass Sie so lange ausgehalten haben; mir ging es genauso."
-              },
-              {
-                "text": "Ich will gerne auf Ihre Frage eingehen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Maria Böhmer",
-            "speakerstatus": "speaker",
-            "text": "Zunächst einmal möchte ich auf die heutige Sitzung des Auswärtigen Ausschusses verweisen; ich nehme an, dass Sie teilgenommen haben. Dort wurde die Westbalkanstrategie der EU-Kommission thematisiert. Die EU-Kommission nennt in ihrer Strategie einen etwaigen Beitritt im Jahr 2025 als „extrem ambitioniertes Ziel“, das Montenegro und Serbien erreichen könnten, wenn sie alle Bedingungen für den Beitritt erfüllen. Es handelt sich also um keinen Automatismus.",
-            "sentences": [
-              {
-                "text": "Zunächst einmal möchte ich auf die heutige Sitzung des Auswärtigen Ausschusses verweisen; ich nehme an, dass Sie teilgenommen haben."
-              },
-              {
-                "text": "Dort wurde die Westbalkanstrategie der EU-Kommission thematisiert."
-              },
-              {
-                "text": "Die EU-Kommission nennt in ihrer Strategie einen etwaigen Beitritt im Jahr 2025 als „extrem ambitioniertes Ziel“, das Montenegro und Serbien erreichen könnten, wenn sie alle Bedingungen für den Beitritt erfüllen."
-              },
-              {
-                "text": "Es handelt sich also um keinen Automatismus."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Maria Böhmer",
-            "speakerstatus": "speaker",
-            "text": "Serbien und Montenegro müssen gemäß den geltenden Prinzipien der EU-Erweiterung alle Kopenhagener Kriterien erfüllen, das gesamte EU-Recht übernehmen und alle zur Erfüllung der Kriterien nötigen Reformen erfolgreich abgeschlossen haben. Besonderes Augenmerk legen die Bundesregierung und die EU-Mitgliedstaaten dabei auf die vordringlichen Bereiche Rechtsstaat, Bekämpfung von Korruption und organisierter Kriminalität sowie Medienfreiheit. Wichtig sind außerdem die Wettbewerbsfähigkeit, die regionale Kooperation und Versöhnung. Ich darf noch einmal betonen, dass ausnahmslos alle Kriterien erfüllt sein müssen. Diese Bereiche sind aber schon im Beitrittsprozess prioritär.",
-            "sentences": [
-              {
-                "text": "Serbien und Montenegro müssen gemäß den geltenden Prinzipien der EU-Erweiterung alle Kopenhagener Kriterien erfüllen, das gesamte EU-Recht übernehmen und alle zur Erfüllung der Kriterien nötigen Reformen erfolgreich abgeschlossen haben."
-              },
-              {
-                "text": "Besonderes Augenmerk legen die Bundesregierung und die EU-Mitgliedstaaten dabei auf die vordringlichen Bereiche Rechtsstaat, Bekämpfung von Korruption und organisierter Kriminalität sowie Medienfreiheit."
-              },
-              {
-                "text": "Wichtig sind außerdem die Wettbewerbsfähigkeit, die regionale Kooperation und Versöhnung."
-              },
-              {
-                "text": "Ich darf noch einmal betonen, dass ausnahmslos alle Kriterien erfüllt sein müssen."
-              },
-              {
-                "text": "Diese Bereiche sind aber schon im Beitrittsprozess prioritär."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Maria Böhmer",
-            "speakerstatus": "speaker",
-            "text": "Ich will noch einen Punkt nennen, der uns und der EU wichtig ist: Für einen Beitritt von Westbalkanstaaten zur Europäischen Union ist zentral, dass bilaterale Streitigkeiten vor einem Beitritt vollständig gelöst sind. Das bedeutet für Serbien eine vertraglich verbindliche Regelung der umfassenden Normalisierung der Beziehungen zum Kosovo.",
-            "sentences": [
-              {
-                "text": "Ich will noch einen Punkt nennen, der uns und der EU wichtig ist: Für einen Beitritt von Westbalkanstaaten zur Europäischen Union ist zentral, dass bilaterale Streitigkeiten vor einem Beitritt vollständig gelöst sind."
-              },
-              {
-                "text": "Das bedeutet für Serbien eine vertraglich verbindliche Regelung der umfassenden Normalisierung der Beziehungen zum Kosovo."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Sie haben das Wort zur ersten Nachfrage.",
-            "sentences": [
-              {
-                "text": "Sie haben das Wort zur ersten Nachfrage."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Renata Alt",
-            "speakerstatus": "speaker",
-            "text": "Vielen Dank, Frau Präsidentin. – Vielen Dank, Frau Staatsministerin. Meine Nachfrage lautet wie folgt: In welchen Bereichen und mit welchen Maßnahmen wird die Bundesregierung die Heranführung dieser beiden Staaten an die EU unterstützen?",
-            "sentences": [
-              {
-                "text": "Vielen Dank, Frau Präsidentin."
-              },
-              {
-                "text": "– Vielen Dank, Frau Staatsministerin."
-              },
-              {
-                "text": "Meine Nachfrage lautet wie folgt: In welchen Bereichen und mit welchen Maßnahmen wird die Bundesregierung die Heranführung dieser beiden Staaten an die EU unterstützen?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Maria Böhmer",
-            "speakerstatus": "speaker",
-            "text": "Wir arbeiten hier immer mit vielfältigen Unterstützungsmaßnahmen. Es gibt in diesem Transformationsprozess von unserer Seite beispielsweise auch Maßnahmen zur Modernisierung der Infrastruktur. Wir sind dabei, wenn es um Justizreformen geht. Wir geben Hilfestellung, wenn es um Moderationsverfahren geht. Wir unterstützen also in vielfältiger Art und Weise. Ich glaube, das ist eine besondere Aufgabe, der wir uns hier stellen.",
-            "sentences": [
-              {
-                "text": "Wir arbeiten hier immer mit vielfältigen Unterstützungsmaßnahmen."
-              },
-              {
-                "text": "Es gibt in diesem Transformationsprozess von unserer Seite beispielsweise auch Maßnahmen zur Modernisierung der Infrastruktur."
-              },
-              {
-                "text": "Wir sind dabei, wenn es um Justizreformen geht."
-              },
-              {
-                "text": "Wir geben Hilfestellung, wenn es um Moderationsverfahren geht."
-              },
-              {
-                "text": "Wir unterstützen also in vielfältiger Art und Weise."
-              },
-              {
-                "text": "Ich glaube, das ist eine besondere Aufgabe, der wir uns hier stellen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Sie haben das Wort zur zweiten Nachfrage.",
-            "sentences": [
-              {
-                "text": "Sie haben das Wort zur zweiten Nachfrage."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Renata Alt",
-            "speakerstatus": "speaker",
-            "text": "Vielen Dank, Frau Präsidentin. – Frau Staatsministerin, Sie haben vorhin erwähnt, dass alle Bedingungen, also auch die Kopenhagener Kriterien, erfüllt werden müssen. In diesem Zusammenhang möchte ich Sie fragen: Wie gedenkt die Bundesregierung darauf hinzuwirken, dass Kosovo sowohl von allen jetzigen EU-Mitgliedern als auch von allen potenziellen Beitrittskandidaten als Staat anerkannt wird?",
-            "sentences": [
-              {
-                "text": "Vielen Dank, Frau Präsidentin."
-              },
-              {
-                "text": "– Frau Staatsministerin, Sie haben vorhin erwähnt, dass alle Bedingungen, also auch die Kopenhagener Kriterien, erfüllt werden müssen."
-              },
-              {
-                "text": "In diesem Zusammenhang möchte ich Sie fragen: Wie gedenkt die Bundesregierung darauf hinzuwirken, dass Kosovo sowohl von allen jetzigen EU-Mitgliedern als auch von allen potenziellen Beitrittskandidaten als Staat anerkannt wird?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Maria Böhmer",
-            "speakerstatus": "speaker",
-            "text": "Frau Alt, ich darf daran erinnern, dass der Bundesaußenminister vor wenigen Tagen eine Reise nach Serbien und Kosovo unternommen hat. Er hat dabei noch einmal an Serbien appelliert, dass man Realismus walten lassen müsse und die Unabhängigkeit des Kosovo akzeptiert werden sollte.",
-            "sentences": [
-              {
-                "text": "Frau Alt, ich darf daran erinnern, dass der Bundesaußenminister vor wenigen Tagen eine Reise nach Serbien und Kosovo unternommen hat."
-              },
-              {
-                "text": "Er hat dabei noch einmal an Serbien appelliert, dass man Realismus walten lassen müsse und die Unabhängigkeit des Kosovo akzeptiert werden sollte."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Danke, Frau Staatsministerin. – Wir sind damit am Ende der Fragestunde. Die übrigen Fragen werden entsprechend unseren Regeln schriftlich beantwortet.",
-            "sentences": [
-              {
-                "text": "Danke, Frau Staatsministerin."
-              },
-              {
-                "text": "– Wir sind damit am Ende der Fragestunde."
-              },
-              {
-                "text": "Die übrigen Fragen werden entsprechend unseren Regeln schriftlich beantwortet."
-              }
-            ]
           }
         ]
       }
@@ -11234,7 +9426,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 66,
+      "speechIndex": 1068,
       "title": "Aktuelle Stunde: Demonstrationsrechte von Frauen stärken"
     },
     "people": [
@@ -11247,12 +9439,45 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19013-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19013-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
         "originTextID": "",
         "textBody": [
+          {
+            "type": "speech",
+            "speaker": "Petra Pau",
+            "speakerstatus": "vice-president",
+            "text": "Aktuelle Stunde",
+            "sentences": [
+              {
+                "text": "Aktuelle Stunde"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Petra Pau",
+            "speakerstatus": "vice-president",
+            "text": "auf Verlangen der Fraktion der AfD",
+            "sentences": [
+              {
+                "text": "auf Verlangen der Fraktion der AfD"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Petra Pau",
+            "speakerstatus": "vice-president",
+            "text": "Demonstrationsrechte von Frauen stärken",
+            "sentences": [
+              {
+                "text": "Demonstrationsrechte von Frauen stärken"
+              }
+            ]
+          },
           {
             "type": "speech",
             "speaker": "Petra Pau",
@@ -11332,7 +9557,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 67,
+      "speechIndex": 1069,
       "title": "Aktuelle Stunde: Demonstrationsrechte von Frauen stärken"
     },
     "people": [
@@ -11353,7 +9578,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19013-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19013-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -11865,7 +10090,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 68,
+      "speechIndex": 1070,
       "title": "Aktuelle Stunde: Demonstrationsrechte von Frauen stärken"
     },
     "people": [
@@ -11886,7 +10111,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19013-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19013-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -12563,7 +10788,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 69,
+      "speechIndex": 1071,
       "title": "Aktuelle Stunde: Demonstrationsrechte von Frauen stärken"
     },
     "people": [
@@ -12584,7 +10809,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19013-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19013-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -12934,7 +11159,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 70,
+      "speechIndex": 1072,
       "title": "Aktuelle Stunde: Demonstrationsrechte von Frauen stärken"
     },
     "people": [
@@ -12955,7 +11180,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19013-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19013-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -13452,7 +11677,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 71,
+      "speechIndex": 1073,
       "title": "Aktuelle Stunde: Demonstrationsrechte von Frauen stärken"
     },
     "people": [
@@ -13473,7 +11698,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19013-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19013-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -14077,7 +12302,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 72,
+      "speechIndex": 1074,
       "title": "Aktuelle Stunde: Demonstrationsrechte von Frauen stärken"
     },
     "people": [
@@ -14098,7 +12323,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19013-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19013-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -14469,7 +12694,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 73,
+      "speechIndex": 1075,
       "title": "Aktuelle Stunde: Demonstrationsrechte von Frauen stärken"
     },
     "people": [
@@ -14490,7 +12715,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19013-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19013-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -14906,7 +13131,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 74,
+      "speechIndex": 1076,
       "title": "Aktuelle Stunde: Demonstrationsrechte von Frauen stärken"
     },
     "people": [
@@ -14927,7 +13152,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19013-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19013-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -15423,7 +13648,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 75,
+      "speechIndex": 1077,
       "title": "Aktuelle Stunde: Demonstrationsrechte von Frauen stärken"
     },
     "people": [
@@ -15444,7 +13669,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19013-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19013-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -16196,7 +14421,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 76,
+      "speechIndex": 1078,
       "title": "Aktuelle Stunde: Demonstrationsrechte von Frauen stärken"
     },
     "people": [
@@ -16217,7 +14442,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19013-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19013-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -16739,7 +14964,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 77,
+      "speechIndex": 1079,
       "title": "Aktuelle Stunde: Demonstrationsrechte von Frauen stärken"
     },
     "people": [
@@ -16760,7 +14985,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19013-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19013-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -17126,7 +15351,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 78,
+      "speechIndex": 1080,
       "title": "Aktuelle Stunde: Demonstrationsrechte von Frauen stärken"
     },
     "people": [
@@ -17137,17 +15362,12 @@
         "lastname": "Amthor",
         "context": "main-speaker",
         "faction": "CDU/CSU"
-      },
-      {
-        "type": "memberOfParliament",
-        "label": "Claudia Roth",
-        "context": "vice-president"
       }
     ],
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19013-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19013-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -17631,18 +15851,55 @@
                 "text": "Herzlichen Dank."
               }
             ]
-          },
-          {
-            "type": "comment",
-            "speaker": null,
-            "speakerstatus": null,
-            "text": "(Beifall bei der CDU/CSU sowie bei Abgeordneten der FDP)",
-            "sentences": [
-              {
-                "text": "(Beifall bei der CDU/CSU sowie bei Abgeordneten der FDP)"
-              }
-            ]
-          },
+          }
+        ]
+      }
+    ],
+    "documents": [],
+    "key": "19-13 zusatzpunkt 1 (philipp amthor)",
+    "dateStart": "2018-02-21T15:41:10",
+    "dateEnd": "2018-02-21T15:46:22",
+    "media": {
+      "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7202723/7202723_h264_720_400_2000kb_baseline_de_2192.mp4",
+      "sourcePage": "http://dbtg.tv/fvid/7202723",
+      "duration": 312.0,
+      "creator": "Deutscher Bundestag",
+      "license": "CC-BY-SA",
+      "originMediaID": "7202723",
+      "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7202723/7202723_mp3_128kb_stereo_de_128.mp3"
+    }
+  },
+  {
+    "parliament": "DE",
+    "electoralPeriod": {
+      "number": "19"
+    },
+    "session": {
+      "number": "13",
+      "dateStart": "2018-02-21T13:00",
+      "dateEnd": "2018-02-21T16:46"
+    },
+    "agendaItem": {
+      "officialTitle": "Zusatzpunkt 1",
+      "speechIndex": 1081,
+      "title": "Aktuelle Stunde: Demonstrationsrechte von Frauen stärken"
+    },
+    "people": [
+      {
+        "type": "memberOfParliament",
+        "label": "Claudia Roth",
+        "context": "vice-president"
+      }
+    ],
+    "textContents": [
+      {
+        "type": "proceedings",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19013-data.xml",
+        "creator": "Deutscher Bundestag",
+        "license": "Public Domain",
+        "language": "DE-de",
+        "originTextID": "",
+        "textBody": [
           {
             "type": "speech",
             "speaker": "Claudia Roth",
@@ -17692,37 +15949,25 @@
                 "text": "Ich wünsche Ihnen noch einen schönen Tag."
               }
             ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "(Schluss: 16.46 Uhr)",
+            "sentences": [
+              {
+                "text": "(Schluss: 16.46 Uhr)"
+              }
+            ]
           }
         ]
       }
     ],
     "documents": [],
-    "key": "19-13 zusatzpunkt 1 (philipp amthor)",
-    "dateStart": "2018-02-21T15:41:10",
-    "dateEnd": "2018-02-21T15:46:22",
-    "media": {
-      "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7202723/7202723_h264_720_400_2000kb_baseline_de_2192.mp4",
-      "sourcePage": "http://dbtg.tv/fvid/7202723",
-      "duration": 312.0,
-      "creator": "Deutscher Bundestag",
-      "license": "CC-BY-SA",
-      "originMediaID": "7202723",
-      "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7202723/7202723_mp3_128kb_stereo_de_128.mp3"
-    }
-  },
-  {
-    "parliament": "DE",
-    "electoralPeriod": {
-      "number": 19
-    },
-    "session": {
-      "number": 13
-    },
-    "agendaItem": {
-      "title": "Aktuelle Stunde: Demonstrationsrechte von Frauen stärken",
-      "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 46
-    },
+    "key": "19-13 zusatzpunkt 1 (claudia roth)",
+    "dateStart": "2018-02-21T15:46:22",
+    "dateEnd": "2018-02-21T15:46:35",
     "media": {
       "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7202724/7202724_h264_720_400_2000kb_baseline_de_2192.mp4",
       "sourcePage": "http://dbtg.tv/fvid/7202724",
@@ -17731,18 +15976,7 @@
       "license": "CC-BY-SA",
       "originMediaID": "7202724",
       "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7202724/7202724_mp3_128kb_stereo_de_128.mp3"
-    },
-    "dateStart": "2018-02-21T15:46:22",
-    "dateEnd": "2018-02-21T15:46:35",
-    "people": [
-      {
-        "label": "Claudia Roth",
-        "faction": "BÜNDNIS 90/DIE GRÜNEN",
-        "context": "main-speaker",
-        "role": "Bundestagsvizepräsidentin"
-      }
-    ],
-    "key": "19-13 zusatzpunkt 1 (claudia roth)"
+    }
   },
   {
     "parliament": "DE",

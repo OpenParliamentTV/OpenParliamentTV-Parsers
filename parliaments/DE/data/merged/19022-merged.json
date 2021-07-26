@@ -11,7 +11,7 @@
     },
     "agendaItem": {
       "officialTitle": "Sitzungseröffnung",
-      "speechIndex": 0,
+      "speechIndex": 1000,
       "title": "Sitzungseröffnung"
     },
     "people": [
@@ -24,7 +24,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19022-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19022-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -96,7 +96,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 2,
+      "speechIndex": 1002,
       "title": "Befragung der Bundesregierung"
     },
     "people": [
@@ -109,12 +109,23 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19022-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19022-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
         "originTextID": "",
         "textBody": [
+          {
+            "type": "speech",
+            "speaker": "Petra Pau",
+            "speakerstatus": "vice-president",
+            "text": "Befragung der Bundesregierung",
+            "sentences": [
+              {
+                "text": "Befragung der Bundesregierung"
+              }
+            ]
+          },
           {
             "type": "speech",
             "speaker": "Petra Pau",
@@ -169,7 +180,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 3,
+      "speechIndex": 1003,
       "title": "Befragung der Bundesregierung"
     },
     "people": [
@@ -190,7 +201,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19022-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19022-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -454,7 +465,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 5,
+      "speechIndex": 1005,
       "title": "Befragung der Bundesregierung"
     },
     "people": [
@@ -475,7 +486,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19022-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19022-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -622,7 +633,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 7,
+      "speechIndex": 1007,
       "title": "Befragung der Bundesregierung"
     },
     "people": [
@@ -643,7 +654,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19022-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19022-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -715,7 +726,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 46,
+      "speechIndex": 1046,
       "title": "Befragung der Bundesregierung"
     },
     "people": [
@@ -736,7 +747,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19022-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19022-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -799,7 +810,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 48,
+      "speechIndex": 1048,
       "title": "Befragung der Bundesregierung"
     },
     "people": [
@@ -820,7 +831,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19022-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19022-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -915,7 +926,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 50,
+      "speechIndex": 1050,
       "title": "Befragung der Bundesregierung"
     },
     "people": [
@@ -936,7 +947,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19022-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19022-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -999,7 +1010,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 52,
+      "speechIndex": 1052,
       "title": "Befragung der Bundesregierung"
     },
     "people": [
@@ -1020,7 +1031,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19022-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19022-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -1089,7 +1100,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 54,
+      "speechIndex": 1054,
       "title": "Befragung der Bundesregierung"
     },
     "people": [
@@ -1110,7 +1121,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19022-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19022-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -1222,7 +1233,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 56,
+      "speechIndex": 1056,
       "title": "Befragung der Bundesregierung"
     },
     "people": [
@@ -1243,7 +1254,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19022-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19022-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -1312,7 +1323,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 58,
+      "speechIndex": 1058,
       "title": "Befragung der Bundesregierung"
     },
     "people": [
@@ -1333,7 +1344,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19022-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19022-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -1481,7 +1492,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 60,
+      "speechIndex": 1060,
       "title": "Befragung der Bundesregierung"
     },
     "people": [
@@ -1492,17 +1503,12 @@
         "lastname": "Krings",
         "context": "main-speaker",
         "faction": ""
-      },
-      {
-        "type": "memberOfParliament",
-        "label": "Petra Pau",
-        "context": "vice-president"
       }
     ],
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19022-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19022-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -1604,28 +1610,6 @@
                 "text": "Vielen Dank."
               }
             ]
-          },
-          {
-            "type": "comment",
-            "speaker": null,
-            "speakerstatus": null,
-            "text": "(Filiz Polat [BÜNDNIS 90/DIE GRÜNEN]: Und der Lagebericht?)",
-            "sentences": [
-              {
-                "text": "(Filiz Polat [BÜNDNIS 90/DIE GRÜNEN]: Und der Lagebericht?)"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Ich danke dem Bundesminister Maas und den Damen und Herren Staatssekretären für die Antworten und beende die Befragung der Bundesregierung.",
-            "sentences": [
-              {
-                "text": "Ich danke dem Bundesminister Maas und den Damen und Herren Staatssekretären für die Antworten und beende die Befragung der Bundesregierung."
-              }
-            ]
           }
         ]
       }
@@ -1656,7 +1640,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 2",
-      "speechIndex": 61,
+      "speechIndex": 1062,
       "title": "Fragestunde"
     },
     "people": [
@@ -1698,12 +1682,23 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19022-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19022-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
         "originTextID": "",
         "textBody": [
+          {
+            "type": "speech",
+            "speaker": "Petra Pau",
+            "speakerstatus": "vice-president",
+            "text": "Fragestunde",
+            "sentences": [
+              {
+                "text": "Fragestunde"
+              }
+            ]
+          },
           {
             "type": "speech",
             "speaker": "Petra Pau",
@@ -2662,7 +2657,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 3",
-      "speechIndex": 63,
+      "speechIndex": 1065,
       "title": "Regierungserklärung durch die Bundeskanzlerin"
     },
     "people": [
@@ -2675,12 +2670,34 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19022-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19022-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
         "originTextID": "",
         "textBody": [
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "Abgabe einer Regierungserklärung durch die Bundeskanzlerin",
+            "sentences": [
+              {
+                "text": "Abgabe einer Regierungserklärung durch die Bundeskanzlerin"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "mit anschließender Aussprache",
+            "sentences": [
+              {
+                "text": "mit anschließender Aussprache"
+              }
+            ]
+          },
           {
             "type": "speech",
             "speaker": "Wolfgang Schäuble",
@@ -2738,7 +2755,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 3",
-      "speechIndex": 64,
+      "speechIndex": 1066,
       "title": "Regierungserklärung durch die Bundeskanzlerin"
     },
     "people": [
@@ -2754,7 +2771,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19022-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19022-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -5891,17 +5908,6 @@
                 "text": "Herzlichen Dank."
               }
             ]
-          },
-          {
-            "type": "comment",
-            "speaker": null,
-            "speakerstatus": null,
-            "text": "(Langanhaltender Beifall bei der CDU/CSU – Anhaltender Beifall bei der SPD – Beifall bei Abgeordneten des BÜNDNISSES 90/DIE GRÜNEN – Abgeordnete der CDU/CSU erheben sich – Zurufe von der AfD: Alle hoch! – Jan Korte [DIE LINKE]: Ich fand es ja nicht so toll! Das ist ja nicht normal!)",
-            "sentences": [
-              {
-                "text": "(Langanhaltender Beifall bei der CDU/CSU – Anhaltender Beifall bei der SPD – Beifall bei Abgeordneten des BÜNDNISSES 90/DIE GRÜNEN – Abgeordnete der CDU/CSU erheben sich – Zurufe von der AfD: Alle hoch! – Jan Korte [DIE LINKE]: Ich fand es ja nicht so toll! Das ist ja nicht normal!)"
-              }
-            ]
           }
         ]
       }
@@ -6748,7 +6754,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 4",
-      "speechIndex": 87,
+      "speechIndex": 1091,
       "title": "Wahlen zu Gremien"
     },
     "people": [
@@ -6761,7 +6767,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19022-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19022-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -6843,6 +6849,28 @@
             "sentences": [
               {
                 "text": "Ich rufe Tagesordnungspunkt 4 a auf:"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "Wahlvorschlag der Fraktion der CDU/CSU",
+            "sentences": [
+              {
+                "text": "Wahlvorschlag der Fraktion der CDU/CSU"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "Wahl eines Mitglieds des Parlamentarischen Kontrollgremiums gemäß Artikel 45d des Grundgesetzes",
+            "sentences": [
+              {
+                "text": "Wahl eines Mitglieds des Parlamentarischen Kontrollgremiums gemäß Artikel 45d des Grundgesetzes"
               }
             ]
           },
@@ -6933,6 +6961,28 @@
             "type": "speech",
             "speaker": "Claudia Roth",
             "speakerstatus": "vice-president",
+            "text": "Wahlvorschläge der Fraktionen der CDU/CSU und AfD",
+            "sentences": [
+              {
+                "text": "Wahlvorschläge der Fraktionen der CDU/CSU und AfD"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "Wahl von Mitgliedern des Vertrauensgremiums gemäß § 10a Absatz 2 der Bundeshaushaltsordnung",
+            "sentences": [
+              {
+                "text": "Wahl von Mitgliedern des Vertrauensgremiums gemäß § 10a Absatz 2 der Bundeshaushaltsordnung"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
             "text": "Für die nun folgende Wahl brauchen Sie die graue Stimmkarte und Ihren grauen Wahlausweis. Auf Drucksache 19/1282 schlägt die Fraktion der CDU/CSU die Abgeordnete Patricia Lips und die Fraktion der AfD den Abgeordneten Marcus Bühl vor. Bei dieser Wahl haben Sie zwei Stimmen. Sie können bei beiden Kandidaten „ja“, „nein“ oder „enthalte mich“ ankreuzen. Auch diese Wahl findet offen statt; Sie können die Stimmkarte also an Ihrem Platz ankreuzen. Bitte geben Sie, wie gerade schon einmal, an der Urne zuerst Ihren grauen Wahlausweis ab, bevor Sie Ihre Stimmkarte einwerfen.",
             "sentences": [
               {
@@ -6995,6 +7045,28 @@
               },
               {
                 "text": "Ich rufe Tagesordnungspunkt 4 c auf:"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "Wahlvorschläge der Fraktionen der CDU/CSU, SPD und AfD",
+            "sentences": [
+              {
+                "text": "Wahlvorschläge der Fraktionen der CDU/CSU, SPD und AfD"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "Wahl von Mitgliedern des Gremiums gemäß § 3 des Bundesschuldenwesengesetzes",
+            "sentences": [
+              {
+                "text": "Wahl von Mitgliedern des Gremiums gemäß § 3 des Bundesschuldenwesengesetzes"
               }
             ]
           },
@@ -7069,6 +7141,28 @@
             "sentences": [
               {
                 "text": "Ich rufe Tagesordnungspunkt 4 d auf:"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "Wahlvorschläge der Fraktionen der CDU/CSU und AfD",
+            "sentences": [
+              {
+                "text": "Wahlvorschläge der Fraktionen der CDU/CSU und AfD"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "Wahl von Mitgliedern des Sondergremiums gemäß § 3 Absatz 3 des Stabilisierungsmechanismusgesetzes",
+            "sentences": [
+              {
+                "text": "Wahl von Mitgliedern des Sondergremiums gemäß § 3 Absatz 3 des Stabilisierungsmechanismusgesetzes"
               }
             ]
           },
@@ -7264,6 +7358,28 @@
             "type": "speech",
             "speaker": "Claudia Roth",
             "speakerstatus": "vice-president",
+            "text": "Wahlvorschläge der Fraktionen CDU/CSU, SPD, AfD, FDP, DIE LINKE und BÜNDNIS 90/DIE GRÜNEN",
+            "sentences": [
+              {
+                "text": "Wahlvorschläge der Fraktionen CDU/CSU, SPD, AfD, FDP, DIE LINKE und BÜNDNIS 90/DIE GRÜNEN"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "Wahl vom Deutschen Bundestag zu entsendender Mitglieder des Ausschusses nach Artikel 77 Absatz 2 des Grundgesetzes (Vermittlungsausschuss)",
+            "sentences": [
+              {
+                "text": "Wahl vom Deutschen Bundestag zu entsendender Mitglieder des Ausschusses nach Artikel 77 Absatz 2 des Grundgesetzes (Vermittlungsausschuss)"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
             "text": "Hierzu liegen Wahlvorschläge aller Fraktionen auf Drucksache 19/1285 vor. Wer stimmt für diese Wahlvorschläge? – Wer stimmt dagegen? – Wer enthält sich? – Die, die nicht mitgestimmt haben, zähle ich jetzt nicht. Die Wahlvorschläge sind einstimmig angenommen.",
             "sentences": [
               {
@@ -7294,6 +7410,28 @@
             "sentences": [
               {
                 "text": "Ich rufe den Tagesordnungspunkt 4 f auf:"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "Wahlvorschläge der Fraktionen CDU/CSU, SPD, AfD, FDP, DIE LINKE und BÜNDNIS 90/DIE GRÜNEN",
+            "sentences": [
+              {
+                "text": "Wahlvorschläge der Fraktionen CDU/CSU, SPD, AfD, FDP, DIE LINKE und BÜNDNIS 90/DIE GRÜNEN"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "Wahl der Mitglieder des Kuratoriums der Stiftung „Haus der Geschichte der Bundesrepublik Deutschland“",
+            "sentences": [
+              {
+                "text": "Wahl der Mitglieder des Kuratoriums der Stiftung „Haus der Geschichte der Bundesrepublik Deutschland“"
               }
             ]
           },
@@ -7335,6 +7473,28 @@
             "type": "speech",
             "speaker": "Claudia Roth",
             "speakerstatus": "vice-president",
+            "text": "Wahlvorschlag der Fraktion der CDU/CSU",
+            "sentences": [
+              {
+                "text": "Wahlvorschlag der Fraktion der CDU/CSU"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "Wahl eines Mitglieds des Stiftungsrates der „Stiftung caesar“ (Centre of Advanced European Studies and Research)",
+            "sentences": [
+              {
+                "text": "Wahl eines Mitglieds des Stiftungsrates der „Stiftung caesar“ (Centre of Advanced European Studies and Research)"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
             "text": "Wir stimmen ab über den Wahlvorschlag der Fraktion der CDU/CSU auf Drucksache 19/1287. Wer stimmt für diesen Wahlvorschlag? – Wer stimmt dagegen? – Enthalten mag sich auch niemand. Der Wahlvorschlag ist damit angenommen.",
             "sentences": [
               {
@@ -7359,6 +7519,28 @@
             "sentences": [
               {
                 "text": "Wir kommen zum Tagesordnungspunkt 4 h:"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "Wahlvorschläge der Fraktionen der CDU/CSU und SPD",
+            "sentences": [
+              {
+                "text": "Wahlvorschläge der Fraktionen der CDU/CSU und SPD"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "Wahl der Mitglieder des Parlamentarischen Beirats der „Stiftung für das sorbische Volk“",
+            "sentences": [
+              {
+                "text": "Wahl der Mitglieder des Parlamentarischen Beirats der „Stiftung für das sorbische Volk“"
               }
             ]
           },
@@ -7393,6 +7575,28 @@
               },
               {
                 "text": "Wir setzen nun Tagesordnungspunkt 3 fort:"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "Abgabe einer Regierungserklärung durch die Bundeskanzlerin",
+            "sentences": [
+              {
+                "text": "Abgabe einer Regierungserklärung durch die Bundeskanzlerin"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "(Fortsetzung der Aussprache)",
+            "sentences": [
+              {
+                "text": "(Fortsetzung der Aussprache)"
               }
             ]
           }
@@ -7976,7 +8180,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 5",
-      "speechIndex": 101,
+      "speechIndex": 1106,
       "title": "Bundeswehreinsatz in Mali (MINUSMA)"
     },
     "people": [
@@ -7989,12 +8193,34 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19022-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19022-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
         "originTextID": "",
         "textBody": [
+          {
+            "type": "speech",
+            "speaker": "Thomas Oppermann",
+            "speakerstatus": "vice-president",
+            "text": "Beratung des Antrags der Bundesregierung",
+            "sentences": [
+              {
+                "text": "Beratung des Antrags der Bundesregierung"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Thomas Oppermann",
+            "speakerstatus": "vice-president",
+            "text": "Fortsetzung der Beteiligung bewaffneter deutscher Streitkräfte an der Multidimensionalen Integrierten Stabilisierungsmission der Vereinten Nationen in Mali (MINUSMA) auf Grundlage der Resolutionen 2100 (2013), 2164 (2014), 2227 (2015), 2295 (2016) und 2364 (2017) vom 25. April 2013, 25. Juni 2014, 29. Juni 2015, 29. Juni 2016, 29. Juni 2017, ergänzt durch Resolution 2391 (2017) des Sicherheitsrates der Vereinten Nationen vom 8. Dezember 2017",
+            "sentences": [
+              {
+                "text": "Fortsetzung der Beteiligung bewaffneter deutscher Streitkräfte an der Multidimensionalen Integrierten Stabilisierungsmission der Vereinten Nationen in Mali (MINUSMA) auf Grundlage der Resolutionen 2100 (2013), 2164 (2014), 2227 (2015), 2295 (2016) und 2364 (2017) vom 25. April 2013, 25. Juni 2014, 29. Juni 2015, 29. Juni 2016, 29. Juni 2017, ergänzt durch Resolution 2391 (2017) des Sicherheitsrates der Vereinten Nationen vom 8. Dezember 2017"
+              }
+            ]
+          },
           {
             "type": "speech",
             "speaker": "Thomas Oppermann",
@@ -8061,7 +8287,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 5",
-      "speechIndex": 102,
+      "speechIndex": 1107,
       "title": "Bundeswehreinsatz in Mali (MINUSMA)"
     },
     "people": [
@@ -8090,7 +8316,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19022-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19022-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -8588,7 +8814,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 5",
-      "speechIndex": 103,
+      "speechIndex": 1108,
       "title": "Bundeswehreinsatz in Mali (MINUSMA)"
     },
     "people": [
@@ -8609,7 +8835,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19022-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19022-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -8969,7 +9195,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 5",
-      "speechIndex": 104,
+      "speechIndex": 1109,
       "title": "Bundeswehreinsatz in Mali (MINUSMA)"
     },
     "people": [
@@ -8990,7 +9216,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19022-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19022-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -9498,7 +9724,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 5",
-      "speechIndex": 105,
+      "speechIndex": 1110,
       "title": "Bundeswehreinsatz in Mali (MINUSMA)"
     },
     "people": [
@@ -9519,7 +9745,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19022-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19022-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -9856,7 +10082,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 5",
-      "speechIndex": 106,
+      "speechIndex": 1111,
       "title": "Bundeswehreinsatz in Mali (MINUSMA)"
     },
     "people": [
@@ -9885,7 +10111,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19022-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19022-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -10352,7 +10578,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 5",
-      "speechIndex": 107,
+      "speechIndex": 1112,
       "title": "Bundeswehreinsatz in Mali (MINUSMA)"
     },
     "people": [
@@ -10373,7 +10599,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19022-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19022-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -10669,7 +10895,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 5",
-      "speechIndex": 108,
+      "speechIndex": 1113,
       "title": "Bundeswehreinsatz in Mali (MINUSMA)"
     },
     "people": [
@@ -10680,17 +10906,12 @@
         "lastname": "Erndl",
         "context": "main-speaker",
         "faction": "CDU/CSU"
-      },
-      {
-        "type": "memberOfParliament",
-        "label": "Thomas Oppermann",
-        "context": "vice-president"
       }
     ],
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19022-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19022-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -10924,18 +11145,61 @@
                 "text": "Herzlichen Dank."
               }
             ]
-          },
-          {
-            "type": "comment",
-            "speaker": null,
-            "speakerstatus": null,
-            "text": "(Beifall bei der CDU/CSU)",
-            "sentences": [
-              {
-                "text": "(Beifall bei der CDU/CSU)"
-              }
-            ]
-          },
+          }
+        ]
+      }
+    ],
+    "documents": [
+      {
+        "type": "officialDocument",
+        "label": "Drucksache 19/1098",
+        "sourceURI": "https://dserver.bundestag.de/btd/19/010/1901098.pdf"
+      }
+    ],
+    "key": "19-22 tagesordnungspunkt 5 (thomas erndl)",
+    "dateStart": "2018-03-21T18:55:49",
+    "dateEnd": "2018-03-21T19:00:53",
+    "media": {
+      "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7211436/7211436_h264_720_400_2000kb_baseline_de_2192.mp4",
+      "sourcePage": "http://dbtg.tv/fvid/7211436",
+      "duration": 304.0,
+      "creator": "Deutscher Bundestag",
+      "license": "CC-BY-SA",
+      "originMediaID": "7211436",
+      "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7211436/7211436_mp3_128kb_stereo_de_128.mp3"
+    }
+  },
+  {
+    "parliament": "DE",
+    "electoralPeriod": {
+      "number": "19"
+    },
+    "session": {
+      "number": "22",
+      "dateStart": "2018-03-21T11:31",
+      "dateEnd": "2018-03-21T22:22"
+    },
+    "agendaItem": {
+      "officialTitle": "Tagesordnungspunkt 5",
+      "speechIndex": 1114,
+      "title": "Bundeswehreinsatz in Mali (MINUSMA)"
+    },
+    "people": [
+      {
+        "type": "memberOfParliament",
+        "label": "Thomas Oppermann",
+        "context": "vice-president"
+      }
+    ],
+    "textContents": [
+      {
+        "type": "proceedings",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19022-data.xml",
+        "creator": "Deutscher Bundestag",
+        "license": "Public Domain",
+        "language": "DE-de",
+        "originTextID": "",
+        "textBody": [
           {
             "type": "speech",
             "speaker": "Thomas Oppermann",
@@ -10980,32 +11244,9 @@
         "sourceURI": "https://dserver.bundestag.de/btd/19/010/1901098.pdf"
       }
     ],
-    "key": "19-22 tagesordnungspunkt 5 (thomas erndl)",
-    "dateStart": "2018-03-21T18:55:49",
-    "dateEnd": "2018-03-21T19:00:53",
-    "media": {
-      "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7211436/7211436_h264_720_400_2000kb_baseline_de_2192.mp4",
-      "sourcePage": "http://dbtg.tv/fvid/7211436",
-      "duration": 304.0,
-      "creator": "Deutscher Bundestag",
-      "license": "CC-BY-SA",
-      "originMediaID": "7211436",
-      "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7211436/7211436_mp3_128kb_stereo_de_128.mp3"
-    }
-  },
-  {
-    "parliament": "DE",
-    "electoralPeriod": {
-      "number": 19
-    },
-    "session": {
-      "number": 22
-    },
-    "agendaItem": {
-      "title": "Bundeswehreinsatz in Mali (MINUSMA)",
-      "officialTitle": "Tagesordnungspunkt 5",
-      "speechIndex": 69
-    },
+    "key": "19-22 tagesordnungspunkt 5 (thomas oppermann) #1",
+    "dateStart": "2018-03-21T19:00:53",
+    "dateEnd": "2018-03-21T19:01:15",
     "media": {
       "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7211437/7211437_h264_720_400_2000kb_baseline_de_2192.mp4",
       "sourcePage": "http://dbtg.tv/fvid/7211437",
@@ -11014,18 +11255,7 @@
       "license": "CC-BY-SA",
       "originMediaID": "7211437",
       "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7211437/7211437_mp3_128kb_stereo_de_128.mp3"
-    },
-    "dateStart": "2018-03-21T19:00:53",
-    "dateEnd": "2018-03-21T19:01:15",
-    "people": [
-      {
-        "label": "Thomas Oppermann",
-        "faction": "SPD",
-        "context": "main-speaker",
-        "role": "Bundestagsvizepräsident"
-      }
-    ],
-    "key": "19-22 tagesordnungspunkt 5 (thomas oppermann) #1"
+    }
   },
   {
     "parliament": "DE",

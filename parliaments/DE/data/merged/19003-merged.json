@@ -11,7 +11,7 @@
     },
     "agendaItem": {
       "officialTitle": "Sitzungseröffnung",
-      "speechIndex": 0,
+      "speechIndex": 1000,
       "title": "Sitzungseröffnung"
     },
     "people": [
@@ -24,7 +24,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19003-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19003-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -73,7 +73,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 11",
-      "speechIndex": 2,
+      "speechIndex": 1002,
       "title": "Bundeswehreinsatz in Mali (MINUSMA)"
     },
     "people": [
@@ -86,12 +86,34 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19003-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19003-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
         "originTextID": "",
         "textBody": [
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "Beratung des Antrags der Bundesregierung",
+            "sentences": [
+              {
+                "text": "Beratung des Antrags der Bundesregierung"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "Fortsetzung der Beteiligung bewaffneter deutscher Streitkräfte an der Multidimensionalen Integrierten Stabilisierungsmission der Vereinten Nationen in Mali (MINUSMA) auf Grundlage der Resolutionen 2100 (2013), 2164 (2014), 2227 (2015), 2295 (2016) und 2364 (2017) des Sicherheitsrates der Vereinten Nationen vom 25. April 2013, 25. Juni 2014, 29. Juni 2015, 29. Juni 2016 und 29. Juni 2017",
+            "sentences": [
+              {
+                "text": "Fortsetzung der Beteiligung bewaffneter deutscher Streitkräfte an der Multidimensionalen Integrierten Stabilisierungsmission der Vereinten Nationen in Mali (MINUSMA) auf Grundlage der Resolutionen 2100 (2013), 2164 (2014), 2227 (2015), 2295 (2016) und 2364 (2017) des Sicherheitsrates der Vereinten Nationen vom 25. April 2013, 25. Juni 2014, 29. Juni 2015, 29. Juni 2016 und 29. Juni 2017"
+              }
+            ]
+          },
           {
             "type": "speech",
             "speaker": "Wolfgang Schäuble",
@@ -158,7 +180,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 11",
-      "speechIndex": 3,
+      "speechIndex": 1003,
       "title": "Bundeswehreinsatz in Mali (MINUSMA)"
     },
     "people": [
@@ -179,7 +201,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19003-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19003-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -487,7 +509,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 11",
-      "speechIndex": 4,
+      "speechIndex": 1004,
       "title": "Bundeswehreinsatz in Mali (MINUSMA)"
     },
     "people": [
@@ -508,7 +530,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19003-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19003-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -921,7 +943,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 11",
-      "speechIndex": 5,
+      "speechIndex": 1005,
       "title": "Bundeswehreinsatz in Mali (MINUSMA)"
     },
     "people": [
@@ -942,7 +964,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19003-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19003-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -1405,7 +1427,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 11",
-      "speechIndex": 6,
+      "speechIndex": 1006,
       "title": "Bundeswehreinsatz in Mali (MINUSMA)"
     },
     "people": [
@@ -1426,7 +1448,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19003-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19003-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -1682,7 +1704,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 11",
-      "speechIndex": 7,
+      "speechIndex": 1007,
       "title": "Bundeswehreinsatz in Mali (MINUSMA)"
     },
     "people": [
@@ -1703,7 +1725,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19003-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19003-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -2050,7 +2072,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 11",
-      "speechIndex": 8,
+      "speechIndex": 1008,
       "title": "Bundeswehreinsatz in Mali (MINUSMA)"
     },
     "people": [
@@ -2071,7 +2093,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19003-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19003-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -2468,7 +2490,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 11",
-      "speechIndex": 9,
+      "speechIndex": 1009,
       "title": "Bundeswehreinsatz in Mali (MINUSMA)"
     },
     "people": [
@@ -2489,7 +2511,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19003-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19003-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -2619,7 +2641,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 11",
-      "speechIndex": 10,
+      "speechIndex": 1010,
       "title": "Bundeswehreinsatz in Mali (MINUSMA)"
     },
     "people": [
@@ -2640,7 +2662,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19003-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19003-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -2841,16 +2863,249 @@
   {
     "parliament": "DE",
     "electoralPeriod": {
-      "number": 19
+      "number": "19"
     },
     "session": {
-      "number": 3
+      "number": "3",
+      "dateStart": "2017-11-22T12:30",
+      "dateEnd": "2017-11-22T17:31"
     },
     "agendaItem": {
-      "title": "Bundeswehreinsatz in Mali (MINUSMA)",
       "officialTitle": "Tagesordnungspunkt 11",
-      "speechIndex": 11
+      "speechIndex": 1012,
+      "title": "Bundeswehreinsatz in Mali (MINUSMA)"
     },
+    "people": [
+      {
+        "type": "memberOfParliament",
+        "label": "Wolfgang Schäuble",
+        "context": "president"
+      }
+    ],
+    "textContents": [
+      {
+        "type": "proceedings",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19003-data.xml",
+        "creator": "Deutscher Bundestag",
+        "license": "Public Domain",
+        "language": "DE-de",
+        "originTextID": "",
+        "textBody": [
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "Damit schließe ich die Aussprache.",
+            "sentences": [
+              {
+                "text": "Damit schließe ich die Aussprache."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "Interfraktionell wird Überweisung der Vorlage auf Drucksache 19/24 (neu) an den Hauptausschuss vorgeschlagen. Sie sind damit einverstanden?",
+            "sentences": [
+              {
+                "text": "Interfraktionell wird Überweisung der Vorlage auf Drucksache 19/24 (neu) an den Hauptausschuss vorgeschlagen."
+              },
+              {
+                "text": "Sie sind damit einverstanden?"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "Dann müssen wir abstimmen.",
+            "sentences": [
+              {
+                "text": "Dann müssen wir abstimmen."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "Wer für die Überweisung an den Hauptausschuss ist, den bitte ich um das Handzeichen. – Wer ist dagegen? – Bei Gegenstimmen der AfD-Fraktion mit den Stimmen der anderen Fraktionen des Hauses ist die Überweisung damit beschlossen.",
+            "sentences": [
+              {
+                "text": "Wer für die Überweisung an den Hauptausschuss ist, den bitte ich um das Handzeichen."
+              },
+              {
+                "text": "– Wer ist dagegen?"
+              },
+              {
+                "text": "– Bei Gegenstimmen der AfD-Fraktion mit den Stimmen der anderen Fraktionen des Hauses ist die Überweisung damit beschlossen."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "Liebe Kolleginnen und Kollegen, die heutige Tagesordnung soll jetzt um die Beratung von zwei Beschlussempfehlungen des Ausschusses für Wahlprüfung, Immunität und Geschäftsordnung zur Genehmigung zum Vollzug von gerichtlichen Durchsuchungs- und Beschlagnahmebeschlüssen erweitert werden. Dieses Verfahren entspricht langjähriger Praxis des Deutschen Bundestags, um von den Strafverfolgungsbehörden beantragte und im Immunitätsausschuss des Deutschen Bundestags behandelte Maßnahmen zu ermöglichen.",
+            "sentences": [
+              {
+                "text": "Liebe Kolleginnen und Kollegen, die heutige Tagesordnung soll jetzt um die Beratung von zwei Beschlussempfehlungen des Ausschusses für Wahlprüfung, Immunität und Geschäftsordnung zur Genehmigung zum Vollzug von gerichtlichen Durchsuchungs- und Beschlagnahmebeschlüssen erweitert werden."
+              },
+              {
+                "text": "Dieses Verfahren entspricht langjähriger Praxis des Deutschen Bundestags, um von den Strafverfolgungsbehörden beantragte und im Immunitätsausschuss des Deutschen Bundestags behandelte Maßnahmen zu ermöglichen."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "Der Immunitätsausschuss hat eben getagt, und seine Beschlussempfehlungen sind verteilt. Deswegen würde ich die Tagesordnung jetzt gerne entsprechend ergänzen. Erhebt dagegen jemand Widerspruch? – Das ist nicht der Fall. Dann ist so beschlossen.",
+            "sentences": [
+              {
+                "text": "Der Immunitätsausschuss hat eben getagt, und seine Beschlussempfehlungen sind verteilt."
+              },
+              {
+                "text": "Deswegen würde ich die Tagesordnung jetzt gerne entsprechend ergänzen."
+              },
+              {
+                "text": "Erhebt dagegen jemand Widerspruch?"
+              },
+              {
+                "text": "– Das ist nicht der Fall."
+              },
+              {
+                "text": "Dann ist so beschlossen."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "Damit kommen wir zu Zusatzpunkt 6:",
+            "sentences": [
+              {
+                "text": "Damit kommen wir zu Zusatzpunkt 6:"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "Beratung der Beschlussempfehlung des Ausschusses für Wahlprüfung, Immunität und Geschäftsordnung (1. Ausschuss)",
+            "sentences": [
+              {
+                "text": "Beratung der Beschlussempfehlung des Ausschusses für Wahlprüfung, Immunität und Geschäftsordnung (1. Ausschuss)"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "Antrag auf Genehmigung zum Vollzug gerichtlicher Durchsuchungs- und Beschlagnahmebeschlüsse",
+            "sentences": [
+              {
+                "text": "Antrag auf Genehmigung zum Vollzug gerichtlicher Durchsuchungs- und Beschlagnahmebeschlüsse"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "Wir kommen sofort zur Abstimmung über die Beschlussempfehlung. Wer stimmt für diese Beschlussempfehlung? – Wer stimmt dagegen? – Wer enthält sich? – Die Beschlussempfehlung ist einstimmig angenommen.",
+            "sentences": [
+              {
+                "text": "Wir kommen sofort zur Abstimmung über die Beschlussempfehlung."
+              },
+              {
+                "text": "Wer stimmt für diese Beschlussempfehlung?"
+              },
+              {
+                "text": "– Wer stimmt dagegen?"
+              },
+              {
+                "text": "– Wer enthält sich?"
+              },
+              {
+                "text": "– Die Beschlussempfehlung ist einstimmig angenommen."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "Wir kommen nun zu Zusatzpunkt 7:",
+            "sentences": [
+              {
+                "text": "Wir kommen nun zu Zusatzpunkt 7:"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "Beratung der Beschlussempfehlung des Ausschusses für Wahlprüfung, Immunität und Geschäftsordnung (1. Ausschuss)",
+            "sentences": [
+              {
+                "text": "Beratung der Beschlussempfehlung des Ausschusses für Wahlprüfung, Immunität und Geschäftsordnung (1. Ausschuss)"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "Antrag auf Genehmigung zum Vollzug gerichtlicher Durchsuchungs- und Beschlagnahmebeschlüsse",
+            "sentences": [
+              {
+                "text": "Antrag auf Genehmigung zum Vollzug gerichtlicher Durchsuchungs- und Beschlagnahmebeschlüsse"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "Auch da kommen wir sofort zur Abstimmung über die Beschlussempfehlung. Wer stimmt dafür? – Gegenstimmen? – Enthaltungen? – Damit ist auch diese Beschlussempfehlung einstimmig angenommen.",
+            "sentences": [
+              {
+                "text": "Auch da kommen wir sofort zur Abstimmung über die Beschlussempfehlung."
+              },
+              {
+                "text": "Wer stimmt dafür?"
+              },
+              {
+                "text": "– Gegenstimmen?"
+              },
+              {
+                "text": "– Enthaltungen?"
+              },
+              {
+                "text": "– Damit ist auch diese Beschlussempfehlung einstimmig angenommen."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "documents": [
+      {
+        "type": "officialDocument",
+        "label": "Drucksache 19/24",
+        "sourceURI": "https://dserver.bundestag.de/btd/19/000/1900024.pdf"
+      }
+    ],
+    "key": "19-3 tagesordnungspunkt 11 (wolfgang schauble) #1",
+    "dateStart": "2017-11-22T12:08:51",
+    "dateEnd": "2017-11-22T12:09:44",
     "media": {
       "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7174463/7174463_h264_720_400_2000kb_baseline_de_2192.mp4",
       "sourcePage": "http://dbtg.tv/fvid/7174463",
@@ -2859,18 +3114,7 @@
       "license": "CC-BY-SA",
       "originMediaID": "7174463",
       "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7174463/7174463_mp3_128kb_stereo_de_128.mp3"
-    },
-    "dateStart": "2017-11-22T12:08:51",
-    "dateEnd": "2017-11-22T12:09:44",
-    "people": [
-      {
-        "label": "Wolfgang Schäuble",
-        "faction": "CDU/CSU",
-        "context": "main-speaker",
-        "role": "Bundestagspräsident"
-      }
-    ],
-    "key": "19-3 tagesordnungspunkt 11 (wolfgang schauble) #1"
+    }
   },
   {
     "parliament": "DE",
@@ -2884,7 +3128,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 11",
-      "speechIndex": 11,
+      "speechIndex": 1011,
       "title": "Bundeswehreinsatz in Mali (MINUSMA)"
     },
     "people": [
@@ -2905,7 +3149,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19003-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19003-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -3249,172 +3493,6 @@
                 "text": "Sie sind damit einverstanden?"
               }
             ]
-          },
-          {
-            "type": "comment",
-            "speaker": null,
-            "speakerstatus": null,
-            "text": "(Zurufe von der AfD: Nein!)",
-            "sentences": [
-              {
-                "text": "(Zurufe von der AfD: Nein!)"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Wolfgang Schäuble",
-            "speakerstatus": "president",
-            "text": "Dann müssen wir abstimmen.",
-            "sentences": [
-              {
-                "text": "Dann müssen wir abstimmen."
-              }
-            ]
-          },
-          {
-            "type": "comment",
-            "speaker": null,
-            "speakerstatus": null,
-            "text": "(Britta Haßelmann [BÜNDNIS 90/DIE GRÜNEN]: Das war Konsens unter den PGF! – Dr. Anton Hofreiter [BÜNDNIS 90/DIE GRÜNEN]: Nein, die sind einfach nicht absprachefest!)",
-            "sentences": [
-              {
-                "text": "(Britta Haßelmann [BÜNDNIS 90/DIE GRÜNEN]: Das war Konsens unter den PGF! – Dr. Anton Hofreiter [BÜNDNIS 90/DIE GRÜNEN]: Nein, die sind einfach nicht absprachefest!)"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Wolfgang Schäuble",
-            "speakerstatus": "president",
-            "text": "Wer für die Überweisung an den Hauptausschuss ist, den bitte ich um das Handzeichen. – Wer ist dagegen? – Bei Gegenstimmen der AfD-Fraktion mit den Stimmen der anderen Fraktionen des Hauses ist die Überweisung damit beschlossen.",
-            "sentences": [
-              {
-                "text": "Wer für die Überweisung an den Hauptausschuss ist, den bitte ich um das Handzeichen."
-              },
-              {
-                "text": "– Wer ist dagegen?"
-              },
-              {
-                "text": "– Bei Gegenstimmen der AfD-Fraktion mit den Stimmen der anderen Fraktionen des Hauses ist die Überweisung damit beschlossen."
-              }
-            ]
-          },
-          {
-            "type": "comment",
-            "speaker": null,
-            "speakerstatus": null,
-            "text": "(Britta Haßelmann [BÜNDNIS 90/DIE GRÜNEN]: Die Parlamentarischen Geschäftsführer waren einverstanden!)",
-            "sentences": [
-              {
-                "text": "(Britta Haßelmann [BÜNDNIS 90/DIE GRÜNEN]: Die Parlamentarischen Geschäftsführer waren einverstanden!)"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Wolfgang Schäuble",
-            "speakerstatus": "president",
-            "text": "Liebe Kolleginnen und Kollegen, die heutige Tagesordnung soll jetzt um die Beratung von zwei Beschlussempfehlungen des Ausschusses für Wahlprüfung, Immunität und Geschäftsordnung zur Genehmigung zum Vollzug von gerichtlichen Durchsuchungs- und Beschlagnahmebeschlüssen erweitert werden. Dieses Verfahren entspricht langjähriger Praxis des Deutschen Bundestags, um von den Strafverfolgungsbehörden beantragte und im Immunitätsausschuss des Deutschen Bundestags behandelte Maßnahmen zu ermöglichen.",
-            "sentences": [
-              {
-                "text": "Liebe Kolleginnen und Kollegen, die heutige Tagesordnung soll jetzt um die Beratung von zwei Beschlussempfehlungen des Ausschusses für Wahlprüfung, Immunität und Geschäftsordnung zur Genehmigung zum Vollzug von gerichtlichen Durchsuchungs- und Beschlagnahmebeschlüssen erweitert werden."
-              },
-              {
-                "text": "Dieses Verfahren entspricht langjähriger Praxis des Deutschen Bundestags, um von den Strafverfolgungsbehörden beantragte und im Immunitätsausschuss des Deutschen Bundestags behandelte Maßnahmen zu ermöglichen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Wolfgang Schäuble",
-            "speakerstatus": "president",
-            "text": "Der Immunitätsausschuss hat eben getagt, und seine Beschlussempfehlungen sind verteilt. Deswegen würde ich die Tagesordnung jetzt gerne entsprechend ergänzen. Erhebt dagegen jemand Widerspruch? – Das ist nicht der Fall. Dann ist so beschlossen.",
-            "sentences": [
-              {
-                "text": "Der Immunitätsausschuss hat eben getagt, und seine Beschlussempfehlungen sind verteilt."
-              },
-              {
-                "text": "Deswegen würde ich die Tagesordnung jetzt gerne entsprechend ergänzen."
-              },
-              {
-                "text": "Erhebt dagegen jemand Widerspruch?"
-              },
-              {
-                "text": "– Das ist nicht der Fall."
-              },
-              {
-                "text": "Dann ist so beschlossen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Wolfgang Schäuble",
-            "speakerstatus": "president",
-            "text": "Damit kommen wir zu Zusatzpunkt 6:",
-            "sentences": [
-              {
-                "text": "Damit kommen wir zu Zusatzpunkt 6:"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Wolfgang Schäuble",
-            "speakerstatus": "president",
-            "text": "Wir kommen sofort zur Abstimmung über die Beschlussempfehlung. Wer stimmt für diese Beschlussempfehlung? – Wer stimmt dagegen? – Wer enthält sich? – Die Beschlussempfehlung ist einstimmig angenommen.",
-            "sentences": [
-              {
-                "text": "Wir kommen sofort zur Abstimmung über die Beschlussempfehlung."
-              },
-              {
-                "text": "Wer stimmt für diese Beschlussempfehlung?"
-              },
-              {
-                "text": "– Wer stimmt dagegen?"
-              },
-              {
-                "text": "– Wer enthält sich?"
-              },
-              {
-                "text": "– Die Beschlussempfehlung ist einstimmig angenommen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Wolfgang Schäuble",
-            "speakerstatus": "president",
-            "text": "Wir kommen nun zu Zusatzpunkt 7:",
-            "sentences": [
-              {
-                "text": "Wir kommen nun zu Zusatzpunkt 7:"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Wolfgang Schäuble",
-            "speakerstatus": "president",
-            "text": "Auch da kommen wir sofort zur Abstimmung über die Beschlussempfehlung. Wer stimmt dafür? – Gegenstimmen? – Enthaltungen? – Damit ist auch diese Beschlussempfehlung einstimmig angenommen.",
-            "sentences": [
-              {
-                "text": "Auch da kommen wir sofort zur Abstimmung über die Beschlussempfehlung."
-              },
-              {
-                "text": "Wer stimmt dafür?"
-              },
-              {
-                "text": "– Gegenstimmen?"
-              },
-              {
-                "text": "– Enthaltungen?"
-              },
-              {
-                "text": "– Damit ist auch diese Beschlussempfehlung einstimmig angenommen."
-              }
-            ]
           }
         ]
       }
@@ -3519,7 +3597,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 12",
-      "speechIndex": 12,
+      "speechIndex": 1013,
       "title": "Bundeswehreinsatz im Irak"
     },
     "people": [
@@ -3532,12 +3610,34 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19003-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19003-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
         "originTextID": "",
         "textBody": [
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "Beratung des Antrags der Bundesregierung",
+            "sentences": [
+              {
+                "text": "Beratung des Antrags der Bundesregierung"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "Fortsetzung der Beteiligung bewaffneter deutscher Streitkräfte zur Ausbildungsunterstützung der Sicherheitskräfte der Regierung der Region Kurdistan-Irak und der irakischen Streitkräfte",
+            "sentences": [
+              {
+                "text": "Fortsetzung der Beteiligung bewaffneter deutscher Streitkräfte zur Ausbildungsunterstützung der Sicherheitskräfte der Regierung der Region Kurdistan-Irak und der irakischen Streitkräfte"
+              }
+            ]
+          },
           {
             "type": "speech",
             "speaker": "Wolfgang Schäuble",
@@ -3584,7 +3684,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 12",
-      "speechIndex": 13,
+      "speechIndex": 1014,
       "title": "Bundeswehreinsatz im Irak"
     },
     "people": [
@@ -3605,7 +3705,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19003-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19003-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -4025,7 +4125,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 12",
-      "speechIndex": 14,
+      "speechIndex": 1015,
       "title": "Bundeswehreinsatz im Irak"
     },
     "people": [
@@ -4046,7 +4146,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19003-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19003-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -4346,7 +4446,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 12",
-      "speechIndex": 15,
+      "speechIndex": 1016,
       "title": "Bundeswehreinsatz im Irak"
     },
     "people": [
@@ -4367,7 +4467,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19003-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19003-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -4778,7 +4878,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 12",
-      "speechIndex": 16,
+      "speechIndex": 1017,
       "title": "Bundeswehreinsatz im Irak"
     },
     "people": [
@@ -4799,7 +4899,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19003-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19003-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -5042,7 +5142,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 12",
-      "speechIndex": 17,
+      "speechIndex": 1018,
       "title": "Bundeswehreinsatz im Irak"
     },
     "people": [
@@ -5063,7 +5163,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19003-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19003-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -5368,7 +5468,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 12",
-      "speechIndex": 18,
+      "speechIndex": 1019,
       "title": "Bundeswehreinsatz im Irak"
     },
     "people": [
@@ -5389,7 +5489,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19003-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19003-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -5670,7 +5770,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 12",
-      "speechIndex": 19,
+      "speechIndex": 1020,
       "title": "Bundeswehreinsatz im Irak"
     },
     "people": [
@@ -5681,17 +5781,12 @@
         "lastname": "Hardt",
         "context": "main-speaker",
         "faction": "CDU/CSU"
-      },
-      {
-        "type": "memberOfParliament",
-        "label": "Wolfgang Schäuble",
-        "context": "president"
       }
     ],
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19003-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19003-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -5948,7 +6043,61 @@
                 "text": "(Beifall bei der CDU/CSU sowie bei Abgeordneten der FDP)"
               }
             ]
-          },
+          }
+        ]
+      }
+    ],
+    "documents": [
+      {
+        "type": "officialDocument",
+        "label": "Drucksache 19/25",
+        "sourceURI": "https://dserver.bundestag.de/btd/19/000/1900025.pdf"
+      }
+    ],
+    "key": "19-3 tagesordnungspunkt 12 (jurgen hardt)",
+    "dateStart": "2017-11-22T12:49:31",
+    "dateEnd": "2017-11-22T12:54:51",
+    "media": {
+      "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7174488/7174488_h264_720_400_2000kb_baseline_de_2192.mp4",
+      "sourcePage": "http://dbtg.tv/fvid/7174488",
+      "duration": 320.0,
+      "creator": "Deutscher Bundestag",
+      "license": "CC-BY-SA",
+      "originMediaID": "7174488",
+      "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7174488/7174488_mp3_128kb_stereo_de_128.mp3"
+    }
+  },
+  {
+    "parliament": "DE",
+    "electoralPeriod": {
+      "number": "19"
+    },
+    "session": {
+      "number": "3",
+      "dateStart": "2017-11-22T12:30",
+      "dateEnd": "2017-11-22T17:31"
+    },
+    "agendaItem": {
+      "officialTitle": "Tagesordnungspunkt 12",
+      "speechIndex": 1021,
+      "title": "Bundeswehreinsatz im Irak"
+    },
+    "people": [
+      {
+        "type": "memberOfParliament",
+        "label": "Wolfgang Schäuble",
+        "context": "president"
+      }
+    ],
+    "textContents": [
+      {
+        "type": "proceedings",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19003-data.xml",
+        "creator": "Deutscher Bundestag",
+        "license": "Public Domain",
+        "language": "DE-de",
+        "originTextID": "",
+        "textBody": [
           {
             "type": "speech",
             "speaker": "Wolfgang Schäuble",
@@ -5971,17 +6120,6 @@
               },
               {
                 "text": "Gibt es dagegen Widerspruch?"
-              }
-            ]
-          },
-          {
-            "type": "comment",
-            "speaker": null,
-            "speakerstatus": null,
-            "text": "(Zurufe von der AfD: Ja!)",
-            "sentences": [
-              {
-                "text": "(Zurufe von der AfD: Ja!)"
               }
             ]
           },
@@ -6021,32 +6159,9 @@
         "sourceURI": "https://dserver.bundestag.de/btd/19/000/1900025.pdf"
       }
     ],
-    "key": "19-3 tagesordnungspunkt 12 (jurgen hardt)",
-    "dateStart": "2017-11-22T12:49:31",
-    "dateEnd": "2017-11-22T12:54:51",
-    "media": {
-      "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7174488/7174488_h264_720_400_2000kb_baseline_de_2192.mp4",
-      "sourcePage": "http://dbtg.tv/fvid/7174488",
-      "duration": 320.0,
-      "creator": "Deutscher Bundestag",
-      "license": "CC-BY-SA",
-      "originMediaID": "7174488",
-      "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7174488/7174488_mp3_128kb_stereo_de_128.mp3"
-    }
-  },
-  {
-    "parliament": "DE",
-    "electoralPeriod": {
-      "number": 19
-    },
-    "session": {
-      "number": 3
-    },
-    "agendaItem": {
-      "title": "Bundeswehreinsatz im Irak",
-      "officialTitle": "Tagesordnungspunkt 12",
-      "speechIndex": 23
-    },
+    "key": "19-3 tagesordnungspunkt 12 (wolfgang schauble) #1",
+    "dateStart": "2017-11-22T12:54:51",
+    "dateEnd": "2017-11-22T12:55:22",
     "media": {
       "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7174489/7174489_h264_720_400_2000kb_baseline_de_2192.mp4",
       "sourcePage": "http://dbtg.tv/fvid/7174489",
@@ -6055,18 +6170,7 @@
       "license": "CC-BY-SA",
       "originMediaID": "7174489",
       "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7174489/7174489_mp3_128kb_stereo_de_128.mp3"
-    },
-    "dateStart": "2017-11-22T12:54:51",
-    "dateEnd": "2017-11-22T12:55:22",
-    "people": [
-      {
-        "label": "Wolfgang Schäuble",
-        "faction": "CDU/CSU",
-        "context": "main-speaker",
-        "role": "Bundestagspräsident"
-      }
-    ],
-    "key": "19-3 tagesordnungspunkt 12 (wolfgang schauble) #1"
+    }
   },
   {
     "parliament": "DE",
@@ -6080,7 +6184,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 5",
-      "speechIndex": 20,
+      "speechIndex": 1022,
       "title": "Aktuelle Stunde zur Lage im Nahen- und Mittleren Osten"
     },
     "people": [
@@ -6093,12 +6197,45 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19003-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19003-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
         "originTextID": "",
         "textBody": [
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "Aktuelle Stunde",
+            "sentences": [
+              {
+                "text": "Aktuelle Stunde"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "auf Verlangen der Fraktion CDU/CSU",
+            "sentences": [
+              {
+                "text": "auf Verlangen der Fraktion CDU/CSU"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "Lage im Nahen und Mittleren Osten",
+            "sentences": [
+              {
+                "text": "Lage im Nahen und Mittleren Osten"
+              }
+            ]
+          },
           {
             "type": "speech",
             "speaker": "Wolfgang Schäuble",
@@ -6139,7 +6276,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 5",
-      "speechIndex": 21,
+      "speechIndex": 1023,
       "title": "Aktuelle Stunde zur Lage im Nahen- und Mittleren Osten"
     },
     "people": [
@@ -6160,7 +6297,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19003-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19003-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -6608,7 +6745,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 5",
-      "speechIndex": 22,
+      "speechIndex": 1024,
       "title": "Aktuelle Stunde zur Lage im Nahen- und Mittleren Osten"
     },
     "people": [
@@ -6629,7 +6766,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19003-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19003-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -6951,7 +7088,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 5",
-      "speechIndex": 23,
+      "speechIndex": 1025,
       "title": "Aktuelle Stunde zur Lage im Nahen- und Mittleren Osten"
     },
     "people": [
@@ -6972,7 +7109,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19003-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19003-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -7274,7 +7411,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 5",
-      "speechIndex": 24,
+      "speechIndex": 1026,
       "title": "Aktuelle Stunde zur Lage im Nahen- und Mittleren Osten"
     },
     "people": [
@@ -7295,7 +7432,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19003-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19003-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -7667,7 +7804,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 5",
-      "speechIndex": 25,
+      "speechIndex": 1027,
       "title": "Aktuelle Stunde zur Lage im Nahen- und Mittleren Osten"
     },
     "people": [
@@ -7688,7 +7825,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19003-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19003-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -8043,7 +8180,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 5",
-      "speechIndex": 26,
+      "speechIndex": 1028,
       "title": "Aktuelle Stunde zur Lage im Nahen- und Mittleren Osten"
     },
     "people": [
@@ -8064,7 +8201,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19003-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19003-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -8323,7 +8460,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 5",
-      "speechIndex": 27,
+      "speechIndex": 1029,
       "title": "Aktuelle Stunde zur Lage im Nahen- und Mittleren Osten"
     },
     "people": [
@@ -8344,7 +8481,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19003-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19003-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -8629,7 +8766,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 5",
-      "speechIndex": 28,
+      "speechIndex": 1030,
       "title": "Aktuelle Stunde zur Lage im Nahen- und Mittleren Osten"
     },
     "people": [
@@ -8650,7 +8787,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19003-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19003-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -9085,7 +9222,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 5",
-      "speechIndex": 29,
+      "speechIndex": 1031,
       "title": "Aktuelle Stunde zur Lage im Nahen- und Mittleren Osten"
     },
     "people": [
@@ -9106,7 +9243,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19003-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19003-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -9557,7 +9694,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 5",
-      "speechIndex": 30,
+      "speechIndex": 1032,
       "title": "Aktuelle Stunde zur Lage im Nahen- und Mittleren Osten"
     },
     "people": [
@@ -9578,7 +9715,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19003-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19003-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -9988,7 +10125,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 5",
-      "speechIndex": 31,
+      "speechIndex": 1033,
       "title": "Aktuelle Stunde zur Lage im Nahen- und Mittleren Osten"
     },
     "people": [
@@ -10009,7 +10146,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19003-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19003-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -10294,7 +10431,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 5",
-      "speechIndex": 32,
+      "speechIndex": 1034,
       "title": "Aktuelle Stunde zur Lage im Nahen- und Mittleren Osten"
     },
     "people": [
@@ -10305,17 +10442,12 @@
         "lastname": "Wadephul",
         "context": "main-speaker",
         "faction": "CDU/CSU"
-      },
-      {
-        "type": "memberOfParliament",
-        "label": "Wolfgang Kubicki",
-        "context": "vice-president"
       }
     ],
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19003-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19003-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -10575,31 +10707,6 @@
                 "text": "Herzlichen Dank für die Aufmerksamkeit."
               }
             ]
-          },
-          {
-            "type": "comment",
-            "speaker": null,
-            "speakerstatus": null,
-            "text": "(Beifall bei der CDU/CSU sowie bei Abgeordneten der FDP)",
-            "sentences": [
-              {
-                "text": "(Beifall bei der CDU/CSU sowie bei Abgeordneten der FDP)"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Wolfgang Kubicki",
-            "speakerstatus": "vice-president",
-            "text": "Vielen Dank. – Mit dem letzten Wort des Kollegen Dr. Wadepuhl ist die Aktuelle Stunde beendet.",
-            "sentences": [
-              {
-                "text": "Vielen Dank."
-              },
-              {
-                "text": "– Mit dem letzten Wort des Kollegen Dr. Wadepuhl ist die Aktuelle Stunde beendet."
-              }
-            ]
           }
         ]
       }
@@ -10621,16 +10728,55 @@
   {
     "parliament": "DE",
     "electoralPeriod": {
-      "number": 19
+      "number": "19"
     },
     "session": {
-      "number": 3
+      "number": "3",
+      "dateStart": "2017-11-22T12:30",
+      "dateEnd": "2017-11-22T17:31"
     },
     "agendaItem": {
-      "title": "Aktuelle Stunde zur Lage im Nahen- und Mittleren Osten",
       "officialTitle": "Zusatzpunkt 5",
-      "speechIndex": 37
+      "speechIndex": 1035,
+      "title": "Aktuelle Stunde zur Lage im Nahen- und Mittleren Osten"
     },
+    "people": [
+      {
+        "type": "memberOfParliament",
+        "label": "Wolfgang Kubicki",
+        "context": "vice-president"
+      }
+    ],
+    "textContents": [
+      {
+        "type": "proceedings",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19003-data.xml",
+        "creator": "Deutscher Bundestag",
+        "license": "Public Domain",
+        "language": "DE-de",
+        "originTextID": "",
+        "textBody": [
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Kubicki",
+            "speakerstatus": "vice-president",
+            "text": "Vielen Dank. – Mit dem letzten Wort des Kollegen Dr. Wadepuhl ist die Aktuelle Stunde beendet.",
+            "sentences": [
+              {
+                "text": "Vielen Dank."
+              },
+              {
+                "text": "– Mit dem letzten Wort des Kollegen Dr. Wadepuhl ist die Aktuelle Stunde beendet."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "documents": [],
+    "key": "19-3 zusatzpunkt 5 (wolfgang kubicki)",
+    "dateStart": "2017-11-22T14:04:20",
+    "dateEnd": "2017-11-22T14:04:29",
     "media": {
       "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7174518/7174518_h264_720_400_2000kb_baseline_de_2192.mp4",
       "sourcePage": "http://dbtg.tv/fvid/7174518",
@@ -10639,18 +10785,7 @@
       "license": "CC-BY-SA",
       "originMediaID": "7174518",
       "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7174518/7174518_mp3_128kb_stereo_de_128.mp3"
-    },
-    "dateStart": "2017-11-22T14:04:20",
-    "dateEnd": "2017-11-22T14:04:29",
-    "people": [
-      {
-        "label": "Wolfgang Kubicki",
-        "faction": "FDP",
-        "context": "main-speaker",
-        "role": "Bundestagsvizepräsident"
-      }
-    ],
-    "key": "19-3 zusatzpunkt 5 (wolfgang kubicki)"
+    }
   },
   {
     "parliament": "DE",
@@ -10664,7 +10799,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 13",
-      "speechIndex": 33,
+      "speechIndex": 1036,
       "title": "Entwurf eines Einwanderungsgesetzes"
     },
     "people": [
@@ -10677,12 +10812,23 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19003-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19003-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
         "originTextID": "",
         "textBody": [
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Kubicki",
+            "speakerstatus": "vice-president",
+            "text": "Erste Beratung des von der Fraktion der SPD eingebrachten Entwurfs eines Gesetzes zur Neuordnung der Einwanderung qualifizierter Fachkräfte (Einwanderungsgesetz – EinwG)",
+            "sentences": [
+              {
+                "text": "Erste Beratung des von der Fraktion der SPD eingebrachten Entwurfs eines Gesetzes zur Neuordnung der Einwanderung qualifizierter Fachkräfte (Einwanderungsgesetz – EinwG)"
+              }
+            ]
+          },
           {
             "type": "speech",
             "speaker": "Wolfgang Kubicki",
@@ -10729,7 +10875,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 13",
-      "speechIndex": 34,
+      "speechIndex": 1037,
       "title": "Entwurf eines Einwanderungsgesetzes"
     },
     "people": [
@@ -10750,7 +10896,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19003-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19003-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -11094,7 +11240,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 13",
-      "speechIndex": 35,
+      "speechIndex": 1038,
       "title": "Entwurf eines Einwanderungsgesetzes"
     },
     "people": [
@@ -11115,7 +11261,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19003-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19003-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -11633,7 +11779,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 13",
-      "speechIndex": 36,
+      "speechIndex": 1039,
       "title": "Entwurf eines Einwanderungsgesetzes"
     },
     "people": [
@@ -11654,7 +11800,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19003-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19003-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -12223,7 +12369,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 13",
-      "speechIndex": 37,
+      "speechIndex": 1040,
       "title": "Entwurf eines Einwanderungsgesetzes"
     },
     "people": [
@@ -12244,7 +12390,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19003-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19003-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -12664,7 +12810,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 13",
-      "speechIndex": 38,
+      "speechIndex": 1041,
       "title": "Entwurf eines Einwanderungsgesetzes"
     },
     "people": [
@@ -12685,7 +12831,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19003-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19003-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -13119,7 +13265,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 13",
-      "speechIndex": 39,
+      "speechIndex": 1042,
       "title": "Entwurf eines Einwanderungsgesetzes"
     },
     "people": [
@@ -13140,7 +13286,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19003-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19003-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -13605,7 +13751,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 13",
-      "speechIndex": 40,
+      "speechIndex": 1043,
       "title": "Entwurf eines Einwanderungsgesetzes"
     },
     "people": [
@@ -13626,7 +13772,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19003-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19003-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -14052,7 +14198,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 13",
-      "speechIndex": 41,
+      "speechIndex": 1044,
       "title": "Entwurf eines Einwanderungsgesetzes"
     },
     "people": [
@@ -14081,7 +14227,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19003-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19003-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -14533,52 +14679,100 @@
                 "text": "Haben Sie also keine Angst."
               }
             ]
-          },
+          }
+        ]
+      }
+    ],
+    "documents": [
+      {
+        "type": "officialDocument",
+        "label": "Drucksache 19/44",
+        "sourceURI": "https://dserver.bundestag.de/btd/19/000/1900044.pdf"
+      }
+    ],
+    "key": "19-3 tagesordnungspunkt 13 (daniela kolbe)",
+    "dateStart": "2017-11-22T14:44:54",
+    "dateEnd": "2017-11-22T14:51:01",
+    "media": {
+      "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7174539/7174539_h264_720_400_2000kb_baseline_de_2192.mp4",
+      "sourcePage": "http://dbtg.tv/fvid/7174539",
+      "duration": 367.0,
+      "creator": "Deutscher Bundestag",
+      "license": "CC-BY-SA",
+      "originMediaID": "7174539",
+      "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7174539/7174539_mp3_128kb_stereo_de_128.mp3"
+    }
+  },
+  {
+    "parliament": "DE",
+    "electoralPeriod": {
+      "number": "19"
+    },
+    "session": {
+      "number": "3",
+      "dateStart": "2017-11-22T12:30",
+      "dateEnd": "2017-11-22T17:31"
+    },
+    "agendaItem": {
+      "officialTitle": "Tagesordnungspunkt 13",
+      "speechIndex": 1045,
+      "title": "Entwurf eines Einwanderungsgesetzes"
+    },
+    "people": [
+      {
+        "type": "memberOfParliament",
+        "label": "Wolfgang Kubicki",
+        "context": "vice-president"
+      }
+    ],
+    "textContents": [
+      {
+        "type": "proceedings",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19003-data.xml",
+        "creator": "Deutscher Bundestag",
+        "license": "Public Domain",
+        "language": "DE-de",
+        "originTextID": "",
+        "textBody": [
           {
             "type": "speech",
-            "speaker": "Daniela Kolbe",
-            "speakerstatus": "main-speaker",
-            "text": "Schlusssatz. Wir haben hier einen Vorschlag gemacht. Wir sind das Parlament und können uns darüber unterhalten. Das kann eine spannende Diskussion werden. Lassen Sie uns also in die Auseinandersetzung gehen. Ich habe große Lust dazu, mit Ihnen darüber zu streiten, wie wir dieses Minus in Sachsen – 600 000 Rentnerinnen und Rentner, 300 000 Schulabgängerinnen und Schulabgänger – in den nächsten zehn Jahren bewältigen können.",
+            "speaker": "Wolfgang Kubicki",
+            "speakerstatus": "vice-president",
+            "text": "Frau Kollegin Kolbe, erlauben Sie eine Zwischenfrage aus der AfD-Fraktion?",
             "sentences": [
               {
-                "text": "Schlusssatz."
-              },
-              {
-                "text": "Wir haben hier einen Vorschlag gemacht."
-              },
-              {
-                "text": "Wir sind das Parlament und können uns darüber unterhalten."
-              },
-              {
-                "text": "Das kann eine spannende Diskussion werden."
-              },
-              {
-                "text": "Lassen Sie uns also in die Auseinandersetzung gehen."
-              },
-              {
-                "text": "Ich habe große Lust dazu, mit Ihnen darüber zu streiten, wie wir dieses Minus in Sachsen – 600 000 Rentnerinnen und Rentner, 300 000 Schulabgängerinnen und Schulabgänger – in den nächsten zehn Jahren bewältigen können."
+                "text": "Frau Kollegin Kolbe, erlauben Sie eine Zwischenfrage aus der AfD-Fraktion?"
               }
             ]
           },
           {
             "type": "speech",
-            "speaker": "Daniela Kolbe",
-            "speakerstatus": "main-speaker",
-            "text": "Vielen Dank fürs Zuhören.",
+            "speaker": "Wolfgang Kubicki",
+            "speakerstatus": "vice-president",
+            "text": "Herr Kollege, darf ich Sie bitten, Ihre Frage abzuschließen? Es soll kein Redebeitrag werden.",
             "sentences": [
               {
-                "text": "Vielen Dank fürs Zuhören."
+                "text": "Herr Kollege, darf ich Sie bitten, Ihre Frage abzuschließen?"
+              },
+              {
+                "text": "Es soll kein Redebeitrag werden."
               }
             ]
           },
           {
-            "type": "comment",
-            "speaker": null,
-            "speakerstatus": null,
-            "text": "(Beifall bei der SPD)",
+            "type": "speech",
+            "speaker": "Wolfgang Kubicki",
+            "speakerstatus": "vice-president",
+            "text": "Herr Kollege, das war die Frage, ob sie es verstanden hat. Frau Kollegin Kolbe, bitte antworten Sie auf diese Frage. Den Rest ignorieren Sie einfach.",
             "sentences": [
               {
-                "text": "(Beifall bei der SPD)"
+                "text": "Herr Kollege, das war die Frage, ob sie es verstanden hat."
+              },
+              {
+                "text": "Frau Kollegin Kolbe, bitte antworten Sie auf diese Frage."
+              },
+              {
+                "text": "Den Rest ignorieren Sie einfach."
               }
             ]
           },
@@ -14607,17 +14801,6 @@
               },
               {
                 "text": "Gibt es dazu anderweitige Vorschläge?"
-              }
-            ]
-          },
-          {
-            "type": "comment",
-            "speaker": null,
-            "speakerstatus": null,
-            "text": "(Zurufe von der AfD: Abstimmen!)",
-            "sentences": [
-              {
-                "text": "(Zurufe von der AfD: Abstimmen!)"
               }
             ]
           },
@@ -14651,32 +14834,9 @@
         "sourceURI": "https://dserver.bundestag.de/btd/19/000/1900044.pdf"
       }
     ],
-    "key": "19-3 tagesordnungspunkt 13 (daniela kolbe)",
-    "dateStart": "2017-11-22T14:44:54",
-    "dateEnd": "2017-11-22T14:51:01",
-    "media": {
-      "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7174539/7174539_h264_720_400_2000kb_baseline_de_2192.mp4",
-      "sourcePage": "http://dbtg.tv/fvid/7174539",
-      "duration": 367.0,
-      "creator": "Deutscher Bundestag",
-      "license": "CC-BY-SA",
-      "originMediaID": "7174539",
-      "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7174539/7174539_mp3_128kb_stereo_de_128.mp3"
-    }
-  },
-  {
-    "parliament": "DE",
-    "electoralPeriod": {
-      "number": 19
-    },
-    "session": {
-      "number": 3
-    },
-    "agendaItem": {
-      "title": "Entwurf eines Einwanderungsgesetzes",
-      "officialTitle": "Tagesordnungspunkt 13",
-      "speechIndex": 47
-    },
+    "key": "19-3 tagesordnungspunkt 13 (wolfgang kubicki) #1",
+    "dateStart": "2017-11-22T14:51:01",
+    "dateEnd": "2017-11-22T14:52:11",
     "media": {
       "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7174540/7174540_h264_720_400_2000kb_baseline_de_2192.mp4",
       "sourcePage": "http://dbtg.tv/fvid/7174540",
@@ -14685,18 +14845,7 @@
       "license": "CC-BY-SA",
       "originMediaID": "7174540",
       "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7174540/7174540_mp3_128kb_stereo_de_128.mp3"
-    },
-    "dateStart": "2017-11-22T14:51:01",
-    "dateEnd": "2017-11-22T14:52:11",
-    "people": [
-      {
-        "label": "Wolfgang Kubicki",
-        "faction": "FDP",
-        "context": "main-speaker",
-        "role": "Bundestagsvizepräsident"
-      }
-    ],
-    "key": "19-3 tagesordnungspunkt 13 (wolfgang kubicki) #1"
+    }
   },
   {
     "parliament": "DE",
@@ -14710,7 +14859,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 14",
-      "speechIndex": 42,
+      "speechIndex": 1046,
       "title": "Rückführung syrischer Flüchtlinge"
     },
     "people": [
@@ -14723,12 +14872,34 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19003-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19003-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
         "originTextID": "",
         "textBody": [
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Kubicki",
+            "speakerstatus": "vice-president",
+            "text": "Beratung des Antrags der Abgeordneten Roman Johannes Reusch, Waldemar Herdt, Norbert Kleinwächter und der Fraktion der AfD",
+            "sentences": [
+              {
+                "text": "Beratung des Antrags der Abgeordneten Roman Johannes Reusch, Waldemar Herdt, Norbert Kleinwächter und der Fraktion der AfD"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Kubicki",
+            "speakerstatus": "vice-president",
+            "text": "Sechs-Punkte-Plan – Abkommen zur Förderung der Rückkehr syrischer Flüchtlinge",
+            "sentences": [
+              {
+                "text": "Sechs-Punkte-Plan – Abkommen zur Förderung der Rückkehr syrischer Flüchtlinge"
+              }
+            ]
+          },
           {
             "type": "speech",
             "speaker": "Wolfgang Kubicki",
@@ -14792,7 +14963,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 14",
-      "speechIndex": 43,
+      "speechIndex": 1047,
       "title": "Rückführung syrischer Flüchtlinge"
     },
     "people": [
@@ -14813,7 +14984,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19003-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19003-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -15296,7 +15467,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 14",
-      "speechIndex": 44,
+      "speechIndex": 1048,
       "title": "Rückführung syrischer Flüchtlinge"
     },
     "people": [
@@ -15317,7 +15488,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19003-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19003-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -15778,7 +15949,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 14",
-      "speechIndex": 45,
+      "speechIndex": 1049,
       "title": "Rückführung syrischer Flüchtlinge"
     },
     "people": [
@@ -15799,7 +15970,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19003-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19003-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -16365,7 +16536,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 14",
-      "speechIndex": 46,
+      "speechIndex": 1050,
       "title": "Rückführung syrischer Flüchtlinge"
     },
     "people": [
@@ -16386,7 +16557,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19003-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19003-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -16766,7 +16937,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 14",
-      "speechIndex": 47,
+      "speechIndex": 1051,
       "title": "Rückführung syrischer Flüchtlinge"
     },
     "people": [
@@ -16787,7 +16958,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19003-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19003-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -17142,7 +17313,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 14",
-      "speechIndex": 48,
+      "speechIndex": 1052,
       "title": "Rückführung syrischer Flüchtlinge"
     },
     "people": [
@@ -17163,7 +17334,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19003-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19003-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -17697,7 +17868,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 14",
-      "speechIndex": 49,
+      "speechIndex": 1053,
       "title": "Rückführung syrischer Flüchtlinge"
     },
     "people": [
@@ -17734,7 +17905,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19003-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19003-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -18421,7 +18592,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 14",
-      "speechIndex": 50,
+      "speechIndex": 1054,
       "title": "Rückführung syrischer Flüchtlinge"
     },
     "people": [
@@ -18442,7 +18613,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19003-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19003-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -18663,26 +18834,69 @@
                 "text": "Alles andere vorher ist schlicht unverantwortlich."
               }
             ]
-          },
+          }
+        ]
+      }
+    ],
+    "documents": [
+      {
+        "type": "officialDocument",
+        "label": "Drucksache 19/48",
+        "sourceURI": "https://dserver.bundestag.de/btd/19/000/1900048.pdf"
+      }
+    ],
+    "key": "19-3 tagesordnungspunkt 14 (johann david wadephul)",
+    "dateStart": "2017-11-22T15:35:11",
+    "dateEnd": "2017-11-22T15:39:57",
+    "media": {
+      "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7174558/7174558_h264_720_400_2000kb_baseline_de_2192.mp4",
+      "sourcePage": "http://dbtg.tv/fvid/7174558",
+      "duration": 286.0,
+      "creator": "Deutscher Bundestag",
+      "license": "CC-BY-SA",
+      "originMediaID": "7174558",
+      "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7174558/7174558_mp3_128kb_stereo_de_128.mp3"
+    }
+  },
+  {
+    "parliament": "DE",
+    "electoralPeriod": {
+      "number": "19"
+    },
+    "session": {
+      "number": "3",
+      "dateStart": "2017-11-22T12:30",
+      "dateEnd": "2017-11-22T17:31"
+    },
+    "agendaItem": {
+      "officialTitle": "Tagesordnungspunkt 14",
+      "speechIndex": 1055,
+      "title": "Rückführung syrischer Flüchtlinge"
+    },
+    "people": [
+      {
+        "type": "memberOfParliament",
+        "label": "Petra Pau",
+        "context": "vice-president"
+      }
+    ],
+    "textContents": [
+      {
+        "type": "proceedings",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19003-data.xml",
+        "creator": "Deutscher Bundestag",
+        "license": "Public Domain",
+        "language": "DE-de",
+        "originTextID": "",
+        "textBody": [
           {
             "type": "speech",
-            "speaker": "Johann David Wadephul",
-            "speakerstatus": "main-speaker",
-            "text": "Vielen Dank.",
+            "speaker": "Petra Pau",
+            "speakerstatus": "vice-president",
+            "text": "Kollege Wadephul, Entschuldigung.",
             "sentences": [
               {
-                "text": "Vielen Dank."
-              }
-            ]
-          },
-          {
-            "type": "comment",
-            "speaker": null,
-            "speakerstatus": null,
-            "text": "(Beifall bei der CDU/CSU sowie bei Abgeordneten der SPD, der FDP, der LINKEN und des BÜNDNISSES 90/DIE GRÜNEN)",
-            "sentences": [
-              {
-                "text": "(Beifall bei der CDU/CSU sowie bei Abgeordneten der SPD, der FDP, der LINKEN und des BÜNDNISSES 90/DIE GRÜNEN)"
+                "text": "Kollege Wadephul, Entschuldigung."
               }
             ]
           },
@@ -18727,32 +18941,9 @@
         "sourceURI": "https://dserver.bundestag.de/btd/19/000/1900048.pdf"
       }
     ],
-    "key": "19-3 tagesordnungspunkt 14 (johann david wadephul)",
-    "dateStart": "2017-11-22T15:35:11",
-    "dateEnd": "2017-11-22T15:39:57",
-    "media": {
-      "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7174558/7174558_h264_720_400_2000kb_baseline_de_2192.mp4",
-      "sourcePage": "http://dbtg.tv/fvid/7174558",
-      "duration": 286.0,
-      "creator": "Deutscher Bundestag",
-      "license": "CC-BY-SA",
-      "originMediaID": "7174558",
-      "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7174558/7174558_mp3_128kb_stereo_de_128.mp3"
-    }
-  },
-  {
-    "parliament": "DE",
-    "electoralPeriod": {
-      "number": 19
-    },
-    "session": {
-      "number": 3
-    },
-    "agendaItem": {
-      "title": "Rückführung syrischer Flüchtlinge",
-      "officialTitle": "Tagesordnungspunkt 14",
-      "speechIndex": 57
-    },
+    "key": "19-3 tagesordnungspunkt 14 (petra pau)",
+    "dateStart": "2017-11-22T15:39:57",
+    "dateEnd": "2017-11-22T15:40:21",
     "media": {
       "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7174562/7174562_h264_720_400_2000kb_baseline_de_2192.mp4",
       "sourcePage": "http://dbtg.tv/fvid/7174562",
@@ -18761,18 +18952,7 @@
       "license": "CC-BY-SA",
       "originMediaID": "7174562",
       "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7174562/7174562_mp3_128kb_stereo_de_128.mp3"
-    },
-    "dateStart": "2017-11-22T15:39:57",
-    "dateEnd": "2017-11-22T15:40:21",
-    "people": [
-      {
-        "label": "Petra Pau",
-        "faction": "Die Linke",
-        "context": "main-speaker",
-        "role": "Bundestagsvizepräsidentin"
-      }
-    ],
-    "key": "19-3 tagesordnungspunkt 14 (petra pau)"
+    }
   },
   {
     "parliament": "DE",
@@ -18786,7 +18966,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 15",
-      "speechIndex": 51,
+      "speechIndex": 1056,
       "title": "Kooperationsverbot in der Bildung"
     },
     "people": [
@@ -18799,12 +18979,34 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19003-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19003-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
         "originTextID": "",
         "textBody": [
+          {
+            "type": "speech",
+            "speaker": "Petra Pau",
+            "speakerstatus": "vice-president",
+            "text": "Beratung des Antrags der Abgeordneten Dr. Petra Sitte, Birke Bull-Bischoff, Brigitte Freihold, weiterer Abgeordneter und der Fraktion DIE LINKE",
+            "sentences": [
+              {
+                "text": "Beratung des Antrags der Abgeordneten Dr. Petra Sitte, Birke Bull-Bischoff, Brigitte Freihold, weiterer Abgeordneter und der Fraktion DIE LINKE"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Petra Pau",
+            "speakerstatus": "vice-president",
+            "text": "Kooperationsverbot in der Bildung vollständig aufheben",
+            "sentences": [
+              {
+                "text": "Kooperationsverbot in der Bildung vollständig aufheben"
+              }
+            ]
+          },
           {
             "type": "speech",
             "speaker": "Petra Pau",
@@ -18871,7 +19073,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 15",
-      "speechIndex": 52,
+      "speechIndex": 1057,
       "title": "Kooperationsverbot in der Bildung"
     },
     "people": [
@@ -18892,7 +19094,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19003-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19003-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -19277,7 +19479,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 15",
-      "speechIndex": 53,
+      "speechIndex": 1058,
       "title": "Kooperationsverbot in der Bildung"
     },
     "people": [
@@ -19306,7 +19508,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19003-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19003-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -19968,7 +20170,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 15",
-      "speechIndex": 54,
+      "speechIndex": 1059,
       "title": "Kooperationsverbot in der Bildung"
     },
     "people": [
@@ -19989,7 +20191,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19003-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19003-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -20341,7 +20543,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 15",
-      "speechIndex": 55,
+      "speechIndex": 1060,
       "title": "Kooperationsverbot in der Bildung"
     },
     "people": [
@@ -20362,7 +20564,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19003-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19003-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -20812,7 +21014,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 15",
-      "speechIndex": 56,
+      "speechIndex": 1061,
       "title": "Kooperationsverbot in der Bildung"
     },
     "people": [
@@ -20833,7 +21035,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19003-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19003-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -21307,7 +21509,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 15",
-      "speechIndex": 57,
+      "speechIndex": 1062,
       "title": "Kooperationsverbot in der Bildung"
     },
     "people": [
@@ -21328,7 +21530,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19003-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19003-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -21785,7 +21987,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 15",
-      "speechIndex": 58,
+      "speechIndex": 1063,
       "title": "Kooperationsverbot in der Bildung"
     },
     "people": [
@@ -21806,7 +22008,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19003-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19003-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -22273,7 +22475,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 15",
-      "speechIndex": 59,
+      "speechIndex": 1064,
       "title": "Kooperationsverbot in der Bildung"
     },
     "people": [
@@ -22294,7 +22496,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19003-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19003-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -22422,7 +22624,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 15",
-      "speechIndex": 60,
+      "speechIndex": 1065,
       "title": "Kooperationsverbot in der Bildung"
     },
     "people": [
@@ -22443,7 +22645,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19003-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19003-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -22641,7 +22843,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 15",
-      "speechIndex": 61,
+      "speechIndex": 1066,
       "title": "Kooperationsverbot in der Bildung"
     },
     "people": [
@@ -22652,17 +22854,12 @@
         "lastname": "Kaczmarek",
         "context": "main-speaker",
         "faction": "SPD"
-      },
-      {
-        "type": "memberOfParliament",
-        "label": "Petra Pau",
-        "context": "vice-president"
       }
     ],
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19003-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19003-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -22989,7 +23186,61 @@
                 "text": "(Beifall bei der SPD und dem BÜNDNIS 90/DIE GRÜNEN sowie bei Abgeordneten der LINKEN)"
               }
             ]
-          },
+          }
+        ]
+      }
+    ],
+    "documents": [
+      {
+        "type": "officialDocument",
+        "label": "Drucksache 19/13",
+        "sourceURI": "https://dserver.bundestag.de/btd/19/000/1900013.pdf"
+      }
+    ],
+    "key": "19-3 tagesordnungspunkt 15 (oliver kaczmarek)",
+    "dateStart": "2017-11-22T16:25:54",
+    "dateEnd": "2017-11-22T16:30:16",
+    "media": {
+      "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7174581/7174581_h264_720_400_2000kb_baseline_de_2192.mp4",
+      "sourcePage": "http://dbtg.tv/fvid/7174581",
+      "duration": 262.0,
+      "creator": "Deutscher Bundestag",
+      "license": "CC-BY-SA",
+      "originMediaID": "7174581",
+      "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7174581/7174581_mp3_128kb_stereo_de_128.mp3"
+    }
+  },
+  {
+    "parliament": "DE",
+    "electoralPeriod": {
+      "number": "19"
+    },
+    "session": {
+      "number": "3",
+      "dateStart": "2017-11-22T12:30",
+      "dateEnd": "2017-11-22T17:31"
+    },
+    "agendaItem": {
+      "officialTitle": "Tagesordnungspunkt 15",
+      "speechIndex": 1067,
+      "title": "Kooperationsverbot in der Bildung"
+    },
+    "people": [
+      {
+        "type": "memberOfParliament",
+        "label": "Petra Pau",
+        "context": "vice-president"
+      }
+    ],
+    "textContents": [
+      {
+        "type": "proceedings",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19003-data.xml",
+        "creator": "Deutscher Bundestag",
+        "license": "Public Domain",
+        "language": "DE-de",
+        "originTextID": "",
+        "textBody": [
           {
             "type": "speech",
             "speaker": "Petra Pau",
@@ -23015,17 +23266,6 @@
               },
               {
                 "text": "–"
-              }
-            ]
-          },
-          {
-            "type": "comment",
-            "speaker": null,
-            "speakerstatus": null,
-            "text": "(Zurufe von der AfD: Nein!)",
-            "sentences": [
-              {
-                "text": "(Zurufe von der AfD: Nein!)"
               }
             ]
           },
@@ -23098,32 +23338,9 @@
         "sourceURI": "https://dserver.bundestag.de/btd/19/000/1900013.pdf"
       }
     ],
-    "key": "19-3 tagesordnungspunkt 15 (oliver kaczmarek)",
-    "dateStart": "2017-11-22T16:25:54",
-    "dateEnd": "2017-11-22T16:30:16",
-    "media": {
-      "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7174581/7174581_h264_720_400_2000kb_baseline_de_2192.mp4",
-      "sourcePage": "http://dbtg.tv/fvid/7174581",
-      "duration": 262.0,
-      "creator": "Deutscher Bundestag",
-      "license": "CC-BY-SA",
-      "originMediaID": "7174581",
-      "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7174581/7174581_mp3_128kb_stereo_de_128.mp3"
-    }
-  },
-  {
-    "parliament": "DE",
-    "electoralPeriod": {
-      "number": 19
-    },
-    "session": {
-      "number": 3
-    },
-    "agendaItem": {
-      "title": "Kooperationsverbot in der Bildung",
-      "officialTitle": "Tagesordnungspunkt 15",
-      "speechIndex": 69
-    },
+    "key": "19-3 tagesordnungspunkt 15 (petra pau) #1",
+    "dateStart": "2017-11-22T16:30:16",
+    "dateEnd": "2017-11-22T16:30:59",
     "media": {
       "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7174582/7174582_h264_720_400_2000kb_baseline_de_2192.mp4",
       "sourcePage": "http://dbtg.tv/fvid/7174582",
@@ -23132,18 +23349,7 @@
       "license": "CC-BY-SA",
       "originMediaID": "7174582",
       "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7174582/7174582_mp3_128kb_stereo_de_128.mp3"
-    },
-    "dateStart": "2017-11-22T16:30:16",
-    "dateEnd": "2017-11-22T16:30:59",
-    "people": [
-      {
-        "label": "Petra Pau",
-        "faction": "Die Linke",
-        "context": "main-speaker",
-        "role": "Bundestagsvizepräsidentin"
-      }
-    ],
-    "key": "19-3 tagesordnungspunkt 15 (petra pau) #1"
+    }
   },
   {
     "parliament": "DE",

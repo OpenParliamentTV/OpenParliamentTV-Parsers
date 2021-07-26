@@ -11,7 +11,7 @@
     },
     "agendaItem": {
       "officialTitle": "Sitzungseröffnung",
-      "speechIndex": 0,
+      "speechIndex": 1000,
       "title": "Sitzungseröffnung"
     },
     "people": [
@@ -24,7 +24,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19109-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19109-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -146,7 +146,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 2,
+      "speechIndex": 1002,
       "title": "Eidesleistung der Bundesministerin der Verteidigung"
     },
     "people": [
@@ -159,12 +159,23 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19109-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19109-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
         "originTextID": "",
         "textBody": [
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "Eidesleistung der Bundesministerin der Verteidigung",
+            "sentences": [
+              {
+                "text": "Eidesleistung der Bundesministerin der Verteidigung"
+              }
+            ]
+          },
           {
             "type": "speech",
             "speaker": "Wolfgang Schäuble",
@@ -238,7 +249,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 2",
-      "speechIndex": 4,
+      "speechIndex": 1005,
       "title": "Regierungserklärung der Bundesministerin der Verteidigung"
     },
     "people": [
@@ -251,12 +262,37 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19109-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19109-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
         "originTextID": "",
         "textBody": [
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "Abgabe einer Regierungserklärung durch die Bundesministerin der Verteidigung",
+            "sentences": [
+              {
+                "text": "Abgabe einer Regierungserklärung durch die Bundesministerin der Verteidigung"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "In Verantwortung für die Zukunft Deutschlands. Für eine starke Bundeswehr in einer Welt im Wandel.",
+            "sentences": [
+              {
+                "text": "In Verantwortung für die Zukunft Deutschlands."
+              },
+              {
+                "text": "Für eine starke Bundeswehr in einer Welt im Wandel."
+              }
+            ]
+          },
           {
             "type": "speech",
             "speaker": "Wolfgang Schäuble",
@@ -322,7 +358,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 2",
-      "speechIndex": 5,
+      "speechIndex": 1006,
       "title": "Regierungserklärung der Bundesministerin der Verteidigung"
     },
     "people": [
@@ -343,7 +379,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19109-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19109-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -1238,16 +1274,130 @@
   {
     "parliament": "DE",
     "electoralPeriod": {
-      "number": 19
+      "number": "19"
     },
     "session": {
-      "number": 109
+      "number": "109",
+      "dateStart": "2019-07-24T12:00",
+      "dateEnd": "2019-07-24T13:39"
     },
     "agendaItem": {
-      "title": "Regierungserklärung der Bundesministerin der Verteidigung",
       "officialTitle": "Tagesordnungspunkt 2",
-      "speechIndex": 5
+      "speechIndex": 1017,
+      "title": "Regierungserklärung der Bundesministerin der Verteidigung"
     },
+    "people": [
+      {
+        "type": "memberOfParliament",
+        "label": "Wolfgang Schäuble",
+        "context": "president"
+      }
+    ],
+    "textContents": [
+      {
+        "type": "proceedings",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19109-data.xml",
+        "creator": "Deutscher Bundestag",
+        "license": "Public Domain",
+        "language": "DE-de",
+        "originTextID": "",
+        "textBody": [
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "Damit schließe ich die Aussprache.",
+            "sentences": [
+              {
+                "text": "Damit schließe ich die Aussprache."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "Wir kommen zu dem Entschließungsantrag der Fraktion Die Linke auf der Drucksache 19/11870. Die Fraktion Die Linke wünscht Abstimmung in der Sache; die Fraktionen der CDU/CSU und SPD wünschen Überweisung, und zwar federführend an den Verteidigungsausschuss und mitberatend an den Auswärtigen Ausschuss.",
+            "sentences": [
+              {
+                "text": "Wir kommen zu dem Entschließungsantrag der Fraktion Die Linke auf der Drucksache 19/11870. Die Fraktion Die Linke wünscht Abstimmung in der Sache; die Fraktionen der CDU/CSU und SPD wünschen Überweisung, und zwar federführend an den Verteidigungsausschuss und mitberatend an den Auswärtigen Ausschuss."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "Nach ständiger Übung stimmen wir zunächst über den Antrag auf Ausschussüberweisung ab. Ich frage deshalb: Wer stimmt für die beantragte Überweisung? – Wer stimmt dagegen? – Dann haben alle Fraktionen mit Ausnahme der Fraktion Die Linke für die Überweisung gestimmt, und die Überweisung ist somit beschlossen. Damit stimmen wir über den Entschließungsantrag auf der Drucksache 19/11870 in der Sache nicht ab.",
+            "sentences": [
+              {
+                "text": "Nach ständiger Übung stimmen wir zunächst über den Antrag auf Ausschussüberweisung ab."
+              },
+              {
+                "text": "Ich frage deshalb: Wer stimmt für die beantragte Überweisung?"
+              },
+              {
+                "text": "– Wer stimmt dagegen?"
+              },
+              {
+                "text": "– Dann haben alle Fraktionen mit Ausnahme der Fraktion Die Linke für die Überweisung gestimmt, und die Überweisung ist somit beschlossen."
+              },
+              {
+                "text": "Damit stimmen wir über den Entschließungsantrag auf der Drucksache 19/11870 in der Sache nicht ab."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "Schon sind wir am Schluss unserer heutigen Tagesordnung.",
+            "sentences": [
+              {
+                "text": "Schon sind wir am Schluss unserer heutigen Tagesordnung."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "Ich danke Ihnen, dass Sie alle mitgeholfen haben, die Sitzung an diesem ungewöhnlichen Ort ordnungsgemäß abzuhalten.",
+            "sentences": [
+              {
+                "text": "Ich danke Ihnen, dass Sie alle mitgeholfen haben, die Sitzung an diesem ungewöhnlichen Ort ordnungsgemäß abzuhalten."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "Ich berufe die nächste Sitzung des Deutschen Bundestages auf Dienstag, den 10. September 2019, 10 Uhr, ein.",
+            "sentences": [
+              {
+                "text": "Ich berufe die nächste Sitzung des Deutschen Bundestages auf Dienstag, den 10. September 2019, 10 Uhr, ein."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "Ich wünsche Ihnen weiterhin gute, erholsame Wochen und schließe die Sitzung.",
+            "sentences": [
+              {
+                "text": "Ich wünsche Ihnen weiterhin gute, erholsame Wochen und schließe die Sitzung."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "documents": [],
+    "key": "19-109 tagesordnungspunkt 2 (wolfgang schauble) #1",
+    "dateStart": "2019-07-24T10:24:55",
+    "dateEnd": "2019-07-24T10:26:08",
     "media": {
       "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7375114/7375114_h264_720_400_2000kb_baseline_de_2192.mp4",
       "sourcePage": "http://dbtg.tv/fvid/7375114",
@@ -1256,18 +1406,7 @@
       "license": "CC-BY-SA",
       "originMediaID": "7375114",
       "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7375114/7375114_mp3_128kb_stereo_de_128.mp3"
-    },
-    "dateStart": "2019-07-24T10:24:55",
-    "dateEnd": "2019-07-24T10:26:08",
-    "people": [
-      {
-        "label": "Wolfgang Schäuble",
-        "faction": "CDU/CSU",
-        "context": "main-speaker",
-        "role": "Bundestagspräsident"
-      }
-    ],
-    "key": "19-109 tagesordnungspunkt 2 (wolfgang schauble) #1"
+    }
   },
   {
     "parliament": "DE",
@@ -1281,7 +1420,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 2",
-      "speechIndex": 6,
+      "speechIndex": 1007,
       "title": "Regierungserklärung der Bundesministerin der Verteidigung"
     },
     "people": [
@@ -1302,7 +1441,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19109-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19109-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -1956,7 +2095,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 2",
-      "speechIndex": 7,
+      "speechIndex": 1008,
       "title": "Regierungserklärung der Bundesministerin der Verteidigung"
     },
     "people": [
@@ -1977,7 +2116,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19109-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19109-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -2524,7 +2663,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 2",
-      "speechIndex": 8,
+      "speechIndex": 1009,
       "title": "Regierungserklärung der Bundesministerin der Verteidigung"
     },
     "people": [
@@ -2545,7 +2684,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19109-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19109-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -3068,7 +3207,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 2",
-      "speechIndex": 9,
+      "speechIndex": 1010,
       "title": "Regierungserklärung der Bundesministerin der Verteidigung"
     },
     "people": [
@@ -3089,7 +3228,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19109-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19109-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -3635,7 +3774,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 2",
-      "speechIndex": 10,
+      "speechIndex": 1011,
       "title": "Regierungserklärung der Bundesministerin der Verteidigung"
     },
     "people": [
@@ -3656,7 +3795,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19109-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19109-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -4172,7 +4311,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 2",
-      "speechIndex": 11,
+      "speechIndex": 1012,
       "title": "Regierungserklärung der Bundesministerin der Verteidigung"
     },
     "people": [
@@ -4193,7 +4332,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19109-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19109-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -4715,7 +4854,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 2",
-      "speechIndex": 12,
+      "speechIndex": 1013,
       "title": "Regierungserklärung der Bundesministerin der Verteidigung"
     },
     "people": [
@@ -4736,7 +4875,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19109-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19109-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -5103,7 +5242,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 2",
-      "speechIndex": 13,
+      "speechIndex": 1014,
       "title": "Regierungserklärung der Bundesministerin der Verteidigung"
     },
     "people": [
@@ -5124,7 +5263,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19109-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19109-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -5387,7 +5526,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 2",
-      "speechIndex": 14,
+      "speechIndex": 1015,
       "title": "Regierungserklärung der Bundesministerin der Verteidigung"
     },
     "people": [
@@ -5408,7 +5547,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19109-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19109-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -5716,7 +5855,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 2",
-      "speechIndex": 15,
+      "speechIndex": 1016,
       "title": "Regierungserklärung der Bundesministerin der Verteidigung"
     },
     "people": [
@@ -5727,17 +5866,12 @@
         "lastname": "Brandl",
         "context": "main-speaker",
         "faction": "CDU/CSU"
-      },
-      {
-        "type": "memberOfParliament",
-        "label": "Wolfgang Schäuble",
-        "context": "president"
       }
     ],
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19109-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19109-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -6089,106 +6223,6 @@
               },
               {
                 "text": "Alles Gute und Gottes Segen für Ihr Amt!"
-              }
-            ]
-          },
-          {
-            "type": "comment",
-            "speaker": null,
-            "speakerstatus": null,
-            "text": "(Beifall bei der CDU/CSU)",
-            "sentences": [
-              {
-                "text": "(Beifall bei der CDU/CSU)"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Wolfgang Schäuble",
-            "speakerstatus": "president",
-            "text": "Damit schließe ich die Aussprache.",
-            "sentences": [
-              {
-                "text": "Damit schließe ich die Aussprache."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Wolfgang Schäuble",
-            "speakerstatus": "president",
-            "text": "Wir kommen zu dem Entschließungsantrag der Fraktion Die Linke auf der Drucksache 19/11870. Die Fraktion Die Linke wünscht Abstimmung in der Sache; die Fraktionen der CDU/CSU und SPD wünschen Überweisung, und zwar federführend an den Verteidigungsausschuss und mitberatend an den Auswärtigen Ausschuss.",
-            "sentences": [
-              {
-                "text": "Wir kommen zu dem Entschließungsantrag der Fraktion Die Linke auf der Drucksache 19/11870. Die Fraktion Die Linke wünscht Abstimmung in der Sache; die Fraktionen der CDU/CSU und SPD wünschen Überweisung, und zwar federführend an den Verteidigungsausschuss und mitberatend an den Auswärtigen Ausschuss."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Wolfgang Schäuble",
-            "speakerstatus": "president",
-            "text": "Nach ständiger Übung stimmen wir zunächst über den Antrag auf Ausschussüberweisung ab. Ich frage deshalb: Wer stimmt für die beantragte Überweisung? – Wer stimmt dagegen? – Dann haben alle Fraktionen mit Ausnahme der Fraktion Die Linke für die Überweisung gestimmt, und die Überweisung ist somit beschlossen. Damit stimmen wir über den Entschließungsantrag auf der Drucksache 19/11870 in der Sache nicht ab.",
-            "sentences": [
-              {
-                "text": "Nach ständiger Übung stimmen wir zunächst über den Antrag auf Ausschussüberweisung ab."
-              },
-              {
-                "text": "Ich frage deshalb: Wer stimmt für die beantragte Überweisung?"
-              },
-              {
-                "text": "– Wer stimmt dagegen?"
-              },
-              {
-                "text": "– Dann haben alle Fraktionen mit Ausnahme der Fraktion Die Linke für die Überweisung gestimmt, und die Überweisung ist somit beschlossen."
-              },
-              {
-                "text": "Damit stimmen wir über den Entschließungsantrag auf der Drucksache 19/11870 in der Sache nicht ab."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Wolfgang Schäuble",
-            "speakerstatus": "president",
-            "text": "Schon sind wir am Schluss unserer heutigen Tagesordnung.",
-            "sentences": [
-              {
-                "text": "Schon sind wir am Schluss unserer heutigen Tagesordnung."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Wolfgang Schäuble",
-            "speakerstatus": "president",
-            "text": "Ich danke Ihnen, dass Sie alle mitgeholfen haben, die Sitzung an diesem ungewöhnlichen Ort ordnungsgemäß abzuhalten.",
-            "sentences": [
-              {
-                "text": "Ich danke Ihnen, dass Sie alle mitgeholfen haben, die Sitzung an diesem ungewöhnlichen Ort ordnungsgemäß abzuhalten."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Wolfgang Schäuble",
-            "speakerstatus": "president",
-            "text": "Ich berufe die nächste Sitzung des Deutschen Bundestages auf Dienstag, den 10. September 2019, 10 Uhr, ein.",
-            "sentences": [
-              {
-                "text": "Ich berufe die nächste Sitzung des Deutschen Bundestages auf Dienstag, den 10. September 2019, 10 Uhr, ein."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Wolfgang Schäuble",
-            "speakerstatus": "president",
-            "text": "Ich wünsche Ihnen weiterhin gute, erholsame Wochen und schließe die Sitzung.",
-            "sentences": [
-              {
-                "text": "Ich wünsche Ihnen weiterhin gute, erholsame Wochen und schließe die Sitzung."
               }
             ]
           }

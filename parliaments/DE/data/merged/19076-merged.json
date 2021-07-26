@@ -11,7 +11,7 @@
     },
     "agendaItem": {
       "officialTitle": "Sitzungseröffnung",
-      "speechIndex": 0,
+      "speechIndex": 1000,
       "title": "Sitzungseröffnung"
     },
     "people": [
@@ -24,7 +24,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19076-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19076-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -99,7 +99,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 2,
+      "speechIndex": 1002,
       "title": "Befragung der Bundesregierung"
     },
     "people": [
@@ -112,12 +112,23 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19076-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19076-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
         "originTextID": "",
         "textBody": [
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "Befragung der Bundesregierung",
+            "sentences": [
+              {
+                "text": "Befragung der Bundesregierung"
+              }
+            ]
+          },
           {
             "type": "speech",
             "speaker": "Wolfgang Schäuble",
@@ -169,7 +180,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 3,
+      "speechIndex": 1003,
       "title": "Befragung der Bundesregierung"
     },
     "people": [
@@ -190,7 +201,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19076-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19076-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -455,7 +466,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 44,
+      "speechIndex": 1044,
       "title": "Befragung der Bundesregierung"
     },
     "people": [
@@ -476,7 +487,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19076-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19076-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -589,7 +600,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 46,
+      "speechIndex": 1046,
       "title": "Befragung der Bundesregierung"
     },
     "people": [
@@ -610,7 +621,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19076-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19076-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -710,7 +721,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 50,
+      "speechIndex": 1050,
       "title": "Befragung der Bundesregierung"
     },
     "people": [
@@ -731,7 +742,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19076-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19076-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -817,7 +828,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 5,
+      "speechIndex": 1005,
       "title": "Befragung der Bundesregierung"
     },
     "people": [
@@ -838,7 +849,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19076-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19076-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -927,7 +938,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 7,
+      "speechIndex": 1007,
       "title": "Befragung der Bundesregierung"
     },
     "people": [
@@ -948,7 +959,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19076-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19076-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -1028,7 +1039,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 56,
+      "speechIndex": 1056,
       "title": "Befragung der Bundesregierung"
     },
     "people": [
@@ -1049,7 +1060,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19076-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19076-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -1147,7 +1158,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 58,
+      "speechIndex": 1058,
       "title": "Befragung der Bundesregierung"
     },
     "people": [
@@ -1168,7 +1179,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19076-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19076-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -1234,7 +1245,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 60,
+      "speechIndex": 1060,
       "title": "Befragung der Bundesregierung"
     },
     "people": [
@@ -1255,7 +1266,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19076-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19076-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -1345,7 +1356,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 9,
+      "speechIndex": 1009,
       "title": "Befragung der Bundesregierung"
     },
     "people": [
@@ -1366,7 +1377,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19076-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19076-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -1449,7 +1460,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 64,
+      "speechIndex": 1064,
       "title": "Befragung der Bundesregierung"
     },
     "people": [
@@ -1470,7 +1481,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19076-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19076-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -1558,7 +1569,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 66,
+      "speechIndex": 1066,
       "title": "Befragung der Bundesregierung"
     },
     "people": [
@@ -1579,7 +1590,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19076-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19076-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -1654,7 +1665,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 11,
+      "speechIndex": 1011,
       "title": "Befragung der Bundesregierung"
     },
     "people": [
@@ -1675,7 +1686,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19076-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19076-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -1738,7 +1749,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 70,
+      "speechIndex": 1070,
       "title": "Befragung der Bundesregierung"
     },
     "people": [
@@ -1759,7 +1770,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19076-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19076-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -1840,7 +1851,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 48,
+      "speechIndex": 1048,
       "title": "Befragung der Bundesregierung"
     },
     "people": [
@@ -1861,7 +1872,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19076-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19076-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -1921,16 +1932,55 @@
   {
     "parliament": "DE",
     "electoralPeriod": {
-      "number": 19
+      "number": "19"
     },
     "session": {
-      "number": 76
+      "number": "76",
+      "dateStart": "2019-01-30T13:00",
+      "dateEnd": "2019-01-30T16:49"
     },
     "agendaItem": {
-      "title": "Befragung der Bundesregierung",
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 19
+      "speechIndex": 1073,
+      "title": "Befragung der Bundesregierung"
     },
+    "people": [
+      {
+        "type": "memberOfParliament",
+        "label": "Thomas Oppermann",
+        "context": "vice-president"
+      }
+    ],
+    "textContents": [
+      {
+        "type": "proceedings",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19076-data.xml",
+        "creator": "Deutscher Bundestag",
+        "license": "Public Domain",
+        "language": "DE-de",
+        "originTextID": "",
+        "textBody": [
+          {
+            "type": "speech",
+            "speaker": "Thomas Oppermann",
+            "speakerstatus": "vice-president",
+            "text": "Vielen Dank, Herr Staatssekretär. – Damit ist die Regierungsbefragung beendet.",
+            "sentences": [
+              {
+                "text": "Vielen Dank, Herr Staatssekretär."
+              },
+              {
+                "text": "– Damit ist die Regierungsbefragung beendet."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "documents": [],
+    "key": "19-76 tagesordnungspunkt 1 (thomas oppermann)",
+    "dateStart": "2019-01-30T13:02:27",
+    "dateEnd": "2019-01-30T13:02:40",
     "media": {
       "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7321863/7321863_h264_720_400_2000kb_baseline_de_2192.mp4",
       "sourcePage": "http://dbtg.tv/fvid/7321863",
@@ -1939,18 +1989,7 @@
       "license": "CC-BY-SA",
       "originMediaID": "7321863",
       "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7321863/7321863_mp3_128kb_stereo_de_128.mp3"
-    },
-    "dateStart": "2019-01-30T13:02:27",
-    "dateEnd": "2019-01-30T13:02:40",
-    "people": [
-      {
-        "label": "Thomas Oppermann",
-        "faction": "SPD",
-        "context": "main-speaker",
-        "role": "Bundestagsvizepräsident"
-      }
-    ],
-    "key": "19-76 tagesordnungspunkt 1 (thomas oppermann)"
+    }
   },
   {
     "parliament": "DE",
@@ -1964,7 +2003,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 2",
-      "speechIndex": 73,
+      "speechIndex": 1074,
       "title": "Fragestunde"
     },
     "people": [
@@ -2145,12 +2184,23 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19076-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19076-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
         "originTextID": "",
         "textBody": [
+          {
+            "type": "speech",
+            "speaker": "Thomas Oppermann",
+            "speakerstatus": "vice-president",
+            "text": "Fragestunde",
+            "sentences": [
+              {
+                "text": "Fragestunde"
+              }
+            ]
+          },
           {
             "type": "speech",
             "speaker": "Thomas Oppermann",
@@ -7414,7 +7464,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 2",
-      "speechIndex": 74,
+      "speechIndex": 1075,
       "title": "Fragestunde"
     },
     "people": [
@@ -7550,57 +7600,28 @@
         "lastname": "Willsch",
         "context": "speaker",
         "faction": "CDU/CSU"
-      },
-      {
-        "type": "memberOfParliament",
-        "label": "Stefan Schmidt",
-        "firstname": "Stefan",
-        "lastname": "Schmidt",
-        "context": "speaker",
-        "faction": "BÜNDNIS 90/DIE GRÜNEN"
-      },
-      {
-        "type": "memberOfParliament",
-        "label": "Manfred Grund",
-        "firstname": "Manfred",
-        "lastname": "Grund",
-        "context": "speaker",
-        "faction": "CDU/CSU"
-      },
-      {
-        "type": "memberOfParliament",
-        "label": "Florian Pronold",
-        "firstname": "Florian",
-        "lastname": "Pronold",
-        "context": "speaker",
-        "faction": ""
-      },
-      {
-        "type": "memberOfParliament",
-        "label": "Lisa Badum",
-        "firstname": "Lisa",
-        "lastname": "Badum",
-        "context": "speaker",
-        "faction": "BÜNDNIS 90/DIE GRÜNEN"
-      },
-      {
-        "type": "memberOfParliament",
-        "label": "Steffi Lemke",
-        "firstname": "Steffi",
-        "lastname": "Lemke",
-        "context": "speaker",
-        "faction": "BÜNDNIS 90/DIE GRÜNEN"
       }
     ],
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19076-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19076-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
         "originTextID": "",
         "textBody": [
+          {
+            "type": "speech",
+            "speaker": "Thomas Oppermann",
+            "speakerstatus": "vice-president",
+            "text": "Fragestunde",
+            "sentences": [
+              {
+                "text": "Fragestunde"
+              }
+            ]
+          },
           {
             "type": "speech",
             "speaker": "Thomas Oppermann",
@@ -10410,1878 +10431,6 @@
               },
               {
                 "text": "Da müssen zunächst Abstimmungen mit Tschechien erfolgen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Zusatzfrage, Herr Schmidt.",
-            "sentences": [
-              {
-                "text": "Zusatzfrage, Herr Schmidt."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Stefan Schmidt",
-            "speakerstatus": "speaker",
-            "text": "Vielen Dank, Herr Präsident. – Vielen Dank, Herr Staatssekretär. Sie haben angesprochen, dass die sogenannte Metropolenbahn jetzt in den Vordringlichen Bedarf aufgenommen wurde. Sie wissen, dass dieses Projekt eine längere Historie hat: Ihr vorheriger Chef, der vorherige Verkehrsminister, hatte schon vor der Bundestagswahl diese Hochstufung angekündigt. Der aktuelle Verkehrsminister hat das vor der Landtagswahl in Bayern angekündigt. Beides waren womöglich wahltaktische Manöver. Nichtsdestoweniger warten die Menschen in der Region schon sehr lange auf die Umsetzung dieses Projektes. Deshalb frage ich: Wie ist bei der Vorarbeit die Kooperation mit der tschechischen Seite gelaufen? Wie laufen die Gespräche? Ist absehbar, ab wann es zu einer Umsetzung kommen kann?",
-            "sentences": [
-              {
-                "text": "Vielen Dank, Herr Präsident."
-              },
-              {
-                "text": "– Vielen Dank, Herr Staatssekretär."
-              },
-              {
-                "text": "Sie haben angesprochen, dass die sogenannte Metropolenbahn jetzt in den Vordringlichen Bedarf aufgenommen wurde."
-              },
-              {
-                "text": "Sie wissen, dass dieses Projekt eine längere Historie hat: Ihr vorheriger Chef, der vorherige Verkehrsminister, hatte schon vor der Bundestagswahl diese Hochstufung angekündigt."
-              },
-              {
-                "text": "Der aktuelle Verkehrsminister hat das vor der Landtagswahl in Bayern angekündigt."
-              },
-              {
-                "text": "Beides waren womöglich wahltaktische Manöver."
-              },
-              {
-                "text": "Nichtsdestoweniger warten die Menschen in der Region schon sehr lange auf die Umsetzung dieses Projektes."
-              },
-              {
-                "text": "Deshalb frage ich: Wie ist bei der Vorarbeit die Kooperation mit der tschechischen Seite gelaufen?"
-              },
-              {
-                "text": "Wie laufen die Gespräche?"
-              },
-              {
-                "text": "Ist absehbar, ab wann es zu einer Umsetzung kommen kann?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Enak Ferlemann",
-            "speakerstatus": "speaker",
-            "text": "Ganz grundsätzlich, Herr Abgeordneter, gibt das Bundesverkehrsministerium nicht Erklärungen wegen Landtagswahlen oder Bundestagswahlen ab, sondern wenn wir gefragt werden, geben wir Auskunft über den Stand eines bestimmten Projektes. Das gilt für die Bundesminister genauso wie für die Parlamentarischen Staatssekretäre und die beamteten Staatssekretäre.",
-            "sentences": [
-              {
-                "text": "Ganz grundsätzlich, Herr Abgeordneter, gibt das Bundesverkehrsministerium nicht Erklärungen wegen Landtagswahlen oder Bundestagswahlen ab, sondern wenn wir gefragt werden, geben wir Auskunft über den Stand eines bestimmten Projektes."
-              },
-              {
-                "text": "Das gilt für die Bundesminister genauso wie für die Parlamentarischen Staatssekretäre und die beamteten Staatssekretäre."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Enak Ferlemann",
-            "speakerstatus": "speaker",
-            "text": "Aber zu dem Projekt selber: Das ist ein Gemeinschaftsprojekt; das geht nur, wenn die Deutschen und die Tschechen sich verständigen, gemeinsam die Strecken auszubauen. Wir haben auf deutscher Seite die rechtlichen Voraussetzungen geschaffen und sind mit der tschechischen Verwaltung im Gespräch darüber, wie stark die Tschechen das priorisieren. Es nützt ja nichts, wenn die Tschechen sagen: „Wir machen es irgendwann“ und wir dann mit unseren Maßnahmen durch sind. Das macht keinen Sinn. Das Projekt geht nur gemeinsam. Deswegen gibt es Abstimmungsgespräche. Die Tschechen und wir werden das Projekt rechtzeitig angehen, damit es möglichst im Gleichklang läuft. Nur das macht Sinn.",
-            "sentences": [
-              {
-                "text": "Aber zu dem Projekt selber: Das ist ein Gemeinschaftsprojekt; das geht nur, wenn die Deutschen und die Tschechen sich verständigen, gemeinsam die Strecken auszubauen."
-              },
-              {
-                "text": "Wir haben auf deutscher Seite die rechtlichen Voraussetzungen geschaffen und sind mit der tschechischen Verwaltung im Gespräch darüber, wie stark die Tschechen das priorisieren."
-              },
-              {
-                "text": "Es nützt ja nichts, wenn die Tschechen sagen: „Wir machen es irgendwann“ und wir dann mit unseren Maßnahmen durch sind."
-              },
-              {
-                "text": "Das macht keinen Sinn."
-              },
-              {
-                "text": "Das Projekt geht nur gemeinsam."
-              },
-              {
-                "text": "Deswegen gibt es Abstimmungsgespräche."
-              },
-              {
-                "text": "Die Tschechen und wir werden das Projekt rechtzeitig angehen, damit es möglichst im Gleichklang läuft."
-              },
-              {
-                "text": "Nur das macht Sinn."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Weitere Zusatzfrage, Herr Schmidt?",
-            "sentences": [
-              {
-                "text": "Weitere Zusatzfrage, Herr Schmidt?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Stefan Schmidt",
-            "speakerstatus": "speaker",
-            "text": "Ja, vielen Dank. – Ich möchte das schon noch einmal vertiefen. Herr Dobrindt hatte im Sommer 2017 angekündigt, dieses Projekt würde vor der Bundestagswahl in den Vordringlichen Bedarf aufgenommen. Das hat – aus welchen Gründen auch immer – nicht geklappt. Herr Scheuer hat es im Sommer 2018 angekündigt. Das hat – aus welchen Gründen auch immer – wieder nicht geklappt. Jetzt haben wir die Planung. Ich frage mich: Was ist in den letzten eineinhalb Jahren in der Kooperation mit Tschechien passiert? Laufen die Gespräche seit eineinhalb Jahren zäh, oder sind die erst jetzt angelaufen? Das ist die erste Frage.",
-            "sentences": [
-              {
-                "text": "Ja, vielen Dank."
-              },
-              {
-                "text": "– Ich möchte das schon noch einmal vertiefen."
-              },
-              {
-                "text": "Herr Dobrindt hatte im Sommer 2017 angekündigt, dieses Projekt würde vor der Bundestagswahl in den Vordringlichen Bedarf aufgenommen."
-              },
-              {
-                "text": "Das hat – aus welchen Gründen auch immer – nicht geklappt."
-              },
-              {
-                "text": "Herr Scheuer hat es im Sommer 2018 angekündigt."
-              },
-              {
-                "text": "Das hat – aus welchen Gründen auch immer – wieder nicht geklappt."
-              },
-              {
-                "text": "Jetzt haben wir die Planung."
-              },
-              {
-                "text": "Ich frage mich: Was ist in den letzten eineinhalb Jahren in der Kooperation mit Tschechien passiert?"
-              },
-              {
-                "text": "Laufen die Gespräche seit eineinhalb Jahren zäh, oder sind die erst jetzt angelaufen?"
-              },
-              {
-                "text": "Das ist die erste Frage."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Stefan Schmidt",
-            "speakerstatus": "speaker",
-            "text": "Die andere Frage: Wie lange wollen Sie diesen Zustand hinnehmen? Man fährt momentan von München nach Prag gut vier Stunden, allerdings nur zu ausgewählten Tageszeiten. Die Empfehlung von München ist regulär auch, mit der Bahn nach Nürnberg zu fahren und dann mit dem Bus nach Prag. Von Regensburg soll man mit dem Zug ebenfalls nach Nürnberg, in die Gegenrichtung, fahren und dann mit dem Bus nach Prag. Eine solche Anbindung von München nach Prag ist doch nicht 21. Jahrhundert, und das bei einer Anbindung, die im Europa des 21. Jahrhunderts von essenzieller Bedeutung ist.",
-            "sentences": [
-              {
-                "text": "Die andere Frage: Wie lange wollen Sie diesen Zustand hinnehmen?"
-              },
-              {
-                "text": "Man fährt momentan von München nach Prag gut vier Stunden, allerdings nur zu ausgewählten Tageszeiten."
-              },
-              {
-                "text": "Die Empfehlung von München ist regulär auch, mit der Bahn nach Nürnberg zu fahren und dann mit dem Bus nach Prag."
-              },
-              {
-                "text": "Von Regensburg soll man mit dem Zug ebenfalls nach Nürnberg, in die Gegenrichtung, fahren und dann mit dem Bus nach Prag."
-              },
-              {
-                "text": "Eine solche Anbindung von München nach Prag ist doch nicht 21. Jahrhundert, und das bei einer Anbindung, die im Europa des 21. Jahrhunderts von essenzieller Bedeutung ist."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Enak Ferlemann",
-            "speakerstatus": "speaker",
-            "text": "Die schienenmäßige Erschließung der Stadt Prag ist in erster Linie Aufgabe der Tschechen selber. Die Tschechen haben sich prioritär für den Ausbau anderer Strecken entschieden. Das kann man auch nachvollziehen; denn die Frage ist ja: Wo sind die Hauptverkehrsströme? Und die Hauptverkehrsströme sind aus Sicht der Tschechen andere. Deswegen haben sie andere Strecken vorgezogen.",
-            "sentences": [
-              {
-                "text": "Die schienenmäßige Erschließung der Stadt Prag ist in erster Linie Aufgabe der Tschechen selber."
-              },
-              {
-                "text": "Die Tschechen haben sich prioritär für den Ausbau anderer Strecken entschieden."
-              },
-              {
-                "text": "Das kann man auch nachvollziehen; denn die Frage ist ja: Wo sind die Hauptverkehrsströme?"
-              },
-              {
-                "text": "Und die Hauptverkehrsströme sind aus Sicht der Tschechen andere."
-              },
-              {
-                "text": "Deswegen haben sie andere Strecken vorgezogen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Enak Ferlemann",
-            "speakerstatus": "speaker",
-            "text": "Sie haben allerdings vor, auch die Strecke, über die wir jetzt reden, zu ertüchtigen. Deswegen sind wir mit den Tschechen schon seit längerem im Gespräch. Wir haben ein sehr gutes Verhältnis zu den Tschechen und sprechen über viele, viele Projekte, die zwischen Deutschland, Tschechien, auch Österreich und Polen eine große Rolle spielen, sowohl im Personenfernverkehr als auch im -nahverkehr als auch im Güterverkehr. Insofern spielt auch diese Strecke eine Rolle. Wann es so weit ist, kann ich Ihnen nicht sagen.",
-            "sentences": [
-              {
-                "text": "Sie haben allerdings vor, auch die Strecke, über die wir jetzt reden, zu ertüchtigen."
-              },
-              {
-                "text": "Deswegen sind wir mit den Tschechen schon seit längerem im Gespräch."
-              },
-              {
-                "text": "Wir haben ein sehr gutes Verhältnis zu den Tschechen und sprechen über viele, viele Projekte, die zwischen Deutschland, Tschechien, auch Österreich und Polen eine große Rolle spielen, sowohl im Personenfernverkehr als auch im -nahverkehr als auch im Güterverkehr."
-              },
-              {
-                "text": "Insofern spielt auch diese Strecke eine Rolle."
-              },
-              {
-                "text": "Wann es so weit ist, kann ich Ihnen nicht sagen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Enak Ferlemann",
-            "speakerstatus": "speaker",
-            "text": "Die Bundesminister wussten, dass wir bei der Bewertung der Strecke auf ein positives Nutzen-Kosten-Verhältnis kommen können. Beide Bundesminister haben das auch angekündigt in dem Wissen, dass wir dieses Projekt über die magische Hürde von eins bringen können. Allerdings ist die Voraussetzung, um das Projekt zu realisieren, dass wir uns mit den Tschechen über den Ausbau der Gesamtstrecke einigen, und da sind wir noch nicht so weit.",
-            "sentences": [
-              {
-                "text": "Die Bundesminister wussten, dass wir bei der Bewertung der Strecke auf ein positives Nutzen-Kosten-Verhältnis kommen können."
-              },
-              {
-                "text": "Beide Bundesminister haben das auch angekündigt in dem Wissen, dass wir dieses Projekt über die magische Hürde von eins bringen können."
-              },
-              {
-                "text": "Allerdings ist die Voraussetzung, um das Projekt zu realisieren, dass wir uns mit den Tschechen über den Ausbau der Gesamtstrecke einigen, und da sind wir noch nicht so weit."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Damit ist die Strecke München–Prag bis auf Weiteres abschließend behandelt.",
-            "sentences": [
-              {
-                "text": "Damit ist die Strecke München–Prag bis auf Weiteres abschließend behandelt."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Wir kommen zu Frage 23 des Kollegen Manfred Grund:",
-            "sentences": [
-              {
-                "text": "Wir kommen zu Frage 23 des Kollegen Manfred Grund:"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Enak Ferlemann",
-            "speakerstatus": "speaker",
-            "text": "Ich würde mir erlauben, Herr Präsident, wenn Sie es gestatten, die Fragen 23 und 24 zusammen zu beantworten, weil es ein Sachverhalt ist.",
-            "sentences": [
-              {
-                "text": "Ich würde mir erlauben, Herr Präsident, wenn Sie es gestatten, die Fragen 23 und 24 zusammen zu beantworten, weil es ein Sachverhalt ist."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Damit bin ich einverstanden. Dann rufe ich auch die Frage 24 auf:",
-            "sentences": [
-              {
-                "text": "Damit bin ich einverstanden."
-              },
-              {
-                "text": "Dann rufe ich auch die Frage 24 auf:"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Enak Ferlemann",
-            "speakerstatus": "speaker",
-            "text": "Danke. – Die Antwort lautet wie folgt: Schließungen von DB-Reisezentren werden von der DB AG aus wirtschaftlichen Erwägungen durchgeführt und tragen der Verkehrsnachfrage Rechnung. Nach Auskunft der DB AG hat sich das Format der Video-Reisezentren seit 2013 bewährt. Regelmäßige Kundenbefragungen bescheinigen dem Videoverkauf eine hohe Akzeptanz und Kundenzufriedenheit. Die Video-Reisezentren stellen gerade im ländlichen Raum einen Gewinn für alle Beteiligten dar. Die Kunden profitieren von längeren und durchgehenden Öffnungszeiten sowie ortskundigen Reiseberatern und erhalten beim Videoverkauf das gleiche Angebot wie in klassischen Reisezentren.",
-            "sentences": [
-              {
-                "text": "Danke."
-              },
-              {
-                "text": "– Die Antwort lautet wie folgt: Schließungen von DB-Reisezentren werden von der DB AG aus wirtschaftlichen Erwägungen durchgeführt und tragen der Verkehrsnachfrage Rechnung."
-              },
-              {
-                "text": "Nach Auskunft der DB AG hat sich das Format der Video-Reisezentren seit 2013 bewährt."
-              },
-              {
-                "text": "Regelmäßige Kundenbefragungen bescheinigen dem Videoverkauf eine hohe Akzeptanz und Kundenzufriedenheit."
-              },
-              {
-                "text": "Die Video-Reisezentren stellen gerade im ländlichen Raum einen Gewinn für alle Beteiligten dar."
-              },
-              {
-                "text": "Die Kunden profitieren von längeren und durchgehenden Öffnungszeiten sowie ortskundigen Reiseberatern und erhalten beim Videoverkauf das gleiche Angebot wie in klassischen Reisezentren."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Zusatzfrage? – Herr Grund.",
-            "sentences": [
-              {
-                "text": "Zusatzfrage?"
-              },
-              {
-                "text": "– Herr Grund."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Manfred Grund",
-            "speakerstatus": "speaker",
-            "text": "Herr Staatssekretär, Leinefelde ist der Bahnknotenpunkt im Eichsfeld. Nach Schließung dieses Reisezentrums wird es im Umkreis von 50 Kilometern nicht mehr möglich sein, Personen bedienende Dienstleistungen bei der Bahn zu erhalten. Wer diesen Service dann noch haben möchte, wird dann gezwungen sein, entweder nach Göttingen, nach Mühlhausen oder nach Nordhausen zu fahren. Ich frage die Bundesregierung vor diesem Hintergrund, ob sie es für richtig erachtet, dass sich die Deutsche Bahn mit der Schließung dieses Servicezentrums aus den ländlichen Regionen zurückzieht.",
-            "sentences": [
-              {
-                "text": "Herr Staatssekretär, Leinefelde ist der Bahnknotenpunkt im Eichsfeld."
-              },
-              {
-                "text": "Nach Schließung dieses Reisezentrums wird es im Umkreis von 50 Kilometern nicht mehr möglich sein, Personen bedienende Dienstleistungen bei der Bahn zu erhalten."
-              },
-              {
-                "text": "Wer diesen Service dann noch haben möchte, wird dann gezwungen sein, entweder nach Göttingen, nach Mühlhausen oder nach Nordhausen zu fahren."
-              },
-              {
-                "text": "Ich frage die Bundesregierung vor diesem Hintergrund, ob sie es für richtig erachtet, dass sich die Deutsche Bahn mit der Schließung dieses Servicezentrums aus den ländlichen Regionen zurückzieht."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Enak Ferlemann",
-            "speakerstatus": "speaker",
-            "text": "Ganz grundsätzlich, muss man sagen, ist die Deutsche Bahn gezwungen, Kosten einzusparen, um bei den Erlösen, die sie erzielt, den Betrieb ökonomisch fahren zu können. Dazu zählen auch die Servicezentren, weil sie einen hohen Personaleinsatz verlangen. Mit Automatisierung, die ja hier auch vorgesehen ist, kommt man den Kundenbedürfnissen nach und kann die Nachfrage im Grunde genommen auch befriedigen.",
-            "sentences": [
-              {
-                "text": "Ganz grundsätzlich, muss man sagen, ist die Deutsche Bahn gezwungen, Kosten einzusparen, um bei den Erlösen, die sie erzielt, den Betrieb ökonomisch fahren zu können."
-              },
-              {
-                "text": "Dazu zählen auch die Servicezentren, weil sie einen hohen Personaleinsatz verlangen."
-              },
-              {
-                "text": "Mit Automatisierung, die ja hier auch vorgesehen ist, kommt man den Kundenbedürfnissen nach und kann die Nachfrage im Grunde genommen auch befriedigen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Enak Ferlemann",
-            "speakerstatus": "speaker",
-            "text": "Gleichwohl gebe ich Ihnen recht, dass gerade ältere Menschen Probleme haben, mit diesen Anlagen umzugehen. Deswegen ist es immer eine Abwägungsfrage, wann man sich aus welchem Ort, aus welcher Region zurückzieht. Die Bahn hat das so entschieden. Wir können das bedauern, wir können das kommentieren, aber letztlich ist das eine Entscheidung, die, wenn, nur durch das Land beeinflusst werden könnte, weil das Land für die Regionalisierungsmittel zuständig ist. Der Bund gibt den Ländern ja nur pauschal die ihnen zustehende Summe, und die Länder verwalten die Regionalisierungsmittel selber. Von daher könnte man sich, wenn man ein solches Angebot – auf Geheiß hin – aufrechterhalten will, im Rahmen der Regionalisierungsmittel einigen.",
-            "sentences": [
-              {
-                "text": "Gleichwohl gebe ich Ihnen recht, dass gerade ältere Menschen Probleme haben, mit diesen Anlagen umzugehen."
-              },
-              {
-                "text": "Deswegen ist es immer eine Abwägungsfrage, wann man sich aus welchem Ort, aus welcher Region zurückzieht."
-              },
-              {
-                "text": "Die Bahn hat das so entschieden."
-              },
-              {
-                "text": "Wir können das bedauern, wir können das kommentieren, aber letztlich ist das eine Entscheidung, die, wenn, nur durch das Land beeinflusst werden könnte, weil das Land für die Regionalisierungsmittel zuständig ist."
-              },
-              {
-                "text": "Der Bund gibt den Ländern ja nur pauschal die ihnen zustehende Summe, und die Länder verwalten die Regionalisierungsmittel selber."
-              },
-              {
-                "text": "Von daher könnte man sich, wenn man ein solches Angebot – auf Geheiß hin – aufrechterhalten will, im Rahmen der Regionalisierungsmittel einigen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Weitere Zusatzfrage? – Herr Grund.",
-            "sentences": [
-              {
-                "text": "Weitere Zusatzfrage?"
-              },
-              {
-                "text": "– Herr Grund."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Manfred Grund",
-            "speakerstatus": "speaker",
-            "text": "Herr Staatssekretär, ich nehme den Verweis auf den Freistaat Thüringen und dessen Verantwortung gerne auf, frage aber trotzdem noch einmal Sie und damit auch die Bundesregierung, ob Sie sich dafür einsetzen werden, dass neben diesen Videodienstleistungen immer noch Personen bedienende Dienstleistungen, zumindest zeitlich befristet, vorgehalten werden können.",
-            "sentences": [
-              {
-                "text": "Herr Staatssekretär, ich nehme den Verweis auf den Freistaat Thüringen und dessen Verantwortung gerne auf, frage aber trotzdem noch einmal Sie und damit auch die Bundesregierung, ob Sie sich dafür einsetzen werden, dass neben diesen Videodienstleistungen immer noch Personen bedienende Dienstleistungen, zumindest zeitlich befristet, vorgehalten werden können."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Enak Ferlemann",
-            "speakerstatus": "speaker",
-            "text": "Ich habe etwas zur Personalausstattung und zu den Kosten gesagt. Ich kenne das Problem, das Sie geschildert haben. Auch hier biete ich Ihnen gerne an, Herr Abgeordneter, dass wir uns noch einmal ansehen, ob hier besondere Bedingungen vorliegen und ob man zu Veränderungen kommen kann und was im Einzelnen zu den Entscheidungen beigetragen hat. Das würde ich Ihnen dann gerne gegebenenfalls, wenn ich so weit bin, schriftlich beantworten. Also, ich nehme mich der Sache noch einmal an.",
-            "sentences": [
-              {
-                "text": "Ich habe etwas zur Personalausstattung und zu den Kosten gesagt."
-              },
-              {
-                "text": "Ich kenne das Problem, das Sie geschildert haben."
-              },
-              {
-                "text": "Auch hier biete ich Ihnen gerne an, Herr Abgeordneter, dass wir uns noch einmal ansehen, ob hier besondere Bedingungen vorliegen und ob man zu Veränderungen kommen kann und was im Einzelnen zu den Entscheidungen beigetragen hat."
-              },
-              {
-                "text": "Das würde ich Ihnen dann gerne gegebenenfalls, wenn ich so weit bin, schriftlich beantworten."
-              },
-              {
-                "text": "Also, ich nehme mich der Sache noch einmal an."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Vielen Dank, Herr Staatssekretär.",
-            "sentences": [
-              {
-                "text": "Vielen Dank, Herr Staatssekretär."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Wir kommen zu Frage 25 des Abgeordneten Dr. Christoph Hoffmann, FDP:",
-            "sentences": [
-              {
-                "text": "Wir kommen zu Frage 25 des Abgeordneten Dr. Christoph Hoffmann, FDP:"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Enak Ferlemann",
-            "speakerstatus": "speaker",
-            "text": "Sehr geehrter Herr Abgeordneter, die Frage beantworte ich wie folgt: Zur Umsetzung des vom Projektbeirat bzw. Deutschen Bundestag beschlossenen übergesetzlichen Lärmschutzes wird die Vorhabenträgerin ein Planergänzungsverfahren durchführen. Eine Tieflage war vom Projektbeirat diskutiert und verworfen worden. Das Bundesverwaltungsgericht hat zu den abgewiesenen Klagen gegen den Ausbau zwischen Müllheim und Auggen unter anderem ausgeführt, dass eine Tieflage der Strecke durch das Eisenbahn-Bundesamt abwägungsfehlerfrei verworfen wurde, da sie nicht eindeutig vorzugswürdig ist.",
-            "sentences": [
-              {
-                "text": "Sehr geehrter Herr Abgeordneter, die Frage beantworte ich wie folgt: Zur Umsetzung des vom Projektbeirat bzw. Deutschen Bundestag beschlossenen übergesetzlichen Lärmschutzes wird die Vorhabenträgerin ein Planergänzungsverfahren durchführen."
-              },
-              {
-                "text": "Eine Tieflage war vom Projektbeirat diskutiert und verworfen worden."
-              },
-              {
-                "text": "Das Bundesverwaltungsgericht hat zu den abgewiesenen Klagen gegen den Ausbau zwischen Müllheim und Auggen unter anderem ausgeführt, dass eine Tieflage der Strecke durch das Eisenbahn-Bundesamt abwägungsfehlerfrei verworfen wurde, da sie nicht eindeutig vorzugswürdig ist."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Zusatzfrage, Herr Dr. Hoffmann?",
-            "sentences": [
-              {
-                "text": "Zusatzfrage, Herr Dr. Hoffmann?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Christoph Hoffmann",
-            "speakerstatus": "speaker",
-            "text": "Vielen Dank, Herr Staatssekretär, für die Beantwortung der Frage. Sie haben das, was bekannt ist, hier gesagt. Aber es geht ja eigentlich darum: Wir haben jetzt die Situation, dass wir einen Planfeststellungsbeschluss haben, der Baurecht ermöglicht. Auf der anderen Seite haben wir nicht definiert, wie der Volllärmschutz, der hier im Parlament beschlossen worden ist, eigentlich aussehen soll, der natürlich auch bauliche Maßnahmen nach sich zieht. Die Gemeinden dort werden vor die Wahl gestellt, eine etwa 8 Meter hohe Lärmschutzwand zu akzeptieren – das ist, glaube ich, in einer touristisch hochwertigen Gegend für viele Gemeinden wirklich nicht zumutbar – oder höheren Lärm und passiven Lärmschutz zu haben, weil eben bisher eine Tieflage nicht möglich ist.",
-            "sentences": [
-              {
-                "text": "Vielen Dank, Herr Staatssekretär, für die Beantwortung der Frage."
-              },
-              {
-                "text": "Sie haben das, was bekannt ist, hier gesagt."
-              },
-              {
-                "text": "Aber es geht ja eigentlich darum: Wir haben jetzt die Situation, dass wir einen Planfeststellungsbeschluss haben, der Baurecht ermöglicht."
-              },
-              {
-                "text": "Auf der anderen Seite haben wir nicht definiert, wie der Volllärmschutz, der hier im Parlament beschlossen worden ist, eigentlich aussehen soll, der natürlich auch bauliche Maßnahmen nach sich zieht."
-              },
-              {
-                "text": "Die Gemeinden dort werden vor die Wahl gestellt, eine etwa 8 Meter hohe Lärmschutzwand zu akzeptieren – das ist, glaube ich, in einer touristisch hochwertigen Gegend für viele Gemeinden wirklich nicht zumutbar – oder höheren Lärm und passiven Lärmschutz zu haben, weil eben bisher eine Tieflage nicht möglich ist."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Christoph Hoffmann",
-            "speakerstatus": "speaker",
-            "text": "Sehen Sie noch eine Möglichkeit für einen Kompromiss, zum Beispiel für eine Kleintroglage, dass man die Gleise einfach nur 1 oder 2 Meter tiefer legt und nicht, wie Sie angesprochen haben, 8 Meter, was natürlich ein Riesenprojekt wäre? Die Trasse etwas tiefer legen, um nicht 8 Meter hohe Lärmschutzwände zu haben, wäre doch ein Kompromiss.",
-            "sentences": [
-              {
-                "text": "Sehen Sie noch eine Möglichkeit für einen Kompromiss, zum Beispiel für eine Kleintroglage, dass man die Gleise einfach nur 1 oder 2 Meter tiefer legt und nicht, wie Sie angesprochen haben, 8 Meter, was natürlich ein Riesenprojekt wäre?"
-              },
-              {
-                "text": "Die Trasse etwas tiefer legen, um nicht 8 Meter hohe Lärmschutzwände zu haben, wäre doch ein Kompromiss."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Enak Ferlemann",
-            "speakerstatus": "speaker",
-            "text": "So einfach ist das mit Kompromissen nicht. Wir haben einen Projektbeirat und eine intensive Beteiligung der Kommunen, aber auch der Bürgerinnen und Bürger, der Bürgerinitiativen. Wenn wir jetzt zu einer veränderten Bauleistung kämen, zöge das wieder ein Planergänzungsverfahren nach sich. Wir haben aber, höchstrichterlich festgestellt, Baurecht, und wir brauchen diese Strecke zwingend für den Güterverkehr in Deutschland und vor allem in Europa. Die Verfahren sind ausgeklagt, wir haben Baurecht, die Finanzierungsvereinbarung ist geschlossen. Wenn Sie mich fragen, sage ich: Jetzt kommen wir in den Bau.",
-            "sentences": [
-              {
-                "text": "So einfach ist das mit Kompromissen nicht."
-              },
-              {
-                "text": "Wir haben einen Projektbeirat und eine intensive Beteiligung der Kommunen, aber auch der Bürgerinnen und Bürger, der Bürgerinitiativen."
-              },
-              {
-                "text": "Wenn wir jetzt zu einer veränderten Bauleistung kämen, zöge das wieder ein Planergänzungsverfahren nach sich."
-              },
-              {
-                "text": "Wir haben aber, höchstrichterlich festgestellt, Baurecht, und wir brauchen diese Strecke zwingend für den Güterverkehr in Deutschland und vor allem in Europa."
-              },
-              {
-                "text": "Die Verfahren sind ausgeklagt, wir haben Baurecht, die Finanzierungsvereinbarung ist geschlossen."
-              },
-              {
-                "text": "Wenn Sie mich fragen, sage ich: Jetzt kommen wir in den Bau."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Enak Ferlemann",
-            "speakerstatus": "speaker",
-            "text": "Wenn Sie jetzt wünschen, das ganze Paket noch einmal aufzumachen, haben wir ein erneutes Planergänzungsverfahren mit den ganzen zeitlichen Veränderungen und Verläufen. Darauf hätte man sich vorher verständigen müssen. Wenn Sie mich gefragt hätten, hätte ich immer schon den Ratschlag gegeben, dass man mit einer Kombination vielleicht besser zurechtgekommen wäre. Man hat sich aber so entschieden; die Klagen waren dementsprechend. Nun ist es entschieden. Nun wird so gebaut, wie es das Baurecht vorsieht.",
-            "sentences": [
-              {
-                "text": "Wenn Sie jetzt wünschen, das ganze Paket noch einmal aufzumachen, haben wir ein erneutes Planergänzungsverfahren mit den ganzen zeitlichen Veränderungen und Verläufen."
-              },
-              {
-                "text": "Darauf hätte man sich vorher verständigen müssen."
-              },
-              {
-                "text": "Wenn Sie mich gefragt hätten, hätte ich immer schon den Ratschlag gegeben, dass man mit einer Kombination vielleicht besser zurechtgekommen wäre."
-              },
-              {
-                "text": "Man hat sich aber so entschieden; die Klagen waren dementsprechend."
-              },
-              {
-                "text": "Nun ist es entschieden."
-              },
-              {
-                "text": "Nun wird so gebaut, wie es das Baurecht vorsieht."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Wollen Sie noch einmal nachhaken?",
-            "sentences": [
-              {
-                "text": "Wollen Sie noch einmal nachhaken?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Christoph Hoffmann",
-            "speakerstatus": "speaker",
-            "text": "Sie haben ja eben selbst gesagt, dass Sie noch ein Plan­ergänzungsverfahren brauchen, um den hier beschlossenen Volllärmschutz herzustellen. Es ist ja völlig unklar, wie der hergestellt werden soll; denn es ist noch nicht klar, ob die Mauer wirklich so hoch werden soll und wie und wo sie beginnen soll. Da sind Dinge einfach noch nicht festgelegt. Trotzdem beginnt die Bahn jetzt mit bauvorbereitenden Maßnahmen. Wir sind ja auch dafür, dass es möglichst schnell und gut vorwärtsgeht. Aber es ist einfach unklar, wie der Volllärmschutz tatsächlich aussehen soll. Und ob Sie dieses Planergänzungsverfahren jetzt für einen Trog von 1 Meter machen oder für eine 8 Meter hohe Lärmschutzwand: Sie brauchen, wie Sie eben schon richtig gesagt haben, ein zusätzliches Verfahren. Deshalb wäre doch die Frage, ob man das nicht vernünftig mit den Kommunen diskutieren sollte.",
-            "sentences": [
-              {
-                "text": "Sie haben ja eben selbst gesagt, dass Sie noch ein Plan­ergänzungsverfahren brauchen, um den hier beschlossenen Volllärmschutz herzustellen."
-              },
-              {
-                "text": "Es ist ja völlig unklar, wie der hergestellt werden soll; denn es ist noch nicht klar, ob die Mauer wirklich so hoch werden soll und wie und wo sie beginnen soll."
-              },
-              {
-                "text": "Da sind Dinge einfach noch nicht festgelegt."
-              },
-              {
-                "text": "Trotzdem beginnt die Bahn jetzt mit bauvorbereitenden Maßnahmen."
-              },
-              {
-                "text": "Wir sind ja auch dafür, dass es möglichst schnell und gut vorwärtsgeht."
-              },
-              {
-                "text": "Aber es ist einfach unklar, wie der Volllärmschutz tatsächlich aussehen soll."
-              },
-              {
-                "text": "Und ob Sie dieses Planergänzungsverfahren jetzt für einen Trog von 1 Meter machen oder für eine 8 Meter hohe Lärmschutzwand: Sie brauchen, wie Sie eben schon richtig gesagt haben, ein zusätzliches Verfahren."
-              },
-              {
-                "text": "Deshalb wäre doch die Frage, ob man das nicht vernünftig mit den Kommunen diskutieren sollte."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Enak Ferlemann",
-            "speakerstatus": "speaker",
-            "text": "Ich wundere mich, warum jetzt von Ihnen ein solcher Vorschlag kommt. Wir haben einen Projektbeirat, der über all die Dinge Jahre diskutiert hat. Das hätte man alles diskutieren und beraten können. Aber man hat sich, wie es eben so ist, für das Ganze entschieden und gesagt: Das wollen wir durchsetzen. – Das ist gescheitert, und jetzt verlangen Sie, dass wir alles wieder aufmachen sollen. Im Grunde genommen gibt es kein Bahnprojekt in Deutschland, das mit der Bevölkerung so intensiv beraten wird wie genau dieses. Ich bin doch erstaunt, dass jetzt noch Fragen nach weiteren Kompromissen kommen.",
-            "sentences": [
-              {
-                "text": "Ich wundere mich, warum jetzt von Ihnen ein solcher Vorschlag kommt."
-              },
-              {
-                "text": "Wir haben einen Projektbeirat, der über all die Dinge Jahre diskutiert hat."
-              },
-              {
-                "text": "Das hätte man alles diskutieren und beraten können."
-              },
-              {
-                "text": "Aber man hat sich, wie es eben so ist, für das Ganze entschieden und gesagt: Das wollen wir durchsetzen."
-              },
-              {
-                "text": "– Das ist gescheitert, und jetzt verlangen Sie, dass wir alles wieder aufmachen sollen."
-              },
-              {
-                "text": "Im Grunde genommen gibt es kein Bahnprojekt in Deutschland, das mit der Bevölkerung so intensiv beraten wird wie genau dieses."
-              },
-              {
-                "text": "Ich bin doch erstaunt, dass jetzt noch Fragen nach weiteren Kompromissen kommen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Enak Ferlemann",
-            "speakerstatus": "speaker",
-            "text": "Meine Auffassung ist: Wir sollten so schnell wie möglich in den Bau kommen. Wenn wir Möglichkeiten sehen, dass das, was Sie sagen, ohne zeitliche Verzögerung umgesetzt werden kann, will ich mich einer Prüfung gar nicht verschließen. Aber meine Grundbedingung ist: Wir müssen diese Strecke ausbauen. Wir haben der Schweiz beim Bau des Gotthardtunnels zugesagt, dass wir die Zulaufstrecken in ausreichender Kapazität rechtzeitig zur Verfügung stellen. Wie Sie wissen, ist der Gotthardtunnel in Betrieb, der Ceneri-Tunnel steht kurz vor der Vollendung. Insofern ist die Bundesrepublik Deutschland verpflichtet, rechtzeitig diese Schienenwege anzupassen, und daran müssen wir uns halten.",
-            "sentences": [
-              {
-                "text": "Meine Auffassung ist: Wir sollten so schnell wie möglich in den Bau kommen."
-              },
-              {
-                "text": "Wenn wir Möglichkeiten sehen, dass das, was Sie sagen, ohne zeitliche Verzögerung umgesetzt werden kann, will ich mich einer Prüfung gar nicht verschließen."
-              },
-              {
-                "text": "Aber meine Grundbedingung ist: Wir müssen diese Strecke ausbauen."
-              },
-              {
-                "text": "Wir haben der Schweiz beim Bau des Gotthardtunnels zugesagt, dass wir die Zulaufstrecken in ausreichender Kapazität rechtzeitig zur Verfügung stellen."
-              },
-              {
-                "text": "Wie Sie wissen, ist der Gotthardtunnel in Betrieb, der Ceneri-Tunnel steht kurz vor der Vollendung."
-              },
-              {
-                "text": "Insofern ist die Bundesrepublik Deutschland verpflichtet, rechtzeitig diese Schienenwege anzupassen, und daran müssen wir uns halten."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Vielen Dank. – Die letzte Frage zu diesem Geschäftsbereich stellt jetzt die Kollegin Kluckert.",
-            "sentences": [
-              {
-                "text": "Vielen Dank."
-              },
-              {
-                "text": "– Die letzte Frage zu diesem Geschäftsbereich stellt jetzt die Kollegin Kluckert."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Daniela Kluckert",
-            "speakerstatus": "speaker",
-            "text": "Vielen Dank, Herr Präsident. – Herr Staatssekretär, Sie sehen mich einigermaßen verwundert. Ich hatte nämlich zusammen mit der Kollegin Skudelny neulich die Frage gestellt, wie Sie denn auf der Kostenseite die Verzögerungen durch Lärmschutzklagen einschätzten. Sie sagten, sie würden diese gar nicht messen. Deswegen hier noch einmal meine Frage konkret zu diesem Projekt: Um wie viel ist dieses Projekt durch Lärmschutzklagen teurer geworden? Also: Wie groß sind die Kostensteigerung und die Zeitverzögerung durch Lärmschutzklagen bei dem Ausbau der Rheintalbahn?",
-            "sentences": [
-              {
-                "text": "Vielen Dank, Herr Präsident."
-              },
-              {
-                "text": "– Herr Staatssekretär, Sie sehen mich einigermaßen verwundert."
-              },
-              {
-                "text": "Ich hatte nämlich zusammen mit der Kollegin Skudelny neulich die Frage gestellt, wie Sie denn auf der Kostenseite die Verzögerungen durch Lärmschutzklagen einschätzten."
-              },
-              {
-                "text": "Sie sagten, sie würden diese gar nicht messen."
-              },
-              {
-                "text": "Deswegen hier noch einmal meine Frage konkret zu diesem Projekt: Um wie viel ist dieses Projekt durch Lärmschutzklagen teurer geworden?"
-              },
-              {
-                "text": "Also: Wie groß sind die Kostensteigerung und die Zeitverzögerung durch Lärmschutzklagen bei dem Ausbau der Rheintalbahn?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Enak Ferlemann",
-            "speakerstatus": "speaker",
-            "text": "Eine Zeitverzögerung durch die Klagen haben wir. Da die Klagen aber gewonnen wurden, haben wir resultierend aus den Überlegungen zum Schallschutz keine Mehrkosten. Hier war ja im Grunde der Ansatz, in eine Troglage zu gehen, und das hat sich eben nicht bewährt. Im Planfeststellungsverfahren ist richtig abgewogen worden; das hat das Gericht so entschieden. Damit sind keine zusätzlichen Kosten entstanden. Die wären sicherlich entstanden, wenn das Gericht anders entschieden hätte; das hat es aber nicht.",
-            "sentences": [
-              {
-                "text": "Eine Zeitverzögerung durch die Klagen haben wir."
-              },
-              {
-                "text": "Da die Klagen aber gewonnen wurden, haben wir resultierend aus den Überlegungen zum Schallschutz keine Mehrkosten."
-              },
-              {
-                "text": "Hier war ja im Grunde der Ansatz, in eine Troglage zu gehen, und das hat sich eben nicht bewährt."
-              },
-              {
-                "text": "Im Planfeststellungsverfahren ist richtig abgewogen worden; das hat das Gericht so entschieden."
-              },
-              {
-                "text": "Damit sind keine zusätzlichen Kosten entstanden."
-              },
-              {
-                "text": "Die wären sicherlich entstanden, wenn das Gericht anders entschieden hätte; das hat es aber nicht."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Enak Ferlemann",
-            "speakerstatus": "speaker",
-            "text": "– Durch die Verzögerung gibt es sicherlich eine Kostensteigerung, weil es natürlich allein eine Baukostensteigerung von wahrscheinlich rund 3 bis 5 Prozent jährlich gibt. Das ist sicherlich so.",
-            "sentences": [
-              {
-                "text": "– Durch die Verzögerung gibt es sicherlich eine Kostensteigerung, weil es natürlich allein eine Baukostensteigerung von wahrscheinlich rund 3 bis 5 Prozent jährlich gibt."
-              },
-              {
-                "text": "Das ist sicherlich so."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Enak Ferlemann",
-            "speakerstatus": "speaker",
-            "text": "Aber die Rechtsverfahren stehen den Bürgerinnen und Bürgern zu; die haben das so gewollt, und das muss man als Rechtsstaat akzeptieren. Nun ist die Entscheidung gefallen, und nun wird umgesetzt.",
-            "sentences": [
-              {
-                "text": "Aber die Rechtsverfahren stehen den Bürgerinnen und Bürgern zu; die haben das so gewollt, und das muss man als Rechtsstaat akzeptieren."
-              },
-              {
-                "text": "Nun ist die Entscheidung gefallen, und nun wird umgesetzt."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Enak Ferlemann",
-            "speakerstatus": "speaker",
-            "text": "– Gerne.",
-            "sentences": [
-              {
-                "text": "– Gerne."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Die Frage ist beantwortet. – Vielen Dank, Herr Staatssekretär.",
-            "sentences": [
-              {
-                "text": "Die Frage ist beantwortet."
-              },
-              {
-                "text": "– Vielen Dank, Herr Staatssekretär."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Wir haben damit alle Fragen aus dem Geschäftsbereich des Ministeriums für Verkehr und digitale Infrastruktur behandelt.",
-            "sentences": [
-              {
-                "text": "Wir haben damit alle Fragen aus dem Geschäftsbereich des Ministeriums für Verkehr und digitale Infrastruktur behandelt."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Jetzt rufe ich den Geschäftsbereich des Bundesministeriums für Umwelt, Naturschutz und nukleare Sicherheit auf. Zur Beantwortung steht der Parlamentarische Staatssekretär Florian Pronold bereit.",
-            "sentences": [
-              {
-                "text": "Jetzt rufe ich den Geschäftsbereich des Bundesministeriums für Umwelt, Naturschutz und nukleare Sicherheit auf."
-              },
-              {
-                "text": "Zur Beantwortung steht der Parlamentarische Staatssekretär Florian Pronold bereit."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Die Frage 26 der Abgeordneten Judith Skudelny wird schriftlich beantwortet.",
-            "sentences": [
-              {
-                "text": "Die Frage 26 der Abgeordneten Judith Skudelny wird schriftlich beantwortet."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Die Frage 27 stellt die Abgeordnete Judith Skudelny, FDP:",
-            "sentences": [
-              {
-                "text": "Die Frage 27 stellt die Abgeordnete Judith Skudelny, FDP:"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Herr Staatssekretär.",
-            "sentences": [
-              {
-                "text": "Herr Staatssekretär."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Florian Pronold",
-            "speakerstatus": "speaker",
-            "text": "Sehr geehrte Frau Kollegin, Deutschland setzt sich in Brüssel einvernehmlich für ein höheres Umweltambitionsniveau ein. Dazu bedarf es unter anderem klarer und wirksamer Leitplanken auf EU-Ebene, um in Anbetracht des mit dem neuen Umsetzungsmodell verbundenen deutlich größeren Entscheidungsspielraums für die Mitgliedstaaten Umweltdumping zu verhindern. Wie ein höheres Umweltambitionsniveau konkret erreicht werden kann, das heißt, wie die Elemente der Umweltarchitektur im Kontext weiterer umweltrelevanter Regelungen aufeinander abgestimmt werden können, wird derzeit innerhalb der Bundesregierung noch diskutiert. Deutschland hat sich daher zu bestimmten Aspekten einzelner Umweltinstrumente und -regelungen noch nicht positioniert.",
-            "sentences": [
-              {
-                "text": "Sehr geehrte Frau Kollegin, Deutschland setzt sich in Brüssel einvernehmlich für ein höheres Umweltambitionsniveau ein."
-              },
-              {
-                "text": "Dazu bedarf es unter anderem klarer und wirksamer Leitplanken auf EU-Ebene, um in Anbetracht des mit dem neuen Umsetzungsmodell verbundenen deutlich größeren Entscheidungsspielraums für die Mitgliedstaaten Umweltdumping zu verhindern."
-              },
-              {
-                "text": "Wie ein höheres Umweltambitionsniveau konkret erreicht werden kann, das heißt, wie die Elemente der Umweltarchitektur im Kontext weiterer umweltrelevanter Regelungen aufeinander abgestimmt werden können, wird derzeit innerhalb der Bundesregierung noch diskutiert."
-              },
-              {
-                "text": "Deutschland hat sich daher zu bestimmten Aspekten einzelner Umweltinstrumente und -regelungen noch nicht positioniert."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Sie wollen sicher nachfragen, Frau Skudelny?",
-            "sentences": [
-              {
-                "text": "Sie wollen sicher nachfragen, Frau Skudelny?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Judith Skudelny",
-            "speakerstatus": "speaker",
-            "text": "Natürlich will ich nachfragen, weil die Frage eigentlich war: Glauben Sie, dass es dem Ziel eines gemeinsamen Auftretens auf europäischer Ebene dienlich ist, wenn sich das Ministerium für Umwelt und das Ministerium für Landwirtschaft bzw. deren Minister sich über die Zeitungen auf öffentlicher Bühne miteinander über die verschiedenen Positionierungen unterhalten? Dass es dort unterschiedliche Positionen gibt – geschenkt! –, das wissen wir alle. Aber glauben Sie wirklich, dass diese Kommunikation in der Öffentlichkeit dienlich ist, um dann am Ende auf europäischer Ebene mit einer Stimme aufzutreten?",
-            "sentences": [
-              {
-                "text": "Natürlich will ich nachfragen, weil die Frage eigentlich war: Glauben Sie, dass es dem Ziel eines gemeinsamen Auftretens auf europäischer Ebene dienlich ist, wenn sich das Ministerium für Umwelt und das Ministerium für Landwirtschaft bzw. deren Minister sich über die Zeitungen auf öffentlicher Bühne miteinander über die verschiedenen Positionierungen unterhalten?"
-              },
-              {
-                "text": "Dass es dort unterschiedliche Positionen gibt – geschenkt!"
-              },
-              {
-                "text": "–, das wissen wir alle."
-              },
-              {
-                "text": "Aber glauben Sie wirklich, dass diese Kommunikation in der Öffentlichkeit dienlich ist, um dann am Ende auf europäischer Ebene mit einer Stimme aufzutreten?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Florian Pronold",
-            "speakerstatus": "speaker",
-            "text": "Ziel der Bundesregierung ist, auf europäischer Ebene auf die Prozesse Einfluss zu nehmen. Nach der Geschäftsordnung ist es Voraussetzung, dass die Bundesregierung dort mit einer Stimme spricht, und das setzt die vorhergehende Einigung voraus.",
-            "sentences": [
-              {
-                "text": "Ziel der Bundesregierung ist, auf europäischer Ebene auf die Prozesse Einfluss zu nehmen."
-              },
-              {
-                "text": "Nach der Geschäftsordnung ist es Voraussetzung, dass die Bundesregierung dort mit einer Stimme spricht, und das setzt die vorhergehende Einigung voraus."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Eine weitere Zusatzfrage?",
-            "sentences": [
-              {
-                "text": "Eine weitere Zusatzfrage?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Judith Skudelny",
-            "speakerstatus": "speaker",
-            "text": "Bei den CO 2 -Flottengrenzwerten haben wir gesehen, dass eine lange andauernde öffentliche Diskussion zwischen dem Umwelt- und dem Verkehrsministerium zu einer sehr kurzfristigen Einigung, am Ende aber nicht zur Durchsetzung der deutschen Interessen auf europäischer Ebene geführt hat. Können Sie meine Besorgnis zerstreuen, dass wir hier ein ähnliches Verfahren sehen werden, dass es also nach einer langen, kräftezehrenden öffentlichen Auseinandersetzung zwischen den zwei Ministerien am Ende vielleicht eine kurzfristige Einigung geben wird, dies aber nicht reichen wird, um unsere Interessen durchzusetzen, oder bis wann planen Sie innerhalb der Bundesregierung, abschließend eine einheitliche Meinung zu bilden?",
-            "sentences": [
-              {
-                "text": "Bei den CO 2 -Flottengrenzwerten haben wir gesehen, dass eine lange andauernde öffentliche Diskussion zwischen dem Umwelt- und dem Verkehrsministerium zu einer sehr kurzfristigen Einigung, am Ende aber nicht zur Durchsetzung der deutschen Interessen auf europäischer Ebene geführt hat."
-              },
-              {
-                "text": "Können Sie meine Besorgnis zerstreuen, dass wir hier ein ähnliches Verfahren sehen werden, dass es also nach einer langen, kräftezehrenden öffentlichen Auseinandersetzung zwischen den zwei Ministerien am Ende vielleicht eine kurzfristige Einigung geben wird, dies aber nicht reichen wird, um unsere Interessen durchzusetzen, oder bis wann planen Sie innerhalb der Bundesregierung, abschließend eine einheitliche Meinung zu bilden?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Florian Pronold",
-            "speakerstatus": "speaker",
-            "text": "Ob ich Ihre Bedenken zerstreuen kann, können nur Sie mir beantworten. Ich kann das leider nicht machen.",
-            "sentences": [
-              {
-                "text": "Ob ich Ihre Bedenken zerstreuen kann, können nur Sie mir beantworten."
-              },
-              {
-                "text": "Ich kann das leider nicht machen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Florian Pronold",
-            "speakerstatus": "speaker",
-            "text": "– Ist das eine weitere Frage?",
-            "sentences": [
-              {
-                "text": "– Ist das eine weitere Frage?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Weitere Fragen können Sie nicht mehr stellen. – Aber dafür springt sofort Ihre Kollegin Kluckert ein.",
-            "sentences": [
-              {
-                "text": "Weitere Fragen können Sie nicht mehr stellen."
-              },
-              {
-                "text": "– Aber dafür springt sofort Ihre Kollegin Kluckert ein."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Daniela Kluckert",
-            "speakerstatus": "speaker",
-            "text": "Vielen Dank, Herr Präsident. – Herr Staatssekretär, hier steht ja auch die Frage im Raum, wie sich die Bundesregierung zu den Lkw-Flottenzielen der EU positioniert. Der Staatssekretär aus dem Verkehrsministerium sagte vorhin, dass sich die Bundesregierung in Brüssel dafür einsetzen werde, alternative Kraftstoffe, also E-Fuels, anrechenbar zu machen. Wie sieht das Ihr Haus?",
-            "sentences": [
-              {
-                "text": "Vielen Dank, Herr Präsident."
-              },
-              {
-                "text": "– Herr Staatssekretär, hier steht ja auch die Frage im Raum, wie sich die Bundesregierung zu den Lkw-Flottenzielen der EU positioniert."
-              },
-              {
-                "text": "Der Staatssekretär aus dem Verkehrsministerium sagte vorhin, dass sich die Bundesregierung in Brüssel dafür einsetzen werde, alternative Kraftstoffe, also E-Fuels, anrechenbar zu machen."
-              },
-              {
-                "text": "Wie sieht das Ihr Haus?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Florian Pronold",
-            "speakerstatus": "speaker",
-            "text": "Ich will nur den dezenten Hinweis geben, dass ich gerade eine Frage zum Thema Landwirtschaftspolitik auf europäischer Ebene beantworte. Aus meiner Sicht stellt das also eine sehr weit gehende Interpretation des Fragerechts dar. Aber prinzipiell sehen wir in den neuen Antriebsformen einen wichtigen Beitrag für den gesamten Verkehrssektor und stehen dem sehr offen und positiv gegenüber.",
-            "sentences": [
-              {
-                "text": "Ich will nur den dezenten Hinweis geben, dass ich gerade eine Frage zum Thema Landwirtschaftspolitik auf europäischer Ebene beantworte."
-              },
-              {
-                "text": "Aus meiner Sicht stellt das also eine sehr weit gehende Interpretation des Fragerechts dar."
-              },
-              {
-                "text": "Aber prinzipiell sehen wir in den neuen Antriebsformen einen wichtigen Beitrag für den gesamten Verkehrssektor und stehen dem sehr offen und positiv gegenüber."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Vielen Dank. – Eine weitere Frage? Bitte sehr.",
-            "sentences": [
-              {
-                "text": "Vielen Dank."
-              },
-              {
-                "text": "– Eine weitere Frage?"
-              },
-              {
-                "text": "Bitte sehr."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Torsten Herbst",
-            "speakerstatus": "speaker",
-            "text": "Herr Staatssekretär, Sie erwähnten vorhin den Abstimmungsprozess zwischen Umwelt- und Landwirtschaftsministerium, um zu einer einheitlichen Position auf europäischer Ebene zu kommen. Wann ist denn diese Abstimmung abgeschlossen, und wann hat die Bundesregierung eine gemeinsame Auffassung?",
-            "sentences": [
-              {
-                "text": "Herr Staatssekretär, Sie erwähnten vorhin den Abstimmungsprozess zwischen Umwelt- und Landwirtschaftsministerium, um zu einer einheitlichen Position auf europäischer Ebene zu kommen."
-              },
-              {
-                "text": "Wann ist denn diese Abstimmung abgeschlossen, und wann hat die Bundesregierung eine gemeinsame Auffassung?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Florian Pronold",
-            "speakerstatus": "speaker",
-            "text": "Ich kann Ihnen nur sagen, dass wir in intensiven Gesprächen darüber sind. Angesichts der Prozesse, die auf europäischer Ebene zur Neuausgestaltung der gesamten landwirtschaftlichen Förderpolitik notwendig sind, ist es uns ganz wichtig, dass es nicht nur abstrakt heißt: „Wir wollen dort auch Umweltfragen besser unterbringen und für mehr Insektenschutz sorgen“, sondern dass wir auch sehr konkret in diese Verhandlungen eingreifen. Das ist auf europäischer Ebene nicht einfach. Wie Sie wissen, ist sogar vorgesehen, die Mittel für diesen Bereich zu kürzen. Deswegen legen wir Wert auf eine möglichst schnelle Einigung. Wann die erreicht wird, kann ich Ihnen allerdings nicht sagen; denn das Gefährliche an Prognosen ist, dass sie auf die Zukunft gerichtet sind.",
-            "sentences": [
-              {
-                "text": "Ich kann Ihnen nur sagen, dass wir in intensiven Gesprächen darüber sind."
-              },
-              {
-                "text": "Angesichts der Prozesse, die auf europäischer Ebene zur Neuausgestaltung der gesamten landwirtschaftlichen Förderpolitik notwendig sind, ist es uns ganz wichtig, dass es nicht nur abstrakt heißt: „Wir wollen dort auch Umweltfragen besser unterbringen und für mehr Insektenschutz sorgen“, sondern dass wir auch sehr konkret in diese Verhandlungen eingreifen."
-              },
-              {
-                "text": "Das ist auf europäischer Ebene nicht einfach."
-              },
-              {
-                "text": "Wie Sie wissen, ist sogar vorgesehen, die Mittel für diesen Bereich zu kürzen."
-              },
-              {
-                "text": "Deswegen legen wir Wert auf eine möglichst schnelle Einigung."
-              },
-              {
-                "text": "Wann die erreicht wird, kann ich Ihnen allerdings nicht sagen; denn das Gefährliche an Prognosen ist, dass sie auf die Zukunft gerichtet sind."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Vielen Dank. – Die Fragen 28 und 29 des Abgeordneten Stefan Gelbhaar werden schriftlich beantwortet.",
-            "sentences": [
-              {
-                "text": "Vielen Dank."
-              },
-              {
-                "text": "– Die Fragen 28 und 29 des Abgeordneten Stefan Gelbhaar werden schriftlich beantwortet."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Wir kommen zu Frage 30 der grünen Abgeordneten Lisa Badum:",
-            "sentences": [
-              {
-                "text": "Wir kommen zu Frage 30 der grünen Abgeordneten Lisa Badum:"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Herr Staatssekretär.",
-            "sentences": [
-              {
-                "text": "Herr Staatssekretär."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Florian Pronold",
-            "speakerstatus": "speaker",
-            "text": "Mit der Einleitung der Ressortabstimmung durch das Bundesministerium für Umwelt, Naturschutz und nukleare Sicherheit für ein Gesetz, das die Einhaltung der Klimaschutzziele 2030 gewährleistet, ist sehr zeitnah zu rechnen.",
-            "sentences": [
-              {
-                "text": "Mit der Einleitung der Ressortabstimmung durch das Bundesministerium für Umwelt, Naturschutz und nukleare Sicherheit für ein Gesetz, das die Einhaltung der Klimaschutzziele 2030 gewährleistet, ist sehr zeitnah zu rechnen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Zusatzfrage?",
-            "sentences": [
-              {
-                "text": "Zusatzfrage?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Lisa Badum",
-            "speakerstatus": "speaker",
-            "text": "Sehr geehrter Herr Staatssekretär, Ihr Wort in Gottes Ohr. Seit Beginn der GroKo warten wir auf die Einsetzung und auf die Ergebnisse von Kommissionen im Bereich Klimaschutz. Was natürlich erfreulich ist: Im Bereich der Energiewirtschaft liegt ja jetzt ein Kommissionsergebnis vor. Das ist mit Blick auf die Zeit nach der Bundestagswahl schon einmal ein Riesenschritt. Ich war etwas beunruhigt, als heute im Wirtschaftsausschuss ein Mitglied der Regierungsfraktionen gesagt hat, das, was vorgelegt wurde, sei sehr schwierig umzusetzen und zu ehrgeizig, man werde sich das vonseiten der konservativen Fraktion noch einmal ganz genau anschauen. Können wir sicher sein, dass wir hier in Bälde den Kohleausstieg beschließen, was ja dann auch ein Teil Ihres Klimaschutzgesetzes wäre?",
-            "sentences": [
-              {
-                "text": "Sehr geehrter Herr Staatssekretär, Ihr Wort in Gottes Ohr."
-              },
-              {
-                "text": "Seit Beginn der GroKo warten wir auf die Einsetzung und auf die Ergebnisse von Kommissionen im Bereich Klimaschutz."
-              },
-              {
-                "text": "Was natürlich erfreulich ist: Im Bereich der Energiewirtschaft liegt ja jetzt ein Kommissionsergebnis vor."
-              },
-              {
-                "text": "Das ist mit Blick auf die Zeit nach der Bundestagswahl schon einmal ein Riesenschritt."
-              },
-              {
-                "text": "Ich war etwas beunruhigt, als heute im Wirtschaftsausschuss ein Mitglied der Regierungsfraktionen gesagt hat, das, was vorgelegt wurde, sei sehr schwierig umzusetzen und zu ehrgeizig, man werde sich das vonseiten der konservativen Fraktion noch einmal ganz genau anschauen."
-              },
-              {
-                "text": "Können wir sicher sein, dass wir hier in Bälde den Kohleausstieg beschließen, was ja dann auch ein Teil Ihres Klimaschutzgesetzes wäre?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Florian Pronold",
-            "speakerstatus": "speaker",
-            "text": "Sie haben die eindeutige Haltung der gesamten Bundesregierung gehört und, wie ich finde, eine sehr positive Resonanz aus fast dem gesamten parlamentarischen Raum. Das ist ein beispielhafter Prozess, der da gelaufen ist, um einen gesellschaftlichen Konsens herzustellen, um Klimaschutzziele und Arbeitsplatzsicherheit zusammenzubringen. Ich rechne hier mit keinen nennenswerten Störfeuern oder Verstößen. Aber auch da gilt das Prognoseprinzip. Ich bin auf alle Fälle der Auffassung, dass das ein Riesenschritt ist, gerade im Hinblick auf Klimaschutz, aber auch im Hinblick auf die Sorgen und Nöte der Menschen in den betroffenen Regionen.",
-            "sentences": [
-              {
-                "text": "Sie haben die eindeutige Haltung der gesamten Bundesregierung gehört und, wie ich finde, eine sehr positive Resonanz aus fast dem gesamten parlamentarischen Raum."
-              },
-              {
-                "text": "Das ist ein beispielhafter Prozess, der da gelaufen ist, um einen gesellschaftlichen Konsens herzustellen, um Klimaschutzziele und Arbeitsplatzsicherheit zusammenzubringen."
-              },
-              {
-                "text": "Ich rechne hier mit keinen nennenswerten Störfeuern oder Verstößen."
-              },
-              {
-                "text": "Aber auch da gilt das Prognoseprinzip."
-              },
-              {
-                "text": "Ich bin auf alle Fälle der Auffassung, dass das ein Riesenschritt ist, gerade im Hinblick auf Klimaschutz, aber auch im Hinblick auf die Sorgen und Nöte der Menschen in den betroffenen Regionen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Wollen Sie noch einmal nachhaken?",
-            "sentences": [
-              {
-                "text": "Wollen Sie noch einmal nachhaken?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Lisa Badum",
-            "speakerstatus": "speaker",
-            "text": "Vielen Dank. – Es freut mich sehr, dass Sie so optimistisch gestimmt sind. Dennoch konstatiere ich, dass hier wieder keinerlei zeitliche Aussagen zu einem möglichen Kohleausstiegsgesetz gemacht werden. Auch zum Klimaschutzgesetz sind keine zeitlichen Angaben erfolgt. Ich weise nur darauf hin, dass wir uns nächstes Jahr wieder langsam Richtung Wahlkampf bewegen und es total wichtig ist, dass wir dieses Klimaschutzgesetz vorher auf den Weg bringen. Insofern meine Frage an Sie: Können wir Sie unterstützen, wenn die Ressorts nur sehr langsam liefern? Wir Grüne haben schon diverse Maßnahmen zum Klimaschutz aufgeschrieben. Können wir in irgendeiner Weise daran mitwirken, dass dieses Gesetz bald kommt?",
-            "sentences": [
-              {
-                "text": "Vielen Dank."
-              },
-              {
-                "text": "– Es freut mich sehr, dass Sie so optimistisch gestimmt sind."
-              },
-              {
-                "text": "Dennoch konstatiere ich, dass hier wieder keinerlei zeitliche Aussagen zu einem möglichen Kohleausstiegsgesetz gemacht werden."
-              },
-              {
-                "text": "Auch zum Klimaschutzgesetz sind keine zeitlichen Angaben erfolgt."
-              },
-              {
-                "text": "Ich weise nur darauf hin, dass wir uns nächstes Jahr wieder langsam Richtung Wahlkampf bewegen und es total wichtig ist, dass wir dieses Klimaschutzgesetz vorher auf den Weg bringen."
-              },
-              {
-                "text": "Insofern meine Frage an Sie: Können wir Sie unterstützen, wenn die Ressorts nur sehr langsam liefern?"
-              },
-              {
-                "text": "Wir Grüne haben schon diverse Maßnahmen zum Klimaschutz aufgeschrieben."
-              },
-              {
-                "text": "Können wir in irgendeiner Weise daran mitwirken, dass dieses Gesetz bald kommt?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Florian Pronold",
-            "speakerstatus": "speaker",
-            "text": "Ich gehe davon aus, dass das Klimaschutzgesetz sehr schnell in die Ressortabstimmung kommt. Es ist aber vor Vorlage eines ressortabgestimmten Entwurfs schwer zu sagen, wie das Klimaschutzgesetz genau ausschauen wird. Es kann auch sein, dass es ein Rahmengesetz ist, in dem die Ziele festgeschrieben werden und in dem zum Beispiel Pönalen definiert werden, wenn gegen diese Ziele verstoßen wird. Es kann sein, dass sich ein Maßnahmengesetz mit den konkreten Maßnahmen in den einzelnen Bereichen beschäftigt. Das kann ich erst ausführlicher beantworten, wenn wir einen ressortabgestimmten Entwurf vorliegen haben.",
-            "sentences": [
-              {
-                "text": "Ich gehe davon aus, dass das Klimaschutzgesetz sehr schnell in die Ressortabstimmung kommt."
-              },
-              {
-                "text": "Es ist aber vor Vorlage eines ressortabgestimmten Entwurfs schwer zu sagen, wie das Klimaschutzgesetz genau ausschauen wird."
-              },
-              {
-                "text": "Es kann auch sein, dass es ein Rahmengesetz ist, in dem die Ziele festgeschrieben werden und in dem zum Beispiel Pönalen definiert werden, wenn gegen diese Ziele verstoßen wird."
-              },
-              {
-                "text": "Es kann sein, dass sich ein Maßnahmengesetz mit den konkreten Maßnahmen in den einzelnen Bereichen beschäftigt."
-              },
-              {
-                "text": "Das kann ich erst ausführlicher beantworten, wenn wir einen ressortabgestimmten Entwurf vorliegen haben."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Eine weitere Frage von Dr. Julia Verlinden, Bündnis 90/Die Grünen.",
-            "sentences": [
-              {
-                "text": "Eine weitere Frage von Dr. Julia Verlinden, Bündnis 90/Die Grünen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Julia Verlinden",
-            "speakerstatus": "speaker",
-            "text": "Es ist ja sehr interessant, Herr Staatssekretär, dass Sie sagen, Sie wüssten noch nicht einmal, ob es ein Rahmengesetz wird oder ein Gesetz mit konkreten Maßnahmen für die einzelnen Sektoren. Wenn Sie einen abgestimmten Entwurf im Februar vorlegen wollen, dann, muss ich sagen, halte ich das für sehr ambitioniert.",
-            "sentences": [
-              {
-                "text": "Es ist ja sehr interessant, Herr Staatssekretär, dass Sie sagen, Sie wüssten noch nicht einmal, ob es ein Rahmengesetz wird oder ein Gesetz mit konkreten Maßnahmen für die einzelnen Sektoren."
-              },
-              {
-                "text": "Wenn Sie einen abgestimmten Entwurf im Februar vorlegen wollen, dann, muss ich sagen, halte ich das für sehr ambitioniert."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Julia Verlinden",
-            "speakerstatus": "speaker",
-            "text": "Ich frage mich an dieser Stelle: Was kommt eigentlich eher? Sehen wir zuerst ein Gebäudeenergiegesetz, das Sie jetzt seit Monaten verschleppen? Ich finde es in Ihrem Fall sogar gut, dass Sie auf der Bremse stehen, weil ich will, dass in diesem Gesetz viel Klimaschutz steckt. Das, was man dazu aus dem Wirtschaftsministerium gehört hat, ist ja das Gegenteil von Klimaschutz; das ist ein Aufweichen der bestehenden Standards. Aber die Frage ist doch: Wann wird die Bundesregierung endlich Gesetzentwürfe in dieses Parlament einbringen, die wir konkret diskutieren können? Was ist Ihre Prognose? Kommt erst das Gebäudeenergiegesetz oder erst das Klimaschutzgesetz? Und vor allen Dingen: Wie gehören Gebäudeenergiegesetz und Klimaschutzgesetz dann zusammen? Bei beiden geht es ja um den Aspekt, Klimaschutzpotenziale im Wärmesektor zu nutzen.",
-            "sentences": [
-              {
-                "text": "Ich frage mich an dieser Stelle: Was kommt eigentlich eher?"
-              },
-              {
-                "text": "Sehen wir zuerst ein Gebäudeenergiegesetz, das Sie jetzt seit Monaten verschleppen?"
-              },
-              {
-                "text": "Ich finde es in Ihrem Fall sogar gut, dass Sie auf der Bremse stehen, weil ich will, dass in diesem Gesetz viel Klimaschutz steckt."
-              },
-              {
-                "text": "Das, was man dazu aus dem Wirtschaftsministerium gehört hat, ist ja das Gegenteil von Klimaschutz; das ist ein Aufweichen der bestehenden Standards."
-              },
-              {
-                "text": "Aber die Frage ist doch: Wann wird die Bundesregierung endlich Gesetzentwürfe in dieses Parlament einbringen, die wir konkret diskutieren können?"
-              },
-              {
-                "text": "Was ist Ihre Prognose?"
-              },
-              {
-                "text": "Kommt erst das Gebäudeenergiegesetz oder erst das Klimaschutzgesetz?"
-              },
-              {
-                "text": "Und vor allen Dingen: Wie gehören Gebäudeenergiegesetz und Klimaschutzgesetz dann zusammen?"
-              },
-              {
-                "text": "Bei beiden geht es ja um den Aspekt, Klimaschutzpotenziale im Wärmesektor zu nutzen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Florian Pronold",
-            "speakerstatus": "speaker",
-            "text": "Ich bin im Laufe meines langen politischen Lebens mit Prognosen immer vorsichtiger geworden. Aber um eine klare Aussage zu machen: Ich gehe davon aus, dass das Klimaschutzgesetz sehr schnell in die Beratung kommen wird. Das ist die Voraussetzung dafür, dass wir für die verschiedenen Bereiche der Wirtschaft und der Sektoren verbindlich festlegen, welche Ziele zu erreichen sind. Diese Ziele müssen dann auch erreicht werden. Das muss mit einzelnen Maßnahmengesetzen hinterlegt werden. Wenn es aber vorher schon Gesetzgebungsverfahren gibt, die dazu führen, dass es in den Sektoren schneller zu konkreten Maßnahmen kommt, spricht nichts dagegen.",
-            "sentences": [
-              {
-                "text": "Ich bin im Laufe meines langen politischen Lebens mit Prognosen immer vorsichtiger geworden."
-              },
-              {
-                "text": "Aber um eine klare Aussage zu machen: Ich gehe davon aus, dass das Klimaschutzgesetz sehr schnell in die Beratung kommen wird."
-              },
-              {
-                "text": "Das ist die Voraussetzung dafür, dass wir für die verschiedenen Bereiche der Wirtschaft und der Sektoren verbindlich festlegen, welche Ziele zu erreichen sind."
-              },
-              {
-                "text": "Diese Ziele müssen dann auch erreicht werden."
-              },
-              {
-                "text": "Das muss mit einzelnen Maßnahmengesetzen hinterlegt werden."
-              },
-              {
-                "text": "Wenn es aber vorher schon Gesetzgebungsverfahren gibt, die dazu führen, dass es in den Sektoren schneller zu konkreten Maßnahmen kommt, spricht nichts dagegen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Zu einer weiteren Zusatzfrage hat sich Steffi Lemke, Bündnis 90/Die Grünen, gemeldet.",
-            "sentences": [
-              {
-                "text": "Zu einer weiteren Zusatzfrage hat sich Steffi Lemke, Bündnis 90/Die Grünen, gemeldet."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Steffi Lemke",
-            "speakerstatus": "speaker",
-            "text": "Herr Staatssekretär, sehen Sie es mir nach, wenn ich jetzt eine gewisse Schärfe hineinbringe: Ob Sie in Ihrem Leben mit Prognosen vorsichtig sind oder nicht, interessiert mich, ehrlich gesagt, nicht.",
-            "sentences": [
-              {
-                "text": "Herr Staatssekretär, sehen Sie es mir nach, wenn ich jetzt eine gewisse Schärfe hineinbringe: Ob Sie in Ihrem Leben mit Prognosen vorsichtig sind oder nicht, interessiert mich, ehrlich gesagt, nicht."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Steffi Lemke",
-            "speakerstatus": "speaker",
-            "text": "Die Bundesumweltministerin hat am vergangenen Sonntag im negativen Sinne ein Paradebeispiel dafür abgegeben, wie man Journalistenfragen nach ganz simplen Dingen beantwortet, nämlich ob man nach wie vor einen SPD-Parteitagsbeschluss zum Thema „Tempo 130“ vertritt oder nicht, und sich als Bundesumweltministerin bis auf die Knochen blamiert, während in diesem Jahr wahnsinnig wichtige Gesetzesvorhaben in der Ressortzuständigkeit des Bundesumweltministeriums anstehen.",
-            "sentences": [
-              {
-                "text": "Die Bundesumweltministerin hat am vergangenen Sonntag im negativen Sinne ein Paradebeispiel dafür abgegeben, wie man Journalistenfragen nach ganz simplen Dingen beantwortet, nämlich ob man nach wie vor einen SPD-Parteitagsbeschluss zum Thema „Tempo 130“ vertritt oder nicht, und sich als Bundesumweltministerin bis auf die Knochen blamiert, während in diesem Jahr wahnsinnig wichtige Gesetzesvorhaben in der Ressortzuständigkeit des Bundesumweltministeriums anstehen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Steffi Lemke",
-            "speakerstatus": "speaker",
-            "text": "Ursprünglich war angekündigt, dass im Februar 2019 ein Kabinettsbeschluss zum Klimaschutzgesetz vorliegen sollte. Jetzt haben Sie eben verkündet, Sie wüssten nicht, wann er käme, Sie wüssten nicht, wann Sie in die Ressortabstimmung einstiegen, und Sie wüssten noch nicht einmal, ob es ein Rahmengesetz werden würde oder nicht. Können Sie vielleicht an irgendeiner Stelle etwas konkreter werden?",
-            "sentences": [
-              {
-                "text": "Ursprünglich war angekündigt, dass im Februar 2019 ein Kabinettsbeschluss zum Klimaschutzgesetz vorliegen sollte."
-              },
-              {
-                "text": "Jetzt haben Sie eben verkündet, Sie wüssten nicht, wann er käme, Sie wüssten nicht, wann Sie in die Ressortabstimmung einstiegen, und Sie wüssten noch nicht einmal, ob es ein Rahmengesetz werden würde oder nicht."
-              },
-              {
-                "text": "Können Sie vielleicht an irgendeiner Stelle etwas konkreter werden?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Florian Pronold",
-            "speakerstatus": "speaker",
-            "text": "Ich habe Ihnen gesagt, dass wir das schnellstmöglich machen und dass wir aus meiner Sicht sehr kurz vor einer Ressortabstimmung stehen.",
-            "sentences": [
-              {
-                "text": "Ich habe Ihnen gesagt, dass wir das schnellstmöglich machen und dass wir aus meiner Sicht sehr kurz vor einer Ressortabstimmung stehen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Florian Pronold",
-            "speakerstatus": "speaker",
-            "text": "– Für ein Klimaschutzgesetz.",
-            "sentences": [
-              {
-                "text": "– Für ein Klimaschutzgesetz."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Das war die Antwort. Vielen Dank, Herr Staatssekretär.",
-            "sentences": [
-              {
-                "text": "Das war die Antwort."
-              },
-              {
-                "text": "Vielen Dank, Herr Staatssekretär."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Jetzt kommt die Frage 31 von Lisa Badum:",
-            "sentences": [
-              {
-                "text": "Jetzt kommt die Frage 31 von Lisa Badum:"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Sie haben das Wort.",
-            "sentences": [
-              {
-                "text": "Sie haben das Wort."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Florian Pronold",
-            "speakerstatus": "speaker",
-            "text": "Die Europäische Kommission hat am 28. November 2018 die Mitteilung über eine europäische strategische, langfristige Vision für eine wohlhabende, moderne, wettbewerbsfähige und klimaneutrale Wirtschaft vorgelegt. Gleichzeitig hat die EU-Kommission eine Tiefenanalyse veröffentlicht, in der unterschiedliche Szenarien dargestellt werden, die einen sozial gerechten und kosteneffizienten Übergang zu einer CO 2 -ärmeren bis hin zu einer treibhausneutralen Wirtschaft in der EU ermöglichen sollen. Diese Szenarien hat die Europäische Kommission der Bundesregierung auf Fachebene am 24. Januar 2019 im Rahmen einer Informationsveranstaltung präsentiert. Beratungen erfolgen in den entsprechenden Räten, also in Ratsformationen auf EU-Ebene, in den kommenden Monaten.",
-            "sentences": [
-              {
-                "text": "Die Europäische Kommission hat am 28. November 2018 die Mitteilung über eine europäische strategische, langfristige Vision für eine wohlhabende, moderne, wettbewerbsfähige und klimaneutrale Wirtschaft vorgelegt."
-              },
-              {
-                "text": "Gleichzeitig hat die EU-Kommission eine Tiefenanalyse veröffentlicht, in der unterschiedliche Szenarien dargestellt werden, die einen sozial gerechten und kosteneffizienten Übergang zu einer CO 2 -ärmeren bis hin zu einer treibhausneutralen Wirtschaft in der EU ermöglichen sollen."
-              },
-              {
-                "text": "Diese Szenarien hat die Europäische Kommission der Bundesregierung auf Fachebene am 24. Januar 2019 im Rahmen einer Informationsveranstaltung präsentiert."
-              },
-              {
-                "text": "Beratungen erfolgen in den entsprechenden Räten, also in Ratsformationen auf EU-Ebene, in den kommenden Monaten."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Zusatzfrage?",
-            "sentences": [
-              {
-                "text": "Zusatzfrage?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Lisa Badum",
-            "speakerstatus": "speaker",
-            "text": "Sehr geehrter Herr Staatssekretär, ich kann ja verstehen, dass Sie sich noch beraten müssen. Aber es liegt aktuell von den nordischen Staaten die Initiative auf dem Tisch, wonach sie in Richtung eines 1,5‑Grad-Ziels gehen wollen. Sie wollen also nicht, dass die Erderhitzung über 1,5 Grad hinausgeht. Unter anderem durch den Sonderbericht des Weltklimarates sind sie noch einmal aufgeschreckt worden. Wie steht Deutschland in dieser Tradition? Wie positionieren Sie sich dazu?",
-            "sentences": [
-              {
-                "text": "Sehr geehrter Herr Staatssekretär, ich kann ja verstehen, dass Sie sich noch beraten müssen."
-              },
-              {
-                "text": "Aber es liegt aktuell von den nordischen Staaten die Initiative auf dem Tisch, wonach sie in Richtung eines 1,5‑Grad-Ziels gehen wollen."
-              },
-              {
-                "text": "Sie wollen also nicht, dass die Erderhitzung über 1,5 Grad hinausgeht."
-              },
-              {
-                "text": "Unter anderem durch den Sonderbericht des Weltklimarates sind sie noch einmal aufgeschreckt worden."
-              },
-              {
-                "text": "Wie steht Deutschland in dieser Tradition?"
-              },
-              {
-                "text": "Wie positionieren Sie sich dazu?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Florian Pronold",
-            "speakerstatus": "speaker",
-            "text": "Wir haben uns zu den Pariser Klimaschutzzielen verpflichtet. Das bedeutet, dass die Erwärmung möglichst auf 1,5 Grad begrenzt werden soll. Es ist unser Ziel, einen Beitrag dazu zu leisten, dass diese Ziele erreicht werden. Deswegen werden wir uns nicht nur auf nationaler Ebene, sondern auch auf internationaler Ebene dafür einsetzen.",
-            "sentences": [
-              {
-                "text": "Wir haben uns zu den Pariser Klimaschutzzielen verpflichtet."
-              },
-              {
-                "text": "Das bedeutet, dass die Erwärmung möglichst auf 1,5 Grad begrenzt werden soll."
-              },
-              {
-                "text": "Es ist unser Ziel, einen Beitrag dazu zu leisten, dass diese Ziele erreicht werden."
-              },
-              {
-                "text": "Deswegen werden wir uns nicht nur auf nationaler Ebene, sondern auch auf internationaler Ebene dafür einsetzen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Eine weitere Zusatzfrage?",
-            "sentences": [
-              {
-                "text": "Eine weitere Zusatzfrage?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Lisa Badum",
-            "speakerstatus": "speaker",
-            "text": "Ja, gerne. – Sehr geehrter Herr Staatssekretär, ich würde es sehr begrüßen, wenn Sie das 1,5‑Grad-Ziel ernst nähmen. Dann, muss ich Ihnen sagen, müssen Sie aber Ihre Grundlagen überarbeiten, auf denen Sie momentan Beschlüsse fassen. Die Bundesregierung ist mit dem Klimaschutzplan nach Paris gefahren. Dieser Klimaschutzplan beinhaltet noch nicht das 1,5‑Grad-Ziel. Mit diesem Klimaschutzplan werden wir das also nicht erreichen. Sie müssen ihn überarbeiten.",
-            "sentences": [
-              {
-                "text": "Ja, gerne."
-              },
-              {
-                "text": "– Sehr geehrter Herr Staatssekretär, ich würde es sehr begrüßen, wenn Sie das 1,5‑Grad-Ziel ernst nähmen."
-              },
-              {
-                "text": "Dann, muss ich Ihnen sagen, müssen Sie aber Ihre Grundlagen überarbeiten, auf denen Sie momentan Beschlüsse fassen."
-              },
-              {
-                "text": "Die Bundesregierung ist mit dem Klimaschutzplan nach Paris gefahren."
-              },
-              {
-                "text": "Dieser Klimaschutzplan beinhaltet noch nicht das 1,5‑Grad-Ziel."
-              },
-              {
-                "text": "Mit diesem Klimaschutzplan werden wir das also nicht erreichen."
-              },
-              {
-                "text": "Sie müssen ihn überarbeiten."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Florian Pronold",
-            "speakerstatus": "speaker",
-            "text": "Ich nehme an, das war keine Frage, sondern ein Auftrag.",
-            "sentences": [
-              {
-                "text": "Ich nehme an, das war keine Frage, sondern ein Auftrag."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Florian Pronold",
-            "speakerstatus": "speaker",
-            "text": "Kommen wir wieder auf die nationale Ebene. Wir machen das Klimaschutzgesetz, um festzulegen, und zwar zum ersten Mal in der Geschichte der Bundesrepublik, wie wir diese völkerrechtlichen Verträge in den einzelnen Sektoren konkret umsetzen.",
-            "sentences": [
-              {
-                "text": "Kommen wir wieder auf die nationale Ebene."
-              },
-              {
-                "text": "Wir machen das Klimaschutzgesetz, um festzulegen, und zwar zum ersten Mal in der Geschichte der Bundesrepublik, wie wir diese völkerrechtlichen Verträge in den einzelnen Sektoren konkret umsetzen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Vielen Dank, Herr Staatssekretär. – Eine weitere Nachfrage? – Haben Sie nicht.",
-            "sentences": [
-              {
-                "text": "Vielen Dank, Herr Staatssekretär."
-              },
-              {
-                "text": "– Eine weitere Nachfrage?"
-              },
-              {
-                "text": "– Haben Sie nicht."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Frau Verlinden möchte eine Frage stellen. Von ihr stammt aber auch eine Frage, die den Klimaschutz betrifft. – Okay, dann bitte erst die Nachfrage.",
-            "sentences": [
-              {
-                "text": "Frau Verlinden möchte eine Frage stellen."
-              },
-              {
-                "text": "Von ihr stammt aber auch eine Frage, die den Klimaschutz betrifft."
-              },
-              {
-                "text": "– Okay, dann bitte erst die Nachfrage."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Julia Verlinden",
-            "speakerstatus": "speaker",
-            "text": "Herr Staatssekretär, Sie haben gerade meiner Kollegin geantwortet, dass Sie das Ziel verfolgen, das Pariser Klimaschutzabkommen einzuhalten. Dann müssen Sie jetzt aber auch bekennen, ob Sie das Klimaschutzgesetz, das Sie gerade erarbeiten, entsprechend der Klimaschutzverabredung von Paris anpassen. Es reicht jedenfalls nicht, dass Sie sich an dem bisherigen Klimaschutzplan orientieren, der auf Zahlen beruht, die schon fast zehn Jahre alt sind. Dann müssen Sie die Sektorziele im Klimaschutzgesetz anpassen. Haben Sie das im Rahmen des Klimaschutzgesetzes vor? Werden Sie die Ziele der einzelnen Sektoren verschärfen, um das Pariser Abkommen einhalten zu können, oder werden Sie vertragsbrüchig und ein völkerrechtlich verbindliches Klimaschutzabkommen missachten?",
-            "sentences": [
-              {
-                "text": "Herr Staatssekretär, Sie haben gerade meiner Kollegin geantwortet, dass Sie das Ziel verfolgen, das Pariser Klimaschutzabkommen einzuhalten."
-              },
-              {
-                "text": "Dann müssen Sie jetzt aber auch bekennen, ob Sie das Klimaschutzgesetz, das Sie gerade erarbeiten, entsprechend der Klimaschutzverabredung von Paris anpassen."
-              },
-              {
-                "text": "Es reicht jedenfalls nicht, dass Sie sich an dem bisherigen Klimaschutzplan orientieren, der auf Zahlen beruht, die schon fast zehn Jahre alt sind."
-              },
-              {
-                "text": "Dann müssen Sie die Sektorziele im Klimaschutzgesetz anpassen."
-              },
-              {
-                "text": "Haben Sie das im Rahmen des Klimaschutzgesetzes vor?"
-              },
-              {
-                "text": "Werden Sie die Ziele der einzelnen Sektoren verschärfen, um das Pariser Abkommen einhalten zu können, oder werden Sie vertragsbrüchig und ein völkerrechtlich verbindliches Klimaschutzabkommen missachten?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Frau Verlinden, Sie haben die Sektorziele zur Treibhausgasminderung im Klimaschutzplan angesprochen. Das entspricht exakt Ihrer Frage 33. Deshalb schlage ich vor, die Beantwortung der Frage 31 mit der Beantwortung der Frage 33 zu verbinden.",
-            "sentences": [
-              {
-                "text": "Frau Verlinden, Sie haben die Sektorziele zur Treibhausgasminderung im Klimaschutzplan angesprochen."
-              },
-              {
-                "text": "Das entspricht exakt Ihrer Frage 33. Deshalb schlage ich vor, die Beantwortung der Frage 31 mit der Beantwortung der Frage 33 zu verbinden."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Julia Verlinden",
-            "speakerstatus": "speaker",
-            "text": "Nein, ich habe eine Nachfrage im Zusammenhang mit der Frage meiner Kollegin gestellt.",
-            "sentences": [
-              {
-                "text": "Nein, ich habe eine Nachfrage im Zusammenhang mit der Frage meiner Kollegin gestellt."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Aber es hat keinen Sinn, hier gleichlautende Fragen zu stellen, die sich inhaltlich komplett überschneiden. Ich bitte darum, die Frage 33 gleich mit zu beantworten. – Frau Verlinden, dadurch wird die Fragestunde nicht länger.",
-            "sentences": [
-              {
-                "text": "Aber es hat keinen Sinn, hier gleichlautende Fragen zu stellen, die sich inhaltlich komplett überschneiden."
-              },
-              {
-                "text": "Ich bitte darum, die Frage 33 gleich mit zu beantworten."
-              },
-              {
-                "text": "– Frau Verlinden, dadurch wird die Fragestunde nicht länger."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Die Frage 32 des Abgeordneten Luksic wird schriftlich beantwortet.",
-            "sentences": [
-              {
-                "text": "Die Frage 32 des Abgeordneten Luksic wird schriftlich beantwortet."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Ich rufe daher die Frage 33 der Kollegin Dr. Julia Verlinden, Bündnis 90/Die Grünen, auf:",
-            "sentences": [
-              {
-                "text": "Ich rufe daher die Frage 33 der Kollegin Dr. Julia Verlinden, Bündnis 90/Die Grünen, auf:"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Bitte sehr, Herr Staatssekretär.",
-            "sentences": [
-              {
-                "text": "Bitte sehr, Herr Staatssekretär."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Florian Pronold",
-            "speakerstatus": "speaker",
-            "text": "Ich werde jetzt die sowohl schriftlich als auch mündlich gestellte Frage beantworten. – Der Klimaschutzplan 2050 der Bundesregierung wurde im Lichte des Klimaschutzabkommens von Paris verfasst. Die Zielkorridore für die einzelnen Sektoren wurden so festgesetzt, dass insgesamt das deutsche Treibhausgasminderungsziel für das Jahr 2030 von mindestens 55 Prozent gegenüber dem Jahr 1990 erreicht werden kann. Diese Zielerreichung im Jahr 2030 ist ein erster Schritt auf dem Weg zur weitgehenden Treibhausgasneutralität. Das langfristige Temperaturziel des Pariser Übereinkommens besagt, dass die globale Erwärmung auf deutlich unter 2 Grad Celsius, möglichst auf 1,5 Grad Celsius, zu begrenzen ist und dafür in der zweiten Hälfte des Jahrhunderts ein Gleichgewicht zwischen Treibhausgasemissionen und deren Abbau durch Senken herzustellen ist. Mit dem Klimaschutzplan 2050 bekennt sich die Bundesregierung zu den Zielen von Paris und schafft die notwendigen Voraussetzungen, um diese zu erreichen.",
-            "sentences": [
-              {
-                "text": "Ich werde jetzt die sowohl schriftlich als auch mündlich gestellte Frage beantworten."
-              },
-              {
-                "text": "– Der Klimaschutzplan 2050 der Bundesregierung wurde im Lichte des Klimaschutzabkommens von Paris verfasst."
-              },
-              {
-                "text": "Die Zielkorridore für die einzelnen Sektoren wurden so festgesetzt, dass insgesamt das deutsche Treibhausgasminderungsziel für das Jahr 2030 von mindestens 55 Prozent gegenüber dem Jahr 1990 erreicht werden kann."
-              },
-              {
-                "text": "Diese Zielerreichung im Jahr 2030 ist ein erster Schritt auf dem Weg zur weitgehenden Treibhausgasneutralität."
-              },
-              {
-                "text": "Das langfristige Temperaturziel des Pariser Übereinkommens besagt, dass die globale Erwärmung auf deutlich unter 2 Grad Celsius, möglichst auf 1,5 Grad Celsius, zu begrenzen ist und dafür in der zweiten Hälfte des Jahrhunderts ein Gleichgewicht zwischen Treibhausgasemissionen und deren Abbau durch Senken herzustellen ist."
-              },
-              {
-                "text": "Mit dem Klimaschutzplan 2050 bekennt sich die Bundesregierung zu den Zielen von Paris und schafft die notwendigen Voraussetzungen, um diese zu erreichen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Eine Zusatzfrage.",
-            "sentences": [
-              {
-                "text": "Eine Zusatzfrage."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Julia Verlinden",
-            "speakerstatus": "speaker",
-            "text": "Ich nehme zur Kenntnis, dass Sie keinen Aktualisierungsbedarf bei den konkreten nationalen Klimaschutzzielen Deutschlands sehen. Ich möchte Sie fragen, wie Sie zu den Erkenntnissen mehrerer Experten, insbesondere der Experten stehen, die Sie als Bundesregierung beauftragt haben. Ich nenne unter anderem die Expertenkommission, die sich jährlich zum Monitoring-Bericht zur Energiewende äußert und die Sie als Bundesregierung beauftragen, dazu Stellung zu nehmen, und den Forschungsauftrag, den das BMU an das Öko-Institut und das Fraunhofer-Institut ISI vergeben hat und bei dem es um die Frage geht, was eigentlich passieren muss, damit wir die Klimaschutzziele des Pariser Abkommens einhalten können. Diese beiden Expertengruppen kommen zu der Erkenntnis, dass das von Ihnen erwähnte Ziel, bis 2030 die Treibhausgasemissionen um 55 Prozent zu senken, absolut nicht ausreicht, sondern dass wir eher in Richtung 70 Prozent gehen müssen. Wie stehen Sie dazu, dass Ihre eigenen Experten sagen, Sie müssten nachschärfen bei den Klimaschutzzielen der Bundesrepublik, um die Vorgaben von Paris einhalten zu können?",
-            "sentences": [
-              {
-                "text": "Ich nehme zur Kenntnis, dass Sie keinen Aktualisierungsbedarf bei den konkreten nationalen Klimaschutzzielen Deutschlands sehen."
-              },
-              {
-                "text": "Ich möchte Sie fragen, wie Sie zu den Erkenntnissen mehrerer Experten, insbesondere der Experten stehen, die Sie als Bundesregierung beauftragt haben."
-              },
-              {
-                "text": "Ich nenne unter anderem die Expertenkommission, die sich jährlich zum Monitoring-Bericht zur Energiewende äußert und die Sie als Bundesregierung beauftragen, dazu Stellung zu nehmen, und den Forschungsauftrag, den das BMU an das Öko-Institut und das Fraunhofer-Institut ISI vergeben hat und bei dem es um die Frage geht, was eigentlich passieren muss, damit wir die Klimaschutzziele des Pariser Abkommens einhalten können."
-              },
-              {
-                "text": "Diese beiden Expertengruppen kommen zu der Erkenntnis, dass das von Ihnen erwähnte Ziel, bis 2030 die Treibhausgasemissionen um 55 Prozent zu senken, absolut nicht ausreicht, sondern dass wir eher in Richtung 70 Prozent gehen müssen."
-              },
-              {
-                "text": "Wie stehen Sie dazu, dass Ihre eigenen Experten sagen, Sie müssten nachschärfen bei den Klimaschutzzielen der Bundesrepublik, um die Vorgaben von Paris einhalten zu können?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Florian Pronold",
-            "speakerstatus": "speaker",
-            "text": "Es gibt eine breite Einschätzung verschiedener Experten, was zu tun ist. Ich kann Ihnen nur noch einmal sagen – das zeigt übrigens der Kohlekompromiss –, dass wir das Erreichen der Klimaschutzziele wirklich ernst nehmen, und zwar nicht nur die abstrakten Einschätzungen dazu. Wir wollen die Ziele in allen Sektoren sehr schnell und konkret erreichen. Das werden wir mit dem Klimaschutzgesetz vorgeben. In diesem Kontext stellt sich natürlich die Frage, welche Maßnahmen zu welchen Zielerreichungen führen. Dort werden wir das beantworten.",
-            "sentences": [
-              {
-                "text": "Es gibt eine breite Einschätzung verschiedener Experten, was zu tun ist."
-              },
-              {
-                "text": "Ich kann Ihnen nur noch einmal sagen – das zeigt übrigens der Kohlekompromiss –, dass wir das Erreichen der Klimaschutzziele wirklich ernst nehmen, und zwar nicht nur die abstrakten Einschätzungen dazu."
-              },
-              {
-                "text": "Wir wollen die Ziele in allen Sektoren sehr schnell und konkret erreichen."
-              },
-              {
-                "text": "Das werden wir mit dem Klimaschutzgesetz vorgeben."
-              },
-              {
-                "text": "In diesem Kontext stellt sich natürlich die Frage, welche Maßnahmen zu welchen Zielerreichungen führen."
-              },
-              {
-                "text": "Dort werden wir das beantworten."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Eine weitere Zusatzfrage.",
-            "sentences": [
-              {
-                "text": "Eine weitere Zusatzfrage."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Julia Verlinden",
-            "speakerstatus": "speaker",
-            "text": "Aber Sie reden jetzt darum herum. Es geht darum, ob Ihr Ziel richtig ist, ob Ihr Ziel ausreicht für die Erfüllung des völkerrechtsverbindlichen Klimaschutzabkommens, das Sie in Paris unterschrieben haben und das wir im Bundestag einstimmig beschlossen haben. Dafür reichen aber die Ziele, die Sie genannt haben und die Sie im Klimaschutzgesetz erneut festlegen werden, nicht aus. Das heißt, im Jahr 2030 und danach werden Sie vielleicht mit Glück Ihre eigenen Ziele erreicht haben, die Sie vor zehn Jahren für Deutschland definiert haben. Aber es ist etwas passiert. Es gab die Klimakonferenz in Paris. Diese gibt nicht nur Ihnen, sondern uns allen einen schärferen, einen ambitionierteren Auftrag. Das heißt, Sie dürfen nicht nur das abarbeiten, was Sie vor zehn Jahren aufgeschrieben haben, sondern Sie müssen das abarbeiten, was das Pariser Klimaschutzabkommen von Ihnen verlangt. Das bedeutet eine Minderung der Treibhausgasemissionen nicht nur um 55 Prozent bis zum Jahr 2030, sondern um 68 Prozent.",
-            "sentences": [
-              {
-                "text": "Aber Sie reden jetzt darum herum."
-              },
-              {
-                "text": "Es geht darum, ob Ihr Ziel richtig ist, ob Ihr Ziel ausreicht für die Erfüllung des völkerrechtsverbindlichen Klimaschutzabkommens, das Sie in Paris unterschrieben haben und das wir im Bundestag einstimmig beschlossen haben."
-              },
-              {
-                "text": "Dafür reichen aber die Ziele, die Sie genannt haben und die Sie im Klimaschutzgesetz erneut festlegen werden, nicht aus."
-              },
-              {
-                "text": "Das heißt, im Jahr 2030 und danach werden Sie vielleicht mit Glück Ihre eigenen Ziele erreicht haben, die Sie vor zehn Jahren für Deutschland definiert haben."
-              },
-              {
-                "text": "Aber es ist etwas passiert."
-              },
-              {
-                "text": "Es gab die Klimakonferenz in Paris."
-              },
-              {
-                "text": "Diese gibt nicht nur Ihnen, sondern uns allen einen schärferen, einen ambitionierteren Auftrag."
-              },
-              {
-                "text": "Das heißt, Sie dürfen nicht nur das abarbeiten, was Sie vor zehn Jahren aufgeschrieben haben, sondern Sie müssen das abarbeiten, was das Pariser Klimaschutzabkommen von Ihnen verlangt."
-              },
-              {
-                "text": "Das bedeutet eine Minderung der Treibhausgasemissionen nicht nur um 55 Prozent bis zum Jahr 2030, sondern um 68 Prozent."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Florian Pronold",
-            "speakerstatus": "speaker",
-            "text": "Noch einmal: Wir machen das Klimaschutzgesetz mit dem Ziel, unsere völkerrechtlichen Verpflichtungen einzuhalten. Deswegen werden wir in dem Klimaschutzgesetz auch Pfade festlegen, die deutlich machen, wie wir das erreichen. Ein Gesetz zu machen, um völkerrechtliche Verpflichtungen nicht zu erfüllen, ist schon per se unsinnig.",
-            "sentences": [
-              {
-                "text": "Noch einmal: Wir machen das Klimaschutzgesetz mit dem Ziel, unsere völkerrechtlichen Verpflichtungen einzuhalten."
-              },
-              {
-                "text": "Deswegen werden wir in dem Klimaschutzgesetz auch Pfade festlegen, die deutlich machen, wie wir das erreichen."
-              },
-              {
-                "text": "Ein Gesetz zu machen, um völkerrechtliche Verpflichtungen nicht zu erfüllen, ist schon per se unsinnig."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Danke, Herr Staatssekretär. – Ich schließe damit die Fragestunde.",
-            "sentences": [
-              {
-                "text": "Danke, Herr Staatssekretär."
-              },
-              {
-                "text": "– Ich schließe damit die Fragestunde."
               }
             ]
           }

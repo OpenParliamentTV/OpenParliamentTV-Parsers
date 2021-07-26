@@ -11,7 +11,7 @@
     },
     "agendaItem": {
       "officialTitle": "Sitzungseröffnung",
-      "speechIndex": 0,
+      "speechIndex": 1000,
       "title": "Sitzungseröffnung"
     },
     "people": [
@@ -24,7 +24,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19087-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19087-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -76,7 +76,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 21",
-      "speechIndex": 2,
+      "speechIndex": 1002,
       "title": "Vereinbarte Debatte Internationaler Frauentag"
     },
     "people": [
@@ -89,12 +89,34 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19087-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19087-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
         "originTextID": "",
         "textBody": [
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "Vereinbarte Debatte",
+            "sentences": [
+              {
+                "text": "Vereinbarte Debatte"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "Internationaler Frauentag",
+            "sentences": [
+              {
+                "text": "Internationaler Frauentag"
+              }
+            ]
+          },
           {
             "type": "speech",
             "speaker": "Wolfgang Schäuble",
@@ -152,7 +174,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 21",
-      "speechIndex": 3,
+      "speechIndex": 1003,
       "title": "Vereinbarte Debatte Internationaler Frauentag"
     },
     "people": [
@@ -173,7 +195,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19087-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19087-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -546,7 +568,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 21",
-      "speechIndex": 4,
+      "speechIndex": 1004,
       "title": "Vereinbarte Debatte Internationaler Frauentag"
     },
     "people": [
@@ -567,7 +589,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19087-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19087-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -913,7 +935,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 21",
-      "speechIndex": 5,
+      "speechIndex": 1005,
       "title": "Vereinbarte Debatte Internationaler Frauentag"
     },
     "people": [
@@ -934,7 +956,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19087-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19087-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -1369,7 +1391,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 21",
-      "speechIndex": 6,
+      "speechIndex": 1006,
       "title": "Vereinbarte Debatte Internationaler Frauentag"
     },
     "people": [
@@ -1390,7 +1412,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19087-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19087-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -1705,7 +1727,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 21",
-      "speechIndex": 7,
+      "speechIndex": 1007,
       "title": "Vereinbarte Debatte Internationaler Frauentag"
     },
     "people": [
@@ -1726,7 +1748,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19087-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19087-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -2070,7 +2092,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 21",
-      "speechIndex": 8,
+      "speechIndex": 1008,
       "title": "Vereinbarte Debatte Internationaler Frauentag"
     },
     "people": [
@@ -2091,7 +2113,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19087-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19087-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -2619,7 +2641,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 21",
-      "speechIndex": 9,
+      "speechIndex": 1009,
       "title": "Vereinbarte Debatte Internationaler Frauentag"
     },
     "people": [
@@ -2640,7 +2662,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19087-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19087-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -3029,7 +3051,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 21",
-      "speechIndex": 10,
+      "speechIndex": 1010,
       "title": "Vereinbarte Debatte Internationaler Frauentag"
     },
     "people": [
@@ -3050,7 +3072,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19087-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19087-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -3433,7 +3455,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 21",
-      "speechIndex": 11,
+      "speechIndex": 1011,
       "title": "Vereinbarte Debatte Internationaler Frauentag"
     },
     "people": [
@@ -3454,7 +3476,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19087-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19087-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -3814,7 +3836,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 21",
-      "speechIndex": 12,
+      "speechIndex": 1012,
       "title": "Vereinbarte Debatte Internationaler Frauentag"
     },
     "people": [
@@ -3835,7 +3857,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19087-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19087-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -4179,7 +4201,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 21",
-      "speechIndex": 13,
+      "speechIndex": 1013,
       "title": "Vereinbarte Debatte Internationaler Frauentag"
     },
     "people": [
@@ -4200,7 +4222,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19087-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19087-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -4485,7 +4507,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 21",
-      "speechIndex": 14,
+      "speechIndex": 1014,
       "title": "Vereinbarte Debatte Internationaler Frauentag"
     },
     "people": [
@@ -4506,7 +4528,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19087-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19087-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -4952,7 +4974,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 21",
-      "speechIndex": 15,
+      "speechIndex": 1015,
       "title": "Vereinbarte Debatte Internationaler Frauentag"
     },
     "people": [
@@ -4973,7 +4995,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19087-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19087-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -5267,7 +5289,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 21",
-      "speechIndex": 16,
+      "speechIndex": 1016,
       "title": "Vereinbarte Debatte Internationaler Frauentag"
     },
     "people": [
@@ -5288,7 +5310,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19087-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19087-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -5707,7 +5729,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 21",
-      "speechIndex": 17,
+      "speechIndex": 1017,
       "title": "Vereinbarte Debatte Internationaler Frauentag"
     },
     "people": [
@@ -5718,17 +5740,12 @@
         "lastname": "Weisgerber",
         "context": "main-speaker",
         "faction": "CDU/CSU"
-      },
-      {
-        "type": "memberOfParliament",
-        "label": "Wolfgang Schäuble",
-        "context": "president"
       }
     ],
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19087-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19087-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -6036,28 +6053,6 @@
                 "text": "Danke schön."
               }
             ]
-          },
-          {
-            "type": "comment",
-            "speaker": null,
-            "speakerstatus": null,
-            "text": "(Beifall bei Abgeordneten der CDU/CSU, der SPD und der FDP)",
-            "sentences": [
-              {
-                "text": "(Beifall bei Abgeordneten der CDU/CSU, der SPD und der FDP)"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Wolfgang Schäuble",
-            "speakerstatus": "president",
-            "text": "Damit schließe ich die Aussprache.",
-            "sentences": [
-              {
-                "text": "Damit schließe ich die Aussprache."
-              }
-            ]
           }
         ]
       }
@@ -6079,16 +6074,52 @@
   {
     "parliament": "DE",
     "electoralPeriod": {
-      "number": 19
+      "number": "19"
     },
     "session": {
-      "number": 87
+      "number": "87",
+      "dateStart": "2019-03-15T09:00",
+      "dateEnd": "2019-03-15T16:45"
     },
     "agendaItem": {
-      "title": "Vereinbarte Debatte Internationaler Frauentag",
       "officialTitle": "Tagesordnungspunkt 21",
-      "speechIndex": 18
+      "speechIndex": 1018,
+      "title": "Vereinbarte Debatte Internationaler Frauentag"
     },
+    "people": [
+      {
+        "type": "memberOfParliament",
+        "label": "Wolfgang Schäuble",
+        "context": "president"
+      }
+    ],
+    "textContents": [
+      {
+        "type": "proceedings",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19087-data.xml",
+        "creator": "Deutscher Bundestag",
+        "license": "Public Domain",
+        "language": "DE-de",
+        "originTextID": "",
+        "textBody": [
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "Damit schließe ich die Aussprache.",
+            "sentences": [
+              {
+                "text": "Damit schließe ich die Aussprache."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "documents": [],
+    "key": "19-87 tagesordnungspunkt 21 (wolfgang schauble) #1",
+    "dateStart": "2019-03-15T09:14:54",
+    "dateEnd": "2019-03-15T09:14:58",
     "media": {
       "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7335462/7335462_h264_720_400_2000kb_baseline_de_2192.mp4",
       "sourcePage": "http://dbtg.tv/fvid/7335462",
@@ -6097,18 +6128,7 @@
       "license": "CC-BY-SA",
       "originMediaID": "7335462",
       "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7335462/7335462_mp3_128kb_stereo_de_128.mp3"
-    },
-    "dateStart": "2019-03-15T09:14:54",
-    "dateEnd": "2019-03-15T09:14:58",
-    "people": [
-      {
-        "label": "Wolfgang Schäuble",
-        "faction": "CDU/CSU",
-        "context": "main-speaker",
-        "role": "Bundestagspräsident"
-      }
-    ],
-    "key": "19-87 tagesordnungspunkt 21 (wolfgang schauble) #1"
+    }
   },
   {
     "parliament": "DE",
@@ -6122,7 +6142,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 12",
-      "speechIndex": 18,
+      "speechIndex": 1019,
       "title": "Ein Europa der Zusammenarbeit souveräner Nationen"
     },
     "people": [
@@ -6135,12 +6155,34 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19087-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19087-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
         "originTextID": "",
         "textBody": [
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "Beratung der Beschlussempfehlung und des Berichts des Ausschusses für die Angelegenheiten der Europäischen Union (21. Ausschuss) zu dem Antrag der Abgeordneten Norbert Kleinwächter, Dr. Lothar Maier, Dr. Harald Weyel, weiterer Abgeordneter und der Fraktion der AfD",
+            "sentences": [
+              {
+                "text": "Beratung der Beschlussempfehlung und des Berichts des Ausschusses für die Angelegenheiten der Europäischen Union (21. Ausschuss) zu dem Antrag der Abgeordneten Norbert Kleinwächter, Dr. Lothar Maier, Dr. Harald Weyel, weiterer Abgeordneter und der Fraktion der AfD"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "Elysée als Vorbild – Für ein Europa der Zusammenarbeit souveräner Nationen",
+            "sentences": [
+              {
+                "text": "Elysée als Vorbild – Für ein Europa der Zusammenarbeit souveräner Nationen"
+              }
+            ]
+          },
           {
             "type": "speech",
             "speaker": "Wolfgang Schäuble",
@@ -6231,7 +6273,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 12",
-      "speechIndex": 19,
+      "speechIndex": 1020,
       "title": "Ein Europa der Zusammenarbeit souveräner Nationen"
     },
     "people": [
@@ -6252,7 +6294,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19087-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19087-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -6839,7 +6881,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 12",
-      "speechIndex": 20,
+      "speechIndex": 1021,
       "title": "Ein Europa der Zusammenarbeit souveräner Nationen"
     },
     "people": [
@@ -6860,7 +6902,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19087-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19087-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -7544,7 +7586,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 12",
-      "speechIndex": 21,
+      "speechIndex": 1022,
       "title": "Ein Europa der Zusammenarbeit souveräner Nationen"
     },
     "people": [
@@ -7565,7 +7607,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19087-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19087-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -8009,7 +8051,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 12",
-      "speechIndex": 22,
+      "speechIndex": 1023,
       "title": "Ein Europa der Zusammenarbeit souveräner Nationen"
     },
     "people": [
@@ -8030,7 +8072,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19087-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19087-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -8383,7 +8425,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 12",
-      "speechIndex": 23,
+      "speechIndex": 1024,
       "title": "Ein Europa der Zusammenarbeit souveräner Nationen"
     },
     "people": [
@@ -8404,7 +8446,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19087-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19087-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -8863,7 +8905,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 12",
-      "speechIndex": 24,
+      "speechIndex": 1025,
       "title": "Ein Europa der Zusammenarbeit souveräner Nationen"
     },
     "people": [
@@ -8884,7 +8926,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19087-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19087-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -9606,7 +9648,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 12",
-      "speechIndex": 25,
+      "speechIndex": 1026,
       "title": "Ein Europa der Zusammenarbeit souveräner Nationen"
     },
     "people": [
@@ -9627,7 +9669,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19087-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19087-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -10006,7 +10048,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 12",
-      "speechIndex": 26,
+      "speechIndex": 1027,
       "title": "Ein Europa der Zusammenarbeit souveräner Nationen"
     },
     "people": [
@@ -10027,7 +10069,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19087-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19087-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -10372,7 +10414,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 12",
-      "speechIndex": 27,
+      "speechIndex": 1028,
       "title": "Ein Europa der Zusammenarbeit souveräner Nationen"
     },
     "people": [
@@ -10393,7 +10435,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19087-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19087-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -11028,7 +11070,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 12",
-      "speechIndex": 28,
+      "speechIndex": 1029,
       "title": "Ein Europa der Zusammenarbeit souveräner Nationen"
     },
     "people": [
@@ -11049,7 +11091,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19087-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19087-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -11457,7 +11499,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 12",
-      "speechIndex": 29,
+      "speechIndex": 1030,
       "title": "Ein Europa der Zusammenarbeit souveräner Nationen"
     },
     "people": [
@@ -11478,7 +11520,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19087-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19087-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -12025,7 +12067,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 12",
-      "speechIndex": 30,
+      "speechIndex": 1031,
       "title": "Ein Europa der Zusammenarbeit souveräner Nationen"
     },
     "people": [
@@ -12046,7 +12088,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19087-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19087-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -12179,7 +12221,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 12",
-      "speechIndex": 31,
+      "speechIndex": 1032,
       "title": "Ein Europa der Zusammenarbeit souveräner Nationen"
     },
     "people": [
@@ -12190,17 +12232,12 @@
         "lastname": "Groden-Kranich",
         "context": "main-speaker",
         "faction": "CDU/CSU"
-      },
-      {
-        "type": "memberOfParliament",
-        "label": "Petra Pau",
-        "context": "vice-president"
       }
     ],
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19087-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19087-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -12241,18 +12278,66 @@
                 "text": "Wenn ich Ihren Ausführungen folge, warte ich auf den Antrag, in dem Sie bitten, den Bundestag feststellen zu lassen, dass die Erde eine Scheibe ist."
               }
             ]
-          },
-          {
-            "type": "comment",
-            "speaker": null,
-            "speakerstatus": null,
-            "text": "(Beifall bei der CDU/CSU, der SPD und dem BÜNDNIS 90/DIE GRÜNEN sowie bei Abgeordneten der FDP)",
-            "sentences": [
-              {
-                "text": "(Beifall bei der CDU/CSU, der SPD und dem BÜNDNIS 90/DIE GRÜNEN sowie bei Abgeordneten der FDP)"
-              }
-            ]
-          },
+          }
+        ]
+      }
+    ],
+    "documents": [
+      {
+        "type": "officialDocument",
+        "label": "Drucksache 19/2534",
+        "sourceURI": "https://dserver.bundestag.de/btd/19/025/1902534.pdf"
+      },
+      {
+        "type": "officialDocument",
+        "label": "Drucksache 19/6560",
+        "sourceURI": "https://dserver.bundestag.de/btd/19/065/1906560.pdf"
+      }
+    ],
+    "key": "19-87 zusatzpunkt 12 (ursula groden-kranich) #1",
+    "dateStart": "2019-03-15T10:23:18",
+    "dateEnd": "2019-03-15T10:23:50",
+    "media": {
+      "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7335484/7335484_h264_720_400_2000kb_baseline_de_2192.mp4",
+      "sourcePage": "http://dbtg.tv/fvid/7335484",
+      "duration": 32.0,
+      "creator": "Deutscher Bundestag",
+      "license": "CC-BY-SA",
+      "originMediaID": "7335484",
+      "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7335484/7335484_mp3_128kb_stereo_de_128.mp3"
+    }
+  },
+  {
+    "parliament": "DE",
+    "electoralPeriod": {
+      "number": "19"
+    },
+    "session": {
+      "number": "87",
+      "dateStart": "2019-03-15T09:00",
+      "dateEnd": "2019-03-15T16:45"
+    },
+    "agendaItem": {
+      "officialTitle": "Zusatzpunkt 12",
+      "speechIndex": 1033,
+      "title": "Ein Europa der Zusammenarbeit souveräner Nationen"
+    },
+    "people": [
+      {
+        "type": "memberOfParliament",
+        "label": "Petra Pau",
+        "context": "vice-president"
+      }
+    ],
+    "textContents": [
+      {
+        "type": "proceedings",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19087-data.xml",
+        "creator": "Deutscher Bundestag",
+        "license": "Public Domain",
+        "language": "DE-de",
+        "originTextID": "",
+        "textBody": [
           {
             "type": "speech",
             "speaker": "Petra Pau",
@@ -12305,32 +12390,9 @@
         "sourceURI": "https://dserver.bundestag.de/btd/19/065/1906560.pdf"
       }
     ],
-    "key": "19-87 zusatzpunkt 12 (ursula groden-kranich) #1",
-    "dateStart": "2019-03-15T10:23:18",
-    "dateEnd": "2019-03-15T10:23:50",
-    "media": {
-      "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7335484/7335484_h264_720_400_2000kb_baseline_de_2192.mp4",
-      "sourcePage": "http://dbtg.tv/fvid/7335484",
-      "duration": 32.0,
-      "creator": "Deutscher Bundestag",
-      "license": "CC-BY-SA",
-      "originMediaID": "7335484",
-      "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7335484/7335484_mp3_128kb_stereo_de_128.mp3"
-    }
-  },
-  {
-    "parliament": "DE",
-    "electoralPeriod": {
-      "number": 19
-    },
-    "session": {
-      "number": 87
-    },
-    "agendaItem": {
-      "title": "Ein Europa der Zusammenarbeit souveräner Nationen",
-      "officialTitle": "Zusatzpunkt 12",
-      "speechIndex": 33
-    },
+    "key": "19-87 zusatzpunkt 12 (petra pau)",
+    "dateStart": "2019-03-15T10:23:50",
+    "dateEnd": "2019-03-15T10:24:43",
     "media": {
       "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7335485/7335485_h264_720_400_2000kb_baseline_de_2192.mp4",
       "sourcePage": "http://dbtg.tv/fvid/7335485",
@@ -12339,18 +12401,7 @@
       "license": "CC-BY-SA",
       "originMediaID": "7335485",
       "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7335485/7335485_mp3_128kb_stereo_de_128.mp3"
-    },
-    "dateStart": "2019-03-15T10:23:50",
-    "dateEnd": "2019-03-15T10:24:43",
-    "people": [
-      {
-        "label": "Petra Pau",
-        "faction": "Die Linke",
-        "context": "main-speaker",
-        "role": "Bundestagsvizepräsidentin"
-      }
-    ],
-    "key": "19-87 zusatzpunkt 12 (petra pau)"
+    }
   },
   {
     "parliament": "DE",
@@ -12364,7 +12415,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 13",
-      "speechIndex": 32,
+      "speechIndex": 1034,
       "title": "Errichtung der Stiftung Forum Recht"
     },
     "people": [
@@ -12377,12 +12428,23 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19087-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19087-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
         "originTextID": "",
         "textBody": [
+          {
+            "type": "speech",
+            "speaker": "Petra Pau",
+            "speakerstatus": "vice-president",
+            "text": "Erste Beratung des von den Fraktionen CDU/CSU, SPD, FDP und BÜNDNIS 90/DIE GRÜNEN eingebrachten Entwurfs eines Gesetzes zur Errichtung der „Stiftung Forum Recht“ (Forum-Recht-Gesetz – ForumRG)",
+            "sentences": [
+              {
+                "text": "Erste Beratung des von den Fraktionen CDU/CSU, SPD, FDP und BÜNDNIS 90/DIE GRÜNEN eingebrachten Entwurfs eines Gesetzes zur Errichtung der „Stiftung Forum Recht“ (Forum-Recht-Gesetz – ForumRG)"
+              }
+            ]
+          },
           {
             "type": "speech",
             "speaker": "Petra Pau",
@@ -12460,7 +12522,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 13",
-      "speechIndex": 33,
+      "speechIndex": 1035,
       "title": "Errichtung der Stiftung Forum Recht"
     },
     "people": [
@@ -12481,7 +12543,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19087-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19087-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -12847,7 +12909,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 13",
-      "speechIndex": 34,
+      "speechIndex": 1036,
       "title": "Errichtung der Stiftung Forum Recht"
     },
     "people": [
@@ -12868,7 +12930,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19087-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19087-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -13316,7 +13378,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 13",
-      "speechIndex": 35,
+      "speechIndex": 1037,
       "title": "Errichtung der Stiftung Forum Recht"
     },
     "people": [
@@ -13337,7 +13399,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19087-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19087-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -13643,7 +13705,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 13",
-      "speechIndex": 36,
+      "speechIndex": 1038,
       "title": "Errichtung der Stiftung Forum Recht"
     },
     "people": [
@@ -13664,7 +13726,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19087-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19087-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -13996,7 +14058,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 13",
-      "speechIndex": 37,
+      "speechIndex": 1039,
       "title": "Errichtung der Stiftung Forum Recht"
     },
     "people": [
@@ -14017,7 +14079,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19087-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19087-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -14479,7 +14541,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 13",
-      "speechIndex": 38,
+      "speechIndex": 1040,
       "title": "Errichtung der Stiftung Forum Recht"
     },
     "people": [
@@ -14500,7 +14562,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19087-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19087-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -14950,7 +15012,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 13",
-      "speechIndex": 39,
+      "speechIndex": 1041,
       "title": "Errichtung der Stiftung Forum Recht"
     },
     "people": [
@@ -14971,7 +15033,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19087-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19087-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -15245,7 +15307,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 13",
-      "speechIndex": 40,
+      "speechIndex": 1042,
       "title": "Errichtung der Stiftung Forum Recht"
     },
     "people": [
@@ -15266,7 +15328,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19087-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19087-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -15569,7 +15631,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 13",
-      "speechIndex": 41,
+      "speechIndex": 1043,
       "title": "Errichtung der Stiftung Forum Recht"
     },
     "people": [
@@ -15585,7 +15647,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19087-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19087-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -15775,26 +15837,6 @@
                 "text": "Ich schließe die Aussprache."
               }
             ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Volker Ullrich",
-            "speakerstatus": "main-speaker",
-            "text": "Interfraktionell wird Überweisung des Gesetzentwurfs auf Drucksache 19/8263 an die in der Tagesordnung aufgeführten Ausschüsse vorgeschlagen. Gibt es dazu anderweitige Vorschläge? – Das ist nicht der Fall. Dann ist die Überweisung so beschlossen.",
-            "sentences": [
-              {
-                "text": "Interfraktionell wird Überweisung des Gesetzentwurfs auf Drucksache 19/8263 an die in der Tagesordnung aufgeführten Ausschüsse vorgeschlagen."
-              },
-              {
-                "text": "Gibt es dazu anderweitige Vorschläge?"
-              },
-              {
-                "text": "– Das ist nicht der Fall."
-              },
-              {
-                "text": "Dann ist die Überweisung so beschlossen."
-              }
-            ]
           }
         ]
       }
@@ -15899,7 +15941,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 23",
-      "speechIndex": 43,
+      "speechIndex": 1046,
       "title": "Ost-Quote in Bundesbehörden"
     },
     "people": [
@@ -15920,7 +15962,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19087-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19087-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -16458,7 +16500,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 23",
-      "speechIndex": 44,
+      "speechIndex": 1047,
       "title": "Ost-Quote in Bundesbehörden"
     },
     "people": [
@@ -16495,7 +16537,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19087-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19087-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -17464,7 +17506,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 23",
-      "speechIndex": 45,
+      "speechIndex": 1048,
       "title": "Ost-Quote in Bundesbehörden"
     },
     "people": [
@@ -17485,7 +17527,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19087-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19087-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -17765,7 +17807,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 23",
-      "speechIndex": 46,
+      "speechIndex": 1049,
       "title": "Ost-Quote in Bundesbehörden"
     },
     "people": [
@@ -17786,7 +17828,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19087-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19087-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -18206,7 +18248,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 23",
-      "speechIndex": 47,
+      "speechIndex": 1050,
       "title": "Ost-Quote in Bundesbehörden"
     },
     "people": [
@@ -18235,7 +18277,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19087-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19087-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -18866,7 +18908,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 23",
-      "speechIndex": 48,
+      "speechIndex": 1051,
       "title": "Ost-Quote in Bundesbehörden"
     },
     "people": [
@@ -18887,7 +18929,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19087-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19087-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -19367,7 +19409,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 23",
-      "speechIndex": 49,
+      "speechIndex": 1052,
       "title": "Ost-Quote in Bundesbehörden"
     },
     "people": [
@@ -19388,7 +19430,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19087-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19087-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -19845,7 +19887,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 23",
-      "speechIndex": 50,
+      "speechIndex": 1053,
       "title": "Ost-Quote in Bundesbehörden"
     },
     "people": [
@@ -19866,7 +19908,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19087-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19087-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -20224,7 +20266,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 23",
-      "speechIndex": 51,
+      "speechIndex": 1054,
       "title": "Ost-Quote in Bundesbehörden"
     },
     "people": [
@@ -20245,7 +20287,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19087-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19087-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -20656,7 +20698,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 23",
-      "speechIndex": 52,
+      "speechIndex": 1055,
       "title": "Ost-Quote in Bundesbehörden"
     },
     "people": [
@@ -20685,7 +20727,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19087-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19087-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -21198,7 +21240,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 23",
-      "speechIndex": 53,
+      "speechIndex": 1056,
       "title": "Ost-Quote in Bundesbehörden"
     },
     "people": [
@@ -21219,7 +21261,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19087-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19087-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -21500,7 +21542,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 23",
-      "speechIndex": 54,
+      "speechIndex": 1057,
       "title": "Ost-Quote in Bundesbehörden"
     },
     "people": [
@@ -21521,7 +21563,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19087-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19087-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -21852,15 +21894,83 @@
                 "text": "Er hat unzutreffenderweise darauf hingewiesen, dass der Kollege Gregor Gysi aus der Mottenkiste gekommen sei."
               }
             ]
-          },
+          }
+        ]
+      }
+    ],
+    "documents": [
+      {
+        "type": "officialDocument",
+        "label": "Drucksache 19/8013",
+        "sourceURI": "https://dserver.bundestag.de/btd/19/080/1908013.pdf"
+      },
+      {
+        "type": "officialDocument",
+        "label": "Drucksache 19/8279",
+        "sourceURI": "https://dserver.bundestag.de/btd/19/082/1908279.pdf"
+      }
+    ],
+    "key": "19-87 tagesordnungspunkt 23 (christoph bernstiel)",
+    "dateStart": "2019-03-15T12:20:47",
+    "dateEnd": "2019-03-15T12:24:54",
+    "media": {
+      "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7335523/7335523_h264_720_400_2000kb_baseline_de_2192.mp4",
+      "sourcePage": "http://dbtg.tv/fvid/7335523",
+      "duration": 247.0,
+      "creator": "Deutscher Bundestag",
+      "license": "CC-BY-SA",
+      "originMediaID": "7335523",
+      "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7335523/7335523_mp3_128kb_stereo_de_128.mp3"
+    }
+  },
+  {
+    "parliament": "DE",
+    "electoralPeriod": {
+      "number": "19"
+    },
+    "session": {
+      "number": "87",
+      "dateStart": "2019-03-15T09:00",
+      "dateEnd": "2019-03-15T16:45"
+    },
+    "agendaItem": {
+      "officialTitle": "Tagesordnungspunkt 23",
+      "speechIndex": 1058,
+      "title": "Ost-Quote in Bundesbehörden"
+    },
+    "people": [
+      {
+        "type": "memberOfParliament",
+        "label": "Wolfgang Kubicki",
+        "context": "vice-president"
+      }
+    ],
+    "textContents": [
+      {
+        "type": "proceedings",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19087-data.xml",
+        "creator": "Deutscher Bundestag",
+        "license": "Public Domain",
+        "language": "DE-de",
+        "originTextID": "",
+        "textBody": [
           {
-            "type": "comment",
-            "speaker": null,
-            "speakerstatus": null,
-            "text": "(Dr. Diether Dehm [DIE LINKE]: Damit macht er ihn zu einer Motte!)",
+            "type": "speech",
+            "speaker": "Wolfgang Kubicki",
+            "speakerstatus": "vice-president",
+            "text": "Vielen Dank, Herr Kollege Bernstiel. – Herr Kollege Dehm, schön, dass Sie wieder bei uns sind. Der Kollege Bernstiel hat niemanden mit einer Motte verglichen. Er hat unzutreffenderweise darauf hingewiesen, dass der Kollege Gregor Gysi aus der Mottenkiste gekommen sei.",
             "sentences": [
               {
-                "text": "(Dr. Diether Dehm [DIE LINKE]: Damit macht er ihn zu einer Motte!)"
+                "text": "Vielen Dank, Herr Kollege Bernstiel."
+              },
+              {
+                "text": "– Herr Kollege Dehm, schön, dass Sie wieder bei uns sind."
+              },
+              {
+                "text": "Der Kollege Bernstiel hat niemanden mit einer Motte verglichen."
+              },
+              {
+                "text": "Er hat unzutreffenderweise darauf hingewiesen, dass der Kollege Gregor Gysi aus der Mottenkiste gekommen sei."
               }
             ]
           },
@@ -21875,17 +21985,6 @@
               },
               {
                 "text": "– Ich kann sicher sagen, dass selbst Gregor Gysi in keine Mottenkiste passt."
-              }
-            ]
-          },
-          {
-            "type": "comment",
-            "speaker": null,
-            "speakerstatus": null,
-            "text": "(Heiterkeit und Beifall im ganzen Hause)",
-            "sentences": [
-              {
-                "text": "(Heiterkeit und Beifall im ganzen Hause)"
               }
             ]
           },
@@ -21935,32 +22034,9 @@
         "sourceURI": "https://dserver.bundestag.de/btd/19/082/1908279.pdf"
       }
     ],
-    "key": "19-87 tagesordnungspunkt 23 (christoph bernstiel)",
-    "dateStart": "2019-03-15T12:20:47",
-    "dateEnd": "2019-03-15T12:24:54",
-    "media": {
-      "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7335523/7335523_h264_720_400_2000kb_baseline_de_2192.mp4",
-      "sourcePage": "http://dbtg.tv/fvid/7335523",
-      "duration": 247.0,
-      "creator": "Deutscher Bundestag",
-      "license": "CC-BY-SA",
-      "originMediaID": "7335523",
-      "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7335523/7335523_mp3_128kb_stereo_de_128.mp3"
-    }
-  },
-  {
-    "parliament": "DE",
-    "electoralPeriod": {
-      "number": 19
-    },
-    "session": {
-      "number": 87
-    },
-    "agendaItem": {
-      "title": "Ost-Quote in Bundesbehörden",
-      "officialTitle": "Tagesordnungspunkt 23",
-      "speechIndex": 58
-    },
+    "key": "19-87 tagesordnungspunkt 23 (wolfgang kubicki)",
+    "dateStart": "2019-03-15T12:24:54",
+    "dateEnd": "2019-03-15T12:25:42",
     "media": {
       "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7335524/7335524_h264_720_400_2000kb_baseline_de_2192.mp4",
       "sourcePage": "http://dbtg.tv/fvid/7335524",
@@ -21969,18 +22045,7 @@
       "license": "CC-BY-SA",
       "originMediaID": "7335524",
       "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7335524/7335524_mp3_128kb_stereo_de_128.mp3"
-    },
-    "dateStart": "2019-03-15T12:24:54",
-    "dateEnd": "2019-03-15T12:25:42",
-    "people": [
-      {
-        "label": "Wolfgang Kubicki",
-        "faction": "FDP",
-        "context": "main-speaker",
-        "role": "Bundestagsvizepräsident"
-      }
-    ],
-    "key": "19-87 tagesordnungspunkt 23 (wolfgang kubicki)"
+    }
   },
   {
     "parliament": "DE",
@@ -21994,7 +22059,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 24",
-      "speechIndex": 55,
+      "speechIndex": 1059,
       "title": "Mittelrheintal - alternative Gütertrasse"
     },
     "people": [
@@ -22007,12 +22072,34 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19087-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19087-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
         "originTextID": "",
         "textBody": [
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Kubicki",
+            "speakerstatus": "vice-president",
+            "text": "Antrag der Abgeordneten Dr. Christian Jung, Frank Sitta, Torsten Herbst, weiterer Abgeordneter und der Fraktion der FDP",
+            "sentences": [
+              {
+                "text": "Antrag der Abgeordneten Dr. Christian Jung, Frank Sitta, Torsten Herbst, weiterer Abgeordneter und der Fraktion der FDP"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Kubicki",
+            "speakerstatus": "vice-president",
+            "text": "Mittelrheintal mit alternativer Gütertrasse und funktionierenden Ausweichstrecken entlasten",
+            "sentences": [
+              {
+                "text": "Mittelrheintal mit alternativer Gütertrasse und funktionierenden Ausweichstrecken entlasten"
+              }
+            ]
+          },
           {
             "type": "speech",
             "speaker": "Wolfgang Kubicki",
@@ -22076,7 +22163,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 24",
-      "speechIndex": 56,
+      "speechIndex": 1060,
       "title": "Mittelrheintal - alternative Gütertrasse"
     },
     "people": [
@@ -22097,7 +22184,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19087-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19087-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -22380,7 +22467,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 24",
-      "speechIndex": 57,
+      "speechIndex": 1061,
       "title": "Mittelrheintal - alternative Gütertrasse"
     },
     "people": [
@@ -22409,7 +22496,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19087-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19087-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -23226,7 +23313,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 24",
-      "speechIndex": 58,
+      "speechIndex": 1062,
       "title": "Mittelrheintal - alternative Gütertrasse"
     },
     "people": [
@@ -23247,7 +23334,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19087-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19087-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -23592,7 +23679,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 24",
-      "speechIndex": 59,
+      "speechIndex": 1063,
       "title": "Mittelrheintal - alternative Gütertrasse"
     },
     "people": [
@@ -23613,7 +23700,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19087-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19087-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -23924,7 +24011,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 24",
-      "speechIndex": 60,
+      "speechIndex": 1064,
       "title": "Mittelrheintal - alternative Gütertrasse"
     },
     "people": [
@@ -23945,7 +24032,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19087-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19087-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -24416,7 +24503,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 24",
-      "speechIndex": 61,
+      "speechIndex": 1065,
       "title": "Mittelrheintal - alternative Gütertrasse"
     },
     "people": [
@@ -24437,7 +24524,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19087-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19087-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -24863,7 +24950,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 24",
-      "speechIndex": 62,
+      "speechIndex": 1066,
       "title": "Mittelrheintal - alternative Gütertrasse"
     },
     "people": [
@@ -24884,7 +24971,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19087-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19087-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -25281,7 +25368,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 24",
-      "speechIndex": 63,
+      "speechIndex": 1067,
       "title": "Mittelrheintal - alternative Gütertrasse"
     },
     "people": [
@@ -25302,7 +25389,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19087-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19087-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -25790,7 +25877,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 24",
-      "speechIndex": 64,
+      "speechIndex": 1068,
       "title": "Mittelrheintal - alternative Gütertrasse"
     },
     "people": [
@@ -25811,7 +25898,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19087-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19087-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -26007,26 +26094,69 @@
                 "text": "Ich denke, das ist genau der richtige Weg."
               }
             ]
-          },
+          }
+        ]
+      }
+    ],
+    "documents": [
+      {
+        "type": "officialDocument",
+        "label": "Drucksache 19/7984",
+        "sourceURI": "https://dserver.bundestag.de/btd/19/079/1907984.pdf"
+      }
+    ],
+    "key": "19-87 tagesordnungspunkt 24 (michael donth)",
+    "dateStart": "2019-03-15T13:08:38",
+    "dateEnd": "2019-03-15T13:13:21",
+    "media": {
+      "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7335718/7335718_h264_720_400_2000kb_baseline_de_2192.mp4",
+      "sourcePage": "http://dbtg.tv/fvid/7335718",
+      "duration": 283.0,
+      "creator": "Deutscher Bundestag",
+      "license": "CC-BY-SA",
+      "originMediaID": "7335718",
+      "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7335718/7335718_mp3_128kb_stereo_de_128.mp3"
+    }
+  },
+  {
+    "parliament": "DE",
+    "electoralPeriod": {
+      "number": "19"
+    },
+    "session": {
+      "number": "87",
+      "dateStart": "2019-03-15T09:00",
+      "dateEnd": "2019-03-15T16:45"
+    },
+    "agendaItem": {
+      "officialTitle": "Tagesordnungspunkt 24",
+      "speechIndex": 1069,
+      "title": "Mittelrheintal - alternative Gütertrasse"
+    },
+    "people": [
+      {
+        "type": "memberOfParliament",
+        "label": "Wolfgang Kubicki",
+        "context": "vice-president"
+      }
+    ],
+    "textContents": [
+      {
+        "type": "proceedings",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19087-data.xml",
+        "creator": "Deutscher Bundestag",
+        "license": "Public Domain",
+        "language": "DE-de",
+        "originTextID": "",
+        "textBody": [
           {
             "type": "speech",
-            "speaker": "Michael Donth",
-            "speakerstatus": "main-speaker",
-            "text": "Vielen Dank.",
+            "speaker": "Wolfgang Kubicki",
+            "speakerstatus": "vice-president",
+            "text": "Herr Kollege, kommen Sie zum Schluss.",
             "sentences": [
               {
-                "text": "Vielen Dank."
-              }
-            ]
-          },
-          {
-            "type": "comment",
-            "speaker": null,
-            "speakerstatus": null,
-            "text": "(Beifall bei der CDU/CSU sowie bei Abgeordneten der SPD)",
-            "sentences": [
-              {
-                "text": "(Beifall bei der CDU/CSU sowie bei Abgeordneten der SPD)"
+                "text": "Herr Kollege, kommen Sie zum Schluss."
               }
             ]
           },
@@ -26074,32 +26204,9 @@
         "sourceURI": "https://dserver.bundestag.de/btd/19/079/1907984.pdf"
       }
     ],
-    "key": "19-87 tagesordnungspunkt 24 (michael donth)",
-    "dateStart": "2019-03-15T13:08:38",
-    "dateEnd": "2019-03-15T13:13:21",
-    "media": {
-      "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7335718/7335718_h264_720_400_2000kb_baseline_de_2192.mp4",
-      "sourcePage": "http://dbtg.tv/fvid/7335718",
-      "duration": 283.0,
-      "creator": "Deutscher Bundestag",
-      "license": "CC-BY-SA",
-      "originMediaID": "7335718",
-      "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7335718/7335718_mp3_128kb_stereo_de_128.mp3"
-    }
-  },
-  {
-    "parliament": "DE",
-    "electoralPeriod": {
-      "number": 19
-    },
-    "session": {
-      "number": 87
-    },
-    "agendaItem": {
-      "title": "Mittelrheintal - alternative Gütertrasse",
-      "officialTitle": "Tagesordnungspunkt 24",
-      "speechIndex": 69
-    },
+    "key": "19-87 tagesordnungspunkt 24 (wolfgang kubicki) #1",
+    "dateStart": "2019-03-15T13:13:21",
+    "dateEnd": "2019-03-15T13:13:39",
     "media": {
       "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7335719/7335719_h264_720_400_2000kb_baseline_de_2192.mp4",
       "sourcePage": "http://dbtg.tv/fvid/7335719",
@@ -26108,18 +26215,7 @@
       "license": "CC-BY-SA",
       "originMediaID": "7335719",
       "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7335719/7335719_mp3_128kb_stereo_de_128.mp3"
-    },
-    "dateStart": "2019-03-15T13:13:21",
-    "dateEnd": "2019-03-15T13:13:39",
-    "people": [
-      {
-        "label": "Wolfgang Kubicki",
-        "faction": "FDP",
-        "context": "main-speaker",
-        "role": "Bundestagsvizepräsident"
-      }
-    ],
-    "key": "19-87 tagesordnungspunkt 24 (wolfgang kubicki) #1"
+    }
   },
   {
     "parliament": "DE",
@@ -26133,7 +26229,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 14",
-      "speechIndex": 75,
+      "speechIndex": 1080,
       "title": "Teilhabe im Wahlrecht"
     },
     "people": [
@@ -26151,7 +26247,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19087-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19087-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -26557,7 +26653,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 15",
-      "speechIndex": 77,
+      "speechIndex": 1082,
       "title": "Aktuelle Stunde zu den Klimastreiks der Fridays for Future Bewegung"
     },
     "people": [
@@ -26570,7 +26666,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19087-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19087-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -26580,10 +26676,32 @@
             "type": "speech",
             "speaker": "Thomas Oppermann",
             "speakerstatus": "vice-president",
+            "text": "Aktuelle Stunde",
+            "sentences": [
+              {
+                "text": "Aktuelle Stunde"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Thomas Oppermann",
+            "speakerstatus": "vice-president",
             "text": "auf Verlangen der Fraktion BÜNDNIS 90/DIE GRÜNEN",
             "sentences": [
               {
                 "text": "auf Verlangen der Fraktion BÜNDNIS 90/DIE GRÜNEN"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Thomas Oppermann",
+            "speakerstatus": "vice-president",
+            "text": "Haltung der Bundesregierung zu den Klimastreiks der Fridays-for-Future-Bewegung und der Petition Scientists for Future",
+            "sentences": [
+              {
+                "text": "Haltung der Bundesregierung zu den Klimastreiks der Fridays-for-Future-Bewegung und der Petition Scientists for Future"
               }
             ]
           },
@@ -26661,7 +26779,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 15",
-      "speechIndex": 78,
+      "speechIndex": 1083,
       "title": "Aktuelle Stunde zu den Klimastreiks der Fridays for Future Bewegung"
     },
     "people": [
@@ -26682,7 +26800,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19087-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19087-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -27261,7 +27379,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 15",
-      "speechIndex": 79,
+      "speechIndex": 1084,
       "title": "Aktuelle Stunde zu den Klimastreiks der Fridays for Future Bewegung"
     },
     "people": [
@@ -27282,7 +27400,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19087-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19087-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -27785,7 +27903,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 15",
-      "speechIndex": 80,
+      "speechIndex": 1085,
       "title": "Aktuelle Stunde zu den Klimastreiks der Fridays for Future Bewegung"
     },
     "people": [
@@ -27806,7 +27924,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19087-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19087-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -28290,7 +28408,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 15",
-      "speechIndex": 81,
+      "speechIndex": 1086,
       "title": "Aktuelle Stunde zu den Klimastreiks der Fridays for Future Bewegung"
     },
     "people": [
@@ -28311,7 +28429,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19087-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19087-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -28899,7 +29017,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 15",
-      "speechIndex": 82,
+      "speechIndex": 1087,
       "title": "Aktuelle Stunde zu den Klimastreiks der Fridays for Future Bewegung"
     },
     "people": [
@@ -28915,7 +29033,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19087-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19087-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -29488,16 +29606,102 @@
   {
     "parliament": "DE",
     "electoralPeriod": {
-      "number": 19
+      "number": "19"
     },
     "session": {
-      "number": 87
+      "number": "87",
+      "dateStart": "2019-03-15T09:00",
+      "dateEnd": "2019-03-15T16:45"
     },
     "agendaItem": {
-      "title": "Aktuelle Stunde zu den Klimastreiks der Fridays for Future Bewegung",
       "officialTitle": "Zusatzpunkt 15",
-      "speechIndex": 86
+      "speechIndex": 1099,
+      "title": "Aktuelle Stunde zu den Klimastreiks der Fridays for Future Bewegung"
     },
+    "people": [
+      {
+        "type": "memberOfParliament",
+        "label": "Thomas Oppermann",
+        "context": "vice-president"
+      }
+    ],
+    "textContents": [
+      {
+        "type": "proceedings",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19087-data.xml",
+        "creator": "Deutscher Bundestag",
+        "license": "Public Domain",
+        "language": "DE-de",
+        "originTextID": "",
+        "textBody": [
+          {
+            "type": "speech",
+            "speaker": "Thomas Oppermann",
+            "speakerstatus": "vice-president",
+            "text": "Vielen Dank, Herr Kollege. – Weitere Wortmeldungen sind nicht vorgesehen.",
+            "sentences": [
+              {
+                "text": "Vielen Dank, Herr Kollege."
+              },
+              {
+                "text": "– Weitere Wortmeldungen sind nicht vorgesehen."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Thomas Oppermann",
+            "speakerstatus": "vice-president",
+            "text": "Wir sind damit am Schluss unserer heutigen Tagesordnung.",
+            "sentences": [
+              {
+                "text": "Wir sind damit am Schluss unserer heutigen Tagesordnung."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Thomas Oppermann",
+            "speakerstatus": "vice-president",
+            "text": "Ich wünsche Ihnen ein erholsames Wochenende; denn nächste Woche geht es schon wieder weiter.",
+            "sentences": [
+              {
+                "text": "Ich wünsche Ihnen ein erholsames Wochenende; denn nächste Woche geht es schon wieder weiter."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Thomas Oppermann",
+            "speakerstatus": "vice-president",
+            "text": "Ich berufe die nächste Sitzung des Deutschen Bundestages auf Mittwoch, den 20. März 2019, 13 Uhr, ein.",
+            "sentences": [
+              {
+                "text": "Ich berufe die nächste Sitzung des Deutschen Bundestages auf Mittwoch, den 20. März 2019, 13 Uhr, ein."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Thomas Oppermann",
+            "speakerstatus": "vice-president",
+            "text": "Die Sitzung ist geschlossen. Kommen Sie gut nach Hause.",
+            "sentences": [
+              {
+                "text": "Die Sitzung ist geschlossen."
+              },
+              {
+                "text": "Kommen Sie gut nach Hause."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "documents": [],
+    "key": "19-87 zusatzpunkt 15 (thomas oppermann) #1",
+    "dateStart": "2019-03-15T14:41:50",
+    "dateEnd": "2019-03-15T14:44:01",
     "media": {
       "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7335747/7335747_h264_720_400_2000kb_baseline_de_2192.mp4",
       "sourcePage": "http://dbtg.tv/fvid/7335747",
@@ -29506,18 +29710,7 @@
       "license": "CC-BY-SA",
       "originMediaID": "7335747",
       "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7335747/7335747_mp3_128kb_stereo_de_128.mp3"
-    },
-    "dateStart": "2019-03-15T14:41:50",
-    "dateEnd": "2019-03-15T14:44:01",
-    "people": [
-      {
-        "label": "Thomas Oppermann",
-        "faction": "SPD",
-        "context": "main-speaker",
-        "role": "Bundestagsvizepräsident"
-      }
-    ],
-    "key": "19-87 zusatzpunkt 15 (thomas oppermann) #1"
+    }
   },
   {
     "parliament": "DE",
@@ -29531,7 +29724,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 15",
-      "speechIndex": 83,
+      "speechIndex": 1088,
       "title": "Aktuelle Stunde zu den Klimastreiks der Fridays for Future Bewegung"
     },
     "people": [
@@ -29552,7 +29745,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19087-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19087-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -30076,7 +30269,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 15",
-      "speechIndex": 84,
+      "speechIndex": 1089,
       "title": "Aktuelle Stunde zu den Klimastreiks der Fridays for Future Bewegung"
     },
     "people": [
@@ -30097,7 +30290,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19087-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19087-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -30562,7 +30755,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 15",
-      "speechIndex": 85,
+      "speechIndex": 1090,
       "title": "Aktuelle Stunde zu den Klimastreiks der Fridays for Future Bewegung"
     },
     "people": [
@@ -30583,7 +30776,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19087-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19087-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -31225,7 +31418,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 15",
-      "speechIndex": 86,
+      "speechIndex": 1091,
       "title": "Aktuelle Stunde zu den Klimastreiks der Fridays for Future Bewegung"
     },
     "people": [
@@ -31246,7 +31439,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19087-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19087-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -31671,7 +31864,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 15",
-      "speechIndex": 87,
+      "speechIndex": 1092,
       "title": "Aktuelle Stunde zu den Klimastreiks der Fridays for Future Bewegung"
     },
     "people": [
@@ -31692,7 +31885,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19087-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19087-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -32131,7 +32324,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 15",
-      "speechIndex": 88,
+      "speechIndex": 1093,
       "title": "Aktuelle Stunde zu den Klimastreiks der Fridays for Future Bewegung"
     },
     "people": [
@@ -32152,7 +32345,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19087-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19087-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -32414,7 +32607,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 15",
-      "speechIndex": 89,
+      "speechIndex": 1094,
       "title": "Aktuelle Stunde zu den Klimastreiks der Fridays for Future Bewegung"
     },
     "people": [
@@ -32435,7 +32628,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19087-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19087-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -32930,7 +33123,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 15",
-      "speechIndex": 90,
+      "speechIndex": 1095,
       "title": "Aktuelle Stunde zu den Klimastreiks der Fridays for Future Bewegung"
     },
     "people": [
@@ -32951,7 +33144,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19087-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19087-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -33302,7 +33495,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 15",
-      "speechIndex": 91,
+      "speechIndex": 1096,
       "title": "Aktuelle Stunde zu den Klimastreiks der Fridays for Future Bewegung"
     },
     "people": [
@@ -33323,7 +33516,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19087-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19087-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -33775,7 +33968,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 15",
-      "speechIndex": 92,
+      "speechIndex": 1097,
       "title": "Aktuelle Stunde zu den Klimastreiks der Fridays for Future Bewegung"
     },
     "people": [
@@ -33796,7 +33989,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19087-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19087-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -34374,7 +34567,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 15",
-      "speechIndex": 93,
+      "speechIndex": 1098,
       "title": "Aktuelle Stunde zu den Klimastreiks der Fridays for Future Bewegung"
     },
     "people": [
@@ -34385,17 +34578,12 @@
         "lastname": "Koeppen",
         "context": "main-speaker",
         "faction": "CDU/CSU"
-      },
-      {
-        "type": "memberOfParliament",
-        "label": "Thomas Oppermann",
-        "context": "vice-president"
       }
     ],
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19087-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19087-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -35045,78 +35233,6 @@
               },
               {
                 "text": "Diese Bildung sollten wir unseren Kindern nicht verwehren."
-              }
-            ]
-          },
-          {
-            "type": "comment",
-            "speaker": null,
-            "speakerstatus": null,
-            "text": "(Beifall bei Abgeordneten der CDU/CSU – Renate Künast [BÜNDNIS 90/DIE GRÜNEN]: Ich habe „Gurken“ behalten!)",
-            "sentences": [
-              {
-                "text": "(Beifall bei Abgeordneten der CDU/CSU – Renate Künast [BÜNDNIS 90/DIE GRÜNEN]: Ich habe „Gurken“ behalten!)"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Vielen Dank, Herr Kollege. – Weitere Wortmeldungen sind nicht vorgesehen.",
-            "sentences": [
-              {
-                "text": "Vielen Dank, Herr Kollege."
-              },
-              {
-                "text": "– Weitere Wortmeldungen sind nicht vorgesehen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Wir sind damit am Schluss unserer heutigen Tagesordnung.",
-            "sentences": [
-              {
-                "text": "Wir sind damit am Schluss unserer heutigen Tagesordnung."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Ich wünsche Ihnen ein erholsames Wochenende; denn nächste Woche geht es schon wieder weiter.",
-            "sentences": [
-              {
-                "text": "Ich wünsche Ihnen ein erholsames Wochenende; denn nächste Woche geht es schon wieder weiter."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Ich berufe die nächste Sitzung des Deutschen Bundestages auf Mittwoch, den 20. März 2019, 13 Uhr, ein.",
-            "sentences": [
-              {
-                "text": "Ich berufe die nächste Sitzung des Deutschen Bundestages auf Mittwoch, den 20. März 2019, 13 Uhr, ein."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Die Sitzung ist geschlossen. Kommen Sie gut nach Hause.",
-            "sentences": [
-              {
-                "text": "Die Sitzung ist geschlossen."
-              },
-              {
-                "text": "Kommen Sie gut nach Hause."
               }
             ]
           }

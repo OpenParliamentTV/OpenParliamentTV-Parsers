@@ -11,7 +11,7 @@
     },
     "agendaItem": {
       "officialTitle": "Sitzungseröffnung",
-      "speechIndex": 0,
+      "speechIndex": 1000,
       "title": "Sitzungseröffnung"
     },
     "people": [
@@ -24,7 +24,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19091-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19091-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -84,7 +84,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 2,
+      "speechIndex": 1002,
       "title": "Befragung der Bundesregierung"
     },
     "people": [
@@ -97,12 +97,23 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19091-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19091-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
         "originTextID": "",
         "textBody": [
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Kubicki",
+            "speakerstatus": "vice-president",
+            "text": "Befragung der Bundesregierung",
+            "sentences": [
+              {
+                "text": "Befragung der Bundesregierung"
+              }
+            ]
+          },
           {
             "type": "speech",
             "speaker": "Wolfgang Kubicki",
@@ -154,7 +165,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 3,
+      "speechIndex": 1003,
       "title": "Befragung der Bundesregierung"
     },
     "people": [
@@ -175,7 +186,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19091-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19091-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -431,7 +442,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 5,
+      "speechIndex": 1005,
       "title": "Befragung der Bundesregierung"
     },
     "people": [
@@ -452,7 +463,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19091-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19091-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -558,7 +569,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 7,
+      "speechIndex": 1007,
       "title": "Befragung der Bundesregierung"
     },
     "people": [
@@ -579,7 +590,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19091-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19091-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -665,7 +676,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 9,
+      "speechIndex": 1009,
       "title": "Befragung der Bundesregierung"
     },
     "people": [
@@ -686,7 +697,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19091-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19091-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -790,7 +801,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 11,
+      "speechIndex": 1011,
       "title": "Befragung der Bundesregierung"
     },
     "people": [
@@ -811,7 +822,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19091-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19091-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -871,16 +882,69 @@
   {
     "parliament": "DE",
     "electoralPeriod": {
-      "number": 19
+      "number": "19"
     },
     "session": {
-      "number": 91
+      "number": "91",
+      "dateStart": "2019-04-03T13:00",
+      "dateEnd": "2019-04-03T16:59"
     },
     "agendaItem": {
-      "title": "Befragung der Bundesregierung",
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 8
+      "speechIndex": 1078,
+      "title": "Befragung der Bundesregierung"
     },
+    "people": [
+      {
+        "type": "memberOfParliament",
+        "label": "Wolfgang Kubicki",
+        "context": "vice-president"
+      }
+    ],
+    "textContents": [
+      {
+        "type": "proceedings",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19091-data.xml",
+        "creator": "Deutscher Bundestag",
+        "license": "Public Domain",
+        "language": "DE-de",
+        "originTextID": "",
+        "textBody": [
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Kubicki",
+            "speakerstatus": "vice-president",
+            "text": "Vielen Dank, Frau Kollegin. – Ich beende damit die Befragung. Vielen Dank, Herr Minister, auch für Ihre Standfestigkeit.",
+            "sentences": [
+              {
+                "text": "Vielen Dank, Frau Kollegin."
+              },
+              {
+                "text": "– Ich beende damit die Befragung."
+              },
+              {
+                "text": "Vielen Dank, Herr Minister, auch für Ihre Standfestigkeit."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Kubicki",
+            "speakerstatus": "vice-president",
+            "text": "– Die CDU-Fraktion lebt.",
+            "sentences": [
+              {
+                "text": "– Die CDU-Fraktion lebt."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "documents": [],
+    "key": "19-91 tagesordnungspunkt 1 (wolfgang kubicki) #1",
+    "dateStart": "2019-04-03T12:08:05",
+    "dateEnd": "2019-04-03T12:08:11",
     "media": {
       "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7341479/7341479_h264_720_400_2000kb_baseline_de_2192.mp4",
       "sourcePage": "http://dbtg.tv/fvid/7341479",
@@ -889,18 +953,7 @@
       "license": "CC-BY-SA",
       "originMediaID": "7341479",
       "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7341479/7341479_mp3_128kb_stereo_de_128.mp3"
-    },
-    "dateStart": "2019-04-03T12:08:05",
-    "dateEnd": "2019-04-03T12:08:11",
-    "people": [
-      {
-        "label": "Wolfgang Kubicki",
-        "faction": "FDP",
-        "context": "main-speaker",
-        "role": "Bundestagsvizepräsident"
-      }
-    ],
-    "key": "19-91 tagesordnungspunkt 1 (wolfgang kubicki) #1"
+    }
   },
   {
     "parliament": "DE",
@@ -914,7 +967,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 2",
-      "speechIndex": 78,
+      "speechIndex": 1079,
       "title": "Fragestunde"
     },
     "people": [
@@ -1108,12 +1161,23 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19091-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19091-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
         "originTextID": "",
         "textBody": [
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Kubicki",
+            "speakerstatus": "vice-president",
+            "text": "Fragestunde",
+            "sentences": [
+              {
+                "text": "Fragestunde"
+              }
+            ]
+          },
           {
             "type": "speech",
             "speaker": "Wolfgang Kubicki",
@@ -6538,7 +6602,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 2",
-      "speechIndex": 79,
+      "speechIndex": 1080,
       "title": "Fragestunde"
     },
     "people": [
@@ -6671,73 +6735,28 @@
         "lastname": "Brandner",
         "context": "speaker",
         "faction": "AfD"
-      },
-      {
-        "type": "memberOfParliament",
-        "label": "Niels Annen",
-        "firstname": "Niels",
-        "lastname": "Annen",
-        "context": "speaker",
-        "faction": ""
-      },
-      {
-        "type": "memberOfParliament",
-        "label": "Paul Viktor Podolay",
-        "firstname": "Paul Viktor",
-        "lastname": "Podolay",
-        "context": "speaker",
-        "faction": "AfD"
-      },
-      {
-        "type": "memberOfParliament",
-        "label": "Anton Friesen",
-        "firstname": "Anton",
-        "lastname": "Friesen",
-        "context": "speaker",
-        "faction": "AfD"
-      },
-      {
-        "type": "memberOfParliament",
-        "label": "Oliver Wittke",
-        "firstname": "Oliver",
-        "lastname": "Wittke",
-        "context": "speaker",
-        "faction": ""
-      },
-      {
-        "type": "memberOfParliament",
-        "label": "Tabea Rößner",
-        "firstname": "Tabea",
-        "lastname": "Rößner",
-        "context": "speaker",
-        "faction": "BÜNDNIS 90/DIE GRÜNEN"
-      },
-      {
-        "type": "memberOfParliament",
-        "label": "Christian Lange",
-        "firstname": "Christian",
-        "lastname": "Lange",
-        "context": "speaker",
-        "faction": ""
-      },
-      {
-        "type": "memberOfParliament",
-        "label": "Katrin Werner",
-        "firstname": "Katrin",
-        "lastname": "Werner",
-        "context": "speaker",
-        "faction": "DIE LINKE"
       }
     ],
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19091-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19091-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
         "originTextID": "",
         "textBody": [
+          {
+            "type": "speech",
+            "speaker": "Thomas Oppermann",
+            "speakerstatus": "vice-president",
+            "text": "Fragestunde",
+            "sentences": [
+              {
+                "text": "Fragestunde"
+              }
+            ]
+          },
           {
             "type": "speech",
             "speaker": "Thomas Oppermann",
@@ -9561,2027 +9580,6 @@
                 "text": "Herr Staatssekretär."
               }
             ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Stephan Mayer",
-            "speakerstatus": "speaker",
-            "text": "Sehr geehrter Herr Präsident! Sehr geehrte Frau Kollegin Polat, ich danke ganz herzlich für die Nachfrage, da sie mir die Gelegenheit gibt, zu konkretisieren, um was es uns im Bereich des Geordnete-Rückkehr-Gesetzes spezifisch geht. Ich habe vorhin bei der Beantwortung der Frage bezüglich der syrischen Bürgerkriegsflüchtlinge deutlich gemacht – es sind etwa 753 000 Syrer, die nach Ausbruch des syrischen Bürgerkriegs nach Deutschland gekommen sind, im AZR gespeichert –, dass Deutschland hier aus meiner Sicht eine ausgesprochen humane Visitenkarte abgegeben hat. Sie sprechen von der Durchsetzung des Rechtsstaats. Ich darf Ihnen einmal den Gesetzeswortlaut zitieren. § 59 Absatz 1 des Aufenthaltsgesetzes lautet wortwörtlich:",
-            "sentences": [
-              {
-                "text": "Sehr geehrter Herr Präsident!"
-              },
-              {
-                "text": "Sehr geehrte Frau Kollegin Polat, ich danke ganz herzlich für die Nachfrage, da sie mir die Gelegenheit gibt, zu konkretisieren, um was es uns im Bereich des Geordnete-Rückkehr-Gesetzes spezifisch geht."
-              },
-              {
-                "text": "Ich habe vorhin bei der Beantwortung der Frage bezüglich der syrischen Bürgerkriegsflüchtlinge deutlich gemacht – es sind etwa 753 000 Syrer, die nach Ausbruch des syrischen Bürgerkriegs nach Deutschland gekommen sind, im AZR gespeichert –, dass Deutschland hier aus meiner Sicht eine ausgesprochen humane Visitenkarte abgegeben hat."
-              },
-              {
-                "text": "Sie sprechen von der Durchsetzung des Rechtsstaats."
-              },
-              {
-                "text": "Ich darf Ihnen einmal den Gesetzeswortlaut zitieren. §"
-              },
-              {
-                "text": "59 Absatz 1 des Aufenthaltsgesetzes lautet wortwörtlich:"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Stephan Mayer",
-            "speakerstatus": "speaker",
-            "text": "Ich frage ganz offen: Wer behindert oder unterminiert den Rechtsstaat? Doch nicht derjenige, der ausreisepflichtige Personen außer Landes bringt, wenn sie nicht freiwillig ausreisen, sondern derjenige, der versucht, diese Maßnahme des Staates zum Scheitern zu bringen. Deshalb gibt es aus meiner Sicht sehr gute Gründe dafür, dass man dieses Verhalten sanktioniert. Es geht uns, um dies klar zu sagen, in keiner Weise darum, Journalisten strafrechtlich zu belangen. Es geht uns auch nicht darum, Rechtsanwälte strafrechtlich zu belangen. Die Frage der Beweisbarkeit – ich habe es schon kurz angedeutet – ist im Einzelfall mit Sicherheit nicht einfach zu beantworten.",
-            "sentences": [
-              {
-                "text": "Ich frage ganz offen: Wer behindert oder unterminiert den Rechtsstaat?"
-              },
-              {
-                "text": "Doch nicht derjenige, der ausreisepflichtige Personen außer Landes bringt, wenn sie nicht freiwillig ausreisen, sondern derjenige, der versucht, diese Maßnahme des Staates zum Scheitern zu bringen."
-              },
-              {
-                "text": "Deshalb gibt es aus meiner Sicht sehr gute Gründe dafür, dass man dieses Verhalten sanktioniert."
-              },
-              {
-                "text": "Es geht uns, um dies klar zu sagen, in keiner Weise darum, Journalisten strafrechtlich zu belangen."
-              },
-              {
-                "text": "Es geht uns auch nicht darum, Rechtsanwälte strafrechtlich zu belangen."
-              },
-              {
-                "text": "Die Frage der Beweisbarkeit – ich habe es schon kurz angedeutet – ist im Einzelfall mit Sicherheit nicht einfach zu beantworten."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Wolfgang Kubicki",
-            "speakerstatus": "vice-president",
-            "text": "Herr Staatssekretär.",
-            "sentences": [
-              {
-                "text": "Herr Staatssekretär."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Stephan Mayer",
-            "speakerstatus": "speaker",
-            "text": "Wir würden uns vor allem in präventiver Hinsicht von einer derartigen Strafvorschrift einiges versprechen, sodass in Zukunft Abschiebemaßnahmen effektiver durchgeführt werden können.",
-            "sentences": [
-              {
-                "text": "Wir würden uns vor allem in präventiver Hinsicht von einer derartigen Strafvorschrift einiges versprechen, sodass in Zukunft Abschiebemaßnahmen effektiver durchgeführt werden können."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Wolfgang Kubicki",
-            "speakerstatus": "vice-president",
-            "text": "Herzlichen Dank, Herr Staatssekretär. – Ich möchte noch einmal darauf hinweisen: Wir befinden uns in der Fragestunde und nicht in einer allgemeinen Debatte.",
-            "sentences": [
-              {
-                "text": "Herzlichen Dank, Herr Staatssekretär."
-              },
-              {
-                "text": "– Ich möchte noch einmal darauf hinweisen: Wir befinden uns in der Fragestunde und nicht in einer allgemeinen Debatte."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Wolfgang Kubicki",
-            "speakerstatus": "vice-president",
-            "text": "Ich rufe die Frage 12 des Abgeordneten Stephan Brandner auf:",
-            "sentences": [
-              {
-                "text": "Ich rufe die Frage 12 des Abgeordneten Stephan Brandner auf:"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Wolfgang Kubicki",
-            "speakerstatus": "vice-president",
-            "text": "Herr Staatssekretär, Sie haben das Wort.",
-            "sentences": [
-              {
-                "text": "Herr Staatssekretär, Sie haben das Wort."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Stephan Mayer",
-            "speakerstatus": "speaker",
-            "text": "Sehr geehrter Herr Präsident! Sehr geehrter Herr Kollege Brandner, ich beantworte Ihre Frage wie folgt: Von den zehn Beschuldigten des in den Medienberichten thematisierten Sachverhalts besitzen acht Personen die deutsche Staatsangehörigkeit. Zwei Personen besitzen neben der deutschen eine weitere Staatsangehörigkeit, die deutsch-marokkanische und die deutsch-tunesische. Von den zwei Beschuldigten, die keine deutsche Staatsangehörigkeit besitzen, ist einer türkischer, der andere kosovarischer Staatsangehöriger. Die Person mit der kosovarischen Staatsangehörigkeit hat in der Vergangenheit erfolglos ein Asylverfahren durchlaufen. Der Antrag wurde am 8. November 1990 abgelehnt.",
-            "sentences": [
-              {
-                "text": "Sehr geehrter Herr Präsident!"
-              },
-              {
-                "text": "Sehr geehrter Herr Kollege Brandner, ich beantworte Ihre Frage wie folgt: Von den zehn Beschuldigten des in den Medienberichten thematisierten Sachverhalts besitzen acht Personen die deutsche Staatsangehörigkeit."
-              },
-              {
-                "text": "Zwei Personen besitzen neben der deutschen eine weitere Staatsangehörigkeit, die deutsch-marokkanische und die deutsch-tunesische."
-              },
-              {
-                "text": "Von den zwei Beschuldigten, die keine deutsche Staatsangehörigkeit besitzen, ist einer türkischer, der andere kosovarischer Staatsangehöriger."
-              },
-              {
-                "text": "Die Person mit der kosovarischen Staatsangehörigkeit hat in der Vergangenheit erfolglos ein Asylverfahren durchlaufen."
-              },
-              {
-                "text": "Der Antrag wurde am 8. November 1990 abgelehnt."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Zusatzfrage?",
-            "sentences": [
-              {
-                "text": "Zusatzfrage?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Stephan Brandner",
-            "speakerstatus": "speaker",
-            "text": "Ja, gerne. – Der damalige Justiz- und heutige Außenminister Heiko Maas hat im November 2015 im „ZDF-Morgenmagazin“ behauptet – ich zitiere wörtlich –, es gebe keine einzige nachweisbare Verbindung zwischen dem Terrorismus und den Flüchtlingen. Meine Frage ist: Was war damals die Faktenlage für die Aussage des Herrn Maas, und hat sich an der Beurteilung des Herrn Maas, die offenbar auch die Einschätzung der Bundesregierung ist, bis zum heutigen Tag und angesichts der Vorfälle, die wir zum Gegenstand der Frage gemacht haben, irgendetwas geändert?",
-            "sentences": [
-              {
-                "text": "Ja, gerne."
-              },
-              {
-                "text": "– Der damalige Justiz- und heutige Außenminister Heiko Maas hat im November 2015 im „ZDF-Morgenmagazin“ behauptet – ich zitiere wörtlich –, es gebe keine einzige nachweisbare Verbindung zwischen dem Terrorismus und den Flüchtlingen."
-              },
-              {
-                "text": "Meine Frage ist: Was war damals die Faktenlage für die Aussage des Herrn Maas, und hat sich an der Beurteilung des Herrn Maas, die offenbar auch die Einschätzung der Bundesregierung ist, bis zum heutigen Tag und angesichts der Vorfälle, die wir zum Gegenstand der Frage gemacht haben, irgendetwas geändert?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Herr Staatssekretär.",
-            "sentences": [
-              {
-                "text": "Herr Staatssekretär."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Stephan Mayer",
-            "speakerstatus": "speaker",
-            "text": "Sehr geehrter Herr Präsident! Sehr geehrter Herr Kollege Brandner, ich bitte mit Verlaub um Verständnis, dass ich jetzt nicht ein Zitat des vormaligen Bundesjustizministers aus der letzten Legislaturperiode bewerten kann. Ich habe zu diesem Zeitpunkt der Bundesregierung nicht angehört. Ich kann auch die Validität dieses Zitates in keiner Weise verifizieren. Ich bitte Sie herzlich um Verständnis, dass ich jetzt keine Einzelaussage des früheren Bundesjustizministers namens der aktuellen Bundesregierung in irgendeiner Weise kommentieren oder bewerten kann.",
-            "sentences": [
-              {
-                "text": "Sehr geehrter Herr Präsident!"
-              },
-              {
-                "text": "Sehr geehrter Herr Kollege Brandner, ich bitte mit Verlaub um Verständnis, dass ich jetzt nicht ein Zitat des vormaligen Bundesjustizministers aus der letzten Legislaturperiode bewerten kann."
-              },
-              {
-                "text": "Ich habe zu diesem Zeitpunkt der Bundesregierung nicht angehört."
-              },
-              {
-                "text": "Ich kann auch die Validität dieses Zitates in keiner Weise verifizieren."
-              },
-              {
-                "text": "Ich bitte Sie herzlich um Verständnis, dass ich jetzt keine Einzelaussage des früheren Bundesjustizministers namens der aktuellen Bundesregierung in irgendeiner Weise kommentieren oder bewerten kann."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Eine weitere Nachfrage, Herr Brandner.",
-            "sentences": [
-              {
-                "text": "Eine weitere Nachfrage, Herr Brandner."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Stephan Brandner",
-            "speakerstatus": "speaker",
-            "text": "Gut, dann frage ich in diesem Zusammenhang anders. Es steht die mutmaßliche Aussage des Herrn Maas im Raum, es gebe keine einzige nachweisbare Verbindung zwischen dem Terrorismus und den Flüchtlingen. Ist diese Aussage – unabhängig davon, wer sie gemacht hat –, dass es keine Verbindung zwischen Terrorismus und Flüchtlingen gibt, eine Aussage, die die Bundesregierung machen würde? Oder ist es eine Aussage, die die Bundesregierung damals so vertreten hat und heute nicht mehr? Oder ist es eine Aussage, die die Bundesregierung nie treffen würde?",
-            "sentences": [
-              {
-                "text": "Gut, dann frage ich in diesem Zusammenhang anders."
-              },
-              {
-                "text": "Es steht die mutmaßliche Aussage des Herrn Maas im Raum, es gebe keine einzige nachweisbare Verbindung zwischen dem Terrorismus und den Flüchtlingen."
-              },
-              {
-                "text": "Ist diese Aussage – unabhängig davon, wer sie gemacht hat –, dass es keine Verbindung zwischen Terrorismus und Flüchtlingen gibt, eine Aussage, die die Bundesregierung machen würde?"
-              },
-              {
-                "text": "Oder ist es eine Aussage, die die Bundesregierung damals so vertreten hat und heute nicht mehr?"
-              },
-              {
-                "text": "Oder ist es eine Aussage, die die Bundesregierung nie treffen würde?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Herr Staatssekretär.",
-            "sentences": [
-              {
-                "text": "Herr Staatssekretär."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Stephan Mayer",
-            "speakerstatus": "speaker",
-            "text": "Sehr geehrter Herr Präsident! Sehr geehrter Herr Kollege Brandner,",
-            "sentences": [
-              {
-                "text": "Sehr geehrter Herr Präsident!"
-              },
-              {
-                "text": "Sehr geehrter Herr Kollege Brandner,"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Stephan Mayer",
-            "speakerstatus": "speaker",
-            "text": "zur Beantwortung Ihrer Frage möchte ich eines festhalten: Es wäre aus meiner Sicht vollkommen falsch – das galt 2015, und das gilt nach wie vor –, einen Pauschalverdacht gegenüber allen Geflüchteten vorzunehmen.",
-            "sentences": [
-              {
-                "text": "zur Beantwortung Ihrer Frage möchte ich eines festhalten: Es wäre aus meiner Sicht vollkommen falsch – das galt 2015, und das gilt nach wie vor –, einen Pauschalverdacht gegenüber allen Geflüchteten vorzunehmen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Stephan Mayer",
-            "speakerstatus": "speaker",
-            "text": "– Es ist schön, wenn Sie zustimmen. – Der überwiegende Teil der im Zuge der Flüchtlings- und Migrationskrise nach Deutschland Gekommenen verhält sich in Deutschland rechtschaffen, redlich und wird nicht straffällig.",
-            "sentences": [
-              {
-                "text": "– Es ist schön, wenn Sie zustimmen."
-              },
-              {
-                "text": "– Der überwiegende Teil der im Zuge der Flüchtlings- und Migrationskrise nach Deutschland Gekommenen verhält sich in Deutschland rechtschaffen, redlich und wird nicht straffällig."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Stephan Mayer",
-            "speakerstatus": "speaker",
-            "text": "Aber ich würde apodiktisch auch nicht die Feststellung treffen, dass es keinen einzigen Fall eines Terroranschlags gab, der mit der Flüchtlingskrise in Verbindung zu bringen ist. Da ist natürlich der mittlerweile schrecklichste islamistisch motivierte Terroranschlag vom 19. Dezember 2016 nicht weit von hier am Breitscheidplatz zu nennen. Der Attentäter Anis Amri ist als Flüchtling nach Deutschland gekommen. Daher ließe sich diese apodiktische Feststellung, es gäbe überhaupt keine Verknüpfung zwischen in Deutschland stattgefundenen terroristischen Anschlägen und der Flüchtlings- und Migrationskrise, aus meiner Sicht nicht halten.",
-            "sentences": [
-              {
-                "text": "Aber ich würde apodiktisch auch nicht die Feststellung treffen, dass es keinen einzigen Fall eines Terroranschlags gab, der mit der Flüchtlingskrise in Verbindung zu bringen ist."
-              },
-              {
-                "text": "Da ist natürlich der mittlerweile schrecklichste islamistisch motivierte Terroranschlag vom 19. Dezember 2016 nicht weit von hier am Breitscheidplatz zu nennen."
-              },
-              {
-                "text": "Der Attentäter Anis Amri ist als Flüchtling nach Deutschland gekommen."
-              },
-              {
-                "text": "Daher ließe sich diese apodiktische Feststellung, es gäbe überhaupt keine Verknüpfung zwischen in Deutschland stattgefundenen terroristischen Anschlägen und der Flüchtlings- und Migrationskrise, aus meiner Sicht nicht halten."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Es gibt hierzu keine weiteren Fragen.",
-            "sentences": [
-              {
-                "text": "Es gibt hierzu keine weiteren Fragen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Die Frage 13 des Kollegen Dr. Marcus Faber wird schriftlich beantwortet.",
-            "sentences": [
-              {
-                "text": "Die Frage 13 des Kollegen Dr. Marcus Faber wird schriftlich beantwortet."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Ich rufe die Frage 14 des Abgeordneten Stefan Gelbhaar auf:",
-            "sentences": [
-              {
-                "text": "Ich rufe die Frage 14 des Abgeordneten Stefan Gelbhaar auf:"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Herr Staatssekretär, Sie haben das Wort.",
-            "sentences": [
-              {
-                "text": "Herr Staatssekretär, Sie haben das Wort."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Stephan Mayer",
-            "speakerstatus": "speaker",
-            "text": "Sehr geehrter Herr Präsident! Sehr geehrter Herr Kollege Gelbhaar, ich erlaube mir, Ihre Frage wie folgt zu beantworten: Das Bundesministerium des Innern, für Bau und Heimat erachtet den Abbiegeassistenten als wertvolle technische Lösung für mehr Sicherheit im Straßenverkehr. Teilweise gibt es im Geschäftsbereich des Bundesministeriums des Innern, für Bau und Heimat bereits einzelne Lkws mit Nachrüstungen, aber auch konzeptionelle Überlegungen für eine umfängliche Ausstattung von Fahrzeugen ab 3,5 Tonnen. Das BMI hat seine Behörden bereits im November 2018 gebeten, zu prüfen, inwieweit man darüber hinaus im Rahmen der wirtschaftlichen und technischen Möglichkeiten zeitnah weitere Nachrüstungen vornehmen und auch bei Neubeschaffungen auf eine entsprechende Ausstattung mit Abbiegeassistenzsystemen achten kann.",
-            "sentences": [
-              {
-                "text": "Sehr geehrter Herr Präsident!"
-              },
-              {
-                "text": "Sehr geehrter Herr Kollege Gelbhaar, ich erlaube mir, Ihre Frage wie folgt zu beantworten: Das Bundesministerium des Innern, für Bau und Heimat erachtet den Abbiegeassistenten als wertvolle technische Lösung für mehr Sicherheit im Straßenverkehr."
-              },
-              {
-                "text": "Teilweise gibt es im Geschäftsbereich des Bundesministeriums des Innern, für Bau und Heimat bereits einzelne Lkws mit Nachrüstungen, aber auch konzeptionelle Überlegungen für eine umfängliche Ausstattung von Fahrzeugen ab 3,5 Tonnen."
-              },
-              {
-                "text": "Das BMI hat seine Behörden bereits im November 2018 gebeten, zu prüfen, inwieweit man darüber hinaus im Rahmen der wirtschaftlichen und technischen Möglichkeiten zeitnah weitere Nachrüstungen vornehmen und auch bei Neubeschaffungen auf eine entsprechende Ausstattung mit Abbiegeassistenzsystemen achten kann."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Stephan Mayer",
-            "speakerstatus": "speaker",
-            "text": "Das Bundesministerium des Innern, für Bau und Heimat ist zuversichtlich, dass das Ressort damit in den nächsten Jahren einen größeren Beitrag zu mehr Sicherheit im Straßenverkehr leisten wird. Zu berücksichtigen sind in allen Behörden die technischen, aber auch zusätzlichen finanziellen Aufwände, welche mit einer Nachrüstung verbunden und im Haushalt zu berücksichtigen wären. Auch wurden Beschaffungsprozesse bereits ausgelöst, sodass eine nachträgliche Berücksichtigung der Anforderung Abbiegeassistenzsystem teilweise nicht möglich war.",
-            "sentences": [
-              {
-                "text": "Das Bundesministerium des Innern, für Bau und Heimat ist zuversichtlich, dass das Ressort damit in den nächsten Jahren einen größeren Beitrag zu mehr Sicherheit im Straßenverkehr leisten wird."
-              },
-              {
-                "text": "Zu berücksichtigen sind in allen Behörden die technischen, aber auch zusätzlichen finanziellen Aufwände, welche mit einer Nachrüstung verbunden und im Haushalt zu berücksichtigen wären."
-              },
-              {
-                "text": "Auch wurden Beschaffungsprozesse bereits ausgelöst, sodass eine nachträgliche Berücksichtigung der Anforderung Abbiegeassistenzsystem teilweise nicht möglich war."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Herr Gelbhaar, haben Sie eine Nachfrage?",
-            "sentences": [
-              {
-                "text": "Herr Gelbhaar, haben Sie eine Nachfrage?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Stefan Gelbhaar",
-            "speakerstatus": "speaker",
-            "text": "Jawohl, die habe ich. – Ich möchte Sie mit einer Zahl und einem Zitat konfrontieren. Keine Sorge: Die Zitate sind nicht vier Jahre alt und betreffen nicht ehemalige Bundesminister.",
-            "sentences": [
-              {
-                "text": "Jawohl, die habe ich."
-              },
-              {
-                "text": "– Ich möchte Sie mit einer Zahl und einem Zitat konfrontieren."
-              },
-              {
-                "text": "Keine Sorge: Die Zitate sind nicht vier Jahre alt und betreffen nicht ehemalige Bundesminister."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Stefan Gelbhaar",
-            "speakerstatus": "speaker",
-            "text": "Ich nenne Ihnen eine Zahl: Das BMI hat 3 458 Lkws. Von diesen sollen angeblich 7 Lkws mit einem Abbiegeassistenten ausgestattet sein. Sie wollen in diesem Jahr 243 neue Lkws kaufen. Von diesen sollen ganze 9 Lkws mit Abbiegeassistenten ausgestattet sein. Ich glaube, Sie sehen den Fehler.",
-            "sentences": [
-              {
-                "text": "Ich nenne Ihnen eine Zahl: Das BMI hat 3 458 Lkws."
-              },
-              {
-                "text": "Von diesen sollen angeblich 7 Lkws mit einem Abbiegeassistenten ausgestattet sein."
-              },
-              {
-                "text": "Sie wollen in diesem Jahr 243 neue Lkws kaufen."
-              },
-              {
-                "text": "Von diesen sollen ganze 9 Lkws mit Abbiegeassistenten ausgestattet sein."
-              },
-              {
-                "text": "Ich glaube, Sie sehen den Fehler."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Stefan Gelbhaar",
-            "speakerstatus": "speaker",
-            "text": "Um das zu illustrieren, möchte ich eine Äußerung Ihres Kollegen Andreas Scheuer vom 29. März zitieren:",
-            "sentences": [
-              {
-                "text": "Um das zu illustrieren, möchte ich eine Äußerung Ihres Kollegen Andreas Scheuer vom 29. März zitieren:"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Stefan Gelbhaar",
-            "speakerstatus": "speaker",
-            "text": "Handeln Sie verantwortungsvoll!",
-            "sentences": [
-              {
-                "text": "Handeln Sie verantwortungsvoll!"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Herr Staatssekretär.",
-            "sentences": [
-              {
-                "text": "Herr Staatssekretär."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Stephan Mayer",
-            "speakerstatus": "speaker",
-            "text": "Sehr geehrter Herr Kollege Gelbhaar, ich danke Ihnen ganz herzlich für die Nachfrage. Es trifft zu, dass in diesem Jahr 243 Fahrzeugbeschaffungen im Lkw-Bereich im Geschäftsbereich des Bundesinnenministeriums geplant sind. Davon sollen 234 durch das THW getätigt werden, wobei – das trifft zu – diese ohne Abbiegeassistenzsystem geplant sind. 9 Lkws sollen durch die Bundespolizei bzw. durch das Bundeskriminalamt angeschafft werden. Diese werden aber ein Abbiegeassistenzsystem haben.",
-            "sentences": [
-              {
-                "text": "Sehr geehrter Herr Kollege Gelbhaar, ich danke Ihnen ganz herzlich für die Nachfrage."
-              },
-              {
-                "text": "Es trifft zu, dass in diesem Jahr 243 Fahrzeugbeschaffungen im Lkw-Bereich im Geschäftsbereich des Bundesinnenministeriums geplant sind."
-              },
-              {
-                "text": "Davon sollen 234 durch das THW getätigt werden, wobei – das trifft zu – diese ohne Abbiegeassistenzsystem geplant sind."
-              },
-              {
-                "text": "9 Lkws sollen durch die Bundespolizei bzw. durch das Bundeskriminalamt angeschafft werden."
-              },
-              {
-                "text": "Diese werden aber ein Abbiegeassistenzsystem haben."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Stephan Mayer",
-            "speakerstatus": "speaker",
-            "text": "Ich habe ja bei der Beantwortung Ihrer Frage darauf hingewiesen, dass insbesondere die Frage der Nachrüstung nicht trivial ist. Damit sind natürlich auch entsprechende Kosten verbunden, für die dann im Haushalt Vorsorge zu treffen ist. Ich habe darauf hingewiesen, dass die Frage der Veränderung von schon getätigten Beschaffungen auch nicht ganz einfach ist. Die Beschaffung der 234 Lkws, die im Bereich des THW angeschafft werden, ist schon deutlich früher ausgelöst worden. Eine nachträgliche Änderung, um diese Lkws mit Abbiegeassistenzsystemen ausgestattet anzuschaffen, ist nicht so einfach.",
-            "sentences": [
-              {
-                "text": "Ich habe ja bei der Beantwortung Ihrer Frage darauf hingewiesen, dass insbesondere die Frage der Nachrüstung nicht trivial ist."
-              },
-              {
-                "text": "Damit sind natürlich auch entsprechende Kosten verbunden, für die dann im Haushalt Vorsorge zu treffen ist."
-              },
-              {
-                "text": "Ich habe darauf hingewiesen, dass die Frage der Veränderung von schon getätigten Beschaffungen auch nicht ganz einfach ist."
-              },
-              {
-                "text": "Die Beschaffung der 234 Lkws, die im Bereich des THW angeschafft werden, ist schon deutlich früher ausgelöst worden."
-              },
-              {
-                "text": "Eine nachträgliche Änderung, um diese Lkws mit Abbiegeassistenzsystemen ausgestattet anzuschaffen, ist nicht so einfach."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Stephan Mayer",
-            "speakerstatus": "speaker",
-            "text": "Ich gebe Ihnen, Herr Kollege Gelbhaar, aber recht: Insbesondere im Technischen Hilfswerk sind natürlich größtenteils ehrenamtliche Helferinnen und Helfer mit diesen GKWs und MzKWs unterwegs. Es wäre hier vor allem unter dem Gesichtspunkt der Sicherheit im Straßenverkehr erfreulich und auch wünschenswert, wenn gerade im Bereich des THW zunehmend Lkws mit Abbiegeassistenzsystemen angeschafft würden bzw., sofern Haushaltsmittel dafür zur Verfügung stehen, entsprechende Nachrüstungen vorgenommen würden.",
-            "sentences": [
-              {
-                "text": "Ich gebe Ihnen, Herr Kollege Gelbhaar, aber recht: Insbesondere im Technischen Hilfswerk sind natürlich größtenteils ehrenamtliche Helferinnen und Helfer mit diesen GKWs und MzKWs unterwegs."
-              },
-              {
-                "text": "Es wäre hier vor allem unter dem Gesichtspunkt der Sicherheit im Straßenverkehr erfreulich und auch wünschenswert, wenn gerade im Bereich des THW zunehmend Lkws mit Abbiegeassistenzsystemen angeschafft würden bzw., sofern Haushaltsmittel dafür zur Verfügung stehen, entsprechende Nachrüstungen vorgenommen würden."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Wollen Sie noch einmal nachfragen, Herr Gelbhaar?",
-            "sentences": [
-              {
-                "text": "Wollen Sie noch einmal nachfragen, Herr Gelbhaar?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Stefan Gelbhaar",
-            "speakerstatus": "speaker",
-            "text": "Ich versuche es. – Keine Entschuldigung. Das klang jetzt sehr entschuldigend. Ich stelle das nur fest und möchte noch einmal auf die Zahlen zurückkommen: Etwa 3 400 Lkws sollen angeschafft werden, wobei 7 davon umgerüstet sein werden. Das sind 0,2 Prozent. Was wollen Sie denn in diesem Jahr noch schaffen? Können Sie das vielleicht in Prozent ausdrücken? Wie viele Lkws sollen umgerüstet werden? Wie viel sicherer wollen Sie die Straßen machen?",
-            "sentences": [
-              {
-                "text": "Ich versuche es."
-              },
-              {
-                "text": "– Keine Entschuldigung."
-              },
-              {
-                "text": "Das klang jetzt sehr entschuldigend."
-              },
-              {
-                "text": "Ich stelle das nur fest und möchte noch einmal auf die Zahlen zurückkommen: Etwa 3 400 Lkws sollen angeschafft werden, wobei 7 davon umgerüstet sein werden."
-              },
-              {
-                "text": "Das sind 0,2 Prozent."
-              },
-              {
-                "text": "Was wollen Sie denn in diesem Jahr noch schaffen?"
-              },
-              {
-                "text": "Können Sie das vielleicht in Prozent ausdrücken?"
-              },
-              {
-                "text": "Wie viele Lkws sollen umgerüstet werden?"
-              },
-              {
-                "text": "Wie viel sicherer wollen Sie die Straßen machen?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Stephan Mayer",
-            "speakerstatus": "speaker",
-            "text": "Sehr geehrter Herr Präsident! Sehr geehrter Herr Kollege Gelbhaar, ich habe ja deutlich gemacht, dass insbesondere die Nachrüstung von schon vorhandenen Lkws nicht trivial und vor allem auch nicht kostengünstig ist. Ich kenne insbesondere das Technische Hilfswerk ein bisschen. Da hat sich zwar Gott sei Dank in den letzten Jahren, was die Neubeschaffung von Fahrzeugen, insbesondere von Lkws, anbelangt, viel getan. Wenn man aber so im Land unterwegs ist, muss man leider doch feststellen, dass in vielen THW-Ortsverbänden noch relativ alte oder ins Alter gekommene Lkws unterwegs sind. Da ist – das liegt leider in der Natur der Sache – die Nachrüstung mit Abbiegeassistenzsystemen nicht ganz so einfach. Deshalb warne ich davor, diese Gesamtzahl der im Geschäftsbereich des Bundesinnenministeriums vorhandenen Lkws ins Verhältnis mit der Anzahl der Neuanschaffungen, die jetzt mit Abbiegeassistenzsystemen versehen sind, zu setzen.",
-            "sentences": [
-              {
-                "text": "Sehr geehrter Herr Präsident!"
-              },
-              {
-                "text": "Sehr geehrter Herr Kollege Gelbhaar, ich habe ja deutlich gemacht, dass insbesondere die Nachrüstung von schon vorhandenen Lkws nicht trivial und vor allem auch nicht kostengünstig ist."
-              },
-              {
-                "text": "Ich kenne insbesondere das Technische Hilfswerk ein bisschen."
-              },
-              {
-                "text": "Da hat sich zwar Gott sei Dank in den letzten Jahren, was die Neubeschaffung von Fahrzeugen, insbesondere von Lkws, anbelangt, viel getan."
-              },
-              {
-                "text": "Wenn man aber so im Land unterwegs ist, muss man leider doch feststellen, dass in vielen THW-Ortsverbänden noch relativ alte oder ins Alter gekommene Lkws unterwegs sind."
-              },
-              {
-                "text": "Da ist – das liegt leider in der Natur der Sache – die Nachrüstung mit Abbiegeassistenzsystemen nicht ganz so einfach."
-              },
-              {
-                "text": "Deshalb warne ich davor, diese Gesamtzahl der im Geschäftsbereich des Bundesinnenministeriums vorhandenen Lkws ins Verhältnis mit der Anzahl der Neuanschaffungen, die jetzt mit Abbiegeassistenzsystemen versehen sind, zu setzen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Stephan Mayer",
-            "speakerstatus": "speaker",
-            "text": "Ich habe deutlich gemacht: Es ist unser Anliegen, insbesondere dem Gedanken der Verkehrssicherheit so stark wie nur irgendwie möglich Rechnung zu tragen. Insbesondere wenn ein Großteil der von Ihnen genannten über 3 000 Lkws im Technischen Hilfswerk verwendet werden – davon gehe ich aus – und dort größtenteils ehrenamtliche Helferinnen und Helfer in unterschiedlicher Stärke und Beanspruchung mit diesen Lkws unterwegs sind, dann ist es unser Anliegen, dass diese, wenn irgendwie möglich, in Zukunft natürlich mit Abbiegeassistenzsystemen ausgestattet sind.",
-            "sentences": [
-              {
-                "text": "Ich habe deutlich gemacht: Es ist unser Anliegen, insbesondere dem Gedanken der Verkehrssicherheit so stark wie nur irgendwie möglich Rechnung zu tragen."
-              },
-              {
-                "text": "Insbesondere wenn ein Großteil der von Ihnen genannten über 3 000 Lkws im Technischen Hilfswerk verwendet werden – davon gehe ich aus – und dort größtenteils ehrenamtliche Helferinnen und Helfer in unterschiedlicher Stärke und Beanspruchung mit diesen Lkws unterwegs sind, dann ist es unser Anliegen, dass diese, wenn irgendwie möglich, in Zukunft natürlich mit Abbiegeassistenzsystemen ausgestattet sind."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Vielen Dank. – Weitere Fragen sehe ich nicht.",
-            "sentences": [
-              {
-                "text": "Vielen Dank."
-              },
-              {
-                "text": "– Weitere Fragen sehe ich nicht."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Die Frage 15 des Abgeordneten Torsten Herbst und die Fragen 16 und 17 der Abgeordneten Martina Renner werden schriftlich beantwortet.",
-            "sentences": [
-              {
-                "text": "Die Frage 15 des Abgeordneten Torsten Herbst und die Fragen 16 und 17 der Abgeordneten Martina Renner werden schriftlich beantwortet."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Wir kommen zum Geschäftsbereich des Auswärtigen Amtes. Zur Beantwortung steht Staatsminister Niels Annen bereit.",
-            "sentences": [
-              {
-                "text": "Wir kommen zum Geschäftsbereich des Auswärtigen Amtes."
-              },
-              {
-                "text": "Zur Beantwortung steht Staatsminister Niels Annen bereit."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Ich rufe die Frage 18 des Abgeordneten Paul Viktor ­Podolay auf:",
-            "sentences": [
-              {
-                "text": "Ich rufe die Frage 18 des Abgeordneten Paul Viktor ­Podolay auf:"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Niels Annen",
-            "speakerstatus": "speaker",
-            "text": "Herr Präsident, vielen herzlichen Dank. – Herr Kollege, ich darf die Frage wie folgt beantworten: Die NATO ist und bleibt Grundpfeiler unserer Sicherheitspolitik. Den Beitrag der Visegradstaaten zur Allianz schätzen wir sehr. Die Bundesregierung hat die Öffnung der NATO für unsere östlichen Nachbarn von Beginn an unterstützt. Mit Polen, Ungarn und der Tschechischen Republik schauen wir heute auf eine 20 Jahre währende, mit der Slowakei sowie sechs weiteren Staaten in Mittelosteuropa auf eine 15 Jahre lange enge und vertrauensvolle Zusammenarbeit in der NATO zurück.",
-            "sentences": [
-              {
-                "text": "Herr Präsident, vielen herzlichen Dank."
-              },
-              {
-                "text": "– Herr Kollege, ich darf die Frage wie folgt beantworten: Die NATO ist und bleibt Grundpfeiler unserer Sicherheitspolitik."
-              },
-              {
-                "text": "Den Beitrag der Visegradstaaten zur Allianz schätzen wir sehr."
-              },
-              {
-                "text": "Die Bundesregierung hat die Öffnung der NATO für unsere östlichen Nachbarn von Beginn an unterstützt."
-              },
-              {
-                "text": "Mit Polen, Ungarn und der Tschechischen Republik schauen wir heute auf eine 20 Jahre währende, mit der Slowakei sowie sechs weiteren Staaten in Mittelosteuropa auf eine 15 Jahre lange enge und vertrauensvolle Zusammenarbeit in der NATO zurück."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Niels Annen",
-            "speakerstatus": "speaker",
-            "text": "Deutschland leistet einen signifikanten Beitrag für die Sicherheit der osteuropäischen Alliierten im Rahmen der Rückversicherungsmaßnahmen der NATO. Ein Beispiel hierfür ist die Weiterentwicklung des Multinationalen Korps-Hauptquartiers Nordost in Stettin, die wir gemeinsam mit Polen und Dänemark maßgeblich gestalten. Es wird darüber hinaus eine tschechische Brigade mit der deutschen 10. Panzerdivision zusammenarbeiten. Die Integration und Interoperabilität unserer Streitkräfte wollen wir weiter ausbauen. Mit der V4 Joint Visegrad Battlegroup haben Polen, die Slowakei, die Tschechische Republik und Ungarn einen gemeinsamen Verband geschaffen, welcher sowohl der EU als auch der NATO zur Verfügung gestellt werden kann.",
-            "sentences": [
-              {
-                "text": "Deutschland leistet einen signifikanten Beitrag für die Sicherheit der osteuropäischen Alliierten im Rahmen der Rückversicherungsmaßnahmen der NATO."
-              },
-              {
-                "text": "Ein Beispiel hierfür ist die Weiterentwicklung des Multinationalen Korps-Hauptquartiers Nordost in Stettin, die wir gemeinsam mit Polen und Dänemark maßgeblich gestalten."
-              },
-              {
-                "text": "Es wird darüber hinaus eine tschechische Brigade mit der deutschen 10. Panzerdivision zusammenarbeiten."
-              },
-              {
-                "text": "Die Integration und Interoperabilität unserer Streitkräfte wollen wir weiter ausbauen."
-              },
-              {
-                "text": "Mit der V4 Joint Visegrad Battlegroup haben Polen, die Slowakei, die Tschechische Republik und Ungarn einen gemeinsamen Verband geschaffen, welcher sowohl der EU als auch der NATO zur Verfügung gestellt werden kann."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Niels Annen",
-            "speakerstatus": "speaker",
-            "text": "Auch im Rahmen der europäischen Ständigen Strukturierten Zusammenarbeit hat Deutschland die Kooperation mit den Ländern der Visegradgruppe weiter intensiviert. Mit der Slowakei beispielsweise verbindet uns auch in anderen Bereichen eine enge Zusammenarbeit. So waren im Rahmen der EUNAVFOR MED Operation Sophia zuletzt slowakische Soldaten an Bord einer deutschen Fregatte eingesetzt. Deutschland möchte diese Zusammenarbeit weiter ausbauen und befürwortet selbstverständlich auch die Kooperation der Staaten untereinander wie in der Joint V4 EU Battlegroup.",
-            "sentences": [
-              {
-                "text": "Auch im Rahmen der europäischen Ständigen Strukturierten Zusammenarbeit hat Deutschland die Kooperation mit den Ländern der Visegradgruppe weiter intensiviert."
-              },
-              {
-                "text": "Mit der Slowakei beispielsweise verbindet uns auch in anderen Bereichen eine enge Zusammenarbeit."
-              },
-              {
-                "text": "So waren im Rahmen der EUNAVFOR MED Operation Sophia zuletzt slowakische Soldaten an Bord einer deutschen Fregatte eingesetzt."
-              },
-              {
-                "text": "Deutschland möchte diese Zusammenarbeit weiter ausbauen und befürwortet selbstverständlich auch die Kooperation der Staaten untereinander wie in der Joint V4 EU Battlegroup."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Nachfrage, Herr Podolay?",
-            "sentences": [
-              {
-                "text": "Nachfrage, Herr Podolay?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Paul Viktor Podolay",
-            "speakerstatus": "speaker",
-            "text": "Vielen Dank für die Antwort. Ich habe keine Nachfrage.",
-            "sentences": [
-              {
-                "text": "Vielen Dank für die Antwort."
-              },
-              {
-                "text": "Ich habe keine Nachfrage."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Vielen Dank. – Dann machen wir weiter.",
-            "sentences": [
-              {
-                "text": "Vielen Dank."
-              },
-              {
-                "text": "– Dann machen wir weiter."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Ich rufe die Frage 19 des Abgeordneten Dr. Anton Friesen von der AfD auf:",
-            "sentences": [
-              {
-                "text": "Ich rufe die Frage 19 des Abgeordneten Dr. Anton Friesen von der AfD auf:"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Herr Staatsminister.",
-            "sentences": [
-              {
-                "text": "Herr Staatsminister."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Niels Annen",
-            "speakerstatus": "speaker",
-            "text": "Herr Präsident, vielen Dank. – Herr Kollege, ich darf Ihre Frage wie folgt beantworten: Bei der Entscheidung Großbritanniens handelt es sich um einen nationalen Beschluss, der keine unmittelbaren Konsequenzen für die Positionierung der EU hat. 2013 hat sich die Bundesregierung für die Listung des militärischen Teils der Hisbollah auf EU-Ebene eingesetzt. Ausschlaggebend für die Listung war, dass terroristische Aktivitäten für die EU unter keinen Umständen akzeptabel sind und eine entschiedene und gemeinsame Antwort Europas erfordern.",
-            "sentences": [
-              {
-                "text": "Herr Präsident, vielen Dank."
-              },
-              {
-                "text": "– Herr Kollege, ich darf Ihre Frage wie folgt beantworten: Bei der Entscheidung Großbritanniens handelt es sich um einen nationalen Beschluss, der keine unmittelbaren Konsequenzen für die Positionierung der EU hat."
-              },
-              {
-                "text": "2013 hat sich die Bundesregierung für die Listung des militärischen Teils der Hisbollah auf EU-Ebene eingesetzt."
-              },
-              {
-                "text": "Ausschlaggebend für die Listung war, dass terroristische Aktivitäten für die EU unter keinen Umständen akzeptabel sind und eine entschiedene und gemeinsame Antwort Europas erfordern."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Vielen Dank. – Eine Nachfrage?",
-            "sentences": [
-              {
-                "text": "Vielen Dank."
-              },
-              {
-                "text": "– Eine Nachfrage?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Anton Friesen",
-            "speakerstatus": "speaker",
-            "text": "Vielen Dank, Herr Präsident. – Vielen Dank, Herr Staatssekretär. Ihre Antwort nehme ich leider zur Kenntnis.",
-            "sentences": [
-              {
-                "text": "Vielen Dank, Herr Präsident."
-              },
-              {
-                "text": "– Vielen Dank, Herr Staatssekretär."
-              },
-              {
-                "text": "Ihre Antwort nehme ich leider zur Kenntnis."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Anton Friesen",
-            "speakerstatus": "speaker",
-            "text": "Nun ist die Hamas, die über soziale Einrichtungen verfügt bzw. diese betreibt und auch politisch-administrative Funktionen ausübt, ja als Terrororganisation eingestuft, während das bei der Hisbollah nicht der Fall ist. Könnten Sie mir erklären, ob da unterschiedliche Bewertungsmaßstäbe angelegt werden bzw. warum die Hisbollah nicht in ihrer Gesamtheit als eine terroristische Organisation eingestuft wird?",
-            "sentences": [
-              {
-                "text": "Nun ist die Hamas, die über soziale Einrichtungen verfügt bzw. diese betreibt und auch politisch-administrative Funktionen ausübt, ja als Terrororganisation eingestuft, während das bei der Hisbollah nicht der Fall ist."
-              },
-              {
-                "text": "Könnten Sie mir erklären, ob da unterschiedliche Bewertungsmaßstäbe angelegt werden bzw. warum die Hisbollah nicht in ihrer Gesamtheit als eine terroristische Organisation eingestuft wird?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Niels Annen",
-            "speakerstatus": "speaker",
-            "text": "Vielen Dank, Herr Präsident. – Die Bundesregierung agiert hier wie auch in allen anderen außenpolitischen Bereichen im Rahmen einer gemeinsamen europäischen Haltung. Es gibt für eine gemeinsame Haltung zurzeit keine Grundlage. Trotzdem will ich auf eines hinweisen: Die Strafverfolgungsbehörden in Deutschland beobachten seit geraumer Zeit den gesamten Bereich der Aktivitäten der Hisbollah außerordentlich aufmerksam. Es sind auch entsprechende Maßnahmen getroffen worden. Ihnen ist möglicherweise bekannt, dass auch hier in Deutschland der TV-Sender al‑Manar der Hisbollah sozusagen aktiv gewesen ist. Es hat ein entsprechendes Verbot gegeben. Es gibt auch der Hisbollah mutmaßlich nahestehende Vereine und Gruppierungen, die sehr genau beobachtet werden. Insofern ist das eine Diskussion, die im Rahmen der Europäischen Union aufgrund der aktuellen Lage ständig geführt wird. Mit der Antwort, die ich Ihnen hier gegeben habe, werden auch weitere mögliche Maßnahmen nicht ausgeschlossen; das will ich hier sehr deutlich unterstreichen.",
-            "sentences": [
-              {
-                "text": "Vielen Dank, Herr Präsident."
-              },
-              {
-                "text": "– Die Bundesregierung agiert hier wie auch in allen anderen außenpolitischen Bereichen im Rahmen einer gemeinsamen europäischen Haltung."
-              },
-              {
-                "text": "Es gibt für eine gemeinsame Haltung zurzeit keine Grundlage."
-              },
-              {
-                "text": "Trotzdem will ich auf eines hinweisen: Die Strafverfolgungsbehörden in Deutschland beobachten seit geraumer Zeit den gesamten Bereich der Aktivitäten der Hisbollah außerordentlich aufmerksam."
-              },
-              {
-                "text": "Es sind auch entsprechende Maßnahmen getroffen worden."
-              },
-              {
-                "text": "Ihnen ist möglicherweise bekannt, dass auch hier in Deutschland der TV-Sender al‑Manar der Hisbollah sozusagen aktiv gewesen ist."
-              },
-              {
-                "text": "Es hat ein entsprechendes Verbot gegeben."
-              },
-              {
-                "text": "Es gibt auch der Hisbollah mutmaßlich nahestehende Vereine und Gruppierungen, die sehr genau beobachtet werden."
-              },
-              {
-                "text": "Insofern ist das eine Diskussion, die im Rahmen der Europäischen Union aufgrund der aktuellen Lage ständig geführt wird."
-              },
-              {
-                "text": "Mit der Antwort, die ich Ihnen hier gegeben habe, werden auch weitere mögliche Maßnahmen nicht ausgeschlossen; das will ich hier sehr deutlich unterstreichen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Keine weitere Nachfrage vom Fragesteller. – Herr Kraft hatte sich gemeldet.",
-            "sentences": [
-              {
-                "text": "Keine weitere Nachfrage vom Fragesteller."
-              },
-              {
-                "text": "– Herr Kraft hatte sich gemeldet."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Rainer Kraft",
-            "speakerstatus": "speaker",
-            "text": "Vielen Dank, Herr Präsident. – Herr Staatssekretär, eine Nachfrage: Wie viele Angriffe der Hisbollah auf Israel, speziell Raketenangriffe, aus dem letzten Quartal sind Ihnen bekannt? Eine zweite Frage bezüglich der Gelder, die direkt von Deutschland bzw. indirekt über die EU an die palästinensischen Behörden gehen: Ist Ihnen bekannt, dass davon Gelder abgezweigt und der Hisbollah zugeführt werden, wenn ja, wie viel?",
-            "sentences": [
-              {
-                "text": "Vielen Dank, Herr Präsident."
-              },
-              {
-                "text": "– Herr Staatssekretär, eine Nachfrage: Wie viele Angriffe der Hisbollah auf Israel, speziell Raketenangriffe, aus dem letzten Quartal sind Ihnen bekannt?"
-              },
-              {
-                "text": "Eine zweite Frage bezüglich der Gelder, die direkt von Deutschland bzw. indirekt über die EU an die palästinensischen Behörden gehen: Ist Ihnen bekannt, dass davon Gelder abgezweigt und der Hisbollah zugeführt werden, wenn ja, wie viel?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Niels Annen",
-            "speakerstatus": "speaker",
-            "text": "Die erste Frage kann ich Ihnen nicht beantworten. Da müssten wir sehen, ob wir Ihnen das nachliefern können. Da muss ich um Verständnis bitten. Mir liegen hier vor Ort keine Statistiken vor, die ich Ihnen vortragen kann.",
-            "sentences": [
-              {
-                "text": "Die erste Frage kann ich Ihnen nicht beantworten."
-              },
-              {
-                "text": "Da müssten wir sehen, ob wir Ihnen das nachliefern können."
-              },
-              {
-                "text": "Da muss ich um Verständnis bitten."
-              },
-              {
-                "text": "Mir liegen hier vor Ort keine Statistiken vor, die ich Ihnen vortragen kann."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Niels Annen",
-            "speakerstatus": "speaker",
-            "text": "Was die zweite Frage betrifft: Das ist ja eine sehr hypothetische Annahme, weil die Palästinensische Autonomiebehörde für die palästinensischen Gebiete zuständig ist und die Hisbollah nicht in diesen Gebieten, sondern auf dem Territorium des Libanon und, wie wir im Moment ja leider zur Kenntnis nehmen müssen, auch auf syrischem Territorium agiert. Insofern ist mir hierzu nichts bekannt.",
-            "sentences": [
-              {
-                "text": "Was die zweite Frage betrifft: Das ist ja eine sehr hypothetische Annahme, weil die Palästinensische Autonomiebehörde für die palästinensischen Gebiete zuständig ist und die Hisbollah nicht in diesen Gebieten, sondern auf dem Territorium des Libanon und, wie wir im Moment ja leider zur Kenntnis nehmen müssen, auch auf syrischem Territorium agiert."
-              },
-              {
-                "text": "Insofern ist mir hierzu nichts bekannt."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Vielen Dank. – Weitere Fragen hierzu sehe ich nicht.",
-            "sentences": [
-              {
-                "text": "Vielen Dank."
-              },
-              {
-                "text": "– Weitere Fragen hierzu sehe ich nicht."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Wir kommen zur Frage 20 des Abgeordneten ­Armin-Paulus Hampel zum Umgang der Bundesregierung mit dem vom Interimspräsidenten Venezuelas ernannten Botschafter in Deutschland. Herr Hampel ist nicht da. Die Geschäftsordnung sieht vor, dass die Frage dann weder schriftlich noch mündlich, sondern gar nicht beantwortet wird. Das gilt auch für Frage 21 des Kollegen Hampel.",
-            "sentences": [
-              {
-                "text": "Wir kommen zur Frage 20 des Abgeordneten ­Armin-Paulus Hampel zum Umgang der Bundesregierung mit dem vom Interimspräsidenten Venezuelas ernannten Botschafter in Deutschland."
-              },
-              {
-                "text": "Herr Hampel ist nicht da."
-              },
-              {
-                "text": "Die Geschäftsordnung sieht vor, dass die Frage dann weder schriftlich noch mündlich, sondern gar nicht beantwortet wird."
-              },
-              {
-                "text": "Das gilt auch für Frage 21 des Kollegen Hampel."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Die Frage 22 des Abgeordneten Andrej Hunko zum Thema „Umsetzung der EU-Soforthilfe für Venezuela“ wird schriftlich beantwortet, ebenso die Fragen 23 und 24 der Abgeordneten Zaklin Nastic, die Frage 25 der Abgeordneten Helin Evrim Sommer, die Frage 26 der Abgeordneten Heike Hänsel, die Frage 27 der Abgeordneten Eva-Maria Schreiber und die Frage 28 des Abgeordneten Omid Nouripour. Die Frage 29 des Abgeordneten Omid Nouripour wurde zurückgezogen.",
-            "sentences": [
-              {
-                "text": "Die Frage 22 des Abgeordneten Andrej Hunko zum Thema „Umsetzung der EU-Soforthilfe für Venezuela“ wird schriftlich beantwortet, ebenso die Fragen 23 und 24 der Abgeordneten Zaklin Nastic, die Frage 25 der Abgeordneten Helin Evrim Sommer, die Frage 26 der Abgeordneten Heike Hänsel, die Frage 27 der Abgeordneten Eva-Maria Schreiber und die Frage 28 des Abgeordneten Omid Nouripour."
-              },
-              {
-                "text": "Die Frage 29 des Abgeordneten Omid Nouripour wurde zurückgezogen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Wir kommen zur Frage 30 des Abgeordneten Uwe Kekeritz, Bündnis 90/Die Grünen:",
-            "sentences": [
-              {
-                "text": "Wir kommen zur Frage 30 des Abgeordneten Uwe Kekeritz, Bündnis 90/Die Grünen:"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Herr Staatsminister.",
-            "sentences": [
-              {
-                "text": "Herr Staatsminister."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Niels Annen",
-            "speakerstatus": "speaker",
-            "text": "Herr Präsident, vielen Dank. – Herr Abgeordneter Kekeritz, ich darf Ihre Frage wie folgt beantworten: Die Bundesregierung setzt den Nationalen Aktionsplan „Wirtschaft und Menschenrechte“, den sogenannten NAP, kontinuierlich und engagiert um. Ein wichtiges Element ist dabei das sogenannte NAP-Monitoring. Mit ihm wird der Umsetzungsstand der in Kapitel III des NAP dargestellten fünf Elemente menschenrechtlicher Sorgfaltspflicht durch Unternehmen untersucht. Eine erste Runde von Interviews mit rund 30 Unternehmen hat im Herbst 2018 stattgefunden. Die Ergebnisse dieser sogenannten explorativen Phase bilden den einen Teil des Zwischenberichts.",
-            "sentences": [
-              {
-                "text": "Herr Präsident, vielen Dank."
-              },
-              {
-                "text": "– Herr Abgeordneter Kekeritz, ich darf Ihre Frage wie folgt beantworten: Die Bundesregierung setzt den Nationalen Aktionsplan „Wirtschaft und Menschenrechte“, den sogenannten NAP, kontinuierlich und engagiert um."
-              },
-              {
-                "text": "Ein wichtiges Element ist dabei das sogenannte NAP-Monitoring."
-              },
-              {
-                "text": "Mit ihm wird der Umsetzungsstand der in Kapitel III des NAP dargestellten fünf Elemente menschenrechtlicher Sorgfaltspflicht durch Unternehmen untersucht."
-              },
-              {
-                "text": "Eine erste Runde von Interviews mit rund 30 Unternehmen hat im Herbst 2018 stattgefunden."
-              },
-              {
-                "text": "Die Ergebnisse dieser sogenannten explorativen Phase bilden den einen Teil des Zwischenberichts."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Niels Annen",
-            "speakerstatus": "speaker",
-            "text": "In seinem zweiten Teil wird der Zwischenbericht ausführlich die Methodik der nun folgenden groß angelegten Befragung im Jahr 2019 erläutern. Das NAP-Monitoring ist in Umfang und Tiefe bisher weltweit einmalig. Die Bundesregierung muss daher eine neue Methodik dafür erarbeiten. Wir legen dabei großen Wert darauf, dass ein transparenter, methodisch fundierter und nach wissenschaftlichen Standards gestalteter Prozess entwickelt wird. Im Detail ist die Erarbeitung der Methode eine komplexe Debatte, in die sich auch Sozialpartner, Verbände und Nichtregierungsorganisationen mit unterschiedlichen Vorschlägen eingebracht haben.",
-            "sentences": [
-              {
-                "text": "In seinem zweiten Teil wird der Zwischenbericht ausführlich die Methodik der nun folgenden groß angelegten Befragung im Jahr 2019 erläutern."
-              },
-              {
-                "text": "Das NAP-Monitoring ist in Umfang und Tiefe bisher weltweit einmalig."
-              },
-              {
-                "text": "Die Bundesregierung muss daher eine neue Methodik dafür erarbeiten."
-              },
-              {
-                "text": "Wir legen dabei großen Wert darauf, dass ein transparenter, methodisch fundierter und nach wissenschaftlichen Standards gestalteter Prozess entwickelt wird."
-              },
-              {
-                "text": "Im Detail ist die Erarbeitung der Methode eine komplexe Debatte, in die sich auch Sozialpartner, Verbände und Nichtregierungsorganisationen mit unterschiedlichen Vorschlägen eingebracht haben."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Niels Annen",
-            "speakerstatus": "speaker",
-            "text": "Vor diesem Hintergrund konnte der Zwischenbericht nicht wie ursprünglich angestrebt zu Ende März im Kreis der beteiligten Ressorts konsentiert werden. Die Bundesregierung wird die internen Arbeiten zur Feststellung der NAP-Methodik in Kürze abschließen und anschließend den Zwischenbericht veröffentlichen. Die Beratungen zum NAP-Monitoring wurden unter Leitung des federführenden Auswärtigen Amtes im Interministeriellen Ausschuss für Wirtschaft und Menschenrechte geführt. Dem Interministeriellen Ausschuss gehören neun weitere Ressorts an. Das Bundeskanzleramt hat einen Beobach­terstatus. Die Geschäftsordnung des Interministeriellen Ausschusses legt fest, dass dieser im Konsens Entscheidungen trifft.",
-            "sentences": [
-              {
-                "text": "Vor diesem Hintergrund konnte der Zwischenbericht nicht wie ursprünglich angestrebt zu Ende März im Kreis der beteiligten Ressorts konsentiert werden."
-              },
-              {
-                "text": "Die Bundesregierung wird die internen Arbeiten zur Feststellung der NAP-Methodik in Kürze abschließen und anschließend den Zwischenbericht veröffentlichen."
-              },
-              {
-                "text": "Die Beratungen zum NAP-Monitoring wurden unter Leitung des federführenden Auswärtigen Amtes im Interministeriellen Ausschuss für Wirtschaft und Menschenrechte geführt."
-              },
-              {
-                "text": "Dem Interministeriellen Ausschuss gehören neun weitere Ressorts an."
-              },
-              {
-                "text": "Das Bundeskanzleramt hat einen Beobach­terstatus."
-              },
-              {
-                "text": "Die Geschäftsordnung des Interministeriellen Ausschusses legt fest, dass dieser im Konsens Entscheidungen trifft."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Vielen Dank. – Herr Kekeritz, haben Sie eine Nachfrage?",
-            "sentences": [
-              {
-                "text": "Vielen Dank."
-              },
-              {
-                "text": "– Herr Kekeritz, haben Sie eine Nachfrage?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Uwe Kekeritz",
-            "speakerstatus": "speaker",
-            "text": "Das habe ich. – Herzlichen Dank. Wir wissen alle, dass der NAP von großer Bedeutung ist. Er ist international vorgegeben. Die Bundesrepublik Deutschland versucht damit, internationales Recht, vorgegeben von der UN, umzusetzen. Beim NAP gab es ganz große Geburtsschwierigkeiten. Deshalb wurde im NAP festgelegt, dass nach vier Jahren ein Monitoring-Prozess durchgeführt wird. Diesen Monitoring-Prozess gibt es eigentlich noch nicht. Die Kriterien dafür will die Bundesregierung nach wissenschaftlichen Methoden erarbeiten. Dabei gibt es aber ganz große Schwierigkeiten. Deshalb zweifle ich die Wissenschaftlichkeit dieses Verfahrens an. Aber das ist jetzt nicht der Hauptgrund für meine Nachfrage. Fest steht, dass die Beteiligten im IMA den Zwischenbericht erstellen wollten und dass das Bundeskanzleramt, das ja nur einen Beobachterstatus hat, plötzlich ganz massiv interveniert und enorme Veränderungen an diesem Monitoring-Bericht vorgenommen hat. Wie ist so etwas zu erklären? Erstens hatte es einen Beobachterstatus und zweitens meines Erachtens auch überhaupt nicht die Kompetenz, zu intervenieren und das völlig umzuschreiben.",
-            "sentences": [
-              {
-                "text": "Das habe ich."
-              },
-              {
-                "text": "– Herzlichen Dank."
-              },
-              {
-                "text": "Wir wissen alle, dass der NAP von großer Bedeutung ist."
-              },
-              {
-                "text": "Er ist international vorgegeben."
-              },
-              {
-                "text": "Die Bundesrepublik Deutschland versucht damit, internationales Recht, vorgegeben von der UN, umzusetzen."
-              },
-              {
-                "text": "Beim NAP gab es ganz große Geburtsschwierigkeiten."
-              },
-              {
-                "text": "Deshalb wurde im NAP festgelegt, dass nach vier Jahren ein Monitoring-Prozess durchgeführt wird."
-              },
-              {
-                "text": "Diesen Monitoring-Prozess gibt es eigentlich noch nicht."
-              },
-              {
-                "text": "Die Kriterien dafür will die Bundesregierung nach wissenschaftlichen Methoden erarbeiten."
-              },
-              {
-                "text": "Dabei gibt es aber ganz große Schwierigkeiten."
-              },
-              {
-                "text": "Deshalb zweifle ich die Wissenschaftlichkeit dieses Verfahrens an."
-              },
-              {
-                "text": "Aber das ist jetzt nicht der Hauptgrund für meine Nachfrage."
-              },
-              {
-                "text": "Fest steht, dass die Beteiligten im IMA den Zwischenbericht erstellen wollten und dass das Bundeskanzleramt, das ja nur einen Beobachterstatus hat, plötzlich ganz massiv interveniert und enorme Veränderungen an diesem Monitoring-Bericht vorgenommen hat."
-              },
-              {
-                "text": "Wie ist so etwas zu erklären?"
-              },
-              {
-                "text": "Erstens hatte es einen Beobachterstatus und zweitens meines Erachtens auch überhaupt nicht die Kompetenz, zu intervenieren und das völlig umzuschreiben."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Herr Staatsminister.",
-            "sentences": [
-              {
-                "text": "Herr Staatsminister."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Niels Annen",
-            "speakerstatus": "speaker",
-            "text": "Herr Kollege, ich will gerne noch einmal wiederholen und möchte da auch nicht missverstanden werden, weil wir die Zusammenarbeit und die große Unterstützung aus dem Parlament bei diesem Prozess sehr schätzen: Sie haben selber dargestellt, dass es eine neue Entwicklung ist. Der Schritt, den wir gegangen sind, ist hochgradig komplex. Deswegen gibt es einen Abstimmungsbedarf; das kann man gar nicht leugnen. Aber aus unserer Sicht ist es jetzt nicht so, dass wir in der täglichen Arbeit zwischen Beobachterstatus und vollwertiger Mitgliedschaft in diesem Interministeriellen Ausschuss unterscheiden. Wir wollen und wir werden zu einer gemeinsamen Haltung kommen. Dass das jetzt einige Tage länger dauert, wird an dem Ergebnis am Ende nichts ändern. Wir haben uns gemeinsam verpflichtet, diesen Prozess in Abstimmung mit dem Parlament, der Öffentlichkeit und vor allem den beteiligten Unternehmen zu einem erfolgreichen Ende zu führen, und das wird auch gelingen.",
-            "sentences": [
-              {
-                "text": "Herr Kollege, ich will gerne noch einmal wiederholen und möchte da auch nicht missverstanden werden, weil wir die Zusammenarbeit und die große Unterstützung aus dem Parlament bei diesem Prozess sehr schätzen: Sie haben selber dargestellt, dass es eine neue Entwicklung ist."
-              },
-              {
-                "text": "Der Schritt, den wir gegangen sind, ist hochgradig komplex."
-              },
-              {
-                "text": "Deswegen gibt es einen Abstimmungsbedarf; das kann man gar nicht leugnen."
-              },
-              {
-                "text": "Aber aus unserer Sicht ist es jetzt nicht so, dass wir in der täglichen Arbeit zwischen Beobachterstatus und vollwertiger Mitgliedschaft in diesem Interministeriellen Ausschuss unterscheiden."
-              },
-              {
-                "text": "Wir wollen und wir werden zu einer gemeinsamen Haltung kommen."
-              },
-              {
-                "text": "Dass das jetzt einige Tage länger dauert, wird an dem Ergebnis am Ende nichts ändern."
-              },
-              {
-                "text": "Wir haben uns gemeinsam verpflichtet, diesen Prozess in Abstimmung mit dem Parlament, der Öffentlichkeit und vor allem den beteiligten Unternehmen zu einem erfolgreichen Ende zu führen, und das wird auch gelingen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Weitere Nachfrage?",
-            "sentences": [
-              {
-                "text": "Weitere Nachfrage?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Uwe Kekeritz",
-            "speakerstatus": "speaker",
-            "text": "Ja, ich habe noch eine Nachfrage. – Sie haben gerade in Ihren Ausführungen betont, dass auch die Zivilgesellschaft hier aktiv beteiligt ist, dass das Parlament aktiv beteiligt ist. Wenn ich jetzt meine Kolleginnen und Kollegen frage, wer von ihnen den Eindruck hat, tatsächlich an diesem Monitoring-Prozess beteiligt gewesen zu sein, dann wird die Erfolgsquote für eine positive Antwort bei 0 Prozent liegen. Die Aussage von Vertretern der Zivilgesellschaft ist, dass sie wohl in ein oder zwei Sitzungen dabei waren, ihre Meinungen äußern konnten, aber an der Erarbeitung des Monitoring-Prozesses nicht beteiligt waren. Meine Frage ist: Wieso kann das Kanzleramt hier sehr zentral den Zwischenbericht mitgestalten, und wieso werden die Beiträge der Zivilgesellschaft nicht berücksichtigt?",
-            "sentences": [
-              {
-                "text": "Ja, ich habe noch eine Nachfrage."
-              },
-              {
-                "text": "– Sie haben gerade in Ihren Ausführungen betont, dass auch die Zivilgesellschaft hier aktiv beteiligt ist, dass das Parlament aktiv beteiligt ist."
-              },
-              {
-                "text": "Wenn ich jetzt meine Kolleginnen und Kollegen frage, wer von ihnen den Eindruck hat, tatsächlich an diesem Monitoring-Prozess beteiligt gewesen zu sein, dann wird die Erfolgsquote für eine positive Antwort bei 0 Prozent liegen."
-              },
-              {
-                "text": "Die Aussage von Vertretern der Zivilgesellschaft ist, dass sie wohl in ein oder zwei Sitzungen dabei waren, ihre Meinungen äußern konnten, aber an der Erarbeitung des Monitoring-Prozesses nicht beteiligt waren."
-              },
-              {
-                "text": "Meine Frage ist: Wieso kann das Kanzleramt hier sehr zentral den Zwischenbericht mitgestalten, und wieso werden die Beiträge der Zivilgesellschaft nicht berücksichtigt?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Herr Staatsminister.",
-            "sentences": [
-              {
-                "text": "Herr Staatsminister."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Niels Annen",
-            "speakerstatus": "speaker",
-            "text": "Vielen Dank, Herr Präsident. – Herr Kollege, ich glaube, man muss eine Unterscheidung vornehmen. Das, was wir im Rahmen dieses Monitoring-Prozesses der Öffentlichkeit vorlegen werden, ist der eine Teil. Da sind klare Kriterien zu erstellen. Die Umsetzung muss sichergestellt werden. Es hat eine Auftragsvergabe gegeben. Das ist ein sehr komplexes, auch nicht ganz billiges Unterfangen. Die Öffentlichkeit und das Parlament sollen über die Ergebnisse am Ende nicht nur intensiv unterrichtet werden, sondern diese sollen auch die Grundlage sein, um in diesem wichtigen Bereich von konkreter Menschenrechtspolitik voranzukommen. Ich darf daran erinnern, dass ich – ich müsste jetzt nachschauen; aber es ist noch nicht lange her – mit meiner Kollegin, der Parlamentarischen Staatssekretärin Kerstin Griese, und Vertretern deutscher Unternehmen, die sich an diesen Debatten beteiligen, unter reger Beteiligung von Kolleginnen und Kollegen aus dem Bundestag bei einem Parlamentarischen Abend über den aktuellen Stand informiert habe. Das ist die Philosophie, mit der wir das angehen, und das wird auch unter Federführung des Auswärtigen Amtes so fortgeführt und mit sehr großer Sicherheit zu einem erfolgreichen Abschluss geführt werden.",
-            "sentences": [
-              {
-                "text": "Vielen Dank, Herr Präsident."
-              },
-              {
-                "text": "– Herr Kollege, ich glaube, man muss eine Unterscheidung vornehmen."
-              },
-              {
-                "text": "Das, was wir im Rahmen dieses Monitoring-Prozesses der Öffentlichkeit vorlegen werden, ist der eine Teil."
-              },
-              {
-                "text": "Da sind klare Kriterien zu erstellen."
-              },
-              {
-                "text": "Die Umsetzung muss sichergestellt werden."
-              },
-              {
-                "text": "Es hat eine Auftragsvergabe gegeben."
-              },
-              {
-                "text": "Das ist ein sehr komplexes, auch nicht ganz billiges Unterfangen."
-              },
-              {
-                "text": "Die Öffentlichkeit und das Parlament sollen über die Ergebnisse am Ende nicht nur intensiv unterrichtet werden, sondern diese sollen auch die Grundlage sein, um in diesem wichtigen Bereich von konkreter Menschenrechtspolitik voranzukommen."
-              },
-              {
-                "text": "Ich darf daran erinnern, dass ich – ich müsste jetzt nachschauen; aber es ist noch nicht lange her – mit meiner Kollegin, der Parlamentarischen Staatssekretärin Kerstin Griese, und Vertretern deutscher Unternehmen, die sich an diesen Debatten beteiligen, unter reger Beteiligung von Kolleginnen und Kollegen aus dem Bundestag bei einem Parlamentarischen Abend über den aktuellen Stand informiert habe."
-              },
-              {
-                "text": "Das ist die Philosophie, mit der wir das angehen, und das wird auch unter Federführung des Auswärtigen Amtes so fortgeführt und mit sehr großer Sicherheit zu einem erfolgreichen Abschluss geführt werden."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Vielen Dank. – Damit ist die Frage 30 beantwortet.",
-            "sentences": [
-              {
-                "text": "Vielen Dank."
-              },
-              {
-                "text": "– Damit ist die Frage 30 beantwortet."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Die Frage 31 der Abgeordneten Sevim Dağdelen soll schriftlich beantwortet werden.",
-            "sentences": [
-              {
-                "text": "Die Frage 31 der Abgeordneten Sevim Dağdelen soll schriftlich beantwortet werden."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Ich rufe sodann den Geschäftsbereich des Bundesministeriums für Wirtschaft und Energie auf. Zur Beantwortung steht der Parlamentarische Staatssekretär Oliver Wittke bereit.",
-            "sentences": [
-              {
-                "text": "Ich rufe sodann den Geschäftsbereich des Bundesministeriums für Wirtschaft und Energie auf."
-              },
-              {
-                "text": "Zur Beantwortung steht der Parlamentarische Staatssekretär Oliver Wittke bereit."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Die Frage 32 der Abgeordneten Sevim Dağdelen, die Frage 33 der Abgeordneten Heike Hänsel, Frage 34 des Abgeordneten Andrej Hunko sowie Frage 35 der Abgeordneten Eva-Maria Schreiber werden schriftlich beantwortet.",
-            "sentences": [
-              {
-                "text": "Die Frage 32 der Abgeordneten Sevim Dağdelen, die Frage 33 der Abgeordneten Heike Hänsel, Frage 34 des Abgeordneten Andrej Hunko sowie Frage 35 der Abgeordneten Eva-Maria Schreiber werden schriftlich beantwortet."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Ich rufe Frage 36 der Abgeordneten Tabea Rößner auf:",
-            "sentences": [
-              {
-                "text": "Ich rufe Frage 36 der Abgeordneten Tabea Rößner auf:"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Herr Staatssekretär.",
-            "sentences": [
-              {
-                "text": "Herr Staatssekretär."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Oliver Wittke",
-            "speakerstatus": "speaker",
-            "text": "Vielen Dank, Herr Präsident. – Frau Kollegin Rößner, die Bundesregierung hat sich für eine Einigung zur Urheberrechtsrichtlinie auf Ratsebene eingesetzt und sich dabei für einen ausgewogenen Kompromiss in der Sache und zwischen den europäischen Partnern, insbesondere auch mit Frankreich, eingesetzt.",
-            "sentences": [
-              {
-                "text": "Vielen Dank, Herr Präsident."
-              },
-              {
-                "text": "– Frau Kollegin Rößner, die Bundesregierung hat sich für eine Einigung zur Urheberrechtsrichtlinie auf Ratsebene eingesetzt und sich dabei für einen ausgewogenen Kompromiss in der Sache und zwischen den europäischen Partnern, insbesondere auch mit Frankreich, eingesetzt."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Oliver Wittke",
-            "speakerstatus": "speaker",
-            "text": "Eine Kompromissfindung war nötig geworden, nachdem die Verhandlungen zur Urheberrechtsrichtlinie im Ausschuss der Ständigen Vertreter am 18. Januar 2019 vorerst unter anderem an der genauen Ausgestaltung der Ausnahme für kleine und mittlere Unternehmen von der urheberrechtlichen Verantwortlichkeit von Plattformen gescheitert waren und der rumänischen Präsidentschaft von den Mitgliedstaaten kein Mandat für die Fortführung der Trilogverhandlungen erteilt wurde. Insbesondere Frankreich konnte die von Deutschland geforderte Ausnahme für die genannten Unternehmen in dem gewünschten Umfang nicht mittragen. Der für den 21. Januar dieses Jahres geplante Trilog musste daraufhin abgesagt werden.",
-            "sentences": [
-              {
-                "text": "Eine Kompromissfindung war nötig geworden, nachdem die Verhandlungen zur Urheberrechtsrichtlinie im Ausschuss der Ständigen Vertreter am 18. Januar 2019 vorerst unter anderem an der genauen Ausgestaltung der Ausnahme für kleine und mittlere Unternehmen von der urheberrechtlichen Verantwortlichkeit von Plattformen gescheitert waren und der rumänischen Präsidentschaft von den Mitgliedstaaten kein Mandat für die Fortführung der Trilogverhandlungen erteilt wurde."
-              },
-              {
-                "text": "Insbesondere Frankreich konnte die von Deutschland geforderte Ausnahme für die genannten Unternehmen in dem gewünschten Umfang nicht mittragen."
-              },
-              {
-                "text": "Der für den 21. Januar dieses Jahres geplante Trilog musste daraufhin abgesagt werden."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Oliver Wittke",
-            "speakerstatus": "speaker",
-            "text": "Der Bundesregierung ging es bei der Kompromissfindung um einen fairen Interessenausgleich zwischen Kreativen, Unternehmen der Kulturwirtschaft, Plattformen und Nutzerinnen und Nutzern. Aus Sicht der Bundesregierung enthält die Richtlinie zahlreiche Vorschriften, die die Kreativwirtschaft fördern, unter anderem auch das Leistungsschutzrecht für Presseverlage. Bundesminister Peter Altmaier hat die Bedeutung eines angemessenen Leistungsschutzrechts für eine freie Presselandschaft mehrfach auch bei öffentlichen Veranstaltungen betont.",
-            "sentences": [
-              {
-                "text": "Der Bundesregierung ging es bei der Kompromissfindung um einen fairen Interessenausgleich zwischen Kreativen, Unternehmen der Kulturwirtschaft, Plattformen und Nutzerinnen und Nutzern."
-              },
-              {
-                "text": "Aus Sicht der Bundesregierung enthält die Richtlinie zahlreiche Vorschriften, die die Kreativwirtschaft fördern, unter anderem auch das Leistungsschutzrecht für Presseverlage."
-              },
-              {
-                "text": "Bundesminister Peter Altmaier hat die Bedeutung eines angemessenen Leistungsschutzrechts für eine freie Presselandschaft mehrfach auch bei öffentlichen Veranstaltungen betont."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Oliver Wittke",
-            "speakerstatus": "speaker",
-            "text": "Die Verhandlungen zur Urheberrechtsrichtlinie wurden unabhängig von den Verhandlungen zur Gasrichtlinie geführt.",
-            "sentences": [
-              {
-                "text": "Die Verhandlungen zur Urheberrechtsrichtlinie wurden unabhängig von den Verhandlungen zur Gasrichtlinie geführt."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Frau Rößner.",
-            "sentences": [
-              {
-                "text": "Frau Rößner."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Tabea Rößner",
-            "speakerstatus": "speaker",
-            "text": "Vielen Dank, Herr Staatssekretär Wittke. – Die eigentliche Frage haben Sie nicht beantwortet, nämlich die Frage, die sich auf den Zeitungsartikel in der „Frankfurter Allgemeinen Zeitung“ bezieht. Es geht darum, dass die Urheberrechtsreform verdealt wurde mit Frankreich über die Entscheidung zu Nord Stream 2. Mich würde dieser Zusammenhang interessieren. Die „Frankfurter Allgemeine Zeitung“ ist eine Qualitätszeitung. Sie behauptet nicht irgendetwas, sondern es muss eine Grundlage dafür geben.",
-            "sentences": [
-              {
-                "text": "Vielen Dank, Herr Staatssekretär Wittke."
-              },
-              {
-                "text": "– Die eigentliche Frage haben Sie nicht beantwortet, nämlich die Frage, die sich auf den Zeitungsartikel in der „Frankfurter Allgemeinen Zeitung“ bezieht."
-              },
-              {
-                "text": "Es geht darum, dass die Urheberrechtsreform verdealt wurde mit Frankreich über die Entscheidung zu Nord Stream 2. Mich würde dieser Zusammenhang interessieren."
-              },
-              {
-                "text": "Die „Frankfurter Allgemeine Zeitung“ ist eine Qualitätszeitung."
-              },
-              {
-                "text": "Sie behauptet nicht irgendetwas, sondern es muss eine Grundlage dafür geben."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Oliver Wittke",
-            "speakerstatus": "speaker",
-            "text": "Auch bei Qualitätszeitungen hat man nicht in jedem Fall die Gewissheit, dass das, was berichtet wird, tatsächlich stimmt. Darum weise ich noch einmal auf den letzten Satz meiner Ausführung hin: Die Verhandlungen zur Urheberrechtsrichtlinie wurden unabhängig von den Verhandlungen zur Gasrichtlinie geführt. Es gab keinen Zusammenhang zwischen den beiden Sachverhalten, die zwar zur gleichen Zeit, aber nicht gemeinsam abhängig voneinander verhandelt wurden.",
-            "sentences": [
-              {
-                "text": "Auch bei Qualitätszeitungen hat man nicht in jedem Fall die Gewissheit, dass das, was berichtet wird, tatsächlich stimmt."
-              },
-              {
-                "text": "Darum weise ich noch einmal auf den letzten Satz meiner Ausführung hin: Die Verhandlungen zur Urheberrechtsrichtlinie wurden unabhängig von den Verhandlungen zur Gasrichtlinie geführt."
-              },
-              {
-                "text": "Es gab keinen Zusammenhang zwischen den beiden Sachverhalten, die zwar zur gleichen Zeit, aber nicht gemeinsam abhängig voneinander verhandelt wurden."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Sind Sie damit zufrieden?",
-            "sentences": [
-              {
-                "text": "Sind Sie damit zufrieden?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Tabea Rößner",
-            "speakerstatus": "speaker",
-            "text": "Nein.",
-            "sentences": [
-              {
-                "text": "Nein."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Dann dürfen Sie noch eine Frage stellen.",
-            "sentences": [
-              {
-                "text": "Dann dürfen Sie noch eine Frage stellen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Tabea Rößner",
-            "speakerstatus": "speaker",
-            "text": "Ich möchte gerne noch weiter fragen. Wie erklären Sie sich dann, dass es zu diesem Vorwurf kommt, der in der Zeitung sehr deutlich beschrieben wurde? Was entgegnet der Bundesminister den Vorwürfen, beispielsweise des Beirates „Junge Digitale Wirtschaft“, nachdem er vorher betont hat, dass der Standort gerade für künstliche Intelligenz wichtig ist, aber die Start-up-Szene davon geschwächt werden wird?",
-            "sentences": [
-              {
-                "text": "Ich möchte gerne noch weiter fragen."
-              },
-              {
-                "text": "Wie erklären Sie sich dann, dass es zu diesem Vorwurf kommt, der in der Zeitung sehr deutlich beschrieben wurde?"
-              },
-              {
-                "text": "Was entgegnet der Bundesminister den Vorwürfen, beispielsweise des Beirates „Junge Digitale Wirtschaft“, nachdem er vorher betont hat, dass der Standort gerade für künstliche Intelligenz wichtig ist, aber die Start-up-Szene davon geschwächt werden wird?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Oliver Wittke",
-            "speakerstatus": "speaker",
-            "text": "Wir glauben, dass wir mit dem Kompromiss, den wir im Bereich der Urheberrechtsrichtlinie getroffen haben, der Kreativwirtschaft massiv helfen. Es gibt viele positive Rückmeldungen von Verlegern, von Kulturschaffenden, von Kreativen. Darum sind wir mit dem Ergebnis so zufrieden. Wir hätten uns etwas anderes vorstellen können, wenn wir es hätten allein formulieren können. Aber das war nicht möglich. In Europa muss man auch Kompromisse eingehen. Wir glauben, dass wir für die Kulturwirtschaft etwas Hervorragendes hinbekommen haben.",
-            "sentences": [
-              {
-                "text": "Wir glauben, dass wir mit dem Kompromiss, den wir im Bereich der Urheberrechtsrichtlinie getroffen haben, der Kreativwirtschaft massiv helfen."
-              },
-              {
-                "text": "Es gibt viele positive Rückmeldungen von Verlegern, von Kulturschaffenden, von Kreativen."
-              },
-              {
-                "text": "Darum sind wir mit dem Ergebnis so zufrieden."
-              },
-              {
-                "text": "Wir hätten uns etwas anderes vorstellen können, wenn wir es hätten allein formulieren können."
-              },
-              {
-                "text": "Aber das war nicht möglich."
-              },
-              {
-                "text": "In Europa muss man auch Kompromisse eingehen."
-              },
-              {
-                "text": "Wir glauben, dass wir für die Kulturwirtschaft etwas Hervorragendes hinbekommen haben."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Oliver Wittke",
-            "speakerstatus": "speaker",
-            "text": "Eingehend auf Ihren ersten Teil, wie ich mir erkläre, was der Autor geschrieben hat, will ich mich nicht in Textexegese ergehen. Sie müssen den Autor fragen, was er sich dabei gedacht hat. Wir können uns das nicht erklären.",
-            "sentences": [
-              {
-                "text": "Eingehend auf Ihren ersten Teil, wie ich mir erkläre, was der Autor geschrieben hat, will ich mich nicht in Textexegese ergehen."
-              },
-              {
-                "text": "Sie müssen den Autor fragen, was er sich dabei gedacht hat."
-              },
-              {
-                "text": "Wir können uns das nicht erklären."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Oliver Wittke",
-            "speakerstatus": "speaker",
-            "text": "– Ich kann Ihnen nicht sagen, wie es zu einem Vorwurf kommt, den andere erheben. Dann müssen Sie diejenigen fragen, die diesen Vorwurf erheben.",
-            "sentences": [
-              {
-                "text": "– Ich kann Ihnen nicht sagen, wie es zu einem Vorwurf kommt, den andere erheben."
-              },
-              {
-                "text": "Dann müssen Sie diejenigen fragen, die diesen Vorwurf erheben."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Damit ist diese Frage beantwortet. Die Frage 37 der Abgeordneten Annalena Baerbock wird schriftlich beantwortet.",
-            "sentences": [
-              {
-                "text": "Damit ist diese Frage beantwortet."
-              },
-              {
-                "text": "Die Frage 37 der Abgeordneten Annalena Baerbock wird schriftlich beantwortet."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Dann rufe ich den Geschäftsbereich des Bundesministeriums der Justiz und für Verbraucherschutz auf. Zur Beantwortung steht der Parlamentarische Staatssekretär Christan Lange bereit.",
-            "sentences": [
-              {
-                "text": "Dann rufe ich den Geschäftsbereich des Bundesministeriums der Justiz und für Verbraucherschutz auf."
-              },
-              {
-                "text": "Zur Beantwortung steht der Parlamentarische Staatssekretär Christan Lange bereit."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Ich rufe Frage 38 der Abgeordneten Katrin Werner auf:",
-            "sentences": [
-              {
-                "text": "Ich rufe Frage 38 der Abgeordneten Katrin Werner auf:"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Herr Staatssekretär.",
-            "sentences": [
-              {
-                "text": "Herr Staatssekretär."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Christian Lange",
-            "speakerstatus": "speaker",
-            "text": "Vielen Dank, Herr Präsident. – Liebe Kollegin Werner, ich beantworte Ihre Frage wie folgt: Im Bundesministerium der Justiz und für Verbraucherschutz hat bis 2017 eine Arbeitsgruppe zum Kindesunterhaltsrecht getagt. Diese Arbeitsgruppe hat sich mit den unterhaltsrechtlichen Fragestellungen befasst, die sich aus den modernen Formen der Kinderbetreuung ergeben, insbesondere der Mitbetreuung und dem Wechselmodell.",
-            "sentences": [
-              {
-                "text": "Vielen Dank, Herr Präsident."
-              },
-              {
-                "text": "– Liebe Kollegin Werner, ich beantworte Ihre Frage wie folgt: Im Bundesministerium der Justiz und für Verbraucherschutz hat bis 2017 eine Arbeitsgruppe zum Kindesunterhaltsrecht getagt."
-              },
-              {
-                "text": "Diese Arbeitsgruppe hat sich mit den unterhaltsrechtlichen Fragestellungen befasst, die sich aus den modernen Formen der Kinderbetreuung ergeben, insbesondere der Mitbetreuung und dem Wechselmodell."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Christian Lange",
-            "speakerstatus": "speaker",
-            "text": "Die Arbeitsgruppe war mit Teilnehmern aus der Rechtsprechung, Vertretern der Anwaltschaft, Professoren und Angehörigen der Bundesministerien besetzt. Die Zusammensetzung war wie folgt aufgeschlüsselt: acht Personen aus der Justiz, drei Professorinnen und Professoren, zwei Vertreterinnen der Anwaltschaft und sechs Kolleginnen und Kollegen aus den Bundesministerien, die da waren: unser Haus und das Bundesministerium für Familie, Senioren, Frauen und Jugend.",
-            "sentences": [
-              {
-                "text": "Die Arbeitsgruppe war mit Teilnehmern aus der Rechtsprechung, Vertretern der Anwaltschaft, Professoren und Angehörigen der Bundesministerien besetzt."
-              },
-              {
-                "text": "Die Zusammensetzung war wie folgt aufgeschlüsselt: acht Personen aus der Justiz, drei Professorinnen und Professoren, zwei Vertreterinnen der Anwaltschaft und sechs Kolleginnen und Kollegen aus den Bundesministerien, die da waren: unser Haus und das Bundesministerium für Familie, Senioren, Frauen und Jugend."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Vielen Dank. – Haben Sie eine Nachfrage?",
-            "sentences": [
-              {
-                "text": "Vielen Dank."
-              },
-              {
-                "text": "– Haben Sie eine Nachfrage?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Katrin Werner",
-            "speakerstatus": "speaker",
-            "text": "Wenn ich Sie richtig verstanden habe, hat diese Gruppe bis 2017 getagt, in 2018 und jetzt gab es keine weiteren Treffen. Zu der Zusammensetzung haben Sie etwas gesagt, auch aufgeschlüsselt. Mich würde interessieren: Sind Organisationen mit herangezogen oder befragt worden? Konnten sie zuarbeiten, auch gerade im Blick auf alleinerziehende Väter und Mütter? Insofern meine Frage: Ist angedacht, dass diese Arbeitsgruppe sich noch einmal mit aktuellen Zahlen oder Debatten auseinandersetzt? Dies ist die erste Frage.",
-            "sentences": [
-              {
-                "text": "Wenn ich Sie richtig verstanden habe, hat diese Gruppe bis 2017 getagt, in 2018 und jetzt gab es keine weiteren Treffen."
-              },
-              {
-                "text": "Zu der Zusammensetzung haben Sie etwas gesagt, auch aufgeschlüsselt."
-              },
-              {
-                "text": "Mich würde interessieren: Sind Organisationen mit herangezogen oder befragt worden?"
-              },
-              {
-                "text": "Konnten sie zuarbeiten, auch gerade im Blick auf alleinerziehende Väter und Mütter?"
-              },
-              {
-                "text": "Insofern meine Frage: Ist angedacht, dass diese Arbeitsgruppe sich noch einmal mit aktuellen Zahlen oder Debatten auseinandersetzt?"
-              },
-              {
-                "text": "Dies ist die erste Frage."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Herr Staatssekretär.",
-            "sentences": [
-              {
-                "text": "Herr Staatssekretär."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Christian Lange",
-            "speakerstatus": "speaker",
-            "text": "Frau Kollegin, ich habe Ihnen die Zusammensetzung der Arbeitsgruppe zum Kinderunterhaltsrecht genannt. Darüber hinaus war niemand beteiligt.",
-            "sentences": [
-              {
-                "text": "Frau Kollegin, ich habe Ihnen die Zusammensetzung der Arbeitsgruppe zum Kinderunterhaltsrecht genannt."
-              },
-              {
-                "text": "Darüber hinaus war niemand beteiligt."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Können wir dann mit Frage 39 weitermachen, Frau Werner? – Ja, Sie können eine zweite Zusatzfrage stellen. Bitte.",
-            "sentences": [
-              {
-                "text": "Können wir dann mit Frage 39 weitermachen, Frau Werner?"
-              },
-              {
-                "text": "– Ja, Sie können eine zweite Zusatzfrage stellen."
-              },
-              {
-                "text": "Bitte."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Katrin Werner",
-            "speakerstatus": "speaker",
-            "text": "Ich wiederhole: Sie haben keine Organisation befragt, wie sie manche Diskussionen oder Debatten sehen. In dem Zusammenhang möchte ich fragen, ob angedacht wird, andere Organisationen zurate zu ziehen. Die Arbeitsgruppe hat im Jahr 2017 getagt, im Koalitionsvertrag 2018 steht etwas. Die Frage zur Aktualität ist nicht beantwortet worden.",
-            "sentences": [
-              {
-                "text": "Ich wiederhole: Sie haben keine Organisation befragt, wie sie manche Diskussionen oder Debatten sehen."
-              },
-              {
-                "text": "In dem Zusammenhang möchte ich fragen, ob angedacht wird, andere Organisationen zurate zu ziehen."
-              },
-              {
-                "text": "Die Arbeitsgruppe hat im Jahr 2017 getagt, im Koalitionsvertrag 2018 steht etwas."
-              },
-              {
-                "text": "Die Frage zur Aktualität ist nicht beantwortet worden."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Herr Staatssekretär.",
-            "sentences": [
-              {
-                "text": "Herr Staatssekretär."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Christian Lange",
-            "speakerstatus": "speaker",
-            "text": "Herr Präsident! Liebe Kollegin, es entzieht sich meiner Kenntnis, wen die Beteiligten, die nicht aus unserem Haus sind, herangezogen haben. Ob etwa Vertreter der Anwaltschaft, Professorinnen und Professoren, die dafür gedacht sind, externen Sachverstand in die Diskussion zu bringen, bei ihrer eigenen Expertise weitere Personen oder Organisationen hinzugezogen haben, entzieht sich meiner Kenntnis und bleibt auch ihnen überlassen.",
-            "sentences": [
-              {
-                "text": "Herr Präsident!"
-              },
-              {
-                "text": "Liebe Kollegin, es entzieht sich meiner Kenntnis, wen die Beteiligten, die nicht aus unserem Haus sind, herangezogen haben."
-              },
-              {
-                "text": "Ob etwa Vertreter der Anwaltschaft, Professorinnen und Professoren, die dafür gedacht sind, externen Sachverstand in die Diskussion zu bringen, bei ihrer eigenen Expertise weitere Personen oder Organisationen hinzugezogen haben, entzieht sich meiner Kenntnis und bleibt auch ihnen überlassen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Ich rufe Frage 39 der Abgeordneten Katrin Werner auf:",
-            "sentences": [
-              {
-                "text": "Ich rufe Frage 39 der Abgeordneten Katrin Werner auf:"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Herr Staatssekretär.",
-            "sentences": [
-              {
-                "text": "Herr Staatssekretär."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Christian Lange",
-            "speakerstatus": "speaker",
-            "text": "Herr Präsident! Liebe Kollegin Werner, Ihre Frage beantworte ich wie folgt: Das Bundesministerium der Justiz und für Verbraucherschutz ist gegenwärtig mit den Vorarbeiten zu der im Koalitionsvertrag vereinbarten Reform des Kindesunterhaltsrechts befasst, das die in den Familien mittlerweile gelebten Betreuungsmodelle künftig angemessen erfassen soll. Es ist beabsichtigt, hierzu im Sommer einen Diskussionsentwurf vorzulegen.",
-            "sentences": [
-              {
-                "text": "Herr Präsident!"
-              },
-              {
-                "text": "Liebe Kollegin Werner, Ihre Frage beantworte ich wie folgt: Das Bundesministerium der Justiz und für Verbraucherschutz ist gegenwärtig mit den Vorarbeiten zu der im Koalitionsvertrag vereinbarten Reform des Kindesunterhaltsrechts befasst, das die in den Familien mittlerweile gelebten Betreuungsmodelle künftig angemessen erfassen soll."
-              },
-              {
-                "text": "Es ist beabsichtigt, hierzu im Sommer einen Diskussionsentwurf vorzulegen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Christian Lange",
-            "speakerstatus": "speaker",
-            "text": "Die Bundesregierung hat bereits die Unterhaltsreform von 2008 ausdrücklich unter dem Vorzeichen einer Stärkung des Kindeswohls gestellt. Diesem Ziel ist auch das gegenwärtige Reformvorhaben verpflichtet.",
-            "sentences": [
-              {
-                "text": "Die Bundesregierung hat bereits die Unterhaltsreform von 2008 ausdrücklich unter dem Vorzeichen einer Stärkung des Kindeswohls gestellt."
-              },
-              {
-                "text": "Diesem Ziel ist auch das gegenwärtige Reformvorhaben verpflichtet."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Vielen Dank, Herr Staatssekretär. – Nachfrage?",
-            "sentences": [
-              {
-                "text": "Vielen Dank, Herr Staatssekretär."
-              },
-              {
-                "text": "– Nachfrage?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Katrin Werner",
-            "speakerstatus": "speaker",
-            "text": "Ich darf wiederholen: Im Sommer können wir mit Arbeitsergebnissen rechnen. Mich würde im Zusammenhang mit der vorherigen Frage interessieren: Die Ergebnisse aus der Arbeitsgruppe im Jahr 2017 sind nicht mit Organisationen abgesprochen worden. Ich beziehe mich auf ein Interview in der „Neuen Osnabrücker Zeitung“ vom 25. März, wo es heißt, dass es aktuell im Justizministerium eine Arbeitsgruppe gibt, die daran arbeitet. Ganz konkret: Ist diese Arbeitsgruppe nicht mehr aktiv? Liegen Ihnen die Ergebnisse schon seit 2017 vor, und werden sie jetzt nur veröffentlicht? Oder gibt es aktualisierte Varianten oder Formen?",
-            "sentences": [
-              {
-                "text": "Ich darf wiederholen: Im Sommer können wir mit Arbeitsergebnissen rechnen."
-              },
-              {
-                "text": "Mich würde im Zusammenhang mit der vorherigen Frage interessieren: Die Ergebnisse aus der Arbeitsgruppe im Jahr 2017 sind nicht mit Organisationen abgesprochen worden."
-              },
-              {
-                "text": "Ich beziehe mich auf ein Interview in der „Neuen Osnabrücker Zeitung“ vom 25. März, wo es heißt, dass es aktuell im Justizministerium eine Arbeitsgruppe gibt, die daran arbeitet."
-              },
-              {
-                "text": "Ganz konkret: Ist diese Arbeitsgruppe nicht mehr aktiv?"
-              },
-              {
-                "text": "Liegen Ihnen die Ergebnisse schon seit 2017 vor, und werden sie jetzt nur veröffentlicht?"
-              },
-              {
-                "text": "Oder gibt es aktualisierte Varianten oder Formen?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Herr Staatssekretär.",
-            "sentences": [
-              {
-                "text": "Herr Staatssekretär."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Christian Lange",
-            "speakerstatus": "speaker",
-            "text": "Frau Kollegin, ich weiß nicht, ob Sie sich jetzt bei Ihrer Frage auf das beziehen, was den Bereich des Sorge- und Umgangsrechts anbelangt. Wenn Sie das meinen – ich habe das Gefühl, es ist so –, dann kann ich Ihnen sagen, dass unser Haus neben der Arbeitsgruppe zum Sorge- und Umgangsrecht insbesondere bei gemeinsamer Betreuung nach Trennung und Scheidung eine weitere Arbeitsgruppe eingerichtet hat, die sich mit den Fragen des Reformvorhabens im Sorge- und Umgangsrecht befasst. Diese Arbeitsgruppe tagt seit April 2018. Ihre Arbeiten sollen im Sommer 2019 abgeschlossen sein. Im Anschluss daran soll, aufbauend auf den Ergebnissen beider Arbeitsgruppen – also der Arbeitsgruppe, zu der Sie zuerst gefragt haben, und der, die ich soeben erwähnt habe –, zügig in diesem Jahr ein Diskussionsentwurf erarbeitet werden.",
-            "sentences": [
-              {
-                "text": "Frau Kollegin, ich weiß nicht, ob Sie sich jetzt bei Ihrer Frage auf das beziehen, was den Bereich des Sorge- und Umgangsrechts anbelangt."
-              },
-              {
-                "text": "Wenn Sie das meinen – ich habe das Gefühl, es ist so –, dann kann ich Ihnen sagen, dass unser Haus neben der Arbeitsgruppe zum Sorge- und Umgangsrecht insbesondere bei gemeinsamer Betreuung nach Trennung und Scheidung eine weitere Arbeitsgruppe eingerichtet hat, die sich mit den Fragen des Reformvorhabens im Sorge- und Umgangsrecht befasst."
-              },
-              {
-                "text": "Diese Arbeitsgruppe tagt seit April 2018. Ihre Arbeiten sollen im Sommer 2019 abgeschlossen sein."
-              },
-              {
-                "text": "Im Anschluss daran soll, aufbauend auf den Ergebnissen beider Arbeitsgruppen – also der Arbeitsgruppe, zu der Sie zuerst gefragt haben, und der, die ich soeben erwähnt habe –, zügig in diesem Jahr ein Diskussionsentwurf erarbeitet werden."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Ist das okay, oder haben Sie noch eine Nachfrage?",
-            "sentences": [
-              {
-                "text": "Ist das okay, oder haben Sie noch eine Nachfrage?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Katrin Werner",
-            "speakerstatus": "speaker",
-            "text": "Herr Staatssekretär, ich danke Ihnen für die zusätzliche Information zu der anderen Arbeitsgruppe. Dazu hätte ich beim nächsten Mal etwas gefragt. Ihre Sorge mag berechtigt sein; aber ich beziehe mich auf eine Aussage von Katarina Barley, die sagt, sie arbeite an einer Reform des Unterhaltsrechts. Insofern bezog sich die Frage jetzt explizit auf das Unterhaltsrecht. Insofern stelle ich Ihnen jetzt nicht nur eine Frage, sondern antworte Ihnen auch.",
-            "sentences": [
-              {
-                "text": "Herr Staatssekretär, ich danke Ihnen für die zusätzliche Information zu der anderen Arbeitsgruppe."
-              },
-              {
-                "text": "Dazu hätte ich beim nächsten Mal etwas gefragt."
-              },
-              {
-                "text": "Ihre Sorge mag berechtigt sein; aber ich beziehe mich auf eine Aussage von Katarina Barley, die sagt, sie arbeite an einer Reform des Unterhaltsrechts."
-              },
-              {
-                "text": "Insofern bezog sich die Frage jetzt explizit auf das Unterhaltsrecht."
-              },
-              {
-                "text": "Insofern stelle ich Ihnen jetzt nicht nur eine Frage, sondern antworte Ihnen auch."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Katrin Werner",
-            "speakerstatus": "speaker",
-            "text": "Sind in der anderen Arbeitsgruppe, die Sie gerade ins Spiel gebracht haben, auch Selbstorganisationen und Vertreterinnen und Vertreter von Alleinerziehenden vertreten, oder wie ist da die Zusammensetzung?",
-            "sentences": [
-              {
-                "text": "Sind in der anderen Arbeitsgruppe, die Sie gerade ins Spiel gebracht haben, auch Selbstorganisationen und Vertreterinnen und Vertreter von Alleinerziehenden vertreten, oder wie ist da die Zusammensetzung?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Herr Staatssekretär.",
-            "sentences": [
-              {
-                "text": "Herr Staatssekretär."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Christian Lange",
-            "speakerstatus": "speaker",
-            "text": "Die Zusammensetzung der zweiten Arbeitsgruppe zum Sorge- und Umgangsrecht, nach der Sie nicht gefragt haben, kann ich Ihnen spontan nicht nennen. Ich will es Ihnen aber gerne nachreichen.",
-            "sentences": [
-              {
-                "text": "Die Zusammensetzung der zweiten Arbeitsgruppe zum Sorge- und Umgangsrecht, nach der Sie nicht gefragt haben, kann ich Ihnen spontan nicht nennen."
-              },
-              {
-                "text": "Ich will es Ihnen aber gerne nachreichen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Vielen Dank. – Damit ist die Frage beantwortet und die Fragestunde beendet. Die Zeit ist erschöpft.",
-            "sentences": [
-              {
-                "text": "Vielen Dank."
-              },
-              {
-                "text": "– Damit ist die Frage beantwortet und die Fragestunde beendet."
-              },
-              {
-                "text": "Die Zeit ist erschöpft."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Ich will noch sagen, dass die Fragen, die nicht aufgerufen worden sind, schriftlich beantwortet werden.",
-            "sentences": [
-              {
-                "text": "Ich will noch sagen, dass die Fragen, die nicht aufgerufen worden sind, schriftlich beantwortet werden."
-              }
-            ]
           }
         ]
       }
@@ -11618,7 +9616,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 80,
+      "speechIndex": 1082,
       "title": "Aktuelle Stunde zu den Zahlen der Polizeilichen Kriminalstatistik 2018"
     },
     "people": [
@@ -11631,12 +9629,45 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19091-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19091-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
         "originTextID": "",
         "textBody": [
+          {
+            "type": "speech",
+            "speaker": "Thomas Oppermann",
+            "speakerstatus": "vice-president",
+            "text": "Aktuelle Stunde",
+            "sentences": [
+              {
+                "text": "Aktuelle Stunde"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Thomas Oppermann",
+            "speakerstatus": "vice-president",
+            "text": "auf Verlangen der Fraktionen der CDU/CSU und SPD",
+            "sentences": [
+              {
+                "text": "auf Verlangen der Fraktionen der CDU/CSU und SPD"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Thomas Oppermann",
+            "speakerstatus": "vice-president",
+            "text": "Erfolge bei der Bekämpfung der Kriminalität – Zahlen der Polizeilichen Kriminalstatistik 2018",
+            "sentences": [
+              {
+                "text": "Erfolge bei der Bekämpfung der Kriminalität – Zahlen der Polizeilichen Kriminalstatistik 2018"
+              }
+            ]
+          },
           {
             "type": "speech",
             "speaker": "Thomas Oppermann",
@@ -11680,7 +9711,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 81,
+      "speechIndex": 1083,
       "title": "Aktuelle Stunde zu den Zahlen der Polizeilichen Kriminalstatistik 2018"
     },
     "people": [
@@ -11701,7 +9732,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19091-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19091-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -12441,7 +10472,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 82,
+      "speechIndex": 1084,
       "title": "Aktuelle Stunde zu den Zahlen der Polizeilichen Kriminalstatistik 2018"
     },
     "people": [
@@ -12462,7 +10493,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19091-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19091-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -12992,7 +11023,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 83,
+      "speechIndex": 1085,
       "title": "Aktuelle Stunde zu den Zahlen der Polizeilichen Kriminalstatistik 2018"
     },
     "people": [
@@ -13013,7 +11044,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19091-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19091-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -13568,7 +11599,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 84,
+      "speechIndex": 1086,
       "title": "Aktuelle Stunde zu den Zahlen der Polizeilichen Kriminalstatistik 2018"
     },
     "people": [
@@ -13589,7 +11620,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19091-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19091-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -14157,7 +12188,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 85,
+      "speechIndex": 1087,
       "title": "Aktuelle Stunde zu den Zahlen der Polizeilichen Kriminalstatistik 2018"
     },
     "people": [
@@ -14178,7 +12209,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19091-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19091-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -14730,7 +12761,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 86,
+      "speechIndex": 1088,
       "title": "Aktuelle Stunde zu den Zahlen der Polizeilichen Kriminalstatistik 2018"
     },
     "people": [
@@ -14751,7 +12782,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19091-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19091-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -15355,7 +13386,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 87,
+      "speechIndex": 1089,
       "title": "Aktuelle Stunde zu den Zahlen der Polizeilichen Kriminalstatistik 2018"
     },
     "people": [
@@ -15376,7 +13407,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19091-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19091-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -15805,7 +13836,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 88,
+      "speechIndex": 1090,
       "title": "Aktuelle Stunde zu den Zahlen der Polizeilichen Kriminalstatistik 2018"
     },
     "people": [
@@ -15826,7 +13857,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19091-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19091-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -16254,7 +14285,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 89,
+      "speechIndex": 1091,
       "title": "Aktuelle Stunde zu den Zahlen der Polizeilichen Kriminalstatistik 2018"
     },
     "people": [
@@ -16275,7 +14306,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19091-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19091-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -16639,7 +14670,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 90,
+      "speechIndex": 1092,
       "title": "Aktuelle Stunde zu den Zahlen der Polizeilichen Kriminalstatistik 2018"
     },
     "people": [
@@ -16660,7 +14691,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19091-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19091-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -17149,7 +15180,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 91,
+      "speechIndex": 1093,
       "title": "Aktuelle Stunde zu den Zahlen der Polizeilichen Kriminalstatistik 2018"
     },
     "people": [
@@ -17170,7 +15201,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19091-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19091-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -17477,7 +15508,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 92,
+      "speechIndex": 1094,
       "title": "Aktuelle Stunde zu den Zahlen der Polizeilichen Kriminalstatistik 2018"
     },
     "people": [
@@ -17498,7 +15529,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19091-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19091-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -18040,7 +16071,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 93,
+      "speechIndex": 1095,
       "title": "Aktuelle Stunde zu den Zahlen der Polizeilichen Kriminalstatistik 2018"
     },
     "people": [
@@ -18051,17 +16082,12 @@
         "lastname": "Müller",
         "context": "main-speaker",
         "faction": "CDU/CSU"
-      },
-      {
-        "type": "memberOfParliament",
-        "label": "Thomas Oppermann",
-        "context": "vice-president"
       }
     ],
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19091-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19091-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -18449,18 +16475,55 @@
                 "text": "Ich bedanke mich."
               }
             ]
-          },
-          {
-            "type": "comment",
-            "speaker": null,
-            "speakerstatus": null,
-            "text": "(Beifall bei der CDU/CSU)",
-            "sentences": [
-              {
-                "text": "(Beifall bei der CDU/CSU)"
-              }
-            ]
-          },
+          }
+        ]
+      }
+    ],
+    "documents": [],
+    "key": "19-91 zusatzpunkt 1 (axel muller)",
+    "dateStart": "2019-04-03T14:53:19",
+    "dateEnd": "2019-04-03T14:59:12",
+    "media": {
+      "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7341472/7341472_h264_720_400_2000kb_baseline_de_2192.mp4",
+      "sourcePage": "http://dbtg.tv/fvid/7341472",
+      "duration": 353.0,
+      "creator": "Deutscher Bundestag",
+      "license": "CC-BY-SA",
+      "originMediaID": "7341472",
+      "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7341472/7341472_mp3_128kb_stereo_de_128.mp3"
+    }
+  },
+  {
+    "parliament": "DE",
+    "electoralPeriod": {
+      "number": "19"
+    },
+    "session": {
+      "number": "91",
+      "dateStart": "2019-04-03T13:00",
+      "dateEnd": "2019-04-03T16:59"
+    },
+    "agendaItem": {
+      "officialTitle": "Zusatzpunkt 1",
+      "speechIndex": 1096,
+      "title": "Aktuelle Stunde zu den Zahlen der Polizeilichen Kriminalstatistik 2018"
+    },
+    "people": [
+      {
+        "type": "memberOfParliament",
+        "label": "Thomas Oppermann",
+        "context": "vice-president"
+      }
+    ],
+    "textContents": [
+      {
+        "type": "proceedings",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19091-data.xml",
+        "creator": "Deutscher Bundestag",
+        "license": "Public Domain",
+        "language": "DE-de",
+        "originTextID": "",
+        "textBody": [
           {
             "type": "speech",
             "speaker": "Thomas Oppermann",
@@ -18509,6 +16572,17 @@
             "type": "speech",
             "speaker": "Thomas Oppermann",
             "speakerstatus": "vice-president",
+            "text": "Berichtigung",
+            "sentences": [
+              {
+                "text": "Berichtigung"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Thomas Oppermann",
+            "speakerstatus": "vice-president",
             "text": "89. Sitzung, Seite 10660 A, erste Klammerbemerkung, letzter Zuruf ist wie folgt zu lesen:",
             "sentences": [
               {
@@ -18531,32 +16605,9 @@
       }
     ],
     "documents": [],
-    "key": "19-91 zusatzpunkt 1 (axel muller)",
-    "dateStart": "2019-04-03T14:53:19",
-    "dateEnd": "2019-04-03T14:59:12",
-    "media": {
-      "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7341472/7341472_h264_720_400_2000kb_baseline_de_2192.mp4",
-      "sourcePage": "http://dbtg.tv/fvid/7341472",
-      "duration": 353.0,
-      "creator": "Deutscher Bundestag",
-      "license": "CC-BY-SA",
-      "originMediaID": "7341472",
-      "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7341472/7341472_mp3_128kb_stereo_de_128.mp3"
-    }
-  },
-  {
-    "parliament": "DE",
-    "electoralPeriod": {
-      "number": 19
-    },
-    "session": {
-      "number": 91
-    },
-    "agendaItem": {
-      "title": "Aktuelle Stunde zu den Zahlen der Polizeilichen Kriminalstatistik 2018",
-      "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 41
-    },
+    "key": "19-91 zusatzpunkt 1 (thomas oppermann) #1",
+    "dateStart": "2019-04-03T14:59:12",
+    "dateEnd": "2019-04-03T14:59:18",
     "media": {
       "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7341473/7341473_h264_720_400_2000kb_baseline_de_2192.mp4",
       "sourcePage": "http://dbtg.tv/fvid/7341473",
@@ -18565,18 +16616,7 @@
       "license": "CC-BY-SA",
       "originMediaID": "7341473",
       "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7341473/7341473_mp3_128kb_stereo_de_128.mp3"
-    },
-    "dateStart": "2019-04-03T14:59:12",
-    "dateEnd": "2019-04-03T14:59:18",
-    "people": [
-      {
-        "label": "Thomas Oppermann",
-        "faction": "SPD",
-        "context": "main-speaker",
-        "role": "Bundestagsvizepräsident"
-      }
-    ],
-    "key": "19-91 zusatzpunkt 1 (thomas oppermann) #1"
+    }
   },
   {
     "parliament": "DE",

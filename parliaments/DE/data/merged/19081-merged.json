@@ -2,16 +2,58 @@
   {
     "parliament": "DE",
     "electoralPeriod": {
-      "number": 19
+      "number": "19"
     },
     "session": {
-      "number": 81
+      "number": "81",
+      "dateStart": "2019-02-15T09:00",
+      "dateEnd": "2019-02-15T15.32"
     },
     "agendaItem": {
-      "title": "Sitzungseröffnung",
       "officialTitle": "Sitzungseröffnung",
-      "speechIndex": 1
+      "speechIndex": 1000,
+      "title": "Sitzungseröffnung"
     },
+    "people": [
+      {
+        "type": "memberOfParliament",
+        "label": "Wolfgang Schäuble",
+        "context": "president"
+      }
+    ],
+    "textContents": [
+      {
+        "type": "proceedings",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19081-data.xml",
+        "creator": "Deutscher Bundestag",
+        "license": "Public Domain",
+        "language": "DE-de",
+        "originTextID": "",
+        "textBody": [
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "Guten Morgen, liebe Kolleginnen und Kollegen! Bitte nehmen Sie Platz. Die Sitzung ist eröffnet.",
+            "sentences": [
+              {
+                "text": "Guten Morgen, liebe Kolleginnen und Kollegen!"
+              },
+              {
+                "text": "Bitte nehmen Sie Platz."
+              },
+              {
+                "text": "Die Sitzung ist eröffnet."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "documents": [],
+    "key": "19-81 sitzungseroffnung (wolfgang schauble)",
+    "dateStart": "2019-02-15T08:00:03",
+    "dateEnd": "2019-02-15T08:00:27",
     "media": {
       "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7325902/7325902_h264_720_400_2000kb_baseline_de_2192.mp4",
       "sourcePage": "http://dbtg.tv/fvid/7325902",
@@ -20,52 +62,7 @@
       "license": "CC-BY-SA",
       "originMediaID": "7325902",
       "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7325902/7325902_mp3_128kb_stereo_de_128.mp3"
-    },
-    "dateStart": "2019-02-15T08:00:03",
-    "dateEnd": "2019-02-15T08:00:27",
-    "people": [
-      {
-        "label": "Wolfgang Schäuble",
-        "faction": "CDU/CSU",
-        "context": "main-speaker",
-        "role": "Bundestagspräsident"
-      }
-    ],
-    "key": "19-81 sitzungseroffnung (wolfgang schauble)"
-  },
-  {
-    "parliament": "DE",
-    "electoralPeriod": {
-      "number": 19
-    },
-    "session": {
-      "number": 81
-    },
-    "agendaItem": {
-      "title": "Künstliche Intelligenz",
-      "officialTitle": "Tagesordnungspunkt 16",
-      "speechIndex": 2
-    },
-    "media": {
-      "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7325903/7325903_h264_720_400_2000kb_baseline_de_2192.mp4",
-      "sourcePage": "http://dbtg.tv/fvid/7325903",
-      "duration": 27.0,
-      "creator": "Deutscher Bundestag",
-      "license": "CC-BY-SA",
-      "originMediaID": "7325903",
-      "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7325903/7325903_mp3_128kb_stereo_de_128.mp3"
-    },
-    "dateStart": "2019-02-15T08:00:27",
-    "dateEnd": "2019-02-15T08:00:54",
-    "people": [
-      {
-        "label": "Wolfgang Schäuble",
-        "faction": "CDU/CSU",
-        "context": "main-speaker",
-        "role": "Bundestagspräsident"
-      }
-    ],
-    "key": "19-81 tagesordnungspunkt 16 (wolfgang schauble)"
+    }
   },
   {
     "parliament": "DE",
@@ -79,7 +76,205 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 16",
-      "speechIndex": 3,
+      "speechIndex": 1002,
+      "title": "Künstliche Intelligenz"
+    },
+    "people": [
+      {
+        "type": "memberOfParliament",
+        "label": "Wolfgang Schäuble",
+        "context": "president"
+      }
+    ],
+    "textContents": [
+      {
+        "type": "proceedings",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19081-data.xml",
+        "creator": "Deutscher Bundestag",
+        "license": "Public Domain",
+        "language": "DE-de",
+        "originTextID": "",
+        "textBody": [
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "a) Beratung der Unterrichtung durch die Bundesregierung",
+            "sentences": [
+              {
+                "text": "a) Beratung der Unterrichtung durch die Bundesregierung"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "Strategie Künstliche Intelligenz der Bundesregierung",
+            "sentences": [
+              {
+                "text": "Strategie Künstliche Intelligenz der Bundesregierung"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "b) Beratung der Beschlussempfehlung und des Berichts des Ausschusses für Bildung, Forschung und Technikfolgenabschätzung (18. Ausschuss)",
+            "sentences": [
+              {
+                "text": "b) Beratung der Beschlussempfehlung und des Berichts des Ausschusses für Bildung, Forschung und Technikfolgenabschätzung (18. Ausschuss)"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "– zu dem Antrag der Abgeordneten Uwe ­Kamann, Joana Cotar, Uwe Schulz, weiterer Abgeordneter und der Fraktion der AfD",
+            "sentences": [
+              {
+                "text": "– zu dem Antrag der Abgeordneten Uwe ­Kamann, Joana Cotar, Uwe Schulz, weiterer Abgeordneter und der Fraktion der AfD"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "Künstliche Intelligenz – Forschung und Anwendung für den Innovationsstandort Deutschland und zum Wohl unserer Gesellschaft fortentwickeln",
+            "sentences": [
+              {
+                "text": "Künstliche Intelligenz – Forschung und Anwendung für den Innovationsstandort Deutschland und zum Wohl unserer Gesellschaft fortentwickeln"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "– zu dem Antrag der Abgeordneten Mario Brandenburg (Südpfalz), Dr. h. c. Thomas Sattelberger, Katja Suding, weiterer Abgeordneter und der Fraktion der FDP",
+            "sentences": [
+              {
+                "text": "– zu dem Antrag der Abgeordneten Mario Brandenburg (Südpfalz), Dr. h. c. Thomas Sattelberger, Katja Suding, weiterer Abgeordneter und der Fraktion der FDP"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "Strategie der Bundesregierung zu Künstlicher Intelligenz erfolgsorientiert ausrichten",
+            "sentences": [
+              {
+                "text": "Strategie der Bundesregierung zu Künstlicher Intelligenz erfolgsorientiert ausrichten"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "– zu dem Antrag der Abgeordneten Dr. Anna Christmann, Dieter Janecek, Tabea Rößner, weiterer Abgeordneter und der Fraktion BÜNDNIS 90/DIE GRÜNEN",
+            "sentences": [
+              {
+                "text": "– zu dem Antrag der Abgeordneten Dr. Anna Christmann, Dieter Janecek, Tabea Rößner, weiterer Abgeordneter und der Fraktion BÜNDNIS 90/DIE GRÜNEN"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "Künstliche Intelligenz – Auf Grundlage europäischer Werte entwickeln und zum Wohl von Gesellschaft und Umwelt gestalten",
+            "sentences": [
+              {
+                "text": "Künstliche Intelligenz – Auf Grundlage europäischer Werte entwickeln und zum Wohl von Gesellschaft und Umwelt gestalten"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "Nach einer interfraktionellen Vereinbarung sind für die Aussprache 60 Minuten vorgesehen. – Mangels Widerspruchs ist das so beschlossen.",
+            "sentences": [
+              {
+                "text": "Nach einer interfraktionellen Vereinbarung sind für die Aussprache 60 Minuten vorgesehen."
+              },
+              {
+                "text": "– Mangels Widerspruchs ist das so beschlossen."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "Dann eröffne ich die Aussprache und erteile das Wort der Bundesministerin für Wissenschaft und Forschung, Anja Karliczek.",
+            "sentences": [
+              {
+                "text": "Dann eröffne ich die Aussprache und erteile das Wort der Bundesministerin für Wissenschaft und Forschung, Anja Karliczek."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "documents": [
+      {
+        "type": "officialDocument",
+        "label": "Drucksache 19/5880",
+        "sourceURI": "https://dserver.bundestag.de/btd/19/058/1905880.pdf"
+      },
+      {
+        "type": "officialDocument",
+        "label": "Drucksache 19/6062",
+        "sourceURI": "https://dserver.bundestag.de/btd/19/060/1906062.pdf"
+      },
+      {
+        "type": "officialDocument",
+        "label": "Drucksache 19/5629",
+        "sourceURI": "https://dserver.bundestag.de/btd/19/056/1905629.pdf"
+      },
+      {
+        "type": "officialDocument",
+        "label": "Drucksache 19/5667",
+        "sourceURI": "https://dserver.bundestag.de/btd/19/056/1905667.pdf"
+      },
+      {
+        "type": "officialDocument",
+        "label": "Drucksache 19/7742",
+        "sourceURI": "https://dserver.bundestag.de/btd/19/077/1907742.pdf"
+      }
+    ],
+    "key": "19-81 tagesordnungspunkt 16 (wolfgang schauble)",
+    "dateStart": "2019-02-15T08:00:27",
+    "dateEnd": "2019-02-15T08:00:54",
+    "media": {
+      "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7325903/7325903_h264_720_400_2000kb_baseline_de_2192.mp4",
+      "sourcePage": "http://dbtg.tv/fvid/7325903",
+      "duration": 27.0,
+      "creator": "Deutscher Bundestag",
+      "license": "CC-BY-SA",
+      "originMediaID": "7325903",
+      "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7325903/7325903_mp3_128kb_stereo_de_128.mp3"
+    }
+  },
+  {
+    "parliament": "DE",
+    "electoralPeriod": {
+      "number": "19"
+    },
+    "session": {
+      "number": "81",
+      "dateStart": "2019-02-15T09:00",
+      "dateEnd": "2019-02-15T15.32"
+    },
+    "agendaItem": {
+      "officialTitle": "Tagesordnungspunkt 16",
+      "speechIndex": 1003,
       "title": "Künstliche Intelligenz"
     },
     "people": [
@@ -100,7 +295,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19081-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19081-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -490,7 +685,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 16",
-      "speechIndex": 4,
+      "speechIndex": 1004,
       "title": "Künstliche Intelligenz"
     },
     "people": [
@@ -511,7 +706,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19081-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19081-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -919,7 +1114,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 16",
-      "speechIndex": 5,
+      "speechIndex": 1005,
       "title": "Künstliche Intelligenz"
     },
     "people": [
@@ -940,7 +1135,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19081-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19081-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -1370,7 +1565,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 16",
-      "speechIndex": 6,
+      "speechIndex": 1006,
       "title": "Künstliche Intelligenz"
     },
     "people": [
@@ -1391,7 +1586,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19081-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19081-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -1743,7 +1938,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 16",
-      "speechIndex": 7,
+      "speechIndex": 1007,
       "title": "Künstliche Intelligenz"
     },
     "people": [
@@ -1764,7 +1959,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19081-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19081-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -2064,7 +2259,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 16",
-      "speechIndex": 8,
+      "speechIndex": 1008,
       "title": "Künstliche Intelligenz"
     },
     "people": [
@@ -2085,7 +2280,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19081-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19081-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -2411,7 +2606,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 16",
-      "speechIndex": 9,
+      "speechIndex": 1009,
       "title": "Künstliche Intelligenz"
     },
     "people": [
@@ -2432,7 +2627,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19081-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19081-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -2773,7 +2968,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 16",
-      "speechIndex": 10,
+      "speechIndex": 1010,
       "title": "Künstliche Intelligenz"
     },
     "people": [
@@ -2794,7 +2989,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19081-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19081-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -3115,7 +3310,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 16",
-      "speechIndex": 11,
+      "speechIndex": 1011,
       "title": "Künstliche Intelligenz"
     },
     "people": [
@@ -3136,7 +3331,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19081-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19081-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -3481,7 +3676,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 16",
-      "speechIndex": 12,
+      "speechIndex": 1012,
       "title": "Künstliche Intelligenz"
     },
     "people": [
@@ -3502,7 +3697,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19081-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19081-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -3852,7 +4047,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 16",
-      "speechIndex": 13,
+      "speechIndex": 1013,
       "title": "Künstliche Intelligenz"
     },
     "people": [
@@ -3873,7 +4068,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19081-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19081-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -4186,7 +4381,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 16",
-      "speechIndex": 14,
+      "speechIndex": 1014,
       "title": "Künstliche Intelligenz"
     },
     "people": [
@@ -4207,7 +4402,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19081-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19081-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -4532,7 +4727,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 16",
-      "speechIndex": 15,
+      "speechIndex": 1015,
       "title": "Künstliche Intelligenz"
     },
     "people": [
@@ -4553,7 +4748,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19081-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19081-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -5027,7 +5222,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 16",
-      "speechIndex": 16,
+      "speechIndex": 1016,
       "title": "Künstliche Intelligenz"
     },
     "people": [
@@ -5048,7 +5243,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19081-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19081-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -5479,7 +5674,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 16",
-      "speechIndex": 17,
+      "speechIndex": 1017,
       "title": "Künstliche Intelligenz"
     },
     "people": [
@@ -5508,7 +5703,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19081-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19081-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -5989,26 +6184,89 @@
                 "text": "Wir arbeiten daran."
               }
             ]
-          },
+          }
+        ]
+      }
+    ],
+    "documents": [
+      {
+        "type": "officialDocument",
+        "label": "Drucksache 19/5880",
+        "sourceURI": "https://dserver.bundestag.de/btd/19/058/1905880.pdf"
+      },
+      {
+        "type": "officialDocument",
+        "label": "Drucksache 19/6062",
+        "sourceURI": "https://dserver.bundestag.de/btd/19/060/1906062.pdf"
+      },
+      {
+        "type": "officialDocument",
+        "label": "Drucksache 19/5629",
+        "sourceURI": "https://dserver.bundestag.de/btd/19/056/1905629.pdf"
+      },
+      {
+        "type": "officialDocument",
+        "label": "Drucksache 19/5667",
+        "sourceURI": "https://dserver.bundestag.de/btd/19/056/1905667.pdf"
+      },
+      {
+        "type": "officialDocument",
+        "label": "Drucksache 19/7742",
+        "sourceURI": "https://dserver.bundestag.de/btd/19/077/1907742.pdf"
+      }
+    ],
+    "key": "19-81 tagesordnungspunkt 16 (ronja kemmer)",
+    "dateStart": "2019-02-15T09:04:18",
+    "dateEnd": "2019-02-15T09:11:11",
+    "media": {
+      "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7325922/7325922_h264_720_400_2000kb_baseline_de_2192.mp4",
+      "sourcePage": "http://dbtg.tv/fvid/7325922",
+      "duration": 413.0,
+      "creator": "Deutscher Bundestag",
+      "license": "CC-BY-SA",
+      "originMediaID": "7325922",
+      "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7325922/7325922_mp3_128kb_stereo_de_128.mp3"
+    }
+  },
+  {
+    "parliament": "DE",
+    "electoralPeriod": {
+      "number": "19"
+    },
+    "session": {
+      "number": "81",
+      "dateStart": "2019-02-15T09:00",
+      "dateEnd": "2019-02-15T15.32"
+    },
+    "agendaItem": {
+      "officialTitle": "Tagesordnungspunkt 16",
+      "speechIndex": 1018,
+      "title": "Künstliche Intelligenz"
+    },
+    "people": [
+      {
+        "type": "memberOfParliament",
+        "label": "Wolfgang Schäuble",
+        "context": "president"
+      }
+    ],
+    "textContents": [
+      {
+        "type": "proceedings",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19081-data.xml",
+        "creator": "Deutscher Bundestag",
+        "license": "Public Domain",
+        "language": "DE-de",
+        "originTextID": "",
+        "textBody": [
           {
             "type": "speech",
-            "speaker": "Ronja Kemmer",
-            "speakerstatus": "main-speaker",
-            "text": "Herzlichen Dank.",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "Frau Kollegin Kemmer, der Kollege Hebner, AfD, würde Ihnen gerne eine Zwischenfrage stellen.",
             "sentences": [
               {
-                "text": "Herzlichen Dank."
-              }
-            ]
-          },
-          {
-            "type": "comment",
-            "speaker": null,
-            "speakerstatus": null,
-            "text": "(Beifall bei der CDU/CSU sowie bei Abgeordneten der SPD)",
-            "sentences": [
-              {
-                "text": "(Beifall bei der CDU/CSU sowie bei Abgeordneten der SPD)"
+                "text": "Frau Kollegin Kemmer, der Kollege Hebner, AfD, würde Ihnen gerne eine Zwischenfrage stellen."
               }
             ]
           },
@@ -6153,32 +6411,9 @@
         "sourceURI": "https://dserver.bundestag.de/btd/19/077/1907742.pdf"
       }
     ],
-    "key": "19-81 tagesordnungspunkt 16 (ronja kemmer)",
-    "dateStart": "2019-02-15T09:04:18",
-    "dateEnd": "2019-02-15T09:11:11",
-    "media": {
-      "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7325922/7325922_h264_720_400_2000kb_baseline_de_2192.mp4",
-      "sourcePage": "http://dbtg.tv/fvid/7325922",
-      "duration": 413.0,
-      "creator": "Deutscher Bundestag",
-      "license": "CC-BY-SA",
-      "originMediaID": "7325922",
-      "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7325922/7325922_mp3_128kb_stereo_de_128.mp3"
-    }
-  },
-  {
-    "parliament": "DE",
-    "electoralPeriod": {
-      "number": 19
-    },
-    "session": {
-      "number": 81
-    },
-    "agendaItem": {
-      "title": "Künstliche Intelligenz",
-      "officialTitle": "Tagesordnungspunkt 16",
-      "speechIndex": 18
-    },
+    "key": "19-81 tagesordnungspunkt 16 (wolfgang schauble) #1",
+    "dateStart": "2019-02-15T09:11:11",
+    "dateEnd": "2019-02-15T09:14:24",
     "media": {
       "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7325923/7325923_h264_720_400_2000kb_baseline_de_2192.mp4",
       "sourcePage": "http://dbtg.tv/fvid/7325923",
@@ -6187,18 +6422,7 @@
       "license": "CC-BY-SA",
       "originMediaID": "7325923",
       "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7325923/7325923_mp3_128kb_stereo_de_128.mp3"
-    },
-    "dateStart": "2019-02-15T09:11:11",
-    "dateEnd": "2019-02-15T09:14:24",
-    "people": [
-      {
-        "label": "Wolfgang Schäuble",
-        "faction": "CDU/CSU",
-        "context": "main-speaker",
-        "role": "Bundestagspräsident"
-      }
-    ],
-    "key": "19-81 tagesordnungspunkt 16 (wolfgang schauble) #1"
+    }
   },
   {
     "parliament": "DE",
@@ -6212,7 +6436,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 9",
-      "speechIndex": 18,
+      "speechIndex": 1019,
       "title": "Rechtsbehelfe in Umweltangelegenheiten"
     },
     "people": [
@@ -6225,12 +6449,23 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19081-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19081-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
         "originTextID": "",
         "textBody": [
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "Erste Beratung des von den Abgeordneten Dr. Dirk Spaniel, Roman Johannes Reusch, Leif-Erik Holm, weiteren Abgeordneten und der Fraktion der AfD eingebrachten Entwurfs eines Gesetzes zur Änderung des Gesetzes über ergänzende Vorschriften zu Rechtsbehelfen in Umweltangelegenheiten nach der EG-Richtlinie 2003/35/EG (Umwelt-Rechtsbehelfsgesetz – UmwRG)",
+            "sentences": [
+              {
+                "text": "Erste Beratung des von den Abgeordneten Dr. Dirk Spaniel, Roman Johannes Reusch, Leif-Erik Holm, weiteren Abgeordneten und der Fraktion der AfD eingebrachten Entwurfs eines Gesetzes zur Änderung des Gesetzes über ergänzende Vorschriften zu Rechtsbehelfen in Umweltangelegenheiten nach der EG-Richtlinie 2003/35/EG (Umwelt-Rechtsbehelfsgesetz – UmwRG)"
+              }
+            ]
+          },
           {
             "type": "speech",
             "speaker": "Wolfgang Schäuble",
@@ -6305,7 +6540,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 9",
-      "speechIndex": 19,
+      "speechIndex": 1020,
       "title": "Rechtsbehelfe in Umweltangelegenheiten"
     },
     "people": [
@@ -6326,7 +6561,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19081-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19081-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -6737,7 +6972,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 9",
-      "speechIndex": 20,
+      "speechIndex": 1021,
       "title": "Rechtsbehelfe in Umweltangelegenheiten"
     },
     "people": [
@@ -6758,7 +6993,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19081-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19081-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -7109,7 +7344,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 9",
-      "speechIndex": 21,
+      "speechIndex": 1022,
       "title": "Rechtsbehelfe in Umweltangelegenheiten"
     },
     "people": [
@@ -7130,7 +7365,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19081-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19081-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -7552,7 +7787,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 9",
-      "speechIndex": 22,
+      "speechIndex": 1023,
       "title": "Rechtsbehelfe in Umweltangelegenheiten"
     },
     "people": [
@@ -7573,7 +7808,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19081-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19081-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -8347,7 +8582,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 9",
-      "speechIndex": 23,
+      "speechIndex": 1024,
       "title": "Rechtsbehelfe in Umweltangelegenheiten"
     },
     "people": [
@@ -8368,7 +8603,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19081-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19081-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -8593,7 +8828,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 9",
-      "speechIndex": 24,
+      "speechIndex": 1025,
       "title": "Rechtsbehelfe in Umweltangelegenheiten"
     },
     "people": [
@@ -8614,7 +8849,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19081-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19081-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -8817,7 +9052,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 9",
-      "speechIndex": 25,
+      "speechIndex": 1026,
       "title": "Rechtsbehelfe in Umweltangelegenheiten"
     },
     "people": [
@@ -8838,7 +9073,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19081-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19081-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -9295,7 +9530,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 9",
-      "speechIndex": 26,
+      "speechIndex": 1027,
       "title": "Rechtsbehelfe in Umweltangelegenheiten"
     },
     "people": [
@@ -9316,7 +9551,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19081-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19081-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -9798,7 +10033,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 9",
-      "speechIndex": 27,
+      "speechIndex": 1028,
       "title": "Rechtsbehelfe in Umweltangelegenheiten"
     },
     "people": [
@@ -9819,7 +10054,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19081-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19081-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -10330,26 +10565,69 @@
                 "text": "(Karsten Hilse [AfD]: Weiter verarscht fühlen! Ganz genau!)"
               }
             ]
-          },
+          }
+        ]
+      }
+    ],
+    "documents": [
+      {
+        "type": "officialDocument",
+        "label": "Drucksache 19/7702",
+        "sourceURI": "https://dserver.bundestag.de/btd/19/077/1907702.pdf"
+      }
+    ],
+    "key": "19-81 tagesordnungspunkt 9 (michael kuffer)",
+    "dateStart": "2019-02-15T09:50:02",
+    "dateEnd": "2019-02-15T09:56:26",
+    "media": {
+      "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7325937/7325937_h264_720_400_2000kb_baseline_de_2192.mp4",
+      "sourcePage": "http://dbtg.tv/fvid/7325937",
+      "duration": 384.0,
+      "creator": "Deutscher Bundestag",
+      "license": "CC-BY-SA",
+      "originMediaID": "7325937",
+      "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7325937/7325937_mp3_128kb_stereo_de_128.mp3"
+    }
+  },
+  {
+    "parliament": "DE",
+    "electoralPeriod": {
+      "number": "19"
+    },
+    "session": {
+      "number": "81",
+      "dateStart": "2019-02-15T09:00",
+      "dateEnd": "2019-02-15T15.32"
+    },
+    "agendaItem": {
+      "officialTitle": "Tagesordnungspunkt 9",
+      "speechIndex": 1029,
+      "title": "Rechtsbehelfe in Umweltangelegenheiten"
+    },
+    "people": [
+      {
+        "type": "memberOfParliament",
+        "label": "Wolfgang Schäuble",
+        "context": "president"
+      }
+    ],
+    "textContents": [
+      {
+        "type": "proceedings",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19081-data.xml",
+        "creator": "Deutscher Bundestag",
+        "license": "Public Domain",
+        "language": "DE-de",
+        "originTextID": "",
+        "textBody": [
           {
             "type": "speech",
-            "speaker": "Michael Kuffer",
-            "speakerstatus": "main-speaker",
-            "text": "Vielen Dank.",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "Herr Kollege Kuffer, der Kollege Hampel möchte Ihnen eine Zwischenfrage stellen.",
             "sentences": [
               {
-                "text": "Vielen Dank."
-              }
-            ]
-          },
-          {
-            "type": "comment",
-            "speaker": null,
-            "speakerstatus": null,
-            "text": "(Beifall bei der CDU/CSU – Dr. Alexander Gauland [AfD]: Das heißt, es ändert sich nichts! Wie immer bei der CDU!)",
-            "sentences": [
-              {
-                "text": "(Beifall bei der CDU/CSU – Dr. Alexander Gauland [AfD]: Das heißt, es ändert sich nichts! Wie immer bei der CDU!)"
+                "text": "Herr Kollege Kuffer, der Kollege Hampel möchte Ihnen eine Zwischenfrage stellen."
               }
             ]
           },
@@ -10434,32 +10712,9 @@
         "sourceURI": "https://dserver.bundestag.de/btd/19/077/1907702.pdf"
       }
     ],
-    "key": "19-81 tagesordnungspunkt 9 (michael kuffer)",
-    "dateStart": "2019-02-15T09:50:02",
-    "dateEnd": "2019-02-15T09:56:26",
-    "media": {
-      "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7325937/7325937_h264_720_400_2000kb_baseline_de_2192.mp4",
-      "sourcePage": "http://dbtg.tv/fvid/7325937",
-      "duration": 384.0,
-      "creator": "Deutscher Bundestag",
-      "license": "CC-BY-SA",
-      "originMediaID": "7325937",
-      "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7325937/7325937_mp3_128kb_stereo_de_128.mp3"
-    }
-  },
-  {
-    "parliament": "DE",
-    "electoralPeriod": {
-      "number": 19
-    },
-    "session": {
-      "number": 81
-    },
-    "agendaItem": {
-      "title": "Rechtsbehelfe in Umweltangelegenheiten",
-      "officialTitle": "Tagesordnungspunkt 9",
-      "speechIndex": 29
-    },
+    "key": "19-81 tagesordnungspunkt 9 (wolfgang schauble) #1",
+    "dateStart": "2019-02-15T09:56:26",
+    "dateEnd": "2019-02-15T09:57:50",
     "media": {
       "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7325938/7325938_h264_720_400_2000kb_baseline_de_2192.mp4",
       "sourcePage": "http://dbtg.tv/fvid/7325938",
@@ -10468,18 +10723,7 @@
       "license": "CC-BY-SA",
       "originMediaID": "7325938",
       "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7325938/7325938_mp3_128kb_stereo_de_128.mp3"
-    },
-    "dateStart": "2019-02-15T09:56:26",
-    "dateEnd": "2019-02-15T09:57:50",
-    "people": [
-      {
-        "label": "Wolfgang Schäuble",
-        "faction": "CDU/CSU",
-        "context": "main-speaker",
-        "role": "Bundestagspräsident"
-      }
-    ],
-    "key": "19-81 tagesordnungspunkt 9 (wolfgang schauble) #1"
+    }
   },
   {
     "parliament": "DE",
@@ -10493,7 +10737,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 18",
-      "speechIndex": 28,
+      "speechIndex": 1030,
       "title": "Information über Schwangerschaftsabbruch"
     },
     "people": [
@@ -10506,12 +10750,23 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19081-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19081-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
         "originTextID": "",
         "textBody": [
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "Erste Beratung des von den Fraktionen der CDU/CSU und SPD eingebrachten Entwurfs eines Gesetzes zur Verbesserung der Information über einen Schwangerschaftsabbruch",
+            "sentences": [
+              {
+                "text": "Erste Beratung des von den Fraktionen der CDU/CSU und SPD eingebrachten Entwurfs eines Gesetzes zur Verbesserung der Information über einen Schwangerschaftsabbruch"
+              }
+            ]
+          },
           {
             "type": "speech",
             "speaker": "Wolfgang Schäuble",
@@ -10586,7 +10841,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 18",
-      "speechIndex": 29,
+      "speechIndex": 1031,
       "title": "Information über Schwangerschaftsabbruch"
     },
     "people": [
@@ -10607,7 +10862,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19081-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19081-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -10887,7 +11142,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 18",
-      "speechIndex": 30,
+      "speechIndex": 1032,
       "title": "Information über Schwangerschaftsabbruch"
     },
     "people": [
@@ -10908,7 +11163,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19081-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19081-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -11475,7 +11730,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 18",
-      "speechIndex": 31,
+      "speechIndex": 1033,
       "title": "Information über Schwangerschaftsabbruch"
     },
     "people": [
@@ -11496,7 +11751,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19081-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19081-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -11829,7 +12084,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 18",
-      "speechIndex": 32,
+      "speechIndex": 1034,
       "title": "Information über Schwangerschaftsabbruch"
     },
     "people": [
@@ -11850,7 +12105,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19081-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19081-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -12329,7 +12584,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 18",
-      "speechIndex": 33,
+      "speechIndex": 1035,
       "title": "Information über Schwangerschaftsabbruch"
     },
     "people": [
@@ -12350,7 +12605,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19081-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19081-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -12720,7 +12975,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 18",
-      "speechIndex": 34,
+      "speechIndex": 1036,
       "title": "Information über Schwangerschaftsabbruch"
     },
     "people": [
@@ -12741,7 +12996,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19081-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19081-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -13261,7 +13516,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 18",
-      "speechIndex": 35,
+      "speechIndex": 1037,
       "title": "Information über Schwangerschaftsabbruch"
     },
     "people": [
@@ -13282,7 +13537,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19081-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19081-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -13629,7 +13884,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 18",
-      "speechIndex": 36,
+      "speechIndex": 1038,
       "title": "Information über Schwangerschaftsabbruch"
     },
     "people": [
@@ -13650,7 +13905,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19081-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19081-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -13745,7 +14000,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 18",
-      "speechIndex": 37,
+      "speechIndex": 1039,
       "title": "Information über Schwangerschaftsabbruch"
     },
     "people": [
@@ -13766,7 +14021,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19081-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19081-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -13932,7 +14187,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 18",
-      "speechIndex": 38,
+      "speechIndex": 1040,
       "title": "Information über Schwangerschaftsabbruch"
     },
     "people": [
@@ -13961,7 +14216,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19081-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19081-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -14516,7 +14771,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 18",
-      "speechIndex": 39,
+      "speechIndex": 1041,
       "title": "Information über Schwangerschaftsabbruch"
     },
     "people": [
@@ -14537,7 +14792,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19081-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19081-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -14848,37 +15103,80 @@
                 "text": "Herr Kollege, Sie haben jetzt noch einen Satz."
               }
             ]
-          },
+          }
+        ]
+      }
+    ],
+    "documents": [
+      {
+        "type": "officialDocument",
+        "label": "Drucksache 19/7693",
+        "sourceURI": "https://dserver.bundestag.de/btd/19/076/1907693.pdf"
+      }
+    ],
+    "key": "19-81 tagesordnungspunkt 18 (alexander hoffmann)",
+    "dateStart": "2019-02-15T10:41:31",
+    "dateEnd": "2019-02-15T10:46:09",
+    "media": {
+      "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7325955/7325955_h264_720_400_2000kb_baseline_de_2192.mp4",
+      "sourcePage": "http://dbtg.tv/fvid/7325955",
+      "duration": 278.0,
+      "creator": "Deutscher Bundestag",
+      "license": "CC-BY-SA",
+      "originMediaID": "7325955",
+      "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7325955/7325955_mp3_128kb_stereo_de_128.mp3"
+    }
+  },
+  {
+    "parliament": "DE",
+    "electoralPeriod": {
+      "number": "19"
+    },
+    "session": {
+      "number": "81",
+      "dateStart": "2019-02-15T09:00",
+      "dateEnd": "2019-02-15T15.32"
+    },
+    "agendaItem": {
+      "officialTitle": "Tagesordnungspunkt 18",
+      "speechIndex": 1042,
+      "title": "Information über Schwangerschaftsabbruch"
+    },
+    "people": [
+      {
+        "type": "memberOfParliament",
+        "label": "Wolfgang Kubicki",
+        "context": "vice-president"
+      }
+    ],
+    "textContents": [
+      {
+        "type": "proceedings",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19081-data.xml",
+        "creator": "Deutscher Bundestag",
+        "license": "Public Domain",
+        "language": "DE-de",
+        "originTextID": "",
+        "textBody": [
           {
             "type": "speech",
-            "speaker": "Alexander Hoffmann",
-            "speakerstatus": "main-speaker",
-            "text": "– sein dürfte als heute.",
+            "speaker": "Wolfgang Kubicki",
+            "speakerstatus": "vice-president",
+            "text": "Herr Kollege kommen Sie bitte zum Schluss.",
             "sentences": [
               {
-                "text": "– sein dürfte als heute."
+                "text": "Herr Kollege kommen Sie bitte zum Schluss."
               }
             ]
           },
           {
             "type": "speech",
-            "speaker": "Alexander Hoffmann",
-            "speakerstatus": "main-speaker",
-            "text": "Vielen Dank für die Aufmerksamkeit.",
+            "speaker": "Wolfgang Kubicki",
+            "speakerstatus": "vice-president",
+            "text": "Herr Kollege, Sie haben jetzt noch einen Satz.",
             "sentences": [
               {
-                "text": "Vielen Dank für die Aufmerksamkeit."
-              }
-            ]
-          },
-          {
-            "type": "comment",
-            "speaker": null,
-            "speakerstatus": null,
-            "text": "(Beifall bei der CDU/CSU sowie des Abg. Jürgen Braun [AfD])",
-            "sentences": [
-              {
-                "text": "(Beifall bei der CDU/CSU sowie des Abg. Jürgen Braun [AfD])"
+                "text": "Herr Kollege, Sie haben jetzt noch einen Satz."
               }
             ]
           },
@@ -14923,32 +15221,9 @@
         "sourceURI": "https://dserver.bundestag.de/btd/19/076/1907693.pdf"
       }
     ],
-    "key": "19-81 tagesordnungspunkt 18 (alexander hoffmann)",
-    "dateStart": "2019-02-15T10:41:31",
-    "dateEnd": "2019-02-15T10:46:09",
-    "media": {
-      "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7325955/7325955_h264_720_400_2000kb_baseline_de_2192.mp4",
-      "sourcePage": "http://dbtg.tv/fvid/7325955",
-      "duration": 278.0,
-      "creator": "Deutscher Bundestag",
-      "license": "CC-BY-SA",
-      "originMediaID": "7325955",
-      "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7325955/7325955_mp3_128kb_stereo_de_128.mp3"
-    }
-  },
-  {
-    "parliament": "DE",
-    "electoralPeriod": {
-      "number": 19
-    },
-    "session": {
-      "number": 81
-    },
-    "agendaItem": {
-      "title": "Information über Schwangerschaftsabbruch",
-      "officialTitle": "Tagesordnungspunkt 18",
-      "speechIndex": 42
-    },
+    "key": "19-81 tagesordnungspunkt 18 (wolfgang kubicki)",
+    "dateStart": "2019-02-15T10:46:09",
+    "dateEnd": "2019-02-15T10:46:28",
     "media": {
       "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7325956/7325956_h264_720_400_2000kb_baseline_de_2192.mp4",
       "sourcePage": "http://dbtg.tv/fvid/7325956",
@@ -14957,18 +15232,7 @@
       "license": "CC-BY-SA",
       "originMediaID": "7325956",
       "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7325956/7325956_mp3_128kb_stereo_de_128.mp3"
-    },
-    "dateStart": "2019-02-15T10:46:09",
-    "dateEnd": "2019-02-15T10:46:28",
-    "people": [
-      {
-        "label": "Wolfgang Kubicki",
-        "faction": "FDP",
-        "context": "main-speaker",
-        "role": "Bundestagsvizepräsident"
-      }
-    ],
-    "key": "19-81 tagesordnungspunkt 18 (wolfgang kubicki)"
+    }
   },
   {
     "parliament": "DE",
@@ -15866,7 +16130,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 21",
-      "speechIndex": 64,
+      "speechIndex": 1069,
       "title": "Geschäftsgeheimnisgesetz"
     },
     "people": [
@@ -15879,12 +16143,56 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19081-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19081-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
         "originTextID": "",
         "textBody": [
+          {
+            "type": "speech",
+            "speaker": "Hans-Peter Friedrich",
+            "speakerstatus": "vice-president",
+            "text": "a) Beratung des Antrags der Abgeordneten Dr. Manuela Rottmann, Beate Müller-­Gemmeke, Tabea Rößner, weiterer Abgeordneter und der Fraktion BÜNDNIS 90/DIE GRÜNEN",
+            "sentences": [
+              {
+                "text": "a) Beratung des Antrags der Abgeordneten Dr. Manuela Rottmann, Beate Müller-­Gemmeke, Tabea Rößner, weiterer Abgeordneter und der Fraktion BÜNDNIS 90/DIE GRÜNEN"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Hans-Peter Friedrich",
+            "speakerstatus": "vice-president",
+            "text": "Geschäftsgeheimnisgesetz – Schutz für Arbeitnehmerinnen, Journalisten, Hinweisgeberinnen und Wirtschaft nachbessern",
+            "sentences": [
+              {
+                "text": "Geschäftsgeheimnisgesetz – Schutz für Arbeitnehmerinnen, Journalisten, Hinweisgeberinnen und Wirtschaft nachbessern"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Hans-Peter Friedrich",
+            "speakerstatus": "vice-president",
+            "text": "b) Beratung des Antrags der Abgeordneten Niema Movassat, Dr. André Hahn, Doris Achelwilm, weiterer Abgeordneter und der Fraktion DIE LINKE",
+            "sentences": [
+              {
+                "text": "b) Beratung des Antrags der Abgeordneten Niema Movassat, Dr. André Hahn, Doris Achelwilm, weiterer Abgeordneter und der Fraktion DIE LINKE"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Hans-Peter Friedrich",
+            "speakerstatus": "vice-president",
+            "text": "Presse, Arbeitnehmervertretung und Whistleblower im Geschäftsgeheimnisgesetz schützen",
+            "sentences": [
+              {
+                "text": "Presse, Arbeitnehmervertretung und Whistleblower im Geschäftsgeheimnisgesetz schützen"
+              }
+            ]
+          },
           {
             "type": "speech",
             "speaker": "Hans-Peter Friedrich",
@@ -15964,7 +16272,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 21",
-      "speechIndex": 65,
+      "speechIndex": 1070,
       "title": "Geschäftsgeheimnisgesetz"
     },
     "people": [
@@ -15985,7 +16293,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19081-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19081-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -16280,7 +16588,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 21",
-      "speechIndex": 66,
+      "speechIndex": 1071,
       "title": "Geschäftsgeheimnisgesetz"
     },
     "people": [
@@ -16301,7 +16609,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19081-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19081-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -16813,7 +17121,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 21",
-      "speechIndex": 67,
+      "speechIndex": 1072,
       "title": "Geschäftsgeheimnisgesetz"
     },
     "people": [
@@ -16834,7 +17142,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19081-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19081-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -17251,7 +17559,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 21",
-      "speechIndex": 68,
+      "speechIndex": 1073,
       "title": "Geschäftsgeheimnisgesetz"
     },
     "people": [
@@ -17272,7 +17580,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19081-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19081-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -17553,7 +17861,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 21",
-      "speechIndex": 69,
+      "speechIndex": 1074,
       "title": "Geschäftsgeheimnisgesetz"
     },
     "people": [
@@ -17574,7 +17882,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19081-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19081-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -17968,7 +18276,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 21",
-      "speechIndex": 70,
+      "speechIndex": 1075,
       "title": "Geschäftsgeheimnisgesetz"
     },
     "people": [
@@ -17989,7 +18297,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19081-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19081-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -18349,7 +18657,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 21",
-      "speechIndex": 71,
+      "speechIndex": 1076,
       "title": "Geschäftsgeheimnisgesetz"
     },
     "people": [
@@ -18370,7 +18678,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19081-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19081-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -18730,7 +19038,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 21",
-      "speechIndex": 72,
+      "speechIndex": 1077,
       "title": "Geschäftsgeheimnisgesetz"
     },
     "people": [
@@ -18751,7 +19059,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19081-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19081-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -19129,7 +19437,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 21",
-      "speechIndex": 73,
+      "speechIndex": 1078,
       "title": "Geschäftsgeheimnisgesetz"
     },
     "people": [
@@ -19140,17 +19448,12 @@
         "lastname": "Hirte",
         "context": "main-speaker",
         "faction": "CDU/CSU"
-      },
-      {
-        "type": "memberOfParliament",
-        "label": "Hans-Peter Friedrich",
-        "context": "vice-president"
       }
     ],
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19081-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19081-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -19374,18 +19677,66 @@
                 "text": "Herzlichen Dank."
               }
             ]
-          },
-          {
-            "type": "comment",
-            "speaker": null,
-            "speakerstatus": null,
-            "text": "(Beifall bei der CDU/CSU sowie bei Abgeordneten der SPD)",
-            "sentences": [
-              {
-                "text": "(Beifall bei der CDU/CSU sowie bei Abgeordneten der SPD)"
-              }
-            ]
-          },
+          }
+        ]
+      }
+    ],
+    "documents": [
+      {
+        "type": "officialDocument",
+        "label": "Drucksache 19/7453",
+        "sourceURI": "https://dserver.bundestag.de/btd/19/074/1907453.pdf"
+      },
+      {
+        "type": "officialDocument",
+        "label": "Drucksache 19/7704",
+        "sourceURI": "https://dserver.bundestag.de/btd/19/077/1907704.pdf"
+      }
+    ],
+    "key": "19-81 tagesordnungspunkt 21 (heribert hirte)",
+    "dateStart": "2019-02-15T13:17:15",
+    "dateEnd": "2019-02-15T13:21:36",
+    "media": {
+      "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7326007/7326007_h264_720_400_2000kb_baseline_de_2192.mp4",
+      "sourcePage": "http://dbtg.tv/fvid/7326007",
+      "duration": 261.0,
+      "creator": "Deutscher Bundestag",
+      "license": "CC-BY-SA",
+      "originMediaID": "7326007",
+      "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7326007/7326007_mp3_128kb_stereo_de_128.mp3"
+    }
+  },
+  {
+    "parliament": "DE",
+    "electoralPeriod": {
+      "number": "19"
+    },
+    "session": {
+      "number": "81",
+      "dateStart": "2019-02-15T09:00",
+      "dateEnd": "2019-02-15T15.32"
+    },
+    "agendaItem": {
+      "officialTitle": "Tagesordnungspunkt 21",
+      "speechIndex": 1079,
+      "title": "Geschäftsgeheimnisgesetz"
+    },
+    "people": [
+      {
+        "type": "memberOfParliament",
+        "label": "Hans-Peter Friedrich",
+        "context": "vice-president"
+      }
+    ],
+    "textContents": [
+      {
+        "type": "proceedings",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19081-data.xml",
+        "creator": "Deutscher Bundestag",
+        "license": "Public Domain",
+        "language": "DE-de",
+        "originTextID": "",
+        "textBody": [
           {
             "type": "speech",
             "speaker": "Hans-Peter Friedrich",
@@ -19435,32 +19786,9 @@
         "sourceURI": "https://dserver.bundestag.de/btd/19/077/1907704.pdf"
       }
     ],
-    "key": "19-81 tagesordnungspunkt 21 (heribert hirte)",
-    "dateStart": "2019-02-15T13:17:15",
-    "dateEnd": "2019-02-15T13:21:36",
-    "media": {
-      "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7326007/7326007_h264_720_400_2000kb_baseline_de_2192.mp4",
-      "sourcePage": "http://dbtg.tv/fvid/7326007",
-      "duration": 261.0,
-      "creator": "Deutscher Bundestag",
-      "license": "CC-BY-SA",
-      "originMediaID": "7326007",
-      "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7326007/7326007_mp3_128kb_stereo_de_128.mp3"
-    }
-  },
-  {
-    "parliament": "DE",
-    "electoralPeriod": {
-      "number": 19
-    },
-    "session": {
-      "number": 81
-    },
-    "agendaItem": {
-      "title": "Geschäftsgeheimnisgesetz",
-      "officialTitle": "Tagesordnungspunkt 21",
-      "speechIndex": 79
-    },
+    "key": "19-81 tagesordnungspunkt 21 (hans-peter friedrich) #1",
+    "dateStart": "2019-02-15T13:21:36",
+    "dateEnd": "2019-02-15T13:21:55",
     "media": {
       "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7326008/7326008_h264_720_400_2000kb_baseline_de_2192.mp4",
       "sourcePage": "http://dbtg.tv/fvid/7326008",
@@ -19469,18 +19797,7 @@
       "license": "CC-BY-SA",
       "originMediaID": "7326008",
       "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7326008/7326008_mp3_128kb_stereo_de_128.mp3"
-    },
-    "dateStart": "2019-02-15T13:21:36",
-    "dateEnd": "2019-02-15T13:21:55",
-    "people": [
-      {
-        "label": "Hans-Peter Friedrich",
-        "faction": "CDU/CSU",
-        "context": "main-speaker",
-        "role": "Bundestagsvizepräsident"
-      }
-    ],
-    "key": "19-81 tagesordnungspunkt 21 (hans-peter friedrich) #1"
+    }
   },
   {
     "parliament": "DE",
@@ -19494,7 +19811,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 11",
-      "speechIndex": 74,
+      "speechIndex": 1080,
       "title": "Aktuelle Stunde zum Sozialstaatskonzept der SPD"
     },
     "people": [
@@ -19507,12 +19824,45 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19081-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19081-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
         "originTextID": "",
         "textBody": [
+          {
+            "type": "speech",
+            "speaker": "Hans-Peter Friedrich",
+            "speakerstatus": "vice-president",
+            "text": "Aktuelle Stunde",
+            "sentences": [
+              {
+                "text": "Aktuelle Stunde"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Hans-Peter Friedrich",
+            "speakerstatus": "vice-president",
+            "text": "auf Verlangen der Fraktion der FDP",
+            "sentences": [
+              {
+                "text": "auf Verlangen der Fraktion der FDP"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Hans-Peter Friedrich",
+            "speakerstatus": "vice-president",
+            "text": "Haltung der Bundesregierung zum Sozialstaatskonzept der SPD vor dem Hintergrund eines drohenden Haushaltsdefizits",
+            "sentences": [
+              {
+                "text": "Haltung der Bundesregierung zum Sozialstaatskonzept der SPD vor dem Hintergrund eines drohenden Haushaltsdefizits"
+              }
+            ]
+          },
           {
             "type": "speech",
             "speaker": "Hans-Peter Friedrich",
@@ -19556,7 +19906,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 11",
-      "speechIndex": 75,
+      "speechIndex": 1081,
       "title": "Aktuelle Stunde zum Sozialstaatskonzept der SPD"
     },
     "people": [
@@ -19577,7 +19927,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19081-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19081-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -20170,7 +20520,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 11",
-      "speechIndex": 76,
+      "speechIndex": 1082,
       "title": "Aktuelle Stunde zum Sozialstaatskonzept der SPD"
     },
     "people": [
@@ -20191,7 +20541,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19081-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19081-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -20713,7 +21063,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 11",
-      "speechIndex": 77,
+      "speechIndex": 1083,
       "title": "Aktuelle Stunde zum Sozialstaatskonzept der SPD"
     },
     "people": [
@@ -20734,7 +21084,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19081-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19081-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -21209,7 +21559,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 11",
-      "speechIndex": 78,
+      "speechIndex": 1084,
       "title": "Aktuelle Stunde zum Sozialstaatskonzept der SPD"
     },
     "people": [
@@ -21230,7 +21580,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19081-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19081-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -21933,7 +22283,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 11",
-      "speechIndex": 79,
+      "speechIndex": 1085,
       "title": "Aktuelle Stunde zum Sozialstaatskonzept der SPD"
     },
     "people": [
@@ -21954,7 +22304,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19081-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19081-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -22653,7 +23003,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 11",
-      "speechIndex": 80,
+      "speechIndex": 1086,
       "title": "Aktuelle Stunde zum Sozialstaatskonzept der SPD"
     },
     "people": [
@@ -22674,7 +23024,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19081-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19081-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -23089,7 +23439,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 11",
-      "speechIndex": 81,
+      "speechIndex": 1087,
       "title": "Aktuelle Stunde zum Sozialstaatskonzept der SPD"
     },
     "people": [
@@ -23110,7 +23460,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19081-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19081-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -23685,7 +24035,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 11",
-      "speechIndex": 82,
+      "speechIndex": 1088,
       "title": "Aktuelle Stunde zum Sozialstaatskonzept der SPD"
     },
     "people": [
@@ -23706,7 +24056,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19081-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19081-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -24185,7 +24535,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 11",
-      "speechIndex": 83,
+      "speechIndex": 1089,
       "title": "Aktuelle Stunde zum Sozialstaatskonzept der SPD"
     },
     "people": [
@@ -24206,7 +24556,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19081-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19081-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -24699,7 +25049,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 11",
-      "speechIndex": 84,
+      "speechIndex": 1090,
       "title": "Aktuelle Stunde zum Sozialstaatskonzept der SPD"
     },
     "people": [
@@ -24720,7 +25070,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19081-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19081-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -25328,7 +25678,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 11",
-      "speechIndex": 85,
+      "speechIndex": 1091,
       "title": "Aktuelle Stunde zum Sozialstaatskonzept der SPD"
     },
     "people": [
@@ -25349,7 +25699,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19081-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19081-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -25925,7 +26275,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 11",
-      "speechIndex": 86,
+      "speechIndex": 1092,
       "title": "Aktuelle Stunde zum Sozialstaatskonzept der SPD"
     },
     "people": [
@@ -25946,7 +26296,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19081-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19081-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -26562,7 +26912,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 11",
-      "speechIndex": 87,
+      "speechIndex": 1093,
       "title": "Aktuelle Stunde zum Sozialstaatskonzept der SPD"
     },
     "people": [
@@ -26573,17 +26923,12 @@
         "lastname": "Stracke",
         "context": "main-speaker",
         "faction": "CDU/CSU"
-      },
-      {
-        "type": "memberOfParliament",
-        "label": "Hans-Peter Friedrich",
-        "context": "vice-president"
       }
     ],
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19081-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19081-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -27010,18 +27355,55 @@
                 "text": "Herzliches Dankeschön."
               }
             ]
-          },
-          {
-            "type": "comment",
-            "speaker": null,
-            "speakerstatus": null,
-            "text": "(Beifall bei der CDU/CSU und der FDP)",
-            "sentences": [
-              {
-                "text": "(Beifall bei der CDU/CSU und der FDP)"
-              }
-            ]
-          },
+          }
+        ]
+      }
+    ],
+    "documents": [],
+    "key": "19-81 zusatzpunkt 11 (stephan stracke)",
+    "dateStart": "2019-02-15T14:26:23",
+    "dateEnd": "2019-02-15T14:31:46",
+    "media": {
+      "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7326033/7326033_h264_720_400_2000kb_baseline_de_2192.mp4",
+      "sourcePage": "http://dbtg.tv/fvid/7326033",
+      "duration": 323.0,
+      "creator": "Deutscher Bundestag",
+      "license": "CC-BY-SA",
+      "originMediaID": "7326033",
+      "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7326033/7326033_mp3_128kb_stereo_de_128.mp3"
+    }
+  },
+  {
+    "parliament": "DE",
+    "electoralPeriod": {
+      "number": "19"
+    },
+    "session": {
+      "number": "81",
+      "dateStart": "2019-02-15T09:00",
+      "dateEnd": "2019-02-15T15.32"
+    },
+    "agendaItem": {
+      "officialTitle": "Zusatzpunkt 11",
+      "speechIndex": 1094,
+      "title": "Aktuelle Stunde zum Sozialstaatskonzept der SPD"
+    },
+    "people": [
+      {
+        "type": "memberOfParliament",
+        "label": "Hans-Peter Friedrich",
+        "context": "vice-president"
+      }
+    ],
+    "textContents": [
+      {
+        "type": "proceedings",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19081-data.xml",
+        "creator": "Deutscher Bundestag",
+        "license": "Public Domain",
+        "language": "DE-de",
+        "originTextID": "",
+        "textBody": [
           {
             "type": "speech",
             "speaker": "Hans-Peter Friedrich",
@@ -27073,32 +27455,9 @@
       }
     ],
     "documents": [],
-    "key": "19-81 zusatzpunkt 11 (stephan stracke)",
-    "dateStart": "2019-02-15T14:26:23",
-    "dateEnd": "2019-02-15T14:31:46",
-    "media": {
-      "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7326033/7326033_h264_720_400_2000kb_baseline_de_2192.mp4",
-      "sourcePage": "http://dbtg.tv/fvid/7326033",
-      "duration": 323.0,
-      "creator": "Deutscher Bundestag",
-      "license": "CC-BY-SA",
-      "originMediaID": "7326033",
-      "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7326033/7326033_mp3_128kb_stereo_de_128.mp3"
-    }
-  },
-  {
-    "parliament": "DE",
-    "electoralPeriod": {
-      "number": 19
-    },
-    "session": {
-      "number": 81
-    },
-    "agendaItem": {
-      "title": "Aktuelle Stunde zum Sozialstaatskonzept der SPD",
-      "officialTitle": "Zusatzpunkt 11",
-      "speechIndex": 94
-    },
+    "key": "19-81 zusatzpunkt 11 (hans-peter friedrich) #1",
+    "dateStart": "2019-02-15T14:31:46",
+    "dateEnd": "2019-02-15T14:31:51",
     "media": {
       "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7326034/7326034_h264_720_400_2000kb_baseline_de_2192.mp4",
       "sourcePage": "http://dbtg.tv/fvid/7326034",
@@ -27107,18 +27466,7 @@
       "license": "CC-BY-SA",
       "originMediaID": "7326034",
       "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7326034/7326034_mp3_128kb_stereo_de_128.mp3"
-    },
-    "dateStart": "2019-02-15T14:31:46",
-    "dateEnd": "2019-02-15T14:31:51",
-    "people": [
-      {
-        "label": "Hans-Peter Friedrich",
-        "faction": "CDU/CSU",
-        "context": "main-speaker",
-        "role": "Bundestagsvizepräsident"
-      }
-    ],
-    "key": "19-81 zusatzpunkt 11 (hans-peter friedrich) #1"
+    }
   },
   {
     "parliament": "DE",

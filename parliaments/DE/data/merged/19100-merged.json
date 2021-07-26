@@ -11,7 +11,7 @@
     },
     "agendaItem": {
       "officialTitle": "Sitzungseröffnung",
-      "speechIndex": 0,
+      "speechIndex": 1000,
       "title": "Sitzungseröffnung"
     },
     "people": [
@@ -24,7 +24,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19100-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19100-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -170,7 +170,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 2,
+      "speechIndex": 1002,
       "title": "Befragung der Bundesregierung"
     },
     "people": [
@@ -183,12 +183,23 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19100-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19100-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
         "originTextID": "",
         "textBody": [
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "Befragung der Bundesregierung",
+            "sentences": [
+              {
+                "text": "Befragung der Bundesregierung"
+              }
+            ]
+          },
           {
             "type": "speech",
             "speaker": "Wolfgang Schäuble",
@@ -252,7 +263,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 3,
+      "speechIndex": 1003,
       "title": "Befragung der Bundesregierung"
     },
     "people": [
@@ -273,7 +284,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19100-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19100-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -591,7 +602,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 5,
+      "speechIndex": 1005,
       "title": "Befragung der Bundesregierung"
     },
     "people": [
@@ -612,7 +623,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19100-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19100-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -681,7 +692,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 7,
+      "speechIndex": 1007,
       "title": "Befragung der Bundesregierung"
     },
     "people": [
@@ -702,7 +713,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19100-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19100-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -756,16 +767,69 @@
   {
     "parliament": "DE",
     "electoralPeriod": {
-      "number": 19
+      "number": "19"
     },
     "session": {
-      "number": 100
+      "number": "100",
+      "dateStart": "2019-05-15T13:00",
+      "dateEnd": "2019-05-15T18:37"
     },
     "agendaItem": {
-      "title": "Befragung der Bundesregierung",
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 6
+      "speechIndex": 1090,
+      "title": "Befragung der Bundesregierung"
     },
+    "people": [
+      {
+        "type": "memberOfParliament",
+        "label": "Wolfgang Kubicki",
+        "context": "vice-president"
+      }
+    ],
+    "textContents": [
+      {
+        "type": "proceedings",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19100-data.xml",
+        "creator": "Deutscher Bundestag",
+        "license": "Public Domain",
+        "language": "DE-de",
+        "originTextID": "",
+        "textBody": [
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Kubicki",
+            "speakerstatus": "vice-president",
+            "text": "Vielen Dank, Frau Ministerin. – Damit beende ich die Befragung unter Hinweis an den Kollegen Kai Gehring, dass die Bundesregierung im Rahmen der Regierungsbefragung selbst entscheidet, welcher Minister Auskunft erteilt, auch wenn das manchmal unzureichend sein sollte. Der Hinweis, dass die Frage von Frau von Storch schriftlich beantwortet wird, muss in diesem Zusammenhang reichen.",
+            "sentences": [
+              {
+                "text": "Vielen Dank, Frau Ministerin."
+              },
+              {
+                "text": "– Damit beende ich die Befragung unter Hinweis an den Kollegen Kai Gehring, dass die Bundesregierung im Rahmen der Regierungsbefragung selbst entscheidet, welcher Minister Auskunft erteilt, auch wenn das manchmal unzureichend sein sollte."
+              },
+              {
+                "text": "Der Hinweis, dass die Frage von Frau von Storch schriftlich beantwortet wird, muss in diesem Zusammenhang reichen."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Kubicki",
+            "speakerstatus": "vice-president",
+            "text": "– Das AA ist leider nicht entsprechend benannt worden und vertreten.",
+            "sentences": [
+              {
+                "text": "– Das AA ist leider nicht entsprechend benannt worden und vertreten."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "documents": [],
+    "key": "19-100 tagesordnungspunkt 1 (wolfgang kubicki)",
+    "dateStart": "2019-05-15T12:16:19",
+    "dateEnd": "2019-05-15T12:16:45",
     "media": {
       "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7355321/7355321_h264_720_400_2000kb_baseline_de_2192.mp4",
       "sourcePage": "http://dbtg.tv/fvid/7355321",
@@ -774,18 +838,7 @@
       "license": "CC-BY-SA",
       "originMediaID": "7355321",
       "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7355321/7355321_mp3_128kb_stereo_de_128.mp3"
-    },
-    "dateStart": "2019-05-15T12:16:19",
-    "dateEnd": "2019-05-15T12:16:45",
-    "people": [
-      {
-        "label": "Wolfgang Kubicki",
-        "faction": "FDP",
-        "context": "main-speaker",
-        "role": "Bundestagsvizepräsident"
-      }
-    ],
-    "key": "19-100 tagesordnungspunkt 1 (wolfgang kubicki)"
+    }
   },
   {
     "parliament": "DE",
@@ -799,7 +852,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 2",
-      "speechIndex": 90,
+      "speechIndex": 1091,
       "title": "Fragestunde"
     },
     "people": [
@@ -980,12 +1033,23 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19100-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19100-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
         "originTextID": "",
         "textBody": [
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Kubicki",
+            "speakerstatus": "vice-president",
+            "text": "Fragestunde",
+            "sentences": [
+              {
+                "text": "Fragestunde"
+              }
+            ]
+          },
           {
             "type": "speech",
             "speaker": "Wolfgang Kubicki",
@@ -5920,7 +5984,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 2",
-      "speechIndex": 91,
+      "speechIndex": 1092,
       "title": "Fragestunde"
     },
     "people": [
@@ -6032,81 +6096,28 @@
         "lastname": "Gehring",
         "context": "speaker",
         "faction": "BÜNDNIS 90/DIE GRÜNEN"
-      },
-      {
-        "type": "memberOfParliament",
-        "label": "Maria Flachsbarth",
-        "firstname": "Maria",
-        "lastname": "Flachsbarth",
-        "context": "speaker",
-        "faction": ""
-      },
-      {
-        "type": "memberOfParliament",
-        "label": "Eva-Maria Schreiber",
-        "firstname": "Eva-Maria",
-        "lastname": "Schreiber",
-        "context": "speaker",
-        "faction": "DIE LINKE"
-      },
-      {
-        "type": "memberOfParliament",
-        "label": "Ottmar von Holtz",
-        "firstname": "Ottmar",
-        "lastname": "von Holtz",
-        "context": "speaker",
-        "faction": "BÜNDNIS 90/DIE GRÜNEN"
-      },
-      {
-        "type": "memberOfParliament",
-        "label": "Christine Lambrecht",
-        "firstname": "Christine",
-        "lastname": "Lambrecht",
-        "context": "speaker",
-        "faction": ""
-      },
-      {
-        "type": "memberOfParliament",
-        "label": "Gerald Ullrich",
-        "firstname": "Gerald",
-        "lastname": "Ullrich",
-        "context": "speaker",
-        "faction": "FDP"
-      },
-      {
-        "type": "memberOfParliament",
-        "label": "Torsten Herbst",
-        "firstname": "Torsten",
-        "lastname": "Herbst",
-        "context": "speaker",
-        "faction": "FDP"
-      },
-      {
-        "type": "memberOfParliament",
-        "label": "Stephan Mayer",
-        "firstname": "Stephan",
-        "lastname": "Mayer",
-        "context": "speaker",
-        "faction": ""
-      },
-      {
-        "type": "memberOfParliament",
-        "label": "Nicole Gohlke",
-        "firstname": "Nicole",
-        "lastname": "Gohlke",
-        "context": "speaker",
-        "faction": "DIE LINKE"
       }
     ],
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19100-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19100-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
         "originTextID": "",
         "textBody": [
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Kubicki",
+            "speakerstatus": "vice-president",
+            "text": "Fragestunde",
+            "sentences": [
+              {
+                "text": "Fragestunde"
+              }
+            ]
+          },
           {
             "type": "speech",
             "speaker": "Wolfgang Kubicki",
@@ -8678,1721 +8689,6 @@
                 "text": "Frau Staatssekretärin."
               }
             ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Maria Flachsbarth",
-            "speakerstatus": "speaker",
-            "text": "Herzlichen Dank, Herr Präsident. – Liebe Frau Kollegin, leistungsabhängige Prämien für Mitarbeiterinnen und Mitarbeiter der Parkverwaltungen in Schutzgebieten des Kongobeckens sind üblich und werden über die KfW unterstützt. Mithilfe der Prämien werden die Ranger, die gerade in Afrika einer enorm gefährlichen Arbeit nachgehen – bei geringem staatlichem Gehalt –, für die Erreichung ihrer Ziele belohnt. Auch soll durch die Zahlung von Prämien Korruption vorgebeugt werden, zum Beispiel, damit sich die Wilderer nicht einfach freikaufen können und konfisziertes Material, dessen Wert im Fall von Elfenbein oder auch Waffen ein Vielfaches des Rangergehaltes ausmacht, ordnungsgemäß übergeben wird.",
-            "sentences": [
-              {
-                "text": "Herzlichen Dank, Herr Präsident."
-              },
-              {
-                "text": "– Liebe Frau Kollegin, leistungsabhängige Prämien für Mitarbeiterinnen und Mitarbeiter der Parkverwaltungen in Schutzgebieten des Kongobeckens sind üblich und werden über die KfW unterstützt."
-              },
-              {
-                "text": "Mithilfe der Prämien werden die Ranger, die gerade in Afrika einer enorm gefährlichen Arbeit nachgehen – bei geringem staatlichem Gehalt –, für die Erreichung ihrer Ziele belohnt."
-              },
-              {
-                "text": "Auch soll durch die Zahlung von Prämien Korruption vorgebeugt werden, zum Beispiel, damit sich die Wilderer nicht einfach freikaufen können und konfisziertes Material, dessen Wert im Fall von Elfenbein oder auch Waffen ein Vielfaches des Rangergehaltes ausmacht, ordnungsgemäß übergeben wird."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Maria Flachsbarth",
-            "speakerstatus": "speaker",
-            "text": "Die Unterstützung durch die KfW erfolgt in folgenden Schutzgebieten:",
-            "sentences": [
-              {
-                "text": "Die Unterstützung durch die KfW erfolgt in folgenden Schutzgebieten:"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Maria Flachsbarth",
-            "speakerstatus": "speaker",
-            "text": "In der Demokratischen Republik Kongo: Parc National Kahuzi-Biéga, Parc National de la Lomami, Parc National de la Salonga, Complex Upemba Kundelungu, Reserve Naturelle du Triangle de la Ngiri, Reserve de Faune à Okapis.",
-            "sentences": [
-              {
-                "text": "In der Demokratischen Republik Kongo: Parc National Kahuzi-Biéga, Parc National de la Lomami, Parc National de la Salonga, Complex Upemba Kundelungu, Reserve Naturelle du Triangle de la Ngiri, Reserve de Faune à Okapis."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Maria Flachsbarth",
-            "speakerstatus": "speaker",
-            "text": "In Kamerun: Bayang Mbo Forest Reserve, Bouba-­Ndjida Parc National, Mount Cameroon National Park, Korup National Park, Lobéké Parc National, Takamanda National Park.",
-            "sentences": [
-              {
-                "text": "In Kamerun: Bayang Mbo Forest Reserve, Bouba-­Ndjida Parc National, Mount Cameroon National Park, Korup National Park, Lobéké Parc National, Takamanda National Park."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Maria Flachsbarth",
-            "speakerstatus": "speaker",
-            "text": "Im Tschad: Sena Oura Parc National.",
-            "sentences": [
-              {
-                "text": "Im Tschad: Sena Oura Parc National."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Maria Flachsbarth",
-            "speakerstatus": "speaker",
-            "text": "In der Zentralafrikanische Republik: Réserve Spéciale de Dzanga-Sangha.",
-            "sentences": [
-              {
-                "text": "In der Zentralafrikanische Republik: Réserve Spéciale de Dzanga-Sangha."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Wolfgang Kubicki",
-            "speakerstatus": "vice-president",
-            "text": "Frau Kollegin Schreiber, Sie haben eine Nachfrage.",
-            "sentences": [
-              {
-                "text": "Frau Kollegin Schreiber, Sie haben eine Nachfrage."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Eva-Maria Schreiber",
-            "speakerstatus": "speaker",
-            "text": "Herzlichen Dank für die Aufzählung. – Kritikerinnen und Kritiker haben die Befürchtung geäußert, dass das Prämiensystem Parkwächter zu Gewalt gegen die lokale Bevölkerung anstacheln könnte, weil sich die Prämien beispielsweise nach der Anzahl der aufgedeckten Straftaten oder der Verhaftungen richten. Haben Sie Ihr Prämiensystem dahin gehend überprüft, und welche konkreten Maßnahmen treffen Sie, damit Sie durch die Bezahlung von Prämien und die Finanzierung umfangreicher Ausrüstung der Parkwächter nicht indirekt Gewalt gegenüber der lokalen Bevölkerung fördern?",
-            "sentences": [
-              {
-                "text": "Herzlichen Dank für die Aufzählung."
-              },
-              {
-                "text": "– Kritikerinnen und Kritiker haben die Befürchtung geäußert, dass das Prämiensystem Parkwächter zu Gewalt gegen die lokale Bevölkerung anstacheln könnte, weil sich die Prämien beispielsweise nach der Anzahl der aufgedeckten Straftaten oder der Verhaftungen richten."
-              },
-              {
-                "text": "Haben Sie Ihr Prämiensystem dahin gehend überprüft, und welche konkreten Maßnahmen treffen Sie, damit Sie durch die Bezahlung von Prämien und die Finanzierung umfangreicher Ausrüstung der Parkwächter nicht indirekt Gewalt gegenüber der lokalen Bevölkerung fördern?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Maria Flachsbarth",
-            "speakerstatus": "speaker",
-            "text": "Frau Kollegin, die Ranger sind internationalen Standards zur Einhaltung der Menschenrechte verpflichtet. Darüber hinaus würde zum Beispiel eine willkürliche Festnahme einem Wildhüter keine Prämie einbringen; denn diese wird nur ausgezahlt, wenn ein ordnungsgemäßes Protokoll mit stichhaltigen Informationen zum vermeintlichen Tathergang erstellt wurde, das einem Gericht zugeführt werden kann. Stellen sich die Informationen als nicht stichhaltig heraus und muss der Festgenommene wieder freigelassen werden, so findet selbstverständlich auch keine Prämienauszahlung statt.",
-            "sentences": [
-              {
-                "text": "Frau Kollegin, die Ranger sind internationalen Standards zur Einhaltung der Menschenrechte verpflichtet."
-              },
-              {
-                "text": "Darüber hinaus würde zum Beispiel eine willkürliche Festnahme einem Wildhüter keine Prämie einbringen; denn diese wird nur ausgezahlt, wenn ein ordnungsgemäßes Protokoll mit stichhaltigen Informationen zum vermeintlichen Tathergang erstellt wurde, das einem Gericht zugeführt werden kann."
-              },
-              {
-                "text": "Stellen sich die Informationen als nicht stichhaltig heraus und muss der Festgenommene wieder freigelassen werden, so findet selbstverständlich auch keine Prämienauszahlung statt."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Wolfgang Kubicki",
-            "speakerstatus": "vice-president",
-            "text": "Frau Kollegin, Sie haben eine weitere Nachfrage. Bitte.",
-            "sentences": [
-              {
-                "text": "Frau Kollegin, Sie haben eine weitere Nachfrage."
-              },
-              {
-                "text": "Bitte."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Eva-Maria Schreiber",
-            "speakerstatus": "speaker",
-            "text": "Ich habe noch eine Nachfrage zum Schutzgebiet Kahuzi-Biéga im Kongo. Die KfW zahlt 60 Prozent des Budgets. Im April hat eine Vertreterin des BMZ in einer Ausschusssitzung den Park sehr lobend hervorgehoben, weil dort die Integration der lokalen Bevölkerung so gut gelinge. Das deckt sich leider nicht mit meinen Informationen.",
-            "sentences": [
-              {
-                "text": "Ich habe noch eine Nachfrage zum Schutzgebiet Kahuzi-Biéga im Kongo."
-              },
-              {
-                "text": "Die KfW zahlt 60 Prozent des Budgets."
-              },
-              {
-                "text": "Im April hat eine Vertreterin des BMZ in einer Ausschusssitzung den Park sehr lobend hervorgehoben, weil dort die Integration der lokalen Bevölkerung so gut gelinge."
-              },
-              {
-                "text": "Das deckt sich leider nicht mit meinen Informationen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Eva-Maria Schreiber",
-            "speakerstatus": "speaker",
-            "text": "Mehrere Vertreter indigener Gemeinden haben sich aus Protest gegen die Parkverwaltung innerhalb der Parkgrenzen niedergelassen. Die Gewalt zwischen der Parkverwaltung und indigenen Gemeinden droht zu eskalieren und hat schon zu mehreren Toten geführt. Die Parkverwaltung hat aufgrund der Konflikte indigene Parkwächter und andere indigene Mitarbeiter entlassen.",
-            "sentences": [
-              {
-                "text": "Mehrere Vertreter indigener Gemeinden haben sich aus Protest gegen die Parkverwaltung innerhalb der Parkgrenzen niedergelassen."
-              },
-              {
-                "text": "Die Gewalt zwischen der Parkverwaltung und indigenen Gemeinden droht zu eskalieren und hat schon zu mehreren Toten geführt."
-              },
-              {
-                "text": "Die Parkverwaltung hat aufgrund der Konflikte indigene Parkwächter und andere indigene Mitarbeiter entlassen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Eva-Maria Schreiber",
-            "speakerstatus": "speaker",
-            "text": "Deswegen meine Frage: Können Sie mir sagen, woher das BMZ seine Informationen bezüglich der guten Zusammenarbeit der Parkverwaltung mit der lokalen Bevölkerung bezieht, und wie lassen sich die offensichtlichen Widersprüche zwischen Ihrer Darstellung und meinem Kenntnisstand erklären?",
-            "sentences": [
-              {
-                "text": "Deswegen meine Frage: Können Sie mir sagen, woher das BMZ seine Informationen bezüglich der guten Zusammenarbeit der Parkverwaltung mit der lokalen Bevölkerung bezieht, und wie lassen sich die offensichtlichen Widersprüche zwischen Ihrer Darstellung und meinem Kenntnisstand erklären?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Maria Flachsbarth",
-            "speakerstatus": "speaker",
-            "text": "Frau Kollegin, ich möchte Sie bitten, mir die Gelegenheit zu geben, Ihre Angaben intensiv zu prüfen und mit den Informationen zu vergleichen, die wir haben, damit wir zu einer befriedigenden Lösung bzw. auch zu einer befriedigenden Antwort kommen können.",
-            "sentences": [
-              {
-                "text": "Frau Kollegin, ich möchte Sie bitten, mir die Gelegenheit zu geben, Ihre Angaben intensiv zu prüfen und mit den Informationen zu vergleichen, die wir haben, damit wir zu einer befriedigenden Lösung bzw. auch zu einer befriedigenden Antwort kommen können."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Wolfgang Kubicki",
-            "speakerstatus": "vice-president",
-            "text": "Vielen Dank. – Weitere Nachfragen sehe ich nicht.",
-            "sentences": [
-              {
-                "text": "Vielen Dank."
-              },
-              {
-                "text": "– Weitere Nachfragen sehe ich nicht."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Wolfgang Kubicki",
-            "speakerstatus": "vice-president",
-            "text": "Ich rufe Frage 13 des Abgeordneten Ottmar von Holtz auf:",
-            "sentences": [
-              {
-                "text": "Ich rufe Frage 13 des Abgeordneten Ottmar von Holtz auf:"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Wolfgang Kubicki",
-            "speakerstatus": "vice-president",
-            "text": "Frau Staatssekretärin, Sie haben das Wort.",
-            "sentences": [
-              {
-                "text": "Frau Staatssekretärin, Sie haben das Wort."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Maria Flachsbarth",
-            "speakerstatus": "speaker",
-            "text": "Herzlichen Dank. – Herr Kollege Abgeordneter, die Frage des Fortbestehens des Nothilfe-Treuhandfonds der Europäischen Union für Afrika, des EUTF, steht aus Sicht der Bundesregierung in einem engen Zusammenhang mit den Ergebnissen der Verhandlungen über den neuen mehrjährigen Finanzrahmen von 2021 bis 2027. Diese dauern an.",
-            "sentences": [
-              {
-                "text": "Herzlichen Dank."
-              },
-              {
-                "text": "– Herr Kollege Abgeordneter, die Frage des Fortbestehens des Nothilfe-Treuhandfonds der Europäischen Union für Afrika, des EUTF, steht aus Sicht der Bundesregierung in einem engen Zusammenhang mit den Ergebnissen der Verhandlungen über den neuen mehrjährigen Finanzrahmen von 2021 bis 2027. Diese dauern an."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Maria Flachsbarth",
-            "speakerstatus": "speaker",
-            "text": "Sollte der Vorschlag der EU-Kommission für das neue Instrument für Nachbarschaft, Entwicklung und internationale Zusammenarbeit, dem NDICI, mit seiner intendierten Flexibilität in der bisherigen Form angenommen werden, könnte es nach Auffassung der Bundesregierung Aufgaben des bisherigen EUTF Afrika übernehmen.",
-            "sentences": [
-              {
-                "text": "Sollte der Vorschlag der EU-Kommission für das neue Instrument für Nachbarschaft, Entwicklung und internationale Zusammenarbeit, dem NDICI, mit seiner intendierten Flexibilität in der bisherigen Form angenommen werden, könnte es nach Auffassung der Bundesregierung Aufgaben des bisherigen EUTF Afrika übernehmen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Wolfgang Kubicki",
-            "speakerstatus": "vice-president",
-            "text": "Herr Kollege, Sie haben eine Nachfrage. Bitte schön.",
-            "sentences": [
-              {
-                "text": "Herr Kollege, Sie haben eine Nachfrage."
-              },
-              {
-                "text": "Bitte schön."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Ottmar von Holtz",
-            "speakerstatus": "speaker",
-            "text": "Schönen Dank. – Frau Staatssekretärin, es wird ja darüber diskutiert, dass auch andere Instrumente in dieses neue Nachbarschaftsinstrument integriert werden sollen. Für den Fall, dass es dazu kommen sollte, würde ich ganz gerne nachfragen: Wie stellt die Bundesregierung sicher, dass Gelder für bisherige Maßnahmen – aus den bisherigen Instrumenten – nicht für die Zwecke des Nothilfe-Treuhandfonds – zum Beispiel, Migrationsströme zu unterbrechen – missbraucht werden? Wie schließen Sie aus, dass es da eine Quersubventionierung gibt, sodass die bisherigen Instrumente auch zur Entfaltung kommen können, wenn es darum geht, was sie heutzutage finanzieren sollen?",
-            "sentences": [
-              {
-                "text": "Schönen Dank."
-              },
-              {
-                "text": "– Frau Staatssekretärin, es wird ja darüber diskutiert, dass auch andere Instrumente in dieses neue Nachbarschaftsinstrument integriert werden sollen."
-              },
-              {
-                "text": "Für den Fall, dass es dazu kommen sollte, würde ich ganz gerne nachfragen: Wie stellt die Bundesregierung sicher, dass Gelder für bisherige Maßnahmen – aus den bisherigen Instrumenten – nicht für die Zwecke des Nothilfe-Treuhandfonds – zum Beispiel, Migrationsströme zu unterbrechen – missbraucht werden?"
-              },
-              {
-                "text": "Wie schließen Sie aus, dass es da eine Quersubventionierung gibt, sodass die bisherigen Instrumente auch zur Entfaltung kommen können, wenn es darum geht, was sie heutzutage finanzieren sollen?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Maria Flachsbarth",
-            "speakerstatus": "speaker",
-            "text": "Herr Kollege, wie Sie wissen, sind wir im Moment noch in Verhandlungen zu diesem neuen Instrument, dem NDICI, begriffen. Die Fragen, die Sie angesprochen haben, sind ohne Frage solche, die im Rahmen dieser Verhandlungen erörtert werden müssen.",
-            "sentences": [
-              {
-                "text": "Herr Kollege, wie Sie wissen, sind wir im Moment noch in Verhandlungen zu diesem neuen Instrument, dem NDICI, begriffen."
-              },
-              {
-                "text": "Die Fragen, die Sie angesprochen haben, sind ohne Frage solche, die im Rahmen dieser Verhandlungen erörtert werden müssen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Wolfgang Kubicki",
-            "speakerstatus": "vice-president",
-            "text": "Es gibt keine weiteren Nachfragen, wie ich sehe. – Da die Frage 14 der Abgeordneten Filiz Polat schriftlich beantwortet wird, verlassen wir nunmehr den Geschäftsbereich des Bundesministeriums für wirtschaftliche Zusammenarbeit und Entwicklung. – Wir danken Ihnen, Frau Staatssekretärin.",
-            "sentences": [
-              {
-                "text": "Es gibt keine weiteren Nachfragen, wie ich sehe."
-              },
-              {
-                "text": "– Da die Frage 14 der Abgeordneten Filiz Polat schriftlich beantwortet wird, verlassen wir nunmehr den Geschäftsbereich des Bundesministeriums für wirtschaftliche Zusammenarbeit und Entwicklung."
-              },
-              {
-                "text": "– Wir danken Ihnen, Frau Staatssekretärin."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Wolfgang Kubicki",
-            "speakerstatus": "vice-president",
-            "text": "Ich rufe den Geschäftsbereich der Bundeskanzlerin und des Bundeskanzleramtes auf. Zur Beantwortung steht Herr Staatsminister Dr. Hendrik Hoppenstedt bereit.",
-            "sentences": [
-              {
-                "text": "Ich rufe den Geschäftsbereich der Bundeskanzlerin und des Bundeskanzleramtes auf."
-              },
-              {
-                "text": "Zur Beantwortung steht Herr Staatsminister Dr. Hendrik Hoppenstedt bereit."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Wolfgang Kubicki",
-            "speakerstatus": "vice-president",
-            "text": "Ich rufe die Frage 15 des Abgeordneten Uwe Kekeritz, Bündnis 90/Die Grünen, auf:",
-            "sentences": [
-              {
-                "text": "Ich rufe die Frage 15 des Abgeordneten Uwe Kekeritz, Bündnis 90/Die Grünen, auf:"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Wolfgang Kubicki",
-            "speakerstatus": "vice-president",
-            "text": "Herr Staatsminister, Sie haben das Wort.",
-            "sentences": [
-              {
-                "text": "Herr Staatsminister, Sie haben das Wort."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Hendrik Hoppenstedt",
-            "speakerstatus": "speaker",
-            "text": "Vielen Dank. – Herr Kollege Kekeritz, ich beantworte gerne Ihre Frage wie folgt: Die Bundeskanzlerin hat in Burkina Faso Rechtsanwälte und Bürgerrechtler, Frauenrechtlerinnen sowie Vertreter von Nichtregierungsorganisationen aus den Bereichen „Demokratieförderung“ und „Genderfragen“ getroffen. Zudem hat sie mit 300 Studenten aller Fachrichtungen an der Universität von Ouagadougou diskutiert.",
-            "sentences": [
-              {
-                "text": "Vielen Dank."
-              },
-              {
-                "text": "– Herr Kollege Kekeritz, ich beantworte gerne Ihre Frage wie folgt: Die Bundeskanzlerin hat in Burkina Faso Rechtsanwälte und Bürgerrechtler, Frauenrechtlerinnen sowie Vertreter von Nichtregierungsorganisationen aus den Bereichen „Demokratieförderung“ und „Genderfragen“ getroffen."
-              },
-              {
-                "text": "Zudem hat sie mit 300 Studenten aller Fachrichtungen an der Universität von Ouagadougou diskutiert."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Hendrik Hoppenstedt",
-            "speakerstatus": "speaker",
-            "text": "In Niger hat sich die Bundeskanzlerin mit Vertretern von Nichtregierungsorganisationen aus den Bereichen „Reproduktive Gesundheit“, „Landwirtschaft“, „Demokratieförderung“ und „Radikalismusbekämpfung“ ausgetauscht. Zudem hat sie sich mit der Nichtregierungsorganisation SOS Femmes et Enfants Victimes de la Violence Familiale getroffen und die Baustelle eines Frauenhauses besucht, das mit von ihr gespendetem Preisgeld finanziert wird.",
-            "sentences": [
-              {
-                "text": "In Niger hat sich die Bundeskanzlerin mit Vertretern von Nichtregierungsorganisationen aus den Bereichen „Reproduktive Gesundheit“, „Landwirtschaft“, „Demokratieförderung“ und „Radikalismusbekämpfung“ ausgetauscht."
-              },
-              {
-                "text": "Zudem hat sie sich mit der Nichtregierungsorganisation SOS Femmes et Enfants Victimes de la Violence Familiale getroffen und die Baustelle eines Frauenhauses besucht, das mit von ihr gespendetem Preisgeld finanziert wird."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Hendrik Hoppenstedt",
-            "speakerstatus": "speaker",
-            "text": "Die Bundeskanzlerin und der nigrische Staatspräsident haben sich während des Besuches der Bundeskanzlerin im Niger umfassend über die Lage im Land und in der Region sowie über die bilateralen Beziehungen ausgetauscht. Wie in der Pressekonferenz der beiden am 2. Mai dieses Jahres in Niamey erwähnt, wurde auch über die Themen Demokratie, gute Regierungsführung und Menschenrechte gesprochen. Insoweit darf ich a uf die öffentlich verfügbare Mitschrift dieser Pressekonferenz verweisen.",
-            "sentences": [
-              {
-                "text": "Die Bundeskanzlerin und der nigrische Staatspräsident haben sich während des Besuches der Bundeskanzlerin im Niger umfassend über die Lage im Land und in der Region sowie über die bilateralen Beziehungen ausgetauscht."
-              },
-              {
-                "text": "Wie in der Pressekonferenz der beiden am 2. Mai dieses Jahres in Niamey erwähnt, wurde auch über die Themen Demokratie, gute Regierungsführung und Menschenrechte gesprochen."
-              },
-              {
-                "text": "Insoweit darf ich a uf die öffentlich verfügbare Mitschrift dieser Pressekonferenz verweisen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Hendrik Hoppenstedt",
-            "speakerstatus": "speaker",
-            "text": "Ich bitte aber um Verständnis, dass die Bundesregierung im Übrigen zu den konkreten Inhalten der vertraulichen Gespräche der Bundeskanzlerin mit Vertretern ausländischer Regierungen aus Staatswohlgründen keine Angaben macht.",
-            "sentences": [
-              {
-                "text": "Ich bitte aber um Verständnis, dass die Bundesregierung im Übrigen zu den konkreten Inhalten der vertraulichen Gespräche der Bundeskanzlerin mit Vertretern ausländischer Regierungen aus Staatswohlgründen keine Angaben macht."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Wolfgang Kubicki",
-            "speakerstatus": "vice-president",
-            "text": "Herr Kollege Kekeritz, Sie haben eine Nachfrage. Bitte schön.",
-            "sentences": [
-              {
-                "text": "Herr Kollege Kekeritz, Sie haben eine Nachfrage."
-              },
-              {
-                "text": "Bitte schön."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Uwe Kekeritz",
-            "speakerstatus": "speaker",
-            "text": "Danke sehr. – Dann verlassen wir die zivilgesellschaftliche Ebene und kommen zur Entwicklung in dieser Region insgesamt. Die Kanzlerin hat den Einsatz der G-5-Staaten als erfolgreich dargestellt. Das hat mich etwas verwundert. Die Sicherheitslage in den G-5-Staaten verschlechtert sich zunehmend, gerade im Niger und in Mali. In Burkina Faso ist die Entwicklung sehr besorgniserregend.",
-            "sentences": [
-              {
-                "text": "Danke sehr."
-              },
-              {
-                "text": "– Dann verlassen wir die zivilgesellschaftliche Ebene und kommen zur Entwicklung in dieser Region insgesamt."
-              },
-              {
-                "text": "Die Kanzlerin hat den Einsatz der G-5-Staaten als erfolgreich dargestellt."
-              },
-              {
-                "text": "Das hat mich etwas verwundert."
-              },
-              {
-                "text": "Die Sicherheitslage in den G-5-Staaten verschlechtert sich zunehmend, gerade im Niger und in Mali."
-              },
-              {
-                "text": "In Burkina Faso ist die Entwicklung sehr besorgniserregend."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Uwe Kekeritz",
-            "speakerstatus": "speaker",
-            "text": "Da frage ich mich schon: Wie kommt die Kanzlerin zu dem Ergebnis, dass es eine positive Entwicklung gibt? In den französischen Medien wird breit darüber berichtet – das haben übrigens auch gestern im Rat die Außen- und Verteidigungsminister der G-5-Staaten bestätigt –, dass die G-5-Eingreiftruppen eigentlich überhaupt nicht funktionsfähig sind und dass sie bei der Aufstellung extreme Schwierigkeiten haben. Man weiß nicht, ob sie überhaupt einmal wirklich einsatzfähig werden. Woher kommt die Einschätzung, dass der Einsatz erfolgreich ist?",
-            "sentences": [
-              {
-                "text": "Da frage ich mich schon: Wie kommt die Kanzlerin zu dem Ergebnis, dass es eine positive Entwicklung gibt?"
-              },
-              {
-                "text": "In den französischen Medien wird breit darüber berichtet – das haben übrigens auch gestern im Rat die Außen- und Verteidigungsminister der G-5-Staaten bestätigt –, dass die G-5-Eingreiftruppen eigentlich überhaupt nicht funktionsfähig sind und dass sie bei der Aufstellung extreme Schwierigkeiten haben."
-              },
-              {
-                "text": "Man weiß nicht, ob sie überhaupt einmal wirklich einsatzfähig werden."
-              },
-              {
-                "text": "Woher kommt die Einschätzung, dass der Einsatz erfolgreich ist?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Hendrik Hoppenstedt",
-            "speakerstatus": "speaker",
-            "text": "Herr Kollege, ich teile Ihre Auffassung, dass die Sicherheitslage in den von Ihnen beschriebenen Ländern sicherlich schwierig ist. Aber die Bundesregierung wertet die Zusammenarbeit zwischen Deutschland und den G-5-Staaten wie auch die Zusammenarbeit zwischen der Europäischen Union und den G-5-Staaten sehr wohl als Erfolg. Ich gehe davon aus, dass es das ist, was die Bundeskanzlerin zum Ausdruck gebracht hat.",
-            "sentences": [
-              {
-                "text": "Herr Kollege, ich teile Ihre Auffassung, dass die Sicherheitslage in den von Ihnen beschriebenen Ländern sicherlich schwierig ist."
-              },
-              {
-                "text": "Aber die Bundesregierung wertet die Zusammenarbeit zwischen Deutschland und den G-5-Staaten wie auch die Zusammenarbeit zwischen der Europäischen Union und den G-5-Staaten sehr wohl als Erfolg."
-              },
-              {
-                "text": "Ich gehe davon aus, dass es das ist, was die Bundeskanzlerin zum Ausdruck gebracht hat."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Wolfgang Kubicki",
-            "speakerstatus": "vice-president",
-            "text": "Herr Kollege Kekeritz, eine letzte Nachfrage.",
-            "sentences": [
-              {
-                "text": "Herr Kollege Kekeritz, eine letzte Nachfrage."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Uwe Kekeritz",
-            "speakerstatus": "speaker",
-            "text": "Eine letzte Nachfrage. – Also, interessant ist das schon.",
-            "sentences": [
-              {
-                "text": "Eine letzte Nachfrage."
-              },
-              {
-                "text": "– Also, interessant ist das schon."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Uwe Kekeritz",
-            "speakerstatus": "speaker",
-            "text": "Eine andere Frage. Es gibt ja auch immer wieder Menschenrechtsverletzungen durch Militärs. Es ist ja so, dass die Europäische Union die G-5-Eingreiftruppe massiv finanziert. Wie stellen Sie eigentlich sicher, dass eben Menschenrechtsverletzungen minimiert oder ganz ausgeschlossen werden?",
-            "sentences": [
-              {
-                "text": "Eine andere Frage."
-              },
-              {
-                "text": "Es gibt ja auch immer wieder Menschenrechtsverletzungen durch Militärs."
-              },
-              {
-                "text": "Es ist ja so, dass die Europäische Union die G-5-Eingreiftruppe massiv finanziert."
-              },
-              {
-                "text": "Wie stellen Sie eigentlich sicher, dass eben Menschenrechtsverletzungen minimiert oder ganz ausgeschlossen werden?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Hendrik Hoppenstedt",
-            "speakerstatus": "speaker",
-            "text": "Ich möchte auf meine Ausgangsantwort zurückkommen und Ihnen versichern, dass die Bundeskanzlerin gerade auch bei dem Besuch, über den ich eben berichtet habe, die Menschenrechtslage in all den Ländern mit den jeweiligen Regierungschefs sehr intensiv angesprochen hat, sodass wir dort in einem permanenten Austausch sind, und wir alles dafür tun, dass die Menschenrechte in den G-5-Staaten entsprechend gewahrt bleiben.",
-            "sentences": [
-              {
-                "text": "Ich möchte auf meine Ausgangsantwort zurückkommen und Ihnen versichern, dass die Bundeskanzlerin gerade auch bei dem Besuch, über den ich eben berichtet habe, die Menschenrechtslage in all den Ländern mit den jeweiligen Regierungschefs sehr intensiv angesprochen hat, sodass wir dort in einem permanenten Austausch sind, und wir alles dafür tun, dass die Menschenrechte in den G-5-Staaten entsprechend gewahrt bleiben."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Wolfgang Kubicki",
-            "speakerstatus": "vice-president",
-            "text": "Herr Staatsminister, herzlichen Dank. – Wir verlassen damit den Geschäftsbereich der Bundeskanzlerin und des Bundeskanzleramtes.",
-            "sentences": [
-              {
-                "text": "Herr Staatsminister, herzlichen Dank."
-              },
-              {
-                "text": "– Wir verlassen damit den Geschäftsbereich der Bundeskanzlerin und des Bundeskanzleramtes."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Wolfgang Kubicki",
-            "speakerstatus": "vice-president",
-            "text": "Ich rufe den Geschäftsbereich des Bundesministeriums der Finanzen auf. Zur Beantwortung steht Frau Parlamentarische Staatssekretärin Christine Lambrecht bereit.",
-            "sentences": [
-              {
-                "text": "Ich rufe den Geschäftsbereich des Bundesministeriums der Finanzen auf."
-              },
-              {
-                "text": "Zur Beantwortung steht Frau Parlamentarische Staatssekretärin Christine Lambrecht bereit."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Wolfgang Kubicki",
-            "speakerstatus": "vice-president",
-            "text": "Ich rufe die Frage 16 des Abgeordneten Dr. Christoph Hoffmann auf:",
-            "sentences": [
-              {
-                "text": "Ich rufe die Frage 16 des Abgeordneten Dr. Christoph Hoffmann auf:"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Wolfgang Kubicki",
-            "speakerstatus": "vice-president",
-            "text": "Frau Staatssekretärin, Sie haben das Wort.",
-            "sentences": [
-              {
-                "text": "Frau Staatssekretärin, Sie haben das Wort."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Christine Lambrecht",
-            "speakerstatus": "speaker",
-            "text": "Vielen Dank, Herr Präsident. – Bevor ich zum Einzelplan 23 komme, vielleicht zwei Vorbemerkungen. Die erste Vorbemerkung: Die Steuerschätzungen beziehen sich darauf, dass der ursprünglich sehr hoch angesetzte Zuwachs nicht in dem Ausmaß wie vermutet kommen wird, sondern etwas geringer ausfallen wird. Ich glaube, man kann in diesem Zusammenhang das Ergebnis dieser Steuerschätzung relativieren. Von daher müssen wir uns eben darauf einstellen, dass circa 1,8 Milliarden Euro fehlen werden. Das ist das Ergebnis dessen, was an geringerem Zuwachs zu erwarten ist.",
-            "sentences": [
-              {
-                "text": "Vielen Dank, Herr Präsident."
-              },
-              {
-                "text": "– Bevor ich zum Einzelplan 23 komme, vielleicht zwei Vorbemerkungen."
-              },
-              {
-                "text": "Die erste Vorbemerkung: Die Steuerschätzungen beziehen sich darauf, dass der ursprünglich sehr hoch angesetzte Zuwachs nicht in dem Ausmaß wie vermutet kommen wird, sondern etwas geringer ausfallen wird."
-              },
-              {
-                "text": "Ich glaube, man kann in diesem Zusammenhang das Ergebnis dieser Steuerschätzung relativieren."
-              },
-              {
-                "text": "Von daher müssen wir uns eben darauf einstellen, dass circa 1,8 Milliarden Euro fehlen werden."
-              },
-              {
-                "text": "Das ist das Ergebnis dessen, was an geringerem Zuwachs zu erwarten ist."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Christine Lambrecht",
-            "speakerstatus": "speaker",
-            "text": "Die zweite Vorbemerkung: Bei der jetzt anstehenden Haushaltsaufstellung – die Eckpunkte liegen ja seit März dieses Jahres vor – werden wir dies auf der einen Seite natürlich berücksichtigen müssen und dementsprechend Anpassungen vornehmen. Auf der anderen Seite gehen wir davon aus, dass wir ohne weitere Schulden auskommen wollen und auskommen werden.",
-            "sentences": [
-              {
-                "text": "Die zweite Vorbemerkung: Bei der jetzt anstehenden Haushaltsaufstellung – die Eckpunkte liegen ja seit März dieses Jahres vor – werden wir dies auf der einen Seite natürlich berücksichtigen müssen und dementsprechend Anpassungen vornehmen."
-              },
-              {
-                "text": "Auf der anderen Seite gehen wir davon aus, dass wir ohne weitere Schulden auskommen wollen und auskommen werden."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Christine Lambrecht",
-            "speakerstatus": "speaker",
-            "text": "In diesem Zusammenhang wird jetzt mit einzelnen Ressorts beraten, auch mit dem Ministerium, das Sie angesprochen haben. Aber ich bitte mit Blick auf die Ressortzuständigkeit auch um Verständnis dafür, dass ich darüber, wie diese Ressortgespräche in einzelnen Punkten ausgehen, hier keine Stellung nehmen kann. Wie gesagt, die Beratungen laufen. Es ist angedacht, im Juni dieses Jahres den Entwurf vorzustellen.",
-            "sentences": [
-              {
-                "text": "In diesem Zusammenhang wird jetzt mit einzelnen Ressorts beraten, auch mit dem Ministerium, das Sie angesprochen haben."
-              },
-              {
-                "text": "Aber ich bitte mit Blick auf die Ressortzuständigkeit auch um Verständnis dafür, dass ich darüber, wie diese Ressortgespräche in einzelnen Punkten ausgehen, hier keine Stellung nehmen kann."
-              },
-              {
-                "text": "Wie gesagt, die Beratungen laufen."
-              },
-              {
-                "text": "Es ist angedacht, im Juni dieses Jahres den Entwurf vorzustellen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Wolfgang Kubicki",
-            "speakerstatus": "vice-president",
-            "text": "Zu einer ersten Nachfrage hat der Kollege Dr. Hoffmann das Wort.",
-            "sentences": [
-              {
-                "text": "Zu einer ersten Nachfrage hat der Kollege Dr. Hoffmann das Wort."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Christoph Hoffmann",
-            "speakerstatus": "speaker",
-            "text": "Ich verstehe, was Sie sagen. Aber dennoch sind Kürzungen im Einzelplan 23 angekündigt. Das Volumen des Einzelplans soll sinken. Der Minister hat in der Kabinettssitzung eine Protestnote hinterlassen. Er sagt: Wer den Entwicklungsetat kürzt, muss Verantwortung für Leben und Tod in Krisengebieten übernehmen. – Was sagt das Bundesfinanzministerium zu dieser Aussage?",
-            "sentences": [
-              {
-                "text": "Ich verstehe, was Sie sagen."
-              },
-              {
-                "text": "Aber dennoch sind Kürzungen im Einzelplan 23 angekündigt."
-              },
-              {
-                "text": "Das Volumen des Einzelplans soll sinken."
-              },
-              {
-                "text": "Der Minister hat in der Kabinettssitzung eine Protestnote hinterlassen."
-              },
-              {
-                "text": "Er sagt: Wer den Entwicklungsetat kürzt, muss Verantwortung für Leben und Tod in Krisengebieten übernehmen."
-              },
-              {
-                "text": "– Was sagt das Bundesfinanzministerium zu dieser Aussage?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Christine Lambrecht",
-            "speakerstatus": "speaker",
-            "text": "Dass wir natürlich diese Einschätzung des Ministers zur Kenntnis nehmen und sie auch intensiv diskutieren werden. Aber ich gebe noch einmal zu bedenken: Die Verhandlungen mit den Ressorts laufen noch. Deswegen wäre es jetzt, glaube ich, sehr unklug, solche Ressortverhandlungen mit Ihnen hier offen zu debattieren. Deswegen bitte ich um Verständnis, dass wir uns zu gegebener Zeit erklären werden.",
-            "sentences": [
-              {
-                "text": "Dass wir natürlich diese Einschätzung des Ministers zur Kenntnis nehmen und sie auch intensiv diskutieren werden."
-              },
-              {
-                "text": "Aber ich gebe noch einmal zu bedenken: Die Verhandlungen mit den Ressorts laufen noch."
-              },
-              {
-                "text": "Deswegen wäre es jetzt, glaube ich, sehr unklug, solche Ressortverhandlungen mit Ihnen hier offen zu debattieren."
-              },
-              {
-                "text": "Deswegen bitte ich um Verständnis, dass wir uns zu gegebener Zeit erklären werden."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Wolfgang Kubicki",
-            "speakerstatus": "vice-president",
-            "text": "Zu seiner letzten Nachfrage hat das Wort der Kollege Dr. Hoffmann.",
-            "sentences": [
-              {
-                "text": "Zu seiner letzten Nachfrage hat das Wort der Kollege Dr. Hoffmann."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Christoph Hoffmann",
-            "speakerstatus": "speaker",
-            "text": "Der Eckwertebeschluss ist ja da. Darin sieht man, welches Ministerium weniger oder mehr Mittel bekommt: Beim Bundeswirtschaftsministerium geht der Einzelplan um 21 Prozent runter, beim AA um 13 Prozent runter. Beim Sozialetat, dem größten Brocken, geht der Etat um 5 Prozent nach oben, und beim BMZ geht er halt runter. Wieso geht ausgerechnet jetzt der Etat beim BMZ runter, obwohl doch die Krisensituationen in vielen Ländern dieser Welt und auch die Klimaschutzproblematik in diesen Ländern so virulent sind?",
-            "sentences": [
-              {
-                "text": "Der Eckwertebeschluss ist ja da."
-              },
-              {
-                "text": "Darin sieht man, welches Ministerium weniger oder mehr Mittel bekommt: Beim Bundeswirtschaftsministerium geht der Einzelplan um 21 Prozent runter, beim AA um 13 Prozent runter."
-              },
-              {
-                "text": "Beim Sozialetat, dem größten Brocken, geht der Etat um 5 Prozent nach oben, und beim BMZ geht er halt runter."
-              },
-              {
-                "text": "Wieso geht ausgerechnet jetzt der Etat beim BMZ runter, obwohl doch die Krisensituationen in vielen Ländern dieser Welt und auch die Klimaschutzproblematik in diesen Ländern so virulent sind?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Christine Lambrecht",
-            "speakerstatus": "speaker",
-            "text": "Insgesamt – das hat der Minister der Finanzen, Herr Scholz, gegenüber seinen Kabinettskollegen deutlich gemacht – ist jetzt natürlich Haushaltsdisziplin erforderlich, da wir nicht mehr wie in den Jahren davor in dieser sehr besonderen Situation sind, was die Steuereinnahmen betrifft. Deswegen werden wir jetzt auf Grundlage des Eckpunktevorschlags die endgültigen Beratungen sehr genau vornehmen. Dabei werden natürlich auch außenpolitische Erwägungen eine Rolle spielen. Aber ich gebe noch einmal zu bedenken: Haushaltsdisziplin über alle Ressorts ist die Ansage.",
-            "sentences": [
-              {
-                "text": "Insgesamt – das hat der Minister der Finanzen, Herr Scholz, gegenüber seinen Kabinettskollegen deutlich gemacht – ist jetzt natürlich Haushaltsdisziplin erforderlich, da wir nicht mehr wie in den Jahren davor in dieser sehr besonderen Situation sind, was die Steuereinnahmen betrifft."
-              },
-              {
-                "text": "Deswegen werden wir jetzt auf Grundlage des Eckpunktevorschlags die endgültigen Beratungen sehr genau vornehmen."
-              },
-              {
-                "text": "Dabei werden natürlich auch außenpolitische Erwägungen eine Rolle spielen."
-              },
-              {
-                "text": "Aber ich gebe noch einmal zu bedenken: Haushaltsdisziplin über alle Ressorts ist die Ansage."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Wolfgang Kubicki",
-            "speakerstatus": "vice-president",
-            "text": "Herzlichen Dank. – Keine weiteren Nachfragen dazu.",
-            "sentences": [
-              {
-                "text": "Herzlichen Dank."
-              },
-              {
-                "text": "– Keine weiteren Nachfragen dazu."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Wolfgang Kubicki",
-            "speakerstatus": "vice-president",
-            "text": "Ich rufe die Frage 17 des Kollegen Gerald Ullrich auf:",
-            "sentences": [
-              {
-                "text": "Ich rufe die Frage 17 des Kollegen Gerald Ullrich auf:"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Wolfgang Kubicki",
-            "speakerstatus": "vice-president",
-            "text": "Frau Staatssekretärin, Sie haben das Wort.",
-            "sentences": [
-              {
-                "text": "Frau Staatssekretärin, Sie haben das Wort."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Christine Lambrecht",
-            "speakerstatus": "speaker",
-            "text": "Auch da darf ich bitte eine Vorbemerkung machen. Die Haushaltsaufstellung ist eine Königsdisziplin, sowohl im deutschen Parlament als auch im italienischen Parlament. Deswegen: Mit Rücksicht auf dieses Recht werden wir nicht den von Ihnen vorgeschlagenen Weg gehen, auf die Entscheidung des italienischen Parlaments in Bezug auf den italienischen Haushalt diplomatischen Druck auszuüben. Das ist unserer Meinung nach nicht der richtige Weg. Wir arbeiten mit unseren Partnern in Europa sehr vertrauensvoll, aber ohne Ausübung von Druck zusammen.",
-            "sentences": [
-              {
-                "text": "Auch da darf ich bitte eine Vorbemerkung machen."
-              },
-              {
-                "text": "Die Haushaltsaufstellung ist eine Königsdisziplin, sowohl im deutschen Parlament als auch im italienischen Parlament."
-              },
-              {
-                "text": "Deswegen: Mit Rücksicht auf dieses Recht werden wir nicht den von Ihnen vorgeschlagenen Weg gehen, auf die Entscheidung des italienischen Parlaments in Bezug auf den italienischen Haushalt diplomatischen Druck auszuüben."
-              },
-              {
-                "text": "Das ist unserer Meinung nach nicht der richtige Weg."
-              },
-              {
-                "text": "Wir arbeiten mit unseren Partnern in Europa sehr vertrauensvoll, aber ohne Ausübung von Druck zusammen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Christine Lambrecht",
-            "speakerstatus": "speaker",
-            "text": "Die Überprüfung der Einhaltung des Stabilitäts- und Wachstumspaktes in der EU ist auch nicht Aufgabe Deutschlands, sondern die der EU-Kommission. Sie wird dieser Aufgabe nachkommen, so wie sie es auch im letzten Jahr getan hat, und die entsprechenden Hinweise dann mit der italienischen Regierung beraten.",
-            "sentences": [
-              {
-                "text": "Die Überprüfung der Einhaltung des Stabilitäts- und Wachstumspaktes in der EU ist auch nicht Aufgabe Deutschlands, sondern die der EU-Kommission."
-              },
-              {
-                "text": "Sie wird dieser Aufgabe nachkommen, so wie sie es auch im letzten Jahr getan hat, und die entsprechenden Hinweise dann mit der italienischen Regierung beraten."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Wolfgang Kubicki",
-            "speakerstatus": "vice-president",
-            "text": "Herr Kollege Ullrich, eine erste Nachfrage.",
-            "sentences": [
-              {
-                "text": "Herr Kollege Ullrich, eine erste Nachfrage."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Gerald Ullrich",
-            "speakerstatus": "speaker",
-            "text": "Frau Staatssekretärin, wir sind eine sehr europafreundliche Partei. Trotzdem müssen wir sagen, dass aus dem, was Sie sagten, 2008/2009 schon einmal eine Staatsschuldenkrise entstanden ist, weil wir nämlich allen anderen das Überwachen überlassen haben und uns selbst aber nie gekümmert haben. Die Folgen davon haben uns am Ende zum Teil auch selbst getroffen. Wir in Deutschland haben daraus einige Lehren gezogen. Ob wir in der Summe die richtigen gezogen haben, weiß ich nicht.",
-            "sentences": [
-              {
-                "text": "Frau Staatssekretärin, wir sind eine sehr europafreundliche Partei."
-              },
-              {
-                "text": "Trotzdem müssen wir sagen, dass aus dem, was Sie sagten, 2008/2009 schon einmal eine Staatsschuldenkrise entstanden ist, weil wir nämlich allen anderen das Überwachen überlassen haben und uns selbst aber nie gekümmert haben."
-              },
-              {
-                "text": "Die Folgen davon haben uns am Ende zum Teil auch selbst getroffen."
-              },
-              {
-                "text": "Wir in Deutschland haben daraus einige Lehren gezogen."
-              },
-              {
-                "text": "Ob wir in der Summe die richtigen gezogen haben, weiß ich nicht."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Gerald Ullrich",
-            "speakerstatus": "speaker",
-            "text": "Wir müssen aber doch sagen, dass wir als größte Wirtschaftsnation in Europa schon dafür verantwortlich sind, dass sich die Sache von 2008/2009 nicht wiederholt. Wenn wir uns einfach nur im Schaukelstuhl zurücklehnen und sagen: „Die Kommission wird es schon machen“, dann muss ich Ihnen sagen: Wir sind Teil dieser Kommission. Wir haben in besonderem Maße Verantwortung. – Ich denke, dass die Bundesregierung dieser Verantwortung, wenn sie sagt, die Kommission werde es mit Italien schon richten, einfach nicht nachkommt. Wie stehen Sie dazu?",
-            "sentences": [
-              {
-                "text": "Wir müssen aber doch sagen, dass wir als größte Wirtschaftsnation in Europa schon dafür verantwortlich sind, dass sich die Sache von 2008/2009 nicht wiederholt."
-              },
-              {
-                "text": "Wenn wir uns einfach nur im Schaukelstuhl zurücklehnen und sagen: „Die Kommission wird es schon machen“, dann muss ich Ihnen sagen: Wir sind Teil dieser Kommission."
-              },
-              {
-                "text": "Wir haben in besonderem Maße Verantwortung. –"
-              },
-              {
-                "text": "Ich denke, dass die Bundesregierung dieser Verantwortung, wenn sie sagt, die Kommission werde es mit Italien schon richten, einfach nicht nachkommt."
-              },
-              {
-                "text": "Wie stehen Sie dazu?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Christine Lambrecht",
-            "speakerstatus": "speaker",
-            "text": "Ich muss die Behauptung zurückweisen, dass ich gesagt habe: Italien wird es schon richten. – Ich habe deutlich gemacht: Die Lehren aus der Krise 2008/2009 sind eben, dass es diesen Stabilitäts- und Wachstumspakt gibt und dass die Einhaltung dieses Paktes von der EU-Kommission überwacht wird. Das wird sehr genau überwacht. Es werden auch die entsprechenden Konsequenzen gezogen.",
-            "sentences": [
-              {
-                "text": "Ich muss die Behauptung zurückweisen, dass ich gesagt habe: Italien wird es schon richten."
-              },
-              {
-                "text": "– Ich habe deutlich gemacht: Die Lehren aus der Krise 2008/2009 sind eben, dass es diesen Stabilitäts- und Wachstumspakt gibt und dass die Einhaltung dieses Paktes von der EU-Kommission überwacht wird."
-              },
-              {
-                "text": "Das wird sehr genau überwacht."
-              },
-              {
-                "text": "Es werden auch die entsprechenden Konsequenzen gezogen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Christine Lambrecht",
-            "speakerstatus": "speaker",
-            "text": "Aber ich weiß nicht, ob es tatsächlich die Position der FDP ist, dass Deutschland über jeden anderen Haushalt in der Europäischen Union wachen soll und bei etwaigen Fehlentwicklungen dann mit diplomatischem Druck dagegen vorgehen soll. Ich bin mir nicht so sicher, ob das tatsächlich ein Vorschlag aus der FDP ist. Wir würden es auf jeden Fall für den falschen Weg halten. Der richtige Weg ist, dass die Überwachung über die EU-Kommission läuft. Sie beobachtet die anderen Länder sehr genau. Selbstverständlich wird über diese Situation in diversen Gremien, etwa Ecofin und anderen europäischen Gremien, auch diskutiert.",
-            "sentences": [
-              {
-                "text": "Aber ich weiß nicht, ob es tatsächlich die Position der FDP ist, dass Deutschland über jeden anderen Haushalt in der Europäischen Union wachen soll und bei etwaigen Fehlentwicklungen dann mit diplomatischem Druck dagegen vorgehen soll."
-              },
-              {
-                "text": "Ich bin mir nicht so sicher, ob das tatsächlich ein Vorschlag aus der FDP ist."
-              },
-              {
-                "text": "Wir würden es auf jeden Fall für den falschen Weg halten."
-              },
-              {
-                "text": "Der richtige Weg ist, dass die Überwachung über die EU-Kommission läuft."
-              },
-              {
-                "text": "Sie beobachtet die anderen Länder sehr genau."
-              },
-              {
-                "text": "Selbstverständlich wird über diese Situation in diversen Gremien, etwa Ecofin und anderen europäischen Gremien, auch diskutiert."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Christine Lambrecht",
-            "speakerstatus": "speaker",
-            "text": "Noch einmal zum Thema Überwachung. Ich glaube, es wäre der falsche Weg, wenn sich Deutschland in diese Rolle begäbe. Ich glaube, es käme bei europäischen Ländern auch nicht gut an, wenn wir die Rolle des Oberwächters übernehmen würden.",
-            "sentences": [
-              {
-                "text": "Noch einmal zum Thema Überwachung."
-              },
-              {
-                "text": "Ich glaube, es wäre der falsche Weg, wenn sich Deutschland in diese Rolle begäbe."
-              },
-              {
-                "text": "Ich glaube, es käme bei europäischen Ländern auch nicht gut an, wenn wir die Rolle des Oberwächters übernehmen würden."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Wolfgang Kubicki",
-            "speakerstatus": "vice-president",
-            "text": "Herr Kollege Ullrich, eine letzte Nachfrage.",
-            "sentences": [
-              {
-                "text": "Herr Kollege Ullrich, eine letzte Nachfrage."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Gerald Ullrich",
-            "speakerstatus": "speaker",
-            "text": "Sicher sind wir nicht der Schulmeister und der Lehrmeister in Europa; da gebe ich Ihnen völlig recht. Nichtsdestotrotz obliegt es doch uns, anderen Ratschläge zu geben, zu sagen, was passieren wird, wenn wir nicht entsprechend handeln. Wir sind doch diejenigen, die dieses Problem selbst schon hatten und deshalb auch wissen, wohin es führt. Wie sollen wir unseren Wählern erklären, dass wir die anderen in einem gemeinsamen Währungsraum machen lassen, was sie wollen?",
-            "sentences": [
-              {
-                "text": "Sicher sind wir nicht der Schulmeister und der Lehrmeister in Europa; da gebe ich Ihnen völlig recht."
-              },
-              {
-                "text": "Nichtsdestotrotz obliegt es doch uns, anderen Ratschläge zu geben, zu sagen, was passieren wird, wenn wir nicht entsprechend handeln."
-              },
-              {
-                "text": "Wir sind doch diejenigen, die dieses Problem selbst schon hatten und deshalb auch wissen, wohin es führt."
-              },
-              {
-                "text": "Wie sollen wir unseren Wählern erklären, dass wir die anderen in einem gemeinsamen Währungsraum machen lassen, was sie wollen?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Christine Lambrecht",
-            "speakerstatus": "speaker",
-            "text": "Ich muss das noch mal zurückweisen. Die Position der Bundesregierung ist nicht: Die anderen sollen machen, was sie wollen, und es hat keinerlei Konsequenzen. – Ich wiederhole es gerne.",
-            "sentences": [
-              {
-                "text": "Ich muss das noch mal zurückweisen."
-              },
-              {
-                "text": "Die Position der Bundesregierung ist nicht: Die anderen sollen machen, was sie wollen, und es hat keinerlei Konsequenzen."
-              },
-              {
-                "text": "– Ich wiederhole es gerne."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Christine Lambrecht",
-            "speakerstatus": "speaker",
-            "text": "Als Konsequenz aus der Krise 2008/2009 gibt es den Stabilitäts- und Wachstumspakt. Seitens der EU-Kommission wird kontrolliert, ob die Haushaltsaufstellung in den einzelnen Ländern die Vorgaben erfüllt. Daraus können sich entsprechende Konsequenzen ergeben, zum Beispiel dass der Haushalt nicht genehmigt wird. Es ist keineswegs so, dass alle zuschauen. In den Gremien wird, wie gesagt, vorab intern diskutiert. Aber den von Ihnen vorgeschlagenen Weg, diplomatischen Druck aus Deutschland auf ein anderes EU-Land hinsichtlich dessen Haushaltsaufstellung auszuüben, halten wir für nicht richtig.",
-            "sentences": [
-              {
-                "text": "Als Konsequenz aus der Krise 2008/2009 gibt es den Stabilitäts- und Wachstumspakt."
-              },
-              {
-                "text": "Seitens der EU-Kommission wird kontrolliert, ob die Haushaltsaufstellung in den einzelnen Ländern die Vorgaben erfüllt."
-              },
-              {
-                "text": "Daraus können sich entsprechende Konsequenzen ergeben, zum Beispiel dass der Haushalt nicht genehmigt wird."
-              },
-              {
-                "text": "Es ist keineswegs so, dass alle zuschauen."
-              },
-              {
-                "text": "In den Gremien wird, wie gesagt, vorab intern diskutiert."
-              },
-              {
-                "text": "Aber den von Ihnen vorgeschlagenen Weg, diplomatischen Druck aus Deutschland auf ein anderes EU-Land hinsichtlich dessen Haushaltsaufstellung auszuüben, halten wir für nicht richtig."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Wolfgang Kubicki",
-            "speakerstatus": "vice-president",
-            "text": "Vielen Dank, Frau Staatssekretärin.",
-            "sentences": [
-              {
-                "text": "Vielen Dank, Frau Staatssekretärin."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Wolfgang Kubicki",
-            "speakerstatus": "vice-president",
-            "text": "Ich rufe Frage 18 des Abgeordneten Torsten Herbst, FDP-Fraktion, auf:",
-            "sentences": [
-              {
-                "text": "Ich rufe Frage 18 des Abgeordneten Torsten Herbst, FDP-Fraktion, auf:"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Wolfgang Kubicki",
-            "speakerstatus": "vice-president",
-            "text": "Frau Staatssekretärin, Sie haben das Wort.",
-            "sentences": [
-              {
-                "text": "Frau Staatssekretärin, Sie haben das Wort."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Christine Lambrecht",
-            "speakerstatus": "speaker",
-            "text": "Vielen Dank. – Ich muss vorlesen, weil so viele Zahlen ordnungsgemäß vorgetragen werden sollten.",
-            "sentences": [
-              {
-                "text": "Vielen Dank."
-              },
-              {
-                "text": "– Ich muss vorlesen, weil so viele Zahlen ordnungsgemäß vorgetragen werden sollten."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Christine Lambrecht",
-            "speakerstatus": "speaker",
-            "text": "Beim Schulsanierungsprogramm des Kommunalinvestitionsförderungsgesetzes belief sich der Mittelabruf zum 7. Mai 2019 auf 46,4 Millionen Euro. Dies entspricht einem Anteil von 1,3 Prozent der vom Bund insgesamt in Kapitel 2 bereitgestellten Mittel. Auf die einzelnen Länder entfielen dabei folgende Anteile – wenn Sie diese addieren, werden Sie eine kleine Fehlsumme feststellen; das hat mit den Rundungen zu tun; ich bitte um Verständnis –: Bayern 0,3 Millionen Euro, Bremen 1,0 Millionen Euro, Hamburg 5,7 Millionen Euro, Hessen 1,8 Millionen Euro, Niedersachen 10,0 Millionen Euro, NRW 26,1 Millionen Euro, Rheinland-Pfalz 0,5 Millionen Euro, Saarland 0,1 Millionen Euro, Sachsen 0,1 Millionen Euro und Thüringen 0,9 Millionen Euro.",
-            "sentences": [
-              {
-                "text": "Beim Schulsanierungsprogramm des Kommunalinvestitionsförderungsgesetzes belief sich der Mittelabruf zum 7. Mai 2019 auf 46,4 Millionen Euro."
-              },
-              {
-                "text": "Dies entspricht einem Anteil von 1,3 Prozent der vom Bund insgesamt in Kapitel 2 bereitgestellten Mittel."
-              },
-              {
-                "text": "Auf die einzelnen Länder entfielen dabei folgende Anteile – wenn Sie diese addieren, werden Sie eine kleine Fehlsumme feststellen; das hat mit den Rundungen zu tun; ich bitte um Verständnis –: Bayern 0,3 Millionen Euro, Bremen 1,0 Millionen Euro, Hamburg 5,7 Millionen Euro, Hessen 1,8 Millionen Euro, Niedersachen 10,0 Millionen Euro, NRW 26,1 Millionen Euro, Rheinland-Pfalz 0,5 Millionen Euro, Saarland 0,1 Millionen Euro, Sachsen 0,1 Millionen Euro und Thüringen 0,9 Millionen Euro."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Wolfgang Kubicki",
-            "speakerstatus": "vice-president",
-            "text": "Herr Kollege Herbst, eine Nachfrage, bitte.",
-            "sentences": [
-              {
-                "text": "Herr Kollege Herbst, eine Nachfrage, bitte."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Torsten Herbst",
-            "speakerstatus": "speaker",
-            "text": "Vielen Dank. – Sie sprachen gerade selbst den erstaunlich geringen Mittelabfluss an. Worauf führen Sie das zurück, und sind unter Umständen Änderungen in der Genehmigungspraxis geplant, um den Mittelabfluss zu beschleunigen? Denn dass Bedarf besteht, ist, glaube ich, unstrittig.",
-            "sentences": [
-              {
-                "text": "Vielen Dank."
-              },
-              {
-                "text": "– Sie sprachen gerade selbst den erstaunlich geringen Mittelabfluss an."
-              },
-              {
-                "text": "Worauf führen Sie das zurück, und sind unter Umständen Änderungen in der Genehmigungspraxis geplant, um den Mittelabfluss zu beschleunigen?"
-              },
-              {
-                "text": "Denn dass Bedarf besteht, ist, glaube ich, unstrittig."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Christine Lambrecht",
-            "speakerstatus": "speaker",
-            "text": "Wenn man sich die Zahlen vor Augen führt, kann man den Eindruck haben, dass die Länder das nicht abgerufen haben, weil sie es nicht wollen. Das ist aber nicht der Fall. Gemäß § 6 Absatz 2 Kommunalinvestitionsförderungsgesetz sind die zuständigen Stellen der Länder erst dann ermächtigt, die Auszahlung der Bundesmittel anzuordnen, sobald sie zur anteiligen Begleichung erforderlicher Zahlungen auch benötigt werden. Dies ist in der Regel erst dann der Fall, wenn die Maßnahmen abgeschlossen oder Teilmaßnahmen durchgeführt worden sind.",
-            "sentences": [
-              {
-                "text": "Wenn man sich die Zahlen vor Augen führt, kann man den Eindruck haben, dass die Länder das nicht abgerufen haben, weil sie es nicht wollen."
-              },
-              {
-                "text": "Das ist aber nicht der Fall."
-              },
-              {
-                "text": "Gemäß § 6 Absatz 2 Kommunalinvestitionsförderungsgesetz sind die zuständigen Stellen der Länder erst dann ermächtigt, die Auszahlung der Bundesmittel anzuordnen, sobald sie zur anteiligen Begleichung erforderlicher Zahlungen auch benötigt werden."
-              },
-              {
-                "text": "Dies ist in der Regel erst dann der Fall, wenn die Maßnahmen abgeschlossen oder Teilmaßnahmen durchgeführt worden sind."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Christine Lambrecht",
-            "speakerstatus": "speaker",
-            "text": "Zu berücksichtigen ist darüber hinaus, dass Kapitel 2 des Kommunalinvestitionsförderungsgesetzes und die dazugehörigen Verwaltungsvereinbarungen von August bzw. Oktober 2017 stammen. Erst danach konnten die Länder mit der Umsetzung beginnen. Dies umfasst die Auswahl der förderberechtigten finanzschwachen Kommunen, aber auch die Verabschiedung der landesrechtlichen Umsetzungsregelungen und zuweilen die Beantragung der Projekte durch die Kommunen sowie deren Bewilligung. Es ist also immer ein Vorlauf erforderlich, damit am Ende tatsächlich der Mittelabruf möglich ist. Deswegen gehen wir davon aus, dass das jetzt deutlich ansteigen wird.",
-            "sentences": [
-              {
-                "text": "Zu berücksichtigen ist darüber hinaus, dass Kapitel 2 des Kommunalinvestitionsförderungsgesetzes und die dazugehörigen Verwaltungsvereinbarungen von August bzw. Oktober 2017 stammen."
-              },
-              {
-                "text": "Erst danach konnten die Länder mit der Umsetzung beginnen."
-              },
-              {
-                "text": "Dies umfasst die Auswahl der förderberechtigten finanzschwachen Kommunen, aber auch die Verabschiedung der landesrechtlichen Umsetzungsregelungen und zuweilen die Beantragung der Projekte durch die Kommunen sowie deren Bewilligung."
-              },
-              {
-                "text": "Es ist also immer ein Vorlauf erforderlich, damit am Ende tatsächlich der Mittelabruf möglich ist."
-              },
-              {
-                "text": "Deswegen gehen wir davon aus, dass das jetzt deutlich ansteigen wird."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Wolfgang Kubicki",
-            "speakerstatus": "vice-president",
-            "text": "Herr Kollege, eine weitere Nachfrage, bitte schön.",
-            "sentences": [
-              {
-                "text": "Herr Kollege, eine weitere Nachfrage, bitte schön."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Torsten Herbst",
-            "speakerstatus": "speaker",
-            "text": "Ich will konkret nach meinem Heimatbundesland, nach Sachsen, fragen. Haben Sie Informationen, wie viele Anmeldungen von Kommunen es auf Landesebene gibt und in welchem Volumen sich das im Moment darstellt?",
-            "sentences": [
-              {
-                "text": "Ich will konkret nach meinem Heimatbundesland, nach Sachsen, fragen."
-              },
-              {
-                "text": "Haben Sie Informationen, wie viele Anmeldungen von Kommunen es auf Landesebene gibt und in welchem Volumen sich das im Moment darstellt?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Christine Lambrecht",
-            "speakerstatus": "speaker",
-            "text": "Zu den Anmeldungen der Kommunen kann ich keine Aussage treffen,",
-            "sentences": [
-              {
-                "text": "Zu den Anmeldungen der Kommunen kann ich keine Aussage treffen,"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Christine Lambrecht",
-            "speakerstatus": "speaker",
-            "text": "aber ich kann Ihnen das natürlich schriftlich nachliefern.",
-            "sentences": [
-              {
-                "text": "aber ich kann Ihnen das natürlich schriftlich nachliefern."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Wolfgang Kubicki",
-            "speakerstatus": "vice-president",
-            "text": "Herzlichen Dank. – Herr Kollege Herbst, Sie können stehen bleiben, weil ich jetzt Ihre Frage 19 aufrufe:",
-            "sentences": [
-              {
-                "text": "Herzlichen Dank."
-              },
-              {
-                "text": "– Herr Kollege Herbst, Sie können stehen bleiben, weil ich jetzt Ihre Frage 19 aufrufe:"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Wolfgang Kubicki",
-            "speakerstatus": "vice-president",
-            "text": "Frau Staatssekretärin, Sie haben das Wort.",
-            "sentences": [
-              {
-                "text": "Frau Staatssekretärin, Sie haben das Wort."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Christine Lambrecht",
-            "speakerstatus": "speaker",
-            "text": "Herr Herbst, wir haben dazu schon Korrespondenz ausgetauscht; es gab dazu bereits eine Frage. Ich kann Ihnen heute nicht so richtig viel Neues berichten, weil die von Ihnen angefragten Zahlen, die sich aus der Überprüfung des Bestandes ergeben, uns noch nicht vorliegen.",
-            "sentences": [
-              {
-                "text": "Herr Herbst, wir haben dazu schon Korrespondenz ausgetauscht; es gab dazu bereits eine Frage."
-              },
-              {
-                "text": "Ich kann Ihnen heute nicht so richtig viel Neues berichten, weil die von Ihnen angefragten Zahlen, die sich aus der Überprüfung des Bestandes ergeben, uns noch nicht vorliegen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Wolfgang Kubicki",
-            "speakerstatus": "vice-president",
-            "text": "Gibt es eine Nachfrage, nachdem die Auskunft so erschöpfend war?",
-            "sentences": [
-              {
-                "text": "Gibt es eine Nachfrage, nachdem die Auskunft so erschöpfend war?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Torsten Herbst",
-            "speakerstatus": "speaker",
-            "text": "Was vorliegen müsste, wäre die Zahl der bisherigen Einsprüche. Können Sie dazu eine Aussage treffen?",
-            "sentences": [
-              {
-                "text": "Was vorliegen müsste, wäre die Zahl der bisherigen Einsprüche."
-              },
-              {
-                "text": "Können Sie dazu eine Aussage treffen?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Christine Lambrecht",
-            "speakerstatus": "speaker",
-            "text": "Auch dazu kann ich Ihnen noch keine Auskunft geben, weil die Überprüfung der Steuerfestsetzung auf der Grundlage des geltenden Rechts noch nicht abgeschlossen ist. Erst nach Abschluss liegen die entsprechenden Zahlen vor. Sobald wir sie haben – ich habe Sie im Blick –, werden sie Ihnen selbstverständlich nachgereicht.",
-            "sentences": [
-              {
-                "text": "Auch dazu kann ich Ihnen noch keine Auskunft geben, weil die Überprüfung der Steuerfestsetzung auf der Grundlage des geltenden Rechts noch nicht abgeschlossen ist."
-              },
-              {
-                "text": "Erst nach Abschluss liegen die entsprechenden Zahlen vor."
-              },
-              {
-                "text": "Sobald wir sie haben – ich habe Sie im Blick –, werden sie Ihnen selbstverständlich nachgereicht."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Wolfgang Kubicki",
-            "speakerstatus": "vice-president",
-            "text": "Herr Kollege, Sie haben eine weitere Nachfrage, bitte.",
-            "sentences": [
-              {
-                "text": "Herr Kollege, Sie haben eine weitere Nachfrage, bitte."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Torsten Herbst",
-            "speakerstatus": "speaker",
-            "text": "Eine ganz kurze: Können Sie ungefähr zeitlich eingrenzen – nicht auf den Tag genau –, in welchem Monat oder in welchem Quartal Sie die entsprechenden Informationen liefern können?",
-            "sentences": [
-              {
-                "text": "Eine ganz kurze: Können Sie ungefähr zeitlich eingrenzen – nicht auf den Tag genau –, in welchem Monat oder in welchem Quartal Sie die entsprechenden Informationen liefern können?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Christine Lambrecht",
-            "speakerstatus": "speaker",
-            "text": "Ich weiß etwas von den kommenden Monaten. Ich will mich jetzt ungerne auf ein bestimmtes Datum festlegen.",
-            "sentences": [
-              {
-                "text": "Ich weiß etwas von den kommenden Monaten."
-              },
-              {
-                "text": "Ich will mich jetzt ungerne auf ein bestimmtes Datum festlegen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Wolfgang Kubicki",
-            "speakerstatus": "vice-president",
-            "text": "Die kommenden Monate können auch unendlich sein. – Herzlichen Dank. Es gibt dazu keine weiteren Nachfragen.",
-            "sentences": [
-              {
-                "text": "Die kommenden Monate können auch unendlich sein."
-              },
-              {
-                "text": "– Herzlichen Dank."
-              },
-              {
-                "text": "Es gibt dazu keine weiteren Nachfragen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Wolfgang Kubicki",
-            "speakerstatus": "vice-president",
-            "text": "Die Fragen 20 und 21 des Abgeordneten Stefan Schmidt werden schriftlich beantwortet. Die Frage 22 des Abgeordneten Mario Mieruch wird schriftlich beantwortet. Die Fragen 23 und 24 des Abgeordneten Markus Herbrand werden schriftlich beantwortet. Damit verlassen wir den Geschäftsbereich des Bundesministeriums der Finanzen. Frau Staatssekretärin, herzlichen Dank.",
-            "sentences": [
-              {
-                "text": "Die Fragen 20 und 21 des Abgeordneten Stefan Schmidt werden schriftlich beantwortet."
-              },
-              {
-                "text": "Die Frage 22 des Abgeordneten Mario Mieruch wird schriftlich beantwortet."
-              },
-              {
-                "text": "Die Fragen 23 und 24 des Abgeordneten Markus Herbrand werden schriftlich beantwortet."
-              },
-              {
-                "text": "Damit verlassen wir den Geschäftsbereich des Bundesministeriums der Finanzen."
-              },
-              {
-                "text": "Frau Staatssekretärin, herzlichen Dank."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Wolfgang Kubicki",
-            "speakerstatus": "vice-president",
-            "text": "Ich rufe den Geschäftsbereich des Bundesministeriums des Innern, für Bau und Heimat auf – für ganz wenige Fragen, wahrscheinlich nur für eine Frage. Zur Beantwortung steht bereit der Herr Parlamentarische Staatssekretär Stephan Mayer.",
-            "sentences": [
-              {
-                "text": "Ich rufe den Geschäftsbereich des Bundesministeriums des Innern, für Bau und Heimat auf – für ganz wenige Fragen, wahrscheinlich nur für eine Frage."
-              },
-              {
-                "text": "Zur Beantwortung steht bereit der Herr Parlamentarische Staatssekretär Stephan Mayer."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Wolfgang Kubicki",
-            "speakerstatus": "vice-president",
-            "text": "Die Frage 25 des Abgeordneten Konstantin von Notz wird schriftlich beantwortet.",
-            "sentences": [
-              {
-                "text": "Die Frage 25 des Abgeordneten Konstantin von Notz wird schriftlich beantwortet."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Wolfgang Kubicki",
-            "speakerstatus": "vice-president",
-            "text": "Ich rufe die Frage 26 der Abgeordneten Eva-Maria Schreiber, Fraktion Die Linke, auf:",
-            "sentences": [
-              {
-                "text": "Ich rufe die Frage 26 der Abgeordneten Eva-Maria Schreiber, Fraktion Die Linke, auf:"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Wolfgang Kubicki",
-            "speakerstatus": "vice-president",
-            "text": "Herr Staatssekretär, Sie haben das Wort.",
-            "sentences": [
-              {
-                "text": "Herr Staatssekretär, Sie haben das Wort."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Stephan Mayer",
-            "speakerstatus": "speaker",
-            "text": "Sehr geehrter Herr Präsident! Sehr verehrte Frau Kollegin Schreiber, ich beantworte Ihre Frage wie folgt: Nein, der Bund beabsichtigt nicht, sich in den Sachverhalt einzuschalten, da die Sicherheit der Veranstaltung in die alleinige Zuständigkeit der Landespolizei Mecklenburg-Vorpommern fällt. Die Bundesregierung ist nicht mit Kulturkosmos e. V. bzw. dem Festival Fusion befasst; denn es handelt sich bei dem Festival um eine Veranstaltung in Länderzuständigkeit. Eine Bewertung der Aktivitäten des Kulturkosmos e. V. ist daher nicht möglich.",
-            "sentences": [
-              {
-                "text": "Sehr geehrter Herr Präsident!"
-              },
-              {
-                "text": "Sehr verehrte Frau Kollegin Schreiber, ich beantworte Ihre Frage wie folgt: Nein, der Bund beabsichtigt nicht, sich in den Sachverhalt einzuschalten, da die Sicherheit der Veranstaltung in die alleinige Zuständigkeit der Landespolizei Mecklenburg-Vorpommern fällt."
-              },
-              {
-                "text": "Die Bundesregierung ist nicht mit Kulturkosmos e. V. bzw. dem Festival Fusion befasst; denn es handelt sich bei dem Festival um eine Veranstaltung in Länderzuständigkeit."
-              },
-              {
-                "text": "Eine Bewertung der Aktivitäten des Kulturkosmos e. V. ist daher nicht möglich."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Stephan Mayer",
-            "speakerstatus": "speaker",
-            "text": "Das Festival hatte lediglich im Jahr 2006 von der Kulturstiftung des Bundes im Rahmen ihres Fonds zur Förderung bürgerschaftlichen Engagements in den neuen Ländern, des Fonds Neue Länder, eine Förderung erhalten. Die Bundesregierung war am Zustandekommen dieser Förderung der in ihren Entscheidungen unabhängigen Stiftung jedoch nicht beteiligt.",
-            "sentences": [
-              {
-                "text": "Das Festival hatte lediglich im Jahr 2006 von der Kulturstiftung des Bundes im Rahmen ihres Fonds zur Förderung bürgerschaftlichen Engagements in den neuen Ländern, des Fonds Neue Länder, eine Förderung erhalten."
-              },
-              {
-                "text": "Die Bundesregierung war am Zustandekommen dieser Förderung der in ihren Entscheidungen unabhängigen Stiftung jedoch nicht beteiligt."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Wolfgang Kubicki",
-            "speakerstatus": "vice-president",
-            "text": "Ich sehe eine Nachfrage. Frau Kollegin Schreiber, bitte schön.",
-            "sentences": [
-              {
-                "text": "Ich sehe eine Nachfrage."
-              },
-              {
-                "text": "Frau Kollegin Schreiber, bitte schön."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Eva-Maria Schreiber",
-            "speakerstatus": "speaker",
-            "text": "Das Fusion-Festival findet seit über 20 Jahren völlig reibungslos statt. Die Anwohnerinnen und Anwohner unterstützen den Veranstalter im Anliegen. Der Bürgermeister hat zur Forderung nach sogenannter anlassloser Bestreifung gesagt: Hier wird ein fiktives Bedrohungsszenario aufgebaut, das es gar nicht gibt. – 125 000 Menschen haben bisher eine Petition unterzeichnet, in der sie sich ebenfalls gegen anlasslose Polizeipräsenz auf friedlichen Kulturveranstaltungen aussprechen. Hält die Bundesregierung es angesichts dieser Tatsachen und der europaweiten Strahlkraft des Festivals für Weltoffenheit und Toleranz für ein gutes Signal, wenn nun aufgrund fragwürdiger Bedrohungsszenarien vonseiten der Polizei das Ende droht und Mecklenburg-Vorpommern sein größtes Kulturevent verliert?",
-            "sentences": [
-              {
-                "text": "Das Fusion-Festival findet seit über 20 Jahren völlig reibungslos statt."
-              },
-              {
-                "text": "Die Anwohnerinnen und Anwohner unterstützen den Veranstalter im Anliegen."
-              },
-              {
-                "text": "Der Bürgermeister hat zur Forderung nach sogenannter anlassloser Bestreifung gesagt: Hier wird ein fiktives Bedrohungsszenario aufgebaut, das es gar nicht gibt."
-              },
-              {
-                "text": "– 125 000 Menschen haben bisher eine Petition unterzeichnet, in der sie sich ebenfalls gegen anlasslose Polizeipräsenz auf friedlichen Kulturveranstaltungen aussprechen."
-              },
-              {
-                "text": "Hält die Bundesregierung es angesichts dieser Tatsachen und der europaweiten Strahlkraft des Festivals für Weltoffenheit und Toleranz für ein gutes Signal, wenn nun aufgrund fragwürdiger Bedrohungsszenarien vonseiten der Polizei das Ende droht und Mecklenburg-Vorpommern sein größtes Kulturevent verliert?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Wolfgang Kubicki",
-            "speakerstatus": "vice-president",
-            "text": "Bitte, Herr Staatssekretär.",
-            "sentences": [
-              {
-                "text": "Bitte, Herr Staatssekretär."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Stephan Mayer",
-            "speakerstatus": "speaker",
-            "text": "Sehr verehrte Frau Kollegin Schreiber, ich muss ausdrücklich betonen: Es handelt sich bei diesem Kulturfestival und den damit in Zusammenhang stehenden Sicherheitsmaßnahmen um eine ausschließliche, reine Länderzuständigkeit. Der Bund hat mit dem Kulturfestival Fusion in diesem Jahr in Mecklenburg-Vorpommern überhaupt nichts zu tun, sodass sich die Beantwortung der Frage, inwiefern ein Sicherheitskonzept zu erstellen ist und vor allem wie das Sicherheitskonzept für diese Großveranstaltung – ich habe zur Kenntnis genommen, dass diese Veranstaltung von ungefähr 70 000 Menschen besucht wird – erstellt werden soll, der Kenntnis der Bundesregierung entzieht. Die Frage nach der Bewertung stellt sich daher der Bundesregierung nicht.",
-            "sentences": [
-              {
-                "text": "Sehr verehrte Frau Kollegin Schreiber, ich muss ausdrücklich betonen: Es handelt sich bei diesem Kulturfestival und den damit in Zusammenhang stehenden Sicherheitsmaßnahmen um eine ausschließliche, reine Länderzuständigkeit."
-              },
-              {
-                "text": "Der Bund hat mit dem Kulturfestival Fusion in diesem Jahr in Mecklenburg-Vorpommern überhaupt nichts zu tun, sodass sich die Beantwortung der Frage, inwiefern ein Sicherheitskonzept zu erstellen ist und vor allem wie das Sicherheitskonzept für diese Großveranstaltung – ich habe zur Kenntnis genommen, dass diese Veranstaltung von ungefähr 70 000 Menschen besucht wird – erstellt werden soll, der Kenntnis der Bundesregierung entzieht."
-              },
-              {
-                "text": "Die Frage nach der Bewertung stellt sich daher der Bundesregierung nicht."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Wolfgang Kubicki",
-            "speakerstatus": "vice-president",
-            "text": "Frau Kollegin Schreiber, Sie dürfen jetzt eine letzte Nachfrage stellen, bitte.",
-            "sentences": [
-              {
-                "text": "Frau Kollegin Schreiber, Sie dürfen jetzt eine letzte Nachfrage stellen, bitte."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Eva-Maria Schreiber",
-            "speakerstatus": "speaker",
-            "text": "Ich habe noch eine Frage, deren Beantwortung sich hoffentlich nicht Ihrer Kenntnis entzieht. Der ehemalige Leiter der zuständigen Polizeiinspektion Neubrandenburg war bis 2015 verantwortlich und äußerte jüngst, dass in den vergangenen Jahren die Versorgung mit Feuerwehr- und Rettungskräften sowie der Zugang zum Gelände für die Polizei ausreichend gewährleistet waren. Den jetzt geltend gemachten Anspruch von Polizeipräsident Hoffmann-Ritterbusch, auf dem Gelände eine Polizeiwache einzurichten, hält er für grob fahrlässig.",
-            "sentences": [
-              {
-                "text": "Ich habe noch eine Frage, deren Beantwortung sich hoffentlich nicht Ihrer Kenntnis entzieht."
-              },
-              {
-                "text": "Der ehemalige Leiter der zuständigen Polizeiinspektion Neubrandenburg war bis 2015 verantwortlich und äußerte jüngst, dass in den vergangenen Jahren die Versorgung mit Feuerwehr- und Rettungskräften sowie der Zugang zum Gelände für die Polizei ausreichend gewährleistet waren."
-              },
-              {
-                "text": "Den jetzt geltend gemachten Anspruch von Polizeipräsident Hoffmann-Ritterbusch, auf dem Gelände eine Polizeiwache einzurichten, hält er für grob fahrlässig."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Eva-Maria Schreiber",
-            "speakerstatus": "speaker",
-            "text": "Pro Jahr gibt es etwa ein oder zwei gemeldete Gewalttaten. Hoffmann-Ritterbusch bezieht sich auf bundesweite Sicherheitsstandards, d ie er damit einhalten möchte. Wo, in welcher Form sind diese bundesweiten Sicherheitsstandards, auf die sich dieser Polizeipräsident in den Verhandlungen beruft, schriftlich festgehalten?",
-            "sentences": [
-              {
-                "text": "Pro Jahr gibt es etwa ein oder zwei gemeldete Gewalttaten."
-              },
-              {
-                "text": "Hoffmann-Ritterbusch bezieht sich auf bundesweite Sicherheitsstandards, d ie er damit einhalten möchte."
-              },
-              {
-                "text": "Wo, in welcher Form sind diese bundesweiten Sicherheitsstandards, auf die sich dieser Polizeipräsident in den Verhandlungen beruft, schriftlich festgehalten?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Wolfgang Kubicki",
-            "speakerstatus": "vice-president",
-            "text": "Herr Staatssekretär, bevor Sie antworten: Frau Kollegin, die Zuständigkeitsfrage ist geklärt. Diese Frage müsste Die Linke sinnvollerweise im Landtag Mecklenburg-Vorpommern stellen.",
-            "sentences": [
-              {
-                "text": "Herr Staatssekretär, bevor Sie antworten: Frau Kollegin, die Zuständigkeitsfrage ist geklärt."
-              },
-              {
-                "text": "Diese Frage müsste Die Linke sinnvollerweise im Landtag Mecklenburg-Vorpommern stellen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Wolfgang Kubicki",
-            "speakerstatus": "vice-president",
-            "text": "Herr Staatssekretär, ich erlaube Ihnen, das zu beantworten. Aber ich will noch mal sagen: Die Zuständigkeitsfrage ist zweimal deutlich dem Landtag Mecklenburg-Vorpommern zugewiesen worden.",
-            "sentences": [
-              {
-                "text": "Herr Staatssekretär, ich erlaube Ihnen, das zu beantworten."
-              },
-              {
-                "text": "Aber ich will noch mal sagen: Die Zuständigkeitsfrage ist zweimal deutlich dem Landtag Mecklenburg-Vorpommern zugewiesen worden."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Wolfgang Kubicki",
-            "speakerstatus": "vice-president",
-            "text": "Herr Staatssekretär.",
-            "sentences": [
-              {
-                "text": "Herr Staatssekretär."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Stephan Mayer",
-            "speakerstatus": "speaker",
-            "text": "Vielen Dank. – Sehr geehrter Herr Präsident! Sehr verehrte Frau Kollegin Schreiber, ich möchte noch mal ausdrücklich betonen: Es geht hier ausschließlich um eine Veranstaltung, für die die Landespolizei Mecklenburg-Vorpommern zuständig ist. Die Bundespolizei hat mit dieser Veranstaltung, mit dem Fusion-Festival, veranstaltet von der Organisation Kulturkosmos, überhaupt nichts zu tun. Auf welches Sicherheitskonzept sich der ehemalige Leiter der Polizei hier bezieht, entzieht sich meiner Kenntnis. Es gibt hier aber keine Vorgaben des Bundes, wie eine Landesveranstaltung durch die jeweilige Landespolizei durchzuführen bzw. zu sichern ist. Auch die Frage, ob es notwendig ist, dass auf dem Veranstaltungsgelände eine temporäre Polizeiwache errichtet wird, ist keine Frage, die die Bundespolizei bzw. die Bundesregierung zu bewerten hat.",
-            "sentences": [
-              {
-                "text": "Vielen Dank."
-              },
-              {
-                "text": "– Sehr geehrter Herr Präsident!"
-              },
-              {
-                "text": "Sehr verehrte Frau Kollegin Schreiber, ich möchte noch mal ausdrücklich betonen: Es geht hier ausschließlich um eine Veranstaltung, für die die Landespolizei Mecklenburg-Vorpommern zuständig ist."
-              },
-              {
-                "text": "Die Bundespolizei hat mit dieser Veranstaltung, mit dem Fusion-Festival, veranstaltet von der Organisation Kulturkosmos, überhaupt nichts zu tun."
-              },
-              {
-                "text": "Auf welches Sicherheitskonzept sich der ehemalige Leiter der Polizei hier bezieht, entzieht sich meiner Kenntnis."
-              },
-              {
-                "text": "Es gibt hier aber keine Vorgaben des Bundes, wie eine Landesveranstaltung durch die jeweilige Landespolizei durchzuführen bzw. zu sichern ist."
-              },
-              {
-                "text": "Auch die Frage, ob es notwendig ist, dass auf dem Veranstaltungsgelände eine temporäre Polizeiwache errichtet wird, ist keine Frage, die die Bundespolizei bzw. die Bundesregierung zu bewerten hat."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Wolfgang Kubicki",
-            "speakerstatus": "vice-president",
-            "text": "Eine letzte Zusatzfrage hat die Kollegin Gohlke, Fraktion Die Linke. Dann beenden wir die Fragestunde.",
-            "sentences": [
-              {
-                "text": "Eine letzte Zusatzfrage hat die Kollegin Gohlke, Fraktion Die Linke."
-              },
-              {
-                "text": "Dann beenden wir die Fragestunde."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Nicole Gohlke",
-            "speakerstatus": "speaker",
-            "text": "Vielen Dank. – Ich will nur nachfragen: Ist es denn dann auch ausgeschlossen, dass es eventuell bei einem Polizeieinsatz dort, der zumindest schon in Szenarien durchgespielt worden ist, zu einer Beteiligung der Bundespolizei oder zum Einsatz von Bundesmitteln kommt? Schließen Sie das aus? Schließlich sagen Sie die ganze Zeit: Es liegt eindeutig in der Länderzuständigkeit.",
-            "sentences": [
-              {
-                "text": "Vielen Dank."
-              },
-              {
-                "text": "– Ich will nur nachfragen: Ist es denn dann auch ausgeschlossen, dass es eventuell bei einem Polizeieinsatz dort, der zumindest schon in Szenarien durchgespielt worden ist, zu einer Beteiligung der Bundespolizei oder zum Einsatz von Bundesmitteln kommt?"
-              },
-              {
-                "text": "Schließen Sie das aus?"
-              },
-              {
-                "text": "Schließlich sagen Sie die ganze Zeit: Es liegt eindeutig in der Länderzuständigkeit."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Stephan Mayer",
-            "speakerstatus": "speaker",
-            "text": "Sehr verehrte Frau Kollegin Gohlke, noch mal, damit es für alle deutlich wird: Es geht um eine klare Zuständigkeit des Landes Mecklenburg-Vorpommern. Sollte es im Rahmen der Durchführung dieses Festivals zu einer Großschadenslage kommen, dann würde die Bundespolizei natürlich – auf Anforderung, wohlgemerkt – Kräfte mit entsenden. Aber es sind von vornherein keine Kräfte der Bundespolizei für die Durchführung dieser Veranstaltung, dieses Kulturfestivals, vorgesehen. Es werden von vornherein auch keine Bundespolizeibeamtinnen und -beamten zugegen sein.",
-            "sentences": [
-              {
-                "text": "Sehr verehrte Frau Kollegin Gohlke, noch mal, damit es für alle deutlich wird: Es geht um eine klare Zuständigkeit des Landes Mecklenburg-Vorpommern."
-              },
-              {
-                "text": "Sollte es im Rahmen der Durchführung dieses Festivals zu einer Großschadenslage kommen, dann würde die Bundespolizei natürlich – auf Anforderung, wohlgemerkt – Kräfte mit entsenden."
-              },
-              {
-                "text": "Aber es sind von vornherein keine Kräfte der Bundespolizei für die Durchführung dieser Veranstaltung, dieses Kulturfestivals, vorgesehen."
-              },
-              {
-                "text": "Es werden von vornherein auch keine Bundespolizeibeamtinnen und -beamten zugegen sein."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Stephan Mayer",
-            "speakerstatus": "speaker",
-            "text": "Für den Fall – der hoffentlich nicht eintreten wird –, dass es zu einem größeren Einsatzszenario kommt und die Landespolizei Mecklenburg-Vorpommern die Bundespolizei ersucht, hinzuzukommen, würde sich die Bundespolizei diesem Ersuchen natürlich nicht verweigern.",
-            "sentences": [
-              {
-                "text": "Für den Fall – der hoffentlich nicht eintreten wird –, dass es zu einem größeren Einsatzszenario kommt und die Landespolizei Mecklenburg-Vorpommern die Bundespolizei ersucht, hinzuzukommen, würde sich die Bundespolizei diesem Ersuchen natürlich nicht verweigern."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Wolfgang Kubicki",
-            "speakerstatus": "vice-president",
-            "text": "Herzlichen Dank, Herr Staatssekretär. – Damit schließe ich die Fragestunde. Alle nicht behandelten Fragen werden wie immer schriftlich beantwortet.",
-            "sentences": [
-              {
-                "text": "Herzlichen Dank, Herr Staatssekretär."
-              },
-              {
-                "text": "– Damit schließe ich die Fragestunde."
-              },
-              {
-                "text": "Alle nicht behandelten Fragen werden wie immer schriftlich beantwortet."
-              }
-            ]
           }
         ]
       }
@@ -10429,7 +8725,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 92,
+      "speechIndex": 1094,
       "title": "Aktuelle Stunde zum Iran-Atomabkommen"
     },
     "people": [
@@ -10442,12 +8738,45 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19100-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19100-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
         "originTextID": "",
         "textBody": [
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Kubicki",
+            "speakerstatus": "vice-president",
+            "text": "Aktuelle Stunde",
+            "sentences": [
+              {
+                "text": "Aktuelle Stunde"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Kubicki",
+            "speakerstatus": "vice-president",
+            "text": "auf Verlangen der Fraktion DIE LINKE",
+            "sentences": [
+              {
+                "text": "auf Verlangen der Fraktion DIE LINKE"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Kubicki",
+            "speakerstatus": "vice-president",
+            "text": "Iran-Atomabkommen verteidigen – Kriegsgefahr abwenden",
+            "sentences": [
+              {
+                "text": "Iran-Atomabkommen verteidigen – Kriegsgefahr abwenden"
+              }
+            ]
+          },
           {
             "type": "speech",
             "speaker": "Wolfgang Kubicki",
@@ -10491,7 +8820,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 93,
+      "speechIndex": 1095,
       "title": "Aktuelle Stunde zum Iran-Atomabkommen"
     },
     "people": [
@@ -10512,7 +8841,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19100-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19100-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -10926,7 +9255,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 94,
+      "speechIndex": 1096,
       "title": "Aktuelle Stunde zum Iran-Atomabkommen"
     },
     "people": [
@@ -10947,7 +9276,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19100-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19100-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -11308,7 +9637,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 95,
+      "speechIndex": 1097,
       "title": "Aktuelle Stunde zum Iran-Atomabkommen"
     },
     "people": [
@@ -11329,7 +9658,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19100-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19100-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -11677,7 +10006,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 96,
+      "speechIndex": 1098,
       "title": "Aktuelle Stunde zum Iran-Atomabkommen"
     },
     "people": [
@@ -11698,7 +10027,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19100-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19100-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -12226,7 +10555,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 97,
+      "speechIndex": 1099,
       "title": "Aktuelle Stunde zum Iran-Atomabkommen"
     },
     "people": [
@@ -12247,7 +10576,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19100-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19100-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -12665,7 +10994,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 98,
+      "speechIndex": 1100,
       "title": "Aktuelle Stunde zum Iran-Atomabkommen"
     },
     "people": [
@@ -12686,7 +11015,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19100-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19100-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -13042,7 +11371,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 99,
+      "speechIndex": 1101,
       "title": "Aktuelle Stunde zum Iran-Atomabkommen"
     },
     "people": [
@@ -13063,7 +11392,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19100-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19100-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -13460,7 +11789,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 100,
+      "speechIndex": 1102,
       "title": "Aktuelle Stunde zum Iran-Atomabkommen"
     },
     "people": [
@@ -13481,7 +11810,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19100-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19100-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -13716,7 +12045,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 101,
+      "speechIndex": 1103,
       "title": "Aktuelle Stunde zum Iran-Atomabkommen"
     },
     "people": [
@@ -13737,7 +12066,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19100-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19100-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -14037,7 +12366,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 102,
+      "speechIndex": 1104,
       "title": "Aktuelle Stunde zum Iran-Atomabkommen"
     },
     "people": [
@@ -14058,7 +12387,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19100-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19100-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -14408,7 +12737,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 103,
+      "speechIndex": 1105,
       "title": "Aktuelle Stunde zum Iran-Atomabkommen"
     },
     "people": [
@@ -14429,7 +12758,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19100-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19100-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -14707,7 +13036,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 104,
+      "speechIndex": 1106,
       "title": "Aktuelle Stunde zum Iran-Atomabkommen"
     },
     "people": [
@@ -14728,7 +13057,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19100-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19100-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -15076,7 +13405,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 105,
+      "speechIndex": 1107,
       "title": "Aktuelle Stunde zum Iran-Atomabkommen"
     },
     "people": [
@@ -15097,7 +13426,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19100-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19100-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -15299,7 +13628,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 106,
+      "speechIndex": 1108,
       "title": "Aktuelle Stunde zum Iran-Atomabkommen"
     },
     "people": [
@@ -15320,7 +13649,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19100-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19100-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -15512,7 +13841,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 107,
+      "speechIndex": 1109,
       "title": "Aktuelle Stunde zum Iran-Atomabkommen"
     },
     "people": [
@@ -15523,17 +13852,12 @@
         "lastname": "Brunner",
         "context": "main-speaker",
         "faction": "SPD"
-      },
-      {
-        "type": "memberOfParliament",
-        "label": "Petra Pau",
-        "context": "vice-president"
       }
     ],
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19100-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19100-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -15674,28 +13998,6 @@
                 "text": "Herzlichen Dank."
               }
             ]
-          },
-          {
-            "type": "comment",
-            "speaker": null,
-            "speakerstatus": null,
-            "text": "(Beifall bei der SPD sowie bei Abgeordneten der CDU/CSU)",
-            "sentences": [
-              {
-                "text": "(Beifall bei der SPD sowie bei Abgeordneten der CDU/CSU)"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Die Aktuelle Stunde ist beendet.",
-            "sentences": [
-              {
-                "text": "Die Aktuelle Stunde ist beendet."
-              }
-            ]
           }
         ]
       }
@@ -15717,16 +14019,52 @@
   {
     "parliament": "DE",
     "electoralPeriod": {
-      "number": 19
+      "number": "19"
     },
     "session": {
-      "number": 100
+      "number": "100",
+      "dateStart": "2019-05-15T13:00",
+      "dateEnd": "2019-05-15T18:37"
     },
     "agendaItem": {
-      "title": "Aktuelle Stunde zum Iran-Atomabkommen",
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 43
+      "speechIndex": 1110,
+      "title": "Aktuelle Stunde zum Iran-Atomabkommen"
     },
+    "people": [
+      {
+        "type": "memberOfParliament",
+        "label": "Petra Pau",
+        "context": "vice-president"
+      }
+    ],
+    "textContents": [
+      {
+        "type": "proceedings",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19100-data.xml",
+        "creator": "Deutscher Bundestag",
+        "license": "Public Domain",
+        "language": "DE-de",
+        "originTextID": "",
+        "textBody": [
+          {
+            "type": "speech",
+            "speaker": "Petra Pau",
+            "speakerstatus": "vice-president",
+            "text": "Die Aktuelle Stunde ist beendet.",
+            "sentences": [
+              {
+                "text": "Die Aktuelle Stunde ist beendet."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "documents": [],
+    "key": "19-100 zusatzpunkt 1 (petra pau)",
+    "dateStart": "2019-05-15T15:10:33",
+    "dateEnd": "2019-05-15T15:10:39",
     "media": {
       "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7355709/7355709_h264_720_400_2000kb_baseline_de_2192.mp4",
       "sourcePage": "http://dbtg.tv/fvid/7355709",
@@ -15735,18 +14073,7 @@
       "license": "CC-BY-SA",
       "originMediaID": "7355709",
       "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7355709/7355709_mp3_128kb_stereo_de_128.mp3"
-    },
-    "dateStart": "2019-05-15T15:10:33",
-    "dateEnd": "2019-05-15T15:10:39",
-    "people": [
-      {
-        "label": "Petra Pau",
-        "faction": "Die Linke",
-        "context": "main-speaker",
-        "role": "Bundestagsvizepräsidentin"
-      }
-    ],
-    "key": "19-100 zusatzpunkt 1 (petra pau)"
+    }
   },
   {
     "parliament": "DE",
@@ -15760,7 +14087,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 3",
-      "speechIndex": 108,
+      "speechIndex": 1111,
       "title": "Tätigkeitsbericht 2018 des Petitionsausschusses"
     },
     "people": [
@@ -15773,12 +14100,45 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19100-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19100-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
         "originTextID": "",
         "textBody": [
+          {
+            "type": "speech",
+            "speaker": "Petra Pau",
+            "speakerstatus": "vice-president",
+            "text": "Beratung des Berichts des Petitionsausschusses (2. Ausschuss)",
+            "sentences": [
+              {
+                "text": "Beratung des Berichts des Petitionsausschusses (2. Ausschuss)"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Petra Pau",
+            "speakerstatus": "vice-president",
+            "text": "Bitten und Beschwerden an den Deutschen Bundestag",
+            "sentences": [
+              {
+                "text": "Bitten und Beschwerden an den Deutschen Bundestag"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Petra Pau",
+            "speakerstatus": "vice-president",
+            "text": "Die Tätigkeit des Petitionsausschusses des Deutschen Bundestages im Jahr 2018",
+            "sentences": [
+              {
+                "text": "Die Tätigkeit des Petitionsausschusses des Deutschen Bundestages im Jahr 2018"
+              }
+            ]
+          },
           {
             "type": "speech",
             "speaker": "Petra Pau",
@@ -15845,7 +14205,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 3",
-      "speechIndex": 109,
+      "speechIndex": 1112,
       "title": "Tätigkeitsbericht 2018 des Petitionsausschusses"
     },
     "people": [
@@ -15866,7 +14226,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19100-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19100-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -16472,7 +14832,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 3",
-      "speechIndex": 110,
+      "speechIndex": 1113,
       "title": "Tätigkeitsbericht 2018 des Petitionsausschusses"
     },
     "people": [
@@ -16493,7 +14853,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19100-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19100-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -16782,7 +15142,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 3",
-      "speechIndex": 111,
+      "speechIndex": 1114,
       "title": "Tätigkeitsbericht 2018 des Petitionsausschusses"
     },
     "people": [
@@ -16803,7 +15163,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19100-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19100-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -17491,7 +15851,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 3",
-      "speechIndex": 112,
+      "speechIndex": 1115,
       "title": "Tätigkeitsbericht 2018 des Petitionsausschusses"
     },
     "people": [
@@ -17520,7 +15880,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19100-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19100-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -18225,7 +16585,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 3",
-      "speechIndex": 113,
+      "speechIndex": 1116,
       "title": "Tätigkeitsbericht 2018 des Petitionsausschusses"
     },
     "people": [
@@ -18246,7 +16606,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19100-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19100-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -18909,7 +17269,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 3",
-      "speechIndex": 114,
+      "speechIndex": 1117,
       "title": "Tätigkeitsbericht 2018 des Petitionsausschusses"
     },
     "people": [
@@ -18930,7 +17290,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19100-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19100-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -19256,7 +17616,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 3",
-      "speechIndex": 115,
+      "speechIndex": 1118,
       "title": "Tätigkeitsbericht 2018 des Petitionsausschusses"
     },
     "people": [
@@ -19277,7 +17637,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19100-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19100-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -19769,7 +18129,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 3",
-      "speechIndex": 116,
+      "speechIndex": 1119,
       "title": "Tätigkeitsbericht 2018 des Petitionsausschusses"
     },
     "people": [
@@ -19790,7 +18150,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19100-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19100-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -19985,7 +18345,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 3",
-      "speechIndex": 117,
+      "speechIndex": 1120,
       "title": "Tätigkeitsbericht 2018 des Petitionsausschusses"
     },
     "people": [
@@ -20006,7 +18366,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19100-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19100-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -20192,7 +18552,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 3",
-      "speechIndex": 118,
+      "speechIndex": 1121,
       "title": "Tätigkeitsbericht 2018 des Petitionsausschusses"
     },
     "people": [
@@ -20213,7 +18573,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19100-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19100-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -20639,7 +18999,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 3",
-      "speechIndex": 119,
+      "speechIndex": 1122,
       "title": "Tätigkeitsbericht 2018 des Petitionsausschusses"
     },
     "people": [
@@ -20660,7 +19020,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19100-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19100-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -20900,7 +19260,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 3",
-      "speechIndex": 120,
+      "speechIndex": 1123,
       "title": "Tätigkeitsbericht 2018 des Petitionsausschusses"
     },
     "people": [
@@ -20921,7 +19281,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19100-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19100-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -21167,7 +19527,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 3",
-      "speechIndex": 121,
+      "speechIndex": 1124,
       "title": "Tätigkeitsbericht 2018 des Petitionsausschusses"
     },
     "people": [
@@ -21188,7 +19548,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19100-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19100-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -21498,7 +19858,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 3",
-      "speechIndex": 122,
+      "speechIndex": 1125,
       "title": "Tätigkeitsbericht 2018 des Petitionsausschusses"
     },
     "people": [
@@ -21519,7 +19879,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19100-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19100-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -21854,7 +20214,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 3",
-      "speechIndex": 123,
+      "speechIndex": 1126,
       "title": "Tätigkeitsbericht 2018 des Petitionsausschusses"
     },
     "people": [
@@ -21865,17 +20225,12 @@
         "lastname": "Schwartze",
         "context": "main-speaker",
         "faction": "SPD"
-      },
-      {
-        "type": "memberOfParliament",
-        "label": "Petra Pau",
-        "context": "vice-president"
       }
     ],
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19100-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19100-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -22298,18 +20653,61 @@
                 "text": "Vielen Dank."
               }
             ]
-          },
-          {
-            "type": "comment",
-            "speaker": null,
-            "speakerstatus": null,
-            "text": "(Beifall bei der SPD, der CDU/CSU, der LINKEN und dem BÜNDNIS 90/DIE GRÜNEN sowie bei Abgeordneten der FDP)",
-            "sentences": [
-              {
-                "text": "(Beifall bei der SPD, der CDU/CSU, der LINKEN und dem BÜNDNIS 90/DIE GRÜNEN sowie bei Abgeordneten der FDP)"
-              }
-            ]
-          },
+          }
+        ]
+      }
+    ],
+    "documents": [
+      {
+        "type": "officialDocument",
+        "label": "Drucksache 19/9900",
+        "sourceURI": "https://dserver.bundestag.de/btd/19/099/1909900.pdf"
+      }
+    ],
+    "key": "19-100 tagesordnungspunkt 3 (stefan schwartze)",
+    "dateStart": "2019-05-15T16:30:52",
+    "dateEnd": "2019-05-15T16:36:39",
+    "media": {
+      "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7355736/7355736_h264_720_400_2000kb_baseline_de_2192.mp4",
+      "sourcePage": "http://dbtg.tv/fvid/7355736",
+      "duration": 347.0,
+      "creator": "Deutscher Bundestag",
+      "license": "CC-BY-SA",
+      "originMediaID": "7355736",
+      "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7355736/7355736_mp3_128kb_stereo_de_128.mp3"
+    }
+  },
+  {
+    "parliament": "DE",
+    "electoralPeriod": {
+      "number": "19"
+    },
+    "session": {
+      "number": "100",
+      "dateStart": "2019-05-15T13:00",
+      "dateEnd": "2019-05-15T18:37"
+    },
+    "agendaItem": {
+      "officialTitle": "Tagesordnungspunkt 3",
+      "speechIndex": 1127,
+      "title": "Tätigkeitsbericht 2018 des Petitionsausschusses"
+    },
+    "people": [
+      {
+        "type": "memberOfParliament",
+        "label": "Petra Pau",
+        "context": "vice-president"
+      }
+    ],
+    "textContents": [
+      {
+        "type": "proceedings",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19100-data.xml",
+        "creator": "Deutscher Bundestag",
+        "license": "Public Domain",
+        "language": "DE-de",
+        "originTextID": "",
+        "textBody": [
           {
             "type": "speech",
             "speaker": "Petra Pau",
@@ -22367,32 +20765,9 @@
         "sourceURI": "https://dserver.bundestag.de/btd/19/099/1909900.pdf"
       }
     ],
-    "key": "19-100 tagesordnungspunkt 3 (stefan schwartze)",
-    "dateStart": "2019-05-15T16:30:52",
-    "dateEnd": "2019-05-15T16:36:39",
-    "media": {
-      "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7355736/7355736_h264_720_400_2000kb_baseline_de_2192.mp4",
-      "sourcePage": "http://dbtg.tv/fvid/7355736",
-      "duration": 347.0,
-      "creator": "Deutscher Bundestag",
-      "license": "CC-BY-SA",
-      "originMediaID": "7355736",
-      "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7355736/7355736_mp3_128kb_stereo_de_128.mp3"
-    }
-  },
-  {
-    "parliament": "DE",
-    "electoralPeriod": {
-      "number": 19
-    },
-    "session": {
-      "number": 100
-    },
-    "agendaItem": {
-      "title": "Tätigkeitsbericht 2018 des Petitionsausschusses",
-      "officialTitle": "Tagesordnungspunkt 3",
-      "speechIndex": 60
-    },
+    "key": "19-100 tagesordnungspunkt 3 (petra pau) #1",
+    "dateStart": "2019-05-15T16:36:39",
+    "dateEnd": "2019-05-15T16:36:47",
     "media": {
       "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7355737/7355737_h264_720_400_2000kb_baseline_de_2192.mp4",
       "sourcePage": "http://dbtg.tv/fvid/7355737",
@@ -22401,18 +20776,7 @@
       "license": "CC-BY-SA",
       "originMediaID": "7355737",
       "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7355737/7355737_mp3_128kb_stereo_de_128.mp3"
-    },
-    "dateStart": "2019-05-15T16:36:39",
-    "dateEnd": "2019-05-15T16:36:47",
-    "people": [
-      {
-        "label": "Petra Pau",
-        "faction": "Die Linke",
-        "context": "main-speaker",
-        "role": "Bundestagsvizepräsidentin"
-      }
-    ],
-    "key": "19-100 tagesordnungspunkt 3 (petra pau) #1"
+    }
   },
   {
     "parliament": "DE",

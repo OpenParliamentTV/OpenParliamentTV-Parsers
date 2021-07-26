@@ -11,7 +11,7 @@
     },
     "agendaItem": {
       "officialTitle": "Sitzungseröffnung",
-      "speechIndex": 0,
+      "speechIndex": 1000,
       "title": "Sitzungseröffnung"
     },
     "people": [
@@ -24,7 +24,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19069-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19069-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -76,7 +76,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 17",
-      "speechIndex": 20,
+      "speechIndex": 1020,
       "title": "Qualifizierungschancengesetz"
     },
     "people": [
@@ -89,7 +89,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19069-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19069-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -697,7 +697,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 17",
-      "speechIndex": 21,
+      "speechIndex": 1021,
       "title": "Qualifizierungschancengesetz"
     },
     "people": [
@@ -710,7 +710,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19069-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19069-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -774,7 +774,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 20",
-      "speechIndex": 26,
+      "speechIndex": 1026,
       "title": "Globaler Pakt für Migration"
     },
     "people": [
@@ -787,12 +787,34 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19069-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19069-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
         "originTextID": "",
         "textBody": [
+          {
+            "type": "speech",
+            "speaker": "Petra Pau",
+            "speakerstatus": "vice-president",
+            "text": "Beratung des Antrags der Abgeordneten Dr. Gottfried Curio, Marc Bernhard, Peter Boehringer, weiterer Abgeordneter und der Fraktion der AfD",
+            "sentences": [
+              {
+                "text": "Beratung des Antrags der Abgeordneten Dr. Gottfried Curio, Marc Bernhard, Peter Boehringer, weiterer Abgeordneter und der Fraktion der AfD"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Petra Pau",
+            "speakerstatus": "vice-president",
+            "text": "Aufforderung zur Abgabe einer Protokollerklärung zur völkerrechtlichen beziehungsweise rechtlichen Unverbindlichkeit des „Global Compact for Safe, Orderly and Regular Migration“ für die Bundesrepublik Deutschland durch die deutsche Bundesregierung bei der Unterzeichnung des Paktes im Dezember in Marrakesch – Die Bundesrepublik Deutschland als „permanent objector“",
+            "sentences": [
+              {
+                "text": "Aufforderung zur Abgabe einer Protokollerklärung zur völkerrechtlichen beziehungsweise rechtlichen Unverbindlichkeit des „Global Compact for Safe, Orderly and Regular Migration“ für die Bundesrepublik Deutschland durch die deutsche Bundesregierung bei der Unterzeichnung des Paktes im Dezember in Marrakesch – Die Bundesrepublik Deutschland als „permanent objector“"
+              }
+            ]
+          },
           {
             "type": "speech",
             "speaker": "Petra Pau",
@@ -870,7 +892,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 20",
-      "speechIndex": 27,
+      "speechIndex": 1027,
       "title": "Globaler Pakt für Migration"
     },
     "people": [
@@ -891,7 +913,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19069-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19069-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -1355,7 +1377,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 20",
-      "speechIndex": 28,
+      "speechIndex": 1028,
       "title": "Globaler Pakt für Migration"
     },
     "people": [
@@ -1376,7 +1398,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19069-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19069-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -1845,7 +1867,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 20",
-      "speechIndex": 29,
+      "speechIndex": 1029,
       "title": "Globaler Pakt für Migration"
     },
     "people": [
@@ -1866,7 +1888,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19069-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19069-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -2040,7 +2062,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 20",
-      "speechIndex": 30,
+      "speechIndex": 1030,
       "title": "Globaler Pakt für Migration"
     },
     "people": [
@@ -2061,7 +2083,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19069-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19069-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -2478,7 +2500,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 20",
-      "speechIndex": 31,
+      "speechIndex": 1031,
       "title": "Globaler Pakt für Migration"
     },
     "people": [
@@ -2499,7 +2521,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19069-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19069-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -3114,7 +3136,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 20",
-      "speechIndex": 32,
+      "speechIndex": 1032,
       "title": "Globaler Pakt für Migration"
     },
     "people": [
@@ -3135,7 +3157,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19069-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19069-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -3680,7 +3702,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 20",
-      "speechIndex": 33,
+      "speechIndex": 1033,
       "title": "Globaler Pakt für Migration"
     },
     "people": [
@@ -3701,7 +3723,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19069-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19069-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -4409,7 +4431,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 20",
-      "speechIndex": 34,
+      "speechIndex": 1034,
       "title": "Globaler Pakt für Migration"
     },
     "people": [
@@ -4430,7 +4452,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19069-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19069-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -4884,7 +4906,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 20",
-      "speechIndex": 35,
+      "speechIndex": 1035,
       "title": "Globaler Pakt für Migration"
     },
     "people": [
@@ -4921,7 +4943,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19069-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19069-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -5773,7 +5795,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 20",
-      "speechIndex": 36,
+      "speechIndex": 1036,
       "title": "Globaler Pakt für Migration"
     },
     "people": [
@@ -5794,7 +5816,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19069-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19069-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -6404,7 +6426,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 20",
-      "speechIndex": 37,
+      "speechIndex": 1037,
       "title": "Globaler Pakt für Migration"
     },
     "people": [
@@ -6425,7 +6447,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19069-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19069-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -7105,7 +7127,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 20",
-      "speechIndex": 38,
+      "speechIndex": 1038,
       "title": "Globaler Pakt für Migration"
     },
     "people": [
@@ -7126,7 +7148,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19069-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19069-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -7592,7 +7614,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 20",
-      "speechIndex": 39,
+      "speechIndex": 1039,
       "title": "Globaler Pakt für Migration"
     },
     "people": [
@@ -7613,7 +7635,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19069-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19069-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -8368,7 +8390,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 20",
-      "speechIndex": 40,
+      "speechIndex": 1040,
       "title": "Globaler Pakt für Migration"
     },
     "people": [
@@ -8389,7 +8411,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19069-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19069-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -8794,15 +8816,69 @@
                 "text": "Herzlichen Dank, alles Gute und auf Wiedersehen."
               }
             ]
-          },
+          }
+        ]
+      }
+    ],
+    "documents": [
+      {
+        "type": "officialDocument",
+        "label": "Drucksache 19/6061",
+        "sourceURI": "https://dserver.bundestag.de/btd/19/060/1906061.pdf"
+      }
+    ],
+    "key": "19-69 zusatzpunkt 20 (stephan harbarth)",
+    "dateStart": "2018-11-30T10:45:16",
+    "dateEnd": "2018-11-30T10:53:21",
+    "media": {
+      "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7296688/7296688_h264_720_400_2000kb_baseline_de_2192.mp4",
+      "sourcePage": "http://dbtg.tv/fvid/7296688",
+      "duration": 485.0,
+      "creator": "Deutscher Bundestag",
+      "license": "CC-BY-SA",
+      "originMediaID": "7296688",
+      "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7296688/7296688_mp3_128kb_stereo_de_128.mp3"
+    }
+  },
+  {
+    "parliament": "DE",
+    "electoralPeriod": {
+      "number": "19"
+    },
+    "session": {
+      "number": "69",
+      "dateStart": "2018-11-30T09:00",
+      "dateEnd": "2018-11-30T18:08"
+    },
+    "agendaItem": {
+      "officialTitle": "Zusatzpunkt 20",
+      "speechIndex": 1041,
+      "title": "Globaler Pakt für Migration"
+    },
+    "people": [
+      {
+        "type": "memberOfParliament",
+        "label": "Claudia Roth",
+        "context": "vice-president"
+      }
+    ],
+    "textContents": [
+      {
+        "type": "proceedings",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19069-data.xml",
+        "creator": "Deutscher Bundestag",
+        "license": "Public Domain",
+        "language": "DE-de",
+        "originTextID": "",
+        "textBody": [
           {
-            "type": "comment",
-            "speaker": null,
-            "speakerstatus": null,
-            "text": "(Anhaltender Beifall bei der CDU/CSU und der FDP – Beifall bei der SPD, der LINKEN und dem BÜNDNIS 90/DIE GRÜNEN – Die Abgeordneten der CDU/CSU erheben sich)",
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "Herr Dr. Harbarth, erlauben Sie eine Zwischenfrage?",
             "sentences": [
               {
-                "text": "(Anhaltender Beifall bei der CDU/CSU und der FDP – Beifall bei der SPD, der LINKEN und dem BÜNDNIS 90/DIE GRÜNEN – Die Abgeordneten der CDU/CSU erheben sich)"
+                "text": "Herr Dr. Harbarth, erlauben Sie eine Zwischenfrage?"
               }
             ]
           },
@@ -8829,17 +8905,6 @@
               },
               {
                 "text": "Alles Gute für Ihren weiteren Weg."
-              }
-            ]
-          },
-          {
-            "type": "comment",
-            "speaker": null,
-            "speakerstatus": null,
-            "text": "(Beifall bei der CDU/CSU, der SPD, der FDP, der LINKEN und dem BÜNDNIS 90/DIE GRÜNEN)",
-            "sentences": [
-              {
-                "text": "(Beifall bei der CDU/CSU, der SPD, der FDP, der LINKEN und dem BÜNDNIS 90/DIE GRÜNEN)"
               }
             ]
           },
@@ -8932,32 +8997,9 @@
         "sourceURI": "https://dserver.bundestag.de/btd/19/060/1906061.pdf"
       }
     ],
-    "key": "19-69 zusatzpunkt 20 (stephan harbarth)",
-    "dateStart": "2018-11-30T10:45:16",
-    "dateEnd": "2018-11-30T10:53:21",
-    "media": {
-      "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7296688/7296688_h264_720_400_2000kb_baseline_de_2192.mp4",
-      "sourcePage": "http://dbtg.tv/fvid/7296688",
-      "duration": 485.0,
-      "creator": "Deutscher Bundestag",
-      "license": "CC-BY-SA",
-      "originMediaID": "7296688",
-      "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7296688/7296688_mp3_128kb_stereo_de_128.mp3"
-    }
-  },
-  {
-    "parliament": "DE",
-    "electoralPeriod": {
-      "number": 19
-    },
-    "session": {
-      "number": 69
-    },
-    "agendaItem": {
-      "title": "Globaler Pakt für Migration",
-      "officialTitle": "Zusatzpunkt 20",
-      "speechIndex": 35
-    },
+    "key": "19-69 zusatzpunkt 20 (claudia roth)",
+    "dateStart": "2018-11-30T10:53:21",
+    "dateEnd": "2018-11-30T10:59:17",
     "media": {
       "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7296689/7296689_h264_720_400_2000kb_baseline_de_2192.mp4",
       "sourcePage": "http://dbtg.tv/fvid/7296689",
@@ -8966,18 +9008,7 @@
       "license": "CC-BY-SA",
       "originMediaID": "7296689",
       "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7296689/7296689_mp3_128kb_stereo_de_128.mp3"
-    },
-    "dateStart": "2018-11-30T10:53:21",
-    "dateEnd": "2018-11-30T10:59:17",
-    "people": [
-      {
-        "label": "Claudia Roth",
-        "faction": "BÜNDNIS 90/DIE GRÜNEN",
-        "context": "main-speaker",
-        "role": "Bundestagsvizepräsidentin"
-      }
-    ],
-    "key": "19-69 zusatzpunkt 20 (claudia roth)"
+    }
   },
   {
     "parliament": "DE",
@@ -8991,7 +9022,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 22",
-      "speechIndex": 41,
+      "speechIndex": 1042,
       "title": "Änderung von energierechtlichen Vorschriften"
     },
     "people": [
@@ -9004,12 +9035,56 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19069-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19069-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
         "originTextID": "",
         "textBody": [
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "a) Zweite und dritte Beratung des von den Fraktionen der CDU/CSU und SPD eingebrachten Entwurfs eines Gesetzes zur Änderung des Erneuerbare-Energien-Gesetzes, des Kraft-Wärme-Kopplungsgesetzes, des Energiewirtschaftsgesetzes und weiterer energie­rechtlicher Vorschriften",
+            "sentences": [
+              {
+                "text": "a) Zweite und dritte Beratung des von den Fraktionen der CDU/CSU und SPD eingebrachten Entwurfs eines Gesetzes zur Änderung des Erneuerbare-Energien-Gesetzes, des Kraft-Wärme-Kopplungsgesetzes, des Energiewirtschaftsgesetzes und weiterer energie­rechtlicher Vorschriften"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "Beschlussempfehlung und Bericht des Ausschusses für Wirtschaft und Energie (9. Ausschuss)",
+            "sentences": [
+              {
+                "text": "Beschlussempfehlung und Bericht des Ausschusses für Wirtschaft und Energie (9. Ausschuss)"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "b) Beratung der Beschlussempfehlung und des Berichts des Ausschusses für Wirtschaft und Energie (9. Ausschuss) zu dem Antrag der Abgeordneten Lorenz Gösta Beutin, Ralph Lenkert, Hubertus Zdebel, weiterer Abgeordneter und der Fraktion DIE LINKE",
+            "sentences": [
+              {
+                "text": "b) Beratung der Beschlussempfehlung und des Berichts des Ausschusses für Wirtschaft und Energie (9. Ausschuss) zu dem Antrag der Abgeordneten Lorenz Gösta Beutin, Ralph Lenkert, Hubertus Zdebel, weiterer Abgeordneter und der Fraktion DIE LINKE"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "Bürgerenergie retten",
+            "sentences": [
+              {
+                "text": "Bürgerenergie retten"
+              }
+            ]
+          },
           {
             "type": "speech",
             "speaker": "Claudia Roth",
@@ -9116,7 +9191,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 22",
-      "speechIndex": 42,
+      "speechIndex": 1043,
       "title": "Änderung von energierechtlichen Vorschriften"
     },
     "people": [
@@ -9132,7 +9207,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19069-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19069-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -9708,7 +9783,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 22",
-      "speechIndex": 43,
+      "speechIndex": 1044,
       "title": "Änderung von energierechtlichen Vorschriften"
     },
     "people": [
@@ -9737,7 +9812,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19069-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19069-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -10947,7 +11022,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 22",
-      "speechIndex": 44,
+      "speechIndex": 1045,
       "title": "Änderung von energierechtlichen Vorschriften"
     },
     "people": [
@@ -10968,7 +11043,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19069-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19069-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -11488,7 +11563,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 22",
-      "speechIndex": 45,
+      "speechIndex": 1046,
       "title": "Änderung von energierechtlichen Vorschriften"
     },
     "people": [
@@ -11509,7 +11584,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19069-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19069-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -11959,7 +12034,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 22",
-      "speechIndex": 46,
+      "speechIndex": 1047,
       "title": "Änderung von energierechtlichen Vorschriften"
     },
     "people": [
@@ -11980,7 +12055,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19069-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19069-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -12592,7 +12667,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 22",
-      "speechIndex": 47,
+      "speechIndex": 1048,
       "title": "Änderung von energierechtlichen Vorschriften"
     },
     "people": [
@@ -12621,7 +12696,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19069-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19069-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -13177,7 +13252,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 22",
-      "speechIndex": 48,
+      "speechIndex": 1049,
       "title": "Änderung von energierechtlichen Vorschriften"
     },
     "people": [
@@ -13198,7 +13273,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19069-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19069-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -13338,7 +13413,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 22",
-      "speechIndex": 49,
+      "speechIndex": 1050,
       "title": "Änderung von energierechtlichen Vorschriften"
     },
     "people": [
@@ -13359,7 +13434,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19069-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19069-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -13873,7 +13948,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 22",
-      "speechIndex": 50,
+      "speechIndex": 1051,
       "title": "Änderung von energierechtlichen Vorschriften"
     },
     "people": [
@@ -13902,7 +13977,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19069-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19069-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -14570,7 +14645,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 22",
-      "speechIndex": 51,
+      "speechIndex": 1052,
       "title": "Änderung von energierechtlichen Vorschriften"
     },
     "people": [
@@ -14612,7 +14687,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19069-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19069-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -15747,7 +15822,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 22",
-      "speechIndex": 52,
+      "speechIndex": 1053,
       "title": "Änderung von energierechtlichen Vorschriften"
     },
     "people": [
@@ -15768,7 +15843,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19069-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19069-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -16188,7 +16263,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 22",
-      "speechIndex": 53,
+      "speechIndex": 1054,
       "title": "Änderung von energierechtlichen Vorschriften"
     },
     "people": [
@@ -16209,7 +16284,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19069-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19069-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -16780,7 +16855,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 22",
-      "speechIndex": 54,
+      "speechIndex": 1055,
       "title": "Änderung von energierechtlichen Vorschriften"
     },
     "people": [
@@ -16791,17 +16866,12 @@
         "lastname": "Saathoff",
         "context": "main-speaker",
         "faction": "SPD"
-      },
-      {
-        "type": "memberOfParliament",
-        "label": "Hans-Peter Friedrich",
-        "context": "vice-president"
       }
     ],
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19069-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19069-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -17063,18 +17133,76 @@
                 "text": "Herzlichen Dank für Ihre Aufmerksamkeit."
               }
             ]
-          },
-          {
-            "type": "comment",
-            "speaker": null,
-            "speakerstatus": null,
-            "text": "(Beifall bei der SPD)",
-            "sentences": [
-              {
-                "text": "(Beifall bei der SPD)"
-              }
-            ]
-          },
+          }
+        ]
+      }
+    ],
+    "documents": [
+      {
+        "type": "officialDocument",
+        "label": "Drucksache 19/5523",
+        "sourceURI": "https://dserver.bundestag.de/btd/19/055/1905523.pdf"
+      },
+      {
+        "type": "officialDocument",
+        "label": "Drucksache 19/6155",
+        "sourceURI": "https://dserver.bundestag.de/btd/19/061/1906155.pdf"
+      },
+      {
+        "type": "officialDocument",
+        "label": "Drucksache 19/1006",
+        "sourceURI": "https://dserver.bundestag.de/btd/19/010/1901006.pdf"
+      },
+      {
+        "type": "officialDocument",
+        "label": "Drucksache 19/6155",
+        "sourceURI": "https://dserver.bundestag.de/btd/19/061/1906155.pdf"
+      }
+    ],
+    "key": "19-69 tagesordnungspunkt 22 (johann saathoff)",
+    "dateStart": "2018-11-30T12:17:59",
+    "dateEnd": "2018-11-30T12:22:17",
+    "media": {
+      "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7296715/7296715_h264_720_400_2000kb_baseline_de_2192.mp4",
+      "sourcePage": "http://dbtg.tv/fvid/7296715",
+      "duration": 258.0,
+      "creator": "Deutscher Bundestag",
+      "license": "CC-BY-SA",
+      "originMediaID": "7296715",
+      "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7296715/7296715_mp3_128kb_stereo_de_128.mp3"
+    }
+  },
+  {
+    "parliament": "DE",
+    "electoralPeriod": {
+      "number": "19"
+    },
+    "session": {
+      "number": "69",
+      "dateStart": "2018-11-30T09:00",
+      "dateEnd": "2018-11-30T18:08"
+    },
+    "agendaItem": {
+      "officialTitle": "Tagesordnungspunkt 22",
+      "speechIndex": 1056,
+      "title": "Änderung von energierechtlichen Vorschriften"
+    },
+    "people": [
+      {
+        "type": "memberOfParliament",
+        "label": "Hans-Peter Friedrich",
+        "context": "vice-president"
+      }
+    ],
+    "textContents": [
+      {
+        "type": "proceedings",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19069-data.xml",
+        "creator": "Deutscher Bundestag",
+        "license": "Public Domain",
+        "language": "DE-de",
+        "originTextID": "",
+        "textBody": [
           {
             "type": "speech",
             "speaker": "Hans-Peter Friedrich",
@@ -17143,6 +17271,17 @@
               },
               {
                 "text": "Damit ist der Gesetzentwurf in zweiter Beratung mit den Stimmen der Koalition gegen die Stimmen der Opposition angenommen."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Hans-Peter Friedrich",
+            "speakerstatus": "vice-president",
+            "text": "Dritte Beratung",
+            "sentences": [
+              {
+                "text": "Dritte Beratung"
               }
             ]
           },
@@ -17324,32 +17463,9 @@
         "sourceURI": "https://dserver.bundestag.de/btd/19/061/1906155.pdf"
       }
     ],
-    "key": "19-69 tagesordnungspunkt 22 (johann saathoff)",
-    "dateStart": "2018-11-30T12:17:59",
-    "dateEnd": "2018-11-30T12:22:17",
-    "media": {
-      "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7296715/7296715_h264_720_400_2000kb_baseline_de_2192.mp4",
-      "sourcePage": "http://dbtg.tv/fvid/7296715",
-      "duration": 258.0,
-      "creator": "Deutscher Bundestag",
-      "license": "CC-BY-SA",
-      "originMediaID": "7296715",
-      "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7296715/7296715_mp3_128kb_stereo_de_128.mp3"
-    }
-  },
-  {
-    "parliament": "DE",
-    "electoralPeriod": {
-      "number": 19
-    },
-    "session": {
-      "number": 69
-    },
-    "agendaItem": {
-      "title": "Änderung von energierechtlichen Vorschriften",
-      "officialTitle": "Tagesordnungspunkt 22",
-      "speechIndex": 51
-    },
+    "key": "19-69 tagesordnungspunkt 22 (hans-peter friedrich)",
+    "dateStart": "2018-11-30T12:22:17",
+    "dateEnd": "2018-11-30T12:26:25",
     "media": {
       "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7296716/7296716_h264_720_400_2000kb_baseline_de_2192.mp4",
       "sourcePage": "http://dbtg.tv/fvid/7296716",
@@ -17358,18 +17474,7 @@
       "license": "CC-BY-SA",
       "originMediaID": "7296716",
       "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7296716/7296716_mp3_128kb_stereo_de_128.mp3"
-    },
-    "dateStart": "2018-11-30T12:22:17",
-    "dateEnd": "2018-11-30T12:26:25",
-    "people": [
-      {
-        "label": "Hans-Peter Friedrich",
-        "faction": "CDU/CSU",
-        "context": "main-speaker",
-        "role": "Bundestagsvizepräsident"
-      }
-    ],
-    "key": "19-69 tagesordnungspunkt 22 (hans-peter friedrich)"
+    }
   },
   {
     "parliament": "DE",
@@ -17383,7 +17488,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 12",
-      "speechIndex": 55,
+      "speechIndex": 1057,
       "title": "Gesetzlicher Mindestlohn"
     },
     "people": [
@@ -17396,12 +17501,111 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19069-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19069-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
         "originTextID": "",
         "textBody": [
+          {
+            "type": "speech",
+            "speaker": "Hans-Peter Friedrich",
+            "speakerstatus": "vice-president",
+            "text": "Beratung der Beschlussempfehlung und des Berichts des Ausschusses für Arbeit und Soziales (11. Ausschuss)",
+            "sentences": [
+              {
+                "text": "Beratung der Beschlussempfehlung und des Berichts des Ausschusses für Arbeit und Soziales (11. Ausschuss)"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Hans-Peter Friedrich",
+            "speakerstatus": "vice-president",
+            "text": "– zu dem Antrag der Abgeordneten Klaus Ernst, Jutta Krellmann, Matthias W. Birkwald, weiterer Abgeordneter und der Fraktion DIE LINKE",
+            "sentences": [
+              {
+                "text": "– zu dem Antrag der Abgeordneten Klaus Ernst, Jutta Krellmann, Matthias W. Birkwald, weiterer Abgeordneter und der Fraktion DIE LINKE"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Hans-Peter Friedrich",
+            "speakerstatus": "vice-president",
+            "text": "Den gesetzlichen Mindestlohn auf 12 Euro pro Stunde erhöhen",
+            "sentences": [
+              {
+                "text": "Den gesetzlichen Mindestlohn auf 12 Euro pro Stunde erhöhen"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Hans-Peter Friedrich",
+            "speakerstatus": "vice-president",
+            "text": "– zu dem Antrag der Abgeordneten Susanne Ferschl, Matthias W. Birkwald, Fabio De Masi, weiterer Abgeordneter und der Fraktion DIE LINKE",
+            "sentences": [
+              {
+                "text": "– zu dem Antrag der Abgeordneten Susanne Ferschl, Matthias W. Birkwald, Fabio De Masi, weiterer Abgeordneter und der Fraktion DIE LINKE"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Hans-Peter Friedrich",
+            "speakerstatus": "vice-president",
+            "text": "Mindestlöhne wirksam kontrollieren",
+            "sentences": [
+              {
+                "text": "Mindestlöhne wirksam kontrollieren"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Hans-Peter Friedrich",
+            "speakerstatus": "vice-president",
+            "text": "– zu dem Antrag der Abgeordneten Susanne Ferschl, Matthias W. Birkwald, Fabio De Masi, weiterer Abgeordneter und der Fraktion DIE LINKE",
+            "sentences": [
+              {
+                "text": "– zu dem Antrag der Abgeordneten Susanne Ferschl, Matthias W. Birkwald, Fabio De Masi, weiterer Abgeordneter und der Fraktion DIE LINKE"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Hans-Peter Friedrich",
+            "speakerstatus": "vice-president",
+            "text": "Ausnahmen beim gesetzlichen Mindestlohn aufheben",
+            "sentences": [
+              {
+                "text": "Ausnahmen beim gesetzlichen Mindestlohn aufheben"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Hans-Peter Friedrich",
+            "speakerstatus": "vice-president",
+            "text": "– zu dem Antrag der Abgeordneten Beate ­Müller-Gemmeke, Anja Hajduk, Dr. Wolfgang Strengmann-Kuhn, weiterer Abgeordneter und der Fraktion BÜNDNIS 90/DIE GRÜNEN",
+            "sentences": [
+              {
+                "text": "– zu dem Antrag der Abgeordneten Beate ­Müller-Gemmeke, Anja Hajduk, Dr. Wolfgang Strengmann-Kuhn, weiterer Abgeordneter und der Fraktion BÜNDNIS 90/DIE GRÜNEN"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Hans-Peter Friedrich",
+            "speakerstatus": "vice-president",
+            "text": "Mindestlohn erhöhen und für alle konsequent durchsetzen",
+            "sentences": [
+              {
+                "text": "Mindestlohn erhöhen und für alle konsequent durchsetzen"
+              }
+            ]
+          },
           {
             "type": "speech",
             "speaker": "Hans-Peter Friedrich",
@@ -17499,7 +17703,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 12",
-      "speechIndex": 56,
+      "speechIndex": 1058,
       "title": "Gesetzlicher Mindestlohn"
     },
     "people": [
@@ -17520,7 +17724,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19069-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19069-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -17969,7 +18173,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 12",
-      "speechIndex": 57,
+      "speechIndex": 1059,
       "title": "Gesetzlicher Mindestlohn"
     },
     "people": [
@@ -17990,7 +18194,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19069-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19069-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -18830,7 +19034,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 12",
-      "speechIndex": 59,
+      "speechIndex": 1061,
       "title": "Gesetzlicher Mindestlohn"
     },
     "people": [
@@ -18851,7 +19055,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19069-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19069-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -19078,7 +19282,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 12",
-      "speechIndex": 60,
+      "speechIndex": 1062,
       "title": "Gesetzlicher Mindestlohn"
     },
     "people": [
@@ -19099,7 +19303,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19069-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19069-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -19500,7 +19704,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 12",
-      "speechIndex": 61,
+      "speechIndex": 1063,
       "title": "Gesetzlicher Mindestlohn"
     },
     "people": [
@@ -19521,7 +19725,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19069-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19069-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -19932,7 +20136,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 12",
-      "speechIndex": 62,
+      "speechIndex": 1064,
       "title": "Gesetzlicher Mindestlohn"
     },
     "people": [
@@ -19953,7 +20157,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19069-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19069-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -20645,7 +20849,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 12",
-      "speechIndex": 63,
+      "speechIndex": 1065,
       "title": "Gesetzlicher Mindestlohn"
     },
     "people": [
@@ -20666,7 +20870,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19069-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19069-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -21052,7 +21256,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 12",
-      "speechIndex": 64,
+      "speechIndex": 1066,
       "title": "Gesetzlicher Mindestlohn"
     },
     "people": [
@@ -21073,7 +21277,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19069-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19069-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -21521,7 +21725,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 12",
-      "speechIndex": 65,
+      "speechIndex": 1067,
       "title": "Gesetzlicher Mindestlohn"
     },
     "people": [
@@ -21542,7 +21746,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19069-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19069-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -21909,7 +22113,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 12",
-      "speechIndex": 66,
+      "speechIndex": 1068,
       "title": "Gesetzlicher Mindestlohn"
     },
     "people": [
@@ -21938,7 +22142,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19069-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19069-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -22672,7 +22876,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 12",
-      "speechIndex": 67,
+      "speechIndex": 1069,
       "title": "Gesetzlicher Mindestlohn"
     },
     "people": [
@@ -22693,7 +22897,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19069-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19069-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -22991,7 +23195,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 12",
-      "speechIndex": 68,
+      "speechIndex": 1070,
       "title": "Gesetzlicher Mindestlohn"
     },
     "people": [
@@ -23012,7 +23216,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19069-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19069-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -23292,7 +23496,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 12",
-      "speechIndex": 69,
+      "speechIndex": 1071,
       "title": "Gesetzlicher Mindestlohn"
     },
     "people": [
@@ -23321,7 +23525,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19069-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19069-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -24061,7 +24265,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 12",
-      "speechIndex": 70,
+      "speechIndex": 1072,
       "title": "Gesetzlicher Mindestlohn"
     },
     "people": [
@@ -24082,7 +24286,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19069-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19069-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -24433,7 +24637,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 12",
-      "speechIndex": 71,
+      "speechIndex": 1073,
       "title": "Gesetzlicher Mindestlohn"
     },
     "people": [
@@ -24444,17 +24648,12 @@
         "lastname": "Schimke",
         "context": "main-speaker",
         "faction": "CDU/CSU"
-      },
-      {
-        "type": "memberOfParliament",
-        "label": "Hans-Peter Friedrich",
-        "context": "vice-president"
       }
     ],
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19069-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19069-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -24832,150 +25031,6 @@
                 "text": "Vielen Dank."
               }
             ]
-          },
-          {
-            "type": "comment",
-            "speaker": null,
-            "speakerstatus": null,
-            "text": "(Beifall bei der CDU/CSU)",
-            "sentences": [
-              {
-                "text": "(Beifall bei der CDU/CSU)"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Hans-Peter Friedrich",
-            "speakerstatus": "vice-president",
-            "text": "Vielen Dank, Frau Kollegin Schimke. – Ich schließe die Aussprache zu Tagesordnungspunkt 12.",
-            "sentences": [
-              {
-                "text": "Vielen Dank, Frau Kollegin Schimke."
-              },
-              {
-                "text": "– Ich schließe die Aussprache zu Tagesordnungspunkt 12."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Hans-Peter Friedrich",
-            "speakerstatus": "vice-president",
-            "text": "Wir kommen zur Abstimmung über die Beschlussempfehlung des Ausschusses für Arbeit und Soziales auf Drucksache 19/5639. Der Ausschuss empfiehlt unter Buchstabe a seiner Beschlussempfehlung die Ablehnung des Antrags der Fraktion Die Linke auf Drucksache 19/96 mit dem Titel „Den gesetzlichen Mindestlohn auf 12 Euro pro Stunde erhöhen“. Wer stimmt für diese Beschlussempfehlung des Ausschusses? – Das sind CDU/CSU, SPD, FDP und Grüne. Gegenprobe! – Die Linken. Enthaltungen? – AfD. Damit ist die Beschlussempfehlung mit den Stimmen von CDU/CSU, SPD, FDP und Grüne bei Gegenstimmen der Linken und Enthaltung der AfD angenommen.",
-            "sentences": [
-              {
-                "text": "Wir kommen zur Abstimmung über die Beschlussempfehlung des Ausschusses für Arbeit und Soziales auf Drucksache 19/5639. Der Ausschuss empfiehlt unter Buchstabe a seiner Beschlussempfehlung die Ablehnung des Antrags der Fraktion Die Linke auf Drucksache 19/96 mit dem Titel „Den gesetzlichen Mindestlohn auf 12 Euro pro Stunde erhöhen“."
-              },
-              {
-                "text": "Wer stimmt für diese Beschlussempfehlung des Ausschusses?"
-              },
-              {
-                "text": "– Das sind CDU/CSU, SPD, FDP und Grüne."
-              },
-              {
-                "text": "Gegenprobe!"
-              },
-              {
-                "text": "– Die Linken."
-              },
-              {
-                "text": "Enthaltungen?"
-              },
-              {
-                "text": "– AfD. Damit ist die Beschlussempfehlung mit den Stimmen von CDU/CSU, SPD, FDP und Grüne bei Gegenstimmen der Linken und Enthaltung der AfD angenommen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Hans-Peter Friedrich",
-            "speakerstatus": "vice-president",
-            "text": "Buchstabe b der Beschlussempfehlung. Hier empfiehlt der Ausschuss die Ablehnung des Antrags der Fraktion Die Linke auf Drucksache 19/1828 mit dem Titel „Mindestlöhne wirksam kontrollieren“. Wer stimmt für die Beschlussempfehlung? – CDU/CSU, SPD, FDP und AfD. Gegenprobe! – Fraktion Die Linke. Enthaltungen? – Die Grünen enthalten sich. Damit ist die Beschlussempfehlung angenommen.",
-            "sentences": [
-              {
-                "text": "Buchstabe b der Beschlussempfehlung."
-              },
-              {
-                "text": "Hier empfiehlt der Ausschuss die Ablehnung des Antrags der Fraktion Die Linke auf Drucksache 19/1828 mit dem Titel „Mindestlöhne wirksam kontrollieren“."
-              },
-              {
-                "text": "Wer stimmt für die Beschlussempfehlung?"
-              },
-              {
-                "text": "– CDU/CSU, SPD, FDP und AfD. Gegenprobe!"
-              },
-              {
-                "text": "– Fraktion Die Linke."
-              },
-              {
-                "text": "Enthaltungen?"
-              },
-              {
-                "text": "– Die Grünen enthalten sich."
-              },
-              {
-                "text": "Damit ist die Beschlussempfehlung angenommen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Hans-Peter Friedrich",
-            "speakerstatus": "vice-president",
-            "text": "Wir kommen zu Buchstabe c der Beschlussempfehlung des Ausschusses: Ablehnung des Antrags der Fraktion Die Linke auf Drucksache 19/1829 mit dem Titel „Ausnahmen beim gesetzlichen Mindestlohn aufheben“. Wer stimmt für die Beschlussempfehlung? – SPD, CDU/CSU, FDP und AfD. Gegenprobe! – Grüne und Linke. Enthaltungen? – Keine. Die Beschlussempfehlung ist damit angenommen.",
-            "sentences": [
-              {
-                "text": "Wir kommen zu Buchstabe c der Beschlussempfehlung des Ausschusses: Ablehnung des Antrags der Fraktion Die Linke auf Drucksache 19/1829 mit dem Titel „Ausnahmen beim gesetzlichen Mindestlohn aufheben“."
-              },
-              {
-                "text": "Wer stimmt für die Beschlussempfehlung?"
-              },
-              {
-                "text": "– SPD, CDU/CSU, FDP und AfD. Gegenprobe!"
-              },
-              {
-                "text": "– Grüne und Linke."
-              },
-              {
-                "text": "Enthaltungen?"
-              },
-              {
-                "text": "– Keine."
-              },
-              {
-                "text": "Die Beschlussempfehlung ist damit angenommen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Hans-Peter Friedrich",
-            "speakerstatus": "vice-president",
-            "text": "Schließlich Buchstabe d der Beschlussempfehlung: Ablehnung des Antrags der Fraktion Bündnis 90/Die Grünen auf Drucksache 19/975 mit dem Titel „Mindestlohn erhöhen und für alle konsequent durchsetzen“. Wer stimmt für die Beschlussempfehlung? – Das sind die Koalition, die FDP und die AfD. Gegenprobe! – Grüne. Enthaltungen? – Linke. Damit ist die Beschlussempfehlung angenommen.",
-            "sentences": [
-              {
-                "text": "Schließlich Buchstabe d der Beschlussempfehlung: Ablehnung des Antrags der Fraktion Bündnis 90/Die Grünen auf Drucksache 19/975 mit dem Titel „Mindestlohn erhöhen und für alle konsequent durchsetzen“."
-              },
-              {
-                "text": "Wer stimmt für die Beschlussempfehlung?"
-              },
-              {
-                "text": "– Das sind die Koalition, die FDP und die AfD. Gegenprobe!"
-              },
-              {
-                "text": "– Grüne."
-              },
-              {
-                "text": "Enthaltungen?"
-              },
-              {
-                "text": "– Linke."
-              },
-              {
-                "text": "Damit ist die Beschlussempfehlung angenommen."
-              }
-            ]
           }
         ]
       }
@@ -25023,16 +25078,162 @@
   {
     "parliament": "DE",
     "electoralPeriod": {
-      "number": 19
+      "number": "19"
     },
     "session": {
-      "number": 69
+      "number": "69",
+      "dateStart": "2018-11-30T09:00",
+      "dateEnd": "2018-11-30T18:08"
     },
     "agendaItem": {
-      "title": "Gesetzlicher Mindestlohn",
       "officialTitle": "Tagesordnungspunkt 12",
-      "speechIndex": 69
+      "speechIndex": 1060,
+      "title": "Gesetzlicher Mindestlohn"
     },
+    "people": [
+      {
+        "type": "memberOfParliament",
+        "label": "Hans-Peter Friedrich",
+        "context": "vice-president"
+      }
+    ],
+    "textContents": [
+      {
+        "type": "proceedings",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19069-data.xml",
+        "creator": "Deutscher Bundestag",
+        "license": "Public Domain",
+        "language": "DE-de",
+        "originTextID": "",
+        "textBody": [
+          {
+            "type": "speech",
+            "speaker": "",
+            "speakerstatus": "main-speaker",
+            "text": "Sehr geehrter Herr Präsident, da ich es als Selbstverständlichkeit begreife, dass man hier bis zum Schluss bleibt, sehe ich hier überhaupt keinen Fragebedarf.",
+            "sentences": [
+              {
+                "text": "Sehr geehrter Herr Präsident, da ich es als Selbstverständlichkeit begreife, dass man hier bis zum Schluss bleibt, sehe ich hier überhaupt keinen Fragebedarf."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "",
+            "speakerstatus": "main-speaker",
+            "text": "Ich beziehe mich aber in meiner Kurzintervention auf Sie, Herr Pohl. Ich stelle fest, dass Sie den Mindestlohn präferieren. Zu einer Erhöhung des Mindestlohns gibt es aber von Ihrer Fraktion keinen Beifall. Deshalb hätte ich gerne gewusst: Sind Sie für den Mindestlohn? Ist Ihre Fraktion für den Mindestlohn, und, wenn ja, wie hoch soll der Mindestlohn sein? Das müsste schon einmal klargestellt werden; denn der eine sagt so und der andere sagt so.",
+            "sentences": [
+              {
+                "text": "Ich beziehe mich aber in meiner Kurzintervention auf Sie, Herr Pohl."
+              },
+              {
+                "text": "Ich stelle fest, dass Sie den Mindestlohn präferieren."
+              },
+              {
+                "text": "Zu einer Erhöhung des Mindestlohns gibt es aber von Ihrer Fraktion keinen Beifall."
+              },
+              {
+                "text": "Deshalb hätte ich gerne gewusst: Sind Sie für den Mindestlohn?"
+              },
+              {
+                "text": "Ist Ihre Fraktion für den Mindestlohn, und, wenn ja, wie hoch soll der Mindestlohn sein?"
+              },
+              {
+                "text": "Das müsste schon einmal klargestellt werden; denn der eine sagt so und der andere sagt so."
+              }
+            ]
+          },
+          {
+            "type": "comment",
+            "speaker": null,
+            "speakerstatus": null,
+            "text": "(Beate Müller-Gemmeke [BÜNDNIS 90/DIE GRÜNEN]: Die sagen nie was!)",
+            "sentences": [
+              {
+                "text": "(Beate Müller-Gemmeke [BÜNDNIS 90/DIE GRÜNEN]: Die sagen nie was!)"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "",
+            "speakerstatus": "main-speaker",
+            "text": "Das ist nicht nachzuvollziehen. – Danke.",
+            "sentences": [
+              {
+                "text": "Das ist nicht nachzuvollziehen."
+              },
+              {
+                "text": "– Danke."
+              }
+            ]
+          },
+          {
+            "type": "comment",
+            "speaker": null,
+            "speakerstatus": null,
+            "text": "(Beifall bei Abgeordneten der SPD)",
+            "sentences": [
+              {
+                "text": "(Beifall bei Abgeordneten der SPD)"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Hans-Peter Friedrich",
+            "speakerstatus": "vice-president",
+            "text": "Herr Kollege Pohl.",
+            "sentences": [
+              {
+                "text": "Herr Kollege Pohl."
+              }
+            ]
+          },
+          {
+            "type": "comment",
+            "speaker": null,
+            "speakerstatus": null,
+            "text": "(Zuruf von der SPD: Jetzt wird es konkret!)",
+            "sentences": [
+              {
+                "text": "(Zuruf von der SPD: Jetzt wird es konkret!)"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "documents": [
+      {
+        "type": "officialDocument",
+        "label": "Drucksache 19/96",
+        "sourceURI": "https://dserver.bundestag.de/btd/19/000/1900096.pdf"
+      },
+      {
+        "type": "officialDocument",
+        "label": "Drucksache 19/1828",
+        "sourceURI": "https://dserver.bundestag.de/btd/19/018/1901828.pdf"
+      },
+      {
+        "type": "officialDocument",
+        "label": "Drucksache 19/1829",
+        "sourceURI": "https://dserver.bundestag.de/btd/19/018/1901829.pdf"
+      },
+      {
+        "type": "officialDocument",
+        "label": "Drucksache 19/975",
+        "sourceURI": "https://dserver.bundestag.de/btd/19/009/1900975.pdf"
+      },
+      {
+        "type": "officialDocument",
+        "label": "Drucksache 19/5639",
+        "sourceURI": "https://dserver.bundestag.de/btd/19/056/1905639.pdf"
+      }
+    ],
+    "key": "19-69 tagesordnungspunkt 12 (hans-peter friedrich) #1",
+    "dateStart": "2018-11-30T13:45:45",
+    "dateEnd": "2018-11-30T13:48:05",
     "media": {
       "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7296745/7296745_h264_720_400_2000kb_baseline_de_2192.mp4",
       "sourcePage": "http://dbtg.tv/fvid/7296745",
@@ -25041,18 +25242,7 @@
       "license": "CC-BY-SA",
       "originMediaID": "7296745",
       "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7296745/7296745_mp3_128kb_stereo_de_128.mp3"
-    },
-    "dateStart": "2018-11-30T13:45:45",
-    "dateEnd": "2018-11-30T13:48:05",
-    "people": [
-      {
-        "label": "Hans-Peter Friedrich",
-        "faction": "CDU/CSU",
-        "context": "main-speaker",
-        "role": "Bundestagsvizepräsident"
-      }
-    ],
-    "key": "19-69 tagesordnungspunkt 12 (hans-peter friedrich) #1"
+    }
   },
   {
     "parliament": "DE",
@@ -25066,7 +25256,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 21",
-      "speechIndex": 82,
+      "speechIndex": 1085,
       "title": "Portugal: Vorzeitige Rückzahlung der Kredite"
     },
     "people": [
@@ -25079,7 +25269,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19069-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19069-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -25418,7 +25608,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 21",
-      "speechIndex": 83,
+      "speechIndex": 1086,
       "title": "Portugal: Vorzeitige Rückzahlung der Kredite"
     },
     "people": [
@@ -25431,7 +25621,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19069-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19069-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -25498,7 +25688,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 22",
-      "speechIndex": 95,
+      "speechIndex": 1098,
       "title": "Stickoxid-Grenzwert und Messverfahren"
     },
     "people": [
@@ -25511,7 +25701,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19069-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19069-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -25872,7 +26062,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 22",
-      "speechIndex": 96,
+      "speechIndex": 1099,
       "title": "Stickoxid-Grenzwert und Messverfahren"
     },
     "people": [
@@ -25885,7 +26075,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19069-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19069-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -25940,7 +26130,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 23",
-      "speechIndex": 108,
+      "speechIndex": 1111,
       "title": "Künstliche Intelligenz"
     },
     "people": [
@@ -25953,7 +26143,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19069-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19069-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -26375,7 +26565,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 23",
-      "speechIndex": 109,
+      "speechIndex": 1112,
       "title": "Künstliche Intelligenz"
     },
     "people": [
@@ -26388,7 +26578,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19069-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19069-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -26504,7 +26694,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 24",
-      "speechIndex": 110,
+      "speechIndex": 1113,
       "title": "Aktuelle Stunde - Keine vorgezogene Annahme des Globalen Paktes in Marrakesch"
     },
     "people": [
@@ -26517,12 +26707,34 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19069-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19069-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
         "originTextID": "",
         "textBody": [
+          {
+            "type": "speech",
+            "speaker": "Hans-Peter Friedrich",
+            "speakerstatus": "vice-president",
+            "text": "Aktuelle Stunde auf Verlangen der Fraktion der AfD",
+            "sentences": [
+              {
+                "text": "Aktuelle Stunde auf Verlangen der Fraktion der AfD"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Hans-Peter Friedrich",
+            "speakerstatus": "vice-president",
+            "text": "Parlamentarische Kontrolle gewährleisten – Keine vorgezogene Annahme des Globalen Paktes zu Flüchtlingen in Marrakesch",
+            "sentences": [
+              {
+                "text": "Parlamentarische Kontrolle gewährleisten – Keine vorgezogene Annahme des Globalen Paktes zu Flüchtlingen in Marrakesch"
+              }
+            ]
+          },
           {
             "type": "speech",
             "speaker": "Hans-Peter Friedrich",
@@ -26566,7 +26778,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 24",
-      "speechIndex": 111,
+      "speechIndex": 1114,
       "title": "Aktuelle Stunde - Keine vorgezogene Annahme des Globalen Paktes in Marrakesch"
     },
     "people": [
@@ -26587,7 +26799,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19069-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19069-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -26999,7 +27211,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 24",
-      "speechIndex": 112,
+      "speechIndex": 1115,
       "title": "Aktuelle Stunde - Keine vorgezogene Annahme des Globalen Paktes in Marrakesch"
     },
     "people": [
@@ -27020,7 +27232,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19069-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19069-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -27700,7 +27912,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 24",
-      "speechIndex": 113,
+      "speechIndex": 1116,
       "title": "Aktuelle Stunde - Keine vorgezogene Annahme des Globalen Paktes in Marrakesch"
     },
     "people": [
@@ -27721,7 +27933,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19069-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19069-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -28171,7 +28383,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 24",
-      "speechIndex": 114,
+      "speechIndex": 1117,
       "title": "Aktuelle Stunde - Keine vorgezogene Annahme des Globalen Paktes in Marrakesch"
     },
     "people": [
@@ -28192,7 +28404,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19069-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19069-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -28660,7 +28872,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 24",
-      "speechIndex": 115,
+      "speechIndex": 1118,
       "title": "Aktuelle Stunde - Keine vorgezogene Annahme des Globalen Paktes in Marrakesch"
     },
     "people": [
@@ -28681,7 +28893,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19069-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19069-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -29169,7 +29381,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 24",
-      "speechIndex": 116,
+      "speechIndex": 1119,
       "title": "Aktuelle Stunde - Keine vorgezogene Annahme des Globalen Paktes in Marrakesch"
     },
     "people": [
@@ -29190,7 +29402,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19069-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19069-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -29548,7 +29760,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 24",
-      "speechIndex": 117,
+      "speechIndex": 1120,
       "title": "Aktuelle Stunde - Keine vorgezogene Annahme des Globalen Paktes in Marrakesch"
     },
     "people": [
@@ -29569,7 +29781,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19069-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19069-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -29995,7 +30207,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 24",
-      "speechIndex": 118,
+      "speechIndex": 1121,
       "title": "Aktuelle Stunde - Keine vorgezogene Annahme des Globalen Paktes in Marrakesch"
     },
     "people": [
@@ -30016,7 +30228,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19069-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19069-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -30714,7 +30926,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 24",
-      "speechIndex": 119,
+      "speechIndex": 1122,
       "title": "Aktuelle Stunde - Keine vorgezogene Annahme des Globalen Paktes in Marrakesch"
     },
     "people": [
@@ -30735,7 +30947,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19069-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19069-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -31204,7 +31416,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 24",
-      "speechIndex": 120,
+      "speechIndex": 1123,
       "title": "Aktuelle Stunde - Keine vorgezogene Annahme des Globalen Paktes in Marrakesch"
     },
     "people": [
@@ -31225,7 +31437,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19069-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19069-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -31928,7 +32140,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 24",
-      "speechIndex": 121,
+      "speechIndex": 1124,
       "title": "Aktuelle Stunde - Keine vorgezogene Annahme des Globalen Paktes in Marrakesch"
     },
     "people": [
@@ -31949,7 +32161,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19069-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19069-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -32676,7 +32888,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 24",
-      "speechIndex": 122,
+      "speechIndex": 1125,
       "title": "Aktuelle Stunde - Keine vorgezogene Annahme des Globalen Paktes in Marrakesch"
     },
     "people": [
@@ -32687,17 +32899,12 @@
         "lastname": "Müller",
         "context": "main-speaker",
         "faction": "CDU/CSU"
-      },
-      {
-        "type": "memberOfParliament",
-        "label": "Hans-Peter Friedrich",
-        "context": "vice-president"
       }
     ],
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19069-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19069-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -33217,18 +33424,55 @@
                 "text": "Ich bedanke mich."
               }
             ]
-          },
-          {
-            "type": "comment",
-            "speaker": null,
-            "speakerstatus": null,
-            "text": "(Beifall bei der CDU/CSU, der SPD, der FDP und dem BÜNDNIS 90/DIE GRÜNEN)",
-            "sentences": [
-              {
-                "text": "(Beifall bei der CDU/CSU, der SPD, der FDP und dem BÜNDNIS 90/DIE GRÜNEN)"
-              }
-            ]
-          },
+          }
+        ]
+      }
+    ],
+    "documents": [],
+    "key": "19-69 zusatzpunkt 24 (axel muller)",
+    "dateStart": "2018-11-30T17:01:58",
+    "dateEnd": "2018-11-30T17:07:52",
+    "media": {
+      "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7296812/7296812_h264_720_400_2000kb_baseline_de_2192.mp4",
+      "sourcePage": "http://dbtg.tv/fvid/7296812",
+      "duration": 354.0,
+      "creator": "Deutscher Bundestag",
+      "license": "CC-BY-SA",
+      "originMediaID": "7296812",
+      "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7296812/7296812_mp3_128kb_stereo_de_128.mp3"
+    }
+  },
+  {
+    "parliament": "DE",
+    "electoralPeriod": {
+      "number": "19"
+    },
+    "session": {
+      "number": "69",
+      "dateStart": "2018-11-30T09:00",
+      "dateEnd": "2018-11-30T18:08"
+    },
+    "agendaItem": {
+      "officialTitle": "Zusatzpunkt 24",
+      "speechIndex": 1126,
+      "title": "Aktuelle Stunde - Keine vorgezogene Annahme des Globalen Paktes in Marrakesch"
+    },
+    "people": [
+      {
+        "type": "memberOfParliament",
+        "label": "Hans-Peter Friedrich",
+        "context": "vice-president"
+      }
+    ],
+    "textContents": [
+      {
+        "type": "proceedings",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19069-data.xml",
+        "creator": "Deutscher Bundestag",
+        "license": "Public Domain",
+        "language": "DE-de",
+        "originTextID": "",
+        "textBody": [
           {
             "type": "speech",
             "speaker": "Hans-Peter Friedrich",
@@ -33272,32 +33516,9 @@
       }
     ],
     "documents": [],
-    "key": "19-69 zusatzpunkt 24 (axel muller)",
-    "dateStart": "2018-11-30T17:01:58",
-    "dateEnd": "2018-11-30T17:07:52",
-    "media": {
-      "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7296812/7296812_h264_720_400_2000kb_baseline_de_2192.mp4",
-      "sourcePage": "http://dbtg.tv/fvid/7296812",
-      "duration": 354.0,
-      "creator": "Deutscher Bundestag",
-      "license": "CC-BY-SA",
-      "originMediaID": "7296812",
-      "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7296812/7296812_mp3_128kb_stereo_de_128.mp3"
-    }
-  },
-  {
-    "parliament": "DE",
-    "electoralPeriod": {
-      "number": 19
-    },
-    "session": {
-      "number": 69
-    },
-    "agendaItem": {
-      "title": "Aktuelle Stunde - Keine vorgezogene Annahme des Globalen Paktes in Marrakesch",
-      "officialTitle": "Zusatzpunkt 24",
-      "speechIndex": 115
-    },
+    "key": "19-69 zusatzpunkt 24 (hans-peter friedrich) #1",
+    "dateStart": "2018-11-30T17:07:52",
+    "dateEnd": "2018-11-30T17:07:56",
     "media": {
       "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7296813/7296813_h264_720_400_2000kb_baseline_de_2192.mp4",
       "sourcePage": "http://dbtg.tv/fvid/7296813",
@@ -33306,18 +33527,7 @@
       "license": "CC-BY-SA",
       "originMediaID": "7296813",
       "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7296813/7296813_mp3_128kb_stereo_de_128.mp3"
-    },
-    "dateStart": "2018-11-30T17:07:52",
-    "dateEnd": "2018-11-30T17:07:56",
-    "people": [
-      {
-        "label": "Hans-Peter Friedrich",
-        "faction": "CDU/CSU",
-        "context": "main-speaker",
-        "role": "Bundestagsvizepräsident"
-      }
-    ],
-    "key": "19-69 zusatzpunkt 24 (hans-peter friedrich) #1"
+    }
   },
   {
     "parliament": "DE",

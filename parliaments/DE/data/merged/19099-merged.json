@@ -11,7 +11,7 @@
     },
     "agendaItem": {
       "officialTitle": "Sitzungseröffnung",
-      "speechIndex": 0,
+      "speechIndex": 1000,
       "title": "Sitzungseröffnung"
     },
     "people": [
@@ -24,7 +24,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19099-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19099-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -106,7 +106,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 13",
-      "speechIndex": 13,
+      "speechIndex": 1013,
       "title": "Städtebauförderung"
     },
     "people": [
@@ -119,7 +119,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19099-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19099-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -477,7 +477,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 13",
-      "speechIndex": 14,
+      "speechIndex": 1014,
       "title": "Städtebauförderung"
     },
     "people": [
@@ -490,7 +490,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19099-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19099-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -542,7 +542,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 15",
-      "speechIndex": 17,
+      "speechIndex": 1017,
       "title": "Rückabwicklung von Finanzhilfen für Griechenland"
     },
     "people": [
@@ -555,12 +555,34 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19099-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19099-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
         "originTextID": "",
         "textBody": [
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "Beratung des Antrags der Abgeordneten Peter Boehringer, Dr. Bruno Hollnagel, Marc Bernhard, weiterer Abgeordneter und der Fraktion der AfD",
+            "sentences": [
+              {
+                "text": "Beratung des Antrags der Abgeordneten Peter Boehringer, Dr. Bruno Hollnagel, Marc Bernhard, weiterer Abgeordneter und der Fraktion der AfD"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "Rückabwicklung von Finanzhilfen für Griechenland wegen Nichterfüllung und Nichtbeachtung der Kreditkonditionen",
+            "sentences": [
+              {
+                "text": "Rückabwicklung von Finanzhilfen für Griechenland wegen Nichterfüllung und Nichtbeachtung der Kreditkonditionen"
+              }
+            ]
+          },
           {
             "type": "speech",
             "speaker": "Claudia Roth",
@@ -638,7 +660,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 15",
-      "speechIndex": 18,
+      "speechIndex": 1018,
       "title": "Rückabwicklung von Finanzhilfen für Griechenland"
     },
     "people": [
@@ -659,7 +681,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19099-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19099-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -1313,7 +1335,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 15",
-      "speechIndex": 19,
+      "speechIndex": 1019,
       "title": "Rückabwicklung von Finanzhilfen für Griechenland"
     },
     "people": [
@@ -1334,7 +1356,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19099-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19099-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -2032,7 +2054,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 15",
-      "speechIndex": 20,
+      "speechIndex": 1020,
       "title": "Rückabwicklung von Finanzhilfen für Griechenland"
     },
     "people": [
@@ -2053,7 +2075,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19099-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19099-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -2534,7 +2556,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 15",
-      "speechIndex": 21,
+      "speechIndex": 1021,
       "title": "Rückabwicklung von Finanzhilfen für Griechenland"
     },
     "people": [
@@ -2563,7 +2585,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19099-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19099-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -3335,7 +3357,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 15",
-      "speechIndex": 22,
+      "speechIndex": 1022,
       "title": "Rückabwicklung von Finanzhilfen für Griechenland"
     },
     "people": [
@@ -3356,7 +3378,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19099-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19099-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -3658,7 +3680,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 15",
-      "speechIndex": 23,
+      "speechIndex": 1023,
       "title": "Rückabwicklung von Finanzhilfen für Griechenland"
     },
     "people": [
@@ -3679,7 +3701,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19099-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19099-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -4379,7 +4401,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 15",
-      "speechIndex": 24,
+      "speechIndex": 1024,
       "title": "Rückabwicklung von Finanzhilfen für Griechenland"
     },
     "people": [
@@ -4400,7 +4422,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19099-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19099-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -4715,7 +4737,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 15",
-      "speechIndex": 25,
+      "speechIndex": 1025,
       "title": "Rückabwicklung von Finanzhilfen für Griechenland"
     },
     "people": [
@@ -4736,7 +4758,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19099-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19099-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -5050,7 +5072,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 15",
-      "speechIndex": 26,
+      "speechIndex": 1026,
       "title": "Rückabwicklung von Finanzhilfen für Griechenland"
     },
     "people": [
@@ -5071,7 +5093,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19099-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19099-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -5548,7 +5570,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 15",
-      "speechIndex": 27,
+      "speechIndex": 1027,
       "title": "Rückabwicklung von Finanzhilfen für Griechenland"
     },
     "people": [
@@ -5569,7 +5591,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19099-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19099-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -6083,7 +6105,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 15",
-      "speechIndex": 28,
+      "speechIndex": 1028,
       "title": "Rückabwicklung von Finanzhilfen für Griechenland"
     },
     "people": [
@@ -6094,17 +6116,12 @@
         "lastname": "Körber",
         "context": "main-speaker",
         "faction": "CDU/CSU"
-      },
-      {
-        "type": "memberOfParliament",
-        "label": "Claudia Roth",
-        "context": "vice-president"
       }
     ],
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19099-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19099-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -6605,18 +6622,61 @@
                 "text": "Vielen Dank."
               }
             ]
-          },
-          {
-            "type": "comment",
-            "speaker": null,
-            "speakerstatus": null,
-            "text": "(Beifall bei der CDU/CSU sowie bei Abgeordneten der SPD)",
-            "sentences": [
-              {
-                "text": "(Beifall bei der CDU/CSU sowie bei Abgeordneten der SPD)"
-              }
-            ]
-          },
+          }
+        ]
+      }
+    ],
+    "documents": [
+      {
+        "type": "officialDocument",
+        "label": "Drucksache 19/9961",
+        "sourceURI": "https://dserver.bundestag.de/btd/19/099/1909961.pdf"
+      }
+    ],
+    "key": "19-99 zusatzpunkt 15 (carsten korber)",
+    "dateStart": "2019-05-10T08:47:56",
+    "dateEnd": "2019-05-10T08:54:08",
+    "media": {
+      "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7353170/7353170_h264_720_400_2000kb_baseline_de_2192.mp4",
+      "sourcePage": "http://dbtg.tv/fvid/7353170",
+      "duration": 372.0,
+      "creator": "Deutscher Bundestag",
+      "license": "CC-BY-SA",
+      "originMediaID": "7353170",
+      "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7353170/7353170_mp3_128kb_stereo_de_128.mp3"
+    }
+  },
+  {
+    "parliament": "DE",
+    "electoralPeriod": {
+      "number": "19"
+    },
+    "session": {
+      "number": "99",
+      "dateStart": "2019-05-10T09:00",
+      "dateEnd": "2019-05-10T15:28"
+    },
+    "agendaItem": {
+      "officialTitle": "Zusatzpunkt 15",
+      "speechIndex": 1029,
+      "title": "Rückabwicklung von Finanzhilfen für Griechenland"
+    },
+    "people": [
+      {
+        "type": "memberOfParliament",
+        "label": "Claudia Roth",
+        "context": "vice-president"
+      }
+    ],
+    "textContents": [
+      {
+        "type": "proceedings",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19099-data.xml",
+        "creator": "Deutscher Bundestag",
+        "license": "Public Domain",
+        "language": "DE-de",
+        "originTextID": "",
+        "textBody": [
           {
             "type": "speech",
             "speaker": "Claudia Roth",
@@ -6658,32 +6718,9 @@
         "sourceURI": "https://dserver.bundestag.de/btd/19/099/1909961.pdf"
       }
     ],
-    "key": "19-99 zusatzpunkt 15 (carsten korber)",
-    "dateStart": "2019-05-10T08:47:56",
-    "dateEnd": "2019-05-10T08:54:08",
-    "media": {
-      "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7353170/7353170_h264_720_400_2000kb_baseline_de_2192.mp4",
-      "sourcePage": "http://dbtg.tv/fvid/7353170",
-      "duration": 372.0,
-      "creator": "Deutscher Bundestag",
-      "license": "CC-BY-SA",
-      "originMediaID": "7353170",
-      "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7353170/7353170_mp3_128kb_stereo_de_128.mp3"
-    }
-  },
-  {
-    "parliament": "DE",
-    "electoralPeriod": {
-      "number": 19
-    },
-    "session": {
-      "number": 99
-    },
-    "agendaItem": {
-      "title": "Rückabwicklung von Finanzhilfen für Griechenland",
-      "officialTitle": "Zusatzpunkt 15",
-      "speechIndex": 25
-    },
+    "key": "19-99 zusatzpunkt 15 (claudia roth) #1",
+    "dateStart": "2019-05-10T08:54:08",
+    "dateEnd": "2019-05-10T08:54:27",
     "media": {
       "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7353171/7353171_h264_720_400_2000kb_baseline_de_2192.mp4",
       "sourcePage": "http://dbtg.tv/fvid/7353171",
@@ -6692,18 +6729,7 @@
       "license": "CC-BY-SA",
       "originMediaID": "7353171",
       "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7353171/7353171_mp3_128kb_stereo_de_128.mp3"
-    },
-    "dateStart": "2019-05-10T08:54:08",
-    "dateEnd": "2019-05-10T08:54:27",
-    "people": [
-      {
-        "label": "Claudia Roth",
-        "faction": "BÜNDNIS 90/DIE GRÜNEN",
-        "context": "main-speaker",
-        "role": "Bundestagsvizepräsidentin"
-      }
-    ],
-    "key": "19-99 zusatzpunkt 15 (claudia roth) #1"
+    }
   },
   {
     "parliament": "DE",
@@ -6717,7 +6743,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 25",
-      "speechIndex": 29,
+      "speechIndex": 1030,
       "title": "Zehn Jahre Östliche Partnerschaft der EU"
     },
     "people": [
@@ -6730,12 +6756,34 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19099-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19099-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
         "originTextID": "",
         "textBody": [
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "Beratung des Antrags der Fraktionen der CDU/CSU und SPD",
+            "sentences": [
+              {
+                "text": "Beratung des Antrags der Fraktionen der CDU/CSU und SPD"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "Zehn Jahre Östliche Partnerschaft der Europäischen Union – Für eine intensive Zusammenarbeit auf dem Weg zu Wohlstand, Sicherheit und Demokratie",
+            "sentences": [
+              {
+                "text": "Zehn Jahre Östliche Partnerschaft der Europäischen Union – Für eine intensive Zusammenarbeit auf dem Weg zu Wohlstand, Sicherheit und Demokratie"
+              }
+            ]
+          },
           {
             "type": "speech",
             "speaker": "Claudia Roth",
@@ -6793,7 +6841,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 25",
-      "speechIndex": 30,
+      "speechIndex": 1031,
       "title": "Zehn Jahre Östliche Partnerschaft der EU"
     },
     "people": [
@@ -6814,7 +6862,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19099-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19099-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -7105,7 +7153,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 25",
-      "speechIndex": 31,
+      "speechIndex": 1032,
       "title": "Zehn Jahre Östliche Partnerschaft der EU"
     },
     "people": [
@@ -7126,7 +7174,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19099-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19099-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -7430,7 +7478,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 25",
-      "speechIndex": 32,
+      "speechIndex": 1033,
       "title": "Zehn Jahre Östliche Partnerschaft der EU"
     },
     "people": [
@@ -7451,7 +7499,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19099-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19099-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -7759,16 +7807,90 @@
   {
     "parliament": "DE",
     "electoralPeriod": {
-      "number": 19
+      "number": "19"
     },
     "session": {
-      "number": 99
+      "number": "99",
+      "dateStart": "2019-05-10T09:00",
+      "dateEnd": "2019-05-10T15:28"
     },
     "agendaItem": {
-      "title": "Zehn Jahre Östliche Partnerschaft der EU",
       "officialTitle": "Tagesordnungspunkt 25",
-      "speechIndex": 30
+      "speechIndex": 1040,
+      "title": "Zehn Jahre Östliche Partnerschaft der EU"
     },
+    "people": [
+      {
+        "type": "memberOfParliament",
+        "label": "Hans-Peter Friedrich",
+        "context": "vice-president"
+      }
+    ],
+    "textContents": [
+      {
+        "type": "proceedings",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19099-data.xml",
+        "creator": "Deutscher Bundestag",
+        "license": "Public Domain",
+        "language": "DE-de",
+        "originTextID": "",
+        "textBody": [
+          {
+            "type": "speech",
+            "speaker": "Hans-Peter Friedrich",
+            "speakerstatus": "vice-president",
+            "text": "Vielen Dank, Herr Kollege Karl. – Ich schließe die Aussprache zu diesem Tagesordnungspunkt.",
+            "sentences": [
+              {
+                "text": "Vielen Dank, Herr Kollege Karl."
+              },
+              {
+                "text": "– Ich schließe die Aussprache zu diesem Tagesordnungspunkt."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Hans-Peter Friedrich",
+            "speakerstatus": "vice-president",
+            "text": "Wir kommen zur Abstimmung über den Antrag der Fraktionen der CDU/CSU und der SPD auf Drucksache 19/9916 mit dem Titel „Zehn Jahre Östliche Partnerschaft der Europäischen Union – Für eine intensive Zusammenarbeit auf dem Weg zu Wohlstand, Sicherheit und Demokratie“. Wer stimmt für diesen Antrag? – CDU/CSU und SPD. Wer stimmt dagegen? – Die Linke. Enthaltungen? – FDP, Grüne und AfD. Damit ist der Antrag angenommen.",
+            "sentences": [
+              {
+                "text": "Wir kommen zur Abstimmung über den Antrag der Fraktionen der CDU/CSU und der SPD auf Drucksache 19/9916 mit dem Titel „Zehn Jahre Östliche Partnerschaft der Europäischen Union – Für eine intensive Zusammenarbeit auf dem Weg zu Wohlstand, Sicherheit und Demokratie“."
+              },
+              {
+                "text": "Wer stimmt für diesen Antrag?"
+              },
+              {
+                "text": "– CDU/CSU und SPD."
+              },
+              {
+                "text": "Wer stimmt dagegen?"
+              },
+              {
+                "text": "– Die Linke."
+              },
+              {
+                "text": "Enthaltungen?"
+              },
+              {
+                "text": "– FDP, Grüne und AfD. Damit ist der Antrag angenommen."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "documents": [
+      {
+        "type": "officialDocument",
+        "label": "Drucksache 19/9916",
+        "sourceURI": "https://dserver.bundestag.de/btd/19/099/1909916.pdf"
+      }
+    ],
+    "key": "19-99 tagesordnungspunkt 25 (hans-peter friedrich)",
+    "dateStart": "2019-05-10T09:09:13",
+    "dateEnd": "2019-05-10T09:09:36",
     "media": {
       "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7353177/7353177_h264_720_400_2000kb_baseline_de_2192.mp4",
       "sourcePage": "http://dbtg.tv/fvid/7353177",
@@ -7777,18 +7899,7 @@
       "license": "CC-BY-SA",
       "originMediaID": "7353177",
       "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7353177/7353177_mp3_128kb_stereo_de_128.mp3"
-    },
-    "dateStart": "2019-05-10T09:09:13",
-    "dateEnd": "2019-05-10T09:09:36",
-    "people": [
-      {
-        "label": "Hans-Peter Friedrich",
-        "faction": "CDU/CSU",
-        "context": "main-speaker",
-        "role": "Bundestagsvizepräsident"
-      }
-    ],
-    "key": "19-99 tagesordnungspunkt 25 (hans-peter friedrich)"
+    }
   },
   {
     "parliament": "DE",
@@ -7802,7 +7913,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 25",
-      "speechIndex": 33,
+      "speechIndex": 1034,
       "title": "Zehn Jahre Östliche Partnerschaft der EU"
     },
     "people": [
@@ -7823,7 +7934,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19099-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19099-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -8125,7 +8236,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 25",
-      "speechIndex": 34,
+      "speechIndex": 1035,
       "title": "Zehn Jahre Östliche Partnerschaft der EU"
     },
     "people": [
@@ -8146,7 +8257,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19099-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19099-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -8396,7 +8507,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 25",
-      "speechIndex": 35,
+      "speechIndex": 1036,
       "title": "Zehn Jahre Östliche Partnerschaft der EU"
     },
     "people": [
@@ -8417,7 +8528,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19099-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19099-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -8678,7 +8789,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 25",
-      "speechIndex": 36,
+      "speechIndex": 1037,
       "title": "Zehn Jahre Östliche Partnerschaft der EU"
     },
     "people": [
@@ -8699,7 +8810,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19099-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19099-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -8945,7 +9056,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 25",
-      "speechIndex": 37,
+      "speechIndex": 1038,
       "title": "Zehn Jahre Östliche Partnerschaft der EU"
     },
     "people": [
@@ -8966,7 +9077,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19099-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19099-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -9286,7 +9397,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 25",
-      "speechIndex": 38,
+      "speechIndex": 1039,
       "title": "Zehn Jahre Östliche Partnerschaft der EU"
     },
     "people": [
@@ -9297,17 +9408,12 @@
         "lastname": "Karl",
         "context": "main-speaker",
         "faction": "CDU/CSU"
-      },
-      {
-        "type": "memberOfParliament",
-        "label": "Hans-Peter Friedrich",
-        "context": "vice-president"
       }
     ],
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19099-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19099-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -9547,60 +9653,6 @@
               },
               {
                 "text": "Ich wünsche Ihnen ein schönes Wochenende."
-              }
-            ]
-          },
-          {
-            "type": "comment",
-            "speaker": null,
-            "speakerstatus": null,
-            "text": "(Beifall bei der CDU/CSU sowie bei Abgeordneten der SPD)",
-            "sentences": [
-              {
-                "text": "(Beifall bei der CDU/CSU sowie bei Abgeordneten der SPD)"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Hans-Peter Friedrich",
-            "speakerstatus": "vice-president",
-            "text": "Vielen Dank, Herr Kollege Karl. – Ich schließe die Aussprache zu diesem Tagesordnungspunkt.",
-            "sentences": [
-              {
-                "text": "Vielen Dank, Herr Kollege Karl."
-              },
-              {
-                "text": "– Ich schließe die Aussprache zu diesem Tagesordnungspunkt."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Hans-Peter Friedrich",
-            "speakerstatus": "vice-president",
-            "text": "Wir kommen zur Abstimmung über den Antrag der Fraktionen der CDU/CSU und der SPD auf Drucksache 19/9916 mit dem Titel „Zehn Jahre Östliche Partnerschaft der Europäischen Union – Für eine intensive Zusammenarbeit auf dem Weg zu Wohlstand, Sicherheit und Demokratie“. Wer stimmt für diesen Antrag? – CDU/CSU und SPD. Wer stimmt dagegen? – Die Linke. Enthaltungen? – FDP, Grüne und AfD. Damit ist der Antrag angenommen.",
-            "sentences": [
-              {
-                "text": "Wir kommen zur Abstimmung über den Antrag der Fraktionen der CDU/CSU und der SPD auf Drucksache 19/9916 mit dem Titel „Zehn Jahre Östliche Partnerschaft der Europäischen Union – Für eine intensive Zusammenarbeit auf dem Weg zu Wohlstand, Sicherheit und Demokratie“."
-              },
-              {
-                "text": "Wer stimmt für diesen Antrag?"
-              },
-              {
-                "text": "– CDU/CSU und SPD."
-              },
-              {
-                "text": "Wer stimmt dagegen?"
-              },
-              {
-                "text": "– Die Linke."
-              },
-              {
-                "text": "Enthaltungen?"
-              },
-              {
-                "text": "– FDP, Grüne und AfD. Damit ist der Antrag angenommen."
               }
             ]
           }
@@ -10183,7 +10235,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 27",
-      "speechIndex": 52,
+      "speechIndex": 1055,
       "title": "Bürokratie im Steuerrecht"
     },
     "people": [
@@ -10196,12 +10248,34 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19099-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19099-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
         "originTextID": "",
         "textBody": [
+          {
+            "type": "speech",
+            "speaker": "Hans-Peter Friedrich",
+            "speakerstatus": "vice-president",
+            "text": "Beratung des Antrags der Abgeordneten Markus Herbrand, Christian Dürr, Dr. Florian Toncar, weiterer Abgeordneter und der Fraktion der FDP",
+            "sentences": [
+              {
+                "text": "Beratung des Antrags der Abgeordneten Markus Herbrand, Christian Dürr, Dr. Florian Toncar, weiterer Abgeordneter und der Fraktion der FDP"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Hans-Peter Friedrich",
+            "speakerstatus": "vice-president",
+            "text": "Steuerrecht vereinfachen – Bürokratie abbauen",
+            "sentences": [
+              {
+                "text": "Steuerrecht vereinfachen – Bürokratie abbauen"
+              }
+            ]
+          },
           {
             "type": "speech",
             "speaker": "Hans-Peter Friedrich",
@@ -10282,7 +10356,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 27",
-      "speechIndex": 53,
+      "speechIndex": 1056,
       "title": "Bürokratie im Steuerrecht"
     },
     "people": [
@@ -10303,7 +10377,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19099-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19099-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -10680,7 +10754,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 27",
-      "speechIndex": 54,
+      "speechIndex": 1057,
       "title": "Bürokratie im Steuerrecht"
     },
     "people": [
@@ -10701,7 +10775,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19099-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19099-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -11144,7 +11218,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 27",
-      "speechIndex": 55,
+      "speechIndex": 1058,
       "title": "Bürokratie im Steuerrecht"
     },
     "people": [
@@ -11165,7 +11239,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19099-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19099-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -11701,7 +11775,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 27",
-      "speechIndex": 56,
+      "speechIndex": 1059,
       "title": "Bürokratie im Steuerrecht"
     },
     "people": [
@@ -11722,7 +11796,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19099-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19099-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -12051,7 +12125,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 27",
-      "speechIndex": 57,
+      "speechIndex": 1060,
       "title": "Bürokratie im Steuerrecht"
     },
     "people": [
@@ -12072,7 +12146,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19099-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19099-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -12449,7 +12523,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 27",
-      "speechIndex": 58,
+      "speechIndex": 1061,
       "title": "Bürokratie im Steuerrecht"
     },
     "people": [
@@ -12470,7 +12544,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19099-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19099-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -12826,7 +12900,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 27",
-      "speechIndex": 59,
+      "speechIndex": 1062,
       "title": "Bürokratie im Steuerrecht"
     },
     "people": [
@@ -12847,7 +12921,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19099-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19099-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -13271,7 +13345,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 27",
-      "speechIndex": 60,
+      "speechIndex": 1063,
       "title": "Bürokratie im Steuerrecht"
     },
     "people": [
@@ -13282,17 +13356,12 @@
         "lastname": "Binding",
         "context": "main-speaker",
         "faction": "SPD"
-      },
-      {
-        "type": "memberOfParliament",
-        "label": "Thomas Oppermann",
-        "context": "vice-president"
       }
     ],
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19099-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19099-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -13656,18 +13725,61 @@
                 "text": "Insgesamt will ich ehrlich sagen: Ihr Antrag ist nicht schlecht, aber überflüssig."
               }
             ]
-          },
-          {
-            "type": "comment",
-            "speaker": null,
-            "speakerstatus": null,
-            "text": "(Beifall bei der SPD sowie bei Abgeordneten der LINKEN und des BÜNDNISSES 90/DIE GRÜNEN)",
-            "sentences": [
-              {
-                "text": "(Beifall bei der SPD sowie bei Abgeordneten der LINKEN und des BÜNDNISSES 90/DIE GRÜNEN)"
-              }
-            ]
-          },
+          }
+        ]
+      }
+    ],
+    "documents": [
+      {
+        "type": "officialDocument",
+        "label": "Drucksache 19/9922",
+        "sourceURI": "https://dserver.bundestag.de/btd/19/099/1909922.pdf"
+      }
+    ],
+    "key": "19-99 tagesordnungspunkt 27 (lothar binding)",
+    "dateStart": "2019-05-10T11:24:22",
+    "dateEnd": "2019-05-10T11:28:38",
+    "media": {
+      "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7353226/7353226_h264_720_400_2000kb_baseline_de_2192.mp4",
+      "sourcePage": "http://dbtg.tv/fvid/7353226",
+      "duration": 256.0,
+      "creator": "Deutscher Bundestag",
+      "license": "CC-BY-SA",
+      "originMediaID": "7353226",
+      "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7353226/7353226_mp3_128kb_stereo_de_128.mp3"
+    }
+  },
+  {
+    "parliament": "DE",
+    "electoralPeriod": {
+      "number": "19"
+    },
+    "session": {
+      "number": "99",
+      "dateStart": "2019-05-10T09:00",
+      "dateEnd": "2019-05-10T15:28"
+    },
+    "agendaItem": {
+      "officialTitle": "Tagesordnungspunkt 27",
+      "speechIndex": 1064,
+      "title": "Bürokratie im Steuerrecht"
+    },
+    "people": [
+      {
+        "type": "memberOfParliament",
+        "label": "Thomas Oppermann",
+        "context": "vice-president"
+      }
+    ],
+    "textContents": [
+      {
+        "type": "proceedings",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19099-data.xml",
+        "creator": "Deutscher Bundestag",
+        "license": "Public Domain",
+        "language": "DE-de",
+        "originTextID": "",
+        "textBody": [
           {
             "type": "speech",
             "speaker": "Thomas Oppermann",
@@ -13712,32 +13824,9 @@
         "sourceURI": "https://dserver.bundestag.de/btd/19/099/1909922.pdf"
       }
     ],
-    "key": "19-99 tagesordnungspunkt 27 (lothar binding)",
-    "dateStart": "2019-05-10T11:24:22",
-    "dateEnd": "2019-05-10T11:28:38",
-    "media": {
-      "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7353226/7353226_h264_720_400_2000kb_baseline_de_2192.mp4",
-      "sourcePage": "http://dbtg.tv/fvid/7353226",
-      "duration": 256.0,
-      "creator": "Deutscher Bundestag",
-      "license": "CC-BY-SA",
-      "originMediaID": "7353226",
-      "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7353226/7353226_mp3_128kb_stereo_de_128.mp3"
-    }
-  },
-  {
-    "parliament": "DE",
-    "electoralPeriod": {
-      "number": 19
-    },
-    "session": {
-      "number": 99
-    },
-    "agendaItem": {
-      "title": "Bürokratie im Steuerrecht",
-      "officialTitle": "Tagesordnungspunkt 27",
-      "speechIndex": 62
-    },
+    "key": "19-99 tagesordnungspunkt 27 (thomas oppermann)",
+    "dateStart": "2019-05-10T11:28:38",
+    "dateEnd": "2019-05-10T11:28:55",
     "media": {
       "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7353227/7353227_h264_720_400_2000kb_baseline_de_2192.mp4",
       "sourcePage": "http://dbtg.tv/fvid/7353227",
@@ -13746,18 +13835,7 @@
       "license": "CC-BY-SA",
       "originMediaID": "7353227",
       "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7353227/7353227_mp3_128kb_stereo_de_128.mp3"
-    },
-    "dateStart": "2019-05-10T11:28:38",
-    "dateEnd": "2019-05-10T11:28:55",
-    "people": [
-      {
-        "label": "Thomas Oppermann",
-        "faction": "SPD",
-        "context": "main-speaker",
-        "role": "Bundestagsvizepräsident"
-      }
-    ],
-    "key": "19-99 tagesordnungspunkt 27 (thomas oppermann)"
+    }
   },
   {
     "parliament": "DE",
@@ -13771,7 +13849,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 28",
-      "speechIndex": 61,
+      "speechIndex": 1065,
       "title": "Europas Industrie, Zukunftstechnologie"
     },
     "people": [
@@ -13784,12 +13862,56 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19099-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19099-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
         "originTextID": "",
         "textBody": [
+          {
+            "type": "speech",
+            "speaker": "Thomas Oppermann",
+            "speakerstatus": "vice-president",
+            "text": "a) Beratung des Antrags der Abgeordneten Kerstin Andreae, Katharina Dröge, Anja Hajduk, weiterer Abgeordneter und der Fraktion BÜNDNIS 90/DIE GRÜNEN",
+            "sentences": [
+              {
+                "text": "a) Beratung des Antrags der Abgeordneten Kerstin Andreae, Katharina Dröge, Anja Hajduk, weiterer Abgeordneter und der Fraktion BÜNDNIS 90/DIE GRÜNEN"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Thomas Oppermann",
+            "speakerstatus": "vice-president",
+            "text": "Europas Industrie zukunftsfest machen – Innovationen, Zukunftstechnologien, Klimaschutz, fairer Wettbewerb",
+            "sentences": [
+              {
+                "text": "Europas Industrie zukunftsfest machen – Innovationen, Zukunftstechnologien, Klimaschutz, fairer Wettbewerb"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Thomas Oppermann",
+            "speakerstatus": "vice-president",
+            "text": "b) Beratung des Antrags der Abgeordneten Reinhard Houben, Michael Theurer, Thomas L. Kemmerich, weiterer Abgeordneter und der Fraktion der FDP",
+            "sentences": [
+              {
+                "text": "b) Beratung des Antrags der Abgeordneten Reinhard Houben, Michael Theurer, Thomas L. Kemmerich, weiterer Abgeordneter und der Fraktion der FDP"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Thomas Oppermann",
+            "speakerstatus": "vice-president",
+            "text": "„Wohlstand für alle“ auch im 21. Jahrhundert",
+            "sentences": [
+              {
+                "text": "„Wohlstand für alle“ auch im 21. Jahrhundert"
+              }
+            ]
+          },
           {
             "type": "speech",
             "speaker": "Thomas Oppermann",
@@ -13861,7 +13983,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 28",
-      "speechIndex": 62,
+      "speechIndex": 1066,
       "title": "Europas Industrie, Zukunftstechnologie"
     },
     "people": [
@@ -13882,7 +14004,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19099-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19099-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -14305,7 +14427,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 28",
-      "speechIndex": 63,
+      "speechIndex": 1067,
       "title": "Europas Industrie, Zukunftstechnologie"
     },
     "people": [
@@ -14326,7 +14448,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19099-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19099-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -14775,7 +14897,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 28",
-      "speechIndex": 64,
+      "speechIndex": 1068,
       "title": "Europas Industrie, Zukunftstechnologie"
     },
     "people": [
@@ -14796,7 +14918,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19099-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19099-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -15221,7 +15343,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 28",
-      "speechIndex": 65,
+      "speechIndex": 1069,
       "title": "Europas Industrie, Zukunftstechnologie"
     },
     "people": [
@@ -15242,7 +15364,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19099-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19099-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -15616,7 +15738,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 28",
-      "speechIndex": 66,
+      "speechIndex": 1070,
       "title": "Europas Industrie, Zukunftstechnologie"
     },
     "people": [
@@ -15637,7 +15759,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19099-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19099-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -15990,7 +16112,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 28",
-      "speechIndex": 67,
+      "speechIndex": 1071,
       "title": "Europas Industrie, Zukunftstechnologie"
     },
     "people": [
@@ -16011,7 +16133,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19099-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19099-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -16584,7 +16706,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 28",
-      "speechIndex": 68,
+      "speechIndex": 1072,
       "title": "Europas Industrie, Zukunftstechnologie"
     },
     "people": [
@@ -16605,7 +16727,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19099-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19099-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -17001,7 +17123,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 28",
-      "speechIndex": 69,
+      "speechIndex": 1073,
       "title": "Europas Industrie, Zukunftstechnologie"
     },
     "people": [
@@ -17022,7 +17144,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19099-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19099-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -17488,7 +17610,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 28",
-      "speechIndex": 70,
+      "speechIndex": 1074,
       "title": "Europas Industrie, Zukunftstechnologie"
     },
     "people": [
@@ -17499,17 +17621,12 @@
         "lastname": "Heider",
         "context": "main-speaker",
         "faction": "CDU/CSU"
-      },
-      {
-        "type": "memberOfParliament",
-        "label": "Thomas Oppermann",
-        "context": "vice-president"
       }
     ],
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19099-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19099-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -17768,18 +17885,66 @@
                 "text": "Herzlichen Dank."
               }
             ]
-          },
-          {
-            "type": "comment",
-            "speaker": null,
-            "speakerstatus": null,
-            "text": "(Beifall bei der CDU/CSU)",
-            "sentences": [
-              {
-                "text": "(Beifall bei der CDU/CSU)"
-              }
-            ]
-          },
+          }
+        ]
+      }
+    ],
+    "documents": [
+      {
+        "type": "officialDocument",
+        "label": "Drucksache 19/9955",
+        "sourceURI": "https://dserver.bundestag.de/btd/19/099/1909955.pdf"
+      },
+      {
+        "type": "officialDocument",
+        "label": "Drucksache 19/9923",
+        "sourceURI": "https://dserver.bundestag.de/btd/19/099/1909923.pdf"
+      }
+    ],
+    "key": "19-99 tagesordnungspunkt 28 (matthias heider)",
+    "dateStart": "2019-05-10T12:07:39",
+    "dateEnd": "2019-05-10T12:11:47",
+    "media": {
+      "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7353245/7353245_h264_720_400_2000kb_baseline_de_2192.mp4",
+      "sourcePage": "http://dbtg.tv/fvid/7353245",
+      "duration": 248.0,
+      "creator": "Deutscher Bundestag",
+      "license": "CC-BY-SA",
+      "originMediaID": "7353245",
+      "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7353245/7353245_mp3_128kb_stereo_de_128.mp3"
+    }
+  },
+  {
+    "parliament": "DE",
+    "electoralPeriod": {
+      "number": "19"
+    },
+    "session": {
+      "number": "99",
+      "dateStart": "2019-05-10T09:00",
+      "dateEnd": "2019-05-10T15:28"
+    },
+    "agendaItem": {
+      "officialTitle": "Tagesordnungspunkt 28",
+      "speechIndex": 1075,
+      "title": "Europas Industrie, Zukunftstechnologie"
+    },
+    "people": [
+      {
+        "type": "memberOfParliament",
+        "label": "Thomas Oppermann",
+        "context": "vice-president"
+      }
+    ],
+    "textContents": [
+      {
+        "type": "proceedings",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19099-data.xml",
+        "creator": "Deutscher Bundestag",
+        "license": "Public Domain",
+        "language": "DE-de",
+        "originTextID": "",
+        "textBody": [
           {
             "type": "speech",
             "speaker": "Thomas Oppermann",
@@ -17829,32 +17994,9 @@
         "sourceURI": "https://dserver.bundestag.de/btd/19/099/1909923.pdf"
       }
     ],
-    "key": "19-99 tagesordnungspunkt 28 (matthias heider)",
-    "dateStart": "2019-05-10T12:07:39",
-    "dateEnd": "2019-05-10T12:11:47",
-    "media": {
-      "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7353245/7353245_h264_720_400_2000kb_baseline_de_2192.mp4",
-      "sourcePage": "http://dbtg.tv/fvid/7353245",
-      "duration": 248.0,
-      "creator": "Deutscher Bundestag",
-      "license": "CC-BY-SA",
-      "originMediaID": "7353245",
-      "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7353245/7353245_mp3_128kb_stereo_de_128.mp3"
-    }
-  },
-  {
-    "parliament": "DE",
-    "electoralPeriod": {
-      "number": 19
-    },
-    "session": {
-      "number": 99
-    },
-    "agendaItem": {
-      "title": "Europas Industrie, Zukunftstechnologie",
-      "officialTitle": "Tagesordnungspunkt 28",
-      "speechIndex": 73
-    },
+    "key": "19-99 tagesordnungspunkt 28 (thomas oppermann) #1",
+    "dateStart": "2019-05-10T12:11:47",
+    "dateEnd": "2019-05-10T12:12:09",
     "media": {
       "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7353246/7353246_h264_720_400_2000kb_baseline_de_2192.mp4",
       "sourcePage": "http://dbtg.tv/fvid/7353246",
@@ -17863,18 +18005,7 @@
       "license": "CC-BY-SA",
       "originMediaID": "7353246",
       "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7353246/7353246_mp3_128kb_stereo_de_128.mp3"
-    },
-    "dateStart": "2019-05-10T12:11:47",
-    "dateEnd": "2019-05-10T12:12:09",
-    "people": [
-      {
-        "label": "Thomas Oppermann",
-        "faction": "SPD",
-        "context": "main-speaker",
-        "role": "Bundestagsvizepräsident"
-      }
-    ],
-    "key": "19-99 tagesordnungspunkt 28 (thomas oppermann) #1"
+    }
   },
   {
     "parliament": "DE",
@@ -17888,7 +18019,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 17",
-      "speechIndex": 71,
+      "speechIndex": 1076,
       "title": "Aktuelle Stunde zum globalen Report zur Artenvielfalt"
     },
     "people": [
@@ -17901,12 +18032,45 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19099-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19099-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
         "originTextID": "",
         "textBody": [
+          {
+            "type": "speech",
+            "speaker": "Thomas Oppermann",
+            "speakerstatus": "vice-president",
+            "text": "Aktuelle Stunde",
+            "sentences": [
+              {
+                "text": "Aktuelle Stunde"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Thomas Oppermann",
+            "speakerstatus": "vice-president",
+            "text": "auf Verlangen der Fraktion BÜNDNIS 90/DIE GRÜNEN",
+            "sentences": [
+              {
+                "text": "auf Verlangen der Fraktion BÜNDNIS 90/DIE GRÜNEN"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Thomas Oppermann",
+            "speakerstatus": "vice-president",
+            "text": "Nach dem globalen Report zur Artenvielfalt – Politische Konsequenzen aus dem gefährlichen Artensterben",
+            "sentences": [
+              {
+                "text": "Nach dem globalen Report zur Artenvielfalt – Politische Konsequenzen aus dem gefährlichen Artensterben"
+              }
+            ]
+          },
           {
             "type": "speech",
             "speaker": "Thomas Oppermann",
@@ -17950,7 +18114,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 17",
-      "speechIndex": 72,
+      "speechIndex": 1077,
       "title": "Aktuelle Stunde zum globalen Report zur Artenvielfalt"
     },
     "people": [
@@ -17971,7 +18135,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19099-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19099-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -18427,7 +18591,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 17",
-      "speechIndex": 73,
+      "speechIndex": 1078,
       "title": "Aktuelle Stunde zum globalen Report zur Artenvielfalt"
     },
     "people": [
@@ -18448,7 +18612,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19099-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19099-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -18738,7 +18902,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 17",
-      "speechIndex": 74,
+      "speechIndex": 1079,
       "title": "Aktuelle Stunde zum globalen Report zur Artenvielfalt"
     },
     "people": [
@@ -18759,7 +18923,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19099-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19099-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -19160,7 +19324,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 17",
-      "speechIndex": 75,
+      "speechIndex": 1080,
       "title": "Aktuelle Stunde zum globalen Report zur Artenvielfalt"
     },
     "people": [
@@ -19181,7 +19345,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19099-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19099-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -19568,7 +19732,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 17",
-      "speechIndex": 76,
+      "speechIndex": 1081,
       "title": "Aktuelle Stunde zum globalen Report zur Artenvielfalt"
     },
     "people": [
@@ -19589,7 +19753,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19099-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19099-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -19984,7 +20148,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 17",
-      "speechIndex": 77,
+      "speechIndex": 1082,
       "title": "Aktuelle Stunde zum globalen Report zur Artenvielfalt"
     },
     "people": [
@@ -20005,7 +20169,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19099-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19099-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -20432,7 +20596,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 17",
-      "speechIndex": 78,
+      "speechIndex": 1083,
       "title": "Aktuelle Stunde zum globalen Report zur Artenvielfalt"
     },
     "people": [
@@ -20453,7 +20617,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19099-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19099-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -20886,7 +21050,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 17",
-      "speechIndex": 79,
+      "speechIndex": 1084,
       "title": "Aktuelle Stunde zum globalen Report zur Artenvielfalt"
     },
     "people": [
@@ -20907,7 +21071,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19099-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19099-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -21242,7 +21406,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 17",
-      "speechIndex": 80,
+      "speechIndex": 1085,
       "title": "Aktuelle Stunde zum globalen Report zur Artenvielfalt"
     },
     "people": [
@@ -21263,7 +21427,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19099-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19099-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -21974,7 +22138,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 17",
-      "speechIndex": 81,
+      "speechIndex": 1086,
       "title": "Aktuelle Stunde zum globalen Report zur Artenvielfalt"
     },
     "people": [
@@ -21995,7 +22159,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19099-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19099-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -22456,7 +22620,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 17",
-      "speechIndex": 82,
+      "speechIndex": 1087,
       "title": "Aktuelle Stunde zum globalen Report zur Artenvielfalt"
     },
     "people": [
@@ -22477,7 +22641,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19099-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19099-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -22764,7 +22928,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 17",
-      "speechIndex": 83,
+      "speechIndex": 1088,
       "title": "Aktuelle Stunde zum globalen Report zur Artenvielfalt"
     },
     "people": [
@@ -22785,7 +22949,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19099-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19099-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -23103,7 +23267,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 17",
-      "speechIndex": 84,
+      "speechIndex": 1089,
       "title": "Aktuelle Stunde zum globalen Report zur Artenvielfalt"
     },
     "people": [
@@ -23124,7 +23288,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19099-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19099-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -23507,40 +23671,74 @@
                 "text": "Ich weiß, dass sich der Einsatz dafür lohnt."
               }
             ]
-          },
+          }
+        ]
+      }
+    ],
+    "documents": [],
+    "key": "19-99 zusatzpunkt 17 (sybille benning)",
+    "dateStart": "2019-05-10T13:21:47",
+    "dateEnd": "2019-05-10T13:28:26",
+    "media": {
+      "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7353437/7353437_h264_720_400_2000kb_baseline_de_2192.mp4",
+      "sourcePage": "http://dbtg.tv/fvid/7353437",
+      "duration": 399.0,
+      "creator": "Deutscher Bundestag",
+      "license": "CC-BY-SA",
+      "originMediaID": "7353437",
+      "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7353437/7353437_mp3_128kb_stereo_de_128.mp3"
+    }
+  },
+  {
+    "parliament": "DE",
+    "electoralPeriod": {
+      "number": "19"
+    },
+    "session": {
+      "number": "99",
+      "dateStart": "2019-05-10T09:00",
+      "dateEnd": "2019-05-10T15:28"
+    },
+    "agendaItem": {
+      "officialTitle": "Zusatzpunkt 17",
+      "speechIndex": 1090,
+      "title": "Aktuelle Stunde zum globalen Report zur Artenvielfalt"
+    },
+    "people": [
+      {
+        "type": "memberOfParliament",
+        "label": "Petra Pau",
+        "context": "vice-president"
+      }
+    ],
+    "textContents": [
+      {
+        "type": "proceedings",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19099-data.xml",
+        "creator": "Deutscher Bundestag",
+        "license": "Public Domain",
+        "language": "DE-de",
+        "originTextID": "",
+        "textBody": [
           {
             "type": "speech",
-            "speaker": "Sybille Benning",
-            "speakerstatus": "main-speaker",
-            "text": "Ich wünsche Ihnen allen jetzt ein schönes Wochenende. Nehmen Sie die Natur doch einfach mal sehr bewusst wahr, und wir handeln dann danach.",
+            "speaker": "Petra Pau",
+            "speakerstatus": "vice-president",
+            "text": "Kollegin Benning, kommen Sie bitte zum Schluss.",
             "sentences": [
               {
-                "text": "Ich wünsche Ihnen allen jetzt ein schönes Wochenende."
-              },
-              {
-                "text": "Nehmen Sie die Natur doch einfach mal sehr bewusst wahr, und wir handeln dann danach."
+                "text": "Kollegin Benning, kommen Sie bitte zum Schluss."
               }
             ]
           },
           {
             "type": "speech",
-            "speaker": "Sybille Benning",
-            "speakerstatus": "main-speaker",
-            "text": "Danke schön.",
+            "speaker": "Petra Pau",
+            "speakerstatus": "vice-president",
+            "text": "Kollegin Benning, Sie müssen bitte jetzt den Schlusspunkt setzen.",
             "sentences": [
               {
-                "text": "Danke schön."
-              }
-            ]
-          },
-          {
-            "type": "comment",
-            "speaker": null,
-            "speakerstatus": null,
-            "text": "(Beifall bei der CDU/CSU)",
-            "sentences": [
-              {
-                "text": "(Beifall bei der CDU/CSU)"
+                "text": "Kollegin Benning, Sie müssen bitte jetzt den Schlusspunkt setzen."
               }
             ]
           },
@@ -23595,32 +23793,9 @@
       }
     ],
     "documents": [],
-    "key": "19-99 zusatzpunkt 17 (sybille benning)",
-    "dateStart": "2019-05-10T13:21:47",
-    "dateEnd": "2019-05-10T13:28:26",
-    "media": {
-      "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7353437/7353437_h264_720_400_2000kb_baseline_de_2192.mp4",
-      "sourcePage": "http://dbtg.tv/fvid/7353437",
-      "duration": 399.0,
-      "creator": "Deutscher Bundestag",
-      "license": "CC-BY-SA",
-      "originMediaID": "7353437",
-      "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7353437/7353437_mp3_128kb_stereo_de_128.mp3"
-    }
-  },
-  {
-    "parliament": "DE",
-    "electoralPeriod": {
-      "number": 19
-    },
-    "session": {
-      "number": 99
-    },
-    "agendaItem": {
-      "title": "Aktuelle Stunde zum globalen Report zur Artenvielfalt",
-      "officialTitle": "Zusatzpunkt 17",
-      "speechIndex": 88
-    },
+    "key": "19-99 zusatzpunkt 17 (petra pau)",
+    "dateStart": "2019-05-10T13:28:26",
+    "dateEnd": "2019-05-10T13:28:32",
     "media": {
       "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7353438/7353438_h264_720_400_2000kb_baseline_de_2192.mp4",
       "sourcePage": "http://dbtg.tv/fvid/7353438",
@@ -23629,18 +23804,7 @@
       "license": "CC-BY-SA",
       "originMediaID": "7353438",
       "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7353438/7353438_mp3_128kb_stereo_de_128.mp3"
-    },
-    "dateStart": "2019-05-10T13:28:26",
-    "dateEnd": "2019-05-10T13:28:32",
-    "people": [
-      {
-        "label": "Petra Pau",
-        "faction": "Die Linke",
-        "context": "main-speaker",
-        "role": "Bundestagsvizepräsidentin"
-      }
-    ],
-    "key": "19-99 zusatzpunkt 17 (petra pau)"
+    }
   },
   {
     "parliament": "DE",

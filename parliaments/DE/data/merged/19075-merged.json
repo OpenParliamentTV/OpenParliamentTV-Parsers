@@ -11,7 +11,7 @@
     },
     "agendaItem": {
       "officialTitle": "Sitzungseröffnung",
-      "speechIndex": 0,
+      "speechIndex": 1000,
       "title": "Sitzungseröffnung"
     },
     "people": [
@@ -24,7 +24,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19075-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19075-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -90,7 +90,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 18",
-      "speechIndex": 2,
+      "speechIndex": 1002,
       "title": "Änderung des Asylgesetzes"
     },
     "people": [
@@ -103,12 +103,34 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19075-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19075-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
         "originTextID": "",
         "textBody": [
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "Zweite und dritte Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Einstufung Georgiens, der Demokratischen Volksrepublik Algerien, des Königreichs Marokko und der Tunesischen Republik als sichere Herkunftsstaaten",
+            "sentences": [
+              {
+                "text": "Zweite und dritte Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes zur Einstufung Georgiens, der Demokratischen Volksrepublik Algerien, des Königreichs Marokko und der Tunesischen Republik als sichere Herkunftsstaaten"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "Beschlussempfehlung und Bericht des Ausschusses für Inneres und Heimat (4. Ausschuss)",
+            "sentences": [
+              {
+                "text": "Beschlussempfehlung und Bericht des Ausschusses für Inneres und Heimat (4. Ausschuss)"
+              }
+            ]
+          },
           {
             "type": "speech",
             "speaker": "Wolfgang Schäuble",
@@ -188,7 +210,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 18",
-      "speechIndex": 3,
+      "speechIndex": 1003,
       "title": "Änderung des Asylgesetzes"
     },
     "people": [
@@ -209,7 +231,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19075-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19075-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -488,7 +510,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 18",
-      "speechIndex": 4,
+      "speechIndex": 1004,
       "title": "Änderung des Asylgesetzes"
     },
     "people": [
@@ -509,7 +531,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19075-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19075-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -881,7 +903,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 18",
-      "speechIndex": 5,
+      "speechIndex": 1005,
       "title": "Änderung des Asylgesetzes"
     },
     "people": [
@@ -902,7 +924,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19075-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19075-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -1652,7 +1674,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 18",
-      "speechIndex": 6,
+      "speechIndex": 1006,
       "title": "Änderung des Asylgesetzes"
     },
     "people": [
@@ -1673,7 +1695,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19075-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19075-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -2158,7 +2180,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 18",
-      "speechIndex": 7,
+      "speechIndex": 1007,
       "title": "Änderung des Asylgesetzes"
     },
     "people": [
@@ -2179,7 +2201,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19075-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19075-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -2610,7 +2632,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 18",
-      "speechIndex": 8,
+      "speechIndex": 1008,
       "title": "Änderung des Asylgesetzes"
     },
     "people": [
@@ -2631,7 +2653,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19075-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19075-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -3429,7 +3451,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 18",
-      "speechIndex": 9,
+      "speechIndex": 1009,
       "title": "Änderung des Asylgesetzes"
     },
     "people": [
@@ -3450,7 +3472,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19075-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19075-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -4010,7 +4032,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 18",
-      "speechIndex": 10,
+      "speechIndex": 1010,
       "title": "Änderung des Asylgesetzes"
     },
     "people": [
@@ -4031,7 +4053,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19075-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19075-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -4312,7 +4334,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 18",
-      "speechIndex": 11,
+      "speechIndex": 1011,
       "title": "Änderung des Asylgesetzes"
     },
     "people": [
@@ -4333,7 +4355,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19075-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19075-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -4715,7 +4737,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 18",
-      "speechIndex": 12,
+      "speechIndex": 1012,
       "title": "Änderung des Asylgesetzes"
     },
     "people": [
@@ -4736,7 +4758,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19075-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19075-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -5018,7 +5040,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 18",
-      "speechIndex": 13,
+      "speechIndex": 1013,
       "title": "Änderung des Asylgesetzes"
     },
     "people": [
@@ -5029,17 +5051,12 @@
         "lastname": "Oster",
         "context": "main-speaker",
         "faction": "CDU/CSU"
-      },
-      {
-        "type": "memberOfParliament",
-        "label": "Wolfgang Schäuble",
-        "context": "president"
       }
     ],
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19075-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19075-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -5315,18 +5332,66 @@
                 "text": "Vielen Dank."
               }
             ]
-          },
-          {
-            "type": "comment",
-            "speaker": null,
-            "speakerstatus": null,
-            "text": "(Beifall bei der CDU/CSU sowie bei Abgeordneten der FDP – Britta Haßelmann [BÜNDNIS 90/DIE GRÜNEN]: Sie sollten mal etwas tun!)",
-            "sentences": [
-              {
-                "text": "(Beifall bei der CDU/CSU sowie bei Abgeordneten der FDP – Britta Haßelmann [BÜNDNIS 90/DIE GRÜNEN]: Sie sollten mal etwas tun!)"
-              }
-            ]
-          },
+          }
+        ]
+      }
+    ],
+    "documents": [
+      {
+        "type": "officialDocument",
+        "label": "Drucksache 19/5314",
+        "sourceURI": "https://dserver.bundestag.de/btd/19/053/1905314.pdf"
+      },
+      {
+        "type": "officialDocument",
+        "label": "Drucksache 19/6538",
+        "sourceURI": "https://dserver.bundestag.de/btd/19/065/1906538.pdf"
+      }
+    ],
+    "key": "19-75 tagesordnungspunkt 18 (josef oster)",
+    "dateStart": "2019-01-18T09:04:42",
+    "dateEnd": "2019-01-18T09:08:47",
+    "media": {
+      "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7317989/7317989_h264_720_400_2000kb_baseline_de_2192.mp4",
+      "sourcePage": "http://dbtg.tv/fvid/7317989",
+      "duration": 245.0,
+      "creator": "Deutscher Bundestag",
+      "license": "CC-BY-SA",
+      "originMediaID": "7317989",
+      "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7317989/7317989_mp3_128kb_stereo_de_128.mp3"
+    }
+  },
+  {
+    "parliament": "DE",
+    "electoralPeriod": {
+      "number": "19"
+    },
+    "session": {
+      "number": "75",
+      "dateStart": "2019-01-18T09:00",
+      "dateEnd": "2019-01-18T16:07"
+    },
+    "agendaItem": {
+      "officialTitle": "Tagesordnungspunkt 18",
+      "speechIndex": 1014,
+      "title": "Änderung des Asylgesetzes"
+    },
+    "people": [
+      {
+        "type": "memberOfParliament",
+        "label": "Wolfgang Schäuble",
+        "context": "president"
+      }
+    ],
+    "textContents": [
+      {
+        "type": "proceedings",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19075-data.xml",
+        "creator": "Deutscher Bundestag",
+        "license": "Public Domain",
+        "language": "DE-de",
+        "originTextID": "",
+        "textBody": [
           {
             "type": "speech",
             "speaker": "Wolfgang Schäuble",
@@ -5372,6 +5437,17 @@
               },
               {
                 "text": "– Dann ist der Gesetzentwurf in zweiter Beratung mit den Stimmen von CDU/CSU, SPD, FDP, AfD gegen die Stimmen von Die Linke und Bündnis 90/Die Grünen abgenommen."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "Dritte Beratung",
+            "sentences": [
+              {
+                "text": "Dritte Beratung"
               }
             ]
           },
@@ -5480,32 +5556,9 @@
         "sourceURI": "https://dserver.bundestag.de/btd/19/065/1906538.pdf"
       }
     ],
-    "key": "19-75 tagesordnungspunkt 18 (josef oster)",
-    "dateStart": "2019-01-18T09:04:42",
-    "dateEnd": "2019-01-18T09:08:47",
-    "media": {
-      "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7317989/7317989_h264_720_400_2000kb_baseline_de_2192.mp4",
-      "sourcePage": "http://dbtg.tv/fvid/7317989",
-      "duration": 245.0,
-      "creator": "Deutscher Bundestag",
-      "license": "CC-BY-SA",
-      "originMediaID": "7317989",
-      "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7317989/7317989_mp3_128kb_stereo_de_128.mp3"
-    }
-  },
-  {
-    "parliament": "DE",
-    "electoralPeriod": {
-      "number": 19
-    },
-    "session": {
-      "number": 75
-    },
-    "agendaItem": {
-      "title": "Änderung des Asylgesetzes",
-      "officialTitle": "Tagesordnungspunkt 18",
-      "speechIndex": 14
-    },
+    "key": "19-75 tagesordnungspunkt 18 (wolfgang schauble) #1",
+    "dateStart": "2019-01-18T09:08:47",
+    "dateEnd": "2019-01-18T09:23:10",
     "media": {
       "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7317993/7317993_h264_720_400_2000kb_baseline_de_2192.mp4",
       "sourcePage": "http://dbtg.tv/fvid/7317993",
@@ -5514,18 +5567,7 @@
       "license": "CC-BY-SA",
       "originMediaID": "7317993",
       "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7317993/7317993_mp3_128kb_stereo_de_128.mp3"
-    },
-    "dateStart": "2019-01-18T09:08:47",
-    "dateEnd": "2019-01-18T09:23:10",
-    "people": [
-      {
-        "label": "Wolfgang Schäuble",
-        "faction": "CDU/CSU",
-        "context": "main-speaker",
-        "role": "Bundestagspräsident"
-      }
-    ],
-    "key": "19-75 tagesordnungspunkt 18 (wolfgang schauble) #1"
+    }
   },
   {
     "parliament": "DE",
@@ -5539,7 +5581,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 19",
-      "speechIndex": 14,
+      "speechIndex": 1015,
       "title": "Vorgehen gegen Linksextremismus"
     },
     "people": [
@@ -5552,12 +5594,34 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19075-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19075-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
         "originTextID": "",
         "textBody": [
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "Beratung des Antrags der Abgeordneten Martin Hess, Dr. Bernd Baumann, Dr. Gottfried Curio, weiterer Abgeordneter und der Fraktion der AfD",
+            "sentences": [
+              {
+                "text": "Beratung des Antrags der Abgeordneten Martin Hess, Dr. Bernd Baumann, Dr. Gottfried Curio, weiterer Abgeordneter und der Fraktion der AfD"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "Verstärktes Vorgehen gegen Linksextremismus zum Schutz der Demokratie",
+            "sentences": [
+              {
+                "text": "Verstärktes Vorgehen gegen Linksextremismus zum Schutz der Demokratie"
+              }
+            ]
+          },
           {
             "type": "speech",
             "speaker": "Wolfgang Schäuble",
@@ -5621,7 +5685,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 19",
-      "speechIndex": 15,
+      "speechIndex": 1016,
       "title": "Vorgehen gegen Linksextremismus"
     },
     "people": [
@@ -5637,7 +5701,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19075-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19075-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -6316,7 +6380,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 19",
-      "speechIndex": 16,
+      "speechIndex": 1017,
       "title": "Vorgehen gegen Linksextremismus"
     },
     "people": [
@@ -6337,7 +6401,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19075-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19075-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -6747,7 +6811,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 19",
-      "speechIndex": 17,
+      "speechIndex": 1018,
       "title": "Vorgehen gegen Linksextremismus"
     },
     "people": [
@@ -6768,7 +6832,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19075-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19075-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -7156,7 +7220,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 19",
-      "speechIndex": 18,
+      "speechIndex": 1019,
       "title": "Vorgehen gegen Linksextremismus"
     },
     "people": [
@@ -7177,7 +7241,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19075-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19075-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -7832,7 +7896,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 19",
-      "speechIndex": 19,
+      "speechIndex": 1020,
       "title": "Vorgehen gegen Linksextremismus"
     },
     "people": [
@@ -7853,7 +7917,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19075-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19075-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -8701,7 +8765,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 19",
-      "speechIndex": 20,
+      "speechIndex": 1021,
       "title": "Vorgehen gegen Linksextremismus"
     },
     "people": [
@@ -8722,7 +8786,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19075-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19075-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -9195,7 +9259,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 19",
-      "speechIndex": 21,
+      "speechIndex": 1022,
       "title": "Vorgehen gegen Linksextremismus"
     },
     "people": [
@@ -9224,7 +9288,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19075-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19075-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -9711,7 +9775,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 19",
-      "speechIndex": 22,
+      "speechIndex": 1023,
       "title": "Vorgehen gegen Linksextremismus"
     },
     "people": [
@@ -9740,7 +9804,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19075-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19075-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -10170,7 +10234,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 19",
-      "speechIndex": 23,
+      "speechIndex": 1024,
       "title": "Vorgehen gegen Linksextremismus"
     },
     "people": [
@@ -10191,7 +10255,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19075-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19075-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -10598,7 +10662,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 19",
-      "speechIndex": 24,
+      "speechIndex": 1025,
       "title": "Vorgehen gegen Linksextremismus"
     },
     "people": [
@@ -10619,7 +10683,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19075-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19075-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -11135,7 +11199,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 19",
-      "speechIndex": 25,
+      "speechIndex": 1026,
       "title": "Vorgehen gegen Linksextremismus"
     },
     "people": [
@@ -11151,7 +11215,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19075-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19075-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -11325,7 +11389,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 19",
-      "speechIndex": 26,
+      "speechIndex": 1027,
       "title": "Vorgehen gegen Linksextremismus"
     },
     "people": [
@@ -11346,7 +11410,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19075-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19075-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -11518,7 +11582,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 19",
-      "speechIndex": 27,
+      "speechIndex": 1028,
       "title": "Vorgehen gegen Linksextremismus"
     },
     "people": [
@@ -11529,17 +11593,12 @@
         "lastname": "Kuffer",
         "context": "main-speaker",
         "faction": "CDU/CSU"
-      },
-      {
-        "type": "memberOfParliament",
-        "label": "Thomas Oppermann",
-        "context": "vice-president"
       }
     ],
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19075-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19075-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -11783,18 +11842,61 @@
                 "text": "Ich danke Ihnen."
               }
             ]
-          },
-          {
-            "type": "comment",
-            "speaker": null,
-            "speakerstatus": null,
-            "text": "(Beifall bei der CDU/CSU und der SPD sowie bei Abgeordneten der FDP)",
-            "sentences": [
-              {
-                "text": "(Beifall bei der CDU/CSU und der SPD sowie bei Abgeordneten der FDP)"
-              }
-            ]
-          },
+          }
+        ]
+      }
+    ],
+    "documents": [
+      {
+        "type": "officialDocument",
+        "label": "Drucksache 19/7040",
+        "sourceURI": "https://dserver.bundestag.de/btd/19/070/1907040.pdf"
+      }
+    ],
+    "key": "19-75 tagesordnungspunkt 19 (michael kuffer)",
+    "dateStart": "2019-01-18T10:34:16",
+    "dateEnd": "2019-01-18T10:39:17",
+    "media": {
+      "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7318020/7318020_h264_720_400_2000kb_baseline_de_2192.mp4",
+      "sourcePage": "http://dbtg.tv/fvid/7318020",
+      "duration": 301.0,
+      "creator": "Deutscher Bundestag",
+      "license": "CC-BY-SA",
+      "originMediaID": "7318020",
+      "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7318020/7318020_mp3_128kb_stereo_de_128.mp3"
+    }
+  },
+  {
+    "parliament": "DE",
+    "electoralPeriod": {
+      "number": "19"
+    },
+    "session": {
+      "number": "75",
+      "dateStart": "2019-01-18T09:00",
+      "dateEnd": "2019-01-18T16:07"
+    },
+    "agendaItem": {
+      "officialTitle": "Tagesordnungspunkt 19",
+      "speechIndex": 1029,
+      "title": "Vorgehen gegen Linksextremismus"
+    },
+    "people": [
+      {
+        "type": "memberOfParliament",
+        "label": "Thomas Oppermann",
+        "context": "vice-president"
+      }
+    ],
+    "textContents": [
+      {
+        "type": "proceedings",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19075-data.xml",
+        "creator": "Deutscher Bundestag",
+        "license": "Public Domain",
+        "language": "DE-de",
+        "originTextID": "",
+        "textBody": [
           {
             "type": "speech",
             "speaker": "Thomas Oppermann",
@@ -11839,32 +11941,9 @@
         "sourceURI": "https://dserver.bundestag.de/btd/19/070/1907040.pdf"
       }
     ],
-    "key": "19-75 tagesordnungspunkt 19 (michael kuffer)",
-    "dateStart": "2019-01-18T10:34:16",
-    "dateEnd": "2019-01-18T10:39:17",
-    "media": {
-      "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7318020/7318020_h264_720_400_2000kb_baseline_de_2192.mp4",
-      "sourcePage": "http://dbtg.tv/fvid/7318020",
-      "duration": 301.0,
-      "creator": "Deutscher Bundestag",
-      "license": "CC-BY-SA",
-      "originMediaID": "7318020",
-      "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7318020/7318020_mp3_128kb_stereo_de_128.mp3"
-    }
-  },
-  {
-    "parliament": "DE",
-    "electoralPeriod": {
-      "number": 19
-    },
-    "session": {
-      "number": 75
-    },
-    "agendaItem": {
-      "title": "Vorgehen gegen Linksextremismus",
-      "officialTitle": "Tagesordnungspunkt 19",
-      "speechIndex": 30
-    },
+    "key": "19-75 tagesordnungspunkt 19 (thomas oppermann)",
+    "dateStart": "2019-01-18T10:39:17",
+    "dateEnd": "2019-01-18T10:39:40",
     "media": {
       "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7318021/7318021_h264_720_400_2000kb_baseline_de_2192.mp4",
       "sourcePage": "http://dbtg.tv/fvid/7318021",
@@ -11873,18 +11952,7 @@
       "license": "CC-BY-SA",
       "originMediaID": "7318021",
       "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7318021/7318021_mp3_128kb_stereo_de_128.mp3"
-    },
-    "dateStart": "2019-01-18T10:39:17",
-    "dateEnd": "2019-01-18T10:39:40",
-    "people": [
-      {
-        "label": "Thomas Oppermann",
-        "faction": "SPD",
-        "context": "main-speaker",
-        "role": "Bundestagsvizepräsident"
-      }
-    ],
-    "key": "19-75 tagesordnungspunkt 19 (thomas oppermann)"
+    }
   },
   {
     "parliament": "DE",
@@ -12816,7 +12884,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 11",
-      "speechIndex": 63,
+      "speechIndex": 1067,
       "title": "Gutes Leben und Arbeiten auf dem Land"
     },
     "people": [
@@ -12829,7 +12897,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19075-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19075-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -13199,7 +13267,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 11",
-      "speechIndex": 64,
+      "speechIndex": 1068,
       "title": "Gutes Leben und Arbeiten auf dem Land"
     },
     "people": [
@@ -13212,7 +13280,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19075-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19075-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -13310,7 +13378,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 12",
-      "speechIndex": 65,
+      "speechIndex": 1069,
       "title": "Kontrolle der Einhaltung von Tierschutzrecht"
     },
     "people": [
@@ -13323,12 +13391,34 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19075-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19075-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
         "originTextID": "",
         "textBody": [
+          {
+            "type": "speech",
+            "speaker": "Petra Pau",
+            "speakerstatus": "vice-president",
+            "text": "Beratung des Antrags der Abgeordneten Dr. Gero Clemens Hocker, Frank Sitta, Carina Konrad, weiterer Abgeordneter und der Fraktion der FDP",
+            "sentences": [
+              {
+                "text": "Beratung des Antrags der Abgeordneten Dr. Gero Clemens Hocker, Frank Sitta, Carina Konrad, weiterer Abgeordneter und der Fraktion der FDP"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Petra Pau",
+            "speakerstatus": "vice-president",
+            "text": "Einhaltung von Tierschutzrecht wirksam und effizient kontrollieren",
+            "sentences": [
+              {
+                "text": "Einhaltung von Tierschutzrecht wirksam und effizient kontrollieren"
+              }
+            ]
+          },
           {
             "type": "speech",
             "speaker": "Petra Pau",
@@ -13395,7 +13485,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 12",
-      "speechIndex": 66,
+      "speechIndex": 1070,
       "title": "Kontrolle der Einhaltung von Tierschutzrecht"
     },
     "people": [
@@ -13416,7 +13506,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19075-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19075-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -13657,7 +13747,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 12",
-      "speechIndex": 67,
+      "speechIndex": 1071,
       "title": "Kontrolle der Einhaltung von Tierschutzrecht"
     },
     "people": [
@@ -13686,7 +13776,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19075-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19075-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -14383,7 +14473,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 12",
-      "speechIndex": 68,
+      "speechIndex": 1072,
       "title": "Kontrolle der Einhaltung von Tierschutzrecht"
     },
     "people": [
@@ -14404,7 +14494,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19075-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19075-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -14753,7 +14843,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 12",
-      "speechIndex": 69,
+      "speechIndex": 1073,
       "title": "Kontrolle der Einhaltung von Tierschutzrecht"
     },
     "people": [
@@ -14774,7 +14864,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19075-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19075-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -15253,7 +15343,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 12",
-      "speechIndex": 70,
+      "speechIndex": 1074,
       "title": "Kontrolle der Einhaltung von Tierschutzrecht"
     },
     "people": [
@@ -15274,7 +15364,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19075-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19075-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -15634,7 +15724,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 12",
-      "speechIndex": 71,
+      "speechIndex": 1075,
       "title": "Kontrolle der Einhaltung von Tierschutzrecht"
     },
     "people": [
@@ -15655,7 +15745,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19075-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19075-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -16177,7 +16267,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 12",
-      "speechIndex": 72,
+      "speechIndex": 1076,
       "title": "Kontrolle der Einhaltung von Tierschutzrecht"
     },
     "people": [
@@ -16188,17 +16278,12 @@
         "lastname": "Gerig",
         "context": "main-speaker",
         "faction": "CDU/CSU"
-      },
-      {
-        "type": "memberOfParliament",
-        "label": "Wolfgang Kubicki",
-        "context": "vice-president"
       }
     ],
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19075-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19075-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -16495,18 +16580,61 @@
                 "text": "Danke."
               }
             ]
-          },
-          {
-            "type": "comment",
-            "speaker": null,
-            "speakerstatus": null,
-            "text": "(Beifall bei der CDU/CSU, der AfD und der FDP sowie bei Abgeordneten der SPD)",
-            "sentences": [
-              {
-                "text": "(Beifall bei der CDU/CSU, der AfD und der FDP sowie bei Abgeordneten der SPD)"
-              }
-            ]
-          },
+          }
+        ]
+      }
+    ],
+    "documents": [
+      {
+        "type": "officialDocument",
+        "label": "Drucksache 19/6285",
+        "sourceURI": "https://dserver.bundestag.de/btd/19/062/1906285.pdf"
+      }
+    ],
+    "key": "19-75 zusatzpunkt 12 (alois gerig)",
+    "dateStart": "2019-01-18T14:19:00",
+    "dateEnd": "2019-01-18T14:25:15",
+    "media": {
+      "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7318266/7318266_h264_720_400_2000kb_baseline_de_2192.mp4",
+      "sourcePage": "http://dbtg.tv/fvid/7318266",
+      "duration": 375.0,
+      "creator": "Deutscher Bundestag",
+      "license": "CC-BY-SA",
+      "originMediaID": "7318266",
+      "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7318266/7318266_mp3_128kb_stereo_de_128.mp3"
+    }
+  },
+  {
+    "parliament": "DE",
+    "electoralPeriod": {
+      "number": "19"
+    },
+    "session": {
+      "number": "75",
+      "dateStart": "2019-01-18T09:00",
+      "dateEnd": "2019-01-18T16:07"
+    },
+    "agendaItem": {
+      "officialTitle": "Zusatzpunkt 12",
+      "speechIndex": 1077,
+      "title": "Kontrolle der Einhaltung von Tierschutzrecht"
+    },
+    "people": [
+      {
+        "type": "memberOfParliament",
+        "label": "Wolfgang Kubicki",
+        "context": "vice-president"
+      }
+    ],
+    "textContents": [
+      {
+        "type": "proceedings",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19075-data.xml",
+        "creator": "Deutscher Bundestag",
+        "license": "Public Domain",
+        "language": "DE-de",
+        "originTextID": "",
+        "textBody": [
           {
             "type": "speech",
             "speaker": "Wolfgang Kubicki",
@@ -16571,32 +16699,9 @@
         "sourceURI": "https://dserver.bundestag.de/btd/19/062/1906285.pdf"
       }
     ],
-    "key": "19-75 zusatzpunkt 12 (alois gerig)",
-    "dateStart": "2019-01-18T14:19:00",
-    "dateEnd": "2019-01-18T14:25:15",
-    "media": {
-      "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7318266/7318266_h264_720_400_2000kb_baseline_de_2192.mp4",
-      "sourcePage": "http://dbtg.tv/fvid/7318266",
-      "duration": 375.0,
-      "creator": "Deutscher Bundestag",
-      "license": "CC-BY-SA",
-      "originMediaID": "7318266",
-      "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7318266/7318266_mp3_128kb_stereo_de_128.mp3"
-    }
-  },
-  {
-    "parliament": "DE",
-    "electoralPeriod": {
-      "number": 19
-    },
-    "session": {
-      "number": 75
-    },
-    "agendaItem": {
-      "title": "Kontrolle der Einhaltung von Tierschutzrecht",
-      "officialTitle": "Zusatzpunkt 12",
-      "speechIndex": 76
-    },
+    "key": "19-75 zusatzpunkt 12 (wolfgang kubicki)",
+    "dateStart": "2019-01-18T14:25:15",
+    "dateEnd": "2019-01-18T14:25:28",
     "media": {
       "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7318267/7318267_h264_720_400_2000kb_baseline_de_2192.mp4",
       "sourcePage": "http://dbtg.tv/fvid/7318267",
@@ -16605,18 +16710,7 @@
       "license": "CC-BY-SA",
       "originMediaID": "7318267",
       "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7318267/7318267_mp3_128kb_stereo_de_128.mp3"
-    },
-    "dateStart": "2019-01-18T14:25:15",
-    "dateEnd": "2019-01-18T14:25:28",
-    "people": [
-      {
-        "label": "Wolfgang Kubicki",
-        "faction": "FDP",
-        "context": "main-speaker",
-        "role": "Bundestagsvizepräsident"
-      }
-    ],
-    "key": "19-75 zusatzpunkt 12 (wolfgang kubicki)"
+    }
   },
   {
     "parliament": "DE",
@@ -16630,7 +16724,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 17",
-      "speechIndex": 73,
+      "speechIndex": 1078,
       "title": "Forschungsrahmenprogramm - Klimakrise"
     },
     "people": [
@@ -16643,12 +16737,34 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19075-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19075-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
         "originTextID": "",
         "textBody": [
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Kubicki",
+            "speakerstatus": "vice-president",
+            "text": "Beratung des Antrags der Abgeordneten Kai Gehring, Lisa Badum, Annalena Baerbock, weiterer Abgeordneter und der Fraktion BÜNDNIS 90/DIE GRÜNEN",
+            "sentences": [
+              {
+                "text": "Beratung des Antrags der Abgeordneten Kai Gehring, Lisa Badum, Annalena Baerbock, weiterer Abgeordneter und der Fraktion BÜNDNIS 90/DIE GRÜNEN"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Kubicki",
+            "speakerstatus": "vice-president",
+            "text": "Ein Forschungsrahmenprogramm im Kampf gegen die Klimakrise",
+            "sentences": [
+              {
+                "text": "Ein Forschungsrahmenprogramm im Kampf gegen die Klimakrise"
+              }
+            ]
+          },
           {
             "type": "speech",
             "speaker": "Wolfgang Kubicki",
@@ -16712,7 +16828,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 17",
-      "speechIndex": 74,
+      "speechIndex": 1079,
       "title": "Forschungsrahmenprogramm - Klimakrise"
     },
     "people": [
@@ -16733,7 +16849,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19075-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19075-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -17145,7 +17261,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 17",
-      "speechIndex": 75,
+      "speechIndex": 1080,
       "title": "Forschungsrahmenprogramm - Klimakrise"
     },
     "people": [
@@ -17166,7 +17282,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19075-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19075-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -17754,7 +17870,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 17",
-      "speechIndex": 76,
+      "speechIndex": 1081,
       "title": "Forschungsrahmenprogramm - Klimakrise"
     },
     "people": [
@@ -17775,7 +17891,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19075-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19075-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -18516,7 +18632,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 17",
-      "speechIndex": 77,
+      "speechIndex": 1082,
       "title": "Forschungsrahmenprogramm - Klimakrise"
     },
     "people": [
@@ -18537,7 +18653,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19075-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19075-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -19113,7 +19229,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 17",
-      "speechIndex": 78,
+      "speechIndex": 1083,
       "title": "Forschungsrahmenprogramm - Klimakrise"
     },
     "people": [
@@ -19134,7 +19250,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19075-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19075-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -19547,7 +19663,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 17",
-      "speechIndex": 79,
+      "speechIndex": 1084,
       "title": "Forschungsrahmenprogramm - Klimakrise"
     },
     "people": [
@@ -19568,7 +19684,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19075-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19075-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -19852,7 +19968,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 17",
-      "speechIndex": 80,
+      "speechIndex": 1085,
       "title": "Forschungsrahmenprogramm - Klimakrise"
     },
     "people": [
@@ -19873,7 +19989,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19075-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19075-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -20209,7 +20325,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 17",
-      "speechIndex": 81,
+      "speechIndex": 1086,
       "title": "Forschungsrahmenprogramm - Klimakrise"
     },
     "people": [
@@ -20230,7 +20346,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19075-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19075-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -20533,26 +20649,80 @@
                 "text": "Die Klimaforschung ist genauso wie die Energieforschung bei uns in guten Händen, und jetzt wünsche ich Ihnen und uns allen eine schöne, klimaschonende Heimreise in die Wahlkreise."
               }
             ]
-          },
+          }
+        ]
+      }
+    ],
+    "documents": [
+      {
+        "type": "officialDocument",
+        "label": "Drucksache 19/5816",
+        "sourceURI": "https://dserver.bundestag.de/btd/19/058/1905816.pdf"
+      }
+    ],
+    "key": "19-75 tagesordnungspunkt 17 (timon gremmels)",
+    "dateStart": "2019-01-18T15:03:25",
+    "dateEnd": "2019-01-18T15:07:07",
+    "media": {
+      "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7318281/7318281_h264_720_400_2000kb_baseline_de_2192.mp4",
+      "sourcePage": "http://dbtg.tv/fvid/7318281",
+      "duration": 222.0,
+      "creator": "Deutscher Bundestag",
+      "license": "CC-BY-SA",
+      "originMediaID": "7318281",
+      "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7318281/7318281_mp3_128kb_stereo_de_128.mp3"
+    }
+  },
+  {
+    "parliament": "DE",
+    "electoralPeriod": {
+      "number": "19"
+    },
+    "session": {
+      "number": "75",
+      "dateStart": "2019-01-18T09:00",
+      "dateEnd": "2019-01-18T16:07"
+    },
+    "agendaItem": {
+      "officialTitle": "Tagesordnungspunkt 17",
+      "speechIndex": 1087,
+      "title": "Forschungsrahmenprogramm - Klimakrise"
+    },
+    "people": [
+      {
+        "type": "memberOfParliament",
+        "label": "Wolfgang Kubicki",
+        "context": "vice-president"
+      }
+    ],
+    "textContents": [
+      {
+        "type": "proceedings",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19075-data.xml",
+        "creator": "Deutscher Bundestag",
+        "license": "Public Domain",
+        "language": "DE-de",
+        "originTextID": "",
+        "textBody": [
           {
             "type": "speech",
-            "speaker": "Timon Gremmels",
-            "speakerstatus": "main-speaker",
-            "text": "Danke schön.",
+            "speaker": "Wolfgang Kubicki",
+            "speakerstatus": "vice-president",
+            "text": "Herr Kollege, erlauben Sie eine Zwischenfrage?",
             "sentences": [
               {
-                "text": "Danke schön."
+                "text": "Herr Kollege, erlauben Sie eine Zwischenfrage?"
               }
             ]
           },
           {
-            "type": "comment",
-            "speaker": null,
-            "speakerstatus": null,
-            "text": "(Beifall bei der SPD sowie bei Abgeordneten der CDU/CSU und des BÜNDNISSES 90/DIE GRÜNEN)",
+            "type": "speech",
+            "speaker": "Wolfgang Kubicki",
+            "speakerstatus": "vice-president",
+            "text": "Das ist kein Argument.",
             "sentences": [
               {
-                "text": "(Beifall bei der SPD sowie bei Abgeordneten der CDU/CSU und des BÜNDNISSES 90/DIE GRÜNEN)"
+                "text": "Das ist kein Argument."
               }
             ]
           },
@@ -20613,17 +20783,6 @@
             ]
           },
           {
-            "type": "comment",
-            "speaker": null,
-            "speakerstatus": null,
-            "text": "(Steffi Lemke [BÜNDNIS 90/DIE GRÜNEN]: Das kommt im Sommer öfter vor!)",
-            "sentences": [
-              {
-                "text": "(Steffi Lemke [BÜNDNIS 90/DIE GRÜNEN]: Das kommt im Sommer öfter vor!)"
-              }
-            ]
-          },
-          {
             "type": "speech",
             "speaker": "Wolfgang Kubicki",
             "speakerstatus": "vice-president",
@@ -20666,32 +20825,9 @@
         "sourceURI": "https://dserver.bundestag.de/btd/19/058/1905816.pdf"
       }
     ],
-    "key": "19-75 tagesordnungspunkt 17 (timon gremmels)",
-    "dateStart": "2019-01-18T15:03:25",
-    "dateEnd": "2019-01-18T15:07:07",
-    "media": {
-      "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7318281/7318281_h264_720_400_2000kb_baseline_de_2192.mp4",
-      "sourcePage": "http://dbtg.tv/fvid/7318281",
-      "duration": 222.0,
-      "creator": "Deutscher Bundestag",
-      "license": "CC-BY-SA",
-      "originMediaID": "7318281",
-      "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7318281/7318281_mp3_128kb_stereo_de_128.mp3"
-    }
-  },
-  {
-    "parliament": "DE",
-    "electoralPeriod": {
-      "number": 19
-    },
-    "session": {
-      "number": 75
-    },
-    "agendaItem": {
-      "title": "Forschungsrahmenprogramm - Klimakrise",
-      "officialTitle": "Tagesordnungspunkt 17",
-      "speechIndex": 86
-    },
+    "key": "19-75 tagesordnungspunkt 17 (wolfgang kubicki) #1",
+    "dateStart": "2019-01-18T15:07:07",
+    "dateEnd": "2019-01-18T15:07:24",
     "media": {
       "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7318282/7318282_h264_720_400_2000kb_baseline_de_2192.mp4",
       "sourcePage": "http://dbtg.tv/fvid/7318282",
@@ -20700,18 +20836,7 @@
       "license": "CC-BY-SA",
       "originMediaID": "7318282",
       "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7318282/7318282_mp3_128kb_stereo_de_128.mp3"
-    },
-    "dateStart": "2019-01-18T15:07:07",
-    "dateEnd": "2019-01-18T15:07:24",
-    "people": [
-      {
-        "label": "Wolfgang Kubicki",
-        "faction": "FDP",
-        "context": "main-speaker",
-        "role": "Bundestagsvizepräsident"
-      }
-    ],
-    "key": "19-75 tagesordnungspunkt 17 (wolfgang kubicki) #1"
+    }
   },
   {
     "parliament": "DE",

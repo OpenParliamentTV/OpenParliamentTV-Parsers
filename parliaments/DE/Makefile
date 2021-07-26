@@ -29,7 +29,7 @@ update: download all
 	$(BASEDIR)/parsers/media2json.py $< > $@
 
 %-data.json: %-data.xml
-	$(BASEDIR)/parsers/proceedings2json.py $< > $@
+	$(BASEDIR)/parsers/proceedings2json.py --include-nas $< > $@
 
 clean:
 	$(RM) $(DATADIR)/media/[0-9]*.json

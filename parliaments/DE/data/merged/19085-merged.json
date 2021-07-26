@@ -11,7 +11,7 @@
     },
     "agendaItem": {
       "officialTitle": "Sitzungseröffnung",
-      "speechIndex": 0,
+      "speechIndex": 1000,
       "title": "Sitzungseröffnung"
     },
     "people": [
@@ -24,7 +24,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19085-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19085-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -76,7 +76,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 2,
+      "speechIndex": 1002,
       "title": "Befragung der Bundesregierung"
     },
     "people": [
@@ -89,12 +89,23 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19085-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19085-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
         "originTextID": "",
         "textBody": [
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "Befragung der Bundesregierung",
+            "sentences": [
+              {
+                "text": "Befragung der Bundesregierung"
+              }
+            ]
+          },
           {
             "type": "speech",
             "speaker": "Wolfgang Schäuble",
@@ -190,7 +201,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 3,
+      "speechIndex": 1003,
       "title": "Befragung der Bundesregierung"
     },
     "people": [
@@ -211,7 +222,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19085-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19085-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -437,7 +448,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 5,
+      "speechIndex": 1005,
       "title": "Befragung der Bundesregierung"
     },
     "people": [
@@ -458,7 +469,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19085-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19085-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -535,7 +546,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 7,
+      "speechIndex": 1007,
       "title": "Befragung der Bundesregierung"
     },
     "people": [
@@ -556,7 +567,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19085-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19085-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -642,7 +653,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 60,
+      "speechIndex": 1060,
       "title": "Befragung der Bundesregierung"
     },
     "people": [
@@ -663,7 +674,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19085-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19085-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -729,7 +740,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 9,
+      "speechIndex": 1009,
       "title": "Befragung der Bundesregierung"
     },
     "people": [
@@ -750,7 +761,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19085-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19085-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -856,7 +867,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 74,
+      "speechIndex": 1074,
       "title": "Befragung der Bundesregierung"
     },
     "people": [
@@ -877,7 +888,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19085-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19085-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -946,7 +957,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 11,
+      "speechIndex": 1011,
       "title": "Befragung der Bundesregierung"
     },
     "people": [
@@ -967,7 +978,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19085-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19085-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -1070,16 +1081,55 @@
   {
     "parliament": "DE",
     "electoralPeriod": {
-      "number": 19
+      "number": "19"
     },
     "session": {
-      "number": 85
+      "number": "85",
+      "dateStart": "2019-03-13T13:00",
+      "dateEnd": "2019-03-13T17:01"
     },
     "agendaItem": {
-      "title": "Befragung der Bundesregierung",
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 10
+      "speechIndex": 1081,
+      "title": "Befragung der Bundesregierung"
     },
+    "people": [
+      {
+        "type": "memberOfParliament",
+        "label": "Petra Pau",
+        "context": "vice-president"
+      }
+    ],
+    "textContents": [
+      {
+        "type": "proceedings",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19085-data.xml",
+        "creator": "Deutscher Bundestag",
+        "license": "Public Domain",
+        "language": "DE-de",
+        "originTextID": "",
+        "textBody": [
+          {
+            "type": "speech",
+            "speaker": "Petra Pau",
+            "speakerstatus": "vice-president",
+            "text": "Danke, Frau Ministerin, und natürlich auch Dank an alle anderen Beteiligten, die hier geantwortet haben. – Ich beende die Befragung.",
+            "sentences": [
+              {
+                "text": "Danke, Frau Ministerin, und natürlich auch Dank an alle anderen Beteiligten, die hier geantwortet haben."
+              },
+              {
+                "text": "– Ich beende die Befragung."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "documents": [],
+    "key": "19-85 tagesordnungspunkt 1 (petra pau)",
+    "dateStart": "2019-03-13T13:15:44",
+    "dateEnd": "2019-03-13T13:15:52",
     "media": {
       "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7334459/7334459_h264_720_400_2000kb_baseline_de_2192.mp4",
       "sourcePage": "http://dbtg.tv/fvid/7334459",
@@ -1088,18 +1138,7 @@
       "license": "CC-BY-SA",
       "originMediaID": "7334459",
       "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7334459/7334459_mp3_128kb_stereo_de_128.mp3"
-    },
-    "dateStart": "2019-03-13T13:15:44",
-    "dateEnd": "2019-03-13T13:15:52",
-    "people": [
-      {
-        "label": "Petra Pau",
-        "faction": "Die Linke",
-        "context": "main-speaker",
-        "role": "Bundestagsvizepräsidentin"
-      }
-    ],
-    "key": "19-85 tagesordnungspunkt 1 (petra pau)"
+    }
   },
   {
     "parliament": "DE",
@@ -1113,7 +1152,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 2",
-      "speechIndex": 81,
+      "speechIndex": 1082,
       "title": "Fragestunde"
     },
     "people": [
@@ -1246,12 +1285,23 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19085-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19085-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
         "originTextID": "",
         "textBody": [
+          {
+            "type": "speech",
+            "speaker": "Petra Pau",
+            "speakerstatus": "vice-president",
+            "text": "Fragestunde",
+            "sentences": [
+              {
+                "text": "Fragestunde"
+              }
+            ]
+          },
           {
             "type": "speech",
             "speaker": "Petra Pau",
@@ -6067,7 +6117,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 2",
-      "speechIndex": 82,
+      "speechIndex": 1083,
       "title": "Fragestunde"
     },
     "people": [
@@ -6163,49 +6213,28 @@
         "lastname": "Polat",
         "context": "speaker",
         "faction": "BÜNDNIS 90/DIE GRÜNEN"
-      },
-      {
-        "type": "memberOfParliament",
-        "label": "Rita Schwarzelühr-Sutter",
-        "firstname": "Rita",
-        "lastname": "Schwarzelühr-Sutter",
-        "context": "speaker",
-        "faction": ""
-      },
-      {
-        "type": "memberOfParliament",
-        "label": "Gero Clemens Hocker",
-        "firstname": "Gero Clemens",
-        "lastname": "Hocker",
-        "context": "speaker",
-        "faction": "FDP"
-      },
-      {
-        "type": "memberOfParliament",
-        "label": "Steffi Lemke",
-        "firstname": "Steffi",
-        "lastname": "Lemke",
-        "context": "speaker",
-        "faction": "BÜNDNIS 90/DIE GRÜNEN"
-      },
-      {
-        "type": "memberOfParliament",
-        "label": "Michael Stübgen",
-        "firstname": "Michael",
-        "lastname": "Stübgen",
-        "context": "speaker",
-        "faction": ""
       }
     ],
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19085-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19085-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
         "originTextID": "",
         "textBody": [
+          {
+            "type": "speech",
+            "speaker": "Petra Pau",
+            "speakerstatus": "vice-president",
+            "text": "Fragestunde",
+            "sentences": [
+              {
+                "text": "Fragestunde"
+              }
+            ]
+          },
           {
             "type": "speech",
             "speaker": "Petra Pau",
@@ -8860,1553 +8889,6 @@
                 "text": "Bitte."
               }
             ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Steffen Bilger",
-            "speakerstatus": "main-speaker",
-            "text": "Ich habe Ihnen das Verfahren geschildert. Es wird ein Gutachten in Auftrag gegeben. Unsere Wasserstraßen- und Schifffahrtsverwaltung ist schließlich auch Expertin für sämtliche Ausbaumaßnahmen. Es kommt dann zu einer Bewertung. Am Ende wird entschieden, ob es eine Zuwendung gibt oder nicht. In diesem Fall wurde unter fachlichen Gesichtspunkten entschieden, dass ein Zuwendungsbescheid ergehen kann. Die Summe entspricht 56,9 Prozent der zuwendungsfähigen Ausgaben. Der Bewilligungszeitraum endet am 31. Dezember 2021. Bis dahin muss gebaut werden, sodass die Mittel tatsächlich abfließen können.",
-            "sentences": [
-              {
-                "text": "Ich habe Ihnen das Verfahren geschildert."
-              },
-              {
-                "text": "Es wird ein Gutachten in Auftrag gegeben."
-              },
-              {
-                "text": "Unsere Wasserstraßen- und Schifffahrtsverwaltung ist schließlich auch Expertin für sämtliche Ausbaumaßnahmen."
-              },
-              {
-                "text": "Es kommt dann zu einer Bewertung."
-              },
-              {
-                "text": "Am Ende wird entschieden, ob es eine Zuwendung gibt oder nicht."
-              },
-              {
-                "text": "In diesem Fall wurde unter fachlichen Gesichtspunkten entschieden, dass ein Zuwendungsbescheid ergehen kann."
-              },
-              {
-                "text": "Die Summe entspricht 56,9 Prozent der zuwendungsfähigen Ausgaben."
-              },
-              {
-                "text": "Der Bewilligungszeitraum endet am 31. Dezember 2021. Bis dahin muss gebaut werden, sodass die Mittel tatsächlich abfließen können."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Wir kommen zu Frage 17 der Kollegin Kerstin Kassner. – Soweit ich das überblicke, ist sie nicht anwesend. Dann verfahren wir, wie in der Geschäftsordnung vorgesehen.",
-            "sentences": [
-              {
-                "text": "Wir kommen zu Frage 17 der Kollegin Kerstin Kassner."
-              },
-              {
-                "text": "– Soweit ich das überblicke, ist sie nicht anwesend."
-              },
-              {
-                "text": "Dann verfahren wir, wie in der Geschäftsordnung vorgesehen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Herzlichen Dank, Herr Staatssekretär. Wir sind damit am Ende Ihres Geschäftsbereichs.",
-            "sentences": [
-              {
-                "text": "Herzlichen Dank, Herr Staatssekretär."
-              },
-              {
-                "text": "Wir sind damit am Ende Ihres Geschäftsbereichs."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Ich rufe den Geschäftsbereich des Bundesministeriums für Umwelt, Naturschutz und nukleare Sicherheit auf. Zur Beantwortung steht die Parlamentarische Staatssekretärin Rita Schwarzelühr-Sutter bereit.",
-            "sentences": [
-              {
-                "text": "Ich rufe den Geschäftsbereich des Bundesministeriums für Umwelt, Naturschutz und nukleare Sicherheit auf."
-              },
-              {
-                "text": "Zur Beantwortung steht die Parlamentarische Staatssekretärin Rita Schwarzelühr-Sutter bereit."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Die Frage 18 des Abgeordneten Torsten Herbst soll schriftlich beantwortet werden.",
-            "sentences": [
-              {
-                "text": "Die Frage 18 des Abgeordneten Torsten Herbst soll schriftlich beantwortet werden."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Ich rufe die Frage 19 von Carina Konrad auf:",
-            "sentences": [
-              {
-                "text": "Ich rufe die Frage 19 von Carina Konrad auf:"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Bitte, Frau Staatssekretärin.",
-            "sentences": [
-              {
-                "text": "Bitte, Frau Staatssekretärin."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Rita Schwarzelühr-Sutter",
-            "speakerstatus": "speaker",
-            "text": "Vielen Dank, Frau Präsidentin. – Frau Kollegin Konrad, ich beantworte Ihre Frage wie folgt: Das Profil für Stellenausschreibungen im öffentlichen Dienst richtet sich nach den Anforderungen des zu besetzenden Dienstpostens. Diese orientieren sich im Fall einer Unterabteilung vor allem an den fachlichen Anforderungen der verantworteten Aufgabenbereiche. Im Fall der Unterabteilung N I sind diese fachlich und inhaltlich im Schwerpunkt naturwissenschaftlich geprägt, sodass eine entsprechende berufliche Qualifikation erforderlich ist. Das Verfahren zur Besetzung des Dienstpostens ist noch nicht abgeschlossen. Daher ist die Frage nach einem eventuellen Interessenkonflikt hypothetisch.",
-            "sentences": [
-              {
-                "text": "Vielen Dank, Frau Präsidentin."
-              },
-              {
-                "text": "– Frau Kollegin Konrad, ich beantworte Ihre Frage wie folgt: Das Profil für Stellenausschreibungen im öffentlichen Dienst richtet sich nach den Anforderungen des zu besetzenden Dienstpostens."
-              },
-              {
-                "text": "Diese orientieren sich im Fall einer Unterabteilung vor allem an den fachlichen Anforderungen der verantworteten Aufgabenbereiche."
-              },
-              {
-                "text": "Im Fall der Unterabteilung N I sind diese fachlich und inhaltlich im Schwerpunkt naturwissenschaftlich geprägt, sodass eine entsprechende berufliche Qualifikation erforderlich ist."
-              },
-              {
-                "text": "Das Verfahren zur Besetzung des Dienstpostens ist noch nicht abgeschlossen."
-              },
-              {
-                "text": "Daher ist die Frage nach einem eventuellen Interessenkonflikt hypothetisch."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Rita Schwarzelühr-Sutter",
-            "speakerstatus": "speaker",
-            "text": "Unabhängig vom konkreten Fall weise ich darauf hin, dass nach dem System der Mittelbewirtschaftung im Bundesministerium für Umwelt, Naturschutz und nukleare Sicherheit Entscheidungen über die Vergabe von Fördermitteln nicht ausschließlich durch die Ebene der Unterabteilungsleitung getroffen werden, sondern unter Anwendung des Mehraugenprinzips. Zudem erfolgt eine Kontrolle der ordnungsgemäßen Mittelbewirtschaftung durch das den entsprechenden Haushaltstitel verwaltende Referat sowie übergreifend durch das Haushaltsreferat.",
-            "sentences": [
-              {
-                "text": "Unabhängig vom konkreten Fall weise ich darauf hin, dass nach dem System der Mittelbewirtschaftung im Bundesministerium für Umwelt, Naturschutz und nukleare Sicherheit Entscheidungen über die Vergabe von Fördermitteln nicht ausschließlich durch die Ebene der Unterabteilungsleitung getroffen werden, sondern unter Anwendung des Mehraugenprinzips."
-              },
-              {
-                "text": "Zudem erfolgt eine Kontrolle der ordnungsgemäßen Mittelbewirtschaftung durch das den entsprechenden Haushaltstitel verwaltende Referat sowie übergreifend durch das Haushaltsreferat."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Sie haben das Wort zur ersten Nachfrage.",
-            "sentences": [
-              {
-                "text": "Sie haben das Wort zur ersten Nachfrage."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Carina Konrad",
-            "speakerstatus": "speaker",
-            "text": "Vielen Dank, Frau Staatssekretärin, für Ihre Ausführungen und dafür, dass Sie den Anforderungen an Transparenz, die besonders das Bundesumweltministerium gerne an andere stellt, in dem Fall auch selbst nachkommen. – Wann ist denn mit einer konkreten Entscheidung des BMU zu der Besetzung dieser Stelle zu rechnen?",
-            "sentences": [
-              {
-                "text": "Vielen Dank, Frau Staatssekretärin, für Ihre Ausführungen und dafür, dass Sie den Anforderungen an Transparenz, die besonders das Bundesumweltministerium gerne an andere stellt, in dem Fall auch selbst nachkommen."
-              },
-              {
-                "text": "– Wann ist denn mit einer konkreten Entscheidung des BMU zu der Besetzung dieser Stelle zu rechnen?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Rita Schwarzelühr-Sutter",
-            "speakerstatus": "speaker",
-            "text": "Darauf kann ich Ihnen noch keine Antwort geben. Das Verfahren läuft noch.",
-            "sentences": [
-              {
-                "text": "Darauf kann ich Ihnen noch keine Antwort geben."
-              },
-              {
-                "text": "Das Verfahren läuft noch."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Sie haben die Möglichkeit zu einer zweiten Nachfrage.",
-            "sentences": [
-              {
-                "text": "Sie haben die Möglichkeit zu einer zweiten Nachfrage."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Carina Konrad",
-            "speakerstatus": "speaker",
-            "text": "Werden denn im Falle der Besetzung dieser Stelle mit einem ehemaligen NABU-Funktionär – um es konkret zu machen – die Zuständigkeiten dieser Position dahin gehend geändert, dass man einen Interessenkonflikt ausschließen kann, wenn es um die Zuteilung und Vergabe von Fördermitteln an Naturschutzverbände geht?",
-            "sentences": [
-              {
-                "text": "Werden denn im Falle der Besetzung dieser Stelle mit einem ehemaligen NABU-Funktionär – um es konkret zu machen – die Zuständigkeiten dieser Position dahin gehend geändert, dass man einen Interessenkonflikt ausschließen kann, wenn es um die Zuteilung und Vergabe von Fördermitteln an Naturschutzverbände geht?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Rita Schwarzelühr-Sutter",
-            "speakerstatus": "speaker",
-            "text": "Sehr geehrte Frau Kollegin, ich habe gerade versucht, Ihnen zu vermitteln, dass es nach der fachlichen Qualifikation geht. Hier geht es um Naturschutz, Meeresschutz, Artenschutz, biologische Vielfalt. Diese Qualifikationen müssen mitgebracht werden.",
-            "sentences": [
-              {
-                "text": "Sehr geehrte Frau Kollegin, ich habe gerade versucht, Ihnen zu vermitteln, dass es nach der fachlichen Qualifikation geht."
-              },
-              {
-                "text": "Hier geht es um Naturschutz, Meeresschutz, Artenschutz, biologische Vielfalt."
-              },
-              {
-                "text": "Diese Qualifikationen müssen mitgebracht werden."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Rita Schwarzelühr-Sutter",
-            "speakerstatus": "speaker",
-            "text": "Bezüglich der Entscheidungen über Förderungen habe ich gerade erläutert, nach welchem Prinzip das bei uns gehandhabt wird.",
-            "sentences": [
-              {
-                "text": "Bezüglich der Entscheidungen über Förderungen habe ich gerade erläutert, nach welchem Prinzip das bei uns gehandhabt wird."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Die Frage 20 der Abgeordneten Sylvia Kotting-Uhl und die Frage 21 der Abgeordneten Judith Skudelny sollen schriftlich beantwortet werden.",
-            "sentences": [
-              {
-                "text": "Die Frage 20 der Abgeordneten Sylvia Kotting-Uhl und die Frage 21 der Abgeordneten Judith Skudelny sollen schriftlich beantwortet werden."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Ich rufe die Frage 22 des Abgeordneten Oliver Luksic auf:",
-            "sentences": [
-              {
-                "text": "Ich rufe die Frage 22 des Abgeordneten Oliver Luksic auf:"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Rita Schwarzelühr-Sutter",
-            "speakerstatus": "speaker",
-            "text": "Sehr geehrter Herr Kollege Luksic, die vom Bundesministerium für Umwelt, Naturschutz und nukleare Sicherheit beauftragte Begutachtung durch den TÜV Rheinland erfolgt in Kooperation mit den zuständigen Behörden der Länder. Gegenstand der beauftragten Begutachtung sind im Wesentlichen die Probenahmestellen der Länder mit berichteten Überschreitungen des Jahresmittelgrenzwerts für Stickstoffdioxid für das Jahr 2017 und, soweit vorliegend, für das Jahr 2018. Die Probenahmestellen des Landes Nordrhein-Westfalen sind von dem Auftrag nicht umfasst, weil hierzu bereits ein unabhängiger Bericht erstellt wurde. Durch den TÜV Rheinland wird untersucht, ob die Positionierung der einschlägigen Probenahmestellen in den anderen Ländern ebenfalls sach- und rechtskonform erfolgt.",
-            "sentences": [
-              {
-                "text": "Sehr geehrter Herr Kollege Luksic, die vom Bundesministerium für Umwelt, Naturschutz und nukleare Sicherheit beauftragte Begutachtung durch den TÜV Rheinland erfolgt in Kooperation mit den zuständigen Behörden der Länder."
-              },
-              {
-                "text": "Gegenstand der beauftragten Begutachtung sind im Wesentlichen die Probenahmestellen der Länder mit berichteten Überschreitungen des Jahresmittelgrenzwerts für Stickstoffdioxid für das Jahr 2017 und, soweit vorliegend, für das Jahr 2018. Die Probenahmestellen des Landes Nordrhein-Westfalen sind von dem Auftrag nicht umfasst, weil hierzu bereits ein unabhängiger Bericht erstellt wurde."
-              },
-              {
-                "text": "Durch den TÜV Rheinland wird untersucht, ob die Positionierung der einschlägigen Probenahmestellen in den anderen Ländern ebenfalls sach- und rechtskonform erfolgt."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Rita Schwarzelühr-Sutter",
-            "speakerstatus": "speaker",
-            "text": "Die Begutachtung umfasst auf Grundlage der Anlage 3 der Verordnung über Luftqualitätsstandards und Emissionshöchstmengen – das ist die 39. BImSchV – eine Bewertung der Einhaltung der Kriterien zur kleinräumigen Positionierung der betroffenen Probenahmestellen sowie flankierend eine Bewertung der großräumigen Ortsbestimmung der betroffenen Probenahmestellen.",
-            "sentences": [
-              {
-                "text": "Die Begutachtung umfasst auf Grundlage der Anlage 3 der Verordnung über Luftqualitätsstandards und Emissionshöchstmengen – das ist die 39. BImSchV – eine Bewertung der Einhaltung der Kriterien zur kleinräumigen Positionierung der betroffenen Probenahmestellen sowie flankierend eine Bewertung der großräumigen Ortsbestimmung der betroffenen Probenahmestellen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Sie haben das Wort zur ersten Nachfrage.",
-            "sentences": [
-              {
-                "text": "Sie haben das Wort zur ersten Nachfrage."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Oliver Luksic",
-            "speakerstatus": "speaker",
-            "text": "Vielen Dank, Frau Staatssekretärin, für die Antwort. – Ich würde gerne auf NRW eingehen, wo ja der TÜV zusammen mit dem Deutschen Wetterdienst geprüft hat. Beispielsweise wurde festgestellt, dass eine Messstelle in Aachen nicht rechtskonform ist. Meinen Informationen nach gibt es auch weitere Beanstandungen.",
-            "sentences": [
-              {
-                "text": "Vielen Dank, Frau Staatssekretärin, für die Antwort."
-              },
-              {
-                "text": "– Ich würde gerne auf NRW eingehen, wo ja der TÜV zusammen mit dem Deutschen Wetterdienst geprüft hat."
-              },
-              {
-                "text": "Beispielsweise wurde festgestellt, dass eine Messstelle in Aachen nicht rechtskonform ist."
-              },
-              {
-                "text": "Meinen Informationen nach gibt es auch weitere Beanstandungen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Oliver Luksic",
-            "speakerstatus": "speaker",
-            "text": "Es gibt einen wichtigen Aspekt, den man noch einmal herausstellen sollte: In dem TÜV-Gutachten gibt es den Hinweis, dass mehrere Messstationen sehr nahe an der Straße messen, was aber rechtskonform ist. Meine Frage ist, ob Sie die Einschätzung teilen, dass das, was rechtskonform sein kann, vielleicht trotzdem nicht sinnig ist. Um einige Beispiele zu nennen: Am Clevischen Ring in Köln gibt es anderthalb Meter Abstand, in Düsseldorf-Bilk sind es 0,7 Meter Abstand, und in der Euskirchener Straße in Düren wird mit 30 Zentimeter Abstand zur Straße gemessen. – Die EU-Richtlinie besagt sinngemäß, dass sich die Luft vermischen soll, um einen repräsentativen Wert zu bekommen. Diese Messungen sind rechtskonform. Das ist meiner Meinung nach aber nicht im Sinne der Richtlinie. Würden Sie diese Einschätzung teilen, oder halten Sie diese Messstationen für sinnvoll?",
-            "sentences": [
-              {
-                "text": "Es gibt einen wichtigen Aspekt, den man noch einmal herausstellen sollte: In dem TÜV-Gutachten gibt es den Hinweis, dass mehrere Messstationen sehr nahe an der Straße messen, was aber rechtskonform ist."
-              },
-              {
-                "text": "Meine Frage ist, ob Sie die Einschätzung teilen, dass das, was rechtskonform sein kann, vielleicht trotzdem nicht sinnig ist."
-              },
-              {
-                "text": "Um einige Beispiele zu nennen: Am Clevischen Ring in Köln gibt es anderthalb Meter Abstand, in Düsseldorf-Bilk sind es 0,7 Meter Abstand, und in der Euskirchener Straße in Düren wird mit 30 Zentimeter Abstand zur Straße gemessen."
-              },
-              {
-                "text": "– Die EU-Richtlinie besagt sinngemäß, dass sich die Luft vermischen soll, um einen repräsentativen Wert zu bekommen."
-              },
-              {
-                "text": "Diese Messungen sind rechtskonform."
-              },
-              {
-                "text": "Das ist meiner Meinung nach aber nicht im Sinne der Richtlinie."
-              },
-              {
-                "text": "Würden Sie diese Einschätzung teilen, oder halten Sie diese Messstationen für sinnvoll?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Rita Schwarzelühr-Sutter",
-            "speakerstatus": "speaker",
-            "text": "Es geht hier nicht darum, was wir oder ich für sinnvoll halten. Es geht darum, was rechtskonform ist und ob diese Probenahmestellen entsprechend aufgestellt wurden. Hier werden wir natürlich mit den Ländern zusammenarbeiten. Auch der Deutsche Wetterdienst ist in die Überprüfungen einbezogen.",
-            "sentences": [
-              {
-                "text": "Es geht hier nicht darum, was wir oder ich für sinnvoll halten."
-              },
-              {
-                "text": "Es geht darum, was rechtskonform ist und ob diese Probenahmestellen entsprechend aufgestellt wurden."
-              },
-              {
-                "text": "Hier werden wir natürlich mit den Ländern zusammenarbeiten."
-              },
-              {
-                "text": "Auch der Deutsche Wetterdienst ist in die Überprüfungen einbezogen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Sie haben das Wort zur zweiten Nachfrage.",
-            "sentences": [
-              {
-                "text": "Sie haben das Wort zur zweiten Nachfrage."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Oliver Luksic",
-            "speakerstatus": "speaker",
-            "text": "Nach der EU-Richtlinie kann man bis zu 10 Metern entfernt von der Straße messen. Was ich Ihnen mit diesen Beispielen sagen wollte, ist, dass es zwar rechtskonform sein kann, 30 Zentimeter von der Straße entfernt zu messen – darüber kann man streiten –, dass es aber nicht dem Geist der Richtlinie entspricht, die an einer anderen Stelle besagt, man brauche einen repräsentativen Wert für die gesamte Stadt. In Wien wird beispielsweise in der Einkaufsstraße gemessen, um einen repräsentativen Wert für die gesamte Stadt zu ermitteln.",
-            "sentences": [
-              {
-                "text": "Nach der EU-Richtlinie kann man bis zu 10 Metern entfernt von der Straße messen."
-              },
-              {
-                "text": "Was ich Ihnen mit diesen Beispielen sagen wollte, ist, dass es zwar rechtskonform sein kann, 30 Zentimeter von der Straße entfernt zu messen – darüber kann man streiten –, dass es aber nicht dem Geist der Richtlinie entspricht, die an einer anderen Stelle besagt, man brauche einen repräsentativen Wert für die gesamte Stadt."
-              },
-              {
-                "text": "In Wien wird beispielsweise in der Einkaufsstraße gemessen, um einen repräsentativen Wert für die gesamte Stadt zu ermitteln."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Oliver Luksic",
-            "speakerstatus": "speaker",
-            "text": "In der eben von Ihnen genannten Anlage 3 der 39. BImSchV kann und soll der Bund den Kommunen und Ländern präzise Vorgaben machen. Es wird darüber nachgedacht, für eine Vereinheitlichung bei den Messstationen zu sorgen. Das wäre meines Erachtens unter dem Thema Rechtssicherheit auch dringend notwendig, um innerhalb von Europa zu ähnlichen Messungen zu kommen. Jetzt haben wir ja die Situation, dass sehr unterschiedlich gemessen wird und auch Fahrverbote auf solchen Messungen basieren.",
-            "sentences": [
-              {
-                "text": "In der eben von Ihnen genannten Anlage 3 der 39. BImSchV kann und soll der Bund den Kommunen und Ländern präzise Vorgaben machen."
-              },
-              {
-                "text": "Es wird darüber nachgedacht, für eine Vereinheitlichung bei den Messstationen zu sorgen."
-              },
-              {
-                "text": "Das wäre meines Erachtens unter dem Thema Rechtssicherheit auch dringend notwendig, um innerhalb von Europa zu ähnlichen Messungen zu kommen."
-              },
-              {
-                "text": "Jetzt haben wir ja die Situation, dass sehr unterschiedlich gemessen wird und auch Fahrverbote auf solchen Messungen basieren."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Versuchen Sie bitte, zum Fragezeichen zu kommen.",
-            "sentences": [
-              {
-                "text": "Versuchen Sie bitte, zum Fragezeichen zu kommen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Oliver Luksic",
-            "speakerstatus": "speaker",
-            "text": "Wenn man 30 Zentimeter vom Fahrbahnrand misst, ist das meines Erachtens nicht im Sinne der Richtlinie. Teilen Sie diese Einschätzung, oder wollen Sie es so lassen, wie es ist?",
-            "sentences": [
-              {
-                "text": "Wenn man 30 Zentimeter vom Fahrbahnrand misst, ist das meines Erachtens nicht im Sinne der Richtlinie."
-              },
-              {
-                "text": "Teilen Sie diese Einschätzung, oder wollen Sie es so lassen, wie es ist?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Rita Schwarzelühr-Sutter",
-            "speakerstatus": "speaker",
-            "text": "Sehr geehrter Kollege, die örtlichen Gegebenheiten sind sehr unterschiedlich und sehr heterogen. Ein Fahrverbot wird nie aufgrund einer einzigen Probenahmestelle verhängt; das wissen Sie. Und wenn natürlich nebendran ein Gebäude steht, dann wird man da nicht messen können. Das sind eben die örtlichen Gegebenheiten.",
-            "sentences": [
-              {
-                "text": "Sehr geehrter Kollege, die örtlichen Gegebenheiten sind sehr unterschiedlich und sehr heterogen."
-              },
-              {
-                "text": "Ein Fahrverbot wird nie aufgrund einer einzigen Probenahmestelle verhängt; das wissen Sie."
-              },
-              {
-                "text": "Und wenn natürlich nebendran ein Gebäude steht, dann wird man da nicht messen können."
-              },
-              {
-                "text": "Das sind eben die örtlichen Gegebenheiten."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Rita Schwarzelühr-Sutter",
-            "speakerstatus": "speaker",
-            "text": "Ich will aber noch einmal auf die Probenahmestellen eingehen. Sie sollen, soweit möglich, so gewählt werden, dass sie für die Luftqualität eines Straßenabschnittes von nicht weniger als 100 Metern Länge repräsentativ sind. Die folgenden Kriterien zur kleinräumigen Ortsbestimmung der Probenahmestellen nach Anlage 3 Abschnitt C der 39. BImSchV, die Sie gerade genannt haben, sind, soweit möglich, zu berücksichtigen: Probenahmestellen dürfen unter anderem höchstens 10 Meter vom Fahrbahnrand entfernt sein. Vom Rand verkehrsreicher Kreuzungen müssen sie mindestens 25 Meter entfernt sein. Der Messeinlass muss sich grundsätzlich in einer Höhe von 1,5 Metern und 4 Metern über dem Boden befinden. Und Probenahmestellen, die Werte liefern, die für die Luftqualität an der Baufluchtlinie repräsentativ sind, sollen mindestens 0,5 Meter vom nächsten Gebäude entfernt sein. – Sie gehen sicher mit mir überein, dass wir eine gewisse Vergleichbarkeit brauchen.",
-            "sentences": [
-              {
-                "text": "Ich will aber noch einmal auf die Probenahmestellen eingehen."
-              },
-              {
-                "text": "Sie sollen, soweit möglich, so gewählt werden, dass sie für die Luftqualität eines Straßenabschnittes von nicht weniger als 100 Metern Länge repräsentativ sind."
-              },
-              {
-                "text": "Die folgenden Kriterien zur kleinräumigen Ortsbestimmung der Probenahmestellen nach Anlage 3 Abschnitt C der 39. BImSchV, die Sie gerade genannt haben, sind, soweit möglich, zu berücksichtigen: Probenahmestellen dürfen unter anderem höchstens 10 Meter vom Fahrbahnrand entfernt sein."
-              },
-              {
-                "text": "Vom Rand verkehrsreicher Kreuzungen müssen sie mindestens 25 Meter entfernt sein."
-              },
-              {
-                "text": "Der Messeinlass muss sich grundsätzlich in einer Höhe von 1,5 Metern und 4 Metern über dem Boden befinden."
-              },
-              {
-                "text": "Und Probenahmestellen, die Werte liefern, die für die Luftqualität an der Baufluchtlinie repräsentativ sind, sollen mindestens 0,5 Meter vom nächsten Gebäude entfernt sein."
-              },
-              {
-                "text": "– Sie gehen sicher mit mir überein, dass wir eine gewisse Vergleichbarkeit brauchen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Rita Schwarzelühr-Sutter",
-            "speakerstatus": "speaker",
-            "text": "Deshalb sind die Kriterien so ausgewählt.",
-            "sentences": [
-              {
-                "text": "Deshalb sind die Kriterien so ausgewählt."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Die Frage 23 des Abgeordneten Lukas Köhler soll schriftlich beantwortet werden.",
-            "sentences": [
-              {
-                "text": "Die Frage 23 des Abgeordneten Lukas Köhler soll schriftlich beantwortet werden."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Ich rufe die Frage 24 des Abgeordneten Dr. Rainer Kraft auf:",
-            "sentences": [
-              {
-                "text": "Ich rufe die Frage 24 des Abgeordneten Dr. Rainer Kraft auf:"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Bitte, Frau Staatssekretärin.",
-            "sentences": [
-              {
-                "text": "Bitte, Frau Staatssekretärin."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Rita Schwarzelühr-Sutter",
-            "speakerstatus": "speaker",
-            "text": "Sehr geehrter Herr Kollege Dr. Kraft, Deutschland hat sich zum Ziel gesetzt, bis zum Jahr 2020 die Treibhausgasemissionen gegenüber dem Jahr 1990 um 40 Prozent zu mindern. Die aktuellen Emissionsprognosen deuten jedoch darauf hin, dass Deutschland sein 2020-Ziel verfehlen wird. Gründe dafür sind sowohl die verzögerte Wirkung von umgesetzten Maßnahmen als auch Verzögerungen bei der Implementierung einzelner Maßnahmen. Hinzu kommen externe Entwicklungen wie ein höheres Bevölkerungs- und Wirtschaftswachstum als bisher angenommen. Die Bundesregierung strebt weiterhin an, die verbleibende Lücke zur Zielerreichung so schnell wie möglich zu schließen.",
-            "sentences": [
-              {
-                "text": "Sehr geehrter Herr Kollege Dr. Kraft, Deutschland hat sich zum Ziel gesetzt, bis zum Jahr 2020 die Treibhausgasemissionen gegenüber dem Jahr 1990 um 40 Prozent zu mindern."
-              },
-              {
-                "text": "Die aktuellen Emissionsprognosen deuten jedoch darauf hin, dass Deutschland sein 2020-Ziel verfehlen wird."
-              },
-              {
-                "text": "Gründe dafür sind sowohl die verzögerte Wirkung von umgesetzten Maßnahmen als auch Verzögerungen bei der Implementierung einzelner Maßnahmen."
-              },
-              {
-                "text": "Hinzu kommen externe Entwicklungen wie ein höheres Bevölkerungs- und Wirtschaftswachstum als bisher angenommen."
-              },
-              {
-                "text": "Die Bundesregierung strebt weiterhin an, die verbleibende Lücke zur Zielerreichung so schnell wie möglich zu schließen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Rita Schwarzelühr-Sutter",
-            "speakerstatus": "speaker",
-            "text": "Die genaue Höhe der Kosten für bisher nicht beschlossene Klimaschutzmaßnahmen lässt sich nicht belastbar abschätzen. Aus der Sicht der Bundesregierung wären in diesem Zusammenhang grundsätzlich auch die volkswirtschaftlichen Vorteile von Klimaschutzmaßnahmen zu berücksichtigen. Zudem handelt es sich bei einer Vielzahl möglicher Klimaschutzmaßnahmen um Effizienzinvestitionen, die sich im Zeitablauf amortisieren.",
-            "sentences": [
-              {
-                "text": "Die genaue Höhe der Kosten für bisher nicht beschlossene Klimaschutzmaßnahmen lässt sich nicht belastbar abschätzen."
-              },
-              {
-                "text": "Aus der Sicht der Bundesregierung wären in diesem Zusammenhang grundsätzlich auch die volkswirtschaftlichen Vorteile von Klimaschutzmaßnahmen zu berücksichtigen."
-              },
-              {
-                "text": "Zudem handelt es sich bei einer Vielzahl möglicher Klimaschutzmaßnahmen um Effizienzinvestitionen, die sich im Zeitablauf amortisieren."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Sie haben das Wort zur ersten Nachfrage.",
-            "sentences": [
-              {
-                "text": "Sie haben das Wort zur ersten Nachfrage."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Rainer Kraft",
-            "speakerstatus": "speaker",
-            "text": "Vielen Dank, Frau Präsidentin. – Danke, Frau Staatssekretärin. – Es gibt eine weitere Maßnahme, die in Bezug auf die CO 2 -Emissionen in Deutschland ergriffen worden ist. Das ist der 2011 erfolgte Ausstieg vom Ausstieg des Ausstieges aus der Kernenergie. Wie sähe die Situation angesichts der CO 2 -Emissionen heute aller Voraussicht nach aus, wenn dieser Ausstieg vom Ausstieg des Ausstiegs in 2011 nicht stattgefunden hätte?",
-            "sentences": [
-              {
-                "text": "Vielen Dank, Frau Präsidentin."
-              },
-              {
-                "text": "– Danke, Frau Staatssekretärin."
-              },
-              {
-                "text": "– Es gibt eine weitere Maßnahme, die in Bezug auf die CO 2 -Emissionen in Deutschland ergriffen worden ist."
-              },
-              {
-                "text": "Das ist der 2011 erfolgte Ausstieg vom Ausstieg des Ausstieges aus der Kernenergie."
-              },
-              {
-                "text": "Wie sähe die Situation angesichts der CO 2 -Emissionen heute aller Voraussicht nach aus, wenn dieser Ausstieg vom Ausstieg des Ausstiegs in 2011 nicht stattgefunden hätte?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Rita Schwarzelühr-Sutter",
-            "speakerstatus": "speaker",
-            "text": "Eine genaue Berechnung habe ich nicht vorliegen; das kann ich Ihnen so nicht sagen. Ich will aber darauf hinweisen, dass es einen gesellschaftlichen Konsens darüber gibt. Wir haben heute Morgen im Ausschuss über die Endlagerung gesprochen. Insofern muss man den ganzen Kreislauf in den Blick nehmen. Darüber, welche Treibhausgassenkungen hypothetisch erzielt worden wären, wären alle AKWs ohne Störungen und andere Unterbrechungen weitergelaufen, liegen mir keine Erkenntnisse vor.",
-            "sentences": [
-              {
-                "text": "Eine genaue Berechnung habe ich nicht vorliegen; das kann ich Ihnen so nicht sagen."
-              },
-              {
-                "text": "Ich will aber darauf hinweisen, dass es einen gesellschaftlichen Konsens darüber gibt."
-              },
-              {
-                "text": "Wir haben heute Morgen im Ausschuss über die Endlagerung gesprochen."
-              },
-              {
-                "text": "Insofern muss man den ganzen Kreislauf in den Blick nehmen."
-              },
-              {
-                "text": "Darüber, welche Treibhausgassenkungen hypothetisch erzielt worden wären, wären alle AKWs ohne Störungen und andere Unterbrechungen weitergelaufen, liegen mir keine Erkenntnisse vor."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Sie haben das Wort zu einer zweiten Nachfrage.",
-            "sentences": [
-              {
-                "text": "Sie haben das Wort zu einer zweiten Nachfrage."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Rainer Kraft",
-            "speakerstatus": "speaker",
-            "text": "Das ist richtig, Frau Staatssekretärin. Wir haben heute Morgen über einen zweiten sogenannten gesellschaftlichen Konsens gesprochen, nämlich über die Senkung der CO 2 -Emissionen. Wir haben hier also einen Konflikt zwischen zwei gesellschaftlichen Konsensen, also sozusagen einen konsensualen Konflikt.",
-            "sentences": [
-              {
-                "text": "Das ist richtig, Frau Staatssekretärin."
-              },
-              {
-                "text": "Wir haben heute Morgen über einen zweiten sogenannten gesellschaftlichen Konsens gesprochen, nämlich über die Senkung der CO 2 -Emissionen."
-              },
-              {
-                "text": "Wir haben hier also einen Konflikt zwischen zwei gesellschaftlichen Konsensen, also sozusagen einen konsensualen Konflikt."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Rainer Kraft",
-            "speakerstatus": "speaker",
-            "text": "Ich habe eine wirtschaftliche Frage – Sie haben es in Ihrer ursprünglichen Bemerkung schon angesprochen –: Mich interessieren die wirtschaftlichen Kosten der Energiewende, die sich auf den Sektor Energiewirtschaft beschränken. Diese liegen im dreistelligen Milliardenbereich; je nachdem, welches Institut man fragt, haben wir bereits 280 bis ca. 500 Milliarden Euro in diesen Sektor investiert. Ein entsprechender Rückfluss ist nicht erfolgt, außer vielleicht für die chinesische Solarindustrie. Wenn wir in der Sektorkopplung auf die weiteren Bereiche schauen, werden die Kosten in diesen Bereichen für die Umsetzung der CO 2 -Reduktion in gleicher Höhe zu erwarten sein?",
-            "sentences": [
-              {
-                "text": "Ich habe eine wirtschaftliche Frage – Sie haben es in Ihrer ursprünglichen Bemerkung schon angesprochen –: Mich interessieren die wirtschaftlichen Kosten der Energiewende, die sich auf den Sektor Energiewirtschaft beschränken."
-              },
-              {
-                "text": "Diese liegen im dreistelligen Milliardenbereich; je nachdem, welches Institut man fragt, haben wir bereits 280 bis ca. 500 Milliarden Euro in diesen Sektor investiert."
-              },
-              {
-                "text": "Ein entsprechender Rückfluss ist nicht erfolgt, außer vielleicht für die chinesische Solarindustrie."
-              },
-              {
-                "text": "Wenn wir in der Sektorkopplung auf die weiteren Bereiche schauen, werden die Kosten in diesen Bereichen für die Umsetzung der CO 2 -Reduktion in gleicher Höhe zu erwarten sein?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Rita Schwarzelühr-Sutter",
-            "speakerstatus": "speaker",
-            "text": "Das kommt auf die langfristige Betrachtung an, darauf, welche Zeiträume Sie wählen. So müssen Sie für einen langfristigen Zeitraum gegenrechnen, dass Sie zum Beispiel keine Energieträger aus anderen Staaten erwerben müssen, sondern vor Ort die erneuerbaren Energien nutzen. Es fallen Anfangsinvestitionen an, natürlich auch Betriebskosten. Allerdings müssen Sie die Energieträgerkosten gegenrechnen, und irgendwann erreichen Sie den Break-even-Punkt, je nachdem, welchen Zeitraum Sie betrachten.",
-            "sentences": [
-              {
-                "text": "Das kommt auf die langfristige Betrachtung an, darauf, welche Zeiträume Sie wählen."
-              },
-              {
-                "text": "So müssen Sie für einen langfristigen Zeitraum gegenrechnen, dass Sie zum Beispiel keine Energieträger aus anderen Staaten erwerben müssen, sondern vor Ort die erneuerbaren Energien nutzen."
-              },
-              {
-                "text": "Es fallen Anfangsinvestitionen an, natürlich auch Betriebskosten."
-              },
-              {
-                "text": "Allerdings müssen Sie die Energieträgerkosten gegenrechnen, und irgendwann erreichen Sie den Break-even-Punkt, je nachdem, welchen Zeitraum Sie betrachten."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Wir kommen damit zur Frage 25 des Abgeordneten Dr. Rainer Kraft:",
-            "sentences": [
-              {
-                "text": "Wir kommen damit zur Frage 25 des Abgeordneten Dr. Rainer Kraft:"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Bitte, Frau Staatssekretärin.",
-            "sentences": [
-              {
-                "text": "Bitte, Frau Staatssekretärin."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Rita Schwarzelühr-Sutter",
-            "speakerstatus": "speaker",
-            "text": "Herr Kollege Dr. Kraft, die Vorwürfe in Bezug auf potenzielle Menschenrechtsverletzungen im Umfeld des im Rahmen der Entwicklungszusammenarbeit geförderten Salonga-Nationalparks der Demokratischen Republik Kongo sind der Bundesregierung seit Juni 2018 bekannt. Untersuchungen hat der WWF eingeleitet. Der Bericht wurde angefordert.",
-            "sentences": [
-              {
-                "text": "Herr Kollege Dr. Kraft, die Vorwürfe in Bezug auf potenzielle Menschenrechtsverletzungen im Umfeld des im Rahmen der Entwicklungszusammenarbeit geförderten Salonga-Nationalparks der Demokratischen Republik Kongo sind der Bundesregierung seit Juni 2018 bekannt."
-              },
-              {
-                "text": "Untersuchungen hat der WWF eingeleitet."
-              },
-              {
-                "text": "Der Bericht wurde angefordert."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Rita Schwarzelühr-Sutter",
-            "speakerstatus": "speaker",
-            "text": "Im Fall Lobéké, Kamerun, sind die Vorwürfe seit 2016 bekannt. Eine nationale NRO hat im Auftrag des WWF Empfehlungen mit dem Ziel erarbeitet, die lokale Bevölkerung mit ihren Belangen umfassender einzubeziehen. Der WWF hat entsprechende Maßnahmen ergriffen.",
-            "sentences": [
-              {
-                "text": "Im Fall Lobéké, Kamerun, sind die Vorwürfe seit 2016 bekannt."
-              },
-              {
-                "text": "Eine nationale NRO hat im Auftrag des WWF Empfehlungen mit dem Ziel erarbeitet, die lokale Bevölkerung mit ihren Belangen umfassender einzubeziehen."
-              },
-              {
-                "text": "Der WWF hat entsprechende Maßnahmen ergriffen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Rita Schwarzelühr-Sutter",
-            "speakerstatus": "speaker",
-            "text": "Um Menschenrechtsverletzungen im Rahmen der internationalen Zusammenarbeit zu verhindern, hat die Bundesregierung zentrale Leitlinien für Projektförderungen in Partnerländern formuliert. Wir haben bei den Projektförderungen im Rahmen der Internationalen Klimaschutzinitiative des BMU die Einhaltung von Umwelt- und Sozialstandards verbindlich festgelegt. IKI-Durchführungsorganisationen sind entsprechend verpflichtet, das Green Climate Fund Safeguard System anzuwenden und inhaltlich einzuhalten. Übergangsweise galten die International Finance Corporation Performance Standards, bzw. für Projekte mit Beauftragung bzw. Bewilligung vor 2017 hatten die Antragsteller zur Sicherstellung sozialer und ökologischer Standards, der sogenannten Safeguards, Stellung zu nehmen. Änderungen in der Risikobewertung während der Projektdurchführung sind umgehend mitzuteilen, wenn die Einhaltung der geforderten Umwelt- und Sozialstandards gefährdet erscheint. In den jährlichen Berichten wird die Einhaltung der Standards abgefragt.",
-            "sentences": [
-              {
-                "text": "Um Menschenrechtsverletzungen im Rahmen der internationalen Zusammenarbeit zu verhindern, hat die Bundesregierung zentrale Leitlinien für Projektförderungen in Partnerländern formuliert."
-              },
-              {
-                "text": "Wir haben bei den Projektförderungen im Rahmen der Internationalen Klimaschutzinitiative des BMU die Einhaltung von Umwelt- und Sozialstandards verbindlich festgelegt."
-              },
-              {
-                "text": "IKI-Durchführungsorganisationen sind entsprechend verpflichtet, das Green Climate Fund Safeguard System anzuwenden und inhaltlich einzuhalten."
-              },
-              {
-                "text": "Übergangsweise galten die International Finance Corporation Performance Standards, bzw. für Projekte mit Beauftragung bzw. Bewilligung vor 2017 hatten die Antragsteller zur Sicherstellung sozialer und ökologischer Standards, der sogenannten Safeguards, Stellung zu nehmen."
-              },
-              {
-                "text": "Änderungen in der Risikobewertung während der Projektdurchführung sind umgehend mitzuteilen, wenn die Einhaltung der geforderten Umwelt- und Sozialstandards gefährdet erscheint."
-              },
-              {
-                "text": "In den jährlichen Berichten wird die Einhaltung der Standards abgefragt."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Sie haben das Wort zur ersten Nachfrage.",
-            "sentences": [
-              {
-                "text": "Sie haben das Wort zur ersten Nachfrage."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Rainer Kraft",
-            "speakerstatus": "speaker",
-            "text": "Danke, Frau Präsidentin. – Danke, Frau Staatssekretärin. – Die Frage nach der finanziellen Unterstützung aus Steuergeldern, die sowohl das Bundesministerium für Umwelt, Naturschutz und nukleare Sicherheit als auch das Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung als auch die KfW an den WWF leisten, haben Sie nicht beantwortet. Wie hoch ist die jährliche Unterstützung des WWF aus Steuermitteln?",
-            "sentences": [
-              {
-                "text": "Danke, Frau Präsidentin."
-              },
-              {
-                "text": "– Danke, Frau Staatssekretärin."
-              },
-              {
-                "text": "– Die Frage nach der finanziellen Unterstützung aus Steuergeldern, die sowohl das Bundesministerium für Umwelt, Naturschutz und nukleare Sicherheit als auch das Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung als auch die KfW an den WWF leisten, haben Sie nicht beantwortet."
-              },
-              {
-                "text": "Wie hoch ist die jährliche Unterstützung des WWF aus Steuermitteln?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Rita Schwarzelühr-Sutter",
-            "speakerstatus": "speaker",
-            "text": "Das ist eine gute Frage. Die Antwort werde ich schriftlich nachreichen.",
-            "sentences": [
-              {
-                "text": "Das ist eine gute Frage."
-              },
-              {
-                "text": "Die Antwort werde ich schriftlich nachreichen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Sie haben die Möglichkeit zu einer zweiten Nachfrage.",
-            "sentences": [
-              {
-                "text": "Sie haben die Möglichkeit zu einer zweiten Nachfrage."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Rainer Kraft",
-            "speakerstatus": "speaker",
-            "text": "Sehr gerne. – Sie haben in Ihren Ausführungen, die Sie eingangs tätigten, darauf hingewiesen, dass der Bundesregierung bzw. dem Bundesministerium seit 2016 Erkenntnisse vorlägen, dass es zu Verstößen von Angestellten des WWF in Afrika gekommen sein könnte; ich bleibe beim Konjunktiv. Es erfolgt eine Betrachtung der Förderung auf Projektbasis. Warum werden nur einzelne Projekte, bei denen Verstöße gemeldet werden, herausgenommen, und warum wird nicht der WWF als gesamte Institution wegen Verfehlungen pönalisiert?",
-            "sentences": [
-              {
-                "text": "Sehr gerne."
-              },
-              {
-                "text": "– Sie haben in Ihren Ausführungen, die Sie eingangs tätigten, darauf hingewiesen, dass der Bundesregierung bzw. dem Bundesministerium seit 2016 Erkenntnisse vorlägen, dass es zu Verstößen von Angestellten des WWF in Afrika gekommen sein könnte; ich bleibe beim Konjunktiv."
-              },
-              {
-                "text": "Es erfolgt eine Betrachtung der Förderung auf Projektbasis."
-              },
-              {
-                "text": "Warum werden nur einzelne Projekte, bei denen Verstöße gemeldet werden, herausgenommen, und warum wird nicht der WWF als gesamte Institution wegen Verfehlungen pönalisiert?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Rita Schwarzelühr-Sutter",
-            "speakerstatus": "speaker",
-            "text": "Wir haben, wie ich Ihnen gerade beschrieben habe, bei den einzelnen Projekten schon Maßnahmen ergriffen. Wir sind dabei, den von BuzzFeed beschriebenen Vorgang erneut zu prüfen, und wollen so schnell wie möglich aufklären. Es sind unterschiedliche Länder involviert, mit unterschiedlichen Rahmenbedingungen. Wir werden uns diese Berichte genau anschauen und gegebenenfalls unsere Konsequenzen ziehen.",
-            "sentences": [
-              {
-                "text": "Wir haben, wie ich Ihnen gerade beschrieben habe, bei den einzelnen Projekten schon Maßnahmen ergriffen."
-              },
-              {
-                "text": "Wir sind dabei, den von BuzzFeed beschriebenen Vorgang erneut zu prüfen, und wollen so schnell wie möglich aufklären."
-              },
-              {
-                "text": "Es sind unterschiedliche Länder involviert, mit unterschiedlichen Rahmenbedingungen."
-              },
-              {
-                "text": "Wir werden uns diese Berichte genau anschauen und gegebenenfalls unsere Konsequenzen ziehen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Die Fragen 26 und 27 der Abgeordneten Annalena Baerbock sollen schriftlich beantwortet werden.",
-            "sentences": [
-              {
-                "text": "Die Fragen 26 und 27 der Abgeordneten Annalena Baerbock sollen schriftlich beantwortet werden."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Ich rufe Frage 28 des Abgeordneten Dr. Gero Clemens Hocker auf:",
-            "sentences": [
-              {
-                "text": "Ich rufe Frage 28 des Abgeordneten Dr. Gero Clemens Hocker auf:"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Bitte, Frau Staatssekretärin.",
-            "sentences": [
-              {
-                "text": "Bitte, Frau Staatssekretärin."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Rita Schwarzelühr-Sutter",
-            "speakerstatus": "speaker",
-            "text": "Danke, Frau Präsidentin. – Sehr geehrter Herr Kollege Dr. Hocker, nach § 45 Absatz 7 des Bundesnaturschutzgesetzes können die für Naturschutz und Landschaftspflege zuständigen Behörden von den Verboten des § 44 des Bundesnaturschutzgesetzes im Einzelfall bestimmte Ausnahmen zulassen. Die Landesregierungen können solche Ausnahmen auch allgemein durch Rechtsverordnung zulassen. Ausnahmen im Einzelfall sind durch Verwaltungsakt zu erlassen.",
-            "sentences": [
-              {
-                "text": "Danke, Frau Präsidentin."
-              },
-              {
-                "text": "– Sehr geehrter Herr Kollege Dr. Hocker, nach § 45 Absatz 7 des Bundesnaturschutzgesetzes können die für Naturschutz und Landschaftspflege zuständigen Behörden von den Verboten des § 44 des Bundesnaturschutzgesetzes im Einzelfall bestimmte Ausnahmen zulassen."
-              },
-              {
-                "text": "Die Landesregierungen können solche Ausnahmen auch allgemein durch Rechtsverordnung zulassen."
-              },
-              {
-                "text": "Ausnahmen im Einzelfall sind durch Verwaltungsakt zu erlassen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Rita Schwarzelühr-Sutter",
-            "speakerstatus": "speaker",
-            "text": "Die aktuellen Ausnahmegenehmigungen für die zielgerichtete Entnahme je eines Wolfes aus der Natur in den Landkreisen Nienburg und Heidekreis sowie in der Region Hannover sind Ausnahmen im Einzelfall, die durch Verwaltungsakt erlassen worden sind. Ein solcher Verwaltungsakt kann von anerkannten Umweltverbänden angefochten werden, soweit die Voraussetzungen dafür erfüllt sind. Darüber hinaus kann vorläufiger Rechtsschutz beantragt werden. Der Rechtsschutz muss aus europa- und völkerrechtlichen Gründen effektiv sein. Deswegen kann die Beantragung eines vorläufigen Rechtsschutzes gegen Verwaltungsakte durch Gesetz nicht ausgeschlossen werden.",
-            "sentences": [
-              {
-                "text": "Die aktuellen Ausnahmegenehmigungen für die zielgerichtete Entnahme je eines Wolfes aus der Natur in den Landkreisen Nienburg und Heidekreis sowie in der Region Hannover sind Ausnahmen im Einzelfall, die durch Verwaltungsakt erlassen worden sind."
-              },
-              {
-                "text": "Ein solcher Verwaltungsakt kann von anerkannten Umweltverbänden angefochten werden, soweit die Voraussetzungen dafür erfüllt sind."
-              },
-              {
-                "text": "Darüber hinaus kann vorläufiger Rechtsschutz beantragt werden."
-              },
-              {
-                "text": "Der Rechtsschutz muss aus europa- und völkerrechtlichen Gründen effektiv sein."
-              },
-              {
-                "text": "Deswegen kann die Beantragung eines vorläufigen Rechtsschutzes gegen Verwaltungsakte durch Gesetz nicht ausgeschlossen werden."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Sie haben das Wort zur ersten Nachfrage.",
-            "sentences": [
-              {
-                "text": "Sie haben das Wort zur ersten Nachfrage."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Gero Clemens Hocker",
-            "speakerstatus": "speaker",
-            "text": "Vielen Dank. – Frau Staatssekretärin, ich möchte Sie gerne fragen, ob Sie meine Einschätzung teilen, dass es zur Beschleunigung dieses Vorgangs und auch zur Herstellung von Rechtssicherheit für diejenigen Minister, die entscheiden und eine solche Verfügung auf den Weg zu bringen haben, förderlich wäre, wenn objektive Kriterien definiert werden würden, nach denen die Entnahme eines Wolfes rechtssicher erfolgen kann, zum Beispiel wenn nachgewiesen ist, dass eines der Tiere wiederholt sogenannte wolfssichere Anlagen und wolfssichere Zäune überwunden hat, oder wenn nachgewiesen ist, dass sich ein einzelnes Tier wiederholt menschlichen Ansiedelungen oder individuellen Personen genähert hat.",
-            "sentences": [
-              {
-                "text": "Vielen Dank."
-              },
-              {
-                "text": "– Frau Staatssekretärin, ich möchte Sie gerne fragen, ob Sie meine Einschätzung teilen, dass es zur Beschleunigung dieses Vorgangs und auch zur Herstellung von Rechtssicherheit für diejenigen Minister, die entscheiden und eine solche Verfügung auf den Weg zu bringen haben, förderlich wäre, wenn objektive Kriterien definiert werden würden, nach denen die Entnahme eines Wolfes rechtssicher erfolgen kann, zum Beispiel wenn nachgewiesen ist, dass eines der Tiere wiederholt sogenannte wolfssichere Anlagen und wolfssichere Zäune überwunden hat, oder wenn nachgewiesen ist, dass sich ein einzelnes Tier wiederholt menschlichen Ansiedelungen oder individuellen Personen genähert hat."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Rita Schwarzelühr-Sutter",
-            "speakerstatus": "speaker",
-            "text": "Sehr geehrter Kollege Dr. Hocker, das Gericht hat entschieden. Hier geht es darum, ob eine Klagemöglichkeit vorliegt und ob sie genutzt wird. In dem beschriebenen Fall wurde sie genutzt. Es geht aber eigentlich um die Frage, ob wir diese Klagemöglichkeit auch in Zukunft zulassen. Das müssen wir aus völkerrechtlichen Gründen. Ich will auf die Regelungen des Umwelt-Rechtsbehelfsgesetzes und auf das Bundesnaturschutzgesetz zur Verbandsklage und vor allem auch auf die verpflichtenden Vorgaben der UNECE und der Aarhus-Konvention hinweisen.",
-            "sentences": [
-              {
-                "text": "Sehr geehrter Kollege Dr. Hocker, das Gericht hat entschieden."
-              },
-              {
-                "text": "Hier geht es darum, ob eine Klagemöglichkeit vorliegt und ob sie genutzt wird."
-              },
-              {
-                "text": "In dem beschriebenen Fall wurde sie genutzt."
-              },
-              {
-                "text": "Es geht aber eigentlich um die Frage, ob wir diese Klagemöglichkeit auch in Zukunft zulassen."
-              },
-              {
-                "text": "Das müssen wir aus völkerrechtlichen Gründen."
-              },
-              {
-                "text": "Ich will auf die Regelungen des Umwelt-Rechtsbehelfsgesetzes und auf das Bundesnaturschutzgesetz zur Verbandsklage und vor allem auch auf die verpflichtenden Vorgaben der UNECE und der Aarhus-Konvention hinweisen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Sie haben das Wort zur zweiten Nachfrage.",
-            "sentences": [
-              {
-                "text": "Sie haben das Wort zur zweiten Nachfrage."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Gero Clemens Hocker",
-            "speakerstatus": "speaker",
-            "text": "Vielen Dank, Frau Präsidentin. – Frau Staatssekretärin, inwiefern teilen Sie meine Auffassung, dass es sinnvoll ist, bestimmte Regionen, einen Landkreis oder eine andere Gebietskörperschaft, grundsätzlich als wolfsfrei einzuordnen und wolfsfrei zu halten?",
-            "sentences": [
-              {
-                "text": "Vielen Dank, Frau Präsidentin."
-              },
-              {
-                "text": "– Frau Staatssekretärin, inwiefern teilen Sie meine Auffassung, dass es sinnvoll ist, bestimmte Regionen, einen Landkreis oder eine andere Gebietskörperschaft, grundsätzlich als wolfsfrei einzuordnen und wolfsfrei zu halten?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Rita Schwarzelühr-Sutter",
-            "speakerstatus": "speaker",
-            "text": "Vor dem Hintergrund des Bundesnaturschutzgesetzes und des Schutzes des Wolfes als streng geschütztes Tier kann ich grundsätzlich wolfsfreie Gebiete nicht unterstützen; denn dann geht es um die Frage: Wie halten wir dieses Gebiet wolfsfrei? Hier kommen wir wieder zu der Frage: Wie regeln wir das in Zukunft? Wir sind mit dem BMEL im Gespräch, wie wir hier insbesondere mit Blick auf die Weidetierhalter noch besser vorgehen können.",
-            "sentences": [
-              {
-                "text": "Vor dem Hintergrund des Bundesnaturschutzgesetzes und des Schutzes des Wolfes als streng geschütztes Tier kann ich grundsätzlich wolfsfreie Gebiete nicht unterstützen; denn dann geht es um die Frage: Wie halten wir dieses Gebiet wolfsfrei?"
-              },
-              {
-                "text": "Hier kommen wir wieder zu der Frage: Wie regeln wir das in Zukunft?"
-              },
-              {
-                "text": "Wir sind mit dem BMEL im Gespräch, wie wir hier insbesondere mit Blick auf die Weidetierhalter noch besser vorgehen können."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Wir kommen damit zu Frage 29 des Abgeordneten Dr. Hocker:",
-            "sentences": [
-              {
-                "text": "Wir kommen damit zu Frage 29 des Abgeordneten Dr. Hocker:"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Bitte, Frau Staatssekretärin.",
-            "sentences": [
-              {
-                "text": "Bitte, Frau Staatssekretärin."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Rita Schwarzelühr-Sutter",
-            "speakerstatus": "speaker",
-            "text": "Herr Kollege, nach dem Koalitionsvertrag der Regierungsfraktionen vom 12. März 2018 sollen Wölfe, die Weidezäune überwunden haben oder für Menschen gefährlich werden, entnommen werden können. Die hierfür erforderlichen Ausnahmen von den Schutzvorschriften für den streng geschützten Wolf sind in § 45 Absatz 7 des Bundesnaturschutzgesetzes geregelt.",
-            "sentences": [
-              {
-                "text": "Herr Kollege, nach dem Koalitionsvertrag der Regierungsfraktionen vom 12. März 2018 sollen Wölfe, die Weidezäune überwunden haben oder für Menschen gefährlich werden, entnommen werden können."
-              },
-              {
-                "text": "Die hierfür erforderlichen Ausnahmen von den Schutzvorschriften für den streng geschützten Wolf sind in § 45 Absatz 7 des Bundesnaturschutzgesetzes geregelt."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Rita Schwarzelühr-Sutter",
-            "speakerstatus": "speaker",
-            "text": "Das Bundesministerium für Umwelt, Naturschutz und nukleare Sicherheit und das Bundesministerium für Ernährung und Landwirtschaft diskutieren derzeit intensiv, welche Änderungen und ergänzenden Regelungen im Bundesnaturschutzgesetz zum Umgang mit dem Wolf aufgenommen werden sollen. Die Diskussionen sind noch nicht abgeschlossen. Maßgeblich zu beachten sind dabei die Vorgaben der europäischen Fauna-Flora-Habi­tat-Richtlinie.",
-            "sentences": [
-              {
-                "text": "Das Bundesministerium für Umwelt, Naturschutz und nukleare Sicherheit und das Bundesministerium für Ernährung und Landwirtschaft diskutieren derzeit intensiv, welche Änderungen und ergänzenden Regelungen im Bundesnaturschutzgesetz zum Umgang mit dem Wolf aufgenommen werden sollen."
-              },
-              {
-                "text": "Die Diskussionen sind noch nicht abgeschlossen."
-              },
-              {
-                "text": "Maßgeblich zu beachten sind dabei die Vorgaben der europäischen Fauna-Flora-Habi­tat-Richtlinie."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Sie haben das Wort zur ersten Nachfrage.",
-            "sentences": [
-              {
-                "text": "Sie haben das Wort zur ersten Nachfrage."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Gero Clemens Hocker",
-            "speakerstatus": "speaker",
-            "text": "Vielen Dank, Frau Präsidentin. – Vielen Dank, Frau Staatssekretärin. – Mich würde erstens interessieren, welchen Termin Sie anstreben, wann also diese Gespräche zwischen den verschiedenen Häusern beendet sein werden.",
-            "sentences": [
-              {
-                "text": "Vielen Dank, Frau Präsidentin."
-              },
-              {
-                "text": "– Vielen Dank, Frau Staatssekretärin."
-              },
-              {
-                "text": "– Mich würde erstens interessieren, welchen Termin Sie anstreben, wann also diese Gespräche zwischen den verschiedenen Häusern beendet sein werden."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Gero Clemens Hocker",
-            "speakerstatus": "speaker",
-            "text": "Zweitens würde mich interessieren, inwiefern Sie gewährleisten wollen, dass insbesondere im Hochwasserschutzbereich – ich komme aus dem Land Niedersachsen mit einer mehrere Hundert Kilometer langen Küstenlinie – auch in Zukunft Weidetierhaltung, Schafhaltung auf den Deichen möglich ist. Dort können, wie Sie wissen, keine wolfsicheren Anlagen installiert und keine entsprechenden Zäune gebaut werden. Auch Herdenschutzhunde können nicht zum Einsatz kommen; denn diese würden ihre Herde nicht zuletzt auch gegen Touristen, die die Deiche betreten und überwinden, verteidigen. Auch andere Herdenschutzmaßnahmen sind hier nicht geeignet, einen Herdenschutz herzustellen.",
-            "sentences": [
-              {
-                "text": "Zweitens würde mich interessieren, inwiefern Sie gewährleisten wollen, dass insbesondere im Hochwasserschutzbereich – ich komme aus dem Land Niedersachsen mit einer mehrere Hundert Kilometer langen Küstenlinie – auch in Zukunft Weidetierhaltung, Schafhaltung auf den Deichen möglich ist."
-              },
-              {
-                "text": "Dort können, wie Sie wissen, keine wolfsicheren Anlagen installiert und keine entsprechenden Zäune gebaut werden."
-              },
-              {
-                "text": "Auch Herdenschutzhunde können nicht zum Einsatz kommen; denn diese würden ihre Herde nicht zuletzt auch gegen Touristen, die die Deiche betreten und überwinden, verteidigen."
-              },
-              {
-                "text": "Auch andere Herdenschutzmaßnahmen sind hier nicht geeignet, einen Herdenschutz herzustellen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Gero Clemens Hocker",
-            "speakerstatus": "speaker",
-            "text": "Wie wollen Sie gewährleisten, dass auch in Zukunft Schafe auf den Deichen in Norddeutschland stehen, wenn es erstens so lange dauert, bis mit einer Antwort zu rechnen ist, und zweitens keine der bekannten Herdenschutzmaßnahmen hier tatsächlich Anwendung finden kann?",
-            "sentences": [
-              {
-                "text": "Wie wollen Sie gewährleisten, dass auch in Zukunft Schafe auf den Deichen in Norddeutschland stehen, wenn es erstens so lange dauert, bis mit einer Antwort zu rechnen ist, und zweitens keine der bekannten Herdenschutzmaßnahmen hier tatsächlich Anwendung finden kann?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Rita Schwarzelühr-Sutter",
-            "speakerstatus": "speaker",
-            "text": "Wie eben schon ausgeführt, arbeiten wir intensiv an einer praktikablen Lösung, um hier eine Verbesserung zu erzielen – für die Dämme, die Sie gerade genannt haben, gibt es Forschungsvorhaben –, damit auch im Dammbereich in Zukunft Weidetierhaltung, die dort notwendig ist, sicher durchgeführt werden kann.",
-            "sentences": [
-              {
-                "text": "Wie eben schon ausgeführt, arbeiten wir intensiv an einer praktikablen Lösung, um hier eine Verbesserung zu erzielen – für die Dämme, die Sie gerade genannt haben, gibt es Forschungsvorhaben –, damit auch im Dammbereich in Zukunft Weidetierhaltung, die dort notwendig ist, sicher durchgeführt werden kann."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Sie haben das Wort zu einer zweiten Nachfrage.",
-            "sentences": [
-              {
-                "text": "Sie haben das Wort zu einer zweiten Nachfrage."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Gero Clemens Hocker",
-            "speakerstatus": "speaker",
-            "text": "Ich hake da noch einmal nach, weil ich meine erste Nachfrage mit der Frage nach einem Termin eingeleitet habe und diese nach meiner Wahrnehmung unbeantwortet geblieben ist. Wann können die betroffenen Menschen damit rechnen – wir sprechen hier von einer existenziellen Bedrohung, wenn unsere Deiche nicht mehr geschützt und unser Hochwasserschutz nicht mehr gewährleistet ist –, dass es endlich zu einer Klärung zwischen den rivalisierenden und vielleicht auch konkurrierenden Meinungen, die es im Umweltministerium und im Landwirtschaftsministerium zu geben scheint, kommt und eine Antwort von Ihnen erfolgt?",
-            "sentences": [
-              {
-                "text": "Ich hake da noch einmal nach, weil ich meine erste Nachfrage mit der Frage nach einem Termin eingeleitet habe und diese nach meiner Wahrnehmung unbeantwortet geblieben ist."
-              },
-              {
-                "text": "Wann können die betroffenen Menschen damit rechnen – wir sprechen hier von einer existenziellen Bedrohung, wenn unsere Deiche nicht mehr geschützt und unser Hochwasserschutz nicht mehr gewährleistet ist –, dass es endlich zu einer Klärung zwischen den rivalisierenden und vielleicht auch konkurrierenden Meinungen, die es im Umweltministerium und im Landwirtschaftsministerium zu geben scheint, kommt und eine Antwort von Ihnen erfolgt?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Rita Schwarzelühr-Sutter",
-            "speakerstatus": "speaker",
-            "text": "Herr Kollege Dr. Hocker, wir arbeiten dringend daran. Wir sind wirklich intensiv darum bemüht, Lösungen zu finden. Das habe ich Ihnen gerade beschrieben.",
-            "sentences": [
-              {
-                "text": "Herr Kollege Dr. Hocker, wir arbeiten dringend daran."
-              },
-              {
-                "text": "Wir sind wirklich intensiv darum bemüht, Lösungen zu finden."
-              },
-              {
-                "text": "Das habe ich Ihnen gerade beschrieben."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Rita Schwarzelühr-Sutter",
-            "speakerstatus": "speaker",
-            "text": "Noch findet eine Weidetierhaltung auch im Deichbereich statt. Es war uns auch wichtig, den Weideschäfern entsprechende Unterstützung zu geben. Wir haben die Notifizierung durch die EU-Kommission. Der Bundestag hat im Haushalt 2019 dafür entsprechende Mittel eingestellt. Jetzt geht es um die Umsetzung. Auch da wollen wir unterstützen. Wir haben praktikable Hilfe für die Weidetierhalter. Wir haben es notifiziert. Insofern glaube ich mit Blick auf den Deich, dass die Zeit zwar drängt, der Deich als solches aber noch nicht gefährdet ist.",
-            "sentences": [
-              {
-                "text": "Noch findet eine Weidetierhaltung auch im Deichbereich statt."
-              },
-              {
-                "text": "Es war uns auch wichtig, den Weideschäfern entsprechende Unterstützung zu geben."
-              },
-              {
-                "text": "Wir haben die Notifizierung durch die EU-Kommission."
-              },
-              {
-                "text": "Der Bundestag hat im Haushalt 2019 dafür entsprechende Mittel eingestellt."
-              },
-              {
-                "text": "Jetzt geht es um die Umsetzung."
-              },
-              {
-                "text": "Auch da wollen wir unterstützen."
-              },
-              {
-                "text": "Wir haben praktikable Hilfe für die Weidetierhalter."
-              },
-              {
-                "text": "Wir haben es notifiziert."
-              },
-              {
-                "text": "Insofern glaube ich mit Blick auf den Deich, dass die Zeit zwar drängt, der Deich als solches aber noch nicht gefährdet ist."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Zu einer weiteren Nachfrage hat Herr Dr. Rainer Kraft das Wort.",
-            "sentences": [
-              {
-                "text": "Zu einer weiteren Nachfrage hat Herr Dr. Rainer Kraft das Wort."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Rainer Kraft",
-            "speakerstatus": "speaker",
-            "text": "Vielen Dank, Frau Präsident. – Frau Staatssekretärin, ich hatte letzte Woche das Glück und das Vergnügen, einige Tage in Tirol verbringen zu dürfen. Im Gespräch mit den Einheimischen vor Ort hat sich gezeigt, dass im gesamten Osttiroler Raum ein einzelner, singulär lebender Wolf und für ganz Südtirol eigentlich nur ein kleines Wolfsrudel bekannt ist, und das, obwohl es sich um eine dünn besiedelte, sehr bewaldete Fläche handelt, die eigentlich sehr ideal ist. In Deutschland hingegen haben wir quasi eine sich explosionsartig vermehrende Wolfspopulation und auch erstaunliche Symptome. Wölfe tauchen auf einmal Hunderte von Kilometern von bisher bekannten Wolfsansiedlungen entfernt spontan, über Nacht auf. Haben Sie als Vertreterin des Bundesministeriums für Umwelt, Naturschutz und nukleare Sicherheit vielleicht eine biologische Erklärung für dieses unterschiedliche Vermehrungsverhalten von Wölfen, die nur wenige Hundert Kilometer voneinander entfernt leben?",
-            "sentences": [
-              {
-                "text": "Vielen Dank, Frau Präsident."
-              },
-              {
-                "text": "– Frau Staatssekretärin, ich hatte letzte Woche das Glück und das Vergnügen, einige Tage in Tirol verbringen zu dürfen."
-              },
-              {
-                "text": "Im Gespräch mit den Einheimischen vor Ort hat sich gezeigt, dass im gesamten Osttiroler Raum ein einzelner, singulär lebender Wolf und für ganz Südtirol eigentlich nur ein kleines Wolfsrudel bekannt ist, und das, obwohl es sich um eine dünn besiedelte, sehr bewaldete Fläche handelt, die eigentlich sehr ideal ist."
-              },
-              {
-                "text": "In Deutschland hingegen haben wir quasi eine sich explosionsartig vermehrende Wolfspopulation und auch erstaunliche Symptome."
-              },
-              {
-                "text": "Wölfe tauchen auf einmal Hunderte von Kilometern von bisher bekannten Wolfsansiedlungen entfernt spontan, über Nacht auf."
-              },
-              {
-                "text": "Haben Sie als Vertreterin des Bundesministeriums für Umwelt, Naturschutz und nukleare Sicherheit vielleicht eine biologische Erklärung für dieses unterschiedliche Vermehrungsverhalten von Wölfen, die nur wenige Hundert Kilometer voneinander entfernt leben?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Rita Schwarzelühr-Sutter",
-            "speakerstatus": "speaker",
-            "text": "Sehr geehrter Herr Kollege Dr. Kraft, Wölfe gehen natürlich auch dorthin, wo sie entsprechende Nahrung finden. Das ist gerade bei uns in Deutschland das Schalenwild. Das zu finden, ist sicherlich in alpinen Regionen schwieriger. Ich würde den Erklärungsansatz jetzt so beginnen.",
-            "sentences": [
-              {
-                "text": "Sehr geehrter Herr Kollege Dr. Kraft, Wölfe gehen natürlich auch dorthin, wo sie entsprechende Nahrung finden."
-              },
-              {
-                "text": "Das ist gerade bei uns in Deutschland das Schalenwild."
-              },
-              {
-                "text": "Das zu finden, ist sicherlich in alpinen Regionen schwieriger."
-              },
-              {
-                "text": "Ich würde den Erklärungsansatz jetzt so beginnen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Rita Schwarzelühr-Sutter",
-            "speakerstatus": "speaker",
-            "text": "Zum Stichwort „Wolfsrudel“: Es kursiert ja durchaus ein Video, das gerade verbreitet wird, von dem aber klar ist, dass dieses Video nicht aktuell ist. Insofern glaube ich, dass wir mit dem Wolfsmonitoring verlässliche Zahlen haben. Wir wollen diese Zahlen jährlich feststellen. Vorher wurden diese nur alle sechs Jahre erhoben.",
-            "sentences": [
-              {
-                "text": "Zum Stichwort „Wolfsrudel“: Es kursiert ja durchaus ein Video, das gerade verbreitet wird, von dem aber klar ist, dass dieses Video nicht aktuell ist."
-              },
-              {
-                "text": "Insofern glaube ich, dass wir mit dem Wolfsmonitoring verlässliche Zahlen haben."
-              },
-              {
-                "text": "Wir wollen diese Zahlen jährlich feststellen."
-              },
-              {
-                "text": "Vorher wurden diese nur alle sechs Jahre erhoben."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Rita Schwarzelühr-Sutter",
-            "speakerstatus": "speaker",
-            "text": "Wir haben mit Polen Gespräche dazu geführt, wie wir die Wolfspopulationen auch über die Grenzen hinweg entsprechend betrachten und monitoren. Ich glaube, vor diesem Hintergrund sind wir da sehr bemüht, sachliche Informationen zur Verfügung zu stellen.",
-            "sentences": [
-              {
-                "text": "Wir haben mit Polen Gespräche dazu geführt, wie wir die Wolfspopulationen auch über die Grenzen hinweg entsprechend betrachten und monitoren."
-              },
-              {
-                "text": "Ich glaube, vor diesem Hintergrund sind wir da sehr bemüht, sachliche Informationen zur Verfügung zu stellen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Eine weitere Zusatzfrage stellt die Kollegin Carina Konrad.",
-            "sentences": [
-              {
-                "text": "Eine weitere Zusatzfrage stellt die Kollegin Carina Konrad."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Carina Konrad",
-            "speakerstatus": "speaker",
-            "text": "Vielen Dank, Frau Präsidentin. – Frau Staatssekretärin, Sie haben eben richtig festgestellt, dass es noch Deichschäfer in Deutschland gibt, dass es noch beweidete Deiche gibt, und Herr Hocker hat eben versucht, darzustellen, wie wichtig die Schafhaltung, die Beweidung für den Deichschutz ist. Halten Sie es da für ausreichend, das auf die lange Bank zu schieben und eben keinen konkreten Termin zu fixieren, bis zu dem man zumindest mal versucht, sich zu einigen, um den Leuten, den Schafhaltern, aber auch den Anwohnern vor Ort eine Antwort darauf geben zu können, wie in Zukunft der Deichschutz gewährleistet werden soll? Wie sehen Sie die Biodiversität in Zukunft gesichert, wenn Zäune aufgestellt werden, um nicht nur die Schafe, sondern alle Weidetiere vor dem Wolf zu schützen, und dadurch ja auch Wildwechsel von heimischem Wild behindert wird?",
-            "sentences": [
-              {
-                "text": "Vielen Dank, Frau Präsidentin."
-              },
-              {
-                "text": "– Frau Staatssekretärin, Sie haben eben richtig festgestellt, dass es noch Deichschäfer in Deutschland gibt, dass es noch beweidete Deiche gibt, und Herr Hocker hat eben versucht, darzustellen, wie wichtig die Schafhaltung, die Beweidung für den Deichschutz ist."
-              },
-              {
-                "text": "Halten Sie es da für ausreichend, das auf die lange Bank zu schieben und eben keinen konkreten Termin zu fixieren, bis zu dem man zumindest mal versucht, sich zu einigen, um den Leuten, den Schafhaltern, aber auch den Anwohnern vor Ort eine Antwort darauf geben zu können, wie in Zukunft der Deichschutz gewährleistet werden soll?"
-              },
-              {
-                "text": "Wie sehen Sie die Biodiversität in Zukunft gesichert, wenn Zäune aufgestellt werden, um nicht nur die Schafe, sondern alle Weidetiere vor dem Wolf zu schützen, und dadurch ja auch Wildwechsel von heimischem Wild behindert wird?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Rita Schwarzelühr-Sutter",
-            "speakerstatus": "speaker",
-            "text": "Sehr geehrte Frau Kollegin, wir haben im Ausschuss für Umwelt in der Zwischenzeit mehrere Anhörungen durchgeführt. Wir haben sehr wohl die Sorgen und Nöte der Weidetierhalter, insbesondere der Schäfer, zur Kenntnis genommen. Wir sind auf EU-Ebene bei der Kommission aktiv geworden; ich glaube, das hatte ich eben schon einmal betont. Es geht den Weidetierhaltern nämlich nicht nur aufgrund der Situation mit dem Wolf schlecht. Vielmehr spielen mehrere Faktoren eine Rolle, dass es ihnen wirtschaftlich schlecht geht. Vor diesem Hintergrund ist es wichtig, dass wir unter Beachtung des Bundesnaturschutzgesetzes und der FFH-Richtlinie – es ist nun mal ein streng geschütztes Tier – eine Lösung finden, die sachlich und zielführend ist und tatsächlich eine Lösung darstellt. Der Vorschlag der FDP, den Wolf ins Jagdrecht aufzunehmen, ist nicht zielführend. Das widerspricht völlig dem Bundesnaturschutzgesetz. Ich glaube, insofern ist es wichtig, dass wir uns mit dem BMEL auf eine zielführende und praktikable Form der Konfliktlösung verständigen.",
-            "sentences": [
-              {
-                "text": "Sehr geehrte Frau Kollegin, wir haben im Ausschuss für Umwelt in der Zwischenzeit mehrere Anhörungen durchgeführt."
-              },
-              {
-                "text": "Wir haben sehr wohl die Sorgen und Nöte der Weidetierhalter, insbesondere der Schäfer, zur Kenntnis genommen."
-              },
-              {
-                "text": "Wir sind auf EU-Ebene bei der Kommission aktiv geworden; ich glaube, das hatte ich eben schon einmal betont."
-              },
-              {
-                "text": "Es geht den Weidetierhaltern nämlich nicht nur aufgrund der Situation mit dem Wolf schlecht."
-              },
-              {
-                "text": "Vielmehr spielen mehrere Faktoren eine Rolle, dass es ihnen wirtschaftlich schlecht geht."
-              },
-              {
-                "text": "Vor diesem Hintergrund ist es wichtig, dass wir unter Beachtung des Bundesnaturschutzgesetzes und der FFH-Richtlinie – es ist nun mal ein streng geschütztes Tier – eine Lösung finden, die sachlich und zielführend ist und tatsächlich eine Lösung darstellt."
-              },
-              {
-                "text": "Der Vorschlag der FDP, den Wolf ins Jagdrecht aufzunehmen, ist nicht zielführend."
-              },
-              {
-                "text": "Das widerspricht völlig dem Bundesnaturschutzgesetz."
-              },
-              {
-                "text": "Ich glaube, insofern ist es wichtig, dass wir uns mit dem BMEL auf eine zielführende und praktikable Form der Konfliktlösung verständigen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Zu einer letzten Nachfrage, die dann auch die letzte Frage in dieser Fragestunde ist, hat nun die Kollegin Steffi Lemke das Wort. Ich bitte, sich sowohl bei der Frage als auch bei der Antwort an die verabredete Zeit zu halten.",
-            "sentences": [
-              {
-                "text": "Zu einer letzten Nachfrage, die dann auch die letzte Frage in dieser Fragestunde ist, hat nun die Kollegin Steffi Lemke das Wort."
-              },
-              {
-                "text": "Ich bitte, sich sowohl bei der Frage als auch bei der Antwort an die verabredete Zeit zu halten."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Steffi Lemke",
-            "speakerstatus": "speaker",
-            "text": "Frau Staatssekretärin, ich würde gerne direkt bei der Anhörung anknüpfen, bei der ja deutlich wurde, dass das größte Problem für die Schafhalter in Deutschland eben nicht der Wolf ist, sondern ihre grundsätzliche ökonomische Lage, die durch den Verkauf ihrer Produkte angesichts der gegenwärtigen Preise nicht gesichert werden kann. Deshalb ist auch die Schafhaltung außerhalb von Wolfsgebieten seit Jahren in ihrer Existenz bedroht. Die Vorgängerregierungen haben, auch als die FDP an der Bundesregierung beteiligt war, dagegen keine effektiven Maßnahmen ergriffen. Die Schafhaltung wird in der Tat nur zu retten sein, wenn man an dieser ökonomischen Grundlage etwas ändert. Deshalb ist meine Frage, ob es im Landwirtschaftsministerium inzwischen Bewegung gibt, wenn es darum geht, eine generelle Weidetierprämie auch außerhalb von Wolfsgebieten einzurichten, um die Existenzbedrohung der Schafhaltung endlich zu beenden.",
-            "sentences": [
-              {
-                "text": "Frau Staatssekretärin, ich würde gerne direkt bei der Anhörung anknüpfen, bei der ja deutlich wurde, dass das größte Problem für die Schafhalter in Deutschland eben nicht der Wolf ist, sondern ihre grundsätzliche ökonomische Lage, die durch den Verkauf ihrer Produkte angesichts der gegenwärtigen Preise nicht gesichert werden kann."
-              },
-              {
-                "text": "Deshalb ist auch die Schafhaltung außerhalb von Wolfsgebieten seit Jahren in ihrer Existenz bedroht."
-              },
-              {
-                "text": "Die Vorgängerregierungen haben, auch als die FDP an der Bundesregierung beteiligt war, dagegen keine effektiven Maßnahmen ergriffen."
-              },
-              {
-                "text": "Die Schafhaltung wird in der Tat nur zu retten sein, wenn man an dieser ökonomischen Grundlage etwas ändert."
-              },
-              {
-                "text": "Deshalb ist meine Frage, ob es im Landwirtschaftsministerium inzwischen Bewegung gibt, wenn es darum geht, eine generelle Weidetierprämie auch außerhalb von Wolfsgebieten einzurichten, um die Existenzbedrohung der Schafhaltung endlich zu beenden."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Rita Schwarzelühr-Sutter",
-            "speakerstatus": "speaker",
-            "text": "Sehr geehrte Frau Präsidentin, da ein Vertreter des Landwirtschaftsministeriums, das für Tierhaltung zuständig ist, anwesend ist, würde ich gerne an meinen Kollegen, Herrn Stübgen, abgeben.",
-            "sentences": [
-              {
-                "text": "Sehr geehrte Frau Präsidentin, da ein Vertreter des Landwirtschaftsministeriums, das für Tierhaltung zuständig ist, anwesend ist, würde ich gerne an meinen Kollegen, Herrn Stübgen, abgeben."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Bitte.",
-            "sentences": [
-              {
-                "text": "Bitte."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Michael Stübgen",
-            "speakerstatus": "speaker",
-            "text": "Vielen Dank, Frau Kollegin. – Ihre Frage bezieht sich darauf, was wir für die Schafhalter vor dem Hintergrund ihrer schwierigen wirtschaftlichen Situation tun. Weil Ihre Frage suggeriert, der Wolf würde den Schafhaltern keine Probleme machen, will ich darauf hinweisen, dass das vollkommen falsch ist.",
-            "sentences": [
-              {
-                "text": "Vielen Dank, Frau Kollegin."
-              },
-              {
-                "text": "– Ihre Frage bezieht sich darauf, was wir für die Schafhalter vor dem Hintergrund ihrer schwierigen wirtschaftlichen Situation tun."
-              },
-              {
-                "text": "Weil Ihre Frage suggeriert, der Wolf würde den Schafhaltern keine Probleme machen, will ich darauf hinweisen, dass das vollkommen falsch ist."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Michael Stübgen",
-            "speakerstatus": "speaker",
-            "text": "Der Wolf macht nicht nur Schafhaltern, sondern Tierhaltern allgemein – von Rindern, von Pferden usw. – Riesensorgen, gerade in Gebieten, wo es eine große Population gibt.",
-            "sentences": [
-              {
-                "text": "Der Wolf macht nicht nur Schafhaltern, sondern Tierhaltern allgemein – von Rindern, von Pferden usw. – Riesensorgen, gerade in Gebieten, wo es eine große Population gibt."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Michael Stübgen",
-            "speakerstatus": "speaker",
-            "text": "– Ich wollte nur richtigstellen, dass es nicht nur um andere Schwierigkeiten geht.",
-            "sentences": [
-              {
-                "text": "– Ich wollte nur richtigstellen, dass es nicht nur um andere Schwierigkeiten geht."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Michael Stübgen",
-            "speakerstatus": "speaker",
-            "text": "Wir haben uns, was den Wolf betrifft, darum gekümmert, dass bei den Mehrkosten zur Wolfsabwehr bzw. zum Schutz vor dem Wolf – darauf hat meine Kollegin schon hingewiesen – eine Förderung von 100 Prozent, was die Investitionskosten für die entsprechenden Schutzzäune betrifft, durch die EU erfolgt. Wir konnten uns leider in Brüssel nicht durchsetzen mit unserem Ziel, auch die Arbeitskosten, die insgesamt 80 Prozent der gesamten Mehrkosten ausmachen, zu 100 Prozent zu fördern. Deshalb arbeiten wir gerade in Abstimmung mit dem Bundesumweltministerium im Rahmen der Gemeinschaftsaufgabe „Verbesserung der Agrarstruktur und des Küstenschutzes“ daran, hier zu einer 100-prozentigen Förderung für die entsprechenden Weidetierhalter zu kommen. Dazu zählen natürlich auch die Schafhalter.",
-            "sentences": [
-              {
-                "text": "Wir haben uns, was den Wolf betrifft, darum gekümmert, dass bei den Mehrkosten zur Wolfsabwehr bzw. zum Schutz vor dem Wolf – darauf hat meine Kollegin schon hingewiesen – eine Förderung von 100 Prozent, was die Investitionskosten für die entsprechenden Schutzzäune betrifft, durch die EU erfolgt."
-              },
-              {
-                "text": "Wir konnten uns leider in Brüssel nicht durchsetzen mit unserem Ziel, auch die Arbeitskosten, die insgesamt 80 Prozent der gesamten Mehrkosten ausmachen, zu 100 Prozent zu fördern."
-              },
-              {
-                "text": "Deshalb arbeiten wir gerade in Abstimmung mit dem Bundesumweltministerium im Rahmen der Gemeinschaftsaufgabe „Verbesserung der Agrarstruktur und des Küstenschutzes“ daran, hier zu einer 100-prozentigen Förderung für die entsprechenden Weidetierhalter zu kommen."
-              },
-              {
-                "text": "Dazu zählen natürlich auch die Schafhalter."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Michael Stübgen",
-            "speakerstatus": "speaker",
-            "text": "– Nein.",
-            "sentences": [
-              {
-                "text": "– Nein."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Wir sind damit am Ende der Fragestunde. Ich bedanke mich ausdrücklich bei allen Beteiligten.",
-            "sentences": [
-              {
-                "text": "Wir sind damit am Ende der Fragestunde."
-              },
-              {
-                "text": "Ich bedanke mich ausdrücklich bei allen Beteiligten."
-              }
-            ]
           }
         ]
       }
@@ -10443,7 +8925,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 83,
+      "speechIndex": 1085,
       "title": "Aktuelle Stunde zu den Auswirkungen der EU-Urheberrechtsreform"
     },
     "people": [
@@ -10456,12 +8938,45 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19085-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19085-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
         "originTextID": "",
         "textBody": [
+          {
+            "type": "speech",
+            "speaker": "Petra Pau",
+            "speakerstatus": "vice-president",
+            "text": "Aktuelle Stunde",
+            "sentences": [
+              {
+                "text": "Aktuelle Stunde"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Petra Pau",
+            "speakerstatus": "vice-president",
+            "text": "auf Verlangen der Fraktion DIE LINKE",
+            "sentences": [
+              {
+                "text": "auf Verlangen der Fraktion DIE LINKE"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Petra Pau",
+            "speakerstatus": "vice-president",
+            "text": "Auswirkungen der EU-Urheberrechtsreform auf die Meinungsfreiheit",
+            "sentences": [
+              {
+                "text": "Auswirkungen der EU-Urheberrechtsreform auf die Meinungsfreiheit"
+              }
+            ]
+          },
           {
             "type": "speech",
             "speaker": "Petra Pau",
@@ -10516,7 +9031,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 84,
+      "speechIndex": 1086,
       "title": "Aktuelle Stunde zu den Auswirkungen der EU-Urheberrechtsreform"
     },
     "people": [
@@ -10537,7 +9052,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19085-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19085-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -10878,7 +9393,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 85,
+      "speechIndex": 1087,
       "title": "Aktuelle Stunde zu den Auswirkungen der EU-Urheberrechtsreform"
     },
     "people": [
@@ -10899,7 +9414,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19085-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19085-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -11265,7 +9780,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 86,
+      "speechIndex": 1088,
       "title": "Aktuelle Stunde zu den Auswirkungen der EU-Urheberrechtsreform"
     },
     "people": [
@@ -11286,7 +9801,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19085-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19085-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -11824,7 +10339,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 87,
+      "speechIndex": 1089,
       "title": "Aktuelle Stunde zu den Auswirkungen der EU-Urheberrechtsreform"
     },
     "people": [
@@ -11845,7 +10360,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19085-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19085-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -12280,7 +10795,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 88,
+      "speechIndex": 1090,
       "title": "Aktuelle Stunde zu den Auswirkungen der EU-Urheberrechtsreform"
     },
     "people": [
@@ -12301,7 +10816,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19085-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19085-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -12793,7 +11308,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 89,
+      "speechIndex": 1091,
       "title": "Aktuelle Stunde zu den Auswirkungen der EU-Urheberrechtsreform"
     },
     "people": [
@@ -12814,7 +11329,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19085-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19085-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -13401,7 +11916,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 90,
+      "speechIndex": 1092,
       "title": "Aktuelle Stunde zu den Auswirkungen der EU-Urheberrechtsreform"
     },
     "people": [
@@ -13422,7 +11937,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19085-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19085-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -13714,7 +12229,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 91,
+      "speechIndex": 1093,
       "title": "Aktuelle Stunde zu den Auswirkungen der EU-Urheberrechtsreform"
     },
     "people": [
@@ -13735,7 +12250,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19085-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19085-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -14059,7 +12574,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 92,
+      "speechIndex": 1094,
       "title": "Aktuelle Stunde zu den Auswirkungen der EU-Urheberrechtsreform"
     },
     "people": [
@@ -14080,7 +12595,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19085-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19085-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -14493,7 +13008,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 93,
+      "speechIndex": 1095,
       "title": "Aktuelle Stunde zu den Auswirkungen der EU-Urheberrechtsreform"
     },
     "people": [
@@ -14514,7 +13029,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19085-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19085-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -14887,7 +13402,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 94,
+      "speechIndex": 1096,
       "title": "Aktuelle Stunde zu den Auswirkungen der EU-Urheberrechtsreform"
     },
     "people": [
@@ -14908,7 +13423,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19085-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19085-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -15345,7 +13860,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 95,
+      "speechIndex": 1097,
       "title": "Aktuelle Stunde zu den Auswirkungen der EU-Urheberrechtsreform"
     },
     "people": [
@@ -15366,7 +13881,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19085-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19085-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -15773,7 +14288,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 96,
+      "speechIndex": 1098,
       "title": "Aktuelle Stunde zu den Auswirkungen der EU-Urheberrechtsreform"
     },
     "people": [
@@ -15794,7 +14309,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19085-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19085-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -16443,7 +14958,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 97,
+      "speechIndex": 1099,
       "title": "Aktuelle Stunde zu den Auswirkungen der EU-Urheberrechtsreform"
     },
     "people": [
@@ -16454,17 +14969,12 @@
         "lastname": "Zimmermann",
         "context": "main-speaker",
         "faction": "SPD"
-      },
-      {
-        "type": "memberOfParliament",
-        "label": "Claudia Roth",
-        "context": "vice-president"
       }
     ],
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19085-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19085-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -16803,18 +15313,55 @@
                 "text": "Herzlichen Dank."
               }
             ]
-          },
-          {
-            "type": "comment",
-            "speaker": null,
-            "speakerstatus": null,
-            "text": "(Beifall bei der SPD sowie bei Abgeordneten der CDU/CSU)",
-            "sentences": [
-              {
-                "text": "(Beifall bei der SPD sowie bei Abgeordneten der CDU/CSU)"
-              }
-            ]
-          },
+          }
+        ]
+      }
+    ],
+    "documents": [],
+    "key": "19-85 zusatzpunkt 1 (jens zimmermann)",
+    "dateStart": "2019-03-13T15:55:51",
+    "dateEnd": "2019-03-13T16:01:20",
+    "media": {
+      "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7334521/7334521_h264_720_400_2000kb_baseline_de_2192.mp4",
+      "sourcePage": "http://dbtg.tv/fvid/7334521",
+      "duration": 329.0,
+      "creator": "Deutscher Bundestag",
+      "license": "CC-BY-SA",
+      "originMediaID": "7334521",
+      "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7334521/7334521_mp3_128kb_stereo_de_128.mp3"
+    }
+  },
+  {
+    "parliament": "DE",
+    "electoralPeriod": {
+      "number": "19"
+    },
+    "session": {
+      "number": "85",
+      "dateStart": "2019-03-13T13:00",
+      "dateEnd": "2019-03-13T17:01"
+    },
+    "agendaItem": {
+      "officialTitle": "Zusatzpunkt 1",
+      "speechIndex": 1100,
+      "title": "Aktuelle Stunde zu den Auswirkungen der EU-Urheberrechtsreform"
+    },
+    "people": [
+      {
+        "type": "memberOfParliament",
+        "label": "Claudia Roth",
+        "context": "vice-president"
+      }
+    ],
+    "textContents": [
+      {
+        "type": "proceedings",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19085-data.xml",
+        "creator": "Deutscher Bundestag",
+        "license": "Public Domain",
+        "language": "DE-de",
+        "originTextID": "",
+        "textBody": [
           {
             "type": "speech",
             "speaker": "Claudia Roth",
@@ -16869,32 +15416,9 @@
       }
     ],
     "documents": [],
-    "key": "19-85 zusatzpunkt 1 (jens zimmermann)",
-    "dateStart": "2019-03-13T15:55:51",
-    "dateEnd": "2019-03-13T16:01:20",
-    "media": {
-      "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7334521/7334521_h264_720_400_2000kb_baseline_de_2192.mp4",
-      "sourcePage": "http://dbtg.tv/fvid/7334521",
-      "duration": 329.0,
-      "creator": "Deutscher Bundestag",
-      "license": "CC-BY-SA",
-      "originMediaID": "7334521",
-      "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7334521/7334521_mp3_128kb_stereo_de_128.mp3"
-    }
-  },
-  {
-    "parliament": "DE",
-    "electoralPeriod": {
-      "number": 19
-    },
-    "session": {
-      "number": 85
-    },
-    "agendaItem": {
-      "title": "Aktuelle Stunde zu den Auswirkungen der EU-Urheberrechtsreform",
-      "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 45
-    },
+    "key": "19-85 zusatzpunkt 1 (claudia roth)",
+    "dateStart": "2019-03-13T16:01:20",
+    "dateEnd": "2019-03-13T16:01:24",
     "media": {
       "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7334522/7334522_h264_720_400_2000kb_baseline_de_2192.mp4",
       "sourcePage": "http://dbtg.tv/fvid/7334522",
@@ -16903,18 +15427,7 @@
       "license": "CC-BY-SA",
       "originMediaID": "7334522",
       "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7334522/7334522_mp3_128kb_stereo_de_128.mp3"
-    },
-    "dateStart": "2019-03-13T16:01:20",
-    "dateEnd": "2019-03-13T16:01:24",
-    "people": [
-      {
-        "label": "Claudia Roth",
-        "faction": "BÜNDNIS 90/DIE GRÜNEN",
-        "context": "main-speaker",
-        "role": "Bundestagsvizepräsidentin"
-      }
-    ],
-    "key": "19-85 zusatzpunkt 1 (claudia roth)"
+    }
   },
   {
     "parliament": "DE",

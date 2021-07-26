@@ -11,7 +11,7 @@
     },
     "agendaItem": {
       "officialTitle": "Sitzungseröffnung",
-      "speechIndex": 0,
+      "speechIndex": 1000,
       "title": "Sitzungseröffnung"
     },
     "people": [
@@ -24,7 +24,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19041-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19041-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -96,7 +96,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 2,
+      "speechIndex": 1002,
       "title": "Befragung der Bundesregierung"
     },
     "people": [
@@ -109,12 +109,23 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19041-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19041-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
         "originTextID": "",
         "textBody": [
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "Befragung der Bundesregierung",
+            "sentences": [
+              {
+                "text": "Befragung der Bundesregierung"
+              }
+            ]
+          },
           {
             "type": "speech",
             "speaker": "Wolfgang Schäuble",
@@ -166,7 +177,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 3,
+      "speechIndex": 1003,
       "title": "Befragung der Bundesregierung"
     },
     "people": [
@@ -187,7 +198,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19041-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19041-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -395,7 +406,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 5,
+      "speechIndex": 1005,
       "title": "Befragung der Bundesregierung"
     },
     "people": [
@@ -416,7 +427,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19041-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19041-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -482,16 +493,83 @@
   {
     "parliament": "DE",
     "electoralPeriod": {
-      "number": 19
+      "number": "19"
     },
     "session": {
-      "number": 41
+      "number": "41",
+      "dateStart": "2018-06-27T13:00",
+      "dateEnd": "2018-06-27T17:19"
     },
     "agendaItem": {
-      "title": "Befragung der Bundesregierung",
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 5
+      "speechIndex": 1070,
+      "title": "Befragung der Bundesregierung"
     },
+    "people": [
+      {
+        "type": "memberOfParliament",
+        "label": "Wolfgang Schäuble",
+        "context": "president"
+      }
+    ],
+    "textContents": [
+      {
+        "type": "proceedings",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19041-data.xml",
+        "creator": "Deutscher Bundestag",
+        "license": "Public Domain",
+        "language": "DE-de",
+        "originTextID": "",
+        "textBody": [
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "Danke sehr. – Die letzte Frage stellt der Kollege Dr. Dirk Spaniel, AfD. – Ist der Kollege Spaniel nicht da? – Dann schließe ich hiermit die Regierungsbefragung.",
+            "sentences": [
+              {
+                "text": "Danke sehr."
+              },
+              {
+                "text": "– Die letzte Frage stellt der Kollege Dr. Dirk Spaniel, AfD. – Ist der Kollege Spaniel nicht da?"
+              },
+              {
+                "text": "– Dann schließe ich hiermit die Regierungsbefragung."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "Herr Bundesminister, wir haben Sie reichlich strapaziert. Ich danke Ihnen.",
+            "sentences": [
+              {
+                "text": "Herr Bundesminister, wir haben Sie reichlich strapaziert."
+              },
+              {
+                "text": "Ich danke Ihnen."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "Jetzt wechseln wir in der Sitzungsleitung.",
+            "sentences": [
+              {
+                "text": "Jetzt wechseln wir in der Sitzungsleitung."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "documents": [],
+    "key": "19-41 tagesordnungspunkt 1 (wolfgang schauble) #1",
+    "dateStart": "2018-06-27T12:06:22",
+    "dateEnd": "2018-06-27T12:06:31",
     "media": {
       "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7249049/7249049_h264_720_400_2000kb_baseline_de_2192.mp4",
       "sourcePage": "http://dbtg.tv/fvid/7249049",
@@ -500,18 +578,7 @@
       "license": "CC-BY-SA",
       "originMediaID": "7249049",
       "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7249049/7249049_mp3_128kb_stereo_de_128.mp3"
-    },
-    "dateStart": "2018-06-27T12:06:22",
-    "dateEnd": "2018-06-27T12:06:31",
-    "people": [
-      {
-        "label": "Wolfgang Schäuble",
-        "faction": "CDU/CSU",
-        "context": "main-speaker",
-        "role": "Bundestagspräsident"
-      }
-    ],
-    "key": "19-41 tagesordnungspunkt 1 (wolfgang schauble) #1"
+    }
   },
   {
     "parliament": "DE",
@@ -525,7 +592,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 2",
-      "speechIndex": 71,
+      "speechIndex": 1072,
       "title": "Fragestunde"
     },
     "people": [
@@ -621,89 +688,28 @@
         "lastname": "Verlinden",
         "context": "speaker",
         "faction": "BÜNDNIS 90/DIE GRÜNEN"
-      },
-      {
-        "type": "memberOfParliament",
-        "label": "Kerstin Andreae",
-        "firstname": "Kerstin",
-        "lastname": "Andreae",
-        "context": "speaker",
-        "faction": "BÜNDNIS 90/DIE GRÜNEN"
-      },
-      {
-        "type": "memberOfParliament",
-        "label": "Christian Lange",
-        "firstname": "Christian",
-        "lastname": "Lange",
-        "context": "speaker",
-        "faction": ""
-      },
-      {
-        "type": "memberOfParliament",
-        "label": "Kordula Schulz-Asche",
-        "firstname": "Kordula",
-        "lastname": "Schulz-Asche",
-        "context": "speaker",
-        "faction": "BÜNDNIS 90/DIE GRÜNEN"
-      },
-      {
-        "type": "memberOfParliament",
-        "label": "Canan Bayram",
-        "firstname": "Canan",
-        "lastname": "Bayram",
-        "context": "speaker",
-        "faction": "BÜNDNIS 90/DIE GRÜNEN"
-      },
-      {
-        "type": "memberOfParliament",
-        "label": "Michael Stübgen",
-        "firstname": "Michael",
-        "lastname": "Stübgen",
-        "context": "speaker",
-        "faction": ""
-      },
-      {
-        "type": "memberOfParliament",
-        "label": "Carina Konrad",
-        "firstname": "Carina",
-        "lastname": "Konrad",
-        "context": "speaker",
-        "faction": "FDP"
-      },
-      {
-        "type": "memberOfParliament",
-        "label": "Steffi Lemke",
-        "firstname": "Steffi",
-        "lastname": "Lemke",
-        "context": "speaker",
-        "faction": "BÜNDNIS 90/DIE GRÜNEN"
-      },
-      {
-        "type": "memberOfParliament",
-        "label": "Stefan Zierke",
-        "firstname": "Stefan",
-        "lastname": "Zierke",
-        "context": "speaker",
-        "faction": ""
-      },
-      {
-        "type": "memberOfParliament",
-        "label": "Katrin Werner",
-        "firstname": "Katrin",
-        "lastname": "Werner",
-        "context": "speaker",
-        "faction": "DIE LINKE"
       }
     ],
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19041-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19041-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
         "originTextID": "",
         "textBody": [
+          {
+            "type": "speech",
+            "speaker": "Thomas Oppermann",
+            "speakerstatus": "vice-president",
+            "text": "Fragestunde",
+            "sentences": [
+              {
+                "text": "Fragestunde"
+              }
+            ]
+          },
           {
             "type": "speech",
             "speaker": "Thomas Oppermann",
@@ -3378,1790 +3384,6 @@
                 "text": "In diesem Zusammenhang spielt auch der auf Basis des Szenariorahmens zu erarbeitende Netzentwicklungsplan eine wichtige Rolle, da er die Grundlage für die Identifikation des weiteren Netzausbaubedarfs bildet."
               }
             ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Vielen Dank. – Zusatzfrage?",
-            "sentences": [
-              {
-                "text": "Vielen Dank."
-              },
-              {
-                "text": "– Zusatzfrage?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Julia Verlinden",
-            "speakerstatus": "speaker",
-            "text": "Herr Staatssekretär, habe ich das richtig verstanden: Sie als Bundesregierung wollen sich jetzt gar nicht festlegen, welchem dieser drei Szenarien Sie sich anschließen, welches dieser drei Szenarien Sie für am realistischsten halten und woran Sie Ihre zukünftige Energiepolitik ausrichten wollen, sondern Sie wollen jährlich, sozusagen spontan, entscheiden, inwiefern Sie den Ausbaukorridor der erneuerbaren Energien verändern? Das ist das Gegenteil von Planungssicherheit. Sie riskieren hier, eine Industrie sozusagen vor die Wand zu fahren, die langfristige Planungshorizonte braucht, die wissen muss, in welcher Menge beispielsweise Wind- und Sonnenenergie – bei Wind im Übrigen auch offshore – ausgebaut werden wird. Insofern halte ich es für hochgradig gefährlich, wenn Sie sich jetzt nicht entscheiden, in welche Richtung Sie mit Ihrer Politik gehen.",
-            "sentences": [
-              {
-                "text": "Herr Staatssekretär, habe ich das richtig verstanden: Sie als Bundesregierung wollen sich jetzt gar nicht festlegen, welchem dieser drei Szenarien Sie sich anschließen, welches dieser drei Szenarien Sie für am realistischsten halten und woran Sie Ihre zukünftige Energiepolitik ausrichten wollen, sondern Sie wollen jährlich, sozusagen spontan, entscheiden, inwiefern Sie den Ausbaukorridor der erneuerbaren Energien verändern?"
-              },
-              {
-                "text": "Das ist das Gegenteil von Planungssicherheit."
-              },
-              {
-                "text": "Sie riskieren hier, eine Industrie sozusagen vor die Wand zu fahren, die langfristige Planungshorizonte braucht, die wissen muss, in welcher Menge beispielsweise Wind- und Sonnenenergie – bei Wind im Übrigen auch offshore – ausgebaut werden wird."
-              },
-              {
-                "text": "Insofern halte ich es für hochgradig gefährlich, wenn Sie sich jetzt nicht entscheiden, in welche Richtung Sie mit Ihrer Politik gehen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Julia Verlinden",
-            "speakerstatus": "speaker",
-            "text": "Ich habe jetzt immer noch nicht verstanden, wie das heruntergerechnet auf den jährlichen Ausbaupfad für Wind und Sonne aussieht. Sagen Sie doch einfach mal eine Hausnummer: Wie viel Wind- und Sonnenenergie wird pro Jahr ausgebaut? Auf welchem Pfad bewegen Sie sich, wenn Sie sich an einem dieser Szenarien der Bundesnetzagentur orientieren? Wie wird der Strombedarf 2030 Ihrer Meinung nach aussehen? Sie können ja nicht jedes Jahr Pi mal Daumen quasi mit spontanen Entscheidungen agieren.",
-            "sentences": [
-              {
-                "text": "Ich habe jetzt immer noch nicht verstanden, wie das heruntergerechnet auf den jährlichen Ausbaupfad für Wind und Sonne aussieht."
-              },
-              {
-                "text": "Sagen Sie doch einfach mal eine Hausnummer: Wie viel Wind- und Sonnenenergie wird pro Jahr ausgebaut?"
-              },
-              {
-                "text": "Auf welchem Pfad bewegen Sie sich, wenn Sie sich an einem dieser Szenarien der Bundesnetzagentur orientieren?"
-              },
-              {
-                "text": "Wie wird der Strombedarf 2030 Ihrer Meinung nach aussehen?"
-              },
-              {
-                "text": "Sie können ja nicht jedes Jahr Pi mal Daumen quasi mit spontanen Entscheidungen agieren."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Oliver Wittke",
-            "speakerstatus": "speaker",
-            "text": "Frau Kollegin Verlinden, wenn wir 2035 das ambitionierte Ziel von 65 Prozent erneuerbare Energien erreichen wollen, kommt es weniger darauf an, wie viel wir an welcher Stelle mit welchem Energieträger produzieren, als vielmehr darauf, was beim einzelnen Haushalt, beim Verbraucher und bei der Industrie ankommt.",
-            "sentences": [
-              {
-                "text": "Frau Kollegin Verlinden, wenn wir 2035 das ambitionierte Ziel von 65 Prozent erneuerbare Energien erreichen wollen, kommt es weniger darauf an, wie viel wir an welcher Stelle mit welchem Energieträger produzieren, als vielmehr darauf, was beim einzelnen Haushalt, beim Verbraucher und bei der Industrie ankommt."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Oliver Wittke",
-            "speakerstatus": "speaker",
-            "text": "Darum gibt es eine Abhängigkeit zwischen den Möglichkeiten, den Strom zu transportieren und zum Verbraucher zu bringen, und den Ausbauszenarien. Deshalb wäre es töricht, zum jetzigen Zeitpunkt zu sagen: Wir nehmen das Szenario A, B oder C, und der Anteil der Sonne und des Windes im Jahre 2025 wird bei X oder Y Prozent liegen. – Das muss ein dynamischer Prozess sein, und darum werden wir in regelmäßigen Abständen Bericht erstatten, welche Ausbaupfade und welchen Mix, wenn Sie so wollen, wir anstreben.",
-            "sentences": [
-              {
-                "text": "Darum gibt es eine Abhängigkeit zwischen den Möglichkeiten, den Strom zu transportieren und zum Verbraucher zu bringen, und den Ausbauszenarien."
-              },
-              {
-                "text": "Deshalb wäre es töricht, zum jetzigen Zeitpunkt zu sagen: Wir nehmen das Szenario A, B oder C, und der Anteil der Sonne und des Windes im Jahre 2025 wird bei X oder Y Prozent liegen."
-              },
-              {
-                "text": "– Das muss ein dynamischer Prozess sein, und darum werden wir in regelmäßigen Abständen Bericht erstatten, welche Ausbaupfade und welchen Mix, wenn Sie so wollen, wir anstreben."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Oliver Wittke",
-            "speakerstatus": "speaker",
-            "text": "Heute einen Plan aufstellen zu wollen, würde bedeuten, dass wir diesen Plan künftig in regelmäßigen Abständen über den Haufen werfen und neue Ziele formulieren müssten. Das hielte ich für fahrlässig.",
-            "sentences": [
-              {
-                "text": "Heute einen Plan aufstellen zu wollen, würde bedeuten, dass wir diesen Plan künftig in regelmäßigen Abständen über den Haufen werfen und neue Ziele formulieren müssten."
-              },
-              {
-                "text": "Das hielte ich für fahrlässig."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Vielen Dank. – Sie haben noch eine zweite Nachfrage. Bitte sehr.",
-            "sentences": [
-              {
-                "text": "Vielen Dank."
-              },
-              {
-                "text": "– Sie haben noch eine zweite Nachfrage."
-              },
-              {
-                "text": "Bitte sehr."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Julia Verlinden",
-            "speakerstatus": "speaker",
-            "text": "Danke schön, Herr Präsident. – Das heißt, Sie wollen sich jetzt nicht für einen längeren Zeitraum festlegen, wie hoch die Ausschreibungsmengen jedes Jahr sein werden. Sie müssen aber doch zumindest sagen können, wie hoch die Ausschreibungsmenge für Wind und Sonne in den Jahren 2019 und 2020 sein wird; denn wenn Sie das erst nächstes Jahr entscheiden, dann haben Sie bis dahin alles Engagement von den Investoren, die sich bereit erklären, an der Energiewende mitzuarbeiten, totgemacht.",
-            "sentences": [
-              {
-                "text": "Danke schön, Herr Präsident."
-              },
-              {
-                "text": "– Das heißt, Sie wollen sich jetzt nicht für einen längeren Zeitraum festlegen, wie hoch die Ausschreibungsmengen jedes Jahr sein werden."
-              },
-              {
-                "text": "Sie müssen aber doch zumindest sagen können, wie hoch die Ausschreibungsmenge für Wind und Sonne in den Jahren 2019 und 2020 sein wird; denn wenn Sie das erst nächstes Jahr entscheiden, dann haben Sie bis dahin alles Engagement von den Investoren, die sich bereit erklären, an der Energiewende mitzuarbeiten, totgemacht."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Julia Verlinden",
-            "speakerstatus": "speaker",
-            "text": "Wir haben heute im Wirtschaftsausschuss ja unseren Gesetzentwurf, den der Grünen, diskutiert. Es gab dort keine Bereitschaft der Großen Koalition, unserem Vorschlag zu folgen, endlich diese Sonderausschreibung auf den Weg zu bringen, um damit Planungssicherheit für diese wichtige Industrie in Deutschland herzustellen und klarzumachen, dass wir sie natürlich auch weiterhin brauchen, um die Ziele, die Sie sich im Koalitionsvertrag selber gesetzt haben, zu erreichen. Auch die Netzentlastungsmaßnahmen, auf die Sie hingewiesen haben – auch dazu haben wir Vorschläge gemacht –, haben Sie abgelehnt.",
-            "sentences": [
-              {
-                "text": "Wir haben heute im Wirtschaftsausschuss ja unseren Gesetzentwurf, den der Grünen, diskutiert."
-              },
-              {
-                "text": "Es gab dort keine Bereitschaft der Großen Koalition, unserem Vorschlag zu folgen, endlich diese Sonderausschreibung auf den Weg zu bringen, um damit Planungssicherheit für diese wichtige Industrie in Deutschland herzustellen und klarzumachen, dass wir sie natürlich auch weiterhin brauchen, um die Ziele, die Sie sich im Koalitionsvertrag selber gesetzt haben, zu erreichen."
-              },
-              {
-                "text": "Auch die Netzentlastungsmaßnahmen, auf die Sie hingewiesen haben – auch dazu haben wir Vorschläge gemacht –, haben Sie abgelehnt."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Julia Verlinden",
-            "speakerstatus": "speaker",
-            "text": "Insofern kann ich nur feststellen: Es ist industriepolitisch fahrlässig, dass Sie sich einfach nur hinsetzen und abwarten und im energiepolitischen Bereich nichts für den Ausbau von erneuerbaren Energien machen.",
-            "sentences": [
-              {
-                "text": "Insofern kann ich nur feststellen: Es ist industriepolitisch fahrlässig, dass Sie sich einfach nur hinsetzen und abwarten und im energiepolitischen Bereich nichts für den Ausbau von erneuerbaren Energien machen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Oliver Wittke",
-            "speakerstatus": "speaker",
-            "text": "Frau Verlinden, ich habe Ihre Frage nicht gefunden, aber ich versuche trotzdem eine Antwort.",
-            "sentences": [
-              {
-                "text": "Frau Verlinden, ich habe Ihre Frage nicht gefunden, aber ich versuche trotzdem eine Antwort."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Oliver Wittke",
-            "speakerstatus": "speaker",
-            "text": "Wenn Sie so freundlich wären, uns zu sagen, wie hoch beispielsweise der Energieverbrauch im Jahre 2030 sein wird, und wenn Sie uns sagen würden, wie weit der Netzausbau im Jahre 2030 vorangeschritten sein wird, dann bin ich auch bereit, Ihnen zu sagen, wie der Mix aussehen wird. Da Sie aber diese Annahmen hier nicht vortragen können, können Sie von mir auch nicht verlangen, dass ich den zweiten Schritt vor dem ersten gehe. Von daher: Seriöse Energiepolitik geht anders.",
-            "sentences": [
-              {
-                "text": "Wenn Sie so freundlich wären, uns zu sagen, wie hoch beispielsweise der Energieverbrauch im Jahre 2030 sein wird, und wenn Sie uns sagen würden, wie weit der Netzausbau im Jahre 2030 vorangeschritten sein wird, dann bin ich auch bereit, Ihnen zu sagen, wie der Mix aussehen wird."
-              },
-              {
-                "text": "Da Sie aber diese Annahmen hier nicht vortragen können, können Sie von mir auch nicht verlangen, dass ich den zweiten Schritt vor dem ersten gehe."
-              },
-              {
-                "text": "Von daher: Seriöse Energiepolitik geht anders."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Oliver Wittke",
-            "speakerstatus": "speaker",
-            "text": "Es gibt eine Vielzahl von anderen Bedingungen, die berücksichtigt werden müssen. Darum sind einfache Antworten auf einfache Fragen in diesem Fall nicht möglich.",
-            "sentences": [
-              {
-                "text": "Es gibt eine Vielzahl von anderen Bedingungen, die berücksichtigt werden müssen."
-              },
-              {
-                "text": "Darum sind einfache Antworten auf einfache Fragen in diesem Fall nicht möglich."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Eine Zusatzfrage. Bitte sehr, Herr Kühn.",
-            "sentences": [
-              {
-                "text": "Eine Zusatzfrage."
-              },
-              {
-                "text": "Bitte sehr, Herr Kühn."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Christian Kühn",
-            "speakerstatus": "speaker",
-            "text": "Vielen Dank, Herr Präsident, dass Sie die Frage noch zulassen. – Herr Staatssekretär, die Jahre 2019 und 2020 sind ja nicht mehr so weit entfernt; sie stehen jetzt sozusagen wirklich vor der Tür. Draußen in der Branche der Erneuerbaren fragt man sich, wie groß die Mengen für die Sonderausschreibungen sind und wann sie kommen. Können Sie dazu hier jetzt mal Stellung beziehen, damit auch diese Unternehmen Planungssicherheit haben und auch wir wissen, was in den Jahren 2019 und 2020 bei den Erneuerbaren passiert?",
-            "sentences": [
-              {
-                "text": "Vielen Dank, Herr Präsident, dass Sie die Frage noch zulassen."
-              },
-              {
-                "text": "– Herr Staatssekretär, die Jahre 2019 und 2020 sind ja nicht mehr so weit entfernt; sie stehen jetzt sozusagen wirklich vor der Tür."
-              },
-              {
-                "text": "Draußen in der Branche der Erneuerbaren fragt man sich, wie groß die Mengen für die Sonderausschreibungen sind und wann sie kommen."
-              },
-              {
-                "text": "Können Sie dazu hier jetzt mal Stellung beziehen, damit auch diese Unternehmen Planungssicherheit haben und auch wir wissen, was in den Jahren 2019 und 2020 bei den Erneuerbaren passiert?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Oliver Wittke",
-            "speakerstatus": "speaker",
-            "text": "Herr Kühn, Ihre Frage unterstellt, dass die Investoren im Bereich der erneuerbaren Energien zutiefst verunsichert sind und keine Gebote machen.",
-            "sentences": [
-              {
-                "text": "Herr Kühn, Ihre Frage unterstellt, dass die Investoren im Bereich der erneuerbaren Energien zutiefst verunsichert sind und keine Gebote machen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Oliver Wittke",
-            "speakerstatus": "speaker",
-            "text": "Die Ausschreibungen, die wir zuletzt vorgenommen haben, sprechen eine ganz andere Sprache. Es gab umfangreiche Gebote, und – was ganz, ganz wichtig ist – es gibt einen niedrigeren Subventionsbedarf als vorher. Von daher sehe ich die Verunsicherung, die Sie bei den Investoren sehen, überhaupt nicht.",
-            "sentences": [
-              {
-                "text": "Die Ausschreibungen, die wir zuletzt vorgenommen haben, sprechen eine ganz andere Sprache."
-              },
-              {
-                "text": "Es gab umfangreiche Gebote, und – was ganz, ganz wichtig ist – es gibt einen niedrigeren Subventionsbedarf als vorher."
-              },
-              {
-                "text": "Von daher sehe ich die Verunsicherung, die Sie bei den Investoren sehen, überhaupt nicht."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Vielen Dank. – Wir kommen jetzt zu Frage 34 von Kerstin Andreae, Bündnis 90/Die Grünen:",
-            "sentences": [
-              {
-                "text": "Vielen Dank."
-              },
-              {
-                "text": "– Wir kommen jetzt zu Frage 34 von Kerstin Andreae, Bündnis 90/Die Grünen:"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Herr Staatssekretär.",
-            "sentences": [
-              {
-                "text": "Herr Staatssekretär."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Oliver Wittke",
-            "speakerstatus": "speaker",
-            "text": "Vielen Dank. – Frau Kollegin Andreae, die rechtliche Grundlage für Grenzkontrollen an den EU-Außen- und EU-Binnengrenzen ist der Schengener Grenzkodex. Grundsätzlich finden Grenzkontrollen ausschließlich an den EU-Außengrenzen statt. Kontrollen an den Binnengrenzen können nur nach Maßgabe der Artikel 25 ff. Schengener Grenzkodex vorübergehend eingeführt werden. Eine unbegrenzte Einführung von Binnengrenzkontrollen ist auf Grundlage des Schengener Grenzkodex nicht möglich. Die Frage hat insoweit einen hypothetischen Charakter und ist nicht an den rechtlichen Vorgaben orientiert.",
-            "sentences": [
-              {
-                "text": "Vielen Dank."
-              },
-              {
-                "text": "– Frau Kollegin Andreae, die rechtliche Grundlage für Grenzkontrollen an den EU-Außen- und EU-Binnengrenzen ist der Schengener Grenzkodex."
-              },
-              {
-                "text": "Grundsätzlich finden Grenzkontrollen ausschließlich an den EU-Außengrenzen statt."
-              },
-              {
-                "text": "Kontrollen an den Binnengrenzen können nur nach Maßgabe der Artikel 25 ff."
-              },
-              {
-                "text": "Schengener Grenzkodex vorübergehend eingeführt werden."
-              },
-              {
-                "text": "Eine unbegrenzte Einführung von Binnengrenzkontrollen ist auf Grundlage des Schengener Grenzkodex nicht möglich."
-              },
-              {
-                "text": "Die Frage hat insoweit einen hypothetischen Charakter und ist nicht an den rechtlichen Vorgaben orientiert."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Oliver Wittke",
-            "speakerstatus": "speaker",
-            "text": "Nach Simulationen des ifo-Instituts würde ein permanentes Aussetzen des Schengener Grenzkodex langfristig einen Rückgang des deutschen Handelsvolumens, gemessen anhand des gesamten Import- und Exportvolumens bei Waren und Dienstleistungen, um 3,8 Prozent zur Folge haben. Hierdurch würde eine Wachstumsdämpfung von rund 0,2 bis 0,4 Prozent des Bruttoinlandsproduktes entstehen. Die Abschätzung solcher Effekte ist naturgemäß mit hohen Unsicherheiten behaftet.",
-            "sentences": [
-              {
-                "text": "Nach Simulationen des ifo-Instituts würde ein permanentes Aussetzen des Schengener Grenzkodex langfristig einen Rückgang des deutschen Handelsvolumens, gemessen anhand des gesamten Import- und Exportvolumens bei Waren und Dienstleistungen, um 3,8 Prozent zur Folge haben."
-              },
-              {
-                "text": "Hierdurch würde eine Wachstumsdämpfung von rund 0,2 bis 0,4 Prozent des Bruttoinlandsproduktes entstehen."
-              },
-              {
-                "text": "Die Abschätzung solcher Effekte ist naturgemäß mit hohen Unsicherheiten behaftet."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Oliver Wittke",
-            "speakerstatus": "speaker",
-            "text": "Sie basieren auf einer Reihe kritischer Annahmen.",
-            "sentences": [
-              {
-                "text": "Sie basieren auf einer Reihe kritischer Annahmen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Oliver Wittke",
-            "speakerstatus": "speaker",
-            "text": "Die in der Studie ermittelten ökonomischen Effekte beschreiben allerdings ein Extremszenario, also das dauerhafte Aussetzen des Schengen-Abkommens. Weniger einschneidende Maßnahmen, wie zum Beispiel temporäre Binnengrenzkontrollen nur entlang der Flüchtlingsrouten Balkan–Italien–deutsch-österreichische Grenze, haben entsprechend geringere negative Effekte. Wäre lediglich die deutsch-österreichische Grenze betroffen, so ergäben sich Bruttoinlandsproduktseffekte in Höhe von 1 Milliarde bis 3 Milliarden Euro.",
-            "sentences": [
-              {
-                "text": "Die in der Studie ermittelten ökonomischen Effekte beschreiben allerdings ein Extremszenario, also das dauerhafte Aussetzen des Schengen-Abkommens."
-              },
-              {
-                "text": "Weniger einschneidende Maßnahmen, wie zum Beispiel temporäre Binnengrenzkontrollen nur entlang der Flüchtlingsrouten Balkan–Italien–deutsch-österreichische Grenze, haben entsprechend geringere negative Effekte."
-              },
-              {
-                "text": "Wäre lediglich die deutsch-österreichische Grenze betroffen, so ergäben sich Bruttoinlandsproduktseffekte in Höhe von 1 Milliarde bis 3 Milliarden Euro."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Oliver Wittke",
-            "speakerstatus": "speaker",
-            "text": "Die Studie zeigt aber auch, dass die Schaffung eines europäischen Binnenmarktes insgesamt selbst weit höhere positive Handelseffekte als Schengen allein hat.",
-            "sentences": [
-              {
-                "text": "Die Studie zeigt aber auch, dass die Schaffung eines europäischen Binnenmarktes insgesamt selbst weit höhere positive Handelseffekte als Schengen allein hat."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Frau Andreae?",
-            "sentences": [
-              {
-                "text": "Frau Andreae?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Kerstin Andreae",
-            "speakerstatus": "speaker",
-            "text": "Vielen Dank für das Zitieren der Studie; die kenne ich. Meine Frage ist, ob Sie in der Bundesregierung und vor allem seitens des Wirtschaftsministeriums angesichts der aktuellen Debatte über die Schließung der innereuropäischen Grenzen in einen Diskurs über die Frage gehen, welche wirtschaftliche Entwicklung das eigentlich hätte.",
-            "sentences": [
-              {
-                "text": "Vielen Dank für das Zitieren der Studie; die kenne ich."
-              },
-              {
-                "text": "Meine Frage ist, ob Sie in der Bundesregierung und vor allem seitens des Wirtschaftsministeriums angesichts der aktuellen Debatte über die Schließung der innereuropäischen Grenzen in einen Diskurs über die Frage gehen, welche wirtschaftliche Entwicklung das eigentlich hätte."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Kerstin Andreae",
-            "speakerstatus": "speaker",
-            "text": "Sie sagen zu Recht, dass das ifo-Institut von statischen Annahmen ausgeht und dass man unterschiedliche Faktoren berücksichtigen muss. Aber im Augenblick haben wir eine verunsichernde Diskussion, und wir haben schon die ersten Grenzschließungen.",
-            "sentences": [
-              {
-                "text": "Sie sagen zu Recht, dass das ifo-Institut von statischen Annahmen ausgeht und dass man unterschiedliche Faktoren berücksichtigen muss."
-              },
-              {
-                "text": "Aber im Augenblick haben wir eine verunsichernde Diskussion, und wir haben schon die ersten Grenzschließungen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Kerstin Andreae",
-            "speakerstatus": "speaker",
-            "text": "Der Logistikverband ist durchaus in der Lage, für sich alleine auszurechnen, was ihm diese Grenzschließungen für einen wirtschaftlichen Schaden bringen. Deswegen ist es mir viel zu wenig, wenn sich eine Bundesregierung, die für wirtschaftliche Wettbewerbsfähigkeit, Prosperität, Wohlstand und Wachstum verantwortlich ist, an dieser Stelle schlicht auf ein ifo-Gutachten zurückzieht.",
-            "sentences": [
-              {
-                "text": "Der Logistikverband ist durchaus in der Lage, für sich alleine auszurechnen, was ihm diese Grenzschließungen für einen wirtschaftlichen Schaden bringen."
-              },
-              {
-                "text": "Deswegen ist es mir viel zu wenig, wenn sich eine Bundesregierung, die für wirtschaftliche Wettbewerbsfähigkeit, Prosperität, Wohlstand und Wachstum verantwortlich ist, an dieser Stelle schlicht auf ein ifo-Gutachten zurückzieht."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Kerstin Andreae",
-            "speakerstatus": "speaker",
-            "text": "Ich möchte, dass sich die Bundesregierung ihrerseits zu den Szenarien, die ja vom Bundesinnenministerium hier in den Raum gestellt werden und die sehr akut sind, überlegt: Was würde es wirtschaftlich bedeuten, wenn wir innerhalb Europas die Grenzen dichtmachten und uns damit von Schengen verabschiedeten?",
-            "sentences": [
-              {
-                "text": "Ich möchte, dass sich die Bundesregierung ihrerseits zu den Szenarien, die ja vom Bundesinnenministerium hier in den Raum gestellt werden und die sehr akut sind, überlegt: Was würde es wirtschaftlich bedeuten, wenn wir innerhalb Europas die Grenzen dichtmachten und uns damit von Schengen verabschiedeten?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Oliver Wittke",
-            "speakerstatus": "speaker",
-            "text": "Frau Andreae, gehen Sie davon aus, dass bei allen Vorhaben der Bundesregierung wirtschaftliche Belange im Blickpunkt, insbesondere des Bundeswirtschaftsministers, sind. Gehen Sie weiterhin davon aus, dass selbstverständlich auch bei der aktuellen Diskussion wirtschaftliche Belange vonseiten des Bundeswirtschaftsministers – und nicht nur von dem – Eingang in die Diskussionen und in die Überlegungen finden.",
-            "sentences": [
-              {
-                "text": "Frau Andreae, gehen Sie davon aus, dass bei allen Vorhaben der Bundesregierung wirtschaftliche Belange im Blickpunkt, insbesondere des Bundeswirtschaftsministers, sind."
-              },
-              {
-                "text": "Gehen Sie weiterhin davon aus, dass selbstverständlich auch bei der aktuellen Diskussion wirtschaftliche Belange vonseiten des Bundeswirtschaftsministers – und nicht nur von dem – Eingang in die Diskussionen und in die Überlegungen finden."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Weitere Zusatzfrage?",
-            "sentences": [
-              {
-                "text": "Weitere Zusatzfrage?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Kerstin Andreae",
-            "speakerstatus": "speaker",
-            "text": "Manchmal habe ich nicht den Eindruck, dass wirtschaftliche Belange immer berücksichtigt werden. – Aber ich möchte konkreter fragen: Wann wurde innerhalb des Kabinetts über die Frage wirtschaftlicher Schäden durch Grenzziehung gesprochen?",
-            "sentences": [
-              {
-                "text": "Manchmal habe ich nicht den Eindruck, dass wirtschaftliche Belange immer berücksichtigt werden."
-              },
-              {
-                "text": "– Aber ich möchte konkreter fragen: Wann wurde innerhalb des Kabinetts über die Frage wirtschaftlicher Schäden durch Grenzziehung gesprochen?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Oliver Wittke",
-            "speakerstatus": "speaker",
-            "text": "Die Frage kann ich Ihnen deshalb nicht beantworten, weil ich an den Kabinettssitzungen nicht teilgenommen habe. Die letzte Kabinettssitzung, an der ich teilgenommen habe, hatte derartige Fragestellungen nicht zum Gegenstand.",
-            "sentences": [
-              {
-                "text": "Die Frage kann ich Ihnen deshalb nicht beantworten, weil ich an den Kabinettssitzungen nicht teilgenommen habe."
-              },
-              {
-                "text": "Die letzte Kabinettssitzung, an der ich teilgenommen habe, hatte derartige Fragestellungen nicht zum Gegenstand."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Vielen Dank. – Keine weiteren Fragen.",
-            "sentences": [
-              {
-                "text": "Vielen Dank."
-              },
-              {
-                "text": "– Keine weiteren Fragen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Dann kommen wir zu den Fragen 35 und 36 der Abgeordneten Sevim Dağdelen. Sie werden beide schriftlich beantwortet.",
-            "sentences": [
-              {
-                "text": "Dann kommen wir zu den Fragen 35 und 36 der Abgeordneten Sevim Dağdelen."
-              },
-              {
-                "text": "Sie werden beide schriftlich beantwortet."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Wir verlassen damit den Geschäftsbereich des Wirtschaftsministeriums.",
-            "sentences": [
-              {
-                "text": "Wir verlassen damit den Geschäftsbereich des Wirtschaftsministeriums."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Ich rufe den Geschäftsbereich des Bundesministeriums der Justiz und für Verbraucherschutz auf. Zur Beantwortung steht der Parlamentarische Staatssekretär Christian Lange bereit.",
-            "sentences": [
-              {
-                "text": "Ich rufe den Geschäftsbereich des Bundesministeriums der Justiz und für Verbraucherschutz auf."
-              },
-              {
-                "text": "Zur Beantwortung steht der Parlamentarische Staatssekretär Christian Lange bereit."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Die Frage 37 des Abgeordneten Hunko wird schriftlich beantwortet.",
-            "sentences": [
-              {
-                "text": "Die Frage 37 des Abgeordneten Hunko wird schriftlich beantwortet."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Ich rufe die Frage 39 der Abgeordneten Kordula Schulz-Asche von Bündnis 90/Die Grünen auf:",
-            "sentences": [
-              {
-                "text": "Ich rufe die Frage 39 der Abgeordneten Kordula Schulz-Asche von Bündnis 90/Die Grünen auf:"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Herr Staatssekretär, Sie haben das Wort.",
-            "sentences": [
-              {
-                "text": "Herr Staatssekretär, Sie haben das Wort."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Christian Lange",
-            "speakerstatus": "speaker",
-            "text": "Vielen Dank, Herr Präsident. – Frau Kollegin, ich beantworte Ihre Frage wie folgt: Die EU-Kommission hat Ende Mai dieses Jahres einen Vorschlag für eine Verordnung zur Änderung der Verordnung Nummer 496 aus dem Jahr 2009 über das ergänzende Schutzzertifikat SPC vorgelegt, mit dem einem von Ihnen angesprochenen Abwandern der Generikaprodukte in Drittstaaten entgegengewirkt werden soll. Anders als bisher sollen künftig Generikahersteller zur Beseitigung von Wettbewerbsnachteilen noch während der Laufzeit des Schutzzertifikats Nachahmerpräparate in der EU für Zwecke des Exports in Drittländer herstellen dürfen. Die EU-Kommission weist darüber hinaus in der Begründung ihres Vorschlags ausdrücklich darauf hin, dass mit dieser Schutzausnahme auch eine wesentliche rechtliche Barriere entfällt, die bislang den Aufbau einer Fertigungslinie für solche Arzneimittel in der EU erschwert habe. In der Sache werde der Aufbau von Produktionskapazitäten in der EU ermöglicht, die nach dem Ablauf der Schutzfrist in dem von Ihnen angesprochenen Sinne unmittelbar auch für die Versorgung des europäischen Marktes genutzt werden können.",
-            "sentences": [
-              {
-                "text": "Vielen Dank, Herr Präsident."
-              },
-              {
-                "text": "– Frau Kollegin, ich beantworte Ihre Frage wie folgt: Die EU-Kommission hat Ende Mai dieses Jahres einen Vorschlag für eine Verordnung zur Änderung der Verordnung Nummer 496 aus dem Jahr 2009 über das ergänzende Schutzzertifikat SPC vorgelegt, mit dem einem von Ihnen angesprochenen Abwandern der Generikaprodukte in Drittstaaten entgegengewirkt werden soll."
-              },
-              {
-                "text": "Anders als bisher sollen künftig Generikahersteller zur Beseitigung von Wettbewerbsnachteilen noch während der Laufzeit des Schutzzertifikats Nachahmerpräparate in der EU für Zwecke des Exports in Drittländer herstellen dürfen."
-              },
-              {
-                "text": "Die EU-Kommission weist darüber hinaus in der Begründung ihres Vorschlags ausdrücklich darauf hin, dass mit dieser Schutzausnahme auch eine wesentliche rechtliche Barriere entfällt, die bislang den Aufbau einer Fertigungslinie für solche Arzneimittel in der EU erschwert habe."
-              },
-              {
-                "text": "In der Sache werde der Aufbau von Produktionskapazitäten in der EU ermöglicht, die nach dem Ablauf der Schutzfrist in dem von Ihnen angesprochenen Sinne unmittelbar auch für die Versorgung des europäischen Marktes genutzt werden können."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Christian Lange",
-            "speakerstatus": "speaker",
-            "text": "Die Bundesregierung prüft diesen Vorschlag zurzeit intensiv. Aus Sicht der Bundesregierung muss der Rechtsrahmen für den Patentschutz für Arzneimittel auf europäischer Ebene ausgewogen gestaltet werden. Es gilt, das Innovationspotenzial im Bereich der pharmazeutischen Industrie in Deutschland und in der EU zu stärken, den heimischen Forschungsstandort zu fördern sowie eine sichere und ökonomische Versorgung mit Arzneimitteln zu gewährleisten.",
-            "sentences": [
-              {
-                "text": "Die Bundesregierung prüft diesen Vorschlag zurzeit intensiv."
-              },
-              {
-                "text": "Aus Sicht der Bundesregierung muss der Rechtsrahmen für den Patentschutz für Arzneimittel auf europäischer Ebene ausgewogen gestaltet werden."
-              },
-              {
-                "text": "Es gilt, das Innovationspotenzial im Bereich der pharmazeutischen Industrie in Deutschland und in der EU zu stärken, den heimischen Forschungsstandort zu fördern sowie eine sichere und ökonomische Versorgung mit Arzneimitteln zu gewährleisten."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Möchten Sie eine Zusatzfrage stellen, Frau Kollegin?",
-            "sentences": [
-              {
-                "text": "Möchten Sie eine Zusatzfrage stellen, Frau Kollegin?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Kordula Schulz-Asche",
-            "speakerstatus": "speaker",
-            "text": "Ja. – Vielen Dank, Herr Staatssekretär. Sie haben gut referiert, was der aktuelle Sachstand auf europäischer Ebene ist. Vor Ablauf der Patentschutzfrist stehen an europäischen Grenzen Lastwagen mit Generika, die in der Regel in China oder Indien hergestellt werden. Deswegen finde ich es sehr lobenswert, dass nun in der EU Überlegungen angestellt werden, in Europa von europäischen Herstellern auf Vorrat zu produzieren und am Tag nach Ablauf des Patentschutzes Arzneimittel auf den europäischen Markt bringen zu können.",
-            "sentences": [
-              {
-                "text": "Ja."
-              },
-              {
-                "text": "– Vielen Dank, Herr Staatssekretär."
-              },
-              {
-                "text": "Sie haben gut referiert, was der aktuelle Sachstand auf europäischer Ebene ist."
-              },
-              {
-                "text": "Vor Ablauf der Patentschutzfrist stehen an europäischen Grenzen Lastwagen mit Generika, die in der Regel in China oder Indien hergestellt werden."
-              },
-              {
-                "text": "Deswegen finde ich es sehr lobenswert, dass nun in der EU Überlegungen angestellt werden, in Europa von europäischen Herstellern auf Vorrat zu produzieren und am Tag nach Ablauf des Patentschutzes Arzneimittel auf den europäischen Markt bringen zu können."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Kordula Schulz-Asche",
-            "speakerstatus": "speaker",
-            "text": "Ich habe bei Ihrer Antwort nicht verstanden, was die Haltung bzw. die abgestimmte Position der Bundesregierung ist. Deswegen frage ich Sie konkret: Was ist die Haltung Ihres sozialdemokratisch geführten Hauses zu den in der SPC-Verordnung vorgesehenen Vorschlägen? Sind Sie dafür? Unterstützen Sie diesen Vorschlag? Und wie ist die Haltung des Bundesministeriums für Gesundheit dazu?",
-            "sentences": [
-              {
-                "text": "Ich habe bei Ihrer Antwort nicht verstanden, was die Haltung bzw. die abgestimmte Position der Bundesregierung ist."
-              },
-              {
-                "text": "Deswegen frage ich Sie konkret: Was ist die Haltung Ihres sozialdemokratisch geführten Hauses zu den in der SPC-Verordnung vorgesehenen Vorschlägen?"
-              },
-              {
-                "text": "Sind Sie dafür?"
-              },
-              {
-                "text": "Unterstützen Sie diesen Vorschlag?"
-              },
-              {
-                "text": "Und wie ist die Haltung des Bundesministeriums für Gesundheit dazu?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Christian Lange",
-            "speakerstatus": "speaker",
-            "text": "Liebe Frau Kollegin, bitte nehmen Sie zur Kenntnis, dass ich für die Bundesregierung spreche und nicht für das BMJV alleine. Ich verweise auf meine Antwort und sage Ihnen noch einmal, dass die Bundesregierung den derzeitigen Entwurf, auf den Sie abstellen und auch ich abgestellt habe, prüft. Ich will auch dazusagen, dass die Bundesregierung in einen Dialog mit den beteiligten Kreisen zu dem Verordnungsentwurf eingetreten ist. Am Ende ist unser Ziel, ein ausgewogenes Ergebnis zu erreichen.",
-            "sentences": [
-              {
-                "text": "Liebe Frau Kollegin, bitte nehmen Sie zur Kenntnis, dass ich für die Bundesregierung spreche und nicht für das BMJV alleine."
-              },
-              {
-                "text": "Ich verweise auf meine Antwort und sage Ihnen noch einmal, dass die Bundesregierung den derzeitigen Entwurf, auf den Sie abstellen und auch ich abgestellt habe, prüft."
-              },
-              {
-                "text": "Ich will auch dazusagen, dass die Bundesregierung in einen Dialog mit den beteiligten Kreisen zu dem Verordnungsentwurf eingetreten ist."
-              },
-              {
-                "text": "Am Ende ist unser Ziel, ein ausgewogenes Ergebnis zu erreichen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Weitere Zusatzfrage?",
-            "sentences": [
-              {
-                "text": "Weitere Zusatzfrage?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Kordula Schulz-Asche",
-            "speakerstatus": "speaker",
-            "text": "Sie kennen die ganze Angelegenheit genauso lange wie ich. Warum dauert es so lange, bis die Bundesregierung hier zu einer einheitlichen Position kommt? Ich frage noch einmal: Liegt das daran, dass es unterschiedliche Auffassungen im Justizministerium und im Gesundheitsministerium gibt, und, wenn ja, welche?",
-            "sentences": [
-              {
-                "text": "Sie kennen die ganze Angelegenheit genauso lange wie ich."
-              },
-              {
-                "text": "Warum dauert es so lange, bis die Bundesregierung hier zu einer einheitlichen Position kommt?"
-              },
-              {
-                "text": "Ich frage noch einmal: Liegt das daran, dass es unterschiedliche Auffassungen im Justizministerium und im Gesundheitsministerium gibt, und, wenn ja, welche?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Christian Lange",
-            "speakerstatus": "speaker",
-            "text": "Frau Kollegin, ich kann Ihnen sagen, dass es der Bundesregierung ein wichtiges Anliegen ist, nicht nur im Ressortkreis, sondern insbesondere auch mit den betroffenen Kreisen über den Verordnungsentwurf zu sprechen sowie zu einem Dialog und Konsens zu kommen; das ist unser Ziel. Wir bemühen uns, das Ganze so schnell wie möglich zu einem Ergebnis zu führen.",
-            "sentences": [
-              {
-                "text": "Frau Kollegin, ich kann Ihnen sagen, dass es der Bundesregierung ein wichtiges Anliegen ist, nicht nur im Ressortkreis, sondern insbesondere auch mit den betroffenen Kreisen über den Verordnungsentwurf zu sprechen sowie zu einem Dialog und Konsens zu kommen; das ist unser Ziel."
-              },
-              {
-                "text": "Wir bemühen uns, das Ganze so schnell wie möglich zu einem Ergebnis zu führen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Vielen Dank. – Wir machen weiter mit Frage 40 der Abgeordneten Canan Bayram, Bündnis 90/Die Grünen:",
-            "sentences": [
-              {
-                "text": "Vielen Dank."
-              },
-              {
-                "text": "– Wir machen weiter mit Frage 40 der Abgeordneten Canan Bayram, Bündnis 90/Die Grünen:"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Herr Staatssekretär.",
-            "sentences": [
-              {
-                "text": "Herr Staatssekretär."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Christian Lange",
-            "speakerstatus": "speaker",
-            "text": "Herr Präsident! Frau Kollegin, zu Ihrer Frage darf ich Ihnen Folgendes mitteilen: Der Generalbundesanwalt hat 2016 ein an ihn gerichtetes Rechtshilfeersuchen aus Österreich erledigt.",
-            "sentences": [
-              {
-                "text": "Herr Präsident!"
-              },
-              {
-                "text": "Frau Kollegin, zu Ihrer Frage darf ich Ihnen Folgendes mitteilen: Der Generalbundesanwalt hat 2016 ein an ihn gerichtetes Rechtshilfeersuchen aus Österreich erledigt."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Nachfrage?",
-            "sentences": [
-              {
-                "text": "Nachfrage?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Canan Bayram",
-            "speakerstatus": "speaker",
-            "text": "Vielen Dank, Herr Präsident. – Meine erste Nachfrage: Inwieweit trifft die Schilderung des österreichischen Bundeskanzlers auf einer Pressekonferenz mit dem Bundespräsidenten vom 9. Juni 2018 zu, wonach 2014 ein erstes sehr lang dauerndes Strafermittlungsverfahren der Staatsanwaltschaft Wien gegen Verantwortliche des Bundesnachrichtendienstes wegen dessen Ausspähung von Bürgern in Österreich nur deshalb erfolglos blieb, weil die deutsche Justiz – so steht es im „Standard“ – die erbetene rechtliche Zusammenarbeit zur Aufklärung nicht geleistet habe? Die deutsche Behörde soll sogar laut Schilderung des österreichischen Verfassungsschutzpräsidenten Gridling diese Kooperation explizit abgelehnt haben unter Berufung auf eine politische Entscheidung des Bundeskanzleramtes dagegen.",
-            "sentences": [
-              {
-                "text": "Vielen Dank, Herr Präsident."
-              },
-              {
-                "text": "– Meine erste Nachfrage: Inwieweit trifft die Schilderung des österreichischen Bundeskanzlers auf einer Pressekonferenz mit dem Bundespräsidenten vom 9. Juni 2018 zu, wonach 2014 ein erstes sehr lang dauerndes Strafermittlungsverfahren der Staatsanwaltschaft Wien gegen Verantwortliche des Bundesnachrichtendienstes wegen dessen Ausspähung von Bürgern in Österreich nur deshalb erfolglos blieb, weil die deutsche Justiz – so steht es im „Standard“ – die erbetene rechtliche Zusammenarbeit zur Aufklärung nicht geleistet habe?"
-              },
-              {
-                "text": "Die deutsche Behörde soll sogar laut Schilderung des österreichischen Verfassungsschutzpräsidenten Gridling diese Kooperation explizit abgelehnt haben unter Berufung auf eine politische Entscheidung des Bundeskanzleramtes dagegen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Christian Lange",
-            "speakerstatus": "speaker",
-            "text": "Frau Kollegin, Sie wissen, dass zu operativen Aspekten nachrichtendienstlicher Arbeit die Bundesregierung grundsätzlich nur gegenüber den zuständigen geheim tagenden Gremien des Deutschen Bundestages Stellung nimmt. Deshalb bitte ich um Verständnis, dass ich über meine Aussage hinaus Ihnen keine weitere Auskunft erteilen kann.",
-            "sentences": [
-              {
-                "text": "Frau Kollegin, Sie wissen, dass zu operativen Aspekten nachrichtendienstlicher Arbeit die Bundesregierung grundsätzlich nur gegenüber den zuständigen geheim tagenden Gremien des Deutschen Bundestages Stellung nimmt."
-              },
-              {
-                "text": "Deshalb bitte ich um Verständnis, dass ich über meine Aussage hinaus Ihnen keine weitere Auskunft erteilen kann."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Weitere Nachfrage?",
-            "sentences": [
-              {
-                "text": "Weitere Nachfrage?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Canan Bayram",
-            "speakerstatus": "speaker",
-            "text": "Ja. – Hat denn tatsächlich, wie die österreichische Nachrichtenagentur am 30. Mai 2014 angekündigt hat, am 3. Juni 2014 der damalige österreichische Außenminister Kurz den damaligen Bundesaußenminister Steinmeier extra in Berlin besucht, um mit ihm explizit über diese BND-Spionage gegen Österreich zu sprechen sowie Aufklärungshilfe zu erbitten? Warum hat das Bundesaußenministerium weder bei diesem Treffen noch danach diese hochrangig geäußerte Bitte Österreichs befördert bzw. positiv beschieden?",
-            "sentences": [
-              {
-                "text": "Ja."
-              },
-              {
-                "text": "– Hat denn tatsächlich, wie die österreichische Nachrichtenagentur am 30. Mai 2014 angekündigt hat, am 3. Juni 2014 der damalige österreichische Außenminister Kurz den damaligen Bundesaußenminister Steinmeier extra in Berlin besucht, um mit ihm explizit über diese BND-Spionage gegen Österreich zu sprechen sowie Aufklärungshilfe zu erbitten?"
-              },
-              {
-                "text": "Warum hat das Bundesaußenministerium weder bei diesem Treffen noch danach diese hochrangig geäußerte Bitte Österreichs befördert bzw. positiv beschieden?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Christian Lange",
-            "speakerstatus": "speaker",
-            "text": "Frau Kollegin, Sie wissen, dass die Bundesregierung zu Gesprächen der Bundesminister nicht Stellung nimmt. Ich selber kann Ihnen dazu keine weitere Auskunft erteilen. Mir persönlich ist es auch nicht bekannt.",
-            "sentences": [
-              {
-                "text": "Frau Kollegin, Sie wissen, dass die Bundesregierung zu Gesprächen der Bundesminister nicht Stellung nimmt."
-              },
-              {
-                "text": "Ich selber kann Ihnen dazu keine weitere Auskunft erteilen."
-              },
-              {
-                "text": "Mir persönlich ist es auch nicht bekannt."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Vielen Dank. – Damit sind wir mit dem Geschäftsbereich des Bundesministeriums der Justiz und für Verbraucherschutz durch.",
-            "sentences": [
-              {
-                "text": "Vielen Dank."
-              },
-              {
-                "text": "– Damit sind wir mit dem Geschäftsbereich des Bundesministeriums der Justiz und für Verbraucherschutz durch."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Wir kommen zum Geschäftsbereich des Bundesministeriums für Arbeit und Soziales. Die Frage 41 des Abgeordneten Stefan Schmidt wird schriftlich beantwortet.",
-            "sentences": [
-              {
-                "text": "Wir kommen zum Geschäftsbereich des Bundesministeriums für Arbeit und Soziales."
-              },
-              {
-                "text": "Die Frage 41 des Abgeordneten Stefan Schmidt wird schriftlich beantwortet."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Wir kommen zum Geschäftsbereich des Bundesministeriums der Verteidigung. Die Frage 42 der Abgeordneten Dr. Franziska Brantner wird ebenfalls schriftlich beantwortet.",
-            "sentences": [
-              {
-                "text": "Wir kommen zum Geschäftsbereich des Bundesministeriums der Verteidigung."
-              },
-              {
-                "text": "Die Frage 42 der Abgeordneten Dr. Franziska Brantner wird ebenfalls schriftlich beantwortet."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Ich rufe den Geschäftsbereich des Bundesministeriums für Ernährung und Landwirtschaft auf. Zur Beantwortung steht der Parlamentarische Staatssekretär Michael Stübgen bereit.",
-            "sentences": [
-              {
-                "text": "Ich rufe den Geschäftsbereich des Bundesministeriums für Ernährung und Landwirtschaft auf."
-              },
-              {
-                "text": "Zur Beantwortung steht der Parlamentarische Staatssekretär Michael Stübgen bereit."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Ich rufe die Frage 43 der Abgeordneten Carina Konrad auf:",
-            "sentences": [
-              {
-                "text": "Ich rufe die Frage 43 der Abgeordneten Carina Konrad auf:"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Herr Staatssekretär, Sie haben das Wort.",
-            "sentences": [
-              {
-                "text": "Herr Staatssekretär, Sie haben das Wort."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Michael Stübgen",
-            "speakerstatus": "speaker",
-            "text": "Vielen Dank, Herr Präsident. – Sehr geehrte Frau Kollegin Konrad, Ihre Frage beantworte ich wie folgt: Der Erfolg des künftigen Kennzeichens – ich will kurz darauf hinweisen: es soll jetzt in dem Gesetzentwurf, der sich in der Abstimmung mit den Bundesländern und den Verbänden befindet, nicht mehr „Tierwohllabel“, sondern „Tierwohlkennzeichen“ heißen – hängt von einer Reihe von Faktoren ab. Unter anderem ist die umfassende Einbindung aller Vermarktungswege für Fleisch und Fleischerzeugnisse, zum Beispiel Einzelhandel, Gastronomie, Handwerk und Verarbeitung, wichtig.",
-            "sentences": [
-              {
-                "text": "Vielen Dank, Herr Präsident."
-              },
-              {
-                "text": "– Sehr geehrte Frau Kollegin Konrad, Ihre Frage beantworte ich wie folgt: Der Erfolg des künftigen Kennzeichens – ich will kurz darauf hinweisen: es soll jetzt in dem Gesetzentwurf, der sich in der Abstimmung mit den Bundesländern und den Verbänden befindet, nicht mehr „Tierwohllabel“, sondern „Tierwohlkennzeichen“ heißen – hängt von einer Reihe von Faktoren ab."
-              },
-              {
-                "text": "Unter anderem ist die umfassende Einbindung aller Vermarktungswege für Fleisch und Fleischerzeugnisse, zum Beispiel Einzelhandel, Gastronomie, Handwerk und Verarbeitung, wichtig."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Michael Stübgen",
-            "speakerstatus": "speaker",
-            "text": "Entscheidend ist auch, dass der Verbraucher das Kennzeichen als glaubwürdig wahrnimmt und er versteht, wofür das Kennzeichen steht. Voraussetzung dafür ist, dass die Kriterien eindeutig über dem gesetzlichen Mindeststandard liegen, damit dem Verbraucher ersichtlich ist, wofür er einen höheren Preis zahlen soll. Die Finanzierung des Mehraufwandes soll über den Markt erfolgen und über eine staatliche Förderung flankiert werden. In welcher Höhe eine Wertschöpfung generiert werden kann, kann zum jetzigen Zeitpunkt noch nicht abgeschätzt werden.",
-            "sentences": [
-              {
-                "text": "Entscheidend ist auch, dass der Verbraucher das Kennzeichen als glaubwürdig wahrnimmt und er versteht, wofür das Kennzeichen steht."
-              },
-              {
-                "text": "Voraussetzung dafür ist, dass die Kriterien eindeutig über dem gesetzlichen Mindeststandard liegen, damit dem Verbraucher ersichtlich ist, wofür er einen höheren Preis zahlen soll."
-              },
-              {
-                "text": "Die Finanzierung des Mehraufwandes soll über den Markt erfolgen und über eine staatliche Förderung flankiert werden."
-              },
-              {
-                "text": "In welcher Höhe eine Wertschöpfung generiert werden kann, kann zum jetzigen Zeitpunkt noch nicht abgeschätzt werden."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Soll eine Zusatzfrage gestellt werden? – Das ist der Fall. Frau Kollegin, bitte sehr.",
-            "sentences": [
-              {
-                "text": "Soll eine Zusatzfrage gestellt werden?"
-              },
-              {
-                "text": "– Das ist der Fall."
-              },
-              {
-                "text": "Frau Kollegin, bitte sehr."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Carina Konrad",
-            "speakerstatus": "speaker",
-            "text": "Vielen Dank, Herr Präsident. – Vielen Dank, Herr Staatssekretär Stübgen, für die Beantwortung der Frage. – Ich hätte noch eine Nachfrage: Wie sieht denn der Zeitplan dafür aus, das Tierwohlkennzeichen einzuführen? Oder gibt es dazu noch keine Vorschläge?",
-            "sentences": [
-              {
-                "text": "Vielen Dank, Herr Präsident."
-              },
-              {
-                "text": "– Vielen Dank, Herr Staatssekretär Stübgen, für die Beantwortung der Frage."
-              },
-              {
-                "text": "– Ich hätte noch eine Nachfrage: Wie sieht denn der Zeitplan dafür aus, das Tierwohlkennzeichen einzuführen?"
-              },
-              {
-                "text": "Oder gibt es dazu noch keine Vorschläge?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Michael Stübgen",
-            "speakerstatus": "speaker",
-            "text": "Der Zeitplan sieht folgendermaßen aus: Der Gesetzentwurf – noch ohne die Verordnung; die wird in meinem Haus gerade noch erarbeitet – ist am 8. Juni 2018 in die Ressortabstimmung gegangen und wurde dann am 18. Juni 2018 in die Abstimmung mit den Ländern und Verbänden gegeben. Die Frist zur Stellungnahme endet am 13. Juli 2018, sodass wir, wenn das alles so funktioniert, in der Lage sein werden, diesen Gesetzentwurf über die Sommerpause so einzubringen, dass er – aber das entscheidet letztlich das Parlament – im September in erster Lesung behandelt werden kann.",
-            "sentences": [
-              {
-                "text": "Der Zeitplan sieht folgendermaßen aus: Der Gesetzentwurf – noch ohne die Verordnung; die wird in meinem Haus gerade noch erarbeitet – ist am 8. Juni 2018 in die Ressortabstimmung gegangen und wurde dann am 18. Juni 2018 in die Abstimmung mit den Ländern und Verbänden gegeben."
-              },
-              {
-                "text": "Die Frist zur Stellungnahme endet am 13. Juli 2018, sodass wir, wenn das alles so funktioniert, in der Lage sein werden, diesen Gesetzentwurf über die Sommerpause so einzubringen, dass er – aber das entscheidet letztlich das Parlament – im September in erster Lesung behandelt werden kann."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Eine weitere Nachfrage?",
-            "sentences": [
-              {
-                "text": "Eine weitere Nachfrage?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Carina Konrad",
-            "speakerstatus": "speaker",
-            "text": "Sie haben eben gesagt, dass die Voraussetzung eine hohe Akzeptanz und eine hohe Transparenz ist. Mit welchen Teilnahmequoten rechnen Sie denn bei den einzelnen Tierarten?",
-            "sentences": [
-              {
-                "text": "Sie haben eben gesagt, dass die Voraussetzung eine hohe Akzeptanz und eine hohe Transparenz ist."
-              },
-              {
-                "text": "Mit welchen Teilnahmequoten rechnen Sie denn bei den einzelnen Tierarten?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Michael Stübgen",
-            "speakerstatus": "speaker",
-            "text": "Wenn es nach meinem Ministerium ginge, wäre uns eine 100-prozentige Teilnahmequote die liebste. Wir wissen aber zum Beispiel aus Erfahrungen in Dänemark und in den Niederlanden mit dem Biolabel, dass es eine 100-prozentige Teilnahmequote nicht geben wird.",
-            "sentences": [
-              {
-                "text": "Wenn es nach meinem Ministerium ginge, wäre uns eine 100-prozentige Teilnahmequote die liebste."
-              },
-              {
-                "text": "Wir wissen aber zum Beispiel aus Erfahrungen in Dänemark und in den Niederlanden mit dem Biolabel, dass es eine 100-prozentige Teilnahmequote nicht geben wird."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Michael Stübgen",
-            "speakerstatus": "speaker",
-            "text": "Unser Ziel ist es, durch die Einordnung in drei Kategorien mit einer relativ niedrigen Einstiegskategorie, die einerseits deutlich höher als der gesetzliche Standard und auch als der Standard der Initiative Tierwohl ist, andererseits aber einen zunächst noch geringen Investitionsaufwand für die Landwirte, für die Erzeuger, mit sich bringt, zu einer möglichst breiten Marktabdeckung zu kommen. Das kann natürlich nur funktionieren, wenn durch die Mehrkosten, die beim Erzeuger entstehen, eine erhöhte Wertschöpfung generiert werden kann, sodass auch etwas beim Erzeuger ankommt; das ist eine ganz entscheidende Frage.",
-            "sentences": [
-              {
-                "text": "Unser Ziel ist es, durch die Einordnung in drei Kategorien mit einer relativ niedrigen Einstiegskategorie, die einerseits deutlich höher als der gesetzliche Standard und auch als der Standard der Initiative Tierwohl ist, andererseits aber einen zunächst noch geringen Investitionsaufwand für die Landwirte, für die Erzeuger, mit sich bringt, zu einer möglichst breiten Marktabdeckung zu kommen."
-              },
-              {
-                "text": "Das kann natürlich nur funktionieren, wenn durch die Mehrkosten, die beim Erzeuger entstehen, eine erhöhte Wertschöpfung generiert werden kann, sodass auch etwas beim Erzeuger ankommt; das ist eine ganz entscheidende Frage."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Michael Stübgen",
-            "speakerstatus": "speaker",
-            "text": "Wie gesagt, Dänemark hat ein vergleichbares Label, allerdings ohne Flankierung durch Fördermaßnahmen, die wir machen wollen, und ist nach eigenen Angaben nach knapp zwei Jahren bei einer Marktabdeckung von 25 Prozent. Das ist eine Maßgabe. In diese Richtung könnten wir mit dem Einstieg in die erste Stufe der Kennzeichnung mindestens kommen.",
-            "sentences": [
-              {
-                "text": "Wie gesagt, Dänemark hat ein vergleichbares Label, allerdings ohne Flankierung durch Fördermaßnahmen, die wir machen wollen, und ist nach eigenen Angaben nach knapp zwei Jahren bei einer Marktabdeckung von 25 Prozent."
-              },
-              {
-                "text": "Das ist eine Maßgabe."
-              },
-              {
-                "text": "In diese Richtung könnten wir mit dem Einstieg in die erste Stufe der Kennzeichnung mindestens kommen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Vielen Dank. – Keine weiteren Fragen.",
-            "sentences": [
-              {
-                "text": "Vielen Dank."
-              },
-              {
-                "text": "– Keine weiteren Fragen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Die Frage 44 des Abgeordneten Oliver Krischer wird schriftlich beantwortet.",
-            "sentences": [
-              {
-                "text": "Die Frage 44 des Abgeordneten Oliver Krischer wird schriftlich beantwortet."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Frage 45 der Abgeordneten Steffi Lemke, Bündnis 90/Die Grünen:",
-            "sentences": [
-              {
-                "text": "Frage 45 der Abgeordneten Steffi Lemke, Bündnis 90/Die Grünen:"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Herr Staatssekretär.",
-            "sentences": [
-              {
-                "text": "Herr Staatssekretär."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Michael Stübgen",
-            "speakerstatus": "speaker",
-            "text": "Vielen Dank, Herr Präsident. – Sehr verehrte Frau Kollegin Lemke, ich beantworte Ihre Frage wie folgt: Der Europäische Gerichtshof, EuGH, hat in seiner Entscheidung vom 13. Juni 2018 die Rechtsauffassung der Bundesregierung vollumfänglich bestätigt. – Ich danke Ihnen besonders, dass Sie diese Frage gestellt haben, weil mir das die Möglichkeit gibt, für die Bundesregierung einmal festzustellen, dass der Europäische Gerichtshof in einem Urteil unsere Auffassung vollumfänglich bestätigt hat.",
-            "sentences": [
-              {
-                "text": "Vielen Dank, Herr Präsident."
-              },
-              {
-                "text": "– Sehr verehrte Frau Kollegin Lemke, ich beantworte Ihre Frage wie folgt: Der Europäische Gerichtshof, EuGH, hat in seiner Entscheidung vom 13. Juni 2018 die Rechtsauffassung der Bundesregierung vollumfänglich bestätigt."
-              },
-              {
-                "text": "– Ich danke Ihnen besonders, dass Sie diese Frage gestellt haben, weil mir das die Möglichkeit gibt, für die Bundesregierung einmal festzustellen, dass der Europäische Gerichtshof in einem Urteil unsere Auffassung vollumfänglich bestätigt hat."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Michael Stübgen",
-            "speakerstatus": "speaker",
-            "text": "Sie wissen, das ist nicht immer der Fall.",
-            "sentences": [
-              {
-                "text": "Sie wissen, das ist nicht immer der Fall."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Michael Stübgen",
-            "speakerstatus": "speaker",
-            "text": "Danach ist für den Erlass von die berufsmäßige Seefischerei regulierenden Maßnahmen zur Einhaltung von Umweltvorschriften der Europäischen Union ausschließlich das Fischereirecht der EU anwendbar. Diesen Weg verfolgt Deutschland als initiierender Mitgliedstaat bereits bei geschützten Meeresflächen nach Natura 2000 in der deutschen ausschließlichen Wirtschaftszone der Nordsee, indem nach einem in der EU-Fischerei-Grundverordnung vorgeschriebenen Verfahren Vorschläge für das Fischereimanagement mit den Mitgliedstaaten mit fischereilichem Interesse abgestimmt werden; sogenannte Scheveningen-Gruppe.",
-            "sentences": [
-              {
-                "text": "Danach ist für den Erlass von die berufsmäßige Seefischerei regulierenden Maßnahmen zur Einhaltung von Umweltvorschriften der Europäischen Union ausschließlich das Fischereirecht der EU anwendbar."
-              },
-              {
-                "text": "Diesen Weg verfolgt Deutschland als initiierender Mitgliedstaat bereits bei geschützten Meeresflächen nach Natura 2000 in der deutschen ausschließlichen Wirtschaftszone der Nordsee, indem nach einem in der EU-Fischerei-Grundverordnung vorgeschriebenen Verfahren Vorschläge für das Fischereimanagement mit den Mitgliedstaaten mit fischereilichem Interesse abgestimmt werden; sogenannte Scheveningen-Gruppe."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Michael Stübgen",
-            "speakerstatus": "speaker",
-            "text": "Ziel der Bundesregierung ist es, entsprechend dem in den Regionalisierungsvorschriften der Fischerei-Grundverordnung vorgesehenen Verfahren sich mit allen zu beteiligenden Mitgliedstaaten auf eine gemeinsame Empfehlung zu einigen, die der EU zur Erarbeitung einer delegierten Rechtsverordnung vorgelegt werden kann. Die Entscheidung des EuGH bestärkt die Bundesregierung, dieses Verfahren fortzusetzen, übrigens auch für die Ostsee.",
-            "sentences": [
-              {
-                "text": "Ziel der Bundesregierung ist es, entsprechend dem in den Regionalisierungsvorschriften der Fischerei-Grundverordnung vorgesehenen Verfahren sich mit allen zu beteiligenden Mitgliedstaaten auf eine gemeinsame Empfehlung zu einigen, die der EU zur Erarbeitung einer delegierten Rechtsverordnung vorgelegt werden kann."
-              },
-              {
-                "text": "Die Entscheidung des EuGH bestärkt die Bundesregierung, dieses Verfahren fortzusetzen, übrigens auch für die Ostsee."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Zusatzfragen?",
-            "sentences": [
-              {
-                "text": "Zusatzfragen?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Steffi Lemke",
-            "speakerstatus": "speaker",
-            "text": "Ja. Danke, Herr Präsident. – Da können Sie mal sehen, wozu europäische Entscheidungen gut sind. Man sollte sich darum kümmern, dass das so bleibt.",
-            "sentences": [
-              {
-                "text": "Ja."
-              },
-              {
-                "text": "Danke, Herr Präsident."
-              },
-              {
-                "text": "– Da können Sie mal sehen, wozu europäische Entscheidungen gut sind."
-              },
-              {
-                "text": "Man sollte sich darum kümmern, dass das so bleibt."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Steffi Lemke",
-            "speakerstatus": "speaker",
-            "text": "Es steht jetzt quasi die Fischereipolitik gegen das Naturschutzrecht. Wir haben dort einen Widerspruch, der dazu führt, dass in Naturschutzgebieten nachweislich naturschutzschädliche Fischereitechniken erlaubt sind, Grundschleppnetzfischerei in den Schutzgebieten nach wie vor ermöglicht wird. Das ist ein Zustand, der nicht im Sinne der Schutzgebietsverordnung ist und der nicht aufrechterhalten werden kann, ohne europäisches Naturschutzrecht zu verletzen.",
-            "sentences": [
-              {
-                "text": "Es steht jetzt quasi die Fischereipolitik gegen das Naturschutzrecht."
-              },
-              {
-                "text": "Wir haben dort einen Widerspruch, der dazu führt, dass in Naturschutzgebieten nachweislich naturschutzschädliche Fischereitechniken erlaubt sind, Grundschleppnetzfischerei in den Schutzgebieten nach wie vor ermöglicht wird."
-              },
-              {
-                "text": "Das ist ein Zustand, der nicht im Sinne der Schutzgebietsverordnung ist und der nicht aufrechterhalten werden kann, ohne europäisches Naturschutzrecht zu verletzen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Steffi Lemke",
-            "speakerstatus": "speaker",
-            "text": "Deshalb meine Frage, welches weitere Vorgehen von Ihnen geplant ist. Es kann ja nicht sein, dass Sie jetzt einfach nur weiterverhandeln. Dänemark hat die Vorschläge bisher blockiert. Wie ist der Plan der Bundesregierung, um jetzt zu einer Lösung zu kommen und den gordischen Knoten dort durchzuschlagen?",
-            "sentences": [
-              {
-                "text": "Deshalb meine Frage, welches weitere Vorgehen von Ihnen geplant ist."
-              },
-              {
-                "text": "Es kann ja nicht sein, dass Sie jetzt einfach nur weiterverhandeln."
-              },
-              {
-                "text": "Dänemark hat die Vorschläge bisher blockiert."
-              },
-              {
-                "text": "Wie ist der Plan der Bundesregierung, um jetzt zu einer Lösung zu kommen und den gordischen Knoten dort durchzuschlagen?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Michael Stübgen",
-            "speakerstatus": "speaker",
-            "text": "Vielen Dank für die Nachfrage, Frau Kollegin. – Es ist so: In Natura-2000-Gebieten können nur Fangmethoden angewendet werden, die der jetzigen Fischerei-Grundverordnung entsprechen. Die sind nicht immer naturschonend; das gebe ich zu. Auf der anderen Seite ist es so, dass wir zu Recht einen europäischen Binnenmarkt haben und europäisches Recht hier Vorrang hat. Wir können nur vorangehen, sofern wir eine Einigung mit den betroffenen Ländern erzielen können.",
-            "sentences": [
-              {
-                "text": "Vielen Dank für die Nachfrage, Frau Kollegin."
-              },
-              {
-                "text": "– Es ist so: In Natura-2000-Gebieten können nur Fangmethoden angewendet werden, die der jetzigen Fischerei-Grundverordnung entsprechen."
-              },
-              {
-                "text": "Die sind nicht immer naturschonend; das gebe ich zu."
-              },
-              {
-                "text": "Auf der anderen Seite ist es so, dass wir zu Recht einen europäischen Binnenmarkt haben und europäisches Recht hier Vorrang hat."
-              },
-              {
-                "text": "Wir können nur vorangehen, sofern wir eine Einigung mit den betroffenen Ländern erzielen können."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Michael Stübgen",
-            "speakerstatus": "speaker",
-            "text": "Im Übrigen: Für die Sportfischerei gelten unsere nationalen Bestimmungen jetzt schon in der ausschließlichen Wirtschaftszone Deutschlands.",
-            "sentences": [
-              {
-                "text": "Im Übrigen: Für die Sportfischerei gelten unsere nationalen Bestimmungen jetzt schon in der ausschließlichen Wirtschaftszone Deutschlands."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Michael Stübgen",
-            "speakerstatus": "speaker",
-            "text": "Weil wir wollen, dass wir in der Frage vorankommen, ist die Bundesregierung als Erstes aktiv geworden, hat den Vorschlag erarbeitet, mein Ministerium zusammen mit dem Bundesumweltministerium, und verhandelt – leider schon seit einigen Jahren – mit der sogenannten Scheveningen-Gruppe. Widerspruch gibt es im Wesentlichen von zwei Ländern – Sie haben das eine genannt; es gibt noch ein anderes –, gerade im Bereich der Stellnetzfischerei. Sie sind gegen diese starke Einschränkung, bis hin zum Verbot in solchen Natura-2000-Gebieten.",
-            "sentences": [
-              {
-                "text": "Weil wir wollen, dass wir in der Frage vorankommen, ist die Bundesregierung als Erstes aktiv geworden, hat den Vorschlag erarbeitet, mein Ministerium zusammen mit dem Bundesumweltministerium, und verhandelt – leider schon seit einigen Jahren – mit der sogenannten Scheveningen-Gruppe."
-              },
-              {
-                "text": "Widerspruch gibt es im Wesentlichen von zwei Ländern – Sie haben das eine genannt; es gibt noch ein anderes –, gerade im Bereich der Stellnetzfischerei."
-              },
-              {
-                "text": "Sie sind gegen diese starke Einschränkung, bis hin zum Verbot in solchen Natura-2000-Gebieten."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Michael Stübgen",
-            "speakerstatus": "speaker",
-            "text": "Wir glauben, dass wir kurz vor dem Durchbruch beim Abschluss solch eines Verfahrens stehen. Wir müssen da zu einer Kompromisslinie finden, sodass wir dann der EU-Kommission diesen gemeinsamen Vorschlag machen können und sie ihn dann hoffentlich durch einen delegierten Rechtsakt ziemlich bald umsetzen kann. Hier ist vorteilhaft, dass sie den delegierten Rechtsakt als Kommission selber machen kann und dieser nicht noch ewig durch das Europäische Parlament muss.",
-            "sentences": [
-              {
-                "text": "Wir glauben, dass wir kurz vor dem Durchbruch beim Abschluss solch eines Verfahrens stehen."
-              },
-              {
-                "text": "Wir müssen da zu einer Kompromisslinie finden, sodass wir dann der EU-Kommission diesen gemeinsamen Vorschlag machen können und sie ihn dann hoffentlich durch einen delegierten Rechtsakt ziemlich bald umsetzen kann."
-              },
-              {
-                "text": "Hier ist vorteilhaft, dass sie den delegierten Rechtsakt als Kommission selber machen kann und dieser nicht noch ewig durch das Europäische Parlament muss."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Michael Stübgen",
-            "speakerstatus": "speaker",
-            "text": "Wie gesagt, wir haben das gemacht, um es zu beschleunigen. Wir sind bei der Nordsee vorangekommen. Ich hoffe, dass wir in diesem Jahr noch deutliche Schritte vorankommen. Dasselbe Verfahren werden wir jetzt bei der Ostsee anwenden. Dort erarbeitet mein Haus zusammen mit dem Bundesumweltministerium gerade die Kriterien und Vorschläge, um sie dann in der Scheveningen Group auch so durchzusetzen.",
-            "sentences": [
-              {
-                "text": "Wie gesagt, wir haben das gemacht, um es zu beschleunigen."
-              },
-              {
-                "text": "Wir sind bei der Nordsee vorangekommen."
-              },
-              {
-                "text": "Ich hoffe, dass wir in diesem Jahr noch deutliche Schritte vorankommen."
-              },
-              {
-                "text": "Dasselbe Verfahren werden wir jetzt bei der Ostsee anwenden."
-              },
-              {
-                "text": "Dort erarbeitet mein Haus zusammen mit dem Bundesumweltministerium gerade die Kriterien und Vorschläge, um sie dann in der Scheveningen Group auch so durchzusetzen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Weitere Nachfrage?",
-            "sentences": [
-              {
-                "text": "Weitere Nachfrage?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Steffi Lemke",
-            "speakerstatus": "speaker",
-            "text": "Ja. Danke, Herr Präsident. – Genau dahin geht meine Befürchtung: dass Sie sich jetzt auf einen Kompromiss einlassen. Die Vorschläge der Bundesregierung sind ja von Naturschutzorganisationen und auch von Fachinstitutionen des Naturschutzes deutlich dahin gehend kritisiert worden, dass sie nicht weit genug gehen und das europäische Naturschutzrecht unzureichend umsetzen. Ich befürchte, dass Sie diese Vorschläge jetzt nicht weiter verbessern und dieser Kompromiss, den Sie anstreben, genau dazu führt.",
-            "sentences": [
-              {
-                "text": "Ja."
-              },
-              {
-                "text": "Danke, Herr Präsident."
-              },
-              {
-                "text": "– Genau dahin geht meine Befürchtung: dass Sie sich jetzt auf einen Kompromiss einlassen."
-              },
-              {
-                "text": "Die Vorschläge der Bundesregierung sind ja von Naturschutzorganisationen und auch von Fachinstitutionen des Naturschutzes deutlich dahin gehend kritisiert worden, dass sie nicht weit genug gehen und das europäische Naturschutzrecht unzureichend umsetzen."
-              },
-              {
-                "text": "Ich befürchte, dass Sie diese Vorschläge jetzt nicht weiter verbessern und dieser Kompromiss, den Sie anstreben, genau dazu führt."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Steffi Lemke",
-            "speakerstatus": "speaker",
-            "text": "Wir haben zwei Rechtsgüter: das europäische Fische­reirecht und das Naturschutzrecht. Diese treffen sich jetzt in einem Konflikt. Es sind aber gleichberechtigte Schutzgüter. Meine Frage ist: Wie gedenken Sie diesen Konflikt zu lösen? Es kann nicht sein – das haben Sie eben skizziert –, dass Sie das Fischereirecht über das Naturschutzrecht stellen. Sie schreiben den jetzigen Zustand, dass in circa der Hälfte der Meeresschutzgebiete weiter naturschutzschädliche Fischereitechniken erlaubt sind, fort. Ich möchte gerne wissen, wie Sie da herauskommen wollen.",
-            "sentences": [
-              {
-                "text": "Wir haben zwei Rechtsgüter: das europäische Fische­reirecht und das Naturschutzrecht."
-              },
-              {
-                "text": "Diese treffen sich jetzt in einem Konflikt."
-              },
-              {
-                "text": "Es sind aber gleichberechtigte Schutzgüter."
-              },
-              {
-                "text": "Meine Frage ist: Wie gedenken Sie diesen Konflikt zu lösen?"
-              },
-              {
-                "text": "Es kann nicht sein – das haben Sie eben skizziert –, dass Sie das Fischereirecht über das Naturschutzrecht stellen."
-              },
-              {
-                "text": "Sie schreiben den jetzigen Zustand, dass in circa der Hälfte der Meeresschutzgebiete weiter naturschutzschädliche Fischereitechniken erlaubt sind, fort."
-              },
-              {
-                "text": "Ich möchte gerne wissen, wie Sie da herauskommen wollen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Michael Stübgen",
-            "speakerstatus": "speaker",
-            "text": "Wir wollen – das habe ich eben schon erläutert – durch den von uns gemachten Vorschlag, den wir möglichst schnell umsetzen möchten, da herauskommen.",
-            "sentences": [
-              {
-                "text": "Wir wollen – das habe ich eben schon erläutert – durch den von uns gemachten Vorschlag, den wir möglichst schnell umsetzen möchten, da herauskommen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Michael Stübgen",
-            "speakerstatus": "speaker",
-            "text": "Ich will aber die Gelegenheit für folgende kurze Anmerkung nutzen: Es gibt Vorschläge – das ist ihr gutes Recht – von vielen Naturschutzorganisationen, die sehr einseitig fokussiert auf ihre Interessen und Orientierungslage Vorschläge machen. Diese teilt die Bundesregierung nicht in jedem Fall.",
-            "sentences": [
-              {
-                "text": "Ich will aber die Gelegenheit für folgende kurze Anmerkung nutzen: Es gibt Vorschläge – das ist ihr gutes Recht – von vielen Naturschutzorganisationen, die sehr einseitig fokussiert auf ihre Interessen und Orientierungslage Vorschläge machen."
-              },
-              {
-                "text": "Diese teilt die Bundesregierung nicht in jedem Fall."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Michael Stübgen",
-            "speakerstatus": "speaker",
-            "text": "Es gibt aber auch Fischereiinteressen, die nachvollziehbar sind, die wir auch schützen wollen und die im Übrigen auch wichtig sind. Deshalb kommt es bei solchen Fragen immer darauf an, den Ausgleich, den Mittelweg zu finden, dass auf der einen Seite die Naturschutz- und Artenschutzinteressen ausreichen – niemals zu 100 Prozent – und auf der anderen Seite die Fischereiinteressen gewahrt werden können.",
-            "sentences": [
-              {
-                "text": "Es gibt aber auch Fischereiinteressen, die nachvollziehbar sind, die wir auch schützen wollen und die im Übrigen auch wichtig sind."
-              },
-              {
-                "text": "Deshalb kommt es bei solchen Fragen immer darauf an, den Ausgleich, den Mittelweg zu finden, dass auf der einen Seite die Naturschutz- und Artenschutzinteressen ausreichen – niemals zu 100 Prozent – und auf der anderen Seite die Fischereiinteressen gewahrt werden können."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Michael Stübgen",
-            "speakerstatus": "speaker",
-            "text": "Wichtig ist Folgendes – darauf will ich hinweisen; denn das fehlt mir bei Kommentierungen, gerade von Naturschutzorganisationen, regelmäßig –: Wenn Sie die Populationsentwicklung der Fische zum Beispiel in der Ostsee in den letzten zehn Jahren – Sie müssen einen längeren Zeitraum nehmen – anschauen, können Sie feststellen, dass sich die Populationen vieler Fischarten deutlich stabilisiert haben.",
-            "sentences": [
-              {
-                "text": "Wichtig ist Folgendes – darauf will ich hinweisen; denn das fehlt mir bei Kommentierungen, gerade von Naturschutzorganisationen, regelmäßig –: Wenn Sie die Populationsentwicklung der Fische zum Beispiel in der Ostsee in den letzten zehn Jahren – Sie müssen einen längeren Zeitraum nehmen – anschauen, können Sie feststellen, dass sich die Populationen vieler Fischarten deutlich stabilisiert haben."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Michael Stübgen",
-            "speakerstatus": "speaker",
-            "text": "– Doch! – Natürlich haben Sie immer wieder Situationen wie in diesem Jahr, dass in der Ostsee die Entwicklungskurve beim Hering eine Delle hat und die Fangquoten heruntergesetzt werden. Gleichzeitig hat der Ostsee-Dorsch, der schon mal fast als ausgestorben gegolten hat, sich deutlich erholt, weswegen die Fangquoten hochgesetzt wurden.",
-            "sentences": [
-              {
-                "text": "– Doch!"
-              },
-              {
-                "text": "– Natürlich haben Sie immer wieder Situationen wie in diesem Jahr, dass in der Ostsee die Entwicklungskurve beim Hering eine Delle hat und die Fangquoten heruntergesetzt werden."
-              },
-              {
-                "text": "Gleichzeitig hat der Ostsee-Dorsch, der schon mal fast als ausgestorben gegolten hat, sich deutlich erholt, weswegen die Fangquoten hochgesetzt wurden."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Michael Stübgen",
-            "speakerstatus": "speaker",
-            "text": "Ich will nur sagen: Die europäische Fischereipolitik, die in vielen Bereichen nicht die beste ist – ich kenne andere in Island, die da durchaus besser und erfolgreicher sind –, zeigt Erfolge, nämlich dass Fischbestände sich auch wieder erholen und bedrohte Fischbestände nicht mehr unter Bedrohung stehen.",
-            "sentences": [
-              {
-                "text": "Ich will nur sagen: Die europäische Fischereipolitik, die in vielen Bereichen nicht die beste ist – ich kenne andere in Island, die da durchaus besser und erfolgreicher sind –, zeigt Erfolge, nämlich dass Fischbestände sich auch wieder erholen und bedrohte Fischbestände nicht mehr unter Bedrohung stehen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Michael Stübgen",
-            "speakerstatus": "speaker",
-            "text": "Insofern ist es nicht richtig, dass alles falsch ist. Aber vieles könnte auch unter Naturschutzgesichtspunkten besser sein.",
-            "sentences": [
-              {
-                "text": "Insofern ist es nicht richtig, dass alles falsch ist."
-              },
-              {
-                "text": "Aber vieles könnte auch unter Naturschutzgesichtspunkten besser sein."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Damit sind Sie zum Schluss gekommen. Eine weitere Nachfrage ist nicht mehr möglich.",
-            "sentences": [
-              {
-                "text": "Damit sind Sie zum Schluss gekommen."
-              },
-              {
-                "text": "Eine weitere Nachfrage ist nicht mehr möglich."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Wir sind damit fertig mit dem Bereich des Bundesministeriums für Ernährung und Landwirtschaft.",
-            "sentences": [
-              {
-                "text": "Wir sind damit fertig mit dem Bereich des Bundesministeriums für Ernährung und Landwirtschaft."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Ich rufe jetzt den Geschäftsbereich des Bundesministeriums für Familie, Senioren, Frauen und Jugend auf.",
-            "sentences": [
-              {
-                "text": "Ich rufe jetzt den Geschäftsbereich des Bundesministeriums für Familie, Senioren, Frauen und Jugend auf."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Zur Beantwortung steht bereit der Parlamentarische Staatssekretär Stefan Zierke.",
-            "sentences": [
-              {
-                "text": "Zur Beantwortung steht bereit der Parlamentarische Staatssekretär Stefan Zierke."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Wir kommen zu Frage 46 der Abgeordneten Katrin Werner, Die Linke:",
-            "sentences": [
-              {
-                "text": "Wir kommen zu Frage 46 der Abgeordneten Katrin Werner, Die Linke:"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Herr Staatssekretär, Sie haben das Wort.",
-            "sentences": [
-              {
-                "text": "Herr Staatssekretär, Sie haben das Wort."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Stefan Zierke",
-            "speakerstatus": "speaker",
-            "text": "Sehr geehrter Herr Präsident, sehr geehrte Abgeordnete Werner, die drei Bildungszentren des Bundes in Bad Staffelstein, Kiel und Trier-Saarburg sind bereits barrierefrei. Zudem verfügen sie über rollstuhlgerecht eingerichtete Zimmer einschließlich adäquater Nasszellen.",
-            "sentences": [
-              {
-                "text": "Sehr geehrter Herr Präsident, sehr geehrte Abgeordnete Werner, die drei Bildungszentren des Bundes in Bad Staffelstein, Kiel und Trier-Saarburg sind bereits barrierefrei."
-              },
-              {
-                "text": "Zudem verfügen sie über rollstuhlgerecht eingerichtete Zimmer einschließlich adäquater Nasszellen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Möchten Sie eine Zusatzfrage stellen?",
-            "sentences": [
-              {
-                "text": "Möchten Sie eine Zusatzfrage stellen?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Katrin Werner",
-            "speakerstatus": "speaker",
-            "text": "Danke schön für die Beantwortung, Herr Zierke. – Natürlich geht es einmal um die bauliche Barrierefreiheit. Aber man kann das ja noch ein Stück erweitern und damit den Zugang auch für Teilnehmerinnen und Teilnehmer des Bundesfreiwilligendienstes inklusiver gestalten. Da stellt sich dann schon die Frage: Gibt es denn auch kurzfristig Möglichkeiten, beispielsweise persönliche Assistenten oder aber auch Gebärdendolmetscher zur Verfügung zu stellen? Und in diesem Zusammenhang: Wer trägt diese Kosten? Trägt sie das Ministerium? Oder ist die Angst der Träger berechtigt, dass sie im Rahmen des Programms die Kosten selber tragen müssen?",
-            "sentences": [
-              {
-                "text": "Danke schön für die Beantwortung, Herr Zierke."
-              },
-              {
-                "text": "– Natürlich geht es einmal um die bauliche Barrierefreiheit."
-              },
-              {
-                "text": "Aber man kann das ja noch ein Stück erweitern und damit den Zugang auch für Teilnehmerinnen und Teilnehmer des Bundesfreiwilligendienstes inklusiver gestalten."
-              },
-              {
-                "text": "Da stellt sich dann schon die Frage: Gibt es denn auch kurzfristig Möglichkeiten, beispielsweise persönliche Assistenten oder aber auch Gebärdendolmetscher zur Verfügung zu stellen?"
-              },
-              {
-                "text": "Und in diesem Zusammenhang: Wer trägt diese Kosten?"
-              },
-              {
-                "text": "Trägt sie das Ministerium?"
-              },
-              {
-                "text": "Oder ist die Angst der Träger berechtigt, dass sie im Rahmen des Programms die Kosten selber tragen müssen?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Stefan Zierke",
-            "speakerstatus": "speaker",
-            "text": "Sehr geehrte Abgeordnete Werner, das Problem kennen wir. Wir arbeiten im Ministerium daran und überlegen uns, wie wir bei den Problemen, die Sie geschildert haben, Hilfe leisten.",
-            "sentences": [
-              {
-                "text": "Sehr geehrte Abgeordnete Werner, das Problem kennen wir."
-              },
-              {
-                "text": "Wir arbeiten im Ministerium daran und überlegen uns, wie wir bei den Problemen, die Sie geschildert haben, Hilfe leisten."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Weitere Zusatzfrage?",
-            "sentences": [
-              {
-                "text": "Weitere Zusatzfrage?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Katrin Werner",
-            "speakerstatus": "speaker",
-            "text": "Ich habe die beiden Zusatzfragen zusammen gestellt.",
-            "sentences": [
-              {
-                "text": "Ich habe die beiden Zusatzfragen zusammen gestellt."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Ich rufe dann die Frage 47 der Kollegin Katrin Werner auf:",
-            "sentences": [
-              {
-                "text": "Ich rufe dann die Frage 47 der Kollegin Katrin Werner auf:"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Herr Staatssekretär, Sie haben das Wort.",
-            "sentences": [
-              {
-                "text": "Herr Staatssekretär, Sie haben das Wort."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Stefan Zierke",
-            "speakerstatus": "speaker",
-            "text": "Vielen Dank, Herr Präsident. – Sehr geehrte Abgeordnete Werner, im Auftrag des Bundesministeriums erarbeitet das Expertise- und Forschungszentrum Adoption derzeit eine „Handreichung für die Praxis: Beratung und Begleitung im Bereich Adoption“. Diese wird die umfassenden Forschungsergebnisse des EFZA aufgreifen und den Fachkräften der Adoptionsvermittlungsstellen eine praktische Orientierungshilfe für ihre Arbeit geben. So kann bei der Durchführung der Vermittlungsverfahren die Anwendung vergleichbarer Kriterien erreicht werden.",
-            "sentences": [
-              {
-                "text": "Vielen Dank, Herr Präsident."
-              },
-              {
-                "text": "– Sehr geehrte Abgeordnete Werner, im Auftrag des Bundesministeriums erarbeitet das Expertise- und Forschungszentrum Adoption derzeit eine „Handreichung für die Praxis: Beratung und Begleitung im Bereich Adoption“."
-              },
-              {
-                "text": "Diese wird die umfassenden Forschungsergebnisse des EFZA aufgreifen und den Fachkräften der Adoptionsvermittlungsstellen eine praktische Orientierungshilfe für ihre Arbeit geben."
-              },
-              {
-                "text": "So kann bei der Durchführung der Vermittlungsverfahren die Anwendung vergleichbarer Kriterien erreicht werden."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Stefan Zierke",
-            "speakerstatus": "speaker",
-            "text": "Die Handreichung wird in Form einer modular angelegten Onlineveröffentlichung angeboten und soll schrittweise bis Mitte 2019 fertiggestellt sein. Das Basismodul 1, das die Vorbereitung der Adoption und damit auch die Eignungsprüfung der sich um eine Adoption Bewerbenden behandelt, soll bereits Ende 2018 fertiggestellt und veröffentlicht werden.",
-            "sentences": [
-              {
-                "text": "Die Handreichung wird in Form einer modular angelegten Onlineveröffentlichung angeboten und soll schrittweise bis Mitte 2019 fertiggestellt sein."
-              },
-              {
-                "text": "Das Basismodul 1, das die Vorbereitung der Adoption und damit auch die Eignungsprüfung der sich um eine Adoption Bewerbenden behandelt, soll bereits Ende 2018 fertiggestellt und veröffentlicht werden."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Haben Sie noch eine Zusatzfrage?",
-            "sentences": [
-              {
-                "text": "Haben Sie noch eine Zusatzfrage?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Katrin Werner",
-            "speakerstatus": "speaker",
-            "text": "Gibt es noch weitere Maßnahmen vonseiten des Ministeriums, um ein diskriminierungsfreies Adoptionsverfahren für gleichgeschlechtliche Paare sicherzustellen? Können Sie dazu schon etwas sagen, oder liegt das im Rahmen dessen, was Sie hier vorgetragen haben?",
-            "sentences": [
-              {
-                "text": "Gibt es noch weitere Maßnahmen vonseiten des Ministeriums, um ein diskriminierungsfreies Adoptionsverfahren für gleichgeschlechtliche Paare sicherzustellen?"
-              },
-              {
-                "text": "Können Sie dazu schon etwas sagen, oder liegt das im Rahmen dessen, was Sie hier vorgetragen haben?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Stefan Zierke",
-            "speakerstatus": "speaker",
-            "text": "Das ist der Auftrag, herauszuarbeiten, welche weiteren Maßnahmen noch durchgeführt werden können. Die Ergebnisse der Beratung werden wir Ihnen dann bekannt geben und schauen, wie sie umgesetzt werden können.",
-            "sentences": [
-              {
-                "text": "Das ist der Auftrag, herauszuarbeiten, welche weiteren Maßnahmen noch durchgeführt werden können."
-              },
-              {
-                "text": "Die Ergebnisse der Beratung werden wir Ihnen dann bekannt geben und schauen, wie sie umgesetzt werden können."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Vielen Dank. – Damit sind wir am Ende der Fragestunde.",
-            "sentences": [
-              {
-                "text": "Vielen Dank."
-              },
-              {
-                "text": "– Damit sind wir am Ende der Fragestunde."
-              }
-            ]
           }
         ]
       }
@@ -5810,7 +4032,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 72,
+      "speechIndex": 1074,
       "title": "Aktuelle Stunde zur Seenotrettung im Mittelmeer"
     },
     "people": [
@@ -5823,12 +4045,45 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19041-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19041-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
         "originTextID": "",
         "textBody": [
+          {
+            "type": "speech",
+            "speaker": "Thomas Oppermann",
+            "speakerstatus": "vice-president",
+            "text": "Aktuelle Stunde",
+            "sentences": [
+              {
+                "text": "Aktuelle Stunde"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Thomas Oppermann",
+            "speakerstatus": "vice-president",
+            "text": "auf Verlangen der Fraktion DIE LINKE",
+            "sentences": [
+              {
+                "text": "auf Verlangen der Fraktion DIE LINKE"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Thomas Oppermann",
+            "speakerstatus": "vice-president",
+            "text": "Seenotrettung im Mittelmeer durchsetzen",
+            "sentences": [
+              {
+                "text": "Seenotrettung im Mittelmeer durchsetzen"
+              }
+            ]
+          },
           {
             "type": "speech",
             "speaker": "Thomas Oppermann",
@@ -5872,7 +4127,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 73,
+      "speechIndex": 1075,
       "title": "Aktuelle Stunde zur Seenotrettung im Mittelmeer"
     },
     "people": [
@@ -5893,7 +4148,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19041-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19041-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -6618,7 +4873,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 74,
+      "speechIndex": 1076,
       "title": "Aktuelle Stunde zur Seenotrettung im Mittelmeer"
     },
     "people": [
@@ -6639,7 +4894,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19041-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19041-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -7305,7 +5560,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 75,
+      "speechIndex": 1077,
       "title": "Aktuelle Stunde zur Seenotrettung im Mittelmeer"
     },
     "people": [
@@ -7326,7 +5581,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19041-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19041-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -8001,7 +6256,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 76,
+      "speechIndex": 1078,
       "title": "Aktuelle Stunde zur Seenotrettung im Mittelmeer"
     },
     "people": [
@@ -8022,7 +6277,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19041-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19041-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -8330,7 +6585,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 77,
+      "speechIndex": 1079,
       "title": "Aktuelle Stunde zur Seenotrettung im Mittelmeer"
     },
     "people": [
@@ -8351,7 +6606,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19041-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19041-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -8814,7 +7069,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 78,
+      "speechIndex": 1080,
       "title": "Aktuelle Stunde zur Seenotrettung im Mittelmeer"
     },
     "people": [
@@ -8835,7 +7090,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19041-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19041-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -9062,16 +7317,157 @@
   {
     "parliament": "DE",
     "electoralPeriod": {
-      "number": 19
+      "number": "19"
     },
     "session": {
-      "number": 41
+      "number": "41",
+      "dateStart": "2018-06-27T13:00",
+      "dateEnd": "2018-06-27T17:19"
     },
     "agendaItem": {
-      "title": "Aktuelle Stunde zur Seenotrettung im Mittelmeer",
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 32
+      "speechIndex": 1090,
+      "title": "Aktuelle Stunde zur Seenotrettung im Mittelmeer"
     },
+    "people": [
+      {
+        "type": "memberOfParliament",
+        "label": "Claudia Roth",
+        "context": "vice-president"
+      }
+    ],
+    "textContents": [
+      {
+        "type": "proceedings",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19041-data.xml",
+        "creator": "Deutscher Bundestag",
+        "license": "Public Domain",
+        "language": "DE-de",
+        "originTextID": "",
+        "textBody": [
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "Jetzt ist überwiegend Herr Kuffer dran.",
+            "sentences": [
+              {
+                "text": "Jetzt ist überwiegend Herr Kuffer dran."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "Herr Kuffer, Sie sind jetzt dran.",
+            "sentences": [
+              {
+                "text": "Herr Kuffer, Sie sind jetzt dran."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "Danke, Michael Kuffer. – Damit schließe ich die Aussprache in dieser Aktuellen Stunde.",
+            "sentences": [
+              {
+                "text": "Danke, Michael Kuffer."
+              },
+              {
+                "text": "– Damit schließe ich die Aussprache in dieser Aktuellen Stunde."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "Wir sind am Schluss der heutigen Tagesordnung.",
+            "sentences": [
+              {
+                "text": "Wir sind am Schluss der heutigen Tagesordnung."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "Sie wissen, wann die Sitzung morgen anfängt: Ich berufe die nächste Sitzung auf Donnerstag, 9 Uhr, ein.",
+            "sentences": [
+              {
+                "text": "Sie wissen, wann die Sitzung morgen anfängt: Ich berufe die nächste Sitzung auf Donnerstag, 9 Uhr, ein."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "Ich würde allen, die morgen reden, empfehlen, schon bei der Vorbereitung auf die Rede an die Einhaltung der Redezeit zu denken, weil die Tagesordnung im Moment vorsieht, dass die Sitzung bis 3 Uhr morgens geht. Wolfgang Kubicki wird alles dafür tun, dass wir vielleicht um 2.45 Uhr fertig sind.",
+            "sentences": [
+              {
+                "text": "Ich würde allen, die morgen reden, empfehlen, schon bei der Vorbereitung auf die Rede an die Einhaltung der Redezeit zu denken, weil die Tagesordnung im Moment vorsieht, dass die Sitzung bis 3 Uhr morgens geht."
+              },
+              {
+                "text": "Wolfgang Kubicki wird alles dafür tun, dass wir vielleicht um 2.45 Uhr fertig sind."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "Ich wünsche Ihnen noch einen schönen Nachmittag und bedanke mich bei Ihnen herzlich.",
+            "sentences": [
+              {
+                "text": "Ich wünsche Ihnen noch einen schönen Nachmittag und bedanke mich bei Ihnen herzlich."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "Die Sitzung ist geschlossen.",
+            "sentences": [
+              {
+                "text": "Die Sitzung ist geschlossen."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "Berichtigung",
+            "sentences": [
+              {
+                "text": "Berichtigung"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "40. Sitzung, Seite 3943 B, im dritten Absatz ist wie folgt zu lesen: „Die Stiftung Wissenschaft und Politik, eine der bedeutendsten Denkfabriken Westeuropas, wie es schwärmerisch beispielsweise bei Wikipedia heißt, erhält 12 Millionen Euro Zuwendungen, beschäftigt 140 Mitarbeiter und macht gute Arbeit.“",
+            "sentences": [
+              {
+                "text": "40. Sitzung, Seite 3943 B, im dritten Absatz ist wie folgt zu lesen: „Die Stiftung Wissenschaft und Politik, eine der bedeutendsten Denkfabriken Westeuropas, wie es schwärmerisch beispielsweise bei Wikipedia heißt, erhält 12 Millionen Euro Zuwendungen, beschäftigt 140 Mitarbeiter und macht gute Arbeit.“"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "documents": [],
+    "key": "19-41 zusatzpunkt 1 (claudia roth)",
+    "dateStart": "2018-06-27T14:07:56",
+    "dateEnd": "2018-06-27T14:25:31",
     "media": {
       "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7249090/7249090_h264_720_400_2000kb_baseline_de_2192.mp4",
       "sourcePage": "http://dbtg.tv/fvid/7249090",
@@ -9080,18 +7476,7 @@
       "license": "CC-BY-SA",
       "originMediaID": "7249090",
       "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7249090/7249090_mp3_128kb_stereo_de_128.mp3"
-    },
-    "dateStart": "2018-06-27T14:07:56",
-    "dateEnd": "2018-06-27T14:25:31",
-    "people": [
-      {
-        "label": "Claudia Roth",
-        "faction": "BÜNDNIS 90/DIE GRÜNEN",
-        "context": "main-speaker",
-        "role": "Bundestagsvizepräsidentin"
-      }
-    ],
-    "key": "19-41 zusatzpunkt 1 (claudia roth)"
+    }
   },
   {
     "parliament": "DE",
@@ -9105,7 +7490,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 79,
+      "speechIndex": 1081,
       "title": "Aktuelle Stunde zur Seenotrettung im Mittelmeer"
     },
     "people": [
@@ -9126,7 +7511,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19041-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19041-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -9686,7 +8071,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 80,
+      "speechIndex": 1082,
       "title": "Aktuelle Stunde zur Seenotrettung im Mittelmeer"
     },
     "people": [
@@ -9707,7 +8092,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19041-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19041-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -10162,7 +8547,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 81,
+      "speechIndex": 1083,
       "title": "Aktuelle Stunde zur Seenotrettung im Mittelmeer"
     },
     "people": [
@@ -10183,7 +8568,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19041-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19041-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -10661,7 +9046,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 82,
+      "speechIndex": 1084,
       "title": "Aktuelle Stunde zur Seenotrettung im Mittelmeer"
     },
     "people": [
@@ -10682,7 +9067,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19041-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19041-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -11268,7 +9653,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 83,
+      "speechIndex": 1085,
       "title": "Aktuelle Stunde zur Seenotrettung im Mittelmeer"
     },
     "people": [
@@ -11289,7 +9674,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19041-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19041-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -11847,7 +10232,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 84,
+      "speechIndex": 1086,
       "title": "Aktuelle Stunde zur Seenotrettung im Mittelmeer"
     },
     "people": [
@@ -11868,7 +10253,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19041-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19041-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -12397,7 +10782,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 85,
+      "speechIndex": 1087,
       "title": "Aktuelle Stunde zur Seenotrettung im Mittelmeer"
     },
     "people": [
@@ -12418,7 +10803,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19041-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19041-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -13067,7 +11452,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 86,
+      "speechIndex": 1088,
       "title": "Aktuelle Stunde zur Seenotrettung im Mittelmeer"
     },
     "people": [
@@ -13088,7 +11473,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19041-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19041-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -13572,7 +11957,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 87,
+      "speechIndex": 1089,
       "title": "Aktuelle Stunde zur Seenotrettung im Mittelmeer"
     },
     "people": [
@@ -13593,7 +11978,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19041-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19041-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -14156,128 +12541,6 @@
             "sentences": [
               {
                 "text": "(Beifall bei der CDU/CSU sowie des Abg. Dr. Alexander Gauland [AfD])"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Michael Kuffer",
-            "speakerstatus": "main-speaker",
-            "text": "Deshalb bitte ich Sie auch zum Schluss, liebe Kolleginnen und Kollegen von der Linken, weil ich weiß, dass Sie leider häufig in die Falle tappen, dass Sie human handeln wollen und dann naive Inhumanität die Folge ist – ich bitte Sie wirklich –: Verlieren Sie nicht die Lösung aus den Augen! Schaffen Sie keine falschen Illusionen! Erzeugen Sie keine Hoffnungen, die wir nicht erfüllen können, und befördern Sie damit bitte nicht weiterhin das unheilvolle Geschäft krimineller Schlepperbanden!",
-            "sentences": [
-              {
-                "text": "Deshalb bitte ich Sie auch zum Schluss, liebe Kolleginnen und Kollegen von der Linken, weil ich weiß, dass Sie leider häufig in die Falle tappen, dass Sie human handeln wollen und dann naive Inhumanität die Folge ist – ich bitte Sie wirklich –: Verlieren Sie nicht die Lösung aus den Augen!"
-              },
-              {
-                "text": "Schaffen Sie keine falschen Illusionen!"
-              },
-              {
-                "text": "Erzeugen Sie keine Hoffnungen, die wir nicht erfüllen können, und befördern Sie damit bitte nicht weiterhin das unheilvolle Geschäft krimineller Schlepperbanden!"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Michael Kuffer",
-            "speakerstatus": "main-speaker",
-            "text": "Vielen Dank.",
-            "sentences": [
-              {
-                "text": "Vielen Dank."
-              }
-            ]
-          },
-          {
-            "type": "comment",
-            "speaker": null,
-            "speakerstatus": null,
-            "text": "(Beifall bei der CDU/CSU)",
-            "sentences": [
-              {
-                "text": "(Beifall bei der CDU/CSU)"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Claudia Roth",
-            "speakerstatus": "vice-president",
-            "text": "Danke, Michael Kuffer. – Damit schließe ich die Aussprache in dieser Aktuellen Stunde.",
-            "sentences": [
-              {
-                "text": "Danke, Michael Kuffer."
-              },
-              {
-                "text": "– Damit schließe ich die Aussprache in dieser Aktuellen Stunde."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Claudia Roth",
-            "speakerstatus": "vice-president",
-            "text": "Wir sind am Schluss der heutigen Tagesordnung.",
-            "sentences": [
-              {
-                "text": "Wir sind am Schluss der heutigen Tagesordnung."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Claudia Roth",
-            "speakerstatus": "vice-president",
-            "text": "Sie wissen, wann die Sitzung morgen anfängt: Ich berufe die nächste Sitzung auf Donnerstag, 9 Uhr, ein.",
-            "sentences": [
-              {
-                "text": "Sie wissen, wann die Sitzung morgen anfängt: Ich berufe die nächste Sitzung auf Donnerstag, 9 Uhr, ein."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Claudia Roth",
-            "speakerstatus": "vice-president",
-            "text": "Ich würde allen, die morgen reden, empfehlen, schon bei der Vorbereitung auf die Rede an die Einhaltung der Redezeit zu denken, weil die Tagesordnung im Moment vorsieht, dass die Sitzung bis 3 Uhr morgens geht. Wolfgang Kubicki wird alles dafür tun, dass wir vielleicht um 2.45 Uhr fertig sind.",
-            "sentences": [
-              {
-                "text": "Ich würde allen, die morgen reden, empfehlen, schon bei der Vorbereitung auf die Rede an die Einhaltung der Redezeit zu denken, weil die Tagesordnung im Moment vorsieht, dass die Sitzung bis 3 Uhr morgens geht."
-              },
-              {
-                "text": "Wolfgang Kubicki wird alles dafür tun, dass wir vielleicht um 2.45 Uhr fertig sind."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Claudia Roth",
-            "speakerstatus": "vice-president",
-            "text": "Ich wünsche Ihnen noch einen schönen Nachmittag und bedanke mich bei Ihnen herzlich.",
-            "sentences": [
-              {
-                "text": "Ich wünsche Ihnen noch einen schönen Nachmittag und bedanke mich bei Ihnen herzlich."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Claudia Roth",
-            "speakerstatus": "vice-president",
-            "text": "Die Sitzung ist geschlossen.",
-            "sentences": [
-              {
-                "text": "Die Sitzung ist geschlossen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Claudia Roth",
-            "speakerstatus": "vice-president",
-            "text": "40. Sitzung, Seite 3943 B, im dritten Absatz ist wie folgt zu lesen: „Die Stiftung Wissenschaft und Politik, eine der bedeutendsten Denkfabriken Westeuropas, wie es schwärmerisch beispielsweise bei Wikipedia heißt, erhält 12 Millionen Euro Zuwendungen, beschäftigt 140 Mitarbeiter und macht gute Arbeit.“",
-            "sentences": [
-              {
-                "text": "40. Sitzung, Seite 3943 B, im dritten Absatz ist wie folgt zu lesen: „Die Stiftung Wissenschaft und Politik, eine der bedeutendsten Denkfabriken Westeuropas, wie es schwärmerisch beispielsweise bei Wikipedia heißt, erhält 12 Millionen Euro Zuwendungen, beschäftigt 140 Mitarbeiter und macht gute Arbeit.“"
               }
             ]
           }

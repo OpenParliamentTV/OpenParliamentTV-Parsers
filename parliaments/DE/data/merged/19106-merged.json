@@ -11,7 +11,7 @@
     },
     "agendaItem": {
       "officialTitle": "Sitzungseröffnung",
-      "speechIndex": 0,
+      "speechIndex": 1000,
       "title": "Sitzungseröffnung"
     },
     "people": [
@@ -24,7 +24,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19106-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19106-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -207,7 +207,7 @@
     },
     "agendaItem": {
       "officialTitle": "Sitzungseröffnung",
-      "speechIndex": 1,
+      "speechIndex": 1001,
       "title": "Sitzungseröffnung"
     },
     "people": [
@@ -220,7 +220,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19106-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19106-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -403,7 +403,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 2,
+      "speechIndex": 1002,
       "title": "Befragung der Bundesregierung"
     },
     "people": [
@@ -416,12 +416,23 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19106-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19106-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
         "originTextID": "",
         "textBody": [
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "Befragung der Bundesregierung",
+            "sentences": [
+              {
+                "text": "Befragung der Bundesregierung"
+              }
+            ]
+          },
           {
             "type": "speech",
             "speaker": "Wolfgang Schäuble",
@@ -465,7 +476,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 3,
+      "speechIndex": 1003,
       "title": "Befragung der Bundesregierung"
     },
     "people": [
@@ -486,7 +497,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19106-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19106-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -719,16 +730,63 @@
   {
     "parliament": "DE",
     "electoralPeriod": {
-      "number": 19
+      "number": "19"
     },
     "session": {
-      "number": 106
+      "number": "106",
+      "dateStart": "2019-06-26T13:00",
+      "dateEnd": "2019-06-26T18:59"
     },
     "agendaItem": {
-      "title": "Befragung der Bundesregierung",
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 5
+      "speechIndex": 1074,
+      "title": "Befragung der Bundesregierung"
     },
+    "people": [
+      {
+        "type": "memberOfParliament",
+        "label": "Wolfgang Kubicki",
+        "context": "vice-president"
+      }
+    ],
+    "textContents": [
+      {
+        "type": "proceedings",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19106-data.xml",
+        "creator": "Deutscher Bundestag",
+        "license": "Public Domain",
+        "language": "DE-de",
+        "originTextID": "",
+        "textBody": [
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Kubicki",
+            "speakerstatus": "vice-president",
+            "text": "Vielen Dank, Frau Bundeskanzlerin, für Ihre Bereitschaft, hier Rede und Antwort zu stehen.",
+            "sentences": [
+              {
+                "text": "Vielen Dank, Frau Bundeskanzlerin, für Ihre Bereitschaft, hier Rede und Antwort zu stehen."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Kubicki",
+            "speakerstatus": "vice-president",
+            "text": "Damit ist die Befragung abgeschlossen.",
+            "sentences": [
+              {
+                "text": "Damit ist die Befragung abgeschlossen."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "documents": [],
+    "key": "19-106 tagesordnungspunkt 1 (wolfgang kubicki)",
+    "dateStart": "2019-06-26T12:11:45",
+    "dateEnd": "2019-06-26T12:11:56",
     "media": {
       "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7366767/7366767_h264_720_400_2000kb_baseline_de_2192.mp4",
       "sourcePage": "http://dbtg.tv/fvid/7366767",
@@ -737,18 +795,7 @@
       "license": "CC-BY-SA",
       "originMediaID": "7366767",
       "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7366767/7366767_mp3_128kb_stereo_de_128.mp3"
-    },
-    "dateStart": "2019-06-26T12:11:45",
-    "dateEnd": "2019-06-26T12:11:56",
-    "people": [
-      {
-        "label": "Wolfgang Kubicki",
-        "faction": "FDP",
-        "context": "main-speaker",
-        "role": "Bundestagsvizepräsident"
-      }
-    ],
-    "key": "19-106 tagesordnungspunkt 1 (wolfgang kubicki)"
+    }
   },
   {
     "parliament": "DE",
@@ -1646,7 +1693,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 3",
-      "speechIndex": 99,
+      "speechIndex": 1101,
       "title": "Fragestunde"
     },
     "people": [
@@ -1774,12 +1821,23 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19106-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19106-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
         "originTextID": "",
         "textBody": [
+          {
+            "type": "speech",
+            "speaker": "Thomas Oppermann",
+            "speakerstatus": "vice-president",
+            "text": "Fragestunde",
+            "sentences": [
+              {
+                "text": "Fragestunde"
+              }
+            ]
+          },
           {
             "type": "speech",
             "speaker": "Thomas Oppermann",
@@ -5650,7 +5708,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 3",
-      "speechIndex": 100,
+      "speechIndex": 1102,
       "title": "Fragestunde"
     },
     "people": [
@@ -5725,65 +5783,28 @@
         "lastname": "Polat",
         "context": "speaker",
         "faction": "BÜNDNIS 90/DIE GRÜNEN"
-      },
-      {
-        "type": "memberOfParliament",
-        "label": "Paul Viktor Podolay",
-        "firstname": "Paul Viktor",
-        "lastname": "Podolay",
-        "context": "speaker",
-        "faction": "AfD"
-      },
-      {
-        "type": "memberOfParliament",
-        "label": "Thomas Silberhorn",
-        "firstname": "Thomas",
-        "lastname": "Silberhorn",
-        "context": "speaker",
-        "faction": ""
-      },
-      {
-        "type": "memberOfParliament",
-        "label": "Hans-Joachim Fuchtel",
-        "firstname": "Hans-Joachim",
-        "lastname": "Fuchtel",
-        "context": "speaker",
-        "faction": ""
-      },
-      {
-        "type": "memberOfParliament",
-        "label": "Steffi Lemke",
-        "firstname": "Steffi",
-        "lastname": "Lemke",
-        "context": "speaker",
-        "faction": "BÜNDNIS 90/DIE GRÜNEN"
-      },
-      {
-        "type": "memberOfParliament",
-        "label": "Marco Wanderwitz",
-        "firstname": "Marco",
-        "lastname": "Wanderwitz",
-        "context": "speaker",
-        "faction": ""
-      },
-      {
-        "type": "memberOfParliament",
-        "label": "Lars Herrmann",
-        "firstname": "Lars",
-        "lastname": "Herrmann",
-        "context": "speaker",
-        "faction": "AfD"
       }
     ],
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19106-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19106-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
         "originTextID": "",
         "textBody": [
+          {
+            "type": "speech",
+            "speaker": "Thomas Oppermann",
+            "speakerstatus": "vice-president",
+            "text": "Fragestunde",
+            "sentences": [
+              {
+                "text": "Fragestunde"
+              }
+            ]
+          },
           {
             "type": "speech",
             "speaker": "Thomas Oppermann",
@@ -7558,1590 +7579,6 @@
                 "text": "Sie befindet sich aber noch im Bearbeitungsstadium."
               }
             ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Kerstin Griese",
-            "speakerstatus": "speaker",
-            "text": "Bei den Anhörungen, die wir im Oktober 2018 hatten, haben sowohl die Bundesländer als auch die Verbände der Menschen mit Behinderung verschiedene Punkte vorgetragen. Für diese hat das Bundesministerium für Arbeit und Soziales jetzt schon Lösungsvorschläge entwickelt. Außerdem hatten wir im Mai 2019 noch einmal eine ausführliche Besprechung mit dem Deutschen Behindertenrat, der wiederum weitere Punkte benannt hat, die jetzt geprüft werden. Erst im Anschluss daran werden wir über das weitere Vorgehen bei der Änderung der Versorgungsmedizin-Verordnung entscheiden. Auch der von Ihnen nachgefragte Begriff des „bestmöglichen Behandlungsergebnisses“ wird dann geklärt werden.",
-            "sentences": [
-              {
-                "text": "Bei den Anhörungen, die wir im Oktober 2018 hatten, haben sowohl die Bundesländer als auch die Verbände der Menschen mit Behinderung verschiedene Punkte vorgetragen."
-              },
-              {
-                "text": "Für diese hat das Bundesministerium für Arbeit und Soziales jetzt schon Lösungsvorschläge entwickelt."
-              },
-              {
-                "text": "Außerdem hatten wir im Mai 2019 noch einmal eine ausführliche Besprechung mit dem Deutschen Behindertenrat, der wiederum weitere Punkte benannt hat, die jetzt geprüft werden."
-              },
-              {
-                "text": "Erst im Anschluss daran werden wir über das weitere Vorgehen bei der Änderung der Versorgungsmedizin-Verordnung entscheiden."
-              },
-              {
-                "text": "Auch der von Ihnen nachgefragte Begriff des „bestmöglichen Behandlungsergebnisses“ wird dann geklärt werden."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Haben Sie eine Nachfrage, Herr Kollege?",
-            "sentences": [
-              {
-                "text": "Haben Sie eine Nachfrage, Herr Kollege?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Paul Viktor Podolay",
-            "speakerstatus": "speaker",
-            "text": "Vielen Dank, Herr Präsident. – 7,8 Millionen Menschen in Deutschland sind schwerbehindert. Befürchtet die Bundesregierung angesichts der Unklarheiten in der Verordnung einen Anstieg der Zahl der Klagen vor Sozialgerichten?",
-            "sentences": [
-              {
-                "text": "Vielen Dank, Herr Präsident."
-              },
-              {
-                "text": "– 7,8 Millionen Menschen in Deutschland sind schwerbehindert."
-              },
-              {
-                "text": "Befürchtet die Bundesregierung angesichts der Unklarheiten in der Verordnung einen Anstieg der Zahl der Klagen vor Sozialgerichten?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Kerstin Griese",
-            "speakerstatus": "speaker",
-            "text": "Das befürchten wir nicht, sondern unser Ansinnen ist, die Versorgungsmedizin-Verordnung jetzt erst einmal von Fachleuten, von Ärztinnen und Ärzten, prüfen zu lassen, Vorschläge zu erarbeiten, wie sie verbessert und auch an die aktuellen Entwicklungen, zum Beispiel im Bereich der Hilfs- und Heilmittel, angepasst werden kann. Diese Vorschläge diskutieren wir aber zunächst intensiv mit den Verbänden der Menschen mit Behinderung, von denen durchaus Befürchtungen vorgetragen wurden, dass es zu Verschlechterungen kommen könnte. Unser Ziel ist ausdrücklich, dass es keine Verschlechterung für die Menschen mit Behinderung gibt. Deshalb ist das jetzt noch im Bearbeitungsstadium. Wir werden Sie sicherlich informieren, wenn wir da einen Schritt weiter sind. Wir haben auch einige Informationen dazu auf unserer Homepage, die Sie sich gerne ansehen können.",
-            "sentences": [
-              {
-                "text": "Das befürchten wir nicht, sondern unser Ansinnen ist, die Versorgungsmedizin-Verordnung jetzt erst einmal von Fachleuten, von Ärztinnen und Ärzten, prüfen zu lassen, Vorschläge zu erarbeiten, wie sie verbessert und auch an die aktuellen Entwicklungen, zum Beispiel im Bereich der Hilfs- und Heilmittel, angepasst werden kann."
-              },
-              {
-                "text": "Diese Vorschläge diskutieren wir aber zunächst intensiv mit den Verbänden der Menschen mit Behinderung, von denen durchaus Befürchtungen vorgetragen wurden, dass es zu Verschlechterungen kommen könnte."
-              },
-              {
-                "text": "Unser Ziel ist ausdrücklich, dass es keine Verschlechterung für die Menschen mit Behinderung gibt."
-              },
-              {
-                "text": "Deshalb ist das jetzt noch im Bearbeitungsstadium."
-              },
-              {
-                "text": "Wir werden Sie sicherlich informieren, wenn wir da einen Schritt weiter sind."
-              },
-              {
-                "text": "Wir haben auch einige Informationen dazu auf unserer Homepage, die Sie sich gerne ansehen können."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Haben Sie eine weitere Nachfrage? – Keine. Vielen Dank.",
-            "sentences": [
-              {
-                "text": "Haben Sie eine weitere Nachfrage?"
-              },
-              {
-                "text": "– Keine."
-              },
-              {
-                "text": "Vielen Dank."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Dann verlassen wir den Bereich des Ministeriums für Arbeit und Soziales schon wieder.",
-            "sentences": [
-              {
-                "text": "Dann verlassen wir den Bereich des Ministeriums für Arbeit und Soziales schon wieder."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Ich rufe den Geschäftsbereich des Bundesministeriums der Verteidigung auf. Zur Beantwortung steht der Parlamentarische Staatssekretär Thomas Silberhorn bereit.",
-            "sentences": [
-              {
-                "text": "Ich rufe den Geschäftsbereich des Bundesministeriums der Verteidigung auf."
-              },
-              {
-                "text": "Zur Beantwortung steht der Parlamentarische Staatssekretär Thomas Silberhorn bereit."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Die erste Frage ist die Frage 9 des Abgeordneten Paul Viktor Podolay:",
-            "sentences": [
-              {
-                "text": "Die erste Frage ist die Frage 9 des Abgeordneten Paul Viktor Podolay:"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Herr Staatssekretär.",
-            "sentences": [
-              {
-                "text": "Herr Staatssekretär."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Silberhorn",
-            "speakerstatus": "speaker",
-            "text": "Vielen Dank, Herr Präsident. – Die Mitgliedstaaten der NATO leisten definierte Fähigkeitsbeiträge, die in Summe die Gesamtfähigkeiten des Bündnisses ausmachen. Deutschland beteiligt sich mit Fähigkeitsbeiträgen in den militärischen Bereichen Land, Luft, Marine, Spezialkräfte und Unterstützung. Im Wesentlichen bringt die Bundeswehr alle in diesen Bereichen vorhandenen militärischen Fähigkeiten der Bundeswehr in die NATO ein. Ausgenommen sind lediglich die Fähigkeiten, die ausschließlich nationalen Vorbehalten unterliegen, beispielsweise Fähigkeiten des nationalen Risiko- und Krisenmanagements.",
-            "sentences": [
-              {
-                "text": "Vielen Dank, Herr Präsident."
-              },
-              {
-                "text": "– Die Mitgliedstaaten der NATO leisten definierte Fähigkeitsbeiträge, die in Summe die Gesamtfähigkeiten des Bündnisses ausmachen."
-              },
-              {
-                "text": "Deutschland beteiligt sich mit Fähigkeitsbeiträgen in den militärischen Bereichen Land, Luft, Marine, Spezialkräfte und Unterstützung."
-              },
-              {
-                "text": "Im Wesentlichen bringt die Bundeswehr alle in diesen Bereichen vorhandenen militärischen Fähigkeiten der Bundeswehr in die NATO ein."
-              },
-              {
-                "text": "Ausgenommen sind lediglich die Fähigkeiten, die ausschließlich nationalen Vorbehalten unterliegen, beispielsweise Fähigkeiten des nationalen Risiko- und Krisenmanagements."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Silberhorn",
-            "speakerstatus": "speaker",
-            "text": "Die Bundeswehr war seit 1990 stark auf das internationale Krisenmanagement ausgerichtet. Seit den Entwicklungen in der Ostukraine und auf der Krim rückt die Bündnis- und Landesverteidigung wieder deutlich in den Fokus. In dieser Hinsicht bestehen Fähigkeitsdeltas, die wir schnellstmöglich beheben wollen. Dazu wurden mit den Trendwenden Finanzen, Personal und Material die Weichen gestellt, um die Bundeswehr hier auf ein stärkeres Fundament zu stellen. Die Bundeswehr wächst seit 2014 wieder sowohl im Finanz- als auch im Personal- und Materialbereich. Es ist nun wichtig, die Entwicklung des Verteidigungsbudgets zu verstetigen, um diese Trendwenden fortführen zu können.",
-            "sentences": [
-              {
-                "text": "Die Bundeswehr war seit 1990 stark auf das internationale Krisenmanagement ausgerichtet."
-              },
-              {
-                "text": "Seit den Entwicklungen in der Ostukraine und auf der Krim rückt die Bündnis- und Landesverteidigung wieder deutlich in den Fokus."
-              },
-              {
-                "text": "In dieser Hinsicht bestehen Fähigkeitsdeltas, die wir schnellstmöglich beheben wollen."
-              },
-              {
-                "text": "Dazu wurden mit den Trendwenden Finanzen, Personal und Material die Weichen gestellt, um die Bundeswehr hier auf ein stärkeres Fundament zu stellen."
-              },
-              {
-                "text": "Die Bundeswehr wächst seit 2014 wieder sowohl im Finanz- als auch im Personal- und Materialbereich."
-              },
-              {
-                "text": "Es ist nun wichtig, die Entwicklung des Verteidigungsbudgets zu verstetigen, um diese Trendwenden fortführen zu können."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Eine Nachfrage, Herr Kollege?",
-            "sentences": [
-              {
-                "text": "Eine Nachfrage, Herr Kollege?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Paul Viktor Podolay",
-            "speakerstatus": "speaker",
-            "text": "Vielen Dank, Herr Präsident. – Herr Staatssekretär, meine Frage und Ihre Antwort beziehen sich auf das geltende Strategische Konzept der NATO 2010, das ursprünglich bis 2020 gedacht war, also für zehn Jahre. Zieht das Bundesministerium der Verteidigung diesbezüglich eine Bilanz? Und welche Vorhaben bzw. vorrangigen Ziele planen und verfolgen Sie für die NATO-Strategieagenda ab 2020?",
-            "sentences": [
-              {
-                "text": "Vielen Dank, Herr Präsident."
-              },
-              {
-                "text": "– Herr Staatssekretär, meine Frage und Ihre Antwort beziehen sich auf das geltende Strategische Konzept der NATO 2010, das ursprünglich bis 2020 gedacht war, also für zehn Jahre."
-              },
-              {
-                "text": "Zieht das Bundesministerium der Verteidigung diesbezüglich eine Bilanz?"
-              },
-              {
-                "text": "Und welche Vorhaben bzw. vorrangigen Ziele planen und verfolgen Sie für die NATO-Strategieagenda ab 2020?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Silberhorn",
-            "speakerstatus": "speaker",
-            "text": "Die NATO-Planungsstrategie und auch die Planungen, die wir gemeinsam in der Europäischen Union vornehmen, haben wir konkretisiert durch das Weißbuch über die Zukunft der Bundeswehr und die Verteidigungspolitik in Deutschland, das 2016 vorgelegt worden ist. Auf der Grundlage dieses Weißbuches haben wir im letzten Jahr eine Konzeption der Bundeswehr vorgestellt, die qualitative Vorgaben für die Fähigkeiten der Bundeswehr beinhaltet. Auf dieser Basis sind im September letzten Jahres mit dem Fähigkeitsprofil der Bundeswehr auch die quantitativen Zielsetzungen erfolgt. Das setzen wir nun in voller Übereinstimmung mit unseren Planungen in der NATO wie in der EU um. Die klare Zielsetzung ist, dass wir unsere Fähigkeiten so ausgestalten, dass wir alle international geforderten und national erforderlichen Fähigkeiten vollständig realisieren können.",
-            "sentences": [
-              {
-                "text": "Die NATO-Planungsstrategie und auch die Planungen, die wir gemeinsam in der Europäischen Union vornehmen, haben wir konkretisiert durch das Weißbuch über die Zukunft der Bundeswehr und die Verteidigungspolitik in Deutschland, das 2016 vorgelegt worden ist."
-              },
-              {
-                "text": "Auf der Grundlage dieses Weißbuches haben wir im letzten Jahr eine Konzeption der Bundeswehr vorgestellt, die qualitative Vorgaben für die Fähigkeiten der Bundeswehr beinhaltet."
-              },
-              {
-                "text": "Auf dieser Basis sind im September letzten Jahres mit dem Fähigkeitsprofil der Bundeswehr auch die quantitativen Zielsetzungen erfolgt."
-              },
-              {
-                "text": "Das setzen wir nun in voller Übereinstimmung mit unseren Planungen in der NATO wie in der EU um."
-              },
-              {
-                "text": "Die klare Zielsetzung ist, dass wir unsere Fähigkeiten so ausgestalten, dass wir alle international geforderten und national erforderlichen Fähigkeiten vollständig realisieren können."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Vielen Dank. – Dann kommen wir zur Frage 10 der Abgeordneten Filiz Polat:",
-            "sentences": [
-              {
-                "text": "Vielen Dank."
-              },
-              {
-                "text": "– Dann kommen wir zur Frage 10 der Abgeordneten Filiz Polat:"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Herr Staatssekretär.",
-            "sentences": [
-              {
-                "text": "Herr Staatssekretär."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Silberhorn",
-            "speakerstatus": "speaker",
-            "text": "Herr Präsident, vielen Dank. – Für die geleistete Amtshilfe und die Unterstützungsleistungen anlässlich des Moorbrands in Meppen hat die Bundeswehr bereits 5,5 Millionen Euro an die betroffenen Landkreise, Städte und Gemeinden, auch an das Deutsche Rote Kreuz, das Technische Hilfswerk und die Zentrale Polizeidirektion Niedersachsen ausgezahlt. Wir sind damit unserer Zusage nachgekommen, so schnell und so unbürokratisch wie möglich für entstandene Kosten aufzukommen.",
-            "sentences": [
-              {
-                "text": "Herr Präsident, vielen Dank."
-              },
-              {
-                "text": "– Für die geleistete Amtshilfe und die Unterstützungsleistungen anlässlich des Moorbrands in Meppen hat die Bundeswehr bereits 5,5 Millionen Euro an die betroffenen Landkreise, Städte und Gemeinden, auch an das Deutsche Rote Kreuz, das Technische Hilfswerk und die Zentrale Polizeidirektion Niedersachsen ausgezahlt."
-              },
-              {
-                "text": "Wir sind damit unserer Zusage nachgekommen, so schnell und so unbürokratisch wie möglich für entstandene Kosten aufzukommen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Silberhorn",
-            "speakerstatus": "speaker",
-            "text": "Allerdings müssen uns haushalterisch abrechnungsfähige Rechnungen vorliegen. Insofern gibt es bei drei noch nicht oder nicht vollständig bezahlten Rechnungen Nachfragen im Rahmen der formellen Rechnungsprüfung. Sobald uns alle erforderlichen Informationen vorliegen und die hierzu noch laufenden Abstimmungen abgeschlossen sind, werden auch diese offenen Rechnungen umgehend in der anzuerkennenden Höhe beglichen werden.",
-            "sentences": [
-              {
-                "text": "Allerdings müssen uns haushalterisch abrechnungsfähige Rechnungen vorliegen."
-              },
-              {
-                "text": "Insofern gibt es bei drei noch nicht oder nicht vollständig bezahlten Rechnungen Nachfragen im Rahmen der formellen Rechnungsprüfung."
-              },
-              {
-                "text": "Sobald uns alle erforderlichen Informationen vorliegen und die hierzu noch laufenden Abstimmungen abgeschlossen sind, werden auch diese offenen Rechnungen umgehend in der anzuerkennenden Höhe beglichen werden."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Dazu haben Sie sicher eine Nachfrage.",
-            "sentences": [
-              {
-                "text": "Dazu haben Sie sicher eine Nachfrage."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Filiz Polat",
-            "speakerstatus": "speaker",
-            "text": "Vielen Dank, Herr Präsident. – Diese offenen Rechnungen sind ja seitens Ihres Ministeriums letzte Woche schon dem NDR mitgeteilt worden – wahrscheinlich, als ich meine Frage eingereicht habe. Da sprachen Sie von bezahlten Rechnungen in Höhe von 4,7 Millionen Euro. Offen sind noch Rechnungen bei den meistbetroffenen Landkreisen Emsland und Grafschaft Bentheim. Hier wird in dem NDR-Bericht die Zahl von, ich glaube, 1,5 Millionen Euro genannt. Können Sie konkretisieren, ob das die beteiligten Katastrophenschutzorganisationen oder die Feuerwehren der Landkreise selbst betrifft?",
-            "sentences": [
-              {
-                "text": "Vielen Dank, Herr Präsident."
-              },
-              {
-                "text": "– Diese offenen Rechnungen sind ja seitens Ihres Ministeriums letzte Woche schon dem NDR mitgeteilt worden – wahrscheinlich, als ich meine Frage eingereicht habe."
-              },
-              {
-                "text": "Da sprachen Sie von bezahlten Rechnungen in Höhe von 4,7 Millionen Euro."
-              },
-              {
-                "text": "Offen sind noch Rechnungen bei den meistbetroffenen Landkreisen Emsland und Grafschaft Bentheim."
-              },
-              {
-                "text": "Hier wird in dem NDR-Bericht die Zahl von, ich glaube, 1,5 Millionen Euro genannt."
-              },
-              {
-                "text": "Können Sie konkretisieren, ob das die beteiligten Katastrophenschutzorganisationen oder die Feuerwehren der Landkreise selbst betrifft?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Silberhorn",
-            "speakerstatus": "speaker",
-            "text": "Also, der aktuelle Stand ist, wie mitgeteilt, dass wir etwa 5,5 Millionen Euro ausgezahlt haben. Offen sind zwei Rechnungen, die am 6. Mai bei uns eingegangen sind. Eine Rechnung des Landkreises Grafschaft Bent­heim in Höhe von 628 000 Euro ist sehr umfangreich und wird noch geprüft. Sobald die Prüfung abgeschlossen ist, wird auch hier gezahlt. Die zweite Rechnung des Landkreises Wittmund über eine Rechnungssumme von etwa 306 000 Euro ist noch unvollständig und muss ergänzt werden. Insofern warten wir auf weitere Informationen, sind aber dann in der Lage, das zügig zu bearbeiten.",
-            "sentences": [
-              {
-                "text": "Also, der aktuelle Stand ist, wie mitgeteilt, dass wir etwa 5,5 Millionen Euro ausgezahlt haben."
-              },
-              {
-                "text": "Offen sind zwei Rechnungen, die am 6. Mai bei uns eingegangen sind."
-              },
-              {
-                "text": "Eine Rechnung des Landkreises Grafschaft Bent­heim in Höhe von 628 000 Euro ist sehr umfangreich und wird noch geprüft."
-              },
-              {
-                "text": "Sobald die Prüfung abgeschlossen ist, wird auch hier gezahlt."
-              },
-              {
-                "text": "Die zweite Rechnung des Landkreises Wittmund über eine Rechnungssumme von etwa 306 000 Euro ist noch unvollständig und muss ergänzt werden."
-              },
-              {
-                "text": "Insofern warten wir auf weitere Informationen, sind aber dann in der Lage, das zügig zu bearbeiten."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Silberhorn",
-            "speakerstatus": "speaker",
-            "text": "Eine dritte Rechnung, die noch nicht vollständig beglichen ist, stammt vom Landkreis Emsland. Hier wurden bereits über 830 000 Euro gezahlt. Offen ist ein Teilbetrag von knapp 60 000 Euro für geltend gemachte Personalkosten für Mitarbeiter des Landratsamtes. Hier ist nach der Rechtsprechung des Bundesverwaltungsgerichts vorgesehen, dass ohnehin entstandene Personalkosten für Mitarbeiter nicht im Wege der Amtshilfe zu erstatten sind. Hier sprechen wir noch miteinander. Die Personalmehrkosten, die sich aus Zeitzuschlägen, aus Zulagen und aus Reisekosten ergeben, sind bereits erstattet worden.",
-            "sentences": [
-              {
-                "text": "Eine dritte Rechnung, die noch nicht vollständig beglichen ist, stammt vom Landkreis Emsland."
-              },
-              {
-                "text": "Hier wurden bereits über 830 000 Euro gezahlt."
-              },
-              {
-                "text": "Offen ist ein Teilbetrag von knapp 60 000 Euro für geltend gemachte Personalkosten für Mitarbeiter des Landratsamtes."
-              },
-              {
-                "text": "Hier ist nach der Rechtsprechung des Bundesverwaltungsgerichts vorgesehen, dass ohnehin entstandene Personalkosten für Mitarbeiter nicht im Wege der Amtshilfe zu erstatten sind."
-              },
-              {
-                "text": "Hier sprechen wir noch miteinander."
-              },
-              {
-                "text": "Die Personalmehrkosten, die sich aus Zeitzuschlägen, aus Zulagen und aus Reisekosten ergeben, sind bereits erstattet worden."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Weitere Zusatzfrage, Frau Polat?",
-            "sentences": [
-              {
-                "text": "Weitere Zusatzfrage, Frau Polat?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Filiz Polat",
-            "speakerstatus": "speaker",
-            "text": "Sind auch Kosten vom Landkreis Osnabrück geltend gemacht worden, und sind die bezahlt worden?",
-            "sentences": [
-              {
-                "text": "Sind auch Kosten vom Landkreis Osnabrück geltend gemacht worden, und sind die bezahlt worden?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Silberhorn",
-            "speakerstatus": "speaker",
-            "text": "Wir haben insgesamt 14 Rechnungen erhalten, von denen drei noch nicht oder nicht vollständig bezahlt worden sind. Vom Landkreis Osnabrück liegt uns eine Rechnung über 80 178,65 Euro vor, die bezahlt worden sind bzw. zur Zahlung angewiesen worden sind.",
-            "sentences": [
-              {
-                "text": "Wir haben insgesamt 14 Rechnungen erhalten, von denen drei noch nicht oder nicht vollständig bezahlt worden sind."
-              },
-              {
-                "text": "Vom Landkreis Osnabrück liegt uns eine Rechnung über 80 178,65 Euro vor, die bezahlt worden sind bzw. zur Zahlung angewiesen worden sind."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Alles bezahlt. – Vielen Dank.",
-            "sentences": [
-              {
-                "text": "Alles bezahlt."
-              },
-              {
-                "text": "– Vielen Dank."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Ich rufe den Geschäftsbereich des Bundesministeriums für Ernährung und Landwirtschaft auf. Zur Beantwortung steht der Parlamentarische Staatssekretär Hans-Joachim Fuchtel bereit.",
-            "sentences": [
-              {
-                "text": "Ich rufe den Geschäftsbereich des Bundesministeriums für Ernährung und Landwirtschaft auf."
-              },
-              {
-                "text": "Zur Beantwortung steht der Parlamentarische Staatssekretär Hans-Joachim Fuchtel bereit."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Wir kommen zur Frage 11 der Abgeordneten Steffi Lemke:",
-            "sentences": [
-              {
-                "text": "Wir kommen zur Frage 11 der Abgeordneten Steffi Lemke:"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Hans-Joachim Fuchtel",
-            "speakerstatus": "speaker",
-            "text": "Frau Kollegin Lemke, die Bundesregierung hat bei den Verhandlungen zum Europäischen Meeres- und Fischereifonds, kurz: EMFF, nachdrücklich auf die Beachtung der Konformität mit den Regelungen der Welthandelsorganisation hingewiesen und insbesondere hervorgehoben, dass die Forderungen gemäß EMFF zu keiner Kapazitätserhöhung führen dürfen. Insbesondere in der Schlussphase der Verhandlungen sind noch einmal Verschärfungen in dem Verordnungsvorschlag aufgenommen worden, die die Kapazitätsneutralität sicherstellen sollen.",
-            "sentences": [
-              {
-                "text": "Frau Kollegin Lemke, die Bundesregierung hat bei den Verhandlungen zum Europäischen Meeres- und Fischereifonds, kurz: EMFF, nachdrücklich auf die Beachtung der Konformität mit den Regelungen der Welthandelsorganisation hingewiesen und insbesondere hervorgehoben, dass die Forderungen gemäß EMFF zu keiner Kapazitätserhöhung führen dürfen."
-              },
-              {
-                "text": "Insbesondere in der Schlussphase der Verhandlungen sind noch einmal Verschärfungen in dem Verordnungsvorschlag aufgenommen worden, die die Kapazitätsneutralität sicherstellen sollen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Hans-Joachim Fuchtel",
-            "speakerstatus": "speaker",
-            "text": "Darüber hinaus hat sich die Bundesregierung dafür eingesetzt, den Anteil der Mittel für die Fischereikontrolle und für die Datenerhebung deutlich zu erhöhen. Diese Positionen wird die Bundesregierung auch im jetzt anstehenden Trilogverfahren weiter verfolgen.",
-            "sentences": [
-              {
-                "text": "Darüber hinaus hat sich die Bundesregierung dafür eingesetzt, den Anteil der Mittel für die Fischereikontrolle und für die Datenerhebung deutlich zu erhöhen."
-              },
-              {
-                "text": "Diese Positionen wird die Bundesregierung auch im jetzt anstehenden Trilogverfahren weiter verfolgen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Haben Sie eine Nachfrage, Frau Kollegin?",
-            "sentences": [
-              {
-                "text": "Haben Sie eine Nachfrage, Frau Kollegin?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Steffi Lemke",
-            "speakerstatus": "speaker",
-            "text": "Vielen Dank für die Antwort bis hierher. – Ich würde gerne eine Nachfrage stellen: Laut EU-Kommission sind Ende des Jahres 2018 in Nord- und Ostsee noch immer 41 Prozent der Bestände überfischt. Falls sich die Bundesregierung mit der jetzt von Ihnen geschilderten Position „keine Beihilfen für Kapazitätserweiterungen“ nicht durchsetzen sollte – der Ausgang des Trilogverfahrens ist ja noch offen –: Welche Auswirkungen hätte das nach Einschätzung der Bundesregierung auf die Fischbestände in Nord- und Ostsee?",
-            "sentences": [
-              {
-                "text": "Vielen Dank für die Antwort bis hierher."
-              },
-              {
-                "text": "– Ich würde gerne eine Nachfrage stellen: Laut EU-Kommission sind Ende des Jahres 2018 in Nord- und Ostsee noch immer 41 Prozent der Bestände überfischt."
-              },
-              {
-                "text": "Falls sich die Bundesregierung mit der jetzt von Ihnen geschilderten Position „keine Beihilfen für Kapazitätserweiterungen“ nicht durchsetzen sollte – der Ausgang des Trilogverfahrens ist ja noch offen –: Welche Auswirkungen hätte das nach Einschätzung der Bundesregierung auf die Fischbestände in Nord- und Ostsee?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Hans-Joachim Fuchtel",
-            "speakerstatus": "speaker",
-            "text": "Zunächst einmal erhoffen wir uns natürlich, dass wir uns mit dieser Position durchsetzen. Die Abstimmungsverhältnisse in den Gremien bieten die Chance, dass Kapazitäten so beibehalten werden. Wir gehen davon aus, dass es gelingt.",
-            "sentences": [
-              {
-                "text": "Zunächst einmal erhoffen wir uns natürlich, dass wir uns mit dieser Position durchsetzen."
-              },
-              {
-                "text": "Die Abstimmungsverhältnisse in den Gremien bieten die Chance, dass Kapazitäten so beibehalten werden."
-              },
-              {
-                "text": "Wir gehen davon aus, dass es gelingt."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Weitere Zusatzfrage?",
-            "sentences": [
-              {
-                "text": "Weitere Zusatzfrage?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Steffi Lemke",
-            "speakerstatus": "speaker",
-            "text": "Gut. Da ich Sie darin gerne unterstützen möchte, verzichte ich auf das Nachbohren, was die Auswirkungen im Falle des Scheiterns wären, und wünsche Ihnen viel Erfolg.",
-            "sentences": [
-              {
-                "text": "Gut."
-              },
-              {
-                "text": "Da ich Sie darin gerne unterstützen möchte, verzichte ich auf das Nachbohren, was die Auswirkungen im Falle des Scheiterns wären, und wünsche Ihnen viel Erfolg."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Steffi Lemke",
-            "speakerstatus": "speaker",
-            "text": "Ich will an einer anderen Stelle noch mal nachfragen. Der Internationale Rat für Meeresforschung hat empfohlen, im nächsten Jahr den Fang auf Dorsch in der östlichen Ostsee und auf Hering in der westlichen Ostsee komplett einzustellen. Soweit ich weiß, unterstützt auch das Thünen-Institut diese Positionierung. Hat das bei den gegenwärtigen Verhandlungen bereits eine Rolle gespielt? Wie ist Ihre Einschätzung darüber, ob dieser wissenschaftlichen Empfehlung des Internationalen Rates nachgekommen wird?",
-            "sentences": [
-              {
-                "text": "Ich will an einer anderen Stelle noch mal nachfragen."
-              },
-              {
-                "text": "Der Internationale Rat für Meeresforschung hat empfohlen, im nächsten Jahr den Fang auf Dorsch in der östlichen Ostsee und auf Hering in der westlichen Ostsee komplett einzustellen."
-              },
-              {
-                "text": "Soweit ich weiß, unterstützt auch das Thünen-Institut diese Positionierung."
-              },
-              {
-                "text": "Hat das bei den gegenwärtigen Verhandlungen bereits eine Rolle gespielt?"
-              },
-              {
-                "text": "Wie ist Ihre Einschätzung darüber, ob dieser wissenschaftlichen Empfehlung des Internationalen Rates nachgekommen wird?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Hans-Joachim Fuchtel",
-            "speakerstatus": "speaker",
-            "text": "Ich möchte da noch keine abschließende Einschätzung abgeben. Wir sind dafür eingetreten, dass die Fangquoten auf jeden Fall reduziert, der Fang aber möglicherweise nicht ganz eingestellt wird. Zurzeit gibt es eine Diskussion darüber, und wir gehen davon aus, dass diese Einstellung stattfindet, allerdings nicht endgültig, sondern vorübergehend.",
-            "sentences": [
-              {
-                "text": "Ich möchte da noch keine abschließende Einschätzung abgeben."
-              },
-              {
-                "text": "Wir sind dafür eingetreten, dass die Fangquoten auf jeden Fall reduziert, der Fang aber möglicherweise nicht ganz eingestellt wird."
-              },
-              {
-                "text": "Zurzeit gibt es eine Diskussion darüber, und wir gehen davon aus, dass diese Einstellung stattfindet, allerdings nicht endgültig, sondern vorübergehend."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Vielen Dank.",
-            "sentences": [
-              {
-                "text": "Vielen Dank."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Ich rufe die Frage 12 der Abgeordneten Steffi Lemke auf:",
-            "sentences": [
-              {
-                "text": "Ich rufe die Frage 12 der Abgeordneten Steffi Lemke auf:"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Herr Staatssekretär.",
-            "sentences": [
-              {
-                "text": "Herr Staatssekretär."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Hans-Joachim Fuchtel",
-            "speakerstatus": "speaker",
-            "text": "Das nachhaltige Entwicklungsziel 14.6 in den SDGs der Vereinten Nationen sieht vor, dass bis zum Jahr 2020 diejenigen Fischereisubventionen, die zu Überkapazitäten und zur illegalen, nicht gemeldeten und nicht erfassten Fischerei beitragen, abgeschafft werden. Hierüber wird derzeit in der dafür zuständigen Welthandelsorganisation verhandelt. Die Bundesregierung unterstützt nach Kräften die Europäische Kommission, die im Rahmen der Zuständigkeit der EU für die Außenhandelspolitik und die Gemeinsame Fischereipolitik hierfür mandatiert ist. Die EU gehört zu den führenden Kräften, die zu einem Verhandlungsergebnis in der WTO kommen wollen, um dem Entwicklungsziel 14.6 Rechnung zu tragen.",
-            "sentences": [
-              {
-                "text": "Das nachhaltige Entwicklungsziel 14.6 in den SDGs der Vereinten Nationen sieht vor, dass bis zum Jahr 2020 diejenigen Fischereisubventionen, die zu Überkapazitäten und zur illegalen, nicht gemeldeten und nicht erfassten Fischerei beitragen, abgeschafft werden."
-              },
-              {
-                "text": "Hierüber wird derzeit in der dafür zuständigen Welthandelsorganisation verhandelt."
-              },
-              {
-                "text": "Die Bundesregierung unterstützt nach Kräften die Europäische Kommission, die im Rahmen der Zuständigkeit der EU für die Außenhandelspolitik und die Gemeinsame Fischereipolitik hierfür mandatiert ist."
-              },
-              {
-                "text": "Die EU gehört zu den führenden Kräften, die zu einem Verhandlungsergebnis in der WTO kommen wollen, um dem Entwicklungsziel 14.6 Rechnung zu tragen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Weitere Nachfrage?",
-            "sentences": [
-              {
-                "text": "Weitere Nachfrage?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Steffi Lemke",
-            "speakerstatus": "speaker",
-            "text": "Herr Staatssekretär, jetzt bin ich irritiert. Ich hatte konkret gefragt, welche umweltschädlichen Subventionen in den Abbauplanungen der Bundesregierung vorgesehen sind. Ich habe auch nach Zeitrahmen und Umsetzungsstand gefragt. Eine Antwort darauf haben Sie jetzt überhaupt nicht geliefert. Wenn Sie das jetzt nicht können, würde ich Sie bitten, eine tatsächliche Aufstellung schriftlich nachzuliefern. Ich möchte das gerne präzise wissen.",
-            "sentences": [
-              {
-                "text": "Herr Staatssekretär, jetzt bin ich irritiert."
-              },
-              {
-                "text": "Ich hatte konkret gefragt, welche umweltschädlichen Subventionen in den Abbauplanungen der Bundesregierung vorgesehen sind."
-              },
-              {
-                "text": "Ich habe auch nach Zeitrahmen und Umsetzungsstand gefragt."
-              },
-              {
-                "text": "Eine Antwort darauf haben Sie jetzt überhaupt nicht geliefert."
-              },
-              {
-                "text": "Wenn Sie das jetzt nicht können, würde ich Sie bitten, eine tatsächliche Aufstellung schriftlich nachzuliefern."
-              },
-              {
-                "text": "Ich möchte das gerne präzise wissen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Steffi Lemke",
-            "speakerstatus": "speaker",
-            "text": "Ich würde die Nachfrage anschließen wollen, inwieweit denn bei der Verhandlung um die EMFF-Gelder eine Öffnung, eine Erweiterung für Maßnahmen des Meeresschutzes und für den Erhalt der Biodiversität eine Rolle gespielt haben. Wenn Sie beim Abbau der umweltschädlichen Subventionen offensichtlich noch nicht sehr weit vorangekommen sind, ist es ja auch ein Weg, bisherige Zahlungen beispielsweise aus dem EMFF für biodiversitätsfreundliche Maßnahmen und den Meeresschutz zu öffnen. Ist das die Position der Bundesregierung gewesen?",
-            "sentences": [
-              {
-                "text": "Ich würde die Nachfrage anschließen wollen, inwieweit denn bei der Verhandlung um die EMFF-Gelder eine Öffnung, eine Erweiterung für Maßnahmen des Meeresschutzes und für den Erhalt der Biodiversität eine Rolle gespielt haben."
-              },
-              {
-                "text": "Wenn Sie beim Abbau der umweltschädlichen Subventionen offensichtlich noch nicht sehr weit vorangekommen sind, ist es ja auch ein Weg, bisherige Zahlungen beispielsweise aus dem EMFF für biodiversitätsfreundliche Maßnahmen und den Meeresschutz zu öffnen."
-              },
-              {
-                "text": "Ist das die Position der Bundesregierung gewesen?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Hans-Joachim Fuchtel",
-            "speakerstatus": "speaker",
-            "text": "Also, den einen Teil Ihrer Frage würde ich tatsächlich, um das sehr präzise zu machen, schriftlich beantworten. Zu dem anderen Teil, der die Verschärfung der Maßnahmen betrifft: Es ging darum, zum Beispiel bei der Festlegung, was künftig gefördert wird, klarzumachen, dass nur das gefördert werden kann, was dazu führt, dass es zu keinen Erweiterungen kommt. Zu den Motoren, danach hatten Sie auch gefragt: Es darf keine Ausweitung geben, vielmehr gibt es hier bezüglich der Beihilfen Beschränkungen auf bestimmte Schiffstypen. Und diese Schiffstypen dürfen auch nur eine bestimmte Größe haben. Sie können nur entsprechend gefördert werden, wenn es zu keiner Veränderung des Gesamtvolumens kommt.",
-            "sentences": [
-              {
-                "text": "Also, den einen Teil Ihrer Frage würde ich tatsächlich, um das sehr präzise zu machen, schriftlich beantworten."
-              },
-              {
-                "text": "Zu dem anderen Teil, der die Verschärfung der Maßnahmen betrifft: Es ging darum, zum Beispiel bei der Festlegung, was künftig gefördert wird, klarzumachen, dass nur das gefördert werden kann, was dazu führt, dass es zu keinen Erweiterungen kommt."
-              },
-              {
-                "text": "Zu den Motoren, danach hatten Sie auch gefragt: Es darf keine Ausweitung geben, vielmehr gibt es hier bezüglich der Beihilfen Beschränkungen auf bestimmte Schiffstypen."
-              },
-              {
-                "text": "Und diese Schiffstypen dürfen auch nur eine bestimmte Größe haben."
-              },
-              {
-                "text": "Sie können nur entsprechend gefördert werden, wenn es zu keiner Veränderung des Gesamtvolumens kommt."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Weitere Nachfrage?",
-            "sentences": [
-              {
-                "text": "Weitere Nachfrage?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Steffi Lemke",
-            "speakerstatus": "speaker",
-            "text": "Das klingt zwar positiv, aber ich hatte gefragt, ob bei den Verhandlungen um den EMFF die Position der Bundesregierung war, diesen Fonds auch für Maßnahmen des Meeresschutzes und den Erhalt der Biodiversität zu öffnen. Sie wissen, wir haben Meeresschutzgebiete, die in Deutschland bisher nur auf dem Papier existieren. Die Schutzgebietsverordnungen gewährleisten keinen hinreichenden Schutz; vielmehr haben Forschungseinrichtungen der Bundesregierung dargelegt, dass in den Schutzgebieten ein höherer Fischereidruck herrscht als außerhalb der Schutzgebiete. Deshalb noch mal meine Nachfrage, ob es dort eine Öffnung gibt.",
-            "sentences": [
-              {
-                "text": "Das klingt zwar positiv, aber ich hatte gefragt, ob bei den Verhandlungen um den EMFF die Position der Bundesregierung war, diesen Fonds auch für Maßnahmen des Meeresschutzes und den Erhalt der Biodiversität zu öffnen."
-              },
-              {
-                "text": "Sie wissen, wir haben Meeresschutzgebiete, die in Deutschland bisher nur auf dem Papier existieren."
-              },
-              {
-                "text": "Die Schutzgebietsverordnungen gewährleisten keinen hinreichenden Schutz; vielmehr haben Forschungseinrichtungen der Bundesregierung dargelegt, dass in den Schutzgebieten ein höherer Fischereidruck herrscht als außerhalb der Schutzgebiete."
-              },
-              {
-                "text": "Deshalb noch mal meine Nachfrage, ob es dort eine Öffnung gibt."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Hans-Joachim Fuchtel",
-            "speakerstatus": "speaker",
-            "text": "Da ich bei den Verhandlungen nicht dabei war, würde ich Ihnen auch diesen Teil der Frage gerne schriftlich nachliefern.",
-            "sentences": [
-              {
-                "text": "Da ich bei den Verhandlungen nicht dabei war, würde ich Ihnen auch diesen Teil der Frage gerne schriftlich nachliefern."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Vielen Dank. – Jetzt machen wir einen großen Sprung.",
-            "sentences": [
-              {
-                "text": "Vielen Dank."
-              },
-              {
-                "text": "– Jetzt machen wir einen großen Sprung."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Ich rufe den Geschäftsbereich des Bundesministeriums für Familie, Senioren, Frauen und Jugend auf. Die Fragen 13 und 14 der Abgeordneten Sabine Zimmermann und die Fragen 15 und 16 der Abgeordneten Katrin Werner werden schriftlich beantwortet.",
-            "sentences": [
-              {
-                "text": "Ich rufe den Geschäftsbereich des Bundesministeriums für Familie, Senioren, Frauen und Jugend auf."
-              },
-              {
-                "text": "Die Fragen 13 und 14 der Abgeordneten Sabine Zimmermann und die Fragen 15 und 16 der Abgeordneten Katrin Werner werden schriftlich beantwortet."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Ich rufe den Geschäftsbereich des Bundesministeriums für Gesundheit auf. Die Frage 17 der Abgeordneten Kordula Schulz-Asche und die Frage 18 der Abgeordneten Dr. Bettina Hoffmann werden schriftlich beantwortet.",
-            "sentences": [
-              {
-                "text": "Ich rufe den Geschäftsbereich des Bundesministeriums für Gesundheit auf."
-              },
-              {
-                "text": "Die Frage 17 der Abgeordneten Kordula Schulz-Asche und die Frage 18 der Abgeordneten Dr. Bettina Hoffmann werden schriftlich beantwortet."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Ich rufe den Geschäftsbereich des Bundesministeriums für Verkehr und digitale Infrastruktur auf. Die Fragen 19 und 20 des Abgeordneten Jörg Cezanne werden schriftlich beantwortet. Die Frage 21 des Abgeordneten Dr. Dirk Spaniel, die Frage 22 des Abgeordneten Oliver Krischer, die Fragen 23 und 24 des Abgeordneten Stephan Kühn, die Fragen 25 und 26 des Abgeordneten Stefan Gelbhaar und die Frage 27 der Abgeordneten Daniela Wagner werden schriftlich beantwortet.",
-            "sentences": [
-              {
-                "text": "Ich rufe den Geschäftsbereich des Bundesministeriums für Verkehr und digitale Infrastruktur auf."
-              },
-              {
-                "text": "Die Fragen 19 und 20 des Abgeordneten Jörg Cezanne werden schriftlich beantwortet."
-              },
-              {
-                "text": "Die Frage 21 des Abgeordneten Dr. Dirk Spaniel, die Frage 22 des Abgeordneten Oliver Krischer, die Fragen 23 und 24 des Abgeordneten Stephan Kühn, die Fragen 25 und 26 des Abgeordneten Stefan Gelbhaar und die Frage 27 der Abgeordneten Daniela Wagner werden schriftlich beantwortet."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Damit kommen wir zur Frage 28 des FDP-Abgeordneten Torsten Herbst. Er ist nicht da. Es wird verfahren, wie in der Geschäftsordnung vorgesehen. Wir kommen zu den Fragen 29 und 30 der Abgeordneten Marja-Liisa Völlers. Sie ist nicht da. Es wird verfahren, wie in der Geschäftsordnung vorgesehen.",
-            "sentences": [
-              {
-                "text": "Damit kommen wir zur Frage 28 des FDP-Abgeordneten Torsten Herbst."
-              },
-              {
-                "text": "Er ist nicht da."
-              },
-              {
-                "text": "Es wird verfahren, wie in der Geschäftsordnung vorgesehen."
-              },
-              {
-                "text": "Wir kommen zu den Fragen 29 und 30 der Abgeordneten Marja-Liisa Völlers."
-              },
-              {
-                "text": "Sie ist nicht da."
-              },
-              {
-                "text": "Es wird verfahren, wie in der Geschäftsordnung vorgesehen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Die Fragen 31 und 32 der Abgeordneten Dr. Ingrid Nestle, Frage 33 des Abgeordneten Bernd Reuther und die Fragen 34 und 35 des Abgeordneten Matthias Gastel werden schriftlich beantwortet.",
-            "sentences": [
-              {
-                "text": "Die Fragen 31 und 32 der Abgeordneten Dr. Ingrid Nestle, Frage 33 des Abgeordneten Bernd Reuther und die Fragen 34 und 35 des Abgeordneten Matthias Gastel werden schriftlich beantwortet."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Ich rufe den Geschäftsbereich des Bundesministeriums für Umwelt, Naturschutz und nukleare Sicherheit auf. Wir kommen zur Frage 36 des Abgeordneten Manuel Sarrazin. Er ist nicht da. Es wird verfahren, wie in der Geschäftsordnung vorgesehen. Wir kommen zu den Fragen 37 und 38 des Kollegen Oliver Luksic. Er ist nicht da. Es wird verfahren, wie in der Geschäftsordnung vorgesehen.",
-            "sentences": [
-              {
-                "text": "Ich rufe den Geschäftsbereich des Bundesministeriums für Umwelt, Naturschutz und nukleare Sicherheit auf."
-              },
-              {
-                "text": "Wir kommen zur Frage 36 des Abgeordneten Manuel Sarrazin."
-              },
-              {
-                "text": "Er ist nicht da."
-              },
-              {
-                "text": "Es wird verfahren, wie in der Geschäftsordnung vorgesehen."
-              },
-              {
-                "text": "Wir kommen zu den Fragen 37 und 38 des Kollegen Oliver Luksic."
-              },
-              {
-                "text": "Er ist nicht da."
-              },
-              {
-                "text": "Es wird verfahren, wie in der Geschäftsordnung vorgesehen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Die Frage 39 des Abgeordneten Oliver Krischer und die Fragen 40 und 41 des Abgeordneten Hubertus Zdebel werden schriftlich beantwortet.",
-            "sentences": [
-              {
-                "text": "Die Frage 39 des Abgeordneten Oliver Krischer und die Fragen 40 und 41 des Abgeordneten Hubertus Zdebel werden schriftlich beantwortet."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Ich rufe den Geschäftsbereich des Bundesministeriums für Bildung und Forschung auf. Die Frage 42 des Abgeordneten Kai Gehring wird schriftlich beantwortet.",
-            "sentences": [
-              {
-                "text": "Ich rufe den Geschäftsbereich des Bundesministeriums für Bildung und Forschung auf."
-              },
-              {
-                "text": "Die Frage 42 des Abgeordneten Kai Gehring wird schriftlich beantwortet."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Ich rufe den Geschäftsbereich des Bundesministeriums für wirtschaftliche Zusammenarbeit und Entwicklung auf. Die Frage 43 der Abgeordneten Eva-Maria Schreiber und die Fragen 44 und 45 des Abgeordneten Uwe Kekeritz werden schriftlich beantwortet.",
-            "sentences": [
-              {
-                "text": "Ich rufe den Geschäftsbereich des Bundesministeriums für wirtschaftliche Zusammenarbeit und Entwicklung auf."
-              },
-              {
-                "text": "Die Frage 43 der Abgeordneten Eva-Maria Schreiber und die Fragen 44 und 45 des Abgeordneten Uwe Kekeritz werden schriftlich beantwortet."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Ich rufe den Geschäftsbereich des Bundesministeriums der Finanzen auf. Die Frage 46 des Abgeordneten Stefan Schmidt und die Frage 47 des Abgeordneten Andrej Hunko werden schriftlich beantwortet.",
-            "sentences": [
-              {
-                "text": "Ich rufe den Geschäftsbereich des Bundesministeriums der Finanzen auf."
-              },
-              {
-                "text": "Die Frage 46 des Abgeordneten Stefan Schmidt und die Frage 47 des Abgeordneten Andrej Hunko werden schriftlich beantwortet."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Ich rufe den Geschäftsbereich des Bundesministeriums des Innern, für Bau und Heimat auf. Die Frage 48 des Abgeordneten Andrej Hunko und die Frage 49 des Abgeordneten Stefan Schmidt werden schriftlich beantwortet. Dann sind wir bei Frage 50 des Abgeordneten Jens Maier. Er ist nicht da. Es wird verfahren, wie in der Geschäftsordnung vorgesehen.",
-            "sentences": [
-              {
-                "text": "Ich rufe den Geschäftsbereich des Bundesministeriums des Innern, für Bau und Heimat auf."
-              },
-              {
-                "text": "Die Frage 48 des Abgeordneten Andrej Hunko und die Frage 49 des Abgeordneten Stefan Schmidt werden schriftlich beantwortet."
-              },
-              {
-                "text": "Dann sind wir bei Frage 50 des Abgeordneten Jens Maier."
-              },
-              {
-                "text": "Er ist nicht da."
-              },
-              {
-                "text": "Es wird verfahren, wie in der Geschäftsordnung vorgesehen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Ich rufe Frage 51 des Abgeordneten Lars Herrmann auf:",
-            "sentences": [
-              {
-                "text": "Ich rufe Frage 51 des Abgeordneten Lars Herrmann auf:"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Zur Beantwortung steht der Parlamentarische Staatssekretär Marco Wanderwitz bereit. Bitte sehr, Herr Staatssekretär.",
-            "sentences": [
-              {
-                "text": "Zur Beantwortung steht der Parlamentarische Staatssekretär Marco Wanderwitz bereit."
-              },
-              {
-                "text": "Bitte sehr, Herr Staatssekretär."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Marco Wanderwitz",
-            "speakerstatus": "speaker",
-            "text": "Danke schön, Herr Präsident. – Herr Kollege ­Herrmann, die Sperrung der Nachbesetzung von freigewordenen Dienstposten für Kontroll- und Streifenbeamte sowie für Ermittlungsbeamte an den Grenzen zur Republik Polen und zur Tschechischen Republik gelegenen Dienststellen der Bundespolizei wird bis spätestens Ende des dritten Quartals 2019 aufgehoben.",
-            "sentences": [
-              {
-                "text": "Danke schön, Herr Präsident."
-              },
-              {
-                "text": "– Herr Kollege ­Herrmann, die Sperrung der Nachbesetzung von freigewordenen Dienstposten für Kontroll- und Streifenbeamte sowie für Ermittlungsbeamte an den Grenzen zur Republik Polen und zur Tschechischen Republik gelegenen Dienststellen der Bundespolizei wird bis spätestens Ende des dritten Quartals 2019 aufgehoben."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Eine Nachfrage des Kollegen?",
-            "sentences": [
-              {
-                "text": "Eine Nachfrage des Kollegen?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Lars Herrmann",
-            "speakerstatus": "speaker",
-            "text": "Ja, vielen Dank. – Ein weiterer Plan ist, einen Einsatzzug der Mobilen Kontroll- und Überwachungseinheit, MKÜ, von Löbau abzuziehen und nach Dresden zu verlegen. Wie kann das in Übereinstimmung gebracht werden mit der Aussage vom Innenminister, dass er doch gerade die Sicherheit und Präsenz an der Grenze erhöhen möchte? Denn die Fahrzeit von Löbau nach Görlitz – 25 Kilometer – beträgt bekanntlich eine Viertelstunde und die Fahrzeit von Dresden nach Görlitz – um die 125 Kilometer – eine Stunde 15 Minuten. Das verkürzt dann ja auch die Einsatzzeit der Beamten, entspricht also genau dem Gegenteil von dem, was der Innenminister geäußert hat. Warum macht man das? Warum zieht man die Leute aus Löbau ab?",
-            "sentences": [
-              {
-                "text": "Ja, vielen Dank."
-              },
-              {
-                "text": "– Ein weiterer Plan ist, einen Einsatzzug der Mobilen Kontroll- und Überwachungseinheit, MKÜ, von Löbau abzuziehen und nach Dresden zu verlegen."
-              },
-              {
-                "text": "Wie kann das in Übereinstimmung gebracht werden mit der Aussage vom Innenminister, dass er doch gerade die Sicherheit und Präsenz an der Grenze erhöhen möchte?"
-              },
-              {
-                "text": "Denn die Fahrzeit von Löbau nach Görlitz – 25 Kilometer – beträgt bekanntlich eine Viertelstunde und die Fahrzeit von Dresden nach Görlitz – um die 125 Kilometer – eine Stunde 15 Minuten."
-              },
-              {
-                "text": "Das verkürzt dann ja auch die Einsatzzeit der Beamten, entspricht also genau dem Gegenteil von dem, was der Innenminister geäußert hat."
-              },
-              {
-                "text": "Warum macht man das?"
-              },
-              {
-                "text": "Warum zieht man die Leute aus Löbau ab?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Marco Wanderwitz",
-            "speakerstatus": "speaker",
-            "text": "Zu derartig detaillierten Planungen unserer nachgeordneten Behörde Bundespolizei kann ich jetzt keine Auskunft geben, liefere ich aber gerne schriftlich.",
-            "sentences": [
-              {
-                "text": "Zu derartig detaillierten Planungen unserer nachgeordneten Behörde Bundespolizei kann ich jetzt keine Auskunft geben, liefere ich aber gerne schriftlich."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Weitere Nachfrage?",
-            "sentences": [
-              {
-                "text": "Weitere Nachfrage?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Lars Herrmann",
-            "speakerstatus": "speaker",
-            "text": "Wenn man demnächst diese Stellenbesetzungssperre bei den Dienststellen an der Ostgrenze aufhebt, haben die Kollegen der Mobilen Kontroll- und Überwachungseinheit – viele sind auch schon so alt wie ich und nehmen langsam eine Tropfenform an – die Möglichkeit, von der MKÜ in die Einzeldienststellen zu wechseln, sodass sie nicht mehr den ganzen Tag Fußballeinsätze fahren müssen, Maschinengewehr usw. tragen müssen. Könnte man die Jüngeren, die jetzt nachkommen und ausgebildet werden, in die Mobile Kontroll- und Überwachungseinheit überführen, damit die erfahrenen Beamten ihr Wissen in den Einzeldienststellen an der Grenze, bevorzugt an ihrem Dienstort, einbringen können? Dazu gehört natürlich auch der soziale Aspekt; denn man hat sich dort eine Wohnung gesucht, Familie gegründet, ist Vereinen beigetreten etc. Wird die soziale Komponente auch mit berücksichtigt? Ist das angedacht von der Bundesregierung?",
-            "sentences": [
-              {
-                "text": "Wenn man demnächst diese Stellenbesetzungssperre bei den Dienststellen an der Ostgrenze aufhebt, haben die Kollegen der Mobilen Kontroll- und Überwachungseinheit – viele sind auch schon so alt wie ich und nehmen langsam eine Tropfenform an – die Möglichkeit, von der MKÜ in die Einzeldienststellen zu wechseln, sodass sie nicht mehr den ganzen Tag Fußballeinsätze fahren müssen, Maschinengewehr usw. tragen müssen."
-              },
-              {
-                "text": "Könnte man die Jüngeren, die jetzt nachkommen und ausgebildet werden, in die Mobile Kontroll- und Überwachungseinheit überführen, damit die erfahrenen Beamten ihr Wissen in den Einzeldienststellen an der Grenze, bevorzugt an ihrem Dienstort, einbringen können?"
-              },
-              {
-                "text": "Dazu gehört natürlich auch der soziale Aspekt; denn man hat sich dort eine Wohnung gesucht, Familie gegründet, ist Vereinen beigetreten etc. Wird die soziale Komponente auch mit berücksichtigt?"
-              },
-              {
-                "text": "Ist das angedacht von der Bundesregierung?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Marco Wanderwitz",
-            "speakerstatus": "speaker",
-            "text": "Auch dazu, wie die Bundespolizei, in dem Falle die zuständige Direktion, ihre Stellen im Detail besetzt und möglicherweise verschiebt, kann ich jetzt keine konkreten Auskünfte machen. Auch das nehme ich gerne mit und versuche, eine schriftliche Antwort zu geben.",
-            "sentences": [
-              {
-                "text": "Auch dazu, wie die Bundespolizei, in dem Falle die zuständige Direktion, ihre Stellen im Detail besetzt und möglicherweise verschiebt, kann ich jetzt keine konkreten Auskünfte machen."
-              },
-              {
-                "text": "Auch das nehme ich gerne mit und versuche, eine schriftliche Antwort zu geben."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Vielen Dank. – Wir fahren fort mit den Fragen 52 und 53 des Abgeordneten Niema Movassat. Diese Fragen werden schriftlich beantwortet. Die Frage 54 der Abgeordneten Filiz Polat und die Frage 55 des Abgeordneten Manuel Sarrazin werden ebenso schriftlich beantwortet.",
-            "sentences": [
-              {
-                "text": "Vielen Dank."
-              },
-              {
-                "text": "– Wir fahren fort mit den Fragen 52 und 53 des Abgeordneten Niema Movassat."
-              },
-              {
-                "text": "Diese Fragen werden schriftlich beantwortet."
-              },
-              {
-                "text": "Die Frage 54 der Abgeordneten Filiz Polat und die Frage 55 des Abgeordneten Manuel Sarrazin werden ebenso schriftlich beantwortet."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Wir kommen zur Frage 56 des Abgeordneten Christian Kühn – er ist anwesend –:",
-            "sentences": [
-              {
-                "text": "Wir kommen zur Frage 56 des Abgeordneten Christian Kühn – er ist anwesend –:"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Herr Staatssekretär.",
-            "sentences": [
-              {
-                "text": "Herr Staatssekretär."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Marco Wanderwitz",
-            "speakerstatus": "speaker",
-            "text": "Lieber Kollege Kühn, wir setzen auch hier, wie vorhin schon einmal angesprochen, ein Gespräch aus der heutigen Sitzung des Bauausschusses sozusagen fort.",
-            "sentences": [
-              {
-                "text": "Lieber Kollege Kühn, wir setzen auch hier, wie vorhin schon einmal angesprochen, ein Gespräch aus der heutigen Sitzung des Bauausschusses sozusagen fort."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Marco Wanderwitz",
-            "speakerstatus": "speaker",
-            "text": "Vertiefende Prüfungen wesentlicher sicherheitstechnisch relevanter Anlagen auf der Baustelle des Humboldt Forums haben Ende Mai ergeben, dass die bauliche Fertigstellung des komplexen Gebäudes bis Ende dieses Jahres nicht realistisch ist. Sicherheit und Qualität auf der Baustelle müssen Vorrang zum Schutz von Mensch und Kulturgut haben.",
-            "sentences": [
-              {
-                "text": "Vertiefende Prüfungen wesentlicher sicherheitstechnisch relevanter Anlagen auf der Baustelle des Humboldt Forums haben Ende Mai ergeben, dass die bauliche Fertigstellung des komplexen Gebäudes bis Ende dieses Jahres nicht realistisch ist."
-              },
-              {
-                "text": "Sicherheit und Qualität auf der Baustelle müssen Vorrang zum Schutz von Mensch und Kulturgut haben."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Marco Wanderwitz",
-            "speakerstatus": "speaker",
-            "text": "Die Stiftung Humboldt Forum im Berliner Schloss wird den aktuellen Sachstand zusammen mit dem Bundesamt für Bauwesen und Raumordnung bewerten und den Stiftungsrat heute hierüber und über die nächsten Schritte umfassend informieren. Das ist mittlerweile erfolgt. Die Stiftungsratssitzung ist zu Ende. Über das weitere Vorgehen wird die Bundesregierung die beteiligten Ausschüsse – Haushalt, Bau und Kultur – in Abhängigkeit von der Beschlussfassung des Stiftungsrates zeitnah informieren. Hier kann ich ergänzen, dass es mittlerweile eine Pressekonferenz gegeben hat und auch eine große Presseerklärung seitens der Bauherrin, der Stiftung Humboldt Forum, abgegeben wurde.",
-            "sentences": [
-              {
-                "text": "Die Stiftung Humboldt Forum im Berliner Schloss wird den aktuellen Sachstand zusammen mit dem Bundesamt für Bauwesen und Raumordnung bewerten und den Stiftungsrat heute hierüber und über die nächsten Schritte umfassend informieren."
-              },
-              {
-                "text": "Das ist mittlerweile erfolgt."
-              },
-              {
-                "text": "Die Stiftungsratssitzung ist zu Ende."
-              },
-              {
-                "text": "Über das weitere Vorgehen wird die Bundesregierung die beteiligten Ausschüsse – Haushalt, Bau und Kultur – in Abhängigkeit von der Beschlussfassung des Stiftungsrates zeitnah informieren."
-              },
-              {
-                "text": "Hier kann ich ergänzen, dass es mittlerweile eine Pressekonferenz gegeben hat und auch eine große Presseerklärung seitens der Bauherrin, der Stiftung Humboldt Forum, abgegeben wurde."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Möchten Sie nachfragen?",
-            "sentences": [
-              {
-                "text": "Möchten Sie nachfragen?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Christian Kühn",
-            "speakerstatus": "speaker",
-            "text": "Ja, gerne. – Danke, Herr Staatssekretär Wanderwitz. – Es ist ja ein kultur- und baupolitisches Desaster, das sich hier abgespielt hat. Das Humboldt Forum war ja immer sozusagen eines der Vorzeigeprojekte des Bundes, bei dem gesagt wurde: Hier trifft deutsche Ingenieurskunst auf Pünktlichkeit, auf Einhaltung des Kostenrahmens. Im Gegensatz zu all den Großprojekten der letzten Jahre, die sozusagen gescheitert sind bzw. Riesenprobleme machen, war das immer ein Leuchtturm.",
-            "sentences": [
-              {
-                "text": "Ja, gerne."
-              },
-              {
-                "text": "– Danke, Herr Staatssekretär Wanderwitz."
-              },
-              {
-                "text": "– Es ist ja ein kultur- und baupolitisches Desaster, das sich hier abgespielt hat."
-              },
-              {
-                "text": "Das Humboldt Forum war ja immer sozusagen eines der Vorzeigeprojekte des Bundes, bei dem gesagt wurde: Hier trifft deutsche Ingenieurskunst auf Pünktlichkeit, auf Einhaltung des Kostenrahmens."
-              },
-              {
-                "text": "Im Gegensatz zu all den Großprojekten der letzten Jahre, die sozusagen gescheitert sind bzw. Riesenprobleme machen, war das immer ein Leuchtturm."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Christian Kühn",
-            "speakerstatus": "speaker",
-            "text": "Können Sie hier noch einmal für die Öffentlichkeit darstellen, wo denn die Probleme dafür liegen, dass das Humboldt Forum nun nicht im Humboldt-Jahr eröffnet wird, sondern dessen Eröffnung auf unbestimmte Zeit verschoben wird, und was die Ursachen dafür sind? Die Öffentlichkeit hat ja ein Recht darauf, zu erfahren, was denn die Ursachen dafür sind, dass nun die Fertigstellung dieses Projektes um ein Jahr plus X verschoben wird.",
-            "sentences": [
-              {
-                "text": "Können Sie hier noch einmal für die Öffentlichkeit darstellen, wo denn die Probleme dafür liegen, dass das Humboldt Forum nun nicht im Humboldt-Jahr eröffnet wird, sondern dessen Eröffnung auf unbestimmte Zeit verschoben wird, und was die Ursachen dafür sind?"
-              },
-              {
-                "text": "Die Öffentlichkeit hat ja ein Recht darauf, zu erfahren, was denn die Ursachen dafür sind, dass nun die Fertigstellung dieses Projektes um ein Jahr plus X verschoben wird."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Marco Wanderwitz",
-            "speakerstatus": "speaker",
-            "text": "Gerne. – Wir haben es mit einer sehr großen, sehr komplexen Baustelle zu tun, die seit 2012 – das war ja das Jahr des Baubeginns – läuft. In der Tat wollten wir zu Ende 2019 endgültig fertig sein. Das Gebäude ist faktisch fertiggebaut. Wir haben eine Vielzahl kleiner Minibaustellen innerhalb des Gebäudes. Dabei geht es insbesondere um letzte bauliche Fertigstellungen vor allen Dingen im Bereich der Haustechnik und um die technische Inbetriebnahme des Gebäudes, was auch deshalb ein äußerst komplexer Prozess ist, weil schon erste Objekte parallel eingebracht worden sind, unter anderem große Objekte, die während der Bauphase eingebracht werden mussten.",
-            "sentences": [
-              {
-                "text": "Gerne."
-              },
-              {
-                "text": "– Wir haben es mit einer sehr großen, sehr komplexen Baustelle zu tun, die seit 2012 – das war ja das Jahr des Baubeginns – läuft."
-              },
-              {
-                "text": "In der Tat wollten wir zu Ende 2019 endgültig fertig sein."
-              },
-              {
-                "text": "Das Gebäude ist faktisch fertiggebaut."
-              },
-              {
-                "text": "Wir haben eine Vielzahl kleiner Minibaustellen innerhalb des Gebäudes."
-              },
-              {
-                "text": "Dabei geht es insbesondere um letzte bauliche Fertigstellungen vor allen Dingen im Bereich der Haustechnik und um die technische Inbetriebnahme des Gebäudes, was auch deshalb ein äußerst komplexer Prozess ist, weil schon erste Objekte parallel eingebracht worden sind, unter anderem große Objekte, die während der Bauphase eingebracht werden mussten."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Marco Wanderwitz",
-            "speakerstatus": "speaker",
-            "text": "Deswegen an dieser Stelle noch einmal ganz deutlich: Das Projekt ist nach wie vor ein Leuchtturm, nach wie vor ein Vorzeigeprojekt. Wir haben jetzt leider auf der Zielgeraden den Termin verfehlt, aber es ist nicht so, dass wir hier in riesigen Schwierigkeiten stecken und die Fertigstellung des Gebäudes vom Grunde her infrage steht, sondern wir haben eine strukturell gute Baumaßnahme.",
-            "sentences": [
-              {
-                "text": "Deswegen an dieser Stelle noch einmal ganz deutlich: Das Projekt ist nach wie vor ein Leuchtturm, nach wie vor ein Vorzeigeprojekt."
-              },
-              {
-                "text": "Wir haben jetzt leider auf der Zielgeraden den Termin verfehlt, aber es ist nicht so, dass wir hier in riesigen Schwierigkeiten stecken und die Fertigstellung des Gebäudes vom Grunde her infrage steht, sondern wir haben eine strukturell gute Baumaßnahme."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Weitere Nachfrage?",
-            "sentences": [
-              {
-                "text": "Weitere Nachfrage?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Christian Kühn",
-            "speakerstatus": "speaker",
-            "text": "Ja. – Solche Aussagen kennen wir ja von anderen Projekten, und dann war es doch viel problematischer. Deswegen sind wir da grundsätzlich skeptisch, insbesondere auch als Opposition. Es gab Flughäfen, bei denen gesagt wurde, dass man das in zwei Monaten hinbekommen würde, die bis heute nicht eröffnet sind. Auch da ging es um technische Anlagen.",
-            "sentences": [
-              {
-                "text": "Ja."
-              },
-              {
-                "text": "– Solche Aussagen kennen wir ja von anderen Projekten, und dann war es doch viel problematischer."
-              },
-              {
-                "text": "Deswegen sind wir da grundsätzlich skeptisch, insbesondere auch als Opposition."
-              },
-              {
-                "text": "Es gab Flughäfen, bei denen gesagt wurde, dass man das in zwei Monaten hinbekommen würde, die bis heute nicht eröffnet sind."
-              },
-              {
-                "text": "Auch da ging es um technische Anlagen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Christian Kühn",
-            "speakerstatus": "speaker",
-            "text": "Jetzt noch einmal meine Frage: Wir hatten im Januar im Ausschuss – ich bin ein bisschen verärgert darüber, weil wir als Abgeordnete die Kontrollfunktion gerade bei solchen Großprojekten sehr ernst nehmen – ja dezidiert über das Humboldt Forum gesprochen. Da wurde, wenn ich einmal aus dem Protokoll zitieren darf, sehr detailliert gerade über die Probleme bei der technischen Gebäudeausstattung gesprochen. Da wurde sehr klargemacht, dass Generalunternehmen gekündigt worden sind, neue Unternehmen, kleinere Firmen hereingenommen worden sind, um die Probleme zu lösen. Und da ist der Satz gefallen:",
-            "sentences": [
-              {
-                "text": "Jetzt noch einmal meine Frage: Wir hatten im Januar im Ausschuss – ich bin ein bisschen verärgert darüber, weil wir als Abgeordnete die Kontrollfunktion gerade bei solchen Großprojekten sehr ernst nehmen – ja dezidiert über das Humboldt Forum gesprochen."
-              },
-              {
-                "text": "Da wurde, wenn ich einmal aus dem Protokoll zitieren darf, sehr detailliert gerade über die Probleme bei der technischen Gebäudeausstattung gesprochen."
-              },
-              {
-                "text": "Da wurde sehr klargemacht, dass Generalunternehmen gekündigt worden sind, neue Unternehmen, kleinere Firmen hereingenommen worden sind, um die Probleme zu lösen."
-              },
-              {
-                "text": "Und da ist der Satz gefallen:"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Christian Kühn",
-            "speakerstatus": "speaker",
-            "text": "Was ist jetzt seit Januar passiert bei der Gebäudetechnik, dass ebendiese Gebäudetechnik nicht auf Kurs ist? Die Probleme damit gab es ja schon länger. Ab wann war es dem Bauministerium klar: „Hier gibt es ein so großes Problem, dass man nicht im Humboldt-Jahr das Humboldt Forum eröffnen kann“?",
-            "sentences": [
-              {
-                "text": "Was ist jetzt seit Januar passiert bei der Gebäudetechnik, dass ebendiese Gebäudetechnik nicht auf Kurs ist?"
-              },
-              {
-                "text": "Die Probleme damit gab es ja schon länger."
-              },
-              {
-                "text": "Ab wann war es dem Bauministerium klar: „Hier gibt es ein so großes Problem, dass man nicht im Humboldt-Jahr das Humboldt Forum eröffnen kann“?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Marco Wanderwitz",
-            "speakerstatus": "speaker",
-            "text": "Zum einen halte ich den Vergleich mit dem Flughafen für wirklich nicht passend. Ich verweise bei der Gelegenheit auch darauf, dass wir eine große Zahl ähnlich gelagerter, nicht ganz so großer Bauprojekte in den letzten Jahren sehr gut über die Bühne bekommen haben. Ich verweise beispielsweise einmal auf die unmittelbar in der Nähe gelegene Museumsinsel, wo wir vor einiger Zeit die James-Simon-Galerie eröffnet haben.",
-            "sentences": [
-              {
-                "text": "Zum einen halte ich den Vergleich mit dem Flughafen für wirklich nicht passend."
-              },
-              {
-                "text": "Ich verweise bei der Gelegenheit auch darauf, dass wir eine große Zahl ähnlich gelagerter, nicht ganz so großer Bauprojekte in den letzten Jahren sehr gut über die Bühne bekommen haben."
-              },
-              {
-                "text": "Ich verweise beispielsweise einmal auf die unmittelbar in der Nähe gelegene Museumsinsel, wo wir vor einiger Zeit die James-Simon-Galerie eröffnet haben."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Marco Wanderwitz",
-            "speakerstatus": "speaker",
-            "text": "Wir haben in Deutschland und insbesondere in den Ballungszentren und noch einmal ganz besonders in Berlin seit einiger Zeit eine sehr, sehr angespannte Baukonjunktur. Wir haben die Situation, dass es wirklich nicht einfach ist, Firmen zu finden, und es ist auch nicht in jedem Falle gewährleistet, dass der oder die, die sich um eine Ausschreibung bewerben, dann am Ende auch das macht, was vorweg zugesagt worden ist. Das ist eine Situation, die jeder kennt, der momentan in Deutschland baut. Wir haben die letzten Monate von gewissen Puffern gelebt, die so ein Bauprojekt mit sich bringt. Jetzt war leider, ein halbes Jahr nachdem wir das Thema zum letzten Mal im Ausschuss hatten, die Situation eingetreten, dass wir sagen mussten: Unsere Puffer sind aufgezehrt, die ursprüngliche Planung wird so nicht aufgehen. Jetzt müssen wir um Nachschlag bitten.",
-            "sentences": [
-              {
-                "text": "Wir haben in Deutschland und insbesondere in den Ballungszentren und noch einmal ganz besonders in Berlin seit einiger Zeit eine sehr, sehr angespannte Baukonjunktur."
-              },
-              {
-                "text": "Wir haben die Situation, dass es wirklich nicht einfach ist, Firmen zu finden, und es ist auch nicht in jedem Falle gewährleistet, dass der oder die, die sich um eine Ausschreibung bewerben, dann am Ende auch das macht, was vorweg zugesagt worden ist."
-              },
-              {
-                "text": "Das ist eine Situation, die jeder kennt, der momentan in Deutschland baut."
-              },
-              {
-                "text": "Wir haben die letzten Monate von gewissen Puffern gelebt, die so ein Bauprojekt mit sich bringt."
-              },
-              {
-                "text": "Jetzt war leider, ein halbes Jahr nachdem wir das Thema zum letzten Mal im Ausschuss hatten, die Situation eingetreten, dass wir sagen mussten: Unsere Puffer sind aufgezehrt, die ursprüngliche Planung wird so nicht aufgehen."
-              },
-              {
-                "text": "Jetzt müssen wir um Nachschlag bitten."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Vielen Dank. – Jetzt machen wir einen kleinen Sprung: Die Frage 57 der Abgeordneten Daniela Wagner, die Fragen 58 und 59 der Abgeordneten Martina Renner, die Frage 60 des Abgeordneten Benjamin Strasser und die Frage 61 der Abgeordneten Canan Bayram werden schriftlich beantwortet.",
-            "sentences": [
-              {
-                "text": "Vielen Dank."
-              },
-              {
-                "text": "– Jetzt machen wir einen kleinen Sprung: Die Frage 57 der Abgeordneten Daniela Wagner, die Fragen 58 und 59 der Abgeordneten Martina Renner, die Frage 60 des Abgeordneten Benjamin Strasser und die Frage 61 der Abgeordneten Canan Bayram werden schriftlich beantwortet."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Die Frage 62 stammt vom Abgeordneten Dr. Gero Clemens Hocker von der FDP. Er ist auch nicht da. Es wird verfahren, wie in der Geschäftsordnung vorgesehen.",
-            "sentences": [
-              {
-                "text": "Die Frage 62 stammt vom Abgeordneten Dr. Gero Clemens Hocker von der FDP."
-              },
-              {
-                "text": "Er ist auch nicht da."
-              },
-              {
-                "text": "Es wird verfahren, wie in der Geschäftsordnung vorgesehen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Jetzt kommen die restlichen Fragen, die Fragen 63 bis 82.",
-            "sentences": [
-              {
-                "text": "Jetzt kommen die restlichen Fragen, die Fragen 63 bis 82."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "– Welche?",
-            "sentences": [
-              {
-                "text": "– Welche?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "– Hier steht „schriftliche Beantwortung“, tut mir leid. Es ist hier so angemeldet worden. Ziehen Sie das wieder zurück?",
-            "sentences": [
-              {
-                "text": "– Hier steht „schriftliche Beantwortung“, tut mir leid."
-              },
-              {
-                "text": "Es ist hier so angemeldet worden."
-              },
-              {
-                "text": "Ziehen Sie das wieder zurück?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Wollen Sie sie mündlich beantwortet haben? – Bitte sehr.",
-            "sentences": [
-              {
-                "text": "Wollen Sie sie mündlich beantwortet haben?"
-              },
-              {
-                "text": "– Bitte sehr."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Marco Wanderwitz",
-            "speakerstatus": "speaker",
-            "text": "Nach der Richtlinie geht es nicht.",
-            "sentences": [
-              {
-                "text": "Nach der Richtlinie geht es nicht."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Nach der Richtlinie wird schriftlich beantwortet. Sorry. Dann ist das hier durch.",
-            "sentences": [
-              {
-                "text": "Nach der Richtlinie wird schriftlich beantwortet."
-              },
-              {
-                "text": "Sorry."
-              },
-              {
-                "text": "Dann ist das hier durch."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Wir stellen fest, dass die weiteren Fragen zu diesem Geschäftsbereich – die Fragen 63 und 64 –, die Fragen 65 bis 76 zum Geschäftsbereich des Auswärtigen Amts und die Fragen 77 bis 82 zum Geschäftsbereich des Bundesministeriums für Wirtschaft und Energie alle schriftlich beantwortet werden.",
-            "sentences": [
-              {
-                "text": "Wir stellen fest, dass die weiteren Fragen zu diesem Geschäftsbereich – die Fragen 63 und 64 –, die Fragen 65 bis 76 zum Geschäftsbereich des Auswärtigen Amts und die Fragen 77 bis 82 zum Geschäftsbereich des Bundesministeriums für Wirtschaft und Energie alle schriftlich beantwortet werden."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "– Das steht aber hier in meinen Unterlagen.",
-            "sentences": [
-              {
-                "text": "– Das steht aber hier in meinen Unterlagen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "– Dann sind die Fragen teilweise konsumiert durch andere Tagesordnungspunkte. Das ist jedenfalls nach unserer Geschäftsordnung so ordnungsgemäß.",
-            "sentences": [
-              {
-                "text": "– Dann sind die Fragen teilweise konsumiert durch andere Tagesordnungspunkte."
-              },
-              {
-                "text": "Das ist jedenfalls nach unserer Geschäftsordnung so ordnungsgemäß."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Damit sind wir am Ende der Fragestunde. Es kommt ja selten vor, dass alle Fragen erledigt werden.",
-            "sentences": [
-              {
-                "text": "Damit sind wir am Ende der Fragestunde."
-              },
-              {
-                "text": "Es kommt ja selten vor, dass alle Fragen erledigt werden."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Bevor ich jetzt den Zusatzpunkt „Aktuelle Stunde“ aufrufe, unterbreche ich die Sitzung für fünf Minuten, damit die Redner für die Aktuelle Stunde herbeigerufen werden können. Als Erster spricht der Abgeordnete Oliver Luksic, FDP; er sollte auch als Erster hier sein. Wir machen weiter in fünf Minuten.",
-            "sentences": [
-              {
-                "text": "Bevor ich jetzt den Zusatzpunkt „Aktuelle Stunde“ aufrufe, unterbreche ich die Sitzung für fünf Minuten, damit die Redner für die Aktuelle Stunde herbeigerufen werden können."
-              },
-              {
-                "text": "Als Erster spricht der Abgeordnete Oliver Luksic, FDP; er sollte auch als Erster hier sein."
-              },
-              {
-                "text": "Wir machen weiter in fünf Minuten."
-              }
-            ]
           }
         ]
       }
@@ -9178,7 +7615,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 2",
-      "speechIndex": 101,
+      "speechIndex": 1104,
       "title": "Aktuelle Stunde zum Scheitern der PKW-Maut und Kosten für den Steuerzahler"
     },
     "people": [
@@ -9194,12 +7631,45 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19106-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19106-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
         "originTextID": "",
         "textBody": [
+          {
+            "type": "speech",
+            "speaker": "Thomas Oppermann",
+            "speakerstatus": "vice-president",
+            "text": "Aktuelle Stunde",
+            "sentences": [
+              {
+                "text": "Aktuelle Stunde"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Thomas Oppermann",
+            "speakerstatus": "vice-president",
+            "text": "auf Verlangen der Fraktion der FDP",
+            "sentences": [
+              {
+                "text": "auf Verlangen der Fraktion der FDP"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Thomas Oppermann",
+            "speakerstatus": "vice-president",
+            "text": "Scheitern der Pkw-Maut und Kosten für den Steuerzahler",
+            "sentences": [
+              {
+                "text": "Scheitern der Pkw-Maut und Kosten für den Steuerzahler"
+              }
+            ]
+          },
           {
             "type": "speech",
             "speaker": "Thomas Oppermann",
@@ -9243,7 +7713,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 2",
-      "speechIndex": 102,
+      "speechIndex": 1105,
       "title": "Aktuelle Stunde zum Scheitern der PKW-Maut und Kosten für den Steuerzahler"
     },
     "people": [
@@ -9267,7 +7737,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19106-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19106-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -9693,7 +8163,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 2",
-      "speechIndex": 103,
+      "speechIndex": 1106,
       "title": "Aktuelle Stunde zum Scheitern der PKW-Maut und Kosten für den Steuerzahler"
     },
     "people": [
@@ -9717,7 +8187,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19106-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19106-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -10230,7 +8700,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 2",
-      "speechIndex": 104,
+      "speechIndex": 1107,
       "title": "Aktuelle Stunde zum Scheitern der PKW-Maut und Kosten für den Steuerzahler"
     },
     "people": [
@@ -10254,7 +8724,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19106-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19106-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -10595,7 +9065,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 2",
-      "speechIndex": 105,
+      "speechIndex": 1108,
       "title": "Aktuelle Stunde zum Scheitern der PKW-Maut und Kosten für den Steuerzahler"
     },
     "people": [
@@ -10619,7 +9089,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19106-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19106-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -11088,7 +9558,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 2",
-      "speechIndex": 106,
+      "speechIndex": 1109,
       "title": "Aktuelle Stunde zum Scheitern der PKW-Maut und Kosten für den Steuerzahler"
     },
     "people": [
@@ -11112,7 +9582,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19106-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19106-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -11500,7 +9970,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 2",
-      "speechIndex": 107,
+      "speechIndex": 1110,
       "title": "Aktuelle Stunde zum Scheitern der PKW-Maut und Kosten für den Steuerzahler"
     },
     "people": [
@@ -11524,7 +9994,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19106-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19106-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -11954,7 +10424,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 2",
-      "speechIndex": 108,
+      "speechIndex": 1111,
       "title": "Aktuelle Stunde zum Scheitern der PKW-Maut und Kosten für den Steuerzahler"
     },
     "people": [
@@ -11978,7 +10448,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19106-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19106-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -12876,7 +11346,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 2",
-      "speechIndex": 110,
+      "speechIndex": 1113,
       "title": "Aktuelle Stunde zum Scheitern der PKW-Maut und Kosten für den Steuerzahler"
     },
     "people": [
@@ -12900,7 +11370,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19106-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19106-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -13361,7 +11831,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 2",
-      "speechIndex": 111,
+      "speechIndex": 1114,
       "title": "Aktuelle Stunde zum Scheitern der PKW-Maut und Kosten für den Steuerzahler"
     },
     "people": [
@@ -13385,7 +11855,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19106-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19106-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -13777,7 +12247,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 2",
-      "speechIndex": 112,
+      "speechIndex": 1115,
       "title": "Aktuelle Stunde zum Scheitern der PKW-Maut und Kosten für den Steuerzahler"
     },
     "people": [
@@ -13801,7 +12271,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19106-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19106-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -14219,7 +12689,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 2",
-      "speechIndex": 113,
+      "speechIndex": 1116,
       "title": "Aktuelle Stunde zum Scheitern der PKW-Maut und Kosten für den Steuerzahler"
     },
     "people": [
@@ -14243,7 +12713,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19106-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19106-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -14710,7 +13180,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 2",
-      "speechIndex": 114,
+      "speechIndex": 1117,
       "title": "Aktuelle Stunde zum Scheitern der PKW-Maut und Kosten für den Steuerzahler"
     },
     "people": [
@@ -14721,20 +13191,12 @@
         "lastname": "Holmeier",
         "context": "main-speaker",
         "faction": "CDU/CSU"
-      },
-      {
-        "type": "memberOfParliament",
-        "label": "Thomas Oppermann",
-        "firstname": "Thomas",
-        "lastname": "Oppermann",
-        "context": "vice-president",
-        "faction": "SPD"
       }
     ],
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19106-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19106-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -15064,18 +13526,58 @@
                 "text": "Herzlichen Dank."
               }
             ]
-          },
-          {
-            "type": "comment",
-            "speaker": null,
-            "speakerstatus": null,
-            "text": "(Beifall bei der CDU/CSU)",
-            "sentences": [
-              {
-                "text": "(Beifall bei der CDU/CSU)"
-              }
-            ]
-          },
+          }
+        ]
+      }
+    ],
+    "documents": [],
+    "key": "19-106 zusatzpunkt 2 (karl holmeier)",
+    "dateStart": "2019-06-26T16:54:49",
+    "dateEnd": "2019-06-26T16:58:44",
+    "media": {
+      "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7366845/7366845_h264_720_400_2000kb_baseline_de_2192.mp4",
+      "sourcePage": "http://dbtg.tv/fvid/7366845",
+      "duration": 235.0,
+      "creator": "Deutscher Bundestag",
+      "license": "CC-BY-SA",
+      "originMediaID": "7366845",
+      "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7366845/7366845_mp3_128kb_stereo_de_128.mp3"
+    }
+  },
+  {
+    "parliament": "DE",
+    "electoralPeriod": {
+      "number": "19"
+    },
+    "session": {
+      "number": "106",
+      "dateStart": "2019-06-26T13:00",
+      "dateEnd": "2019-06-26T18:59"
+    },
+    "agendaItem": {
+      "officialTitle": "Zusatzpunkt 2",
+      "speechIndex": 1118,
+      "title": "Aktuelle Stunde zum Scheitern der PKW-Maut und Kosten für den Steuerzahler"
+    },
+    "people": [
+      {
+        "type": "memberOfParliament",
+        "label": "Thomas Oppermann",
+        "firstname": "Thomas",
+        "lastname": "Oppermann",
+        "context": "vice-president",
+        "faction": "SPD"
+      }
+    ],
+    "textContents": [
+      {
+        "type": "proceedings",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19106-data.xml",
+        "creator": "Deutscher Bundestag",
+        "license": "Public Domain",
+        "language": "DE-de",
+        "originTextID": "",
+        "textBody": [
           {
             "type": "speech",
             "speaker": "Thomas Oppermann",
@@ -15130,32 +13632,9 @@
       }
     ],
     "documents": [],
-    "key": "19-106 zusatzpunkt 2 (karl holmeier)",
-    "dateStart": "2019-06-26T16:54:49",
-    "dateEnd": "2019-06-26T16:58:44",
-    "media": {
-      "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7366845/7366845_h264_720_400_2000kb_baseline_de_2192.mp4",
-      "sourcePage": "http://dbtg.tv/fvid/7366845",
-      "duration": 235.0,
-      "creator": "Deutscher Bundestag",
-      "license": "CC-BY-SA",
-      "originMediaID": "7366845",
-      "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7366845/7366845_mp3_128kb_stereo_de_128.mp3"
-    }
-  },
-  {
-    "parliament": "DE",
-    "electoralPeriod": {
-      "number": 19
-    },
-    "session": {
-      "number": 106
-    },
-    "agendaItem": {
-      "title": "Aktuelle Stunde zum Scheitern der PKW-Maut und Kosten für den Steuerzahler",
-      "officialTitle": "Zusatzpunkt 2",
-      "speechIndex": 61
-    },
+    "key": "19-106 zusatzpunkt 2 (thomas oppermann) #1",
+    "dateStart": "2019-06-26T16:58:44",
+    "dateEnd": "2019-06-26T16:58:48",
     "media": {
       "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7366846/7366846_h264_720_400_2000kb_baseline_de_2192.mp4",
       "sourcePage": "http://dbtg.tv/fvid/7366846",
@@ -15164,18 +13643,7 @@
       "license": "CC-BY-SA",
       "originMediaID": "7366846",
       "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7366846/7366846_mp3_128kb_stereo_de_128.mp3"
-    },
-    "dateStart": "2019-06-26T16:58:44",
-    "dateEnd": "2019-06-26T16:58:48",
-    "people": [
-      {
-        "label": "Thomas Oppermann",
-        "faction": "SPD",
-        "context": "main-speaker",
-        "role": "Bundestagsvizepräsident"
-      }
-    ],
-    "key": "19-106 zusatzpunkt 2 (thomas oppermann) #1"
+    }
   },
   {
     "parliament": "DE",

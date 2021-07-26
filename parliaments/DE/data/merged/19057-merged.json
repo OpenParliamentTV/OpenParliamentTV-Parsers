@@ -11,7 +11,7 @@
     },
     "agendaItem": {
       "officialTitle": "Sitzungseröffnung",
-      "speechIndex": 0,
+      "speechIndex": 1000,
       "title": "Sitzungseröffnung"
     },
     "people": [
@@ -24,7 +24,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19057-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19057-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -76,7 +76,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 2,
+      "speechIndex": 1002,
       "title": "Regierungserklärung: Europäischer Rat u. ASEM-Gipfel"
     },
     "people": [
@@ -89,12 +89,34 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19057-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19057-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
         "originTextID": "",
         "textBody": [
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "Abgabe einer Regierungserklärung durch die Bundeskanzlerin",
+            "sentences": [
+              {
+                "text": "Abgabe einer Regierungserklärung durch die Bundeskanzlerin"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "zum Europäischen Rat am 17./18. Oktober 2018 in Brüssel und zum ASEM-Gipfel am 18./19. Oktober 2018 in Brüssel",
+            "sentences": [
+              {
+                "text": "zum Europäischen Rat am 17./18. Oktober 2018 in Brüssel und zum ASEM-Gipfel am 18./19. Oktober 2018 in Brüssel"
+              }
+            ]
+          },
           {
             "type": "speech",
             "speaker": "Wolfgang Schäuble",
@@ -160,7 +182,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 3,
+      "speechIndex": 1003,
       "title": "Regierungserklärung: Europäischer Rat u. ASEM-Gipfel"
     },
     "people": [
@@ -181,7 +203,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19057-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19057-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -1090,7 +1112,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 4,
+      "speechIndex": 1004,
       "title": "Regierungserklärung: Europäischer Rat u. ASEM-Gipfel"
     },
     "people": [
@@ -1111,7 +1133,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19057-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19057-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -1689,7 +1711,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 5,
+      "speechIndex": 1005,
       "title": "Regierungserklärung: Europäischer Rat u. ASEM-Gipfel"
     },
     "people": [
@@ -1710,7 +1732,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19057-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19057-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -2469,7 +2491,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 6,
+      "speechIndex": 1006,
       "title": "Regierungserklärung: Europäischer Rat u. ASEM-Gipfel"
     },
     "people": [
@@ -2490,7 +2512,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19057-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19057-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -3626,7 +3648,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 7,
+      "speechIndex": 1007,
       "title": "Regierungserklärung: Europäischer Rat u. ASEM-Gipfel"
     },
     "people": [
@@ -3647,7 +3669,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19057-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19057-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -4411,7 +4433,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 8,
+      "speechIndex": 1008,
       "title": "Regierungserklärung: Europäischer Rat u. ASEM-Gipfel"
     },
     "people": [
@@ -4432,7 +4454,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19057-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19057-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -5101,7 +5123,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 9,
+      "speechIndex": 1009,
       "title": "Regierungserklärung: Europäischer Rat u. ASEM-Gipfel"
     },
     "people": [
@@ -5122,7 +5144,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19057-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19057-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -5687,7 +5709,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 10,
+      "speechIndex": 1010,
       "title": "Regierungserklärung: Europäischer Rat u. ASEM-Gipfel"
     },
     "people": [
@@ -5708,7 +5730,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19057-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19057-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -6309,7 +6331,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 11,
+      "speechIndex": 1011,
       "title": "Regierungserklärung: Europäischer Rat u. ASEM-Gipfel"
     },
     "people": [
@@ -6330,7 +6352,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19057-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19057-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -6737,7 +6759,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 12,
+      "speechIndex": 1012,
       "title": "Regierungserklärung: Europäischer Rat u. ASEM-Gipfel"
     },
     "people": [
@@ -6758,7 +6780,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19057-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19057-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -7388,7 +7410,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 13,
+      "speechIndex": 1013,
       "title": "Regierungserklärung: Europäischer Rat u. ASEM-Gipfel"
     },
     "people": [
@@ -7409,7 +7431,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19057-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19057-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -7821,7 +7843,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 14,
+      "speechIndex": 1014,
       "title": "Regierungserklärung: Europäischer Rat u. ASEM-Gipfel"
     },
     "people": [
@@ -7842,7 +7864,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19057-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19057-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -8145,7 +8167,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 15,
+      "speechIndex": 1015,
       "title": "Regierungserklärung: Europäischer Rat u. ASEM-Gipfel"
     },
     "people": [
@@ -8166,7 +8188,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19057-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19057-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -8532,7 +8554,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 16,
+      "speechIndex": 1016,
       "title": "Regierungserklärung: Europäischer Rat u. ASEM-Gipfel"
     },
     "people": [
@@ -8553,7 +8575,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19057-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19057-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -8938,7 +8960,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 17,
+      "speechIndex": 1017,
       "title": "Regierungserklärung: Europäischer Rat u. ASEM-Gipfel"
     },
     "people": [
@@ -8959,7 +8981,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19057-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19057-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -9391,7 +9413,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 18,
+      "speechIndex": 1018,
       "title": "Regierungserklärung: Europäischer Rat u. ASEM-Gipfel"
     },
     "people": [
@@ -9412,7 +9434,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19057-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19057-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -9657,7 +9679,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 19,
+      "speechIndex": 1019,
       "title": "Regierungserklärung: Europäischer Rat u. ASEM-Gipfel"
     },
     "people": [
@@ -9678,7 +9700,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19057-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19057-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -9927,7 +9949,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 20,
+      "speechIndex": 1020,
       "title": "Regierungserklärung: Europäischer Rat u. ASEM-Gipfel"
     },
     "people": [
@@ -9948,7 +9970,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19057-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19057-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -10169,7 +10191,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 21,
+      "speechIndex": 1021,
       "title": "Regierungserklärung: Europäischer Rat u. ASEM-Gipfel"
     },
     "people": [
@@ -10190,7 +10212,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19057-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19057-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -10470,7 +10492,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 22,
+      "speechIndex": 1022,
       "title": "Regierungserklärung: Europäischer Rat u. ASEM-Gipfel"
     },
     "people": [
@@ -10481,17 +10503,12 @@
         "lastname": "Seif",
         "context": "main-speaker",
         "faction": "CDU/CSU"
-      },
-      {
-        "type": "memberOfParliament",
-        "label": "Wolfgang Kubicki",
-        "context": "vice-president"
       }
     ],
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19057-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19057-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -10755,18 +10772,55 @@
                 "text": "Vielen Dank."
               }
             ]
-          },
-          {
-            "type": "comment",
-            "speaker": null,
-            "speakerstatus": null,
-            "text": "(Beifall bei der CDU/CSU)",
-            "sentences": [
-              {
-                "text": "(Beifall bei der CDU/CSU)"
-              }
-            ]
-          },
+          }
+        ]
+      }
+    ],
+    "documents": [],
+    "key": "19-57 tagesordnungspunkt 1 (detlef seif)",
+    "dateStart": "2018-10-17T13:26:30",
+    "dateEnd": "2018-10-17T13:32:04",
+    "media": {
+      "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7282332/7282332_h264_720_400_2000kb_baseline_de_2192.mp4",
+      "sourcePage": "http://dbtg.tv/fvid/7282332",
+      "duration": 334.0,
+      "creator": "Deutscher Bundestag",
+      "license": "CC-BY-SA",
+      "originMediaID": "7282332",
+      "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7282332/7282332_mp3_128kb_stereo_de_128.mp3"
+    }
+  },
+  {
+    "parliament": "DE",
+    "electoralPeriod": {
+      "number": "19"
+    },
+    "session": {
+      "number": "57",
+      "dateStart": "2018-10-17T13:00",
+      "dateEnd": "2018-10-17T18:02"
+    },
+    "agendaItem": {
+      "officialTitle": "Tagesordnungspunkt 1",
+      "speechIndex": 1023,
+      "title": "Regierungserklärung: Europäischer Rat u. ASEM-Gipfel"
+    },
+    "people": [
+      {
+        "type": "memberOfParliament",
+        "label": "Wolfgang Kubicki",
+        "context": "vice-president"
+      }
+    ],
+    "textContents": [
+      {
+        "type": "proceedings",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19057-data.xml",
+        "creator": "Deutscher Bundestag",
+        "license": "Public Domain",
+        "language": "DE-de",
+        "originTextID": "",
+        "textBody": [
           {
             "type": "speech",
             "speaker": "Wolfgang Kubicki",
@@ -10805,32 +10859,9 @@
       }
     ],
     "documents": [],
-    "key": "19-57 tagesordnungspunkt 1 (detlef seif)",
-    "dateStart": "2018-10-17T13:26:30",
-    "dateEnd": "2018-10-17T13:32:04",
-    "media": {
-      "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7282332/7282332_h264_720_400_2000kb_baseline_de_2192.mp4",
-      "sourcePage": "http://dbtg.tv/fvid/7282332",
-      "duration": 334.0,
-      "creator": "Deutscher Bundestag",
-      "license": "CC-BY-SA",
-      "originMediaID": "7282332",
-      "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7282332/7282332_mp3_128kb_stereo_de_128.mp3"
-    }
-  },
-  {
-    "parliament": "DE",
-    "electoralPeriod": {
-      "number": 19
-    },
-    "session": {
-      "number": 57
-    },
-    "agendaItem": {
-      "title": "Regierungserklärung: Europäischer Rat u. ASEM-Gipfel",
-      "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 23
-    },
+    "key": "19-57 tagesordnungspunkt 1 (wolfgang kubicki)",
+    "dateStart": "2018-10-17T13:32:04",
+    "dateEnd": "2018-10-17T13:32:32",
     "media": {
       "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7282333/7282333_h264_720_400_2000kb_baseline_de_2192.mp4",
       "sourcePage": "http://dbtg.tv/fvid/7282333",
@@ -10839,18 +10870,7 @@
       "license": "CC-BY-SA",
       "originMediaID": "7282333",
       "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7282333/7282333_mp3_128kb_stereo_de_128.mp3"
-    },
-    "dateStart": "2018-10-17T13:32:04",
-    "dateEnd": "2018-10-17T13:32:32",
-    "people": [
-      {
-        "label": "Wolfgang Kubicki",
-        "faction": "FDP",
-        "context": "main-speaker",
-        "role": "Bundestagsvizepräsident"
-      }
-    ],
-    "key": "19-57 tagesordnungspunkt 1 (wolfgang kubicki)"
+    }
   },
   {
     "parliament": "DE",
@@ -10864,7 +10884,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 2",
-      "speechIndex": 23,
+      "speechIndex": 1024,
       "title": "Befragung der Bundesregierung"
     },
     "people": [
@@ -10877,12 +10897,23 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19057-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19057-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
         "originTextID": "",
         "textBody": [
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Kubicki",
+            "speakerstatus": "vice-president",
+            "text": "Befragung der Bundesregierung",
+            "sentences": [
+              {
+                "text": "Befragung der Bundesregierung"
+              }
+            ]
+          },
           {
             "type": "speech",
             "speaker": "Wolfgang Kubicki",
@@ -10945,7 +10976,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 2",
-      "speechIndex": 24,
+      "speechIndex": 1025,
       "title": "Befragung der Bundesregierung"
     },
     "people": [
@@ -10966,7 +10997,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19057-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19057-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -11265,7 +11296,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 2",
-      "speechIndex": 26,
+      "speechIndex": 1027,
       "title": "Befragung der Bundesregierung"
     },
     "people": [
@@ -11286,7 +11317,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19057-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19057-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -11375,7 +11406,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 2",
-      "speechIndex": 37,
+      "speechIndex": 1038,
       "title": "Befragung der Bundesregierung"
     },
     "people": [
@@ -11396,7 +11427,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19057-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19057-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -11462,7 +11493,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 2",
-      "speechIndex": 28,
+      "speechIndex": 1029,
       "title": "Befragung der Bundesregierung"
     },
     "people": [
@@ -11483,7 +11514,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19057-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19057-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -11642,7 +11673,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 2",
-      "speechIndex": 30,
+      "speechIndex": 1031,
       "title": "Befragung der Bundesregierung"
     },
     "people": [
@@ -11663,7 +11694,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19057-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19057-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -11839,7 +11870,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 2",
-      "speechIndex": 32,
+      "speechIndex": 1033,
       "title": "Befragung der Bundesregierung"
     },
     "people": [
@@ -11860,7 +11891,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19057-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19057-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -11985,7 +12016,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 2",
-      "speechIndex": 34,
+      "speechIndex": 1035,
       "title": "Befragung der Bundesregierung"
     },
     "people": [
@@ -12006,7 +12037,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19057-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19057-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -12086,7 +12117,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 2",
-      "speechIndex": 36,
+      "speechIndex": 1037,
       "title": "Befragung der Bundesregierung"
     },
     "people": [
@@ -12102,7 +12133,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19057-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19057-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -12151,7 +12182,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 2",
-      "speechIndex": 39,
+      "speechIndex": 1040,
       "title": "Befragung der Bundesregierung"
     },
     "people": [
@@ -12172,7 +12203,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19057-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19057-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -12288,7 +12319,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 2",
-      "speechIndex": 41,
+      "speechIndex": 1042,
       "title": "Befragung der Bundesregierung"
     },
     "people": [
@@ -12309,7 +12340,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19057-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19057-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -12404,7 +12435,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 2",
-      "speechIndex": 43,
+      "speechIndex": 1044,
       "title": "Befragung der Bundesregierung"
     },
     "people": [
@@ -12425,7 +12456,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19057-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19057-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -12511,7 +12542,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 2",
-      "speechIndex": 45,
+      "speechIndex": 1046,
       "title": "Befragung der Bundesregierung"
     },
     "people": [
@@ -12532,7 +12563,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19057-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19057-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -12660,7 +12691,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 2",
-      "speechIndex": 47,
+      "speechIndex": 1048,
       "title": "Befragung der Bundesregierung"
     },
     "people": [
@@ -12681,7 +12712,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19057-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19057-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -12796,7 +12827,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 2",
-      "speechIndex": 49,
+      "speechIndex": 1050,
       "title": "Befragung der Bundesregierung"
     },
     "people": [
@@ -12817,7 +12848,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19057-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19057-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -12908,7 +12939,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 2",
-      "speechIndex": 51,
+      "speechIndex": 1052,
       "title": "Befragung der Bundesregierung"
     },
     "people": [
@@ -12929,7 +12960,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19057-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19057-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -13004,7 +13035,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 2",
-      "speechIndex": 53,
+      "speechIndex": 1054,
       "title": "Befragung der Bundesregierung"
     },
     "people": [
@@ -13025,7 +13056,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19057-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19057-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -13178,7 +13209,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 2",
-      "speechIndex": 55,
+      "speechIndex": 1056,
       "title": "Befragung der Bundesregierung"
     },
     "people": [
@@ -13199,7 +13230,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19057-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19057-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -13262,7 +13293,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 2",
-      "speechIndex": 67,
+      "speechIndex": 1068,
       "title": "Befragung der Bundesregierung"
     },
     "people": [
@@ -13283,7 +13314,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19057-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19057-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -13410,7 +13441,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 2",
-      "speechIndex": 69,
+      "speechIndex": 1070,
       "title": "Befragung der Bundesregierung"
     },
     "people": [
@@ -13431,7 +13462,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19057-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19057-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -13525,7 +13556,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 2",
-      "speechIndex": 57,
+      "speechIndex": 1058,
       "title": "Befragung der Bundesregierung"
     },
     "people": [
@@ -13554,7 +13585,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19057-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19057-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -13659,7 +13690,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 2",
-      "speechIndex": 59,
+      "speechIndex": 1060,
       "title": "Befragung der Bundesregierung"
     },
     "people": [
@@ -13680,7 +13711,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19057-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19057-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -13752,7 +13783,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 2",
-      "speechIndex": 75,
+      "speechIndex": 1076,
       "title": "Befragung der Bundesregierung"
     },
     "people": [
@@ -13773,7 +13804,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19057-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19057-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -13856,7 +13887,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 2",
-      "speechIndex": 61,
+      "speechIndex": 1062,
       "title": "Befragung der Bundesregierung"
     },
     "people": [
@@ -13877,7 +13908,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19057-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19057-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -13931,16 +13962,52 @@
   {
     "parliament": "DE",
     "electoralPeriod": {
-      "number": 19
+      "number": "19"
     },
     "session": {
-      "number": 57
+      "number": "57",
+      "dateStart": "2018-10-17T13:00",
+      "dateEnd": "2018-10-17T18:02"
     },
     "agendaItem": {
-      "title": "Befragung der Bundesregierung",
       "officialTitle": "Tagesordnungspunkt 2",
-      "speechIndex": 48
+      "speechIndex": 1079,
+      "title": "Befragung der Bundesregierung"
     },
+    "people": [
+      {
+        "type": "memberOfParliament",
+        "label": "Petra Pau",
+        "context": "vice-president"
+      }
+    ],
+    "textContents": [
+      {
+        "type": "proceedings",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19057-data.xml",
+        "creator": "Deutscher Bundestag",
+        "license": "Public Domain",
+        "language": "DE-de",
+        "originTextID": "",
+        "textBody": [
+          {
+            "type": "speech",
+            "speaker": "Petra Pau",
+            "speakerstatus": "vice-president",
+            "text": "Danke, Herr Minister.",
+            "sentences": [
+              {
+                "text": "Danke, Herr Minister."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "documents": [],
+    "key": "19-57 tagesordnungspunkt 2 (petra pau)",
+    "dateStart": "2018-10-17T14:29:45",
+    "dateEnd": "2018-10-17T14:29:54",
     "media": {
       "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7282364/7282364_h264_720_400_2000kb_baseline_de_2192.mp4",
       "sourcePage": "http://dbtg.tv/fvid/7282364",
@@ -13949,18 +14016,7 @@
       "license": "CC-BY-SA",
       "originMediaID": "7282364",
       "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7282364/7282364_mp3_128kb_stereo_de_128.mp3"
-    },
-    "dateStart": "2018-10-17T14:29:45",
-    "dateEnd": "2018-10-17T14:29:54",
-    "people": [
-      {
-        "label": "Petra Pau",
-        "faction": "Die Linke",
-        "context": "main-speaker",
-        "role": "Bundestagsvizepräsidentin"
-      }
-    ],
-    "key": "19-57 tagesordnungspunkt 2 (petra pau)"
+    }
   },
   {
     "parliament": "DE",
@@ -13974,7 +14030,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 3",
-      "speechIndex": 78,
+      "speechIndex": 1080,
       "title": "Fragestunde"
     },
     "people": [
@@ -14211,12 +14267,23 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19057-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19057-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
         "originTextID": "",
         "textBody": [
+          {
+            "type": "speech",
+            "speaker": "Petra Pau",
+            "speakerstatus": "vice-president",
+            "text": "Fragestunde",
+            "sentences": [
+              {
+                "text": "Fragestunde"
+              }
+            ]
+          },
           {
             "type": "speech",
             "speaker": "Petra Pau",
@@ -19384,7 +19451,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 3",
-      "speechIndex": 79,
+      "speechIndex": 1081,
       "title": "Fragestunde"
     },
     "people": [
@@ -19528,105 +19595,28 @@
         "lastname": "Luksic",
         "context": "speaker",
         "faction": "FDP"
-      },
-      {
-        "type": "memberOfParliament",
-        "label": "Daniela Kluckert",
-        "firstname": "Daniela",
-        "lastname": "Kluckert",
-        "context": "speaker",
-        "faction": "FDP"
-      },
-      {
-        "type": "memberOfParliament",
-        "label": "Florian Pronold",
-        "firstname": "Florian",
-        "lastname": "Pronold",
-        "context": "speaker",
-        "faction": ""
-      },
-      {
-        "type": "memberOfParliament",
-        "label": "Rainer Kraft",
-        "firstname": "Rainer",
-        "lastname": "Kraft",
-        "context": "speaker",
-        "faction": "AfD"
-      },
-      {
-        "type": "memberOfParliament",
-        "label": "Marco Wanderwitz",
-        "firstname": "Marco",
-        "lastname": "Wanderwitz",
-        "context": "speaker",
-        "faction": ""
-      },
-      {
-        "type": "memberOfParliament",
-        "label": "Kathrin Vogler",
-        "firstname": "Kathrin",
-        "lastname": "Vogler",
-        "context": "speaker",
-        "faction": "DIE LINKE"
-      },
-      {
-        "type": "memberOfParliament",
-        "label": "Martin Hebner",
-        "firstname": "Martin",
-        "lastname": "Hebner",
-        "context": "speaker",
-        "faction": "AfD"
-      },
-      {
-        "type": "memberOfParliament",
-        "label": "Karsten Hilse",
-        "firstname": "Karsten",
-        "lastname": "Hilse",
-        "context": "speaker",
-        "faction": "AfD"
-      },
-      {
-        "type": "memberOfParliament",
-        "label": "Filiz Polat",
-        "firstname": "Filiz",
-        "lastname": "Polat",
-        "context": "speaker",
-        "faction": "BÜNDNIS 90/DIE GRÜNEN"
-      },
-      {
-        "type": "memberOfParliament",
-        "label": "Michael Roth",
-        "firstname": "Michael",
-        "lastname": "Roth",
-        "context": "speaker",
-        "faction": ""
-      },
-      {
-        "type": "memberOfParliament",
-        "label": "Heike Hänsel",
-        "firstname": "Heike",
-        "lastname": "Hänsel",
-        "context": "speaker",
-        "faction": "DIE LINKE"
-      },
-      {
-        "type": "memberOfParliament",
-        "label": "Anette Kramme",
-        "firstname": "Anette",
-        "lastname": "Kramme",
-        "context": "speaker",
-        "faction": ""
       }
     ],
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19057-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19057-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
         "originTextID": "",
         "textBody": [
+          {
+            "type": "speech",
+            "speaker": "Petra Pau",
+            "speakerstatus": "vice-president",
+            "text": "Fragestunde",
+            "sentences": [
+              {
+                "text": "Fragestunde"
+              }
+            ]
+          },
           {
             "type": "speech",
             "speaker": "Petra Pau",
@@ -22166,1916 +22156,6 @@
             "sentences": [
               {
                 "text": "Bitte."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Steffen Bilger",
-            "speakerstatus": "speaker",
-            "text": "Unser Ansatz ist auf der einen Seite, den Städten, die Probleme mit der Luftreinhaltung haben, durch die verschiedenen Maßnahmen, die wir schon vielfach diskutiert haben, zu helfen. Auf der anderen Seite wollen wir allen betroffenen Autofahrern helfen. Das heißt zum Beispiel, dass nicht nur die Anwohner, sondern auch Pendler und Handwerker, die in den betroffenen Städten Aufträge haben, von diesen Hilfen bzw. Programmen profitieren. Es geht nicht nur um die Städte, sondern auch um die umliegenden Landkreise. Wir haben denen, die in ihren Möglichkeiten durch Fahrverbote konkret eingeschränkt sind, eine Hilfestellung gegeben. Wir haben damit einen Ansatz gewählt – das sagen wir auch den betroffenen Autofahrern –, bei dem wir wollen, dass die Automobilhersteller die Last tragen, indem sie nämlich Hardwarenachrüstungen und diese Umtauschprogramme finanzieren. Das steht im Gegensatz zu dem Vorschlag, den Ihre Fraktion einmal geäußert hat, dass nämlich die Autofahrer bei der Hardwarenachrüstung eine Eigenbeteiligung leisten sollen. Unser Ansatz ist anders: Wir wollen, dass die Automobilhersteller die Lasten tragen.",
-            "sentences": [
-              {
-                "text": "Unser Ansatz ist auf der einen Seite, den Städten, die Probleme mit der Luftreinhaltung haben, durch die verschiedenen Maßnahmen, die wir schon vielfach diskutiert haben, zu helfen."
-              },
-              {
-                "text": "Auf der anderen Seite wollen wir allen betroffenen Autofahrern helfen."
-              },
-              {
-                "text": "Das heißt zum Beispiel, dass nicht nur die Anwohner, sondern auch Pendler und Handwerker, die in den betroffenen Städten Aufträge haben, von diesen Hilfen bzw. Programmen profitieren."
-              },
-              {
-                "text": "Es geht nicht nur um die Städte, sondern auch um die umliegenden Landkreise."
-              },
-              {
-                "text": "Wir haben denen, die in ihren Möglichkeiten durch Fahrverbote konkret eingeschränkt sind, eine Hilfestellung gegeben."
-              },
-              {
-                "text": "Wir haben damit einen Ansatz gewählt – das sagen wir auch den betroffenen Autofahrern –, bei dem wir wollen, dass die Automobilhersteller die Last tragen, indem sie nämlich Hardwarenachrüstungen und diese Umtauschprogramme finanzieren."
-              },
-              {
-                "text": "Das steht im Gegensatz zu dem Vorschlag, den Ihre Fraktion einmal geäußert hat, dass nämlich die Autofahrer bei der Hardwarenachrüstung eine Eigenbeteiligung leisten sollen."
-              },
-              {
-                "text": "Unser Ansatz ist anders: Wir wollen, dass die Automobilhersteller die Lasten tragen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Zu einer weiteren Nachfrage hat die Abgeordnete Daniela Kluckert das Wort.",
-            "sentences": [
-              {
-                "text": "Zu einer weiteren Nachfrage hat die Abgeordnete Daniela Kluckert das Wort."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Daniela Kluckert",
-            "speakerstatus": "speaker",
-            "text": "Vielen Dank, Frau Präsidentin. – Herr Staatssekretär, heute Morgen wurde im Ausschuss gesagt, dass Berlin im Zusammenhang mit der Klage zu Dieselfahrverboten veraltete Luftreinhaltepläne vorgelegt hat. Jetzt hat der Senat geäußert, dass er keinen Widerspruch gegen das Urteil einlegen möchte. Wie ist Ihre Meinung dazu? Was würden Sie den Berliner Kollegen raten, wenn sie Sie fragen würden?",
-            "sentences": [
-              {
-                "text": "Vielen Dank, Frau Präsidentin."
-              },
-              {
-                "text": "– Herr Staatssekretär, heute Morgen wurde im Ausschuss gesagt, dass Berlin im Zusammenhang mit der Klage zu Dieselfahrverboten veraltete Luftreinhaltepläne vorgelegt hat."
-              },
-              {
-                "text": "Jetzt hat der Senat geäußert, dass er keinen Widerspruch gegen das Urteil einlegen möchte."
-              },
-              {
-                "text": "Wie ist Ihre Meinung dazu?"
-              },
-              {
-                "text": "Was würden Sie den Berliner Kollegen raten, wenn sie Sie fragen würden?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Steffen Bilger",
-            "speakerstatus": "speaker",
-            "text": "Es fehlen einem manchmal die Worte, wenn man sich anschaut, was alle Beteiligten, die ihren Beitrag leisten könnten, um Fahrverbote zu vermeiden und Luftreinhalteziele zu erreichen, tatsächlich tun oder was sie unterlassen. Berlin ist leider ein Fall, bei dem wir schon viel kritisieren müssen. Es ist ein Problem, wenn man mit veralteten Luftreinhalteplänen in ein Gerichtsverfahren geht und wenn dann darüber gesprochen wird, dass man möchte, dass im Zweifel auch Euro-6-Fahrzeuge vom Fahrverbot betroffen sind. Wir können Berlin nur auffordern, alles zu tun, um die Fahrverbote zu vermeiden: im Interesse der Autofahrer und der Anwohner in dieser Stadt. Berlin hat noch einiges zu tun, um Luftreinhalteziele zu erreichen.",
-            "sentences": [
-              {
-                "text": "Es fehlen einem manchmal die Worte, wenn man sich anschaut, was alle Beteiligten, die ihren Beitrag leisten könnten, um Fahrverbote zu vermeiden und Luftreinhalteziele zu erreichen, tatsächlich tun oder was sie unterlassen."
-              },
-              {
-                "text": "Berlin ist leider ein Fall, bei dem wir schon viel kritisieren müssen."
-              },
-              {
-                "text": "Es ist ein Problem, wenn man mit veralteten Luftreinhalteplänen in ein Gerichtsverfahren geht und wenn dann darüber gesprochen wird, dass man möchte, dass im Zweifel auch Euro-6-Fahrzeuge vom Fahrverbot betroffen sind."
-              },
-              {
-                "text": "Wir können Berlin nur auffordern, alles zu tun, um die Fahrverbote zu vermeiden: im Interesse der Autofahrer und der Anwohner in dieser Stadt."
-              },
-              {
-                "text": "Berlin hat noch einiges zu tun, um Luftreinhalteziele zu erreichen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Steffen Bilger",
-            "speakerstatus": "speaker",
-            "text": "Minister Scheuer hatte das in seiner Rede in der Aktuellen Stunde angesprochen. Wir sehen zum Beispiel Tag für Tag, welch alte Busse unterwegs sind. Dagegen wird nichts unternommen. Auch Berlin bekommt unsere Unterstützung durch das „Sofortprogramm Saubere Luft“. Aber diese Angebote müssen auch genutzt werden. Wir als Bund können viel tun, aber letztendlich gibt es auch einen großen Teil der Verantwortung in den betroffenen Städten.",
-            "sentences": [
-              {
-                "text": "Minister Scheuer hatte das in seiner Rede in der Aktuellen Stunde angesprochen."
-              },
-              {
-                "text": "Wir sehen zum Beispiel Tag für Tag, welch alte Busse unterwegs sind."
-              },
-              {
-                "text": "Dagegen wird nichts unternommen."
-              },
-              {
-                "text": "Auch Berlin bekommt unsere Unterstützung durch das „Sofortprogramm Saubere Luft“."
-              },
-              {
-                "text": "Aber diese Angebote müssen auch genutzt werden."
-              },
-              {
-                "text": "Wir als Bund können viel tun, aber letztendlich gibt es auch einen großen Teil der Verantwortung in den betroffenen Städten."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Die Frage 26 des Abgeordneten Stefan Gelbhaar soll schriftlich beantwortet werden. – Herzlichen Dank, Herr Staatssekretär.",
-            "sentences": [
-              {
-                "text": "Die Frage 26 des Abgeordneten Stefan Gelbhaar soll schriftlich beantwortet werden."
-              },
-              {
-                "text": "– Herzlichen Dank, Herr Staatssekretär."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Ich rufe den Geschäftsbereich des Bundesministeriums für Umwelt, Naturschutz und nukleare Sicherheit auf. Zur Beantwortung der Fragen steht der Parlamentarische Staatssekretär Florian Pronold zur Verfügung.",
-            "sentences": [
-              {
-                "text": "Ich rufe den Geschäftsbereich des Bundesministeriums für Umwelt, Naturschutz und nukleare Sicherheit auf."
-              },
-              {
-                "text": "Zur Beantwortung der Fragen steht der Parlamentarische Staatssekretär Florian Pronold zur Verfügung."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Die Frage 27 des Abgeordneten Stefan Gelbhaar und die Frage 28 des Abgeordneten Oliver Luksic sollen schriftlich beantwortet werden.",
-            "sentences": [
-              {
-                "text": "Die Frage 27 des Abgeordneten Stefan Gelbhaar und die Frage 28 des Abgeordneten Oliver Luksic sollen schriftlich beantwortet werden."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Ich rufe die Frage 29 der Abgeordneten Lisa Badum auf. – Sie ist nicht da. Dann verfahren wir entsprechend unseren Regeln.",
-            "sentences": [
-              {
-                "text": "Ich rufe die Frage 29 der Abgeordneten Lisa Badum auf."
-              },
-              {
-                "text": "– Sie ist nicht da."
-              },
-              {
-                "text": "Dann verfahren wir entsprechend unseren Regeln."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Die Fragen 30 und 31 der Abgeordneten Sylvia Kotting-Uhl sollen schriftlich beantwortet werden.",
-            "sentences": [
-              {
-                "text": "Die Fragen 30 und 31 der Abgeordneten Sylvia Kotting-Uhl sollen schriftlich beantwortet werden."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Ich rufe die Frage 32 des Abgeordneten Dr. Rainer Kraft auf:",
-            "sentences": [
-              {
-                "text": "Ich rufe die Frage 32 des Abgeordneten Dr. Rainer Kraft auf:"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Bitte, Herr Staatssekretär.",
-            "sentences": [
-              {
-                "text": "Bitte, Herr Staatssekretär."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Florian Pronold",
-            "speakerstatus": "speaker",
-            "text": "Sehr geehrter Herr Kollege, hochradioaktive Strahlenquellen finden Anwendung in der Medizin, zum Beispiel bei der Therapie von Krebserkrankungen, bei der zerstörungsfreien Prüfung von Materialien, in Füllstands- oder Dichtemesseinrichtungen in Industrieanlagen und in der Produktbestrahlung sowie in der Forschung.",
-            "sentences": [
-              {
-                "text": "Sehr geehrter Herr Kollege, hochradioaktive Strahlenquellen finden Anwendung in der Medizin, zum Beispiel bei der Therapie von Krebserkrankungen, bei der zerstörungsfreien Prüfung von Materialien, in Füllstands- oder Dichtemesseinrichtungen in Industrieanlagen und in der Produktbestrahlung sowie in der Forschung."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Florian Pronold",
-            "speakerstatus": "speaker",
-            "text": "Die hochradioaktiven Strahlenquellen werden im Geltungsbereich der Strahlenschutzverordnung im Register über hochradioaktive Strahlenquellen registriert. Das Register wird vom Bundesamt für Strahlenschutz betrieben. Da radioaktive Stoffe dem radioaktiven Zerfall unterliegen, reduziert sich ihre Aktivität nach Maßgabe der sogenannten Halbwertszeit, die charakteristisch für radioaktive Stoffe ist. Sinkt die Aktivität dieser Strahlenquellen unter den Aktivitätswert einer hochradioaktiven Strahlenquelle ab, erfüllen sie nicht mehr das Kriterium einer hochradioaktiven Strahlenquelle. Wenngleich der radioaktive Stoff somit nicht mehr unter diese spezielle Regelung der Strahlenschutzverordnung fällt, befindet er sich weiterhin im Geltungsbereich der Strahlenschutzverordnung. Insbesondere besteht weiterhin eine Genehmigungspflicht für den Umgang mit solchen radioaktiven Stoffen.",
-            "sentences": [
-              {
-                "text": "Die hochradioaktiven Strahlenquellen werden im Geltungsbereich der Strahlenschutzverordnung im Register über hochradioaktive Strahlenquellen registriert."
-              },
-              {
-                "text": "Das Register wird vom Bundesamt für Strahlenschutz betrieben."
-              },
-              {
-                "text": "Da radioaktive Stoffe dem radioaktiven Zerfall unterliegen, reduziert sich ihre Aktivität nach Maßgabe der sogenannten Halbwertszeit, die charakteristisch für radioaktive Stoffe ist."
-              },
-              {
-                "text": "Sinkt die Aktivität dieser Strahlenquellen unter den Aktivitätswert einer hochradioaktiven Strahlenquelle ab, erfüllen sie nicht mehr das Kriterium einer hochradioaktiven Strahlenquelle."
-              },
-              {
-                "text": "Wenngleich der radioaktive Stoff somit nicht mehr unter diese spezielle Regelung der Strahlenschutzverordnung fällt, befindet er sich weiterhin im Geltungsbereich der Strahlenschutzverordnung."
-              },
-              {
-                "text": "Insbesondere besteht weiterhin eine Genehmigungspflicht für den Umgang mit solchen radioaktiven Stoffen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Florian Pronold",
-            "speakerstatus": "speaker",
-            "text": "Von den insgesamt bis Ende des Jahres 2015 jemals registrierten 40 000 Strahlenquellen sind aufgrund des radioaktiven Zerfalls viele Strahlenquellen nicht mehr als hochradioaktive Strahlenquellen registriert. Sie sind aber weiterhin nach der Strahlenschutzverordnung in Deutschland genehmigungspflichtig. Ein Verbleib dieser Quellen kann dann nur von den zuständigen Landesbehörden angegeben werden, da keine weiteren Einträge in das Register über hochradioaktive Strahlenquellen zu diesen Strahlenquellen erfolgen.",
-            "sentences": [
-              {
-                "text": "Von den insgesamt bis Ende des Jahres 2015 jemals registrierten 40 000 Strahlenquellen sind aufgrund des radioaktiven Zerfalls viele Strahlenquellen nicht mehr als hochradioaktive Strahlenquellen registriert."
-              },
-              {
-                "text": "Sie sind aber weiterhin nach der Strahlenschutzverordnung in Deutschland genehmigungspflichtig."
-              },
-              {
-                "text": "Ein Verbleib dieser Quellen kann dann nur von den zuständigen Landesbehörden angegeben werden, da keine weiteren Einträge in das Register über hochradioaktive Strahlenquellen zu diesen Strahlenquellen erfolgen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Florian Pronold",
-            "speakerstatus": "speaker",
-            "text": "Nach Angaben des Registers über hochradioaktive Strahlenquellen wird ein Großteil der hochradioaktiven Strahlenquellen in andere Länder exportiert. Die am häufigsten exportierten und als hochradioaktive Strahlenquellen registrierten Radionuklide sind Iridium-192, Selen-75, Cobalt-60 und Cäsium-137.",
-            "sentences": [
-              {
-                "text": "Nach Angaben des Registers über hochradioaktive Strahlenquellen wird ein Großteil der hochradioaktiven Strahlenquellen in andere Länder exportiert."
-              },
-              {
-                "text": "Die am häufigsten exportierten und als hochradioaktive Strahlenquellen registrierten Radionuklide sind Iridium-192, Selen-75, Cobalt-60 und Cäsium-137."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Sie haben das Wort zur ersten Nachfrage.",
-            "sentences": [
-              {
-                "text": "Sie haben das Wort zur ersten Nachfrage."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Rainer Kraft",
-            "speakerstatus": "speaker",
-            "text": "Vielen Dank, Frau Präsidentin. – Das Kapitel über hochradioaktive Strahlenquellen nimmt in der Unterrichtung einen sehr überschaubaren Platz ein, wenn man es zum Beispiel mit den seitenweisen Nachweisen der geringen Gefährlichkeit von Kernkraftwerken sowie von nuklearen Forschungs- und Produktionseinrichtungen vergleicht. Werden zukünftige Berichte diesen Bereich etwas ausführlicher behandeln?",
-            "sentences": [
-              {
-                "text": "Vielen Dank, Frau Präsidentin."
-              },
-              {
-                "text": "– Das Kapitel über hochradioaktive Strahlenquellen nimmt in der Unterrichtung einen sehr überschaubaren Platz ein, wenn man es zum Beispiel mit den seitenweisen Nachweisen der geringen Gefährlichkeit von Kernkraftwerken sowie von nuklearen Forschungs- und Produktionseinrichtungen vergleicht."
-              },
-              {
-                "text": "Werden zukünftige Berichte diesen Bereich etwas ausführlicher behandeln?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Florian Pronold",
-            "speakerstatus": "speaker",
-            "text": "Wir haben hier, wie ich Ihnen dargestellt habe, ein entsprechendes Register. Jede der hochradioaktiven Quellen ist registriert, und sie werden auch weiterhin registriert. Es besteht da keinerlei Informationslücke oder -defizit; das kann alles nachvollzogen werden.",
-            "sentences": [
-              {
-                "text": "Wir haben hier, wie ich Ihnen dargestellt habe, ein entsprechendes Register."
-              },
-              {
-                "text": "Jede der hochradioaktiven Quellen ist registriert, und sie werden auch weiterhin registriert."
-              },
-              {
-                "text": "Es besteht da keinerlei Informationslücke oder -defizit; das kann alles nachvollzogen werden."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Sie haben das Wort zur zweiten Nachfrage. – Auf diese verzichten Sie.",
-            "sentences": [
-              {
-                "text": "Sie haben das Wort zur zweiten Nachfrage."
-              },
-              {
-                "text": "– Auf diese verzichten Sie."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Dann rufe ich die Frage 33 des Abgeordneten Dr. Rainer Kraft auf:",
-            "sentences": [
-              {
-                "text": "Dann rufe ich die Frage 33 des Abgeordneten Dr. Rainer Kraft auf:"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Bitte, Herr Staatssekretär.",
-            "sentences": [
-              {
-                "text": "Bitte, Herr Staatssekretär."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Florian Pronold",
-            "speakerstatus": "speaker",
-            "text": "Das Bundesamt für Strahlenschutz betreibt das Register über hochradioaktive Strahlenquellen. Auf Basis der Daten, die in diesem Register vorliegen, sind die Hauptzielländer des Exports von hochradioaktiven Strahlenquellen Belgien, die Niederlande, die Tschechische Republik, die Russische Föderation, die Vereinigten Staaten von Amerika und die Volksrepublik China.",
-            "sentences": [
-              {
-                "text": "Das Bundesamt für Strahlenschutz betreibt das Register über hochradioaktive Strahlenquellen."
-              },
-              {
-                "text": "Auf Basis der Daten, die in diesem Register vorliegen, sind die Hauptzielländer des Exports von hochradioaktiven Strahlenquellen Belgien, die Niederlande, die Tschechische Republik, die Russische Föderation, die Vereinigten Staaten von Amerika und die Volksrepublik China."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Sie haben das Wort zur ersten Nachfrage. – Sie verzichten.",
-            "sentences": [
-              {
-                "text": "Sie haben das Wort zur ersten Nachfrage."
-              },
-              {
-                "text": "– Sie verzichten."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Herzlichen Dank, Herr Staatssekretär. Wir sind schon am Ende Ihres Geschäftsbereiches.",
-            "sentences": [
-              {
-                "text": "Herzlichen Dank, Herr Staatssekretär."
-              },
-              {
-                "text": "Wir sind schon am Ende Ihres Geschäftsbereiches."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Ich rufe den Geschäftsbereich des Bundesministeriums für Bildung und Forschung auf und stelle fest, dass die Frage 34 der Abgeordneten Margit Stumpp schriftlich beantwortet werden soll.",
-            "sentences": [
-              {
-                "text": "Ich rufe den Geschäftsbereich des Bundesministeriums für Bildung und Forschung auf und stelle fest, dass die Frage 34 der Abgeordneten Margit Stumpp schriftlich beantwortet werden soll."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Wir kommen zum Geschäftsbereich des Bundesministeriums der Finanzen. Die Fragen 35 und 36 des Abgeordneten Klaus-Peter Willsch, die Frage 37 des Abgeordneten Stefan Schmidt, die Frage 38 des Abgeordneten Uwe Kekeritz, die Frage 39 des Abgeordneten Christian Kühn und die Frage 40 der Abgeordneten Annalena Baerbock werden schriftlich beantwortet.",
-            "sentences": [
-              {
-                "text": "Wir kommen zum Geschäftsbereich des Bundesministeriums der Finanzen."
-              },
-              {
-                "text": "Die Fragen 35 und 36 des Abgeordneten Klaus-Peter Willsch, die Frage 37 des Abgeordneten Stefan Schmidt, die Frage 38 des Abgeordneten Uwe Kekeritz, die Frage 39 des Abgeordneten Christian Kühn und die Frage 40 der Abgeordneten Annalena Baerbock werden schriftlich beantwortet."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Wir kommen zum Geschäftsbereich des Bundesministeriums des Innern, für Bau und Heimat. Zur Beantwortung steht der Parlamentarische Staatssekretär Marco Wanderwitz zur Verfügung, wobei die Frage 41 der Abgeordneten Annalena Baerbock, die Frage 42 des Abgeordneten Christian Kühn und die Frage 43 der Abgeordneten Sabine Zimmermann schriftlich beantwortet werden sollen.",
-            "sentences": [
-              {
-                "text": "Wir kommen zum Geschäftsbereich des Bundesministeriums des Innern, für Bau und Heimat."
-              },
-              {
-                "text": "Zur Beantwortung steht der Parlamentarische Staatssekretär Marco Wanderwitz zur Verfügung, wobei die Frage 41 der Abgeordneten Annalena Baerbock, die Frage 42 des Abgeordneten Christian Kühn und die Frage 43 der Abgeordneten Sabine Zimmermann schriftlich beantwortet werden sollen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Ich rufe die Frage 44 der Abgeordneten Kathrin Vogler auf:",
-            "sentences": [
-              {
-                "text": "Ich rufe die Frage 44 der Abgeordneten Kathrin Vogler auf:"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Bitte, Herr Staatssekretär.",
-            "sentences": [
-              {
-                "text": "Bitte, Herr Staatssekretär."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Marco Wanderwitz",
-            "speakerstatus": "speaker",
-            "text": "Frau Kollegin Vogler, eine Entscheidung wird derzeit vorbereitet. Der Bundesminister des Innern, für Bau und Heimat hat angekündigt, sehr zeitnah zu entscheiden.",
-            "sentences": [
-              {
-                "text": "Frau Kollegin Vogler, eine Entscheidung wird derzeit vorbereitet."
-              },
-              {
-                "text": "Der Bundesminister des Innern, für Bau und Heimat hat angekündigt, sehr zeitnah zu entscheiden."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Sie haben das Wort zur ersten Nachfrage.",
-            "sentences": [
-              {
-                "text": "Sie haben das Wort zur ersten Nachfrage."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Kathrin Vogler",
-            "speakerstatus": "speaker",
-            "text": "Vielen Dank. – Mich würde interessieren, was der Bundesminister des Innern, für Bau und Heimat als zeitnah empfindet. Können Sie uns hier und heute einen konkreten Termin nennen, bis zu dem die Nachfolge von Herrn Maaßen geklärt sein wird und Herr Maaßen aus dem Amt entlassen wird?",
-            "sentences": [
-              {
-                "text": "Vielen Dank."
-              },
-              {
-                "text": "– Mich würde interessieren, was der Bundesminister des Innern, für Bau und Heimat als zeitnah empfindet."
-              },
-              {
-                "text": "Können Sie uns hier und heute einen konkreten Termin nennen, bis zu dem die Nachfolge von Herrn Maaßen geklärt sein wird und Herr Maaßen aus dem Amt entlassen wird?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Bitte.",
-            "sentences": [
-              {
-                "text": "Bitte."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Marco Wanderwitz",
-            "speakerstatus": "speaker",
-            "text": "Ich glaube, „zeitnah“ definiert jeder von uns etwas unterschiedlich. Wie genau Horst Seehofer „zeitnah“ definiert, das müssten Sie ihn selbst fragen.",
-            "sentences": [
-              {
-                "text": "Ich glaube, „zeitnah“ definiert jeder von uns etwas unterschiedlich."
-              },
-              {
-                "text": "Wie genau Horst Seehofer „zeitnah“ definiert, das müssten Sie ihn selbst fragen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Sie haben das Wort zu einer zweiten Nachfrage.",
-            "sentences": [
-              {
-                "text": "Sie haben das Wort zu einer zweiten Nachfrage."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Kathrin Vogler",
-            "speakerstatus": "speaker",
-            "text": "Ja. – Mich würde auch noch interessieren, ob Herr Maaßen zurzeit von seinen Aufgaben entbunden ist oder ob er sie weiter ausübt; denn es ist eigentlich nicht üblich, dass ein Behördenchef, der das Vertrauen eines großen Teils der Bundesregierung nicht besitzt, über so lange Zeit kommentarlos weiter im Amt verbleibt.",
-            "sentences": [
-              {
-                "text": "Ja."
-              },
-              {
-                "text": "– Mich würde auch noch interessieren, ob Herr Maaßen zurzeit von seinen Aufgaben entbunden ist oder ob er sie weiter ausübt; denn es ist eigentlich nicht üblich, dass ein Behördenchef, der das Vertrauen eines großen Teils der Bundesregierung nicht besitzt, über so lange Zeit kommentarlos weiter im Amt verbleibt."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Marco Wanderwitz",
-            "speakerstatus": "speaker",
-            "text": "Herr Maaßen geht seinen Amtsgeschäften nach.",
-            "sentences": [
-              {
-                "text": "Herr Maaßen geht seinen Amtsgeschäften nach."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Ich rufe die Frage 45 des Abgeordneten Martin Hebner auf:",
-            "sentences": [
-              {
-                "text": "Ich rufe die Frage 45 des Abgeordneten Martin Hebner auf:"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Marco Wanderwitz",
-            "speakerstatus": "speaker",
-            "text": "Sehr geehrter Herr Kollege Hebner, es gab keine von der Bundeskanzlerin veranlasste Weisung des Bundesministers des Innern am 4. oder 5. September 2015 bezüglich des Grenzübertritts nach Deutschland. Dementsprechend liegt auch kein Wortlaut vor.",
-            "sentences": [
-              {
-                "text": "Sehr geehrter Herr Kollege Hebner, es gab keine von der Bundeskanzlerin veranlasste Weisung des Bundesministers des Innern am 4. oder 5. September 2015 bezüglich des Grenzübertritts nach Deutschland."
-              },
-              {
-                "text": "Dementsprechend liegt auch kein Wortlaut vor."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Sie haben das Wort zur ersten Nachfrage.",
-            "sentences": [
-              {
-                "text": "Sie haben das Wort zur ersten Nachfrage."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Martin Hebner",
-            "speakerstatus": "speaker",
-            "text": "Gab es dann eine vom Bundesinnenminister selbst veranlasste mündliche Weisung – denn wir wissen, dass eine mündliche Weisung existent sein muss –, und wie lautete diese, bitte?",
-            "sentences": [
-              {
-                "text": "Gab es dann eine vom Bundesinnenminister selbst veranlasste mündliche Weisung – denn wir wissen, dass eine mündliche Weisung existent sein muss –, und wie lautete diese, bitte?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Marco Wanderwitz",
-            "speakerstatus": "speaker",
-            "text": "Es gab am 4./5. September – danach hatten Sie gefragt – auch keine Weisung des Innenministers.",
-            "sentences": [
-              {
-                "text": "Es gab am 4./5. September – danach hatten Sie gefragt – auch keine Weisung des Innenministers."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Sie haben das Wort zur zweiten Nachfrage.",
-            "sentences": [
-              {
-                "text": "Sie haben das Wort zur zweiten Nachfrage."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Martin Hebner",
-            "speakerstatus": "speaker",
-            "text": "Wenn ich nachfragen dürfte: Wie ist das dann mit dem 13. September? Fällt Ihnen dazu etwas ein?",
-            "sentences": [
-              {
-                "text": "Wenn ich nachfragen dürfte: Wie ist das dann mit dem 13. September?"
-              },
-              {
-                "text": "Fällt Ihnen dazu etwas ein?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Marco Wanderwitz",
-            "speakerstatus": "speaker",
-            "text": "Das ist eine Frage, die Sie vielfach gestellt haben und die wir bereits beantwortet haben; unter anderem möchte ich auf die Große Anfrage Ihrer Fraktion auf Drucksache 19/883 verweisen. Die Antwort wäre genau die gleiche, wie wir sie dort schon gegeben haben. Ich kann sie Ihnen gerne vorlesen, wenn Sie das möchten.",
-            "sentences": [
-              {
-                "text": "Das ist eine Frage, die Sie vielfach gestellt haben und die wir bereits beantwortet haben; unter anderem möchte ich auf die Große Anfrage Ihrer Fraktion auf Drucksache 19/883 verweisen."
-              },
-              {
-                "text": "Die Antwort wäre genau die gleiche, wie wir sie dort schon gegeben haben."
-              },
-              {
-                "text": "Ich kann sie Ihnen gerne vorlesen, wenn Sie das möchten."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Marco Wanderwitz",
-            "speakerstatus": "speaker",
-            "text": "Ich halte das aber nicht für zielführend.",
-            "sentences": [
-              {
-                "text": "Ich halte das aber nicht für zielführend."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Ich habe alle Wortmeldungen gesehen. Die erste Nachfrage stellt die Abgeordnete Brantner.",
-            "sentences": [
-              {
-                "text": "Ich habe alle Wortmeldungen gesehen."
-              },
-              {
-                "text": "Die erste Nachfrage stellt die Abgeordnete Brantner."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Franziska Brantner",
-            "speakerstatus": "speaker",
-            "text": "Sehr geehrter Herr Staatssekretär Wanderwitz, könnten Sie bestätigen, dass es in der Europäischen Union der Regelfall ist, dass die Grenzen offen sind und es wenn, dann einer Weisung bedurft hätte, die Grenzen zu schließen?",
-            "sentences": [
-              {
-                "text": "Sehr geehrter Herr Staatssekretär Wanderwitz, könnten Sie bestätigen, dass es in der Europäischen Union der Regelfall ist, dass die Grenzen offen sind und es wenn, dann einer Weisung bedurft hätte, die Grenzen zu schließen?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Marco Wanderwitz",
-            "speakerstatus": "speaker",
-            "text": "Frau Kollegin, selbstverständlich sind an den Schengen-Binnengrenzen grundsätzlich keine Grenzübertrittskontrollen vorgesehen.",
-            "sentences": [
-              {
-                "text": "Frau Kollegin, selbstverständlich sind an den Schengen-Binnengrenzen grundsätzlich keine Grenzübertrittskontrollen vorgesehen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Eine weitere Nachfrage stellt der Abgeordnete Hilse.",
-            "sentences": [
-              {
-                "text": "Eine weitere Nachfrage stellt der Abgeordnete Hilse."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Karsten Hilse",
-            "speakerstatus": "speaker",
-            "text": "Vielen Dank. – Gab es zu irgendeinem anderen Zeitpunkt – außer den genannten Daten, 4./5. oder 13. September – eine Anweisung des Ministers, illegale Grenzübertritte strafrechtlich nicht zu verfolgen?",
-            "sentences": [
-              {
-                "text": "Vielen Dank."
-              },
-              {
-                "text": "– Gab es zu irgendeinem anderen Zeitpunkt – außer den genannten Daten, 4./5. oder 13. September – eine Anweisung des Ministers, illegale Grenzübertritte strafrechtlich nicht zu verfolgen?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Marco Wanderwitz",
-            "speakerstatus": "speaker",
-            "text": "Mir sind keine derartigen Weisungen bekannt.",
-            "sentences": [
-              {
-                "text": "Mir sind keine derartigen Weisungen bekannt."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Ich rufe die Frage 46 des Abgeordneten Martin Hebner auf:",
-            "sentences": [
-              {
-                "text": "Ich rufe die Frage 46 des Abgeordneten Martin Hebner auf:"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Bitte, Herr Staatssekretär.",
-            "sentences": [
-              {
-                "text": "Bitte, Herr Staatssekretär."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Marco Wanderwitz",
-            "speakerstatus": "speaker",
-            "text": "Ich gehe davon aus, dass sich Kollege Hebner mit dem verwendeten Begriff „Erlass“ auf Frage 45 – hier geht es um eine als unbestimmt bezeichnete Ministeranweisung – bezieht. Mangels Vorliegens eines entsprechenden Erlasses bzw. einer von der Bundeskanzlerin veranlassten Weisung erübrigt sich die Frage zu Geltungsdauer und Rechtsverbindlichkeit.",
-            "sentences": [
-              {
-                "text": "Ich gehe davon aus, dass sich Kollege Hebner mit dem verwendeten Begriff „Erlass“ auf Frage 45 – hier geht es um eine als unbestimmt bezeichnete Ministeranweisung – bezieht."
-              },
-              {
-                "text": "Mangels Vorliegens eines entsprechenden Erlasses bzw. einer von der Bundeskanzlerin veranlassten Weisung erübrigt sich die Frage zu Geltungsdauer und Rechtsverbindlichkeit."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Sie haben das Wort zur ersten Nachfrage.",
-            "sentences": [
-              {
-                "text": "Sie haben das Wort zur ersten Nachfrage."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Martin Hebner",
-            "speakerstatus": "speaker",
-            "text": "Vielen Dank. – Vielen Dank auch an den Herrn vom Ministerium für dieses nette Blindekuh-Spiel. Das ist sehr, sehr nett. Das heißt, es gab von Ihnen überhaupt keine Anweisung, es gibt keine Aussagen, und Sie wissen auch gar nicht, worum es geht.",
-            "sentences": [
-              {
-                "text": "Vielen Dank."
-              },
-              {
-                "text": "– Vielen Dank auch an den Herrn vom Ministerium für dieses nette Blindekuh-Spiel."
-              },
-              {
-                "text": "Das ist sehr, sehr nett."
-              },
-              {
-                "text": "Das heißt, es gab von Ihnen überhaupt keine Anweisung, es gibt keine Aussagen, und Sie wissen auch gar nicht, worum es geht."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Martin Hebner",
-            "speakerstatus": "speaker",
-            "text": "Das ist eine sehr, sehr interessante Vorgehensweise, die Sie hier an den Tag legen.",
-            "sentences": [
-              {
-                "text": "Das ist eine sehr, sehr interessante Vorgehensweise, die Sie hier an den Tag legen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Martin Hebner",
-            "speakerstatus": "speaker",
-            "text": "Ich hätte gerne gewusst, wie es zu diesen großen Einwanderungswellen kommen konnte, ohne dass Ihr Innenministerium bzw. Ihr damaliger Chef, Herr de Maizière, das gutgeheißen hat.",
-            "sentences": [
-              {
-                "text": "Ich hätte gerne gewusst, wie es zu diesen großen Einwanderungswellen kommen konnte, ohne dass Ihr Innenministerium bzw. Ihr damaliger Chef, Herr de Maizière, das gutgeheißen hat."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Marco Wanderwitz",
-            "speakerstatus": "speaker",
-            "text": "Zunächst einmal, Herr Kollege, weise ich Ihre Darstellung im ersten Fall Ihrer vermeintlichen Frage zurück. Und was den zweiten Teil betrifft: Wenn man die Frage noch allgemeiner stellen könnte, bestünde die Chance, sie ganz sicher nicht beantworten zu können. Ich sehe aber auch so keine Möglichkeit einer sinnvollen Beantwortung.",
-            "sentences": [
-              {
-                "text": "Zunächst einmal, Herr Kollege, weise ich Ihre Darstellung im ersten Fall Ihrer vermeintlichen Frage zurück."
-              },
-              {
-                "text": "Und was den zweiten Teil betrifft: Wenn man die Frage noch allgemeiner stellen könnte, bestünde die Chance, sie ganz sicher nicht beantworten zu können."
-              },
-              {
-                "text": "Ich sehe aber auch so keine Möglichkeit einer sinnvollen Beantwortung."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Sie haben das Recht zu einer zweiten Nachfrage. – Bitte.",
-            "sentences": [
-              {
-                "text": "Sie haben das Recht zu einer zweiten Nachfrage."
-              },
-              {
-                "text": "– Bitte."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Martin Hebner",
-            "speakerstatus": "speaker",
-            "text": "Sehen Sie denn irgendwo eine Möglichkeit, dass Sie auf irgendetwas antworten? Im Prinzip wissen Sie genau, worum es geht. Sie wollen uns in dem Fall einfach partout nicht Rede und Antwort stehen. Das ist eigentlich eine ziemliche Zumutung, was Sie hier liefern.",
-            "sentences": [
-              {
-                "text": "Sehen Sie denn irgendwo eine Möglichkeit, dass Sie auf irgendetwas antworten?"
-              },
-              {
-                "text": "Im Prinzip wissen Sie genau, worum es geht."
-              },
-              {
-                "text": "Sie wollen uns in dem Fall einfach partout nicht Rede und Antwort stehen."
-              },
-              {
-                "text": "Das ist eigentlich eine ziemliche Zumutung, was Sie hier liefern."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Martin Hebner",
-            "speakerstatus": "speaker",
-            "text": "Uns bei der Unwissenheit so darzustellen, ist eine sehr lustige, drollige Geschichte. Von daher ist das, was Sie hier bieten, fast kabarettreif.",
-            "sentences": [
-              {
-                "text": "Uns bei der Unwissenheit so darzustellen, ist eine sehr lustige, drollige Geschichte."
-              },
-              {
-                "text": "Von daher ist das, was Sie hier bieten, fast kabarettreif."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Marco Wanderwitz",
-            "speakerstatus": "speaker",
-            "text": "Herr Kollege, ich empfinde meine Antworten weder als „drollig“ noch als „lustig“, sondern ich finde, die Art und Weise, wie Sie hier seit Monaten Fragen, die Sie bereits beantwortet haben, immer wieder neu stellen, um auf vermeintlich nicht umfängliche Aussagen der Bundesregierung hinzuweisen, ist die eigentliche Unverschämtheit.",
-            "sentences": [
-              {
-                "text": "Herr Kollege, ich empfinde meine Antworten weder als „drollig“ noch als „lustig“, sondern ich finde, die Art und Weise, wie Sie hier seit Monaten Fragen, die Sie bereits beantwortet haben, immer wieder neu stellen, um auf vermeintlich nicht umfängliche Aussagen der Bundesregierung hinzuweisen, ist die eigentliche Unverschämtheit."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Die Fragen 47 und 48 der Abgeordneten Luise Amtsberg und die Frage 49 der Abgeordneten Gökay Akbulut sollen schriftlich beantwortet werden. Wir sind noch immer im Geschäftsbereich des Bundesministeriums des Innern, für Bau und Heimat.",
-            "sentences": [
-              {
-                "text": "Die Fragen 47 und 48 der Abgeordneten Luise Amtsberg und die Frage 49 der Abgeordneten Gökay Akbulut sollen schriftlich beantwortet werden."
-              },
-              {
-                "text": "Wir sind noch immer im Geschäftsbereich des Bundesministeriums des Innern, für Bau und Heimat."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Ich rufe die Frage 50 der Abgeordneten Filiz Polat auf:",
-            "sentences": [
-              {
-                "text": "Ich rufe die Frage 50 der Abgeordneten Filiz Polat auf:"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Bitte, Herr Staatssekretär.",
-            "sentences": [
-              {
-                "text": "Bitte, Herr Staatssekretär."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Marco Wanderwitz",
-            "speakerstatus": "speaker",
-            "text": "Frau Präsidentin, mit Ihrer Erlaubnis möchte ich die beiden Fragen der Kollegin Polat, die Fragen 50 und 51, die in unmittelbarem Sachzusammenhang stehen, gemeinsam beantworten.",
-            "sentences": [
-              {
-                "text": "Frau Präsidentin, mit Ihrer Erlaubnis möchte ich die beiden Fragen der Kollegin Polat, die Fragen 50 und 51, die in unmittelbarem Sachzusammenhang stehen, gemeinsam beantworten."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Dann rufe ich auch die Frage 51 der Abgeordneten Filiz Polat auf:",
-            "sentences": [
-              {
-                "text": "Dann rufe ich auch die Frage 51 der Abgeordneten Filiz Polat auf:"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Marco Wanderwitz",
-            "speakerstatus": "speaker",
-            "text": "Der Bundesregierung liegen keine Erkenntnisse darüber vor, wie viele erwerbsfähige Geduldete tatsächlich in Deutschland leben bzw. einem Arbeitsverbot unterliegen. Aus diesem Grund ist eine Differenzierung im Sinne der Fragestellung nicht möglich. Auch aus dem Ausländerzentralregister lassen sich hierzu keine Daten ermitteln, da Angaben zur Erwerbsfähigkeit, zu Arbeitsverboten und zum Arbeitsmarktzugang dort nicht erfasst werden.",
-            "sentences": [
-              {
-                "text": "Der Bundesregierung liegen keine Erkenntnisse darüber vor, wie viele erwerbsfähige Geduldete tatsächlich in Deutschland leben bzw. einem Arbeitsverbot unterliegen."
-              },
-              {
-                "text": "Aus diesem Grund ist eine Differenzierung im Sinne der Fragestellung nicht möglich."
-              },
-              {
-                "text": "Auch aus dem Ausländerzentralregister lassen sich hierzu keine Daten ermitteln, da Angaben zur Erwerbsfähigkeit, zu Arbeitsverboten und zum Arbeitsmarktzugang dort nicht erfasst werden."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Sie haben die Möglichkeit zu vier Nachfragen. Zur ersten haben Sie jetzt das Wort.",
-            "sentences": [
-              {
-                "text": "Sie haben die Möglichkeit zu vier Nachfragen."
-              },
-              {
-                "text": "Zur ersten haben Sie jetzt das Wort."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Filiz Polat",
-            "speakerstatus": "speaker",
-            "text": "Vielen Dank, Frau Präsidentin. – Ich frage die Bundesregierung: Warum liegen Ihnen keine Erkenntnisse vor? Ich frage das vor dem Hintergrund, dass eine aktuelle Antwort der Landesregierung Niedersachsens auf eine Anfrage der Fraktion Bündnis 90/Die Grünen vorliegt, in der genau diese Angaben für das Bundesland Niedersachsen gemacht worden sind. Wieso kann die Bundesregierung so eine Anfrage nicht beantworten?",
-            "sentences": [
-              {
-                "text": "Vielen Dank, Frau Präsidentin."
-              },
-              {
-                "text": "– Ich frage die Bundesregierung: Warum liegen Ihnen keine Erkenntnisse vor?"
-              },
-              {
-                "text": "Ich frage das vor dem Hintergrund, dass eine aktuelle Antwort der Landesregierung Niedersachsens auf eine Anfrage der Fraktion Bündnis 90/Die Grünen vorliegt, in der genau diese Angaben für das Bundesland Niedersachsen gemacht worden sind."
-              },
-              {
-                "text": "Wieso kann die Bundesregierung so eine Anfrage nicht beantworten?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Bitte, Herr Staatssekretär.",
-            "sentences": [
-              {
-                "text": "Bitte, Herr Staatssekretär."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Marco Wanderwitz",
-            "speakerstatus": "speaker",
-            "text": "Ich will noch einmal deutlich erläutern, dass die Frage, so wie sie gestellt ist – nach den erwerbsfähigen Geduldeten –, für uns mangels zu spezifizierender Zahlen nicht beantwortbar ist. Die Zahl der Geduldeten liegt natürlich vor, und zwar in allen Aufschlüsselungen, nach Bundesländern, nach Altersgruppen und dergleichen. Das Ausländerzentralregister, das unsere Quelle ist, aus der wir als Bund lesen können, nimmt diese Unterscheidung aber ausdrücklich nicht vor. Wenn einzelne Länder diese Unterscheidung in ihrem Zuständigkeitsbereich vornehmen und deswegen in diesem Fall Niedersachsen im Niedersächsischen Landtag eine solche Anfrage beantworten kann, mag das schön sein. Wir können es nicht.",
-            "sentences": [
-              {
-                "text": "Ich will noch einmal deutlich erläutern, dass die Frage, so wie sie gestellt ist – nach den erwerbsfähigen Geduldeten –, für uns mangels zu spezifizierender Zahlen nicht beantwortbar ist."
-              },
-              {
-                "text": "Die Zahl der Geduldeten liegt natürlich vor, und zwar in allen Aufschlüsselungen, nach Bundesländern, nach Altersgruppen und dergleichen."
-              },
-              {
-                "text": "Das Ausländerzentralregister, das unsere Quelle ist, aus der wir als Bund lesen können, nimmt diese Unterscheidung aber ausdrücklich nicht vor."
-              },
-              {
-                "text": "Wenn einzelne Länder diese Unterscheidung in ihrem Zuständigkeitsbereich vornehmen und deswegen in diesem Fall Niedersachsen im Niedersächsischen Landtag eine solche Anfrage beantworten kann, mag das schön sein."
-              },
-              {
-                "text": "Wir können es nicht."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Ihre zweite Nachfrage.",
-            "sentences": [
-              {
-                "text": "Ihre zweite Nachfrage."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Filiz Polat",
-            "speakerstatus": "speaker",
-            "text": "Die Zahl der Geduldeten wird von der Bundesregierung im AZR erfasst. Diese ist differenziert, auch nach Altersgruppen. Ich denke, die Bundesregierung ist in der Lage, diejenigen zu benennen, die erwerbsfähig sind. Ich frage daher: Zu welcher Gruppe gehören die erwerbsfähigen Personen? Welches Alter?",
-            "sentences": [
-              {
-                "text": "Die Zahl der Geduldeten wird von der Bundesregierung im AZR erfasst."
-              },
-              {
-                "text": "Diese ist differenziert, auch nach Altersgruppen."
-              },
-              {
-                "text": "Ich denke, die Bundesregierung ist in der Lage, diejenigen zu benennen, die erwerbsfähig sind."
-              },
-              {
-                "text": "Ich frage daher: Zu welcher Gruppe gehören die erwerbsfähigen Personen?"
-              },
-              {
-                "text": "Welches Alter?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Marco Wanderwitz",
-            "speakerstatus": "speaker",
-            "text": "Also, was wir benennen können, ist die Zahl der in Deutschland lebenden Geduldeten, die potenziell im erwerbsfähigen Alter, zwischen 16 und 65 Jahren, sind. Das sind in Summe 130 760. Das können wir auch weiter aufschlüsseln, beispielsweise nach Altersgruppen. Aber das sind eben nur die potenziell Erwerbsfähigen, und Sie haben nach den Erwerbsfähigen gefragt. Da wir nicht wissen, ob alle in dieser Altersgruppe auch tatsächlich erwerbsfähig sind, kann ich Ihnen keine anderen Zahlen liefern.",
-            "sentences": [
-              {
-                "text": "Also, was wir benennen können, ist die Zahl der in Deutschland lebenden Geduldeten, die potenziell im erwerbsfähigen Alter, zwischen 16 und 65 Jahren, sind."
-              },
-              {
-                "text": "Das sind in Summe 130 760. Das können wir auch weiter aufschlüsseln, beispielsweise nach Altersgruppen."
-              },
-              {
-                "text": "Aber das sind eben nur die potenziell Erwerbsfähigen, und Sie haben nach den Erwerbsfähigen gefragt."
-              },
-              {
-                "text": "Da wir nicht wissen, ob alle in dieser Altersgruppe auch tatsächlich erwerbsfähig sind, kann ich Ihnen keine anderen Zahlen liefern."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Haben Sie weitere Nachfragen? – Bitte.",
-            "sentences": [
-              {
-                "text": "Haben Sie weitere Nachfragen?"
-              },
-              {
-                "text": "– Bitte."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Filiz Polat",
-            "speakerstatus": "speaker",
-            "text": "Dann frage ich die Bundesregierung, Frau Präsidentin: Wie viele der potenziell erwerbsfähigen Geduldeten haben einen Arbeitsmarktzugang oder keinen Arbeitsmarktzugang bzw. keine Beschäftigungserlaubnis erhalten?",
-            "sentences": [
-              {
-                "text": "Dann frage ich die Bundesregierung, Frau Präsidentin: Wie viele der potenziell erwerbsfähigen Geduldeten haben einen Arbeitsmarktzugang oder keinen Arbeitsmarktzugang bzw. keine Beschäftigungserlaubnis erhalten?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Marco Wanderwitz",
-            "speakerstatus": "speaker",
-            "text": "Die Antwort auf diese Nachfrage kann ich Ihnen gern schriftlich nachreichen, weil Sie sich mittlerweile so weit von Ihrer Ursprungsfrage entfernt haben, dass ich diese Zahlen jetzt nicht dabei habe.",
-            "sentences": [
-              {
-                "text": "Die Antwort auf diese Nachfrage kann ich Ihnen gern schriftlich nachreichen, weil Sie sich mittlerweile so weit von Ihrer Ursprungsfrage entfernt haben, dass ich diese Zahlen jetzt nicht dabei habe."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Das ist zugesagt und festgehalten. – Sie verzichten auf die vierte Nachfrage, wenn ich das jetzt richtig deute.",
-            "sentences": [
-              {
-                "text": "Das ist zugesagt und festgehalten."
-              },
-              {
-                "text": "– Sie verzichten auf die vierte Nachfrage, wenn ich das jetzt richtig deute."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Die Fragen 52 und 53 der Abgeordneten Ulla Jelpke sowie die Frage 54 der Abgeordneten Canan Bayram zum Geschäftsbereich des Bundesministeriums des Innern, für Bau und Heimat sollen schriftlich beantwortet werden. – Herzlichen Dank, Herr Staatssekretär.",
-            "sentences": [
-              {
-                "text": "Die Fragen 52 und 53 der Abgeordneten Ulla Jelpke sowie die Frage 54 der Abgeordneten Canan Bayram zum Geschäftsbereich des Bundesministeriums des Innern, für Bau und Heimat sollen schriftlich beantwortet werden."
-              },
-              {
-                "text": "– Herzlichen Dank, Herr Staatssekretär."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Wir kommen zum Geschäftsbereich des Auswärtigen Amtes. Zur Beantwortung steht der Staatsminister Michael Roth zur Verfügung.",
-            "sentences": [
-              {
-                "text": "Wir kommen zum Geschäftsbereich des Auswärtigen Amtes."
-              },
-              {
-                "text": "Zur Beantwortung steht der Staatsminister Michael Roth zur Verfügung."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Die Frage 55 der Abgeordneten Canan Bayram, die Frage 56 der Abgeordneten Sevim Dağdelen, die Frage 57 des Abgeordneten Andrej Hunko sowie die Frage 58 des Abgeordneten Omid Nouripour sollen schriftlich beantwortet werden sollen. Die Frage 59 des Abgeordneten Omid Nouripour wurde zurückgezogen.",
-            "sentences": [
-              {
-                "text": "Die Frage 55 der Abgeordneten Canan Bayram, die Frage 56 der Abgeordneten Sevim Dağdelen, die Frage 57 des Abgeordneten Andrej Hunko sowie die Frage 58 des Abgeordneten Omid Nouripour sollen schriftlich beantwortet werden sollen."
-              },
-              {
-                "text": "Die Frage 59 des Abgeordneten Omid Nouripour wurde zurückgezogen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Ich rufe die Frage 60 der Abgeordneten Heike Hänsel auf:",
-            "sentences": [
-              {
-                "text": "Ich rufe die Frage 60 der Abgeordneten Heike Hänsel auf:"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Bitte, Herr Staatsminister.",
-            "sentences": [
-              {
-                "text": "Bitte, Herr Staatsminister."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Michael Roth",
-            "speakerstatus": "speaker",
-            "text": "Vielen Dank, Frau Präsidentin. – Frau Kollegin Hänsel, die Bundesregierung setzt sich mit Nachdruck und auf allen Ebenen für Adil Demirci ein. Die Lage der inhaftierten deutschen Staatsbürgerinnen und Staatsbürger in der Türkei ist regelmäßig Gegenstand aller politischen Gespräche und wurde auch während des Besuches des türkischen Staatspräsidenten thematisiert.",
-            "sentences": [
-              {
-                "text": "Vielen Dank, Frau Präsidentin."
-              },
-              {
-                "text": "– Frau Kollegin Hänsel, die Bundesregierung setzt sich mit Nachdruck und auf allen Ebenen für Adil Demirci ein."
-              },
-              {
-                "text": "Die Lage der inhaftierten deutschen Staatsbürgerinnen und Staatsbürger in der Türkei ist regelmäßig Gegenstand aller politischen Gespräche und wurde auch während des Besuches des türkischen Staatspräsidenten thematisiert."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Sie haben das Wort zur ersten Nachfrage.",
-            "sentences": [
-              {
-                "text": "Sie haben das Wort zur ersten Nachfrage."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Heike Hänsel",
-            "speakerstatus": "speaker",
-            "text": "Danke schön. – Nun wissen wir ja, dass Adil ­Demirci neben vier weiteren deutschen Staatsangehörigen seit sechs Monaten im Hochsicherheitstrakt Silivri sitzt. Dort herrschen äußerst schwierige Haftbedingungen. Meine Frage: Wie bewerten Sie überhaupt den ganzen Fall Adil Demirci? Er sieht sich ja einem ähnlichen Vorwurf ausgesetzt wie Mesale Tolu, die mittlerweile freigelassen wurde und jetzt auch die Möglichkeit hat, mit ihrem Mann auszureisen; gestern war ja noch ein Prozesstag. Wie bewerten Sie also den ganzen Fall Adil Demirci und die Frage eines rechtsstaatlichen Verfahrens?",
-            "sentences": [
-              {
-                "text": "Danke schön."
-              },
-              {
-                "text": "– Nun wissen wir ja, dass Adil ­Demirci neben vier weiteren deutschen Staatsangehörigen seit sechs Monaten im Hochsicherheitstrakt Silivri sitzt."
-              },
-              {
-                "text": "Dort herrschen äußerst schwierige Haftbedingungen."
-              },
-              {
-                "text": "Meine Frage: Wie bewerten Sie überhaupt den ganzen Fall Adil Demirci?"
-              },
-              {
-                "text": "Er sieht sich ja einem ähnlichen Vorwurf ausgesetzt wie Mesale Tolu, die mittlerweile freigelassen wurde und jetzt auch die Möglichkeit hat, mit ihrem Mann auszureisen; gestern war ja noch ein Prozesstag."
-              },
-              {
-                "text": "Wie bewerten Sie also den ganzen Fall Adil Demirci und die Frage eines rechtsstaatlichen Verfahrens?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Michael Roth",
-            "speakerstatus": "speaker",
-            "text": "Frau Präsidentin! Frau Abgeordnete Hänsel, der Fall Demirci reiht sich in die Reihe der Fälle ein, in denen wir von einer politisch motivierten Inhaftierung seitens der Türkei ausgehen. Insofern thematisieren wir das und fordern die Türkei auf, zu rechtsstaatlichen Prinzipien zurückzukehren und diese politisch Inhaftierten unverzüglich freizulassen. Wir haben dabei einige Erfolge erzielt; aber es gibt eben fünf deutsche Staatsbürger, die immer noch dort inhaftiert sind, wobei Herr Demirci ja nicht nur über die deutsche Staatsbürgerschaft, sondern auch über die türkische Staatsbürgerschaft verfügt.",
-            "sentences": [
-              {
-                "text": "Frau Präsidentin!"
-              },
-              {
-                "text": "Frau Abgeordnete Hänsel, der Fall Demirci reiht sich in die Reihe der Fälle ein, in denen wir von einer politisch motivierten Inhaftierung seitens der Türkei ausgehen."
-              },
-              {
-                "text": "Insofern thematisieren wir das und fordern die Türkei auf, zu rechtsstaatlichen Prinzipien zurückzukehren und diese politisch Inhaftierten unverzüglich freizulassen."
-              },
-              {
-                "text": "Wir haben dabei einige Erfolge erzielt; aber es gibt eben fünf deutsche Staatsbürger, die immer noch dort inhaftiert sind, wobei Herr Demirci ja nicht nur über die deutsche Staatsbürgerschaft, sondern auch über die türkische Staatsbürgerschaft verfügt."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Michael Roth",
-            "speakerstatus": "speaker",
-            "text": "Der Zustand des Inhaftierten ist den Umständen entsprechend gut. Unsere Kolleginnen und Kollegen stehen in regelmäßigem Kontakt mit dem Inhaftierten. In der Regel finden monatlich Besuche von Kolleginnen und Kollegen statt, um unser Möglichstes zu tun, damit sich die Lage des Inhaftierten verbessert.",
-            "sentences": [
-              {
-                "text": "Der Zustand des Inhaftierten ist den Umständen entsprechend gut."
-              },
-              {
-                "text": "Unsere Kolleginnen und Kollegen stehen in regelmäßigem Kontakt mit dem Inhaftierten."
-              },
-              {
-                "text": "In der Regel finden monatlich Besuche von Kolleginnen und Kollegen statt, um unser Möglichstes zu tun, damit sich die Lage des Inhaftierten verbessert."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Sie haben das Wort zur zweiten Nachfrage.",
-            "sentences": [
-              {
-                "text": "Sie haben das Wort zur zweiten Nachfrage."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Heike Hänsel",
-            "speakerstatus": "speaker",
-            "text": "Sie sagen, Sie setzen sich für eine umgehende Freilassung ein. Aber immerhin sind jetzt sechs Monate vergangen. Was machen Sie, wenn da nichts passiert?",
-            "sentences": [
-              {
-                "text": "Sie sagen, Sie setzen sich für eine umgehende Freilassung ein."
-              },
-              {
-                "text": "Aber immerhin sind jetzt sechs Monate vergangen."
-              },
-              {
-                "text": "Was machen Sie, wenn da nichts passiert?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Michael Roth",
-            "speakerstatus": "speaker",
-            "text": "Wir werden weiterhin mit Nachdruck öffentlich und vor allem auch nichtöffentlich unseren Einfluss geltend zu machen versuchen, um auch diesen Fall zu lösen. Ich kann hier leider nicht versprechen, dass dies so schnell geht, wie Sie es sich, wie wir alle es uns, wie auch ich mir persönlich das wünsche.",
-            "sentences": [
-              {
-                "text": "Wir werden weiterhin mit Nachdruck öffentlich und vor allem auch nichtöffentlich unseren Einfluss geltend zu machen versuchen, um auch diesen Fall zu lösen."
-              },
-              {
-                "text": "Ich kann hier leider nicht versprechen, dass dies so schnell geht, wie Sie es sich, wie wir alle es uns, wie auch ich mir persönlich das wünsche."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Wir kommen damit zur Frage 61 der Abgeordneten Heike Hänsel:",
-            "sentences": [
-              {
-                "text": "Wir kommen damit zur Frage 61 der Abgeordneten Heike Hänsel:"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Bitte, Herr Staatsminister.",
-            "sentences": [
-              {
-                "text": "Bitte, Herr Staatsminister."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Michael Roth",
-            "speakerstatus": "speaker",
-            "text": "Vielen Dank, Frau Präsidentin. – Frau Kollegin Hänsel, der Einsatz für Menschenrechte ist integraler Bestandteil unseres Engagements in den Vereinten Nationen. Seit 2016 setzt die Bundesregierung den Nationalen Aktionsplan „Wirtschaft und Menschenrechte“ um, der die weltweit im Konsens anerkannten VN-Leitprinzipien für Wirtschaft und Menschenrechte entsprechend implementiert. Wir sind vor allem auch dem Ziel verpflichtet, dass die Europäische Union hier mit einer Stimme spricht. Die Bilanz auf internationaler Ebene sieht eher durchwachsen aus: Insgesamt haben 15 EU-Staaten nationale Aktionspläne erarbeitet, weltweit haben gerade einmal 27 Staaten nationale Aktionspläne erarbeitet. Die Bundesregierung verfolgt damit das Ziel, die Globalisierung gerechter, sozialer und nachhaltiger zu gestalten. Dabei ist es uns besonders wichtig, gemeinsam mit den EU-Partnern zu handeln.",
-            "sentences": [
-              {
-                "text": "Vielen Dank, Frau Präsidentin."
-              },
-              {
-                "text": "– Frau Kollegin Hänsel, der Einsatz für Menschenrechte ist integraler Bestandteil unseres Engagements in den Vereinten Nationen."
-              },
-              {
-                "text": "Seit 2016 setzt die Bundesregierung den Nationalen Aktionsplan „Wirtschaft und Menschenrechte“ um, der die weltweit im Konsens anerkannten VN-Leitprinzipien für Wirtschaft und Menschenrechte entsprechend implementiert."
-              },
-              {
-                "text": "Wir sind vor allem auch dem Ziel verpflichtet, dass die Europäische Union hier mit einer Stimme spricht."
-              },
-              {
-                "text": "Die Bilanz auf internationaler Ebene sieht eher durchwachsen aus: Insgesamt haben 15 EU-Staaten nationale Aktionspläne erarbeitet, weltweit haben gerade einmal 27 Staaten nationale Aktionspläne erarbeitet."
-              },
-              {
-                "text": "Die Bundesregierung verfolgt damit das Ziel, die Globalisierung gerechter, sozialer und nachhaltiger zu gestalten."
-              },
-              {
-                "text": "Dabei ist es uns besonders wichtig, gemeinsam mit den EU-Partnern zu handeln."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Michael Roth",
-            "speakerstatus": "speaker",
-            "text": "Ich will auf ein weiteres Projekt hinweisen, nämlich die Konfliktmineralien-Verordnung und die Corporate-­Social-Responsibility-Richtlinie; auch das sind gute Erfolgsbeispiele für europaweite Regelungen in diesem Bereich.",
-            "sentences": [
-              {
-                "text": "Ich will auf ein weiteres Projekt hinweisen, nämlich die Konfliktmineralien-Verordnung und die Corporate-­Social-Responsibility-Richtlinie; auch das sind gute Erfolgsbeispiele für europaweite Regelungen in diesem Bereich."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Michael Roth",
-            "speakerstatus": "speaker",
-            "text": "Jetzt komme ich auf den UN-Treaty-Prozess. Auch hier wollen wir gemeinsam mit unseren EU-Partnern unsere Anliegen einbringen. Wie in den Vorjahren bringt die Bundesregierung ihre Position auch bei der aktuellen Sitzung der Arbeitsgruppe für einen verbindlichen Vertrag im Rahmen der Stellungnahme der Delegation der Europäischen Union ein.",
-            "sentences": [
-              {
-                "text": "Jetzt komme ich auf den UN-Treaty-Prozess."
-              },
-              {
-                "text": "Auch hier wollen wir gemeinsam mit unseren EU-Partnern unsere Anliegen einbringen."
-              },
-              {
-                "text": "Wie in den Vorjahren bringt die Bundesregierung ihre Position auch bei der aktuellen Sitzung der Arbeitsgruppe für einen verbindlichen Vertrag im Rahmen der Stellungnahme der Delegation der Europäischen Union ein."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Michael Roth",
-            "speakerstatus": "speaker",
-            "text": "Für die EU und ihre Mitgliedstaaten bestehen nach wie vor gewichtige Fragen prozeduraler, aber auch inhaltlicher Art. Besonders wichtige Punkte sind für uns die Klärung des Verhältnisses des Treaty-Entwurfs zur laufenden Umsetzung der Leitlinien der Vereinten Nationen, der beabsichtigte Geltungsbereich des Treaty, die Unternehmenshaftung und die inhaltliche und prozessuale Vereinbarkeit mit EU-Recht und dem Recht der Mitgliedstaaten.",
-            "sentences": [
-              {
-                "text": "Für die EU und ihre Mitgliedstaaten bestehen nach wie vor gewichtige Fragen prozeduraler, aber auch inhaltlicher Art."
-              },
-              {
-                "text": "Besonders wichtige Punkte sind für uns die Klärung des Verhältnisses des Treaty-Entwurfs zur laufenden Umsetzung der Leitlinien der Vereinten Nationen, der beabsichtigte Geltungsbereich des Treaty, die Unternehmenshaftung und die inhaltliche und prozessuale Vereinbarkeit mit EU-Recht und dem Recht der Mitgliedstaaten."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Michael Roth",
-            "speakerstatus": "speaker",
-            "text": "Die EU-Delegation verdeutlicht durch ihre erneute Teilnahme an der diesjährigen Arbeitsgruppe und die gemeinsame Stellungnahme ihr Anliegen an einer Ausgestaltung des künftigen Prozesses, der den von mir genannten Punkten Rechnung trägt und inklusiv und transparent sein sollte.",
-            "sentences": [
-              {
-                "text": "Die EU-Delegation verdeutlicht durch ihre erneute Teilnahme an der diesjährigen Arbeitsgruppe und die gemeinsame Stellungnahme ihr Anliegen an einer Ausgestaltung des künftigen Prozesses, der den von mir genannten Punkten Rechnung trägt und inklusiv und transparent sein sollte."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Sie haben das Wort zur ersten Nachfrage.",
-            "sentences": [
-              {
-                "text": "Sie haben das Wort zur ersten Nachfrage."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Heike Hänsel",
-            "speakerstatus": "speaker",
-            "text": "Danke schön. – Herr Staatsminister, ganz konkret jetzt: Unterstützt Deutschland die wegweisende Initiative der UN, dass die Menschenrechte einklagbar werden bei multinationalen Unternehmen, wenn sie weltweit aktiv sind? Unterstützt Deutschland das jetzt, oder gibt es nach wie vor Vorbehalte, müssen erst einige Fragen geklärt werden?",
-            "sentences": [
-              {
-                "text": "Danke schön."
-              },
-              {
-                "text": "– Herr Staatsminister, ganz konkret jetzt: Unterstützt Deutschland die wegweisende Initiative der UN, dass die Menschenrechte einklagbar werden bei multinationalen Unternehmen, wenn sie weltweit aktiv sind?"
-              },
-              {
-                "text": "Unterstützt Deutschland das jetzt, oder gibt es nach wie vor Vorbehalte, müssen erst einige Fragen geklärt werden?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Heike Hänsel",
-            "speakerstatus": "speaker",
-            "text": "Sie sprachen davon, dass Sie sich ein europäisches Vorgehen wünschen. Frankreich zum Beispiel unterstützt die Initiative und sieht eher Deutschland als das Land, das hier bremst. Also da ist nicht sehr viel von europäischem Verständnis da und noch dazu auch nicht viel von multilateralem Verständnis. Sie setzen, wie Sie immer wieder betonen, auf Multilateralismus. Von daher ist es nicht nachzuvollziehen, dass Sie bisher so zurückhaltend sind bei einer solchen Initiative. Also: Unterstützen Sie sie jetzt, oder haben Sie Vorbehalte?",
-            "sentences": [
-              {
-                "text": "Sie sprachen davon, dass Sie sich ein europäisches Vorgehen wünschen."
-              },
-              {
-                "text": "Frankreich zum Beispiel unterstützt die Initiative und sieht eher Deutschland als das Land, das hier bremst."
-              },
-              {
-                "text": "Also da ist nicht sehr viel von europäischem Verständnis da und noch dazu auch nicht viel von multilateralem Verständnis."
-              },
-              {
-                "text": "Sie setzen, wie Sie immer wieder betonen, auf Multilateralismus."
-              },
-              {
-                "text": "Von daher ist es nicht nachzuvollziehen, dass Sie bisher so zurückhaltend sind bei einer solchen Initiative."
-              },
-              {
-                "text": "Also: Unterstützen Sie sie jetzt, oder haben Sie Vorbehalte?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Michael Roth",
-            "speakerstatus": "speaker",
-            "text": "Frau Präsidentin! Frau Abgeordnete Hänsel, selbstverständlich unterstützen wir mit großem Engagement das Ziel, dass auch bei wirtschaftlichem Handeln die Menschenrechte stärker verankert werden. Wir haben uns dabei auf einen Nationalen Aktionsplan verständigt, der sich derzeit im Rahmen des Monitorings befindet. Wenn wir das Ziel, das sich die Koalition gegeben hat – dass sich mindestens 50 Prozent der Unternehmen so verhalten, wie es vorgesehen ist –, nicht erreichen, dann werden wir auch nach 2020 zu gesetzlich verbindlichen Vorgaben kommen.",
-            "sentences": [
-              {
-                "text": "Frau Präsidentin!"
-              },
-              {
-                "text": "Frau Abgeordnete Hänsel, selbstverständlich unterstützen wir mit großem Engagement das Ziel, dass auch bei wirtschaftlichem Handeln die Menschenrechte stärker verankert werden."
-              },
-              {
-                "text": "Wir haben uns dabei auf einen Nationalen Aktionsplan verständigt, der sich derzeit im Rahmen des Monitorings befindet."
-              },
-              {
-                "text": "Wenn wir das Ziel, das sich die Koalition gegeben hat – dass sich mindestens 50 Prozent der Unternehmen so verhalten, wie es vorgesehen ist –, nicht erreichen, dann werden wir auch nach 2020 zu gesetzlich verbindlichen Vorgaben kommen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Michael Roth",
-            "speakerstatus": "speaker",
-            "text": "Zum VN-Treaty haben wir auch innerhalb der EU entsprechende Fragen. Ich halte es im Rahmen eines Verhandlungsprozesses auch für völlig normal, dass wir unsere eigenen Interessen möglichst in engem Zusammenspiel mit der Europäischen Union und deren Mitgliedstaaten einbringen. Was uns beispielsweise stört, ist die einseitige Fokussierung auf transnational agierende Unternehmen. Was ist mit staatlichen Unternehmen? Und was ist beispielsweise auch mit überwiegend national agierenden Unternehmen? Werden die da rausgelassen? Spielt das keine Rolle? Ich finde, das ist eine wichtige Frage, die an der Bedeutung dieses Prozesses überhaupt nichts schmälert, aber aus meiner Sicht schon auch eingebracht werden muss.",
-            "sentences": [
-              {
-                "text": "Zum VN-Treaty haben wir auch innerhalb der EU entsprechende Fragen."
-              },
-              {
-                "text": "Ich halte es im Rahmen eines Verhandlungsprozesses auch für völlig normal, dass wir unsere eigenen Interessen möglichst in engem Zusammenspiel mit der Europäischen Union und deren Mitgliedstaaten einbringen."
-              },
-              {
-                "text": "Was uns beispielsweise stört, ist die einseitige Fokussierung auf transnational agierende Unternehmen."
-              },
-              {
-                "text": "Was ist mit staatlichen Unternehmen?"
-              },
-              {
-                "text": "Und was ist beispielsweise auch mit überwiegend national agierenden Unternehmen?"
-              },
-              {
-                "text": "Werden die da rausgelassen?"
-              },
-              {
-                "text": "Spielt das keine Rolle?"
-              },
-              {
-                "text": "Ich finde, das ist eine wichtige Frage, die an der Bedeutung dieses Prozesses überhaupt nichts schmälert, aber aus meiner Sicht schon auch eingebracht werden muss."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Michael Roth",
-            "speakerstatus": "speaker",
-            "text": "Darüber hinaus geht es auch darum, ob das, was wir schon erreicht haben, nämlich die VN-Leitprinzipien für Wirtschaft und Menschenrechte, dadurch möglicherweise geschwächt wird. Das müssen wir in einen Einklang bringen. Da sind wir gerade dran, und wir versuchen, das Beste daraus zu machen.",
-            "sentences": [
-              {
-                "text": "Darüber hinaus geht es auch darum, ob das, was wir schon erreicht haben, nämlich die VN-Leitprinzipien für Wirtschaft und Menschenrechte, dadurch möglicherweise geschwächt wird."
-              },
-              {
-                "text": "Das müssen wir in einen Einklang bringen."
-              },
-              {
-                "text": "Da sind wir gerade dran, und wir versuchen, das Beste daraus zu machen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Sie haben das Wort zur zweiten Nachfrage.",
-            "sentences": [
-              {
-                "text": "Sie haben das Wort zur zweiten Nachfrage."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Heike Hänsel",
-            "speakerstatus": "speaker",
-            "text": "Sie haben immer noch nicht die Frage beantwortet, ob Sie die UN-Initiative unterstützen oder nicht, sondern wiederholen nur Ihre Vorbehalte. Gleichzeitig haben Sie sich dafür eingesetzt, dass der Vorrang von Menschenrechten in Handels- und Investitionsabkommen in diesem UN-Treaty-Entwurf nicht mehr zu finden ist – so vermeldet es die „Frankfurter Rundschau“ –, was ich äußerst destruktiv finde. Einerseits unterstützen Sie diese Initiative nicht, andererseits wirken Sie darauf ein, dass bestimmte wichtige Bestandteile dieses Vertragswerks nicht mehr vorkommen. Dieses Vorgehen der Bundesregierung empfinde ich als äußerst unseriös. Das ist nicht im Sinne einer Menschenrechtsverankerung, wenn es um das Agieren von internationalen Unternehmen geht. Übrigens ist mittlerweile vorgesehen, auch nationale Unternehmen mit einzubeziehen.",
-            "sentences": [
-              {
-                "text": "Sie haben immer noch nicht die Frage beantwortet, ob Sie die UN-Initiative unterstützen oder nicht, sondern wiederholen nur Ihre Vorbehalte."
-              },
-              {
-                "text": "Gleichzeitig haben Sie sich dafür eingesetzt, dass der Vorrang von Menschenrechten in Handels- und Investitionsabkommen in diesem UN-Treaty-Entwurf nicht mehr zu finden ist – so vermeldet es die „Frankfurter Rundschau“ –, was ich äußerst destruktiv finde."
-              },
-              {
-                "text": "Einerseits unterstützen Sie diese Initiative nicht, andererseits wirken Sie darauf ein, dass bestimmte wichtige Bestandteile dieses Vertragswerks nicht mehr vorkommen."
-              },
-              {
-                "text": "Dieses Vorgehen der Bundesregierung empfinde ich als äußerst unseriös."
-              },
-              {
-                "text": "Das ist nicht im Sinne einer Menschenrechtsverankerung, wenn es um das Agieren von internationalen Unternehmen geht."
-              },
-              {
-                "text": "Übrigens ist mittlerweile vorgesehen, auch nationale Unternehmen mit einzubeziehen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Michael Roth",
-            "speakerstatus": "speaker",
-            "text": "Frau Präsidentin! Frau Kollegin Hänsel, wenn wir im Rahmen eines Verhandlungsprozesses ein Ergebnis verbessern wollen, dann hat das mit Blockaden und destruktiven Vorbehalten überhaupt nichts zu tun. Im Übrigen ist das eine Frage, mit der wir uns in der internationalen Politik ständig auseinanderzusetzen haben: Was bedeuten neue Initiativen auf der globalen Ebene für schon bestehende Mechanismen und Regime? In dem Zusammenhang habe ich darauf hingewiesen, dass wir das, was wir schon erreicht haben, vor allem stärken wollen.",
-            "sentences": [
-              {
-                "text": "Frau Präsidentin!"
-              },
-              {
-                "text": "Frau Kollegin Hänsel, wenn wir im Rahmen eines Verhandlungsprozesses ein Ergebnis verbessern wollen, dann hat das mit Blockaden und destruktiven Vorbehalten überhaupt nichts zu tun."
-              },
-              {
-                "text": "Im Übrigen ist das eine Frage, mit der wir uns in der internationalen Politik ständig auseinanderzusetzen haben: Was bedeuten neue Initiativen auf der globalen Ebene für schon bestehende Mechanismen und Regime?"
-              },
-              {
-                "text": "In dem Zusammenhang habe ich darauf hingewiesen, dass wir das, was wir schon erreicht haben, vor allem stärken wollen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Michael Roth",
-            "speakerstatus": "speaker",
-            "text": "Im Übrigen will ich auf einen Punkt hinweisen, den ich zumindest bedenklich finde. Große Industriestaaten wie Kanada und die USA haben an diesen Sitzungen nie teilgenommen. China und Russland verhalten sich sehr zurückhaltend, passiv und distanziert. Daneben gibt es Staaten mit teilweise sehr zweifelhafter Menschenrechtsbilanz, die sich dort sehr engagiert zeigen, wie Kuba, Venezuela, Ägypten, Aserbaidschan und Pakistan. Ich will es mal so sagen: Das ist jetzt eine Reihe von Staaten, die nicht unbedingt für eine uneingeschränkte Achtung der Menschenrechte stehen, sich aber in diesem Bereich sehr hervortun. Ich wäre hier also für einen sehr differenzierten Blick auf die Sache und würde unsere kritischen Fragen und unsere konstruktiven Einwendungen jetzt nicht als Blockade missverstehen wollen.",
-            "sentences": [
-              {
-                "text": "Im Übrigen will ich auf einen Punkt hinweisen, den ich zumindest bedenklich finde."
-              },
-              {
-                "text": "Große Industriestaaten wie Kanada und die USA haben an diesen Sitzungen nie teilgenommen."
-              },
-              {
-                "text": "China und Russland verhalten sich sehr zurückhaltend, passiv und distanziert."
-              },
-              {
-                "text": "Daneben gibt es Staaten mit teilweise sehr zweifelhafter Menschenrechtsbilanz, die sich dort sehr engagiert zeigen, wie Kuba, Venezuela, Ägypten, Aserbaidschan und Pakistan."
-              },
-              {
-                "text": "Ich will es mal so sagen: Das ist jetzt eine Reihe von Staaten, die nicht unbedingt für eine uneingeschränkte Achtung der Menschenrechte stehen, sich aber in diesem Bereich sehr hervortun."
-              },
-              {
-                "text": "Ich wäre hier also für einen sehr differenzierten Blick auf die Sache und würde unsere kritischen Fragen und unsere konstruktiven Einwendungen jetzt nicht als Blockade missverstehen wollen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Danke, Herr Staatsminister. – Die Frage 62 des Abgeordneten Uwe Kekeritz und die Fragen 63 und 64 der Abgeordneten Zaklin Nastic zum Geschäftsbereich des Auswärtigen Amtes sollen schriftlich beantwortet werden.",
-            "sentences": [
-              {
-                "text": "Danke, Herr Staatsminister."
-              },
-              {
-                "text": "– Die Frage 62 des Abgeordneten Uwe Kekeritz und die Fragen 63 und 64 der Abgeordneten Zaklin Nastic zum Geschäftsbereich des Auswärtigen Amtes sollen schriftlich beantwortet werden."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Wir kommen damit zum Geschäftsbereich des Bundesministeriums für Wirtschaft und Energie.",
-            "sentences": [
-              {
-                "text": "Wir kommen damit zum Geschäftsbereich des Bundesministeriums für Wirtschaft und Energie."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Die Fragen 65 und 66 der Abgeordneten Katja Keul, die Frage 67 der Abgeordneten Sevim Dağdelen, die Frage 68 der Abgeordneten Lisa Badum, die Fragen 69 und 70 der Abgeordneten Katharina Dröge, die Frage 71 des Abgeordneten Stephan Brandner und die Frage 72 des Abgeordneten Oliver Krischer sollen schriftlich beantwortet werden.",
-            "sentences": [
-              {
-                "text": "Die Fragen 65 und 66 der Abgeordneten Katja Keul, die Frage 67 der Abgeordneten Sevim Dağdelen, die Frage 68 der Abgeordneten Lisa Badum, die Fragen 69 und 70 der Abgeordneten Katharina Dröge, die Frage 71 des Abgeordneten Stephan Brandner und die Frage 72 des Abgeordneten Oliver Krischer sollen schriftlich beantwortet werden."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Ich komme nun zum Geschäftsbereich des Bundesministeriums für Arbeit und Soziales. Zur Beantwortung steht die Parlamentarische Staatssekretärin Anette Kramme zur Verfügung.",
-            "sentences": [
-              {
-                "text": "Ich komme nun zum Geschäftsbereich des Bundesministeriums für Arbeit und Soziales."
-              },
-              {
-                "text": "Zur Beantwortung steht die Parlamentarische Staatssekretärin Anette Kramme zur Verfügung."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Die Frage 73 der Abgeordneten Sabine Zimmermann soll schriftlich beantwortet werden.",
-            "sentences": [
-              {
-                "text": "Die Frage 73 der Abgeordneten Sabine Zimmermann soll schriftlich beantwortet werden."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Ich rufe die Frage 74 der Abgeordneten Dr. Manuela Rottmann auf:",
-            "sentences": [
-              {
-                "text": "Ich rufe die Frage 74 der Abgeordneten Dr. Manuela Rottmann auf:"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Anette Kramme",
-            "speakerstatus": "speaker",
-            "text": "Sehr geehrte Frau Präsidentin! Sehr geehrte Frau Dr. Rottmann, das bayerische Familiengeld ist, wenn man die Rechtsprechung des Bundessozialgerichtes zugrunde legt, als Einkommen zu berücksichtigen. Dies wird durch die bayerischen Jobcenter, die als gemeinsame Einrichtungen von Bundesagentur für Arbeit und kommunalem Träger organisiert sind, auch so umgesetzt.",
-            "sentences": [
-              {
-                "text": "Sehr geehrte Frau Präsidentin!"
-              },
-              {
-                "text": "Sehr geehrte Frau Dr. Rottmann, das bayerische Familiengeld ist, wenn man die Rechtsprechung des Bundessozialgerichtes zugrunde legt, als Einkommen zu berücksichtigen."
-              },
-              {
-                "text": "Dies wird durch die bayerischen Jobcenter, die als gemeinsame Einrichtungen von Bundesagentur für Arbeit und kommunalem Träger organisiert sind, auch so umgesetzt."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Anette Kramme",
-            "speakerstatus": "speaker",
-            "text": "Eine Ungleichbehandlung resultiert daraus, dass das Bayerische Staatsministerium für Familie, Arbeit und Soziales die Jobcenter, die als zugelassene kommunale Träger der Aufsicht Bayerns unterliegen, angewiesen hat, das Familiengeld nicht als Einkommen zu berücksichtigen. Das Bundesministerium für Arbeit und Soziales hat die Bayerische Staatsregierung bereits vor Inkrafttreten des bayerischen Familiengeldes ausdrücklich darauf hingewiesen, dass diese Vorgehensweise nicht dem geltenden Recht entspricht. Das Bayerische Staatsministerium für Familie, Arbeit und Soziales bzw. das Land Bayern könnte die Ungleichbehandlung durch Aufhebung dieser dem Bundesrecht entgegenstehenden Weisung ändern. Das Bundesministerium für Arbeit und Soziales steht mit der Bayerischen Staatsregierung in Kontakt.",
-            "sentences": [
-              {
-                "text": "Eine Ungleichbehandlung resultiert daraus, dass das Bayerische Staatsministerium für Familie, Arbeit und Soziales die Jobcenter, die als zugelassene kommunale Träger der Aufsicht Bayerns unterliegen, angewiesen hat, das Familiengeld nicht als Einkommen zu berücksichtigen."
-              },
-              {
-                "text": "Das Bundesministerium für Arbeit und Soziales hat die Bayerische Staatsregierung bereits vor Inkrafttreten des bayerischen Familiengeldes ausdrücklich darauf hingewiesen, dass diese Vorgehensweise nicht dem geltenden Recht entspricht."
-              },
-              {
-                "text": "Das Bayerische Staatsministerium für Familie, Arbeit und Soziales bzw. das Land Bayern könnte die Ungleichbehandlung durch Aufhebung dieser dem Bundesrecht entgegenstehenden Weisung ändern."
-              },
-              {
-                "text": "Das Bundesministerium für Arbeit und Soziales steht mit der Bayerischen Staatsregierung in Kontakt."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Sie haben das Wort zur ersten Nachfrage.",
-            "sentences": [
-              {
-                "text": "Sie haben das Wort zur ersten Nachfrage."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Manuela Rottmann",
-            "speakerstatus": "speaker",
-            "text": "Vielen Dank, Frau Präsidentin, Frau Staatssekretärin Kramme, für diese Antwort. – Ich habe das Problem, dass ich viele Bürgerinnen und Bürger kenne, die Sozialleistungen beziehen und aus Angst, dass ihnen später etwas vom Jobcenter abgezogen wird, auf die Beantragung des Familiengeldes verzichten, die aber die Befürchtung haben – weil das Jobcenter überhaupt nicht weiß, ob sie Familiengeld bekommen haben oder nicht, sondern nur weiß, dass sie einen Anspruch auf Familiengeld haben –, dass ihnen das Jobcenter das Geld trotzdem abzieht, sodass sie am Ende gezwungen sind, gegen das Jobcenter vorzugehen. Gibt es hier eine Lösung der Bundesregierung, damit die Menschen wenigstens in den nächsten Wochen Rechtssicherheit haben?",
-            "sentences": [
-              {
-                "text": "Vielen Dank, Frau Präsidentin, Frau Staatssekretärin Kramme, für diese Antwort."
-              },
-              {
-                "text": "– Ich habe das Problem, dass ich viele Bürgerinnen und Bürger kenne, die Sozialleistungen beziehen und aus Angst, dass ihnen später etwas vom Jobcenter abgezogen wird, auf die Beantragung des Familiengeldes verzichten, die aber die Befürchtung haben – weil das Jobcenter überhaupt nicht weiß, ob sie Familiengeld bekommen haben oder nicht, sondern nur weiß, dass sie einen Anspruch auf Familiengeld haben –, dass ihnen das Jobcenter das Geld trotzdem abzieht, sodass sie am Ende gezwungen sind, gegen das Jobcenter vorzugehen."
-              },
-              {
-                "text": "Gibt es hier eine Lösung der Bundesregierung, damit die Menschen wenigstens in den nächsten Wochen Rechtssicherheit haben?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Bitte, Frau Staatssekretärin.",
-            "sentences": [
-              {
-                "text": "Bitte, Frau Staatssekretärin."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Anette Kramme",
-            "speakerstatus": "speaker",
-            "text": "Noch einmal zur Klarstellung: Dieser Zustand der Rechtsunsicherheit wurde nicht durch das Bundesministerium für Arbeit und Soziales hergestellt. Ich persönlich war dabei, als wir der damaligen Landessozialministerin Emilia Müller erklärt haben, dass ihre Planungen nicht mit dem Bundesrecht übereinstimmen. Der Bundesgesetzgeber kann an dieser Stelle nur rechtskonform handeln. Das heißt, das Bundesministerium für Arbeit und Soziales kann die Bundesagentur für Arbeit nur anweisen, anzurechnen.",
-            "sentences": [
-              {
-                "text": "Noch einmal zur Klarstellung: Dieser Zustand der Rechtsunsicherheit wurde nicht durch das Bundesministerium für Arbeit und Soziales hergestellt."
-              },
-              {
-                "text": "Ich persönlich war dabei, als wir der damaligen Landessozialministerin Emilia Müller erklärt haben, dass ihre Planungen nicht mit dem Bundesrecht übereinstimmen."
-              },
-              {
-                "text": "Der Bundesgesetzgeber kann an dieser Stelle nur rechtskonform handeln."
-              },
-              {
-                "text": "Das heißt, das Bundesministerium für Arbeit und Soziales kann die Bundesagentur für Arbeit nur anweisen, anzurechnen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Anette Kramme",
-            "speakerstatus": "speaker",
-            "text": "Die von Ihnen beschriebene Praxis, dass Zahlungen gekürzt werden, ohne dass klar ist, dass Leistungen ausgezahlt werden, ist mir nicht bekannt. Das müssten wir bei der Bundesagentur für Arbeit abfragen. Dann könnten wir Ihnen eine entsprechende Antwort zukommen lassen.",
-            "sentences": [
-              {
-                "text": "Die von Ihnen beschriebene Praxis, dass Zahlungen gekürzt werden, ohne dass klar ist, dass Leistungen ausgezahlt werden, ist mir nicht bekannt."
-              },
-              {
-                "text": "Das müssten wir bei der Bundesagentur für Arbeit abfragen."
-              },
-              {
-                "text": "Dann könnten wir Ihnen eine entsprechende Antwort zukommen lassen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Haben Sie eine zweite Nachfrage? – Sie verzichten. – Danke, Frau Staatssekretärin. Damit sind wir am Ende Ihres Geschäftsbereichs.",
-            "sentences": [
-              {
-                "text": "Haben Sie eine zweite Nachfrage?"
-              },
-              {
-                "text": "– Sie verzichten."
-              },
-              {
-                "text": "– Danke, Frau Staatssekretärin."
-              },
-              {
-                "text": "Damit sind wir am Ende Ihres Geschäftsbereichs."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Die Frage 75 des Abgeordneten Andrej Hunko zum Geschäftsbereich des Bundesministeriums der Verteidigung wird schriftlich beantwortet.",
-            "sentences": [
-              {
-                "text": "Die Frage 75 des Abgeordneten Andrej Hunko zum Geschäftsbereich des Bundesministeriums der Verteidigung wird schriftlich beantwortet."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Wir sind damit am Schluss unserer heutigen Tagesordnung.",
-            "sentences": [
-              {
-                "text": "Wir sind damit am Schluss unserer heutigen Tagesordnung."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Ich berufe die nächste Sitzung des Deutschen Bundestages auf morgen, Donnerstag, den 18. Oktober 2018, 9 Uhr, ein.",
-            "sentences": [
-              {
-                "text": "Ich berufe die nächste Sitzung des Deutschen Bundestages auf morgen, Donnerstag, den 18. Oktober 2018, 9 Uhr, ein."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Petra Pau",
-            "speakerstatus": "vice-president",
-            "text": "Die Sitzung ist geschlossen.",
-            "sentences": [
-              {
-                "text": "Die Sitzung ist geschlossen."
               }
             ]
           }

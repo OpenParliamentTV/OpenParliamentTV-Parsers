@@ -11,7 +11,7 @@
     },
     "agendaItem": {
       "officialTitle": "Sitzungseröffnung",
-      "speechIndex": 0,
+      "speechIndex": 1000,
       "title": "Sitzungseröffnung"
     },
     "people": [
@@ -24,7 +24,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19006-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19006-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -90,7 +90,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 2,
+      "speechIndex": 1002,
       "title": "Einsetzung von Ausschüssen"
     },
     "people": [
@@ -103,12 +103,34 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19006-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19006-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
         "originTextID": "",
         "textBody": [
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "Beratung des Antrags der Fraktionen CDU/CSU, SPD, AfD, FDP, DIE LINKE und BÜNDNIS 90/DIE GRÜNEN",
+            "sentences": [
+              {
+                "text": "Beratung des Antrags der Fraktionen CDU/CSU, SPD, AfD, FDP, DIE LINKE und BÜNDNIS 90/DIE GRÜNEN"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "Einsetzung von Ausschüssen",
+            "sentences": [
+              {
+                "text": "Einsetzung von Ausschüssen"
+              }
+            ]
+          },
           {
             "type": "speech",
             "speaker": "Wolfgang Schäuble",
@@ -181,7 +203,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 2",
-      "speechIndex": 4,
+      "speechIndex": 1004,
       "title": "Stellenanteile der Fraktionen"
     },
     "people": [
@@ -194,12 +216,34 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19006-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19006-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
         "originTextID": "",
         "textBody": [
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "Beratung des Antrags der Fraktionen CDU/CSU, SPD, AfD, FDP, DIE LINKE und BÜNDNIS 90/DIE GRÜNEN",
+            "sentences": [
+              {
+                "text": "Beratung des Antrags der Fraktionen CDU/CSU, SPD, AfD, FDP, DIE LINKE und BÜNDNIS 90/DIE GRÜNEN"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "Bestimmung des Verfahrens für die Berechnung der Stellenanteile der Fraktionen",
+            "sentences": [
+              {
+                "text": "Bestimmung des Verfahrens für die Berechnung der Stellenanteile der Fraktionen"
+              }
+            ]
+          },
           {
             "type": "speech",
             "speaker": "Wolfgang Schäuble",
@@ -266,7 +310,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 3",
-      "speechIndex": 6,
+      "speechIndex": 1006,
       "title": "Änderung der Außenwirtschaftsverordnung"
     },
     "people": [
@@ -279,12 +323,34 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19006-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19006-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
         "originTextID": "",
         "textBody": [
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "Beratung der Beschlussempfehlung und des Berichts des Hauptausschusses zu der Verordnung der Bundesregierung",
+            "sentences": [
+              {
+                "text": "Beratung der Beschlussempfehlung und des Berichts des Hauptausschusses zu der Verordnung der Bundesregierung"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "Zehnte Verordnung zur Änderung der Außenwirtschaftsverordnung",
+            "sentences": [
+              {
+                "text": "Zehnte Verordnung zur Änderung der Außenwirtschaftsverordnung"
+              }
+            ]
+          },
           {
             "type": "speech",
             "speaker": "Wolfgang Schäuble",
@@ -359,7 +425,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 4",
-      "speechIndex": 8,
+      "speechIndex": 1008,
       "title": "Befragung der Bundesregierung"
     },
     "people": [
@@ -372,12 +438,23 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19006-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19006-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
         "originTextID": "",
         "textBody": [
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "Befragung der Bundesregierung",
+            "sentences": [
+              {
+                "text": "Befragung der Bundesregierung"
+              }
+            ]
+          },
           {
             "type": "speech",
             "speaker": "Wolfgang Schäuble",
@@ -432,7 +509,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 4",
-      "speechIndex": 9,
+      "speechIndex": 1009,
       "title": "Befragung der Bundesregierung"
     },
     "people": [
@@ -453,7 +530,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19006-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19006-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -770,16 +847,55 @@
   {
     "parliament": "DE",
     "electoralPeriod": {
-      "number": 19
+      "number": "19"
     },
     "session": {
-      "number": 6
+      "number": "6",
+      "dateStart": "2018-01-17T13:00",
+      "dateEnd": "2018-01-17T15:45"
     },
     "agendaItem": {
-      "title": "Befragung der Bundesregierung",
       "officialTitle": "Tagesordnungspunkt 4",
-      "speechIndex": 7
+      "speechIndex": 1052,
+      "title": "Befragung der Bundesregierung"
     },
+    "people": [
+      {
+        "type": "memberOfParliament",
+        "label": "Wolfgang Schäuble",
+        "context": "president"
+      }
+    ],
+    "textContents": [
+      {
+        "type": "proceedings",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19006-data.xml",
+        "creator": "Deutscher Bundestag",
+        "license": "Public Domain",
+        "language": "DE-de",
+        "originTextID": "",
+        "textBody": [
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "Danke sehr. – Damit beende ich die Regierungsbefragung.",
+            "sentences": [
+              {
+                "text": "Danke sehr."
+              },
+              {
+                "text": "– Damit beende ich die Regierungsbefragung."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "documents": [],
+    "key": "19-6 tagesordnungspunkt 4 (wolfgang schauble) #1",
+    "dateStart": "2018-01-17T12:08:58",
+    "dateEnd": "2018-01-17T12:09:34",
     "media": {
       "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7192246/7192246_h264_720_400_2000kb_baseline_de_2192.mp4",
       "sourcePage": "http://dbtg.tv/fvid/7192246",
@@ -788,18 +904,7 @@
       "license": "CC-BY-SA",
       "originMediaID": "7192246",
       "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7192246/7192246_mp3_128kb_stereo_de_128.mp3"
-    },
-    "dateStart": "2018-01-17T12:08:58",
-    "dateEnd": "2018-01-17T12:09:34",
-    "people": [
-      {
-        "label": "Wolfgang Schäuble",
-        "faction": "CDU/CSU",
-        "context": "main-speaker",
-        "role": "Bundestagspräsident"
-      }
-    ],
-    "key": "19-6 tagesordnungspunkt 4 (wolfgang schauble) #1"
+    }
   },
   {
     "parliament": "DE",
@@ -813,7 +918,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 4",
-      "speechIndex": 11,
+      "speechIndex": 1011,
       "title": "Befragung der Bundesregierung"
     },
     "people": [
@@ -834,7 +939,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19006-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19006-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -979,7 +1084,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 4",
-      "speechIndex": 13,
+      "speechIndex": 1013,
       "title": "Befragung der Bundesregierung"
     },
     "people": [
@@ -1000,7 +1105,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19006-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19006-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -1083,7 +1188,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 4",
-      "speechIndex": 15,
+      "speechIndex": 1015,
       "title": "Befragung der Bundesregierung"
     },
     "people": [
@@ -1104,7 +1209,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19006-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19006-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -1188,7 +1293,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 4",
-      "speechIndex": 17,
+      "speechIndex": 1017,
       "title": "Befragung der Bundesregierung"
     },
     "people": [
@@ -1209,7 +1314,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19006-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19006-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -1322,7 +1427,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 4",
-      "speechIndex": 49,
+      "speechIndex": 1049,
       "title": "Befragung der Bundesregierung"
     },
     "people": [
@@ -1343,7 +1448,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19006-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19006-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -1440,7 +1545,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 5",
-      "speechIndex": 52,
+      "speechIndex": 1053,
       "title": "Fragestunde"
     },
     "people": [
@@ -1722,12 +1827,23 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19006-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19006-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
         "originTextID": "",
         "textBody": [
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "Fragestunde",
+            "sentences": [
+              {
+                "text": "Fragestunde"
+              }
+            ]
+          },
           {
             "type": "speech",
             "speaker": "Wolfgang Schäuble",
@@ -7451,83 +7567,16 @@
   {
     "parliament": "DE",
     "electoralPeriod": {
-      "number": "19"
+      "number": 19
     },
     "session": {
-      "number": "6",
-      "dateStart": "2018-01-17T13:00",
-      "dateEnd": "2018-01-17T15:45"
+      "number": 6
     },
     "agendaItem": {
+      "title": "Befragung der Bundesregierung",
       "officialTitle": "Tagesordnungspunkt 4",
-      "speechIndex": 51,
-      "title": "Befragung der Bundesregierung"
+      "speechIndex": 14
     },
-    "people": [
-      {
-        "type": "memberOfParliament",
-        "label": "Jens Spahn",
-        "firstname": "Jens",
-        "lastname": "Spahn",
-        "context": "main-speaker",
-        "faction": ""
-      },
-      {
-        "type": "memberOfParliament",
-        "label": "Wolfgang Schäuble",
-        "context": "president"
-      }
-    ],
-    "textContents": [
-      {
-        "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19006-data.xml",
-        "creator": "Deutscher Bundestag",
-        "license": "Public Domain",
-        "language": "DE-de",
-        "originTextID": "",
-        "textBody": [
-          {
-            "type": "speech",
-            "speaker": "Jens Spahn",
-            "speakerstatus": "main-speaker",
-            "text": "Vielen Dank, Herr Präsident. – Herr Kollege, grundsätzlich kommentieren wir Sondierungsgespräche nicht. Aber in diesem klar nachrechenbaren Fall und angesichts dieser Konstellation kann ich Ihnen sagen, dass eine solche Freigrenze, bezogen auf das Jahr 2021 – das scheint ins Visier genommen –, für Singles bei einem zu versteuernden Einkommen in Höhe von etwa 60 000 Euro und für Ehepartner in Höhe von etwa 120 000 Euro liegen wird. Mögliche Verwerfungen hinsichtlich des Grenzsteuersatzes könnte man durch eine Gleitzone – eine solche gibt es schon –, die sich direkt an die Freigrenze anschließt, abmildern.",
-            "sentences": [
-              {
-                "text": "Vielen Dank, Herr Präsident."
-              },
-              {
-                "text": "– Herr Kollege, grundsätzlich kommentieren wir Sondierungsgespräche nicht."
-              },
-              {
-                "text": "Aber in diesem klar nachrechenbaren Fall und angesichts dieser Konstellation kann ich Ihnen sagen, dass eine solche Freigrenze, bezogen auf das Jahr 2021 – das scheint ins Visier genommen –, für Singles bei einem zu versteuernden Einkommen in Höhe von etwa 60 000 Euro und für Ehepartner in Höhe von etwa 120 000 Euro liegen wird."
-              },
-              {
-                "text": "Mögliche Verwerfungen hinsichtlich des Grenzsteuersatzes könnte man durch eine Gleitzone – eine solche gibt es schon –, die sich direkt an die Freigrenze anschließt, abmildern."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Wolfgang Schäuble",
-            "speakerstatus": "president",
-            "text": "Danke sehr. – Damit beende ich die Regierungsbefragung.",
-            "sentences": [
-              {
-                "text": "Danke sehr."
-              },
-              {
-                "text": "– Damit beende ich die Regierungsbefragung."
-              }
-            ]
-          }
-        ]
-      }
-    ],
-    "documents": [],
-    "key": "19-6 tagesordnungspunkt 4 (jens spahn)",
-    "dateStart": "2018-01-17T12:51:41",
-    "dateEnd": "2018-01-17T12:52:03",
     "media": {
       "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7192261/7192261_h264_720_400_2000kb_baseline_de_2192.mp4",
       "sourcePage": "http://dbtg.tv/fvid/7192261",
@@ -7536,7 +7585,18 @@
       "license": "CC-BY-SA",
       "originMediaID": "7192261",
       "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7192261/7192261_mp3_128kb_stereo_de_128.mp3"
-    }
+    },
+    "dateStart": "2018-01-17T12:51:41",
+    "dateEnd": "2018-01-17T12:52:03",
+    "people": [
+      {
+        "label": "Jens Spahn",
+        "faction": "CDU/CSU",
+        "context": "main-speaker",
+        "role": "Parlamentarischer Staatssekretär der Finanzen"
+      }
+    ],
+    "key": "19-6 tagesordnungspunkt 4 (jens spahn)"
   },
   {
     "parliament": "DE",

@@ -11,7 +11,7 @@
     },
     "agendaItem": {
       "officialTitle": "Sitzungseröffnung",
-      "speechIndex": 0,
+      "speechIndex": 1000,
       "title": "Sitzungseröffnung"
     },
     "people": [
@@ -24,7 +24,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19094-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19094-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -102,7 +102,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 2,
+      "speechIndex": 1002,
       "title": "Befragung der Bundesregierung"
     },
     "people": [
@@ -115,12 +115,23 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19094-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19094-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
         "originTextID": "",
         "textBody": [
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "Befragung der Bundesregierung",
+            "sentences": [
+              {
+                "text": "Befragung der Bundesregierung"
+              }
+            ]
+          },
           {
             "type": "speech",
             "speaker": "Wolfgang Schäuble",
@@ -186,7 +197,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 3,
+      "speechIndex": 1003,
       "title": "Befragung der Bundesregierung"
     },
     "people": [
@@ -207,7 +218,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19094-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19094-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -336,16 +347,55 @@
   {
     "parliament": "DE",
     "electoralPeriod": {
-      "number": 19
+      "number": "19"
     },
     "session": {
-      "number": 94
+      "number": "94",
+      "dateStart": "2019-04-10T13:00",
+      "dateEnd": "2019-04-10T18:07"
     },
     "agendaItem": {
-      "title": "Befragung der Bundesregierung",
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 4
+      "speechIndex": 1084,
+      "title": "Befragung der Bundesregierung"
     },
+    "people": [
+      {
+        "type": "memberOfParliament",
+        "label": "Wolfgang Schäuble",
+        "context": "president"
+      }
+    ],
+    "textContents": [
+      {
+        "type": "proceedings",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19094-data.xml",
+        "creator": "Deutscher Bundestag",
+        "license": "Public Domain",
+        "language": "DE-de",
+        "originTextID": "",
+        "textBody": [
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "Danke sehr. – Mit diesem Appell schließe ich die Regierungsbefragung.",
+            "sentences": [
+              {
+                "text": "Danke sehr."
+              },
+              {
+                "text": "– Mit diesem Appell schließe ich die Regierungsbefragung."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "documents": [],
+    "key": "19-94 tagesordnungspunkt 1 (wolfgang schauble) #1",
+    "dateStart": "2019-04-10T12:08:06",
+    "dateEnd": "2019-04-10T12:08:17",
     "media": {
       "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7343105/7343105_h264_720_400_2000kb_baseline_de_2192.mp4",
       "sourcePage": "http://dbtg.tv/fvid/7343105",
@@ -354,18 +404,7 @@
       "license": "CC-BY-SA",
       "originMediaID": "7343105",
       "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7343105/7343105_mp3_128kb_stereo_de_128.mp3"
-    },
-    "dateStart": "2019-04-10T12:08:06",
-    "dateEnd": "2019-04-10T12:08:17",
-    "people": [
-      {
-        "label": "Wolfgang Schäuble",
-        "faction": "CDU/CSU",
-        "context": "main-speaker",
-        "role": "Bundestagspräsident"
-      }
-    ],
-    "key": "19-94 tagesordnungspunkt 1 (wolfgang schauble) #1"
+    }
   },
   {
     "parliament": "DE",
@@ -379,7 +418,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 2",
-      "speechIndex": 85,
+      "speechIndex": 1086,
       "title": "Fragestunde"
     },
     "people": [
@@ -512,12 +551,23 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19094-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19094-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
         "originTextID": "",
         "textBody": [
+          {
+            "type": "speech",
+            "speaker": "Thomas Oppermann",
+            "speakerstatus": "vice-president",
+            "text": "Fragestunde",
+            "sentences": [
+              {
+                "text": "Fragestunde"
+              }
+            ]
+          },
           {
             "type": "speech",
             "speaker": "Thomas Oppermann",
@@ -3476,1222 +3526,6 @@
                 "text": "Aber es geht um sehr viele Punkte, weil es sich um ein komplexes Thema handelt, über das wir mit der Europäischen Kommission diskutieren."
               }
             ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Michael Stübgen",
-            "speakerstatus": "speaker",
-            "text": "Wir haben weitestgehendes Einvernehmen über die Verlängerung der Sperrzeiten für Wirtschaftsdünger auf Grünflächen bei Wintersorten etc.",
-            "sentences": [
-              {
-                "text": "Wir haben weitestgehendes Einvernehmen über die Verlängerung der Sperrzeiten für Wirtschaftsdünger auf Grünflächen bei Wintersorten etc."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Michael Stübgen",
-            "speakerstatus": "speaker",
-            "text": "Wir sehen es als notwendig an, bei Gebieten mit 10 Prozent bzw. mit über 15 Prozent Hangneigung mehr zu tun, was Abstandsflächen und die Düngemenge betrifft, allerdings nur in den belasteten Gebieten und nicht, wie die Kommission fordert, überall in Deutschland, also auch dort, wo keine Belastung vorhanden ist.",
-            "sentences": [
-              {
-                "text": "Wir sehen es als notwendig an, bei Gebieten mit 10 Prozent bzw. mit über 15 Prozent Hangneigung mehr zu tun, was Abstandsflächen und die Düngemenge betrifft, allerdings nur in den belasteten Gebieten und nicht, wie die Kommission fordert, überall in Deutschland, also auch dort, wo keine Belastung vorhanden ist."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Michael Stübgen",
-            "speakerstatus": "speaker",
-            "text": "Die eigentliche Auseinandersetzung geht um die Forderung der Kommission, in den rot gekennzeichneten, in den belasteten Gebieten einen Einsatz von Düngemitteln von 20 Prozent unter dem Bedarf der Kulturpflanzen durchzusetzen. Das hat zum Beispiel Dänemark vor knapp zehn Jahren gemacht: Es hat dort erhebliche negative Auswirkungen für die Landwirtschaft mit sich gebracht; die Belastung des Grundwassers hat sich allerdings in der Tat verbessert.",
-            "sentences": [
-              {
-                "text": "Die eigentliche Auseinandersetzung geht um die Forderung der Kommission, in den rot gekennzeichneten, in den belasteten Gebieten einen Einsatz von Düngemitteln von 20 Prozent unter dem Bedarf der Kulturpflanzen durchzusetzen."
-              },
-              {
-                "text": "Das hat zum Beispiel Dänemark vor knapp zehn Jahren gemacht: Es hat dort erhebliche negative Auswirkungen für die Landwirtschaft mit sich gebracht; die Belastung des Grundwassers hat sich allerdings in der Tat verbessert."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Michael Stübgen",
-            "speakerstatus": "speaker",
-            "text": "Zu diesem Punkt ist unsere Auffassung, dass wir, wenn wir diese Forderung nach einer Reduktion um 20 Prozent akzeptieren müssen – das ist eigentlich nicht unsere Position; aber wir müssen zu einem Kompromiss kommen –, zwingend wissenschaftlich begründete Ausnahmen für bestimmte Fruchtarten machen müssen, die nachweislich viel Stickstoff aufnehmen, zum Beispiel Mais und Silomais oder Winterraps, der sehr viel Stickstoff aus dem Boden nimmt. Hier ringen wir um Ausnahmen, um die Reduktion um 20 Prozent, sofern wir solch eine Regelung wirklich vornehmen müssen, für die Anwender, für die Landwirte in unserem Land so zu gestalten, dass sie wenigstens einigermaßen erträglich ist.",
-            "sentences": [
-              {
-                "text": "Zu diesem Punkt ist unsere Auffassung, dass wir, wenn wir diese Forderung nach einer Reduktion um 20 Prozent akzeptieren müssen – das ist eigentlich nicht unsere Position; aber wir müssen zu einem Kompromiss kommen –, zwingend wissenschaftlich begründete Ausnahmen für bestimmte Fruchtarten machen müssen, die nachweislich viel Stickstoff aufnehmen, zum Beispiel Mais und Silomais oder Winterraps, der sehr viel Stickstoff aus dem Boden nimmt."
-              },
-              {
-                "text": "Hier ringen wir um Ausnahmen, um die Reduktion um 20 Prozent, sofern wir solch eine Regelung wirklich vornehmen müssen, für die Anwender, für die Landwirte in unserem Land so zu gestalten, dass sie wenigstens einigermaßen erträglich ist."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Das ist eine sehr ausführliche und abschließende Antwort.",
-            "sentences": [
-              {
-                "text": "Das ist eine sehr ausführliche und abschließende Antwort."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Ich rufe die nächste Frage, Frage 8 der Abgeordneten Dr. Bettina Hoffmann, auf – wir bleiben beim Thema Düngemittel –:",
-            "sentences": [
-              {
-                "text": "Ich rufe die nächste Frage, Frage 8 der Abgeordneten Dr. Bettina Hoffmann, auf – wir bleiben beim Thema Düngemittel –:"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Herr Staatssekretär, Sie haben schon wieder – oder immer noch – das Wort.",
-            "sentences": [
-              {
-                "text": "Herr Staatssekretär, Sie haben schon wieder – oder immer noch – das Wort."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Michael Stübgen",
-            "speakerstatus": "speaker",
-            "text": "Ja, das macht richtig Spaß heute. – Frau Hoffmann, vielen Dank für Ihre Frage. Ich antworte wie folgt: Das Institut für Pflanzenbau und Bodenkunde des ­Julius-Kühn-Instituts erstellt jährliche Berichte zu den Stickstoffbilanzen des Sektors Landwirtschaft in Deutschland. Das aktuell vorliegende letzte Berichtsjahr ist das Jahr 2016. Für dieses Jahr wird in der Flächenbilanz eine Stickstoffzufuhr durch Düngemittel in Höhe von 2,986 Millionen Tonnen ausgewiesen. Die für 2016 berechnete Stickstoffabfuhr durch pflanzliche Marktprodukte, Grundfutter und nachwachsende Rohstoffe zur Biogaserzeugung betrug 2,399 Millionen Tonnen Stickstoff. Das bedeutet ein Gap von ungefähr 500 000 Tonnen Stickstoff, wie Sie wahrscheinlich schon im Kopf ausgerechnet haben.",
-            "sentences": [
-              {
-                "text": "Ja, das macht richtig Spaß heute."
-              },
-              {
-                "text": "– Frau Hoffmann, vielen Dank für Ihre Frage."
-              },
-              {
-                "text": "Ich antworte wie folgt: Das Institut für Pflanzenbau und Bodenkunde des ­Julius-Kühn-Instituts erstellt jährliche Berichte zu den Stickstoffbilanzen des Sektors Landwirtschaft in Deutschland."
-              },
-              {
-                "text": "Das aktuell vorliegende letzte Berichtsjahr ist das Jahr 2016. Für dieses Jahr wird in der Flächenbilanz eine Stickstoffzufuhr durch Düngemittel in Höhe von 2,986 Millionen Tonnen ausgewiesen."
-              },
-              {
-                "text": "Die für 2016 berechnete Stickstoffabfuhr durch pflanzliche Marktprodukte, Grundfutter und nachwachsende Rohstoffe zur Biogaserzeugung betrug 2,399 Millionen Tonnen Stickstoff."
-              },
-              {
-                "text": "Das bedeutet ein Gap von ungefähr 500 000 Tonnen Stickstoff, wie Sie wahrscheinlich schon im Kopf ausgerechnet haben."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Vielen Dank. – Eine Nachfrage.",
-            "sentences": [
-              {
-                "text": "Vielen Dank."
-              },
-              {
-                "text": "– Eine Nachfrage."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Bettina Hoffmann",
-            "speakerstatus": "speaker",
-            "text": "Das können Sie mir schon noch zutrauen, dass ich kopfrechnen kann.",
-            "sentences": [
-              {
-                "text": "Das können Sie mir schon noch zutrauen, dass ich kopfrechnen kann."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Bettina Hoffmann",
-            "speakerstatus": "speaker",
-            "text": "Herr Präsident! Herr Staatssekretär, vielen Dank für Ihre Antwort. – Es wird doch deutlich, dass es erhebliche Mengen an Stickstoff, an Dünger, sind, die ausgebracht werden. Es wird auch deutlich, dass die Pflanzen längst nicht alles verbrauchen und dass die Reste irgendwo verbleiben und dass wir in Deutschland nicht nur dort, wo der Nitratanteil im Grundwasser erhöht ist, sondern flächendeckend einen Überschuss an Stickstoff haben. Deshalb ist es doch durchaus sinnvoll, wenn die EU-Kommission jetzt darüber sprechen möchte, dass man das Problem flächendeckend angeht. Ich verstehe nicht, warum Sie dem nicht entgegenkommen wollen. Wenn Vorschläge kommen, zum Beispiel auch über flächenbegrenzende Tierhaltung zu reden, um dieses Problems insgesamt Herr zu werden, warum lehnen Sie das rundheraus im Vorfeld ab?",
-            "sentences": [
-              {
-                "text": "Herr Präsident!"
-              },
-              {
-                "text": "Herr Staatssekretär, vielen Dank für Ihre Antwort."
-              },
-              {
-                "text": "– Es wird doch deutlich, dass es erhebliche Mengen an Stickstoff, an Dünger, sind, die ausgebracht werden."
-              },
-              {
-                "text": "Es wird auch deutlich, dass die Pflanzen längst nicht alles verbrauchen und dass die Reste irgendwo verbleiben und dass wir in Deutschland nicht nur dort, wo der Nitratanteil im Grundwasser erhöht ist, sondern flächendeckend einen Überschuss an Stickstoff haben."
-              },
-              {
-                "text": "Deshalb ist es doch durchaus sinnvoll, wenn die EU-Kommission jetzt darüber sprechen möchte, dass man das Problem flächendeckend angeht."
-              },
-              {
-                "text": "Ich verstehe nicht, warum Sie dem nicht entgegenkommen wollen."
-              },
-              {
-                "text": "Wenn Vorschläge kommen, zum Beispiel auch über flächenbegrenzende Tierhaltung zu reden, um dieses Problems insgesamt Herr zu werden, warum lehnen Sie das rundheraus im Vorfeld ab?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Michael Stübgen",
-            "speakerstatus": "speaker",
-            "text": "Wir lehnen das nicht rundheraus im Vorfeld ab. Aber es ist nicht so – ich würde Sie auch bitten, dies nicht einfach öffentlich zu behaupten, zumindest nachdem ich Ihnen das jetzt deutlich erklärt habe –: Wir haben nicht flächenmäßig in Deutschland im Boden zu viel Stickstoff. Nein, das ist schlichtweg nicht richtig. Wir haben selbst in den belasteten Gebieten nicht zu viel Stickstoff im Boden.",
-            "sentences": [
-              {
-                "text": "Wir lehnen das nicht rundheraus im Vorfeld ab."
-              },
-              {
-                "text": "Aber es ist nicht so – ich würde Sie auch bitten, dies nicht einfach öffentlich zu behaupten, zumindest nachdem ich Ihnen das jetzt deutlich erklärt habe –: Wir haben nicht flächenmäßig in Deutschland im Boden zu viel Stickstoff."
-              },
-              {
-                "text": "Nein, das ist schlichtweg nicht richtig."
-              },
-              {
-                "text": "Wir haben selbst in den belasteten Gebieten nicht zu viel Stickstoff im Boden."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Michael Stübgen",
-            "speakerstatus": "speaker",
-            "text": "Der Boden, Humusboden, aber gerade auch Moorboden, ist in der Lage, sehr viel Stickstoff zu binden. Solange das Ammoniumstickstoff, NH 4 -N, ist, ist der sogar recht nützlich für den Pflanzenwuchs. Er ist auch nützlich dafür, dass Pflanzen Eiweiß ausbilden können. Das heißt, wir haben nicht überall zu viel. Deswegen wollen wir auch nicht zu einer flächendeckenden Reduktion von Stickstoff kommen; das würde dazu führen, dass es zu einer Konzentration von Stickstoff kommt, die unter der liegt, die es seit Jahrtausenden – wahrscheinlich seit Hunderttausenden von Jahren – in den Böden im deutschen Territorium gibt.",
-            "sentences": [
-              {
-                "text": "Der Boden, Humusboden, aber gerade auch Moorboden, ist in der Lage, sehr viel Stickstoff zu binden."
-              },
-              {
-                "text": "Solange das Ammoniumstickstoff, NH 4 -N, ist, ist der sogar recht nützlich für den Pflanzenwuchs."
-              },
-              {
-                "text": "Er ist auch nützlich dafür, dass Pflanzen Eiweiß ausbilden können."
-              },
-              {
-                "text": "Das heißt, wir haben nicht überall zu viel."
-              },
-              {
-                "text": "Deswegen wollen wir auch nicht zu einer flächendeckenden Reduktion von Stickstoff kommen; das würde dazu führen, dass es zu einer Konzentration von Stickstoff kommt, die unter der liegt, die es seit Jahrtausenden – wahrscheinlich seit Hunderttausenden von Jahren – in den Böden im deutschen Territorium gibt."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Eine weitere Frage.",
-            "sentences": [
-              {
-                "text": "Eine weitere Frage."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Bettina Hoffmann",
-            "speakerstatus": "speaker",
-            "text": "Nach meiner Einschätzung sind Moore nicht geeignet für Landwirtschaft. Sie sind eigentlich dem Naturschutz zu widmen; aber ich lasse das jetzt mal so stehen.",
-            "sentences": [
-              {
-                "text": "Nach meiner Einschätzung sind Moore nicht geeignet für Landwirtschaft."
-              },
-              {
-                "text": "Sie sind eigentlich dem Naturschutz zu widmen; aber ich lasse das jetzt mal so stehen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Bettina Hoffmann",
-            "speakerstatus": "speaker",
-            "text": "Trotzdem müssen wir Anstrengungen unternehmen, dass die Stickstoffbelastung zurückgeht. Sie haben ja auch Ziele veröffentlicht; so soll die Stickstoffbelastung bis 2030 auf 70 Kilogramm pro Hektar reduziert werden. Müssen Sie da nicht wirklich ambitionierte Maßnahmen ergreifen, und welche schlagen Sie dafür vor?",
-            "sentences": [
-              {
-                "text": "Trotzdem müssen wir Anstrengungen unternehmen, dass die Stickstoffbelastung zurückgeht."
-              },
-              {
-                "text": "Sie haben ja auch Ziele veröffentlicht; so soll die Stickstoffbelastung bis 2030 auf 70 Kilogramm pro Hektar reduziert werden."
-              },
-              {
-                "text": "Müssen Sie da nicht wirklich ambitionierte Maßnahmen ergreifen, und welche schlagen Sie dafür vor?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Michael Stübgen",
-            "speakerstatus": "speaker",
-            "text": "Frau Kollegin, ich glaube, Sie haben jetzt auf die Sustainable Development Goals angespielt, also auf die 2030er-Ziele. In der Tat, wir sehen ja, dass wir im Moment – das ist eigentlich die entscheidende Zahl; sie bringt unsere Nachhaltigkeitsstrategie zum Ausdruck – zwischen 90 und 100 Kilogramm Stickstoff pro Hektar mehr einbringen, als eigentlich verbraucht wird. Unser Ziel ist, dies bis 2030 auf 50 bis 60 Kilogramm zu reduzieren.",
-            "sentences": [
-              {
-                "text": "Frau Kollegin, ich glaube, Sie haben jetzt auf die Sustainable Development Goals angespielt, also auf die 2030er-Ziele."
-              },
-              {
-                "text": "In der Tat, wir sehen ja, dass wir im Moment – das ist eigentlich die entscheidende Zahl; sie bringt unsere Nachhaltigkeitsstrategie zum Ausdruck – zwischen 90 und 100 Kilogramm Stickstoff pro Hektar mehr einbringen, als eigentlich verbraucht wird."
-              },
-              {
-                "text": "Unser Ziel ist, dies bis 2030 auf 50 bis 60 Kilogramm zu reduzieren."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Michael Stübgen",
-            "speakerstatus": "speaker",
-            "text": "In der Tat, eine dauerhafte Stickstoffzufuhr, die größer ist als das, was weggenommen wird, wird schädlich für die Böden sein. Dementsprechende Ziele verfolgen wir. Wir haben Schwierigkeiten, diese Ziele schon 2020 zu erreichen. Unser Ziel ist aber, die 2030er-Ziele vollständig zu erreichen.",
-            "sentences": [
-              {
-                "text": "In der Tat, eine dauerhafte Stickstoffzufuhr, die größer ist als das, was weggenommen wird, wird schädlich für die Böden sein."
-              },
-              {
-                "text": "Dementsprechende Ziele verfolgen wir."
-              },
-              {
-                "text": "Wir haben Schwierigkeiten, diese Ziele schon 2020 zu erreichen."
-              },
-              {
-                "text": "Unser Ziel ist aber, die 2030er-Ziele vollständig zu erreichen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Vielen Dank. – Ich habe jetzt noch drei Fragen, und zwar von Dr. Rainer Kraft, Carina Konrad und Friedrich Ostendorff. Mehr lasse ich nicht zu.",
-            "sentences": [
-              {
-                "text": "Vielen Dank."
-              },
-              {
-                "text": "– Ich habe jetzt noch drei Fragen, und zwar von Dr. Rainer Kraft, Carina Konrad und Friedrich Ostendorff."
-              },
-              {
-                "text": "Mehr lasse ich nicht zu."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Die erste Frage stellt Dr. Rainer Kraft.",
-            "sentences": [
-              {
-                "text": "Die erste Frage stellt Dr. Rainer Kraft."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Rainer Kraft",
-            "speakerstatus": "speaker",
-            "text": "Vielen Dank, Herr Präsident. – Herr Staatssekretär, vor circa fünf Jahren, ungefähr zum Zeitpunkt der letzten Wahlen zum EU-Parlament, hat die EU die Richtlinien zur Art und Weise der Ausbringung von Gülle mit dem erklärten Ziel geändert, der Entweichung von Ammoniak, also eines Stickstoffträgers, aus den Böden zu begegnen, sodass mehr Stickstoff in die Böden eingetragen wird. Nun führt Ammoniak im Boden mittels der Nitrifikation natürlich zur Bildung von Nitraten. Hat diese Änderung der Art und Weise der Ausbringung von Gülle durch die EU dazu beigetragen, dass sich die Nitratwerte in Deutschland erhöhen?",
-            "sentences": [
-              {
-                "text": "Vielen Dank, Herr Präsident."
-              },
-              {
-                "text": "– Herr Staatssekretär, vor circa fünf Jahren, ungefähr zum Zeitpunkt der letzten Wahlen zum EU-Parlament, hat die EU die Richtlinien zur Art und Weise der Ausbringung von Gülle mit dem erklärten Ziel geändert, der Entweichung von Ammoniak, also eines Stickstoffträgers, aus den Böden zu begegnen, sodass mehr Stickstoff in die Böden eingetragen wird."
-              },
-              {
-                "text": "Nun führt Ammoniak im Boden mittels der Nitrifikation natürlich zur Bildung von Nitraten."
-              },
-              {
-                "text": "Hat diese Änderung der Art und Weise der Ausbringung von Gülle durch die EU dazu beigetragen, dass sich die Nitratwerte in Deutschland erhöhen?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Michael Stübgen",
-            "speakerstatus": "speaker",
-            "text": "Zunächst bildet nicht Ammoniak alleine Nitrat, sondern Ammoniumstickstoff, also NH 4 ‑N; das ist etwas anderes als Ammoniak. Dieses führt unter bestimmten biologisch-chemischen Prozessen zur Nitratbildung.",
-            "sentences": [
-              {
-                "text": "Zunächst bildet nicht Ammoniak alleine Nitrat, sondern Ammoniumstickstoff, also NH 4 ‑N; das ist etwas anderes als Ammoniak."
-              },
-              {
-                "text": "Dieses führt unter bestimmten biologisch-chemischen Prozessen zur Nitratbildung."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Michael Stübgen",
-            "speakerstatus": "speaker",
-            "text": "Ammoniak in der Luft ist schädlich; denn erstens stinkt es, zweitens ist es gesundheitsschädlich, und drittens kann Ammoniak in der Luft, das durch die Landwirtschaft entstanden ist, durch Reaktion mit anderen Industriegasen zu einer sogenannten Sekundäreintragung von Feinstaub führen. Deshalb ist unser Ziel, den Ammoniakeintrag in der Luft zu reduzieren.",
-            "sentences": [
-              {
-                "text": "Ammoniak in der Luft ist schädlich; denn erstens stinkt es, zweitens ist es gesundheitsschädlich, und drittens kann Ammoniak in der Luft, das durch die Landwirtschaft entstanden ist, durch Reaktion mit anderen Industriegasen zu einer sogenannten Sekundäreintragung von Feinstaub führen."
-              },
-              {
-                "text": "Deshalb ist unser Ziel, den Ammoniakeintrag in der Luft zu reduzieren."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Michael Stübgen",
-            "speakerstatus": "speaker",
-            "text": "Das Problem ist: Unbehandelter Wirtschaftsdünger gast Ammoniak aus. Wenn dieser Wirtschaftsdünger durch eine Biogasanlage geht und daraus Energie, also regenerative Energie, gewonnen wird, hat man den Ammoniakaustrag fast auf null reduziert. Deshalb ist das in jedem Fall der bessere Weg. Das heißt, es gibt klare Möglichkeiten auch der wirtschaftlichen Anwendung.",
-            "sentences": [
-              {
-                "text": "Das Problem ist: Unbehandelter Wirtschaftsdünger gast Ammoniak aus."
-              },
-              {
-                "text": "Wenn dieser Wirtschaftsdünger durch eine Biogasanlage geht und daraus Energie, also regenerative Energie, gewonnen wird, hat man den Ammoniakaustrag fast auf null reduziert."
-              },
-              {
-                "text": "Deshalb ist das in jedem Fall der bessere Weg."
-              },
-              {
-                "text": "Das heißt, es gibt klare Möglichkeiten auch der wirtschaftlichen Anwendung."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Michael Stübgen",
-            "speakerstatus": "speaker",
-            "text": "Wir wollen, wenn es zu einer Verschärfung der Düngeverordnung kommt, die Möglichkeit eröffnen, der Rohgülle Schwefelsäure zuzugeben. Damit kommt es zu einer Bindung von Ammoniak zu NH 4 ‑N, also Ammoniumstickstoff. Dieser wiederum ist im Boden für die Pflanzen ein hervorragender Dünger.",
-            "sentences": [
-              {
-                "text": "Wir wollen, wenn es zu einer Verschärfung der Düngeverordnung kommt, die Möglichkeit eröffnen, der Rohgülle Schwefelsäure zuzugeben."
-              },
-              {
-                "text": "Damit kommt es zu einer Bindung von Ammoniak zu NH 4 ‑N, also Ammoniumstickstoff."
-              },
-              {
-                "text": "Dieser wiederum ist im Boden für die Pflanzen ein hervorragender Dünger."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Das wird eine kleine Vorlesung zur organischen Chemie. Davon können wir alle profitieren.",
-            "sentences": [
-              {
-                "text": "Das wird eine kleine Vorlesung zur organischen Chemie."
-              },
-              {
-                "text": "Davon können wir alle profitieren."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Jetzt habe ich noch die Frage von Carina Konrad.",
-            "sentences": [
-              {
-                "text": "Jetzt habe ich noch die Frage von Carina Konrad."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Carina Konrad",
-            "speakerstatus": "speaker",
-            "text": "Die tief beeindruckt ist von den Kenntnissen des Staatssekretärs.",
-            "sentences": [
-              {
-                "text": "Die tief beeindruckt ist von den Kenntnissen des Staatssekretärs."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Carina Konrad",
-            "speakerstatus": "speaker",
-            "text": "Die Frage von Frau Hoffmann zielte im Kern auf die Stickstoffeffizienz ab. Die Stickstoffeffizienz ist auf der einen Seite durch die Düngerart bedingt. Bei organischen Düngern ist sie per se schlechter als bei mineralischen Düngern. Auf der anderen Seite ist es so: Je starrer man das System gestaltet und je weniger Flexibilität man den Betrieben bei der Ausbringung von organischen Düngern gibt, umso schlechter ist die Stickstoffeffizienz.",
-            "sentences": [
-              {
-                "text": "Die Frage von Frau Hoffmann zielte im Kern auf die Stickstoffeffizienz ab."
-              },
-              {
-                "text": "Die Stickstoffeffizienz ist auf der einen Seite durch die Düngerart bedingt."
-              },
-              {
-                "text": "Bei organischen Düngern ist sie per se schlechter als bei mineralischen Düngern."
-              },
-              {
-                "text": "Auf der anderen Seite ist es so: Je starrer man das System gestaltet und je weniger Flexibilität man den Betrieben bei der Ausbringung von organischen Düngern gibt, umso schlechter ist die Stickstoffeffizienz."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Carina Konrad",
-            "speakerstatus": "speaker",
-            "text": "Was aber definitiv einen großen Einfluss hat – da bitte ich Sie, einmal Auskunft darüber zu geben, inwieweit Sie darüber Kenntnis haben –, ist die Züchtung von Pflanzensorten; denn neuere Sorten – das ist an den Beispielen Raps und Mais durch umfangreiche Arbeiten nachgewiesen – haben in der Regel heute eine höhere Stickstoff­effizienz als ältere Sorten. Da bieten insbesondere die neuen Methoden in der Züchtungstechnik Chancen, diese Sorten schneller in die Fläche zu bringen. Wie begründet sich vor diesem Hintergrund die ablehnende Haltung der Bundesregierung zum Umgang mit neuen Züchtungsmethoden?",
-            "sentences": [
-              {
-                "text": "Was aber definitiv einen großen Einfluss hat – da bitte ich Sie, einmal Auskunft darüber zu geben, inwieweit Sie darüber Kenntnis haben –, ist die Züchtung von Pflanzensorten; denn neuere Sorten – das ist an den Beispielen Raps und Mais durch umfangreiche Arbeiten nachgewiesen – haben in der Regel heute eine höhere Stickstoff­effizienz als ältere Sorten."
-              },
-              {
-                "text": "Da bieten insbesondere die neuen Methoden in der Züchtungstechnik Chancen, diese Sorten schneller in die Fläche zu bringen."
-              },
-              {
-                "text": "Wie begründet sich vor diesem Hintergrund die ablehnende Haltung der Bundesregierung zum Umgang mit neuen Züchtungsmethoden?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Michael Stübgen",
-            "speakerstatus": "speaker",
-            "text": "Ich glaube, Sie wissen, Frau Kollegin, dass die Bundesregierung insgesamt – ich sage es mal für mein Ministerium – keine generell ablehnende Haltung zu den neuen Züchtungsmethoden, der sogenannten CRISPR/Cas-Methode als neues Mutagenese-Verfahren, hat. Wir sind aber an ein Urteil der höchsten Instanz in Europa, des Europäischen Gerichtshofes, gebunden, der festgelegt hat – das müssen wir so zur Kenntnis nehmen und umsetzen –, dass diese sogenannten neuen Züchtungsmethoden der klassischen Gentechnik gleichgesetzt werden, was in der Sache nach unserer und nach meiner Auffassung falsch ist.",
-            "sentences": [
-              {
-                "text": "Ich glaube, Sie wissen, Frau Kollegin, dass die Bundesregierung insgesamt – ich sage es mal für mein Ministerium – keine generell ablehnende Haltung zu den neuen Züchtungsmethoden, der sogenannten CRISPR/Cas-Methode als neues Mutagenese-Verfahren, hat."
-              },
-              {
-                "text": "Wir sind aber an ein Urteil der höchsten Instanz in Europa, des Europäischen Gerichtshofes, gebunden, der festgelegt hat – das müssen wir so zur Kenntnis nehmen und umsetzen –, dass diese sogenannten neuen Züchtungsmethoden der klassischen Gentechnik gleichgesetzt werden, was in der Sache nach unserer und nach meiner Auffassung falsch ist."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Michael Stübgen",
-            "speakerstatus": "speaker",
-            "text": "Wir versuchen jetzt, in der notwendigen Umsetzung dieses europäischen Urteils zu verhindern, dass die Europäische Union als einzige Region der Welt von den Potenzialen – natürlich gibt es auch Gefährdungen – dieser neuen Züchtungsmethoden – gerade für Länder der Dritten Welt, also Länder in Afrika und in Asien, gibt es Potenziale – komplett abgehängt wird, und dafür zu sorgen, dass solche Möglichkeiten auch hier genutzt werden können. Solange das nicht geht, müssen wir weiterhin im Wege von Kreuzungszüchtung – da sind wir mit unseren Instituten in Deutschland weltweit führend –, aber auch Hybridzüchtung, die allerdings von vielen kritisch gesehen wird, solche Pflanzen züchten, die erstens mit dem Klimawandel besser umgehen können und zweitens besser funktionieren, was den Stickstoff- und den Nitrathaushalt im Boden betrifft, das heißt mehr Biomasse erzeugen und damit die Oxidation von NH 3 zu NO 3 , also zu dem für das Grundwasser schädlichen Nitrat, verhindern.",
-            "sentences": [
-              {
-                "text": "Wir versuchen jetzt, in der notwendigen Umsetzung dieses europäischen Urteils zu verhindern, dass die Europäische Union als einzige Region der Welt von den Potenzialen – natürlich gibt es auch Gefährdungen – dieser neuen Züchtungsmethoden – gerade für Länder der Dritten Welt, also Länder in Afrika und in Asien, gibt es Potenziale – komplett abgehängt wird, und dafür zu sorgen, dass solche Möglichkeiten auch hier genutzt werden können."
-              },
-              {
-                "text": "Solange das nicht geht, müssen wir weiterhin im Wege von Kreuzungszüchtung – da sind wir mit unseren Instituten in Deutschland weltweit führend –, aber auch Hybridzüchtung, die allerdings von vielen kritisch gesehen wird, solche Pflanzen züchten, die erstens mit dem Klimawandel besser umgehen können und zweitens besser funktionieren, was den Stickstoff- und den Nitrathaushalt im Boden betrifft, das heißt mehr Biomasse erzeugen und damit die Oxidation von NH 3 zu NO 3 , also zu dem für das Grundwasser schädlichen Nitrat, verhindern."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Vielen Dank. – Letzte Nachfrage von Friedrich Ostendorff.",
-            "sentences": [
-              {
-                "text": "Vielen Dank."
-              },
-              {
-                "text": "– Letzte Nachfrage von Friedrich Ostendorff."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Friedrich Ostendorff",
-            "speakerstatus": "speaker",
-            "text": "Es geht nicht um Ammonium, es geht um Nitrat, und der organische Dünger beinhaltet beide Formen. Aber noch mal, um Klarheit und Wahrheit näher zu kommen: Am Freitag trifft sich die Kommission mit den beiden Häusern in Brüssel. Angemahnt ist vonseiten der Kommission, über eine flächengebundene Tierhaltung zu reden und über 20 Prozent Düngungsabschlag in den roten Gebieten zu reden. Im Zusammenhang mit der Präzisierung der Stoffstrombilanz ist die Antwort auf die Frage, wie man damit umgehen will, angemahnt. Was will man konkret machen?",
-            "sentences": [
-              {
-                "text": "Es geht nicht um Ammonium, es geht um Nitrat, und der organische Dünger beinhaltet beide Formen."
-              },
-              {
-                "text": "Aber noch mal, um Klarheit und Wahrheit näher zu kommen: Am Freitag trifft sich die Kommission mit den beiden Häusern in Brüssel."
-              },
-              {
-                "text": "Angemahnt ist vonseiten der Kommission, über eine flächengebundene Tierhaltung zu reden und über 20 Prozent Düngungsabschlag in den roten Gebieten zu reden."
-              },
-              {
-                "text": "Im Zusammenhang mit der Präzisierung der Stoffstrombilanz ist die Antwort auf die Frage, wie man damit umgehen will, angemahnt."
-              },
-              {
-                "text": "Was will man konkret machen?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Friedrich Ostendorff",
-            "speakerstatus": "speaker",
-            "text": "Bei dem ganzen Wust an allem Möglichen, worüber Sie erzählt haben, sind jetzt auf einmal wieder 50, 60 Kilogramm Überdüngung möglich. Das war doch schon beim Verfahren im Januar vom Tisch. Über Überdüngung reden wir doch gar nicht mehr. Am 31. Januar haben Sie gemeldet, dass es keine Überdüngung mehr geben wird. Warum kommen Sie denn jetzt wieder mit 60 Kilogramm Überdüngung? Also, ich verstehe es langsam nicht mehr.",
-            "sentences": [
-              {
-                "text": "Bei dem ganzen Wust an allem Möglichen, worüber Sie erzählt haben, sind jetzt auf einmal wieder 50, 60 Kilogramm Überdüngung möglich."
-              },
-              {
-                "text": "Das war doch schon beim Verfahren im Januar vom Tisch."
-              },
-              {
-                "text": "Über Überdüngung reden wir doch gar nicht mehr."
-              },
-              {
-                "text": "Am 31. Januar haben Sie gemeldet, dass es keine Überdüngung mehr geben wird."
-              },
-              {
-                "text": "Warum kommen Sie denn jetzt wieder mit 60 Kilogramm Überdüngung?"
-              },
-              {
-                "text": "Also, ich verstehe es langsam nicht mehr."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Michael Stübgen",
-            "speakerstatus": "speaker",
-            "text": "Ich weiß nicht, wo Sie das gelesen haben. Sie meinen vermutlich 60 Prozent als Kontrollwert.",
-            "sentences": [
-              {
-                "text": "Ich weiß nicht, wo Sie das gelesen haben."
-              },
-              {
-                "text": "Sie meinen vermutlich 60 Prozent als Kontrollwert."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Michael Stübgen",
-            "speakerstatus": "speaker",
-            "text": "– Moment, das muss man erklären. – In der jetzt gültigen Düngemittelverordnung gibt es diesen Kontrollwert.",
-            "sentences": [
-              {
-                "text": "– Moment, das muss man erklären."
-              },
-              {
-                "text": "– In der jetzt gültigen Düngemittelverordnung gibt es diesen Kontrollwert."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Michael Stübgen",
-            "speakerstatus": "speaker",
-            "text": "– Ja, natürlich. – In der seit 2017 gültigen Verordnung gibt es diesen Kontrollwert. Warum gibt es den? Um das noch mal kurz zu klären: Weil bei Wirtschaftsdünger die Verfügbarkeit der Nährstoffe insbesondere von Stickstoff im ersten Jahr nicht vollständig gegeben ist. Zum Beispiel liegt bei Festmist die Verfügbarkeit von Stickstoff nur zwischen 20 und 40 Prozent in der ersten Vegetationsperiode. Wir haben diesen Kontrollwert gebraucht, damit nämlich ausreichend gedüngt werden kann. In den nächsten Jahren wird es einen Abschlag von 10 Prozent geben. Die geltende Düngeverordnung nimmt schon auf vieles Rücksicht. Wir sind der Meinung, wir sollten sie wirken lassen.",
-            "sentences": [
-              {
-                "text": "– Ja, natürlich."
-              },
-              {
-                "text": "– In der seit 2017 gültigen Verordnung gibt es diesen Kontrollwert."
-              },
-              {
-                "text": "Warum gibt es den?"
-              },
-              {
-                "text": "Um das noch mal kurz zu klären: Weil bei Wirtschaftsdünger die Verfügbarkeit der Nährstoffe insbesondere von Stickstoff im ersten Jahr nicht vollständig gegeben ist."
-              },
-              {
-                "text": "Zum Beispiel liegt bei Festmist die Verfügbarkeit von Stickstoff nur zwischen 20 und 40 Prozent in der ersten Vegetationsperiode."
-              },
-              {
-                "text": "Wir haben diesen Kontrollwert gebraucht, damit nämlich ausreichend gedüngt werden kann."
-              },
-              {
-                "text": "In den nächsten Jahren wird es einen Abschlag von 10 Prozent geben."
-              },
-              {
-                "text": "Die geltende Düngeverordnung nimmt schon auf vieles Rücksicht."
-              },
-              {
-                "text": "Wir sind der Meinung, wir sollten sie wirken lassen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Michael Stübgen",
-            "speakerstatus": "speaker",
-            "text": "Aber um noch mal auf flächengebundene Tierhaltung einzugehen. In Deutschland sind wir nicht ohne Weiteres in der Lage, zu verfügen: Du darfst nur soundso viele Tiere pro Hektar Land, das du bewirtschaftest, halten. – Wir müssen natürlich zu einer Entflechtung kommen, aber das wird ein längerer Prozess sein. Außerdem müssen wir Rücksicht auf unsere Landwirte nehmen, die unter Einhaltung aller rechtlichen Bedingungen in den letzten Jahrzehnten eine hervorragende Vieh- und Mastwirtschaft aufgebaut haben, die hervorragende Produkte zu günstigen Preisen liefern. Unsere Landwirte müssen Zeit haben, sich auf was Neues einzustellen.",
-            "sentences": [
-              {
-                "text": "Aber um noch mal auf flächengebundene Tierhaltung einzugehen."
-              },
-              {
-                "text": "In Deutschland sind wir nicht ohne Weiteres in der Lage, zu verfügen: Du darfst nur soundso viele Tiere pro Hektar Land, das du bewirtschaftest, halten."
-              },
-              {
-                "text": "– Wir müssen natürlich zu einer Entflechtung kommen, aber das wird ein längerer Prozess sein."
-              },
-              {
-                "text": "Außerdem müssen wir Rücksicht auf unsere Landwirte nehmen, die unter Einhaltung aller rechtlichen Bedingungen in den letzten Jahrzehnten eine hervorragende Vieh- und Mastwirtschaft aufgebaut haben, die hervorragende Produkte zu günstigen Preisen liefern."
-              },
-              {
-                "text": "Unsere Landwirte müssen Zeit haben, sich auf was Neues einzustellen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Michael Stübgen",
-            "speakerstatus": "speaker",
-            "text": "Zu den 20 Prozent habe ich schon gesagt: Das lehnen wir in dieser Pauschalforderung ab. Es ist auch nicht wissenschaftlich begründet, dass dies wirklich das entscheidende Mittel ist, um die Nitratbelastung zu reduzieren, gerade auch in Kombination. Denn es macht keinen Sinn, zu unterdüngen – das heißt, durch gesetzliche Vorgaben zwangsläufig Mindererträge bis Misserträge zu produzieren –, um die Grundwasserbelastung zu reduzieren. Wir sind der Überzeugung: Es gibt einen Mittelweg, um das Grundwasser besser als bisher zu schützen – das ist notwendig –, ohne dass das gleichzeitig zur Unterdüngung und damit zu Missernten für unsere Bauern führt.",
-            "sentences": [
-              {
-                "text": "Zu den 20 Prozent habe ich schon gesagt: Das lehnen wir in dieser Pauschalforderung ab."
-              },
-              {
-                "text": "Es ist auch nicht wissenschaftlich begründet, dass dies wirklich das entscheidende Mittel ist, um die Nitratbelastung zu reduzieren, gerade auch in Kombination."
-              },
-              {
-                "text": "Denn es macht keinen Sinn, zu unterdüngen – das heißt, durch gesetzliche Vorgaben zwangsläufig Mindererträge bis Misserträge zu produzieren –, um die Grundwasserbelastung zu reduzieren."
-              },
-              {
-                "text": "Wir sind der Überzeugung: Es gibt einen Mittelweg, um das Grundwasser besser als bisher zu schützen – das ist notwendig –, ohne dass das gleichzeitig zur Unterdüngung und damit zu Missernten für unsere Bauern führt."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Okay, vielen Dank.",
-            "sentences": [
-              {
-                "text": "Okay, vielen Dank."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Wir kämen jetzt eigentlich zur Frage 9 der Abgeordneten Bettina Hoffmann. Sie betrifft wieder die Vorlage eines Entwurfs zur Novellierung der Düngeverordnung. Frau Hoffmann, wollen Sie die Frage zurückziehen? Ich würde gleich lieber die nächste Frage aufrufen; denn das Thema hatten wir ja schon. Oder bestehen Sie darauf? Sie können darauf bestehen.",
-            "sentences": [
-              {
-                "text": "Wir kämen jetzt eigentlich zur Frage 9 der Abgeordneten Bettina Hoffmann."
-              },
-              {
-                "text": "Sie betrifft wieder die Vorlage eines Entwurfs zur Novellierung der Düngeverordnung."
-              },
-              {
-                "text": "Frau Hoffmann, wollen Sie die Frage zurückziehen?"
-              },
-              {
-                "text": "Ich würde gleich lieber die nächste Frage aufrufen; denn das Thema hatten wir ja schon."
-              },
-              {
-                "text": "Oder bestehen Sie darauf?"
-              },
-              {
-                "text": "Sie können darauf bestehen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "– Wenn Sie darauf bestehen, dann rufe ich die Frage 9 auf:",
-            "sentences": [
-              {
-                "text": "– Wenn Sie darauf bestehen, dann rufe ich die Frage 9 auf:"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Der Staatssekretär hat erneut das Wort.",
-            "sentences": [
-              {
-                "text": "Der Staatssekretär hat erneut das Wort."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Michael Stübgen",
-            "speakerstatus": "speaker",
-            "text": "Okay, mache ich natürlich. Meines Erachtens haben wir über alles schon geredet. Aber wichtige Dinge kann man auch mehrmals sagen.",
-            "sentences": [
-              {
-                "text": "Okay, mache ich natürlich."
-              },
-              {
-                "text": "Meines Erachtens haben wir über alles schon geredet."
-              },
-              {
-                "text": "Aber wichtige Dinge kann man auch mehrmals sagen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Michael Stübgen",
-            "speakerstatus": "speaker",
-            "text": "Die Bundesregierung wird zügig einen Verordnungsentwurf zur Anpassung der Düngeverordnung vorlegen. Die internen Beratungen und die Gespräche der Bundesregierung mit der Europäischen Kommission und den Bundesländern sind noch nicht abgeschlossen; das habe ich alles schon gesagt. Der Europäischen Kommission wurde bereits ein Zeitplan zur Anpassung der Düngeverordnung vorgelegt. Danach sollen die Änderungen zur Düngeverordnung im Frühjahr 2020 in Kraft treten.",
-            "sentences": [
-              {
-                "text": "Die Bundesregierung wird zügig einen Verordnungsentwurf zur Anpassung der Düngeverordnung vorlegen."
-              },
-              {
-                "text": "Die internen Beratungen und die Gespräche der Bundesregierung mit der Europäischen Kommission und den Bundesländern sind noch nicht abgeschlossen; das habe ich alles schon gesagt."
-              },
-              {
-                "text": "Der Europäischen Kommission wurde bereits ein Zeitplan zur Anpassung der Düngeverordnung vorgelegt."
-              },
-              {
-                "text": "Danach sollen die Änderungen zur Düngeverordnung im Frühjahr 2020 in Kraft treten."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Michael Stübgen",
-            "speakerstatus": "speaker",
-            "text": "Die Kommission hat in ihrer Mitteilung von 2007 „Ein Europa der Ergebnisse – Anwendung des Gemeinschaftsrechts“, KOM (2007) 502, erklärt, dass – vorbehaltlich besonderer Umstände in außergewöhnlichen Fällen – grundsätzlich innerhalb eines Zeitraums von 12 bis 24 Monaten nach einem Ersturteil des Europäischen Gerichtshofs – bei uns: 21. Juni 2018 – dieses entweder vollständig befolgt oder der Gerichtshof erneut mit der Sache befasst wird.",
-            "sentences": [
-              {
-                "text": "Die Kommission hat in ihrer Mitteilung von 2007 „Ein Europa der Ergebnisse – Anwendung des Gemeinschaftsrechts“, KOM (2007) 502, erklärt, dass – vorbehaltlich besonderer Umstände in außergewöhnlichen Fällen – grundsätzlich innerhalb eines Zeitraums von 12 bis 24 Monaten nach einem Ersturteil des Europäischen Gerichtshofs – bei uns: 21. Juni 2018 – dieses entweder vollständig befolgt oder der Gerichtshof erneut mit der Sache befasst wird."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Michael Stübgen",
-            "speakerstatus": "speaker",
-            "text": "Im Falle eines erneuten Klageverfahrens – Zweitverfahren gemäß Artikel 260 Absatz 2 des AEUV, des Vertrags über die Arbeitsweise der Europäischen Union – würde die Europäische Kommission den Feststellungsantrag, dass Deutschland die sich aus dem Ersturteil ergebenden Maßnahmen nicht rechtzeitig getroffen und damit gegen Artikel 260 verstoßen hat, mit einem Sanktionsantrag verbinden. In diesem müsste sie Angaben über die Art – Pauschalbetrag bzw. Zwangsgeld – und die Höhe der Sanktionen machen; das habe ich alles schon vorgetragen. Ich mache es kurz: Ein Zwangsgeld würde einen Tagessatz von ungefähr 14 000 bis 856 000 Euro bedeuten. Ein Pauschalbetrag, und zwar für den Zeitpunkt vom Ersturteil bis zum Zweiturteil, würde einen Betrag von mindestens 11 812 000 Euro bedeuten.",
-            "sentences": [
-              {
-                "text": "Im Falle eines erneuten Klageverfahrens – Zweitverfahren gemäß Artikel 260 Absatz 2 des AEUV, des Vertrags über die Arbeitsweise der Europäischen Union – würde die Europäische Kommission den Feststellungsantrag, dass Deutschland die sich aus dem Ersturteil ergebenden Maßnahmen nicht rechtzeitig getroffen und damit gegen Artikel 260 verstoßen hat, mit einem Sanktionsantrag verbinden."
-              },
-              {
-                "text": "In diesem müsste sie Angaben über die Art – Pauschalbetrag bzw. Zwangsgeld – und die Höhe der Sanktionen machen; das habe ich alles schon vorgetragen."
-              },
-              {
-                "text": "Ich mache es kurz: Ein Zwangsgeld würde einen Tagessatz von ungefähr 14 000 bis 856 000 Euro bedeuten."
-              },
-              {
-                "text": "Ein Pauschalbetrag, und zwar für den Zeitpunkt vom Ersturteil bis zum Zweiturteil, würde einen Betrag von mindestens 11 812 000 Euro bedeuten."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Michael Stübgen",
-            "speakerstatus": "speaker",
-            "text": "Eine kumulative Verhängung von Zwangsgeld und Pauschalbetrag ist grundsätzlich möglich. Der Europäische Gerichtshof ist an die Anträge der Europäischen Kommission nicht gebunden und entscheidet als letzt­instanzliches Gericht selbstständig. Ich will kurz darauf hinweisen: Solch eine Kumulation hat es nach meiner Kenntnis bei anderen Ländern noch nicht gegeben. Wir haben sowieso noch keine Strafen gezahlt.",
-            "sentences": [
-              {
-                "text": "Eine kumulative Verhängung von Zwangsgeld und Pauschalbetrag ist grundsätzlich möglich."
-              },
-              {
-                "text": "Der Europäische Gerichtshof ist an die Anträge der Europäischen Kommission nicht gebunden und entscheidet als letzt­instanzliches Gericht selbstständig."
-              },
-              {
-                "text": "Ich will kurz darauf hinweisen: Solch eine Kumulation hat es nach meiner Kenntnis bei anderen Ländern noch nicht gegeben."
-              },
-              {
-                "text": "Wir haben sowieso noch keine Strafen gezahlt."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Vielen Dank. – Eine Nachfrage?",
-            "sentences": [
-              {
-                "text": "Vielen Dank."
-              },
-              {
-                "text": "– Eine Nachfrage?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Bettina Hoffmann",
-            "speakerstatus": "speaker",
-            "text": "Eine kurze Nachfrage. – Mir ist es schon wichtig, das jetzt noch mal im Zusammenhang dargestellt zu bekommen. Ich glaube, daran wird deutlich, dass schnelles Handeln angesagt ist. Wir können jetzt nicht mit Gesprächs- oder Stuhlkreisen usw. darangehen. Das ist ein ernstes Problem. Meine Frage: Gibt es von der grundsätzlichen Herangehensweise noch Differenzen zwischen BMU und BMEL?",
-            "sentences": [
-              {
-                "text": "Eine kurze Nachfrage."
-              },
-              {
-                "text": "– Mir ist es schon wichtig, das jetzt noch mal im Zusammenhang dargestellt zu bekommen."
-              },
-              {
-                "text": "Ich glaube, daran wird deutlich, dass schnelles Handeln angesagt ist."
-              },
-              {
-                "text": "Wir können jetzt nicht mit Gesprächs- oder Stuhlkreisen usw. darangehen."
-              },
-              {
-                "text": "Das ist ein ernstes Problem."
-              },
-              {
-                "text": "Meine Frage: Gibt es von der grundsätzlichen Herangehensweise noch Differenzen zwischen BMU und BMEL?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Michael Stübgen",
-            "speakerstatus": "speaker",
-            "text": "Wir sind grundsätzlich engstens und freundschaftlich mit dem BMU verbunden. Allerdings haben wir auch Meinungsverschiedenheiten. Es gibt in einzelnen Bereichen unterschiedliche Auffassungen, zum Beispiel – ich hatte es schon erwähnt –, was die pauschale Reduktion beim Dünger um 20 Prozent unter Bedarf für alle roten Gebiete betrifft. Bei den Hanggebieten sind wir, soweit ich weiß, noch nicht ganz auf einer Linie. Aber Sie sehen, wie freundlich Herr Pronold schaut. Wir werden in der Lage sein, das zu klären.",
-            "sentences": [
-              {
-                "text": "Wir sind grundsätzlich engstens und freundschaftlich mit dem BMU verbunden."
-              },
-              {
-                "text": "Allerdings haben wir auch Meinungsverschiedenheiten."
-              },
-              {
-                "text": "Es gibt in einzelnen Bereichen unterschiedliche Auffassungen, zum Beispiel – ich hatte es schon erwähnt –, was die pauschale Reduktion beim Dünger um 20 Prozent unter Bedarf für alle roten Gebiete betrifft."
-              },
-              {
-                "text": "Bei den Hanggebieten sind wir, soweit ich weiß, noch nicht ganz auf einer Linie."
-              },
-              {
-                "text": "Aber Sie sehen, wie freundlich Herr Pronold schaut."
-              },
-              {
-                "text": "Wir werden in der Lage sein, das zu klären."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Michael Stübgen",
-            "speakerstatus": "speaker",
-            "text": "Wir haben als Dritten allerdings noch die Europäische Kommission und als Vierten den Bundesrat mit 16 Bundesländern am Tisch. Außerdem werden wir, obwohl es eine Verordnung ist, Exekutivrecht ohne direkten Beschluss des Bundestages auch nicht ganz ohne Kenntnisnahme und Beratung im Bundestag durchführen.",
-            "sentences": [
-              {
-                "text": "Wir haben als Dritten allerdings noch die Europäische Kommission und als Vierten den Bundesrat mit 16 Bundesländern am Tisch."
-              },
-              {
-                "text": "Außerdem werden wir, obwohl es eine Verordnung ist, Exekutivrecht ohne direkten Beschluss des Bundestages auch nicht ganz ohne Kenntnisnahme und Beratung im Bundestag durchführen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Vielen Dank. – Wir kommen jetzt zur Frage 10 von Carina Konrad:",
-            "sentences": [
-              {
-                "text": "Vielen Dank."
-              },
-              {
-                "text": "– Wir kommen jetzt zur Frage 10 von Carina Konrad:"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Das hatten wir jetzt noch nicht. Bitte, Herr Staatssekretär.",
-            "sentences": [
-              {
-                "text": "Das hatten wir jetzt noch nicht."
-              },
-              {
-                "text": "Bitte, Herr Staatssekretär."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Michael Stübgen",
-            "speakerstatus": "speaker",
-            "text": "Das ist tatsächlich mal was anderes als Düngemittel. Vielen Dank für Ihre Frage.",
-            "sentences": [
-              {
-                "text": "Das ist tatsächlich mal was anderes als Düngemittel."
-              },
-              {
-                "text": "Vielen Dank für Ihre Frage."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Michael Stübgen",
-            "speakerstatus": "speaker",
-            "text": "Ich antworte wie folgt: Anwendungsbestimmungen zu Pflanzenschutzmittelzulassungen werden von dem hierfür zuständigen Bundesamt für Verbraucherschutz und Lebensmittelsicherheit, BVL, aufgrund der Risikobewertung des Bundesinstituts für Risikobewertung, BfR, erlassen. Das BfR ist bei den Fragen der Bewertung der Risiken für die menschliche Gesundheit unabhängig und unterliegt hier keiner Fachaufsicht; es ist wichtig, darauf hinzuweisen. Wenn das Bundesinstitut für Risikobewertung die Anwendung eines Pflanzenschutzmittels nur dann als nicht riskant für Menschen ansieht, wenn bestimmte Schutzmaßnahmen getroffen werden, müssen entsprechende Vorgaben grundsätzlich in den Zulassungen aufgenommen werden.",
-            "sentences": [
-              {
-                "text": "Ich antworte wie folgt: Anwendungsbestimmungen zu Pflanzenschutzmittelzulassungen werden von dem hierfür zuständigen Bundesamt für Verbraucherschutz und Lebensmittelsicherheit, BVL, aufgrund der Risikobewertung des Bundesinstituts für Risikobewertung, BfR, erlassen."
-              },
-              {
-                "text": "Das BfR ist bei den Fragen der Bewertung der Risiken für die menschliche Gesundheit unabhängig und unterliegt hier keiner Fachaufsicht; es ist wichtig, darauf hinzuweisen."
-              },
-              {
-                "text": "Wenn das Bundesinstitut für Risikobewertung die Anwendung eines Pflanzenschutzmittels nur dann als nicht riskant für Menschen ansieht, wenn bestimmte Schutzmaßnahmen getroffen werden, müssen entsprechende Vorgaben grundsätzlich in den Zulassungen aufgenommen werden."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Michael Stübgen",
-            "speakerstatus": "speaker",
-            "text": "Darüber hinaus wurde die Umstellung von einer einfachen Nebenbestimmung zu einer Anwendungsbestimmung bereits Anfang 2018 nach intensiver Erörterung zwischen den beteiligten Zulassungsbehörden und allen Bundesländern – wohl gemerkt: allen Bundesländern – vorgenommen.",
-            "sentences": [
-              {
-                "text": "Darüber hinaus wurde die Umstellung von einer einfachen Nebenbestimmung zu einer Anwendungsbestimmung bereits Anfang 2018 nach intensiver Erörterung zwischen den beteiligten Zulassungsbehörden und allen Bundesländern – wohl gemerkt: allen Bundesländern – vorgenommen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Michael Stübgen",
-            "speakerstatus": "speaker",
-            "text": "Das Bundesministerium für Ernährung und Landwirtschaft hat gemeinsam mit den zuständigen Bundesbehörden die Pflanzenschutzdienste der Länder zu einem Fachgespräch im April 2019, also in diesem Monat, eingeladen, an dem auch der landwirtschaftliche Berufsstand – einschließlich der Vertreter der Winzer – teilnehmen soll. Hier wird dann mit den jeweiligen Fachleuten erörtert werden, ob und gegebenenfalls aus welchen Gründen gesundheitsbezogene Vorgaben im Rahmen der Anwendung von Pflanzenschutzmitteln notwendig und verhältnismäßig sind.",
-            "sentences": [
-              {
-                "text": "Das Bundesministerium für Ernährung und Landwirtschaft hat gemeinsam mit den zuständigen Bundesbehörden die Pflanzenschutzdienste der Länder zu einem Fachgespräch im April 2019, also in diesem Monat, eingeladen, an dem auch der landwirtschaftliche Berufsstand – einschließlich der Vertreter der Winzer – teilnehmen soll."
-              },
-              {
-                "text": "Hier wird dann mit den jeweiligen Fachleuten erörtert werden, ob und gegebenenfalls aus welchen Gründen gesundheitsbezogene Vorgaben im Rahmen der Anwendung von Pflanzenschutzmitteln notwendig und verhältnismäßig sind."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Möchten Sie nachfragen?",
-            "sentences": [
-              {
-                "text": "Möchten Sie nachfragen?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Carina Konrad",
-            "speakerstatus": "speaker",
-            "text": "Ja, ich würde gerne kurz nachfragen. – Vielen Dank für Ihre Ausführungen.",
-            "sentences": [
-              {
-                "text": "Ja, ich würde gerne kurz nachfragen."
-              },
-              {
-                "text": "– Vielen Dank für Ihre Ausführungen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Carina Konrad",
-            "speakerstatus": "speaker",
-            "text": "Ich glaube, Sie wissen schon, warum ich diese Frage gestellt habe. Denn: Der Weinbau ist in heller Aufregung. In Zukunft sollen die Winzer und ihre Mitarbeiter in Schutzanzügen durch die Weinberge laufen. Sie können sich vorstellen, welchen Imageschaden die Winzer dort befürchten; denn auf der einen Seite ist der Wein natürlich ein Kulturgut, auf der anderen Seite ist er essenziell für die Region und den Tourismus dort. Welche Folgen das hätte, das müsste doch gerade Ministerin Klöckner sehr, sehr bewusst sein.",
-            "sentences": [
-              {
-                "text": "Ich glaube, Sie wissen schon, warum ich diese Frage gestellt habe."
-              },
-              {
-                "text": "Denn: Der Weinbau ist in heller Aufregung."
-              },
-              {
-                "text": "In Zukunft sollen die Winzer und ihre Mitarbeiter in Schutzanzügen durch die Weinberge laufen."
-              },
-              {
-                "text": "Sie können sich vorstellen, welchen Imageschaden die Winzer dort befürchten; denn auf der einen Seite ist der Wein natürlich ein Kulturgut, auf der anderen Seite ist er essenziell für die Region und den Tourismus dort."
-              },
-              {
-                "text": "Welche Folgen das hätte, das müsste doch gerade Ministerin Klöckner sehr, sehr bewusst sein."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Carina Konrad",
-            "speakerstatus": "speaker",
-            "text": "Deshalb frage ich Sie ganz konkret: Soll es bei dieser Verordnung in der Form bleiben, oder ist zumindest mit einer Rücknahme der Bußgeldbewehrungen zu rechnen?",
-            "sentences": [
-              {
-                "text": "Deshalb frage ich Sie ganz konkret: Soll es bei dieser Verordnung in der Form bleiben, oder ist zumindest mit einer Rücknahme der Bußgeldbewehrungen zu rechnen?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Michael Stübgen",
-            "speakerstatus": "speaker",
-            "text": "Nach meiner Einschätzung ist es so: Die Bewertung, die das BfR vorgenommen hat, ist bindend. Das heißt, die Änderung aus einer normalen Vorgabe, die aber nicht strafbewehrt ist, in eine Vorgabe, die dann bußgeldbewehrt ist, also in eine Ordnungswidrigkeit, ist vom BVL hinreichend begründet worden. Ich will darauf hinweisen.",
-            "sentences": [
-              {
-                "text": "Nach meiner Einschätzung ist es so: Die Bewertung, die das BfR vorgenommen hat, ist bindend."
-              },
-              {
-                "text": "Das heißt, die Änderung aus einer normalen Vorgabe, die aber nicht strafbewehrt ist, in eine Vorgabe, die dann bußgeldbewehrt ist, also in eine Ordnungswidrigkeit, ist vom BVL hinreichend begründet worden."
-              },
-              {
-                "text": "Ich will darauf hinweisen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Michael Stübgen",
-            "speakerstatus": "speaker",
-            "text": "Es ist natürlich ein bisschen lustig, zu sagen: Jetzt müssen die Menschen in den Weinbergen mit Arbeitsschutzbekleidung rumlaufen.",
-            "sentences": [
-              {
-                "text": "Es ist natürlich ein bisschen lustig, zu sagen: Jetzt müssen die Menschen in den Weinbergen mit Arbeitsschutzbekleidung rumlaufen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Michael Stübgen",
-            "speakerstatus": "speaker",
-            "text": "Ich will Ihnen sagen, warum das BfR nach intensiven wissenschaftlichen Analysen zu dieser Auffassung gekommen ist: Diese Pflanzenschutzmittel, die dort verwandt werden – es geht ja nicht um alle –, können schädlich für die Anwender sein, das heißt für die Menschen, die durch den Weinberg laufen und das verspritzen. Und diese Vorgabe gibt es deshalb, weil das BfR festgestellt hat, dass die einfache Vorgabe ohne eine Sanktionierung dazu geführt hat, dass die Menschen es sehr locker genommen haben. Deshalb ist es zu dem Ergebnis gekommen, das mit einer Bußgeldbewehrung zu versehen.",
-            "sentences": [
-              {
-                "text": "Ich will Ihnen sagen, warum das BfR nach intensiven wissenschaftlichen Analysen zu dieser Auffassung gekommen ist: Diese Pflanzenschutzmittel, die dort verwandt werden – es geht ja nicht um alle –, können schädlich für die Anwender sein, das heißt für die Menschen, die durch den Weinberg laufen und das verspritzen."
-              },
-              {
-                "text": "Und diese Vorgabe gibt es deshalb, weil das BfR festgestellt hat, dass die einfache Vorgabe ohne eine Sanktionierung dazu geführt hat, dass die Menschen es sehr locker genommen haben."
-              },
-              {
-                "text": "Deshalb ist es zu dem Ergebnis gekommen, das mit einer Bußgeldbewehrung zu versehen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Michael Stübgen",
-            "speakerstatus": "speaker",
-            "text": "Wichtig ist dabei Folgendes: Es hat dazu schon Ende 2017 Beratungen mit allen Bundesländern gegeben. Es hat Anfang 2018 zu dieser Frage Beratungen mit allen Bundesländern gegeben. Wir wollen jetzt in dem Gespräch im April abschätzen und zu Klärungen kommen, wie man die Umsetzung dieser Notwendigkeit praktikabler gestalten kann und wo man zu bestimmten Reduzierungen der Auflagen kommen kann. Aber ich glaube nicht, dass wir zu einer totalen Aufhebung kommen können.",
-            "sentences": [
-              {
-                "text": "Wichtig ist dabei Folgendes: Es hat dazu schon Ende 2017 Beratungen mit allen Bundesländern gegeben."
-              },
-              {
-                "text": "Es hat Anfang 2018 zu dieser Frage Beratungen mit allen Bundesländern gegeben."
-              },
-              {
-                "text": "Wir wollen jetzt in dem Gespräch im April abschätzen und zu Klärungen kommen, wie man die Umsetzung dieser Notwendigkeit praktikabler gestalten kann und wo man zu bestimmten Reduzierungen der Auflagen kommen kann."
-              },
-              {
-                "text": "Aber ich glaube nicht, dass wir zu einer totalen Aufhebung kommen können."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Die Zeit ist eigentlich um; aber natürlich darf Frau Konrad noch ihre zweite Nachfrage stellen.",
-            "sentences": [
-              {
-                "text": "Die Zeit ist eigentlich um; aber natürlich darf Frau Konrad noch ihre zweite Nachfrage stellen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Carina Konrad",
-            "speakerstatus": "speaker",
-            "text": "Vielen Dank. – Die landwirtschaftliche Sozialversicherung bewertet diese Schutzmaßnahme, dieses Tragen der Schutzanzüge aus arbeitsmedizinischer Sicht als sehr, sehr kritisch. Ist Ihnen die Stellungnahme der LSV bewusst? Wie sieht es denn nach Ihrer Theorie bei Menschen aus, die im Weinberg unterwegs sind, wie Wanderern, Touristen, aber auch Jägern, die natürlich nicht ferngehalten werden sollen? Wir wollen ja nicht zu den Methoden aus dem Allgäu greifen, wo Weiden gesperrt werden, weil Tierhalter verurteilt werden. Wie sind diese haftungsrechtlichen Fragen in diesem Zusammenhang zu bewerten? Sie wissen, das betrifft sowohl konventionell als auch ökologisch wirtschaftende Winzer gleichermaßen.",
-            "sentences": [
-              {
-                "text": "Vielen Dank."
-              },
-              {
-                "text": "– Die landwirtschaftliche Sozialversicherung bewertet diese Schutzmaßnahme, dieses Tragen der Schutzanzüge aus arbeitsmedizinischer Sicht als sehr, sehr kritisch."
-              },
-              {
-                "text": "Ist Ihnen die Stellungnahme der LSV bewusst?"
-              },
-              {
-                "text": "Wie sieht es denn nach Ihrer Theorie bei Menschen aus, die im Weinberg unterwegs sind, wie Wanderern, Touristen, aber auch Jägern, die natürlich nicht ferngehalten werden sollen?"
-              },
-              {
-                "text": "Wir wollen ja nicht zu den Methoden aus dem Allgäu greifen, wo Weiden gesperrt werden, weil Tierhalter verurteilt werden."
-              },
-              {
-                "text": "Wie sind diese haftungsrechtlichen Fragen in diesem Zusammenhang zu bewerten?"
-              },
-              {
-                "text": "Sie wissen, das betrifft sowohl konventionell als auch ökologisch wirtschaftende Winzer gleichermaßen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Michael Stübgen",
-            "speakerstatus": "speaker",
-            "text": "Also, ökologische Winzer benutzen zwar Kupfer als Pflanzenschutzmittel, aber nicht diese Mittel, die hier infrage stehen.",
-            "sentences": [
-              {
-                "text": "Also, ökologische Winzer benutzen zwar Kupfer als Pflanzenschutzmittel, aber nicht diese Mittel, die hier infrage stehen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Michael Stübgen",
-            "speakerstatus": "speaker",
-            "text": "Ich wollte nur darauf hinweisen. Aber Kupfer ist auch ein Pflanzenschutzmittel mit erheblichen Nebenwirkungen, da es ein Schwermetall ist.",
-            "sentences": [
-              {
-                "text": "Ich wollte nur darauf hinweisen."
-              },
-              {
-                "text": "Aber Kupfer ist auch ein Pflanzenschutzmittel mit erheblichen Nebenwirkungen, da es ein Schwermetall ist."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Michael Stübgen",
-            "speakerstatus": "speaker",
-            "text": "Das ist in der Tat einer der Zielkonflikte, in dem wir stehen. Einerseits geht es um den größtmöglichen Gesundheitsschutz der Landwirte, der Anwender. Ich glaube, darin stimmen wir überein. Andererseits geht es darum, dass es auch praktikabel anwendbar ist; Sie haben gerade erwähnt, dass es bei der Arbeitsausführung zu besonderen Belastungen kommt. Was wir jetzt in dem Gespräch mit den Verbänden und den Bundesländern versuchen, ist, zu einer praktikablen Regelung zu kommen, die einerseits den größtmöglichen Schutz für die Menschen vor Ort bietet, andererseits so praktikabel umsetzbar ist, dass diese monströsen Bilder von vermummten Männchen, die durch die Weinberge laufen, wenn es irgend geht, vermieden werden können.",
-            "sentences": [
-              {
-                "text": "Das ist in der Tat einer der Zielkonflikte, in dem wir stehen."
-              },
-              {
-                "text": "Einerseits geht es um den größtmöglichen Gesundheitsschutz der Landwirte, der Anwender."
-              },
-              {
-                "text": "Ich glaube, darin stimmen wir überein."
-              },
-              {
-                "text": "Andererseits geht es darum, dass es auch praktikabel anwendbar ist; Sie haben gerade erwähnt, dass es bei der Arbeitsausführung zu besonderen Belastungen kommt."
-              },
-              {
-                "text": "Was wir jetzt in dem Gespräch mit den Verbänden und den Bundesländern versuchen, ist, zu einer praktikablen Regelung zu kommen, die einerseits den größtmöglichen Schutz für die Menschen vor Ort bietet, andererseits so praktikabel umsetzbar ist, dass diese monströsen Bilder von vermummten Männchen, die durch die Weinberge laufen, wenn es irgend geht, vermieden werden können."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Vielen Dank. – Ich danke allen Fragestellern und natürlich auch dem Staatssekretär Stübgen für die vertieften Einblicke in die Arbeit seines Hauses.",
-            "sentences": [
-              {
-                "text": "Vielen Dank."
-              },
-              {
-                "text": "– Ich danke allen Fragestellern und natürlich auch dem Staatssekretär Stübgen für die vertieften Einblicke in die Arbeit seines Hauses."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Oppermann",
-            "speakerstatus": "vice-president",
-            "text": "Damit ist die Fragestunde beendet.",
-            "sentences": [
-              {
-                "text": "Damit ist die Fragestunde beendet."
-              }
-            ]
           }
         ]
       }
@@ -5059,16 +3893,952 @@
   {
     "parliament": "DE",
     "electoralPeriod": {
-      "number": 19
+      "number": "19"
     },
     "session": {
-      "number": 94
+      "number": "94",
+      "dateStart": "2019-04-10T13:00",
+      "dateEnd": "2019-04-10T18:07"
     },
     "agendaItem": {
-      "title": "Fragestunde",
       "officialTitle": "Tagesordnungspunkt 2",
-      "speechIndex": 16
+      "speechIndex": 1087,
+      "title": "Fragestunde"
     },
+    "people": [
+      {
+        "type": "memberOfParliament",
+        "label": "Thomas Oppermann",
+        "context": "vice-president"
+      }
+    ],
+    "textContents": [
+      {
+        "type": "proceedings",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19094-data.xml",
+        "creator": "Deutscher Bundestag",
+        "license": "Public Domain",
+        "language": "DE-de",
+        "originTextID": "",
+        "textBody": [
+          {
+            "type": "speech",
+            "speaker": "Thomas Oppermann",
+            "speakerstatus": "vice-president",
+            "text": "Fragestunde",
+            "sentences": [
+              {
+                "text": "Fragestunde"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Thomas Oppermann",
+            "speakerstatus": "vice-president",
+            "text": "Wenn Sie wirklich den Saal verlassen wollen, was mich wundert, dann tun Sie es schnell.",
+            "sentences": [
+              {
+                "text": "Wenn Sie wirklich den Saal verlassen wollen, was mich wundert, dann tun Sie es schnell."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Thomas Oppermann",
+            "speakerstatus": "vice-president",
+            "text": "Ich bitte die stehenden Gesprächsgruppen, sich aufzulösen und entweder Platz zu nehmen oder den Saal zu verlassen; denn wir wollen jetzt mit der Fragestunde beginnen.",
+            "sentences": [
+              {
+                "text": "Ich bitte die stehenden Gesprächsgruppen, sich aufzulösen und entweder Platz zu nehmen oder den Saal zu verlassen; denn wir wollen jetzt mit der Fragestunde beginnen."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Thomas Oppermann",
+            "speakerstatus": "vice-president",
+            "text": "Ich rufe den Geschäftsbereich des Bundesministeriums für Arbeit und Soziales auf. Zur Beantwortung steht die Parlamentarische Staatssekretärin Kerstin Griese bereit.",
+            "sentences": [
+              {
+                "text": "Ich rufe den Geschäftsbereich des Bundesministeriums für Arbeit und Soziales auf."
+              },
+              {
+                "text": "Zur Beantwortung steht die Parlamentarische Staatssekretärin Kerstin Griese bereit."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Thomas Oppermann",
+            "speakerstatus": "vice-president",
+            "text": "Wir kommen zur Frage 1 der Abgeordneten Filiz Polat, Bündnis 90/Die Grünen:",
+            "sentences": [
+              {
+                "text": "Wir kommen zur Frage 1 der Abgeordneten Filiz Polat, Bündnis 90/Die Grünen:"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Thomas Oppermann",
+            "speakerstatus": "vice-president",
+            "text": "Frau Staatssekretärin, Sie haben das Wort.",
+            "sentences": [
+              {
+                "text": "Frau Staatssekretärin, Sie haben das Wort."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Thomas Oppermann",
+            "speakerstatus": "vice-president",
+            "text": "Zusatzfrage, Frau Polat?",
+            "sentences": [
+              {
+                "text": "Zusatzfrage, Frau Polat?"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Thomas Oppermann",
+            "speakerstatus": "vice-president",
+            "text": "Weitere Zusatzfrage, Frau Polat?",
+            "sentences": [
+              {
+                "text": "Weitere Zusatzfrage, Frau Polat?"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Thomas Oppermann",
+            "speakerstatus": "vice-president",
+            "text": "Vielen Dank. – Die nächste Frage stellt Katja Dörner.",
+            "sentences": [
+              {
+                "text": "Vielen Dank."
+              },
+              {
+                "text": "– Die nächste Frage stellt Katja Dörner."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Thomas Oppermann",
+            "speakerstatus": "vice-president",
+            "text": "Vielen Dank. – Die nächste Frage stellt die Kollegin Ulle Schauws.",
+            "sentences": [
+              {
+                "text": "Vielen Dank."
+              },
+              {
+                "text": "– Die nächste Frage stellt die Kollegin Ulle Schauws."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Thomas Oppermann",
+            "speakerstatus": "vice-president",
+            "text": "Vielen Dank. – Eine weitere Zusatzfrage der Kollegin Dr. Bettina Hoffmann.",
+            "sentences": [
+              {
+                "text": "Vielen Dank."
+              },
+              {
+                "text": "– Eine weitere Zusatzfrage der Kollegin Dr. Bettina Hoffmann."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Thomas Oppermann",
+            "speakerstatus": "vice-president",
+            "text": "Vielen Dank. – Damit wir auch noch zu den anderen Fragen kommen, lasse ich jetzt nur noch eine Frage zu. Diese stellt die Kollegin Canan Bayram.",
+            "sentences": [
+              {
+                "text": "Vielen Dank."
+              },
+              {
+                "text": "– Damit wir auch noch zu den anderen Fragen kommen, lasse ich jetzt nur noch eine Frage zu."
+              },
+              {
+                "text": "Diese stellt die Kollegin Canan Bayram."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Thomas Oppermann",
+            "speakerstatus": "vice-president",
+            "text": "Vielen Dank.",
+            "sentences": [
+              {
+                "text": "Vielen Dank."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Thomas Oppermann",
+            "speakerstatus": "vice-president",
+            "text": "Ich rufe die Frage 2 der Abgeordneten Filiz Polat auf:",
+            "sentences": [
+              {
+                "text": "Ich rufe die Frage 2 der Abgeordneten Filiz Polat auf:"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Thomas Oppermann",
+            "speakerstatus": "vice-president",
+            "text": "Frau Staatssekretärin, Sie haben das Wort.",
+            "sentences": [
+              {
+                "text": "Frau Staatssekretärin, Sie haben das Wort."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Thomas Oppermann",
+            "speakerstatus": "vice-president",
+            "text": "Möchten Sie eine Zusatzfrage stellen? – Bitte sehr.",
+            "sentences": [
+              {
+                "text": "Möchten Sie eine Zusatzfrage stellen?"
+              },
+              {
+                "text": "– Bitte sehr."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Thomas Oppermann",
+            "speakerstatus": "vice-president",
+            "text": "Weitere Zusatzfrage?",
+            "sentences": [
+              {
+                "text": "Weitere Zusatzfrage?"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Thomas Oppermann",
+            "speakerstatus": "vice-president",
+            "text": "Vielen Dank. – Eine weitere Zusatzfrage von Stefan Schmidt.",
+            "sentences": [
+              {
+                "text": "Vielen Dank."
+              },
+              {
+                "text": "– Eine weitere Zusatzfrage von Stefan Schmidt."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Thomas Oppermann",
+            "speakerstatus": "vice-president",
+            "text": "Vielen Dank. – Wir kommen jetzt zum Geschäftsbereich des Bundesministeriums der Verteidigung. Zur Beantwortung steht der Parlamentarische Staatssekretär Thomas Silberhorn bereit.",
+            "sentences": [
+              {
+                "text": "Vielen Dank."
+              },
+              {
+                "text": "– Wir kommen jetzt zum Geschäftsbereich des Bundesministeriums der Verteidigung."
+              },
+              {
+                "text": "Zur Beantwortung steht der Parlamentarische Staatssekretär Thomas Silberhorn bereit."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Thomas Oppermann",
+            "speakerstatus": "vice-president",
+            "text": "Ich rufe die Frage 3 des Abgeordneten Stefan Gelbhaar, Bündnis 90/Die Grünen, auf:",
+            "sentences": [
+              {
+                "text": "Ich rufe die Frage 3 des Abgeordneten Stefan Gelbhaar, Bündnis 90/Die Grünen, auf:"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Thomas Oppermann",
+            "speakerstatus": "vice-president",
+            "text": "Herr Staatssekretär, Sie haben das Wort.",
+            "sentences": [
+              {
+                "text": "Herr Staatssekretär, Sie haben das Wort."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Thomas Oppermann",
+            "speakerstatus": "vice-president",
+            "text": "Herr Gelbhaar, wollen Sie nachfragen?",
+            "sentences": [
+              {
+                "text": "Herr Gelbhaar, wollen Sie nachfragen?"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Thomas Oppermann",
+            "speakerstatus": "vice-president",
+            "text": "Bitte.",
+            "sentences": [
+              {
+                "text": "Bitte."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Thomas Oppermann",
+            "speakerstatus": "vice-president",
+            "text": "Vielen Dank. – Eine weitere Frage hat Dr. Rainer Kraft von der AfD.",
+            "sentences": [
+              {
+                "text": "Vielen Dank."
+              },
+              {
+                "text": "– Eine weitere Frage hat Dr. Rainer Kraft von der AfD."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Thomas Oppermann",
+            "speakerstatus": "vice-president",
+            "text": "Vielen Dank. – Weitere Fragen gibt es hierzu nicht.",
+            "sentences": [
+              {
+                "text": "Vielen Dank."
+              },
+              {
+                "text": "– Weitere Fragen gibt es hierzu nicht."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Thomas Oppermann",
+            "speakerstatus": "vice-president",
+            "text": "Dann rufe ich auf die Frage 4 des Abgeordneten Stefan Schmidt von Bündnis 90/Die Grünen:",
+            "sentences": [
+              {
+                "text": "Dann rufe ich auf die Frage 4 des Abgeordneten Stefan Schmidt von Bündnis 90/Die Grünen:"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Thomas Oppermann",
+            "speakerstatus": "vice-president",
+            "text": "Herr Staatssekretär.",
+            "sentences": [
+              {
+                "text": "Herr Staatssekretär."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Thomas Oppermann",
+            "speakerstatus": "vice-president",
+            "text": "Sie haben eine Nachfrage, Herr Schmidt?",
+            "sentences": [
+              {
+                "text": "Sie haben eine Nachfrage, Herr Schmidt?"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Thomas Oppermann",
+            "speakerstatus": "vice-president",
+            "text": "Sie wollen noch mal nachhaken?",
+            "sentences": [
+              {
+                "text": "Sie wollen noch mal nachhaken?"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Thomas Oppermann",
+            "speakerstatus": "vice-president",
+            "text": "Vielen Dank. – Damit haben wir auch diese Frage abgearbeitet.",
+            "sentences": [
+              {
+                "text": "Vielen Dank."
+              },
+              {
+                "text": "– Damit haben wir auch diese Frage abgearbeitet."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Thomas Oppermann",
+            "speakerstatus": "vice-president",
+            "text": "Ich rufe jetzt den Geschäftsbereich des Bundesministeriums für Ernährung und Landwirtschaft auf. Zur Beantwortung der Fragen steht der Parlamentarische Staatssekretär Michael Stübgen bereit.",
+            "sentences": [
+              {
+                "text": "Ich rufe jetzt den Geschäftsbereich des Bundesministeriums für Ernährung und Landwirtschaft auf."
+              },
+              {
+                "text": "Zur Beantwortung der Fragen steht der Parlamentarische Staatssekretär Michael Stübgen bereit."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Thomas Oppermann",
+            "speakerstatus": "vice-president",
+            "text": "Die erste Frage zu diesem Geschäftsbereich stellt der Abgeordnete Paul Viktor Podolay von der AfD, nämlich Frage 5:",
+            "sentences": [
+              {
+                "text": "Die erste Frage zu diesem Geschäftsbereich stellt der Abgeordnete Paul Viktor Podolay von der AfD, nämlich Frage 5:"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Thomas Oppermann",
+            "speakerstatus": "vice-president",
+            "text": "Herr Staatssekretär, Sie haben das Wort.",
+            "sentences": [
+              {
+                "text": "Herr Staatssekretär, Sie haben das Wort."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Thomas Oppermann",
+            "speakerstatus": "vice-president",
+            "text": "Vielen Dank, Herr Staatssekretär. – Herr Podolay, ich nehme an, Sie wollen nachhaken.",
+            "sentences": [
+              {
+                "text": "Vielen Dank, Herr Staatssekretär."
+              },
+              {
+                "text": "– Herr Podolay, ich nehme an, Sie wollen nachhaken."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Thomas Oppermann",
+            "speakerstatus": "vice-president",
+            "text": "Dann haben wir diese Frage abgearbeitet.",
+            "sentences": [
+              {
+                "text": "Dann haben wir diese Frage abgearbeitet."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Thomas Oppermann",
+            "speakerstatus": "vice-president",
+            "text": "Wir kommen jetzt zur Frage 6 des Abgeordneten Friedrich Ostendorff, Bündnis 90/Die Grünen:",
+            "sentences": [
+              {
+                "text": "Wir kommen jetzt zur Frage 6 des Abgeordneten Friedrich Ostendorff, Bündnis 90/Die Grünen:"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Thomas Oppermann",
+            "speakerstatus": "vice-president",
+            "text": "Herr Staatssekretär.",
+            "sentences": [
+              {
+                "text": "Herr Staatssekretär."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Thomas Oppermann",
+            "speakerstatus": "vice-president",
+            "text": "Eine Nachfrage, Herr Ostendorff?",
+            "sentences": [
+              {
+                "text": "Eine Nachfrage, Herr Ostendorff?"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Thomas Oppermann",
+            "speakerstatus": "vice-president",
+            "text": "Eine weitere Nachfrage von Herrn Ostendorff.",
+            "sentences": [
+              {
+                "text": "Eine weitere Nachfrage von Herrn Ostendorff."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Thomas Oppermann",
+            "speakerstatus": "vice-president",
+            "text": "Eine weitere Frage stellt Dr. Gero Hocker für die FDP.",
+            "sentences": [
+              {
+                "text": "Eine weitere Frage stellt Dr. Gero Hocker für die FDP."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Thomas Oppermann",
+            "speakerstatus": "vice-president",
+            "text": "Dann habe ich jetzt noch eine weitere Frage zu diesem Thema von der Kollegin Carina Konrad, FDP.",
+            "sentences": [
+              {
+                "text": "Dann habe ich jetzt noch eine weitere Frage zu diesem Thema von der Kollegin Carina Konrad, FDP."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Thomas Oppermann",
+            "speakerstatus": "vice-president",
+            "text": "Vielen Dank. – Auch wenn das ein kompliziertes Thema ist, bitte ich, ein bisschen auf die Uhr zu achten.",
+            "sentences": [
+              {
+                "text": "Vielen Dank."
+              },
+              {
+                "text": "– Auch wenn das ein kompliziertes Thema ist, bitte ich, ein bisschen auf die Uhr zu achten."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Thomas Oppermann",
+            "speakerstatus": "vice-president",
+            "text": "Nächste Frage: Dr. Bettina Hoffmann, Bündnis 90/Die Grünen.",
+            "sentences": [
+              {
+                "text": "Nächste Frage: Dr. Bettina Hoffmann, Bündnis 90/Die Grünen."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Thomas Oppermann",
+            "speakerstatus": "vice-president",
+            "text": "Eine Zusatzfrage kommt jetzt noch zum gleichen Thema.",
+            "sentences": [
+              {
+                "text": "Eine Zusatzfrage kommt jetzt noch zum gleichen Thema."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Thomas Oppermann",
+            "speakerstatus": "vice-president",
+            "text": "Wir sind noch bei der Güllefrage.",
+            "sentences": [
+              {
+                "text": "Wir sind noch bei der Güllefrage."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Thomas Oppermann",
+            "speakerstatus": "vice-president",
+            "text": "Ich habe jetzt noch eine letzte Frage zu diesem Thema von Filiz Polat.",
+            "sentences": [
+              {
+                "text": "Ich habe jetzt noch eine letzte Frage zu diesem Thema von Filiz Polat."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Thomas Oppermann",
+            "speakerstatus": "vice-president",
+            "text": "Vielen Dank. – Wir kommen jetzt zur Frage 7 des Abgeordneten Friedrich Ostendorff:",
+            "sentences": [
+              {
+                "text": "Vielen Dank."
+              },
+              {
+                "text": "– Wir kommen jetzt zur Frage 7 des Abgeordneten Friedrich Ostendorff:"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Thomas Oppermann",
+            "speakerstatus": "vice-president",
+            "text": "Herr Staatssekretär.",
+            "sentences": [
+              {
+                "text": "Herr Staatssekretär."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Thomas Oppermann",
+            "speakerstatus": "vice-president",
+            "text": "Kurze Nachfrage; sie kann genauso kurz ausfallen wie die Antwort.",
+            "sentences": [
+              {
+                "text": "Kurze Nachfrage; sie kann genauso kurz ausfallen wie die Antwort."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Thomas Oppermann",
+            "speakerstatus": "vice-president",
+            "text": "Noch eine Nachfrage?",
+            "sentences": [
+              {
+                "text": "Noch eine Nachfrage?"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Thomas Oppermann",
+            "speakerstatus": "vice-president",
+            "text": "Vielen Dank. – Mir liegen jetzt noch zwei weitere Wünsche nach Fragen vor. Weitere würde ich nicht mehr zulassen, damit wir noch zu ein paar anderen Fragen kommen können. Zunächst Dr. Gero Hocker, FDP.",
+            "sentences": [
+              {
+                "text": "Vielen Dank."
+              },
+              {
+                "text": "– Mir liegen jetzt noch zwei weitere Wünsche nach Fragen vor."
+              },
+              {
+                "text": "Weitere würde ich nicht mehr zulassen, damit wir noch zu ein paar anderen Fragen kommen können."
+              },
+              {
+                "text": "Zunächst Dr. Gero Hocker, FDP."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Thomas Oppermann",
+            "speakerstatus": "vice-president",
+            "text": "Letzte Frage von Carina Konrad, FDP.",
+            "sentences": [
+              {
+                "text": "Letzte Frage von Carina Konrad, FDP."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Thomas Oppermann",
+            "speakerstatus": "vice-president",
+            "text": "Das ist eine sehr ausführliche und abschließende Antwort.",
+            "sentences": [
+              {
+                "text": "Das ist eine sehr ausführliche und abschließende Antwort."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Thomas Oppermann",
+            "speakerstatus": "vice-president",
+            "text": "Ich rufe die nächste Frage, Frage 8 der Abgeordneten Dr. Bettina Hoffmann, auf – wir bleiben beim Thema Düngemittel –:",
+            "sentences": [
+              {
+                "text": "Ich rufe die nächste Frage, Frage 8 der Abgeordneten Dr. Bettina Hoffmann, auf – wir bleiben beim Thema Düngemittel –:"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Thomas Oppermann",
+            "speakerstatus": "vice-president",
+            "text": "Herr Staatssekretär, Sie haben schon wieder – oder immer noch – das Wort.",
+            "sentences": [
+              {
+                "text": "Herr Staatssekretär, Sie haben schon wieder – oder immer noch – das Wort."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Thomas Oppermann",
+            "speakerstatus": "vice-president",
+            "text": "Vielen Dank. – Eine Nachfrage.",
+            "sentences": [
+              {
+                "text": "Vielen Dank."
+              },
+              {
+                "text": "– Eine Nachfrage."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Thomas Oppermann",
+            "speakerstatus": "vice-president",
+            "text": "Eine weitere Frage.",
+            "sentences": [
+              {
+                "text": "Eine weitere Frage."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Thomas Oppermann",
+            "speakerstatus": "vice-president",
+            "text": "Vielen Dank. – Ich habe jetzt noch drei Fragen, und zwar von Dr. Rainer Kraft, Carina Konrad und Friedrich Ostendorff. Mehr lasse ich nicht zu.",
+            "sentences": [
+              {
+                "text": "Vielen Dank."
+              },
+              {
+                "text": "– Ich habe jetzt noch drei Fragen, und zwar von Dr. Rainer Kraft, Carina Konrad und Friedrich Ostendorff."
+              },
+              {
+                "text": "Mehr lasse ich nicht zu."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Thomas Oppermann",
+            "speakerstatus": "vice-president",
+            "text": "Die erste Frage stellt Dr. Rainer Kraft.",
+            "sentences": [
+              {
+                "text": "Die erste Frage stellt Dr. Rainer Kraft."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Thomas Oppermann",
+            "speakerstatus": "vice-president",
+            "text": "Das wird eine kleine Vorlesung zur organischen Chemie. Davon können wir alle profitieren.",
+            "sentences": [
+              {
+                "text": "Das wird eine kleine Vorlesung zur organischen Chemie."
+              },
+              {
+                "text": "Davon können wir alle profitieren."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Thomas Oppermann",
+            "speakerstatus": "vice-president",
+            "text": "Jetzt habe ich noch die Frage von Carina Konrad.",
+            "sentences": [
+              {
+                "text": "Jetzt habe ich noch die Frage von Carina Konrad."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Thomas Oppermann",
+            "speakerstatus": "vice-president",
+            "text": "Vielen Dank. – Letzte Nachfrage von Friedrich Ostendorff.",
+            "sentences": [
+              {
+                "text": "Vielen Dank."
+              },
+              {
+                "text": "– Letzte Nachfrage von Friedrich Ostendorff."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Thomas Oppermann",
+            "speakerstatus": "vice-president",
+            "text": "Okay, vielen Dank.",
+            "sentences": [
+              {
+                "text": "Okay, vielen Dank."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Thomas Oppermann",
+            "speakerstatus": "vice-president",
+            "text": "Wir kämen jetzt eigentlich zur Frage 9 der Abgeordneten Bettina Hoffmann. Sie betrifft wieder die Vorlage eines Entwurfs zur Novellierung der Düngeverordnung. Frau Hoffmann, wollen Sie die Frage zurückziehen? Ich würde gleich lieber die nächste Frage aufrufen; denn das Thema hatten wir ja schon. Oder bestehen Sie darauf? Sie können darauf bestehen.",
+            "sentences": [
+              {
+                "text": "Wir kämen jetzt eigentlich zur Frage 9 der Abgeordneten Bettina Hoffmann."
+              },
+              {
+                "text": "Sie betrifft wieder die Vorlage eines Entwurfs zur Novellierung der Düngeverordnung."
+              },
+              {
+                "text": "Frau Hoffmann, wollen Sie die Frage zurückziehen?"
+              },
+              {
+                "text": "Ich würde gleich lieber die nächste Frage aufrufen; denn das Thema hatten wir ja schon."
+              },
+              {
+                "text": "Oder bestehen Sie darauf?"
+              },
+              {
+                "text": "Sie können darauf bestehen."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Thomas Oppermann",
+            "speakerstatus": "vice-president",
+            "text": "– Wenn Sie darauf bestehen, dann rufe ich die Frage 9 auf:",
+            "sentences": [
+              {
+                "text": "– Wenn Sie darauf bestehen, dann rufe ich die Frage 9 auf:"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Thomas Oppermann",
+            "speakerstatus": "vice-president",
+            "text": "Der Staatssekretär hat erneut das Wort.",
+            "sentences": [
+              {
+                "text": "Der Staatssekretär hat erneut das Wort."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Thomas Oppermann",
+            "speakerstatus": "vice-president",
+            "text": "Vielen Dank. – Eine Nachfrage?",
+            "sentences": [
+              {
+                "text": "Vielen Dank."
+              },
+              {
+                "text": "– Eine Nachfrage?"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Thomas Oppermann",
+            "speakerstatus": "vice-president",
+            "text": "Vielen Dank. – Wir kommen jetzt zur Frage 10 von Carina Konrad:",
+            "sentences": [
+              {
+                "text": "Vielen Dank."
+              },
+              {
+                "text": "– Wir kommen jetzt zur Frage 10 von Carina Konrad:"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Thomas Oppermann",
+            "speakerstatus": "vice-president",
+            "text": "Das hatten wir jetzt noch nicht. Bitte, Herr Staatssekretär.",
+            "sentences": [
+              {
+                "text": "Das hatten wir jetzt noch nicht."
+              },
+              {
+                "text": "Bitte, Herr Staatssekretär."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Thomas Oppermann",
+            "speakerstatus": "vice-president",
+            "text": "Möchten Sie nachfragen?",
+            "sentences": [
+              {
+                "text": "Möchten Sie nachfragen?"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Thomas Oppermann",
+            "speakerstatus": "vice-president",
+            "text": "Die Zeit ist eigentlich um; aber natürlich darf Frau Konrad noch ihre zweite Nachfrage stellen.",
+            "sentences": [
+              {
+                "text": "Die Zeit ist eigentlich um; aber natürlich darf Frau Konrad noch ihre zweite Nachfrage stellen."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Thomas Oppermann",
+            "speakerstatus": "vice-president",
+            "text": "Vielen Dank. – Ich danke allen Fragestellern und natürlich auch dem Staatssekretär Stübgen für die vertieften Einblicke in die Arbeit seines Hauses.",
+            "sentences": [
+              {
+                "text": "Vielen Dank."
+              },
+              {
+                "text": "– Ich danke allen Fragestellern und natürlich auch dem Staatssekretär Stübgen für die vertieften Einblicke in die Arbeit seines Hauses."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Thomas Oppermann",
+            "speakerstatus": "vice-president",
+            "text": "Damit ist die Fragestunde beendet.",
+            "sentences": [
+              {
+                "text": "Damit ist die Fragestunde beendet."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "documents": [
+      {
+        "type": "officialDocument",
+        "label": "Drucksache 19/9080",
+        "sourceURI": "https://dserver.bundestag.de/btd/19/090/1909080.pdf"
+      }
+    ],
+    "key": "19-94 tagesordnungspunkt 2 (thomas oppermann) #1",
+    "dateStart": "2019-04-10T13:43:01",
+    "dateEnd": "2019-04-10T13:43:15",
     "media": {
       "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7343128/7343128_h264_720_400_2000kb_baseline_de_2192.mp4",
       "sourcePage": "http://dbtg.tv/fvid/7343128",
@@ -5077,18 +4847,7 @@
       "license": "CC-BY-SA",
       "originMediaID": "7343128",
       "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7343128/7343128_mp3_128kb_stereo_de_128.mp3"
-    },
-    "dateStart": "2019-04-10T13:43:01",
-    "dateEnd": "2019-04-10T13:43:15",
-    "people": [
-      {
-        "label": "Thomas Oppermann",
-        "faction": "SPD",
-        "context": "main-speaker",
-        "role": "Bundestagsvizepräsident"
-      }
-    ],
-    "key": "19-94 tagesordnungspunkt 2 (thomas oppermann) #1"
+    }
   },
   {
     "parliament": "DE",
@@ -5102,7 +4861,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 86,
+      "speechIndex": 1088,
       "title": "Aktuelle Stunde: Wohnraummiete in Deutschland"
     },
     "people": [
@@ -5115,12 +4874,34 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19094-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19094-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
         "originTextID": "",
         "textBody": [
+          {
+            "type": "speech",
+            "speaker": "Thomas Oppermann",
+            "speakerstatus": "vice-president",
+            "text": "Aktuelle Stunde",
+            "sentences": [
+              {
+                "text": "Aktuelle Stunde"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Thomas Oppermann",
+            "speakerstatus": "vice-president",
+            "text": "Wohnraummiete in Deutschland",
+            "sentences": [
+              {
+                "text": "Wohnraummiete in Deutschland"
+              }
+            ]
+          },
           {
             "type": "speech",
             "speaker": "Thomas Oppermann",
@@ -5175,7 +4956,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 87,
+      "speechIndex": 1089,
       "title": "Aktuelle Stunde: Wohnraummiete in Deutschland"
     },
     "people": [
@@ -5196,7 +4977,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19094-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19094-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -5473,7 +5254,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 88,
+      "speechIndex": 1090,
       "title": "Aktuelle Stunde: Wohnraummiete in Deutschland"
     },
     "people": [
@@ -5494,7 +5275,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19094-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19094-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -6061,7 +5842,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 89,
+      "speechIndex": 1091,
       "title": "Aktuelle Stunde: Wohnraummiete in Deutschland"
     },
     "people": [
@@ -6082,7 +5863,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19094-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19094-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -6841,7 +6622,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 90,
+      "speechIndex": 1092,
       "title": "Aktuelle Stunde: Wohnraummiete in Deutschland"
     },
     "people": [
@@ -6862,7 +6643,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19094-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19094-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -7609,7 +7390,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 91,
+      "speechIndex": 1093,
       "title": "Aktuelle Stunde: Wohnraummiete in Deutschland"
     },
     "people": [
@@ -7630,7 +7411,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19094-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19094-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -8268,7 +8049,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 92,
+      "speechIndex": 1094,
       "title": "Aktuelle Stunde: Wohnraummiete in Deutschland"
     },
     "people": [
@@ -8289,7 +8070,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19094-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19094-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -8946,16 +8727,80 @@
   {
     "parliament": "DE",
     "electoralPeriod": {
-      "number": 19
+      "number": "19"
     },
     "session": {
-      "number": 94
+      "number": "94",
+      "dateStart": "2019-04-10T13:00",
+      "dateEnd": "2019-04-10T18:07"
     },
     "agendaItem": {
-      "title": "Aktuelle Stunde: Wohnraummiete in Deutschland",
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 24
+      "speechIndex": 1111,
+      "title": "Aktuelle Stunde: Wohnraummiete in Deutschland"
     },
+    "people": [
+      {
+        "type": "memberOfParliament",
+        "label": "Hans-Peter Friedrich",
+        "context": "vice-president"
+      }
+    ],
+    "textContents": [
+      {
+        "type": "proceedings",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19094-data.xml",
+        "creator": "Deutscher Bundestag",
+        "license": "Public Domain",
+        "language": "DE-de",
+        "originTextID": "",
+        "textBody": [
+          {
+            "type": "speech",
+            "speaker": "Hans-Peter Friedrich",
+            "speakerstatus": "vice-president",
+            "text": "Vielen Dank, Kollege Möring. – Die Aktuelle Stunde ist beendet.",
+            "sentences": [
+              {
+                "text": "Vielen Dank, Kollege Möring."
+              },
+              {
+                "text": "– Die Aktuelle Stunde ist beendet."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Hans-Peter Friedrich",
+            "speakerstatus": "vice-president",
+            "text": "Wir sind damit am Schluss der heutigen Tagesordnung. Ich berufe die nächste Sitzung des Deutschen Bundestages auf morgen, Donnerstag, den 11. April 2019, 9 Uhr, ein.",
+            "sentences": [
+              {
+                "text": "Wir sind damit am Schluss der heutigen Tagesordnung."
+              },
+              {
+                "text": "Ich berufe die nächste Sitzung des Deutschen Bundestages auf morgen, Donnerstag, den 11. April 2019, 9 Uhr, ein."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Hans-Peter Friedrich",
+            "speakerstatus": "vice-president",
+            "text": "Die Sitzung ist geschlossen.",
+            "sentences": [
+              {
+                "text": "Die Sitzung ist geschlossen."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "documents": [],
+    "key": "19-94 zusatzpunkt 1 (hans-peter friedrich)",
+    "dateStart": "2019-04-10T14:21:02",
+    "dateEnd": "2019-04-10T14:21:29",
     "media": {
       "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7343139/7343139_h264_720_400_2000kb_baseline_de_2192.mp4",
       "sourcePage": "http://dbtg.tv/fvid/7343139",
@@ -8964,18 +8809,7 @@
       "license": "CC-BY-SA",
       "originMediaID": "7343139",
       "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7343139/7343139_mp3_128kb_stereo_de_128.mp3"
-    },
-    "dateStart": "2019-04-10T14:21:02",
-    "dateEnd": "2019-04-10T14:21:29",
-    "people": [
-      {
-        "label": "Hans-Peter Friedrich",
-        "faction": "CDU/CSU",
-        "context": "main-speaker",
-        "role": "Bundestagsvizepräsident"
-      }
-    ],
-    "key": "19-94 zusatzpunkt 1 (hans-peter friedrich)"
+    }
   },
   {
     "parliament": "DE",
@@ -8989,7 +8823,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 93,
+      "speechIndex": 1095,
       "title": "Aktuelle Stunde: Wohnraummiete in Deutschland"
     },
     "people": [
@@ -9010,7 +8844,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19094-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19094-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -9392,7 +9226,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 94,
+      "speechIndex": 1096,
       "title": "Aktuelle Stunde: Wohnraummiete in Deutschland"
     },
     "people": [
@@ -9413,7 +9247,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19094-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19094-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -9943,7 +9777,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 95,
+      "speechIndex": 1097,
       "title": "Aktuelle Stunde: Wohnraummiete in Deutschland"
     },
     "people": [
@@ -9964,7 +9798,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19094-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19094-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -10540,7 +10374,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 96,
+      "speechIndex": 1098,
       "title": "Aktuelle Stunde: Wohnraummiete in Deutschland"
     },
     "people": [
@@ -10561,7 +10395,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19094-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19094-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -11156,7 +10990,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 97,
+      "speechIndex": 1099,
       "title": "Aktuelle Stunde: Wohnraummiete in Deutschland"
     },
     "people": [
@@ -11177,7 +11011,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19094-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19094-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -11833,7 +11667,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 98,
+      "speechIndex": 1100,
       "title": "Aktuelle Stunde: Wohnraummiete in Deutschland"
     },
     "people": [
@@ -11854,7 +11688,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19094-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19094-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -12581,7 +12415,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 99,
+      "speechIndex": 1101,
       "title": "Aktuelle Stunde: Wohnraummiete in Deutschland"
     },
     "people": [
@@ -12602,7 +12436,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19094-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19094-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -13146,7 +12980,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 100,
+      "speechIndex": 1102,
       "title": "Aktuelle Stunde: Wohnraummiete in Deutschland"
     },
     "people": [
@@ -13167,7 +13001,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19094-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19094-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -13703,7 +13537,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 101,
+      "speechIndex": 1103,
       "title": "Aktuelle Stunde: Wohnraummiete in Deutschland"
     },
     "people": [
@@ -13724,7 +13558,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19094-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19094-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -14083,7 +13917,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 102,
+      "speechIndex": 1104,
       "title": "Aktuelle Stunde: Wohnraummiete in Deutschland"
     },
     "people": [
@@ -14104,7 +13938,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19094-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19094-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -14705,7 +14539,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 103,
+      "speechIndex": 1105,
       "title": "Aktuelle Stunde: Wohnraummiete in Deutschland"
     },
     "people": [
@@ -14726,7 +14560,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19094-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19094-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -15203,7 +15037,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 104,
+      "speechIndex": 1106,
       "title": "Aktuelle Stunde: Wohnraummiete in Deutschland"
     },
     "people": [
@@ -15224,7 +15058,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19094-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19094-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -15754,7 +15588,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 105,
+      "speechIndex": 1107,
       "title": "Aktuelle Stunde: Wohnraummiete in Deutschland"
     },
     "people": [
@@ -15775,7 +15609,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19094-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19094-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -16211,7 +16045,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 106,
+      "speechIndex": 1108,
       "title": "Aktuelle Stunde: Wohnraummiete in Deutschland"
     },
     "people": [
@@ -16232,7 +16066,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19094-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19094-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -16746,7 +16580,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 107,
+      "speechIndex": 1109,
       "title": "Aktuelle Stunde: Wohnraummiete in Deutschland"
     },
     "people": [
@@ -16767,7 +16601,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19094-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19094-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -17018,7 +16852,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 108,
+      "speechIndex": 1110,
       "title": "Aktuelle Stunde: Wohnraummiete in Deutschland"
     },
     "people": [
@@ -17029,17 +16863,12 @@
         "lastname": "Möring",
         "context": "main-speaker",
         "faction": "CDU/CSU"
-      },
-      {
-        "type": "memberOfParliament",
-        "label": "Hans-Peter Friedrich",
-        "context": "vice-president"
       }
     ],
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19094-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19094-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -17382,56 +17211,6 @@
               },
               {
                 "text": "Die Diskussion, die hier in Berlin geführt wird, bewirkt das Gegenteil; sie hilft uns kein Stückchen weiter."
-              }
-            ]
-          },
-          {
-            "type": "comment",
-            "speaker": null,
-            "speakerstatus": null,
-            "text": "(Beifall bei der CDU/CSU sowie der Abg. Ulli Nissen [SPD])",
-            "sentences": [
-              {
-                "text": "(Beifall bei der CDU/CSU sowie der Abg. Ulli Nissen [SPD])"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Hans-Peter Friedrich",
-            "speakerstatus": "vice-president",
-            "text": "Vielen Dank, Kollege Möring. – Die Aktuelle Stunde ist beendet.",
-            "sentences": [
-              {
-                "text": "Vielen Dank, Kollege Möring."
-              },
-              {
-                "text": "– Die Aktuelle Stunde ist beendet."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Hans-Peter Friedrich",
-            "speakerstatus": "vice-president",
-            "text": "Wir sind damit am Schluss der heutigen Tagesordnung. Ich berufe die nächste Sitzung des Deutschen Bundestages auf morgen, Donnerstag, den 11. April 2019, 9 Uhr, ein.",
-            "sentences": [
-              {
-                "text": "Wir sind damit am Schluss der heutigen Tagesordnung."
-              },
-              {
-                "text": "Ich berufe die nächste Sitzung des Deutschen Bundestages auf morgen, Donnerstag, den 11. April 2019, 9 Uhr, ein."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Hans-Peter Friedrich",
-            "speakerstatus": "vice-president",
-            "text": "Die Sitzung ist geschlossen.",
-            "sentences": [
-              {
-                "text": "Die Sitzung ist geschlossen."
               }
             ]
           }

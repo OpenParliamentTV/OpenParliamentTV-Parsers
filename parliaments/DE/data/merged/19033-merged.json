@@ -11,7 +11,7 @@
     },
     "agendaItem": {
       "officialTitle": "Sitzungseröffnung",
-      "speechIndex": 0,
+      "speechIndex": 1000,
       "title": "Sitzungseröffnung"
     },
     "people": [
@@ -24,7 +24,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19033-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19033-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -206,6 +206,17 @@
             "type": "speech",
             "speaker": "Wolfgang Schäuble",
             "speakerstatus": "president",
+            "text": "Tschernobyl mahnt – Atomausstieg konsequent umsetzen",
+            "sentences": [
+              {
+                "text": "Tschernobyl mahnt – Atomausstieg konsequent umsetzen"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
             "text": "(Ergänzung zu TOP 3)",
             "sentences": [
               {
@@ -228,6 +239,45 @@
             "type": "speech",
             "speaker": "Wolfgang Schäuble",
             "speakerstatus": "president",
+            "text": "zu dem Vorschlag für eine Verordnung des Europäischen Parlaments und des Rates zur Errichtung einer Europäischen Arbeitsbehörde KOM(2018) 131 endg.; Ratsdok. 7203/18",
+            "sentences": [
+              {
+                "text": "zu dem Vorschlag für eine Verordnung des Europäischen Parlaments und des Rates zur Errichtung einer Europäischen Arbeitsbehörde KOM(2018) 131 endg.;"
+              },
+              {
+                "text": "Ratsdok."
+              },
+              {
+                "text": "7203/18"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "hier: Stellungnahme gemäß Artikel 6 des Protokolls Nummer 2 zum Vertrag von Lissabon (Grundsätze der Subsidiarität und der Verhältnismäßigkeit)",
+            "sentences": [
+              {
+                "text": "hier: Stellungnahme gemäß Artikel 6 des Protokolls Nummer 2 zum Vertrag von Lissabon (Grundsätze der Subsidiarität und der Verhältnismäßigkeit)"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "Unvereinbarkeit des Verordnungsentwurfs der EU-Kommission über die Einrichtung einer europäischen Arbeitsbehörde (ELA) mit dem Subsidiaritätsprinzip",
+            "sentences": [
+              {
+                "text": "Unvereinbarkeit des Verordnungsentwurfs der EU-Kommission über die Einrichtung einer europäischen Arbeitsbehörde (ELA) mit dem Subsidiaritätsprinzip"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
             "text": "Schließlich mache ich noch auf eine nachträgliche Ausschussüberweisung im Anhang zur Zusatzpunkteliste aufmerksam:",
             "sentences": [
               {
@@ -243,6 +293,17 @@
             "sentences": [
               {
                 "text": "Der am 26. April 2018 (29. Sitzung) überwiesene nachfolgende Gesetzentwurf soll zusätzlich dem Ausschuss für Bau, Wohnen, Stadtentwicklung und Kommunen (24. Ausschuss) zur Mitberatung überwiesen werden:"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "Erste Beratung des vom Bundesrat eingebrachten Entwurfs eines … Gesetzes zur Änderung des Erneuerbare-Energien-Gesetzes",
+            "sentences": [
+              {
+                "text": "Erste Beratung des vom Bundesrat eingebrachten Entwurfs eines … Gesetzes zur Änderung des Erneuerbare-Energien-Gesetzes"
               }
             ]
           },
@@ -300,6 +361,39 @@
             "sentences": [
               {
                 "text": "Wir setzen jetzt die Haushaltsberatungen – Tagesordnungspunkte 1 a und 1 b – fort:"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "a) Erste Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes über die Feststellung des Bundeshaushaltsplans für das Haushaltsjahr 2018 (Haushaltsgesetz 2018)",
+            "sentences": [
+              {
+                "text": "a) Erste Beratung des von der Bundesregierung eingebrachten Entwurfs eines Gesetzes über die Feststellung des Bundeshaushaltsplans für das Haushaltsjahr 2018 (Haushaltsgesetz 2018)"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "b) Beratung der Unterrichtung durch die Bundesregierung",
+            "sentences": [
+              {
+                "text": "b) Beratung der Unterrichtung durch die Bundesregierung"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "Finanzplan des Bundes 2017 bis 2021",
+            "sentences": [
+              {
+                "text": "Finanzplan des Bundes 2017 bis 2021"
               }
             ]
           },
@@ -1661,7 +1755,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 2",
-      "speechIndex": 40,
+      "speechIndex": 1042,
       "title": "Abschließende Beratungen ohne Aussprache"
     },
     "people": [
@@ -1674,7 +1768,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19033-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19033-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -1699,6 +1793,45 @@
             "sentences": [
               {
                 "text": "Beratung des Antrags der Abgeordneten Norbert Kleinwächter, Dr. Harald Weyel, Martin Hebner, Joana Cotar und der Fraktion der AfD"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Hans-Peter Friedrich",
+            "speakerstatus": "vice-president",
+            "text": "zu dem Vorschlag für eine Verordnung des Europäischen Parlaments und des Rates zur Errichtung einer Europäischen Arbeitsbehörde KOM(2018) 131 endg.; Ratsdok. 7203/18",
+            "sentences": [
+              {
+                "text": "zu dem Vorschlag für eine Verordnung des Europäischen Parlaments und des Rates zur Errichtung einer Europäischen Arbeitsbehörde KOM(2018) 131 endg.;"
+              },
+              {
+                "text": "Ratsdok."
+              },
+              {
+                "text": "7203/18"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Hans-Peter Friedrich",
+            "speakerstatus": "vice-president",
+            "text": "hier: Stellungnahme gemäß Artikel 6 des Protokolls Nummer 2 zum Vertrag von Lissabon (Grundsätze der Subsidiarität und der Verhältnismäßigkeit)",
+            "sentences": [
+              {
+                "text": "hier: Stellungnahme gemäß Artikel 6 des Protokolls Nummer 2 zum Vertrag von Lissabon (Grundsätze der Subsidiarität und der Verhältnismäßigkeit)"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Hans-Peter Friedrich",
+            "speakerstatus": "vice-president",
+            "text": "Unvereinbarkeit des Verordnungsentwurfs der EU-Kommission über die Einrichtung einer europäischen Arbeitsbehörde (ELA) mit dem Subsidiaritätsprinzip",
+            "sentences": [
+              {
+                "text": "Unvereinbarkeit des Verordnungsentwurfs der EU-Kommission über die Einrichtung einer europäischen Arbeitsbehörde (ELA) mit dem Subsidiaritätsprinzip"
               }
             ]
           },
@@ -1757,7 +1890,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 3",
-      "speechIndex": 42,
+      "speechIndex": 1044,
       "title": "Einspruch gem. § 39 GO-BT"
     },
     "people": [
@@ -1770,12 +1903,23 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19033-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19033-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
         "originTextID": "",
         "textBody": [
+          {
+            "type": "speech",
+            "speaker": "Hans-Peter Friedrich",
+            "speakerstatus": "vice-president",
+            "text": "Einspruch gegen eine Ordnungsmaßnahme gemäß § 39 der Geschäftsordnung",
+            "sentences": [
+              {
+                "text": "Einspruch gegen eine Ordnungsmaßnahme gemäß § 39 der Geschäftsordnung"
+              }
+            ]
+          },
           {
             "type": "speech",
             "speaker": "Hans-Peter Friedrich",
@@ -1836,7 +1980,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 3",
-      "speechIndex": 43,
+      "speechIndex": 1045,
       "title": "Einspruch gem. § 39 GO-BT"
     },
     "people": [
@@ -1847,17 +1991,12 @@
         "lastname": "Braun",
         "context": "main-speaker",
         "faction": "AfD"
-      },
-      {
-        "type": "memberOfParliament",
-        "label": "Hans-Peter Friedrich",
-        "context": "vice-president"
       }
     ],
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19033-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19033-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -1884,18 +2023,55 @@
                 "text": "(Widerspruch bei Abgeordneten der CDU/CSU, der SPD, der FDP, der LINKEN und des BÜNDNISSES 90/DIE GRÜNEN)"
               }
             ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Jürgen Braun",
-            "speakerstatus": "main-speaker",
-            "text": "und bittet darum, den Einspruch vorzulesen.",
-            "sentences": [
-              {
-                "text": "und bittet darum, den Einspruch vorzulesen."
-              }
-            ]
-          },
+          }
+        ]
+      }
+    ],
+    "documents": [],
+    "key": "19-33 zusatzpunkt 3 (jurgen braun)",
+    "dateStart": "2018-05-17T10:41:12",
+    "dateEnd": "2018-05-17T10:41:48",
+    "media": {
+      "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7227669/7227669_h264_720_400_2000kb_baseline_de_2192.mp4",
+      "sourcePage": "http://dbtg.tv/fvid/7227669",
+      "duration": 36.0,
+      "creator": "Deutscher Bundestag",
+      "license": "CC-BY-SA",
+      "originMediaID": "7227669",
+      "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7227669/7227669_mp3_128kb_stereo_de_128.mp3"
+    }
+  },
+  {
+    "parliament": "DE",
+    "electoralPeriod": {
+      "number": "19"
+    },
+    "session": {
+      "number": "33",
+      "dateStart": "2018-05-17T09:00",
+      "dateEnd": "2018-05-17T18:03"
+    },
+    "agendaItem": {
+      "officialTitle": "Zusatzpunkt 3",
+      "speechIndex": 1046,
+      "title": "Einspruch gem. § 39 GO-BT"
+    },
+    "people": [
+      {
+        "type": "memberOfParliament",
+        "label": "Hans-Peter Friedrich",
+        "context": "vice-president"
+      }
+    ],
+    "textContents": [
+      {
+        "type": "proceedings",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19033-data.xml",
+        "creator": "Deutscher Bundestag",
+        "license": "Public Domain",
+        "language": "DE-de",
+        "originTextID": "",
+        "textBody": [
           {
             "type": "speech",
             "speaker": "Hans-Peter Friedrich",
@@ -1974,32 +2150,9 @@
       }
     ],
     "documents": [],
-    "key": "19-33 zusatzpunkt 3 (jurgen braun)",
-    "dateStart": "2018-05-17T10:41:12",
-    "dateEnd": "2018-05-17T10:41:48",
-    "media": {
-      "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7227669/7227669_h264_720_400_2000kb_baseline_de_2192.mp4",
-      "sourcePage": "http://dbtg.tv/fvid/7227669",
-      "duration": 36.0,
-      "creator": "Deutscher Bundestag",
-      "license": "CC-BY-SA",
-      "originMediaID": "7227669",
-      "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7227669/7227669_mp3_128kb_stereo_de_128.mp3"
-    }
-  },
-  {
-    "parliament": "DE",
-    "electoralPeriod": {
-      "number": 19
-    },
-    "session": {
-      "number": 33
-    },
-    "agendaItem": {
-      "title": "Einspruch gem. § 39 GO-BT",
-      "officialTitle": "Zusatzpunkt 3",
-      "speechIndex": 43
-    },
+    "key": "19-33 zusatzpunkt 3 (hans-peter friedrich) #1",
+    "dateStart": "2018-05-17T10:41:48",
+    "dateEnd": "2018-05-17T10:46:59",
     "media": {
       "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7227670/7227670_h264_720_400_2000kb_baseline_de_2192.mp4",
       "sourcePage": "http://dbtg.tv/fvid/7227670",
@@ -2008,18 +2161,7 @@
       "license": "CC-BY-SA",
       "originMediaID": "7227670",
       "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7227670/7227670_mp3_128kb_stereo_de_128.mp3"
-    },
-    "dateStart": "2018-05-17T10:41:48",
-    "dateEnd": "2018-05-17T10:46:59",
-    "people": [
-      {
-        "label": "Hans-Peter Friedrich",
-        "faction": "CDU/CSU",
-        "context": "main-speaker",
-        "role": "Bundestagsvizepräsident"
-      }
-    ],
-    "key": "19-33 zusatzpunkt 3 (hans-peter friedrich) #1"
+    }
   },
   {
     "parliament": "DE",

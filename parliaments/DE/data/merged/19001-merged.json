@@ -45,7 +45,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 0,
+      "speechIndex": 1000,
       "title": "Eröffnung der Sitzung durch den Alterspräsidenten"
     },
     "people": [
@@ -61,7 +61,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19001-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19001-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -216,6 +216,17 @@
                 "text": "Es ist mir eine Ehre und Freude zugleich, den Vorsitz bis zur Amtsübernahme durch den neugewählten Präsidenten des Deutschen Bundestages zu übernehmen."
               }
             ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Hermann Otto Solms",
+            "speakerstatus": "interim-president",
+            "text": "Eröffnung der Sitzung durch den Alterspräsidenten",
+            "sentences": [
+              {
+                "text": "Eröffnung der Sitzung durch den Alterspräsidenten"
+              }
+            ]
           }
         ]
       }
@@ -246,7 +257,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 1,
+      "speechIndex": 1001,
       "title": "Eröffnung der Sitzung durch den Alterspräsidenten"
     },
     "people": [
@@ -262,7 +273,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19001-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19001-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -1015,7 +1026,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 2",
-      "speechIndex": 2,
+      "speechIndex": 1002,
       "title": "Beschlussfassung über die Geschäftsordnung"
     },
     "people": [
@@ -1031,12 +1042,78 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19001-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19001-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
         "originTextID": "",
         "textBody": [
+          {
+            "type": "speech",
+            "speaker": "Hermann Otto Solms",
+            "speakerstatus": "interim-president",
+            "text": "Beschlussfassung über die",
+            "sentences": [
+              {
+                "text": "Beschlussfassung über die"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Hermann Otto Solms",
+            "speakerstatus": "interim-president",
+            "text": "– Geschäftsordnung des Deutschen Bundestages",
+            "sentences": [
+              {
+                "text": "– Geschäftsordnung des Deutschen Bundestages"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Hermann Otto Solms",
+            "speakerstatus": "interim-president",
+            "text": "– Gemeinsame Geschäftsordnung des Bundestages und des Bundesrates für den Ausschuss nach Artikel 77 des Grundgesetzes (Vermittlungsausschuss)",
+            "sentences": [
+              {
+                "text": "– Gemeinsame Geschäftsordnung des Bundestages und des Bundesrates für den Ausschuss nach Artikel 77 des Grundgesetzes (Vermittlungsausschuss)"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Hermann Otto Solms",
+            "speakerstatus": "interim-president",
+            "text": "– Geschäftsordnung für den Gemeinsamen Ausschuss",
+            "sentences": [
+              {
+                "text": "– Geschäftsordnung für den Gemeinsamen Ausschuss"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Hermann Otto Solms",
+            "speakerstatus": "interim-president",
+            "text": "– Geschäftsordnung für das Verfahren nach Artikel 115d des Grundgesetzes",
+            "sentences": [
+              {
+                "text": "– Geschäftsordnung für das Verfahren nach Artikel 115d des Grundgesetzes"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Hermann Otto Solms",
+            "speakerstatus": "interim-president",
+            "text": "– Richtlinien zur Überprüfung auf eine Tätigkeit oder politische Verantwortung für das Ministerium für Staatssicherheit/Amt für Nationale Sicherheit der ehemaligen Deutschen Demokratischen Republik",
+            "sentences": [
+              {
+                "text": "– Richtlinien zur Überprüfung auf eine Tätigkeit oder politische Verantwortung für das Ministerium für Staatssicherheit/Amt für Nationale Sicherheit der ehemaligen Deutschen Demokratischen Republik"
+              }
+            ]
+          },
           {
             "type": "speech",
             "speaker": "Hermann Otto Solms",
@@ -1117,7 +1194,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 2",
-      "speechIndex": 3,
+      "speechIndex": 1003,
       "title": "Beschlussfassung über die Geschäftsordnung"
     },
     "people": [
@@ -1141,7 +1218,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19001-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19001-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -1644,7 +1721,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 2",
-      "speechIndex": 4,
+      "speechIndex": 1004,
       "title": "Beschlussfassung über die Geschäftsordnung"
     },
     "people": [
@@ -1668,7 +1745,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19001-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19001-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -2119,7 +2196,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 2",
-      "speechIndex": 5,
+      "speechIndex": 1005,
       "title": "Beschlussfassung über die Geschäftsordnung"
     },
     "people": [
@@ -2143,7 +2220,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19001-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19001-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -2533,7 +2610,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 2",
-      "speechIndex": 6,
+      "speechIndex": 1006,
       "title": "Beschlussfassung über die Geschäftsordnung"
     },
     "people": [
@@ -2557,7 +2634,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19001-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19001-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -3146,7 +3223,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 2",
-      "speechIndex": 7,
+      "speechIndex": 1007,
       "title": "Beschlussfassung über die Geschäftsordnung"
     },
     "people": [
@@ -3170,7 +3247,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19001-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19001-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -3563,7 +3640,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 2",
-      "speechIndex": 8,
+      "speechIndex": 1008,
       "title": "Beschlussfassung über die Geschäftsordnung"
     },
     "people": [
@@ -3574,20 +3651,12 @@
         "lastname": "Haßelmann",
         "context": "main-speaker",
         "faction": "BÜNDNIS 90/DIE GRÜNEN"
-      },
-      {
-        "type": "memberOfParliament",
-        "label": "Hermann Otto Solms",
-        "firstname": "Alterspräsident Dr. Hermann",
-        "lastname": "Otto Solms",
-        "context": "interim-president",
-        "faction": ""
       }
     ],
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19001-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19001-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -4062,7 +4131,64 @@
                 "text": "(Beifall beim BÜNDNIS 90/DIE GRÜNEN sowie bei Abgeordneten der CDU/CSU und der FDP – Dr. Dietmar Bartsch [DIE LINKE]: Ihr seid noch nicht an der Regierung! Noch nicht!)"
               }
             ]
-          },
+          }
+        ]
+      }
+    ],
+    "documents": [
+      {
+        "type": "officialDocument",
+        "label": "Drucksache 19/1",
+        "sourceURI": "https://dserver.bundestag.de/btd/19/000/1900001.pdf"
+      }
+    ],
+    "key": "19-1 tagesordnungspunkt 2 (britta haßelmann)",
+    "dateStart": "2017-10-24T09:53:11",
+    "dateEnd": "2017-10-24T09:58:50",
+    "media": {
+      "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7164735/7164735_h264_720_400_2000kb_baseline_de_2192.mp4",
+      "sourcePage": "http://dbtg.tv/fvid/7164735",
+      "duration": 339.0,
+      "creator": "Deutscher Bundestag",
+      "license": "CC-BY-SA",
+      "originMediaID": "7164735",
+      "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7164735/7164735_mp3_128kb_stereo_de_128.mp3"
+    }
+  },
+  {
+    "parliament": "DE",
+    "electoralPeriod": {
+      "number": "19"
+    },
+    "session": {
+      "number": "1",
+      "dateStart": "2017-10-24T11:00",
+      "dateEnd": "2017-10-24T17:03"
+    },
+    "agendaItem": {
+      "officialTitle": "Tagesordnungspunkt 2",
+      "speechIndex": 1009,
+      "title": "Beschlussfassung über die Geschäftsordnung"
+    },
+    "people": [
+      {
+        "type": "memberOfParliament",
+        "label": "Hermann Otto Solms",
+        "firstname": "Alterspräsident Dr. Hermann",
+        "lastname": "Otto Solms",
+        "context": "interim-president",
+        "faction": ""
+      }
+    ],
+    "textContents": [
+      {
+        "type": "proceedings",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19001-data.xml",
+        "creator": "Deutscher Bundestag",
+        "license": "Public Domain",
+        "language": "DE-de",
+        "originTextID": "",
+        "textBody": [
           {
             "type": "speech",
             "speaker": "Hermann Otto Solms",
@@ -4111,17 +4237,6 @@
               },
               {
                 "text": "– Damit ist der Antrag mit den Stimmen der Fraktionen der CDU/CSU, der FDP und des Bündnisses 90/Die Grünen gegen die Stimmen der SPD, der AfD und der Linken angenommen."
-              }
-            ]
-          },
-          {
-            "type": "comment",
-            "speaker": null,
-            "speakerstatus": null,
-            "text": "(Martin Schulz [SPD]: Jamaika steht!)",
-            "sentences": [
-              {
-                "text": "(Martin Schulz [SPD]: Jamaika steht!)"
               }
             ]
           },
@@ -4341,32 +4456,9 @@
         "sourceURI": "https://dserver.bundestag.de/btd/19/000/1900001.pdf"
       }
     ],
-    "key": "19-1 tagesordnungspunkt 2 (britta haßelmann)",
-    "dateStart": "2017-10-24T09:53:11",
-    "dateEnd": "2017-10-24T09:58:50",
-    "media": {
-      "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7164735/7164735_h264_720_400_2000kb_baseline_de_2192.mp4",
-      "sourcePage": "http://dbtg.tv/fvid/7164735",
-      "duration": 339.0,
-      "creator": "Deutscher Bundestag",
-      "license": "CC-BY-SA",
-      "originMediaID": "7164735",
-      "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7164735/7164735_mp3_128kb_stereo_de_128.mp3"
-    }
-  },
-  {
-    "parliament": "DE",
-    "electoralPeriod": {
-      "number": 19
-    },
-    "session": {
-      "number": 1
-    },
-    "agendaItem": {
-      "title": "Beschlussfassung über die Geschäftsordnung",
-      "officialTitle": "Tagesordnungspunkt 2",
-      "speechIndex": 11
-    },
+    "key": "19-1 tagesordnungspunkt 2 (hermann otto solms) #1",
+    "dateStart": "2017-10-24T09:58:50",
+    "dateEnd": "2017-10-24T10:05:21",
     "media": {
       "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7164736/7164736_h264_720_400_2000kb_baseline_de_2192.mp4",
       "sourcePage": "http://dbtg.tv/fvid/7164736",
@@ -4375,18 +4467,7 @@
       "license": "CC-BY-SA",
       "originMediaID": "7164736",
       "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7164736/7164736_mp3_128kb_stereo_de_128.mp3"
-    },
-    "dateStart": "2017-10-24T09:58:50",
-    "dateEnd": "2017-10-24T10:05:21",
-    "people": [
-      {
-        "label": "Hermann Otto Solms",
-        "faction": "FDP",
-        "context": "main-speaker",
-        "role": "interim-president"
-      }
-    ],
-    "key": "19-1 tagesordnungspunkt 2 (hermann otto solms) #1"
+    }
   },
   {
     "parliament": "DE",
@@ -4400,7 +4481,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 3",
-      "speechIndex": 9,
+      "speechIndex": 1010,
       "title": "Wahl des Präsidenten"
     },
     "people": [
@@ -4416,12 +4497,23 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19001-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19001-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
         "originTextID": "",
         "textBody": [
+          {
+            "type": "speech",
+            "speaker": "Hermann Otto Solms",
+            "speakerstatus": "interim-president",
+            "text": "Wahl des Präsidenten  verbunden mit Namensaufruf  und Feststellung der Beschlussfähigkeit",
+            "sentences": [
+              {
+                "text": "Wahl des Präsidenten  verbunden mit Namensaufruf  und Feststellung der Beschlussfähigkeit"
+              }
+            ]
+          },
           {
             "type": "speech",
             "speaker": "Hermann Otto Solms",
@@ -4465,7 +4557,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 4",
-      "speechIndex": 14,
+      "speechIndex": 1017,
       "title": "Amtsübernahme durch den Präsidenten mit Ansprache"
     },
     "people": [
@@ -4481,7 +4573,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19001-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19001-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -5401,17 +5493,6 @@
                 "text": "Herzlichen Dank."
               }
             ]
-          },
-          {
-            "type": "comment",
-            "speaker": null,
-            "speakerstatus": null,
-            "text": "(Beifall im ganzen Hause)",
-            "sentences": [
-              {
-                "text": "(Beifall im ganzen Hause)"
-              }
-            ]
           }
         ]
       }
@@ -5442,7 +5523,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 5",
-      "speechIndex": 15,
+      "speechIndex": 1019,
       "title": "Festlegung der Zahl der Stellvertreter des Präsidenten"
     },
     "people": [
@@ -5458,7 +5539,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19001-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19001-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -5472,6 +5553,17 @@
             "sentences": [
               {
                 "text": "Ich rufe den Tagesordnungspunkt 5 auf:"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "main-speaker",
+            "text": "Festlegung der Zahl der Stellvertreterinnen und Stellvertreter des Präsidenten",
+            "sentences": [
+              {
+                "text": "Festlegung der Zahl der Stellvertreterinnen und Stellvertreter des Präsidenten"
               }
             ]
           },
@@ -5536,7 +5628,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 6",
-      "speechIndex": 17,
+      "speechIndex": 1022,
       "title": "Wahl der Stellvertreter des Präsidenten"
     },
     "people": [
@@ -5552,7 +5644,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19001-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19001-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -5566,6 +5658,17 @@
             "sentences": [
               {
                 "text": "Damit rufe ich den Tagesordnungspunkt 6 auf:"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "main-speaker",
+            "text": "Wahl der Stellvertreterinnen und Stellvertreter des Präsidenten",
+            "sentences": [
+              {
+                "text": "Wahl der Stellvertreterinnen und Stellvertreter des Präsidenten"
               }
             ]
           },

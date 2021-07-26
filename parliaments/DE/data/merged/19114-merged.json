@@ -11,7 +11,7 @@
     },
     "agendaItem": {
       "officialTitle": "Sitzungseröffnung",
-      "speechIndex": 0,
+      "speechIndex": 1000,
       "title": "Sitzungseröffnung"
     },
     "people": [
@@ -24,7 +24,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19114-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19114-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -76,7 +76,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 2,
+      "speechIndex": 1002,
       "title": "Befragung der Bundesregierung"
     },
     "people": [
@@ -89,7 +89,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19114-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19114-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -103,6 +103,17 @@
             "sentences": [
               {
                 "text": "Ich rufe den Tagesordnungspunkt 1 auf:"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "Befragung der Bundesregierung",
+            "sentences": [
+              {
+                "text": "Befragung der Bundesregierung"
               }
             ]
           },
@@ -157,7 +168,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 3,
+      "speechIndex": 1003,
       "title": "Befragung der Bundesregierung"
     },
     "people": [
@@ -173,7 +184,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19114-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19114-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -346,7 +357,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 2",
-      "speechIndex": 77,
+      "speechIndex": 1077,
       "title": "Fragestunde"
     },
     "people": [
@@ -543,7 +554,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19114-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19114-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -568,6 +579,17 @@
             "sentences": [
               {
                 "text": "Nach der Befragung der Bundesregierung rufe ich jetzt Tagesordnungspunkt 2 auf:"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "Fragestunde",
+            "sentences": [
+              {
+                "text": "Fragestunde"
               }
             ]
           },
@@ -6138,7 +6160,7 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 2",
-      "speechIndex": 78,
+      "speechIndex": 1078,
       "title": "Fragestunde"
     },
     "people": [
@@ -6274,68 +6296,12 @@
         "lastname": "Zimmermann",
         "context": "speaker",
         "faction": "DIE LINKE"
-      },
-      {
-        "type": "memberOfParliament",
-        "label": "Enak Ferlemann",
-        "firstname": "Enak",
-        "lastname": "Ferlemann",
-        "context": "speaker",
-        "faction": ""
-      },
-      {
-        "type": "memberOfParliament",
-        "label": "Oliver Luksic",
-        "firstname": "Oliver",
-        "lastname": "Luksic",
-        "context": "speaker",
-        "faction": "FDP"
-      },
-      {
-        "type": "memberOfParliament",
-        "label": "Michelle Müntefering",
-        "firstname": "Michelle",
-        "lastname": "Müntefering",
-        "context": "speaker",
-        "faction": ""
-      },
-      {
-        "type": "memberOfParliament",
-        "label": "Thomas Bareiß",
-        "firstname": "Thomas",
-        "lastname": "Bareiß",
-        "context": "speaker",
-        "faction": ""
-      },
-      {
-        "type": "memberOfParliament",
-        "label": "Andreas Scheuer",
-        "firstname": "Andreas",
-        "lastname": "Scheuer",
-        "context": "speaker",
-        "faction": ""
-      },
-      {
-        "type": "memberOfParliament",
-        "label": "Matthias Gastel",
-        "firstname": "Matthias",
-        "lastname": "Gastel",
-        "context": "speaker",
-        "faction": "BÜNDNIS 90/DIE GRÜNEN"
-      },
-      {
-        "type": "memberOfParliament",
-        "label": "Steffi Lemke",
-        "firstname": "Steffi",
-        "lastname": "Lemke",
-        "context": "speaker",
-        "faction": "BÜNDNIS 90/DIE GRÜNEN"
       }
     ],
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19114-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19114-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -6360,6 +6326,17 @@
             "sentences": [
               {
                 "text": "Nach der Befragung der Bundesregierung rufe ich jetzt Tagesordnungspunkt 2 auf:"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "Fragestunde",
+            "sentences": [
+              {
+                "text": "Fragestunde"
               }
             ]
           },
@@ -9028,6 +9005,1198 @@
                 "text": "Damit kommen wir zur Frage 26 des Kollegen Oliver Luksic:"
               }
             ]
+          }
+        ]
+      }
+    ],
+    "documents": [
+      {
+        "type": "officialDocument",
+        "label": "Drucksache 19/13255",
+        "sourceURI": "https://dserver.bundestag.de/btd/19/132/1913255.pdf"
+      }
+    ],
+    "key": "19-114 tagesordnungspunkt 2 (claudia roth) #1",
+    "dateStart": "2019-09-25T13:03:01",
+    "dateEnd": "2019-09-25T13:10:39",
+    "media": {
+      "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7390554/7390554_h264_720_400_2000kb_baseline_de_2192.mp4",
+      "sourcePage": "http://dbtg.tv/fvid/7390554",
+      "duration": 458.0,
+      "creator": "Deutscher Bundestag",
+      "license": "CC-BY-SA",
+      "originMediaID": "7390554",
+      "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7390554/7390554_mp3_128kb_stereo_de_128.mp3"
+    }
+  },
+  {
+    "parliament": "DE",
+    "electoralPeriod": {
+      "number": 19
+    },
+    "session": {
+      "number": 114
+    },
+    "agendaItem": {
+      "title": "Fragestunde",
+      "officialTitle": "Tagesordnungspunkt 2",
+      "speechIndex": 19
+    },
+    "media": {
+      "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7390555/7390555_h264_720_400_2000kb_baseline_de_2192.mp4",
+      "sourcePage": "http://dbtg.tv/fvid/7390555",
+      "duration": 482.0,
+      "creator": "Deutscher Bundestag",
+      "license": "CC-BY-SA",
+      "originMediaID": "7390555",
+      "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7390555/7390555_mp3_128kb_stereo_de_128.mp3"
+    },
+    "dateStart": "2019-09-25T13:10:39",
+    "dateEnd": "2019-09-25T13:18:41",
+    "people": [
+      {
+        "label": "Michelle Müntefering",
+        "faction": "SPD",
+        "context": "main-speaker",
+        "role": "Staatsministerin im Auswärtigen Amt"
+      }
+    ],
+    "key": "19-114 tagesordnungspunkt 2 (michelle muntefering)"
+  },
+  {
+    "parliament": "DE",
+    "electoralPeriod": {
+      "number": 19
+    },
+    "session": {
+      "number": 114
+    },
+    "agendaItem": {
+      "title": "Fragestunde",
+      "officialTitle": "Tagesordnungspunkt 2",
+      "speechIndex": 20
+    },
+    "media": {
+      "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7390556/7390556_h264_720_400_2000kb_baseline_de_2192.mp4",
+      "sourcePage": "http://dbtg.tv/fvid/7390556",
+      "duration": 422.0,
+      "creator": "Deutscher Bundestag",
+      "license": "CC-BY-SA",
+      "originMediaID": "7390556",
+      "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7390556/7390556_mp3_128kb_stereo_de_128.mp3"
+    },
+    "dateStart": "2019-09-25T13:18:41",
+    "dateEnd": "2019-09-25T13:25:43",
+    "people": [
+      {
+        "label": "Thomas Bareiß",
+        "faction": "CDU/CSU",
+        "context": "main-speaker",
+        "role": "Parlamentarischer Staatssekretär für Wirtschaft und Energie"
+      }
+    ],
+    "key": "19-114 tagesordnungspunkt 2 (thomas bareiß)"
+  },
+  {
+    "parliament": "DE",
+    "electoralPeriod": {
+      "number": "19"
+    },
+    "session": {
+      "number": "114",
+      "dateStart": "2019-09-25T13.00",
+      "dateEnd": "2019-09-25T17.04"
+    },
+    "agendaItem": {
+      "officialTitle": "Tagesordnungspunkt 2",
+      "speechIndex": 1079,
+      "title": "Fragestunde"
+    },
+    "people": [
+      {
+        "type": "memberOfParliament",
+        "label": "Claudia Roth",
+        "context": "vice-president"
+      }
+    ],
+    "textContents": [
+      {
+        "type": "proceedings",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19114-data.xml",
+        "creator": "Deutscher Bundestag",
+        "license": "Public Domain",
+        "language": "DE-de",
+        "originTextID": "",
+        "textBody": [
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "Liebe Kolleginnen und Kollegen, einen schönen Nachmittag wünsche ich Ihnen!",
+            "sentences": [
+              {
+                "text": "Liebe Kolleginnen und Kollegen, einen schönen Nachmittag wünsche ich Ihnen!"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "Nach der Befragung der Bundesregierung rufe ich jetzt Tagesordnungspunkt 2 auf:",
+            "sentences": [
+              {
+                "text": "Nach der Befragung der Bundesregierung rufe ich jetzt Tagesordnungspunkt 2 auf:"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "Fragestunde",
+            "sentences": [
+              {
+                "text": "Fragestunde"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "Die mündlichen Fragen auf Drucksache 19/13255 werden in der üblichen Reihenfolge aufgerufen.",
+            "sentences": [
+              {
+                "text": "Die mündlichen Fragen auf Drucksache 19/13255 werden in der üblichen Reihenfolge aufgerufen."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "Ich rufe den Geschäftsbereich des Bundesministeriums der Justiz und für Verbraucherschutz auf und begrüße auf der Regierungsbank ganz herzlich die Kolleginnen und Kollegen, die hier sind: den Parlamentarischen Staatssekretär Christian Lange und die Parlamentarische Staatssekretärin Rita Hagl-Kehl.",
+            "sentences": [
+              {
+                "text": "Ich rufe den Geschäftsbereich des Bundesministeriums der Justiz und für Verbraucherschutz auf und begrüße auf der Regierungsbank ganz herzlich die Kolleginnen und Kollegen, die hier sind: den Parlamentarischen Staatssekretär Christian Lange und die Parlamentarische Staatssekretärin Rita Hagl-Kehl."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "Die Abgeordnete Renner ist nicht da – wir sehen sie nicht leibhaftig –, daher verfahren wir bei den Fragen 1 und 2, wie in der Geschäftsordnung vorgesehen.",
+            "sentences": [
+              {
+                "text": "Die Abgeordnete Renner ist nicht da – wir sehen sie nicht leibhaftig –, daher verfahren wir bei den Fragen 1 und 2, wie in der Geschäftsordnung vorgesehen."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "Dann kommen wir jetzt zur Frage 3 von Stefan Schmidt – ich sehe ihn leibhaftig –, die Frau Rita Hagl-Kehl beantwortet:",
+            "sentences": [
+              {
+                "text": "Dann kommen wir jetzt zur Frage 3 von Stefan Schmidt – ich sehe ihn leibhaftig –, die Frau Rita Hagl-Kehl beantwortet:"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "Vielen Dank. – Herr Schmidt, wollen Sie nachfragen? – Bitte schön.",
+            "sentences": [
+              {
+                "text": "Vielen Dank."
+              },
+              {
+                "text": "– Herr Schmidt, wollen Sie nachfragen?"
+              },
+              {
+                "text": "– Bitte schön."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "Frau Staatssekretärin, bitte.",
+            "sentences": [
+              {
+                "text": "Frau Staatssekretärin, bitte."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "Ich bitte die Kollegen und Kolleginnen Abgeordneten und die Vertreter und Vertreterinnen auf der Regierungsbank, sich bei Fragen und Antworten an die vorgegebene Redezeit zu halten.",
+            "sentences": [
+              {
+                "text": "Ich bitte die Kollegen und Kolleginnen Abgeordneten und die Vertreter und Vertreterinnen auf der Regierungsbank, sich bei Fragen und Antworten an die vorgegebene Redezeit zu halten."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "Herr Schmidt, das gilt jetzt auch für Sie.",
+            "sentences": [
+              {
+                "text": "Herr Schmidt, das gilt jetzt auch für Sie."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "Frau Staatssekretärin.",
+            "sentences": [
+              {
+                "text": "Frau Staatssekretärin."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "Vielen Dank. – Dann kommen wir zur Frage 4 des Kollegen Roman Müller-Böhm von der FDP:",
+            "sentences": [
+              {
+                "text": "Vielen Dank."
+              },
+              {
+                "text": "– Dann kommen wir zur Frage 4 des Kollegen Roman Müller-Böhm von der FDP:"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "Es antwortet Christian Lange.",
+            "sentences": [
+              {
+                "text": "Es antwortet Christian Lange."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "Herzlichen Dank. – Herr Müller-Böhm.",
+            "sentences": [
+              {
+                "text": "Herzlichen Dank."
+              },
+              {
+                "text": "– Herr Müller-Böhm."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "Herr Lange.",
+            "sentences": [
+              {
+                "text": "Herr Lange."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "Herr Müller-Böhm? – Keine weitere Nachfrage.",
+            "sentences": [
+              {
+                "text": "Herr Müller-Böhm?"
+              },
+              {
+                "text": "– Keine weitere Nachfrage."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "Die Frage 5 des Abgeordneten Christian Kühn wird schriftlich beantwortet.",
+            "sentences": [
+              {
+                "text": "Die Frage 5 des Abgeordneten Christian Kühn wird schriftlich beantwortet."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "Dann kommen wir zur Frage 6 der Kollegin Dr. Manuela Rottmann:",
+            "sentences": [
+              {
+                "text": "Dann kommen wir zur Frage 6 der Kollegin Dr. Manuela Rottmann:"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "Christian Lange ist wieder der Antwortende.",
+            "sentences": [
+              {
+                "text": "Christian Lange ist wieder der Antwortende."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "Vielen Dank. – Manuela Rottmann, bitte.",
+            "sentences": [
+              {
+                "text": "Vielen Dank."
+              },
+              {
+                "text": "– Manuela Rottmann, bitte."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "Herr Lange.",
+            "sentences": [
+              {
+                "text": "Herr Lange."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "Frau Rottmann, die zweite Rückfrage.",
+            "sentences": [
+              {
+                "text": "Frau Rottmann, die zweite Rückfrage."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "Vielen Dank. – Katja Keul.",
+            "sentences": [
+              {
+                "text": "Vielen Dank."
+              },
+              {
+                "text": "– Katja Keul."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "Vielen Dank, Herr Lange. – Dann die Frau Kollegin Filiz Polat.",
+            "sentences": [
+              {
+                "text": "Vielen Dank, Herr Lange."
+              },
+              {
+                "text": "– Dann die Frau Kollegin Filiz Polat."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "Vielen Dank, Herr Lange. – Dann rufe ich die Frage 7 der Kollegin Dr. Manuela Rottmann auf:",
+            "sentences": [
+              {
+                "text": "Vielen Dank, Herr Lange."
+              },
+              {
+                "text": "– Dann rufe ich die Frage 7 der Kollegin Dr. Manuela Rottmann auf:"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "Herr Kollege Lange, bitte.",
+            "sentences": [
+              {
+                "text": "Herr Kollege Lange, bitte."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "Vielen Dank, Christian Lange. – Frau Rottmann.",
+            "sentences": [
+              {
+                "text": "Vielen Dank, Christian Lange."
+              },
+              {
+                "text": "– Frau Rottmann."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "Frau Rottmann.",
+            "sentences": [
+              {
+                "text": "Frau Rottmann."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "Vielen Dank, Christian Lange; vielen Dank, Frau Rottmann.",
+            "sentences": [
+              {
+                "text": "Vielen Dank, Christian Lange; vielen Dank, Frau Rottmann."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "Dann kommen wir zur Frage 8 der Kollegin Daniela Kluckert:",
+            "sentences": [
+              {
+                "text": "Dann kommen wir zur Frage 8 der Kollegin Daniela Kluckert:"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "Die Frage wird beantwortet von Frau Hagl-Kehl. – Frau Staatssekretärin, bitte.",
+            "sentences": [
+              {
+                "text": "Die Frage wird beantwortet von Frau Hagl-Kehl."
+              },
+              {
+                "text": "– Frau Staatssekretärin, bitte."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "Vielen Dank. – Frau Kluckert.",
+            "sentences": [
+              {
+                "text": "Vielen Dank."
+              },
+              {
+                "text": "– Frau Kluckert."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "Frau Staatssekretärin.",
+            "sentences": [
+              {
+                "text": "Frau Staatssekretärin."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "Frau Kluckert, wollen Sie nachfragen?",
+            "sentences": [
+              {
+                "text": "Frau Kluckert, wollen Sie nachfragen?"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "Herr Kollege Hoffmann von der FDP, bitte.",
+            "sentences": [
+              {
+                "text": "Herr Kollege Hoffmann von der FDP, bitte."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "Vielen Dank, Herr Hoffmann. – Frau Kollegin.",
+            "sentences": [
+              {
+                "text": "Vielen Dank, Herr Hoffmann."
+              },
+              {
+                "text": "– Frau Kollegin."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "Vielen herzlichen Dank, Frau Hagl-Kehl; vielen Dank, Herr Lange.",
+            "sentences": [
+              {
+                "text": "Vielen herzlichen Dank, Frau Hagl-Kehl; vielen Dank, Herr Lange."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "Ich rufe den Geschäftsbereich des Bundesministeriums für Arbeit und Soziales auf. Ich begrüße die Parlamentarische Staatssekretärin Anette Kramme, die zur Beantwortung der Fragen bereitsteht.",
+            "sentences": [
+              {
+                "text": "Ich rufe den Geschäftsbereich des Bundesministeriums für Arbeit und Soziales auf."
+              },
+              {
+                "text": "Ich begrüße die Parlamentarische Staatssekretärin Anette Kramme, die zur Beantwortung der Fragen bereitsteht."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "Ich rufe die Frage 9 der Kollegin Daniela Kluckert von der FDP auf:",
+            "sentences": [
+              {
+                "text": "Ich rufe die Frage 9 der Kollegin Daniela Kluckert von der FDP auf:"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "Frau Staatssekretärin.",
+            "sentences": [
+              {
+                "text": "Frau Staatssekretärin."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "Vielen Dank. – Frau Kluckert.",
+            "sentences": [
+              {
+                "text": "Vielen Dank."
+              },
+              {
+                "text": "– Frau Kluckert."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "Frau Staatssekretärin.",
+            "sentences": [
+              {
+                "text": "Frau Staatssekretärin."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "Frau Kluckert, wollen Sie eine weitere Nachfrage stellen?",
+            "sentences": [
+              {
+                "text": "Frau Kluckert, wollen Sie eine weitere Nachfrage stellen?"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "Frau Staatssekretärin.",
+            "sentences": [
+              {
+                "text": "Frau Staatssekretärin."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "Vielen Dank. – Die Fragen 10 und 11 der Abgeordneten Sabine Zimmermann und die Frage 12 des Abgeordneten Sven Lehmann werden schriftlich beantwortet.",
+            "sentences": [
+              {
+                "text": "Vielen Dank."
+              },
+              {
+                "text": "– Die Fragen 10 und 11 der Abgeordneten Sabine Zimmermann und die Frage 12 des Abgeordneten Sven Lehmann werden schriftlich beantwortet."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "Bitte, Frau Staatssekretärin, beantworten Sie die Frage 13 von Dr. Christoph Hoffmann:",
+            "sentences": [
+              {
+                "text": "Bitte, Frau Staatssekretärin, beantworten Sie die Frage 13 von Dr. Christoph Hoffmann:"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "Danke, Frau Staatssekretärin. – Herr Dr. Hoffmann.",
+            "sentences": [
+              {
+                "text": "Danke, Frau Staatssekretärin."
+              },
+              {
+                "text": "– Herr Dr. Hoffmann."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "Frau Staatssekretärin.",
+            "sentences": [
+              {
+                "text": "Frau Staatssekretärin."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "Herr Dr. Hoffmann.",
+            "sentences": [
+              {
+                "text": "Herr Dr. Hoffmann."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "Frau Staatssekretärin.",
+            "sentences": [
+              {
+                "text": "Frau Staatssekretärin."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "Vielen Dank, Frau Staatssekretärin.",
+            "sentences": [
+              {
+                "text": "Vielen Dank, Frau Staatssekretärin."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "Wir kommen zum Geschäftsbereich des Bundesministeriums der Verteidigung. Zur Beantwortung steht niemand bereit, weil die Frage 14 der Abgeordneten Ulla Jelpke und die Frage 15 der Abgeordneten Canan Bayram schriftlich beantwortet werden.",
+            "sentences": [
+              {
+                "text": "Wir kommen zum Geschäftsbereich des Bundesministeriums der Verteidigung."
+              },
+              {
+                "text": "Zur Beantwortung steht niemand bereit, weil die Frage 14 der Abgeordneten Ulla Jelpke und die Frage 15 der Abgeordneten Canan Bayram schriftlich beantwortet werden."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "Wir kommen zum Geschäftsbereich des Bundesministeriums für Ernährung und Landwirtschaft. Zur Beantwortung steht bereit der Parlamentarische Staatssekretär Hans-Joachim Fuchtel. Ich begrüße Sie recht herzlich, Herr Fuchtel.",
+            "sentences": [
+              {
+                "text": "Wir kommen zum Geschäftsbereich des Bundesministeriums für Ernährung und Landwirtschaft."
+              },
+              {
+                "text": "Zur Beantwortung steht bereit der Parlamentarische Staatssekretär Hans-Joachim Fuchtel."
+              },
+              {
+                "text": "Ich begrüße Sie recht herzlich, Herr Fuchtel."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "Jetzt kommt die Antwort auf die Frage 16 des Kollegen Dr. Christoph Hoffmann:",
+            "sentences": [
+              {
+                "text": "Jetzt kommt die Antwort auf die Frage 16 des Kollegen Dr. Christoph Hoffmann:"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "Vielen Dank, Herr Fuchtel. – Herr Dr. Hoffmann.",
+            "sentences": [
+              {
+                "text": "Vielen Dank, Herr Fuchtel."
+              },
+              {
+                "text": "– Herr Dr. Hoffmann."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "Herr Dr. Hoffmann.",
+            "sentences": [
+              {
+                "text": "Herr Dr. Hoffmann."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "Vielen Dank, Herr Staatssekretär.",
+            "sentences": [
+              {
+                "text": "Vielen Dank, Herr Staatssekretär."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "Ich rufe die Frage 17 der Abgeordneten Katharina Dröge auf:",
+            "sentences": [
+              {
+                "text": "Ich rufe die Frage 17 der Abgeordneten Katharina Dröge auf:"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "Herr Fuchtel, bitte.",
+            "sentences": [
+              {
+                "text": "Herr Fuchtel, bitte."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "Frau Dröge, bitte.",
+            "sentences": [
+              {
+                "text": "Frau Dröge, bitte."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "Herr Fuchtel.",
+            "sentences": [
+              {
+                "text": "Herr Fuchtel."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "Frau Dröge, Nachfrage? – Bitte.",
+            "sentences": [
+              {
+                "text": "Frau Dröge, Nachfrage?"
+              },
+              {
+                "text": "– Bitte."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "Vielen Dank, Herr Fuchtel. – Jetzt eine Nachfrage von Stefan Gelbhaar.",
+            "sentences": [
+              {
+                "text": "Vielen Dank, Herr Fuchtel."
+              },
+              {
+                "text": "– Jetzt eine Nachfrage von Stefan Gelbhaar."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "Vielen Dank. – Wir kommen zur Frage 18 von Dr. Gero Clemens Hocker:",
+            "sentences": [
+              {
+                "text": "Vielen Dank."
+              },
+              {
+                "text": "– Wir kommen zur Frage 18 von Dr. Gero Clemens Hocker:"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "Herr Staatssekretär.",
+            "sentences": [
+              {
+                "text": "Herr Staatssekretär."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "Herr Dr. Hocker.",
+            "sentences": [
+              {
+                "text": "Herr Dr. Hocker."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "Herr Dr. Hocker, eine zweite Nachfrage.",
+            "sentences": [
+              {
+                "text": "Herr Dr. Hocker, eine zweite Nachfrage."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "Frau Dr. Rottmann.",
+            "sentences": [
+              {
+                "text": "Frau Dr. Rottmann."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "Vielen Dank, Herr Staatssekretär. Sie haben vorhin auf ein anderes Ministerium verwiesen; ich nehme an, auf das Justizministerium. Ein Vertreter dieses Ministeriums ist nicht anwesend. Ich glaube aber, die Frage ist jetzt beantwortet.",
+            "sentences": [
+              {
+                "text": "Vielen Dank, Herr Staatssekretär."
+              },
+              {
+                "text": "Sie haben vorhin auf ein anderes Ministerium verwiesen; ich nehme an, auf das Justizministerium."
+              },
+              {
+                "text": "Ein Vertreter dieses Ministeriums ist nicht anwesend."
+              },
+              {
+                "text": "Ich glaube aber, die Frage ist jetzt beantwortet."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "Ich rufe den Geschäftsbereich des Bundesministeriums für Familie, Senioren, Frauen und Jugend auf. Zur Beantwortung steht niemand bereit, weil die Frage 19 der Abgeordneten Kordula Schulz-Asche schriftlich beantwortet wird.",
+            "sentences": [
+              {
+                "text": "Ich rufe den Geschäftsbereich des Bundesministeriums für Familie, Senioren, Frauen und Jugend auf."
+              },
+              {
+                "text": "Zur Beantwortung steht niemand bereit, weil die Frage 19 der Abgeordneten Kordula Schulz-Asche schriftlich beantwortet wird."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "Wir kommen jetzt zum Geschäftsbereich des Bundesministeriums für Gesundheit. Zur Beantwortung steht Dr. Thomas Gebhart bereit.",
+            "sentences": [
+              {
+                "text": "Wir kommen jetzt zum Geschäftsbereich des Bundesministeriums für Gesundheit."
+              },
+              {
+                "text": "Zur Beantwortung steht Dr. Thomas Gebhart bereit."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "Die Frage 20 der Abgeordneten Kordula Schulz-Asche wird schriftlich beantwortet.",
+            "sentences": [
+              {
+                "text": "Die Frage 20 der Abgeordneten Kordula Schulz-Asche wird schriftlich beantwortet."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "Wir kommen zur Frage 21 der Kollegin Pia Zimmermann:",
+            "sentences": [
+              {
+                "text": "Wir kommen zur Frage 21 der Kollegin Pia Zimmermann:"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "Herr Dr. Gebhart, bitte.",
+            "sentences": [
+              {
+                "text": "Herr Dr. Gebhart, bitte."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "Vielen Dank, Herr Staatssekretär. – Frau Zimmermann.",
+            "sentences": [
+              {
+                "text": "Vielen Dank, Herr Staatssekretär."
+              },
+              {
+                "text": "– Frau Zimmermann."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "Herr Dr. Gebhart.",
+            "sentences": [
+              {
+                "text": "Herr Dr. Gebhart."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "Frau Zimmermann, wollen Sie nachfragen?",
+            "sentences": [
+              {
+                "text": "Frau Zimmermann, wollen Sie nachfragen?"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "Herzlichen Dank. – Wir bleiben bei der Fragestellerin Kollegin Pia Zimmermann, Frage 22:",
+            "sentences": [
+              {
+                "text": "Herzlichen Dank."
+              },
+              {
+                "text": "– Wir bleiben bei der Fragestellerin Kollegin Pia Zimmermann, Frage 22:"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "Herr Dr. Gebhart, bitte.",
+            "sentences": [
+              {
+                "text": "Herr Dr. Gebhart, bitte."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "Vielen Dank. – Frau Zimmermann, bitte.",
+            "sentences": [
+              {
+                "text": "Vielen Dank."
+              },
+              {
+                "text": "– Frau Zimmermann, bitte."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "Herr Staatssekretär.",
+            "sentences": [
+              {
+                "text": "Herr Staatssekretär."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "Frau Zimmermann, haben Sie eine Nachfrage?",
+            "sentences": [
+              {
+                "text": "Frau Zimmermann, haben Sie eine Nachfrage?"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "Dafür haben wir jetzt aber keine Zeit mehr.",
+            "sentences": [
+              {
+                "text": "Dafür haben wir jetzt aber keine Zeit mehr."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "Vielen herzlichen Dank, Dr. Gebhart. Das hat jetzt ein bisschen oft rot geblinkt; wir hier oben haben die Ampel falsch eingestellt.",
+            "sentences": [
+              {
+                "text": "Vielen herzlichen Dank, Dr. Gebhart."
+              },
+              {
+                "text": "Das hat jetzt ein bisschen oft rot geblinkt; wir hier oben haben die Ampel falsch eingestellt."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "Dann kommen wir zum Geschäftsbereich des Bundesministeriums für Verkehr und digitale Infrastruktur, und ich begrüße den Parlamentarischen Staatssekretär Enak Ferlemann",
+            "sentences": [
+              {
+                "text": "Dann kommen wir zum Geschäftsbereich des Bundesministeriums für Verkehr und digitale Infrastruktur, und ich begrüße den Parlamentarischen Staatssekretär Enak Ferlemann"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "Die Fragen 23 und 24 des Abgeordneten Stephan Kühn (Dresden) werden schriftlich beantwortet. Die Frage 25 des Abgeordneten Oliver Luksic ist zurückgezogen.",
+            "sentences": [
+              {
+                "text": "Die Fragen 23 und 24 des Abgeordneten Stephan Kühn (Dresden) werden schriftlich beantwortet."
+              },
+              {
+                "text": "Die Frage 25 des Abgeordneten Oliver Luksic ist zurückgezogen."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "Damit kommen wir zur Frage 26 des Kollegen Oliver Luksic:",
+            "sentences": [
+              {
+                "text": "Damit kommen wir zur Frage 26 des Kollegen Oliver Luksic:"
+              }
+            ]
           },
           {
             "type": "speech",
@@ -9037,26 +10206,6 @@
             "sentences": [
               {
                 "text": "Herr Ferlemann."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Enak Ferlemann",
-            "speakerstatus": "speaker",
-            "text": "Danke, Frau Präsidentin. – Ich gebe folgende Antwort: Im Schriftwechsel zwischen den Parteien des Vertrages „Erhebung“ seit dem 23. Juli 2019, insgesamt 15 Schreiben, sind insbesondere Fragen zur Abwicklung der Verträge und zu den Kündigungsgründen behandelt worden. Ferner wurde eine weitere Kündigung des Betreibervertrages ausgesprochen. Die Bundesregierung hat erklärt, dass keine Entschädigungsansprüche des Betreibers der Erhebung entstehen, wenn die Kündigung des Betreibervertrages nicht nur aus ordnungspolitischen Gründen erklärt wird; vergleiche auch Ziffer 30.5.5 des Betreibervertrages.",
-            "sentences": [
-              {
-                "text": "Danke, Frau Präsidentin."
-              },
-              {
-                "text": "– Ich gebe folgende Antwort: Im Schriftwechsel zwischen den Parteien des Vertrages „Erhebung“ seit dem 23. Juli 2019, insgesamt 15 Schreiben, sind insbesondere Fragen zur Abwicklung der Verträge und zu den Kündigungsgründen behandelt worden."
-              },
-              {
-                "text": "Ferner wurde eine weitere Kündigung des Betreibervertrages ausgesprochen."
-              },
-              {
-                "text": "Die Bundesregierung hat erklärt, dass keine Entschädigungsansprüche des Betreibers der Erhebung entstehen, wenn die Kündigung des Betreibervertrages nicht nur aus ordnungspolitischen Gründen erklärt wird; vergleiche auch Ziffer 30.5.5 des Betreibervertrages."
               }
             ]
           },
@@ -9076,88 +10225,12 @@
           },
           {
             "type": "speech",
-            "speaker": "Oliver Luksic",
-            "speakerstatus": "speaker",
-            "text": "Vielen Dank, Frau Präsidentin. – Herr Staatssekretär, die Äußerung des Ministers in der „Hannoverschen Allgemeinen Zeitung“ war etwas unklar. Für mich ist die rechtliche Situation relativ eindeutig.",
-            "sentences": [
-              {
-                "text": "Vielen Dank, Frau Präsidentin."
-              },
-              {
-                "text": "– Herr Staatssekretär, die Äußerung des Ministers in der „Hannoverschen Allgemeinen Zeitung“ war etwas unklar."
-              },
-              {
-                "text": "Für mich ist die rechtliche Situation relativ eindeutig."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Oliver Luksic",
-            "speakerstatus": "speaker",
-            "text": "Sie haben eben den Betreibervertrag dargelegt. Ich darf auch 30.5.4 zitieren: Bei einer Kündigung aus ordnungspolitischen Gründen besteht „Anspruch auf Schadensersatz in Höhe des Kaufpreises“, wie er sich aus dem Vertrag ergibt. – Auch aus Ihrem Hause gibt es Schreiben, die diese Rechtsauffassung bestätigen. Das war den Medien allerdings anders zu entnehmen.",
-            "sentences": [
-              {
-                "text": "Sie haben eben den Betreibervertrag dargelegt."
-              },
-              {
-                "text": "Ich darf auch 30.5.4 zitieren: Bei einer Kündigung aus ordnungspolitischen Gründen besteht „Anspruch auf Schadensersatz in Höhe des Kaufpreises“, wie er sich aus dem Vertrag ergibt."
-              },
-              {
-                "text": "– Auch aus Ihrem Hause gibt es Schreiben, die diese Rechtsauffassung bestätigen."
-              },
-              {
-                "text": "Das war den Medien allerdings anders zu entnehmen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Oliver Luksic",
-            "speakerstatus": "speaker",
-            "text": "Es gibt jetzt Vorwürfe an die Betreiber, zum einen die Schlechtleistung, zum anderen in Bezug auf die Unterauftragnehmer. Ich meine, dass sie sich ein Stück weit aufgelöst haben.",
-            "sentences": [
-              {
-                "text": "Es gibt jetzt Vorwürfe an die Betreiber, zum einen die Schlechtleistung, zum anderen in Bezug auf die Unterauftragnehmer."
-              },
-              {
-                "text": "Ich meine, dass sie sich ein Stück weit aufgelöst haben."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Oliver Luksic",
-            "speakerstatus": "speaker",
-            "text": "Wie kann es sein, dass auch in dem Schreiben an die FDP-Fraktion weiterhin behauptet wird, dass bereits eine Kündigung aus ordnungspolitischen Gründen ausreicht, eine solche Schadensersatzforderung abzuwehren?",
-            "sentences": [
-              {
-                "text": "Wie kann es sein, dass auch in dem Schreiben an die FDP-Fraktion weiterhin behauptet wird, dass bereits eine Kündigung aus ordnungspolitischen Gründen ausreicht, eine solche Schadensersatzforderung abzuwehren?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
             "speaker": "Claudia Roth",
             "speakerstatus": "vice-president",
             "text": "Herr Ferlemann.",
             "sentences": [
               {
                 "text": "Herr Ferlemann."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Enak Ferlemann",
-            "speakerstatus": "speaker",
-            "text": "Ich wüsste nicht, dass die FDP so ein Schreiben hat; ich kenne das jedenfalls nicht. – Klar ist: Bei dem Fall, den Sie ansprechen, reichen rein ordnungspolitische Gründe nicht aus.",
-            "sentences": [
-              {
-                "text": "Ich wüsste nicht, dass die FDP so ein Schreiben hat; ich kenne das jedenfalls nicht."
-              },
-              {
-                "text": "– Klar ist: Bei dem Fall, den Sie ansprechen, reichen rein ordnungspolitische Gründe nicht aus."
               }
             ]
           },
@@ -9174,86 +10247,12 @@
           },
           {
             "type": "speech",
-            "speaker": "Oliver Luksic",
-            "speakerstatus": "speaker",
-            "text": "Es ist gut, das zu erfahren; danke für die Klarstellung. – Da heute im Ausschuss eine Frage nicht klar beantwortet wurde, muss ich sie hier noch einmal stellen. Sie haben am Samstag wahrscheinlich ja auch den Artikel im „Spiegel“ gelesen, in dem zwei Behauptungen aufgestellt wurden, die, glaube ich, sehr wichtig für das Gesamtverständnis sind und zu denen ich um eine klare Auskunft bitte.",
-            "sentences": [
-              {
-                "text": "Es ist gut, das zu erfahren; danke für die Klarstellung."
-              },
-              {
-                "text": "– Da heute im Ausschuss eine Frage nicht klar beantwortet wurde, muss ich sie hier noch einmal stellen."
-              },
-              {
-                "text": "Sie haben am Samstag wahrscheinlich ja auch den Artikel im „Spiegel“ gelesen, in dem zwei Behauptungen aufgestellt wurden, die, glaube ich, sehr wichtig für das Gesamtverständnis sind und zu denen ich um eine klare Auskunft bitte."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Oliver Luksic",
-            "speakerstatus": "speaker",
-            "text": "Im „Spiegel“ wird in einem ausführlichen Artikel dargelegt, dass es eine Absprache zwischen dem Minister und Eventim, Herrn Schulenberg, gegeben hat. Danach hätten die Betreiber im Herbst letzten Jahres angeboten, die Vertragsunterzeichnung zu verschieben. Dies habe der Minister mit dem Hinweis auf das Wahljahr ausdrücklich abgelehnt. Er wolle das unbedingt sehr schnell einführen und das Urteil nicht abwarten, damit die Einführung nicht in das Wahljahr fällt. – Das ist der eine Vorwurf.",
-            "sentences": [
-              {
-                "text": "Im „Spiegel“ wird in einem ausführlichen Artikel dargelegt, dass es eine Absprache zwischen dem Minister und Eventim, Herrn Schulenberg, gegeben hat."
-              },
-              {
-                "text": "Danach hätten die Betreiber im Herbst letzten Jahres angeboten, die Vertragsunterzeichnung zu verschieben."
-              },
-              {
-                "text": "Dies habe der Minister mit dem Hinweis auf das Wahljahr ausdrücklich abgelehnt."
-              },
-              {
-                "text": "Er wolle das unbedingt sehr schnell einführen und das Urteil nicht abwarten, damit die Einführung nicht in das Wahljahr fällt."
-              },
-              {
-                "text": "– Das ist der eine Vorwurf."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Oliver Luksic",
-            "speakerstatus": "speaker",
-            "text": "Der zweite Vorwurf ist, dass der Minister bei einem Treffen direkt nach der Kündigung des Vertrages Herrn Schulenberg aufgefordert hat, das anders darzustellen. Der Minister hat Herrn Schulenberg also sozusagen aufgefordert, die Unwahrheit zu sagen. Können Sie diesen Sachverhalt definitiv ausschließen, oder wollen Sie das bestätigen?",
-            "sentences": [
-              {
-                "text": "Der zweite Vorwurf ist, dass der Minister bei einem Treffen direkt nach der Kündigung des Vertrages Herrn Schulenberg aufgefordert hat, das anders darzustellen."
-              },
-              {
-                "text": "Der Minister hat Herrn Schulenberg also sozusagen aufgefordert, die Unwahrheit zu sagen."
-              },
-              {
-                "text": "Können Sie diesen Sachverhalt definitiv ausschließen, oder wollen Sie das bestätigen?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
             "speaker": "Claudia Roth",
             "speakerstatus": "vice-president",
             "text": "Herr Ferlemann.",
             "sentences": [
               {
                 "text": "Herr Ferlemann."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Enak Ferlemann",
-            "speakerstatus": "speaker",
-            "text": "Ich kann die Berichterstattung des „Spiegels“ nicht kommentieren; ich war an diesen Gesprächen ja nicht beteiligt. Der Minister hat Ihnen heute Morgen ja gesagt, dass sehr unsachlich berichtet worden ist. Also bitte ich Sie, diese Frage direkt an den Minister zu richten.",
-            "sentences": [
-              {
-                "text": "Ich kann die Berichterstattung des „Spiegels“ nicht kommentieren; ich war an diesen Gesprächen ja nicht beteiligt."
-              },
-              {
-                "text": "Der Minister hat Ihnen heute Morgen ja gesagt, dass sehr unsachlich berichtet worden ist."
-              },
-              {
-                "text": "Also bitte ich Sie, diese Frage direkt an den Minister zu richten."
               }
             ]
           },
@@ -9273,45 +10272,12 @@
           },
           {
             "type": "speech",
-            "speaker": "Enak Ferlemann",
-            "speakerstatus": "speaker",
-            "text": "Sie können die Frage ja schriftlich einreichen, und dann werden Sie sie beantwortet bekommen.",
-            "sentences": [
-              {
-                "text": "Sie können die Frage ja schriftlich einreichen, und dann werden Sie sie beantwortet bekommen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Oliver Luksic",
-            "speakerstatus": "speaker",
-            "text": "Er kann jetzt auch noch kommen.",
-            "sentences": [
-              {
-                "text": "Er kann jetzt auch noch kommen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
             "speaker": "Claudia Roth",
             "speakerstatus": "vice-president",
             "text": "Sie wollen jetzt also, dass wir den Minister herbeizitieren.",
             "sentences": [
               {
                 "text": "Sie wollen jetzt also, dass wir den Minister herbeizitieren."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Oliver Luksic",
-            "speakerstatus": "speaker",
-            "text": "Ja, wir stellen jetzt den Antrag.",
-            "sentences": [
-              {
-                "text": "Ja, wir stellen jetzt den Antrag."
               }
             ]
           },
@@ -9695,97 +10661,6 @@
           },
           {
             "type": "speech",
-            "speaker": "Michelle Müntefering",
-            "speakerstatus": "speaker",
-            "text": "Sehr geehrte Frau Kollegin, im ersten Halbjahr 2019 wurden 18 584 Visaanträge zur Arbeitsaufnahme nach § 18 des Aufenthaltsgesetzes in Verbindung mit § 26 Absatz 2 der Beschäftigungsverordnung, also der sogenannten Westbalkanregelung, bearbeitet. Davon wurden 13 786, das heißt fast 75 Prozent der Anträge, erteilt bzw. positiv beschieden.",
-            "sentences": [
-              {
-                "text": "Sehr geehrte Frau Kollegin, im ersten Halbjahr 2019 wurden 18 584 Visaanträge zur Arbeitsaufnahme nach § 18 des Aufenthaltsgesetzes in Verbindung mit § 26 Absatz 2 der Beschäftigungsverordnung, also der sogenannten Westbalkanregelung, bearbeitet."
-              },
-              {
-                "text": "Davon wurden 13 786, das heißt fast 75 Prozent der Anträge, erteilt bzw. positiv beschieden."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Michelle Müntefering",
-            "speakerstatus": "speaker",
-            "text": "Im Einzelnen: An der Botschaft Belgrad wurden 2 473 Visa bearbeitet, von denen 1 881 positiv beschieden wurden. Das sind 76,06 Prozent. An der Botschaft Podgorica wurden 579 Visa bearbeitet, von denen 424 positiv beschieden wurden. Das sind 73,23 Prozent.",
-            "sentences": [
-              {
-                "text": "Im Einzelnen: An der Botschaft Belgrad wurden 2 473 Visa bearbeitet, von denen 1 881 positiv beschieden wurden."
-              },
-              {
-                "text": "Das sind 76,06 Prozent."
-              },
-              {
-                "text": "An der Botschaft Podgorica wurden 579 Visa bearbeitet, von denen 424 positiv beschieden wurden."
-              },
-              {
-                "text": "Das sind 73,23 Prozent."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Michelle Müntefering",
-            "speakerstatus": "speaker",
-            "text": "An der Botschaft Pristina wurden 3 248 Visa bearbeitet, von denen 2 602 positiv beschieden wurden. Das sind 80,11 Prozent. An der Botschaft Sarajewo wurden 4 510 Visa bearbeitet, von denen 3 449 positiv beschieden wurden. Das sind 76,47 Prozent.",
-            "sentences": [
-              {
-                "text": "An der Botschaft Pristina wurden 3 248 Visa bearbeitet, von denen 2 602 positiv beschieden wurden."
-              },
-              {
-                "text": "Das sind 80,11 Prozent."
-              },
-              {
-                "text": "An der Botschaft Sarajewo wurden 4 510 Visa bearbeitet, von denen 3 449 positiv beschieden wurden."
-              },
-              {
-                "text": "Das sind 76,47 Prozent."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Michelle Müntefering",
-            "speakerstatus": "speaker",
-            "text": "An der Botschaft Skopje wurden 4 645 Visa bearbeitet, von denen 3 249 positiv beschieden wurden. Das sind 69,95 Prozent. An der Botschaft Tirana wurden 3 129 Visa bearbeitet, von denen 2 181 positiv beschieden wurden. Das sind 69,7 Prozent.",
-            "sentences": [
-              {
-                "text": "An der Botschaft Skopje wurden 4 645 Visa bearbeitet, von denen 3 249 positiv beschieden wurden."
-              },
-              {
-                "text": "Das sind 69,95 Prozent."
-              },
-              {
-                "text": "An der Botschaft Tirana wurden 3 129 Visa bearbeitet, von denen 2 181 positiv beschieden wurden."
-              },
-              {
-                "text": "Das sind 69,7 Prozent."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Michelle Müntefering",
-            "speakerstatus": "speaker",
-            "text": "Die Zahlen für das dritte Quartal 2019 liegen hingegen noch nicht vor. Die Wartezeiten auf einen Termin zur Visumantragsstellung nach § 18 des Aufenthaltsgesetzes in Verbindung mit § 26 Absatz 2 der Beschäftigungsverordnung liegen an allen Visastellen in den Westbalkanstaaten mit Ausnahme von Montenegro bei über einem Jahr. – Ich habe die Liste übrigens auch ausgedruckt und mitgebracht.",
-            "sentences": [
-              {
-                "text": "Die Zahlen für das dritte Quartal 2019 liegen hingegen noch nicht vor."
-              },
-              {
-                "text": "Die Wartezeiten auf einen Termin zur Visumantragsstellung nach § 18 des Aufenthaltsgesetzes in Verbindung mit § 26 Absatz 2 der Beschäftigungsverordnung liegen an allen Visastellen in den Westbalkanstaaten mit Ausnahme von Montenegro bei über einem Jahr."
-              },
-              {
-                "text": "– Ich habe die Liste übrigens auch ausgedruckt und mitgebracht."
-              }
-            ]
-          },
-          {
-            "type": "speech",
             "speaker": "Claudia Roth",
             "speakerstatus": "vice-president",
             "text": "Vielen Dank, Frau Müntefering. – Frau Polat.",
@@ -9800,94 +10675,12 @@
           },
           {
             "type": "speech",
-            "speaker": "Filiz Polat",
-            "speakerstatus": "speaker",
-            "text": "Vielen Dank, Frau Präsidentin. – Ich frage Sie: Liegt die Evaluation des Instituts für Arbeitsmarktforschung bezüglich der Westbalkanregelung vor?",
-            "sentences": [
-              {
-                "text": "Vielen Dank, Frau Präsidentin."
-              },
-              {
-                "text": "– Ich frage Sie: Liegt die Evaluation des Instituts für Arbeitsmarktforschung bezüglich der Westbalkanregelung vor?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Michelle Müntefering",
-            "speakerstatus": "speaker",
-            "text": "Es soll bis Ende dieses Jahres, meine ich, evaluiert werden. Es ist richtig: Bis Ende 2019 wird die Regelung für Staatsangehörige der Westbalkanstaaten evaluiert. Im Zusammenhang mit dem am 1. März 2020 in Kraft tretenden Fachkräfteeinwanderungsgesetz arbeitet das Auswärtige Amt mit an dem weiteren Verfahren beteiligten Behörden auch an effizienteren und kundenfreundlicheren Abläufen, an denen Sie vor dem Hintergrund Ihrer Frage sicherlich Interesse haben.",
-            "sentences": [
-              {
-                "text": "Es soll bis Ende dieses Jahres, meine ich, evaluiert werden."
-              },
-              {
-                "text": "Es ist richtig: Bis Ende 2019 wird die Regelung für Staatsangehörige der Westbalkanstaaten evaluiert."
-              },
-              {
-                "text": "Im Zusammenhang mit dem am 1. März 2020 in Kraft tretenden Fachkräfteeinwanderungsgesetz arbeitet das Auswärtige Amt mit an dem weiteren Verfahren beteiligten Behörden auch an effizienteren und kundenfreundlicheren Abläufen, an denen Sie vor dem Hintergrund Ihrer Frage sicherlich Interesse haben."
-              }
-            ]
-          },
-          {
-            "type": "speech",
             "speaker": "Claudia Roth",
             "speakerstatus": "vice-president",
             "text": "Frau Polat.",
             "sentences": [
               {
                 "text": "Frau Polat."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Filiz Polat",
-            "speakerstatus": "speaker",
-            "text": "Vielen Dank. – Bezüglich der Visaanträge: Können Sie uns eine Übersicht über die Anträge insgesamt geben, aus der hervorgeht, aus welchen Branchen die Arbeitsaufnahme erfolgt?",
-            "sentences": [
-              {
-                "text": "Vielen Dank."
-              },
-              {
-                "text": "– Bezüglich der Visaanträge: Können Sie uns eine Übersicht über die Anträge insgesamt geben, aus der hervorgeht, aus welchen Branchen die Arbeitsaufnahme erfolgt?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Filiz Polat",
-            "speakerstatus": "speaker",
-            "text": "Ein Beispiel aus Pristina. Dort zeichnet sich ab, dass die Menschen aus vier Branchen kommen, unter anderem auch aus dem Pflegebereich. Zu diesem Thema war ja auch Gesundheitsminister Spahn im Kosovo. Können Sie uns dazu Näheres sagen?",
-            "sentences": [
-              {
-                "text": "Ein Beispiel aus Pristina."
-              },
-              {
-                "text": "Dort zeichnet sich ab, dass die Menschen aus vier Branchen kommen, unter anderem auch aus dem Pflegebereich."
-              },
-              {
-                "text": "Zu diesem Thema war ja auch Gesundheitsminister Spahn im Kosovo."
-              },
-              {
-                "text": "Können Sie uns dazu Näheres sagen?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Michelle Müntefering",
-            "speakerstatus": "speaker",
-            "text": "Dazu habe ich keine Liste. Ich kann gerne erfragen, ob wir so etwas in der entsprechenden Behörde, in den entsprechenden Botschaften haben. Das würde ich gerne für Sie machen.",
-            "sentences": [
-              {
-                "text": "Dazu habe ich keine Liste."
-              },
-              {
-                "text": "Ich kann gerne erfragen, ob wir so etwas in der entsprechenden Behörde, in den entsprechenden Botschaften haben."
-              },
-              {
-                "text": "Das würde ich gerne für Sie machen."
               }
             ]
           },
@@ -9969,181 +10762,12 @@
           },
           {
             "type": "speech",
-            "speaker": "Thomas Bareiß",
-            "speakerstatus": "speaker",
-            "text": "Vielen Dank, Frau Dröge, für Ihre Frage. – Die Frage haben wir schon heute Morgen im Ausschuss diskutiert; es geht um das Mercosur-Abkommen. Die Bundesregierung hat das Mercosur-Abkommen und die Verhandlungen unterstützt. Wir sehen darin eine große Chance für unsere beiden Kontinente. Es wird ein Wirtschaftsraum entstehen, der über 770 Millionen Menschen umfasst und damit Verbrauchern, Unternehmen und Wirtschaft enorme Perspektiven eröffnet. Ich glaube, dass es in den nächsten eineinhalb Jahren darum geht, dass wir dieses Abkommen ratifizieren müssen. Deshalb sind die Meldungen aus Österreich, die Sie beschrieben haben, auch von unserer Seite aus bedenklich. Sie sind aber zum jetzigen Zeitpunkt nicht relevant, weil kein EU-Ratsbeschluss ansteht. Insofern ist die jetzige Abstimmung im Parlament in Österreich nicht relevant für das Abkommen selber.",
-            "sentences": [
-              {
-                "text": "Vielen Dank, Frau Dröge, für Ihre Frage."
-              },
-              {
-                "text": "– Die Frage haben wir schon heute Morgen im Ausschuss diskutiert; es geht um das Mercosur-Abkommen."
-              },
-              {
-                "text": "Die Bundesregierung hat das Mercosur-Abkommen und die Verhandlungen unterstützt."
-              },
-              {
-                "text": "Wir sehen darin eine große Chance für unsere beiden Kontinente."
-              },
-              {
-                "text": "Es wird ein Wirtschaftsraum entstehen, der über 770 Millionen Menschen umfasst und damit Verbrauchern, Unternehmen und Wirtschaft enorme Perspektiven eröffnet."
-              },
-              {
-                "text": "Ich glaube, dass es in den nächsten eineinhalb Jahren darum geht, dass wir dieses Abkommen ratifizieren müssen."
-              },
-              {
-                "text": "Deshalb sind die Meldungen aus Österreich, die Sie beschrieben haben, auch von unserer Seite aus bedenklich."
-              },
-              {
-                "text": "Sie sind aber zum jetzigen Zeitpunkt nicht relevant, weil kein EU-Ratsbeschluss ansteht."
-              },
-              {
-                "text": "Insofern ist die jetzige Abstimmung im Parlament in Österreich nicht relevant für das Abkommen selber."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Bareiß",
-            "speakerstatus": "speaker",
-            "text": "Es finden nächste Woche Wahlen in Österreich statt. Nach den Wahlen werden wir mit der neuen österreichischen Regierung in Gespräche eintreten und dort anfragen, wie die Meinung ist. Wir werden auch versuchen, unsere österreichischen Partner für das Abkommen zu gewinnen. Genauso werden wir Ängste und Themen aufgreifen, die das Abkommen betreffen.",
-            "sentences": [
-              {
-                "text": "Es finden nächste Woche Wahlen in Österreich statt."
-              },
-              {
-                "text": "Nach den Wahlen werden wir mit der neuen österreichischen Regierung in Gespräche eintreten und dort anfragen, wie die Meinung ist."
-              },
-              {
-                "text": "Wir werden auch versuchen, unsere österreichischen Partner für das Abkommen zu gewinnen."
-              },
-              {
-                "text": "Genauso werden wir Ängste und Themen aufgreifen, die das Abkommen betreffen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Bareiß",
-            "speakerstatus": "speaker",
-            "text": "Ich glaube, insgesamt kann man sagen, dass das Abkommen ein großer Erfolg ist. Viele Dinge sind eingebunden. Klimaschutz, Verbraucherschutz, Umweltschutz, aber auch Artenschutz spielen eine große Rolle und binden auch unsere Partner in Südamerika. Deshalb glaube ich, dass das Abkommen etwas ist, was unseren Ländern hilft und uns auch in Fragen des Klimaschutzes weiterbringt. Deshalb engagieren wir uns, dieses Abkommen in den nächsten eineinhalb Jahren zu ratifizieren.",
-            "sentences": [
-              {
-                "text": "Ich glaube, insgesamt kann man sagen, dass das Abkommen ein großer Erfolg ist."
-              },
-              {
-                "text": "Viele Dinge sind eingebunden."
-              },
-              {
-                "text": "Klimaschutz, Verbraucherschutz, Umweltschutz, aber auch Artenschutz spielen eine große Rolle und binden auch unsere Partner in Südamerika."
-              },
-              {
-                "text": "Deshalb glaube ich, dass das Abkommen etwas ist, was unseren Ländern hilft und uns auch in Fragen des Klimaschutzes weiterbringt."
-              },
-              {
-                "text": "Deshalb engagieren wir uns, dieses Abkommen in den nächsten eineinhalb Jahren zu ratifizieren."
-              }
-            ]
-          },
-          {
-            "type": "speech",
             "speaker": "Claudia Roth",
             "speakerstatus": "vice-president",
             "text": "Frau Dröge, bitte.",
             "sentences": [
               {
                 "text": "Frau Dröge, bitte."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Katharina Dröge",
-            "speakerstatus": "speaker",
-            "text": "Vielen Dank, Herr Staatssekretär. – Wir haben in der Tat heute Morgen im Ausschuss über diese Frage diskutiert, und da haben Sie auf meine Nachfrage geantwortet: Da das Abkommen ein gemischtes Abkommen ist, müssen alle Nationalstaaten am Ende zustimmen, und wenn es jetzt ein Parlament gibt, das sagt: „Wir machen nicht mit“, dann wird das dazu führen – das haben Sie ja sehr klar heute Morgen im Ausschuss gesagt –, dass das Abkommen nicht zustande kommt.",
-            "sentences": [
-              {
-                "text": "Vielen Dank, Herr Staatssekretär."
-              },
-              {
-                "text": "– Wir haben in der Tat heute Morgen im Ausschuss über diese Frage diskutiert, und da haben Sie auf meine Nachfrage geantwortet: Da das Abkommen ein gemischtes Abkommen ist, müssen alle Nationalstaaten am Ende zustimmen, und wenn es jetzt ein Parlament gibt, das sagt: „Wir machen nicht mit“, dann wird das dazu führen – das haben Sie ja sehr klar heute Morgen im Ausschuss gesagt –, dass das Abkommen nicht zustande kommt."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Katharina Dröge",
-            "speakerstatus": "speaker",
-            "text": "Jetzt wollen Sie weiter „business as usual“ machen, Sie wollen irgendwie diesen Ratifizierungsprozess weiter vorantreiben; so haben Sie es heute Morgen im Ausschuss dargestellt. Angesichts der Mehrheiten, mit denen das österreichische Parlament beschlossen hat, Mercosur nicht zu verabschieden – dagegen waren ja die SPÖ, die ÖVP, die Grünen usw. –, frage ich Sie jetzt: Mit wem wollen Sie denn dann nach der Wahl reden? Oder sagen Sie: „Die österreichischen Abgeordneten haben diesen Entschluss völlig unwissend gefasst“?",
-            "sentences": [
-              {
-                "text": "Jetzt wollen Sie weiter „business as usual“ machen, Sie wollen irgendwie diesen Ratifizierungsprozess weiter vorantreiben; so haben Sie es heute Morgen im Ausschuss dargestellt."
-              },
-              {
-                "text": "Angesichts der Mehrheiten, mit denen das österreichische Parlament beschlossen hat, Mercosur nicht zu verabschieden – dagegen waren ja die SPÖ, die ÖVP, die Grünen usw. –, frage ich Sie jetzt: Mit wem wollen Sie denn dann nach der Wahl reden?"
-              },
-              {
-                "text": "Oder sagen Sie: „Die österreichischen Abgeordneten haben diesen Entschluss völlig unwissend gefasst“?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Bareiß",
-            "speakerstatus": "speaker",
-            "text": "Vielleicht wurden in Österreich manche Erkenntnisse noch nicht diskutiert. Ich glaube, auch da muss man noch mal mit den Parlamentariern reden. Es gibt durchaus Aspekte, die derzeit sehr einseitig betrachtet werden. Ich glaube, dass die Diskussion des Themas Klimaschutz, die auch uns derzeit sehr stark bewegt und auch dieses Abkommen ein Stück weit beeinflusst, in die falsche Richtung geht. Ich bin wirklich davon überzeugt, dass wir, wenn man Klimaschutz will, wenn man die Amazonaswälder retten will, das Abkommen schließen müssen; denn damit werden Mechanismen implementiert, die für beide Seiten eine ganz große Bindung haben und dafür sorgen, dass sich die Öffentlichkeit, dass sich die NGOs daran beteiligen können. So kann immer beobachtet werden, was da passiert.",
-            "sentences": [
-              {
-                "text": "Vielleicht wurden in Österreich manche Erkenntnisse noch nicht diskutiert."
-              },
-              {
-                "text": "Ich glaube, auch da muss man noch mal mit den Parlamentariern reden."
-              },
-              {
-                "text": "Es gibt durchaus Aspekte, die derzeit sehr einseitig betrachtet werden."
-              },
-              {
-                "text": "Ich glaube, dass die Diskussion des Themas Klimaschutz, die auch uns derzeit sehr stark bewegt und auch dieses Abkommen ein Stück weit beeinflusst, in die falsche Richtung geht."
-              },
-              {
-                "text": "Ich bin wirklich davon überzeugt, dass wir, wenn man Klimaschutz will, wenn man die Amazonaswälder retten will, das Abkommen schließen müssen; denn damit werden Mechanismen implementiert, die für beide Seiten eine ganz große Bindung haben und dafür sorgen, dass sich die Öffentlichkeit, dass sich die NGOs daran beteiligen können."
-              },
-              {
-                "text": "So kann immer beobachtet werden, was da passiert."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Bareiß",
-            "speakerstatus": "speaker",
-            "text": "Darauf aufbauend können dann Entscheidungen getroffen und entsprechende Mechanismen geschaffen werden, die dafür sorgen, dass der Amazonasregenwald nicht abgeholzt wird, dass auch Maßnahmen einfließen, die bewirken, dass der Regenwald geschützt wird und dass Klimaschutz auch in Brasilien betrieben wird.",
-            "sentences": [
-              {
-                "text": "Darauf aufbauend können dann Entscheidungen getroffen und entsprechende Mechanismen geschaffen werden, die dafür sorgen, dass der Amazonasregenwald nicht abgeholzt wird, dass auch Maßnahmen einfließen, die bewirken, dass der Regenwald geschützt wird und dass Klimaschutz auch in Brasilien betrieben wird."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Bareiß",
-            "speakerstatus": "speaker",
-            "text": "Ich glaube, dass wir hier gemeinsam darum kämpfen sollten, dass das Abkommen zustande kommt. Wir sollten es nicht beim ersten Widerstand aufgeben; denn wir haben noch eine große Wegstrecke vor uns. Ich glaube, dass wir auch damit ein Zeichen für fairen Freihandel setzen. Im Zeitalter von Protektionismus und nationalstaatlichem Denken ist es uns ein ganz großes Anliegen, dass wir hier mal ein anderes Zeichen setzen. Insofern ist das Abkommen aus verschiedenen Gründen für beide Seiten wichtig.",
-            "sentences": [
-              {
-                "text": "Ich glaube, dass wir hier gemeinsam darum kämpfen sollten, dass das Abkommen zustande kommt."
-              },
-              {
-                "text": "Wir sollten es nicht beim ersten Widerstand aufgeben; denn wir haben noch eine große Wegstrecke vor uns."
-              },
-              {
-                "text": "Ich glaube, dass wir auch damit ein Zeichen für fairen Freihandel setzen."
-              },
-              {
-                "text": "Im Zeitalter von Protektionismus und nationalstaatlichem Denken ist es uns ein ganz großes Anliegen, dass wir hier mal ein anderes Zeichen setzen."
-              },
-              {
-                "text": "Insofern ist das Abkommen aus verschiedenen Gründen für beide Seiten wichtig."
               }
             ]
           },
@@ -10158,120 +10782,6 @@
               },
               {
                 "text": "– Reden Sie bitte ins Mikro, weil wir das, was Sie sagen, sonst so schlecht hören."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Katharina Dröge",
-            "speakerstatus": "speaker",
-            "text": "Herr Bareiß, ich weiß nicht, wie hilfreich es für den Erfolg Ihrer Gespräche mit der neuen österreichischen Regierung ist, wenn Sie jetzt unterstellen, dass die Abgeordneten dort aufgrund von Unwissenheit einen Beschluss getroffen haben. Sei’s drum.",
-            "sentences": [
-              {
-                "text": "Herr Bareiß, ich weiß nicht, wie hilfreich es für den Erfolg Ihrer Gespräche mit der neuen österreichischen Regierung ist, wenn Sie jetzt unterstellen, dass die Abgeordneten dort aufgrund von Unwissenheit einen Beschluss getroffen haben."
-              },
-              {
-                "text": "Sei’s drum."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Katharina Dröge",
-            "speakerstatus": "speaker",
-            "text": "Sie haben das Nachhaltigkeitskapitel selber gerade angesprochen. Ich habe mit dem Kollegen aus dem Landwirtschaftsministerium eben herausgearbeitet, dass dieses Nachhaltigkeitskapitel keinen wirksamen Umsetzungsmechanismus beinhaltet. Das heißt, es gibt eine Konsultation, es gibt einen Expertenrat – man berät –, es gibt eine unverbindliche Empfehlung, und danach passiert nichts.",
-            "sentences": [
-              {
-                "text": "Sie haben das Nachhaltigkeitskapitel selber gerade angesprochen."
-              },
-              {
-                "text": "Ich habe mit dem Kollegen aus dem Landwirtschaftsministerium eben herausgearbeitet, dass dieses Nachhaltigkeitskapitel keinen wirksamen Umsetzungsmechanismus beinhaltet."
-              },
-              {
-                "text": "Das heißt, es gibt eine Konsultation, es gibt einen Expertenrat – man berät –, es gibt eine unverbindliche Empfehlung, und danach passiert nichts."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Katharina Dröge",
-            "speakerstatus": "speaker",
-            "text": "Angesichts der Tatsache, dass es in Brasilien einen Präsidenten gibt, der den Klimawandel leugnet, angesichts einer Rekordzahl an Bränden im Amazonasgebiet stellen Sie sich als Bundesregierung hierhin und sagen: Wir machen schlichtweg nichts. Wir treiben ein Abkommen voran, das keinen einzigen wirksamen Mechanismus hat, um durchzusetzen, dass der Amazonasregenwald nicht weiter abgeholzt wird. – Sie nennen das auch noch „einigermaßen verbindlich“. Können Sie mir das noch mal erklären?",
-            "sentences": [
-              {
-                "text": "Angesichts der Tatsache, dass es in Brasilien einen Präsidenten gibt, der den Klimawandel leugnet, angesichts einer Rekordzahl an Bränden im Amazonasgebiet stellen Sie sich als Bundesregierung hierhin und sagen: Wir machen schlichtweg nichts."
-              },
-              {
-                "text": "Wir treiben ein Abkommen voran, das keinen einzigen wirksamen Mechanismus hat, um durchzusetzen, dass der Amazonasregenwald nicht weiter abgeholzt wird."
-              },
-              {
-                "text": "– Sie nennen das auch noch „einigermaßen verbindlich“."
-              },
-              {
-                "text": "Können Sie mir das noch mal erklären?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Bareiß",
-            "speakerstatus": "speaker",
-            "text": "Punkt eins. Wir haben derzeit im Abkommen in der Tat keine Sanktionsmöglichkeiten. Das ist richtig; da gebe ich Ihnen vollkommen recht. Aber es gibt mehr, als es bisher gab. Bisher gab es nämlich gar nichts zwischen Lateinamerika, also auch Brasilien, und Europa. Es gibt zwar gewisse Gesprächskreise, aber es gibt nichts, was zwischen unseren Ländern vereinbart ist. Das Mercosur-Abkommen sorgt dafür, dass es Gremien geben wird, die regelmäßig – auch öffentlich – tagen, die gewisse Spielregeln haben und denen auch NGOs angehören. Die Ergebnisse werden von Relevanz sein, weil sie eine breite Wirkung bekommen.",
-            "sentences": [
-              {
-                "text": "Punkt eins."
-              },
-              {
-                "text": "Wir haben derzeit im Abkommen in der Tat keine Sanktionsmöglichkeiten."
-              },
-              {
-                "text": "Das ist richtig; da gebe ich Ihnen vollkommen recht."
-              },
-              {
-                "text": "Aber es gibt mehr, als es bisher gab."
-              },
-              {
-                "text": "Bisher gab es nämlich gar nichts zwischen Lateinamerika, also auch Brasilien, und Europa."
-              },
-              {
-                "text": "Es gibt zwar gewisse Gesprächskreise, aber es gibt nichts, was zwischen unseren Ländern vereinbart ist."
-              },
-              {
-                "text": "Das Mercosur-Abkommen sorgt dafür, dass es Gremien geben wird, die regelmäßig – auch öffentlich – tagen, die gewisse Spielregeln haben und denen auch NGOs angehören."
-              },
-              {
-                "text": "Die Ergebnisse werden von Relevanz sein, weil sie eine breite Wirkung bekommen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Bareiß",
-            "speakerstatus": "speaker",
-            "text": "Es ist zwar so, dass Brasilien einen Präsidenten hat, der zum Klimawandel sicherlich eine andere Meinung hat als wir, aber dennoch gibt es auch da eine Opposition, und in vielen Regionen dort wird dieses Thema ganz anders gesehen. Ich glaube, dass auch sie gestärkt werden würden, wenn wir in den Gremien, die das Mercosur-Abkommen vorsieht, dieses Thema ebenfalls ansprechen, diskutieren und diesbezüglich Möglichkeiten der Verbesserung entwickeln.",
-            "sentences": [
-              {
-                "text": "Es ist zwar so, dass Brasilien einen Präsidenten hat, der zum Klimawandel sicherlich eine andere Meinung hat als wir, aber dennoch gibt es auch da eine Opposition, und in vielen Regionen dort wird dieses Thema ganz anders gesehen."
-              },
-              {
-                "text": "Ich glaube, dass auch sie gestärkt werden würden, wenn wir in den Gremien, die das Mercosur-Abkommen vorsieht, dieses Thema ebenfalls ansprechen, diskutieren und diesbezüglich Möglichkeiten der Verbesserung entwickeln."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Thomas Bareiß",
-            "speakerstatus": "speaker",
-            "text": "Die Sanktionen, die Sie wünschen, wären sozusagen das i-Tüpfelchen. Ich glaube, wenn wir jetzt 70 Prozent erreichen und damit auch Klimaschutz möglich machen, dann ist das besser, als wenn wir gar nichts machen. Deshalb glaube ich, dass das Mercosur-Abkommen ein Fortschritt, ein Schritt in die richtige Richtung ist.",
-            "sentences": [
-              {
-                "text": "Die Sanktionen, die Sie wünschen, wären sozusagen das i-Tüpfelchen."
-              },
-              {
-                "text": "Ich glaube, wenn wir jetzt 70 Prozent erreichen und damit auch Klimaschutz möglich machen, dann ist das besser, als wenn wir gar nichts machen."
-              },
-              {
-                "text": "Deshalb glaube ich, dass das Mercosur-Abkommen ein Fortschritt, ein Schritt in die richtige Richtung ist."
               }
             ]
           },
@@ -10406,68 +10916,6 @@
           },
           {
             "type": "speech",
-            "speaker": "Oliver Luksic",
-            "speakerstatus": "speaker",
-            "text": "Ich bin ja gern Serviceopposition und wiederhole die Frage. – Herr Staatssekretär Ferlemann hat mich an Sie verwiesen. Deswegen herzlichen Dank, dass Sie direkt quasi aus dem Olymp ins Plenum herabgestiegen sind, um uns die Frage zu beantworten.",
-            "sentences": [
-              {
-                "text": "Ich bin ja gern Serviceopposition und wiederhole die Frage."
-              },
-              {
-                "text": "– Herr Staatssekretär Ferlemann hat mich an Sie verwiesen."
-              },
-              {
-                "text": "Deswegen herzlichen Dank, dass Sie direkt quasi aus dem Olymp ins Plenum herabgestiegen sind, um uns die Frage zu beantworten."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Oliver Luksic",
-            "speakerstatus": "speaker",
-            "text": "Ich beziehe mich auf den Artikel des „Spiegel“ vom Samstag – Sie werden ihn mit Sicherheit kennen – und da im Kern auf zwei Punkte. Zum einen steht drin, dass es am 22. November ein Gespräch von Ihnen mit den Betreibern gab. In dem Artikel heißt es, dass die Betreiber Ihnen ausdrücklich angeboten haben, den Termin für die Unterschrift unter den Vertrag weiter nach hinten zu schieben, um das Urteil abzuwarten, und Sie ausdrücklich darauf bestanden haben, es im Jahr 2018 abzuschließen, weil die Verpflichtungsermächtigung des Haushalts abläuft und weil man sonst Gefahr läuft, die Mauteinführung erst im Wahljahr zu haben. – Das ist der eine Punkt.",
-            "sentences": [
-              {
-                "text": "Ich beziehe mich auf den Artikel des „Spiegel“ vom Samstag – Sie werden ihn mit Sicherheit kennen – und da im Kern auf zwei Punkte."
-              },
-              {
-                "text": "Zum einen steht drin, dass es am 22. November ein Gespräch von Ihnen mit den Betreibern gab."
-              },
-              {
-                "text": "In dem Artikel heißt es, dass die Betreiber Ihnen ausdrücklich angeboten haben, den Termin für die Unterschrift unter den Vertrag weiter nach hinten zu schieben, um das Urteil abzuwarten, und Sie ausdrücklich darauf bestanden haben, es im Jahr 2018 abzuschließen, weil die Verpflichtungsermächtigung des Haushalts abläuft und weil man sonst Gefahr läuft, die Mauteinführung erst im Wahljahr zu haben."
-              },
-              {
-                "text": "– Das ist der eine Punkt."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Oliver Luksic",
-            "speakerstatus": "speaker",
-            "text": "Der zweite Punkt ist, dass Sie laut des Artikels des „Spiegel“ am 19. Juni in einer kleineren Runde mit Herrn Schulenberg von Eventim gesprochen haben und ihn dort ausdrücklich darauf verpflichten wollten, so der Artikel, in dieser Frage die Unwahrheit zu sagen. Deswegen meine Frage: Stimmt das, dass Sie Herrn Schulenberg dazu gedrängt haben, zu sagen, er hätte dieses Angebot nicht gemacht?",
-            "sentences": [
-              {
-                "text": "Der zweite Punkt ist, dass Sie laut des Artikels des „Spiegel“ am 19. Juni in einer kleineren Runde mit Herrn Schulenberg von Eventim gesprochen haben und ihn dort ausdrücklich darauf verpflichten wollten, so der Artikel, in dieser Frage die Unwahrheit zu sagen."
-              },
-              {
-                "text": "Deswegen meine Frage: Stimmt das, dass Sie Herrn Schulenberg dazu gedrängt haben, zu sagen, er hätte dieses Angebot nicht gemacht?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Oliver Luksic",
-            "speakerstatus": "speaker",
-            "text": "Diese zwei Punkte bitte ich klar zu beantworten: Zum einen: -",
-            "sentences": [
-              {
-                "text": "Diese zwei Punkte bitte ich klar zu beantworten: Zum einen: -"
-              }
-            ]
-          },
-          {
-            "type": "speech",
             "speaker": "Claudia Roth",
             "speakerstatus": "vice-president",
             "text": "Stopp, stopp, stopp!",
@@ -10479,37 +10927,12 @@
           },
           {
             "type": "speech",
-            "speaker": "Oliver Luksic",
-            "speakerstatus": "speaker",
-            "text": "– Haben Sie dieses Angebot abgelehnt? Zum Zweiten: -",
-            "sentences": [
-              {
-                "text": "– Haben Sie dieses Angebot abgelehnt?"
-              },
-              {
-                "text": "Zum Zweiten: -"
-              }
-            ]
-          },
-          {
-            "type": "speech",
             "speaker": "Claudia Roth",
             "speakerstatus": "vice-president",
             "text": "Stopp, stopp!",
             "sentences": [
               {
                 "text": "Stopp, stopp!"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Oliver Luksic",
-            "speakerstatus": "speaker",
-            "text": "– Haben Sie ihn zur Lüge aufgefordert?",
-            "sentences": [
-              {
-                "text": "– Haben Sie ihn zur Lüge aufgefordert?"
               }
             ]
           },
@@ -10529,34 +10952,12 @@
           },
           {
             "type": "speech",
-            "speaker": "Andreas Scheuer",
-            "speakerstatus": "speaker",
-            "text": "Ich weiß nicht, ob ich das in zwei Minuten hinbekomme, Frau Präsidentin.",
-            "sentences": [
-              {
-                "text": "Ich weiß nicht, ob ich das in zwei Minuten hinbekomme, Frau Präsidentin."
-              }
-            ]
-          },
-          {
-            "type": "speech",
             "speaker": "Claudia Roth",
             "speakerstatus": "vice-president",
             "text": "Das ist dann Pech.",
             "sentences": [
               {
                 "text": "Das ist dann Pech."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Andreas Scheuer",
-            "speakerstatus": "speaker",
-            "text": "Aber wir haben ja noch 17 Minuten.",
-            "sentences": [
-              {
-                "text": "Aber wir haben ja noch 17 Minuten."
               }
             ]
           },
@@ -10573,104 +10974,6 @@
           },
           {
             "type": "speech",
-            "speaker": "Andreas Scheuer",
-            "speakerstatus": "speaker",
-            "text": "Ich bin nicht vom Olymp heruntergestiegen, sondern aus der Leitungsklausur draußen an der Messe hergefahren, Herr Kollege Luksic. Bei uns geht es mit flachen Hierarchien.",
-            "sentences": [
-              {
-                "text": "Ich bin nicht vom Olymp heruntergestiegen, sondern aus der Leitungsklausur draußen an der Messe hergefahren, Herr Kollege Luksic."
-              },
-              {
-                "text": "Bei uns geht es mit flachen Hierarchien."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Andreas Scheuer",
-            "speakerstatus": "speaker",
-            "text": "Sie haben oder Ihre Kollegin Kluckert hat schon die Gelegenheit gehabt, meine Antwort im Ausschuss zu hören.",
-            "sentences": [
-              {
-                "text": "Sie haben oder Ihre Kollegin Kluckert hat schon die Gelegenheit gehabt, meine Antwort im Ausschuss zu hören."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Andreas Scheuer",
-            "speakerstatus": "speaker",
-            "text": "Ich habe den „Spiegel“-Artikel nicht gelesen. Wir haben die Anfrage des „Spiegel“ Tage zuvor – sogenannte Geheimtreffen, die in skurrilem Ambiente stattgefunden haben und die man irgendwo als geheim und skandalös einstuft – offen beantwortet. Die Geheimtreffen sind nicht geheim, und die Anfrage wurde in der Recherche so beantwortet:",
-            "sentences": [
-              {
-                "text": "Ich habe den „Spiegel“-Artikel nicht gelesen."
-              },
-              {
-                "text": "Wir haben die Anfrage des „Spiegel“ Tage zuvor – sogenannte Geheimtreffen, die in skurrilem Ambiente stattgefunden haben und die man irgendwo als geheim und skandalös einstuft – offen beantwortet."
-              },
-              {
-                "text": "Die Geheimtreffen sind nicht geheim, und die Anfrage wurde in der Recherche so beantwortet:"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Andreas Scheuer",
-            "speakerstatus": "speaker",
-            "text": "Die Treffen haben ganz normal stattgefunden, indem man sich ausgetauscht hat über den Sachstand hinsichtlich der organisatorischen und technischen Umsetzung der Infrastrukturabgabe; nicht mehr und nicht weniger. Es wurde auch nicht über Zeitpläne geredet; denn ich habe in dem Gespräch am 22. November gesagt: Wir haben eine Aufgabe, und die Beschlussfassungen im Deutschen Bundestag halten uns dazu an, die Infrastrukturabgabe umzusetzen. – Es war auch mein erklärtes Ziel, diese gesetzliche Vorgabe in der Exekutive auszuführen; nicht mehr und nicht weniger.",
-            "sentences": [
-              {
-                "text": "Die Treffen haben ganz normal stattgefunden, indem man sich ausgetauscht hat über den Sachstand hinsichtlich der organisatorischen und technischen Umsetzung der Infrastrukturabgabe; nicht mehr und nicht weniger."
-              },
-              {
-                "text": "Es wurde auch nicht über Zeitpläne geredet; denn ich habe in dem Gespräch am 22. November gesagt: Wir haben eine Aufgabe, und die Beschlussfassungen im Deutschen Bundestag halten uns dazu an, die Infrastrukturabgabe umzusetzen."
-              },
-              {
-                "text": "– Es war auch mein erklärtes Ziel, diese gesetzliche Vorgabe in der Exekutive auszuführen; nicht mehr und nicht weniger."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Andreas Scheuer",
-            "speakerstatus": "speaker",
-            "text": "Wir haben dann – ich habe im Ausschuss auch darüber referiert – darüber geredet, wie beispielsweise eine organisatorische Aufstellung zur Infrastrukturabgabe auch unter strukturpolitischen Gründen aussehen kann, wie beispielsweise mehrere Hundert Arbeitsplätze in der Lausitz geschaffen werden können, indem man dort die Büros für die Infrastrukturabgabe baut. Ich glaube, es ist legitim, diese Überlegungen mit einem möglichen Auftragnehmer so zu besprechen.",
-            "sentences": [
-              {
-                "text": "Wir haben dann – ich habe im Ausschuss auch darüber referiert – darüber geredet, wie beispielsweise eine organisatorische Aufstellung zur Infrastrukturabgabe auch unter strukturpolitischen Gründen aussehen kann, wie beispielsweise mehrere Hundert Arbeitsplätze in der Lausitz geschaffen werden können, indem man dort die Büros für die Infrastrukturabgabe baut."
-              },
-              {
-                "text": "Ich glaube, es ist legitim, diese Überlegungen mit einem möglichen Auftragnehmer so zu besprechen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Andreas Scheuer",
-            "speakerstatus": "speaker",
-            "text": "Wir hatten in diesen Tagen auch die Diskussion über die strukturpolitischen Ansätze zum Kohleausstieg, und ich wollte meinen Beitrag dazu leisten, diese Fragen zu klären. Es ging, wie gesagt, um die organisatorische und technische Umsetzung der Infrastrukturabgabe.",
-            "sentences": [
-              {
-                "text": "Wir hatten in diesen Tagen auch die Diskussion über die strukturpolitischen Ansätze zum Kohleausstieg, und ich wollte meinen Beitrag dazu leisten, diese Fragen zu klären."
-              },
-              {
-                "text": "Es ging, wie gesagt, um die organisatorische und technische Umsetzung der Infrastrukturabgabe."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Andreas Scheuer",
-            "speakerstatus": "speaker",
-            "text": "In dem zweiten Treffen – –",
-            "sentences": [
-              {
-                "text": "In dem zweiten Treffen – –"
-              }
-            ]
-          },
-          {
-            "type": "speech",
             "speaker": "Claudia Roth",
             "speakerstatus": "vice-president",
             "text": "Herr Scheuer, könnten Sie bitte ...",
@@ -10682,34 +10985,12 @@
           },
           {
             "type": "speech",
-            "speaker": "Andreas Scheuer",
-            "speakerstatus": "speaker",
-            "text": "Ja, aber er hat nach zwei Treffen gefragt.",
-            "sentences": [
-              {
-                "text": "Ja, aber er hat nach zwei Treffen gefragt."
-              }
-            ]
-          },
-          {
-            "type": "speech",
             "speaker": "Claudia Roth",
             "speakerstatus": "vice-president",
             "text": "Ja, so sind halt die Regeln hier.",
             "sentences": [
               {
                 "text": "Ja, so sind halt die Regeln hier."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Andreas Scheuer",
-            "speakerstatus": "speaker",
-            "text": "Ja gut, aber – –",
-            "sentences": [
-              {
-                "text": "Ja gut, aber – –"
               }
             ]
           },
@@ -10729,114 +11010,12 @@
           },
           {
             "type": "speech",
-            "speaker": "Oliver Luksic",
-            "speakerstatus": "speaker",
-            "text": "Vielen Dank. – Herr Minister, ich glaube, wir können den Sachverhalt abkürzen. Es interessiert mich auch nicht, was Sie sonst besprochen haben. Sie bestätigen: Es gab das Gespräch in großer Runde am 22. November.",
-            "sentences": [
-              {
-                "text": "Vielen Dank."
-              },
-              {
-                "text": "– Herr Minister, ich glaube, wir können den Sachverhalt abkürzen."
-              },
-              {
-                "text": "Es interessiert mich auch nicht, was Sie sonst besprochen haben."
-              },
-              {
-                "text": "Sie bestätigen: Es gab das Gespräch in großer Runde am 22. November."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Andreas Scheuer",
-            "speakerstatus": "speaker",
-            "text": "Das habe ich dem „Spiegel“ auch schon bestätigt.",
-            "sentences": [
-              {
-                "text": "Das habe ich dem „Spiegel“ auch schon bestätigt."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Oliver Luksic",
-            "speakerstatus": "speaker",
-            "text": "Ja, aber Sie haben nicht zum Vorwurf des Inhalts des Gesprächs Stellung genommen.",
-            "sentences": [
-              {
-                "text": "Ja, aber Sie haben nicht zum Vorwurf des Inhalts des Gesprächs Stellung genommen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Oliver Luksic",
-            "speakerstatus": "speaker",
-            "text": "Deswegen noch mal ganz konkret: Gab es das Angebot der Betreiber, den Vertrag erst nach dem Urteil zu unterschreiben? Wenn es das gab: Warum haben Sie es abgelehnt? Zum Zweiten: Haben Sie in dem Gespräch am 19. Juni Herrn Schulenberg aufgefordert, diesen Sachverhalt zu verschweigen, ja oder nein?",
-            "sentences": [
-              {
-                "text": "Deswegen noch mal ganz konkret: Gab es das Angebot der Betreiber, den Vertrag erst nach dem Urteil zu unterschreiben?"
-              },
-              {
-                "text": "Wenn es das gab: Warum haben Sie es abgelehnt?"
-              },
-              {
-                "text": "Zum Zweiten: Haben Sie in dem Gespräch am 19. Juni Herrn Schulenberg aufgefordert, diesen Sachverhalt zu verschweigen, ja oder nein?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
             "speaker": "Claudia Roth",
             "speakerstatus": "vice-president",
             "text": "Herr Scheuer, jetzt haben Sie eine Minute.",
             "sentences": [
               {
                 "text": "Herr Scheuer, jetzt haben Sie eine Minute."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Andreas Scheuer",
-            "speakerstatus": "speaker",
-            "text": "Es war nicht Thema in dem Gespräch am 22. November. Das Thema war, dass wir zügig in diesem Jahr noch zum Abschluss kommen; denn ich habe aufgeklärt, dass es darum ging, das Gesetz umzusetzen und auch die Vorgaben aus dem Haushaltsjahr 2018 umzusetzen, wie Sie wissen. Das ist im Übrigen auch nicht geheim, sondern das liegt alles offen in den Dokumenten, in den 51 Akten mit Tausenden von Seiten, die wir dem Parlament und auch der Öffentlichkeit zur Verfügung gestellt haben; alles abrufbar im BMVI. Die Fragen wurden bereits mehrfach gestellt, also von daher gibt es da keinen Neuigkeitswert.",
-            "sentences": [
-              {
-                "text": "Es war nicht Thema in dem Gespräch am 22. November."
-              },
-              {
-                "text": "Das Thema war, dass wir zügig in diesem Jahr noch zum Abschluss kommen; denn ich habe aufgeklärt, dass es darum ging, das Gesetz umzusetzen und auch die Vorgaben aus dem Haushaltsjahr 2018 umzusetzen, wie Sie wissen."
-              },
-              {
-                "text": "Das ist im Übrigen auch nicht geheim, sondern das liegt alles offen in den Dokumenten, in den 51 Akten mit Tausenden von Seiten, die wir dem Parlament und auch der Öffentlichkeit zur Verfügung gestellt haben; alles abrufbar im BMVI."
-              },
-              {
-                "text": "Die Fragen wurden bereits mehrfach gestellt, also von daher gibt es da keinen Neuigkeitswert."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Andreas Scheuer",
-            "speakerstatus": "speaker",
-            "text": "Zum Zweiten – im Übrigen sieht man da die fehlerhafte Recherche –: Es heißt, dass am 19. Juni neben Herrn Schulenberg Herr Kapsch gesessen hat. Der Herr Kapsch war bei diesem Treffen gar nicht dabei. Das ist schon sehr bemerkenswert. Aber vielleicht standen das Storyboard für diese Geschichte und auch die Überschriften schon vorher fest. Da werden die Antworten, die ich im Vorfeld dieser Berichterstattung gegeben habe, wohl keine Abhilfe mehr geschaffen haben.",
-            "sentences": [
-              {
-                "text": "Zum Zweiten – im Übrigen sieht man da die fehlerhafte Recherche –: Es heißt, dass am 19. Juni neben Herrn Schulenberg Herr Kapsch gesessen hat."
-              },
-              {
-                "text": "Der Herr Kapsch war bei diesem Treffen gar nicht dabei."
-              },
-              {
-                "text": "Das ist schon sehr bemerkenswert."
-              },
-              {
-                "text": "Aber vielleicht standen das Storyboard für diese Geschichte und auch die Überschriften schon vorher fest."
-              },
-              {
-                "text": "Da werden die Antworten, die ich im Vorfeld dieser Berichterstattung gegeben habe, wohl keine Abhilfe mehr geschaffen haben."
               }
             ]
           },
@@ -10851,89 +11030,6 @@
               },
               {
                 "text": "– Dann kommt jetzt der Kollege Gelbhaar, der eine Rückfrage stellt."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Stefan Gelbhaar",
-            "speakerstatus": "speaker",
-            "text": "Vielen Dank, Frau Präsidentin. – Ich möchte ganz konkret fragen. Sie haben gerade gesagt, auf dem Treffen am 22. November war das kein Thema. Deswegen noch mal die Frage: Ist denn von Herrn Schulenberg – Slash: von irgendeinem Verantwortlichen bei Eventim – angeboten worden, nach dem EuGH-Urteil erst den Vertrag abzuschließen, ja oder nein?",
-            "sentences": [
-              {
-                "text": "Vielen Dank, Frau Präsidentin."
-              },
-              {
-                "text": "– Ich möchte ganz konkret fragen."
-              },
-              {
-                "text": "Sie haben gerade gesagt, auf dem Treffen am 22. November war das kein Thema."
-              },
-              {
-                "text": "Deswegen noch mal die Frage: Ist denn von Herrn Schulenberg – Slash: von irgendeinem Verantwortlichen bei Eventim – angeboten worden, nach dem EuGH-Urteil erst den Vertrag abzuschließen, ja oder nein?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Stefan Gelbhaar",
-            "speakerstatus": "speaker",
-            "text": "Zu dem zweiten Treffen – völlig egal, ob das geheim, normal oder wie auch immer stattgefunden hat, ob Herr Kapsch da war oder auch nicht – noch mal die Frage: Haben Sie dort Herrn Schulenberg explizit oder implizit aufgefordert, über ein solches Angebot Schweigen zu bewahren, etwas anderes zu erzählen, die Geschichte irgendwie so darzustellen, dass sie in Ihr Storyboard passt?",
-            "sentences": [
-              {
-                "text": "Zu dem zweiten Treffen – völlig egal, ob das geheim, normal oder wie auch immer stattgefunden hat, ob Herr Kapsch da war oder auch nicht – noch mal die Frage: Haben Sie dort Herrn Schulenberg explizit oder implizit aufgefordert, über ein solches Angebot Schweigen zu bewahren, etwas anderes zu erzählen, die Geschichte irgendwie so darzustellen, dass sie in Ihr Storyboard passt?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Andreas Scheuer",
-            "speakerstatus": "speaker",
-            "text": "Nachdem die Kündigungen ja zugegangen sind, habe ich extra noch am 18. Juni internen und externen juristischen Beistand gefragt, ob es angemessen oder normal ist, dass man sich nach einer Kündigung – angesichts einer solchen Größe des Auftrags – mit den Auftragnehmern noch mal unterhält, um auch das EuGH-Urteil auszuwerten. Mir wurde empfohlen, dass wir ein Gespräch führen, und das habe ich dann gemacht am 19. Juni. Das ist auch ein Stil, den ich gerne pflege, nämlich dass man sich trifft und miteinander redet, auch wenn man die Kündigung ausgesprochen hat. Das haben wir gemacht. Es hat dabei von meiner Seite keine Aufforderungen gegeben, sondern es wurde über die Kündigungsgründe geredet, und dann ist man auseinandergegangen, indem man festgestellt hat, dass das EuGH-Urteil leider recht weitreichend ist und dass man im System nur schwerlich was verändern kann. Das war der Inhalt der Gespräche.",
-            "sentences": [
-              {
-                "text": "Nachdem die Kündigungen ja zugegangen sind, habe ich extra noch am 18. Juni internen und externen juristischen Beistand gefragt, ob es angemessen oder normal ist, dass man sich nach einer Kündigung – angesichts einer solchen Größe des Auftrags – mit den Auftragnehmern noch mal unterhält, um auch das EuGH-Urteil auszuwerten."
-              },
-              {
-                "text": "Mir wurde empfohlen, dass wir ein Gespräch führen, und das habe ich dann gemacht am 19. Juni."
-              },
-              {
-                "text": "Das ist auch ein Stil, den ich gerne pflege, nämlich dass man sich trifft und miteinander redet, auch wenn man die Kündigung ausgesprochen hat."
-              },
-              {
-                "text": "Das haben wir gemacht."
-              },
-              {
-                "text": "Es hat dabei von meiner Seite keine Aufforderungen gegeben, sondern es wurde über die Kündigungsgründe geredet, und dann ist man auseinandergegangen, indem man festgestellt hat, dass das EuGH-Urteil leider recht weitreichend ist und dass man im System nur schwerlich was verändern kann."
-              },
-              {
-                "text": "Das war der Inhalt der Gespräche."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Andreas Scheuer",
-            "speakerstatus": "speaker",
-            "text": "Zum 22. November, zum Thema „2018, ja oder nein?“: Das war überhaupt nicht Thema. Es war das Strukturpolitische ein Thema: wie man sich organisatorisch einbringt. Es war meine Bitte an die Auftragnehmer, unter dem strukturpolitischen Aspekt – Stichwort: wo kommen die Arbeitsplätze hin? – der Erhebung und auch der Kontrolle der Infrastrukturabgabe zu sagen: Was für Überlegungen hat das Unternehmen? Es ging also um rein technische und organisatorische Themen.",
-            "sentences": [
-              {
-                "text": "Zum 22. November, zum Thema „2018, ja oder nein?“:"
-              },
-              {
-                "text": "Das war überhaupt nicht Thema."
-              },
-              {
-                "text": "Es war das Strukturpolitische ein Thema: wie man sich organisatorisch einbringt."
-              },
-              {
-                "text": "Es war meine Bitte an die Auftragnehmer, unter dem strukturpolitischen Aspekt – Stichwort: wo kommen die Arbeitsplätze hin?"
-              },
-              {
-                "text": "– der Erhebung und auch der Kontrolle der Infrastrukturabgabe zu sagen: Was für Überlegungen hat das Unternehmen?"
-              },
-              {
-                "text": "Es ging also um rein technische und organisatorische Themen."
               }
             ]
           },
@@ -10956,77 +11052,12 @@
           },
           {
             "type": "speech",
-            "speaker": "Matthias Gastel",
-            "speakerstatus": "speaker",
-            "text": "Vielen Dank, Frau Präsidentin. – Herr Minister, ich habe eine sehr grundlegende Frage. Sie haben sich mit dem Vorhaben der Maut ja in ein sehr hohes Risiko gestürzt, ohne die ganzen Warnungen zu hören, und nach dem Scheitern verweigern Sie die Aufklärung. Ich möchte von Ihnen ganz einfach wissen: Werden Sie in den nächsten Wochen Aufklärungsarbeit leisten und uns damit einen parlamentarischen Untersuchungsausschuss ersparen, oder werden Sie uns weiterhin nötigen, einen solchen einzurichten, weil Sie nicht aufklären, was da geschehen ist?",
-            "sentences": [
-              {
-                "text": "Vielen Dank, Frau Präsidentin."
-              },
-              {
-                "text": "– Herr Minister, ich habe eine sehr grundlegende Frage."
-              },
-              {
-                "text": "Sie haben sich mit dem Vorhaben der Maut ja in ein sehr hohes Risiko gestürzt, ohne die ganzen Warnungen zu hören, und nach dem Scheitern verweigern Sie die Aufklärung."
-              },
-              {
-                "text": "Ich möchte von Ihnen ganz einfach wissen: Werden Sie in den nächsten Wochen Aufklärungsarbeit leisten und uns damit einen parlamentarischen Untersuchungsausschuss ersparen, oder werden Sie uns weiterhin nötigen, einen solchen einzurichten, weil Sie nicht aufklären, was da geschehen ist?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
             "speaker": "Claudia Roth",
             "speakerstatus": "vice-president",
             "text": "Herr Minister.",
             "sentences": [
               {
                 "text": "Herr Minister."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Andreas Scheuer",
-            "speakerstatus": "speaker",
-            "text": "Herr Gastel, was Sie politisch für sich persönlich beschließen und was die einzelnen Fraktionen hier im Hohen Haus beschließen, darauf habe ich keinen Einfluss.",
-            "sentences": [
-              {
-                "text": "Herr Gastel, was Sie politisch für sich persönlich beschließen und was die einzelnen Fraktionen hier im Hohen Haus beschließen, darauf habe ich keinen Einfluss."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Andreas Scheuer",
-            "speakerstatus": "speaker",
-            "text": "Der Hintergrund ist: Wir haben über 50 Aktenordner, dick bepackt, Ihnen zur Verfügung gestellt, wo alle Dokumente offengelegt wurden, auch die von Ihnen leider nicht angesprochene Risikoanalyse. Wir haben das mit externen und internen Beratern so aufgelegt, in Hunderten von Workshops intensiv besprochen und uns immer wieder bezüglich Risikomanagement, bezüglich des Ausgangs des EuGH-Urteils rückversichert.",
-            "sentences": [
-              {
-                "text": "Der Hintergrund ist: Wir haben über 50 Aktenordner, dick bepackt, Ihnen zur Verfügung gestellt, wo alle Dokumente offengelegt wurden, auch die von Ihnen leider nicht angesprochene Risikoanalyse."
-              },
-              {
-                "text": "Wir haben das mit externen und internen Beratern so aufgelegt, in Hunderten von Workshops intensiv besprochen und uns immer wieder bezüglich Risikomanagement, bezüglich des Ausgangs des EuGH-Urteils rückversichert."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Andreas Scheuer",
-            "speakerstatus": "speaker",
-            "text": "Sie waren ja der, der gesagt hat: Warum haben Sie nicht auf die Meinung des Generalanwalts gewartet? – Die Meinung des Generalanwalts – Sie haben die Frage im Verkehrsausschuss gestellt – hätte uns gar nichts gebracht, weil der Generalanwalt uns im Hinblick auf all unsere Anliegen recht gegeben hat. Die EU-Kommission hat sogar die Infrastrukturabgabe, so wie sie in der letzten Legislaturperiode beschlossen wurde, begrüßt. Das heißt, das Risikomanagement ist immer gemacht worden, und ich habe auch immer gesagt – schauen Sie auf die Homepage des BMVI; auch für alle Bürger zugänglich –, dass alle Dokumente offengelegt wurden, deren Veröffentlichung rechtlich vertretbar ist.",
-            "sentences": [
-              {
-                "text": "Sie waren ja der, der gesagt hat: Warum haben Sie nicht auf die Meinung des Generalanwalts gewartet?"
-              },
-              {
-                "text": "– Die Meinung des Generalanwalts – Sie haben die Frage im Verkehrsausschuss gestellt – hätte uns gar nichts gebracht, weil der Generalanwalt uns im Hinblick auf all unsere Anliegen recht gegeben hat."
-              },
-              {
-                "text": "Die EU-Kommission hat sogar die Infrastrukturabgabe, so wie sie in der letzten Legislaturperiode beschlossen wurde, begrüßt."
-              },
-              {
-                "text": "Das heißt, das Risikomanagement ist immer gemacht worden, und ich habe auch immer gesagt – schauen Sie auf die Homepage des BMVI; auch für alle Bürger zugänglich –, dass alle Dokumente offengelegt wurden, deren Veröffentlichung rechtlich vertretbar ist."
               }
             ]
           },
@@ -11046,116 +11077,12 @@
           },
           {
             "type": "speech",
-            "speaker": "Daniela Kluckert",
-            "speakerstatus": "speaker",
-            "text": "Vielen Dank, Frau Präsidentin. – Es geht noch einmal um die Runde am 22. November. Es war eine große Runde; wir haben Hinweise darauf, dass genau dort auch die Diskussion um eine mögliche Verschiebung stattgefunden hat. Dieses Angebot lag wohl vor, und Sie haben es ausgeschlagen. Diese Hinweise haben wir.",
-            "sentences": [
-              {
-                "text": "Vielen Dank, Frau Präsidentin."
-              },
-              {
-                "text": "– Es geht noch einmal um die Runde am 22. November."
-              },
-              {
-                "text": "Es war eine große Runde; wir haben Hinweise darauf, dass genau dort auch die Diskussion um eine mögliche Verschiebung stattgefunden hat."
-              },
-              {
-                "text": "Dieses Angebot lag wohl vor, und Sie haben es ausgeschlagen."
-              },
-              {
-                "text": "Diese Hinweise haben wir."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Andreas Scheuer",
-            "speakerstatus": "speaker",
-            "text": "Von wem, Frau Kluckert?",
-            "sentences": [
-              {
-                "text": "Von wem, Frau Kluckert?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Daniela Kluckert",
-            "speakerstatus": "speaker",
-            "text": "Denen würden wir dann auch in einem Untersuchungsausschuss nachgehen.",
-            "sentences": [
-              {
-                "text": "Denen würden wir dann auch in einem Untersuchungsausschuss nachgehen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Andreas Scheuer",
-            "speakerstatus": "speaker",
-            "text": "Dann machen Sie das.",
-            "sentences": [
-              {
-                "text": "Dann machen Sie das."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Daniela Kluckert",
-            "speakerstatus": "speaker",
-            "text": "Deswegen würde ich Sie vor der deutschen Öffentlichkeit jetzt noch einmal fragen: Gab es am 22. November dieses Angebot zur Verschiebung der Verträge, und haben Sie es ausgeschlagen?",
-            "sentences": [
-              {
-                "text": "Deswegen würde ich Sie vor der deutschen Öffentlichkeit jetzt noch einmal fragen: Gab es am 22. November dieses Angebot zur Verschiebung der Verträge, und haben Sie es ausgeschlagen?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
             "speaker": "Claudia Roth",
             "speakerstatus": "vice-president",
             "text": "Herr Minister.",
             "sentences": [
               {
                 "text": "Herr Minister."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Andreas Scheuer",
-            "speakerstatus": "speaker",
-            "text": "Auch wenn Sie zum wiederholten Mal nachfragen, wird meine Antwort nicht anders sein. Und: Wenn Sie Hinweise haben, dann legen Sie die Hinweise offen. Wer sagt das? Es waren genau vier Leute dabei, bei dem Treffen am 22. November. Dann ist nach meiner gesicherten Erkenntnis der zuständige Staatssekretär, den ich dabei hatte, wohl nicht der, der das behauptet.",
-            "sentences": [
-              {
-                "text": "Auch wenn Sie zum wiederholten Mal nachfragen, wird meine Antwort nicht anders sein."
-              },
-              {
-                "text": "Und: Wenn Sie Hinweise haben, dann legen Sie die Hinweise offen."
-              },
-              {
-                "text": "Wer sagt das?"
-              },
-              {
-                "text": "Es waren genau vier Leute dabei, bei dem Treffen am 22. November."
-              },
-              {
-                "text": "Dann ist nach meiner gesicherten Erkenntnis der zuständige Staatssekretär, den ich dabei hatte, wohl nicht der, der das behauptet."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Andreas Scheuer",
-            "speakerstatus": "speaker",
-            "text": "Also, legen Sie das offen, sagen Sie den Namen, dann kann ich darauf eingehen. Aber ich werde bei meiner Antwort auf die vorhergehenden Fragen hundertprozentig bleiben.",
-            "sentences": [
-              {
-                "text": "Also, legen Sie das offen, sagen Sie den Namen, dann kann ich darauf eingehen."
-              },
-              {
-                "text": "Aber ich werde bei meiner Antwort auf die vorhergehenden Fragen hundertprozentig bleiben."
               }
             ]
           },
@@ -11175,116 +11102,12 @@
           },
           {
             "type": "speech",
-            "speaker": "Steffi Lemke",
-            "speakerstatus": "speaker",
-            "text": "Herr Minister, Sie sind ja hier, weil Ihr Staatssekretär eine Frage des Kollegen Luksic nicht beantworten wollte. Gekonnt hätte er ja; so lange ist Herr Ferlemann Staatssekretär und hat uns schon oft Rede und Antwort gestanden. Da werde ich ja hellhörig, wenn Sie deshalb hierherkommen müssen. Deshalb möchte ich da nachhaken. Ich möchte von Ihnen keine Auskunft über Daten oder Beteiligte an Gesprächen, sondern darüber, ob die Aussage, dass Eventim Ihnen wann und wo und mit wem auch immer jemals das Angebot gemacht hat, erst nach dem EuGH-Urteil zu unterschreiben, gelogen ist.",
-            "sentences": [
-              {
-                "text": "Herr Minister, Sie sind ja hier, weil Ihr Staatssekretär eine Frage des Kollegen Luksic nicht beantworten wollte."
-              },
-              {
-                "text": "Gekonnt hätte er ja; so lange ist Herr Ferlemann Staatssekretär und hat uns schon oft Rede und Antwort gestanden."
-              },
-              {
-                "text": "Da werde ich ja hellhörig, wenn Sie deshalb hierherkommen müssen."
-              },
-              {
-                "text": "Deshalb möchte ich da nachhaken."
-              },
-              {
-                "text": "Ich möchte von Ihnen keine Auskunft über Daten oder Beteiligte an Gesprächen, sondern darüber, ob die Aussage, dass Eventim Ihnen wann und wo und mit wem auch immer jemals das Angebot gemacht hat, erst nach dem EuGH-Urteil zu unterschreiben, gelogen ist."
-              }
-            ]
-          },
-          {
-            "type": "speech",
             "speaker": "Claudia Roth",
             "speakerstatus": "vice-president",
             "text": "Herr Minister.",
             "sentences": [
               {
                 "text": "Herr Minister."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Andreas Scheuer",
-            "speakerstatus": "speaker",
-            "text": "Also, Sie meinen die Firma Eventim?",
-            "sentences": [
-              {
-                "text": "Also, Sie meinen die Firma Eventim?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Andreas Scheuer",
-            "speakerstatus": "speaker",
-            "text": "Die wurde vor allem von einer Person, Herrn Schulenberg, repräsentiert. Die zwei Treffen, die wir hatten an dieser Stelle,",
-            "sentences": [
-              {
-                "text": "Die wurde vor allem von einer Person, Herrn Schulenberg, repräsentiert."
-              },
-              {
-                "text": "Die zwei Treffen, die wir hatten an dieser Stelle,"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Andreas Scheuer",
-            "speakerstatus": "speaker",
-            "text": "sind auf keinen Fall mit irgendeiner Datumsdiskussion einhergegangen. Unser Ziel war vielmehr, in 2018 die beiden Verträge zu fixieren aus dem einfachen Grund, dass die Gesetzgebung im Deutschen Bundestag uns den Auftrag gibt und die Vorgaben des Haushaltsausschusses aus unserer Sicht zu hundert Prozent zu erfüllen sind.",
-            "sentences": [
-              {
-                "text": "sind auf keinen Fall mit irgendeiner Datumsdiskussion einhergegangen."
-              },
-              {
-                "text": "Unser Ziel war vielmehr, in 2018 die beiden Verträge zu fixieren aus dem einfachen Grund, dass die Gesetzgebung im Deutschen Bundestag uns den Auftrag gibt und die Vorgaben des Haushaltsausschusses aus unserer Sicht zu hundert Prozent zu erfüllen sind."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Andreas Scheuer",
-            "speakerstatus": "speaker",
-            "text": "Ich komme gerne ins Hohe Haus und stehe hier Rede und Antwort. Der Kollege Ferlemann war bei den Treffen nicht dabei; der zuständige verbeamtete Staatssekretär war dabei. Von daher ist das überhaupt kein Problem, dass ich Ihnen Rede und Antwort stehe.",
-            "sentences": [
-              {
-                "text": "Ich komme gerne ins Hohe Haus und stehe hier Rede und Antwort."
-              },
-              {
-                "text": "Der Kollege Ferlemann war bei den Treffen nicht dabei; der zuständige verbeamtete Staatssekretär war dabei."
-              },
-              {
-                "text": "Von daher ist das überhaupt kein Problem, dass ich Ihnen Rede und Antwort stehe."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Andreas Scheuer",
-            "speakerstatus": "speaker",
-            "text": "– Das habe ich doch überhaupt nicht gesagt. Drehen Sie mir doch das Wort nicht im Mund um.",
-            "sentences": [
-              {
-                "text": "– Das habe ich doch überhaupt nicht gesagt."
-              },
-              {
-                "text": "Drehen Sie mir doch das Wort nicht im Mund um."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Andreas Scheuer",
-            "speakerstatus": "speaker",
-            "text": "– Nein, dieses Angebot gab es nicht.",
-            "sentences": [
-              {
-                "text": "– Nein, dieses Angebot gab es nicht."
               }
             ]
           },
@@ -11315,113 +11138,12 @@
           },
           {
             "type": "speech",
-            "speaker": "Manuela Rottmann",
-            "speakerstatus": "speaker",
-            "text": "Wir haben jetzt herausgefunden, dass es niemals im ganzen Jahr 2018 ein solches Angebot der Firma Eventim an Sie gab. Warum sind Sie selbst nicht auf die Idee gekommen, einen solchen Vorschlag zu machen?",
-            "sentences": [
-              {
-                "text": "Wir haben jetzt herausgefunden, dass es niemals im ganzen Jahr 2018 ein solches Angebot der Firma Eventim an Sie gab."
-              },
-              {
-                "text": "Warum sind Sie selbst nicht auf die Idee gekommen, einen solchen Vorschlag zu machen?"
-              }
-            ]
-          },
-          {
-            "type": "speech",
             "speaker": "Claudia Roth",
             "speakerstatus": "vice-president",
             "text": "Herr Minister.",
             "sentences": [
               {
                 "text": "Herr Minister."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Andreas Scheuer",
-            "speakerstatus": "speaker",
-            "text": "Jetzt wiederhole ich es zum hundertsten Mal; Sie sind ja nicht so stark in der Verkehrspolitik verankert.",
-            "sentences": [
-              {
-                "text": "Jetzt wiederhole ich es zum hundertsten Mal; Sie sind ja nicht so stark in der Verkehrspolitik verankert."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Andreas Scheuer",
-            "speakerstatus": "speaker",
-            "text": "Das Hohe Haus hat eine Infrastrukturabgabe beschlossen. Es hat hier eine Gesetzgebung beschlossen, die ein Ministerium – Exekutive – umsetzen muss. Der Haushaltsausschuss hat uns die Mittel dafür gegeben, dass wir das in 2018 an den Start bringen. Es ist die Aufgabe eines Ministers, das zu tun.",
-            "sentences": [
-              {
-                "text": "Das Hohe Haus hat eine Infrastrukturabgabe beschlossen."
-              },
-              {
-                "text": "Es hat hier eine Gesetzgebung beschlossen, die ein Ministerium – Exekutive – umsetzen muss."
-              },
-              {
-                "text": "Der Haushaltsausschuss hat uns die Mittel dafür gegeben, dass wir das in 2018 an den Start bringen."
-              },
-              {
-                "text": "Es ist die Aufgabe eines Ministers, das zu tun."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Andreas Scheuer",
-            "speakerstatus": "speaker",
-            "text": "Der Auftragnehmer hätte wiederholt die Möglichkeit gehabt, wenn ihm der Zeitplan nicht gepasst hätte, sich von genau diesem Zeitplan zu entfernen oder – anders gesagt – zu den Unterzeichnungsterminen nicht zu erscheinen. Er ist aber erschienen, also war es in beiderseitigem Einverständnis, dass wir beide Verträge, nämlich Kontrolle und Erhebung, in 2018 abschließen. Wenn das nicht möglich gewesen wäre für den Auftragnehmer, dann hätte er dies ja nicht gemacht.",
-            "sentences": [
-              {
-                "text": "Der Auftragnehmer hätte wiederholt die Möglichkeit gehabt, wenn ihm der Zeitplan nicht gepasst hätte, sich von genau diesem Zeitplan zu entfernen oder – anders gesagt – zu den Unterzeichnungsterminen nicht zu erscheinen."
-              },
-              {
-                "text": "Er ist aber erschienen, also war es in beiderseitigem Einverständnis, dass wir beide Verträge, nämlich Kontrolle und Erhebung, in 2018 abschließen."
-              },
-              {
-                "text": "Wenn das nicht möglich gewesen wäre für den Auftragnehmer, dann hätte er dies ja nicht gemacht."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Andreas Scheuer",
-            "speakerstatus": "speaker",
-            "text": "Von daher war das vom Zeitplan her überhaupt kein Thema. Das hat nie im Vordergrund gestanden, sondern nur die organisatorische und technische Umsetzung des Vorhabens, das wiederum von allen begrüßt und positiv beschieden wurde: von der Bundesregierung, vom Bundestag, vom Bundesrat",
-            "sentences": [
-              {
-                "text": "Von daher war das vom Zeitplan her überhaupt kein Thema."
-              },
-              {
-                "text": "Das hat nie im Vordergrund gestanden, sondern nur die organisatorische und technische Umsetzung des Vorhabens, das wiederum von allen begrüßt und positiv beschieden wurde: von der Bundesregierung, vom Bundestag, vom Bundesrat"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Andreas Scheuer",
-            "speakerstatus": "speaker",
-            "text": "– im Übrigen auch mit den Stimmen von den Grünen und beispielsweise auch von Thüringen –, vom Bundespräsidenten, von der Europäischen Kommission, volle Zustimmung durch den Generalanwalt.",
-            "sentences": [
-              {
-                "text": "– im Übrigen auch mit den Stimmen von den Grünen und beispielsweise auch von Thüringen –, vom Bundespräsidenten, von der Europäischen Kommission, volle Zustimmung durch den Generalanwalt."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Andreas Scheuer",
-            "speakerstatus": "speaker",
-            "text": "Und, ja, die Enttäuschung war dann das EuGH-Urteil, das uns überhaupt erst in diese Diskussion bringt; nicht mehr und nicht weniger. Das muss man zur Vervollständigung des Ganzen schon sagen.",
-            "sentences": [
-              {
-                "text": "Und, ja, die Enttäuschung war dann das EuGH-Urteil, das uns überhaupt erst in diese Diskussion bringt; nicht mehr und nicht weniger."
-              },
-              {
-                "text": "Das muss man zur Vervollständigung des Ganzen schon sagen."
               }
             ]
           },
@@ -11463,100 +11185,9 @@
         "sourceURI": "https://dserver.bundestag.de/btd/19/132/1913255.pdf"
       }
     ],
-    "key": "19-114 tagesordnungspunkt 2 (claudia roth) #1",
-    "dateStart": "2019-09-25T13:03:01",
-    "dateEnd": "2019-09-25T13:10:39",
-    "media": {
-      "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7390554/7390554_h264_720_400_2000kb_baseline_de_2192.mp4",
-      "sourcePage": "http://dbtg.tv/fvid/7390554",
-      "duration": 458.0,
-      "creator": "Deutscher Bundestag",
-      "license": "CC-BY-SA",
-      "originMediaID": "7390554",
-      "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7390554/7390554_mp3_128kb_stereo_de_128.mp3"
-    }
-  },
-  {
-    "parliament": "DE",
-    "electoralPeriod": {
-      "number": 19
-    },
-    "session": {
-      "number": 114
-    },
-    "agendaItem": {
-      "title": "Fragestunde",
-      "officialTitle": "Tagesordnungspunkt 2",
-      "speechIndex": 19
-    },
-    "media": {
-      "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7390555/7390555_h264_720_400_2000kb_baseline_de_2192.mp4",
-      "sourcePage": "http://dbtg.tv/fvid/7390555",
-      "duration": 482.0,
-      "creator": "Deutscher Bundestag",
-      "license": "CC-BY-SA",
-      "originMediaID": "7390555",
-      "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7390555/7390555_mp3_128kb_stereo_de_128.mp3"
-    },
-    "dateStart": "2019-09-25T13:10:39",
-    "dateEnd": "2019-09-25T13:18:41",
-    "people": [
-      {
-        "label": "Michelle Müntefering",
-        "faction": "SPD",
-        "context": "main-speaker",
-        "role": "Staatsministerin im Auswärtigen Amt"
-      }
-    ],
-    "key": "19-114 tagesordnungspunkt 2 (michelle muntefering)"
-  },
-  {
-    "parliament": "DE",
-    "electoralPeriod": {
-      "number": 19
-    },
-    "session": {
-      "number": 114
-    },
-    "agendaItem": {
-      "title": "Fragestunde",
-      "officialTitle": "Tagesordnungspunkt 2",
-      "speechIndex": 20
-    },
-    "media": {
-      "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7390556/7390556_h264_720_400_2000kb_baseline_de_2192.mp4",
-      "sourcePage": "http://dbtg.tv/fvid/7390556",
-      "duration": 422.0,
-      "creator": "Deutscher Bundestag",
-      "license": "CC-BY-SA",
-      "originMediaID": "7390556",
-      "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7390556/7390556_mp3_128kb_stereo_de_128.mp3"
-    },
-    "dateStart": "2019-09-25T13:18:41",
-    "dateEnd": "2019-09-25T13:25:43",
-    "people": [
-      {
-        "label": "Thomas Bareiß",
-        "faction": "CDU/CSU",
-        "context": "main-speaker",
-        "role": "Parlamentarischer Staatssekretär für Wirtschaft und Energie"
-      }
-    ],
-    "key": "19-114 tagesordnungspunkt 2 (thomas bareiß)"
-  },
-  {
-    "parliament": "DE",
-    "electoralPeriod": {
-      "number": 19
-    },
-    "session": {
-      "number": 114
-    },
-    "agendaItem": {
-      "title": "Fragestunde",
-      "officialTitle": "Tagesordnungspunkt 2",
-      "speechIndex": 21
-    },
+    "key": "19-114 tagesordnungspunkt 2 (claudia roth) #2",
+    "dateStart": "2019-09-25T13:25:43",
+    "dateEnd": "2019-09-25T13:37:03",
     "media": {
       "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7390557/7390557_h264_720_400_2000kb_baseline_de_2192.mp4",
       "sourcePage": "http://dbtg.tv/fvid/7390557",
@@ -11565,18 +11196,7 @@
       "license": "CC-BY-SA",
       "originMediaID": "7390557",
       "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7390557/7390557_mp3_128kb_stereo_de_128.mp3"
-    },
-    "dateStart": "2019-09-25T13:25:43",
-    "dateEnd": "2019-09-25T13:37:03",
-    "people": [
-      {
-        "label": "Claudia Roth",
-        "faction": "BÜNDNIS 90/DIE GRÜNEN",
-        "context": "main-speaker",
-        "role": "Bundestagsvizepräsidentin"
-      }
-    ],
-    "key": "19-114 tagesordnungspunkt 2 (claudia roth) #2"
+    }
   },
   {
     "parliament": "DE",
@@ -11624,7 +11244,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 79,
+      "speechIndex": 1080,
       "title": "Aktuelle Stunde zur Eskalation in der Golfregion"
     },
     "people": [
@@ -11637,7 +11257,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19114-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19114-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -11651,6 +11271,39 @@
             "sentences": [
               {
                 "text": "Dann rufe ich jetzt den Zusatzpunkt 1 auf:"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "Aktuelle Stunde",
+            "sentences": [
+              {
+                "text": "Aktuelle Stunde"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "auf Verlangen der Fraktion BÜNDNIS 90/DIE GRÜNEN",
+            "sentences": [
+              {
+                "text": "auf Verlangen der Fraktion BÜNDNIS 90/DIE GRÜNEN"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "vice-president",
+            "text": "Haltung der Bundesregierung zur Eskalationin der Golfregion",
+            "sentences": [
+              {
+                "text": "Haltung der Bundesregierung zur Eskalationin der Golfregion"
               }
             ]
           },
@@ -11705,7 +11358,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 80,
+      "speechIndex": 1081,
       "title": "Aktuelle Stunde zur Eskalation in der Golfregion"
     },
     "people": [
@@ -11721,7 +11374,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19114-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19114-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -12078,7 +11731,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 81,
+      "speechIndex": 1082,
       "title": "Aktuelle Stunde zur Eskalation in der Golfregion"
     },
     "people": [
@@ -12094,7 +11747,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19114-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19114-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -12352,7 +12005,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 82,
+      "speechIndex": 1083,
       "title": "Aktuelle Stunde zur Eskalation in der Golfregion"
     },
     "people": [
@@ -12368,7 +12021,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19114-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19114-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -12625,7 +12278,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 83,
+      "speechIndex": 1084,
       "title": "Aktuelle Stunde zur Eskalation in der Golfregion"
     },
     "people": [
@@ -12641,7 +12294,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19114-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19114-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -12896,7 +12549,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 84,
+      "speechIndex": 1085,
       "title": "Aktuelle Stunde zur Eskalation in der Golfregion"
     },
     "people": [
@@ -12912,7 +12565,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19114-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19114-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -13212,7 +12865,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 85,
+      "speechIndex": 1086,
       "title": "Aktuelle Stunde zur Eskalation in der Golfregion"
     },
     "people": [
@@ -13228,7 +12881,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19114-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19114-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -13618,7 +13271,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 86,
+      "speechIndex": 1087,
       "title": "Aktuelle Stunde zur Eskalation in der Golfregion"
     },
     "people": [
@@ -13634,7 +13287,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19114-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19114-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -14008,7 +13661,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 87,
+      "speechIndex": 1088,
       "title": "Aktuelle Stunde zur Eskalation in der Golfregion"
     },
     "people": [
@@ -14029,7 +13682,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19114-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19114-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -14347,7 +14000,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 88,
+      "speechIndex": 1089,
       "title": "Aktuelle Stunde zur Eskalation in der Golfregion"
     },
     "people": [
@@ -14363,7 +14016,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19114-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19114-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -14561,7 +14214,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 89,
+      "speechIndex": 1090,
       "title": "Aktuelle Stunde zur Eskalation in der Golfregion"
     },
     "people": [
@@ -14582,7 +14235,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19114-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19114-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -14921,7 +14574,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 90,
+      "speechIndex": 1091,
       "title": "Aktuelle Stunde zur Eskalation in der Golfregion"
     },
     "people": [
@@ -14937,7 +14590,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19114-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19114-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -15136,7 +14789,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 91,
+      "speechIndex": 1092,
       "title": "Aktuelle Stunde zur Eskalation in der Golfregion"
     },
     "people": [
@@ -15152,7 +14805,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19114-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19114-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -15344,7 +14997,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 92,
+      "speechIndex": 1093,
       "title": "Aktuelle Stunde zur Eskalation in der Golfregion"
     },
     "people": [
@@ -15365,7 +15018,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19114-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19114-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -15672,7 +15325,7 @@
     },
     "agendaItem": {
       "officialTitle": "Zusatzpunkt 1",
-      "speechIndex": 93,
+      "speechIndex": 1094,
       "title": "Aktuelle Stunde zur Eskalation in der Golfregion"
     },
     "people": [
@@ -15685,7 +15338,7 @@
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19114-data.xml",
+        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19114-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
