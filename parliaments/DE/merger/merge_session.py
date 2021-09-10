@@ -81,7 +81,7 @@ def matching_items(proceedings, media, include_all_proceedings=False):
         output.extend((item, None) for item in proc_items)
     return output
 
-def diff_files(proceedings_file, media_file):
+def diff_files(proceedings_file, media_file, include_all_proceedings=False):
     with open(proceedings_file) as f:
         proceedings = json.load(f)
     with open(media_file) as f:
@@ -91,7 +91,7 @@ def diff_files(proceedings_file, media_file):
     left = "Media"
     right = "Proceeding"
     print(f"""{left.ljust(width)} {right}""")
-    for (p, m) in matching_items(proceedings, media):
+    for (p, m) in matching_items(proceedings, media, include_all_proceedings):
         left = '[[[ None ]]]' if m is None else m['key']
         right = '[[[ None ]]]' if p is None else p['key']
         print(f"""{left.ljust(width)} {right}""")
@@ -142,7 +142,7 @@ if __name__ == "__main__":
     logging.basicConfig(level=loglevel)
 
     if args.check:
-        diff_files(args.proceedings_file, args.media_file)
+        diff_files(args.proceedings_file, args.media_file, args.include_all_proceedings)
     else:
         data = merge_files(args.proceedings_file, args.media_file, args.include_all_proceedings)
         if args.output:
