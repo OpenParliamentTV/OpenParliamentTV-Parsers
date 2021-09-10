@@ -101,11 +101,13 @@ def unmatched_count(proceedings_file, media_file, include_all_proceedings=True):
         proceedings = json.load(f)
     with open(media_file) as f:
         media = json.load(f)
-    unmatched_items = [ p
-                        for (p, m) in matching_items(proceedings, media, include_all_proceedings)
-                        if m is None
-                       ]
-    return len(unmatched_items)
+    matching = matching_items(proceedings, media, include_all_proceedings)
+    unmatched_proceedings = [ p for (p, m) in matching if m is None ]
+    unmatched_media = [ m for (p, m) in matching if p is None ]
+    return { 'proceedings': len(proceedings),
+             'media': len(media),
+             'unmatched_proceedings': len(unmatched_proceedings),
+             'unmatched_media': len(unmatched_media) }
 
 def merge_data(proceedings, media, include_all_proceedings=False):
     """Merge data structures.
@@ -146,6 +148,7 @@ if __name__ == "__main__":
     parser.add_argument("--include-all-proceedings", action="store_true",
                         default=False,
                         help="Include all proceedings-issued speeches even if they did not have a match")
+
     args = parser.parse_args()
     if args.media_file is None or args.proceedings_file is None:
         parser.print_help()
@@ -156,7 +159,7 @@ if __name__ == "__main__":
     logging.basicConfig(level=loglevel)
 
     if args.unmatched_count:
-        print(unmatched_count(args.proceedings_file, args.media_file))
+        print(json.dumps(unmatched_count(args.proceedings_file, args.media_file), indent=2))
         sys.exit(0)
     elif args.check:
         diff_files(args.proceedings_file, args.media_file, args.include_all_proceedings)
