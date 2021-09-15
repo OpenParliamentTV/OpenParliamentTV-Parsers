@@ -5,10 +5,11 @@
 # It takes as input 2 session JSON files and outputs a third one with speeches merged.
 
 import logging
-logger = logging.getLogger(__name__)
+logger = logging.getLogger('merge_session' if __name__ == '__main__' else __name__)
 
 import argparse
 from copy import deepcopy
+import itertools
 import json
 from pathlib import Path
 import sys
@@ -37,13 +38,88 @@ def merge_item(proceeding, mediaitem):
 
     return output
 
-def get_item_key(item):
+def speaker_cleanup(item):
     if item['people']:
         speaker = remove_accents(item['people'][0]['label'].lower()).replace(' von der ', ' ').replace('altersprasident ', '')
     else:
         speaker = None
+    return speaker
 
+def get_item_key(item):
+    speaker = speaker_cleanup(item)
     return remove_accents(f"{item['electoralPeriod']['number']}-{item['session']['number']} {item['agendaItem']['officialTitle']} ({speaker})".lower())
+
+def bounded_non_matching_sequences(mapping_sequence):
+    """Takes a (proceeding, media) sequence
+
+    Yields sub-sequences of empty proceedings with non-empty
+    proceeding boundaries
+    """
+    def groupkey(tup):
+        return "MATCH" if tup[0] is not None else "UNMATCH"
+
+    return itertools.groupby(mapping_sequence, groupkey)
+
+def align_nonmatching_subsequences(mapping_sequence, proceedings, media):
+    # mapping_sequence is a list of (proceeding, media) tuples
+    # Other option: see https://pypi.org/project/alignment/ for alignment of sub-sequences
+
+    # Convert from iterator to plain list
+    non_matching_sequences = [ (k, list(seq))
+                               for (k, seq) in bounded_non_matching_sequences(mapping_sequence)
+                              ]
+    #for (k, seq) in non_matching_sequences:
+    #    print(f"""{k} - {len(seq)} items""")
+    for i, group in enumerate(non_matching_sequences):
+        if group[0] == 'UNMATCH':
+            # We have a sequence with tup[0] (proceeding) == None.
+
+            # Extract from global proceedings list the sequence
+            # between the previous matching proc. and the next matching proc.
+            proc_sequence = list(proceedings)
+            if i > 0:
+                prev_match = non_matching_sequences[i - 1]
+                assert prev_match[0] == 'MATCH'
+                prev_proc = prev_match[1][-1][0]
+                proc_sequence = itertools.dropwhile(lambda p: p['key'] != prev_proc['key'],
+                                                    proc_sequence)
+            if i < len(non_matching_sequences) - 1:
+                next_match = non_matching_sequences[i + 1]
+                assert next_match[0] == 'MATCH'
+                next_proc = next_match[1][0][0]
+                proc_sequence = itertools.takewhile(lambda p: p['key'] != next_proc['key'],
+                                                    proc_sequence)
+            # We should now have a corresponding proceedings sequence that we must align
+            proc_sequence = list(proc_sequence)
+            logger.debug(f"--- {len(proc_sequence)} / {len(group[1])} non matching items -----")
+            for m, p in itertools.zip_longest(group[1], proc_sequence):
+                logger.debug("%s\t%s" % (m[1]['people'][0]['label'] if m else 'None',
+                                  p['people'][0]['label'] if p else 'None'))
+            # Now align items
+            for p, m in group[1]:
+                # p is None since we are in an UNMATCH group
+                key = speaker_cleanup(m)
+                # Try to find a matching name in proc_sequence
+                matching_proc = None
+                if proc_sequence:
+                    p = proc_sequence[0]
+                    if speaker_cleanup(p) == key:
+                        # Matching speaker name
+                        matching_proc = proc_sequence.pop(0)
+                    elif len(proc_sequence) > 1:
+                        # Try one item further
+                        p = proc_sequence[1]
+                        if speaker_cleanup(p) == key:
+                            # Matching speaker name
+                            matching_proc = p
+                            # Remove 2 items
+                            proc_sequence.pop(0)
+                            proc_sequence.pop(0)
+
+                yield matching_proc, m
+        else:
+            for tup in group[1]:
+                yield tup
 
 def matching_items(proceedings, media, include_all_proceedings=False):
     """Return a list of (proceeding, mediaitem) items that match.
@@ -69,7 +145,12 @@ def matching_items(proceedings, media, include_all_proceedings=False):
                 item['key'] = newkey
             itemdict[item['key']] = item
 
+    # Determine all key-based matching items
     output = [ (procdict.get(m['key']), m) for m in media ]
+
+    # Using matching items as landmarks, try to align remaining
+    # sequences based on speaker names matching
+    output = list(align_nonmatching_subsequences(output, proceedings, media))
 
     output_proceeding_keys = set( p['key']
                                   for p, m in output
