@@ -12,6 +12,7 @@ from copy import deepcopy
 import itertools
 import json
 from pathlib import Path
+import re
 import sys
 import unicodedata
 
@@ -47,7 +48,12 @@ def speaker_cleanup(item):
 
 def get_item_key(item):
     speaker = speaker_cleanup(item)
-    return remove_accents(f"{item['electoralPeriod']['number']}-{item['session']['number']} {item['agendaItem']['officialTitle']} ({speaker})".lower())
+    title = item['agendaItem']['officialTitle'].strip()
+    # Remove trailing .<number>
+    title = re.sub('\.\d+$', '', title)
+    # Replace MM-NN by only the 1st item (ideally we should generate a sequence MM..NN)
+    # title = re.sub('\s(\d+)-\d+$', ' \\1', title)
+    return remove_accents(f"{item['electoralPeriod']['number']}-{item['session']['number']} {title} ({speaker})".lower())
 
 def bounded_non_matching_sequences(mapping_sequence):
     """Takes a (proceeding, media) sequence
