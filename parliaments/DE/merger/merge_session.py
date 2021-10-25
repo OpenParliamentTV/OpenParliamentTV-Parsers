@@ -67,42 +67,47 @@ def bounded_non_matching_sequences(mapping_sequence):
     return itertools.groupby(mapping_sequence, groupkey)
 
 def align_nonmatching_subsequences(mapping_sequence, proceedings, media):
-    # mapping_sequence is a list of (proceeding, media) tuples
+    # Mapping_sequence is a list of (proceeding, media) tuples
+
+    # Some of the "proceeding" values may be None, when we could not align them with the whole key.
+
     # Other option: see https://pypi.org/project/alignment/ for alignment of sub-sequences
 
-    # Convert from iterator to plain list
-    non_matching_sequences = [ (k, list(seq))
+    # Categorize sequence. Output a list of [ ("MATCH", [ (p1, m1), (p2, m2), ... ]),
+    #                                         ("UNMATCH", [ (None, m5), (None, m6)... ]), ... ]
+    categorized_sequences = [ (k, list(seq))
                                for (k, seq) in bounded_non_matching_sequences(mapping_sequence)
                               ]
     #for (k, seq) in non_matching_sequences:
     #    print(f"""{k} - {len(seq)} items""")
-    for i, group in enumerate(non_matching_sequences):
-        if group[0] == 'UNMATCH':
+    for i, group in enumerate(categorized_sequences):
+        category, sequence = group
+        if category == 'UNMATCH':
             # We have a sequence with tup[0] (proceeding) == None.
 
             # Extract from global proceedings list the sequence
-            # between the previous matching proc. and the next matching proc.
+            # between the previous matching proc. item and the next matching proc. item
             proc_sequence = list(proceedings)
             if i > 0:
-                prev_match = non_matching_sequences[i - 1]
+                prev_match = categorized_sequences[i - 1]
                 assert prev_match[0] == 'MATCH'
                 prev_proc = prev_match[1][-1][0]
                 proc_sequence = itertools.dropwhile(lambda p: p['key'] != prev_proc['key'],
                                                     proc_sequence)
-            if i < len(non_matching_sequences) - 1:
-                next_match = non_matching_sequences[i + 1]
+            if i < len(categorized_sequences) - 1:
+                next_match = categorized_sequences[i + 1]
                 assert next_match[0] == 'MATCH'
                 next_proc = next_match[1][0][0]
                 proc_sequence = itertools.takewhile(lambda p: p['key'] != next_proc['key'],
                                                     proc_sequence)
             # We should now have a corresponding proceedings sequence that we must align
             proc_sequence = list(proc_sequence)
-            logger.debug(f"--- {len(proc_sequence)} / {len(group[1])} non matching items -----")
-            for m, p in itertools.zip_longest(group[1], proc_sequence):
+            logger.debug(f"--- {len(proc_sequence)} / {len(sequence)} non matching items -----")
+            for m, p in itertools.zip_longest(sequence, proc_sequence):
                 logger.debug("%s\t%s" % (m[1]['people'][0]['label'] if m else 'None',
                                   p['people'][0]['label'] if p else 'None'))
             # Now align items
-            for p, m in group[1]:
+            for p, m in sequence:
                 # p is None since we are in an UNMATCH group
                 key = speaker_cleanup(m)
                 # Try to find a matching name in proc_sequence
@@ -124,7 +129,7 @@ def align_nonmatching_subsequences(mapping_sequence, proceedings, media):
 
                 yield matching_proc, m
         else:
-            for tup in group[1]:
+            for tup in sequence:
                 yield tup
 
 def matching_items(proceedings, media, include_all_proceedings=False):
