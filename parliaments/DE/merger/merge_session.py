@@ -66,7 +66,7 @@ def bounded_non_matching_sequences(mapping_sequence):
 
     return itertools.groupby(mapping_sequence, groupkey)
 
-def align_nonmatching_subsequences(mapping_sequence, proceedings, media):
+def align_nonmatching_subsequences(mapping_sequence, proceedings, media, options):
     # Mapping_sequence is a list of (proceeding, media) tuples
 
     # Some of the "proceeding" values may be None, when we could not align them with the whole key.
@@ -117,7 +117,7 @@ def align_nonmatching_subsequences(mapping_sequence, proceedings, media):
                     if speaker_cleanup(p) == key:
                         # Matching speaker name
                         matching_proc = proc_sequence.pop(0)
-                    elif len(proc_sequence) > 1:
+                    elif options.advanced_rematch and len(proc_sequence) > 1:
                         # Try one item further
                         p = proc_sequence[1]
                         if speaker_cleanup(p) == key:
@@ -132,7 +132,7 @@ def align_nonmatching_subsequences(mapping_sequence, proceedings, media):
             for tup in sequence:
                 yield tup
 
-def matching_items(proceedings, media, include_all_proceedings=False):
+def matching_items(proceedings, media, options):
     """Return a list of (proceeding, mediaitem) items that match.
     """
     # Build a dict for proceedings, indexed by key
@@ -159,21 +159,22 @@ def matching_items(proceedings, media, include_all_proceedings=False):
     # Determine all key-based matching items
     output = [ (procdict.get(m['key']), m) for m in media ]
 
-    # Using matching items as landmarks, try to align remaining
-    # sequences based on speaker names matching
-    output = list(align_nonmatching_subsequences(output, proceedings, media))
+    if options.second_stage_matching or options.advanced_rematch:
+        # Using matching items as landmarks, try to align remaining
+        # sequences based on speaker names matching
+        output = list(align_nonmatching_subsequences(output, proceedings, media, options))
 
     output_proceeding_keys = set( p['key']
                                   for p, m in output
                                   if p is not None )
 
-    if include_all_proceedings:
+    if options.include_all_proceedings:
         # Add proceeding items with no matching media items - in speechIndex order
         proc_items = ( p for p in proceedings if p['key'] not in output_proceeding_keys )
         output.extend((item, None) for item in proc_items)
     return output
 
-def diff_files(proceedings_file, media_file, include_all_proceedings=False):
+def diff_files(proceedings_file, media_file, options):
     with open(proceedings_file) as f:
         proceedings = json.load(f)
     with open(media_file) as f:
@@ -183,17 +184,17 @@ def diff_files(proceedings_file, media_file, include_all_proceedings=False):
     left = "Media"
     right = "Proceeding"
     print(f"""{left.ljust(width)} {right}""")
-    for (p, m) in matching_items(proceedings, media, include_all_proceedings):
+    for (p, m) in matching_items(proceedings, media, options):
         left = '[[[ None ]]]' if m is None else m['key']
         right = '[[[ None ]]]' if p is None else p['key']
         print(f"""{left.ljust(width)} {right}""")
 
-def unmatched_count(proceedings_file, media_file, include_all_proceedings=True):
+def unmatched_count(proceedings_file, media_file, options):
     with open(proceedings_file) as f:
         proceedings = json.load(f)
     with open(media_file) as f:
         media = json.load(f)
-    matching = matching_items(proceedings, media, include_all_proceedings)
+    matching = matching_items(proceedings, media, options)
     unmatched_proceedings = [ p for (p, m) in matching if m is None ]
     unmatched_media = [ m for (p, m) in matching if p is None ]
     return { 'proceedings': len(proceedings),
@@ -201,7 +202,7 @@ def unmatched_count(proceedings_file, media_file, include_all_proceedings=True):
              'unmatched_proceedings': len(unmatched_proceedings),
              'unmatched_media': len(unmatched_media) }
 
-def merge_data(proceedings, media, include_all_proceedings=False):
+def merge_data(proceedings, media, options):
     """Merge data structures.
 
     If no match is found for a proceedings, we will dump the
@@ -209,16 +210,16 @@ def merge_data(proceedings, media, include_all_proceedings=False):
     """
     return [
         merge_item(p, m)
-        for (p, m) in matching_items(proceedings, media, include_all_proceedings=False)
+        for (p, m) in matching_items(proceedings, media, options)
     ]
 
-def merge_files(proceedings_file, media_file, include_all_proceedings=False):
+def merge_files(proceedings_file, media_file, options):
     with open(proceedings_file) as f:
         proceedings = json.load(f)
     with open(media_file) as f:
         media = json.load(f)
     # Order media, according to dateStart
-    return merge_data(proceedings, media, include_all_proceedings=False)
+    return merge_data(proceedings, media, options)
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Merge proceedings and media file.")
@@ -240,6 +241,12 @@ if __name__ == "__main__":
     parser.add_argument("--include-all-proceedings", action="store_true",
                         default=False,
                         help="Include all proceedings-issued speeches even if they did not have a match")
+    parser.add_argument("--second-stage-matching", action="store_true",
+                        default=False,
+                        help="Do a second-stage matching using speaker names for non-matching subsequences")
+    parser.add_argument("--advanced-rematch", action="store_true",
+                        default=False,
+                        help="Try harder to realign non-matching proceedin items by skipping some of the items")
 
     args = parser.parse_args()
     if args.media_file is None or args.proceedings_file is None:
@@ -251,12 +258,12 @@ if __name__ == "__main__":
     logging.basicConfig(level=loglevel)
 
     if args.unmatched_count:
-        print(json.dumps(unmatched_count(args.proceedings_file, args.media_file), indent=2))
+        print(json.dumps(unmatched_count(args.proceedings_file, args.media_file, args), indent=2))
         sys.exit(0)
     elif args.check:
-        diff_files(args.proceedings_file, args.media_file, args.include_all_proceedings)
+        diff_files(args.proceedings_file, args.media_file, args)
     else:
-        data = merge_files(args.proceedings_file, args.media_file, args.include_all_proceedings)
+        data = merge_files(args.proceedings_file, args.media_file, args)
         if args.output:
             output_dir = Path(args.output)
             if not output_dir.is_dir():
