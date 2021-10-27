@@ -181,12 +181,12 @@ def diff_files(proceedings_file, media_file, options):
         media = json.load(f)
     #width = int(int(os.environ.get('COLUMNS', 80)) / 2)
     width = 60
-    left = "Media"
-    right = "Proceeding"
+    left = "Proceeding"
+    right = "Media"
     print(f"""{left.ljust(width)} {right}""")
     for (p, m) in matching_items(proceedings, media, options):
-        left = '[[[ None ]]]' if m is None else m['key']
-        right = '[[[ None ]]]' if p is None else p['key']
+        left = '[[[ None ]]]' if p is None else p['key']
+        right = '[[[ None ]]]' if m is None else m['key']
         print(f"""{left.ljust(width)} {right}""")
 
 def unmatched_count(proceedings_file, media_file, options):
