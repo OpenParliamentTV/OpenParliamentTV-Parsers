@@ -16,7 +16,7 @@ all: $(MEDIA_DEST) $(TRANSCRIPT_DEST) $(MERGE_DEST)
 download:
 	$(BASEDIR)/scraper/fetch_proceedings.py $(DATADIR)/proceedings
 	# Fetch media files from period
-	$(BASEDIR)/scraper/update_media --from-period 19 $(DATADIR)/media --save-raw-data
+	$(BASEDIR)/scraper/update_media --from-period 20 $(DATADIR)/media --save-raw-data
 	# Fetch media files corresponding to proceedings files
 	# $(BASEDIR)/scraper/update_media --from-proceedings $(DATADIR)/proceedings $(DATADIR)/media --save-raw-data
 
