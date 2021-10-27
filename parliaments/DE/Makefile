@@ -9,9 +9,9 @@ MEDIA_SOURCE := $(wildcard $(DATADIR)/media/raw-*-media.json)
 
 TRANSCRIPT_DEST := $(patsubst %.xml,%.json,$(TRANSCRIPT_SOURCE))
 # MEDIA_DEST filelist is build using MEDIA_SOURCE
-MEDIA_DEST := $(subst /raw-/,//,$(MEDIA_SOURCE))
+MEDIA_DEST := $(subst raw-,,$(MEDIA_SOURCE))
 
-MERGE_DEST := $(subst /proceedings/,/merged/,$(patsubst %-data.xml,%-merged.json,$(TRANSCRIPT_SOURCE)))
+MERGE_DEST := $(subst /media/,/merged/,$(patsubst %-data.json,%-merged.json,$(MEDIA_DEST)))
 
 all: $(MEDIA_DEST) $(TRANSCRIPT_DEST) $(MERGE_DEST)
 
@@ -28,6 +28,9 @@ update: download all
 	$(BASEDIR)/merger/merge_session.py --output=$(DATADIR)/merged $^
 
 %-media.json: %-media.xml
+	$(BASEDIR)/parsers/media2json.py $< > $@
+
+%-media.json: raw-%-media.json
 	$(BASEDIR)/parsers/media2json.py $< > $@
 
 %-data.json: %-data.xml
