@@ -204,15 +204,27 @@ def parse_rss(filename: str) -> dict:
     return parse_media_data({ 'root': d,
                               'entries': d.entries })
 
+def parse_file(filename: str) -> dict:
+    """Allow to parse either .xml files for raw .json files
+    """
+    if filename.endswith('.xml'):
+        return parse_rss(filename)
+    elif filename.endswith('.json'):
+        with open(filename) as f:
+            raw_data = json.load(f)
+        return parse_media_data(raw_data)
+    else:
+        logger.error(f"Unable to determine file type for {filename}")
+
 if __name__ == '__main__':
 
     logging.basicConfig(level=logging.INFO)
 
     if len(sys.argv) < 2:
-        logger.warning(f"Syntax: {sys.argv[0]} file.xml ...")
+        logger.warning(f"Syntax: {sys.argv[0]} file.xml|raw-XXX.json ...")
         sys.exit(1)
 
-    data = [ item for source in sys.argv[1:] for item in parse_rss(source) ]
+    data = [ item for source in sys.argv[1:] for item in parse_file(source) ]
     # Sort data according to dateStart
     data.sort(key=lambda m: m['dateStart'])
     json.dump(data, sys.stdout, indent=2, ensure_ascii=False)
