@@ -4,10 +4,12 @@ BASEDIR := $(dir $(MAKEFILE_PATH))
 DATADIR := $(BASEDIR)data
 
 TRANSCRIPT_SOURCE := $(wildcard $(DATADIR)/proceedings/*.xml)
+# MEDIA_SOURCE filelist will be updated by download
+MEDIA_SOURCE := $(wildcard $(DATADIR)/media/raw-*-media.json)
 
-# MEDIA_DEST := $(patsubst %.xml,%.json,$(MEDIA_SOURCE))
 TRANSCRIPT_DEST := $(patsubst %.xml,%.json,$(TRANSCRIPT_SOURCE))
-MEDIA_DEST := $(wildcard $(DATADIR)/media/*-media.json)
+# MEDIA_DEST filelist is build using MEDIA_SOURCE
+MEDIA_DEST := $(subst /raw-/,//,$(MEDIA_SOURCE))
 
 MERGE_DEST := $(subst /proceedings/,/merged/,$(patsubst %-data.xml,%-merged.json,$(TRANSCRIPT_SOURCE)))
 
