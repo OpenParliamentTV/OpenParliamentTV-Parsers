@@ -24,6 +24,12 @@ download:
 
 update: download all
 
+debug:
+	-echo "MEDIA_DEST"
+	-echo $(MEDIA_DEST)
+	-echo "MERGE DEST"
+	-echo $(MERGE_DEST)
+
 %-merged.json: ../proceedings/%-data.json ../media/%-media.json
 	$(BASEDIR)/merger/merge_session.py --output=$(DATADIR)/merged $^
 
