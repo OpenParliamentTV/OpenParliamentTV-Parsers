@@ -228,10 +228,7 @@ def build_pairs(proceedings_dir, media_dir):
     for m in sorted(media_dir.glob('[0-9]*.json')):
         # Try to find the matching proceedings file
         p = matching_proceeding(m, proceedings_dir)
-        if p is not None:
-            yield (p, m)
-        else:
-            logger.debug(f"No proceeding file matching {m.name}")
+        yield (p, m)
 
 def merge_files(proceedings_file, media_file, options):
     with open(proceedings_file) as f:
