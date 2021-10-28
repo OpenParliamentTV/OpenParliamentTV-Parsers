@@ -218,7 +218,7 @@ def merge_data(proceedings, media, options):
     ]
 
 def build_pairs(proceedings_dir, media_dir):
-    for m in media_dir.glob('[0-9]*.json'):
+    for m in sorted(media_dir.glob('[0-9]*.json')):
         # Try to find the matching proceedings file
         p = proceedings_dir / m.name.replace('media', 'data')
         if p.exists():
