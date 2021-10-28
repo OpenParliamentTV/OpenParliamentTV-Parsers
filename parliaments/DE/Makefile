@@ -22,6 +22,9 @@ download:
 	# Fetch media files corresponding to proceedings files
 	# $(BASEDIR)/scraper/update_media --from-proceedings $(DATADIR)/proceedings $(DATADIR)/media --save-raw-data
 
+forcemerge:
+	$(BASEDIR)/merger/merge_session.py --output=$(DATADIR)/merged $(DATADIR)/proceedings $(DATADIR)/media
+
 update: download all
 
 debug:
