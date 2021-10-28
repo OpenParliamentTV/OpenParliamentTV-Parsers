@@ -1,8 +1,8 @@
 #! /usr/bin/env python3
 
-# Merge 2 session files (list of speeches)
+# Merge proceeding and media files
 
-# It takes as input 2 session JSON files and outputs a third one with speeches merged.
+# It takes as input a proceeding file/dir and a media file/dir and outputs a third one with speeches merged.
 
 import logging
 logger = logging.getLogger('merge_session' if __name__ == '__main__' else __name__)
@@ -197,10 +197,14 @@ def unmatched_count(proceedings_file, media_file, options):
     matching = matching_items(proceedings, media, options)
     unmatched_proceedings = [ p for (p, m) in matching if m is None ]
     unmatched_media = [ m for (p, m) in matching if p is None ]
-    return { 'proceedings': len(proceedings),
-             'media': len(media),
-             'unmatched_proceedings': len(unmatched_proceedings),
-             'unmatched_media': len(unmatched_media) }
+    return {
+        'proceedings_file': str(proceedings_file),
+        'media_file': str(media_file),
+        'proceedings_count': len(proceedings),
+        'media_count': len(media),
+        'unmatched_proceedings': len(unmatched_proceedings),
+        'unmatched_media': len(unmatched_media)
+    }
 
 def merge_data(proceedings, media, options):
     """Merge data structures.
@@ -213,6 +217,15 @@ def merge_data(proceedings, media, options):
         for (p, m) in matching_items(proceedings, media, options)
     ]
 
+def build_pairs(proceedings_dir, media_dir):
+    for m in media_dir.glob('[0-9]*.json'):
+        # Try to find the matching proceedings file
+        p = proceedings_dir / m.name.replace('media', 'data')
+        if p.exists():
+            yield (p, m)
+        else:
+            logger.debug(f"No proceeding file matching {m.name}")
+
 def merge_files(proceedings_file, media_file, options):
     with open(proceedings_file) as f:
         proceedings = json.load(f)
@@ -224,9 +237,9 @@ def merge_files(proceedings_file, media_file, options):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Merge proceedings and media file.")
     parser.add_argument("proceedings_file", type=str, nargs='?',
-                        help="Proceedings file")
+                        help="Proceedings file or directory")
     parser.add_argument("media_file", type=str, nargs='?',
-                        help="Media file")
+                        help="Media file or directory")
     parser.add_argument("--debug", action="store_true",
                         default=False,
                         help="Display debug messages")
@@ -257,21 +270,43 @@ if __name__ == "__main__":
         loglevel=logging.DEBUG
     logging.basicConfig(level=loglevel)
 
+    media = Path(args.media_file)
+    proceedings = Path(args.proceedings_file)
+    pairs = [ (proceedings, media) ]
+    if media.is_dir() and proceedings.is_dir():
+        # Directory version. Build the pairs data structure
+        pairs = build_pairs(proceedings, media)
+    elif media.is_dir() or proceedings.is_dir():
+        logger.error("Cannot mix files and directories between proceedings and media parameters")
+        sys.exit(1)
     if args.unmatched_count:
-        print(json.dumps(unmatched_count(args.proceedings_file, args.media_file, args), indent=2))
+        is_first = True
+        print('[')
+        for (p, m) in pairs:
+            if not is_first:
+                print(",")
+            print(json.dumps(unmatched_count(p, m, args), indent=2))
+            is_first = False
+        print(']')
         sys.exit(0)
     elif args.check:
-        diff_files(args.proceedings_file, args.media_file, args)
+        for (p, m) in pairs:
+            print(f"* Difference between {p.name} and {m.name}")
+            diff_files(p, m, args)
+            print("\n")
     else:
-        data = merge_files(args.proceedings_file, args.media_file, args)
-        if args.output:
-            output_dir = Path(args.output)
-            if not output_dir.is_dir():
-                output_dir.mkdir(parents=True)
-            period = data[0]['electoralPeriod']['number']
-            meeting = data[0]['session']['number']
-            filename = f"{period}{str(meeting).rjust(3, '0')}-merged.json"
-            with open(output_dir / filename, 'w') as f:
-                json.dump(data, f, indent=2, ensure_ascii=False)
-        else:
-            json.dump(data, sys.stdout, indent=2, ensure_ascii=False)
+        for (p, m) in pairs:
+            logger.debug(f"Merging {p.name} and {m.name}")
+            data = merge_files(p, m, args)
+            if args.output:
+                output_dir = Path(args.output)
+                if not output_dir.is_dir():
+                    output_dir.mkdir(parents=True)
+                period = data[0]['electoralPeriod']['number']
+                meeting = data[0]['session']['number']
+                filename = f"{period}{str(meeting).rjust(3, '0')}-merged.json"
+                logger.debug(f"Saving into {filename}")
+                with open(output_dir / filename, 'w') as f:
+                    json.dump(data, f, indent=2, ensure_ascii=False)
+            else:
+                json.dump(data, sys.stdout, indent=2, ensure_ascii=False)
