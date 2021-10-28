@@ -217,11 +217,18 @@ def merge_data(proceedings, media, options):
         for (p, m) in matching_items(proceedings, media, options)
     ]
 
+def matching_proceeding(mediafile: Path, proceedings_dir: Path) -> Path:
+    p = proceedings_dir / mediafile.name.replace('media', 'data')
+    if p.exists():
+        return p
+    else:
+        return None
+
 def build_pairs(proceedings_dir, media_dir):
     for m in sorted(media_dir.glob('[0-9]*.json')):
         # Try to find the matching proceedings file
-        p = proceedings_dir / m.name.replace('media', 'data')
-        if p.exists():
+        p = matching_proceeding(m, proceedings_dir)
+        if p is not None:
             yield (p, m)
         else:
             logger.debug(f"No proceeding file matching {m.name}")
@@ -276,13 +283,19 @@ if __name__ == "__main__":
     if media.is_dir() and proceedings.is_dir():
         # Directory version. Build the pairs data structure
         pairs = build_pairs(proceedings, media)
-    elif media.is_dir() or proceedings.is_dir():
-        logger.error("Cannot mix files and directories between proceedings and media parameters")
+    elif media.is_file() and proceedings.is_dir():
+        # Try to find the matching proceedings given a media file.
+        pairs = [ (matching_proceeding(media, proceedings), media) ]
+    elif media.is_dir() and proceedings.is_file():
+        logger.error("Cannot merge data without a media file")
         sys.exit(1)
+
     if args.unmatched_count:
         is_first = True
         print('[')
         for (p, m) in pairs:
+            if p is None:
+                continue
             if not is_first:
                 print(",")
             print(json.dumps(unmatched_count(p, m, args), indent=2))
@@ -291,13 +304,19 @@ if __name__ == "__main__":
         sys.exit(0)
     elif args.check:
         for (p, m) in pairs:
+            if p is None:
+                continue
             print(f"* Difference between {p.name} and {m.name}")
             diff_files(p, m, args)
             print("\n")
     else:
         for (p, m) in pairs:
-            logger.debug(f"Merging {p.name} and {m.name}")
-            data = merge_files(p, m, args)
+            if p is None:
+                logger.debug(f"Media {m.name} without proceeding. Copying file")
+                data = json.load(m.read_text())
+            else:
+                logger.debug(f"Merging {p.name} and {m.name}")
+                data = merge_files(p, m, args)
             if args.output:
                 output_dir = Path(args.output)
                 if not output_dir.is_dir():
