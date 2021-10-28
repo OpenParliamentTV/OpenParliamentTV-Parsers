@@ -313,7 +313,7 @@ if __name__ == "__main__":
         for (p, m) in pairs:
             if p is None:
                 logger.debug(f"Media {m.name} without proceeding. Copying file")
-                data = json.load(m.read_text())
+                data = json.loads(m.read_text())
             else:
                 logger.debug(f"Merging {p.name} and {m.name}")
                 data = merge_files(p, m, args)
