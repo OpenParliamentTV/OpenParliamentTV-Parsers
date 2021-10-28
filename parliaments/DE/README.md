@@ -9,6 +9,23 @@ from the scraped files, and converts them into a unified JSON format.
 The `merger` package holds modules/scripts for merging information
 from transformed files.
 
+# General instructions
+
+A `Makefile` automates the download and merging phases. You can run
+
+`make download`
+
+to first download media and proceedings files, then
+
+`make`
+
+to merge the downloaded files.
+
+In addition, the various components for fetching, parsing and merging
+data can be invoked independently. For instance, you can use the
+`merger/merge_session.py` to force the merging of specific files, or
+of the whole media/proceedings directories.
+
 # Environment setup
 
 Some modules have external dependencies (for RSS parsing, sentence
