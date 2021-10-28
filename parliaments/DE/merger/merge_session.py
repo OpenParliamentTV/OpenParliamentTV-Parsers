@@ -40,7 +40,7 @@ def merge_item(proceeding, mediaitem):
     return output
 
 def speaker_cleanup(item):
-    if item['people']:
+    if item.get('people'):
         speaker = remove_accents(item['people'][0]['label'].lower()).replace(' von der ', ' ').replace('altersprasident ', '')
     else:
         speaker = None
