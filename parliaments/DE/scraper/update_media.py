@@ -11,7 +11,14 @@ from pathlib import Path
 import re
 import sys
 
-from fetch_media import download_meeting_data, download_data, get_filename
+# Allow relative imports if invoked as a script
+# From https://stackoverflow.com/a/65780624/2870028
+if __package__ is None:
+    module_dir = Path(__file__).resolve().parent
+    sys.path.insert(0, str(module_dir.parent))
+    __package__ = module_dir.name
+
+from .fetch_media import download_meeting_data, download_data, get_filename
 
 def update_media_directory(proc_dir, media_dir, force=False, save_raw_data=False):
     for proc in sorted(proc_dir.glob('*-data.xml')):
