@@ -250,7 +250,8 @@ def merge_files_or_dirs(media: Path, proceedings: Path, args):
         logger.error("Cannot merge data without a media file")
         sys.exit(1)
 
-    if args.unmatched_count:
+    # Use getattr to allow undefined args.unmatched_count/check
+    if getattr(args, 'unmatched_count', None):
         is_first = True
         print('[')
         for (p, m) in pairs:
@@ -262,7 +263,7 @@ def merge_files_or_dirs(media: Path, proceedings: Path, args):
             is_first = False
         print(']')
         sys.exit(0)
-    elif args.check:
+    elif getattr(args, 'check', None):
         for (p, m) in pairs:
             if p is None:
                 continue
@@ -277,6 +278,7 @@ def merge_files_or_dirs(media: Path, proceedings: Path, args):
             else:
                 logger.debug(f"Merging {p.name} and {m.name}")
                 data = merge_files(p, m, args)
+
             if args.output:
                 output_dir = Path(args.output)
                 if not output_dir.is_dir():
@@ -284,9 +286,18 @@ def merge_files_or_dirs(media: Path, proceedings: Path, args):
                 period = data[0]['electoralPeriod']['number']
                 meeting = data[0]['session']['number']
                 filename = f"{period}{str(meeting).rjust(3, '0')}-merged.json"
-                logger.debug(f"Saving into {filename}")
-                with open(output_dir / filename, 'w') as f:
-                    json.dump(data, f, indent=2, ensure_ascii=False)
+                output_file = output_dir / filename
+
+                # Check dates
+                # Only save if media or proceedings is newer than merged
+                if (not output_file.exists()
+                    or output_file.stat().st_mtime < m.stat().st_mtime
+                    or ( p is not None and output_file.stat().st_mtime < p.stat().st_mtime)):
+                    logger.debug(f"Saving into {filename}")
+                    with open(output_file, 'w') as f:
+                        json.dump(data, f, indent=2, ensure_ascii=False)
+                else:
+                    logger.debug(f"{filename} seems up-to-date")
             else:
                 json.dump(data, sys.stdout, indent=2, ensure_ascii=False)
 
@@ -315,7 +326,7 @@ if __name__ == "__main__":
                         help="Do a second-stage matching using speaker names for non-matching subsequences")
     parser.add_argument("--advanced-rematch", action="store_true",
                         default=False,
-                        help="Try harder to realign non-matching proceedin items by skipping some of the items")
+                        help="Try harder to realign non-matching proceeding items by skipping some of the items")
 
     args = parser.parse_args()
     if args.media_file is None or args.proceedings_file is None:
