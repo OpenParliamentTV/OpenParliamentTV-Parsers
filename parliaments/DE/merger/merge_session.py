@@ -238,44 +238,7 @@ def merge_files(proceedings_file, media_file, options):
     # Order media, according to dateStart
     return merge_data(proceedings, media, options)
 
-if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="Merge proceedings and media file.")
-    parser.add_argument("proceedings_file", type=str, nargs='?',
-                        help="Proceedings file or directory")
-    parser.add_argument("media_file", type=str, nargs='?',
-                        help="Media file or directory")
-    parser.add_argument("--debug", action="store_true",
-                        default=False,
-                        help="Display debug messages")
-    parser.add_argument("--output", metavar="DIRECTORY", type=str,
-                        help="Output directory - if not specified, output with be to stdout")
-    parser.add_argument("--check", action="store_true",
-                        default=False,
-                        help="Check mergeability of files")
-    parser.add_argument("--unmatched-count", action="store_true",
-                        default=False,
-                        help="Only display the number of unmatched proceeding items")
-    parser.add_argument("--include-all-proceedings", action="store_true",
-                        default=False,
-                        help="Include all proceedings-issued speeches even if they did not have a match")
-    parser.add_argument("--second-stage-matching", action="store_true",
-                        default=False,
-                        help="Do a second-stage matching using speaker names for non-matching subsequences")
-    parser.add_argument("--advanced-rematch", action="store_true",
-                        default=False,
-                        help="Try harder to realign non-matching proceedin items by skipping some of the items")
-
-    args = parser.parse_args()
-    if args.media_file is None or args.proceedings_file is None:
-        parser.print_help()
-        sys.exit(1)
-    loglevel = logging.INFO
-    if args.debug:
-        loglevel=logging.DEBUG
-    logging.basicConfig(level=loglevel)
-
-    media = Path(args.media_file)
-    proceedings = Path(args.proceedings_file)
+def merge_files_or_dirs(media: Path, proceedings: Path, args):
     pairs = [ (proceedings, media) ]
     if media.is_dir() and proceedings.is_dir():
         # Directory version. Build the pairs data structure
@@ -326,3 +289,41 @@ if __name__ == "__main__":
                     json.dump(data, f, indent=2, ensure_ascii=False)
             else:
                 json.dump(data, sys.stdout, indent=2, ensure_ascii=False)
+
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser(description="Merge proceedings and media file.")
+    parser.add_argument("proceedings_file", type=str, nargs='?',
+                        help="Proceedings file or directory")
+    parser.add_argument("media_file", type=str, nargs='?',
+                        help="Media file or directory")
+    parser.add_argument("--debug", action="store_true",
+                        default=False,
+                        help="Display debug messages")
+    parser.add_argument("--output", metavar="DIRECTORY", type=str,
+                        help="Output directory - if not specified, output with be to stdout")
+    parser.add_argument("--check", action="store_true",
+                        default=False,
+                        help="Check mergeability of files")
+    parser.add_argument("--unmatched-count", action="store_true",
+                        default=False,
+                        help="Only display the number of unmatched proceeding items")
+    parser.add_argument("--include-all-proceedings", action="store_true",
+                        default=False,
+                        help="Include all proceedings-issued speeches even if they did not have a match")
+    parser.add_argument("--second-stage-matching", action="store_true",
+                        default=False,
+                        help="Do a second-stage matching using speaker names for non-matching subsequences")
+    parser.add_argument("--advanced-rematch", action="store_true",
+                        default=False,
+                        help="Try harder to realign non-matching proceedin items by skipping some of the items")
+
+    args = parser.parse_args()
+    if args.media_file is None or args.proceedings_file is None:
+        parser.print_help()
+        sys.exit(1)
+    loglevel = logging.INFO
+    if args.debug:
+        loglevel=logging.DEBUG
+    logging.basicConfig(level=loglevel)
+
+    merge_files_or_dirs(Path(args.media_file), Path(args.proceedings_file), args)
