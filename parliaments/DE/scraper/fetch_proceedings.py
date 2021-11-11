@@ -19,6 +19,11 @@ import urllib3
 
 SERVER_ROOT = "https://www.bundestag.de"
 
+# Ajax ID Period 19
+#AJAX_ID = "543410-543410"
+# Ajax ID Period 20
+AJAX_ID = "866354-866354"
+
 def download_plenary_protocols(destination_dir: str, fullscan: bool = False):
     dest = Path(destination_dir)
     # Create directory if necessary
@@ -29,7 +34,7 @@ def download_plenary_protocols(destination_dir: str, fullscan: bool = False):
     offset = 0
     while True:
         logger.debug(f"Fetching RSS with offset {offset}")
-        response = http.request("GET", f"{SERVER_ROOT}/ajax/filterlist/de/services/opendata/543410-543410?noFilterSet=true&offset={offset}")
+        response = http.request("GET", f"{SERVER_ROOT}/ajax/filterlist/de/services/opendata/{AJAX_ID}?noFilterSet=true&offset={offset}")
         parsed = lxml.html.fromstring(response.data)
         link_count = 0
         for link in parsed.getiterator(tag="a"):
