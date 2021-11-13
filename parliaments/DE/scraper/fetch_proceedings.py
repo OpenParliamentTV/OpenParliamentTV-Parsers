@@ -19,12 +19,14 @@ import urllib3
 
 SERVER_ROOT = "https://www.bundestag.de"
 
-# Ajax ID Period 19
-#AJAX_ID = "543410-543410"
-# Ajax ID Period 20
-AJAX_ID = "866354-866354"
+AJAX_ID = {
+    # Ajax ID Period 19
+    19: "543410-543410",
+    # Ajax ID Period 20
+    20: "866354-866354"
+}
 
-def download_plenary_protocols(destination_dir: str, fullscan: bool = False):
+def download_plenary_protocols(destination_dir: str, fullscan: bool = False, period=20):
     dest = Path(destination_dir)
     # Create directory if necessary
     if not dest.is_dir():
@@ -34,7 +36,7 @@ def download_plenary_protocols(destination_dir: str, fullscan: bool = False):
     offset = 0
     while True:
         logger.debug(f"Fetching RSS with offset {offset}")
-        response = http.request("GET", f"{SERVER_ROOT}/ajax/filterlist/de/services/opendata/{AJAX_ID}?noFilterSet=true&offset={offset}")
+        response = http.request("GET", f"{SERVER_ROOT}/ajax/filterlist/de/services/opendata/{AJAX_ID[period]}?noFilterSet=true&offset={offset}")
         parsed = lxml.html.fromstring(response.data)
         link_count = 0
         for link in parsed.getiterator(tag="a"):
@@ -65,6 +67,9 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Fetch Bundestag RSS feed.")
     parser.add_argument("output_dir", metavar="output_dir", type=str, nargs='?',
                         help="Output directory")
+    parser.add_argument("--period", type=int,
+                        default=20,
+                        help="Period to fetch (default: 20)")
     parser.add_argument("--debug", dest="debug", action="store_true",
                         default=False,
                         help="Display debug messages")
@@ -79,5 +84,4 @@ if __name__ == "__main__":
     if args.debug:
         loglevel=logging.DEBUG
     logging.basicConfig(level=loglevel)
-    download_plenary_protocols(args.output_dir, args.fullscan)
-    
+    download_plenary_protocols(args.output_dir, args.fullscan, args.period)
