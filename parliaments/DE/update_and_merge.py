@@ -53,6 +53,9 @@ if __name__ == "__main__":
     parser.add_argument("--advanced-rematch", action="store_true",
                         default=False,
                         help="Try harder to realign non-matching proceeding items by skipping some of the items")
+    parser.add_argument("--complete", action="store_true",
+                        default=False,
+                        help="Add all necessary options for a full update (save raw data, include all proceedings)")
 
     args = parser.parse_args()
     if args.data_dir is None or args.from_period is None:
@@ -62,6 +65,10 @@ if __name__ == "__main__":
     if args.debug:
         loglevel=logging.DEBUG
     logging.basicConfig(level=loglevel)
+    if args.complete:
+        # Force options
+        args.save_raw_data = True
+        args.include_all_proceedings = True
     args.data_dir = Path(args.data_dir)
     args.media_dir = args.data_dir / "media"
     args.proceedings_dir = args.data_dir / "proceedings"
