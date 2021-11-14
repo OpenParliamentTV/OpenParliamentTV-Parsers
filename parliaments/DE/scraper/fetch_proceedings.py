@@ -26,12 +26,17 @@ AJAX_ID = {
     20: "866354-866354"
 }
 
-def download_plenary_protocols(destination_dir: str, fullscan: bool = False, period=20):
+def download_plenary_protocols(destination_dir: str, fullscan: bool = False, period: int = 20) -> "list[(str, str)]":
+    """Download and stores proceedings
+
+    Returns a list of (filename, url) for downloaded files.
+    """
     dest = Path(destination_dir)
     # Create directory if necessary
     if not dest.is_dir():
         dest.mkdir(parents=True)
     http = urllib3.PoolManager()
+    created_files = []
     index_file = open(dest / "index.txt", 'wt+')
     offset = 0
     while True:
@@ -48,12 +53,13 @@ def download_plenary_protocols(destination_dir: str, fullscan: bool = False, per
                 # Existing file.
                 if not fullscan:
                     logger.info("Found 1 cached file. Stopping.")
-                    return
+                    return created_files
             else:
-                # Downdload file
+                # Download file
                 file_url = f"{SERVER_ROOT}{link_href}"
                 logger.info(f"downloading URL {file_url}")
                 urllib.request.urlretrieve(file_url, filename)
+                created_files.append( (filename, file_url) )
                 # Add URL reference to index.txt
                 index_file.write(f"{basename} {file_url}\n")
         if link_count == 0:
@@ -61,6 +67,7 @@ def download_plenary_protocols(destination_dir: str, fullscan: bool = False, per
             break
         offset += link_count
     index_file.close()
+    return created_files
 
 if __name__ == "__main__":
 

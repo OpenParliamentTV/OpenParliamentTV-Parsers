@@ -11,13 +11,20 @@ import sys
 from scraper.update_media import update_media_directory_period
 from scraper.fetch_proceedings import download_plenary_protocols
 from merger.merge_session import merge_files_or_dirs
+from parsers.proceedings2json import parse_proceedings
 
 def update_and_merge(args):
     # Download/parse new media data
     update_media_directory_period(args.from_period, args.media_dir, force=args.force, save_raw_data=args.save_raw_data)
 
-    # Download/parse new proceedings data
-    download_plenary_protocols(args.proceedings_dir)
+    # Download new proceedings data
+    created_proceedings = download_plenary_protocols(args.proceedings_dir)
+
+    # Parse all proceedings that were created (FIXME: maybe we should
+    # rather parse all outdated proceedings, but then we have to get
+    # the url information somehow)
+    for (filename, url) in created_proceedings:
+        parse_proceedings(str(filename), str(args.proceedings_dir), str(url), args)
 
     # Produce merged data - output dir is defined in args.output
     merge_files_or_dirs(args.media_dir, args.proceedings_dir, args)

@@ -18,13 +18,14 @@ import re
 from spacy.lang.de import German
 import sys
 
-try:
-    from parsers.common import fix_faction, fix_fullname, parse_fullname
-except ModuleNotFoundError:
-    # Module not found. Tweak the sys.path
-    base_dir = Path(__file__).resolve().parent.parent
-    sys.path.insert(0, str(base_dir))
-    from parsers.common import fix_faction, fix_fullname, parse_fullname
+# Allow relative imports if invoked as a script
+# From https://stackoverflow.com/a/65780624/2870028
+if __package__ is None:
+    module_dir = Path(__file__).resolve().parent
+    sys.path.insert(0, str(module_dir.parent))
+    __package__ = module_dir.name
+
+from .common import fix_faction, fix_fullname, parse_fullname
 
 PROCEEDINGS_LICENSE = "Public Domain"
 PROCEEDINGS_LANGUAGE = "DE-de"
@@ -266,9 +267,11 @@ def fix_last_speech(speeches):
         speeches.append(trailing_president_items)
     return speeches
 
-def parse_transcript(filename, sourceUri=None):
+def parse_transcript(filename: str, sourceUri: str = None, args=None):
     # We are mapping 1 self-contained object/structure to each tagesordnungspunkt
     # This method is a generator that yields tagesordnungspunkt structures
+    # Make sure to convert to str if a Path is given
+    filename = str(filename)
     if sourceUri is None:
         sourceUri = filename
     tree = etree.parse(filename)
@@ -393,6 +396,28 @@ def parse_transcript(filename, sourceUri=None):
             }
             speechIndex += 1
 
+def get_parsed_proceedings_filename(source: str, output: str) -> Path:
+    output_dir = Path(output)
+    if not output_dir.is_dir():
+        output_dir.mkdir(parents=True)
+    basename = Path(source).stem
+    return output_dir / f"{basename}.json"
+
+def parse_proceedings(source: str, output: str, uri: str, args):
+    """Parse the proceedings file source and store the output in the output directory.
+    """
+    data = list(parse_transcript(source, output, args))
+
+    if output == "-":
+        # Dump to stdout
+        json.dump(data, sys.stdout, indent=2, ensure_ascii=False)
+    elif output:
+        output_file = get_parsed_proceedings_filename(source, output)
+        logger.debug(f"Saving to {output_file}")
+        with open(output_file, 'w') as f:
+            json.dump(data, f, indent=2, ensure_ascii=False)
+    return data
+
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description="Parse Bundestag Proceedings XML files.")
     parser.add_argument("source", type=str, nargs='?',
@@ -401,7 +426,7 @@ if __name__ == '__main__':
                         help="Include T_NaS and T_fett classes as speech information")
     parser.add_argument("--uri", type=str,
                         help="Origin URI")
-    parser.add_argument("--output", type=str, default="",
+    parser.add_argument("--output", type=str, default="-",
                         help="Output directory")
     parser.add_argument("--debug", dest="debug", action="store_true",
                         default=False,
@@ -420,17 +445,4 @@ if __name__ == '__main__':
         # options around, and we will determine an appropriate default afterwards
         SPEECH_CLASSES = FULL_SPEECH_CLASSES
 
-    data = list(parse_transcript(args.source))
-
-    if args.output:
-        output_dir = Path(args.output)
-        if not output_dir.is_dir():
-            output_dir.mkdir(parents=True)
-        basename = Path(args.source).stem
-        output_file = output_dir / f"{basename}.json"
-        logger.debug(f"Saving to {output_file}")
-        with open(output_file, 'w') as f:
-            json.dump(data, f, indent=2, ensure_ascii=False)
-    else:
-        # Dump to stdout
-        json.dump(data, sys.stdout, indent=2, ensure_ascii=False)
+    parse_proceedings(args.source, args.output, args.uri, args)
