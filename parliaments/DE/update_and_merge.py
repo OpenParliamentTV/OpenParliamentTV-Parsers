@@ -18,7 +18,7 @@ def update_and_merge(args):
     update_media_directory_period(args.from_period, args.media_dir, force=args.force, save_raw_data=args.save_raw_data)
 
     # Download new proceedings data
-    created_proceedings = download_plenary_protocols(args.proceedings_dir)
+    created_proceedings = download_plenary_protocols(args.proceedings_dir, False, args.from_period)
 
     # Parse all proceedings that were created (FIXME: maybe we should
     # rather parse all outdated proceedings, but then we have to get
