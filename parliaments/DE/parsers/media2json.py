@@ -29,7 +29,8 @@ except ModuleNotFoundError:
 FEED_SUBTITLE = 'Deutscher Bundestag'
 FEED_LICENSE = '&lt;a href=&quot;https://www.bundestag.de/nutzungsbedingungen&quot; target=&quot;_blank&quot;&gt;Nutzungsbedingungen&lt;/a&gt;'
 FEED_AUTHOR_EMAIL = 'mail@bundestag.de'
-title_data_re = re.compile('Redebeitrag\s+von\s+(?P<fullname>.+?)\s+\((?P<faction>.+?)\)\s+am (?P<title_date>[\d.]+)\s+um\s+(?P<title_time>[\d:]+)\s+Uhr\s+\((?P<session_info>.+)\)')
+# Note that <faction> may be empty (in the case of Nationalhymne)
+title_data_re = re.compile('Redebeitrag\s+von\s+(?P<fullname>.+?)\s+\((?P<faction>.*?)\)\s+am (?P<title_date>[\d.]+)\s+um\s+(?P<title_time>[\d:]+)\s+Uhr\s+\((?P<session_info>.+)\)')
 
 def extract_title_data(title: str) -> dict:
     """Extract structured data from title string.
