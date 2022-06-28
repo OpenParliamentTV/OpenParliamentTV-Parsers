@@ -6,16 +6,14 @@ logger = logging.getLogger(__name__)
 import argparse
 from pathlib import Path
 import statistics
+import sys
 
 from merge_session import unmatched_count
 
-BASE_DIR = Path(__file__).resolve().parent.parent / 'data'
-DATA_DIR = BASE_DIR / 'merged'
-PROCEEDINGS_DIR = BASE_DIR / 'proceedings'
-MEDIA_DIR = BASE_DIR / 'media'
-
 if __name__ == '__main__':
-    parser = argparse.ArgumentParser(description="Output stats on whole repository.")
+    parser = argparse.ArgumentParser(description="Output stats on matched info.")
+    parser.add_argument("media", type=str, nargs='+',
+                        help="Media files (json)")
     parser.add_argument("--debug", action="store_true",
                         default=False,
                         help="Display debug messages")
@@ -31,20 +29,27 @@ if __name__ == '__main__':
 
     args = parser.parse_args()
 
-    print("""Session\tProc size\tMedia size\tUnmatched proceedings\tUnmatched media\tUnmatched media relative""")
+    print("""Session\tProc#\tMedia#\tUnmatched proceedings\tUnmatched media\tUnmatched media relative""")
     data = []
-    for m in sorted(MEDIA_DIR.glob('1*.json')):
+
+    for m in args.media:
+        media = Path(m)
         # Find basename
-        session = str(m.name)[:5]
-        p = PROCEEDINGS_DIR / f'{session}-data.json'
-        if p.exists():
-            count = unmatched_count(p, m, args)
+        session = str(media.name)[:5]
+        # Consider a standard directory layout
+        proceeding = media.parent.parent / 'proceedings' / f'{session}-data.json'
+        if proceeding.exists():
+            count = unmatched_count(proceeding, media, args)
             data.append(count)
-            print(f"""{session}\t{count['proceedings']}\t{count['media']}\t{count['unmatched_proceedings']}\t{count['unmatched_media']}\t{count['unmatched_media'] / count['media']}""")
+            print(f"""{session}\t{count['proceedings_count']}\t{count['media_count']}\t{count['unmatched_proceedings_count']}\t{count['unmatched_media_count']}\t{count['unmatched_media_count'] / count['media_count']}""")
         else:
+            if not proceeding.parent.exists():
+                # Wrong directory layout
+                logger.error("Cannot find proceedings directory {proceeding.parent}")
+                sys.exit(1)
             print(f"""{session}\tUNMATCHED""")
     # Global stats
     size = len(data)
-    ratio_list = [ c['unmatched_media'] / c['media'] for c in data ]
+    ratio_list = [ c['unmatched_media_count'] / c['media_count'] for c in data ]
     print(f"""Average unmatched media ratio: { statistics.mean(ratio_list) }
 Median unmatched media ratio: { statistics.median(ratio_list) }""")

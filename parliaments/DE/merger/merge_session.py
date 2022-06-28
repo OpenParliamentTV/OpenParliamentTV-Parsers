@@ -202,8 +202,8 @@ def unmatched_count(proceedings_file, media_file, options):
         'media_file': str(media_file),
         'proceedings_count': len(proceedings),
         'media_count': len(media),
-        'unmatched_proceedings': len(unmatched_proceedings),
-        'unmatched_media': len(unmatched_media)
+        'unmatched_proceedings_count': len(unmatched_proceedings),
+        'unmatched_media_count': len(unmatched_media)
     }
 
 def merge_data(proceedings, media, options):
