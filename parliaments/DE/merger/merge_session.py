@@ -103,9 +103,13 @@ def align_nonmatching_subsequences(mapping_sequence, proceedings, media, options
             # We should now have a corresponding proceedings sequence that we must align
             proc_sequence = list(proc_sequence)
             logger.debug(f"--- {len(proc_sequence)} / {len(sequence)} non matching items -----")
-            for m, p in itertools.zip_longest(sequence, proc_sequence):
-                logger.debug("%s\t%s" % (m[1]['people'][0]['label'] if m else 'None',
-                                  p['people'][0]['label'] if p else 'None'))
+            if options.debug:
+                for m, p in itertools.zip_longest(sequence, proc_sequence):
+                    try:
+                        logger.debug("%s\t%s" % (m[1]['people'][0]['label'] if (m and m[1].get('people')) else 'None',
+                                                 p['people'][0]['label'] if (p and p.get('people')) else 'None'))
+                    except (IndexError, KeyError):
+                        logger.debug("Exception in merging media {m['key']} and proceeding {p['key']} - missing info")
             # Now align items
             for p, m in sequence:
                 # p is None since we are in an UNMATCH group
