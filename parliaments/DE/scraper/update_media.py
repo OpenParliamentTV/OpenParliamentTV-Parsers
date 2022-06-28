@@ -47,7 +47,14 @@ def update_media_directory_period(period, media_dir, force=False, save_raw_data=
     logger.info(f"Download period {period} meetings from {latest_number} downwards" )
     for meeting in range(latest_number, 0, -1):
         filename = get_filename(period, meeting)
-        if force or not (media_dir / filename).exists():
+        # We ignore cache if the force option is given, but also for
+        # the latest meeting, since we may be updating a live meeting
+        # which is updated throughout the session.  We assume here
+        # that once a new session has begun, the previous ones are
+        # "solid" so we can use cached information.
+        if (meeting == latest_number
+            or force
+            or not (media_dir / filename).exists()):
             logger.debug(f"Loading {period}-{meeting} data into {filename}")
             download_data(period, meeting, media_dir, save_raw_data=save_raw_data)
 
