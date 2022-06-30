@@ -3,11 +3,12 @@
 import logging
 logger = logging.getLogger(__name__)
 
+import chevron
 from http.server import HTTPServer, SimpleHTTPRequestHandler
 import io
 import json
+import mimetypes
 from pathlib import Path
-import chevron
 import sys
 
 HOST_NAME = "0.0.0.0"
@@ -77,6 +78,14 @@ class SessionServer(SimpleHTTPRequestHandler):
             self._set_headers()
             self.index(self.out)
             return
+        elif self.path.startswith('/static/'):
+            resource = TEMPLATE_DIR / self.path[1:]
+            if resource.exists():
+                self._set_headers(mimetypes.guess_type(resource))
+                self.out.write(resource.read_text())
+            else:
+                self.send_response(404)
+                self.end_headers()
         elif self.path.startswith('/view/'):
             fname = self.path.split('/')[2]
             self._set_headers()
