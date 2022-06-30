@@ -29,7 +29,7 @@ if __name__ == '__main__':
 
     args = parser.parse_args()
 
-    print("""Session\tProc#\tMedia#\tUnmatched proceedings\tUnmatched media\tUnmatched media relative""")
+    print("""Session\tProc\tMedia\tUnmatched_proceedings\tUnmatched_media\tUnmatched_media_relative""")
     data = []
 
     for m in args.media:
@@ -50,6 +50,8 @@ if __name__ == '__main__':
             print(f"""{session}\tUNMATCHED""")
     # Global stats
     size = len(data)
+    over_count = len([c for c in data if c['unmatched_media_count'] / c['media_count'] > .8])
     ratio_list = [ c['unmatched_media_count'] / c['media_count'] for c in data ]
     print(f"""Average unmatched media ratio: { statistics.mean(ratio_list) }
-Median unmatched media ratio: { statistics.median(ratio_list) }""")
+Median unmatched media ratio: { statistics.median(ratio_list) }
+Count over .8 { over_count }""")
