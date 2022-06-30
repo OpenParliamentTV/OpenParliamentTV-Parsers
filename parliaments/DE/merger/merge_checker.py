@@ -11,6 +11,8 @@ import mimetypes
 from pathlib import Path
 import sys
 
+from merge_session import unmatched_count
+
 HOST_NAME = "0.0.0.0"
 HOST_PORT = 3333
 
@@ -67,6 +69,32 @@ class SessionServer(SimpleHTTPRequestHandler):
             }))
         return
 
+    def stat_files(self, fd, fnames):
+        """Display stats for given filenames
+        """
+        rows = []
+        for merged in fnames:
+            # Find session id
+            session = str(merged.name)[:5]
+            # Consider a standard directory layout
+            proceeding = merged.parent.parent / 'proceedings' / f'{session}-data.json'
+            media = merged.parent.parent / 'media' / f'{session}-media.json'
+            counts = unmatched_count(proceeding, media, dict())
+            counts.update(session=session)
+            rows.append(counts)
+
+        headings = list(rows[0].keys())
+        rows = [ [ r.get(h) for h in headings ] for r in rows ]
+        with open(TEMPLATE_DIR / 'stat_files.mustache') as template:
+            fd.write(chevron.render(template, {
+                "filenames": fnames,
+                "count": len(fnames),
+                "rows": rows,
+                "rows_json": json.dumps(rows),
+                "headings": headings,
+                "headings_json": json.dumps(headings)
+            }))
+
     def do_GET(self):
         self.out = io.TextIOWrapper(
             self.wfile,
@@ -90,6 +118,12 @@ class SessionServer(SimpleHTTPRequestHandler):
             fname = self.path.split('/')[2]
             self._set_headers()
             self.dump_file(self.out, fname)
+            return
+        elif self.path.startswith('/stats/'):
+            fname = self.path.split('/')[2]
+            self._set_headers()
+            fnames = list(sorted(DATA_DIR.glob(f'{fname}*.json'), reverse=True))
+            self.stat_files(self.out, fnames)
             return
         else:
             SimpleHTTPRequestHandler.do_GET(self)

@@ -1,0 +1,45 @@
+<html>
+  <head>
+    Statistics for {{count}} sessions
+  </head>
+  <!-- Using https://github.com/fiduswriter/Simple-DataTables/ -->
+  <link href="https://cdn.jsdelivr.net/npm/simple-datatables@latest/dist/style.css" rel="stylesheet" type="text/css">
+  <script src="https://cdn.jsdelivr.net/npm/simple-datatables@latest" type="text/javascript"></script>
+  <link rel="stylesheet" href="/static/style.css" type="text/css" />
+  <body>
+    <p class="menu"><a href="/">Home</a></p>
+
+    <table class="stats"></table>
+
+    <script>
+      let datatable = new simpleDatatables.DataTable('.stats', {
+          perPageSelect: [20, 50, 100, 1000],
+          perPage: 20,
+          searchable: true,
+          columns: [
+              {
+                  select: 0,
+                  hidden: true
+              }, {
+                  select: 1,
+                  hidden: true
+              }
+              /*
+              // select the fourth column ...
+              // select: 3,
+              // ... let the instance know we have datetimes in it ...
+              type: "date",
+              // ... pass the correct datetime format ...
+              format: "YYYY/DD/MM",
+              // ... sort it ...
+              sort: "desc",
+              */
+          ],
+          data: {
+              "headings": {{{ headings_json }}},
+              "data": {{{ rows_json }}}
+          }
+      });
+    </script>
+  </body>
+</html>
