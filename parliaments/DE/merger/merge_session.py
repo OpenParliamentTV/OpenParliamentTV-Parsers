@@ -163,7 +163,7 @@ def matching_items(proceedings, media, options):
     # Determine all key-based matching items
     output = [ (procdict.get(m['key']), m) for m in media ]
 
-    if options.second_stage_matching or options.advanced_rematch:
+    if options and (options.second_stage_matching or options.advanced_rematch):
         # Using matching items as landmarks, try to align remaining
         # sequences based on speaker names matching
         output = list(align_nonmatching_subsequences(output, proceedings, media, options))
@@ -172,7 +172,7 @@ def matching_items(proceedings, media, options):
                                   for p, m in output
                                   if p is not None )
 
-    if options.include_all_proceedings:
+    if options and options.include_all_proceedings:
         # Add proceeding items with no matching media items - in speechIndex order
         proc_items = ( p for p in proceedings if p['key'] not in output_proceeding_keys )
         output.extend((item, None) for item in proc_items)
@@ -193,11 +193,18 @@ def diff_files(proceedings_file, media_file, options):
         right = '[[[ None ]]]' if m is None else m['key']
         print(f"""{left.ljust(width)} {right}""")
 
-def unmatched_count(proceedings_file, media_file, options):
-    with open(proceedings_file) as f:
-        proceedings = json.load(f)
-    with open(media_file) as f:
-        media = json.load(f)
+def unmatched_count(proceedings_file, media_file, options=None):
+    try:
+        with open(proceedings_file) as f:
+            proceedings = json.load(f)
+    except FileNotFoundError:
+        proceedings = []
+    try:
+        with open(media_file) as f:
+            media = json.load(f)
+    except FileNotFoundError:
+        media = []
+
     matching = matching_items(proceedings, media, options)
     unmatched_proceedings = [ p for (p, m) in matching if m is None ]
     unmatched_media = [ m for (p, m) in matching if p is None ]
