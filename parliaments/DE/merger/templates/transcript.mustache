@@ -1,0 +1,53 @@
+<html>
+  <head>
+    Transcript {{ session }}
+  </head>
+  <style>
+    .status { font-style: italic; font-weight: bold; }
+    .speaker { font-style: italic; }
+    .text { color: #999; }
+    .player { position: fixed; top: 0; right: 0; width: 320px; height: 200px;  }
+            .menu { position: fixed; bottom: 0; right: 0; }
+    .hidden { display: none; }
+    .speechTitle { font-size: 140%; cursor: pointer; }
+    .status { cursor: pointer; }
+    .transcript { margin-right: 340px; }
+  </style>
+  <body>
+    <p class="menu"><a href="/">Home</a></p>
+    <video controls autoplay class="player"></video>
+    <div class="transcript">
+      {{#speeches}}
+      <div class="speechHeading">
+        <a id="speech{speechIndex}">
+          <strong class="speechIndex">{{index}}</strong> <span class="speechTitle">{{title}}</span></a><em>{{message}}</em><a class="videolink" href="{{videoURI}}"> Play </a>
+      </div>
+
+      {{#speech_turns}}
+      <p class="speech"><span class="status">{{speakerstatus}}</span> <span class="speaker">{{speaker}}</span> <span class="text">{{text}}</span></p>
+      {{/speech_turns}}
+
+      {{/speeches}}
+
+    </div>
+    <script>
+      document.querySelectorAll(".videolink").forEach(link => {
+      link.addEventListener("click", e => {
+      e.preventDefault();
+      console.log(e.target);
+      let url = e.target.href;
+      document.querySelector(".player").src = url;
+      })
+      });
+      let toggleHidden = function (selector, classname='hidden') {
+      document.querySelectorAll(selector).forEach(el => el.classList.toggle(classname));
+      }
+      document.querySelectorAll(".speechTitle").forEach(speechTitle => {
+      speechTitle.addEventListener("click", e => toggleHidden('.speech'))
+      });
+      document.querySelectorAll(".status").forEach(status => {
+      status.addEventListener("click", e => toggleHidden('.text'))
+      });
+    </script>
+  </body>
+</html>

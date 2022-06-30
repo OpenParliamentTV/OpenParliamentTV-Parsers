@@ -7,12 +7,14 @@ from http.server import HTTPServer, SimpleHTTPRequestHandler
 import io
 import json
 from pathlib import Path
+import chevron
 import sys
 
 HOST_NAME = "0.0.0.0"
 HOST_PORT = 3333
 
 DATA_DIR = Path(__file__).resolve().parent.parent / 'data' / 'merged'
+TEMPLATE_DIR = Path(__file__).resolve().parent / 'templates'
 
 class SessionServer(SimpleHTTPRequestHandler):
     def _set_headers(self, mimetype="text/html; charset=utf-8"):
@@ -21,70 +23,47 @@ class SessionServer(SimpleHTTPRequestHandler):
         self.end_headers()
 
     def index(self, fd):
-        data = "\n".join(f"""<li><a href="view/{f.name}">{f.name}</a></li>""" for f in sorted(DATA_DIR.glob('*.json')))
-        fd.write(f"""<html><body><h1>Index</h1><ul>{data}</ul></body></html>""")
+        with open(TEMPLATE_DIR / 'index.mustache') as template:
+            fd.write(chevron.render(template, {
+                "merged_files": [
+                    {
+                        "name": f.name
+                    }
+                    for f in sorted(DATA_DIR.glob('*.json'), reverse=True)
+                ]
+            }))
 
     def dump_file(self, fd, fname):
-        datafile = DATA_DIR / fname
-        with open(datafile, 'r') as f:
-            data = json.load(f)
-        fd.write("""<html><style>
-        .status { font-style: italic; font-weight: bold; }
-            .speaker { font-style: italic; }
-            .text { color: #999; }
-            .player { position: fixed; top: 0; right: 0; width: 320px; height: 200px;  }
-            .menu { position: fixed; bottom: 0; right: 0; }
-            .hidden { display: none; }
-            .speechTitle { font-size: 140%; cursor: pointer; }
-            .status { cursor: pointer; }
-            .transcript { margin-right: 340px; }
-            </style>
-            <body>
-            <p class="menu"><a href="/">Home</a></p>
-            <video controls autoplay class="player"></video>
-            <div class="transcript">
-            """)
-        for speech in data:
-            # Only consider speech turns (ignoring comments)
-            if 'textContents' not in speech:
-                # No proceedings data, only media.
-                speech_turns = []
-                msg = "MEDIA ONLY"
-            else:
-                speech_turns = [ turn for turn in speech['textContents'][0]['textBody'] if turn['type'] == 'speech' ]
-                president_turns = [ turn for turn in speech_turns if turn['speakerstatus'].endswith('president') ]
-                if len(president_turns) == len(speech_turns):
-                    # Homogeneous president turns
-                    msg = "PRESIDENT ONLY"
+
+        def template_data(source):
+            for speech in source:
+                # Only consider speech turns (ignoring comments)
+                if 'textContents' not in speech:
+                    # No proceedings data, only media.
+                    speech_turns = []
+                    message = "MEDIA ONLY"
                 else:
-                    msg = ""
-            speechIndex = speech['agendaItem']['speechIndex']
-            fd.write(f"""<div class="speechHeading"><a id="speech{speechIndex}"><strong class="speechIndex">{speechIndex}</strong> <span class="speechTitle">{speech['agendaItem']['officialTitle']}</span></a><em>{msg}</em><a class="videolink" href="{speech['media']['videoFileURI']}"> Play </a></div>\n""")
-            for turn in speech_turns:
-                fd.write(f"""<p class="speech"><span class="status">{turn['speakerstatus']}</span> <span class="speaker">{turn['speaker']}</span> <span class="text">{turn['text']}</span></p>""")
-        fd.write("""
-            </div>
-            <script>
-            document.querySelectorAll(".videolink").forEach(link => {
-            link.addEventListener("click", e => {
-                    e.preventDefault();
-                    console.log(e.target);
-                    let url = e.target.href;
-                    document.querySelector(".player").src = url;
-                  })
-            });
-            let toggleHidden = function (selector, classname='hidden') {
-                document.querySelectorAll(selector).forEach(el => el.classList.toggle(classname));
-            }
-            document.querySelectorAll(".speechTitle").forEach(speechTitle => {
-              speechTitle.addEventListener("click", e => toggleHidden('.speech'))
-            });
-            document.querySelectorAll(".status").forEach(status => {
-              status.addEventListener("click", e => toggleHidden('.text'))
-            });
-            </script>
-            </body></html>
-            """)
+                    speech_turns = [ turn for turn in speech['textContents'][0]['textBody'] if turn['type'] == 'speech' ]
+                    president_turns = [ turn for turn in speech_turns if turn['speakerstatus'].endswith('president') ]
+                    if len(president_turns) == len(speech_turns):
+                        # Homogeneous president turns
+                        message = "PRESIDENT ONLY"
+                    else:
+                        message = ""
+                yield {
+                    "index": speech['agendaItem']['speechIndex'],
+                    "speech_turns": speech_turns,
+                    "message": message
+                }
+
+        with open(DATA_DIR / fname, 'r') as f:
+            data = json.load(f)
+
+        with open(TEMPLATE_DIR / 'transcript.mustache') as template:
+            fd.write(chevron.render(template, {
+                "session": fname,
+                "speeches": list(template_data(data))
+            }))
         return
 
     def do_GET(self):
