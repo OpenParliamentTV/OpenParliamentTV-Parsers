@@ -2,17 +2,7 @@
   <head>
     Transcript {{ session }}
   </head>
-  <style>
-    .status { font-style: italic; font-weight: bold; }
-    .speaker { font-style: italic; }
-    .text { color: #999; }
-    .player { position: fixed; top: 0; right: 0; width: 320px; height: 200px;  }
-            .menu { position: fixed; bottom: 0; right: 0; }
-    .hidden { display: none; }
-    .speechTitle { font-size: 140%; cursor: pointer; }
-    .status { cursor: pointer; }
-    .transcript { margin-right: 340px; }
-  </style>
+  <link rel="stylesheet" href="/static/style.css" type="text/css" />
   <body>
     <p class="menu"><a href="/">Home</a></p>
     <video controls autoplay class="player"></video>
