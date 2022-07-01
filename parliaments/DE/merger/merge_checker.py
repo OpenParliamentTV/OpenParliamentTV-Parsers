@@ -55,8 +55,10 @@ class SessionServer(SimpleHTTPRequestHandler):
                         message = ""
                 yield {
                     "index": speech['agendaItem']['speechIndex'],
+                    "title": speech['agendaItem']['officialTitle'],
                     "speech_turns": speech_turns,
-                    "message": message
+                    "message": message,
+                    "videoURI": speech['media']['videoFileURI']
                 }
 
         with open(DATA_DIR / fname, 'r') as f:
