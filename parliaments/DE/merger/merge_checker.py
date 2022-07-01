@@ -64,10 +64,13 @@ class SessionServer(SimpleHTTPRequestHandler):
         with open(DATA_DIR / fname, 'r') as f:
             data = json.load(f)
 
+        speeches = list(template_data(data))
         with open(TEMPLATE_DIR / 'transcript.mustache') as template:
             fd.write(chevron.render(template, {
                 "session": fname,
-                "speeches": list(template_data(data))
+                "speeches": speeches,
+                "speech_count": len(speeches),
+                "unmatched_count": len([s for s in speeches if not s['speech_turns']])
             }))
         return
 
