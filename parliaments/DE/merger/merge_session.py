@@ -23,8 +23,12 @@ def remove_accents(input_str):
 def merge_item(proceeding, mediaitem):
     # Non-matching case - return the unmodified value
     if proceeding is None:
+        mediaitem['agendaItem']['proceedingIndex'] = None
+        mediaitem['agendaItem']['mediaIndex'] = mediaitem['agendaItem']['speechIndex']
         return mediaitem
     if mediaitem is None:
+        proceeding['agendaItem']['proceedingIndex'] = proceeding['agendaItem']['speechIndex']
+        proceeding['agendaItem']['mediaIndex'] = None
         return proceeding
 
     # We have both items - copy media data into proceedings
@@ -33,6 +37,8 @@ def merge_item(proceeding, mediaitem):
 
     # Copy relevant data from mediaitem
     output['agendaItem']['title'] = mediaitem['agendaItem']['title']
+    output['agendaItem']['proceedingIndex'] = proceeding['agendaItem']['speechIndex']
+    output['agendaItem']['mediaIndex'] = mediaitem['agendaItem']['speechIndex']
     output['dateStart'] = mediaitem['dateStart']
     output['dateEnd'] = mediaitem['dateEnd']
     output['media'] = mediaitem['media']
