@@ -23,6 +23,15 @@
     .prefix:hover {
         background-color: #bbbbff;
     }
+    .box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .box .title {
+        text-decoration: none;
+        color: #222;
+    }
   </style>
 
   <body>
@@ -37,16 +46,19 @@
 
     <script>
       let merged_viz = (session, data) => {
+          let box = document.createElement('div');
+          box.classList.add('box');
+          box.dataset.session = session;
+          box.style.order = session;
+          box.setHTML(`<a target="_blank" href="/view/${session}-merged.json" class="title">Session ${session}</a>`);
           let viz = document.createElement('div');
           viz.classList.add('chart');
-          viz.dataset.session = session;
-          viz.style.order = session;
+          box.appendChild(viz);
           var yourVlSpec = {
               $schema: 'https://vega.github.io/schema/vega-lite/v5.json',
               width: "container",
               height: "container",
               description: 'Indexes',
-              title: `Session ${session}`,
               data: {
                   values: data.map(s => {
                       let pi = s.agendaItem.proceedingIndex || 1000;
@@ -65,16 +77,10 @@
                   x: {
                       field: 'proceeding',
                       type: 'quantitative',
-                      scale: {
-                          type: 'point'
-                      }
                   },
                   y: {
                       field: 'media',
                       type: 'quantitative',
-                      scale: {
-                          type: 'point'
-                      }
                   },
               },
           };
@@ -83,7 +89,7 @@
                     {
                         "actions": false
                     });
-          return viz;
+          return box;
       }
 
       function display_filename(filename) {
