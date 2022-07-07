@@ -119,6 +119,17 @@ class SessionServer(SimpleHTTPRequestHandler):
             else:
                 self.send_response(404)
                 self.end_headers()
+        elif self.path.startswith('/data/'):
+            resource = DATA_DIR / '..' / self.path[6:]
+            if resource.is_dir():
+                self._set_headers('text/plain')
+                self.out.write("\n".join(sorted(n.name for n in resource.glob('*'))))
+            elif resource.exists():
+                self._set_headers(mimetypes.guess_type(resource))
+                self.out.write(resource.read_text())
+            else:
+                self.send_response(404)
+                self.end_headers()
         elif self.path.startswith('/view/'):
             fname = self.path.split('/')[2]
             self._set_headers()
