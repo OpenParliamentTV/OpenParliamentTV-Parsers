@@ -48,10 +48,15 @@ def fix_title(title: str) -> str:
     """Fix the titles to match with proceedings conventions
     """
     title = title.replace("TOP Sitzungsende", "Sitzungsende").replace("TOP Sitzungseröffnung", "Sitzungseröffnung")
-    zusatz = re.findall('TOP(?:\s+\d+)?,?\s+ZP\s+(\d+)', title)
+
+    zusatz = re.findall('TOP(?:\s+\d+)?,?\s+(ZP|Epl)\s*(\d+)', title, flags=re.IGNORECASE)
     if zusatz:
-        return f"Zusatzpunkt {zusatz[0]}"
+        if zusatz[0][0].lower() == 'zp':
+            title = f"Zusatzpunkt {zusatz[0][1]}"
+        else:
+            title = f"Einzelplan {zusatz[0][1]}"
     title = re.sub('^TOP\s+(.+)', 'Tagesordnungspunkt \\1', title)
+    title = title.rstrip(".")
     return title
 
 def parse_media_data(data) -> dict:
