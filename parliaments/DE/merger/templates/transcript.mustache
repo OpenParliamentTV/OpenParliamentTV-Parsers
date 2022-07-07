@@ -4,6 +4,9 @@
       Transcript {{ session }}
     </title>
   </head>
+  <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
   <link rel="stylesheet" href="/static/style.css" type="text/css" />
   <body>
     <p class="menu"><a href="/">Home</a></p>
@@ -11,7 +14,11 @@
       <h1>Transcript of {{ session }}</h1>
     <p>{{ unmatched_count }} segments without matching proceeding out of {{ speech_count }} total media segments.</p>
     </p>
+
     <video controls autoplay class="player"></video>
+
+    <div class="charts"><h1>Charts</h1></div>
+
     <div class="transcript">
       {{#speeches}}
       <div class="speechHeading">
@@ -27,6 +34,8 @@
 
     </div>
     <script>
+      let speeches = {{{ speeches_json }}};
+
       document.querySelectorAll(".videolink").forEach(link => {
       link.addEventListener("click", e => {
       e.preventDefault();
@@ -44,6 +53,59 @@
       document.querySelectorAll(".status").forEach(status => {
       status.addEventListener("click", e => toggleHidden('.text'))
       });
+
+      // Copied from dashboard.html. This would benefit a factoring.
+      let merged_viz = (session, data) => {
+          let viz = document.createElement('div');
+          viz.classList.add('chart');
+          viz.dataset.session = session;
+          viz.style.order = session;
+          var yourVlSpec = {
+              $schema: 'https://vega.github.io/schema/vega-lite/v5.json',
+              width: "container",
+              height: "container",
+              description: 'Indexes',
+              title: `Session ${session}`,
+              data: {
+                  values: data.map(s => {
+                      let pi = s.agendaItem.proceedingIndex || 1000;
+                      pi = pi - (pi >= 1000 ? 1000 : 0);
+                      return {
+                          "proceeding": pi,
+                          "media": (s.agendaItem.mediaIndex || 0)
+                      }
+                  })
+              },
+              mark: { type: 'point',
+                      shape: 'square',
+                  tooltip: true,
+                      filled: true },
+              encoding: {
+                  x: {
+                      field: 'proceeding',
+                      type: 'quantitative',
+                      scale: {
+                          type: 'point'
+                      }
+                  },
+                  y: {
+                      field: 'media',
+                      type: 'quantitative',
+                      scale: {
+                          type: 'point'
+                      }
+                  },
+              },
+          };
+          vegaEmbed(viz,
+                    yourVlSpec,
+                    {
+                        "actions": false
+                    });
+          return viz;
+      }
+
+      document.querySelector('.charts').appendChild(merged_viz("Alignment", speeches));
     </script>
   </body>
 </html>

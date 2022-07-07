@@ -58,7 +58,7 @@ class SessionServer(SimpleHTTPRequestHandler):
                     "title": speech['agendaItem']['officialTitle'],
                     "speech_turns": speech_turns,
                     "message": message,
-                    "videoURI": speech['media']['videoFileURI']
+                    "videoURI": speech.get('media', {}).get('videoFileURI', "")
                 }
 
         with open(DATA_DIR / fname, 'r') as f:
@@ -69,6 +69,7 @@ class SessionServer(SimpleHTTPRequestHandler):
             fd.write(chevron.render(template, {
                 "session": fname,
                 "speeches": speeches,
+                "speeches_json": json.dumps(data),
                 "speech_count": len(speeches),
                 "unmatched_count": len([s for s in speeches if not s['speech_turns']])
             }))
