@@ -14,10 +14,16 @@ body {
     color: #999;
 }
 .player {
-    position: fixed; top: 0; right: 0; width: 320px; height: 200px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 320px;
+    height: 200px;
 }
 .menu {
-    position: fixed; bottom: 0; right: 0;
+    position: fixed;
+    bottom: 0;
+    right: 0;
 }
 .hidden {
     display: none;
@@ -30,5 +36,25 @@ body {
     cursor: pointer;
 }
 .transcript {
-    margin-right: 340px;
+    width: 50%;
+}
+.charts {
+    position: absolute;
+    top: 220px;
+    right: 0;
+    left: 50%;
+    bottom: 0;
+}
+.chart {
+    width: 100%;
+    height: 50vh;
+}
+.dashboard {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.dashboard .chart {
+    width: 10vw;
+    height: 10vw;
 }

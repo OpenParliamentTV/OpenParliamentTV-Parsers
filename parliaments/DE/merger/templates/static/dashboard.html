@@ -1,0 +1,129 @@
+<html>
+  <head>
+    <title>
+      Dashboard
+    </title>
+  </head>
+  <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+  <link rel="stylesheet" href="/static/style.css" type="text/css" />
+  <style>
+    .prefixes {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .prefix {
+        background-color: #9999ee;
+        border: 1px solid gray;
+        max-width: 12em;
+        margin: 4px;
+        padding: 2px;
+    }
+    .prefix:hover {
+        background-color: #bbbbff;
+    }
+  </style>
+
+  <body>
+    <p class="menu"><a href="/">Home</a></p>
+    <p class="metadata">
+      <h1>Dashboard</h1>
+      <div class="prefixes"></div>
+    </p>
+
+    <div class="dashboard">
+    </div>
+
+    <script>
+      let merged_viz = (session, data) => {
+          let viz = document.createElement('div');
+          viz.classList.add('chart');
+          viz.dataset.session = session;
+          viz.style.order = session;
+          var yourVlSpec = {
+              $schema: 'https://vega.github.io/schema/vega-lite/v5.json',
+              width: "container",
+              height: "container",
+              description: 'Indexes',
+              title: `Session ${session}`,
+              data: {
+                  values: data.map(s => {
+                      let pi = s.agendaItem.proceedingIndex || 1000;
+                      pi = pi - (pi >= 1000 ? 1000 : 0);
+                      return {
+                          "proceeding": pi,
+                          "media": (s.agendaItem.mediaIndex || 0)
+                      }
+                  })
+              },
+              mark: { type: 'point',
+                      shape: 'square',
+                  tooltip: true,
+                      filled: true },
+              encoding: {
+                  x: {
+                      field: 'proceeding',
+                      type: 'quantitative',
+                      scale: {
+                          type: 'point'
+                      }
+                  },
+                  y: {
+                      field: 'media',
+                      type: 'quantitative',
+                      scale: {
+                          type: 'point'
+                      }
+                  },
+              },
+          };
+          vegaEmbed(viz,
+                    yourVlSpec,
+                    {
+                        "actions": false
+                    });
+          return viz;
+      }
+
+      function display_filename(filename) {
+          let session = filename.substr(0, 5);
+          fetch(`/data/merged/${filename}`)
+              .then(resp => resp.json())
+              .then(data => {
+                  let viz = merged_viz(session, data);
+                  document.querySelector('.dashboard').appendChild(viz);
+              });
+      }
+
+      fetch('/data/merged')
+      .then(resp => resp.text())
+      .then(dircontent => {
+          filelist = dircontent
+              .split(/\n/)
+              .filter(n => n.endsWith('-merged.json'));
+          // Group by 3 letter prefix
+          let prefixes = [ ... new Set(filelist.map(n => n.substr(0, 3))) ];
+
+          let display_prefix = (prefix) => {
+              filelist.filter(n => n.startsWith(prefix)).forEach(filename => {
+                  display_filename(filename);
+              });
+          };
+          prefixes.forEach(prefix => {
+              let button = document.createElement('div');
+              button.classList.add('prefix');
+              button.dataset.prefix = prefix;
+              button.append(`Display sessions starting with ${prefix}`);
+              button.addEventListener('click', b => {
+                  display_prefix(prefix);
+                  b.target.remove();
+              });
+              document.querySelector('.prefixes').appendChild(button);
+          });
+
+      });
+
+    </script>
+  </body>
+</html>
