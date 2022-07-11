@@ -7,6 +7,7 @@
   <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
   <script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
   <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/d3@7.6.1/dist/d3.min.js"></script>
   <link rel="stylesheet" href="/static/style.css" type="text/css" />
   <style>
     .prefixes {
@@ -24,6 +25,7 @@
         background-color: #bbbbff;
     }
     .box {
+        border: 1px solid white;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -31,6 +33,10 @@
     .box .title {
         text-decoration: none;
         color: #222;
+    }
+    .box:hover {
+        border: 1px solid #ccc;
+        background-color: #eee;
     }
   </style>
 
@@ -45,12 +51,45 @@
     </div>
 
     <script>
+      // Code from https://observablehq.com/@tophtucker/chatterjee-correlation
+      let chatterjee = (data, { x = (d) => d[0], y = (d) => d[1] } = {}) => {
+          // 0. Extract values
+          const X = d3.map(data, x);
+          const Y = d3.map(data, y);
+          const N = X.length;
+
+          // 1. rearrange along X
+          const I = d3.sort(d3.range(N), (i) => X[i]);
+
+          // 2. rank Y
+          const rank = d3.rank(Y);
+
+          // 3. compute ξ (simple formula with no ties)
+          return (
+              1 -
+                  (3 / (N * N - 1)) *
+                  d3.sum(d3.pairs(I), ([a, b]) => Math.abs(rank[a] - rank[b]))
+          );
+      };
+
       let merged_viz = (session, data) => {
           let box = document.createElement('div');
+          let normalized_data = data.map(s => {
+              let pi = s.agendaItem.proceedingIndex || 1000;
+              pi = pi - (pi >= 1000 ? 1000 : 0);
+              return {
+                  "proceeding": pi,
+                  "media": (s.agendaItem.mediaIndex || 0)
+              }
+          });
+          let chatter = chatterjee(normalized_data, {
+              x: (d) => d.proceeding,
+              y: (d) => d.media,
+          });
           box.classList.add('box');
           box.dataset.session = session;
           box.style.order = session;
-          box.setHTML(`<a target="_blank" href="/view/${session}-merged.json" class="title">Session ${session}</a>`);
+          box.setHTML(`<a target="_blank" href="/view/${session}-merged.json" class="title">Session ${session}</a><br>Chatterjee: ${chatter.toFixed(3)}`);
           let viz = document.createElement('div');
           viz.classList.add('chart');
           box.appendChild(viz);
@@ -60,14 +99,7 @@
               height: "container",
               description: 'Indexes',
               data: {
-                  values: data.map(s => {
-                      let pi = s.agendaItem.proceedingIndex || 1000;
-                      pi = pi - (pi >= 1000 ? 1000 : 0);
-                      return {
-                          "proceeding": pi,
-                          "media": (s.agendaItem.mediaIndex || 0)
-                      }
-                  })
+                  values: normalized_data
               },
               mark: { type: 'point',
                       shape: 'square',
