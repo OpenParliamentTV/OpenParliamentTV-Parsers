@@ -1,4 +1,6 @@
 # Methods common to parsing modules
+import logging
+logger = logging.getLogger(__name__)
 
 import re
 
@@ -56,3 +58,22 @@ def fix_role(role: str) -> str:
     Else return the unchanged role.
     """
     return STATUS_TRANSLATION.get(role, role)
+
+def fixup_execute(fix: dict, entry: dict) -> dict:
+    """Execute a fixup action on entry.
+
+    The action may transform things in place.
+    Return the transformed entry.
+    """
+    if fix['action'] == 'replace':
+        value = entry.get(fix['field'])
+        if value is None:
+            logger.debug(f"No value for field {fix['field']} in fixup action")
+            return entry
+        new_value = re.sub(fix['from'], fix['to'], value)
+        if new_value != value:
+            entry[f"{fix['field']}-original"] = value
+            entry[fix['field']] = new_value
+    else:
+        logger.error(f"Unknown action {fix['action']}")
+    return entry

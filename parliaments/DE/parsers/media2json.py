@@ -6,6 +6,7 @@
 import logging
 logger = logging.getLogger(__name__)
 
+import argparse
 from datetime import datetime, timedelta
 import feedparser
 import json
@@ -14,9 +15,10 @@ from pathlib import Path
 import re
 import sys
 from urllib.parse import urlparse, parse_qs
+import yaml
 
 try:
-    from parsers.common import fix_faction, fix_fullname, fix_role
+    from parsers.common import fix_faction, fix_fullname, fix_role, fixup_execute
 except ModuleNotFoundError:
     # Module not found. Tweak the sys.path
     base_dir = Path(__file__).resolve().parent.parent
@@ -59,7 +61,16 @@ def fix_title(title: str) -> str:
     title = title.rstrip(".")
     return title
 
-def parse_media_data(data) -> dict:
+def apply_media_fixups(entry: dict, meeting_reference: int, fixups: dict):
+    # Apply fixups to a given entry
+
+    # Are there any fixups valid for this meeting's media? This should be a list of actions
+    media_fixups = fixups.get(meeting_reference, {}).get('media', [])
+    for fix in media_fixups:
+        entry = fixup_execute(fix, entry)
+    return entry
+
+def parse_media_data(data: dict, fixups: dict = None) -> dict:
     """Parse a media-js structure
 
     It is a dict with
@@ -72,7 +83,12 @@ def parse_media_data(data) -> dict:
     RSS feeds (in which case root.entries == entries) and the output
     of fetch_media script (which aggregates multiple pages of items
     into entries).
+
+    fixups is a dict of hardcoded fixups for wrong data.
+    It is indexed first by session number (20023) then by media/proceeding
     """
+    if fixups is None:
+        fixups = {}
     output = []
     root = data['root']
     entries = data['entries']
@@ -103,8 +119,10 @@ def parse_media_data(data) -> dict:
         return output
     period_number = int(session_info['period'][0])
     meeting_number = int(session_info['meetingNumber'][0])
+    meeting_reference = 1000 * period_number + meeting_number
 
     for e in entries:
+        e = apply_media_fixups(e, meeting_reference, fixups)
         links = dict( (l['rel'], l) for l in e ['links'] )
 
         if not 'enclosure' in links:
@@ -131,7 +149,13 @@ def parse_media_data(data) -> dict:
             },
             "agendaItem": {
                 'title': e.get('subtitle'),
+                # Note: this will get replaced below by the result of extract_title_data + sub + fix_title
                 'officialTitle': fix_title(e['title']),
+            },
+            'dateStart': startdate.isoformat('T', 'seconds'),
+            'dateEnd': enddate.isoformat('T', 'seconds'),
+            'debug': {
+                'originalTitle': e['title']
             },
             "media": {
                 'videoFileURI': links['enclosure']['href'],
@@ -152,8 +176,6 @@ def parse_media_data(data) -> dict:
                 # "sourcePage": "https://dbtg.tv/fvid/7502148"
                 # 'sourceFilename': filename,
             },
-            'dateStart': startdate.isoformat('T', 'seconds'),
-            'dateEnd': enddate.isoformat('T', 'seconds'),
         }
         if period_number >= 18:
             item['media']['audioFileURI'] = f"""https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/{mediaid}/{mediaid}_mp3_128kb_stereo_de_128.mp3"""
@@ -202,35 +224,52 @@ def parse_media_data(data) -> dict:
         item['agendaItem']['speechIndex'] = i + 1
     return output
 
-def parse_rss(filename: str) -> dict:
+def parse_rss(filename: str, fixups: dict) -> dict:
     """Parse a RSS file.
     """
     d = feedparser.parse(filename)
 
     return parse_media_data({ 'root': d,
-                              'entries': d.entries })
+                              'entries': d.entries }, fixups)
 
-def parse_file(filename: str) -> dict:
+def parse_file(filename: str, fixups: dict) -> dict:
     """Allow to parse either .xml files for raw .json files
     """
     if filename.endswith('.xml'):
-        return parse_rss(filename)
+        return parse_rss(filename, fixups)
     elif filename.endswith('.json'):
         with open(filename) as f:
             raw_data = json.load(f)
-        return parse_media_data(raw_data)
+        return parse_media_data(raw_data, fixups)
     else:
         logger.error(f"Unable to determine file type for {filename}")
 
 if __name__ == '__main__':
+    parser = argparse.ArgumentParser(description="Parse Bundestag Media XML files or raw JSON files.")
+    parser.add_argument("sources", type=str, nargs='*',
+                        help="Source XML file")
+    parser.add_argument("--fixups", type=argparse.FileType('r'),
+                        help="Use fixups file (YAML)")
+    parser.add_argument("--debug", dest="debug", action="store_true",
+                        default=False,
+                        help="Display debug messages")
 
-    logging.basicConfig(level=logging.INFO)
-
-    if len(sys.argv) < 2:
-        logger.warning(f"Syntax: {sys.argv[0]} file.xml|raw-XXX.json ...")
+    args = parser.parse_args()
+    if args.sources is None:
+        parser.print_help()
         sys.exit(1)
+    loglevel = logging.INFO
+    if args.debug:
+        loglevel = logging.DEBUG
+    logging.basicConfig(level=loglevel)
 
-    data = [ item for source in sys.argv[1:] for item in parse_file(source) ]
+    fixups = {}
+    if args.fixups:
+        fixups = yaml.safe_load(args.fixups)
+
+    data = [ item
+             for source in args.sources
+             for item in parse_file(source, fixups) ]
     # Sort data according to dateStart
     data.sort(key=lambda m: m['dateStart'])
     json.dump(data, sys.stdout, indent=2, ensure_ascii=False)
