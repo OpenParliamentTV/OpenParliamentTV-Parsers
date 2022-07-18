@@ -12,7 +12,7 @@
   <link rel="stylesheet" href="/static/style.css" type="text/css" />
   <body>
     <div id="content"></div>
-    <script id="template" type="x-tmpl-mustache">
+    <template id="template" type="x-tmpl-mustache">
       <div class="header">
       <p class="menu">
       <a href="/">Home</a>
@@ -41,77 +41,22 @@
       <div class="charts"></div>
       </div>
 
-    </script>
-    <script id="error-template" type="x-tmpl-mustache">
+    </template>
+    <template id="error-template" type="x-tmpl-mustache">
       <h1>Not found</h1>
       <p>Data file for session {{ session }} not found.</p>
       <p>FIXME: link back to dashboard</p>
-    </script>
-
+    </template>
 
     <script>
       // Copied from dashboard.html. This would benefit a factoring.
-      let merged_viz = (session, data) => {
+      let new_viz = (session, data, spec) => {
           let viz = document.createElement('div');
           viz.classList.add('chart');
           viz.dataset.session = session;
           viz.style.order = session;
-          let yourVlSpec = {
-              $schema: 'https://vega.github.io/schema/vega-lite/v5.json',
-              width: "container",
-              height: "container",
-              description: 'Indexes',
-              title: `Session ${session}`,
-              data: {
-                  values: data.map(s => {
-                      let pi = s.agendaItem.proceedingIndex || 1000;
-                      pi = pi - (pi >= 1000 ? 1000 : 0);
-                      return {
-                          "proceeding": pi,
-                          "media": (s.agendaItem.mediaIndex || 0),
-                          "title": s.agendaItem.officialTitle,
-                          "speaker": s.people[0].label,
-                          "url": `#speech${s.agendaItem.speechIndex}`,
-                          "matching": (pi == 0 ? 'media_only' : ((s.agendaItem.mediaIndex || 0) == 0 ? 'proceeding_only' : 'matching'))
-                      }
-                  })
-              },
-              mark: { type: 'point',
-                      shape: 'square',
-                      tooltip: true,
-                      filled: true },
-              encoding: {
-                  x: {
-                      field: 'proceeding',
-                      type: 'quantitative',
-                      scale: {
-                          type: 'point'
-                      }
-                  },
-                  y: {
-                      field: 'media',
-                      type: 'quantitative',
-                      scale: {
-                          type: 'point'
-                      }
-                  },
-                  color: {
-                      field: "matching",
-                      type: "nominal"
-                  },
-                  tooltip: [
-                      { field: 'media' },
-                      { field: 'proceeding' },
-                      { field: 'speaker' },
-                      { field: 'title' }
-                  ],
-                  href: {
-                      field: 'url'
-                  }
-              },
-          };
           vegaEmbed(viz,
-                    yourVlSpec,
+                    spec,
                     {
                         "actions": false
                     }).then((result) => {
@@ -133,7 +78,65 @@
                     });
           return viz;
       }
-
+      let alignment_viz = (data) => {
+          return new_viz("Alignment",
+                         data,
+                         {
+                             $schema: 'https://vega.github.io/schema/vega-lite/v5.json',
+                             width: "container",
+                             height: "container",
+                             description: 'Indexes',
+                             title: `Session ${session}`,
+                             data: {
+                                 values: data.map(s => {
+                                     let pi = s.agendaItem.proceedingIndex || 1000;
+                                     pi = pi - (pi >= 1000 ? 1000 : 0);
+                                     return {
+                                         "proceeding": pi,
+                                         "media": (s.agendaItem.mediaIndex || 0),
+                                         "title": s.agendaItem.officialTitle,
+                                         "speaker": s.people[0].label,
+                                         "url": `#speech${s.agendaItem.speechIndex}`,
+                                         "matching": (pi == 0 ? 'media_only' : ((s.agendaItem.mediaIndex || 0) == 0 ? 'proceeding_only' : 'matching'))
+                                     }
+                                 })
+                             },
+                             mark: { type: 'point',
+                                     shape: 'square',
+                                     tooltip: true,
+                                     filled: true },
+                             encoding: {
+                                 x: {
+                                     field: 'proceeding',
+                                     type: 'quantitative',
+                                     scale: {
+                                         type: 'point'
+                                     }
+                                 },
+                                 y: {
+                                     field: 'media',
+                                     type: 'quantitative',
+                                     scale: {
+                                         type: 'point'
+                                     }
+                                 },
+                                 color: {
+                                     field: "matching",
+                                     type: "nominal"
+                                 },
+                                 tooltip: [
+                                     { field: 'media' },
+                                     { field: 'proceeding' },
+                                     { field: 'speaker' },
+                                     { field: 'title' }
+                                 ],
+                                 href: {
+                                     field: 'url'
+                                 }
+                             },
+                         }
+                        );
+      }
       let params = new URLSearchParams(location.search);
       let session = params.get('session');
       if (!session) {
@@ -187,7 +190,7 @@
               });
               document.getElementById('content').innerHTML = rendered;
 
-              document.querySelector('.charts').appendChild(merged_viz("Alignment", data));
+              document.querySelector('.charts').appendChild(alignment_viz(data));
               document.querySelectorAll(".videolink").forEach(link => {
                   link.addEventListener("click", e => {
                       e.preventDefault();
