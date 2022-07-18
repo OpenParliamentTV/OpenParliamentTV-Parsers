@@ -94,7 +94,21 @@ def get_filename(period, meeting=None):
     else:
         return f"{period}{str(meeting).rjust(3, '0')}-media.json"
 
-def download_data(period, meeting=None, output=None, save_raw_data=False):
+def download_data(period, meeting=None, output=None, save_raw_data=False, force=False):
+    """Download data for a given meeting.
+
+    In case of error, parsed_data will be [].
+
+    If a raw data file is present, it will be used, except if the
+    force option is set to True.
+
+    You can test for the status of the fetch query by testing
+    raw_data['root']['status'] : it is 200 in case of success. The
+    server often returns a 503.
+
+    Returns a tuple (raw_data, parsed_data).
+
+    """
     filename = get_filename(period, meeting)
     raw_filename = f"raw-{filename}"
     if output:
@@ -102,7 +116,7 @@ def download_data(period, meeting=None, output=None, save_raw_data=False):
         if not output_dir.is_dir():
             output_dir.mkdir(parents=True)
     try:
-        if output and (output_dir / raw_filename).exists():
+        if output and (output_dir / raw_filename).exists() and not force:
             # There is a raw data dump. Use it rather than downloading
             # it again.
             logger.warning(f"Using data dump {raw_filename}")
@@ -113,11 +127,11 @@ def download_data(period, meeting=None, output=None, save_raw_data=False):
         if not raw_data['entries']:
             # No entries - something must have gone wrong. Bail out
             # import IPython; IPython.embed()
-            return
+            return raw_data, []
         data = parse_media_data(raw_data)
     except:
         logger.exception("Error - going into debug mode")
-        import IPython; IPython.embed()
+        # import IPython; IPython.embed()
 
     logger.debug(f"Saving {len(data)} entries into {filename}")
     if output:
@@ -129,6 +143,7 @@ def download_data(period, meeting=None, output=None, save_raw_data=False):
     else:
         # No output dir option - dump to stdout
         json.dump(data, sys.stdout, indent=2, ensure_ascii=False)
+    return raw_data, data
 
 if __name__ == "__main__":
 
