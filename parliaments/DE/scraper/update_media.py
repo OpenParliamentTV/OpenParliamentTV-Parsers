@@ -1,7 +1,6 @@
 #! /usr/bin/env python3
 
-# Update a media directory with -media files corresponding to the
-# -data files in a proceedings directory
+# Update a media directory
 
 import logging
 logger = logging.getLogger(__name__)
@@ -52,11 +51,11 @@ def update_media_directory_period(period, media_dir, force=False, save_raw_data=
         # which is updated throughout the session.  We assume here
         # that once a new session has begun, the previous ones are
         # "solid" so we can use cached information.
-        if (meeting == latest_number
-            or force
+        force = force or meeting == latest_number
+        if (force
             or not (media_dir / filename).exists()):
             logger.debug(f"Loading {period}-{meeting} data into {filename}")
-            download_data(period, meeting, media_dir, save_raw_data=save_raw_data)
+            download_data(period, meeting, media_dir, save_raw_data=save_raw_data, force=force)
 
 if __name__ == "__main__":
 
