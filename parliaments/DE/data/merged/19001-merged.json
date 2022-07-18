@@ -10,7 +10,14 @@
     "agendaItem": {
       "title": "Sitzungseröffnung",
       "officialTitle": "Sitzungseröffnung",
-      "speechIndex": 1
+      "speechIndex": 1,
+      "proceedingIndex": null,
+      "mediaIndex": 1
+    },
+    "dateStart": "2017-10-24T09:00:07",
+    "dateEnd": "2017-10-24T09:03:07",
+    "debug": {
+      "originalTitle": "Redebeitrag von Dr. Hermann Otto Solms (Alterspräsident/FDP) am 24.10.2017 um 11:00 Uhr (1. Sitzung, TOP Sitzungseröffnung)"
     },
     "media": {
       "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7164717/7164717_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -21,8 +28,6 @@
       "originMediaID": "7164717",
       "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7164717/7164717_mp3_128kb_stereo_de_128.mp3"
     },
-    "dateStart": "2017-10-24T09:00:07",
-    "dateEnd": "2017-10-24T09:03:07",
     "people": [
       {
         "label": "Hermann Otto Solms",
@@ -45,23 +50,22 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 1000,
-      "title": "Eröffnung der Sitzung durch den Alterspräsidenten"
+      "speechIndex": 0,
+      "title": "Eröffnung der Sitzung durch den Alterspräsidenten",
+      "proceedingIndex": 0,
+      "mediaIndex": 2
     },
     "people": [
       {
         "type": "memberOfParliament",
-        "label": "Hermann Otto Solms",
-        "firstname": "Alterspräsident Dr. Hermann",
-        "lastname": "Otto Solms",
-        "context": "interim-president",
-        "faction": ""
+        "label": "Alterspräsident Hermann Otto Solms",
+        "context": "main-speaker"
       }
     ],
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19001-data.xml",
+        "sourceURI": "/home/oaubert/doc/projects/parliamenttv/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19001-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -69,8 +73,8 @@
         "textBody": [
           {
             "type": "speech",
-            "speaker": "Hermann Otto Solms",
-            "speakerstatus": "interim-president",
+            "speaker": "Alterspräsident Hermann Otto Solms",
+            "speakerstatus": "main-speaker",
             "text": "Guten Morgen, liebe Kolleginnen und Kollegen! Nehmen Sie bitte Platz.",
             "sentences": [
               {
@@ -83,8 +87,8 @@
           },
           {
             "type": "speech",
-            "speaker": "Hermann Otto Solms",
-            "speakerstatus": "interim-president",
+            "speaker": "Alterspräsident Hermann Otto Solms",
+            "speakerstatus": "main-speaker",
             "text": "Meine sehr verehrten Damen und Herren! Liebe Kolleginnen und Kollegen! Ich begrüße Sie zur konstituierenden Sitzung des 19. Deutschen Bundestages. Es entspricht der ständigen Übung, zu Beginn der konstituierenden Sitzung nach den Regelungen der bisherigen Geschäftsordnung des Deutschen Bundestages zu verfahren.",
             "sentences": [
               {
@@ -103,8 +107,8 @@
           },
           {
             "type": "speech",
-            "speaker": "Hermann Otto Solms",
-            "speakerstatus": "interim-president",
+            "speaker": "Alterspräsident Hermann Otto Solms",
+            "speakerstatus": "main-speaker",
             "text": "§ 1 Absatz 2 der Geschäftsordnung des Deutschen Bundestages sieht vor, dass das am längsten dem Bundestag angehörende Mitglied, das hierzu bereit ist, den Vorsitz übernimmt, bis der Deutsche Bundestag einen Präsidenten gewählt hat.",
             "sentences": [
               {
@@ -114,8 +118,8 @@
           },
           {
             "type": "speech",
-            "speaker": "Hermann Otto Solms",
-            "speakerstatus": "interim-president",
+            "speaker": "Alterspräsident Hermann Otto Solms",
+            "speakerstatus": "main-speaker",
             "text": "Die Fraktion der AfD widerspricht diesem Verfahren und hat auf Drucksache 19/2 beantragt, einen Versammlungsleiter zu wählen, der die konstituierende Sitzung eröffnen soll. Über diesen Antrag lasse ich sofort abstimmen. Wer dem Antrag der Fraktion der AfD zustimmt, den bitte ich um sein Handzeichen. – Gegenstimmen? –",
             "sentences": [
               {
@@ -148,8 +152,8 @@
           },
           {
             "type": "speech",
-            "speaker": "Hermann Otto Solms",
-            "speakerstatus": "interim-president",
+            "speaker": "Alterspräsident Hermann Otto Solms",
+            "speakerstatus": "main-speaker",
             "text": "Enthaltungen? – Der Antrag ist damit mit den Stimmen aller Fraktionen bei Zustimmung der AfD-Fraktion abgelehnt.",
             "sentences": [
               {
@@ -162,8 +166,8 @@
           },
           {
             "type": "speech",
-            "speaker": "Hermann Otto Solms",
-            "speakerstatus": "interim-president",
+            "speaker": "Alterspräsident Hermann Otto Solms",
+            "speakerstatus": "main-speaker",
             "text": "Wir verfahren nunmehr entsprechend § 1 Absatz 2 der bisherigen Geschäftsordnung. Herr Dr. Wolfgang Schäuble ist das Mitglied, das dem Deutschen Bundestag am längsten angehört. Er hat jedoch auf das Amt des Alterspräsidenten verzichtet. Damit rückt das am zweitlängsten dem Bundestag angehörende Mitglied nach. Ich war von 1980 bis 2013, also 33 Jahre, Mitglied des Deutschen Bundestages. Ist jemand unter Ihnen, der dem Bundestag länger angehört? –",
             "sentences": [
               {
@@ -202,8 +206,8 @@
           },
           {
             "type": "speech",
-            "speaker": "Hermann Otto Solms",
-            "speakerstatus": "interim-president",
+            "speaker": "Alterspräsident Hermann Otto Solms",
+            "speakerstatus": "main-speaker",
             "text": "Das scheint offenkundig nicht der Fall zu sein. Dann trifft es also tatsächlich zu, dass die Rolle des Alterspräsidenten auf mich zukommt. Es ist mir eine Ehre und Freude zugleich, den Vorsitz bis zur Amtsübernahme durch den neugewählten Präsidenten des Deutschen Bundestages zu übernehmen.",
             "sentences": [
               {
@@ -214,17 +218,6 @@
               },
               {
                 "text": "Es ist mir eine Ehre und Freude zugleich, den Vorsitz bis zur Amtsübernahme durch den neugewählten Präsidenten des Deutschen Bundestages zu übernehmen."
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Hermann Otto Solms",
-            "speakerstatus": "interim-president",
-            "text": "Eröffnung der Sitzung durch den Alterspräsidenten",
-            "sentences": [
-              {
-                "text": "Eröffnung der Sitzung durch den Alterspräsidenten"
               }
             ]
           }
@@ -257,23 +250,22 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 1",
-      "speechIndex": 1001,
-      "title": "Eröffnung der Sitzung durch den Alterspräsidenten"
+      "speechIndex": 1,
+      "title": "Eröffnung der Sitzung durch den Alterspräsidenten",
+      "proceedingIndex": 1,
+      "mediaIndex": 3
     },
     "people": [
       {
         "type": "memberOfParliament",
-        "label": "Hermann Otto Solms",
-        "firstname": "Alterspräsident Dr. Hermann",
-        "lastname": "Otto Solms",
-        "context": "interim-president",
-        "faction": ""
+        "label": "Alterspräsident Hermann Otto Solms",
+        "context": "main-speaker"
       }
     ],
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19001-data.xml",
+        "sourceURI": "/home/oaubert/doc/projects/parliamenttv/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19001-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -281,8 +273,8 @@
         "textBody": [
           {
             "type": "speech",
-            "speaker": "Hermann Otto Solms",
-            "speakerstatus": "interim-president",
+            "speaker": "Alterspräsident Hermann Otto Solms",
+            "speakerstatus": "main-speaker",
             "text": "Ich eröffne als Alterspräsident die erste Sitzung der 19. Wahlperiode und begrüße zunächst den Bundespräsidenten Herrn Dr. Frank-Walter Steinmeier.",
             "sentences": [
               {
@@ -292,8 +284,8 @@
           },
           {
             "type": "speech",
-            "speaker": "Hermann Otto Solms",
-            "speakerstatus": "interim-president",
+            "speaker": "Alterspräsident Hermann Otto Solms",
+            "speakerstatus": "main-speaker",
             "text": "Wir freuen uns, Herr Bundespräsident, dass Sie unter uns sind und dieser Konstituierung beiwohnen.",
             "sentences": [
               {
@@ -303,8 +295,8 @@
           },
           {
             "type": "speech",
-            "speaker": "Hermann Otto Solms",
-            "speakerstatus": "interim-president",
+            "speaker": "Alterspräsident Hermann Otto Solms",
+            "speakerstatus": "main-speaker",
             "text": "Des Weiteren begrüße ich herzlich die ehemalige Präsidentin des Deutschen Bundestages Frau Dr. Rita ­Süssmuth",
             "sentences": [
               {
@@ -314,8 +306,8 @@
           },
           {
             "type": "speech",
-            "speaker": "Hermann Otto Solms",
-            "speakerstatus": "interim-president",
+            "speaker": "Alterspräsident Hermann Otto Solms",
+            "speakerstatus": "main-speaker",
             "text": "sowie die ehemaligen Präsidenten des Deutschen Bundestages Herrn Dr. Wolfgang Thierse",
             "sentences": [
               {
@@ -325,8 +317,8 @@
           },
           {
             "type": "speech",
-            "speaker": "Hermann Otto Solms",
-            "speakerstatus": "interim-president",
+            "speaker": "Alterspräsident Hermann Otto Solms",
+            "speakerstatus": "main-speaker",
             "text": "und natürlich den hochgeschätzten Kollegen Dr. Norbert Lammert, der bis heute dem Bundestag vorgesessen hat.",
             "sentences": [
               {
@@ -336,8 +328,8 @@
           },
           {
             "type": "speech",
-            "speaker": "Hermann Otto Solms",
-            "speakerstatus": "interim-president",
+            "speaker": "Alterspräsident Hermann Otto Solms",
+            "speakerstatus": "main-speaker",
             "text": "Es ist mir ein besonderes Anliegen, Frau Inge Deutschkron zu begrüßen, die im Jahre 2013 aus Anlass des Holocaust-Gedenktages eine sehr bewegende Rede hier im Deutschen Bundestag gehalten hat.",
             "sentences": [
               {
@@ -347,8 +339,8 @@
           },
           {
             "type": "speech",
-            "speaker": "Hermann Otto Solms",
-            "speakerstatus": "interim-president",
+            "speaker": "Alterspräsident Hermann Otto Solms",
+            "speakerstatus": "main-speaker",
             "text": "Mein Gruß gilt auch den anwesenden Botschaftern und Missionschefs sowie allen weiteren Gästen, die auf der Tribüne an dieser Sitzung teilnehmen.",
             "sentences": [
               {
@@ -358,8 +350,8 @@
           },
           {
             "type": "speech",
-            "speaker": "Hermann Otto Solms",
-            "speakerstatus": "interim-president",
+            "speaker": "Alterspräsident Hermann Otto Solms",
+            "speakerstatus": "main-speaker",
             "text": "Außerdem möchte ich dem Kollegen Reinhold Sendker zu seinem heutigen 65. Geburtstag gratulieren.",
             "sentences": [
               {
@@ -369,8 +361,8 @@
           },
           {
             "type": "speech",
-            "speaker": "Hermann Otto Solms",
-            "speakerstatus": "interim-president",
+            "speaker": "Alterspräsident Hermann Otto Solms",
+            "speakerstatus": "main-speaker",
             "text": "Als Nächstes habe ich gemäß § 1 Absatz 3 der Geschäftsordnung die vorläufigen Schriftführerinnen und Schriftführer zu ernennen.",
             "sentences": [
               {
@@ -380,8 +372,8 @@
           },
           {
             "type": "speech",
-            "speaker": "Hermann Otto Solms",
-            "speakerstatus": "interim-president",
+            "speaker": "Alterspräsident Hermann Otto Solms",
+            "speakerstatus": "main-speaker",
             "text": "Nach Absprache mit den Fraktionen benenne ich als vorläufige Schriftführerinnen und Schriftführer die Damen und Herren Abgeordneten – ich verlese jetzt die Liste –: Artur Auernhammer, Doris Barnett, Heike Baehrens, Dr. Karamba Diaby, Sabine Dittmar, Katharina Dröge, Dr. Fritz Felgentreu, Dr. Thomas Gebhart, Christian Haase, Mariana Harder-Kühnel, Sebastian Hartmann, Mark Helfrich, Karsten Hilse, Thomas Hitschler, Dieter Janecek, Kerstin Kassner, Ronja Kemmer, Jens Koeppen, Markus Koob, Dr. Katja Leikert, Alexander Müller, Bettina Müller, Norbert Müller, Beate Müller-Gemmeke, Volker Münz, Dr. Alexander Neu, Ulli Nissen, Omid Nouripour, Friedrich Ostendorff, Tabea Rößner, Manuel Sarrazin, Ulle Schauws, Dr. Wieland Schinnenburg, Benjamin Strasser, Katrin Werner, Nicole Westig, Kai Whittaker, Wolfgang Wiehle, Gülistan Yüksel, Hubertus Zdebel, Stefan Zierke, Pia Zimmermann.",
             "sentences": [
               {
@@ -391,8 +383,8 @@
           },
           {
             "type": "speech",
-            "speaker": "Hermann Otto Solms",
-            "speakerstatus": "interim-president",
+            "speaker": "Alterspräsident Hermann Otto Solms",
+            "speakerstatus": "main-speaker",
             "text": "Die Abgeordneten Jens Koeppen und Doris Barnett bitte ich, neben mir Platz zu nehmen.",
             "sentences": [
               {
@@ -402,8 +394,8 @@
           },
           {
             "type": "speech",
-            "speaker": "Hermann Otto Solms",
-            "speakerstatus": "interim-president",
+            "speaker": "Alterspräsident Hermann Otto Solms",
+            "speakerstatus": "main-speaker",
             "text": "Liebe Kolleginnen und Kollegen! Meine sehr verehrten Damen und Herren! Bitte haben Sie Verständnis, dass ich meinen Ausführungen eine sehr persönliche Erklärung vorausschicken möchte.",
             "sentences": [
               {
@@ -419,8 +411,8 @@
           },
           {
             "type": "speech",
-            "speaker": "Hermann Otto Solms",
-            "speakerstatus": "interim-president",
+            "speaker": "Alterspräsident Hermann Otto Solms",
+            "speakerstatus": "main-speaker",
             "text": "Ich freue mich ganz außerordentlich, dass gerade ich als Mitglied der Fraktion der Freien Demokraten die Sitzungsperiode des 19. Deutschen Bundestages eröffnen darf. Nach vier schwierigen Jahren in der außerparlamentarischen Opposition haben wir das Vertrauen der Wählerinnen und Wähler zurückgewonnen. Jetzt können wir der liberalen Stimme im Deutschen Bundestag wieder Gehör verschaffen, und das war unsere zentrale Aufgabe und unser Ziel. Vielen Dank für Ihr Verständnis.",
             "sentences": [
               {
@@ -439,8 +431,8 @@
           },
           {
             "type": "speech",
-            "speaker": "Hermann Otto Solms",
-            "speakerstatus": "interim-president",
+            "speaker": "Alterspräsident Hermann Otto Solms",
+            "speakerstatus": "main-speaker",
             "text": "Meine Damen und Herren, vorweg möchte ich allen Kolleginnen und Kollegen zu ihrer Wiederwahl bzw. Neuwahl in den Deutschen Bundestag herzlich gratulieren. Abgeordneter des Deutschen Bundestages zu sein, ist eine große Ehre, aber eine noch viel größere Verpflichtung; dieser müssen wir alle in den nächsten Jahren gerecht werden.",
             "sentences": [
               {
@@ -453,8 +445,8 @@
           },
           {
             "type": "speech",
-            "speaker": "Hermann Otto Solms",
-            "speakerstatus": "interim-president",
+            "speaker": "Alterspräsident Hermann Otto Solms",
+            "speakerstatus": "main-speaker",
             "text": "Der Deutsche Bundestag ist das einzige direkt vom Volk legitimierte Staatsorgan. Er steht damit im Mittelpunkt unserer staatlichen Ordnung, auf den sich alle anderen Organe beziehen.",
             "sentences": [
               {
@@ -467,8 +459,8 @@
           },
           {
             "type": "speech",
-            "speaker": "Hermann Otto Solms",
-            "speakerstatus": "interim-president",
+            "speaker": "Alterspräsident Hermann Otto Solms",
+            "speakerstatus": "main-speaker",
             "text": "Der Deutsche Bundestag ist darüber hinaus eines der einflussreichsten demokratischen Parlamente der Welt. Das wird schon dadurch deutlich, dass sich der Bundestag seine Regierung wählt, diese beauftragt, kontrolliert und gegebenenfalls wieder ersetzen kann. Die Regierung ist also immer auf das Vertrauen des Bundestages angewiesen.",
             "sentences": [
               {
@@ -484,8 +476,8 @@
           },
           {
             "type": "speech",
-            "speaker": "Hermann Otto Solms",
-            "speakerstatus": "interim-president",
+            "speaker": "Alterspräsident Hermann Otto Solms",
+            "speakerstatus": "main-speaker",
             "text": "Der Bundestag wählt seine Regierung, nicht die Regierung ihren Bundestag. Das wird in der öffentlichen Übertragung häufig nicht eindeutig dargestellt. Die in der Verfassung vorgesehene Richtlinienkompetenz des Bundeskanzlers bzw. der Bundeskanzlerin bezieht sich nur auf das Handeln der Regierung und nicht auf die Entscheidungsfindung im Deutschen Bundestag, auch wenn das in den Medien häufig anders dargestellt wird.",
             "sentences": [
               {
@@ -501,8 +493,8 @@
           },
           {
             "type": "speech",
-            "speaker": "Hermann Otto Solms",
-            "speakerstatus": "interim-president",
+            "speaker": "Alterspräsident Hermann Otto Solms",
+            "speakerstatus": "main-speaker",
             "text": "Der Bundestag bestimmt die politischen Zielsetzungen und die grundsätzlichen Lösungswege. Die Regierung führt sie aus.",
             "sentences": [
               {
@@ -515,8 +507,8 @@
           },
           {
             "type": "speech",
-            "speaker": "Hermann Otto Solms",
-            "speakerstatus": "interim-president",
+            "speaker": "Alterspräsident Hermann Otto Solms",
+            "speakerstatus": "main-speaker",
             "text": "An zwei Beispielen möchte ich deutlich machen, wie weit die Entscheidungsbefugnisse des Bundestages reichen. Zu Beginn der 90er-Jahre verklagte die FDP-Bundestagsfraktion die eigene Regierung vor dem Bundesverfassungsgericht wegen der Zulässigkeit der Out-of-Area-Einsätze der Bundeswehr. Als damaliger Fraktionsvorsitzender habe ich die Klage vor dem Bundesverfassungsgericht vertreten, genauso wie der bis heute unvergessene Kollege Peter Struck, der die gleichzeitige Klage der damaligen Oppositionsfraktion SPD vertreten hat.",
             "sentences": [
               {
@@ -532,8 +524,8 @@
           },
           {
             "type": "speech",
-            "speaker": "Hermann Otto Solms",
-            "speakerstatus": "interim-president",
+            "speaker": "Alterspräsident Hermann Otto Solms",
+            "speakerstatus": "main-speaker",
             "text": "Aufgrund des Urteils des Bundesverfassungsgerichts bedürfen seither alle Auslandseinsätze der Bundeswehr der Zustimmung des Parlamentes. Deswegen sprechen wir ja heute von einer Parlamentsarmee. Das ist der Zusammenhang: eine Verantwortung, die in anderen Ländern unbekannt ist und häufig auf Verwunderung stößt, sich aber bei uns nach meiner Meinung bewährt hat.",
             "sentences": [
               {
@@ -549,8 +541,8 @@
           },
           {
             "type": "speech",
-            "speaker": "Hermann Otto Solms",
-            "speakerstatus": "interim-president",
+            "speaker": "Alterspräsident Hermann Otto Solms",
+            "speakerstatus": "main-speaker",
             "text": "Diese Regelung, die Staat und Soldatinnen und Soldaten vor leichtfertigen Entscheidungen schützt, sollte bei einer Einbettung der Bundeswehr in europäische Verteidigungsstrukturen grundsätzlich beibehalten werden.",
             "sentences": [
               {
@@ -560,8 +552,8 @@
           },
           {
             "type": "speech",
-            "speaker": "Hermann Otto Solms",
-            "speakerstatus": "interim-president",
+            "speaker": "Alterspräsident Hermann Otto Solms",
+            "speakerstatus": "main-speaker",
             "text": "Auch im Rahmen der Euro-Stabilisierung haben wir ein Höchstmaß an parlamentarischer Kontrolle erreicht und im September 2011 Rechtsgeschichte geschrieben. Damals ist es zum ersten Mal gelungen, einen flächendeckenden Parlamentsvorbehalt gegenüber den Vorrechten der Regierung bei der Außenvertretung des Staates zu installieren. Dieser gilt bei allen die Haushaltsverantwortung des Bundestages betreffenden Entscheidungen der Bundesregierung zur Euro-Stabilisierung.",
             "sentences": [
               {
@@ -577,8 +569,8 @@
           },
           {
             "type": "speech",
-            "speaker": "Hermann Otto Solms",
-            "speakerstatus": "interim-president",
+            "speaker": "Alterspräsident Hermann Otto Solms",
+            "speakerstatus": "main-speaker",
             "text": "Wir haben dieses Königsrecht des Parlaments, nämlich das Haushaltsrecht, in Gesetze gegossen, welche dieses Recht garantieren. Das Recht des Parlamentes, über die Einnahmen und Ausgaben des Staates zu bestimmen, darf auch in Zukunft nicht eingeschränkt werden. In dieser Auffassung hat uns damals das Bundesverfassungsgericht bestärkt. Ich zitiere:",
             "sentences": [
               {
@@ -597,8 +589,8 @@
           },
           {
             "type": "speech",
-            "speaker": "Hermann Otto Solms",
-            "speakerstatus": "interim-president",
+            "speaker": "Alterspräsident Hermann Otto Solms",
+            "speakerstatus": "main-speaker",
             "text": "Ende des Zitats.",
             "sentences": [
               {
@@ -608,8 +600,8 @@
           },
           {
             "type": "speech",
-            "speaker": "Hermann Otto Solms",
-            "speakerstatus": "interim-president",
+            "speaker": "Alterspräsident Hermann Otto Solms",
+            "speakerstatus": "main-speaker",
             "text": "Liebe Kolleginnen und Kollegen, das Wahlergebnis vom 24. September hat die Kräfteverhältnisse im 19. Deutschen Bundestag stärker verändert, als gemeinhin erwartet wurde, und zugleich auch die politischen Rollen neu verteilt. Diese Entscheidung der Wähler haben wir zu akzeptieren.",
             "sentences": [
               {
@@ -622,8 +614,8 @@
           },
           {
             "type": "speech",
-            "speaker": "Hermann Otto Solms",
-            "speakerstatus": "interim-president",
+            "speaker": "Alterspräsident Hermann Otto Solms",
+            "speakerstatus": "main-speaker",
             "text": "Das Parlament muss ein Spiegelbild der Meinungsvielfalt in der Bevölkerung sein. Ich warne davor, Sonderregelungen zu schaffen, auszugrenzen oder gar zu stigmatisieren.",
             "sentences": [
               {
@@ -636,8 +628,8 @@
           },
           {
             "type": "speech",
-            "speaker": "Hermann Otto Solms",
-            "speakerstatus": "interim-president",
+            "speaker": "Alterspräsident Hermann Otto Solms",
+            "speakerstatus": "main-speaker",
             "text": "Wir alle haben das gleiche Mandat, gleiche Rechte, aber auch gleiche Pflichten.",
             "sentences": [
               {
@@ -647,8 +639,8 @@
           },
           {
             "type": "speech",
-            "speaker": "Hermann Otto Solms",
-            "speakerstatus": "interim-president",
+            "speaker": "Alterspräsident Hermann Otto Solms",
+            "speakerstatus": "main-speaker",
             "text": "Es ist klug, sich im politischen Wettbewerb auf inhaltliche Auseinandersetzungen zu konzentrieren. Dabei gilt: Jeder, der hier das Wort ergreift, übernimmt persönlich die Verantwortung für das Gesagte. Durch die Wahl sind wir jetzt die Repräsentanten des Volkes, und der Wille des Volkes, von dem alle Staatsgewalt ausgeht, ist Maßstab unseres Handelns.",
             "sentences": [
               {
@@ -664,8 +656,8 @@
           },
           {
             "type": "speech",
-            "speaker": "Hermann Otto Solms",
-            "speakerstatus": "interim-president",
+            "speaker": "Alterspräsident Hermann Otto Solms",
+            "speakerstatus": "main-speaker",
             "text": "Selbstverständlich fühlen wir uns alle auch verantwortlich gegenüber unseren Parteien, die uns als Kandidaten nominiert haben. Das Grundgesetz bestimmt, dass die Parteien bei der politischen Willensbildung mitwirken. Ohne Parteien ist dies auch gar nicht zu organisieren. Wer Demokratie bejaht, muss auch demokratische Parteien bejahen. Es ist zu bedauern, wie wenig die Mitgliedschaft in einer Partei oder die Unterstützung demokratischer Parteien in der Öffentlichkeit gewürdigt werden. Wir dürfen die ehrenamtliche und unentgeltliche Arbeit Zehntausender Politiker gerade auf kommunaler und regionaler Ebene nicht vergessen, ohne die die demokratische Willensbildung überhaupt nicht möglich wäre.",
             "sentences": [
               {
@@ -690,8 +682,8 @@
           },
           {
             "type": "speech",
-            "speaker": "Hermann Otto Solms",
-            "speakerstatus": "interim-president",
+            "speaker": "Alterspräsident Hermann Otto Solms",
+            "speakerstatus": "main-speaker",
             "text": "Deshalb danke ich heute besonders allen, die bei der Bundestagswahl, bei Landtags- oder Kommunalwahlen kandidiert, aber kein Mandat erhalten haben. Sie haben mit ihrem Engagement einen besonderen Beitrag für die lebendige Demokratie geleistet.",
             "sentences": [
               {
@@ -704,8 +696,8 @@
           },
           {
             "type": "speech",
-            "speaker": "Hermann Otto Solms",
-            "speakerstatus": "interim-president",
+            "speaker": "Alterspräsident Hermann Otto Solms",
+            "speakerstatus": "main-speaker",
             "text": "Parteien stellen das politische Personal, die Kandidaten für politische Ämter, und nehmen zusätzlich Einfluss auf die Rekrutierung und Besetzung von leitenden Positionen in Verwaltung und Gerichten. Das ist viel Macht, die große Verantwortung mit sich bringt und ein hohes Maß an Selbstkontrolle und Selbstdisziplin einfordert. Wichtig ist dabei – das sollten wir nie vergessen –: Die Verantwortung gegenüber dem jeweiligen Parteivotum muss zurückstehen hinter der Verantwortung gegenüber den Wählern und der Gesellschaft.",
             "sentences": [
               {
@@ -721,8 +713,8 @@
           },
           {
             "type": "speech",
-            "speaker": "Hermann Otto Solms",
-            "speakerstatus": "interim-president",
+            "speaker": "Alterspräsident Hermann Otto Solms",
+            "speakerstatus": "main-speaker",
             "text": "Ich erinnere an Artikel 38 unseres Grundgesetzes. Darin heißt es in Absatz 1 Satz 2: Die Abgeordneten des Deutschen Bundestages „sind Vertreter des ganzen Volkes, an Aufträge und Weisungen nicht gebunden und nur ihrem Gewissen unterworfen“. Es bleibt dabei: Es gibt kein imperatives Mandat.",
             "sentences": [
               {
@@ -738,8 +730,8 @@
           },
           {
             "type": "speech",
-            "speaker": "Hermann Otto Solms",
-            "speakerstatus": "interim-president",
+            "speaker": "Alterspräsident Hermann Otto Solms",
+            "speakerstatus": "main-speaker",
             "text": "Liebe Kolleginnen und Kollegen, heute wird unsere Demokratie erneut herausgefordert. Die gefühlte Distanz zwischen Bürgern und Politik steigt. Entscheidungen, die in parlamentarischen und rechtsstaatlichen Verfahren getroffen werden, stoßen mitunter auf Unverständnis oder gar auf Protest.",
             "sentences": [
               {
@@ -755,8 +747,8 @@
           },
           {
             "type": "speech",
-            "speaker": "Hermann Otto Solms",
-            "speakerstatus": "interim-president",
+            "speaker": "Alterspräsident Hermann Otto Solms",
+            "speakerstatus": "main-speaker",
             "text": "Die Bürger erwarten politische Führung und Reformfähigkeit; aber sie wollen auch demokratische Verständigung, Moderation und Ausgleich. Immer mehr Bürger organisieren ihre Interessen und Initiativen außerhalb der klassischen parteipolitischen Strukturen. Zugleich ziehen sich leider zu viele Menschen ganz aus der politischen Öffentlichkeit zurück.",
             "sentences": [
               {
@@ -772,8 +764,8 @@
           },
           {
             "type": "speech",
-            "speaker": "Hermann Otto Solms",
-            "speakerstatus": "interim-president",
+            "speaker": "Alterspräsident Hermann Otto Solms",
+            "speakerstatus": "main-speaker",
             "text": "In den sozialen Medien werden Rassismus, Antisemitismus, Sexismus, Misstrauen, Ressentiments und populistische Hetze kultiviert. Wir dürfen unsere Mitbürgerinnen und Mitbürger nicht diesen Stimmen und Stimmungen überlassen.",
             "sentences": [
               {
@@ -786,8 +778,8 @@
           },
           {
             "type": "speech",
-            "speaker": "Hermann Otto Solms",
-            "speakerstatus": "interim-president",
+            "speaker": "Alterspräsident Hermann Otto Solms",
+            "speakerstatus": "main-speaker",
             "text": "Es ist vielmehr unsere Pflicht, das Vertrauen in die wehrhafte, engagierte und lernende Demokratie zu stärken – durch unser Reden und durch unser Handeln.",
             "sentences": [
               {
@@ -797,8 +789,8 @@
           },
           {
             "type": "speech",
-            "speaker": "Hermann Otto Solms",
-            "speakerstatus": "interim-president",
+            "speaker": "Alterspräsident Hermann Otto Solms",
+            "speakerstatus": "main-speaker",
             "text": "Liebe Kolleginnen und Kollegen, wir können stolz sein auf unsere lebendige Demokratie. In ihr geht es nicht nur darum, dass am Ende Mehrheiten entscheiden, sondern auch darum, dass Minderheiten genauso ihre Rechte wahrnehmen können und dass die Menschen erkennen, dass im Deutschen Bundestag alle Überzeugungen zur Sprache gebracht werden können, und zwar von allen Bürgern, egal woher sie auch kommen, woran sie glauben, welchen Geschlechts sie auch sind oder welchen Bildungsgrad sie besitzen.",
             "sentences": [
               {
@@ -811,8 +803,8 @@
           },
           {
             "type": "speech",
-            "speaker": "Hermann Otto Solms",
-            "speakerstatus": "interim-president",
+            "speaker": "Alterspräsident Hermann Otto Solms",
+            "speakerstatus": "main-speaker",
             "text": "Dabei ist es die vornehmste Aufgabe des Parlaments, die Freiheits- und Grundrechte aller Bürger zu wahren und zu sichern, damit die Bürger im Rahmen dieser Gesetze ihr Leben möglichst frei gestalten können und ihre Privatsphäre geschützt wird.",
             "sentences": [
               {
@@ -822,8 +814,8 @@
           },
           {
             "type": "speech",
-            "speaker": "Hermann Otto Solms",
-            "speakerstatus": "interim-president",
+            "speaker": "Alterspräsident Hermann Otto Solms",
+            "speakerstatus": "main-speaker",
             "text": "Unsere gemeinsame Aufgabe muss es sein, dafür zu sorgen, die gesellschaftlichen Debatten unserer Zeit wieder dahin zurückzuholen, wo sie hingehören, nämlich hierhin, in den Deutschen Bundestag.",
             "sentences": [
               {
@@ -833,8 +825,8 @@
           },
           {
             "type": "speech",
-            "speaker": "Hermann Otto Solms",
-            "speakerstatus": "interim-president",
+            "speaker": "Alterspräsident Hermann Otto Solms",
+            "speakerstatus": "main-speaker",
             "text": "Genau hier ist der Platz der Auseinandersetzung der verschiedenen politischen Ausrichtungen und Überzeugungen. Hier im Deutschen Bundestag sind die Parteien in dem Maße vertreten, wie sie in freier Wahl bestimmt worden sind. Deshalb kommen hier die unterschiedlichen politischen Strömungen zur Geltung, und zwar in dem Verhältnis, wie sie von den Wählern Unterstützung erhalten haben. Das Zerrbild von der Politik, wie es beispielsweise in den sozialen Medien oder in manchen Fernseh-Talkshows dargeboten wird, gibt diese faire Repräsentation nicht wieder.",
             "sentences": [
               {
@@ -853,8 +845,8 @@
           },
           {
             "type": "speech",
-            "speaker": "Hermann Otto Solms",
-            "speakerstatus": "interim-president",
+            "speaker": "Alterspräsident Hermann Otto Solms",
+            "speakerstatus": "main-speaker",
             "text": "Bei letzteren werden häufig Vertreter auffälliger Positionen eingeladen, weil dies eine höhere Einschaltquote verspricht.",
             "sentences": [
               {
@@ -864,8 +856,8 @@
           },
           {
             "type": "speech",
-            "speaker": "Hermann Otto Solms",
-            "speakerstatus": "interim-president",
+            "speaker": "Alterspräsident Hermann Otto Solms",
+            "speakerstatus": "main-speaker",
             "text": "Was bedeutet das für uns? Wir müssen den Menschen auf Augenhöhe begegnen und ihnen Orientierung geben. Wir brauchen eine lebendige, lebensnahe Debattenkultur. Wir müssen dabei eine Sprache sprechen, die verstanden wird. Wir müssen die unterschiedlichen Positionen klar und deutlich herausarbeiten, damit sich die Wähler bei ihrer Wahlentscheidung daran orientieren können. Es muss für uns der lateinische Grundsatz gelten: „Suaviter in modo, f ortiter in re“. – Also: Maßvoll im Ton, bestimmt in der Sache.",
             "sentences": [
               {
@@ -893,8 +885,8 @@
           },
           {
             "type": "speech",
-            "speaker": "Hermann Otto Solms",
-            "speakerstatus": "interim-president",
+            "speaker": "Alterspräsident Hermann Otto Solms",
+            "speakerstatus": "main-speaker",
             "text": "Wie auch Bundespräsident Frank-Walter Steinmeier bei seiner Rede zur deutschen Einheit sagte: Kontroversen, ja; aber aus Differenzen darf keine Unversöhnlichkeit entstehen. – Ich kann ihm nur zustimmen. Wir brauchen weniger ideologische Grabenkämpfe und mehr problemorientierte Lösungen.",
             "sentences": [
               {
@@ -910,8 +902,8 @@
           },
           {
             "type": "speech",
-            "speaker": "Hermann Otto Solms",
-            "speakerstatus": "interim-president",
+            "speaker": "Alterspräsident Hermann Otto Solms",
+            "speakerstatus": "main-speaker",
             "text": "Liebe Kolleginnen und Kollegen, zum Schluss möchte ich noch auf die aktuelle Größe des Bundestages zu sprechen kommen. Sie verspüren alle selbst, dass der Bundestag mit 709 Mitgliedern eine unerwartet hohe Anzahl an Abgeordneten erreicht hat. Die Größe dieses aufgeblähten Parlaments trägt eher dazu bei, dass die Arbeitsfähigkeit des Bundestages genauso wie sein Ansehen bei den Bürgern leidet – auch wegen der dadurch gestiegenen Kosten.",
             "sentences": [
               {
@@ -927,8 +919,8 @@
           },
           {
             "type": "speech",
-            "speaker": "Hermann Otto Solms",
-            "speakerstatus": "interim-president",
+            "speaker": "Alterspräsident Hermann Otto Solms",
+            "speakerstatus": "main-speaker",
             "text": "Wie der bisherige Bundestagspräsident Norbert Lammert rege auch ich an, dass sich der Bundestag rasch mit einer Reform des Wahlrechts befasst.",
             "sentences": [
               {
@@ -938,8 +930,8 @@
           },
           {
             "type": "speech",
-            "speaker": "Hermann Otto Solms",
-            "speakerstatus": "interim-president",
+            "speaker": "Alterspräsident Hermann Otto Solms",
+            "speakerstatus": "main-speaker",
             "text": "Im Interesse der Funktionsfähigkeit des Parlaments darf es dabei keine taktischen Machtspiele geben.",
             "sentences": [
               {
@@ -949,8 +941,8 @@
           },
           {
             "type": "speech",
-            "speaker": "Hermann Otto Solms",
-            "speakerstatus": "interim-president",
+            "speaker": "Alterspräsident Hermann Otto Solms",
+            "speakerstatus": "main-speaker",
             "text": "Meiner Meinung nach war das alte Wahlrecht im Wesentlichen von allen politischen Kräften akzeptiert. Wenn es keine schnelle Einigung gibt, sollte der Bundestag dieses wieder in Kraft setzen, notfalls mit verfassungsändernder Mehrheit.",
             "sentences": [
               {
@@ -963,8 +955,8 @@
           },
           {
             "type": "speech",
-            "speaker": "Hermann Otto Solms",
-            "speakerstatus": "interim-president",
+            "speaker": "Alterspräsident Hermann Otto Solms",
+            "speakerstatus": "main-speaker",
             "text": "Für die neue Legislaturperiode wünsche ich uns allen das notwendige Verantwortungsgefühl für faire und sachgerechte Auseinandersetzungen mit Klarheit und Augenmaß. Lassen Sie uns den Bürgerinnen und Bürgern beweisen, dass unsere Demokratie hohe Integrationskraft besitzt, dass wir nicht sprachlos gegenüber Hetze und Parolen sind, dass wir Provokationen Argumente entgegensetzen und dass wir ernsthaft Lösungen für die Probleme der Zukunft finden.",
             "sentences": [
               {
@@ -977,8 +969,8 @@
           },
           {
             "type": "speech",
-            "speaker": "Hermann Otto Solms",
-            "speakerstatus": "interim-president",
+            "speaker": "Alterspräsident Hermann Otto Solms",
+            "speakerstatus": "main-speaker",
             "text": "Ich freue mich auf eine gute Zusammenarbeit.",
             "sentences": [
               {
@@ -988,8 +980,8 @@
           },
           {
             "type": "speech",
-            "speaker": "Hermann Otto Solms",
-            "speakerstatus": "interim-president",
+            "speaker": "Alterspräsident Hermann Otto Solms",
+            "speakerstatus": "main-speaker",
             "text": "Ich danke Ihnen für Ihre Aufmerksamkeit.",
             "sentences": [
               {
@@ -1026,23 +1018,22 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 2",
-      "speechIndex": 1002,
-      "title": "Beschlussfassung über die Geschäftsordnung"
+      "speechIndex": 2,
+      "title": "Beschlussfassung über die Geschäftsordnung",
+      "proceedingIndex": 2,
+      "mediaIndex": 4
     },
     "people": [
       {
         "type": "memberOfParliament",
-        "label": "Hermann Otto Solms",
-        "firstname": "Alterspräsident Dr. Hermann",
-        "lastname": "Otto Solms",
-        "context": "interim-president",
-        "faction": ""
+        "label": "Alterspräsident Hermann Otto Solms",
+        "context": "main-speaker"
       }
     ],
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19001-data.xml",
+        "sourceURI": "/home/oaubert/doc/projects/parliamenttv/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19001-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -1050,74 +1041,8 @@
         "textBody": [
           {
             "type": "speech",
-            "speaker": "Hermann Otto Solms",
-            "speakerstatus": "interim-president",
-            "text": "Beschlussfassung über die",
-            "sentences": [
-              {
-                "text": "Beschlussfassung über die"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Hermann Otto Solms",
-            "speakerstatus": "interim-president",
-            "text": "– Geschäftsordnung des Deutschen Bundestages",
-            "sentences": [
-              {
-                "text": "– Geschäftsordnung des Deutschen Bundestages"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Hermann Otto Solms",
-            "speakerstatus": "interim-president",
-            "text": "– Gemeinsame Geschäftsordnung des Bundestages und des Bundesrates für den Ausschuss nach Artikel 77 des Grundgesetzes (Vermittlungsausschuss)",
-            "sentences": [
-              {
-                "text": "– Gemeinsame Geschäftsordnung des Bundestages und des Bundesrates für den Ausschuss nach Artikel 77 des Grundgesetzes (Vermittlungsausschuss)"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Hermann Otto Solms",
-            "speakerstatus": "interim-president",
-            "text": "– Geschäftsordnung für den Gemeinsamen Ausschuss",
-            "sentences": [
-              {
-                "text": "– Geschäftsordnung für den Gemeinsamen Ausschuss"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Hermann Otto Solms",
-            "speakerstatus": "interim-president",
-            "text": "– Geschäftsordnung für das Verfahren nach Artikel 115d des Grundgesetzes",
-            "sentences": [
-              {
-                "text": "– Geschäftsordnung für das Verfahren nach Artikel 115d des Grundgesetzes"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Hermann Otto Solms",
-            "speakerstatus": "interim-president",
-            "text": "– Richtlinien zur Überprüfung auf eine Tätigkeit oder politische Verantwortung für das Ministerium für Staatssicherheit/Amt für Nationale Sicherheit der ehemaligen Deutschen Demokratischen Republik",
-            "sentences": [
-              {
-                "text": "– Richtlinien zur Überprüfung auf eine Tätigkeit oder politische Verantwortung für das Ministerium für Staatssicherheit/Amt für Nationale Sicherheit der ehemaligen Deutschen Demokratischen Republik"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Hermann Otto Solms",
-            "speakerstatus": "interim-president",
+            "speaker": "Alterspräsident Hermann Otto Solms",
+            "speakerstatus": "main-speaker",
             "text": "Es liegt ein Antrag der Fraktion der CDU/CSU zur Weitergeltung der Geschäftsordnung des Deutschen Bundestages sowie weiterer Geschäftsordnungen und Richtlinien vor. Weiterhin liegen ein Änderungsantrag der Fraktion der SPD, zwei Änderungsanträge der Fraktion der AfD sowie zwei Änderungsanträge der Fraktion Die Linke vor.",
             "sentences": [
               {
@@ -1130,8 +1055,8 @@
           },
           {
             "type": "speech",
-            "speaker": "Hermann Otto Solms",
-            "speakerstatus": "interim-president",
+            "speaker": "Alterspräsident Hermann Otto Solms",
+            "speakerstatus": "main-speaker",
             "text": "Mir ist mitgeteilt worden, dass das Wort gewünscht wird. Die Fraktionen haben sich auf eine fünfminütige Runde verständigt. Sind Sie damit einverstanden? – Das ist der Fall.",
             "sentences": [
               {
@@ -1150,8 +1075,8 @@
           },
           {
             "type": "speech",
-            "speaker": "Hermann Otto Solms",
-            "speakerstatus": "interim-president",
+            "speaker": "Alterspräsident Hermann Otto Solms",
+            "speakerstatus": "main-speaker",
             "text": "Das Wort hat als erster Redner der Kollege Carsten Schneider von der SPD-Fraktion.",
             "sentences": [
               {
@@ -1194,8 +1119,10 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 2",
-      "speechIndex": 1003,
-      "title": "Beschlussfassung über die Geschäftsordnung"
+      "speechIndex": 3,
+      "title": "Beschlussfassung über die Geschäftsordnung",
+      "proceedingIndex": 3,
+      "mediaIndex": 5
     },
     "people": [
       {
@@ -1209,16 +1136,13 @@
       {
         "type": "memberOfParliament",
         "label": "Hermann Otto Solms",
-        "firstname": "Alterspräsident Dr. Hermann",
-        "lastname": "Otto Solms",
-        "context": "interim-president",
-        "faction": ""
+        "context": "interim-president"
       }
     ],
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19001-data.xml",
+        "sourceURI": "/home/oaubert/doc/projects/parliamenttv/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19001-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -1721,8 +1645,10 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 2",
-      "speechIndex": 1004,
-      "title": "Beschlussfassung über die Geschäftsordnung"
+      "speechIndex": 4,
+      "title": "Beschlussfassung über die Geschäftsordnung",
+      "proceedingIndex": 4,
+      "mediaIndex": 6
     },
     "people": [
       {
@@ -1736,16 +1662,13 @@
       {
         "type": "memberOfParliament",
         "label": "Hermann Otto Solms",
-        "firstname": "Alterspräsident Dr. Hermann",
-        "lastname": "Otto Solms",
-        "context": "interim-president",
-        "faction": ""
+        "context": "interim-president"
       }
     ],
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19001-data.xml",
+        "sourceURI": "/home/oaubert/doc/projects/parliamenttv/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19001-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -2196,8 +2119,10 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 2",
-      "speechIndex": 1005,
-      "title": "Beschlussfassung über die Geschäftsordnung"
+      "speechIndex": 5,
+      "title": "Beschlussfassung über die Geschäftsordnung",
+      "proceedingIndex": 5,
+      "mediaIndex": 7
     },
     "people": [
       {
@@ -2211,16 +2136,13 @@
       {
         "type": "memberOfParliament",
         "label": "Hermann Otto Solms",
-        "firstname": "Alterspräsident Dr. Hermann",
-        "lastname": "Otto Solms",
-        "context": "interim-president",
-        "faction": ""
+        "context": "interim-president"
       }
     ],
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19001-data.xml",
+        "sourceURI": "/home/oaubert/doc/projects/parliamenttv/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19001-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -2610,8 +2532,10 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 2",
-      "speechIndex": 1006,
-      "title": "Beschlussfassung über die Geschäftsordnung"
+      "speechIndex": 6,
+      "title": "Beschlussfassung über die Geschäftsordnung",
+      "proceedingIndex": 6,
+      "mediaIndex": 8
     },
     "people": [
       {
@@ -2625,16 +2549,13 @@
       {
         "type": "memberOfParliament",
         "label": "Hermann Otto Solms",
-        "firstname": "Alterspräsident Dr. Hermann",
-        "lastname": "Otto Solms",
-        "context": "interim-president",
-        "faction": ""
+        "context": "interim-president"
       }
     ],
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19001-data.xml",
+        "sourceURI": "/home/oaubert/doc/projects/parliamenttv/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19001-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -3223,8 +3144,10 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 2",
-      "speechIndex": 1007,
-      "title": "Beschlussfassung über die Geschäftsordnung"
+      "speechIndex": 7,
+      "title": "Beschlussfassung über die Geschäftsordnung",
+      "proceedingIndex": 7,
+      "mediaIndex": 9
     },
     "people": [
       {
@@ -3238,16 +3161,13 @@
       {
         "type": "memberOfParliament",
         "label": "Hermann Otto Solms",
-        "firstname": "Alterspräsident Dr. Hermann",
-        "lastname": "Otto Solms",
-        "context": "interim-president",
-        "faction": ""
+        "context": "interim-president"
       }
     ],
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19001-data.xml",
+        "sourceURI": "/home/oaubert/doc/projects/parliamenttv/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19001-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -3640,8 +3560,10 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 2",
-      "speechIndex": 1008,
-      "title": "Beschlussfassung über die Geschäftsordnung"
+      "speechIndex": 8,
+      "title": "Beschlussfassung über die Geschäftsordnung",
+      "proceedingIndex": 8,
+      "mediaIndex": 10
     },
     "people": [
       {
@@ -3651,12 +3573,17 @@
         "lastname": "Haßelmann",
         "context": "main-speaker",
         "faction": "BÜNDNIS 90/DIE GRÜNEN"
+      },
+      {
+        "type": "memberOfParliament",
+        "label": "Hermann Otto Solms",
+        "context": "interim-president"
       }
     ],
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19001-data.xml",
+        "sourceURI": "/home/oaubert/doc/projects/parliamenttv/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19001-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -4131,64 +4058,7 @@
                 "text": "(Beifall beim BÜNDNIS 90/DIE GRÜNEN sowie bei Abgeordneten der CDU/CSU und der FDP – Dr. Dietmar Bartsch [DIE LINKE]: Ihr seid noch nicht an der Regierung! Noch nicht!)"
               }
             ]
-          }
-        ]
-      }
-    ],
-    "documents": [
-      {
-        "type": "officialDocument",
-        "label": "Drucksache 19/1",
-        "sourceURI": "https://dserver.bundestag.de/btd/19/000/1900001.pdf"
-      }
-    ],
-    "key": "19-1 tagesordnungspunkt 2 (britta haßelmann)",
-    "dateStart": "2017-10-24T09:53:11",
-    "dateEnd": "2017-10-24T09:58:50",
-    "media": {
-      "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7164735/7164735_h264_720_400_2000kb_baseline_de_2192.mp4",
-      "sourcePage": "http://dbtg.tv/fvid/7164735",
-      "duration": 339.0,
-      "creator": "Deutscher Bundestag",
-      "license": "&lt;a href=&quot;https://www.bundestag.de/nutzungsbedingungen&quot; target=&quot;_blank&quot;&gt;Nutzungsbedingungen&lt;/a&gt;",
-      "originMediaID": "7164735",
-      "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7164735/7164735_mp3_128kb_stereo_de_128.mp3"
-    }
-  },
-  {
-    "parliament": "DE",
-    "electoralPeriod": {
-      "number": "19"
-    },
-    "session": {
-      "number": "1",
-      "dateStart": "2017-10-24T11:00",
-      "dateEnd": "2017-10-24T17:03"
-    },
-    "agendaItem": {
-      "officialTitle": "Tagesordnungspunkt 2",
-      "speechIndex": 1009,
-      "title": "Beschlussfassung über die Geschäftsordnung"
-    },
-    "people": [
-      {
-        "type": "memberOfParliament",
-        "label": "Hermann Otto Solms",
-        "firstname": "Alterspräsident Dr. Hermann",
-        "lastname": "Otto Solms",
-        "context": "interim-president",
-        "faction": ""
-      }
-    ],
-    "textContents": [
-      {
-        "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19001-data.xml",
-        "creator": "Deutscher Bundestag",
-        "license": "Public Domain",
-        "language": "DE-de",
-        "originTextID": "",
-        "textBody": [
+          },
           {
             "type": "speech",
             "speaker": "Hermann Otto Solms",
@@ -4237,6 +4107,17 @@
               },
               {
                 "text": "– Damit ist der Antrag mit den Stimmen der Fraktionen der CDU/CSU, der FDP und des Bündnisses 90/Die Grünen gegen die Stimmen der SPD, der AfD und der Linken angenommen."
+              }
+            ]
+          },
+          {
+            "type": "comment",
+            "speaker": null,
+            "speakerstatus": null,
+            "text": "(Martin Schulz [SPD]: Jamaika steht!)",
+            "sentences": [
+              {
+                "text": "(Martin Schulz [SPD]: Jamaika steht!)"
               }
             ]
           },
@@ -4456,9 +4337,39 @@
         "sourceURI": "https://dserver.bundestag.de/btd/19/000/1900001.pdf"
       }
     ],
-    "key": "19-1 tagesordnungspunkt 2 (hermann otto solms) #1",
+    "key": "19-1 tagesordnungspunkt 2 (britta haßelmann)",
+    "dateStart": "2017-10-24T09:53:11",
+    "dateEnd": "2017-10-24T09:58:50",
+    "media": {
+      "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7164735/7164735_h264_720_400_2000kb_baseline_de_2192.mp4",
+      "sourcePage": "http://dbtg.tv/fvid/7164735",
+      "duration": 339.0,
+      "creator": "Deutscher Bundestag",
+      "license": "&lt;a href=&quot;https://www.bundestag.de/nutzungsbedingungen&quot; target=&quot;_blank&quot;&gt;Nutzungsbedingungen&lt;/a&gt;",
+      "originMediaID": "7164735",
+      "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7164735/7164735_mp3_128kb_stereo_de_128.mp3"
+    }
+  },
+  {
+    "parliament": "DE",
+    "electoralPeriod": {
+      "number": 19
+    },
+    "session": {
+      "number": 1
+    },
+    "agendaItem": {
+      "title": "Beschlussfassung über die Geschäftsordnung",
+      "officialTitle": "Tagesordnungspunkt 2",
+      "speechIndex": 11,
+      "proceedingIndex": null,
+      "mediaIndex": 11
+    },
     "dateStart": "2017-10-24T09:58:50",
     "dateEnd": "2017-10-24T10:05:21",
+    "debug": {
+      "originalTitle": "Redebeitrag von Dr. Hermann Otto Solms (Alterspräsident/FDP) am 24.10.2017 um 11:58 Uhr (1. Sitzung, TOP 2)"
+    },
     "media": {
       "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7164736/7164736_h264_720_400_2000kb_baseline_de_2192.mp4",
       "sourcePage": "http://dbtg.tv/fvid/7164736",
@@ -4467,7 +4378,16 @@
       "license": "&lt;a href=&quot;https://www.bundestag.de/nutzungsbedingungen&quot; target=&quot;_blank&quot;&gt;Nutzungsbedingungen&lt;/a&gt;",
       "originMediaID": "7164736",
       "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7164736/7164736_mp3_128kb_stereo_de_128.mp3"
-    }
+    },
+    "people": [
+      {
+        "label": "Hermann Otto Solms",
+        "faction": "FDP",
+        "context": "main-speaker",
+        "role": "interim-president"
+      }
+    ],
+    "key": "19-1 tagesordnungspunkt 2 (hermann otto solms) #1"
   },
   {
     "parliament": "DE",
@@ -4481,39 +4401,27 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 3",
-      "speechIndex": 1010,
-      "title": "Wahl des Präsidenten"
+      "speechIndex": 9,
+      "title": "Wahl des Präsidenten",
+      "proceedingIndex": 9,
+      "mediaIndex": 12
     },
     "people": [
       {
         "type": "memberOfParliament",
         "label": "Hermann Otto Solms",
-        "firstname": "Alterspräsident Dr. Hermann",
-        "lastname": "Otto Solms",
-        "context": "interim-president",
-        "faction": ""
+        "context": "interim-president"
       }
     ],
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19001-data.xml",
+        "sourceURI": "/home/oaubert/doc/projects/parliamenttv/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19001-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
         "originTextID": "",
         "textBody": [
-          {
-            "type": "speech",
-            "speaker": "Hermann Otto Solms",
-            "speakerstatus": "interim-president",
-            "text": "Wahl des Präsidenten  verbunden mit Namensaufruf  und Feststellung der Beschlussfähigkeit",
-            "sentences": [
-              {
-                "text": "Wahl des Präsidenten  verbunden mit Namensaufruf  und Feststellung der Beschlussfähigkeit"
-              }
-            ]
-          },
           {
             "type": "speech",
             "speaker": "Hermann Otto Solms",
@@ -4557,23 +4465,25 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 4",
-      "speechIndex": 1017,
-      "title": "Amtsübernahme durch den Präsidenten mit Ansprache"
+      "speechIndex": 14,
+      "title": "Amtsübernahme durch den Präsidenten mit Ansprache",
+      "proceedingIndex": 14,
+      "mediaIndex": 13
     },
     "people": [
       {
         "type": "memberOfParliament",
         "label": "Wolfgang Schäuble",
-        "firstname": "Dr. Wolfgang",
+        "firstname": "Wolfgang",
         "lastname": "Schäuble",
         "context": "main-speaker",
-        "faction": ""
+        "faction": "CDU/CSU"
       }
     ],
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19001-data.xml",
+        "sourceURI": "/home/oaubert/doc/projects/parliamenttv/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19001-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -5493,6 +5403,17 @@
                 "text": "Herzlichen Dank."
               }
             ]
+          },
+          {
+            "type": "comment",
+            "speaker": null,
+            "speakerstatus": null,
+            "text": "(Beifall im ganzen Hause)",
+            "sentences": [
+              {
+                "text": "(Beifall im ganzen Hause)"
+              }
+            ]
           }
         ]
       }
@@ -5523,23 +5444,25 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 5",
-      "speechIndex": 1019,
-      "title": "Festlegung der Zahl der Stellvertreter des Präsidenten"
+      "speechIndex": 15,
+      "title": "Festlegung der Zahl der Stellvertreter des Präsidenten",
+      "proceedingIndex": 15,
+      "mediaIndex": 14
     },
     "people": [
       {
         "type": "memberOfParliament",
         "label": "Wolfgang Schäuble",
-        "firstname": "Dr. Wolfgang",
+        "firstname": "Wolfgang",
         "lastname": "Schäuble",
         "context": "main-speaker",
-        "faction": ""
+        "faction": "CDU/CSU"
       }
     ],
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19001-data.xml",
+        "sourceURI": "/home/oaubert/doc/projects/parliamenttv/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19001-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -5553,17 +5476,6 @@
             "sentences": [
               {
                 "text": "Ich rufe den Tagesordnungspunkt 5 auf:"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Wolfgang Schäuble",
-            "speakerstatus": "main-speaker",
-            "text": "Festlegung der Zahl der Stellvertreterinnen und Stellvertreter des Präsidenten",
-            "sentences": [
-              {
-                "text": "Festlegung der Zahl der Stellvertreterinnen und Stellvertreter des Präsidenten"
               }
             ]
           },
@@ -5628,23 +5540,25 @@
     },
     "agendaItem": {
       "officialTitle": "Tagesordnungspunkt 6",
-      "speechIndex": 1022,
-      "title": "Wahl der Stellvertreter des Präsidenten"
+      "speechIndex": 17,
+      "title": "Wahl der Stellvertreter des Präsidenten",
+      "proceedingIndex": 17,
+      "mediaIndex": 15
     },
     "people": [
       {
         "type": "memberOfParliament",
         "label": "Wolfgang Schäuble",
-        "firstname": "Dr. Wolfgang",
+        "firstname": "Wolfgang",
         "lastname": "Schäuble",
         "context": "president",
-        "faction": ""
+        "faction": "CDU/CSU"
       }
     ],
     "textContents": [
       {
         "type": "proceedings",
-        "sourceURI": "/Users/joscha/Projects/OpenParliamentTV/_SERVER/OpenParliamentTV-Parsers/parliaments/DE/data/proceedings/19001-data.xml",
+        "sourceURI": "/home/oaubert/doc/projects/parliamenttv/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19001-data.xml",
         "creator": "Deutscher Bundestag",
         "license": "Public Domain",
         "language": "DE-de",
@@ -5658,17 +5572,6 @@
             "sentences": [
               {
                 "text": "Damit rufe ich den Tagesordnungspunkt 6 auf:"
-              }
-            ]
-          },
-          {
-            "type": "speech",
-            "speaker": "Wolfgang Schäuble",
-            "speakerstatus": "main-speaker",
-            "text": "Wahl der Stellvertreterinnen und Stellvertreter des Präsidenten",
-            "sentences": [
-              {
-                "text": "Wahl der Stellvertreterinnen und Stellvertreter des Präsidenten"
               }
             ]
           },
@@ -6016,16 +5919,381 @@
   {
     "parliament": "DE",
     "electoralPeriod": {
-      "number": 19
+      "number": "19"
     },
     "session": {
-      "number": 1
+      "number": "1",
+      "dateStart": "2017-10-24T11:00",
+      "dateEnd": "2017-10-24T17:03"
     },
     "agendaItem": {
+      "officialTitle": "Tagesordnungspunkt 6",
+      "speechIndex": 17,
       "title": "Nationalhymne",
-      "officialTitle": "Tagesordnungspunkt 7",
-      "speechIndex": 16
+      "proceedingIndex": 17,
+      "mediaIndex": 16
     },
+    "people": [
+      {
+        "type": "memberOfParliament",
+        "label": "Wolfgang Schäuble",
+        "firstname": "Wolfgang",
+        "lastname": "Schäuble",
+        "context": "president",
+        "faction": "CDU/CSU"
+      }
+    ],
+    "textContents": [
+      {
+        "type": "proceedings",
+        "sourceURI": "/home/oaubert/doc/projects/parliamenttv/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19001-data.xml",
+        "creator": "Deutscher Bundestag",
+        "license": "Public Domain",
+        "language": "DE-de",
+        "originTextID": "",
+        "textBody": [
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "main-speaker",
+            "text": "Damit rufe ich den Tagesordnungspunkt 6 auf:",
+            "sentences": [
+              {
+                "text": "Damit rufe ich den Tagesordnungspunkt 6 auf:"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "main-speaker",
+            "text": "Die Wahl erfolgt nach unserer Geschäftsordnung geheim. Es ist interfraktionell vereinbart worden, die Wahl der sechs Stellvertreterinnen und Stellvertreter des Präsidenten mit Wahlausweis und einer Stimmkarte, auf der die Namen aller vorgeschlagenen Kandidatinnen und Kandidaten aufgeführt sind, durchzuführen. – Ich sehe keinen Widerspruch. Damit sind Sie einverstanden. Dann verfahren wir so.",
+            "sentences": [
+              {
+                "text": "Die Wahl erfolgt nach unserer Geschäftsordnung geheim."
+              },
+              {
+                "text": "Es ist interfraktionell vereinbart worden, die Wahl der sechs Stellvertreterinnen und Stellvertreter des Präsidenten mit Wahlausweis und einer Stimmkarte, auf der die Namen aller vorgeschlagenen Kandidatinnen und Kandidaten aufgeführt sind, durchzuführen."
+              },
+              {
+                "text": "– Ich sehe keinen Widerspruch."
+              },
+              {
+                "text": "Damit sind Sie einverstanden."
+              },
+              {
+                "text": "Dann verfahren wir so."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "main-speaker",
+            "text": "Mir liegen die folgenden Vorschläge der Fraktionen vor: von der Fraktion der CDU/CSU Dr. Hans-Peter Friedrich, von der Fraktion der SPD Thomas Oppermann, von der Fraktion der AfD Albrecht Glaser, von der Fraktion der FDP Wolfgang Kubicki, von der Fraktion Die Linke Petra Pau und von der Fraktion Bündnis 90/Die Grünen Claudia Roth.",
+            "sentences": [
+              {
+                "text": "Mir liegen die folgenden Vorschläge der Fraktionen vor: von der Fraktion der CDU/CSU Dr. Hans-Peter Friedrich, von der Fraktion der SPD Thomas Oppermann, von der Fraktion der AfD Albrecht Glaser, von der Fraktion der FDP Wolfgang Kubicki, von der Fraktion Die Linke Petra Pau und von der Fraktion Bündnis 90/Die Grünen Claudia Roth."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "main-speaker",
+            "text": "Ich bitte nun um Ihre Aufmerksamkeit für einige weitere Hinweise zum Ablauf der Wahl.",
+            "sentences": [
+              {
+                "text": "Ich bitte nun um Ihre Aufmerksamkeit für einige weitere Hinweise zum Ablauf der Wahl."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "main-speaker",
+            "text": "Gewählt ist, wer die Stimmen der Mehrheit der Mitglieder des Bundestags erhält; das sind 355 Stimmen. Für diesen Wahlgang sind Stimmkarte und Wahlausweis grün. Ihren Wahlausweis können Sie, soweit noch nicht geschehen, den Stimmkartenfächern in der Lobby entnehmen. Vor den Wahlkabinen an den Ausgabetischen erhalten Sie Ihre grüne Stimmkarte und den amtlichen Wahlumschlag. Auf der Stimmkarte sind alle vorgeschlagenen Kandidatinnen und Kandidaten aufgeführt. Sie dürfen Ihre Stimmkarte nur in der Wahlkabine ankreuzen und müssen die Stimmkarte noch in der Wahlkabine in den Umschlag legen.",
+            "sentences": [
+              {
+                "text": "Gewählt ist, wer die Stimmen der Mehrheit der Mitglieder des Bundestags erhält; das sind 355 Stimmen."
+              },
+              {
+                "text": "Für diesen Wahlgang sind Stimmkarte und Wahlausweis grün."
+              },
+              {
+                "text": "Ihren Wahlausweis können Sie, soweit noch nicht geschehen, den Stimmkartenfächern in der Lobby entnehmen."
+              },
+              {
+                "text": "Vor den Wahlkabinen an den Ausgabetischen erhalten Sie Ihre grüne Stimmkarte und den amtlichen Wahlumschlag."
+              },
+              {
+                "text": "Auf der Stimmkarte sind alle vorgeschlagenen Kandidatinnen und Kandidaten aufgeführt."
+              },
+              {
+                "text": "Sie dürfen Ihre Stimmkarte nur in der Wahlkabine ankreuzen und müssen die Stimmkarte noch in der Wahlkabine in den Umschlag legen."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "main-speaker",
+            "text": "Sie können zu jedem Vorschlag „Ja“, „Nein“ oder „Enthalte mich“ ankreuzen. Sie haben also insgesamt sechs Stimmen. Wenn Sie bei einem Namen mehr als ein Kreuz oder gar kein Kreuz machen oder andere Namen als die der vorgeschlagenen Kandidaten oder Zusätze eintragen, ist die Stimme ungültig.",
+            "sentences": [
+              {
+                "text": "Sie können zu jedem Vorschlag „Ja“, „Nein“ oder „Enthalte mich“ ankreuzen."
+              },
+              {
+                "text": "Sie haben also insgesamt sechs Stimmen."
+              },
+              {
+                "text": "Wenn Sie bei einem Namen mehr als ein Kreuz oder gar kein Kreuz machen oder andere Namen als die der vorgeschlagenen Kandidaten oder Zusätze eintragen, ist die Stimme ungültig."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "main-speaker",
+            "text": "Bevor Sie die Stimmkarte in die Wahlurne werfen, müssen Sie einer der Schriftführerinnen oder einem der Schriftführer an der Wahlurne Ihren Wahlausweis übergeben.",
+            "sentences": [
+              {
+                "text": "Bevor Sie die Stimmkarte in die Wahlurne werfen, müssen Sie einer der Schriftführerinnen oder einem der Schriftführer an der Wahlurne Ihren Wahlausweis übergeben."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "main-speaker",
+            "text": "Ich bitte die Schriftführerinnen und Schriftführer, die vorgesehenen Plätze einzunehmen. Dieser Wahlgang erfolgt ohne Namensaufruf. – Sind alle Urnen besetzt? – Das ist der Fall. Dann eröffne ich die Wahl.",
+            "sentences": [
+              {
+                "text": "Ich bitte die Schriftführerinnen und Schriftführer, die vorgesehenen Plätze einzunehmen."
+              },
+              {
+                "text": "Dieser Wahlgang erfolgt ohne Namensaufruf."
+              },
+              {
+                "text": "– Sind alle Urnen besetzt?"
+              },
+              {
+                "text": "– Das ist der Fall."
+              },
+              {
+                "text": "Dann eröffne ich die Wahl."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "main-speaker",
+            "text": "Haben alle anwesenden Abgeordneten die Gelegenheit gehabt, ihre Stimme abzugeben? – Offensichtlich haben alle Mitglieder des Hauses ihre Stimmkarten abgeben können. Damit schließe ich die Wahl und bitte die Schriftführerinnen und Schriftführer, mit der Auszählung zu beginnen. Bis zur Bekanntgabe des Ergebnisses der Wahl unterbreche ich die Sitzung. Der Wiederbeginn wird durch Klingelzeichen rechtzeitig angekündigt.",
+            "sentences": [
+              {
+                "text": "Haben alle anwesenden Abgeordneten die Gelegenheit gehabt, ihre Stimme abzugeben?"
+              },
+              {
+                "text": "– Offensichtlich haben alle Mitglieder des Hauses ihre Stimmkarten abgeben können."
+              },
+              {
+                "text": "Damit schließe ich die Wahl und bitte die Schriftführerinnen und Schriftführer, mit der Auszählung zu beginnen."
+              },
+              {
+                "text": "Bis zur Bekanntgabe des Ergebnisses der Wahl unterbreche ich die Sitzung."
+              },
+              {
+                "text": "Der Wiederbeginn wird durch Klingelzeichen rechtzeitig angekündigt."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "Liebe Kolleginnen und Kollegen, ich eröffne die unterbrochene Sitzung wieder.",
+            "sentences": [
+              {
+                "text": "Liebe Kolleginnen und Kollegen, ich eröffne die unterbrochene Sitzung wieder."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "Ich gebe das Ergebnis der Wahl der Stellvertreterinnen und Stellvertreter des Präsidenten bekannt: abgegebene Stimmen 703. – Die notwendige Mehrheit ist übrigens unverändert ab 355 Stimmen erreicht.",
+            "sentences": [
+              {
+                "text": "Ich gebe das Ergebnis der Wahl der Stellvertreterinnen und Stellvertreter des Präsidenten bekannt: abgegebene Stimmen 703. – Die notwendige Mehrheit ist übrigens unverändert ab 355 Stimmen erreicht."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "Auf den vorgeschlagenen Kandidaten Dr. Hans-Peter Friedrich entfielen 507 Jastimmen, 112 Neinstimmen und 82 Enthaltungen; 2 Stimmen waren ungültig.",
+            "sentences": [
+              {
+                "text": "Auf den vorgeschlagenen Kandidaten Dr. Hans-Peter Friedrich entfielen 507 Jastimmen, 112 Neinstimmen und 82 Enthaltungen; 2 Stimmen waren ungültig."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "Auf den vorgeschlagenen Kandidaten Thomas Oppermann entfielen 396 Jastimmen, 220 Neinstimmen und 81 Enthaltungen; 6 Stimmen waren ungültig.",
+            "sentences": [
+              {
+                "text": "Auf den vorgeschlagenen Kandidaten Thomas Oppermann entfielen 396 Jastimmen, 220 Neinstimmen und 81 Enthaltungen; 6 Stimmen waren ungültig."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "Auf den vorgeschlagenen Kandidaten Albrecht Glaser entfielen 115 Jastimmen, 550 Neinstimmen und 26 Enthaltungen; 12 Stimmen waren ungültig.",
+            "sentences": [
+              {
+                "text": "Auf den vorgeschlagenen Kandidaten Albrecht Glaser entfielen 115 Jastimmen, 550 Neinstimmen und 26 Enthaltungen; 12 Stimmen waren ungültig."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "– Alle?",
+            "sentences": [
+              {
+                "text": "– Alle?"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "Auf den vorgeschlagenen Kandidaten Albrecht Glaser entfielen 115 Jastimmen, 550 Neinstimmen und 26 Enthaltungen; 12 Stimmen waren ungültig.",
+            "sentences": [
+              {
+                "text": "Auf den vorgeschlagenen Kandidaten Albrecht Glaser entfielen 115 Jastimmen, 550 Neinstimmen und 26 Enthaltungen; 12 Stimmen waren ungültig."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "Auf den vorgeschlagenen Kandidaten Wolfgang ­Kubicki entfielen 489 Jastimmen,",
+            "sentences": [
+              {
+                "text": "Auf den vorgeschlagenen Kandidaten Wolfgang ­Kubicki entfielen 489 Jastimmen,"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "100 Neinstimmen und 111 Enthaltungen; 3 Stimmen waren ungültig.",
+            "sentences": [
+              {
+                "text": "100 Neinstimmen und 111 Enthaltungen; 3 Stimmen waren ungültig."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "Auf die vorgeschlagene Kandidatin Petra Pau entfielen 456 Jastimmen,",
+            "sentences": [
+              {
+                "text": "Auf die vorgeschlagene Kandidatin Petra Pau entfielen 456 Jastimmen,"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "187 Neinstimmen und 54 Enthaltungen; 6 Stimmen waren ungültig",
+            "sentences": [
+              {
+                "text": "187 Neinstimmen und 54 Enthaltungen; 6 Stimmen waren ungültig"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "Auf die vorgeschlagene Kandidatin Claudia Roth entfielen 489 Jastimmen,",
+            "sentences": [
+              {
+                "text": "Auf die vorgeschlagene Kandidatin Claudia Roth entfielen 489 Jastimmen,"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "166 Neinstimmen und 45 Enthaltungen; 3 Stimmen waren ungültig.",
+            "sentences": [
+              {
+                "text": "166 Neinstimmen und 45 Enthaltungen; 3 Stimmen waren ungültig."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "Die Abgeordneten Dr. Hans-Peter Friedrich, Thomas Oppermann, Wolfgang Kubicki, Petra Pau und Claudia Roth haben die erforderliche Mehrheit erhalten und sind zu Stellvertreterinnen und Stellvertretern des Präsidenten gewählt. Der Abgeordnete Albrecht Glaser hat die erforderliche Mehrheit nicht erhalten.",
+            "sentences": [
+              {
+                "text": "Die Abgeordneten Dr. Hans-Peter Friedrich, Thomas Oppermann, Wolfgang Kubicki, Petra Pau und Claudia Roth haben die erforderliche Mehrheit erhalten und sind zu Stellvertreterinnen und Stellvertretern des Präsidenten gewählt."
+              },
+              {
+                "text": "Der Abgeordnete Albrecht Glaser hat die erforderliche Mehrheit nicht erhalten."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "Ich frage Sie, die gewählten Stellvertreterinnen und Stellvertreter, ob Sie die Wahl annehmen.",
+            "sentences": [
+              {
+                "text": "Ich frage Sie, die gewählten Stellvertreterinnen und Stellvertreter, ob Sie die Wahl annehmen."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "Herr Dr. Friedrich, nehmen Sie die Wahl an?",
+            "sentences": [
+              {
+                "text": "Herr Dr. Friedrich, nehmen Sie die Wahl an?"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "documents": [],
+    "key": "19-1 tagesordnungspunkt 6 (wolfgang schauble)",
+    "dateStart": "2017-10-24T15:01:06",
+    "dateEnd": "2017-10-24T15:02:47",
     "media": {
       "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7164987/7164987_h264_720_400_2000kb_baseline_de_2192.mp4",
       "sourcePage": "http://dbtg.tv/fvid/7164987",
@@ -6034,18 +6302,7 @@
       "license": "&lt;a href=&quot;https://www.bundestag.de/nutzungsbedingungen&quot; target=&quot;_blank&quot;&gt;Nutzungsbedingungen&lt;/a&gt;",
       "originMediaID": "7164987",
       "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7164987/7164987_mp3_128kb_stereo_de_128.mp3"
-    },
-    "dateStart": "2017-10-24T15:01:06",
-    "dateEnd": "2017-10-24T15:02:47",
-    "people": [
-      {
-        "label": "Wolfgang Schäuble",
-        "faction": "CDU/CSU",
-        "context": "main-speaker",
-        "role": "Bundestagspräsident"
-      }
-    ],
-    "key": "19-1 tagesordnungspunkt 7 (wolfgang schauble)"
+    }
   },
   {
     "parliament": "DE",
@@ -6058,7 +6315,14 @@
     "agendaItem": {
       "title": "Sitzungsende",
       "officialTitle": "Sitzungsende",
-      "speechIndex": 17
+      "speechIndex": 17,
+      "proceedingIndex": null,
+      "mediaIndex": 17
+    },
+    "dateStart": "2017-10-24T15:02:47",
+    "dateEnd": "2017-10-24T15:03:17",
+    "debug": {
+      "originalTitle": "Redebeitrag von Dr. Wolfgang Schäuble (Bundestagspräsident/CDU/CSU) am 24.10.2017 um 17:02 Uhr (1. Sitzung, TOP Sitzungsende)"
     },
     "media": {
       "videoFileURI": "https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7164988/7164988_h264_720_400_2000kb_baseline_de_2192.mp4",
@@ -6069,8 +6333,6 @@
       "originMediaID": "7164988",
       "audioFileURI": "https://static.p.core.cdn.streamfarm.net/1000153copo/ondemand/145293313/7164988/7164988_mp3_128kb_stereo_de_128.mp3"
     },
-    "dateStart": "2017-10-24T15:02:47",
-    "dateEnd": "2017-10-24T15:03:17",
     "people": [
       {
         "label": "Wolfgang Schäuble",
@@ -6080,5 +6342,1503 @@
       }
     ],
     "key": "19-1 sitzungsende (wolfgang schauble)"
+  },
+  {
+    "parliament": "DE",
+    "electoralPeriod": {
+      "number": "19"
+    },
+    "session": {
+      "number": "1",
+      "dateStart": "2017-10-24T11:00",
+      "dateEnd": "2017-10-24T17:03"
+    },
+    "agendaItem": {
+      "officialTitle": "Tagesordnungspunkt 3",
+      "speechIndex": 10,
+      "proceedingIndex": 10,
+      "mediaIndex": null
+    },
+    "people": [
+      {
+        "type": "memberOfParliament",
+        "label": "Volker Kauder",
+        "firstname": "Volker",
+        "lastname": "Kauder",
+        "context": "main-speaker",
+        "faction": "CDU/CSU"
+      }
+    ],
+    "textContents": [
+      {
+        "type": "proceedings",
+        "sourceURI": "/home/oaubert/doc/projects/parliamenttv/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19001-data.xml",
+        "creator": "Deutscher Bundestag",
+        "license": "Public Domain",
+        "language": "DE-de",
+        "originTextID": "",
+        "textBody": [
+          {
+            "type": "speech",
+            "speaker": "Volker Kauder",
+            "speakerstatus": "main-speaker",
+            "text": "Die CDU/CSU-Bundestagsfraktion schlägt Herrn Dr. Wolfgang Schäuble vor.",
+            "sentences": [
+              {
+                "text": "Die CDU/CSU-Bundestagsfraktion schlägt Herrn Dr. Wolfgang Schäuble vor."
+              }
+            ]
+          },
+          {
+            "type": "comment",
+            "speaker": null,
+            "speakerstatus": null,
+            "text": "(Beifall bei der CDU/CSU und der FDP sowie bei Abgeordneten des BÜNDNISSES 90/DIE GRÜNEN)",
+            "sentences": [
+              {
+                "text": "(Beifall bei der CDU/CSU und der FDP sowie bei Abgeordneten des BÜNDNISSES 90/DIE GRÜNEN)"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "documents": [],
+    "key": "19-1 tagesordnungspunkt 3 (volker kauder)"
+  },
+  {
+    "parliament": "DE",
+    "electoralPeriod": {
+      "number": "19"
+    },
+    "session": {
+      "number": "1",
+      "dateStart": "2017-10-24T11:00",
+      "dateEnd": "2017-10-24T17:03"
+    },
+    "agendaItem": {
+      "officialTitle": "Tagesordnungspunkt 3",
+      "speechIndex": 11,
+      "proceedingIndex": 11,
+      "mediaIndex": null
+    },
+    "people": [
+      {
+        "type": "memberOfParliament",
+        "label": "Alterspräsident Hermann Otto Solms",
+        "context": "main-speaker"
+      }
+    ],
+    "textContents": [
+      {
+        "type": "proceedings",
+        "sourceURI": "/home/oaubert/doc/projects/parliamenttv/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19001-data.xml",
+        "creator": "Deutscher Bundestag",
+        "license": "Public Domain",
+        "language": "DE-de",
+        "originTextID": "",
+        "textBody": [
+          {
+            "type": "speech",
+            "speaker": "Alterspräsident Hermann Otto Solms",
+            "speakerstatus": "main-speaker",
+            "text": "Der Kollege Dr. Wolfgang Schäuble ist vorgeschlagen. – Ich darf Sie fragen: Sind Sie bereit, zu kandidieren?",
+            "sentences": [
+              {
+                "text": "Der Kollege Dr. Wolfgang Schäuble ist vorgeschlagen."
+              },
+              {
+                "text": "– Ich darf Sie fragen: Sind Sie bereit, zu kandidieren?"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "documents": [],
+    "key": "19-1 tagesordnungspunkt 3 (hermann otto solms) #1"
+  },
+  {
+    "parliament": "DE",
+    "electoralPeriod": {
+      "number": "19"
+    },
+    "session": {
+      "number": "1",
+      "dateStart": "2017-10-24T11:00",
+      "dateEnd": "2017-10-24T17:03"
+    },
+    "agendaItem": {
+      "officialTitle": "Tagesordnungspunkt 3",
+      "speechIndex": 12,
+      "proceedingIndex": 12,
+      "mediaIndex": null
+    },
+    "people": [
+      {
+        "type": "memberOfParliament",
+        "label": "Wolfgang Schäuble",
+        "firstname": "Wolfgang",
+        "lastname": "Schäuble",
+        "context": "main-speaker",
+        "faction": "CDU/CSU"
+      }
+    ],
+    "textContents": [
+      {
+        "type": "proceedings",
+        "sourceURI": "/home/oaubert/doc/projects/parliamenttv/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19001-data.xml",
+        "creator": "Deutscher Bundestag",
+        "license": "Public Domain",
+        "language": "DE-de",
+        "originTextID": "",
+        "textBody": [
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "main-speaker",
+            "text": "Ja, Herr Präsident.",
+            "sentences": [
+              {
+                "text": "Ja, Herr Präsident."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "documents": [],
+    "key": "19-1 tagesordnungspunkt 3 (wolfgang schauble)"
+  },
+  {
+    "parliament": "DE",
+    "electoralPeriod": {
+      "number": "19"
+    },
+    "session": {
+      "number": "1",
+      "dateStart": "2017-10-24T11:00",
+      "dateEnd": "2017-10-24T17:03"
+    },
+    "agendaItem": {
+      "officialTitle": "Tagesordnungspunkt 3",
+      "speechIndex": 13,
+      "proceedingIndex": 13,
+      "mediaIndex": null
+    },
+    "people": [
+      {
+        "type": "memberOfParliament",
+        "label": "Alterspräsident Hermann Otto Solms",
+        "context": "main-speaker"
+      },
+      {
+        "type": "memberOfParliament",
+        "label": "Hermann Otto Solms",
+        "context": "interim-president"
+      },
+      {
+        "type": "memberOfParliament",
+        "label": "Wolfgang Schäuble",
+        "firstname": "Wolfgang",
+        "lastname": "Schäuble",
+        "context": "speaker",
+        "faction": "CDU/CSU"
+      }
+    ],
+    "textContents": [
+      {
+        "type": "proceedings",
+        "sourceURI": "/home/oaubert/doc/projects/parliamenttv/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19001-data.xml",
+        "creator": "Deutscher Bundestag",
+        "license": "Public Domain",
+        "language": "DE-de",
+        "originTextID": "",
+        "textBody": [
+          {
+            "type": "speech",
+            "speaker": "Alterspräsident Hermann Otto Solms",
+            "speakerstatus": "main-speaker",
+            "text": "Das ist der Fall. – Ich sehe keine weiteren Vorschläge.",
+            "sentences": [
+              {
+                "text": "Das ist der Fall."
+              },
+              {
+                "text": "– Ich sehe keine weiteren Vorschläge."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Alterspräsident Hermann Otto Solms",
+            "speakerstatus": "main-speaker",
+            "text": "Dann bitte ich jetzt um Ihre Aufmerksamkeit für einige Hinweise zum Wahlverfahren – das sind technische Hinweise, die aber wichtig sind, damit Sie an der Wahl erfolgreich teilnehmen können –: Die Wahl findet mit verdeckten Stimmkarten, also geheim, statt. Gewählt ist, wer die Stimmen der Mehrheit der Mitglieder des Bundestages, also mindestens 355 Stimmen, erhält. Für diese Wahl und für die spätere Wahl der Vizepräsidentinnen und Vizepräsidenten benötigen Sie Ihre Wahlausweise aus den Stimmkartenfächern in der Lobby. Für die Wahl des Präsidenten sind der Wahlausweis und die Stimmkarte gelb. Bitte kontrollieren Sie, ob dieser Wahlausweis Ihren Namen trägt. Die gelbe Stimmkarte und den amtlichen Wahlumschlag erhalten Sie nach Aufruf Ihres Namens von den Schriftführerinnen und Schriftführern an den Ausgabetischen hier oben neben den Wahlkabinen.",
+            "sentences": [
+              {
+                "text": "Dann bitte ich jetzt um Ihre Aufmerksamkeit für einige Hinweise zum Wahlverfahren – das sind technische Hinweise, die aber wichtig sind, damit Sie an der Wahl erfolgreich teilnehmen können –: Die Wahl findet mit verdeckten Stimmkarten, also geheim, statt."
+              },
+              {
+                "text": "Gewählt ist, wer die Stimmen der Mehrheit der Mitglieder des Bundestages, also mindestens 355 Stimmen, erhält."
+              },
+              {
+                "text": "Für diese Wahl und für die spätere Wahl der Vizepräsidentinnen und Vizepräsidenten benötigen Sie Ihre Wahlausweise aus den Stimmkartenfächern in der Lobby."
+              },
+              {
+                "text": "Für die Wahl des Präsidenten sind der Wahlausweis und die Stimmkarte gelb."
+              },
+              {
+                "text": "Bitte kontrollieren Sie, ob dieser Wahlausweis Ihren Namen trägt."
+              },
+              {
+                "text": "Die gelbe Stimmkarte und den amtlichen Wahlumschlag erhalten Sie nach Aufruf Ihres Namens von den Schriftführerinnen und Schriftführern an den Ausgabetischen hier oben neben den Wahlkabinen."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Alterspräsident Hermann Otto Solms",
+            "speakerstatus": "main-speaker",
+            "text": "Nachdem Sie die Stimmkarte in einer Wahlkabine gekennzeichnet und dort in den Wahlumschlag gelegt haben, gehen Sie bitte zu den Wahlurnen hier vor dem Rednerpult. Sie dürfen Ihre Stimmkarte nur in der Wahlkabine ankreuzen und müssen ebenfalls noch in der Wahlkabine die Stimmkarte in den Umschlag legen. Die Schriftführerinnen und Schriftführer sind verpflichtet, jeden, der seine Stimmkarte außerhalb der Wahlkabine kennzeichnet oder in den Umschlag legt, zurückzuweisen. Die Stimmabgabe kann in diesem Falle jedoch vorschriftsmäßig wiederholt werden.",
+            "sentences": [
+              {
+                "text": "Nachdem Sie die Stimmkarte in einer Wahlkabine gekennzeichnet und dort in den Wahlumschlag gelegt haben, gehen Sie bitte zu den Wahlurnen hier vor dem Rednerpult."
+              },
+              {
+                "text": "Sie dürfen Ihre Stimmkarte nur in der Wahlkabine ankreuzen und müssen ebenfalls noch in der Wahlkabine die Stimmkarte in den Umschlag legen."
+              },
+              {
+                "text": "Die Schriftführerinnen und Schriftführer sind verpflichtet, jeden, der seine Stimmkarte außerhalb der Wahlkabine kennzeichnet oder in den Umschlag legt, zurückzuweisen."
+              },
+              {
+                "text": "Die Stimmabgabe kann in diesem Falle jedoch vorschriftsmäßig wiederholt werden."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Alterspräsident Hermann Otto Solms",
+            "speakerstatus": "main-speaker",
+            "text": "Gültig sind nur Stimmkarten mit einem Kreuz bei „Ja“, „Nein“ oder „Enthalte mich“. Ungültig sind Stimmen auf nichtamtlichen Stimmkarten sowie Stimmkarten, die mehr als ein Kreuz, kein Kreuz, andere Namen oder Zusätze enthalten.",
+            "sentences": [
+              {
+                "text": "Gültig sind nur Stimmkarten mit einem Kreuz bei „Ja“, „Nein“ oder „Enthalte mich“."
+              },
+              {
+                "text": "Ungültig sind Stimmen auf nichtamtlichen Stimmkarten sowie Stimmkarten, die mehr als ein Kreuz, kein Kreuz, andere Namen oder Zusätze enthalten."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Alterspräsident Hermann Otto Solms",
+            "speakerstatus": "main-speaker",
+            "text": "Bevor Sie die Stimmkarte in eine der Wahlurnen werfen, übergeben Sie bitte Ihren Wahlausweis einer der Schriftführerinnen oder einem der Schriftführer an der Wahlurne. Der Nachweis der Teilnahme an der Wahl kann nur durch die Abgabe des Wahlausweises erbracht werden.",
+            "sentences": [
+              {
+                "text": "Bevor Sie die Stimmkarte in eine der Wahlurnen werfen, übergeben Sie bitte Ihren Wahlausweis einer der Schriftführerinnen oder einem der Schriftführer an der Wahlurne."
+              },
+              {
+                "text": "Der Nachweis der Teilnahme an der Wahl kann nur durch die Abgabe des Wahlausweises erbracht werden."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Alterspräsident Hermann Otto Solms",
+            "speakerstatus": "main-speaker",
+            "text": "Ich bitte jetzt die eingeteilten Schriftführerinnen und Schriftführer, die vorgesehenen Plätze einzunehmen. – Die beiden Schriftführer neben mir werden nun Ihre Namen in alphabetischer Reihenfolge aufrufen. Ich bitte Sie, den Namensaufruf zu verfolgen und sich nach dem Aufruf Ihres Namens zur Entgegennahme der Stimmkarte zu den Ausgabetischen vor den Wahlkabinen zu begeben.",
+            "sentences": [
+              {
+                "text": "Ich bitte jetzt die eingeteilten Schriftführerinnen und Schriftführer, die vorgesehenen Plätze einzunehmen."
+              },
+              {
+                "text": "– Die beiden Schriftführer neben mir werden nun Ihre Namen in alphabetischer Reihenfolge aufrufen."
+              },
+              {
+                "text": "Ich bitte Sie, den Namensaufruf zu verfolgen und sich nach dem Aufruf Ihres Namens zur Entgegennahme der Stimmkarte zu den Ausgabetischen vor den Wahlkabinen zu begeben."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Alterspräsident Hermann Otto Solms",
+            "speakerstatus": "main-speaker",
+            "text": "Haben alle Schriftführerinnen und Schriftführer die Plätze eingenommen? – Ich eröffne die Wahl und bitte, mit dem Aufruf der Namen zu beginnen.",
+            "sentences": [
+              {
+                "text": "Haben alle Schriftführerinnen und Schriftführer die Plätze eingenommen?"
+              },
+              {
+                "text": "– Ich eröffne die Wahl und bitte, mit dem Aufruf der Namen zu beginnen."
+              }
+            ]
+          },
+          {
+            "type": "comment",
+            "speaker": null,
+            "speakerstatus": null,
+            "text": "(Namensaufruf und Wahl)",
+            "sentences": [
+              {
+                "text": "(Namensaufruf und Wahl)"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Alterspräsident Hermann Otto Solms",
+            "speakerstatus": "main-speaker",
+            "text": "Der Namensaufruf ist beendet. Ich darf fragen, ob alle Mitglieder des Hauses, auch die Schriftführerinnen und Schriftführer, ihre Stimme abgegeben haben. – Nein, da kommt noch jemand.",
+            "sentences": [
+              {
+                "text": "Der Namensaufruf ist beendet."
+              },
+              {
+                "text": "Ich darf fragen, ob alle Mitglieder des Hauses, auch die Schriftführerinnen und Schriftführer, ihre Stimme abgegeben haben."
+              },
+              {
+                "text": "– Nein, da kommt noch jemand."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Alterspräsident Hermann Otto Solms",
+            "speakerstatus": "main-speaker",
+            "text": "Haben jetzt alle Mitglieder des Hauses ihre Stimme abgegeben? – Das scheint der Fall zu sein. Ich schließe die Wahl und bitte die Schriftführerinnen und Schriftführer, mit der Auszählung zu beginnen. Zur Auszählung unterbreche ich die Sitzung für etwa 30 Minuten. Der Wiederbeginn der Sitzung wird rechtzeitig durch Klingelsignal angekündigt.",
+            "sentences": [
+              {
+                "text": "Haben jetzt alle Mitglieder des Hauses ihre Stimme abgegeben?"
+              },
+              {
+                "text": "– Das scheint der Fall zu sein."
+              },
+              {
+                "text": "Ich schließe die Wahl und bitte die Schriftführerinnen und Schriftführer, mit der Auszählung zu beginnen."
+              },
+              {
+                "text": "Zur Auszählung unterbreche ich die Sitzung für etwa 30 Minuten."
+              },
+              {
+                "text": "Der Wiederbeginn der Sitzung wird rechtzeitig durch Klingelsignal angekündigt."
+              }
+            ]
+          },
+          {
+            "type": "comment",
+            "speaker": null,
+            "speakerstatus": null,
+            "text": "(Unterbrechung von 12.42 bis 13.09 Uhr)",
+            "sentences": [
+              {
+                "text": "(Unterbrechung von 12.42 bis 13.09 Uhr)"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Hermann Otto Solms",
+            "speakerstatus": "interim-president",
+            "text": "Die unterbrochene Sitzung ist wieder eröffnet. Liebe Kolleginnen und Kollegen, nehmen Sie bitte Platz, damit wir fortfahren können.",
+            "sentences": [
+              {
+                "text": "Die unterbrochene Sitzung ist wieder eröffnet."
+              },
+              {
+                "text": "Liebe Kolleginnen und Kollegen, nehmen Sie bitte Platz, damit wir fortfahren können."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Hermann Otto Solms",
+            "speakerstatus": "interim-president",
+            "text": "Ich gebe das Ergebnis der Wahl des Präsidenten des 19. Deutschen Bundestages bekannt: abgegebene Stimmen 705, ungültige Stimmen 1, gültige Stimmen 704. Mit Ja haben gestimmt 501 Kolleginnen und Kollegen.",
+            "sentences": [
+              {
+                "text": "Ich gebe das Ergebnis der Wahl des Präsidenten des 19. Deutschen Bundestages bekannt: abgegebene Stimmen 705, ungültige Stimmen 1, gültige Stimmen 704. Mit Ja haben gestimmt 501 Kolleginnen und Kollegen."
+              }
+            ]
+          },
+          {
+            "type": "comment",
+            "speaker": null,
+            "speakerstatus": null,
+            "text": "(Anhaltender Beifall bei der CDU/CSU, der SPD, der FDP, der LINKEN und dem BÜNDNIS 90/DIE GRÜNEN)",
+            "sentences": [
+              {
+                "text": "(Anhaltender Beifall bei der CDU/CSU, der SPD, der FDP, der LINKEN und dem BÜNDNIS 90/DIE GRÜNEN)"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Hermann Otto Solms",
+            "speakerstatus": "interim-president",
+            "text": "Mit Nein haben gestimmt 173 Kolleginnen und Kollegen, Enthaltungen gab es 30. Herr Dr. Wolfgang Schäuble hat die erforderliche Mehrheit erhalten und ist zum Präsidenten des 19. Deutschen Bundestages gewählt.",
+            "sentences": [
+              {
+                "text": "Mit Nein haben gestimmt 173 Kolleginnen und Kollegen, Enthaltungen gab es 30. Herr Dr. Wolfgang Schäuble hat die erforderliche Mehrheit erhalten und ist zum Präsidenten des 19. Deutschen Bundestages gewählt."
+              }
+            ]
+          },
+          {
+            "type": "comment",
+            "speaker": null,
+            "speakerstatus": null,
+            "text": "(Beifall bei der CDU/CSU, der SPD, der FDP, der LINKEN und dem BÜNDNIS 90/DIE GRÜNEN)",
+            "sentences": [
+              {
+                "text": "(Beifall bei der CDU/CSU, der SPD, der FDP, der LINKEN und dem BÜNDNIS 90/DIE GRÜNEN)"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Hermann Otto Solms",
+            "speakerstatus": "interim-president",
+            "text": "Ich frage Sie, Herr Schäuble: Nehmen Sie die Wahl an?",
+            "sentences": [
+              {
+                "text": "Ich frage Sie, Herr Schäuble: Nehmen Sie die Wahl an?"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "speaker",
+            "text": "Herr Präsident, ich nehme die Wahl an.",
+            "sentences": [
+              {
+                "text": "Herr Präsident, ich nehme die Wahl an."
+              }
+            ]
+          },
+          {
+            "type": "comment",
+            "speaker": null,
+            "speakerstatus": null,
+            "text": "(Beifall bei der CDU/CSU, der SPD, der FDP, der LINKEN und dem BÜNDNIS 90/DIE GRÜNEN – Abgeordnete aller Fraktionen gratulieren dem Präsidenten)",
+            "sentences": [
+              {
+                "text": "(Beifall bei der CDU/CSU, der SPD, der FDP, der LINKEN und dem BÜNDNIS 90/DIE GRÜNEN – Abgeordnete aller Fraktionen gratulieren dem Präsidenten)"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Hermann Otto Solms",
+            "speakerstatus": "interim-president",
+            "text": "Herr Präsident, ich darf Ihnen im Namen des ganzen Hauses sehr herzlich zu Ihrer Wahl gratulieren. Ich wünsche Ihnen eine glückliche Hand. Verstand muss ich Ihnen nicht wünschen, den haben Sie sowieso. Ich bitte Sie jetzt, das Amt zu übernehmen.",
+            "sentences": [
+              {
+                "text": "Herr Präsident, ich darf Ihnen im Namen des ganzen Hauses sehr herzlich zu Ihrer Wahl gratulieren."
+              },
+              {
+                "text": "Ich wünsche Ihnen eine glückliche Hand."
+              },
+              {
+                "text": "Verstand muss ich Ihnen nicht wünschen, den haben Sie sowieso."
+              },
+              {
+                "text": "Ich bitte Sie jetzt, das Amt zu übernehmen."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Hermann Otto Solms",
+            "speakerstatus": "interim-president",
+            "text": "Vielen Dank.",
+            "sentences": [
+              {
+                "text": "Vielen Dank."
+              }
+            ]
+          },
+          {
+            "type": "comment",
+            "speaker": null,
+            "speakerstatus": null,
+            "text": "(Beifall bei der CDU/CSU, der SPD, der FDP, der LINKEN und dem BÜNDNIS 90/DIE GRÜNEN sowie bei Abgeordneten der AfD)",
+            "sentences": [
+              {
+                "text": "(Beifall bei der CDU/CSU, der SPD, der FDP, der LINKEN und dem BÜNDNIS 90/DIE GRÜNEN sowie bei Abgeordneten der AfD)"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "documents": [],
+    "key": "19-1 tagesordnungspunkt 3 (hermann otto solms) #2"
+  },
+  {
+    "parliament": "DE",
+    "electoralPeriod": {
+      "number": "19"
+    },
+    "session": {
+      "number": "1",
+      "dateStart": "2017-10-24T11:00",
+      "dateEnd": "2017-10-24T17:03"
+    },
+    "agendaItem": {
+      "officialTitle": "Tagesordnungspunkt 5",
+      "speechIndex": 16,
+      "proceedingIndex": 16,
+      "mediaIndex": null
+    },
+    "people": [
+      {
+        "type": "memberOfParliament",
+        "label": "Wolfgang Schäuble",
+        "firstname": "Wolfgang",
+        "lastname": "Schäuble",
+        "context": "main-speaker",
+        "faction": "CDU/CSU"
+      }
+    ],
+    "textContents": [
+      {
+        "type": "proceedings",
+        "sourceURI": "/home/oaubert/doc/projects/parliamenttv/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19001-data.xml",
+        "creator": "Deutscher Bundestag",
+        "license": "Public Domain",
+        "language": "DE-de",
+        "originTextID": "",
+        "textBody": [
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "main-speaker",
+            "text": "Ich rufe den Tagesordnungspunkt 5 auf:",
+            "sentences": [
+              {
+                "text": "Ich rufe den Tagesordnungspunkt 5 auf:"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "main-speaker",
+            "text": "Es liegt hierzu ein Antrag der Fraktionen CDU/CSU, SPD, AfD, FDP, Die Linke und Bündnis 90/Die Grünen vor. Wer stimmt für den Antrag auf Drucksache 19/3? – Gegenstimmen? – Enthaltungen? – Bei zwei Enthaltungen ist der Antrag einstimmig angenommen. Damit ist die Zahl der Stellvertreterinnen und Stellvertreter des Präsidenten auf sechs festgelegt.",
+            "sentences": [
+              {
+                "text": "Es liegt hierzu ein Antrag der Fraktionen CDU/CSU, SPD, AfD, FDP, Die Linke und Bündnis 90/Die Grünen vor."
+              },
+              {
+                "text": "Wer stimmt für den Antrag auf Drucksache 19/3?"
+              },
+              {
+                "text": "– Gegenstimmen?"
+              },
+              {
+                "text": "– Enthaltungen?"
+              },
+              {
+                "text": "– Bei zwei Enthaltungen ist der Antrag einstimmig angenommen."
+              },
+              {
+                "text": "Damit ist die Zahl der Stellvertreterinnen und Stellvertreter des Präsidenten auf sechs festgelegt."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "documents": [
+      {
+        "type": "officialDocument",
+        "label": "Drucksache 19/3",
+        "sourceURI": "https://dserver.bundestag.de/btd/19/000/1900003.pdf"
+      }
+    ],
+    "key": "19-1 tagesordnungspunkt 5 (wolfgang schauble) #1"
+  },
+  {
+    "parliament": "DE",
+    "electoralPeriod": {
+      "number": "19"
+    },
+    "session": {
+      "number": "1",
+      "dateStart": "2017-10-24T11:00",
+      "dateEnd": "2017-10-24T17:03"
+    },
+    "agendaItem": {
+      "officialTitle": "Tagesordnungspunkt 6",
+      "speechIndex": 18,
+      "proceedingIndex": 18,
+      "mediaIndex": null
+    },
+    "people": [
+      {
+        "type": "memberOfParliament",
+        "label": "Hans-Peter Friedrich",
+        "firstname": "Hans-Peter",
+        "lastname": "Friedrich",
+        "context": "main-speaker",
+        "faction": "CDU/CSU"
+      },
+      {
+        "type": "memberOfParliament",
+        "label": "Wolfgang Schäuble",
+        "firstname": "Wolfgang",
+        "lastname": "Schäuble",
+        "context": "president",
+        "faction": "CDU/CSU"
+      }
+    ],
+    "textContents": [
+      {
+        "type": "proceedings",
+        "sourceURI": "/home/oaubert/doc/projects/parliamenttv/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19001-data.xml",
+        "creator": "Deutscher Bundestag",
+        "license": "Public Domain",
+        "language": "DE-de",
+        "originTextID": "",
+        "textBody": [
+          {
+            "type": "speech",
+            "speaker": "Hans-Peter Friedrich",
+            "speakerstatus": "main-speaker",
+            "text": "Herr Präsident, ich nehme die Wahl an.",
+            "sentences": [
+              {
+                "text": "Herr Präsident, ich nehme die Wahl an."
+              }
+            ]
+          },
+          {
+            "type": "comment",
+            "speaker": null,
+            "speakerstatus": null,
+            "text": "(Beifall bei der CDU/CSU und der FDP sowie bei Abgeordneten der SPD)",
+            "sentences": [
+              {
+                "text": "(Beifall bei der CDU/CSU und der FDP sowie bei Abgeordneten der SPD)"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "Dann beglückwünsche ich Sie, Herr Kollege Friedrich.",
+            "sentences": [
+              {
+                "text": "Dann beglückwünsche ich Sie, Herr Kollege Friedrich."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "Herr Kollege Thomas Oppermann, nehmen Sie Wahl an?",
+            "sentences": [
+              {
+                "text": "Herr Kollege Thomas Oppermann, nehmen Sie Wahl an?"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "documents": [],
+    "key": "19-1 tagesordnungspunkt 6 (hans-peter friedrich)"
+  },
+  {
+    "parliament": "DE",
+    "electoralPeriod": {
+      "number": "19"
+    },
+    "session": {
+      "number": "1",
+      "dateStart": "2017-10-24T11:00",
+      "dateEnd": "2017-10-24T17:03"
+    },
+    "agendaItem": {
+      "officialTitle": "Tagesordnungspunkt 6",
+      "speechIndex": 19,
+      "proceedingIndex": 19,
+      "mediaIndex": null
+    },
+    "people": [
+      {
+        "type": "memberOfParliament",
+        "label": "Thomas Oppermann",
+        "firstname": "Thomas",
+        "lastname": "Oppermann",
+        "context": "main-speaker",
+        "faction": "SPD"
+      },
+      {
+        "type": "memberOfParliament",
+        "label": "Wolfgang Schäuble",
+        "firstname": "Wolfgang",
+        "lastname": "Schäuble",
+        "context": "president",
+        "faction": "CDU/CSU"
+      }
+    ],
+    "textContents": [
+      {
+        "type": "proceedings",
+        "sourceURI": "/home/oaubert/doc/projects/parliamenttv/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19001-data.xml",
+        "creator": "Deutscher Bundestag",
+        "license": "Public Domain",
+        "language": "DE-de",
+        "originTextID": "",
+        "textBody": [
+          {
+            "type": "speech",
+            "speaker": "Thomas Oppermann",
+            "speakerstatus": "main-speaker",
+            "text": "Jawohl, Herr Präsident, ich nehme die Wahl an.",
+            "sentences": [
+              {
+                "text": "Jawohl, Herr Präsident, ich nehme die Wahl an."
+              }
+            ]
+          },
+          {
+            "type": "comment",
+            "speaker": null,
+            "speakerstatus": null,
+            "text": "(Beifall bei der SPD)",
+            "sentences": [
+              {
+                "text": "(Beifall bei der SPD)"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "Ich beglückwünsche Sie und freue mich auf gute Zusammenarbeit.",
+            "sentences": [
+              {
+                "text": "Ich beglückwünsche Sie und freue mich auf gute Zusammenarbeit."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "Herr Kollege Kubicki, nehmen Sie die Wahl an?",
+            "sentences": [
+              {
+                "text": "Herr Kollege Kubicki, nehmen Sie die Wahl an?"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "documents": [],
+    "key": "19-1 tagesordnungspunkt 6 (thomas oppermann)"
+  },
+  {
+    "parliament": "DE",
+    "electoralPeriod": {
+      "number": "19"
+    },
+    "session": {
+      "number": "1",
+      "dateStart": "2017-10-24T11:00",
+      "dateEnd": "2017-10-24T17:03"
+    },
+    "agendaItem": {
+      "officialTitle": "Tagesordnungspunkt 6",
+      "speechIndex": 20,
+      "proceedingIndex": 20,
+      "mediaIndex": null
+    },
+    "people": [
+      {
+        "type": "memberOfParliament",
+        "label": "Wolfgang Kubicki",
+        "firstname": "Wolfgang",
+        "lastname": "Kubicki",
+        "context": "main-speaker",
+        "faction": "FDP"
+      },
+      {
+        "type": "memberOfParliament",
+        "label": "Wolfgang Schäuble",
+        "firstname": "Wolfgang",
+        "lastname": "Schäuble",
+        "context": "president",
+        "faction": "CDU/CSU"
+      }
+    ],
+    "textContents": [
+      {
+        "type": "proceedings",
+        "sourceURI": "/home/oaubert/doc/projects/parliamenttv/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19001-data.xml",
+        "creator": "Deutscher Bundestag",
+        "license": "Public Domain",
+        "language": "DE-de",
+        "originTextID": "",
+        "textBody": [
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Kubicki",
+            "speakerstatus": "main-speaker",
+            "text": "Herr Präsident, ich nehme die Wahl an.",
+            "sentences": [
+              {
+                "text": "Herr Präsident, ich nehme die Wahl an."
+              }
+            ]
+          },
+          {
+            "type": "comment",
+            "speaker": null,
+            "speakerstatus": null,
+            "text": "(Beifall bei der FDP sowie bei Abgeordneten der CDU/CSU)",
+            "sentences": [
+              {
+                "text": "(Beifall bei der FDP sowie bei Abgeordneten der CDU/CSU)"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "Dann beglückwünsche ich auch Sie im Namen des Hauses und freue mich auf gute Zusammenarbeit.",
+            "sentences": [
+              {
+                "text": "Dann beglückwünsche ich auch Sie im Namen des Hauses und freue mich auf gute Zusammenarbeit."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "Frau Kollegin Pau, nehmen Sie die Wahl an?",
+            "sentences": [
+              {
+                "text": "Frau Kollegin Pau, nehmen Sie die Wahl an?"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "documents": [],
+    "key": "19-1 tagesordnungspunkt 6 (wolfgang kubicki)"
+  },
+  {
+    "parliament": "DE",
+    "electoralPeriod": {
+      "number": "19"
+    },
+    "session": {
+      "number": "1",
+      "dateStart": "2017-10-24T11:00",
+      "dateEnd": "2017-10-24T17:03"
+    },
+    "agendaItem": {
+      "officialTitle": "Tagesordnungspunkt 6",
+      "speechIndex": 21,
+      "proceedingIndex": 21,
+      "mediaIndex": null
+    },
+    "people": [
+      {
+        "type": "memberOfParliament",
+        "label": "Petra Pau",
+        "firstname": "Petra",
+        "lastname": "Pau",
+        "context": "main-speaker",
+        "faction": "DIE LINKE"
+      },
+      {
+        "type": "memberOfParliament",
+        "label": "Wolfgang Schäuble",
+        "firstname": "Wolfgang",
+        "lastname": "Schäuble",
+        "context": "president",
+        "faction": "CDU/CSU"
+      }
+    ],
+    "textContents": [
+      {
+        "type": "proceedings",
+        "sourceURI": "/home/oaubert/doc/projects/parliamenttv/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19001-data.xml",
+        "creator": "Deutscher Bundestag",
+        "license": "Public Domain",
+        "language": "DE-de",
+        "originTextID": "",
+        "textBody": [
+          {
+            "type": "speech",
+            "speaker": "Petra Pau",
+            "speakerstatus": "main-speaker",
+            "text": "Herr Präsident, ich nehme die Wahl an und freue mich auf die Zusammenarbeit.",
+            "sentences": [
+              {
+                "text": "Herr Präsident, ich nehme die Wahl an und freue mich auf die Zusammenarbeit."
+              }
+            ]
+          },
+          {
+            "type": "comment",
+            "speaker": null,
+            "speakerstatus": null,
+            "text": "(Beifall bei der LINKEN sowie bei Abgeordneten der CDU/CSU, der SPD, der FDP und des BÜNDNISSES 90/DIE GRÜNEN)",
+            "sentences": [
+              {
+                "text": "(Beifall bei der LINKEN sowie bei Abgeordneten der CDU/CSU, der SPD, der FDP und des BÜNDNISSES 90/DIE GRÜNEN)"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "Herzlichen Glückwunsch, Frau Pau. Auch ich freue mich auf die Zusammenarbeit.",
+            "sentences": [
+              {
+                "text": "Herzlichen Glückwunsch, Frau Pau."
+              },
+              {
+                "text": "Auch ich freue mich auf die Zusammenarbeit."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "Jetzt frage ich die Frau Kollegin Roth, ob sie die Wahl annimmt.",
+            "sentences": [
+              {
+                "text": "Jetzt frage ich die Frau Kollegin Roth, ob sie die Wahl annimmt."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "documents": [],
+    "key": "19-1 tagesordnungspunkt 6 (petra pau)"
+  },
+  {
+    "parliament": "DE",
+    "electoralPeriod": {
+      "number": "19"
+    },
+    "session": {
+      "number": "1",
+      "dateStart": "2017-10-24T11:00",
+      "dateEnd": "2017-10-24T17:03"
+    },
+    "agendaItem": {
+      "officialTitle": "Tagesordnungspunkt 6",
+      "speechIndex": 22,
+      "proceedingIndex": 22,
+      "mediaIndex": null
+    },
+    "people": [
+      {
+        "type": "memberOfParliament",
+        "label": "Claudia Roth",
+        "firstname": "Claudia",
+        "lastname": "Roth",
+        "context": "main-speaker",
+        "faction": "BÜNDNIS 90/DIE GRÜNEN"
+      },
+      {
+        "type": "memberOfParliament",
+        "label": "Wolfgang Schäuble",
+        "firstname": "Wolfgang",
+        "lastname": "Schäuble",
+        "context": "president",
+        "faction": "CDU/CSU"
+      }
+    ],
+    "textContents": [
+      {
+        "type": "proceedings",
+        "sourceURI": "/home/oaubert/doc/projects/parliamenttv/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19001-data.xml",
+        "creator": "Deutscher Bundestag",
+        "license": "Public Domain",
+        "language": "DE-de",
+        "originTextID": "",
+        "textBody": [
+          {
+            "type": "speech",
+            "speaker": "Claudia Roth",
+            "speakerstatus": "main-speaker",
+            "text": "Ja, ich nehme die Wahl mit großer Freude an und freue mich auch auf die Zusammenarbeit.",
+            "sentences": [
+              {
+                "text": "Ja, ich nehme die Wahl mit großer Freude an und freue mich auch auf die Zusammenarbeit."
+              }
+            ]
+          },
+          {
+            "type": "comment",
+            "speaker": null,
+            "speakerstatus": null,
+            "text": "(Beifall beim BÜNDNIS 90/DIE GRÜNEN sowie bei Abgeordneten der CDU/CSU)",
+            "sentences": [
+              {
+                "text": "(Beifall beim BÜNDNIS 90/DIE GRÜNEN sowie bei Abgeordneten der CDU/CSU)"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "Die Freude ist unübersehbar. Ich beglückwünsche Sie im Namen des ganzen Hauses, Frau Kollegin Roth.",
+            "sentences": [
+              {
+                "text": "Die Freude ist unübersehbar."
+              },
+              {
+                "text": "Ich beglückwünsche Sie im Namen des ganzen Hauses, Frau Kollegin Roth."
+              }
+            ]
+          },
+          {
+            "type": "comment",
+            "speaker": null,
+            "speakerstatus": null,
+            "text": "(Beifall bei Abgeordneten des BÜNDNISSES 90/DIE GRÜNEN)",
+            "sentences": [
+              {
+                "text": "(Beifall bei Abgeordneten des BÜNDNISSES 90/DIE GRÜNEN)"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "Ich wünsche Ihnen allen im Namen des Hauses Glück und Erfolg für das verantwortungsvolle Amt.",
+            "sentences": [
+              {
+                "text": "Ich wünsche Ihnen allen im Namen des Hauses Glück und Erfolg für das verantwortungsvolle Amt."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "Da der Kollege Glaser nicht die erforderliche Mehrheit der Mitglieder des Hauses erhalten hat, ist nach der Geschäftsordnung ein zweiter Wahlgang erforderlich. Wir führen diesen zweiten Wahlgang jetzt unmittelbar durch.",
+            "sentences": [
+              {
+                "text": "Da der Kollege Glaser nicht die erforderliche Mehrheit der Mitglieder des Hauses erhalten hat, ist nach der Geschäftsordnung ein zweiter Wahlgang erforderlich."
+              },
+              {
+                "text": "Wir führen diesen zweiten Wahlgang jetzt unmittelbar durch."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "Für diesen zweiten Wahlgang schlägt die Fraktion der AfD den Kollegen Glaser vor. Auch im zweiten Wahlgang ist nach unserer Geschäftsordnung die Mehrheit der Mitglieder des Bundestages, also 355 Stimmen, erforderlich. Die Wahl ist wiederum geheim. Wahlausweise und Stimmkarte für diesen Wahlgang sind blau. Die Stimmkarte erhalten Sie wieder vor den Wahlkabinen. – Jetzt bitte ich Sie – genauso wie zuvor –, sich die Wahlunterlagen zu besorgen und in den Kabinen Ihr Kreuz zu machen. Wir beginnen mit der Wahl. Sind alle Urnen besetzt? – Das ist der Fall. Dann ist die Wahl eröffnet.",
+            "sentences": [
+              {
+                "text": "Für diesen zweiten Wahlgang schlägt die Fraktion der AfD den Kollegen Glaser vor."
+              },
+              {
+                "text": "Auch im zweiten Wahlgang ist nach unserer Geschäftsordnung die Mehrheit der Mitglieder des Bundestages, also 355 Stimmen, erforderlich."
+              },
+              {
+                "text": "Die Wahl ist wiederum geheim."
+              },
+              {
+                "text": "Wahlausweise und Stimmkarte für diesen Wahlgang sind blau."
+              },
+              {
+                "text": "Die Stimmkarte erhalten Sie wieder vor den Wahlkabinen."
+              },
+              {
+                "text": "– Jetzt bitte ich Sie – genauso wie zuvor –, sich die Wahlunterlagen zu besorgen und in den Kabinen Ihr Kreuz zu machen."
+              },
+              {
+                "text": "Wir beginnen mit der Wahl."
+              },
+              {
+                "text": "Sind alle Urnen besetzt?"
+              },
+              {
+                "text": "– Das ist der Fall."
+              },
+              {
+                "text": "Dann ist die Wahl eröffnet."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "Liebe Kolleginnen und Kollegen, darf ich fragen, ob jemand nicht die Möglichkeit hatte, seine Stimme abzugeben? – Das ist offensichtlich nicht der Fall. Dann schließe ich die Wahl. Ich bitte die Schriftführerinnen und Schriftführer, mit der Auszählung zu beginnen.",
+            "sentences": [
+              {
+                "text": "Liebe Kolleginnen und Kollegen, darf ich fragen, ob jemand nicht die Möglichkeit hatte, seine Stimme abzugeben?"
+              },
+              {
+                "text": "– Das ist offensichtlich nicht der Fall."
+              },
+              {
+                "text": "Dann schließe ich die Wahl."
+              },
+              {
+                "text": "Ich bitte die Schriftführerinnen und Schriftführer, mit der Auszählung zu beginnen."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "Ich unterbreche die Sitzung für etwa eine halbe Stunde. Der Wiederbeginn wird rechtzeitig durch Klingelsi­gnal angekündigt.",
+            "sentences": [
+              {
+                "text": "Ich unterbreche die Sitzung für etwa eine halbe Stunde."
+              },
+              {
+                "text": "Der Wiederbeginn wird rechtzeitig durch Klingelsi­gnal angekündigt."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "(Unterbrechung von 15.55 bis 16.15 Uhr)",
+            "sentences": [
+              {
+                "text": "(Unterbrechung von 15.55 bis 16.15 Uhr)"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "Liebe Kolleginnen und Kollegen, die unterbrochene Sitzung ist wieder eröffnet. Ich darf Sie bitten, Platz zu nehmen.",
+            "sentences": [
+              {
+                "text": "Liebe Kolleginnen und Kollegen, die unterbrochene Sitzung ist wieder eröffnet."
+              },
+              {
+                "text": "Ich darf Sie bitten, Platz zu nehmen."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "Ich teile Ihnen das Ergebnis des zweiten Wahlgangs zur Wahl eines Stellvertreters des Präsidenten mit: abgegebene Stimmen 697, ungültige Stimmen 1, gültige Stimmen 696. Mit Ja haben gestimmt 123, mit Nein haben gestimmt 549, Enthaltungen 24. Der Abgeordnete Glaser hat damit die erforderliche Mehrheit nicht erhalten.",
+            "sentences": [
+              {
+                "text": "Ich teile Ihnen das Ergebnis des zweiten Wahlgangs zur Wahl eines Stellvertreters des Präsidenten mit: abgegebene Stimmen 697, ungültige Stimmen 1, gültige Stimmen 696. Mit Ja haben gestimmt 123, mit Nein haben gestimmt 549, Enthaltungen 24. Der Abgeordnete Glaser hat damit die erforderliche Mehrheit nicht erhalten."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "Jetzt schaue ich den Kollegen Baumann an. – Die Fraktion der AfD beantragt, einen dritten Wahlgang durchzuführen. Es gibt keinen neuen Kandidaten.",
+            "sentences": [
+              {
+                "text": "Jetzt schaue ich den Kollegen Baumann an."
+              },
+              {
+                "text": "– Die Fraktion der AfD beantragt, einen dritten Wahlgang durchzuführen."
+              },
+              {
+                "text": "Es gibt keinen neuen Kandidaten."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "Ich würde Ihnen gerne noch erläutern, wie der dritte Wahlgang abläuft. Nach unserer Geschäftsordnung ist im dritten Wahlgang der Kandidat Herr Glaser gewählt, wenn er die Mehrheit der abgegebenen Stimmen auf sich vereinigt, also die Zahl der Jastimmen größer ist als die Zahl der Neinstimmen. Enthaltungen bleiben insofern unberücksichtigt. Die Wahl ist wiederum geheim. Wahlausweis und Stimmkarte für diesen Wahlgang sind rot. Alles andere, Wahlkabine etc., läuft so ab wie bei den ersten beiden Wahlgängen auch.",
+            "sentences": [
+              {
+                "text": "Ich würde Ihnen gerne noch erläutern, wie der dritte Wahlgang abläuft."
+              },
+              {
+                "text": "Nach unserer Geschäftsordnung ist im dritten Wahlgang der Kandidat Herr Glaser gewählt, wenn er die Mehrheit der abgegebenen Stimmen auf sich vereinigt, also die Zahl der Jastimmen größer ist als die Zahl der Neinstimmen."
+              },
+              {
+                "text": "Enthaltungen bleiben insofern unberücksichtigt."
+              },
+              {
+                "text": "Die Wahl ist wiederum geheim."
+              },
+              {
+                "text": "Wahlausweis und Stimmkarte für diesen Wahlgang sind rot."
+              },
+              {
+                "text": "Alles andere, Wahlkabine etc., läuft so ab wie bei den ersten beiden Wahlgängen auch."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "Ich bitte, die Wahlunterlagen in Empfang zu nehmen und die Urnen zu besetzen. Dazu brauchen wir Schriftführer. – Die Urnen sind besetzt. Ich eröffne den dritten Wahlgang.",
+            "sentences": [
+              {
+                "text": "Ich bitte, die Wahlunterlagen in Empfang zu nehmen und die Urnen zu besetzen."
+              },
+              {
+                "text": "Dazu brauchen wir Schriftführer."
+              },
+              {
+                "text": "– Die Urnen sind besetzt."
+              },
+              {
+                "text": "Ich eröffne den dritten Wahlgang."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "president",
+            "text": "Liebe Kolleginnen und Kollegen, darf ich fragen, ob noch ein Abgeordneter seine Stimmkarte abgeben möchte, der sie nicht abgegeben hat? – Das ist nicht der Fall. Dann schließe ich den Wahlgang und bitte die Schriftführerinnen und Schriftführer, mit der Auszählung zu beginnen. Ich unterbreche die Sitzung wieder für etwa eine halbe Stunde. Auch diesmal wird durch Klingelzeichen rechtzeitig angekündigt, wenn die Sitzung wieder beginnt.",
+            "sentences": [
+              {
+                "text": "Liebe Kolleginnen und Kollegen, darf ich fragen, ob noch ein Abgeordneter seine Stimmkarte abgeben möchte, der sie nicht abgegeben hat?"
+              },
+              {
+                "text": "– Das ist nicht der Fall."
+              },
+              {
+                "text": "Dann schließe ich den Wahlgang und bitte die Schriftführerinnen und Schriftführer, mit der Auszählung zu beginnen."
+              },
+              {
+                "text": "Ich unterbreche die Sitzung wieder für etwa eine halbe Stunde."
+              },
+              {
+                "text": "Auch diesmal wird durch Klingelzeichen rechtzeitig angekündigt, wenn die Sitzung wieder beginnt."
+              }
+            ]
+          },
+          {
+            "type": "comment",
+            "speaker": null,
+            "speakerstatus": null,
+            "text": "(Unterbrechung von 16.39 bis 16.59 Uhr)",
+            "sentences": [
+              {
+                "text": "(Unterbrechung von 16.39 bis 16.59 Uhr)"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "documents": [],
+    "key": "19-1 tagesordnungspunkt 6 (claudia roth)"
+  },
+  {
+    "parliament": "DE",
+    "electoralPeriod": {
+      "number": "19"
+    },
+    "session": {
+      "number": "1",
+      "dateStart": "2017-10-24T11:00",
+      "dateEnd": "2017-10-24T17:03"
+    },
+    "agendaItem": {
+      "officialTitle": "Tagesordnungspunkt 6",
+      "speechIndex": 23,
+      "proceedingIndex": 23,
+      "mediaIndex": null
+    },
+    "people": [
+      {
+        "type": "memberOfParliament",
+        "label": "Wolfgang Schäuble",
+        "firstname": "Wolfgang",
+        "lastname": "Schäuble",
+        "context": "main-speaker",
+        "faction": "CDU/CSU"
+      }
+    ],
+    "textContents": [
+      {
+        "type": "proceedings",
+        "sourceURI": "/home/oaubert/doc/projects/parliamenttv/OpenParliamentTV-Parsers/parliaments/DE//data/proceedings/19001-data.xml",
+        "creator": "Deutscher Bundestag",
+        "license": "Public Domain",
+        "language": "DE-de",
+        "originTextID": "",
+        "textBody": [
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "main-speaker",
+            "text": "Die unterbrochene Sitzung ist wieder eröffnet.",
+            "sentences": [
+              {
+                "text": "Die unterbrochene Sitzung ist wieder eröffnet."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "main-speaker",
+            "text": "Liebe Kolleginnen und Kollegen, ich darf Sie bitten, wieder Platz zu nehmen. Mir liegt das Ergebnis des dritten Wahlgangs vor. Sobald Sie Platz genommen haben, werde ich es Ihnen mitteilen.",
+            "sentences": [
+              {
+                "text": "Liebe Kolleginnen und Kollegen, ich darf Sie bitten, wieder Platz zu nehmen."
+              },
+              {
+                "text": "Mir liegt das Ergebnis des dritten Wahlgangs vor."
+              },
+              {
+                "text": "Sobald Sie Platz genommen haben, werde ich es Ihnen mitteilen."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "main-speaker",
+            "text": "Im dritten Wahlgang für die Wahl einer Stellvertreterin/eines Stellvertreters des Präsidenten wurden 685 Stimmen abgegeben. 685 Stimmen waren gültig. Mit Ja haben gestimmt 114, mit Nein haben gestimmt 545, Enthaltungen 26. Der Abgeordnete Glaser hat damit nicht die erforderliche Mehrheit erhalten.",
+            "sentences": [
+              {
+                "text": "Im dritten Wahlgang für die Wahl einer Stellvertreterin/eines Stellvertreters des Präsidenten wurden 685 Stimmen abgegeben."
+              },
+              {
+                "text": "685 Stimmen waren gültig."
+              },
+              {
+                "text": "Mit Ja haben gestimmt 114, mit Nein haben gestimmt 545, Enthaltungen 26. Der Abgeordnete Glaser hat damit nicht die erforderliche Mehrheit erhalten."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "main-speaker",
+            "text": "Gemäß § 2 Absatz 3 unserer Geschäftsordnung findet kein weiterer Wahlgang mit einem im dritten Wahlgang erfolglosen Kandidaten statt, es sei denn, ein weiterer Wahlgang wird im Ältestenrat vereinbart. Wird ein neuer Bewerber vorgeschlagen, so ist in ein neues Wahlverfahren einzutreten. Es wäre also wieder ein erster Wahlgang mit den entsprechenden Mehrheitserfordernissen durchzuführen. In beiden Fällen muss aber erst vereinbart werden, an welchem Tag die Wahl durchgeführt werden soll.",
+            "sentences": [
+              {
+                "text": "Gemäß § 2 Absatz 3 unserer Geschäftsordnung findet kein weiterer Wahlgang mit einem im dritten Wahlgang erfolglosen Kandidaten statt, es sei denn, ein weiterer Wahlgang wird im Ältestenrat vereinbart."
+              },
+              {
+                "text": "Wird ein neuer Bewerber vorgeschlagen, so ist in ein neues Wahlverfahren einzutreten."
+              },
+              {
+                "text": "Es wäre also wieder ein erster Wahlgang mit den entsprechenden Mehrheitserfordernissen durchzuführen."
+              },
+              {
+                "text": "In beiden Fällen muss aber erst vereinbart werden, an welchem Tag die Wahl durchgeführt werden soll."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "main-speaker",
+            "text": "Die Geschäftsführerinnen und Geschäftsführer der Fraktionen haben mir signalisiert, dass es kein Einvernehmen über die Durchführung weiterer Wahlgänge am heutigen Tag gibt. Damit ist dieser Tagesordnungspunkt abgeschlossen.",
+            "sentences": [
+              {
+                "text": "Die Geschäftsführerinnen und Geschäftsführer der Fraktionen haben mir signalisiert, dass es kein Einvernehmen über die Durchführung weiterer Wahlgänge am heutigen Tag gibt."
+              },
+              {
+                "text": "Damit ist dieser Tagesordnungspunkt abgeschlossen."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "main-speaker",
+            "text": "Damit darf ich Sie bitten, sich zu unserer Nationalhymne von Ihren Sitzen zu erheben.",
+            "sentences": [
+              {
+                "text": "Damit darf ich Sie bitten, sich zu unserer Nationalhymne von Ihren Sitzen zu erheben."
+              }
+            ]
+          },
+          {
+            "type": "comment",
+            "speaker": null,
+            "speakerstatus": null,
+            "text": "(Nationalhymne – Beifall)",
+            "sentences": [
+              {
+                "text": "(Nationalhymne – Beifall)"
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "main-speaker",
+            "text": "Liebe Kolleginnen und Kollegen, wir sind damit am Schluss unserer heutigen Tagesordnung. Die nächste Sitzung findet in der 47. Kalenderwoche, also in der Woche vom 20. November, statt. Der genaue Tag der Sitzung wird noch bestimmt und Ihnen bekannt gegeben.",
+            "sentences": [
+              {
+                "text": "Liebe Kolleginnen und Kollegen, wir sind damit am Schluss unserer heutigen Tagesordnung."
+              },
+              {
+                "text": "Die nächste Sitzung findet in der 47. Kalenderwoche, also in der Woche vom 20. November, statt."
+              },
+              {
+                "text": "Der genaue Tag der Sitzung wird noch bestimmt und Ihnen bekannt gegeben."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "main-speaker",
+            "text": "Bevor ich die Sitzung schließe, darf ich Sie herzlich zu einem kleinen Empfang auf der Fraktionsebene einladen.",
+            "sentences": [
+              {
+                "text": "Bevor ich die Sitzung schließe, darf ich Sie herzlich zu einem kleinen Empfang auf der Fraktionsebene einladen."
+              }
+            ]
+          },
+          {
+            "type": "speech",
+            "speaker": "Wolfgang Schäuble",
+            "speakerstatus": "main-speaker",
+            "text": "Die Sitzung ist geschlossen.",
+            "sentences": [
+              {
+                "text": "Die Sitzung ist geschlossen."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "documents": [],
+    "key": "19-1 tagesordnungspunkt 6 (wolfgang schauble) #1"
   }
 ]
