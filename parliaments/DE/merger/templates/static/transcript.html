@@ -14,7 +14,10 @@
     <div id="content"></div>
     <script id="template" type="x-tmpl-mustache">
       <div class="header">
-      <p class="menu"><a href="/">Home</a></p>
+      <p class="menu">
+      <a href="/">Home</a>
+      <a href="/static/dashboard.html">Dashboard</a>
+      </p>
       <h1>Transcript of {{ session }}</h1>
       <p>{{ unmatched_count }} media segments without matching proceeding out of {{ speech_count }} total media segments.</p>
       </div>
@@ -22,7 +25,7 @@
       <div class="transcript column left">
       {{#speeches}}
       <div class="speechHeading">
-        <a id="speech{speechIndex}">
+        <a id="speech{{speechIndex}}">
           <strong class="speechIndex">{{index}}</strong> <span class="speechTitle">{{title}}</span></a><em>{{message}}</em><a class="videolink" href="{{videoURI}}"> Play </a>
       </div>
 
@@ -107,6 +110,22 @@
                     yourVlSpec,
                     {
                         "actions": false
+                    }).then((result) => {
+                        // Generic click on whole viz. If a mark is clicked, then item will have a valid datum field.
+                        /*
+                          // No need for this ATM, the default fragment behaviour is enough
+                        result.view.addEventListener('click', function (event, item) {
+                            if (item.datum) {
+                                let element = document.querySelector(item.datum.url);
+                                if (!! element) {
+                                     element.scrollIntoView();
+                                }
+                            }
+                        });
+                        */
+                        this.view = result.view;
+                        console.log({ "vegaEmbed result": result,
+                                      "view:": result.view });
                     });
           return viz;
       }
@@ -140,6 +159,7 @@
                   return {
                       "index": speech['agendaItem']['speechIndex'],
                       "title": speech['agendaItem']['officialTitle'],
+                      "speechIndex": speech['agendaItem']['speechIndex'],
                       "speech_turns": speech_turns,
                       "message": message,
                       "videoURI": (speech.media || {}).videoFileURI || ""
