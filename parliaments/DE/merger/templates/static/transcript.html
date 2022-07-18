@@ -24,9 +24,8 @@
 
       <div class="transcript column left">
       {{#speeches}}
-      <div class="speechHeading">
-        <a id="speech{{speechIndex}}">
-          <strong class="speechIndex">{{index}}</strong> <span class="speechTitle">{{title}}</span></a><em>{{message}}</em><a class="videolink" href="{{videoURI}}"> Play </a>
+      <div class="speechHeading {{classes}}"  id="speech{{speechIndex}}">
+      <strong class="speechIndex">{{index}}</strong> <span class="speechTitle">{{title}}</span></a><em>{{message}}</em>{{#videoURI}}<a class="videolink" href="{{videoURI}}"> Play </a>{{/videoURI}}
       </div>
 
       {{#speech_turns}}
@@ -72,7 +71,8 @@
                           "media": (s.agendaItem.mediaIndex || 0),
                           "title": s.agendaItem.officialTitle,
                           "speaker": s.people[0].label,
-                          "url": `#speech${s.agendaItem.speechIndex}`
+                          "url": `#speech${s.agendaItem.speechIndex}`,
+                          "matching": (pi == 0 ? 'media_only' : ((s.agendaItem.mediaIndex || 0) == 0 ? 'proceeding_only' : 'matching'))
                       }
                   })
               },
@@ -94,6 +94,10 @@
                       scale: {
                           type: 'point'
                       }
+                  },
+                  color: {
+                      field: "matching",
+                      type: "nominal"
                   },
                   tooltip: [
                       { field: 'media' },
@@ -143,6 +147,7 @@
           d3.json(fname).then(data => {
               // Convert to speeches structure
               let speeches = data.map(speech => {
+                  let classes = "";
                   let speech_turns = [];
                   let message = "MEDIA_ONLY";
                   // Only consider speech turns (ignoring comments)
@@ -152,15 +157,22 @@
                       if (president_turns.length == speech_turns.length) {
                           // Homogeneous president turns
                           message = "PRESIDENT ONLY";
+                          classes += "president_only ";
                       } else {
                           message = "";
                       }
+                      if (!! speech.media) {
+                          classes += "proceedings_only ";
+                      }
+                  } else {
+                      classes += "media_only "
                   }
                   return {
                       "index": speech['agendaItem']['speechIndex'],
                       "title": speech['agendaItem']['officialTitle'],
                       "speechIndex": speech['agendaItem']['speechIndex'],
                       "speech_turns": speech_turns,
+                      "classes": classes,
                       "message": message,
                       "videoURI": (speech.media || {}).videoFileURI || ""
                   }
