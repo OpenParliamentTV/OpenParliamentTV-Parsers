@@ -113,7 +113,10 @@ class SessionServer(SimpleHTTPRequestHandler):
             self.index(self.out)
             return
         elif self.path.startswith('/static/'):
-            resource = TEMPLATE_DIR / self.path[1:]
+            path = self.path
+            if '?' in path:
+                path = path.split('?')[0]
+            resource = TEMPLATE_DIR / path[1:]
             if resource.exists():
                 self._set_headers(mimetypes.guess_type(resource))
                 self.out.write(resource.read_text())
