@@ -1,0 +1,180 @@
+<html>
+  <head>
+    <title>
+      Transcript
+    </title>
+  </head>
+  <script src="https://unpkg.com/mustache@latest"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/d3@7.6.1/dist/d3.min.js"></script>
+  <link rel="stylesheet" href="/static/style.css" type="text/css" />
+  <body>
+    <div id="content"></div>
+    <script id="template" type="x-tmpl-mustache">
+      <div class="header">
+      <p class="menu"><a href="/">Home</a></p>
+      <h1>Transcript of {{ session }}</h1>
+      <p>{{ unmatched_count }} media segments without matching proceeding out of {{ speech_count }} total media segments.</p>
+      </div>
+
+      <div class="transcript column left">
+      {{#speeches}}
+      <div class="speechHeading">
+        <a id="speech{speechIndex}">
+          <strong class="speechIndex">{{index}}</strong> <span class="speechTitle">{{title}}</span></a><em>{{message}}</em><a class="videolink" href="{{videoURI}}"> Play </a>
+      </div>
+
+      {{#speech_turns}}
+      <p class="speech"><span class="status">{{speakerstatus}}</span> <span class="speaker">{{speaker}}</span> <span class="text">{{text}}</span></p>
+      {{/speech_turns}}
+
+      {{/speeches}}
+
+      </div>
+
+      <div class="column right">
+      <video controls autoplay class="player"></video>
+      <div class="charts"></div>
+      </div>
+
+    </script>
+    <script id="error-template" type="x-tmpl-mustache">
+      <h1>Not found</h1>
+      <p>Data file for session {{ session }} not found.</p>
+      <p>FIXME: link back to dashboard</p>
+    </script>
+
+
+    <script>
+      // Copied from dashboard.html. This would benefit a factoring.
+      let merged_viz = (session, data) => {
+          let viz = document.createElement('div');
+          viz.classList.add('chart');
+          viz.dataset.session = session;
+          viz.style.order = session;
+          let yourVlSpec = {
+              $schema: 'https://vega.github.io/schema/vega-lite/v5.json',
+              width: "container",
+              height: "container",
+              description: 'Indexes',
+              title: `Session ${session}`,
+              data: {
+                  values: data.map(s => {
+                      let pi = s.agendaItem.proceedingIndex || 1000;
+                      pi = pi - (pi >= 1000 ? 1000 : 0);
+                      return {
+                          "proceeding": pi,
+                          "media": (s.agendaItem.mediaIndex || 0),
+                          "title": s.agendaItem.officialTitle,
+                          "speaker": s.people[0].label,
+                          "url": `#speech${s.agendaItem.speechIndex}`
+                      }
+                  })
+              },
+              mark: { type: 'point',
+                      shape: 'square',
+                      tooltip: true,
+                      filled: true },
+              encoding: {
+                  x: {
+                      field: 'proceeding',
+                      type: 'quantitative',
+                      scale: {
+                          type: 'point'
+                      }
+                  },
+                  y: {
+                      field: 'media',
+                      type: 'quantitative',
+                      scale: {
+                          type: 'point'
+                      }
+                  },
+                  tooltip: [
+                      { field: 'media' },
+                      { field: 'proceeding' },
+                      { field: 'speaker' },
+                      { field: 'title' }
+                  ],
+                  href: {
+                      field: 'url'
+                  }
+              },
+          };
+          vegaEmbed(viz,
+                    yourVlSpec,
+                    {
+                        "actions": false
+                    });
+          return viz;
+      }
+
+      let params = new URLSearchParams(location.search);
+      let session = params.get('session');
+      if (!session) {
+          let template = document.getElementById('error-template').innerHTML;
+          let rendered = Mustache.render(template, {
+              "session": session
+          });
+          document.getElementById('content').innerHTML = rendered;
+      } else {
+          let fname = `../data/merged/${session}-merged.json`;
+          d3.json(fname).then(data => {
+              // Convert to speeches structure
+              let speeches = data.map(speech => {
+                  let speech_turns = [];
+                  let message = "MEDIA_ONLY";
+                  // Only consider speech turns (ignoring comments)
+                  if (!! speech.textContents) {
+                      speech_turns = speech['textContents'][0]['textBody'].filter(turn => turn['type'] == 'speech');
+                      president_turns = speech_turns.filter(turn => turn['speakerstatus'].endsWith('president'));
+                      if (president_turns.length == speech_turns.length) {
+                          // Homogeneous president turns
+                          message = "PRESIDENT ONLY";
+                      } else {
+                          message = "";
+                      }
+                  }
+                  return {
+                      "index": speech['agendaItem']['speechIndex'],
+                      "title": speech['agendaItem']['officialTitle'],
+                      "speech_turns": speech_turns,
+                      "message": message,
+                      "videoURI": (speech.media || {}).videoFileURI || ""
+                  }
+              });
+              // Render template
+              let template = document.getElementById('template').innerHTML;
+              let rendered = Mustache.render(template, {
+                  "session": fname,
+                  "speeches": speeches,
+                  "speech_count": speeches.length,
+                  "unmatched_count":  speeches.filter(s => ! s.speech_turns.length).length
+              });
+              document.getElementById('content').innerHTML = rendered;
+
+              document.querySelector('.charts').appendChild(merged_viz("Alignment", data));
+              document.querySelectorAll(".videolink").forEach(link => {
+                  link.addEventListener("click", e => {
+                      e.preventDefault();
+                      console.log(e.target);
+                      let url = e.target.href;
+                      document.querySelector(".player").src = url;
+                  })
+              });
+              let toggleHidden = function (selector, classname='hidden') {
+                  document.querySelectorAll(selector).forEach(el => el.classList.toggle(classname));
+              }
+              document.querySelectorAll(".speechTitle").forEach(speechTitle => {
+                  speechTitle.addEventListener("click", e => toggleHidden('.speech'))
+              });
+              document.querySelectorAll(".status").forEach(status => {
+                  status.addEventListener("click", e => toggleHidden('.text'))
+              });
+          });
+      }
+    </script>
+  </body>
+</html>

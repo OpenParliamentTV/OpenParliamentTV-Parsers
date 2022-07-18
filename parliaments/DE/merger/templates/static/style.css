@@ -1,3 +1,6 @@
+:root {
+    --header-height: 120px;
+}
 body {
     font-family: sans;
 }
@@ -13,17 +16,36 @@ body {
 .text {
     color: #999;
 }
+#content {
+    display: grid;
+    grid-template-rows: var(--header-height) auto;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "header header"
+                         "left right";
+    margin: 0;
+    padding: 0;
+}
+.header {
+    grid-row: header;
+    grid-column: header;
+}
+.column .left {
+    grid-row: left;
+    grid-column: left;
+}
+.column .right {
+    grid-row: right;
+    grid-column: right;
+}
 .player {
-    position: fixed;
-    top: 0;
-    right: 0;
     width: 320px;
     height: 200px;
+    margin: auto;
 }
 .menu {
     position: fixed;
-    bottom: 0;
-    right: 0;
+    top: 2px;
+    right: 2px;
 }
 .hidden {
     display: none;
@@ -37,13 +59,6 @@ body {
 }
 .transcript {
     width: 50%;
-}
-.charts {
-    position: absolute;
-    top: 220px;
-    right: 0;
-    left: 50%;
-    bottom: 0;
 }
 .chart {
     width: 100%;
