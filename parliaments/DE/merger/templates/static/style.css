@@ -33,9 +33,15 @@ body {
     grid-row: left;
     grid-column: left;
 }
-.column .right {
-    grid-row: right;
-    grid-column: right;
+.column.right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: fixed;
+    top: var(--header-height);
+    bottom: 0;
+    left: 50%;
+    right: 0;
 }
 .player {
     width: 320px;
