@@ -9,6 +9,7 @@
   <script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
   <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
   <script src="https://cdn.jsdelivr.net/npm/d3@7.6.1/dist/d3.min.js"></script>
+  <script src="common.js"></script>
   <link rel="stylesheet" href="/static/style.css" type="text/css" />
   <body>
     <div id="content"></div>
@@ -48,7 +49,7 @@
       <p>FIXME: link back to dashboard</p>
     </template>
 
-    <script>
+    <script type="module">
       // Copied from dashboard.html. This would benefit a factoring.
       let new_viz = (session, data, spec) => {
           let viz = document.createElement('div');
@@ -72,7 +73,6 @@
                             }
                         });
                         */
-                        this.view = result.view;
                         console.log({ "vegaEmbed result": result,
                                       "view:": result.view });
                     });
@@ -88,18 +88,7 @@
                              description: 'Indexes',
                              title: `Session ${session}`,
                              data: {
-                                 values: data.map(s => {
-                                     let pi = s.agendaItem.proceedingIndex || 1000;
-                                     pi = pi - (pi >= 1000 ? 1000 : 0);
-                                     return {
-                                         "proceeding": pi,
-                                         "media": (s.agendaItem.mediaIndex || 0),
-                                         "title": s.agendaItem.officialTitle,
-                                         "speaker": s.people[0].label,
-                                         "url": `#speech${s.agendaItem.speechIndex}`,
-                                         "matching": (pi == 0 ? 'media_only' : ((s.agendaItem.mediaIndex || 0) == 0 ? 'proceeding_only' : 'matching'))
-                                     }
-                                 })
+                                 values: normalized_data(data)
                              },
                              mark: { type: 'point',
                                      shape: 'square',
@@ -115,6 +104,53 @@
                                  },
                                  y: {
                                      field: 'media',
+                                     type: 'quantitative',
+                                     scale: {
+                                         type: 'point'
+                                     }
+                                 },
+                                 color: {
+                                     field: "matching",
+                                     type: "nominal"
+                                 },
+                                 tooltip: [
+                                     { field: 'media' },
+                                     { field: 'proceeding' },
+                                     { field: 'speaker' },
+                                     { field: 'title' }
+                                 ],
+                                 href: {
+                                     field: 'url'
+                                 }
+                             },
+                         }
+                        );
+      }
+      let datalength_viz = (data) => {
+          return new_viz("Data length",
+                         data,
+                         {
+                             $schema: 'https://vega.github.io/schema/vega-lite/v5.json',
+                             width: "container",
+                             height: "container",
+                             description: 'Data length comparison',
+                             data: {
+                                 values: normalized_data(data)
+                             },
+                             mark: { type: 'point',
+                                     shape: 'square',
+                                     tooltip: true,
+                                     filled: true },
+                             encoding: {
+                                 x: {
+                                     field: 'word_count',
+                                     type: 'quantitative',
+                                     scale: {
+                                         type: 'point'
+                                     }
+                                 },
+                                 y: {
+                                     field: 'duration',
                                      type: 'quantitative',
                                      scale: {
                                          type: 'point'
@@ -156,7 +192,7 @@
                   // Only consider speech turns (ignoring comments)
                   if (!! speech.textContents) {
                       speech_turns = speech['textContents'][0]['textBody'].filter(turn => turn['type'] == 'speech');
-                      president_turns = speech_turns.filter(turn => turn['speakerstatus'].endsWith('president'));
+                      let president_turns = speech_turns.filter(turn => turn['speakerstatus'].endsWith('president'));
                       if (president_turns.length == speech_turns.length) {
                           // Homogeneous president turns
                           message = "PRESIDENT ONLY";
@@ -164,7 +200,7 @@
                       } else {
                           message = "";
                       }
-                      if (!! speech.media) {
+                      if (! speech.media) {
                           classes += "proceedings_only ";
                       }
                   } else {
@@ -191,6 +227,7 @@
               document.getElementById('content').innerHTML = rendered;
 
               document.querySelector('.charts').appendChild(alignment_viz(data));
+              document.querySelector('.charts').appendChild(datalength_viz(data));
               document.querySelectorAll(".videolink").forEach(link => {
                   link.addEventListener("click", e => {
                       e.preventDefault();

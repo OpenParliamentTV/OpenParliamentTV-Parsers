@@ -8,6 +8,7 @@
   <script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
   <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
   <script src="https://cdn.jsdelivr.net/npm/d3@7.6.1/dist/d3.min.js"></script>
+  <script src="common.js"></script>
   <link rel="stylesheet" href="/static/style.css" type="text/css" />
   <style>
     .prefixes {
@@ -74,15 +75,8 @@
 
       let merged_viz = (session, data) => {
           let box = document.createElement('div');
-          let normalized_data = data.map(s => {
-              let pi = s.agendaItem.proceedingIndex || 1000;
-              pi = pi - (pi >= 1000 ? 1000 : 0);
-              return {
-                  "proceeding": pi,
-                  "media": (s.agendaItem.mediaIndex || 0)
-              }
-          });
-          let chatter = chatterjee(normalized_data, {
+          let norm_data = normalized_data(data);
+          let chatter = chatterjee(norm_data, {
               x: (d) => d.proceeding,
               y: (d) => d.media,
           });
@@ -99,7 +93,7 @@
               height: "container",
               description: 'Indexes',
               data: {
-                  values: normalized_data
+                  values: norm_data
               },
               mark: { type: 'point',
                       shape: 'square',
