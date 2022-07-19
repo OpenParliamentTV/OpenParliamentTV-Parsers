@@ -12,7 +12,8 @@ let normalized_data = (data) => {
             "matching": (pi == 0 ? 'media_only' : ((s.agendaItem.mediaIndex || 0) == 0 ? 'proceeding_only' : 'matching')),
             "char_count": s.textContents ? d3.sum(s.textContents.map(tc => d3.sum(tc.textBody.map(tb => tb.text.length)))) : 0,
             "word_count": s.textContents ? d3.sum(s.textContents.map(tc => d3.sum(tc.textBody.map(tb => tb.text.split(' ').length)))) : 0,
-            "duration": s.media ? s.media.duration : 0
+            "duration": s.media ? s.media.duration : 0,
+            "version": s.version
         }
     });
 };
