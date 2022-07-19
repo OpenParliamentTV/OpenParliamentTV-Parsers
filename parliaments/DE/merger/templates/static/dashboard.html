@@ -145,8 +145,7 @@
 
       function display_filename(filename, versions) {
           let session = filename.substr(0, 5);
-          // Adding standard 'merged' version last, so that it is displayed last.
-          let fetches = [ ...versions, 'merged' ]
+          let fetches = versions
               .map(ver => [ ver, `${BASEDIR}data/${ver}/${filename}`])
               .map(([ver, url]) => fetch(url)
                    .then(resp => resp.json())
@@ -183,7 +182,7 @@
           });
       }
 
-      let versions = [];
+      let versions = [ 'merged' ];
       let params = new URLSearchParams(location.search);
       let version_param = params.get('versions');
       if (!!version_param) {
