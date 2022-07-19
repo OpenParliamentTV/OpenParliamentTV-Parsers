@@ -95,23 +95,44 @@
               width: "container",
               height: "container",
               description: 'Indexes',
+              title: `Session ${session}`,
               data: {
-                  values: norm_data
+                  values: normalized_data(data)
               },
               mark: { type: 'point',
                       shape: 'square',
-                  tooltip: true,
+                      tooltip: true,
                       filled: true },
               encoding: {
                   x: {
                       field: 'proceeding',
                       type: 'quantitative',
+                      scale: {
+                          type: 'point'
+                      }
                   },
                   y: {
                       field: 'media',
                       type: 'quantitative',
+                      scale: {
+                          type: 'point'
+                      }
                   },
-              },
+                  color: {
+                      field: "matching",
+                      type: "nominal",
+                      legend: false
+                  },
+                  tooltip: [
+                      { field: 'media' },
+                      { field: 'proceeding' },
+                      { field: 'speaker' },
+                      { field: 'title' }
+                  ],
+                  href: {
+                      field: 'url'
+                  }
+              }
           };
           vegaEmbed(viz,
                     yourVlSpec,
