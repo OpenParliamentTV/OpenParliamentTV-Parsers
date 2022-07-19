@@ -17,7 +17,7 @@
       <div class="header">
       <p class="menu">
       <a href="/">Home</a>
-      <a href="/static/dashboard.html">Dashboard</a>
+      <a href="dashboard.html">Dashboard</a>
       </p>
       <h1>Transcript of {{ session }}</h1>
       <p>{{ unmatched_count }} media segments without matching proceeding out of {{ speech_count }} total media segments.</p>
@@ -182,7 +182,13 @@
           });
           document.getElementById('content').innerHTML = rendered;
       } else {
-          let fname = `../data/merged/${session}-merged.json`;
+          let path = location.pathname.split('/');
+          // Assume the directory layout is
+          // /merger/templates/static/transcript.html
+
+          // Get ../../../..
+          let prefix = path.slice(0, path.length - 4);
+          let fname = `${prefix}/data/merged/${session}-merged.json`;
           d3.json(fname).then(data => {
               // Convert to speeches structure
               let speeches = data.map(speech => {

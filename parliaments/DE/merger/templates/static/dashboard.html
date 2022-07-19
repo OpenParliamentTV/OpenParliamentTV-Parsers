@@ -52,6 +52,9 @@
     </div>
 
     <script>
+      // Determine basedir from location.
+      let BASEDIR = '../../../';
+
       // Code from https://observablehq.com/@tophtucker/chatterjee-correlation
       let chatterjee = (data, { x = (d) => d[0], y = (d) => d[1] } = {}) => {
           // 0. Extract values
@@ -83,7 +86,7 @@
           box.classList.add('box');
           box.dataset.session = session;
           box.style.order = session;
-          box.setHTML(`<a target="_blank" href="/static/transcript.html?session=${session}" class="title">Session ${session}</a><br>Chatterjee: ${chatter.toFixed(3)}`);
+          box.setHTML(`<a target="_blank" href="transcript.html?session=${session}" class="title">Session ${session}</a><br>Chatterjee: ${chatter.toFixed(3)}`);
           let viz = document.createElement('div');
           viz.classList.add('chart');
           box.appendChild(viz);
@@ -120,7 +123,7 @@
 
       function display_filename(filename) {
           let session = filename.substr(0, 5);
-          fetch(`/data/merged/${filename}`)
+          fetch(`${BASEDIR}data/merged/${filename}`)
               .then(resp => resp.json())
               .then(data => {
                   let viz = merged_viz(session, data);
@@ -128,12 +131,7 @@
               });
       }
 
-      fetch('/data/merged')
-      .then(resp => resp.text())
-      .then(dircontent => {
-          filelist = dircontent
-              .split(/\n/)
-              .filter(n => n.endsWith('-merged.json'));
+      function load_filelist(filelist) {
           // Group by 3 letter prefix
           let prefixes = [ ... new Set(filelist.map(n => n.substr(0, 3))) ];
 
@@ -153,8 +151,26 @@
               });
               document.querySelector('.prefixes').appendChild(button);
           });
+      }
 
-      });
+      if (location.host.includes('github.io')) {
+          // gh-pages deployment. Use the Contents API to get the file listing.
+          // Hardcoding the URL here.
+          fetch('https://api.github.com/repos/openparliamenttv/OpenParliamentTV-Parsers/contents/parliaments/DE/data/merged')
+              .then(resp => resp.json())
+              .then(dircontent => {
+                  let filelist = dircontent.map(item => item.name);
+                  load_filelist(filelist);
+              });
+      } else {
+          // Localhost server deployment. Parse generated directory listing
+          fetch(`${BASEDIR}data/merged`)
+              .then(resp => resp.text())
+              .then(dircontent => {
+                  let filelist = [ ...new Set([ ...dircontent.matchAll(/(\d+-merged.json)/g) ].map(a => a[0])) ];
+                  load_filelist(filelist);
+              });
+      }
 
     </script>
   </body>
