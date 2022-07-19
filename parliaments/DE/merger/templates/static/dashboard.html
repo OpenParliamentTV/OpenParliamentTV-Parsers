@@ -119,7 +119,7 @@
                       }
                   },
                   color: {
-                      field: "matching",
+                      field: "version",
                       type: "nominal",
                       legend: false
                   },
@@ -127,7 +127,8 @@
                       { field: 'media' },
                       { field: 'proceeding' },
                       { field: 'speaker' },
-                      { field: 'title' }
+                      { field: 'title' },
+                      { field: 'version' }
                   ],
                   href: {
                       field: 'url'
@@ -142,23 +143,31 @@
           return box;
       }
 
-      function display_filename(filename) {
+      function display_filename(filename, versions) {
           let session = filename.substr(0, 5);
-          fetch(`${BASEDIR}data/merged/${filename}`)
-              .then(resp => resp.json())
-              .then(data => {
-                  let viz = merged_viz(session, data);
-                  document.querySelector('.dashboard').appendChild(viz);
-              });
+          // Adding standard 'merged' version last, so that it is displayed last.
+          let fetches = [ ...versions, 'merged' ]
+              .map(ver => [ ver, `${BASEDIR}data/${ver}/${filename}`])
+              .map(([ver, url]) => fetch(url)
+                   .then(resp => resp.json())
+                   .then(data => data.map(item => {
+                       item.version = ver;
+                       return item;
+                   })));
+          Promise.all(fetches).then(datas => {
+              // Merge different data files, versioning info has been added
+              let viz = merged_viz(session, datas.flat());
+              document.querySelector('.dashboard').appendChild(viz);
+          });
       }
 
-      function load_filelist(filelist) {
+      function load_filelist(filelist, versions) {
           // Group by 3 letter prefix
           let prefixes = [ ... new Set(filelist.map(n => n.substr(0, 3))) ];
 
           let display_prefix = (prefix) => {
               filelist.filter(n => n.startsWith(prefix)).forEach(filename => {
-                  display_filename(filename);
+                  display_filename(filename, versions);
               });
           };
           prefixes.forEach(prefix => {
@@ -174,6 +183,12 @@
           });
       }
 
+      let versions = [];
+      let params = new URLSearchParams(location.search);
+      let version_param = params.get('versions');
+      if (!!version_param) {
+          versions = version_param.split(',');
+      }
       if (location.host.includes('github.io')) {
           // gh-pages deployment. Use the Contents API to get the file listing.
           // Hardcoding the URL here.
@@ -181,7 +196,7 @@
               .then(resp => resp.json())
               .then(dircontent => {
                   let filelist = dircontent.map(item => item.name);
-                  load_filelist(filelist);
+                  load_filelist(filelist, versions);
               });
       } else {
           // Localhost server deployment. Parse generated directory listing
@@ -189,7 +204,7 @@
               .then(resp => resp.text())
               .then(dircontent => {
                   let filelist = [ ...new Set([ ...dircontent.matchAll(/(\d+-merged.json)/g) ].map(a => a[0])) ];
-                  load_filelist(filelist);
+                  load_filelist(filelist, versions);
               });
       }
 
