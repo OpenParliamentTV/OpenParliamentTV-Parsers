@@ -187,7 +187,7 @@
           // /merger/templates/static/transcript.html
 
           // Get ../../../..
-          let prefix = path.slice(0, path.length - 4);
+          let prefix = path.slice(0, path.length - 4).join('/');
           let fname = `${prefix}/data/merged/${session}-merged.json`;
           d3.json(fname).then(data => {
               // Convert to speeches structure
