@@ -24,7 +24,9 @@ def parse_fullname(label: str) -> tuple:
     # Strip leading/trailing non-alphabetic chars
     label = re.sub('^[^\w]+', '', label)
     label = re.sub('[^\w]+$', '', label)
-    # Replace non-breaking whitespaces (\xa0) and multiple whitespaces
+    # Replace non-breaking whitespaces
+    label = re.sub(r'\xc2\xa0', ' ', label)
+    # Replace multiple whitespaces
     label = re.sub(r'\s+', ' ', label)
     # Fix strange notation, like in 19040, 19170, 19176...
     label = label.replace('räsident in', 'räsidentin')
@@ -40,7 +42,9 @@ def parse_fullname(label: str) -> tuple:
 def fix_fullname(label: str) -> str:
     if label is None:
         return label
-    # Replace non-breaking whitespaces (\xa0) and multiple whitespaces
+    # Replace non-breaking whitespaces
+    label = re.sub(r'\xc2\xa0', ' ', label)
+    # Replace multiple whitespaces
     label = re.sub(r'\s+', ' ', label)
     label = label.replace('Dr. ', '').replace('h. c. ', '').replace('Prof. ', '').replace('Graf Graf ', 'Graf ')
     return label
