@@ -51,11 +51,10 @@ def update_media_directory_period(period, media_dir, force=False, save_raw_data=
         # which is updated throughout the session.  We assume here
         # that once a new session has begun, the previous ones are
         # "solid" so we can use cached information.
-        force = force or meeting == latest_number
         if (force
             or not (media_dir / filename).exists()):
             logger.debug(f"Loading {period}-{meeting} data into {filename}")
-            download_data(period, meeting, media_dir, save_raw_data=save_raw_data, force=force)
+            download_data(period, meeting, media_dir, save_raw_data=save_raw_data, force=(force or meeting == latest_number))
 
 if __name__ == "__main__":
 
