@@ -7,8 +7,10 @@ logger = logging.getLogger(__name__)
 
 import argparse
 from pathlib import Path
+from random import random
 import re
 import sys
+import time
 
 # Allow relative imports if invoked as a script
 # From https://stackoverflow.com/a/65780624/2870028
@@ -18,6 +20,9 @@ if __package__ is None:
     __package__ = module_dir.name
 
 from .fetch_media import download_meeting_data, download_data, get_filename
+
+# Max time to wait between retries (in seconds)
+RETRY_MAX_WAIT_TIME = 10
 
 def update_media_directory(proc_dir, media_dir, force=False, save_raw_data=False):
     for proc in sorted(proc_dir.glob('*-data.xml')):
@@ -29,7 +34,7 @@ def update_media_directory(proc_dir, media_dir, force=False, save_raw_data=False
             logger.debug(f"Loading {period}-{meeting} data into {filename}")
             download_data(period, meeting, media_dir, save_raw_data=save_raw_data)
 
-def update_media_directory_period(period, media_dir, force=False, save_raw_data=False):
+def update_media_directory_period(period, media_dir, force=False, save_raw_data=False, retry_count=0):
     # Fetch root page for period. This will allow us to determine the
     # most recent meeting number and then try to fetch them when needed
     rootinfo = download_meeting_data(period, media_dir, root_only=True)
@@ -51,10 +56,24 @@ def update_media_directory_period(period, media_dir, force=False, save_raw_data=
         # which is updated throughout the session.  We assume here
         # that once a new session has begun, the previous ones are
         # "solid" so we can use cached information.
+        should_retry = retry_count
         if (force
             or not (media_dir / filename).exists()):
             logger.debug(f"Loading {period}-{meeting} data into {filename}")
-            download_data(period, meeting, media_dir, save_raw_data=save_raw_data, force=(force or meeting == latest_number))
+            while should_retry >= 0:
+                raw_data, data = download_data(period,
+                                               meeting,
+                                               media_dir,
+                                               save_raw_data=save_raw_data,
+                                               force=(force or meeting == latest_number))
+                if data:
+                    # Download success. Stop trying.
+                    should_retry = -1
+                else:
+                    should_retry -= 1
+                    timeout = random() * RETRY_MAX_WAIT_TIME
+                    logger.warning(f"Loading error - retrying in {timeout} seconds")
+                    time.sleep(timeout)
 
 if __name__ == "__main__":
 
@@ -64,6 +83,9 @@ if __name__ == "__main__":
     parser.add_argument("--debug", dest="debug", action="store_true",
                         default=False,
                         help="Display debug messages")
+    parser.add_argument("--retry-count", type=int,
+                        dest="retry_count", default=0,
+                        help="Max number of times to retry a media download")
     parser.add_argument("--from-proceedings", type=str,
                         help="Proceedings directory (input)")
     parser.add_argument("--from-period", type=int,
@@ -86,4 +108,4 @@ if __name__ == "__main__":
     if args.from_proceedings:
         update_media_directory(Path(args.from_proceedings), Path(args.media_dir), force=args.force, save_raw_data=args.save_raw_data)
     elif args.from_period:
-        update_media_directory_period(args.from_period, Path(args.media_dir), force=args.force, save_raw_data=args.save_raw_data)
+        update_media_directory_period(args.from_period, Path(args.media_dir), force=args.force, save_raw_data=args.save_raw_data, retry_count=args.retry_count)

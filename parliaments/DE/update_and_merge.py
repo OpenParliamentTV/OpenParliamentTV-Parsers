@@ -15,7 +15,11 @@ from parsers.proceedings2json import parse_proceedings
 
 def update_and_merge(args):
     # Download/parse new media data
-    update_media_directory_period(args.from_period, args.media_dir, force=args.force, save_raw_data=args.save_raw_data)
+    update_media_directory_period(args.from_period,
+                                  args.media_dir,
+                                  force=args.force,
+                                  save_raw_data=args.save_raw_data,
+                                  retry_count=args.retry_count)
 
     # Download new proceedings data
     created_proceedings = download_plenary_protocols(args.proceedings_dir, False, args.from_period)
@@ -39,6 +43,9 @@ if __name__ == "__main__":
                         help="Display debug messages")
     parser.add_argument("--from-period", type=int,
                         help="Period to fetch (mandatory)")
+    parser.add_argument("--retry-count", type=int,
+                        dest="retry_count", default=0,
+                        help="Max number of times to retry a media download")
     parser.add_argument("--force", dest="force", action="store_true",
                         default=False,
                         help="Force loading of data for a meeting even if the corresponding file already exists")
