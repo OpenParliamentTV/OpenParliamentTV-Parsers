@@ -86,7 +86,7 @@
           box.classList.add('box');
           box.dataset.session = session;
           box.style.order = session;
-          box.innertHTML = `<a target="_blank" href="transcript.html?session=${session}" class="title">Session ${session}</a><br>Chatterjee: ${chatter.toFixed(3)}`;
+          box.innerHTML = `<a target="_blank" href="transcript.html?session=${session}" class="title">Session ${session}</a><br>Chatterjee: ${chatter.toFixed(3)}`;
           let viz = document.createElement('div');
           viz.classList.add('chart');
           box.appendChild(viz);
