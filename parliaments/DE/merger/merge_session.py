@@ -57,6 +57,15 @@ def get_item_key(item):
     title = item['agendaItem']['officialTitle'].strip()
     # Remove trailing .<number>
     title = re.sub('\.\d+$', '', title)
+    # For 20024 media files:
+    title = re.sub('Einzelplan 0', 'Einzelplan ', title)
+    # For 20036
+    title = re.sub(' TOP ', ' ', title)
+
+    # Tentative (for 20036, 20043...): strip TOP number
+    # Do not use: it worsens the situation in many cases like 19206, 19213
+    # title = re.sub('Tagesordnungspunkt\s(\d+)', 'Tagesordnungspunkt', title)
+
     # Replace MM-NN by only the 1st item (ideally we should generate a sequence MM..NN)
     # title = re.sub('\s(\d+)-\d+$', ' \\1', title)
     return remove_accents(f"{item['electoralPeriod']['number']}-{item['session']['number']} {title} ({speaker})".lower())
