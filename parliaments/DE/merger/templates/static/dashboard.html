@@ -83,10 +83,11 @@
               x: (d) => d.proceeding,
               y: (d) => d.media,
           });
+          let matching_ratio = norm_data.filter(i => i.matching == 'matching').length / norm_data.length;
           box.classList.add('box');
           box.dataset.session = session;
           box.style.order = session;
-          box.innerHTML = `<a target="_blank" href="transcript.html?session=${session}" class="title">Session ${session}</a><br>Chatterjee: ${chatter.toFixed(3)}`;
+          box.innerHTML = `<a target="_blank" href="transcript.html?session=${session}" class="title">Session ${session}</a><br>Ratio ${matching_ratio.toFixed(3)}<br>Chatterjee: ${chatter.toFixed(3)}`;
           let viz = document.createElement('div');
           viz.classList.add('chart');
           box.appendChild(viz);
