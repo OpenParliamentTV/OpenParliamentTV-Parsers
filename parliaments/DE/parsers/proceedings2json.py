@@ -33,6 +33,11 @@ PROCEEDINGS_LANGUAGE = "DE-de"
 SPEECH_CLASSES = set(('J', 'J_1', 'O'))
 FULL_SPEECH_CLASSES = set(('J', 'J_1', 'O', 'T_NaS', 'T_fett'))
 
+LEADING_SPEECH = '-intro'
+TRAILING_SPEECH = '-outro'
+CLOSING_SPEECH = '-closing'
+VIRTUAL_SPEECH = '-post'
+
 ddmmyyyy_re = re.compile('(?P<dd>\d\d)\.(?P<mm>\d\d)\.(?P<yyyy>\d\d\d\d)')
 
 # Global language model - to save load time
@@ -72,7 +77,7 @@ def split_sentences(paragraph: str) -> list:
     doc = nlp(paragraph)
     return [ { 'text': str(sent).strip() } for sent in doc.sents ]
 
-def parse_speech(elements: list, last_speaker: dict):
+def parse_speech(elements: list, last_speaker: dict, speech_id: str):
     # speaker/speakerstatus are initialized from the calling method
     # speakerstatus: president / vice-president / main-speaker / speaker
     speaker = last_speaker['speaker']
@@ -88,6 +93,7 @@ def parse_speech(elements: list, last_speaker: dict):
             continue
         if c.tag == 'kommentar':
             yield {
+                    'speech_id': speech_id,
                     'type': 'comment',
                     'speaker': None,
                     'speakerstatus': None,
@@ -126,6 +132,7 @@ def parse_speech(elements: list, last_speaker: dict):
             elif klasse in SPEECH_CLASSES and c.text:
                 # Actual text. Output it with speaker information.
                 yield {
+                    'speech_id': speech_id,
                     'type': 'speech',
                     'speaker': speaker,
                     'speakerstatus': speakerstatus,
@@ -134,7 +141,7 @@ def parse_speech(elements: list, last_speaker: dict):
                 }
             # FIXME: all other <p> klasses are ignored for now
 
-def parse_ordnungpunkt(op, last_speaker: dict):
+def parse_ordnungpunkt(op, last_speaker: dict, last_redeid: str):
     """Parse an <tagesordnungspunkt> to output a sequence of tagged speech items.
 
     It is a generator that generates 1 array of speech items by rede.
@@ -163,10 +170,23 @@ def parse_ordnungpunkt(op, last_speaker: dict):
     # Consider only p or rede elements
     elements = [ node for node in op if node.tag in ('p', 'name', 'rede') ]
 
+    # Get rede id from first rede node
+    first_rede = next( (e for e in elements if e.tag == 'rede'), None)
+    if first_rede is not None:
+        rede_id = first_rede.attrib.get('id', '')
+    else:
+        # No <rede> node at all. It often happens in sitzungsbeginn/sitzungsende
+        if op.tag == 'sitzungsbeginn':
+            rede_id = 'begin'
+        elif op.tag == 'sitzungsende':
+            rede_id = 'ende'
+        else:
+            rede_id = f"{last_redeid}{VIRTUAL_SPEECH}"
+
     # Produce a virtual introduction
     introduction = list(takewhile(lambda n: n.tag in ('p', 'name'), elements))
     if introduction:
-        turns = list(parse_speech(introduction, last_speaker))
+        turns = list(parse_speech(introduction, last_speaker, f"{rede_id}{LEADING_SPEECH}"))
         if turns:
             last_speaker = last_speaker_info(turns)
             yield turns
@@ -176,18 +196,23 @@ def parse_ordnungpunkt(op, last_speaker: dict):
             # We just processed leading <p>. There may remain some
             # trailing <p>, which we ignore for now
             continue
-        turns = list(parse_speech(el, last_speaker))
+        # Get the rede id from original proceedings
+        rede_id = el.attrib.get('id', '')
+        turns = list(parse_speech(el, last_speaker, rede_id))
         if turns:
             last_speaker = last_speaker_info(turns)
             yield turns
 
-    # Trailing <p> elements after last <rede>
-    closing = list(reversed(list(takewhile(lambda n: n.tag in ('p', 'name'), reversed(elements)))))
-    if closing:
-        turns = list(parse_speech(closing, last_speaker))
-        if turns:
-            last_speaker = last_speaker_info(turns)
-            yield turns
+    # If first_rede is None, then the non-rede items will have been processed in the introduction handling.
+    # We do not want to process then again.
+    if first_rede is not None:
+        # Trailing <p> elements after last <rede>
+        closing = list(reversed(list(takewhile(lambda n: n.tag in ('p', 'name'), reversed(elements)))))
+        if closing:
+            turns = list(parse_speech(closing, last_speaker, f"{rede_id}{TRAILING_SPEECH}"))
+            if turns:
+                last_speaker = last_speaker_info(turns)
+                yield turns
 
 def parse_documents(op):
     for doc in op.findall('p[@klasse="T_Drs"]'):
@@ -264,6 +289,9 @@ def fix_last_speech(speeches):
         logger.debug("Splitting president speech from last TOP speech")
         speeches = speeches[:-1]
         speeches.append(last_speech[:-(trailing_count+1)])
+        # We generate a pseudo-speech id, so we also have to generate a pseudo-speech-id
+        for i in trailing_president_items:
+            i['speech_id'] = f"{i['speech_id']}{CLOSING_SPEECH}"
         speeches.append(trailing_president_items)
     return speeches
 
@@ -298,14 +326,20 @@ def parse_transcript(filename: str, sourceUri: str = None, args=None):
         # midnight, and ends on the next day - fix the dateEnd
         dateEnd = f"{nextDate}T{timeEnd}"
 
+    period = metadata.findtext('.//wahlperiode')
+    session = metadata.findtext('.//sitzungsnr')
+
+    # Generate a session id that will be prefixed to rede ids to generate speech_id
+    session_id = f"{period}{session.zfill(3)}"
+
     # metadata common to all tagesordnungspunkt
     session_metadata = {
         "parliament": "DE",
         'electoralPeriod': {
-            'number': metadata.findtext('.//wahlperiode'),
+            'number': period,
         },
         'session': {
-            'number': metadata.findtext('.//sitzungsnr'),
+            'number': session,
             'dateStart': dateStart,
             'dateEnd': dateEnd,
         },
@@ -322,11 +356,12 @@ def parse_transcript(filename: str, sourceUri: str = None, args=None):
 
     # Start index at 1000 so that we can distinguish btw media and proceedings indexes
     speechIndex = 1000
+    last_redeid = 'sessionstart'
     # Pass last speaker info from one speech to the next one
     for op in [ *root.findall('.//sitzungsbeginn'),
                 *root.findall('.//tagesordnungspunkt'),
                 *root.findall('.//sitzungsende') ]:
-        speeches = list(parse_ordnungpunkt(op, last_speaker))
+        speeches = list(parse_ordnungpunkt(op, last_speaker, last_redeid))
         if op.tag == 'sitzungsbeginn':
             title = 'Sitzungseröffnung'
         elif op.tag == 'sitzungsende':
@@ -344,6 +379,9 @@ def parse_transcript(filename: str, sourceUri: str = None, args=None):
 
         # Yield 1 structure per speech
         for speech in speeches:
+            if not speech:
+                # No speech item. Do not generate  an item
+                continue
             # Extract list of speakers for this speech
             speakerstatus_dict = dict( (turn['speaker'], turn['speakerstatus'])
                                        for turn in speech
@@ -372,13 +410,17 @@ def parse_transcript(filename: str, sourceUri: str = None, args=None):
             speakers = [ speaker_item(fullname, status)
                          for fullname, status in speakerstatus_dict.items() ]
 
+            speech_id = speech[0]['speech_id']
+            last_redeid = speech_id
+
             yield {
                 **session_metadata,
                 'agendaItem': {
                     "officialTitle": title,
                     # The human-readable title is not present in proceedings, it will be in media
                     # "title": title,
-                    "speechIndex": speechIndex
+                    "speechIndex": speechIndex,
+                    "speech_id": f"{session_id}-{speech_id}"
                 },
                 'people': speakers,
                 'textContents': [
