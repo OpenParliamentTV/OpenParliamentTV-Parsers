@@ -1,5 +1,8 @@
 #! /usr/bin/env python3
 
+"""Time-align sentences from a list of speeches
+"""
+
 import logging
 logger = logging.getLogger(__name__)
 
@@ -21,7 +24,7 @@ if not AUDIOCACHEDIR.is_dir():
     AUDIOCACHEDIR.mkdir()
 
 def sentence_iter(speech: dict) -> iter:
-    """Iterate over all sentence in a speech, adding an identifier.
+    """Iterate over all sentences in a speech, adding a unique identifier.
     """
     speechIndex = speech['agendaItem']['speechIndex']
     for contentIndex, content in enumerate(speech.get('textContents', [])):
@@ -31,6 +34,8 @@ def sentence_iter(speech: dict) -> iter:
                 yield ident, sentence
 
 def cachedfile(speech: dict, extension: str) -> Path:
+    """Return a filename with given extension
+    """
     filename = f"{speech['session']['number']}{speech['agendaItem']['speechIndex']}.{extension}"
     return AUDIOCACHEDIR / filename
 
@@ -99,6 +104,9 @@ def align_audio(source: list) -> list:
         for ident, sentence in sentence_iter(speech):
             sentence['timeStart'] = str(fragments[ident].begin)
             sentence['timeEnd'] = str(fragments[ident].end)
+
+        # Cleanup generated files (keep cached audio)
+        sentence_file.unlink()
 
     return source
 
