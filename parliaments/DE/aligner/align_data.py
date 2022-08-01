@@ -64,10 +64,11 @@ def audiofile(speech: dict) -> Path:
     return audio
 
 
-def align_audio(merged_source: Path, merged_dest: Path):
-    with open(merged_source) as f:
-        source = json.load(f)
+def align_audio(source: list) -> list:
+    """Align list of speeches to add timing information to sentences.
 
+    The structure is modified in place, and returned.
+    """
     for speech in source:
         # Download audio file
         audio = audiofile(speech)
@@ -99,9 +100,14 @@ def align_audio(merged_source: Path, merged_dest: Path):
             sentence['timeStart'] = str(fragments[ident].begin)
             sentence['timeEnd'] = str(fragments[ident].end)
 
-    # Done for all speeches. Save data back
-    with open(merged_dest, 'w') as f:
-        json.dump(source, f)
+    return source
 
 if __name__ == '__main__':
-    align_audio(sys.argv[1], sys.argv[2])
+    merged_source = sys.argv[1]
+    merged_dest = sys.argv[2]
+
+    with open(merged_source) as f:
+        source = json.load(f)
+    output = align_audio(source)
+    with open(merged_dest, 'w') as f:
+        json.dump(output, f)
