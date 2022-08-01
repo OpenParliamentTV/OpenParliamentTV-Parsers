@@ -6,17 +6,23 @@ logger = logging.getLogger(__name__)
 import json
 import os
 from pathlib import Path
+import shutil
 import sys
 from urllib.request import urlretrieve
 
 from aeneas.executetask import ExecuteTask
 from aeneas.task import Task
 
+# We want to check that we have 1GB minimum available cache size
+MIN_CACHE_SPACE = 1024 * 1024 * 1024
+
 AUDIOCACHEDIR = Path('/tmp/cached')
 if not AUDIOCACHEDIR.is_dir():
     AUDIOCACHEDIR.mkdir()
 
 def sentence_iter(speech: dict) -> iter:
+    """Iterate over all sentence in a speech, adding an identifier.
+    """
     speechIndex = speech['agendaItem']['speechIndex']
     for contentIndex, content in enumerate(speech.get('textContents', [])):
         for bodyIndex, body in enumerate(content['textBody']):
@@ -33,9 +39,17 @@ def audiofile(speech: dict) -> Path:
 
     Either it is already cached (return filename) or download it
     first.
+
+    If anything wrong happens, return None
     """
     audio = cachedfile(speech, 'mp3')
     if not audio.exists():
+        # Check that we have enough disk space for caching
+        total, used, free = shutil.disk_usage(AUDIOCACHEDIR)
+        if free < MIN_CACHE_SPACE:
+            logger.error(f"No enough disk space for cache dir: {free / 1024 / 1024 / 1024} GB")
+            return None
+
         # Not yet cached file - download it
         audioURI = speech.get('media', {}).get('audioFileURI')
         if not audioURI:
@@ -60,7 +74,7 @@ def align_audio(merged_source: Path, merged_dest: Path):
         if audio is None:
             continue
 
-        # Write parsed text format file
+        # Generate parsed text format file with identifier + sentence
         sentence_file = cachedfile(speech, 'txt')
         with open(sentence_file, 'wt') as sf:
             for ident, sentence in sentence_iter(speech):
