@@ -83,11 +83,18 @@ def align_audio(source: list, language: str, cachedir: Path = None) -> list:
         cachedir = Path(cachedir)
 
     for speech in source:
-        # Do we have proceedings data?
-        text_data = [ "|".join((ident, sentence['text'])) + os.linesep
-                      for ident, sentence in sentence_iter(speech) ]
-        if len(text_data) == 0:
+        # Do we have proceedings data to align?
+        sentence_list = [ (ident, sentence) for ident, sentence in sentence_iter(speech) ]
+        if len(sentence_list) == 0:
             logger.warning(f"No text data to align - skipping {speech['session']['number']}{speech['agendaItem']['speechIndex']}")
+            continue
+
+        # Do we have any sentence without timing information?
+        timing_required = [ sentence
+                            for (ident, sentence) in sentence_list
+                            if sentence.get('timeStart') is None ]
+        if len(timing_required) == 0:
+            logger.debug("All sentences already aligned")
             continue
 
         # Download audio file
@@ -98,7 +105,8 @@ def align_audio(source: list, language: str, cachedir: Path = None) -> list:
         # Generate parsed text format file with identifier + sentence
         sentence_file = cachedfile(speech, 'txt', cachedir)
         with open(sentence_file, 'wt') as sf:
-            sf.writelines(text_data)
+            sf.writelines("|".join((ident, sentence['text'])) + os.linesep
+                          for (ident, sentence) in sentence_list)
 
         logger.warning(f"Aligning {sentence_file} with {audio}")
         # Do the alignment
@@ -114,8 +122,6 @@ def align_audio(source: list, language: str, cachedir: Path = None) -> list:
         fragments = dict(  (f.identifier, f)
                            for f in task.sync_map_leaves()
                            if f.is_regular )
-
-        # |task_adjust_boundary_no_zero=false|task_adjust_boundary_nonspeech_min=2|task_adjust_boundary_nonspeech_string=REMOVE|task_adjust_boundary_nonspeech_remove=REMOVE|is_audio_file_detect_head_min=0.1|is_audio_file_detect_head_max=3|is_audio_file_detect_tail_min=0.1|is_audio_file_detect_tail_max=3|task_adjust_boundary_algorithm=aftercurrent|task_adjust_boundary_aftercurrent_value=0.5|is_audio_file_head_length=1" '.$secureOutputPath.' 2>&1';
 
         # Inject timing information back into the source data
         for ident, sentence in sentence_iter(speech):
