@@ -27,9 +27,11 @@ def sentence_iter(speech: dict) -> iter:
     speechIndex = speech['agendaItem']['speechIndex']
     for contentIndex, content in enumerate(speech.get('textContents', [])):
         for bodyIndex, body in enumerate(content['textBody']):
-            for sentenceIndex, sentence in enumerate(content['textBody']):
-                ident = f"s{speechIndex}-{contentIndex}-{bodyIndex}-{sentenceIndex}"
-                yield ident, sentence
+            # Consider only 'speech' sentences
+            if body['type'] == 'speech':
+                for sentenceIndex, sentence in enumerate(body.get('sentences', [])):
+                    ident = f"s{speechIndex}-{contentIndex}-{bodyIndex}-{sentenceIndex}"
+                    yield ident, sentence
 
 def cachedfile(speech: dict, extension: str, cachedir: Path = None) -> Path:
     """Return a filename with given extension
