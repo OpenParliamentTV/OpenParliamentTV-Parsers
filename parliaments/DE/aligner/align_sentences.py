@@ -36,7 +36,10 @@ def sentence_iter(speech: dict) -> iter:
 def cachedfile(speech: dict, extension: str, cachedir: Path = None) -> Path:
     """Return a filename with given extension
     """
-    filename = f"{speech['session']['number']}{speech['agendaItem']['speechIndex']}.{extension}"
+    period = speech['electoralPeriod']['number']
+    meeting = speech['session']['number']
+    speechIndex = speech['agendaItem']['speechIndex']
+    filename = f"{period}{str(meeting).rjust(3, '0')}{speechIndex}.{extension}"
     if not cachedir.is_dir():
         cachedir.mkdir()
     return cachedir / filename
