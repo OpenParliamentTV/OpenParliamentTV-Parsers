@@ -129,8 +129,9 @@ def download_data(period, meeting=None, output=None, save_raw_data=False, force=
             # import IPython; IPython.embed()
             return raw_data, []
         data = parse_media_data(raw_data)
-    except:
-        logger.exception("Error - going into debug mode")
+    except Exception:
+        logger.exception("Error in download_data")
+        return raw_data, []
         # import IPython; IPython.embed()
 
     logger.debug(f"Saving {len(data)} entries into {filename}")
