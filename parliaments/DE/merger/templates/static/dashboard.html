@@ -79,15 +79,17 @@
       let merged_viz = (session, data) => {
           let box = document.createElement('div');
           let norm_data = normalized_data(data);
-          let chatter = chatterjee(norm_data, {
+          let merged_data = norm_data.filter(i => i.version == 'merged');
+          let chatter = chatterjee(merged_data, {
               x: (d) => d.proceeding,
               y: (d) => d.media,
           });
-          let matching_ratio = norm_data.filter(i => i.matching == 'matching').length / norm_data.length;
+          let matching_ratio = merged_data.filter(i => i.matching == 'matching').length / merged_data.length;
+          let count_diff = merged_data.filter(i => i.matching == 'media_only').length - merged_data.filter(i => i.matching == 'proceeding_only').length
           box.classList.add('box');
           box.dataset.session = session;
           box.style.order = session;
-          box.innerHTML = `<a target="_blank" href="transcript.html?session=${session}" class="title">Session ${session}</a><br>Ratio ${matching_ratio.toFixed(3)}<br>Chatterjee: ${chatter.toFixed(3)}`;
+          box.innerHTML = `<a data-session="${session}" data-ratio="${matching_ratio}" data-diff="${count_diff}" target="_blank" href="transcript.html?session=${session}" class="title">Session ${session}</a><br>Ratio ${matching_ratio.toFixed(3)}<br>Chatterjee: ${chatter.toFixed(3)}`;
           let viz = document.createElement('div');
           viz.classList.add('chart');
           box.appendChild(viz);
