@@ -100,7 +100,9 @@ def align_audio(source: list, language: str, cachedir: Path = None) -> list:
 
         logger.warning(f"Aligning {sentence_file} with {audio}")
         # Do the alignment
-        task = Task(config_string=f"""task_language={language}|is_text_type=parsed|os_task_file_format=json""")
+        aeneas_options = """task_adjust_boundary_no_zero=false|task_adjust_boundary_nonspeech_min=2|task_adjust_boundary_nonspeech_string=REMOVE|task_adjust_boundary_nonspeech_remove=REMOVE|is_audio_file_detect_head_min=0.1|is_audio_file_detect_head_max=3|is_audio_file_detect_tail_min=0.1|is_audio_file_detect_tail_max=3|task_adjust_boundary_algorithm=aftercurrent|task_adjust_boundary_aftercurrent_value=0.5|is_audio_file_head_length=1"""
+
+        task = Task(config_string=f"""task_language={language}|is_text_type=parsed|os_task_file_format=json|{aeneas_options}""")
         task.audio_file_path_absolute = str(audio.absolute())
         task.text_file_path_absolute = str(sentence_file.absolute())
         # process Task
