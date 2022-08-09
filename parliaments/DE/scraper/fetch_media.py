@@ -55,6 +55,7 @@ def download_meeting_data(period: int, number: int = None, root_only=False):
     else:
         root_url = f"{ROOT_URL}?period={period}&meetingNumber={number}"
 
+    logger.warning(f'Download meeting data {root_url}')
     root = feedparser.parse(root_url)
     logger.debug(f"Status {root['status']}")
     if root['status'] != 200:
@@ -134,7 +135,7 @@ def download_data(period, meeting=None, output=None, save_raw_data=False, force=
         return raw_data, []
         # import IPython; IPython.embed()
 
-    logger.debug(f"Saving {len(data)} entries into {filename}")
+    logger.warning(f"Saving {len(data)} entries into {filename}")
     if output:
         with open(output_dir / filename, 'w') as f:
             json.dump(data, f, indent=2, ensure_ascii=False)
