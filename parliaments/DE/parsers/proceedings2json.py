@@ -460,6 +460,16 @@ def parse_proceedings(source: str, output: str, uri: str, args):
             json.dump(data, f, indent=2, ensure_ascii=False)
     return data
 
+def parse_proceedings_directory(directory: Path, args):
+    """Update parsed versions of proceedings files.
+    """
+    for source in directory.glob('*.xml'):
+        output_file = get_parsed_proceedings_filename(source, directory)
+        # If the output file does not exist, or is older than source file:
+        if not output_file.exists() or output_file.stat().st_mtime < source.stat().st_mtime:
+            # Since we do not know the source URI, we specify the local filename
+            parse_proceedings(source, directory, str(source), args)
+
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description="Parse Bundestag Proceedings XML files.")
     parser.add_argument("source", type=str, nargs='?',
