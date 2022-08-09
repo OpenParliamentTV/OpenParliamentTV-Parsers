@@ -12,6 +12,8 @@ import os
 from pathlib import Path
 import shutil
 import sys
+import time
+from typing import Iterable, Optional
 from urllib.request import urlretrieve
 
 from aeneas.executetask import ExecuteTask
@@ -21,7 +23,7 @@ from aeneas.task import Task
 MIN_CACHE_SPACE = 1024 * 1024 * 1024
 DEFAULT_CACHEDIR = '/tmp/cache'
 
-def sentence_iter(speech: dict) -> iter:
+def sentence_iter(speech: dict) -> Iterable:
     """Iterate over all sentences in a speech, adding a unique identifier.
     """
     speechIndex = speech['agendaItem']['speechIndex']
@@ -33,7 +35,7 @@ def sentence_iter(speech: dict) -> iter:
                     ident = f"s{speechIndex}-{contentIndex}-{bodyIndex}-{sentenceIndex}"
                     yield ident, sentence
 
-def cachedfile(speech: dict, extension: str, cachedir: Path = None) -> Path:
+def cachedfile(speech: dict, extension: str, cachedir) -> Path:
     """Return a filename with given extension
     """
     period = speech['electoralPeriod']['number']
@@ -44,7 +46,7 @@ def cachedfile(speech: dict, extension: str, cachedir: Path = None) -> Path:
         cachedir.mkdir()
     return cachedir / filename
 
-def audiofile(speech: dict, cachedir: Path = None) -> Path:
+def audiofile(speech: dict, cachedir: Path) -> Optional[Path]:
     """Get an audiofile for the given dict.
 
     Either it is already cached (return filename) or download it
@@ -111,6 +113,7 @@ def align_audio(source: list, language: str, cachedir: Path = None) -> list:
             sf.writelines("|".join((ident, sentence['text'])) + os.linesep
                           for (ident, sentence) in sentence_list)
 
+        start_time = time.time()
         logger.warning(f"Aligning {sentence_file} with {audio}")
         # Do the alignment
         aeneas_options = """task_adjust_boundary_no_zero=false|task_adjust_boundary_nonspeech_min=2|task_adjust_boundary_nonspeech_string=REMOVE|task_adjust_boundary_nonspeech_remove=REMOVE|is_audio_file_detect_head_min=0.1|is_audio_file_detect_head_max=3|is_audio_file_detect_tail_min=0.1|is_audio_file_detect_tail_max=3|task_adjust_boundary_algorithm=aftercurrent|task_adjust_boundary_aftercurrent_value=0.5|is_audio_file_head_length=1"""
@@ -120,6 +123,7 @@ def align_audio(source: list, language: str, cachedir: Path = None) -> list:
         task.text_file_path_absolute = str(sentence_file.absolute())
         # process Task
         ExecuteTask(task).execute()
+        end_time = time.time()
 
         # Keep only REGULAR fragments (other can be HEAD/TAIL...)
         fragments = dict(  (f.identifier, f)
@@ -130,6 +134,10 @@ def align_audio(source: list, language: str, cachedir: Path = None) -> list:
         for ident, sentence in sentence_iter(speech):
             sentence['timeStart'] = str(fragments[ident].begin)
             sentence['timeEnd'] = str(fragments[ident].end)
+
+        debug = speech.setdefault('debug', {})
+        debug['align-duration'] = end_time - start_time
+        debug['align-sentence-count'] = len(fragments.values())
 
         # Cleanup generated files (keep cached audio)
         sentence_file.unlink()
