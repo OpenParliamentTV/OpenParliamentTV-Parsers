@@ -448,7 +448,7 @@ def get_parsed_proceedings_filename(source: str, output: str) -> Path:
 def parse_proceedings(source: str, output: str, uri: str, args):
     """Parse the proceedings file source and store the output in the output directory.
     """
-    data = list(parse_transcript(source, output, args))
+    data = list(parse_transcript(source, uri, args))
 
     if output == "-":
         # Dump to stdout
