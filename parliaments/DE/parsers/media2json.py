@@ -14,6 +14,7 @@ import os
 from pathlib import Path
 import re
 import sys
+from typing import Optional
 from urllib.parse import urlparse, parse_qs
 import yaml
 
@@ -34,7 +35,7 @@ FEED_AUTHOR_EMAIL = 'mail@bundestag.de'
 # Note that <faction> may be empty (in the case of Nationalhymne)
 title_data_re = re.compile('Redebeitrag\s+von\s+(?P<fullname>.+?)\s+\((?P<faction>.*?)\),?\s+am (?P<title_date>[\d.]+)\s+um\s+(?P<title_time>[\d:]+)\s+Uhr\s+\((?P<session_info>.+)\)')
 
-def extract_title_data(title: str) -> dict:
+def extract_title_data(title: str) -> Optional[dict]:
     """Extract structured data from title string.
 
     Return a dict with fields if data could be extracted, else None.
@@ -70,7 +71,7 @@ def apply_media_fixups(entry: dict, meeting_reference: int, fixups: dict):
         entry = fixup_execute(fix, entry)
     return entry
 
-def parse_media_data(data: dict, fixups: dict = None) -> dict:
+def parse_media_data(data: dict, fixups: dict = None) -> list[dict]:
     """Parse a media-js structure
 
     It is a dict with
@@ -86,10 +87,12 @@ def parse_media_data(data: dict, fixups: dict = None) -> dict:
 
     fixups is a dict of hardcoded fixups for wrong data.
     It is indexed first by session number (20023) then by media/proceeding
+
+    Returns a list of dict each holding information about an item.
     """
     if fixups is None:
         fixups = {}
-    output = []
+    output: list[dict] = []
     root = data['root']
     entries = data['entries']
 
@@ -139,7 +142,7 @@ def parse_media_data(data: dict, fixups: dict = None) -> dict:
         enddate = startdate + delta
         mediaid = os.path.basename(e['link'])
 
-        item = {
+        item: dict = {
             "parliament": "DE",
             "electoralPeriod": {
                 "number": period_number,
@@ -224,7 +227,7 @@ def parse_media_data(data: dict, fixups: dict = None) -> dict:
         item['agendaItem']['speechIndex'] = i + 1
     return output
 
-def parse_rss(filename: str, fixups: dict) -> dict:
+def parse_rss(filename: str, fixups: dict) -> list[dict]:
     """Parse a RSS file.
     """
     d = feedparser.parse(filename)
@@ -232,7 +235,7 @@ def parse_rss(filename: str, fixups: dict) -> dict:
     return parse_media_data({ 'root': d,
                               'entries': d.entries }, fixups)
 
-def parse_file(filename: str, fixups: dict) -> dict:
+def parse_file(filename: str, fixups: dict) -> list[dict]:
     """Allow to parse either .xml files for raw .json files
     """
     if filename.endswith('.xml'):
@@ -243,6 +246,7 @@ def parse_file(filename: str, fixups: dict) -> dict:
         return parse_media_data(raw_data, fixups)
     else:
         logger.error(f"Unable to determine file type for {filename}")
+        return []
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description="Parse Bundestag Media XML files or raw JSON files.")
