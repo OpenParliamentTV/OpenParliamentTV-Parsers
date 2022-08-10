@@ -84,7 +84,14 @@ if __name__ == "__main__":
         args.save_raw_data = True
         args.include_all_proceedings = True
     args.data_dir = Path(args.data_dir)
-    args.media_dir = args.data_dir / "media"
-    args.proceedings_dir = args.data_dir / "proceedings"
-    args.output = args.data_dir / "merged"
+    if (args.data_dir / "media").exists():
+        # Old-style directory layout (from OpenParliamentTV-Parsers)
+        args.media_dir = args.data_dir / "media"
+        args.proceedings_dir = args.data_dir / "proceedings"
+        args.output = args.data_dir / "merged"
+    else:
+        # New-style directory layout
+        args.media_dir = args.data_dir / "original" / "media"
+        args.proceedings_dir = args.data_dir / "original" / "proceedings"
+        args.output = args.data_dir / "processed"
     update_and_merge(args)
