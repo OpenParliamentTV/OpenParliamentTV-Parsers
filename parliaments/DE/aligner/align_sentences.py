@@ -137,7 +137,6 @@ def align_audio(source: list, language: str, cachedir: Path = None) -> list:
 
         debug = speech.setdefault('debug', {})
         debug['align-duration'] = end_time - start_time
-        debug['align-sentence-count'] = len(fragments.values())
 
         # Cleanup generated files (keep cached audio)
         sentence_file.unlink()
