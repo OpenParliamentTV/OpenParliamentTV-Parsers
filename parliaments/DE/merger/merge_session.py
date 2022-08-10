@@ -311,6 +311,9 @@ def merge_files_or_dirs(media: Path, proceedings: Path, args):
             if p is None:
                 logger.debug(f"Media {m.name} without proceeding. Copying file")
                 data = json.loads(m.read_text())
+            elif m is None:
+                logger.debug(f"Proceeding {p.name} without media. Copying file")
+                data = json.loads(p.read_text())
             else:
                 logger.debug(f"Merging {p.name} and {m.name}")
                 data = merge_files(p, m, args)
