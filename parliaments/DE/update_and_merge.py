@@ -5,13 +5,15 @@ import logging
 logger = logging.getLogger(__name__)
 
 import argparse
+import json
 from pathlib import Path
 import sys
 
+from aligner.align_sentences import align_audio
 from scraper.update_media import update_media_directory_period
 from scraper.fetch_proceedings import download_plenary_protocols
 from merger.merge_session import merge_files_or_dirs
-from parsers.proceedings2json import parse_proceedings
+from parsers.proceedings2json import parse_proceedings_directory
 
 def update_and_merge(args):
     # Download/parse new media data
@@ -28,7 +30,25 @@ def update_and_merge(args):
     parse_proceedings_directory(args.proceedings_dir, args)
 
     # Produce merged data - output dir is defined in args.output
-    merge_files_or_dirs(args.media_dir, args.proceedings_dir, args)
+    logger.info(f"Merging data from {args.media_dir} and {args.proceedings_dir}")
+
+    # Produce merged data - output dir is defined in args.output
+    merged_files = merge_files_or_dirs(args.media_dir, args.proceedings_dir, args)
+
+    # Time-align produced files
+    if args.align_sentences:
+        for source in merged_files:
+            out = align_audio(source, args.lang, args.cache_dir)
+            # Save into final file.
+            output_dir = Path(args.output)
+            if not output_dir.is_dir():
+                output_dir.mkdir(parents=True)
+            period = out[0]['electoralPeriod']['number']
+            meeting = out[0]['session']['number']
+            filename = f"{period}{str(meeting).rjust(3, '0')}-aligned.json"
+            output_file = output_dir / filename
+            with open(output_file, 'w') as f:
+                json.dump(out, f)
 
 if __name__ == "__main__":
 
@@ -67,6 +87,13 @@ if __name__ == "__main__":
     parser.add_argument("--complete", action="store_true",
                         default=False,
                         help="Add all necessary options for a full update (save raw data, include all proceedings)")
+    parser.add_argument("--cache-dir", type=str, default=None,
+                        help="Cache directory (for alignment)")
+    parser.add_argument("--align-sentences", action="store_true",
+                        default=False,
+                        help="Do the sentence alignment for downloaded sentences")
+    parser.add_argument("--lang", type=str, default="deu",
+                        help="Language")
 
     args = parser.parse_args()
     if args.data_dir is None or args.from_period is None:
@@ -91,4 +118,8 @@ if __name__ == "__main__":
         args.media_dir = args.data_dir / "original" / "media"
         args.proceedings_dir = args.data_dir / "original" / "proceedings"
         args.output = args.data_dir / "processed"
+    if args.cache_dir is None:
+        args.cache_dir = args.data_dir / "cache"
+    else:
+        args.cache_dir = Path(args.cache_dir)
     update_and_merge(args)
