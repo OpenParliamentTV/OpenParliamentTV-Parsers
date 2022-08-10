@@ -14,6 +14,7 @@ import json
 from pathlib import Path
 import re
 import sys
+from typing import Optional, Tuple, Iterable
 import unicodedata
 
 def remove_accents(input_str):
@@ -55,6 +56,10 @@ def speaker_cleanup(item):
 def get_item_key(item):
     speaker = speaker_cleanup(item)
     title = item['agendaItem']['officialTitle'].strip()
+
+    # Remove non-breaking spaces (interim - this is done in parsers/common)
+    title = re.sub(r'\xc2\xa0', ' ', title)
+
     # Remove trailing .<number>
     title = re.sub('\.\d+$', '', title)
     # For 20024 media files:
@@ -177,6 +182,7 @@ def matching_items(proceedings, media, options):
 
     # Determine all key-based matching items
     output = [ (procdict.get(m['key']), m) for m in media ]
+    # FIXME: add a "matching: primary-key" info to indicate source of matching
 
     if options and (options.second_stage_matching or options.advanced_rematch):
         # Using matching items as landmarks, try to align remaining
@@ -243,14 +249,14 @@ def merge_data(proceedings, media, options):
         for (p, m) in matching_items(proceedings, media, options)
     ]
 
-def matching_proceeding(mediafile: Path, proceedings_dir: Path) -> Path:
+def matching_proceeding(mediafile: Path, proceedings_dir: Path) -> Optional[Path]:
     p = proceedings_dir / mediafile.name.replace('media', 'data')
     if p.exists():
         return p
     else:
         return None
 
-def build_pairs(proceedings_dir, media_dir):
+def build_pairs(proceedings_dir, media_dir) -> Iterable[Tuple[Optional[Path], Optional[Path]]]:
     for m in sorted(media_dir.glob('[0-9]*.json')):
         # Try to find the matching proceedings file
         p = matching_proceeding(m, proceedings_dir)
@@ -265,6 +271,10 @@ def merge_files(proceedings_file, media_file, options):
     return merge_data(proceedings, media, options)
 
 def merge_files_or_dirs(media: Path, proceedings: Path, args):
+    """Merge files or files from directory
+
+    Returns a list of produced merged files.
+    """
     pairs = [ (proceedings, media) ]
     if media.is_dir() and proceedings.is_dir():
         # Directory version. Build the pairs data structure
