@@ -270,7 +270,7 @@ def merge_files(proceedings_file, media_file, options):
     # Order media, according to dateStart
     return merge_data(proceedings, media, options)
 
-def merge_files_or_dirs(media: Path, proceedings: Path, args):
+def merge_files_or_dirs(media: Path, proceedings: Path, args) -> list[Path]:
     """Merge files or files from directory
 
     Returns a list of produced merged files.
@@ -278,12 +278,13 @@ def merge_files_or_dirs(media: Path, proceedings: Path, args):
     pairs = [ (proceedings, media) ]
     if media.is_dir() and proceedings.is_dir():
         # Directory version. Build the pairs data structure
-        pairs = build_pairs(proceedings, media)
+        pairs = list(build_pairs(proceedings, media))
     elif media.is_file() and proceedings.is_dir():
         # Try to find the matching proceedings given a media file.
         pairs = [ (matching_proceeding(media, proceedings), media) ]
     elif media.is_dir() and proceedings.is_file():
         logger.error("Cannot merge data without a media file")
+        return []
         sys.exit(1)
 
     # Use getattr to allow undefined args.unmatched_count/check
@@ -306,7 +307,9 @@ def merge_files_or_dirs(media: Path, proceedings: Path, args):
             print(f"* Difference between {p.name} and {m.name}")
             diff_files(p, m, args)
             print("\n")
+        return []
     else:
+        output = []
         for (p, m) in pairs:
             if p is None:
                 logger.debug(f"Media {m.name} without proceeding. Copying file")
@@ -335,10 +338,12 @@ def merge_files_or_dirs(media: Path, proceedings: Path, args):
                     logger.debug(f"Saving into {filename}")
                     with open(output_file, 'w') as f:
                         json.dump(data, f, indent=2, ensure_ascii=False)
+                    output.append(output_file)
                 else:
                     logger.debug(f"{filename} seems up-to-date")
             else:
                 json.dump(data, sys.stdout, indent=2, ensure_ascii=False)
+        return output
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Merge proceedings and media file.")
