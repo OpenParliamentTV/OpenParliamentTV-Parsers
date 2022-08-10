@@ -24,11 +24,8 @@ def update_and_merge(args):
     # Download new proceedings data
     created_proceedings = download_plenary_protocols(args.proceedings_dir, False, args.from_period)
 
-    # Parse all proceedings that were created (FIXME: maybe we should
-    # rather parse all outdated proceedings, but then we have to get
-    # the url information somehow)
-    for (filename, url) in created_proceedings:
-        parse_proceedings(str(filename), str(args.proceedings_dir), str(url), args)
+    # Update all proceedings that need to be updated
+    parse_proceedings_directory(args.proceedings_dir, args)
 
     # Produce merged data - output dir is defined in args.output
     merge_files_or_dirs(args.media_dir, args.proceedings_dir, args)
